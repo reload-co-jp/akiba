@@ -9,3 +9,35 @@
   color: #f0f0f0;
   color-scheme: dark;
 }
+
+.article-content h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 1.5rem 0 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #444;
+}
+
+.article-content p {
+  color: #ccc;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.article-content ul,
+.article-content ol {
+  color: #ccc;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.article-content li {
+  margin-bottom: 0.25rem;
+}
+
+.article-content strong {
+  color: #fff;
+}
+

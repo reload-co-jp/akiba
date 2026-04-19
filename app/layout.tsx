@@ -1,9 +1,18 @@
+import Link from "next/link"
 import { Title } from "components/elements/layout"
 import "./reset.css"
 
 export const metadata = {
-  title: "Page title",
-  description: "Page description",
+  title: {
+    default: "アキバLive",
+    template: "%s | アキバLive",
+  },
+  description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+  openGraph: {
+    siteName: "アキバLive",
+    locale: "ja_JP",
+    type: "website",
+  },
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -18,7 +27,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             position: "relative",
           }}
         >
-          <Title>Page title</Title>
+          <Link href="/" style={{ textDecoration: "none" }}>
+            <Title>アキバLive</Title>
+          </Link>
         </header>
         <main
           style={{
@@ -37,7 +48,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             padding: "1rem",
           }}
         >
-          <p>&copy; My organization</p>
+          <p>&copy; アキバLive</p>
         </footer>
       </body>
     </html>
