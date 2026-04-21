@@ -53,7 +53,17 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             padding: "1rem",
           }}
         >
-          <p>&copy; アキバLive</p>
+          <p>
+            &copy; アキバLive /{" "}
+            <a
+              href="https://reload.co.jp"
+              rel="noopener noreferrer"
+              target="_blank"
+              style={{ color: "#c81e1e", textDecoration: "none" }}
+            >
+              株式会社リロード
+            </a>
+          </p>
         </footer>
       </body>
     </html>
