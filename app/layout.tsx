@@ -1,8 +1,10 @@
 import Link from "next/link"
 import { Title } from "components/elements/layout"
+import { siteUrl } from "lib/site"
 import "./reset.css"
 
 export const metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "アキバLive",
     template: "%s | アキバLive",
@@ -21,19 +23,20 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <header
           style={{
-            backgroundColor: "#333",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fff",
+            borderBottom: "1px solid #e5e7eb",
+            boxShadow: "0 2px 10px rgba(17, 24, 39, 0.04)",
             padding: ".5rem 1rem",
             position: "relative",
           }}
         >
           <Link href="/" style={{ textDecoration: "none" }}>
-            <Title>アキバLive</Title>
+            <Title style={{ color: "#111827" }}>アキバLive</Title>
           </Link>
         </header>
         <main
           style={{
-            background: "#222",
+            background: "#f6f7f9",
             minHeight: "calc(100dvh - 5.625rem)",
             padding: "1rem",
           }}
@@ -42,8 +45,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </main>
         <footer
           style={{
-            backgroundColor: "#333",
-            boxShadow: "0 -4px 6px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fff",
+            borderTop: "1px solid #e5e7eb",
+            boxShadow: "0 -2px 10px rgba(17, 24, 39, 0.04)",
+            color: "#4b5563",
             fontSize: ".75rem",
             padding: "1rem",
           }}

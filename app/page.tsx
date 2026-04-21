@@ -8,58 +8,53 @@ export const metadata = {
 
 const Page = () => {
   const articles = getAllArticles()
+  const latestArticle = articles[0]
 
   return (
-    <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-      <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "1rem" }}>
-        {articles.map((article) => (
-          <li key={article.id}>
-            <Link
-              href={`/${article.slug}/`}
-              style={{ textDecoration: "none", display: "block" }}
-            >
-              <article
-                style={{
-                  backgroundColor: "#333",
-                  borderRadius: "8px",
-                  padding: "1rem",
-                  transition: "background-color 0.2s",
-                }}
-              >
-                <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: ".5rem" }}>
-                  {article.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      style={{
-                        backgroundColor: "#e53e3e",
-                        color: "#fff",
-                        fontSize: ".6875rem",
-                        padding: ".125rem .5rem",
-                        borderRadius: "4px",
-                      }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <h2 style={{ fontSize: "1rem", fontWeight: "bold", color: "#fff", margin: "0 0 .5rem" }}>
-                  {article.title}
-                </h2>
-                <p style={{ fontSize: ".875rem", color: "#aaa", margin: "0 0 .75rem", lineHeight: "1.6" }}>
-                  {article.summary}
-                </p>
-                <time
-                  dateTime={article.publishedAt}
-                  style={{ fontSize: ".75rem", color: "#888" }}
-                >
-                  {article.publishedAt}
-                </time>
-              </article>
+    <>
+      <section className="home-hero">
+        <div className="home-hero__content">
+          <p className="home-hero__kicker">Akihabara Entertainment News</p>
+          <h1 className="home-hero__title">アキバLive</h1>
+          <p className="home-hero__lead">
+            秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けます。
+          </p>
+          {latestArticle && (
+            <Link className="home-hero__link" href={`/${latestArticle.slug}/`}>
+              最新記事を読む
             </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+          )}
+        </div>
+      </section>
+
+      <section className="home-articles" aria-labelledby="home-articles-title">
+        <h2 id="home-articles-title" className="home-articles__title">
+          新着記事
+        </h2>
+        <ul className="article-list">
+          {articles.map((article) => (
+            <li key={article.id}>
+              <Link href={`/${article.slug}/`} className="article-card-link">
+                <article className="article-card">
+                  <div className="article-card__tags">
+                    {article.tags.map((tag) => (
+                      <span key={tag} className="article-card__tag">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <h3 className="article-card__title">{article.title}</h3>
+                  <p className="article-card__summary">{article.summary}</p>
+                  <time className="article-card__date" dateTime={article.publishedAt}>
+                    {article.publishedAt}
+                  </time>
+                </article>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
   )
 }
 

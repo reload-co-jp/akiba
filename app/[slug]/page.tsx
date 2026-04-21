@@ -52,13 +52,13 @@ const Page = async ({ params }: Props) => {
         ))}
       </div>
 
-      <h1 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#fff", margin: "0 0 .5rem", lineHeight: "1.4" }}>
+      <h1 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#111827", margin: "0 0 .5rem", lineHeight: "1.4" }}>
         {article.title}
       </h1>
 
       <time
         dateTime={article.publishedAt}
-        style={{ fontSize: ".75rem", color: "#888", display: "block", marginBottom: "1.5rem" }}
+        style={{ fontSize: ".75rem", color: "#6b7280", display: "block", marginBottom: "1.5rem" }}
       >
         {article.publishedAt}
       </time>
@@ -66,7 +66,8 @@ const Page = async ({ params }: Props) => {
       {article.event && (
         <div
           style={{
-            backgroundColor: "#333",
+            backgroundColor: "#fff",
+            border: "1px solid #e5e7eb",
             borderRadius: "8px",
             padding: "1rem",
             marginBottom: "1.5rem",
@@ -77,14 +78,14 @@ const Page = async ({ params }: Props) => {
             イベント情報
           </h2>
           <dl style={{ margin: 0, display: "grid", gridTemplateColumns: "auto 1fr", gap: ".25rem .75rem" }}>
-            <dt style={{ color: "#888" }}>会場</dt>
-            <dd style={{ color: "#fff", margin: 0 }}>{article.event.venue}</dd>
-            <dt style={{ color: "#888" }}>期間</dt>
-            <dd style={{ color: "#fff", margin: 0 }}>{article.event.startDate} 〜 {article.event.endDate}</dd>
-            <dt style={{ color: "#888" }}>料金</dt>
-            <dd style={{ color: "#fff", margin: 0 }}>{article.event.price}</dd>
-            <dt style={{ color: "#888" }}>予約</dt>
-            <dd style={{ color: "#fff", margin: 0 }}>{article.event.reservation ? "要予約" : "不要"}</dd>
+            <dt style={{ color: "#6b7280" }}>会場</dt>
+            <dd style={{ color: "#111827", margin: 0 }}>{article.event.venue}</dd>
+            <dt style={{ color: "#6b7280" }}>期間</dt>
+            <dd style={{ color: "#111827", margin: 0 }}>{article.event.startDate} 〜 {article.event.endDate}</dd>
+            <dt style={{ color: "#6b7280" }}>料金</dt>
+            <dd style={{ color: "#111827", margin: 0 }}>{article.event.price}</dd>
+            <dt style={{ color: "#6b7280" }}>予約</dt>
+            <dd style={{ color: "#111827", margin: 0 }}>{article.event.reservation ? "要予約" : "不要"}</dd>
           </dl>
         </div>
       )}
