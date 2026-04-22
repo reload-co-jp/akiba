@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { Title } from "components/elements/layout"
 import { siteUrl } from "lib/site"
 import "./reset.css"
 
@@ -24,7 +23,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <header className="site-header">
           <div className="site-header__inner">
             <Link href="/" className="site-header__brand">
-              <Title>アキバLive</Title>
+              <img src="/images/logo.svg" alt="アキバLive" width="195" height="48" />
             </Link>
             <nav className="site-header__nav" aria-label="主要ナビゲーション">
               <a href="/#home-articles">新着記事</a>
