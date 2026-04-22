@@ -20,6 +20,7 @@ export const generateMetadata = async ({ params }: Props) => {
     openGraph: {
       title: article.title,
       description: article.summary,
+      images: article.image ? [article.image.src] : undefined,
       type: "article",
       publishedTime: article.publishedAt,
     },
@@ -62,6 +63,24 @@ const Page = async ({ params }: Props) => {
       >
         {article.publishedAt}
       </time>
+
+      {article.image && (
+        <figure className="article-hero-image">
+          <img src={article.image.src} alt={article.image.alt} />
+          {article.image.sourceLabel && (
+            <figcaption>
+              画像:{" "}
+              {article.image.sourceUrl ? (
+                <a href={article.image.sourceUrl} rel="noopener noreferrer" target="_blank">
+                  {article.image.sourceLabel}
+                </a>
+              ) : (
+                article.image.sourceLabel
+              )}
+            </figcaption>
+          )}
+        </figure>
+      )}
 
       {article.event && (
         <div

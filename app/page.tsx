@@ -48,6 +48,13 @@ const Page = () => {
             <li key={article.id}>
               <Link href={`/${article.slug}/`} className="article-card-link">
                 <article className="article-card">
+                  {article.image && (
+                    <img
+                      src={article.image.src}
+                      alt={article.image.alt}
+                      className="article-card__image"
+                    />
+                  )}
                   <div className="article-card__tags">
                     {article.tags.map((tag) => (
                       <span key={tag} className="article-card__tag">

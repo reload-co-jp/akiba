@@ -8,6 +8,12 @@ export type Article = {
   content: string
   publishedAt: string
   tags: string[]
+  image?: {
+    src: string
+    alt: string
+    sourceLabel?: string
+    sourceUrl?: string
+  }
   sources?: {
     label: string
     url?: string
