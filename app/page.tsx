@@ -9,15 +9,16 @@ export const metadata = {
 const Page = () => {
   const articles = getAllArticles()
   const latestArticle = articles[0]
+  const tags = [...new Set(articles.flatMap((article) => article.tags))]
 
   return (
     <>
       <section className="home-hero">
         <div className="home-hero__content">
-          <p className="home-hero__kicker">Akihabara Entertainment News</p>
+          <p className="home-hero__kicker">Akihabara journal</p>
           <h1 className="home-hero__title">アキバLive</h1>
           <p className="home-hero__lead">
-            秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けます。
+            懐かしさと熱気が交差する街で、今日出会えるエンタメの気配を集めます。
           </p>
           {latestArticle && (
             <Link className="home-hero__link" href={`/${latestArticle.slug}/`}>
@@ -27,10 +28,21 @@ const Page = () => {
         </div>
       </section>
 
+      <section className="home-tags" aria-label="記事カテゴリ">
+        {tags.map((tag) => (
+          <span key={tag} className="home-tags__item">
+            {tag}
+          </span>
+        ))}
+      </section>
+
       <section className="home-articles" aria-labelledby="home-articles-title">
-        <h2 id="home-articles-title" className="home-articles__title">
-          新着記事
-        </h2>
+        <div className="home-articles__header">
+          <p className="home-articles__kicker">News diary</p>
+          <h2 id="home-articles-title" className="home-articles__title">
+            新着記事
+          </h2>
+        </div>
         <ul className="article-list">
           {articles.map((article) => (
             <li key={article.id}>

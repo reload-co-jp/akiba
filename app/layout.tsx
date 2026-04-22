@@ -21,49 +21,31 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja">
       <body>
-        <header
-          style={{
-            backgroundColor: "#fff",
-            borderBottom: "1px solid #e5e7eb",
-            boxShadow: "0 2px 10px rgba(17, 24, 39, 0.04)",
-            padding: ".5rem 1rem",
-            position: "relative",
-          }}
-        >
-          <Link href="/" style={{ textDecoration: "none" }}>
-            <Title style={{ color: "#111827" }}>アキバLive</Title>
-          </Link>
+        <header className="site-header">
+          <div className="site-header__inner">
+            <Link href="/" className="site-header__brand">
+              <Title>アキバLive</Title>
+            </Link>
+            <nav className="site-header__nav" aria-label="主要ナビゲーション">
+              <a href="/#home-articles">新着記事</a>
+              <a href="https://reload.co.jp" rel="noopener noreferrer" target="_blank">
+                運営会社
+              </a>
+            </nav>
+          </div>
         </header>
-        <main
-          style={{
-            background: "#f6f7f9",
-            minHeight: "calc(100dvh - 5.625rem)",
-            padding: "1rem",
-          }}
-        >
+        <main className="site-main">
           {children}
         </main>
-        <footer
-          style={{
-            backgroundColor: "#fff",
-            borderTop: "1px solid #e5e7eb",
-            boxShadow: "0 -2px 10px rgba(17, 24, 39, 0.04)",
-            color: "#4b5563",
-            fontSize: ".75rem",
-            padding: "1rem",
-          }}
-        >
-          <p>
-            &copy; アキバLive /{" "}
-            <a
-              href="https://reload.co.jp"
-              rel="noopener noreferrer"
-              target="_blank"
-              style={{ color: "#c81e1e", textDecoration: "none" }}
-            >
-              株式会社リロード
-            </a>
-          </p>
+        <footer className="site-footer">
+          <div className="site-footer__inner">
+            <p>
+              &copy; アキバLive /{" "}
+              <a href="https://reload.co.jp" rel="noopener noreferrer" target="_blank">
+                株式会社リロード
+              </a>
+            </p>
+          </div>
         </footer>
       </body>
     </html>

@@ -63,6 +63,12 @@
   "content": "Markdown本文",
   "publishedAt": "2026-04-19",
   "tags": ["コラボ"],
+  "sources": [
+    {
+      "label": "公式サイト",
+      "url": "https://example.com"
+    }
+  ],
   "event": {
     "venue": "アニメイト秋葉原",
     "startDate": "2026-04-20",

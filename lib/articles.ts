@@ -8,6 +8,10 @@ export type Article = {
   content: string
   publishedAt: string
   tags: string[]
+  sources?: {
+    label: string
+    url?: string
+  }[]
   event?: {
     venue: string
     startDate: string

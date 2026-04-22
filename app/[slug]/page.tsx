@@ -52,13 +52,13 @@ const Page = async ({ params }: Props) => {
         ))}
       </div>
 
-      <h1 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#111827", margin: "0 0 .5rem", lineHeight: "1.4" }}>
+      <h1 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#24312f", margin: "0 0 .5rem", lineHeight: "1.4" }}>
         {article.title}
       </h1>
 
       <time
         dateTime={article.publishedAt}
-        style={{ fontSize: ".75rem", color: "#6b7280", display: "block", marginBottom: "1.5rem" }}
+        style={{ fontSize: ".75rem", color: "#8a6f63", display: "block", marginBottom: "1.5rem" }}
       >
         {article.publishedAt}
       </time>
@@ -66,26 +66,26 @@ const Page = async ({ params }: Props) => {
       {article.event && (
         <div
           style={{
-            backgroundColor: "#fff",
-            border: "1px solid #e5e7eb",
+            backgroundColor: "#fffdf8",
+            border: "1px solid rgba(96, 120, 111, 0.14)",
             borderRadius: "8px",
             padding: "1rem",
             marginBottom: "1.5rem",
             fontSize: ".875rem",
           }}
         >
-          <h2 style={{ fontSize: ".875rem", fontWeight: "bold", color: "#e53e3e", margin: "0 0 .75rem" }}>
+          <h2 style={{ fontSize: ".875rem", fontWeight: "bold", color: "#b94a3a", margin: "0 0 .75rem" }}>
             イベント情報
           </h2>
           <dl style={{ margin: 0, display: "grid", gridTemplateColumns: "auto 1fr", gap: ".25rem .75rem" }}>
-            <dt style={{ color: "#6b7280" }}>会場</dt>
-            <dd style={{ color: "#111827", margin: 0 }}>{article.event.venue}</dd>
-            <dt style={{ color: "#6b7280" }}>期間</dt>
-            <dd style={{ color: "#111827", margin: 0 }}>{article.event.startDate} 〜 {article.event.endDate}</dd>
-            <dt style={{ color: "#6b7280" }}>料金</dt>
-            <dd style={{ color: "#111827", margin: 0 }}>{article.event.price}</dd>
-            <dt style={{ color: "#6b7280" }}>予約</dt>
-            <dd style={{ color: "#111827", margin: 0 }}>{article.event.reservation ? "要予約" : "不要"}</dd>
+            <dt style={{ color: "#8a6f63" }}>会場</dt>
+            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.venue}</dd>
+            <dt style={{ color: "#8a6f63" }}>期間</dt>
+            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.startDate} 〜 {article.event.endDate}</dd>
+            <dt style={{ color: "#8a6f63" }}>料金</dt>
+            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.price}</dd>
+            <dt style={{ color: "#8a6f63" }}>予約</dt>
+            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.reservation ? "要予約" : "不要"}</dd>
           </dl>
         </div>
       )}
@@ -94,6 +94,44 @@ const Page = async ({ params }: Props) => {
         className="article-content"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
+
+      {article.sources && article.sources.length > 0 && (
+        <section
+          aria-labelledby="article-sources-title"
+          style={{
+            backgroundColor: "#fffdf8",
+            border: "1px solid rgba(96, 120, 111, 0.14)",
+            borderRadius: "8px",
+            marginTop: "2rem",
+            padding: "1rem",
+          }}
+        >
+          <h2
+            id="article-sources-title"
+            style={{ fontSize: ".875rem", fontWeight: "bold", color: "#b94a3a", margin: "0 0 .75rem" }}
+          >
+            情報ソース
+          </h2>
+          <ul style={{ color: "#3f5851", fontSize: ".875rem", lineHeight: "1.7", margin: 0, paddingLeft: "1.25rem" }}>
+            {article.sources.map((source) => (
+              <li key={`${source.label}-${source.url ?? "text"}`}>
+                {source.url ? (
+                  <a
+                    href={source.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    style={{ color: "#b94a3a" }}
+                  >
+                    {source.label}
+                  </a>
+                ) : (
+                  source.label
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </article>
   )
 }
