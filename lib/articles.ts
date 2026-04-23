@@ -41,3 +41,9 @@ export const getArticleBySlug = (slug: string): Article | undefined => {
 export const getAllSlugs = (): string[] => {
   return articlesData.map((a) => a.slug)
 }
+
+export const getOngoingEvents = (today: string): Article[] => {
+  return getAllArticles().filter(
+    (a) => a.event && a.event.startDate <= today && today <= a.event.endDate,
+  )
+}
