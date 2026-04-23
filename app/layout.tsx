@@ -1,6 +1,10 @@
 import Link from "next/link"
+import Script from "next/script"
 import { siteUrl } from "lib/site"
 import "./reset.css"
+
+const googleAnalyticsId = "G-ZJM8E54KXG"
+const isProduction = process.env.NODE_ENV === "production"
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -20,6 +24,22 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja">
       <body>
+        {isProduction && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${googleAnalyticsId}');
+              `}
+            </Script>
+          </>
+        )}
         <header className="site-header">
           <div className="site-header__inner">
             <Link href="/" className="site-header__brand">
