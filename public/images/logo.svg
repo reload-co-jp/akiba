@@ -1,20 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" role="img" aria-labelledby="title desc">
   <title id="title">アキバLive</title>
-  <desc id="desc">秋葉原の街並みとライブ感を表したアキバLiveのロゴ</desc>
-  <rect width="520" height="128" rx="28" fill="#fffdf8"/>
-  <path d="M34 88 58 38h15l24 50H79l-4-9H56l-4 9H34Zm27-21h9l-4.5-11-4.5 11Z" fill="#24312f"/>
-  <path d="M105 38h16v36h19v14h-35V38Z" fill="#24312f"/>
-  <path d="M151 39h15v49h-15V39Zm0-13h15v9h-15v-9Z" fill="#b94a3a"/>
-  <path d="M172 51h16l9 22 9-22h16l-20 37h-10l-20-37Z" fill="#24312f"/>
-  <path d="M242 89c-14 0-24-8-24-20 0-11 9-20 22-20 14 0 22 9 22 22v4h-29c2 4 6 6 12 6 4 0 8-1 13-4l4 9c-6 3-12 3-20 3Zm-9-22h15c-1-4-3-7-7-7s-7 3-8 7Z" fill="#24312f"/>
-  <path d="M288 88V38h14l17 24 17-24h14v50h-15V62l-12 17h-8l-12-17v26h-15Z" fill="#24312f"/>
-  <path d="M371 89c-12 0-21-8-21-20s9-20 21-20 21 8 21 20-9 20-21 20Zm0-12c4 0 7-3 7-8s-3-8-7-8-7 3-7 8 3 8 7 8Z" fill="#24312f"/>
-  <path d="M397 88V51h14v5c3-4 7-6 12-6v14c-7-1-12 2-12 9v15h-14Z" fill="#24312f"/>
-  <path d="M449 89c-14 0-24-8-24-20 0-11 9-20 22-20 14 0 22 9 22 22v4h-29c2 4 6 6 12 6 4 0 8-1 13-4l4 9c-6 3-12 3-20 3Zm-9-22h15c-1-4-3-7-7-7s-7 3-8 7Z" fill="#24312f"/>
-  <path d="M40 101h140M212 101h86M333 101h107" stroke="#d8cab8" stroke-width="4" stroke-linecap="round"/>
-  <path d="M190 101c0-11 9-20 20-20s20 9 20 20" stroke="#b94a3a" stroke-width="5" stroke-linecap="round" fill="none"/>
-  <path d="M196 82V58h8v18l12-10 12 10V58h8v24" stroke="#3f5851" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="65" cy="27" r="5" fill="#b94a3a"/>
-  <circle cx="156" cy="27" r="5" fill="#3f5851"/>
-  <circle cx="478" cy="69" r="5" fill="#b94a3a"/>
+  <desc id="desc">秋葉原の街とライブ感を表す、アキバLiveの横長ロゴ</desc>
+  <rect width="520" height="128" rx="26" fill="#fffdf8"/>
+  <g transform="translate(32 26)">
+    <rect x="0" y="22" width="66" height="56" rx="10" fill="#24312f"/>
+    <path d="M12 22V9h13v13M41 22V0h13v22" stroke="#24312f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="13" y="34" width="10" height="10" rx="2" fill="#f4d9c9"/>
+    <rect x="31" y="34" width="10" height="10" rx="2" fill="#f4d9c9"/>
+    <rect x="49" y="34" width="10" height="10" rx="2" fill="#f4d9c9"/>
+    <rect x="13" y="53" width="10" height="10" rx="2" fill="#f4d9c9"/>
+    <rect x="31" y="53" width="10" height="10" rx="2" fill="#b94a3a"/>
+    <rect x="49" y="53" width="10" height="10" rx="2" fill="#f4d9c9"/>
+    <path d="M17 83h34" stroke="#b94a3a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M76 30c10 8 15 19 15 33s-5 25-15 33" stroke="#b94a3a" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M88 18c14 11 22 27 22 45s-8 34-22 45" stroke="#3f5851" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="168" y="74" fill="#24312f" font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif" font-size="46" font-weight="800" letter-spacing="0">アキバ</text>
+  <text x="322" y="74" fill="#b94a3a" font-family="Lato, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="0">Live</text>
+  <text x="171" y="101" fill="#5f6f69" font-family="Lato, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">AKIHABARA EVENT JOURNAL</text>
+  <path d="M168 88h285" stroke="#d8cab8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="459" cy="88" r="5" fill="#b94a3a"/>
 </svg>
