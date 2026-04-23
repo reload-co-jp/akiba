@@ -1,0 +1,4 @@
+interface:
+  display_name: "Event Article Writer"
+  short_description: "Create and update event articles for the Akiba site"
+  default_prompt: "Use $event-article-writer to add or refresh an Akiba event article from source pages."
