@@ -21,7 +21,7 @@ const sitemap = (): MetadataRoute.Sitemap => {
       priority: 1,
     },
     ...articles.map((article) => ({
-      url: absoluteUrl(`/${article.slug}/`),
+      url: absoluteUrl(`/articles/${article.slug}/`),
       lastModified: new Date(article.publishedAt),
       changeFrequency: "weekly" as const,
       priority: 0.8,

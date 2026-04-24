@@ -21,7 +21,7 @@ const Page = () => {
             懐かしさと熱気が交差する街で、今日出会えるエンタメの気配を集めます。
           </p>
           {latestArticle && (
-            <Link className="home-hero__link" href={`/${latestArticle.slug}/`}>
+            <Link className="home-hero__link" href={`/articles/${latestArticle.slug}/`}>
               最新記事を読む
             </Link>
           )}
@@ -46,7 +46,7 @@ const Page = () => {
         <ul className="article-list">
           {articles.map((article) => (
             <li key={article.id}>
-              <Link href={`/${article.slug}/`} className="article-card-link">
+              <Link href={`/articles/${article.slug}/`} className="article-card-link">
                 <article className="article-card">
                   {article.image && (
                     <img

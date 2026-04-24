@@ -25,7 +25,7 @@ const Page = () => {
         <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "1rem" }}>
           {events.map((article) => (
             <li key={article.id}>
-              <Link href={`/${article.slug}/`} style={{ textDecoration: "none", color: "inherit" }}>
+              <Link href={`/articles/${article.slug}/`} style={{ textDecoration: "none", color: "inherit" }}>
                 <article
                   style={{
                     backgroundColor: "#fffdf8",

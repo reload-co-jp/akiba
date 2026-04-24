@@ -370,3 +370,45 @@ body {
 .article-content strong {
   color: #24312f;
 }
+
+.breadcrumb {
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumb__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  list-style: none;
+  padding: 0;
+}
+
+.breadcrumb__item {
+  align-items: center;
+  color: #8a6f63;
+  display: flex;
+  font-size: .75rem;
+  gap: .25rem;
+}
+
+.breadcrumb__item + .breadcrumb__item::before {
+  color: #b8a89f;
+  content: "›";
+}
+
+.breadcrumb__item a {
+  color: #b94a3a;
+  text-decoration: none;
+}
+
+.breadcrumb__item a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb__item--current {
+  color: #5f6f69;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 40ch;
+}
