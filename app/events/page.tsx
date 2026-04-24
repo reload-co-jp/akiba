@@ -4,6 +4,13 @@ import { getOngoingEvents } from "lib/articles"
 export const metadata = {
   title: "開催中のイベント",
   description: "秋葉原で現在開催中のイベント一覧",
+  alternates: { canonical: "/events/" },
+  openGraph: {
+    title: "開催中のイベント | アキバLive",
+    description: "秋葉原で現在開催中のイベント一覧",
+    url: "/events/",
+    type: "website",
+  },
 }
 
 const Page = () => {

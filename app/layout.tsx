@@ -17,6 +17,11 @@ export const metadata = {
     siteName: "アキバLive",
     locale: "ja_JP",
     type: "website",
+    images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@akiba_live",
   },
 }
 
@@ -46,7 +51,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               <img src="/images/logo.svg" alt="アキバLive" width="195" height="48" />
             </Link>
             <nav className="site-header__nav" aria-label="主要ナビゲーション">
-              <a href="/#home-articles">新着記事</a>
+              <Link href="/articles/">新着記事</Link>
               <Link href="/events/">開催中</Link>
               <a href="https://reload.co.jp" rel="noopener noreferrer" target="_blank">
                 運営会社

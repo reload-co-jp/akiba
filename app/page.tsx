@@ -4,11 +4,19 @@ import { getAllArticles } from "lib/articles"
 export const metadata = {
   title: "アキバLive",
   description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "アキバLive",
+    description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+    url: "/",
+    type: "website",
+  },
 }
 
 const Page = () => {
   const articles = getAllArticles()
   const latestArticle = articles[0]
+  const recentArticles = articles.slice(0, 12)
   const tags = [...new Set(articles.flatMap((article) => article.tags))]
 
   return (
@@ -44,7 +52,7 @@ const Page = () => {
           </h2>
         </div>
         <ul className="article-list">
-          {articles.map((article) => (
+          {recentArticles.map((article) => (
             <li key={article.id}>
               <Link href={`/articles/${article.slug}/`} className="article-card-link">
                 <article className="article-card">
@@ -72,6 +80,13 @@ const Page = () => {
             </li>
           ))}
         </ul>
+        {articles.length > 12 && (
+          <div style={{ textAlign: "center", marginTop: "2rem" }}>
+            <Link href="/articles/" className="home-articles__more">
+              記事一覧をみる
+            </Link>
+          </div>
+        )}
       </section>
     </>
   )

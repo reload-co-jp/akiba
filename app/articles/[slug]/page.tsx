@@ -2,6 +2,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { marked } from "marked"
 import { getAllSlugs, getArticleBySlug } from "lib/articles"
+import { absoluteUrl } from "lib/site"
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -18,12 +19,23 @@ export const generateMetadata = async ({ params }: Props) => {
   return {
     title: article.title,
     description: article.summary,
+    alternates: { canonical: `/articles/${slug}/` },
     openGraph: {
       title: article.title,
       description: article.summary,
-      images: article.image ? [article.image.src] : undefined,
+      url: `/articles/${slug}/`,
+      images: article.image
+        ? [{ url: article.image.src, alt: article.image.alt }]
+        : undefined,
       type: "article",
       publishedTime: article.publishedAt,
+      tags: article.tags,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.summary,
+      images: article.image ? [article.image.src] : undefined,
     },
   }
 }
@@ -35,7 +47,29 @@ const Page = async ({ params }: Props) => {
 
   const contentHtml = await marked(article.content)
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: article.title,
+    description: article.summary,
+    datePublished: article.publishedAt,
+    url: absoluteUrl(`/articles/${slug}/`),
+    publisher: {
+      "@type": "Organization",
+      name: "アキバLive",
+      url: absoluteUrl("/"),
+    },
+    ...(article.image && {
+      image: { "@type": "ImageObject", url: absoluteUrl(article.image.src) },
+    }),
+  }
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <article style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}>
       <nav aria-label="パンくずリスト" className="breadcrumb">
         <ol className="breadcrumb__list">
@@ -226,6 +260,7 @@ const Page = async ({ params }: Props) => {
         </section>
       )}
     </article>
+    </>
   )
 }
 
