@@ -11,8 +11,7 @@
 }
 
 body {
-  background:
-    linear-gradient(180deg, #fbf7ef 0%, #f6efe4 100%);
+  background: linear-gradient(180deg, #fbf7ef 0%, #f6efe4 100%);
   min-height: 100dvh;
 }
 
@@ -90,8 +89,17 @@ body {
 .home-hero {
   align-items: flex-end;
   background:
-    linear-gradient(90deg, rgba(251, 247, 239, 0.96), rgba(251, 247, 239, 0.68) 52%, rgba(251, 247, 239, 0.1)),
-    linear-gradient(0deg, rgba(251, 247, 239, 0.98), rgba(251, 247, 239, 0) 46%),
+    linear-gradient(
+      90deg,
+      rgba(251, 247, 239, 0.96),
+      rgba(251, 247, 239, 0.68) 52%,
+      rgba(251, 247, 239, 0.1)
+    ),
+    linear-gradient(
+      0deg,
+      rgba(251, 247, 239, 0.98),
+      rgba(251, 247, 239, 0) 46%
+    ),
     url("/images/hero.jpg") center / cover;
   border-radius: 0 0 34px 34px;
   display: flex;
@@ -221,7 +229,10 @@ body {
   overflow: hidden;
   min-height: 100%;
   padding: 0 0 1.25rem;
-  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 
 .article-card-link:hover .article-card {
@@ -378,7 +389,7 @@ body {
 .breadcrumb__list {
   display: flex;
   flex-wrap: wrap;
-  gap: .25rem;
+  gap: 0.25rem;
   list-style: none;
   padding: 0;
 }
@@ -387,8 +398,8 @@ body {
   align-items: center;
   color: #8a6f63;
   display: flex;
-  font-size: .75rem;
-  gap: .25rem;
+  font-size: 0.75rem;
+  gap: 0.25rem;
 }
 
 .breadcrumb__item + .breadcrumb__item::before {
@@ -410,5 +421,4 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 40ch;
 }

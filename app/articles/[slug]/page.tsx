@@ -36,15 +36,29 @@ const Page = async ({ params }: Props) => {
   const contentHtml = await marked(article.content)
 
   return (
-    <article style={{ maxWidth: "800px", margin: "0 auto" }}>
+    <article style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}>
       <nav aria-label="パンくずリスト" className="breadcrumb">
         <ol className="breadcrumb__list">
-          <li className="breadcrumb__item"><Link href="/">ホーム</Link></li>
-          <li className="breadcrumb__item breadcrumb__item--current" aria-current="page">{article.title}</li>
+          <li className="breadcrumb__item">
+            <Link href="/">ホーム</Link>
+          </li>
+          <li
+            className="breadcrumb__item breadcrumb__item--current"
+            aria-current="page"
+          >
+            {article.title}
+          </li>
         </ol>
       </nav>
 
-      <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: ".75rem" }}>
+      <div
+        style={{
+          display: "flex",
+          gap: ".5rem",
+          flexWrap: "wrap",
+          marginBottom: ".75rem",
+        }}
+      >
         {article.tags.map((tag) => (
           <span
             key={tag}
@@ -61,13 +75,26 @@ const Page = async ({ params }: Props) => {
         ))}
       </div>
 
-      <h1 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#24312f", margin: "0 0 .5rem", lineHeight: "1.4" }}>
+      <h1
+        style={{
+          fontSize: "1.5rem",
+          fontWeight: "bold",
+          color: "#24312f",
+          margin: "0 0 .5rem",
+          lineHeight: "1.4",
+        }}
+      >
         {article.title}
       </h1>
 
       <time
         dateTime={article.publishedAt}
-        style={{ fontSize: ".75rem", color: "#8a6f63", display: "block", marginBottom: "1.5rem" }}
+        style={{
+          fontSize: ".75rem",
+          color: "#8a6f63",
+          display: "block",
+          marginBottom: "1.5rem",
+        }}
       >
         {article.publishedAt}
       </time>
@@ -79,7 +106,11 @@ const Page = async ({ params }: Props) => {
             <figcaption>
               画像:{" "}
               {article.image.sourceUrl ? (
-                <a href={article.image.sourceUrl} rel="noopener noreferrer" target="_blank">
+                <a
+                  href={article.image.sourceUrl}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   {article.image.sourceLabel}
                 </a>
               ) : (
@@ -101,18 +132,40 @@ const Page = async ({ params }: Props) => {
             fontSize: ".875rem",
           }}
         >
-          <h2 style={{ fontSize: ".875rem", fontWeight: "bold", color: "#b94a3a", margin: "0 0 .75rem" }}>
+          <h2
+            style={{
+              fontSize: ".875rem",
+              fontWeight: "bold",
+              color: "#b94a3a",
+              margin: "0 0 .75rem",
+            }}
+          >
             イベント情報
           </h2>
-          <dl style={{ margin: 0, display: "grid", gridTemplateColumns: "auto 1fr", gap: ".25rem .75rem" }}>
+          <dl
+            style={{
+              margin: 0,
+              display: "grid",
+              gridTemplateColumns: "auto 1fr",
+              gap: ".25rem .75rem",
+            }}
+          >
             <dt style={{ color: "#8a6f63" }}>会場</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.venue}</dd>
+            <dd style={{ color: "#24312f", margin: 0 }}>
+              {article.event.venue}
+            </dd>
             <dt style={{ color: "#8a6f63" }}>期間</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.startDate} 〜 {article.event.endDate}</dd>
+            <dd style={{ color: "#24312f", margin: 0 }}>
+              {article.event.startDate} 〜 {article.event.endDate}
+            </dd>
             <dt style={{ color: "#8a6f63" }}>料金</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.price}</dd>
+            <dd style={{ color: "#24312f", margin: 0 }}>
+              {article.event.price}
+            </dd>
             <dt style={{ color: "#8a6f63" }}>予約</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.reservation ? "要予約" : "不要"}</dd>
+            <dd style={{ color: "#24312f", margin: 0 }}>
+              {article.event.reservation ? "要予約" : "不要"}
+            </dd>
           </dl>
         </div>
       )}
@@ -135,11 +188,24 @@ const Page = async ({ params }: Props) => {
         >
           <h2
             id="article-sources-title"
-            style={{ fontSize: ".875rem", fontWeight: "bold", color: "#b94a3a", margin: "0 0 .75rem" }}
+            style={{
+              fontSize: ".875rem",
+              fontWeight: "bold",
+              color: "#b94a3a",
+              margin: "0 0 .75rem",
+            }}
           >
             情報ソース
           </h2>
-          <ul style={{ color: "#3f5851", fontSize: ".875rem", lineHeight: "1.7", margin: 0, paddingLeft: "1.25rem" }}>
+          <ul
+            style={{
+              color: "#3f5851",
+              fontSize: ".875rem",
+              lineHeight: "1.7",
+              margin: 0,
+              paddingLeft: "1.25rem",
+            }}
+          >
             {article.sources.map((source) => (
               <li key={`${source.label}-${source.url ?? "text"}`}>
                 {source.url ? (
