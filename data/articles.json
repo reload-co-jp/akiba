@@ -1238,5 +1238,41 @@
       "price": "メニューごとに異なる（880G〜、税込）",
       "reservation": true
     }
+  },
+  {
+    "id": 40,
+    "title": "【秋葉原】REAL AKIBA BOYZの東京体育館ワンマン「あきば3150」最速HP先行が開始",
+    "slug": "real-akiba-boyz-akiba3150-2026",
+    "summary": "秋葉原発のダンスチーム REAL AKIBA BOYZ が、2026年9月19日に東京体育館で開催するワンマンライブ「あきば3150」の最速HP先行を4月25日に開始。申込受付は5月10日まで。",
+    "content": "## 概要\n\n秋葉原を拠点に活動するアニソンダンスパフォーマー REAL AKIBA BOYZ が、東京体育館でワンマンライブ「THE REAL AKIBA BOYZ ONEMAN LIVE 2026 \"あきば3150\"」を開催します。公演日は2026年9月19日で、チケットの最速HP先行受付が2026年4月25日19時に始まりました。\n\nREAL AKIBA BOYZ は、アニソンダンスや「踊ってみた」カルチャーを牽引してきたグループです。昨年の東京体育館ワンマンに続く2年連続の同会場公演として案内されており、“アキバ発・世界基準”のダンスエンターテインメントを打ち出しています。\n\n## 内容\n\n今回の先行受付はローソンチケットで行われ、受付期間は2026年4月25日19:00から5月10日23:59までです。出演は REAL AKIBA BOYZ に加え、REAL AKIBA BAND も予定されています。\n\nローチケの申込ページでは、過保護席、VIP席、車椅子席、各指定席の案内が掲載されています。過保護席にはリハーサル見学権、終演後お礼動画、オンライン打ち上げ関連特典、限定Tシャツ、開催記念グッズ、サイン色紙などの特典が付くと案内されています。\n\n## 開催情報\n\n- **会場**: 東京体育館\n- **日程**: 2026年9月19日\n- **時間**: 開場15:30 / 開演16:30\n- **料金**: 券種・価格は申込ページで確認\n- **予約**: チケット申込が必要（最速HP先行は2026年5月10日23:59まで）\n\n## こんな人におすすめ\n\n- REAL AKIBA BOYZ の大型ワンマン公演を見たい方\n- 秋葉原カルチャー発のダンスパフォーマンスに注目している方\n- 特典付きチケットや先行受付情報を早めに押さえたい方\n- アニソンやネット発カルチャーのライブイベントが好きな方",
+    "publishedAt": "2026-04-25",
+    "tags": ["REAL AKIBA BOYZ", "ライブ", "チケット"],
+    "image": {
+      "src": "/images/articles/real-akiba-boyz-akiba3150-2026.jpg",
+      "alt": "REAL AKIBA BOYZ 東京体育館ワンマン「あきば3150」の告知ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000933.000060459.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000933.000060459.html"
+      },
+      {
+        "label": "ローチケ 申込ページ",
+        "url": "https://l-tike.com/order/?gBaseVenueCd=30925&gCarrierCd=01&gEntryMthd=03&gLcode=70870&gPfKey=20260323000002167980&gPfName=%EF%BC%B2%EF%BC%A5%EF%BC%A1%EF%BC%AC%E3%80%80%EF%BC%A1%EF%BC%AB%EF%BC%A9%EF%BC%A2%EF%BC%A1%E3%80%80%EF%BC%A2%EF%BC%AF%EF%BC%B9%EF%BC%BA&gScheduleNo=1"
+      },
+      {
+        "label": "REAL AKIBA BOYZ 公式X",
+        "url": "https://x.com/RAB_CREW"
+      }
+    ],
+    "event": {
+      "venue": "東京体育館",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "price": "券種・価格は申込ページで確認",
+      "reservation": true
+    }
   }
 ]
