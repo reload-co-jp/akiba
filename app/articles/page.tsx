@@ -1,5 +1,5 @@
-import Link from "next/link"
 import { getAllArticles } from "lib/articles"
+import { ArticlesViewToggle } from "components/articles-view-toggle"
 
 export const metadata = {
   title: "記事一覧",
@@ -24,35 +24,7 @@ const Page = () => {
           記事一覧
         </h1>
       </div>
-      <ul className="article-list">
-        {articles.map((article) => (
-          <li key={article.id}>
-            <Link href={`/articles/${article.slug}/`} className="article-card-link">
-              <article className="article-card">
-                {article.image && (
-                  <img
-                    src={article.image.src}
-                    alt={article.image.alt}
-                    className="article-card__image"
-                  />
-                )}
-                <div className="article-card__tags">
-                  {article.tags.map((tag) => (
-                    <span key={tag} className="article-card__tag">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <h2 className="article-card__title">{article.title}</h2>
-                <p className="article-card__summary">{article.summary}</p>
-                <time className="article-card__date" dateTime={article.publishedAt}>
-                  {article.publishedAt}
-                </time>
-              </article>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <ArticlesViewToggle articles={articles} />
     </section>
   )
 }
