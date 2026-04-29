@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { marked } from "marked"
-import { getAllSlugs, getArticleBySlug, formatDate } from "lib/articles"
+import { getAllArticles, getAllSlugs, getArticleBySlug, formatDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 
 type Props = {
@@ -47,6 +47,19 @@ const Page = async ({ params }: Props) => {
   if (!article) notFound()
 
   const contentHtml = await marked(article.content)
+  const relatedArticles = getAllArticles()
+    .filter((candidate) => candidate.slug !== article.slug)
+    .map((candidate) => ({
+      article: candidate,
+      matchingTagCount: candidate.tags.filter((tag) => article.tags.includes(tag)).length,
+    }))
+    .filter((candidate) => candidate.matchingTagCount > 0)
+    .sort(
+      (a, b) =>
+        b.matchingTagCount - a.matchingTagCount ||
+        new Date(b.article.publishedAt).getTime() - new Date(a.article.publishedAt).getTime(),
+    )
+    .slice(0, 3)
 
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
 
@@ -297,6 +310,45 @@ const Page = async ({ params }: Props) => {
                 ) : (
                   source.label
                 )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {relatedArticles.length > 0 && (
+        <section className="related-articles" aria-labelledby="related-articles-title">
+          <div className="home-articles__header">
+            <p className="home-articles__kicker">Related</p>
+            <h2 id="related-articles-title" className="home-articles__title">
+              類似記事
+            </h2>
+          </div>
+          <ul className="article-list related-articles__list">
+            {relatedArticles.map(({ article: relatedArticle }) => (
+              <li key={relatedArticle.id}>
+                <Link href={`/articles/${relatedArticle.slug}/`} className="article-card-link">
+                  <article className="article-card">
+                    {relatedArticle.image && (
+                      <img
+                        src={relatedArticle.image.src}
+                        alt={relatedArticle.image.alt}
+                        className="article-card__image"
+                      />
+                    )}
+                    <div className="article-card__tags">
+                      {relatedArticle.tags.map((tag) => (
+                        <span key={tag} className="article-card__tag">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <h3 className="article-card__title">{relatedArticle.title}</h3>
+                    <time className="article-card__date" dateTime={relatedArticle.publishedAt}>
+                      {formatDate(relatedArticle.publishedAt)}
+                    </time>
+                  </article>
+                </Link>
               </li>
             ))}
           </ul>

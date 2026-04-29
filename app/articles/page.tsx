@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import { getAllArticles } from "lib/articles"
 import { ArticlesViewToggle } from "components/articles-view-toggle"
 
@@ -24,7 +25,9 @@ const Page = () => {
           記事一覧
         </h1>
       </div>
-      <ArticlesViewToggle articles={articles} />
+      <Suspense fallback={null}>
+        <ArticlesViewToggle articles={articles} />
+      </Suspense>
     </section>
   )
 }

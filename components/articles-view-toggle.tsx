@@ -2,14 +2,28 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
 import { formatDate } from "lib/articles"
 
 export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const [view, setView] = useState<"grid" | "list">("grid")
+  const searchParams = useSearchParams()
+  const selectedTag = searchParams.get("tag")
+  const visibleArticles = selectedTag
+    ? articles.filter((article) => article.tags.includes(selectedTag))
+    : articles
 
   return (
     <>
+      {selectedTag && (
+        <div className="article-filter-status">
+          <span>「{selectedTag}」の記事</span>
+          <Link href="/articles/" className="article-filter-status__reset">
+            すべて表示
+          </Link>
+        </div>
+      )}
       <div className="articles-view-toggle">
         <button
           className={`articles-view-toggle__btn${view === "grid" ? " articles-view-toggle__btn--active" : ""}`}
@@ -38,7 +52,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
         </button>
       </div>
       <ul className={`article-list${view === "list" ? " article-list--list" : ""}`}>
-        {articles.map((article) => (
+        {visibleArticles.map((article) => (
           <li key={article.id}>
             <Link href={`/articles/${article.slug}/`} className="article-card-link">
               <article className="article-card">
