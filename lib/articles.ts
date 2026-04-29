@@ -38,6 +38,8 @@ export const getArticleBySlug = (slug: string): Article | undefined => {
   return articlesData.find((a) => a.slug === slug)
 }
 
+export const formatDate = (date: string): string => date.replace(/-/g, ".")
+
 export const getAllSlugs = (): string[] => {
   return articlesData.map((a) => a.slug)
 }

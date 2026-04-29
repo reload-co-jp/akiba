@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { getAllArticles } from "lib/articles"
+import { getAllArticles, formatDate } from "lib/articles"
 
 export const metadata = {
   title: "アキバLive",
@@ -73,7 +73,7 @@ const Page = () => {
                   <h3 className="article-card__title">{article.title}</h3>
                   <p className="article-card__summary">{article.summary}</p>
                   <time className="article-card__date" dateTime={article.publishedAt}>
-                    {article.publishedAt}
+                    {formatDate(article.publishedAt)}
                   </time>
                 </article>
               </Link>

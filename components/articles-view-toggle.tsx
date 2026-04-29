@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import type { Article } from "lib/articles"
+import { formatDate } from "lib/articles"
 
 export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const [view, setView] = useState<"grid" | "list">("grid")
@@ -59,7 +60,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
                   <h2 className="article-card__title">{article.title}</h2>
                   <p className="article-card__summary">{article.summary}</p>
                   <time className="article-card__date" dateTime={article.publishedAt}>
-                    {article.publishedAt}
+                    {formatDate(article.publishedAt)}
                   </time>
                 </div>
               </article>

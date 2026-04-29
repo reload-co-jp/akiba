@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { marked } from "marked"
-import { getAllSlugs, getArticleBySlug } from "lib/articles"
+import { getAllSlugs, getArticleBySlug, formatDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 
 type Props = {
@@ -130,7 +130,7 @@ const Page = async ({ params }: Props) => {
           marginBottom: "1.5rem",
         }}
       >
-        {article.publishedAt}
+        {formatDate(article.publishedAt)}
       </time>
 
       {article.image && (
