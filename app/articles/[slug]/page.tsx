@@ -29,6 +29,7 @@ export const generateMetadata = async ({ params }: Props) => {
         : undefined,
       type: "article",
       publishedTime: article.publishedAt,
+      modifiedTime: article.publishedAt,
       tags: article.tags,
     },
     twitter: {
@@ -47,21 +48,59 @@ const Page = async ({ params }: Props) => {
 
   const contentHtml = await marked(article.content)
 
+  const articleUrl = absoluteUrl(`/articles/${slug}/`)
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": articleUrl,
+    },
     headline: article.title,
     description: article.summary,
+    keywords: article.tags.join(", "),
     datePublished: article.publishedAt,
-    url: absoluteUrl(`/articles/${slug}/`),
-    publisher: {
+    dateModified: article.publishedAt,
+    url: articleUrl,
+    author: {
       "@type": "Organization",
       name: "アキバLive",
       url: absoluteUrl("/"),
     },
+    publisher: {
+      "@type": "Organization",
+      name: "アキバLive",
+      url: absoluteUrl("/"),
+      logo: {
+        "@type": "ImageObject",
+        url: absoluteUrl("/images/logo.svg"),
+        width: 195,
+        height: 48,
+      },
+    },
     ...(article.image && {
       image: { "@type": "ImageObject", url: absoluteUrl(article.image.src) },
     }),
+  }
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: article.title,
+        item: articleUrl,
+      },
+    ],
   }
 
   return (
@@ -69,6 +108,10 @@ const Page = async ({ params }: Props) => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
     <article style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}>
       <nav aria-label="パンくずリスト" className="breadcrumb">

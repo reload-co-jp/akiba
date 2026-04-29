@@ -23,6 +23,17 @@ export const metadata = {
     card: "summary_large_image",
     site: "@akiba_live",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
