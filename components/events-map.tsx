@@ -27,6 +27,11 @@ const mapBounds = {
 }
 
 const venuePoints: Record<string, VenuePoint> = {
+  "アトレ秋葉原1": { lat: 35.6984, lng: 139.7731 },
+  "ワテラス": { lat: 35.6977, lng: 139.7679 },
+  "WATERRAS（ワテラス）": { lat: 35.6977, lng: 139.7679 },
+  "ものづくり館 by YKK": { lat: 35.6985, lng: 139.7767 },
+  "秋葉原UDXシアター": { lat: 35.7001, lng: 139.7726 },
   "書泉ブックタワー": { lat: 35.6976, lng: 139.7745 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },
   "秋葉原 SEEKBASE": { lat: 35.7011, lng: 139.7767 },
