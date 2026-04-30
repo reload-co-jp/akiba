@@ -64,6 +64,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <nav className="site-header__nav" aria-label="主要ナビゲーション">
               <Link href="/articles/">新着記事</Link>
               <Link href="/events/">開催中</Link>
+              <Link href="/about/">このサイトについて</Link>
             </nav>
           </div>
         </header>
@@ -77,6 +78,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               <a href="https://reload.co.jp" rel="noopener noreferrer" target="_blank">
                 運営会社
               </a>
+              {" / "}
+              <Link href="/about/">このサイトについて</Link>
             </p>
           </div>
         </footer>

@@ -30,6 +30,12 @@ const sitemap = (): MetadataRoute.Sitemap => {
       changeFrequency: "daily",
       priority: 0.7,
     },
+    {
+      url: absoluteUrl("/about/"),
+      lastModified: latestDate,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
     ...articles.map((article) => ({
       url: absoluteUrl(`/articles/${article.slug}/`),
       lastModified: new Date(article.publishedAt),
