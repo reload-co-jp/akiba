@@ -1,7 +1,13 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { marked } from "marked"
-import { getAllArticles, getAllSlugs, getArticleBySlug, formatDate } from "lib/articles"
+import {
+  formatDate,
+  getAllArticles,
+  getAllSlugs,
+  getArticleBySlug,
+  getArticleImage,
+} from "lib/articles"
 import { absoluteUrl } from "lib/site"
 
 type Props = {
@@ -16,6 +22,7 @@ export const generateMetadata = async ({ params }: Props) => {
   const { slug } = await params
   const article = getArticleBySlug(slug)
   if (!article) return {}
+  const image = getArticleImage(article)
   return {
     title: article.title,
     description: article.summary,
@@ -24,9 +31,7 @@ export const generateMetadata = async ({ params }: Props) => {
       title: article.title,
       description: article.summary,
       url: `/articles/${slug}/`,
-      images: article.image
-        ? [{ url: article.image.src, alt: article.image.alt }]
-        : undefined,
+      images: [{ url: image.src, alt: image.alt }],
       type: "article",
       publishedTime: article.publishedAt,
       modifiedTime: article.publishedAt,
@@ -36,7 +41,7 @@ export const generateMetadata = async ({ params }: Props) => {
       card: "summary_large_image",
       title: article.title,
       description: article.summary,
-      images: article.image ? [article.image.src] : undefined,
+      images: [image.src],
     },
   }
 }
@@ -62,6 +67,7 @@ const Page = async ({ params }: Props) => {
     .slice(0, 3)
 
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
+  const articleImage = getArticleImage(article)
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -92,9 +98,7 @@ const Page = async ({ params }: Props) => {
         height: 48,
       },
     },
-    ...(article.image && {
-      image: { "@type": "ImageObject", url: absoluteUrl(article.image.src) },
-    }),
+    image: { "@type": "ImageObject", url: absoluteUrl(articleImage.src) },
   }
 
   const breadcrumbLd = {
@@ -189,10 +193,9 @@ const Page = async ({ params }: Props) => {
         {formatDate(article.publishedAt)}
       </time>
 
-      {article.image && (
-        <figure className="article-hero-image">
-          <img src={article.image.src} alt={article.image.alt} />
-          {article.image.sourceLabel && (
+      <figure className="article-hero-image">
+        <img src={articleImage.src} alt={articleImage.alt} />
+        {article.image?.sourceLabel && (
             <figcaption>
               画像:{" "}
               {article.image.sourceUrl ? (
@@ -207,9 +210,8 @@ const Page = async ({ params }: Props) => {
                 article.image.sourceLabel
               )}
             </figcaption>
-          )}
-        </figure>
-      )}
+        )}
+      </figure>
 
       {article.event && (
         <div
@@ -329,13 +331,11 @@ const Page = async ({ params }: Props) => {
               <li key={relatedArticle.id}>
                 <Link href={`/articles/${relatedArticle.slug}/`} className="article-card-link">
                   <article className="article-card">
-                    {relatedArticle.image && (
-                      <img
-                        src={relatedArticle.image.src}
-                        alt={relatedArticle.image.alt}
-                        className="article-card__image"
-                      />
-                    )}
+                    <img
+                      src={getArticleImage(relatedArticle).src}
+                      alt={getArticleImage(relatedArticle).alt}
+                      className="article-card__image"
+                    />
                     <div className="article-card__tags">
                       {relatedArticle.tags.map((tag) => (
                         <span key={tag} className="article-card__tag">

@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
-import { formatDate } from "lib/articles"
+import { formatDate, getArticleImage } from "lib/articles"
 
 export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const [view, setView] = useState<"grid" | "list">("grid")
@@ -56,13 +56,11 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
           <li key={article.id}>
             <Link href={`/articles/${article.slug}/`} className="article-card-link">
               <article className="article-card">
-                {article.image && (
-                  <img
-                    src={article.image.src}
-                    alt={article.image.alt}
-                    className="article-card__image"
-                  />
-                )}
+                <img
+                  src={getArticleImage(article).src}
+                  alt={getArticleImage(article).alt}
+                  className="article-card__image"
+                />
                 <div className="article-card__body">
                   <div className="article-card__tags">
                     {article.tags.map((tag) => (

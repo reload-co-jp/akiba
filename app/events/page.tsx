@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { EventsMap } from "components/events-map"
-import { getOngoingEvents } from "lib/articles"
+import { getArticleImage, getOngoingEvents } from "lib/articles"
 
 export const metadata = {
   title: "開催中のイベント",
@@ -37,19 +37,13 @@ const Page = () => {
               <li key={article.id}>
                 <Link href={`/articles/${article.slug}/`} className="events-card-link">
                   <article
-                    className={
-                      article.image
-                        ? "events-card events-card--with-image"
-                        : "events-card"
-                    }
+                    className="events-card events-card--with-image"
                   >
-                    {article.image && (
-                      <img
-                        className="events-card__image"
-                        src={article.image.src}
-                        alt={article.image.alt}
-                      />
-                    )}
+                    <img
+                      className="events-card__image"
+                      src={getArticleImage(article).src}
+                      alt={getArticleImage(article).alt}
+                    />
                     <div>
                       <div className="events-card__tags">
                         {article.tags.map((tag) => (

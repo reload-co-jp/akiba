@@ -27,6 +27,14 @@ export type Article = {
   }
 }
 
+export const placeholderImage = {
+  src: "/images/placeholder.jpg",
+  alt: "アキバLiveの記事サムネイル",
+}
+
+export const getArticleImage = (article: Article) =>
+  article.image ?? placeholderImage
+
 export const getAllArticles = (): Article[] => {
   return [...articlesData].sort(
     (a, b) =>

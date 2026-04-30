@@ -1,6 +1,6 @@
 import Link from "next/link"
 import type { Article } from "lib/articles"
-import { formatDate } from "lib/articles"
+import { formatDate, getArticleImage } from "lib/articles"
 
 export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
   const tagCounts = articles.reduce<Record<string, number>>((counts, article) => {
@@ -26,13 +26,11 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
           <li key={article.id}>
             <Link href={`/articles/${article.slug}/`} className="article-card-link">
               <article className="article-card">
-                {article.image && (
-                  <img
-                    src={article.image.src}
-                    alt={article.image.alt}
-                    className="article-card__image"
-                  />
-                )}
+                <img
+                  src={getArticleImage(article).src}
+                  alt={getArticleImage(article).alt}
+                  className="article-card__image"
+                />
                 <div className="article-card__tags">
                   {article.tags.map((tag) => (
                     <span key={tag} className="article-card__tag">
