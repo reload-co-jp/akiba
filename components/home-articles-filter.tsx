@@ -3,7 +3,13 @@ import type { Article } from "lib/articles"
 import { formatDate } from "lib/articles"
 
 export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
-  const tags = [...new Set(articles.flatMap((article) => article.tags))]
+  const tagCounts = articles.reduce<Record<string, number>>((counts, article) => {
+    for (const tag of article.tags) {
+      counts[tag] = (counts[tag] ?? 0) + 1
+    }
+    return counts
+  }, {})
+  const tags = Object.keys(tagCounts).filter((tag) => tagCounts[tag] >= 2)
   const visibleArticles = articles.slice(0, 12)
 
   return (
