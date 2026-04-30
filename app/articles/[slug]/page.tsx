@@ -318,6 +318,21 @@ const Page = async ({ params }: Props) => {
         </section>
       )}
 
+      <section className="article-tags-nav" aria-labelledby="article-tags-title">
+        <h2 id="article-tags-title">タグ</h2>
+        <div className="article-tags-nav__list">
+          {article.tags.map((tag) => (
+            <Link
+              key={tag}
+              href={{ pathname: "/articles/", query: { tag } }}
+              className="article-tags-nav__item"
+            >
+              {tag}
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {relatedArticles.length > 0 && (
         <section className="related-articles" aria-labelledby="related-articles-title">
           <div className="home-articles__header">

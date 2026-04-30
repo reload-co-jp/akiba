@@ -556,6 +556,33 @@ body {
   margin-top: 2.5rem;
 }
 
+.article-tags-nav {
+  margin-top: 2rem;
+}
+
+.article-tags-nav h2 {
+  color: #b94a3a;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+}
+
+.article-tags-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.article-tags-nav__item {
+  background-color: #e7f0ed;
+  border-radius: 999px;
+  color: #3f5851;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+}
+
 .related-articles__list {
   gap: 1rem;
 }
