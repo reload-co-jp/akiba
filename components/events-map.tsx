@@ -40,6 +40,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "ボークス 秋葉原ホビー天国2": { lat: 35.7005, lng: 139.7714 },
   "キュアメイドカフェ": { lat: 35.6982, lng: 139.771 },
   "AKIHABARAゲーマーズ本店": { lat: 35.699, lng: 139.7714 },
+  "アニメイト秋葉原2号館 7F": { lat: 35.6997, lng: 139.7714 },
   "コトブキヤ秋葉原店 5F": { lat: 35.6994, lng: 139.7711 },
   "GiGO秋葉原5号館 Akib@ko": { lat: 35.6991, lng: 139.7719 },
   "LIVE HOUSE＆CLUB ANTHEM AKIBA": { lat: 35.7007, lng: 139.7695 },
