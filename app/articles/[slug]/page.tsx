@@ -157,18 +157,13 @@ const Page = async ({ params }: Props) => {
         }}
       >
         {article.tags.map((tag) => (
-          <span
+          <Link
             key={tag}
-            style={{
-              backgroundColor: "#e53e3e",
-              color: "#fff",
-              fontSize: ".6875rem",
-              padding: ".125rem .5rem",
-              borderRadius: "4px",
-            }}
+            href={{ pathname: "/articles/", query: { tag } }}
+            className="article-tag"
           >
             {tag}
-          </span>
+          </Link>
         ))}
       </div>
 

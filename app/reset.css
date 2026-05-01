@@ -268,12 +268,18 @@ body {
   width: 100%;
 }
 
-.article-card__tag {
-  background-color: #e7f0ed;
+.article-tag,
+.article-card__tag,
+.events-card__tag {
+  background-color: #fff1e8;
+  border: 1px solid rgba(185, 74, 58, 0.18);
   border-radius: 999px;
-  color: #3f5851;
+  color: #9f3f32;
   font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1.4;
   padding: 0.125rem 0.5rem;
+  text-decoration: none;
 }
 
 .article-card__title {
@@ -632,9 +638,10 @@ body {
 }
 
 .article-tags-nav__item {
-  background-color: #e7f0ed;
+  background-color: #fff1e8;
+  border: 1px solid rgba(185, 74, 58, 0.18);
   border-radius: 999px;
-  color: #3f5851;
+  color: #9f3f32;
   font-size: 0.8125rem;
   font-weight: 700;
   padding: 0.5rem 0.75rem;
@@ -945,11 +952,7 @@ body {
 }
 
 .events-card__tag {
-  background-color: #e53e3e;
-  border-radius: 4px;
-  color: #fff;
   font-size: 0.6875rem;
-  padding: 0.125rem 0.5rem;
 }
 
 .events-card__title {
