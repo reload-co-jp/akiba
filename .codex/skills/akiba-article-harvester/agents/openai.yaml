@@ -1,0 +1,4 @@
+interface:
+  display_name: "Akiba Article Harvester"
+  short_description: "秋葉原のイベント・キャンペーン情報を巡回して記事化する"
+  default_prompt: "Use $akiba-article-harvester to find new Akihabara events and add articles."
