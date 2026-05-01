@@ -35,6 +35,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "秋葉原UDXシアター": { lat: 35.7001, lng: 139.7726 },
   "書泉ブックタワー": { lat: 35.6976, lng: 139.7745 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },
+  "AKIBAカルチャーズZONE 4階 カルポップ": { lat: 35.6995, lng: 139.7716 },
   "秋葉原 SEEKBASE": { lat: 35.7011, lng: 139.7767 },
   "ボークス 秋葉原ホビー天国2": { lat: 35.7005, lng: 139.7714 },
   "キュアメイドカフェ": { lat: 35.6982, lng: 139.771 },
