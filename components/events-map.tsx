@@ -28,6 +28,7 @@ const mapBounds = {
 
 const venuePoints: Record<string, VenuePoint> = {
   "アトレ秋葉原1": { lat: 35.6984, lng: 139.7731 },
+  "バンダイナムコ Cross Store アトレ秋葉原店": { lat: 35.6984, lng: 139.7731 },
   "ワテラス": { lat: 35.6977, lng: 139.7679 },
   "WATERRAS（ワテラス）": { lat: 35.6977, lng: 139.7679 },
   "ものづくり館 by YKK": { lat: 35.6985, lng: 139.7767 },
@@ -44,6 +45,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "AIR 3331 岩本町レジデンス＆スタジオ 1階": { lat: 35.6947, lng: 139.7772 },
   "RAKU SPA 1010 神田": { lat: 35.6966, lng: 139.7684 },
   "ブラウンダスト2 SHOP": { lat: 35.6985, lng: 139.7707 },
+  "ネコリパブリック 東京 お茶の水店": { lat: 35.7032, lng: 139.7688 },
 }
 
 const broadVenuePatterns = ["全国", "対象10店舗"]
