@@ -1,12 +1,14 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { marked } from "marked"
+import { ArticleImagePreview } from "components/article-image-preview"
 import {
   formatDate,
   getAllArticles,
   getAllSlugs,
   getArticleBySlug,
   getArticleImage,
+  placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 
@@ -68,6 +70,7 @@ const Page = async ({ params }: Props) => {
 
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
+  const isPlaceholderImage = articleImage.src === placeholderImage.src
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -194,7 +197,11 @@ const Page = async ({ params }: Props) => {
       </time>
 
       <figure className="article-hero-image">
-        <img src={articleImage.src} alt={articleImage.alt} />
+        {isPlaceholderImage ? (
+          <img src={articleImage.src} alt={articleImage.alt} />
+        ) : (
+          <ArticleImagePreview src={articleImage.src} alt={articleImage.alt} />
+        )}
         {article.image?.sourceLabel && (
             <figcaption>
               画像:{" "}
