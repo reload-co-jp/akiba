@@ -9,7 +9,7 @@ const robots = (): MetadataRoute.Robots => {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: [absoluteUrl("/sitemap.xml"), absoluteUrl("/sitemap-news.xml")],
+    sitemap: [absoluteUrl("/sitemap.xml"), absoluteUrl("/news-sitemap.xml")],
     host: siteUrl,
   }
 }
