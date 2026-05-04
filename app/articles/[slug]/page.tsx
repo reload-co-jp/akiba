@@ -4,10 +4,12 @@ import { marked } from "marked"
 import { ArticleImagePreview } from "components/article-image-preview"
 import {
   formatDate,
+  formatDateTime,
   getAllArticles,
   getAllSlugs,
   getArticleBySlug,
   getArticleImage,
+  getArticlePublishedIso,
   placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
@@ -25,6 +27,7 @@ export const generateMetadata = async ({ params }: Props) => {
   const article = getArticleBySlug(slug)
   if (!article) return {}
   const image = getArticleImage(article)
+  const publishedAt = getArticlePublishedIso(article)
   return {
     title: article.title,
     description: article.summary,
@@ -35,8 +38,8 @@ export const generateMetadata = async ({ params }: Props) => {
       url: `/articles/${slug}/`,
       images: [{ url: image.src, alt: image.alt }],
       type: "article",
-      publishedTime: article.publishedAt,
-      modifiedTime: article.publishedAt,
+      publishedTime: publishedAt,
+      modifiedTime: publishedAt,
       tags: article.tags,
     },
     twitter: {
@@ -70,6 +73,7 @@ const Page = async ({ params }: Props) => {
 
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
+  const publishedAt = getArticlePublishedIso(article)
   const isPlaceholderImage = articleImage.src === placeholderImage.src
 
   const jsonLd = {
@@ -82,8 +86,9 @@ const Page = async ({ params }: Props) => {
     headline: article.title,
     description: article.summary,
     keywords: article.tags.join(", "),
-    datePublished: article.publishedAt,
-    dateModified: article.publishedAt,
+    datePublished: publishedAt,
+    dateModified: publishedAt,
+    isAccessibleForFree: true,
     url: articleUrl,
     author: {
       "@type": "Organization",
@@ -180,7 +185,7 @@ const Page = async ({ params }: Props) => {
       </h1>
 
       <time
-        dateTime={article.publishedAt}
+        dateTime={publishedAt}
         style={{
           fontSize: ".75rem",
           color: "#8a6f63",
@@ -188,7 +193,7 @@ const Page = async ({ params }: Props) => {
           marginBottom: "1.5rem",
         }}
       >
-        {formatDate(article.publishedAt)}
+        {formatDateTime(article)}
       </time>
 
       <figure className="article-hero-image">

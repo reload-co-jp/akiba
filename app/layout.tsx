@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
-import { siteUrl } from "lib/site"
+import { absoluteUrl, siteDescription, siteName, siteUrl } from "lib/site"
 import "./reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
@@ -9,10 +9,10 @@ const isProduction = process.env.NODE_ENV === "production"
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "アキバLive",
-    template: "%s | アキバLive",
+    default: siteName,
+    template: `%s | ${siteName}`,
   },
-  description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+  description: siteDescription,
   alternates: {
     types: {
       "application/rss+xml": "/rss.xml",
@@ -20,7 +20,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    siteName: "アキバLive",
+    siteName,
     locale: "ja_JP",
     type: "website",
     images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
@@ -43,6 +43,25 @@ export const metadata = {
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
+  const siteJsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": absoluteUrl("/#website"),
+      url: absoluteUrl("/"),
+      name: siteName,
+      alternateName: "Akiba Live",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": absoluteUrl("/#organization"),
+      name: siteName,
+      url: absoluteUrl("/"),
+      logo: absoluteUrl("/icon.svg"),
+    },
+  ]
+
   return (
     <html lang="ja">
       <head>
@@ -57,6 +76,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           rel="alternate"
           title="アキバLive Atom Feed"
           type="application/atom+xml"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
       </head>
       <body>

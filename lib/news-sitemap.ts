@@ -1,8 +1,7 @@
 import type { Article } from "lib/articles"
-import { getAllArticles } from "lib/articles"
-import { absoluteUrl } from "lib/site"
+import { getAllArticles, getArticlePublishedIso } from "lib/articles"
+import { absoluteUrl, siteName } from "lib/site"
 
-const newsPublicationName = "アキバLive"
 const newsPublicationLanguage = "ja"
 const newsWindowMs = 48 * 60 * 60 * 1000
 
@@ -15,13 +14,7 @@ const escapeXml = (s: string) =>
     .replace(/'/g, "&apos;")
 
 export const getArticlePublicationDate = (article: Article) => {
-  const publishedAt = article.publishedAt
-
-  if (/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
-    return `${publishedAt}T00:00:00+09:00`
-  }
-
-  return publishedAt
+  return getArticlePublishedIso(article)
 }
 
 export const getRecentNewsArticles = (now = new Date()) => {
@@ -44,7 +37,7 @@ export const buildNewsSitemapXml = (articles = getRecentNewsArticles()) => {
     <loc>${absoluteUrl(`/articles/${article.slug}/`)}</loc>
     <news:news>
       <news:publication>
-        <news:name>${escapeXml(newsPublicationName)}</news:name>
+        <news:name>${escapeXml(siteName)}</news:name>
         <news:language>${newsPublicationLanguage}</news:language>
       </news:publication>
       <news:publication_date>${escapeXml(publicationDate)}</news:publication_date>

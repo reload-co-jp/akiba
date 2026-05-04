@@ -1,11 +1,6 @@
 import type { Article } from "lib/articles"
-import { getAllArticles } from "lib/articles"
-import { absoluteUrl } from "lib/site"
-
-const siteName = "アキバLive"
-const siteDescription =
-  "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア"
-const feedAuthor = "アキバLive"
+import { getAllArticles, getArticleImage, getArticlePublishedDate } from "lib/articles"
+import { absoluteUrl, siteDescription, siteName } from "lib/site"
 
 const escapeXml = (s: string) =>
   s
@@ -15,18 +10,8 @@ const escapeXml = (s: string) =>
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;")
 
-const getArticleDate = (article: Article) => {
-  const publishedAt = article.publishedAt
-
-  if (/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
-    return new Date(`${publishedAt}T00:00:00+09:00`)
-  }
-
-  return new Date(publishedAt)
-}
-
 const getLatestArticleDate = (articles: Article[]) =>
-  new Date(Math.max(...articles.map((article) => getArticleDate(article).getTime())))
+  new Date(Math.max(...articles.map((article) => getArticlePublishedDate(article).getTime())))
 
 const getArticleUrl = (article: Article) => absoluteUrl(`/articles/${article.slug}/`)
 
@@ -35,6 +20,7 @@ export const buildRssFeedXml = (articles = getAllArticles()) => {
   const items = articles
     .map((article) => {
       const articleUrl = getArticleUrl(article)
+      const image = getArticleImage(article)
 
       return `
     <item>
@@ -42,14 +28,15 @@ export const buildRssFeedXml = (articles = getAllArticles()) => {
       <link>${articleUrl}</link>
       <guid isPermaLink="true">${articleUrl}</guid>
       <description>${escapeXml(article.summary)}</description>
-      <pubDate>${getArticleDate(article).toUTCString()}</pubDate>
+      <pubDate>${getArticlePublishedDate(article).toUTCString()}</pubDate>
+      <media:content url="${absoluteUrl(image.src)}" medium="image" />
       ${article.tags.map((tag) => `<category>${escapeXml(tag)}</category>`).join("\n      ")}
     </item>`
     })
     .join("")
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>${escapeXml(siteName)}</title>
     <link>${absoluteUrl("/")}</link>
@@ -66,7 +53,8 @@ export const buildAtomFeedXml = (articles = getAllArticles()) => {
   const entries = articles
     .map((article) => {
       const articleUrl = getArticleUrl(article)
-      const publishedAt = getArticleDate(article).toISOString()
+      const image = getArticleImage(article)
+      const publishedAt = getArticlePublishedDate(article).toISOString()
 
       return `
   <entry>
@@ -76,6 +64,7 @@ export const buildAtomFeedXml = (articles = getAllArticles()) => {
     <published>${publishedAt}</published>
     <updated>${publishedAt}</updated>
     <summary>${escapeXml(article.summary)}</summary>
+    <link href="${absoluteUrl(image.src)}" rel="enclosure" type="image/${image.src.endsWith(".png") ? "png" : image.src.endsWith(".webp") ? "webp" : "jpeg"}" />
     ${article.tags.map((tag) => `<category term="${escapeXml(tag)}" />`).join("\n    ")}
   </entry>`
     })
@@ -90,7 +79,7 @@ export const buildAtomFeedXml = (articles = getAllArticles()) => {
   <id>${absoluteUrl("/")}</id>
   <updated>${latestDate.toISOString()}</updated>
   <author>
-    <name>${escapeXml(feedAuthor)}</name>
+    <name>${escapeXml(siteName)}</name>
   </author>${entries}
 </feed>`
 }
