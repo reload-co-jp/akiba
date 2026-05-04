@@ -13,6 +13,12 @@ export const metadata = {
     template: "%s | アキバLive",
   },
   description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+  alternates: {
+    types: {
+      "application/rss+xml": "/rss.xml",
+      "application/atom+xml": "/atom.xml",
+    },
+  },
   openGraph: {
     siteName: "アキバLive",
     locale: "ja_JP",
@@ -39,6 +45,20 @@ export const metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja">
+      <head>
+        <link
+          href="/rss.xml"
+          rel="alternate"
+          title="アキバLive RSS Feed"
+          type="application/rss+xml"
+        />
+        <link
+          href="/atom.xml"
+          rel="alternate"
+          title="アキバLive Atom Feed"
+          type="application/atom+xml"
+        />
+      </head>
       <body>
         {isProduction && (
           <>
