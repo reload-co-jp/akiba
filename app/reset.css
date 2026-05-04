@@ -513,13 +513,21 @@ body {
 .article-image-preview {
   align-items: center;
   background: rgba(15, 23, 42, 0.86);
-  cursor: zoom-out;
   display: flex;
   inset: 0;
   justify-content: center;
   padding: 4rem 1rem 1.5rem;
   position: fixed;
   z-index: 100;
+}
+
+.article-image-preview__backdrop {
+  background: transparent;
+  border: 0;
+  cursor: zoom-out;
+  inset: 0;
+  padding: 0;
+  position: absolute;
 }
 
 .article-image-preview__image {
@@ -530,7 +538,9 @@ body {
   max-height: calc(100vh - 7rem);
   max-width: min(1120px, 100%);
   object-fit: contain;
+  position: relative;
   width: auto;
+  z-index: 1;
 }
 
 .article-image-preview__close {
@@ -546,6 +556,7 @@ body {
   position: fixed;
   right: 1rem;
   top: 1rem;
+  z-index: 2;
 }
 
 .article-image-preview__close:focus-visible {

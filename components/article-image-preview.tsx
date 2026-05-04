@@ -43,8 +43,13 @@ export function ArticleImagePreview({ src, alt }: Props) {
           role="dialog"
           aria-modal="true"
           aria-label="画像プレビュー"
-          onClick={() => setIsOpen(false)}
         >
+          <button
+            type="button"
+            className="article-image-preview__backdrop"
+            onClick={() => setIsOpen(false)}
+            aria-label="画像プレビューを閉じる"
+          />
           <button
             type="button"
             className="article-image-preview__close"
@@ -57,7 +62,6 @@ export function ArticleImagePreview({ src, alt }: Props) {
             src={src}
             alt={alt}
             className="article-image-preview__image"
-            onClick={(event) => event.stopPropagation()}
           />
         </div>
       )}
