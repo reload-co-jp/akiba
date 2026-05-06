@@ -46,6 +46,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "LIVE HOUSE＆CLUB ANTHEM AKIBA": { lat: 35.7007, lng: 139.7695 },
   "AIR 3331 岩本町レジデンス＆スタジオ 1階": { lat: 35.6947, lng: 139.7772 },
   "RAKU SPA 1010 神田": { lat: 35.6966, lng: 139.7684 },
+  "ファーストキャビン秋葉原": { lat: 35.6968, lng: 139.778 },
   "ブラウンダスト2 SHOP": { lat: 35.6985, lng: 139.7707 },
   "ネコリパブリック 東京 お茶の水店": { lat: 35.7032, lng: 139.7688 },
 }
