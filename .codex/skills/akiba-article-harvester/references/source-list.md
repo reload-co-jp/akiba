@@ -23,7 +23,7 @@ Use these pages for recurring Akihabara article harvesting.
 ## Aggregator / Discovery Sources
 
 - PR TIMES Akihabara search
-  - URL: https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=%E7%A7%8B%E8%91%89%E5%8E%9F
+  - URL: https://prtimes.jp/topics/keywords/%E7%A7%8B%E8%91%89%E5%8E%9F
   - Notes: good discovery for openings, campaigns, pop-ups. Prefer company/event official page after discovery.
 
 - Enjoy Tokyo Akihabara area
