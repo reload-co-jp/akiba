@@ -56,23 +56,10 @@ const Page = () => {
         </p>
       </section>
 
-      <section className="about-section" aria-labelledby="about-policy-title">
-        <h2 id="about-policy-title">このメディアがやらないこと</h2>
-        <p>はっきりさせておきます。</p>
-        <ul>
-          <li>プレスリリースのコピペ。</li>
-          <li>SEO目的だけの記事量産。</li>
-          <li>どこにでもある「まとめ記事」。</li>
-        </ul>
-        <p>
-          このあたりはやりません。情報の速さよりも、「ちゃんと見ているか」「ちゃんと確かめているか」を優先します。
-        </p>
-      </section>
-
       <section className="about-section" aria-labelledby="about-topics-title">
         <h2 id="about-topics-title">扱う内容</h2>
         <ul>
-          <li>新規店舗・閉店情報。ただし“理由”まで追う。</li>
+          <li>新規店舗・閉店情報。</li>
           <li>秋葉原の小ネタ・謎・噂の検証。</li>
           <li>街の変化の記録、定点観測。</li>
           <li>現場視点のレビューや体験。</li>
@@ -80,10 +67,13 @@ const Page = () => {
         </ul>
       </section>
 
-      <section className="about-section" aria-labelledby="about-operation-title">
+      <section
+        className="about-section"
+        aria-labelledby="about-operation-title"
+      >
         <h2 id="about-operation-title">運営について</h2>
         <p>
-          本メディアは、秋葉原にオフィス・コワーキングスペースを構える企業が運営しています。
+          本メディアは、秋葉原にオフィス・コワーキングスペースを構える株式会社リロードが運営しています。
         </p>
         <p>
           日常的にこの街にいるからこそ拾える違和感を、そのままにせず、コンテンツとして残していきます。
