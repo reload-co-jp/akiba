@@ -52,9 +52,10 @@ const venuePoints: Record<string, VenuePoint> = {
   "ファーストキャビン秋葉原": { lat: 35.6968, lng: 139.778 },
   "ブラウンダスト2 SHOP": { lat: 35.6985, lng: 139.7707 },
   "ネコリパブリック 東京 お茶の水店": { lat: 35.7032, lng: 139.7688 },
+  "モンハン酒場 東京・秋葉原": { lat: 35.6978, lng: 139.7714 },
 }
 
-const broadVenuePatterns = ["全国", "対象10店舗"]
+const broadVenuePatterns = ["全国", "対象10店舗", "各店"]
 
 const extractAddress = (content: string): string | undefined => {
   const addressLine = content.match(/- \*\*住所\*\*: ([^\n]+)/)
