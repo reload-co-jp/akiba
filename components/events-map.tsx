@@ -32,6 +32,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "ワテラス": { lat: 35.6977, lng: 139.7679 },
   "WATERRAS（ワテラス）": { lat: 35.6977, lng: 139.7679 },
   "ものづくり館 by YKK": { lat: 35.6985, lng: 139.7767 },
+  "秋葉原UDX": { lat: 35.7003, lng: 139.7726 },
   "秋葉原UDXシアター": { lat: 35.7001, lng: 139.7726 },
   "書泉ブックタワー": { lat: 35.6976, lng: 139.7745 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },

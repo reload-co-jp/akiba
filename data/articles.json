@@ -4539,5 +4539,87 @@
       "price": "入場無料（商品購入は別途）",
       "reservation": false
     }
+  },
+  {
+    "id": 114,
+    "title": "【秋葉原】VR交流イベント『超メタフェス2026』が秋葉原UDXで開催",
+    "slug": "chometa-fes-2026-akihabara-udx",
+    "summary": "VRユーザー、VRクリエイター、VR関連企業が集まる『超メタフェス2026』が、2026年5月23日に秋葉原UDXで開催。即売会、企業展示、VRChat公式出展、ステージ、夜の懇親会を展開する。",
+    "content": "## 概要\n\nVRユーザー、VRクリエイター、VR関連企業の交流イベント『超メタフェス2026』が、2026年5月23日に秋葉原UDXで開催されます。会場は秋葉原UDX 2階 アキバ・スクエア、4階 UDXギャラリー、4階 UDXギャラリーネクストです。\n\n昼の部は一般参加無料で、VRChatで活動するクリエイターの即売会、VR関連企業の展示・体験会、ステージイベントなどを実施。夜の部では事前申込制の懇親会も予定されています。\n\n## 内容\n\n2階アキバ・スクエアでは、VRChatで活躍するクリエイターによる即売会を開催。約130スペースに拡大し、退出時には先着でVRChatアバターステッカーやJINGO先生描き下ろしイラストクリアファイルの配布も案内されています。\n\n4階UDXギャラリーでは、VRデバイスやクリエイター支援サービスなどの企業展示を実施。VRChat Inc.の出展、VRChat運営と交流できるコーナー、VRChat Inc.などによるステージイベントも予定されています。ラウンジエリアを利用できる有料チケット『超メタフェスPlus』や、夜の懇親会も用意されます。\n\n## 開催情報\n\n- **会場**: 秋葉原UDX 2F アキバ・スクエア / 4F UDXギャラリー / 4F UDXギャラリーネクスト\n- **住所**: 東京都千代田区外神田4-14-1\n- **日程**: 2026年5月23日\n- **時間**: 昼の部 11:00〜16:00（企業展示エリア・交流エリアは17:00まで） / 夜の部 17:30〜20:30\n- **料金**: 昼の部は無料（ラウンジエリアのみ有料）、夜の部は5,500円（税込）\n- **予約**: 一般参加は事前申込が必要。申込にはVRChat IDが必要\n\n## こんな人におすすめ\n\n- VRChatやメタバース文化のリアルイベントに参加したい方\n- VRクリエイターの即売会を巡りたい方\n- 最新VRデバイスやトラッキング機器を体験したい方\n- 秋葉原UDXで開催される大型交流イベントを探している方",
+    "publishedAt": "2026-05-10",
+    "tags": [
+      "VRChat",
+      "メタバース",
+      "秋葉原UDX"
+    ],
+    "en": {
+      "title": "[Akihabara] VR Community Event \"Chometa Fes 2026\" at Akihabara UDX",
+      "summary": "\"Chometa Fes 2026\", an event bringing together VR users, VR creators, and VR-related companies, will be held at Akihabara UDX on May 23, 2026. It features a creator market, company exhibits, an official VRChat booth, stage events, and an evening meetup.",
+      "content": "## Overview\n\n\"Chometa Fes 2026\", a community event for VR users, VR creators, and VR-related companies, will be held at Akihabara UDX on May 23, 2026. The venues are Akiba Square on the 2nd floor, UDX Gallery on the 4th floor, and UDX Gallery Next on the 4th floor.\n\nThe daytime program is free for general attendees and includes a creator market by VRChat creators, VR-related company exhibits and demos, and stage events. An evening meetup requiring advance registration is also planned.\n\n## Highlights\n\nAt Akiba Square on the 2nd floor, a creator market featuring VRChat creators will be held. The area has expanded to about 130 spaces, and visitors leaving the 2nd-floor market will receive VRChat avatar stickers and a JINGO illustrated clear file while supplies last.\n\nOn the 4th floor at UDX Gallery, companies will exhibit VR devices and creator support services. VRChat Inc. will also exhibit, with a corner where visitors can meet VRChat staff and stage events by VRChat Inc. and others. Paid \"Chometa Fes Plus\" tickets for lounge access and an evening meetup are also available.\n\n## Event Details\n\n- **Venue**: Akihabara UDX 2F Akiba Square / 4F UDX Gallery / 4F UDX Gallery Next\n- **Address**: 4-14-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: May 23, 2026\n- **Hours**: Daytime 11:00–16:00 (company exhibit and exchange areas until 17:00) / Evening 17:30–20:30\n- **Admission**: Daytime free (lounge area paid only); evening meetup ¥5,500 (tax included)\n- **Reservation**: Advance registration is required for general attendees. A VRChat ID is required to apply\n\n## Recommended For\n\n- Those who want to join an in-person VRChat or metaverse culture event\n- Those interested in a VR creator market\n- Those who want to try the latest VR devices and tracking equipment\n- Those looking for a large community event at Akihabara UDX"
+    },
+    "image": {
+      "src": "/images/articles/chometa-fes-2026-akihabara-udx.png",
+      "alt": "超メタフェス2026のキービジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000101057.html"
+    },
+    "sources": [
+      {
+        "label": "超メタフェス2026 公式サイト",
+        "url": "https://vrcmtg.jp/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000021.000101057.html"
+      },
+      {
+        "label": "VRChat Inc. プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000009.000171307.html"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原UDX",
+      "startDate": "2026-05-23",
+      "endDate": "2026-05-23",
+      "price": "昼の部は無料（ラウンジエリアのみ有料）、夜の部は5,500円（税込）",
+      "reservation": true
+    }
+  },
+  {
+    "id": 115,
+    "title": "【秋葉原】コスプレイヤー即売会＆チェキ会「ゲマコス！ vol.11」がゲーマーズで開催",
+    "slug": "gemacos-vol11-akihabara-gamers-2026",
+    "summary": "コスプレイヤーの写真集即売会＆チェキ撮影会「ゲマコス！ 即売会&チェキ会 vol.11」が、2026年6月26日にAKIHABARAゲーマーズ本店6階イベントフロアで開催。憂 Yu、上野、佐倉いすみ、蟹nyan、天音あずさが出演する。",
+    "content": "## 概要\n\nコスプレイヤーの写真集即売会＆チェキ撮影会「ゲマコス！ 即売会&チェキ会 vol.11」が、2026年6月26日にAKIHABARAゲーマーズ本店で開催されます。会場は6階イベントフロアで、時間は18:00から21:00までの予定です。\n\n入場はフリーで、当日は写真集やチェキ券の販売が行われます。出演者は憂 Yuさん、上野さん、佐倉いすみさん、蟹nyanさん、天音あずささんで、司会はジョイまっくすさんです。\n\n## 内容\n\nイベントでは、コスプレイヤーによる写真集やグッズの即売、チェキ撮影会、スマートフォンやカメラでの撮影会を実施します。チェキ券は1枚1,500円（税込）で、単体ショットまたは2ショット撮影、スマートフォン・カメラ撮影などが案内されています。\n\n1分間のラインナップ撮影も予定されており、参加にはラインナップ撮影券1,500円（税込）が必要です。また、6月19日から7月5日まで、AKIHABARAゲーマーズ本店1階特設スペースで出演者の写真集の限定特典付き事前・事後販売も行われます。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店 6Fイベントフロア\n- **住所**: 東京都千代田区外神田1-14-7 外神田一丁目ビル\n- **日程**: 2026年6月26日\n- **時間**: 18:00〜21:00予定\n- **内容**: 写真集即売、チェキ撮影会、スマートフォン・カメラ撮影会、ラインナップ撮影\n- **料金**: 入場無料（写真集・チェキ券・撮影券は別途。チェキ券1枚1,500円、ラインナップ撮影券1,500円）\n- **予約**: 不要。商品・券はなくなり次第終了\n\n## こんな人におすすめ\n\n- コスプレイヤーの写真集即売会に行きたい方\n- チェキ撮影会や撮影イベントを探している方\n- AKIHABARAゲーマーズ本店のイベントをチェックしている方\n- 平日夜に秋葉原で参加できるコスプレ系イベントを探している方",
+    "publishedAt": "2026-05-10",
+    "tags": [
+      "コスプレ",
+      "ゲーマーズ",
+      "撮影会"
+    ],
+    "en": {
+      "title": "[Akihabara] Cosplayer Market and Cheki Event \"Gemacos! vol.11\" at Gamers",
+      "summary": "\"Gemacos! Market & Cheki Event vol.11\", a cosplayer photo book sales and cheki photo event, will be held on June 26, 2026 at the 6th-floor event space of AKIHABARA Gamers Main Store. Guests include Yu, Ueno, Isumi Sakura, Kani nyan, and Azusa Amane.",
+      "content": "## Overview\n\n\"Gemacos! Market & Cheki Event vol.11\", a cosplayer photo book sales and cheki photo event, will be held at AKIHABARA Gamers Main Store on June 26, 2026. The venue is the 6th-floor event space, and the event is scheduled for 18:00 to 21:00.\n\nAdmission is free, with photo books and cheki tickets sold on the day. Featured guests are Yu, Ueno, Isumi Sakura, Kani nyan, and Azusa Amane, with Joy Max as MC.\n\n## Highlights\n\nThe event includes photo book and merchandise sales by cosplayers, cheki photo sessions, and smartphone or camera photo sessions. Cheki tickets are ¥1,500 each, with options including solo shots, two-shot photos, and smartphone or camera photography.\n\nA one-minute lineup photo session is also planned, requiring a lineup photo ticket priced at ¥1,500. From June 19 to July 5, limited-bonus advance and post-event sales of the participating cosplayers' photo books will also be held at the 1st-floor special space of AKIHABARA Gamers Main Store.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers Main Store, 6F Event Floor\n- **Address**: Sotokanda Icchome Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: June 26, 2026\n- **Hours**: 18:00–21:00 scheduled\n- **Contents**: Photo book sales, cheki photo sessions, smartphone/camera photo sessions, lineup photo session\n- **Admission**: Free entry (photo books, cheki tickets, and photo tickets sold separately; cheki tickets ¥1,500 each, lineup photo ticket ¥1,500)\n- **Reservation**: Not required. Products and tickets are available while supplies last\n\n## Recommended For\n\n- Those who want to attend a cosplayer photo book market\n- Those looking for cheki or photo session events\n- Those following events at AKIHABARA Gamers Main Store\n- Those looking for a cosplay-related event in Akihabara on a weekday evening"
+    },
+    "image": {
+      "src": "/images/articles/gemacos-vol11-akihabara-gamers-2026.jpg",
+      "alt": "ゲマコス！ 即売会&チェキ会 vol.11の告知ビジュアル",
+      "sourceLabel": "ゲーマーズ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7524"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式イベントページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7524"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-26",
+      "price": "入場無料（写真集・チェキ券・撮影券は別途。チェキ券1枚1,500円、ラインナップ撮影券1,500円）",
+      "reservation": false
+    }
   }
 ]
