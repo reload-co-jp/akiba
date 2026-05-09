@@ -14,7 +14,7 @@ Read [references/article-format.md](references/article-format.md) before editing
 1. Identify the event source.
 2. Confirm the event facts from primary or clearly attributable sources.
 3. Download a usable thumbnail image when available.
-4. Add or update the article entry in `data/articles.json`.
+4. Add or update the article entry in `data/articles.json`, including the `en` translation field.
 5. Verify the article route and metadata with `pnpm build`.
 
 ## Source Rules
@@ -38,6 +38,14 @@ Read [references/article-format.md](references/article-format.md) before editing
 - Put actionable event facts in both `content` and `event`.
 - Add `sources` for every article. Use the clearest human-readable label you can.
 
+## Translation Rules
+
+Every new article must include an `en` field. See the section heading mapping and rules in [references/article-format.md](references/article-format.md).
+
+- Translate all facts accurately; do not omit or invent details.
+- Keep bullet structure and formatting consistent with the Japanese `content`.
+- Do not translate `tags`, `event.*`, `image.alt`, or `sources`.
+
 ## Image Rules
 
 - Save article images under `public/images/articles/`.
@@ -53,6 +61,7 @@ Read [references/article-format.md](references/article-format.md) before editing
 - Set `publishedAt` to the article publish date used by the site.
 - Keep `tags` short and scannable.
 - Set `event.reservation` to `true` only when reservation, ticket purchase, or advance registration is actually required or strongly indicated.
+- Include `en` field with translated `title`, `summary`, and `content`.
 
 ## Verification
 

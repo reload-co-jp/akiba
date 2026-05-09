@@ -67,5 +67,6 @@ For each selected candidate, follow `$event-article-writer`:
 - Save article images under `public/images/articles/`.
 - Use placeholder handling only when no usable image exists.
 - Add source URLs.
+- Include `en` field with English translations of `title`, `summary`, and `content`.
 - Update map coordinates in `components/events-map.tsx` when the event venue should appear on `/events`.
 - Run `pnpm build` after edits.
