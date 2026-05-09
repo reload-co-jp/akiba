@@ -42,6 +42,14 @@ const sitemap = (): MetadataRoute.Sitemap => {
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),
+    ...articles
+      .filter((article) => article.en)
+      .map((article) => ({
+        url: absoluteUrl(`/en/articles/${article.slug}/`),
+        lastModified: new Date(article.publishedAt),
+        changeFrequency: "weekly" as const,
+        priority: 0.8,
+      })),
   ]
 }
 

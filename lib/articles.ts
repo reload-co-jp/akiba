@@ -1,5 +1,13 @@
 import articlesData from "../data/articles.json"
 
+export type Lang = "ja" | "en"
+
+export type LocaleContent = {
+  title: string
+  summary: string
+  content: string
+}
+
 export type Article = {
   id: number
   title: string
@@ -8,6 +16,7 @@ export type Article = {
   content: string
   publishedAt: string
   tags: string[]
+  en?: LocaleContent
   image?: {
     src: string
     alt: string
@@ -25,6 +34,11 @@ export type Article = {
     price: string
     reservation: boolean
   }
+}
+
+export const getLocalizedContent = (article: Article, lang: Lang): LocaleContent => {
+  if (lang === "en" && article.en) return article.en
+  return { title: article.title, summary: article.summary, content: article.content }
 }
 
 export const placeholderImage = {
@@ -81,6 +95,10 @@ export const formatDateTime = (article: Article): string => {
 
 export const getAllSlugs = (): string[] => {
   return articlesData.map((a) => a.slug)
+}
+
+export const getEnglishSlugs = (): string[] => {
+  return articlesData.filter((a) => a.en).map((a) => a.slug)
 }
 
 export const getOngoingEvents = (today: string): Article[] => {

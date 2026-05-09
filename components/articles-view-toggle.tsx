@@ -4,11 +4,13 @@ import { useState } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
-import { formatDate, getArticleImage } from "lib/articles"
+import { formatDate, getArticleImage, getLocalizedContent } from "lib/articles"
+import { useLang } from "./language-provider"
 
 export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const [view, setView] = useState<"grid" | "list">("grid")
   const searchParams = useSearchParams()
+  const { lang } = useLang()
   const selectedTag = searchParams.get("tag")
   const visibleArticles = selectedTag
     ? articles.filter((article) => article.tags.includes(selectedTag))
@@ -52,33 +54,36 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
         </button>
       </div>
       <ul className={`article-list${view === "list" ? " article-list--list" : ""}`}>
-        {visibleArticles.map((article) => (
-          <li key={article.id}>
-            <Link href={`/articles/${article.slug}/`} className="article-card-link">
-              <article className="article-card">
-                <img
-                  src={getArticleImage(article).src}
-                  alt={getArticleImage(article).alt}
-                  className="article-card__image"
-                />
-                <div className="article-card__body">
-                  <div className="article-card__tags">
-                    {article.tags.map((tag) => (
-                      <span key={tag} className="article-card__tag">
-                        {tag}
-                      </span>
-                    ))}
+        {visibleArticles.map((article) => {
+          const localized = getLocalizedContent(article, lang)
+          return (
+            <li key={article.id}>
+              <Link href={`/articles/${article.slug}/`} className="article-card-link">
+                <article className="article-card">
+                  <img
+                    src={getArticleImage(article).src}
+                    alt={getArticleImage(article).alt}
+                    className="article-card__image"
+                  />
+                  <div className="article-card__body">
+                    <div className="article-card__tags">
+                      {article.tags.map((tag) => (
+                        <span key={tag} className="article-card__tag">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <h2 className="article-card__title">{localized.title}</h2>
+                    <p className="article-card__summary">{localized.summary}</p>
+                    <time className="article-card__date" dateTime={article.publishedAt}>
+                      {formatDate(article.publishedAt)}
+                    </time>
                   </div>
-                  <h2 className="article-card__title">{article.title}</h2>
-                  <p className="article-card__summary">{article.summary}</p>
-                  <time className="article-card__date" dateTime={article.publishedAt}>
-                    {formatDate(article.publishedAt)}
-                  </time>
-                </div>
-              </article>
-            </Link>
-          </li>
-        ))}
+                </article>
+              </Link>
+            </li>
+          )
+        })}
       </ul>
     </>
   )

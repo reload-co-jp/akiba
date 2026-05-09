@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Script from "next/script"
 import { absoluteUrl, siteDescription, siteName, siteUrl } from "lib/site"
+import { LanguageProvider } from "components/language-provider"
 import "./reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
@@ -83,6 +84,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         />
       </head>
       <body>
+        <LanguageProvider>
         {isProduction && (
           <>
             <Script
@@ -131,6 +133,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             </p>
           </div>
         </footer>
+        </LanguageProvider>
       </body>
     </html>
   )
