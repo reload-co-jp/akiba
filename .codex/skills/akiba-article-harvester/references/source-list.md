@@ -42,6 +42,10 @@ Use these pages for recurring Akihabara article harvesting.
   - URL: https://www.walkerplus.com/event_list/ar0313/sc309922d/
   - Notes: useful for workshops and local events. Individual pages may be enough when source attribution is clear; still search official/ticket page.
 
+- X.com (Twitter) Akihabara search
+  - URL: https://x.com/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F+%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88&f=live
+  - Notes: リアルタイム発見に強い。公式アカウント投稿・速報イベント告知の一次発見源として使う。ツイート単体は信頼性低いので、公式サイト・公式SNSアカウントへの裏付け必須。`f=live` で新着順。キーワード例: `秋葉原 コラボ`、`秋葉原 オープン`、`アキバ イベント`。
+
 ## Quick Search Patterns
 
 - `rg -n "<event id>|<event title>|<venue>" data/articles.json`
