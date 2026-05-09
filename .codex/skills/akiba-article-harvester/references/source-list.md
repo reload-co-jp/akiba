@@ -5,7 +5,7 @@ Use these pages for recurring Akihabara article harvesting.
 ## Primary / Venue Sources
 
 - アトレ秋葉原 news
-  - URL: https://www.atre.co.jp/index.php/akihabara/news
+  - URL: https://www.atre.co.jp/akihabara/news/
   - Notes: strong source for Atre collaborations, pop-ups, store campaigns, building wraps. Prefer individual `/news/{id}` pages.
 
 - 書泉 event
