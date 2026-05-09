@@ -97,6 +97,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 gtag('config', '${googleAnalyticsId}');
               `}
             </Script>
+            <Script
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6542845006087970"
+              strategy="afterInteractive"
+              crossOrigin="anonymous"
+            />
           </>
         )}
         <header className="site-header">
