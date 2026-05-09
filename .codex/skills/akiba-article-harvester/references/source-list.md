@@ -26,6 +26,10 @@ Use these pages for recurring Akihabara article harvesting.
   - URL: https://prtimes.jp/topics/keywords/%E7%A7%8B%E8%91%89%E5%8E%9F
   - Notes: good discovery for openings, campaigns, pop-ups. Prefer company/event official page after discovery.
 
+- Google News RSS Akihabara search
+  - URL: https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja
+  - Notes: broad news discovery for Akihabara openings, closures, campaigns, incidents, and local changes. Treat as discovery only; open the linked article and prefer primary or official sources before writing.
+
 - Enjoy Tokyo Akihabara area
   - URL: https://www.enjoytokyo.jp/event/list/area1319/
   - Notes: event discovery. Confirm against official pages when possible.
