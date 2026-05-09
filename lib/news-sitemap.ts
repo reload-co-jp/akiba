@@ -1,8 +1,7 @@
 import type { Article } from "lib/articles"
 import { getAllArticles, getArticlePublishedIso } from "lib/articles"
-import { absoluteUrl, siteName } from "lib/site"
+import { absoluteUrl, siteName, siteNameEn } from "lib/site"
 
-const newsPublicationLanguage = "ja"
 const newsWindowMs = 48 * 60 * 60 * 1000
 
 const escapeXml = (s: string) =>
@@ -28,17 +27,16 @@ export const getRecentNewsArticles = (now = new Date()) => {
 }
 
 export const buildNewsSitemapXml = (articles = getRecentNewsArticles()) => {
-  const urls = articles
+  const jaUrls = articles
     .map((article) => {
       const publicationDate = getArticlePublicationDate(article)
-
       return `
   <url>
     <loc>${absoluteUrl(`/articles/${article.slug}/`)}</loc>
     <news:news>
       <news:publication>
         <news:name>${escapeXml(siteName)}</news:name>
-        <news:language>${newsPublicationLanguage}</news:language>
+        <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>${escapeXml(publicationDate)}</news:publication_date>
       <news:title>${escapeXml(article.title)}</news:title>
@@ -47,9 +45,28 @@ export const buildNewsSitemapXml = (articles = getRecentNewsArticles()) => {
     })
     .join("")
 
+  const enUrls = articles
+    .filter((article) => article.en)
+    .map((article) => {
+      const publicationDate = getArticlePublicationDate(article)
+      return `
+  <url>
+    <loc>${absoluteUrl(`/en/articles/${article.slug}/`)}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>${escapeXml(siteNameEn)}</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>${escapeXml(publicationDate)}</news:publication_date>
+      <news:title>${escapeXml(article.en!.title)}</news:title>
+    </news:news>
+  </url>`
+    })
+    .join("")
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">${urls}
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">${jaUrls}${enUrls}
 </urlset>`
 }
 

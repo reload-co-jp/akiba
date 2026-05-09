@@ -2,7 +2,7 @@ import Link from "next/link"
 import Script from "next/script"
 import { absoluteUrl, siteDescription, siteName, siteUrl } from "lib/site"
 import { LanguageProvider } from "components/language-provider"
-import "./reset.css"
+import "../reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
 const isProduction = process.env.NODE_ENV === "production"
@@ -43,7 +43,7 @@ export const metadata = {
   },
 }
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => {
+const JaLayout = ({ children }: { children: React.ReactNode }) => {
   const siteJsonLd = [
     {
       "@context": "https://schema.org",
@@ -138,4 +138,5 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     </html>
   )
 }
-export default RootLayout
+
+export default JaLayout

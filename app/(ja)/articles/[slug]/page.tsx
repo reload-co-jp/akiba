@@ -6,7 +6,7 @@ import {
   formatDate,
   formatDateTime,
   getAllArticles,
-  getEnglishSlugs,
+  getAllSlugs,
   getArticleBySlug,
   getArticleImage,
   getArticlePublishedIso,
@@ -19,29 +19,32 @@ type Props = {
 }
 
 export const generateStaticParams = () => {
-  return getEnglishSlugs().map((slug) => ({ slug }))
+  return getAllSlugs().map((slug) => ({ slug }))
 }
 
 export const generateMetadata = async ({ params }: Props) => {
   const { slug } = await params
   const article = getArticleBySlug(slug)
-  if (!article?.en) return {}
+  if (!article) return {}
   const image = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
   return {
-    title: article.en.title,
-    description: article.en.summary,
+    title: article.title,
+    description: article.summary,
     alternates: {
-      canonical: `/en/articles/${slug}/`,
-      languages: {
-        "ja": `/articles/${slug}/`,
-        "en": `/en/articles/${slug}/`,
-      },
+      canonical: `/articles/${slug}/`,
+      ...(article.en && {
+        languages: {
+          "x-default": `/articles/${slug}/`,
+          "ja": `/articles/${slug}/`,
+          "en": `/en/articles/${slug}/`,
+        },
+      }),
     },
     openGraph: {
-      title: article.en.title,
-      description: article.en.summary,
-      url: `/en/articles/${slug}/`,
+      title: article.title,
+      description: article.summary,
+      url: `/articles/${slug}/`,
       images: [{ url: image.src, alt: image.alt }],
       type: "article",
       publishedTime: publishedAt,
@@ -50,8 +53,8 @@ export const generateMetadata = async ({ params }: Props) => {
     },
     twitter: {
       card: "summary_large_image",
-      title: article.en.title,
-      description: article.en.summary,
+      title: article.title,
+      description: article.summary,
       images: [image.src],
     },
   }
@@ -60,10 +63,9 @@ export const generateMetadata = async ({ params }: Props) => {
 const Page = async ({ params }: Props) => {
   const { slug } = await params
   const article = getArticleBySlug(slug)
-  if (!article?.en) notFound()
+  if (!article) notFound()
 
-  const en = article.en
-  const contentHtml = await marked(en.content)
+  const contentHtml = await marked(article.content)
   const relatedArticles = getAllArticles()
     .filter((candidate) => candidate.slug !== article.slug)
     .map((candidate) => ({
@@ -78,7 +80,7 @@ const Page = async ({ params }: Props) => {
     )
     .slice(0, 3)
 
-  const articleUrl = absoluteUrl(`/en/articles/${slug}/`)
+  const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
   const isPlaceholderImage = articleImage.src === placeholderImage.src
@@ -87,8 +89,8 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
-    headline: en.title,
-    description: en.summary,
+    headline: article.title,
+    description: article.summary,
     keywords: article.tags.join(", "),
     datePublished: publishedAt,
     dateModified: publishedAt,
@@ -96,12 +98,12 @@ const Page = async ({ params }: Props) => {
     url: articleUrl,
     author: {
       "@type": "Organization",
-      name: "Akiba Live",
+      name: "アキバLive",
       url: absoluteUrl("/"),
     },
     publisher: {
       "@type": "Organization",
-      name: "Akiba Live",
+      name: "アキバLive",
       url: absoluteUrl("/"),
       logo: {
         "@type": "ImageObject",
@@ -117,8 +119,8 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: en.title, item: articleUrl },
+      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: article.title, item: articleUrl },
     ],
   }
 
@@ -133,13 +135,13 @@ const Page = async ({ params }: Props) => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
     <article style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}>
-      <nav aria-label="Breadcrumb" className="breadcrumb">
+      <nav aria-label="パンくずリスト" className="breadcrumb">
         <ol className="breadcrumb__list">
           <li className="breadcrumb__item">
-            <Link href="/">Home</Link>
+            <Link href="/">ホーム</Link>
           </li>
           <li className="breadcrumb__item breadcrumb__item--current" aria-current="page">
-            {en.title}
+            {article.title}
           </li>
         </ol>
       </nav>
@@ -152,11 +154,13 @@ const Page = async ({ params }: Props) => {
         ))}
       </div>
 
-      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: ".75rem" }}>
-        <Link href={`/articles/${slug}/`} className="language-toggle">
-          日本語で読む
-        </Link>
-      </div>
+      {article.en && (
+        <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: ".75rem" }}>
+          <Link href={`/en/articles/${slug}/`} className="language-toggle">
+            Read in English
+          </Link>
+        </div>
+      )}
 
       <h1
         style={{
@@ -167,7 +171,7 @@ const Page = async ({ params }: Props) => {
           lineHeight: "1.4",
         }}
       >
-        {en.title}
+        {article.title}
       </h1>
 
       <time
@@ -185,7 +189,7 @@ const Page = async ({ params }: Props) => {
         )}
         {article.image?.sourceLabel && (
           <figcaption>
-            Image:{" "}
+            画像:{" "}
             {article.image.sourceUrl ? (
               <a href={article.image.sourceUrl} rel="noopener noreferrer" target="_blank">
                 {article.image.sourceLabel}
@@ -209,19 +213,19 @@ const Page = async ({ params }: Props) => {
           }}
         >
           <h2 style={{ fontSize: ".875rem", fontWeight: "bold", color: "#b94a3a", margin: "0 0 .75rem" }}>
-            Event Info
+            イベント情報
           </h2>
           <dl style={{ margin: 0, display: "grid", gridTemplateColumns: "auto 1fr", gap: ".25rem .75rem" }}>
-            <dt style={{ color: "#8a6f63" }}>Venue</dt>
+            <dt style={{ color: "#8a6f63" }}>会場</dt>
             <dd style={{ color: "#24312f", margin: 0 }}>{article.event.venue}</dd>
-            <dt style={{ color: "#8a6f63" }}>Dates</dt>
+            <dt style={{ color: "#8a6f63" }}>期間</dt>
             <dd style={{ color: "#24312f", margin: 0 }}>
-              {article.event.startDate} – {article.event.endDate}
+              {article.event.startDate} 〜 {article.event.endDate}
             </dd>
-            <dt style={{ color: "#8a6f63" }}>Price</dt>
+            <dt style={{ color: "#8a6f63" }}>料金</dt>
             <dd style={{ color: "#24312f", margin: 0 }}>{article.event.price}</dd>
-            <dt style={{ color: "#8a6f63" }}>Reservation</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.reservation ? "Required" : "Not required"}</dd>
+            <dt style={{ color: "#8a6f63" }}>予約</dt>
+            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.reservation ? "要予約" : "不要"}</dd>
           </dl>
         </div>
       )}
@@ -240,7 +244,7 @@ const Page = async ({ params }: Props) => {
           }}
         >
           <h2 id="article-sources-title" style={{ fontSize: ".875rem", fontWeight: "bold", color: "#b94a3a", margin: "0 0 .75rem" }}>
-            Sources
+            情報ソース
           </h2>
           <ul style={{ color: "#3f5851", fontSize: ".875rem", lineHeight: "1.7", margin: 0, paddingLeft: "1.25rem" }}>
             {article.sources.map((source) => (
@@ -259,7 +263,7 @@ const Page = async ({ params }: Props) => {
       )}
 
       <section className="article-tags-nav" aria-labelledby="article-tags-title">
-        <h2 id="article-tags-title">Tags</h2>
+        <h2 id="article-tags-title">タグ</h2>
         <div className="article-tags-nav__list">
           {article.tags.map((tag) => (
             <Link key={tag} href={{ pathname: "/articles/", query: { tag } }} className="article-tags-nav__item">
@@ -273,7 +277,7 @@ const Page = async ({ params }: Props) => {
         <section className="related-articles" aria-labelledby="related-articles-title">
           <div className="home-articles__header">
             <p className="home-articles__kicker">Related</p>
-            <h2 id="related-articles-title" className="home-articles__title">Related Articles</h2>
+            <h2 id="related-articles-title" className="home-articles__title">類似記事</h2>
           </div>
           <ul className="article-list related-articles__list">
             {relatedArticles.map(({ article: relatedArticle }) => (
