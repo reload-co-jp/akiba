@@ -4730,5 +4730,44 @@
       "price": "予約1,400円、当日1,900円、女性0円（各別途1ドリンク700円）",
       "reservation": true
     }
+  },
+  {
+    "id": 119,
+    "title": "【秋葉原】「アナログオーディオフェア2026」が秋葉原・損保会館で開催",
+    "slug": "analog-audio-fair-2026-akihabara",
+    "summary": "アナログ機器やレコード関連製品を展示・販売する「アナログオーディオフェア2026」が、2026年5月30日・31日に秋葉原・損保会館で開催。入場料は500円で2日間有効、学生と30歳以下は証明書提示で無料。",
+    "content": "## 概要\n\nアナログ機器、アクセサリー、レコード関連製品を展示・販売する「アナログオーディオフェア2026」が、2026年5月30日と31日に秋葉原・損保会館で開催されます。\n\n会場は東京都千代田区神田淡路町2-9の損保会館。JR秋葉原駅電気街口、JR御茶ノ水駅聖橋口から徒歩5分の場所です。\n\n## 内容\n\n公式サイトでは、アナログレコード演奏を長く楽しみたい、アナログオーディオを多くの人に知ってもらいたい、という趣旨のフェアとして案内されています。アナログプレーヤー、カートリッジ、関連アクセサリー、レコードなどに関心がある人向けの展示・販売イベントです。\n\n入場料は500円（税込）で、2日間有効。学生は学生証、30歳以下は年齢確認書類を提示すると無料で入場できます。PHILE WEBの記事でも、アナログ再生関連ブランドの出展や聴き比べを楽しめるイベントとして紹介されています。\n\n## 開催情報\n\n- **会場**: 秋葉原・損保会館\n- **住所**: 東京都千代田区神田淡路町2-9\n- **期間**: 2026年5月30日〜5月31日\n- **時間**: 5月30日 12:00〜19:00 / 5月31日 10:00〜18:00\n- **料金**: 500円（税込、2日間有効）※学生・30歳以下は証明書提示で無料\n- **予約**: 公式サイトで事前予約案内なし\n\n## こんな人におすすめ\n\n- アナログレコードやオーディオ機器が好きな方\n- プレーヤー、カートリッジ、アクセサリーを比較したい方\n- 秋葉原・御茶ノ水周辺で週末の展示イベントを探している方\n- 学生や30歳以下の無料入場対象でオーディオを体験したい方",
+    "publishedAt": "2026-05-12",
+    "tags": [
+      "オーディオ",
+      "展示会",
+      "秋葉原"
+    ],
+    "en": {
+      "title": "[Akihabara] \"Analog Audio Fair 2026\" at Sonpo Kaikan in Akihabara",
+      "summary": "\"Analog Audio Fair 2026\", an exhibition and sales event for analog audio equipment and record-related products, will be held at Sonpo Kaikan in Akihabara on May 30 and 31, 2026. Admission is ¥500 and valid for both days; students and visitors age 30 or younger can enter free with proof.",
+      "content": "## Overview\n\n\"Analog Audio Fair 2026\", an exhibition and sales event for analog audio equipment, accessories, and record-related products, will be held at Sonpo Kaikan in Akihabara on May 30 and 31, 2026.\n\nThe venue is Sonpo Kaikan at 2-9 Kanda Awajicho, Chiyoda-ku, Tokyo. It is about a five-minute walk from JR Akihabara Station's Electric Town Exit and JR Ochanomizu Station's Hijiribashi Exit.\n\n## Highlights\n\nThe official site introduces the fair as an event created to help people continue enjoying high-quality analog record playback and to introduce analog audio to a wider audience. It is aimed at visitors interested in analog players, cartridges, related accessories, records, and similar products.\n\nAdmission is ¥500 (tax included) and valid for both days. Students can enter free by showing a student ID, and visitors age 30 or younger can enter free by showing proof of age. PHILE WEB also describes the event as an opportunity to see analog playback brands and enjoy listening comparisons.\n\n## Event Details\n\n- **Venue**: Sonpo Kaikan, Akihabara\n- **Address**: 2-9 Kanda Awajicho, Chiyoda-ku, Tokyo\n- **Dates**: May 30–31, 2026\n- **Hours**: May 30, 12:00–19:00 / May 31, 10:00–18:00\n- **Admission**: ¥500 (tax included, valid for both days); free for students and visitors age 30 or younger with proof\n- **Reservation**: No advance reservation is listed on the official site\n\n## Recommended For\n\n- Fans of analog records and audio equipment\n- Those who want to compare players, cartridges, and accessories\n- Those looking for a weekend exhibition around Akihabara and Ochanomizu\n- Students and visitors age 30 or younger who can attend free and experience audio gear"
+    },
+    "sources": [
+      {
+        "label": "アナログオーディオフェア2026 公式サイト",
+        "url": "https://analogaudio-fair.com/"
+      },
+      {
+        "label": "アナログオーディオフェア2026 アクセス",
+        "url": "https://analogaudio-fair.com/access/"
+      },
+      {
+        "label": "PHILE WEB 記事",
+        "url": "https://www.phileweb.com/news/audio/202604/15/27559.html"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原・損保会館",
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-31",
+      "price": "500円（税込、2日間有効）※学生・30歳以下は証明書提示で無料",
+      "reservation": false
+    }
   }
 ]
