@@ -4658,5 +4658,42 @@
       "price": "対象商品予約購入（初回限定盤Q 2,200円、通常盤E 1,500円）",
       "reservation": true
     }
+  },
+  {
+    "id": 117,
+    "title": "【秋葉原】アイドルライブ『SeeKa IDOL FESTIVAL』が秋葉原Venusで開催",
+    "slug": "seeka-idol-festival-akihabara-venus-2026",
+    "summary": "アイドルライブ『SeeKa IDOL FESTIVAL』が、2026年5月17日に秋葉原Venusで開催。あいどっぐる、amabile、伊澄朋夏、気まぐれモンスター、空色Glitterなどが出演し、前方エリアと通常エリアのチケットが用意される。",
+    "content": "## 概要\n\nアイドルライブ『SeeKa IDOL FESTIVAL』が、2026年5月17日に秋葉原Venusで開催されます。会場は東京都千代田区外神田4丁目4-3 SILビル6階です。\n\n夕方から夜帯にかけてのライブイベントで、主催元予約必須のTIGETチケット制。前方(VIP)エリアと通常エリアの2券種が案内されています。\n\n## 内容\n\n出演は、あいどっぐる、amabile、伊澄朋夏、気まぐれモンスター、桜かれん、空色Glitter、#ワールドカオス、ひとみこ、プリンセスは眠らないっ！、Fruit Fruit、MARUMON!、港区よぞら、ゆあどーるなど。TIGETページのメタ情報では、永井絵梨沙（Rhyz Beat）、はっぴーせっと、Refugeも出演者として掲載されています。\n\n前売りは前方(VIP)エリアが3,000円、通常エリアが2,000円。当日は各500円増しで、別途1ドリンク600円が必要です。再入場無料、出入り自由と案内されています。\n\n## 開催情報\n\n- **会場**: 秋葉原Venus\n- **住所**: 東京都千代田区外神田4丁目4-3 SILビル6階\n- **日程**: 2026年5月17日\n- **時間**: 開場15:30 / 開演15:45\n- **料金**: 前売 前方(VIP)エリア3,000円、通常エリア2,000円（当日各+500円、別途1ドリンク600円）\n- **予約**: TIGETで主催元予約必須。受付開始は2026年5月11日12:30\n\n## こんな人におすすめ\n\n- 秋葉原で週末のアイドルライブを探している方\n- 複数組が出演する対バンイベントを楽しみたい方\n- 秋葉原Venusのライブ予定をチェックしている方\n- 再入場可能な夜帯イベントに参加したい方",
+    "publishedAt": "2026-05-11",
+    "tags": [
+      "アイドル",
+      "ライブ",
+      "秋葉原Venus"
+    ],
+    "en": {
+      "title": "[Akihabara] Idol Live Event \"SeeKa IDOL FESTIVAL\" at Akihabara Venus",
+      "summary": "\"SeeKa IDOL FESTIVAL\", an idol live event, will be held at Akihabara Venus on May 17, 2026. Performers include Aidoggle, amabile, Tomoka Izumi, Kimagure Monster, and Sorairo Glitter, with front-area and general-area ticket options available.",
+      "content": "## Overview\n\n\"SeeKa IDOL FESTIVAL\", an idol live event, will be held at Akihabara Venus on May 17, 2026. The venue is SIL Building 6F, 4-4-3 Sotokanda, Chiyoda-ku, Tokyo.\n\nThis evening live event requires reservation through TIGET. Two ticket types are listed: front (VIP) area and general area.\n\n## Highlights\n\nScheduled performers include Aidoggle, amabile, Tomoka Izumi, Kimagure Monster, Karen Sakura, Sorairo Glitter, #World Chaos, Hitomiko, Princess wa Nemuranai!, Fruit Fruit, MARUMON!, Yozora Minato-ku, and Yuadole. TIGET metadata also lists Erisa Nagai (Rhyz Beat), Happy Set, and Refuge as performers.\n\nAdvance tickets are ¥3,000 for the front (VIP) area and ¥2,000 for the general area. Same-day tickets are ¥500 higher for each category, and a separate ¥600 drink charge is required. Re-entry is free, and attendees may come and go during the event.\n\n## Event Details\n\n- **Venue**: Akihabara Venus\n- **Address**: SIL Building 6F, 4-4-3 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: May 17, 2026\n- **Hours**: Doors open 15:30 / Starts 15:45\n- **Admission**: Advance front (VIP) area ¥3,000; general area ¥2,000 (same-day +¥500 each; separate drink charge ¥600)\n- **Reservation**: Reservation through TIGET is required. Ticket reception starts May 11, 2026 at 12:30\n\n## Recommended For\n\n- Those looking for a weekend idol live event in Akihabara\n- Fans who enjoy multi-artist idol lineups\n- Those following live schedules at Akihabara Venus\n- Those looking for an evening event with re-entry allowed"
+    },
+    "image": {
+      "src": "/images/articles/seeka-idol-festival-akihabara-venus-2026.jpg",
+      "alt": "SeeKa IDOL FESTIVALの告知ビジュアル",
+      "sourceLabel": "TIGET",
+      "sourceUrl": "https://tiget.net/events/488912"
+    },
+    "sources": [
+      {
+        "label": "TIGET イベントページ",
+        "url": "https://tiget.net/events/488912"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原Venus",
+      "startDate": "2026-05-17",
+      "endDate": "2026-05-17",
+      "price": "前売 前方(VIP)エリア3,000円、通常エリア2,000円（当日各+500円、別途1ドリンク600円）",
+      "reservation": true
+    }
   }
 ]
