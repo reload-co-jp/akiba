@@ -44,6 +44,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "キュアメイドカフェ": { lat: 35.6982, lng: 139.771 },
   "AKIHABARAゲーマーズ本店": { lat: 35.699, lng: 139.7714 },
   "秋葉原Venus": { lat: 35.701, lng: 139.7716 },
+  "秋葉原COSMICLAB": { lat: 35.7021, lng: 139.7715 },
   "アニメイト秋葉原2号館 7F": { lat: 35.6997, lng: 139.7714 },
   "アニメイト秋葉原ANNEX": { lat: 35.7001, lng: 139.7714 },
   "TOPPA!!! BASE AKIBA": { lat: 35.6984, lng: 139.773 },
