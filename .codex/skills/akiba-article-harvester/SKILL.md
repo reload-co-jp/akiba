@@ -15,7 +15,7 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 2. Browse the requested source page, or all source pages when the user asks for broad harvesting.
 3. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site.
 4. Check duplicates in `data/articles.json` by title, slug, event name, source URL, venue/date combination, and recognizable campaign names.
-5. For each new candidate, open the primary source when possible and confirm date, venue, price, reservation/ticket rules, and image.
+5. For each new candidate, open the primary source when possible and confirm date, venue, price, reservation/ticket rules, and image. Keep every source page used to find or confirm the candidate.
 6. Add the selected article(s) following `$event-article-writer` rules and verify with `pnpm build`.
 
 ## Candidate Rules
@@ -38,7 +38,16 @@ Before writing:
 - Search existing article data with `rg -n "<event keyword>|<venue>|<source id>" data/articles.json`.
 - Compare normalized titles: remove brackets, quote marks, 「開催」, date suffixes, and campaign subtitles.
 - Compare source URLs and event IDs such as WalkerPlus `/event/ar0313e.../`, LivePocket `/e/...`, Atre `/news/...`.
-- If same event exists but new source has better facts, update the existing article only when user asked for refresh; otherwise report duplicate.
+- If same event exists, do not create another article. Add any newly found source URL to the existing article's `sources` array when it is not already present, then report the duplicate. Only update article facts/content when the user asked for refresh.
+
+## Source Recording
+
+- Every article created through this skill must keep discovery and confirmation sources in `sources`.
+- Save all source pages actually used: source-list/discovery page, aggregator page, primary/official page, ticket page, venue page, press release, and official SNS page when it confirms facts.
+- Prefer putting primary/official sources first, then ticket/venue pages, then aggregators/discovery pages.
+- When the same event is found from multiple sources, keep multiple entries in `sources`; do not replace the earlier source.
+- Deduplicate sources by normalized URL. Ignore trailing slashes, tracking parameters, and obvious mobile/desktop variants.
+- Use clear labels such as `公式サイト`, `TIGET イベントページ`, `アトレ秋葉原 公式ニュース`, `PR TIMES プレスリリース`, or `Collabo Cafe 記事`.
 
 ## Source Priority
 

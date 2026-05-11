@@ -11,7 +11,7 @@ Read [references/article-format.md](references/article-format.md) before editing
 
 ## Workflow
 
-1. Identify the event source.
+1. Identify every event source used for discovery and fact confirmation.
 2. Confirm the event facts from primary or clearly attributable sources.
 3. Download a usable thumbnail image when available.
 4. Add or update the article entry in `data/articles.json`, including the `en` translation field.
@@ -21,7 +21,9 @@ Read [references/article-format.md](references/article-format.md) before editing
 
 - Browse the web for event details. Event dates, prices, venues, and reservation rules are time-sensitive.
 - Prefer official event sites, official ticketing pages, official SNS, venue pages, and primary press releases.
-- If the direct source blocks scraping or hides details behind JavaScript, use a reliable secondary page that clearly attributes the event and keep the original page in `sources` when possible.
+- If the direct source blocks scraping or hides details behind JavaScript, use a reliable secondary page that clearly attributes the event and keep both the original page and the secondary page in `sources` when possible.
+- Keep every source page used to find or confirm the article in `sources`. If multiple sources point to the same event, save all non-duplicate source URLs rather than choosing only one.
+- When updating an existing article because a duplicate was found from a new source, append the new source to `sources` if absent. Do not rewrite article facts unless the user asked for refresh or the new source corrects a clear error.
 - Keep dates explicit in `YYYY-MM-DD` format inside JSON.
 - Do not invent missing facts. Omit or soften claims when the source is unclear.
 
@@ -36,7 +38,7 @@ Read [references/article-format.md](references/article-format.md) before editing
   - `## 開催情報`
   - `## こんな人におすすめ`
 - Put actionable event facts in both `content` and `event`.
-- Add `sources` for every article. Use the clearest human-readable label you can.
+- Add `sources` for every article. Use the clearest human-readable label you can. Order primary/official sources first, then ticket/venue pages, then aggregators or discovery sources.
 
 ## Translation Rules
 

@@ -47,6 +47,9 @@ Use these files when creating or updating event articles:
 ## Notes
 
 - `image` and `sources` are optional in TypeScript, but event articles in this repo should include them whenever possible.
+- `sources` stores every source page used while harvesting or writing: discovery pages, aggregators, official pages, ticket pages, venue pages, press releases, and official SNS pages when they confirm facts.
+- When the same event is discovered from multiple sources, keep multiple `sources` entries. Deduplicate only exact or normalized URL duplicates.
+- Order `sources` by reliability: primary/official, ticket/venue, press release, aggregator/discovery.
 - `event.venue` can include floor information when it is part of the source listing.
 - `price` is display text, not normalized numeric data.
 - `reservation` is a boolean summary, not a detailed reservation policy.
