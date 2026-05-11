@@ -4769,5 +4769,118 @@
       "price": "500円（税込、2日間有効）※学生・30歳以下は証明書提示で無料",
       "reservation": false
     }
+  },
+  {
+    "id": 120,
+    "title": "【秋葉原】アイドルライブ「ちゃむふぇす vol.5」が秋葉原ZESTで開催",
+    "slug": "charm-fes-vol5-akihabara-zest-2026",
+    "summary": "アイドルライブ「ちゃむふぇす vol.5」が、2026年5月12日に秋葉原ZESTで開催。HERO CHARM、Toy Tic Trap、Marionette in the Mirrorが出演し、前方チケット3,000円、一般チケット500円で販売される。",
+    "content": "## 概要\n\nアイドルライブ「ちゃむふぇす vol.5」が、2026年5月12日に秋葉原ZESTで開催されます。会場は東京都千代田区外神田3-2-14 B1Fのライブハウスです。\n\n出演はHERO CHARM、Toy Tic Trap、Marionette in the Mirror。開場は18:45、開演は19:00です。\n\n## 内容\n\nTicketDiveのイベントページでは、前方チケット3,000円、一般チケット500円が案内されています。いずれもドリンク代別で、電話番号認証済みアカウントのみ申込可能です。\n\n入場順は前方、一般の順。販売期間は2026年5月3日22:00から5月11日23:59までと案内されています。秋葉原ZESTはJR秋葉原駅電気街口から徒歩6分、東京メトロ末広町駅から徒歩3分の多目的ライブハウスです。\n\n## 開催情報\n\n- **会場**: 秋葉原ZEST\n- **住所**: 東京都千代田区外神田3-2-14 B1F\n- **日程**: 2026年5月12日\n- **時間**: 開場18:45 / 開演19:00\n- **出演**: HERO CHARM / Toy Tic Trap / Marionette in the Mirror\n- **料金**: 前方チケット3,000円、一般チケット500円（各ドリンク代別）\n- **予約**: TicketDiveで販売。電話番号認証済みアカウントのみ申込可能\n\n## こんな人におすすめ\n\n- 秋葉原で平日夜のアイドルライブを探している方\n- HERO CHARM、Toy Tic Trap、Marionette in the Mirrorを見たい方\n- 秋葉原ZESTのライブ予定をチェックしている方\n- 低価格の一般チケットで対バンイベントに参加したい方",
+    "publishedAt": "2026-05-12",
+    "tags": [
+      "アイドル",
+      "ライブ",
+      "秋葉原ZEST"
+    ],
+    "en": {
+      "title": "[Akihabara] Idol Live Event \"Charm Fes vol.5\" at Akihabara ZEST",
+      "summary": "\"Charm Fes vol.5\", an idol live event, will be held at Akihabara ZEST on May 12, 2026. The lineup features HERO CHARM, Toy Tic Trap, and Marionette in the Mirror, with front-area tickets priced at ¥3,000 and general tickets at ¥500.",
+      "content": "## Overview\n\n\"Charm Fes vol.5\", an idol live event, will be held at Akihabara ZEST on May 12, 2026. The venue is a live house located at B1F, 3-2-14 Sotokanda, Chiyoda-ku, Tokyo.\n\nPerformers are HERO CHARM, Toy Tic Trap, and Marionette in the Mirror. Doors open at 18:45 and the show starts at 19:00.\n\n## Highlights\n\nThe TicketDive event page lists front-area tickets at ¥3,000 and general tickets at ¥500. A separate drink charge is required for both ticket types, and applications require a phone-verified account.\n\nEntry order is front-area ticket holders, then general ticket holders. The sales period is listed as May 3, 2026 at 22:00 through May 11 at 23:59. Akihabara ZEST is a multi-purpose live house about a six-minute walk from JR Akihabara Station's Electric Town Exit and three minutes from Tokyo Metro Suehirocho Station.\n\n## Event Details\n\n- **Venue**: Akihabara ZEST\n- **Address**: B1F, 3-2-14 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: May 12, 2026\n- **Hours**: Doors open 18:45 / Starts 19:00\n- **Performers**: HERO CHARM / Toy Tic Trap / Marionette in the Mirror\n- **Admission**: Front-area ticket ¥3,000; general ticket ¥500 (each plus separate drink charge)\n- **Reservation**: Sold through TicketDive. A phone-verified account is required to apply\n\n## Recommended For\n\n- Those looking for a weekday evening idol live event in Akihabara\n- Fans of HERO CHARM, Toy Tic Trap, and Marionette in the Mirror\n- Those following live schedules at Akihabara ZEST\n- Those who want to attend a multi-artist idol event with a low-priced general ticket"
+    },
+    "sources": [
+      {
+        "label": "TicketDive イベントページ",
+        "url": "https://ticketdive.com/event/charm_fes_5"
+      },
+      {
+        "label": "秋葉原ZEST アクセス",
+        "url": "https://akihabarazest.com/access/"
+      },
+      {
+        "label": "秋葉原ZEST About",
+        "url": "https://akihabarazest.com/about"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原ZEST",
+      "startDate": "2026-05-12",
+      "endDate": "2026-05-12",
+      "price": "前方チケット3,000円、一般チケット500円（各ドリンク代別）",
+      "reservation": true
+    }
+  },
+  {
+    "id": 121,
+    "title": "【秋葉原】「加藤ゆり生誕祭2026」がSOUNDNOTE AKIHABARAで開催",
+    "slug": "kato-yuri-birthday-2026-soundnote-akihabara",
+    "summary": "idoress出演の「加藤ゆり生誕祭2026〜はじめてのおたんじょうびかい〜」が、2026年5月12日にSOUNDNOTE AKIHABARAで開催。前売2,500円、当日3,000円で、前物販や撮影可能の案内もある。",
+    "content": "## 概要\n\n「加藤ゆり生誕祭2026〜はじめてのおたんじょうびかい〜」が、2026年5月12日にSOUNDNOTE AKIHABARAで開催されます。出演はidoressです。\n\n会場は東京都台東区台東1-27-1 K3ビル地下1階。秋葉原駅中央北口からアクセスできるライブスペースです。\n\n## 内容\n\nイベントは17:45開場、19:00開演。18:00から18:50までは前物販が予定されています。TIGETのイベントページでは通常チケット2,500円が案内され、当日料金は3,000円、各1ドリンク代別途です。\n\n入場はTIGET整理番号順。静止画・動画撮影が可能と案内されており、再入場は1ドリンク別途で可能です。\n\n## 開催情報\n\n- **会場**: SOUNDNOTE AKIHABARA\n- **住所**: 東京都台東区台東1-27-1 K3ビル地下1階\n- **日程**: 2026年5月12日\n- **時間**: 開場17:45 / 開演19:00（前物販18:00〜18:50予定）\n- **出演**: idoress\n- **料金**: 前売2,500円 / 当日3,000円（各1ドリンク代別途）\n- **予約**: TIGETで通常チケット販売。入場はTIGET整理番号順\n\n## こんな人におすすめ\n\n- idoressのライブを見たい方\n- 加藤ゆりさんの生誕イベントに参加したい方\n- 撮影可能なアイドルイベントを探している方\n- SOUNDNOTE AKIHABARAのライブ予定をチェックしている方",
+    "publishedAt": "2026-05-12",
+    "tags": [
+      "アイドル",
+      "生誕祭",
+      "SOUNDNOTE AKIHABARA"
+    ],
+    "en": {
+      "title": "[Akihabara] \"Kato Yuri Birthday Festival 2026\" at SOUNDNOTE AKIHABARA",
+      "summary": "\"Kato Yuri Birthday Festival 2026: Hajimete no Otanjoubikai\", featuring idoress, will be held at SOUNDNOTE AKIHABARA on May 12, 2026. Advance admission is ¥2,500, same-day admission is ¥3,000, and advance merchandise sales plus photo/video permission are listed.",
+      "content": "## Overview\n\n\"Kato Yuri Birthday Festival 2026: Hajimete no Otanjoubikai\" will be held at SOUNDNOTE AKIHABARA on May 12, 2026. The performer is idoress.\n\nThe venue is K3 Building B1F, 1-27-1 Taito, Taito-ku, Tokyo. It is a live space accessible from Akihabara Station's Central North Exit.\n\n## Highlights\n\nDoors open at 17:45 and the show starts at 19:00. Advance merchandise sales are scheduled from 18:00 to 18:50. The TIGET event page lists a standard ticket at ¥2,500, with same-day admission at ¥3,000; a separate drink charge is required for each.\n\nEntry is in TIGET reference-number order. The page also notes that still photography and video recording are allowed, and re-entry is possible with an additional drink charge.\n\n## Event Details\n\n- **Venue**: SOUNDNOTE AKIHABARA\n- **Address**: K3 Building B1F, 1-27-1 Taito, Taito-ku, Tokyo\n- **Date**: May 12, 2026\n- **Hours**: Doors open 17:45 / Starts 19:00 (advance merchandise sales scheduled 18:00–18:50)\n- **Performer**: idoress\n- **Admission**: Advance ¥2,500 / same-day ¥3,000 (each plus separate drink charge)\n- **Reservation**: Standard tickets sold through TIGET. Entry is in TIGET reference-number order\n\n## Recommended For\n\n- Fans who want to see idoress live\n- Those who want to attend Yuri Kato's birthday event\n- Those looking for an idol event where photography/video is allowed\n- Those following live schedules at SOUNDNOTE AKIHABARA"
+    },
+    "sources": [
+      {
+        "label": "TIGET イベントページ",
+        "url": "https://tiget.net/events/478424"
+      },
+      {
+        "label": "SOUNDNOTE AKIHABARA アクセス",
+        "url": "https://www.soundnote.tokyo/access/"
+      }
+    ],
+    "event": {
+      "venue": "SOUNDNOTE AKIHABARA",
+      "startDate": "2026-05-12",
+      "endDate": "2026-05-12",
+      "price": "前売2,500円 / 当日3,000円（各1ドリンク代別途）",
+      "reservation": true
+    }
+  },
+  {
+    "id": 122,
+    "title": "【秋葉原】「推しの鉄人 VOL.69」が秋葉原Galaxyで開催",
+    "slug": "oshi-no-tetsujin-vol69-akihabara-galaxy-2026",
+    "summary": "「推しの鉄人 VOL.69」supported by カラオケの鉄人が、2026年5月12日に秋葉原Galaxyで開催。青葉ここ、くーたんたんめん、Happy BLoom、天使ねるほかが出演し、来場者・参加者全員にカラオケの鉄人半額チケットが配布される。",
+    "content": "## 概要\n\n「推しの鉄人 VOL.69」supported by カラオケの鉄人が、2026年5月12日に秋葉原Galaxyで開催されます。会場は東京都千代田区外神田6-15-11 日東ビル地下1階です。\n\nTIGETのイベントページでは、青葉ここ、くーたんたんめん、Happy BLoom、天使ねる、ほかの出演が案内されています。\n\n## 内容\n\nイベントは18:00開場、18:10開演。入場料は予約2,400円、当日2,900円、女性＆学生900円、早割1,900円（入場受付先着5名）で、各1ドリンク600円が別途必要です。\n\n当日は来場者・参加者全員にカラオケの鉄人「半額チケット」が配布されます。入場はTIGET予約順ではなく先着順で、再入場可能と案内されています。\n\n## 開催情報\n\n- **会場**: 秋葉原Galaxy\n- **住所**: 東京都千代田区外神田6-15-11 日東ビル地下1階\n- **日程**: 2026年5月12日\n- **時間**: 開場18:00 / 開演18:10\n- **出演**: 青葉ここ / くーたんたんめん / Happy BLoom / 天使ねる / ほか\n- **料金**: 予約2,400円、当日2,900円、女性＆学生900円、早割1,900円（各1ドリンク600円別途）\n- **予約**: TIGETで予約券を受付。入場は先着順\n\n## こんな人におすすめ\n\n- 秋葉原で平日夜のアイドルイベントを探している方\n- カラオケの鉄人連動企画に参加したい方\n- 秋葉原Galaxyのライブ予定をチェックしている方\n- 女性・学生料金や早割のあるイベントを探している方",
+    "publishedAt": "2026-05-12",
+    "tags": [
+      "アイドル",
+      "ライブ",
+      "秋葉原Galaxy"
+    ],
+    "en": {
+      "title": "[Akihabara] \"Oshi no Tetsujin VOL.69\" at Akihabara Galaxy",
+      "summary": "\"Oshi no Tetsujin VOL.69\" supported by Karaoke no Tetsujin will be held at Akihabara Galaxy on May 12, 2026. Performers include Koko Aoba, Kuutan Tanmen, Happy BLoom, Neru Tenshi, and others, with Karaoke no Tetsujin half-price tickets given to all visitors and participants.",
+      "content": "## Overview\n\n\"Oshi no Tetsujin VOL.69\" supported by Karaoke no Tetsujin will be held at Akihabara Galaxy on May 12, 2026. The venue is Nitto Building B1F, 6-15-11 Sotokanda, Chiyoda-ku, Tokyo.\n\nThe TIGET event page lists performers including Koko Aoba, Kuutan Tanmen, Happy BLoom, Neru Tenshi, and others.\n\n## Highlights\n\nDoors open at 18:00 and the event starts at 18:10. Admission is ¥2,400 by reservation, ¥2,900 at the door, ¥900 for women and students, and ¥1,900 for the first five early-bird attendees at reception. Each ticket requires a separate ¥600 drink charge.\n\nAll visitors and participants will receive a Karaoke no Tetsujin half-price ticket. Entry is first-come, first-served rather than TIGET reservation order, and re-entry is allowed.\n\n## Event Details\n\n- **Venue**: Akihabara Galaxy\n- **Address**: Nitto Building B1F, 6-15-11 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: May 12, 2026\n- **Hours**: Doors open 18:00 / Starts 18:10\n- **Performers**: Koko Aoba / Kuutan Tanmen / Happy BLoom / Neru Tenshi / others\n- **Admission**: Reservation ¥2,400; same-day ¥2,900; women & students ¥900; early-bird ¥1,900 (each plus ¥600 drink charge)\n- **Reservation**: Reservation tickets accepted via TIGET. Entry is first-come, first-served\n\n## Recommended For\n\n- Those looking for a weekday evening idol event in Akihabara\n- Those interested in a Karaoke no Tetsujin collaboration event\n- Those following live schedules at Akihabara Galaxy\n- Those looking for women/student pricing or an early-bird discount"
+    },
+    "sources": [
+      {
+        "label": "TIGET イベントページ",
+        "url": "https://tiget.net/events/487599"
+      },
+      {
+        "label": "イープラス 秋葉原Galaxy 会場情報",
+        "url": "https://eplus.jp/sf/venue/1011520"
+      },
+      {
+        "label": "エルミタージュ秋葉原 記事",
+        "url": "https://www.gdm.or.jp/crew/2023/0712/497064"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原Galaxy",
+      "startDate": "2026-05-12",
+      "endDate": "2026-05-12",
+      "price": "予約2,400円、当日2,900円、女性＆学生900円、早割1,900円（各1ドリンク600円別途）",
+      "reservation": true
+    }
   }
 ]
