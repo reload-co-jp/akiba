@@ -4892,5 +4892,36 @@
       "price": "予約2,400円、当日2,900円、女性＆学生900円、早割1,900円（各1ドリンク600円別途）",
       "reservation": true
     }
+  },
+  {
+    "id": 123,
+    "title": "【秋葉原】「anemoi」発売記念 きみしま青先生サイン会がゲーマーズで開催",
+    "slug": "anemoi-kimishima-ao-sign-gamers-akihabara-2026",
+    "summary": "ゲーム「anemoi」の発売を記念した、きみしま青先生のサイン会イベントが2026年5月30日にAKIHABARAゲーマーズ本店6Fで開催。対象商品の予約・購入者向け応募抽選制で、色紙へのサイン会を実施する。",
+    "content": "## 概要\n\nゲーム「anemoi」の発売を記念して、ゲーマーズ特典の描き下ろしB2タペストリー（総羽愛乃）を担当した、きみしま青先生のサイン会イベントが開催されます。\n\n会場はAKIHABARAゲーマーズ本店6Fイベントスペース。開催日は2026年5月30日で、開場11:30、開演12:00です。\n\n## 内容\n\nイベント内容はサイン会です。サインは会場側が用意する色紙に入れる形式で、公式ページでは、きみしま青先生は顔出しありで参加すると案内されています。\n\n参加は抽選招待制です。対象店舗で対象商品を予約または購入すると、シリアルコード付き応募券が配布されます。応募者の中から抽選でイベントに招待されます。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店 6F イベントスペース\n- **住所**: 東京都千代田区外神田1-14-7 宝田中央通りビル\n- **日程**: 2026年5月30日\n- **時間**: 開場11:30 / 開演12:00\n- **出演者**: きみしま青先生\n- **内容**: 色紙へのサイン会\n- **料金**: 対象商品予約・購入が必要\n- **予約**: シリアルコード付き応募券による抽選招待制\n\n## こんな人におすすめ\n\n- 「anemoi」の発売記念イベントに参加したい方\n- きみしま青先生のイラストが好きな方\n- ゲーマーズ特典や美少女ゲーム関連イベントを追っている方\n- 秋葉原で開催されるサイン会情報を探している方",
+    "publishedAt": "2026-05-12",
+    "tags": [
+      "サイン会",
+      "ゲーム",
+      "ゲーマーズ"
+    ],
+    "en": {
+      "title": "[Akihabara] \"anemoi\" Release Commemorative Signing Event with Ao Kimishima at Gamers",
+      "summary": "A signing event with Ao Kimishima celebrating the release of the game \"anemoi\" will be held on May 30, 2026 at AKIHABARA Gamers Main Store 6F. Participation is by lottery application for customers who reserve or purchase eligible products, with signatures provided on shikishi boards.",
+      "content": "## Overview\n\nTo commemorate the release of the game \"anemoi\", Gamers will hold a signing event with Ao Kimishima, the artist behind the Gamers bonus newly drawn B2 tapestry featuring Aino Fusa.\n\nThe venue is the 6th-floor event space of AKIHABARA Gamers Main Store. The event will be held on May 30, 2026, with doors opening at 11:30 and the event starting at 12:00.\n\n## Highlights\n\nThe event is a signing session. Signatures will be written on shikishi boards prepared by the venue, and the official page notes that Ao Kimishima will appear in person.\n\nParticipation is by lottery invitation. Customers who reserve or purchase an eligible product at participating stores will receive an application ticket with a serial code. Applicants will be selected by lottery for event admission.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers Main Store, 6F Event Space\n- **Address**: Takara-da Chuo-dori Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: May 30, 2026\n- **Hours**: Doors open 11:30 / Starts 12:00\n- **Guest**: Ao Kimishima\n- **Contents**: Signing event on shikishi boards\n- **Admission**: Eligible product reservation or purchase required\n- **Reservation**: Lottery invitation through an application ticket with serial code\n\n## Recommended For\n\n- Those who want to attend a release event for \"anemoi\"\n- Fans of Ao Kimishima's illustrations\n- Those following Gamers bonuses and bishoujo game-related events\n- Those looking for signing events held in Akihabara"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式イベントページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7288"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-30",
+      "price": "対象商品予約・購入が必要",
+      "reservation": true
+    }
   }
 ]
