@@ -242,6 +242,7 @@ body {
 .article-card-link {
   display: block;
   text-decoration: none;
+  height: 100%;
 }
 
 .article-card {
