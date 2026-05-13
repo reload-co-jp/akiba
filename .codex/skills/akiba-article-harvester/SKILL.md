@@ -7,6 +7,8 @@ description: >
   harvesting: collect many candidates, remove duplicates against
   `data/articles.json`, confirm facts, then add as many non-duplicate articles
   as can be safely verified in one pass.
+metadata:
+  short-description: 秋葉原イベント候補を重複除外し一括記事化する
 ---
 
 # Akiba Article Harvester
