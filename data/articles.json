@@ -4923,5 +4923,95 @@
       "price": "対象商品予約・購入が必要",
       "reservation": true
     }
+  },
+  {
+    "id": 124,
+    "title": "【秋葉原】『私に天使が舞い降りた！』運動会POP UP SHOPがボークスで開催",
+    "slug": "wataten-precious-friends-undokai-volks-akihabara-2026",
+    "summary": "『私に天使が舞い降りた！プレシャス・フレンズ』POP UP SHOP（運動会）が、2026年5月15日から5月31日までボークス秋葉原ホビー天国2で開催。描き下ろしグッズ先行販売、等身大パネル、会場限定購入特典を展開する。",
+    "content": "## 概要\n\n『私に天使が舞い降りた！プレシャス・フレンズ』POP UP SHOP（運動会）が、ボークス秋葉原ホビー天国2で開催されます。会場は6階イベントスペース、会期は2026年5月15日から5月31日までです。\n\n運動会をテーマにした描き下ろしイラストと描き起こしミニキャラを使った商品が先行販売され、等身大パネルも設置されます。\n\n## 内容\n\n会場では関連グッズの先行販売に加え、会場限定の購入特典を用意。税込2,000円購入ごとに、A3ポスター（非売品）が当たる抽選へ参加できます。\n\n参加賞としてポストカード全15種もランダム配布されます。特典はなくなり次第終了で、混雑状況によって入場制限や購入制限を行う場合があります。\n\n## 開催情報\n\n- **会場**: ボークス秋葉原ホビー天国2 6Fイベントスペース\n- **住所**: 東京都千代田区外神田4-2-10\n- **期間**: 2026年5月15日〜5月31日\n- **営業時間**: 平日11:00〜19:00 / 土日祝10:00〜19:00\n- **内容**: 描き下ろしグッズ先行販売、等身大パネル、購入特典抽選\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要。混雑時は入場制限の場合あり\n\n## こんな人におすすめ\n\n- 『私に天使が舞い降りた！』の新作グッズを集めたい方\n- 運動会テーマの描き下ろしビジュアルを見たい方\n- ボークス秋葉原ホビー天国2のポップアップを巡りたい方\n- 会場限定特典のポストカードやA3ポスターを狙いたい方",
+    "publishedAt": "2026-05-13",
+    "tags": [
+      "私に天使が舞い降りた！",
+      "ポップアップストア",
+      "ボークス"
+    ],
+    "en": {
+      "title": "[Akihabara] Wataten: Precious Friends Sports Day POP UP SHOP at Volks",
+      "summary": "A Wataten: Precious Friends POP UP SHOP themed around a sports day will be held at Volks Akihabara Hobby Tengoku 2 from May 15 to May 31, 2026. It features advance sales of newly illustrated goods, life-size panels, and venue-exclusive purchase bonuses.",
+      "content": "## Overview\n\nA *Wataten: Precious Friends* POP UP SHOP themed around a sports day will be held at Volks Akihabara Hobby Tengoku 2. The venue is the 6F event space, and the event runs from May 15 to May 31, 2026.\n\nThe shop will offer advance sales of merchandise using newly drawn sports day illustrations and newly drawn mini-character artwork, with life-size panels also installed at the venue.\n\n## Highlights\n\nIn addition to advance merchandise sales, the venue will offer exclusive purchase bonuses. For every ¥2,000 (tax included) spent, shoppers can enter a lottery to win a non-sale A3 poster.\n\nParticipation prizes include one random postcard from 15 types. Bonuses are available while supplies last, and entry or purchase limits may be applied depending on crowd conditions.\n\n## Event Details\n\n- **Venue**: Volks Akihabara Hobby Tengoku 2, 6F Event Space\n- **Address**: 4-2-10 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: May 15–31, 2026\n- **Hours**: Weekdays 11:00–19:00 / Weekends & holidays 10:00–19:00\n- **Contents**: Advance sales of newly illustrated goods, life-size panels, purchase-bonus lottery\n- **Admission**: Free (merchandise sold separately)\n- **Reservation**: Not required. Entry may be limited during crowded periods\n\n## Recommended For\n\n- Fans looking for new *Wataten* merchandise\n- Those who want to see sports day-themed newly drawn visuals\n- Those visiting pop-up shops at Volks Akihabara Hobby Tengoku 2\n- Collectors aiming for venue-exclusive postcards or A3 posters"
+    },
+    "image": {
+      "src": "/images/articles/wataten-precious-friends-undokai-volks-akihabara-2026.jpg",
+      "alt": "『私に天使が舞い降りた！プレシャス・フレンズ』POP UP SHOP（運動会）の告知ビジュアル",
+      "sourceLabel": "ボークス 秋葉原ホビー天国2 店舗ブログ",
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/01/031672.html"
+    },
+    "sources": [
+      {
+        "label": "ボークス 秋葉原ホビー天国2 店舗ブログ",
+        "url": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/01/031672.html"
+      },
+      {
+        "label": "ボークス 秋葉原ホビー天国2 店舗情報",
+        "url": "https://hobby.volks.co.jp/shop/hobbytengoku2/"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/tag/akihabara/"
+      }
+    ],
+    "event": {
+      "venue": "ボークス秋葉原ホビー天国2 6Fイベントスペース",
+      "startDate": "2026-05-15",
+      "endDate": "2026-05-31",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 125,
+    "title": "【秋葉原】映画『ラブライブ！蓮ノ空』×GiGOコラボカフェが秋葉原で開催",
+    "slug": "hasunosora-bloom-garden-party-gigo-akihabara-2026",
+    "summary": "映画『ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』公開記念のGiGOコラボが、2026年5月16日から6月29日まで開催。GiGOコラボカフェ秋葉原3号館をメインに、コラボたい焼き「蓮ノ空焼き」もGiGOのたい焼き秋葉原で販売される。",
+    "content": "## 概要\n\n映画『ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』の公開を記念したGiGOコラボカフェが、2026年5月16日から6月29日まで開催されます。\n\nメイン会場はGiGOコラボカフェ秋葉原3号館。GiGOコラボカフェスタンド秋葉原2号館でのドリンク提供や、GiGOのたい焼き秋葉原でのコラボたい焼き販売も案内されています。\n\n## 内容\n\nGiGOコラボカフェでは、第1弾を5月16日から6月5日まで、第2弾を6月6日から6月29日まで展開。期間によりメニューやコースターのデザインが切り替わります。\n\nフードやドリンク注文特典のほか、オリジナルグッズ販売、物販購入特典、映画半券提示特典も実施されます。コラボたい焼き「蓮ノ空焼き」はGiGOのたい焼き秋葉原で販売され、1点購入ごとにオリジナルコースター全8種からランダムで1枚が配布されます。\n\n## 開催情報\n\n- **会場**: GiGOコラボカフェ秋葉原3号館 / GiGOコラボカフェスタンド秋葉原2号館 / GiGOのたい焼き秋葉原\n- **期間**: 2026年5月16日〜6月29日\n- **第1弾**: 2026年5月16日〜6月5日\n- **第2弾**: 2026年6月6日〜6月29日\n- **内容**: コラボカフェ、ドリンク、オリジナルグッズ、コラボたい焼き、各種特典\n- **料金**: ドリンク各700円、蓮ノ空焼き650円、フード・グッズは商品ごとに設定\n- **予約**: 利用方法や入場整理は特設ページを確認\n\n## こんな人におすすめ\n\n- 『ラブライブ！蓮ノ空女学院スクールアイドルクラブ』の映画公開記念企画を楽しみたい方\n- 秋葉原でコラボカフェやコラボたい焼きを巡りたい方\n- 限定コースターやクリアカードを集めたい方\n- GiGO秋葉原各店のコラボ施策をまとめてチェックしたい方",
+    "publishedAt": "2026-05-13",
+    "tags": [
+      "ラブライブ！",
+      "蓮ノ空女学院スクールアイドルクラブ",
+      "GiGO"
+    ],
+    "en": {
+      "title": "[Akihabara] Love Live! Hasunosora Movie x GiGO Collaboration Cafe in Akihabara",
+      "summary": "A GiGO collaboration celebrating the movie *Love Live! Hasunosora Jogakuin School Idol Club Bloom Garden Party* will run from May 16 to June 29, 2026. GiGO Collaboration Cafe Akihabara 3 is the main venue, with the Hasunosora-yaki collaboration taiyaki also sold at GiGO Taiyaki Akihabara.",
+      "content": "## Overview\n\nA GiGO collaboration cafe celebrating the release of the movie *Love Live! Hasunosora Jogakuin School Idol Club Bloom Garden Party* will run from May 16 to June 29, 2026.\n\nThe main venue is GiGO Collaboration Cafe Akihabara 3. The campaign also lists drink service at GiGO Collaboration Cafe Stand Akihabara 2 and sales of the Hasunosora-yaki collaboration taiyaki at GiGO Taiyaki Akihabara.\n\n## Highlights\n\nThe GiGO collaboration cafe will run in two phases: the first from May 16 to June 5, and the second from June 6 to June 29. Menus and coaster designs are scheduled to change by period.\n\nThe campaign includes food and drink order bonuses, original merchandise sales, merchandise purchase bonuses, and a movie-ticket-stub bonus. The Hasunosora-yaki taiyaki will be sold at GiGO Taiyaki Akihabara, with one random original coaster from 8 types given per purchase.\n\n## Event Details\n\n- **Venue**: GiGO Collaboration Cafe Akihabara 3 / GiGO Collaboration Cafe Stand Akihabara 2 / GiGO Taiyaki Akihabara\n- **Dates**: May 16–June 29, 2026\n- **Phase 1**: May 16–June 5, 2026\n- **Phase 2**: June 6–29, 2026\n- **Contents**: Collaboration cafe, drinks, original goods, collaboration taiyaki, bonuses\n- **Admission**: Drinks ¥700 each, Hasunosora-yaki ¥650, food and goods priced by item\n- **Reservation**: Check the special site for entry and queue procedures\n\n## Recommended For\n\n- Fans who want to enjoy a movie-release campaign for *Love Live! Hasunosora Jogakuin School Idol Club*\n- Those visiting collaboration cafes or collaboration taiyaki shops in Akihabara\n- Collectors of limited coasters and clear cards\n- Those who want to check multiple GiGO Akihabara collaboration locations together"
+    },
+    "image": {
+      "src": "/images/articles/hasunosora-bloom-garden-party-gigo-akihabara-2026.jpg",
+      "alt": "映画『ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』×GiGOコラボカフェの告知ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001133.000034930.html"
+    },
+    "sources": [
+      {
+        "label": "GiGO キャンペーン特設ページ",
+        "url": "https://campaign.gendagigo.jp/2605/lovelive-hasunosora-cafe/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000001133.000034930.html"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/tag/akihabara/"
+      }
+    ],
+    "event": {
+      "venue": "GiGOコラボカフェ秋葉原3号館",
+      "startDate": "2026-05-16",
+      "endDate": "2026-06-29",
+      "price": "ドリンク各700円、蓮ノ空焼き650円、フード・グッズは商品ごとに設定",
+      "reservation": true
+    }
   }
 ]
