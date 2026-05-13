@@ -1,6 +1,12 @@
 ---
 name: akiba-article-harvester
-description: Use this skill when asked to find, collect, or add new Akihabara-related articles by checking recurring source sites for events, campaigns, collaborations, pop-ups, store openings, or closures. It prioritizes bulk harvesting: collect many candidates, remove duplicates against `data/articles.json`, confirm facts, then add as many non-duplicate articles as can be safely verified in one pass.
+description: >
+  Use this skill when asked to find, collect, or add new Akihabara-related
+  articles by checking recurring source sites for events, campaigns,
+  collaborations, pop-ups, store openings, or closures. It prioritizes bulk
+  harvesting: collect many candidates, remove duplicates against
+  `data/articles.json`, confirm facts, then add as many non-duplicate articles
+  as can be safely verified in one pass.
 ---
 
 # Akiba Article Harvester
