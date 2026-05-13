@@ -41,6 +41,96 @@ export const getLocalizedContent = (article: Article, lang: Lang): LocaleContent
   return { title: article.title, summary: article.summary, content: article.content }
 }
 
+const englishStopWords = new Set([
+  "about",
+  "after",
+  "akihabara",
+  "akiba",
+  "also",
+  "and",
+  "are",
+  "article",
+  "for",
+  "from",
+  "has",
+  "into",
+  "its",
+  "japan",
+  "near",
+  "news",
+  "not",
+  "the",
+  "this",
+  "tokyo",
+  "will",
+  "with",
+  "you",
+])
+
+const titleCase = (s: string) =>
+  s
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b[a-z]/g, (c) => c.toUpperCase())
+
+const getEnglishContentDetail = (article: Article, label: string) => {
+  const match = article.en?.content.match(
+    new RegExp(`^- \\*\\*${label}\\*\\*: (.+)$`, "im"),
+  )
+  return match?.[1]?.trim()
+}
+
+export const getEnglishEventVenue = (article: Article) =>
+  getEnglishContentDetail(article, "Venue") ?? article.event?.venue
+
+export const getEnglishEventPrice = (article: Article) =>
+  getEnglishContentDetail(article, "Admission") ??
+  getEnglishContentDetail(article, "Prices") ??
+  getEnglishContentDetail(article, "Price") ??
+  article.event?.price
+
+export const getEnglishSeoTitle = (article: Article) => {
+  const title = article.en?.title ?? article.title
+  return /\b(Akihabara|Tokyo)\b/i.test(title) ? title : `${title} in Akihabara, Tokyo`
+}
+
+export const getEnglishSeoDescription = (article: Article) => {
+  const summary = article.en?.summary ?? article.summary
+  if (/\b(Akihabara|Tokyo|Japan)\b/i.test(summary)) return summary
+  return `${summary} Location: Akihabara, Tokyo.`
+}
+
+export const getEnglishSeoKeywords = (article: Article) => {
+  const sourceText = `${article.en?.title ?? ""} ${article.en?.summary ?? ""} ${article.slug}`
+  const venue = getEnglishEventVenue(article)
+  const extracted = Array.from(
+    new Set(
+      sourceText
+        .replace(/[^a-zA-Z0-9\s-]/g, " ")
+        .split(/\s+/)
+        .map((word) => word.trim().toLowerCase())
+        .filter((word) => word.length > 3 && !englishStopWords.has(word))
+        .slice(0, 12)
+        .map(titleCase),
+    ),
+  )
+
+  return Array.from(
+    new Set([
+      "Akihabara",
+      "Tokyo",
+      "Japan",
+      "Akihabara events",
+      "Things to do in Akihabara",
+      "Tokyo pop culture",
+      ...(article.event ? ["Akihabara event guide"] : []),
+      ...(venue && /^[\x20-\x7E]+$/.test(venue) ? [venue] : []),
+      ...extracted,
+    ]),
+  )
+}
+
 export const placeholderImage = {
   src: "/images/placeholder.jpg",
   alt: "アキバLiveの記事サムネイル",

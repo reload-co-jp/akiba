@@ -10,6 +10,11 @@ import {
   getArticleBySlug,
   getArticleImage,
   getArticlePublishedIso,
+  getEnglishEventPrice,
+  getEnglishEventVenue,
+  getEnglishSeoDescription,
+  getEnglishSeoKeywords,
+  getEnglishSeoTitle,
   placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
@@ -28,33 +33,43 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!article?.en) return {}
   const image = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
+  const seoTitle = getEnglishSeoTitle(article)
+  const seoDescription = getEnglishSeoDescription(article)
+  const seoKeywords = getEnglishSeoKeywords(article)
   return {
-    title: article.en.title,
-    description: article.en.summary,
+    title: seoTitle,
+    description: seoDescription,
+    keywords: seoKeywords,
     alternates: {
       canonical: `/en/articles/${slug}/`,
       languages: {
-        "x-default": `/articles/${slug}/`,
+        "x-default": `/en/articles/${slug}/`,
         "ja": `/articles/${slug}/`,
+        "ja-JP": `/articles/${slug}/`,
         "en": `/en/articles/${slug}/`,
+        "en-US": `/en/articles/${slug}/`,
       },
     },
     openGraph: {
-      title: article.en.title,
-      description: article.en.summary,
+      title: seoTitle,
+      description: seoDescription,
       url: `/en/articles/${slug}/`,
       images: [{ url: image.src, alt: image.alt }],
       type: "article",
       locale: "en_US",
+      alternateLocale: ["ja_JP"],
       publishedTime: publishedAt,
       modifiedTime: publishedAt,
-      tags: article.tags,
+      tags: seoKeywords,
     },
     twitter: {
       card: "summary_large_image",
-      title: article.en.title,
-      description: article.en.summary,
+      title: seoTitle,
+      description: seoDescription,
       images: [image.src],
+    },
+    other: {
+      news_keywords: seoKeywords.slice(0, 10).join(", "),
     },
   }
 }
@@ -84,14 +99,19 @@ const Page = async ({ params }: Props) => {
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
   const isPlaceholderImage = articleImage.src === placeholderImage.src
+  const seoTitle = getEnglishSeoTitle(article)
+  const seoDescription = getEnglishSeoDescription(article)
+  const seoKeywords = getEnglishSeoKeywords(article)
+  const seoVenue = getEnglishEventVenue(article)
+  const seoPrice = getEnglishEventPrice(article)
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
-    headline: en.title,
-    description: en.summary,
-    keywords: article.tags.join(", "),
+    headline: seoTitle,
+    description: seoDescription,
+    keywords: seoKeywords.join(", "),
     inLanguage: "en",
     datePublished: publishedAt,
     dateModified: publishedAt,
@@ -114,12 +134,65 @@ const Page = async ({ params }: Props) => {
       },
     },
     image: { "@type": "ImageObject", url: absoluteUrl(articleImage.src) },
+    about: [
+      { "@type": "Place", name: "Akihabara, Tokyo" },
+      { "@type": "Thing", name: "Akihabara events" },
+      { "@type": "Thing", name: "Tokyo pop culture" },
+    ],
+    contentLocation: {
+      "@type": "Place",
+      name: "Akihabara",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Chiyoda-ku",
+        addressRegion: "Tokyo",
+        addressCountry: "JP",
+      },
+    },
     translationOfWork: {
       "@type": "NewsArticle",
       url: absoluteUrl(`/articles/${slug}/`),
       inLanguage: "ja",
     },
   }
+
+  const eventLd = article.event
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        name: seoTitle,
+        description: seoDescription,
+        url: articleUrl,
+        image: absoluteUrl(articleImage.src),
+        startDate: article.event.startDate,
+        endDate: article.event.endDate,
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        eventStatus: "https://schema.org/EventScheduled",
+        isAccessibleForFree: /free|無料|入場無料/i.test(article.event.price),
+        inLanguage: "en",
+        location: {
+          "@type": "Place",
+          name: seoVenue,
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Chiyoda-ku",
+            addressRegion: "Tokyo",
+            addressCountry: "JP",
+          },
+        },
+        offers: {
+          "@type": "Offer",
+          url: articleUrl,
+          price: seoPrice,
+          availability: "https://schema.org/InStock",
+        },
+        organizer: {
+          "@type": "Organization",
+          name: "Akiba Live",
+          url: absoluteUrl("/"),
+        },
+      }
+    : null
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -136,6 +209,12 @@ const Page = async ({ params }: Props) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {eventLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(eventLd) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
@@ -213,13 +292,13 @@ const Page = async ({ params }: Props) => {
           </h2>
           <dl style={{ margin: 0, display: "grid", gridTemplateColumns: "auto 1fr", gap: ".25rem .75rem" }}>
             <dt style={{ color: "#8a6f63" }}>Venue</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.venue}</dd>
+            <dd style={{ color: "#24312f", margin: 0 }}>{seoVenue}</dd>
             <dt style={{ color: "#8a6f63" }}>Dates</dt>
             <dd style={{ color: "#24312f", margin: 0 }}>
               {article.event.startDate} – {article.event.endDate}
             </dd>
             <dt style={{ color: "#8a6f63" }}>Price</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{article.event.price}</dd>
+            <dd style={{ color: "#24312f", margin: 0 }}>{seoPrice}</dd>
             <dt style={{ color: "#8a6f63" }}>Reservation</dt>
             <dd style={{ color: "#24312f", margin: 0 }}>{article.event.reservation ? "Required" : "Not required"}</dd>
           </dl>
