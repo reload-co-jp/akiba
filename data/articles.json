@@ -5099,5 +5099,40 @@
       "price": "入場無料（商品購入は別途）",
       "reservation": false
     }
+  },
+  {
+    "id": 128,
+    "title": "【秋葉原】「魔法少女ノ因習村 POP UP STORE」がアキバCOギャラリーで開催",
+    "slug": "maho-shojo-no-inshumura-popup-akiba-co-gallery-2026",
+    "summary": "「魔法少女ノ因習村 POP UP STORE」が、2026年5月2日から5月14日までアキバCOギャラリーで開催。Acacia作品3タイトルのグッズ販売やイラスト展示、等身大アクリルスタンド展示を行う。",
+    "content": "## 概要\n\n「魔法少女ノ因習村 POP UP STORE」が、2026年5月2日から5月14日までアキバCOギャラリーで開催されています。\n\n会場は東京都千代田区外神田3-16-12 アキバCOビル1階。東京メトロ銀座線 末広町駅3番出口すぐ、JR秋葉原駅電気街口から徒歩約6分の会場です。\n\n## 内容\n\n本イベントでは「魔法少女ノ因習村」の商品に加え、「魔法少女ノ魔女裁判」「配信少女ノ裏垢迷宮」の商品も販売。Acacia作品3タイトルによる合同POP UP STOREとして展開されます。\n\n会場では各ゲーム内イラストや、一部キャラクターの等身大アクリルスタンド展示も実施。商品は購入制限が設定され、販売状況により変更される場合があります。\n\n混雑が予想された5月2日と5月3日はLivePocketによる入場抽選対象日として案内されました。5月4日以降はフリー入場予定ですが、混雑状況により整理券配布や事前抽選入場になる場合があります。\n\n## 開催情報\n\n- **会場**: アキバCOギャラリー\n- **住所**: 東京都千代田区外神田3-16-12 アキバCOビル 1F\n- **期間**: 2026年5月2日〜5月14日\n- **時間**: 平日16:00〜20:00 / 土日祝11:00〜19:00\n- **内容**: Acacia作品3タイトルのグッズ販売、ゲーム内イラスト展示、等身大アクリルスタンド展示\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 5月2日・5月3日はLivePocket入場抽選対象。以降も混雑時は整理券配布や抽選入場の場合あり\n\n## こんな人におすすめ\n\n- 「魔法少女ノ因習村」関連グッズを探している方\n- 「魔法少女ノ魔女裁判」「配信少女ノ裏垢迷宮」もあわせてチェックしたい方\n- Acacia作品の展示を秋葉原で見たい方\n- 末広町駅近くの期間限定POP UP STOREを巡りたい方",
+    "publishedAt": "2026-05-13",
+    "tags": [
+      "魔法少女ノ因習村",
+      "ポップアップストア",
+      "アキバCOギャラリー"
+    ],
+    "en": {
+      "title": "[Akihabara] Maho Shojo no Inshumura POP UP STORE at Akiba CO Gallery",
+      "summary": "The Maho Shojo no Inshumura POP UP STORE runs at Akiba CO Gallery from May 2 to May 14, 2026. It features merchandise for three Acacia titles, game illustration displays, and life-size acrylic stand displays.",
+      "content": "## Overview\n\nThe Maho Shojo no Inshumura POP UP STORE is being held at Akiba CO Gallery from May 2 to May 14, 2026.\n\nThe venue is Akiba CO Building 1F, 3-16-12 Sotokanda, Chiyoda-ku, Tokyo. It is just outside Suehirocho Station Exit 3 on the Tokyo Metro Ginza Line and about a 6-minute walk from JR Akihabara Station Electric Town Exit.\n\n## Highlights\n\nIn addition to merchandise for Maho Shojo no Inshumura, the event also sells items from Maho Shojo no Majo Saiban and Haishin Shojo no Uraaka Meikyu. It is presented as a joint POP UP STORE for three Acacia titles.\n\nThe venue also features in-game illustration displays and life-size acrylic stand displays for some characters. Purchase limits are set for items and may change depending on sales conditions.\n\nMay 2 and May 3 were listed as LivePocket lottery-entry dates due to expected crowds. Free entry was planned from May 4 onward, but numbered tickets or lottery entry may still be used depending on crowding.\n\n## Event Details\n\n- **Venue**: Akiba CO Gallery\n- **Address**: Akiba CO Building 1F, 3-16-12 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: May 2–14, 2026\n- **Hours**: Weekdays 16:00–20:00 / Weekends and holidays 11:00–19:00\n- **Contents**: Merchandise sales for three Acacia titles, in-game illustration displays, life-size acrylic stand displays\n- **Admission**: Free (merchandise sold separately)\n- **Reservation**: May 2 and May 3 required LivePocket lottery entry. Numbered tickets or lottery entry may be used during crowded periods afterward\n\n## Recommended For\n\n- Fans looking for Maho Shojo no Inshumura merchandise\n- Those who also want to check Maho Shojo no Majo Saiban and Haishin Shojo no Uraaka Meikyu items\n- Those who want to see Acacia title displays in Akihabara\n- Visitors looking for a limited-time POP UP STORE near Suehirocho Station"
+    },
+    "sources": [
+      {
+        "label": "グッドスマイルカンパニー 公式イベントページ",
+        "url": "https://www.goodsmile.com/ja/event/6793"
+      },
+      {
+        "label": "LivePocket 入場抽選ページ",
+        "url": "https://livepocket.jp/e/g4vyy"
+      }
+    ],
+    "event": {
+      "venue": "アキバCOギャラリー",
+      "startDate": "2026-05-02",
+      "endDate": "2026-05-14",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": true
+    }
   }
 ]
