@@ -119,6 +119,37 @@ const Page = async ({ params }: Props) => {
     image: { "@type": "ImageObject", url: absoluteUrl(articleImage.src) },
   }
 
+  const eventJsonLd = article.event
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        name: article.title,
+        description: article.summary,
+        startDate: article.event.startDate,
+        endDate: article.event.endDate,
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        isAccessibleForFree: article.event.price === "無料",
+        url: articleUrl,
+        image: absoluteUrl(articleImage.src),
+        location: {
+          "@type": "Place",
+          name: article.event.venue,
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "秋葉原",
+            addressRegion: "東京都",
+            addressCountry: "JP",
+          },
+        },
+        organizer: {
+          "@type": "Organization",
+          name: "アキバLive",
+          url: absoluteUrl("/"),
+        },
+      }
+    : null
+
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -138,6 +169,12 @@ const Page = async ({ params }: Props) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {eventJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }}
+        />
+      )}
     <article style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}>
       <nav aria-label="パンくずリスト" className="breadcrumb">
         <ol className="breadcrumb__list">
@@ -152,7 +189,7 @@ const Page = async ({ params }: Props) => {
 
       <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: ".75rem" }}>
         {article.tags.map((tag) => (
-          <Link key={tag} href={{ pathname: "/articles/", query: { tag } }} className="article-tag">
+          <Link key={tag} href={`/tags/${encodeURIComponent(tag)}/`} className="article-tag">
             {tag}
           </Link>
         ))}
@@ -270,7 +307,7 @@ const Page = async ({ params }: Props) => {
         <h2 id="article-tags-title">タグ</h2>
         <div className="article-tags-nav__list">
           {article.tags.map((tag) => (
-            <Link key={tag} href={{ pathname: "/articles/", query: { tag } }} className="article-tags-nav__item">
+            <Link key={tag} href={`/tags/${encodeURIComponent(tag)}/`} className="article-tags-nav__item">
               {tag}
             </Link>
           ))}

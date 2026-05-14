@@ -52,6 +52,14 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
       url: absoluteUrl("/"),
       name: siteName,
       alternateName: "Akiba Live",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: absoluteUrl("/search?q={search_term_string}"),
+        },
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@context": "https://schema.org",

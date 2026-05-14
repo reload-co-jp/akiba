@@ -196,3 +196,13 @@ export const getOngoingEvents = (today: string): Article[] => {
     (a) => a.event && a.event.startDate <= today && today <= a.event.endDate,
   )
 }
+
+export const getAllTags = (): string[] => {
+  const tags = new Set<string>()
+  articlesData.forEach((a) => a.tags.forEach((t) => tags.add(t)))
+  return Array.from(tags).sort()
+}
+
+export const getArticlesByTag = (tag: string): Article[] => {
+  return getAllArticles().filter((a) => a.tags.includes(tag))
+}

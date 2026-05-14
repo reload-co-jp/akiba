@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next"
-import { getAllArticles, getArticlePublishedDate } from "lib/articles"
+import { getAllArticles, getAllTags, getArticlePublishedDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 
 export const dynamic = "force-static"
 
 const sitemap = (): MetadataRoute.Sitemap => {
   const articles = getAllArticles()
+  const tags = getAllTags()
 
   const latestDate = new Date(
     Math.max(...articles.map((article) => getArticlePublishedDate(article).getTime())),
@@ -50,6 +51,12 @@ const sitemap = (): MetadataRoute.Sitemap => {
         changeFrequency: "weekly" as const,
         priority: 0.8,
       })),
+    ...tags.map((tag) => ({
+      url: absoluteUrl(`/tags/${encodeURIComponent(tag)}/`),
+      lastModified: latestDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
   ]
 }
 
