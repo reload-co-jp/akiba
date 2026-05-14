@@ -93,6 +93,22 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
       </head>
       <body>
         <LanguageProvider>
+        <Script
+          src="https://news.google.com/swg/js/v1/swg-basic.js"
+          strategy="afterInteractive"
+        />
+        <Script id="swg-basic-init" strategy="afterInteractive">
+          {`
+            (self.SWG_BASIC = self.SWG_BASIC || []).push(basicSubscriptions => {
+              basicSubscriptions.init({
+                type: "NewsArticle",
+                isPartOfType: ["Product"],
+                isPartOfProductId: "CAow4qbgCw:openaccess",
+                clientOptions: { theme: "light", lang: "ja" },
+              });
+            });
+          `}
+        </Script>
         {isProduction && (
           <>
             <Script
@@ -138,6 +154,10 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
               </a>
               {" / "}
               <Link href="/about/">このサイトについて</Link>
+              {" / "}
+              <Link href="/terms/">利用規約</Link>
+              {" / "}
+              <Link href="/privacy/">プライバシーポリシー</Link>
             </p>
           </div>
         </footer>
