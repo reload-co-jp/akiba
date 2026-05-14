@@ -128,9 +128,9 @@ const Page = async ({ params }: Props) => {
       url: absoluteUrl("/"),
       logo: {
         "@type": "ImageObject",
-        url: absoluteUrl("/images/logo.svg"),
-        width: 195,
-        height: 48,
+        url: absoluteUrl("/apple-icon.png"),
+        width: 180,
+        height: 180,
       },
     },
     image: { "@type": "ImageObject", url: absoluteUrl(articleImage.src) },

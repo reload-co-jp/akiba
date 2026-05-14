@@ -57,6 +57,9 @@ export const generateMetadata = async ({ params }: Props) => {
       description: article.summary,
       images: [image.src],
     },
+    other: {
+      news_keywords: article.tags.slice(0, 10).join(", "),
+    },
   }
 }
 
@@ -92,6 +95,7 @@ const Page = async ({ params }: Props) => {
     headline: article.title,
     description: article.summary,
     keywords: article.tags.join(", "),
+    inLanguage: "ja",
     datePublished: publishedAt,
     dateModified: publishedAt,
     isAccessibleForFree: true,
@@ -107,9 +111,9 @@ const Page = async ({ params }: Props) => {
       url: absoluteUrl("/"),
       logo: {
         "@type": "ImageObject",
-        url: absoluteUrl("/images/logo.svg"),
-        width: 195,
-        height: 48,
+        url: absoluteUrl("/apple-icon.png"),
+        width: 180,
+        height: 180,
       },
     },
     image: { "@type": "ImageObject", url: absoluteUrl(articleImage.src) },
