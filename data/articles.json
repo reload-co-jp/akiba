@@ -5239,5 +5239,78 @@
       "price": "入場無料（商品購入は別途）",
       "reservation": false
     }
+  },
+  {
+    "id": 132,
+    "title": "【秋葉原】BEEP秋葉原店が5月17日で一時閉店、SEEKBASEへ移転準備",
+    "slug": "beep-akihabara-temporary-close-move-2026",
+    "summary": "レトロゲーム・レトロPC専門店「BEEP秋葉原店」が、2026年5月17日をもって現店舗での営業を一時終了。中栄ビル取り壊しに伴い、SEEKBASE AKI-OKA MANUFACTUREへの移転準備に入る。",
+    "content": "## 概要\n\nレトロゲームやレトロPCを扱う「BEEP秋葉原店」が、2026年5月17日をもって現店舗での営業を一時終了します。\n\n現店舗は東京都千代田区外神田3-9-8 中栄ビル地下1階。2015年10月のオープンから約10年半営業してきた店舗ですが、入居する中栄ビルの取り壊しに伴い、移転準備のため一時閉店となります。\n\n## 内容\n\n移転先は、神田消防署向かいの「SEEKBASE AKI-OKA MANUFACTURE」3号棟。エルミタージュ秋葉原の現地取材では、2月末に閉店した日本郵政のギフトショップ「SOZO BOX」跡地にあたり、新店舗側にはすでに看板も設置されていると報じられています。\n\nBEEP秋葉原店の公式ブログでは、5月18日以降、新店舗オープンまで営業を休止し、販売、買取、修理、問い合わせなどの業務も休止すると案内されています。店頭買取は5月11日から16日まで15:00受付終了、最終日の5月17日は終日休止です。\n\n## 開催情報\n\n- **会場**: BEEP秋葉原店\n- **住所**: 東京都千代田区外神田3-9-8 中栄ビル B1F\n- **現店舗最終営業日**: 2026年5月17日\n- **移転先**: SEEKBASE AKI-OKA MANUFACTURE 3号棟\n- **移転先住所**: 東京都千代田区神田練塀町15-1\n- **内容**: 現店舗一時閉店、移転準備、さよならセール、店頭買取受付時間変更\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- BEEP秋葉原店の現店舗を最後に訪れたい方\n- レトロゲームやレトロPC関連ショップの移転情報を追っている方\n- SEEKBASE周辺の新店・移転情報をチェックしている方\n- 秋葉原の専門店街の変化を記録しておきたい方",
+    "publishedAt": "2026-05-14",
+    "tags": [
+      "BEEP秋葉原店",
+      "移転",
+      "閉店"
+    ],
+    "en": {
+      "title": "[Akihabara] BEEP Akihabara Temporarily Closes on May 17 Before Moving to SEEKBASE",
+      "summary": "Retro game and retro PC specialty shop BEEP Akihabara will temporarily end operations at its current location on May 17, 2026. The shop is preparing to move to SEEKBASE AKI-OKA MANUFACTURE due to the demolition of the Chuei Building.",
+      "content": "## Overview\n\nBEEP Akihabara, a specialty shop for retro games and retro PCs, will temporarily end operations at its current location on May 17, 2026.\n\nThe current shop is located in the basement of the Chuei Building at 3-9-8 Sotokanda, Chiyoda-ku, Tokyo. After about ten and a half years since opening in October 2015, the shop will temporarily close because the building is being demolished and the store is preparing to move.\n\n## Highlights\n\nThe new location is in SEEKBASE AKI-OKA MANUFACTURE Building 3, across from the Kanda Fire Station. Hermitage Akihabara reports that it will occupy the former SOZO BOX space, and signage has already been installed at the new site.\n\nBEEP Akihabara's official blog says that from May 18 onward, all sales, buying, repairs, and inquiries will be paused until the new store opens. In-store buying closes at 15:00 from May 11 to May 16, and is suspended all day on the final day, May 17.\n\n## Event Details\n\n- **Venue**: BEEP Akihabara\n- **Address**: Chuei Building B1F, 3-9-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Final Day at Current Store**: May 17, 2026\n- **New Location**: SEEKBASE AKI-OKA MANUFACTURE Building 3\n- **New Address**: 15-1 Kanda Neribeicho, Chiyoda-ku, Tokyo\n- **Contents**: Temporary closure of the current store, relocation preparation, farewell sale, and changes to in-store buying hours\n- **Admission**: Free (merchandise sold separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Those who want to visit BEEP Akihabara's current shop before it closes\n- Fans tracking retro game and retro PC shop relocation news\n- Visitors checking new openings and moves around SEEKBASE\n- Anyone documenting changes in Akihabara's specialty shop scene"
+    },
+    "image": {
+      "src": "/images/articles/beep-akihabara-temporary-close-move-2026.jpg",
+      "alt": "BEEP秋葉原店の店頭写真",
+      "sourceLabel": "BEEP秋葉原 公式ブログ",
+      "sourceUrl": "https://www.akihabara-beep.com/12885/"
+    },
+    "sources": [
+      {
+        "label": "BEEP秋葉原 公式ブログ",
+        "url": "https://www.akihabara-beep.com/12885/"
+      },
+      {
+        "label": "エルミタージュ秋葉原 取材記事",
+        "url": "https://www.gdm.or.jp/crew/2026/0512/634125"
+      },
+      {
+        "label": "BEEP秋葉原 店舗案内",
+        "url": "https://www.akihabara-beep.com/pg2.html"
+      }
+    ],
+    "event": {
+      "venue": "BEEP秋葉原店",
+      "startDate": "2026-05-17",
+      "endDate": "2026-05-17",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 133,
+    "title": "【秋葉原】アトレ2店2階のタリーズコーヒーが改装で一時休業",
+    "slug": "tullys-atre-akihabara2-temporary-close-2026",
+    "summary": "アトレ秋葉原2の2階にあるタリーズコーヒーが、2026年5月13日から改装のため一時休業。休業前の最終営業日は5月12日で、今夏のリニューアルオープンが予定されている。",
+    "content": "## 概要\n\nアトレ秋葉原2の2階にある「タリーズコーヒー アトレ秋葉原2店」が、2026年5月13日から改装のため一時休業しています。\n\nアトレ秋葉原の公式ニュースによると、休業前の最終営業日は2026年5月12日。リニューアルオープンは今夏予定と案内されています。\n\n## 内容\n\n休業対象はアトレ2店2階のタリーズコーヒーです。駅直結のカフェとして使っていた人は、リニューアルまで別店舗の利用が必要になります。\n\n一時休業中の連絡先として、タリーズコーヒーのお客様相談室が案内されています。近隣店舗には、住友不動産秋葉原ファーストビル店が挙げられています。\n\n## 開催情報\n\n- **会場**: タリーズコーヒー アトレ秋葉原2店\n- **住所**: 東京都千代田区神田花岡町1-9 アトレ秋葉原2 2F\n- **休業開始日**: 2026年5月13日\n- **休業前最終営業日**: 2026年5月12日\n- **再開予定**: 2026年夏\n- **内容**: 改装に伴う一時休業\n- **近隣店舗**: 住友不動産秋葉原ファーストビル店\n\n## こんな人におすすめ\n\n- 秋葉原駅直結のカフェを普段使いしている方\n- アトレ秋葉原2の休業・改装情報を確認したい方\n- タリーズコーヒーの近隣店舗を探している方\n- 夏のリニューアル予定を押さえておきたい方",
+    "publishedAt": "2026-05-14",
+    "tags": [
+      "タリーズコーヒー",
+      "アトレ秋葉原",
+      "一時休業"
+    ],
+    "en": {
+      "title": "[Akihabara] Tully's Coffee Atre Akihabara 2 Temporarily Closes for Renovation",
+      "summary": "Tully's Coffee on the 2nd floor of Atre Akihabara 2 has temporarily closed for renovation from May 13, 2026. Its final business day before closure was May 12, and it is scheduled to reopen this summer.",
+      "content": "## Overview\n\nTully's Coffee Atre Akihabara 2, located on the 2nd floor of Atre Akihabara 2, has temporarily closed for renovation from May 13, 2026.\n\nAccording to Atre Akihabara's official news, the final business day before the closure was May 12, 2026. The shop is scheduled to reopen this summer.\n\n## Highlights\n\nThe temporary closure applies to the Tully's Coffee location on the 2nd floor of Atre Akihabara 2. Visitors who use this station-connected cafe will need to use another location until the renovation is complete.\n\nAtre lists Tully's customer service office as the contact during the closure. The nearby Tully's Coffee Sumitomo Fudosan Akihabara First Building location is listed as an alternative.\n\n## Details\n\n- **Venue**: Tully's Coffee Atre Akihabara 2\n- **Address**: Atre Akihabara 2, 2F, 1-9 Kanda Hanaokacho, Chiyoda-ku, Tokyo\n- **Temporary Closure Starts**: May 13, 2026\n- **Final Business Day Before Closure**: May 12, 2026\n- **Reopening Plan**: Summer 2026\n- **Contents**: Temporary closure due to renovation\n- **Nearby Store**: Sumitomo Fudosan Akihabara First Building location\n\n## Recommended For\n\n- Those who regularly use station-connected cafes in Akihabara\n- Visitors checking closure and renovation news at Atre Akihabara 2\n- Those looking for nearby Tully's Coffee alternatives\n- Anyone tracking the planned summer reopening"
+    },
+    "sources": [
+      {
+        "label": "アトレ秋葉原 公式ニュース",
+        "url": "https://www.atre.co.jp/akihabara/news/7008/"
+      },
+      {
+        "label": "アトレ秋葉原 公式サイト",
+        "url": "https://www.atre.co.jp/akihabara/"
+      }
+    ]
   }
 ]

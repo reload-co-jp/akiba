@@ -28,6 +28,7 @@ const mapBounds = {
 
 const venuePoints: Record<string, VenuePoint> = {
   "アトレ秋葉原1": { lat: 35.6984, lng: 139.7731 },
+  "アトレ秋葉原2": { lat: 35.6981, lng: 139.7742 },
   "バンダイナムコ Cross Store アトレ秋葉原店": { lat: 35.6984, lng: 139.7731 },
   "ワテラス": { lat: 35.6977, lng: 139.7679 },
   "WATERRAS（ワテラス）": { lat: 35.6977, lng: 139.7679 },
@@ -62,6 +63,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "ブラウンダスト2 SHOP": { lat: 35.6985, lng: 139.7707 },
   "ネコリパブリック 東京 お茶の水店": { lat: 35.7032, lng: 139.7688 },
   "モンハン酒場 東京・秋葉原": { lat: 35.6978, lng: 139.7714 },
+  "BEEP秋葉原店": { lat: 35.7009, lng: 139.7712 },
 }
 
 const broadVenuePatterns = ["全国", "対象10店舗", "各店"]
