@@ -1,5 +1,202 @@
 [
   {
+    "id": 137,
+    "title": "【秋葉原】劇場版「プリズマ☆イリヤ」ポップアップストアがゲーマーズで開催",
+    "slug": "prisma-illya-licht-pop-up-gamers-akihabara-2026",
+    "summary": "「劇場版Fate/kaleid liner プリズマ☆イリヤ Licht 名前の無い少女」のポップアップストアが、2026年5月2日から5月17日までAKIHABARAゲーマーズ本店7Fで開催。新作グッズ販売と抽選会を実施する。",
+    "content": "## 概要\n\n「劇場版Fate/kaleid liner プリズマ☆イリヤ Licht 名前の無い少女」ポップアップストアが、AKIHABARAゲーマーズ本店7Fで開催されています。会期は2026年5月2日から5月17日までです。\n\n会場では「プリズマ☆イリヤ」関連商品の販売に加え、購入金額に応じた抽選会と購入特典が用意されています。\n\n## 内容\n\n販売商品には、イリヤ、美遊、クロエのチャイナドレスver.を使用した新作グッズが登場。アクリルスタンド、缶バッジ、アクリルキーホルダー、ラバーデスクマットなどが案内されています。\n\n期間中、会場内で関連商品を購入または予約内金3,000円（税込）ごとに抽選会へ1回参加できます。景品は特大アクリルフィギュア全3種など。ブロマイド特典も配布され、いずれもなくなり次第終了です。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店7F\n- **住所**: 東京都千代田区外神田1-14-7 宝田中央通りビル\n- **期間**: 2026年5月2日〜5月17日\n- **営業時間**: 平日11:00〜21:00 / 土日祝10:00〜21:00\n- **内容**: 「プリズマ☆イリヤ」関連グッズ販売、抽選会、購入特典配布\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要。オンラインショップは受注販売あり\n\n## こんな人におすすめ\n\n- 「プリズマ☆イリヤ」の新作グッズを集めたい方\n- チャイナドレスver.の描き下ろしビジュアルが気になる方\n- AKIHABARAゲーマーズ本店のポップアップを巡りたい方\n- 抽選会や購入特典ブロマイドを狙いたい方",
+    "publishedAt": "2026-05-15",
+    "tags": [
+      "プリズマ☆イリヤ",
+      "ポップアップストア",
+      "ゲーマーズ"
+    ],
+    "en": {
+      "title": "[Akihabara] \"Prisma Illya Licht\" Pop-Up Shop at GAMERS",
+      "summary": "A pop-up shop for \"Fate/kaleid liner Prisma Illya: Licht Nameless Girl\" runs at AKIHABARA GAMERS 7F from May 2 to 17, 2026, featuring new goods, a lottery, and purchase bonuses.",
+      "content": "## Overview\n\nA pop-up shop for \"Fate/kaleid liner Prisma Illya: Licht Nameless Girl\" is being held at AKIHABARA GAMERS 7F from May 2 to 17, 2026.\n\nThe venue offers related merchandise, a purchase-based lottery, and bonus gifts.\n\n## Highlights\n\nNew merchandise features China dress ver. visuals of Illya, Miyu, and Chloe, including acrylic stands, can badges, acrylic keychains, rubber desk mats, and more.\n\nDuring the event, customers spending or placing reservation deposits of 3,000 yen including tax on related products can enter the lottery once. Prizes include large acrylic figures in three designs. Bromide bonuses are also distributed while supplies last.\n\n## Event Details\n\n- **Venue**: AKIHABARA GAMERS 7F\n- **Address**: Takara Chuo-dori Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: May 2–17, 2026\n- **Hours**: Weekdays 11:00–21:00 / Weekends and holidays 10:00–21:00\n- **Contents**: \"Prisma Illya\" merchandise sales, lottery, and purchase bonuses\n- **Admission**: Free entry; merchandise sold separately\n- **Reservation**: Not required. Online shop pre-order sales are also available\n\n## Recommended For\n\n- Fans collecting new \"Prisma Illya\" merchandise\n- Those interested in the China dress ver. visuals\n- Visitors touring pop-up shops at AKIHABARA GAMERS\n- Collectors aiming for lottery prizes and bromide bonuses"
+    },
+    "image": {
+      "src": "/images/articles/prisma-illya-licht-pop-up-gamers-akihabara-2026.jpg",
+      "alt": "劇場版Fate/kaleid liner プリズマ☆イリヤ Licht 名前の無い少女ポップアップストアの告知ビジュアル",
+      "sourceLabel": "ゲーマーズ 公式ページ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7395"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式ページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7395"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-05-02",
+      "endDate": "2026-05-17",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 138,
+    "title": "【秋葉原】VRChat発リアルライブ「OUTSIDE」が秋葉原CLUB GOODMANで開催",
+    "slug": "outside-vrchat-live-club-goodman-akihabara-2026",
+    "summary": "VRChat発のリアルライブイベント「OUTSIDE」が、2026年5月23日に秋葉原CLUB GOODMANで開催。モノクロバレット、cymvidia、UDON NOODLE、ばけNeko、onchayaが出演する。",
+    "content": "## 概要\n\nVRChat発のリアルライブイベント「OUTSIDE」が、2026年5月23日に秋葉原CLUB GOODMANで開催されます。超メタフェス2026のサイドイベントとして案内されている音楽ライブです。\n\n会場はJR秋葉原駅から近いライブハウスで、VRChat上で活動するアーティストがリアル会場に集まります。\n\n## 内容\n\n出演はモノクロバレット、cymvidia、UDON NOODLE、ばけNeko、onchaya。開場は17:30、開演は18:00、閉場は22:00予定です。\n\nチケットはLivePocketで販売され、料金は3,000円＋1ドリンク。入場時のドリンク代600円は現金のみと案内されています。イベント中は動画撮影禁止などの注意事項も示されています。\n\n## 開催情報\n\n- **会場**: 秋葉原CLUB GOODMAN\n- **住所**: 東京都千代田区外神田1-2-8 日東ビルB1F\n- **日程**: 2026年5月23日\n- **時間**: 開場17:30 / 開演18:00 / 閉場22:00\n- **出演**: モノクロバレット、cymvidia、UDON NOODLE、ばけNeko、onchaya\n- **料金**: 3,000円＋1ドリンク（ドリンク代600円）\n- **予約**: LivePocketでチケット販売\n\n## こんな人におすすめ\n\n- VRChat発の音楽シーンをリアル会場で体験したい方\n- 超メタフェス2026とあわせて夜のライブも楽しみたい方\n- 秋葉原のライブハウスイベントを探している方\n- モノクロバレットや出演アーティストを追っている方",
+    "publishedAt": "2026-05-15",
+    "tags": [
+      "VRChat",
+      "ライブ",
+      "秋葉原CLUB GOODMAN"
+    ],
+    "en": {
+      "title": "[Akihabara] VRChat-Originated Live Event \"OUTSIDE\" at Akihabara CLUB GOODMAN",
+      "summary": "The VRChat-originated live event \"OUTSIDE\" will be held at Akihabara CLUB GOODMAN on May 23, 2026, featuring Monochrome Bullet, cymvidia, UDON NOODLE, BakeNeko, and onchaya.",
+      "content": "## Overview\n\nThe VRChat-originated real live event \"OUTSIDE\" will be held at Akihabara CLUB GOODMAN on May 23, 2026. It is listed as a side event for Cho Meta Fes 2026.\n\nThe venue is a live house near JR Akihabara Station, bringing artists active in VRChat into a real-world performance space.\n\n## Highlights\n\nPerformers include Monochrome Bullet, cymvidia, UDON NOODLE, BakeNeko, and onchaya. Doors open at 17:30, the show starts at 18:00, and closing is scheduled for 22:00.\n\nTickets are sold through LivePocket at 3,000 yen plus one drink. The 600 yen drink charge at entry is cash only. The event also lists rules such as no video recording during the show.\n\n## Event Details\n\n- **Venue**: Akihabara CLUB GOODMAN\n- **Address**: Nitto Building B1F, 1-2-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: May 23, 2026\n- **Hours**: Doors 17:30 / Starts 18:00 / Closes 22:00\n- **Acts**: Monochrome Bullet, cymvidia, UDON NOODLE, BakeNeko, onchaya\n- **Admission**: 3,000 yen plus one drink (600 yen drink charge)\n- **Reservation**: Tickets sold via LivePocket\n\n## Recommended For\n\n- Those who want to experience VRChat-born music in a real venue\n- Visitors pairing Cho Meta Fes 2026 with an evening live show\n- Those looking for live house events in Akihabara\n- Fans following Monochrome Bullet and the other performers"
+    },
+    "image": {
+      "src": "/images/articles/outside-vrchat-live-club-goodman-akihabara-2026.jpg",
+      "alt": "OUTSIDE VRChat発リアルライブイベントの告知ビジュアル",
+      "sourceLabel": "バーチャルライフマガジン記事",
+      "sourceUrl": "https://vr-lifemagazine.com/outside_press/"
+    },
+    "sources": [
+      {
+        "label": "バーチャルライフマガジン記事",
+        "url": "https://vr-lifemagazine.com/outside_press/"
+      },
+      {
+        "label": "秋葉原CLUB GOODMAN 公式サイト",
+        "url": "https://club.goodman2020.com/"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原CLUB GOODMAN",
+      "startDate": "2026-05-23",
+      "endDate": "2026-05-23",
+      "price": "3,000円＋1ドリンク（ドリンク代600円）",
+      "reservation": true
+    }
+  },
+  {
+    "id": 139,
+    "title": "【秋葉原】佐久間彩加「第17回 秋葉原ティア ワンマンライブ＆ファンミーティング」が開催",
+    "slug": "akihabara-tier-ayaka-sakuma-live-2026",
+    "summary": "佐久間彩加の「第17回 秋葉原ティア ワンマンライブ＆ファンミーティング」が、2026年7月5日に秋葉原ティアで開催。飲み放題付きのライブ＆ファン交流イベント。",
+    "content": "## 概要\n\n佐久間彩加の「第17回 秋葉原ティア ワンマンライブ＆ファンミーティング」が、2026年7月5日に秋葉原ティアで開催されます。\n\nカラオケバトルU-18の元四天王として知られる佐久間彩加の生歌と、ファン同士の交流を楽しめるイベントです。\n\n## 内容\n\n当日は13:00開場、13:30開演、16:45物販終了予定。ワンマンライブとファンミーティングを兼ねた構成で、アルコールを含む飲み放題付きの料金設定が案内されています。\n\n一般料金は7,800円で、アルコールを含む3.5時間飲み放題付き。小学生は2,800円でソフトドリンク2.5時間飲み放題、6歳以下は無料です。7月5日と8月2日の両日申込みをした人には、本人直筆の手紙プレゼントも案内されています。\n\n## 開催情報\n\n- **会場**: 秋葉原ティア\n- **住所**: 東京都千代田区外神田4-4-3 小木曽ビル6階\n- **日程**: 2026年7月5日\n- **時間**: 開場13:00 / 開演13:30 / 物販終了16:45\n- **料金**: 一般7,800円、小学生2,800円、6歳以下無料\n- **予約**: 事前申込み制\n\n## こんな人におすすめ\n\n- 佐久間彩加のライブを秋葉原で楽しみたい方\n- ファンミーティング形式の音楽イベントを探している方\n- 飲み放題付きの昼イベントに参加したい方\n- 秋葉原ティアのイベント情報を押さえたい方",
+    "publishedAt": "2026-05-15",
+    "tags": [
+      "ライブ",
+      "ファンミーティング",
+      "秋葉原ティア"
+    ],
+    "en": {
+      "title": "[Akihabara] Ayaka Sakuma \"17th Akihabara Tier One-Man Live & Fan Meeting\"",
+      "summary": "Ayaka Sakuma will hold the \"17th Akihabara Tier One-Man Live & Fan Meeting\" at Akihabara Tier on July 5, 2026, combining a live performance with fan interaction and all-you-can-drink plans.",
+      "content": "## Overview\n\nAyaka Sakuma will hold the \"17th Akihabara Tier One-Man Live & Fan Meeting\" at Akihabara Tier on July 5, 2026.\n\nThe event lets attendees enjoy live singing from Sakuma, known as a former U-18 top performer from a TV karaoke competition, along with fan interaction.\n\n## Highlights\n\nDoors open at 13:00, the show starts at 13:30, and merchandise sales are scheduled to end at 16:45. The format combines a one-man live show with a fan meeting, with all-you-can-drink pricing.\n\nGeneral admission is 7,800 yen and includes 3.5 hours of all-you-can-drink including alcohol. Elementary school students are 2,800 yen with 2.5 hours of soft drinks, and children aged six or younger are free. Those applying for both the July 5 and August 2 events are also offered a handwritten letter from Sakuma.\n\n## Event Details\n\n- **Venue**: Akihabara Tier\n- **Address**: Ogiso Building 6F, 4-4-3 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: July 5, 2026\n- **Hours**: Doors 13:00 / Starts 13:30 / Merchandise ends 16:45\n- **Admission**: General 7,800 yen, elementary school students 2,800 yen, ages six and under free\n- **Reservation**: Advance application required\n\n## Recommended For\n\n- Those who want to enjoy Ayaka Sakuma live in Akihabara\n- Fans looking for a music event with fan meeting elements\n- Those interested in daytime events with all-you-can-drink plans\n- Those following events at Akihabara Tier"
+    },
+    "image": {
+      "src": "/images/articles/akihabara-tier-ayaka-sakuma-live-2026.webp",
+      "alt": "第17回 秋葉原ティア ワンマンライブ＆ファンミーティングの告知ビジュアル",
+      "sourceLabel": "レッツエンジョイ東京 イベントページ",
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2065907/"
+    },
+    "sources": [
+      {
+        "label": "レッツエンジョイ東京 イベントページ",
+        "url": "https://www.enjoytokyo.jp/event/2065907/"
+      },
+      {
+        "label": "WalkerPlus イベントページ",
+        "url": "https://www.walkerplus.com/event/ar0313e596435/"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原ティア",
+      "startDate": "2026-07-05",
+      "endDate": "2026-07-05",
+      "price": "一般7,800円、小学生2,800円、6歳以下無料",
+      "reservation": true
+    }
+  },
+  {
+    "id": 140,
+    "title": "【秋葉原】伊藤彩沙 写真集発売記念イベントがAKIHABARAゲーマーズ本店で開催",
+    "slug": "ayasa-ito-photobook-gamers-akihabara-2026",
+    "summary": "伊藤彩沙さんの写真集発売記念イベントが、2026年6月24日にAKIHABARAゲーマーズ本店6Fイベントスペースで開催。ガラポン抽選会と本人からの写真集お渡しを実施する。",
+    "content": "## 概要\n\n伊藤彩沙さんの写真集発売記念イベントが、2026年6月24日にAKIHABARAゲーマーズ本店6Fイベントスペースで開催されます。\n\n対象商品を予約または購入した人が参加できる、ガラポン抽選会と写真集お渡しイベントです。\n\n## 内容\n\nイベントは18:00開場、18:30開演予定。対象店舗で対象商品を予約（全額内金）または購入すると、購入冊数分ガラポン抽選会に参加でき、さらに写真集を本人から受け取れます。\n\n対象商品は2026年6月24日発売の「伊藤彩沙 写真集（仮）」で、価格は3,960円（税込）。オンラインショップ注文期間は4月19日11:00から6月21日23:59までと案内されています。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店6Fイベントスペース\n- **住所**: 東京都千代田区外神田1-14-7 外神田一丁目ビル\n- **日程**: 2026年6月24日\n- **時間**: 開場18:00 / 開演18:30\n- **出演**: 伊藤彩沙さん\n- **内容**: ガラポン抽選会、写真集本人お渡し\n- **料金**: 対象商品3,960円（税込）の予約・購入が必要\n- **予約**: 対象商品の予約・購入で参加\n\n## こんな人におすすめ\n\n- 伊藤彩沙さんの写真集発売イベントに参加したい方\n- 写真集のお渡し会や抽選会を楽しみたい方\n- AKIHABARAゲーマーズ本店の声優イベントを追っている方\n- 6月の秋葉原イベント予定を早めに押さえたい方",
+    "publishedAt": "2026-05-15",
+    "tags": [
+      "伊藤彩沙",
+      "写真集",
+      "ゲーマーズ"
+    ],
+    "en": {
+      "title": "[Akihabara] Ayasa Ito Photobook Release Event at AKIHABARA GAMERS",
+      "summary": "Ayasa Ito will hold a photobook release event at AKIHABARA GAMERS 6F event space on June 24, 2026, featuring a garapon lottery and in-person photobook handoff.",
+      "content": "## Overview\n\nAyasa Ito will hold a photobook release event at AKIHABARA GAMERS 6F event space on June 24, 2026.\n\nThe event includes a garapon lottery and an in-person photobook handoff for customers who reserve or purchase the eligible product.\n\n## Highlights\n\nDoors open at 18:00 and the event starts at 18:30. Customers who reserve the eligible product with full payment or purchase it at participating stores can join the garapon lottery for each copy purchased and receive the photobook from Ito in person.\n\nThe eligible product is \"Ayasa Ito Photobook (tentative),\" scheduled for release on June 24, 2026, priced at 3,960 yen including tax. Online orders are accepted from April 19 at 11:00 to June 21 at 23:59.\n\n## Event Details\n\n- **Venue**: AKIHABARA GAMERS 6F event space\n- **Address**: Sotokanda 1-chome Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: June 24, 2026\n- **Hours**: Doors 18:00 / Starts 18:30\n- **Guest**: Ayasa Ito\n- **Contents**: Garapon lottery and in-person photobook handoff\n- **Admission**: Reservation or purchase of the eligible 3,960 yen product required\n- **Reservation**: Participate by reserving or purchasing the eligible product\n\n## Recommended For\n\n- Fans who want to attend Ayasa Ito's photobook release event\n- Those interested in photobook handoff events and lotteries\n- Those following voice actor events at AKIHABARA GAMERS\n- Those planning Akihabara events for June"
+    },
+    "image": {
+      "src": "/images/articles/ayasa-ito-photobook-gamers-akihabara-2026.jpg",
+      "alt": "伊藤彩沙 写真集発売記念イベントの告知ビジュアル",
+      "sourceLabel": "ゲーマーズ 公式ページ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7491"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式ページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7491"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店 6Fイベントスペース",
+      "startDate": "2026-06-24",
+      "endDate": "2026-06-24",
+      "price": "対象商品3,960円（税込）の予約・購入が必要",
+      "reservation": true
+    }
+  },
+  {
+    "id": 141,
+    "title": "【秋葉原】立花日菜「LIVE IN HOLIC」Blu-ray発売記念リリースイベントが開催",
+    "slug": "hina-tachibana-live-in-holic-gamers-akihabara-2026",
+    "summary": "立花日菜さんの「1st concert LIVE IN HOLIC」Blu-ray発売記念リリースイベントが、2026年7月26日にAKIHABARAゲーマーズ本店6Fイベントスペースで開催。アクリルスタンドお渡し会を実施する。",
+    "content": "## 概要\n\n立花日菜さんの「1st concert LIVE IN HOLIC」Blu-ray発売記念リリースイベントが、2026年7月26日にAKIHABARAゲーマーズ本店6Fイベントスペースで開催されます。\n\n対象商品のイベント参加券付限定版を予約または購入した人を対象にした、アクリルスタンドお渡し会です。\n\n## 内容\n\nイベントは2部制で、第1部は集合12:40、開場12:45、開演13:00。第2部は集合14:10、開場14:15、開演14:30と案内されています。\n\n対象商品は2026年5月27日発売の「立花日菜 1st concert LIVE IN HOLIC Blu-ray」で、イベント参加券付商品販売価格は11,000円（税込）。AKIHABARAゲーマーズ本店では2026年3月13日開店時から参加券配布が始まり、なくなり次第終了です。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店6Fイベントスペース\n- **住所**: 東京都千代田区外神田1-14-7 外神田一丁目ビル\n- **日程**: 2026年7月26日\n- **第1部**: 集合12:40 / 開場12:45 / 開演13:00\n- **第2部**: 集合14:10 / 開場14:15 / 開演14:30\n- **出演**: 立花日菜さん\n- **内容**: アクリルスタンドお渡し会\n- **料金**: イベント参加券付商品11,000円（税込）の予約・購入が必要\n- **予約**: 参加券は対象商品予約・購入で先着配布\n\n## こんな人におすすめ\n\n- 立花日菜さんのリリースイベントに参加したい方\n- 「LIVE IN HOLIC」Blu-ray購入を検討している方\n- アクリルスタンドお渡し会を楽しみたい方\n- AKIHABARAゲーマーズ本店の声優イベントを追っている方",
+    "publishedAt": "2026-05-15",
+    "tags": [
+      "立花日菜",
+      "リリースイベント",
+      "ゲーマーズ"
+    ],
+    "en": {
+      "title": "[Akihabara] Hina Tachibana \"LIVE IN HOLIC\" Blu-ray Release Event at GAMERS",
+      "summary": "Hina Tachibana will hold a release event for the \"1st concert LIVE IN HOLIC\" Blu-ray at AKIHABARA GAMERS 6F event space on July 26, 2026, featuring an acrylic stand handoff.",
+      "content": "## Overview\n\nHina Tachibana will hold a release event for the \"1st concert LIVE IN HOLIC\" Blu-ray at AKIHABARA GAMERS 6F event space on July 26, 2026.\n\nThe event is an acrylic stand handoff for customers who reserve or purchase the limited edition product with an event participation ticket.\n\n## Highlights\n\nThe event has two parts. Part 1 gathers at 12:40, opens at 12:45, and starts at 13:00. Part 2 gathers at 14:10, opens at 14:15, and starts at 14:30.\n\nThe eligible product is \"Hina Tachibana 1st concert LIVE IN HOLIC Blu-ray,\" scheduled for release on May 27, 2026. The event-ticket product is priced at 11,000 yen including tax. AKIHABARA GAMERS began distributing participation tickets from store opening on March 13, 2026, while supplies last.\n\n## Event Details\n\n- **Venue**: AKIHABARA GAMERS 6F event space\n- **Address**: Sotokanda 1-chome Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: July 26, 2026\n- **Part 1**: Gather 12:40 / Doors 12:45 / Starts 13:00\n- **Part 2**: Gather 14:10 / Doors 14:15 / Starts 14:30\n- **Guest**: Hina Tachibana\n- **Contents**: Acrylic stand handoff\n- **Admission**: Reservation or purchase of the 11,000 yen event-ticket product required\n- **Reservation**: Participation tickets distributed first-come, first-served with eligible product reservation or purchase\n\n## Recommended For\n\n- Fans who want to attend Hina Tachibana's release event\n- Those considering the \"LIVE IN HOLIC\" Blu-ray\n- Those interested in acrylic stand handoff events\n- Those following voice actor events at AKIHABARA GAMERS"
+    },
+    "image": {
+      "src": "/images/articles/hina-tachibana-live-in-holic-gamers-akihabara-2026.jpg",
+      "alt": "立花日菜 1st concert LIVE IN HOLIC Blu-ray発売記念リリースイベントの告知ビジュアル",
+      "sourceLabel": "ゲーマーズ 公式ページ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7345"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式ページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7345"
+      },
+      {
+        "label": "Eventernote イベントページ",
+        "url": "https://www.eventernote.com/events/466853"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店 6Fイベントスペース",
+      "startDate": "2026-07-26",
+      "endDate": "2026-07-26",
+      "price": "イベント参加券付商品11,000円（税込）の予約・購入が必要",
+      "reservation": true
+    }
+  },
+  {
     "id": 134,
     "title": "【秋葉原】「DIGIMON BEATBREAK」POP UP SHOPがアニメイト秋葉原ANNEXで開催",
     "slug": "digimon-beatbreak-animate-akihabara-2026",
