@@ -58,6 +58,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "アニメイト秋葉原ANNEX": { lat: 35.7001, lng: 139.7714 },
   "TOPPA!!! BASE AKIBA": { lat: 35.6984, lng: 139.773 },
   "コトブキヤ秋葉原店 5F": { lat: 35.6994, lng: 139.7711 },
+  "コトブキヤ秋葉原館2階": { lat: 35.6994, lng: 139.7711 },
   "GiGO秋葉原5号館 Akib@ko": { lat: 35.6991, lng: 139.7719 },
   "LIVE HOUSE＆CLUB ANTHEM AKIBA": { lat: 35.7007, lng: 139.7695 },
   "AIR 3331 岩本町レジデンス＆スタジオ 1階": { lat: 35.6947, lng: 139.7772 },
