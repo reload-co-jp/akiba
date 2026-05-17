@@ -5790,6 +5790,10 @@
         "url": "https://www.gdm.or.jp/crew/2026/0512/634125"
       },
       {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2108842.html"
+      },
+      {
         "label": "BEEP秋葉原 店舗案内",
         "url": "https://www.akihabara-beep.com/pg2.html"
       }
@@ -5939,6 +5943,80 @@
       "endDate": "2026-05-31",
       "price": "入場無料（商品購入は別途）",
       "reservation": false
+    }
+  },
+  {
+    "id": 137,
+    "title": "【秋葉原】サイバーセキュリティカンファレンス「Hack Fes. 2026」が秋葉原UDXで開催",
+    "slug": "hack-fes-2026-akihabara-udx",
+    "summary": "対面限定のサイバーセキュリティカンファレンス「Hack Fes. 2026」が、2026年7月18日に秋葉原UDXで開催。テーマは「ハッカーとサイバー防衛」で、講演、ワークショップ、スポンサーセッション、ネットワーキングパーティを予定する。",
+    "content": "## 概要\n\n一般社団法人日本ハッカー協会によるサイバーセキュリティカンファレンス「Hack Fes. 2026」が、2026年7月18日に秋葉原UDXで開催されます。\n\n会場は秋葉原UDX 4階のUDX Gallery+Gallery Next。オンライン配信なしの対面限定イベントとして実施され、2026年のメインテーマは「ハッカーとサイバー防衛」です。\n\n## 内容\n\nプログラム第一弾では、サイバー空間での攻防、宇宙サイバーセキュリティ、AIによる0-day発見、量子耐性暗号、フェイクニュース対策などを扱う講演が発表されています。\n\nワークショップには「徳丸本アップデート2026」や「AI時代のバグハンティング入門」などが案内されています。チケットは2026年5月13日からPeatixで販売開始。カンファレンス後にはネットワーキングパーティも予定されています。\n\n## 開催情報\n\n- **会場**: 秋葉原UDX 4F UDX Gallery+Gallery Next\n- **住所**: 東京都千代田区外神田4-14-1\n- **日程**: 2026年7月18日\n- **時間**: カンファレンス10:00〜17:40予定 / ネットワーキングパーティ18:30〜20:00予定\n- **内容**: 講演、ワークショップ、スポンサーセッション、ネットワーキング\n- **料金**: カンファレンスのみ4,000円、カンファレンス+ネットワーキングパーティ11,000円（税込）\n- **予約**: Peatixでチケット販売\n\n## こんな人におすすめ\n\n- サイバーセキュリティやサイバー防衛の最新トピックを追いたい方\n- 技術講演やワークショップに対面で参加したいエンジニア\n- バグハンティング、AIセキュリティ、量子暗号などに関心がある方\n- 秋葉原UDXで開催される技術カンファレンスを探している方",
+    "publishedAt": "2026-05-17",
+    "tags": [
+      "サイバーセキュリティ",
+      "カンファレンス",
+      "秋葉原UDX"
+    ],
+    "en": {
+      "title": "[Akihabara] Cybersecurity Conference \"Hack Fes. 2026\" at Akihabara UDX",
+      "summary": "\"Hack Fes. 2026\", an in-person-only cybersecurity conference, will be held at Akihabara UDX on July 18, 2026. The theme is \"Hackers and Cyber Defense\", with talks, workshops, sponsor sessions, and a networking party planned.",
+      "content": "## Overview\n\nThe Japan Hacker Association will hold the cybersecurity conference \"Hack Fes. 2026\" at Akihabara UDX on July 18, 2026.\n\nThe venue is UDX Gallery+Gallery Next on the 4th floor of Akihabara UDX. The event will be held as an in-person-only conference with no online stream, and the main theme for 2026 is \"Hackers and Cyber Defense\".\n\n## Highlights\n\nThe first program announcement includes talks on cyber offense and defense, space cybersecurity, AI-powered 0-day discovery, quantum-resistant cryptography, and countermeasures against fake news.\n\nWorkshops include \"Tokumaru Book Update 2026\" and \"Introduction to Bug Hunting in the AI Era\". Tickets went on sale via Peatix on May 13, 2026. A networking party is also planned after the conference.\n\n## Event Details\n\n- **Venue**: Akihabara UDX 4F UDX Gallery+Gallery Next\n- **Address**: 4-14-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: July 18, 2026\n- **Hours**: Conference 10:00–17:40 planned / Networking party 18:30–20:00 planned\n- **Contents**: Talks, workshops, sponsor sessions, networking\n- **Admission**: Conference only ¥4,000; conference + networking party ¥11,000 (tax included)\n- **Reservation**: Tickets sold via Peatix\n\n## Recommended For\n\n- Those following current topics in cybersecurity and cyber defense\n- Engineers who want to attend technical talks and workshops in person\n- Those interested in bug hunting, AI security, quantum cryptography, and related fields\n- Visitors looking for technology conferences held at Akihabara UDX"
+    },
+    "image": {
+      "src": "/images/articles/hack-fes-2026-akihabara-udx.png",
+      "alt": "Hack Fes. 2026の告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000182646.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000004.000182646.html"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原UDX 4F UDX Gallery+Gallery Next",
+      "startDate": "2026-07-18",
+      "endDate": "2026-07-18",
+      "price": "カンファレンスのみ4,000円、カンファレンス+ネットワーキングパーティ11,000円（税込）",
+      "reservation": true
+    }
+  },
+  {
+    "id": 138,
+    "title": "【秋葉原】怪談師・城谷歩 独演会「全心全霊 Vol.5」が秋葉原UDXシアターで開催",
+    "slug": "zenshin-zenrei-vol5-udx-theater-2026",
+    "summary": "怪談師・城谷歩の独演会「全心全霊 Vol.5 城谷節の真骨頂 〜怪怖涙談〜」が、2026年7月24日・25日に秋葉原UDXシアターで開催。3公演構成で、ゲストに薩摩琵琶奏者の丸山恭司が出演する。",
+    "content": "## 概要\n\n怪談師・城谷歩の独演会「全心全霊 Vol.5 城谷節の真骨頂 〜怪怖涙談〜」が、2026年7月24日と25日に秋葉原UDXシアターで開催されます。\n\n今年のテーマは「怪怖涙談」。怪談の怪しさ、恐怖、涙を誘う要素を、城谷歩の語りと劇場演出で届ける怪談エンタテインメント公演です。\n\n## 内容\n\n公演は全3回で、7月24日19:00、7月25日13:00、7月25日18:00に実施予定。各公演で異なる怪談話を披露すると案内されています。\n\n第二部では、薩摩琵琶奏者の丸山恭司と共演する古典怪談の演目も予定。会場では新作Tシャツ、手ぬぐい、フォトブック、ステッカーセット、アクリルスタンドなどの公演グッズも販売されます。チケットは2026年5月7日10:00からチケットペイで販売開始です。\n\n## 開催情報\n\n- **会場**: 秋葉原UDXシアター\n- **住所**: 東京都千代田区外神田4-14-1 秋葉原UDX 4F\n- **日程**: 2026年7月24日〜7月25日\n- **時間**: 7月24日19:00 / 7月25日13:00・18:00\n- **出演**: 城谷歩\n- **ゲスト**: 丸山恭司（薩摩琵琶奏者）\n- **内容**: 怪談独演会、古典怪談演目、公演グッズ販売\n- **料金**: 5,000円\n- **予約**: チケットペイで販売\n\n## こんな人におすすめ\n\n- 城谷歩の怪談公演を劇場で楽しみたい方\n- 秋葉原UDXシアターの演劇・ライブ系イベントを探している方\n- 音響、照明、映像を使った怪談エンタテインメントに興味がある方\n- 夏の怪談イベントを早めに押さえたい方",
+    "publishedAt": "2026-05-17",
+    "tags": [
+      "怪談",
+      "秋葉原UDXシアター",
+      "公演"
+    ],
+    "en": {
+      "title": "[Akihabara] Storyteller Ayumu Shirotani Solo Show \"Zenshin Zenrei Vol.5\" at Akihabara UDX Theater",
+      "summary": "Kaidan storyteller Ayumu Shirotani's solo show \"Zenshin Zenrei Vol.5: The Essence of Shirotani-bushi - Kaifu Ruidan\" will be held at Akihabara UDX Theater on July 24 and 25, 2026. The three-performance event features Satsuma biwa player Kyoji Maruyama as guest.",
+      "content": "## Overview\n\nKaidan storyteller Ayumu Shirotani's solo show \"Zenshin Zenrei Vol.5: The Essence of Shirotani-bushi - Kaifu Ruidan\" will be held at Akihabara UDX Theater on July 24 and 25, 2026.\n\nThis year's theme is \"Kaifu Ruidan\". The show presents the eerie, frightening, and tearful elements of kaidan through Shirotani's narration and theater production.\n\n## Highlights\n\nThe event consists of three performances: July 24 at 19:00, July 25 at 13:00, and July 25 at 18:00. Each performance is planned to feature different kaidan stories.\n\nThe second part will include a classical kaidan piece performed with Satsuma biwa player Kyoji Maruyama. Event merchandise such as new T-shirts, tenugui towels, photo books, sticker sets, and acrylic stands will also be sold at the venue. Tickets went on sale via TicketPay at 10:00 on May 7, 2026.\n\n## Event Details\n\n- **Venue**: Akihabara UDX Theater\n- **Address**: Akihabara UDX 4F, 4-14-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: July 24–25, 2026\n- **Times**: July 24 at 19:00 / July 25 at 13:00 and 18:00\n- **Performer**: Ayumu Shirotani\n- **Guest**: Kyoji Maruyama (Satsuma biwa player)\n- **Contents**: Kaidan solo show, classical kaidan piece, event merchandise sales\n- **Admission**: ¥5,000\n- **Reservation**: Tickets sold via TicketPay\n\n## Recommended For\n\n- Those who want to experience Ayumu Shirotani's kaidan performance in a theater\n- Visitors looking for theater and live events at Akihabara UDX Theater\n- Those interested in kaidan entertainment using sound, lighting, and visuals\n- Fans who want to secure tickets early for a summer kaidan event"
+    },
+    "image": {
+      "src": "/images/articles/zenshin-zenrei-vol5-udx-theater-2026.jpg",
+      "alt": "全心全霊 Vol.5 城谷節の真骨頂 〜怪怖涙談〜の告知フライヤー",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000015.000106076.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000015.000106076.html"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原UDXシアター",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-25",
+      "price": "5,000円",
+      "reservation": true
     }
   }
 ]
