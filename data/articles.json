@@ -1,5 +1,42 @@
 [
   {
+    "id": 151,
+    "title": "【秋葉原】「pop'n music」POP UP SHOPがAKIHABARAゲーマーズ本店で開催",
+    "slug": "popn-music-popup-gamers-akihabara-2026",
+    "summary": "「pop'n music」POP UP SHOPが、2026年5月23日から6月14日までAKIHABARAゲーマーズ本店5Fなどで開催。ミニアクリルスタンド、ホログラムステッカー、ブロマイド、クリーナークロス購入特典などを展開する。",
+    "content": "## 概要\n\n「pop'n music」POP UP SHOPが、2026年5月23日から6月14日までAKIHABARAゲーマーズ本店5Fなどで開催されます。\n\nKONAMIの音楽ゲーム『pop'n music』の期間限定ショップで、キャラクターグッズ販売と購入特典配布を実施します。\n\n## 内容\n\n会場では、ミニアクリルスタンドコレクション、ホログラムステッカーコレクション、ブロマイドコレクション、木チャームコレクション、オーロラクリアファイル、アクリル色紙など多数のグッズを販売します。\n\n期間中、会場で『pop'n music』対象商品を購入、または予約内金5,500円（税込）以上で、購入特典としてクリーナークロスを1枚配布。特典は1会計につき1つで、なくなり次第終了です。\n\nAKIHABARAゲーマーズ本店のほか、仙台、名古屋、なんば、博多のゲーマーズ各店でも実施され、ゲーマーズオンラインショップでも同時通販が行われます。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店5F\n- **住所**: 東京都千代田区外神田1-14-7 外神田一丁目ビル\n- **期間**: 2026年5月23日〜6月14日\n- **営業時間**: 平日11:00〜21:00 / 土日祝10:00〜21:00\n- **内容**: 『pop'n music』グッズ販売、購入特典クリーナークロス配布\n- **特典条件**: 対象商品購入または予約内金5,500円（税込）以上でクリーナークロス1枚配布\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要。オンラインショップでも同時通販あり\n\n## こんな人におすすめ\n\n- 『pop'n music』のキャラクターグッズを集めたい方\n- ミニアクリルスタンドやブロマイドを探している方\n- AKIHABARAゲーマーズ本店の音楽ゲーム系ポップアップを巡りたい方\n- 購入特典クリーナークロスを狙いたい方",
+    "publishedAt": "2026-05-18",
+    "tags": [
+      "pop'n music",
+      "ポップアップストア",
+      "ゲーマーズ"
+    ],
+    "en": {
+      "title": "[Akihabara] pop'n music Pop-Up Shop at AKIHABARA Gamers",
+      "summary": "The pop'n music Pop-Up Shop runs at AKIHABARA Gamers 5F from May 23 to June 14, 2026, featuring mini acrylic stands, hologram stickers, bromides, and cleaner cloth purchase bonuses.",
+      "content": "## Overview\n\nThe *pop'n music* Pop-Up Shop will be held at AKIHABARA Gamers 5F from May 23 to June 14, 2026.\n\nThis limited-time shop for KONAMI's music game *pop'n music* features character merchandise sales and purchase bonus distribution.\n\n## Highlights\n\nThe venue will sell many goods including mini acrylic stand collections, hologram sticker collections, bromide collections, wooden charm collections, aurora clear files, acrylic shikishi boards, and more.\n\nDuring the event, customers who purchase eligible *pop'n music* products at the venue, or place reservation deposits of 5,500 yen including tax or more, receive one cleaner cloth as a purchase bonus. The bonus is limited to one per transaction and available while supplies last.\n\nIn addition to AKIHABARA Gamers, the pop-up is also held at Gamers stores in Sendai, Nagoya, Namba, and Hakata, with simultaneous online sales through the Gamers online shop.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers 5F\n- **Address**: Sotokanda 1-chome Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: May 23–June 14, 2026\n- **Hours**: Weekdays 11:00–21:00 / weekends and holidays 10:00–21:00\n- **Contents**: *pop'n music* merchandise sales and cleaner cloth purchase bonus distribution\n- **Bonus Condition**: One cleaner cloth with eligible purchases or reservation deposits of 5,500 yen including tax or more\n- **Admission**: Free entry; merchandise sold separately\n- **Reservation**: Not required. Simultaneous online sales are also available\n\n## Recommended For\n\n- Fans collecting *pop'n music* character merchandise\n- Those looking for mini acrylic stands and bromides\n- Visitors touring music-game pop-up shops at AKIHABARA Gamers\n- Collectors aiming for the cleaner cloth purchase bonus"
+    },
+    "image": {
+      "src": "/images/articles/popn-music-popup-gamers-akihabara-2026.jpg",
+      "alt": "「pop'n music」POP UP SHOPの告知ビジュアル",
+      "sourceLabel": "ゲーマーズ 公式ページ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7528"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式ページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7528"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店 5F",
+      "startDate": "2026-05-23",
+      "endDate": "2026-06-14",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
     "id": 150,
     "title": "【秋葉原】「グリッドマン ユニバース」POP UP SHOPがボークスで開催",
     "slug": "gridman-universe-popup-volks-akihabara-2026",
