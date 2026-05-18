@@ -138,6 +138,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
             <nav className="site-header__nav" aria-label="主要ナビゲーション">
               <Link href="/articles/">新着記事</Link>
               <Link href="/events/">開催中</Link>
+              <Link href="/spots/">観光スポット</Link>
               <Link href="/about/">このサイトについて</Link>
             </nav>
           </div>

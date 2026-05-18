@@ -1,0 +1,220 @@
+[
+  {
+    "id": 1,
+    "name": "ヨドバシカメラ マルチメディアAkiba",
+    "slug": "yodobashi-akiba",
+    "category": "電気街・PCパーツ",
+    "description": "秋葉原駅直結の大型家電量販店。パソコン・スマートフォン・カメラ・ゲームなど幅広い商品を取り扱う。地上9階・地下2階の大規模フロア構成で、PCパーツや自作PC用品も充実。",
+    "address": "東京都千代田区神田花岡町1-1",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "9:30〜22:00",
+    "closed": "無休",
+    "admission": "無料",
+    "website": "https://www.yodobashi-akiba.com/",
+    "lat": 35.6983,
+    "lng": 139.7733,
+    "image": {
+      "src": "/images/spots/yodobashi-akiba.jpg",
+      "alt": "ヨドバシカメラ マルチメディアAkibaの外観"
+    },
+    "en": {
+      "name": "Yodobashi Camera Multimedia Akiba",
+      "description": "A large electronics retailer directly connected to Akihabara Station. Covers PCs, smartphones, cameras, and games across nine floors above ground and two below. The PC parts section is especially popular among self-builders.",
+      "access": "1-minute walk from JR Akihabara Station",
+      "hours": "9:30–22:00",
+      "closed": "Open year-round"
+    },
+    "tags": ["家電", "PCパーツ", "自作PC"]
+  },
+  {
+    "id": 2,
+    "name": "アニメイト秋葉原",
+    "slug": "animate-akihabara",
+    "category": "アニメ・マンガ・同人",
+    "description": "全国展開するアニメ・マンガグッズ専門店の秋葉原店。アニメ・マンガ・ゲーム関連グッズ、CD、DVD、コミックスなどを幅広く取り扱う。新作タイトルの発売に合わせたキャンペーンやイベントも頻繁に開催。",
+    "address": "東京都千代田区外神田4-3-2",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "10:00〜21:00",
+    "closed": "不定休",
+    "admission": "無料",
+    "website": "https://www.animate.co.jp/shop/akihabara/",
+    "lat": 35.7009,
+    "lng": 139.7713,
+    "image": {
+      "src": "/images/spots/animate-akihabara.jpg",
+      "alt": "アニメイト秋葉原の外観"
+    },
+    "en": {
+      "name": "Animate Akihabara",
+      "description": "The Akihabara branch of Japan's largest anime and manga goods chain. Stocks anime, manga, and game merchandise, CDs, DVDs, and comics. Frequent campaigns and events tied to new releases.",
+      "access": "5-minute walk from JR Akihabara Station",
+      "hours": "10:00–21:00",
+      "closed": "Irregular holidays"
+    },
+    "tags": ["アニメ", "マンガ", "グッズ"]
+  },
+  {
+    "id": 3,
+    "name": "ゲーマーズ秋葉原本店",
+    "slug": "gamers-akihabara",
+    "category": "アニメ・マンガ・同人",
+    "description": "アニメ・ゲーム・声優関連商品を専門に扱う専門店の本店。CD・DVD・Blu-ray・グッズ・書籍を網羅し、声優関連商品の充実ぶりで知られる。イベント・特典販売も定期的に実施。",
+    "address": "東京都千代田区外神田3-13-14",
+    "access": "JR秋葉原駅 徒歩4分",
+    "hours": "10:00〜21:00",
+    "closed": "不定休",
+    "admission": "無料",
+    "website": "https://www.gamers.co.jp/shop/001/",
+    "lat": 35.6999,
+    "lng": 139.7705,
+    "image": {
+      "src": "/images/spots/gamers-akihabara.jpg",
+      "alt": "ゲーマーズ秋葉原本店の外観"
+    },
+    "en": {
+      "name": "Gamers Akihabara Main Store",
+      "description": "The flagship store specializing in anime, game, and voice actor merchandise. Renowned for its deep catalog of voice actor-related products, plus CDs, Blu-rays, and books. Regular events and exclusive bonuses.",
+      "access": "4-minute walk from JR Akihabara Station",
+      "hours": "10:00–21:00",
+      "closed": "Irregular holidays"
+    },
+    "tags": ["アニメ", "ゲーム", "声優"]
+  },
+  {
+    "id": 4,
+    "name": "秋葉原ラジオ会館",
+    "slug": "akihabara-radio-kaikan",
+    "category": "アニメ・マンガ・同人",
+    "description": "1962年創業の秋葉原を代表するビル。フィギュア・トレカ・アニメグッズ・同人誌ショップなど個性的なテナントが集まる聖地。2014年に建て替えられた現ビルは地上10階建て。",
+    "address": "東京都千代田区外神田1-15-16",
+    "access": "JR秋葉原駅 徒歩2分",
+    "hours": "各テナントによる（11:00〜20:00が目安）",
+    "closed": "各テナントによる",
+    "admission": "無料",
+    "website": "https://akiba-radiokaikan.co.jp/",
+    "lat": 35.6988,
+    "lng": 139.7718,
+    "image": {
+      "src": "/images/spots/radio-kaikan.jpg",
+      "alt": "秋葉原ラジオ会館の外観"
+    },
+    "en": {
+      "name": "Akihabara Radio Kaikan",
+      "description": "An iconic Akihabara building established in 1962, housing specialty shops for figures, trading cards, doujinshi, and anime goods. The current 10-story building opened in 2014 after renovation.",
+      "access": "2-minute walk from JR Akihabara Station",
+      "hours": "Varies by tenant (approx. 11:00–20:00)",
+      "closed": "Varies by tenant"
+    },
+    "tags": ["フィギュア", "同人誌", "トレカ"]
+  },
+  {
+    "id": 5,
+    "name": "スーパーポテト秋葉原店",
+    "slug": "super-potato-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "レトロゲームの聖地として世界的に有名な中古ゲームショップ。ファミコン・スーパーファミコン・メガドライブなど往年のハードと関連ソフトを豊富に取り揃える。5階には往年のゲームが遊べるレトロゲームコーナーも。",
+    "address": "東京都千代田区外神田1-11-2",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "11:00〜20:00",
+    "closed": "不定休",
+    "admission": "無料（ゲームコーナーは有料）",
+    "website": "https://www.superpotato.com/",
+    "lat": 35.6993,
+    "lng": 139.7711,
+    "image": {
+      "src": "/images/spots/super-potato.jpg",
+      "alt": "スーパーポテト秋葉原店の外観"
+    },
+    "en": {
+      "name": "Super Potato Akihabara",
+      "description": "Globally renowned as a retro gaming mecca, this used-game shop stocks Famicom, Super Famicom, and Mega Drive hardware and software. The 5th floor houses a retro arcade corner where you can play classic games.",
+      "access": "3-minute walk from JR Akihabara Station",
+      "hours": "11:00–20:00",
+      "closed": "Irregular holidays",
+      "admission": "Free entry (arcade games paid separately)"
+    },
+    "tags": ["レトロゲーム", "中古ゲーム", "ファミコン"]
+  },
+  {
+    "id": 6,
+    "name": "トレーダー秋葉原本店",
+    "slug": "trader-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "フィギュア・トレカ・ゲームソフトの買取・販売を行う大型中古ショップ。希少フィギュアや絶版トレカが見つかることも多く、コレクターの間で人気が高い。",
+    "address": "東京都千代田区外神田3-13-5",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "11:00〜20:00",
+    "closed": "不定休",
+    "admission": "無料",
+    "website": "https://www.trader.co.jp/",
+    "lat": 35.7001,
+    "lng": 139.7704,
+    "image": {
+      "src": "/images/spots/trader-akihabara.jpg",
+      "alt": "トレーダー秋葉原本店の外観"
+    },
+    "en": {
+      "name": "Trader Akihabara Main Store",
+      "description": "A large used-goods shop dealing in figures, trading cards, and game software. Popular among collectors for rare figures and out-of-print trading cards that are hard to find elsewhere.",
+      "access": "5-minute walk from JR Akihabara Station",
+      "hours": "11:00–20:00",
+      "closed": "Irregular holidays"
+    },
+    "tags": ["フィギュア", "トレカ", "中古"]
+  },
+  {
+    "id": 7,
+    "name": "@ほぉ〜むカフェ 本店",
+    "slug": "home-cafe-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原を代表するメイドカフェの老舗。「おかえりなさいませ、ご主人様」の接客スタイルで世界的に有名。フードやドリンクはもちろん、写真撮影・ゲームなどのサービスも充実。",
+    "address": "東京都千代田区外神田1-11-4 みつわビル5F",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "11:30〜22:00（土日祝 10:30〜）",
+    "closed": "不定休",
+    "admission": "入場料あり（別途チャージ）",
+    "website": "https://www.cafe-athome.com/",
+    "lat": 35.6991,
+    "lng": 139.7714,
+    "image": {
+      "src": "/images/spots/home-cafe.jpg",
+      "alt": "@ほぉ〜むカフェ本店の入口"
+    },
+    "en": {
+      "name": "@Home Cafe Main Store",
+      "description": "One of Akihabara's most iconic maid cafes, world-famous for its 'Welcome home, Master' hospitality. Offers food, drinks, photo services, and mini-games alongside the maid experience.",
+      "access": "3-minute walk from JR Akihabara Station",
+      "hours": "11:30–22:00 (from 10:30 on weekends and holidays)",
+      "closed": "Irregular holidays",
+      "admission": "Entry fee + table charge apply"
+    },
+    "tags": ["メイドカフェ", "カフェ", "体験"]
+  },
+  {
+    "id": 8,
+    "name": "秋葉原UDX",
+    "slug": "akihabara-udx",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅電気街口すぐそばの複合施設。レストランや展示スペース「アキバ・スクエア」を擁し、企業イベントや展示会の会場としても頻繁に使われる。2〜4Fのレストランフロアでは多彩なジャンルの飲食店が利用可能。",
+    "address": "東京都千代田区外神田4-14-1",
+    "access": "JR秋葉原駅 電気街口 徒歩2分",
+    "hours": "施設により異なる",
+    "closed": "無休（施設による）",
+    "admission": "無料（各店舗の利用は別途）",
+    "website": "https://www.udx.jp/",
+    "lat": 35.7012,
+    "lng": 139.7726,
+    "image": {
+      "src": "/images/spots/akihabara-udx.jpg",
+      "alt": "秋葉原UDXの外観"
+    },
+    "en": {
+      "name": "Akihabara UDX",
+      "description": "A mixed-use complex steps from Akihabara's Electric Town exit. Houses Akiba Square exhibition space and a restaurant floor on floors 2–4, frequently used for corporate events and trade shows.",
+      "access": "2-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "Varies by venue",
+      "closed": "Open year-round (varies by venue)"
+    },
+    "tags": ["複合施設", "イベント", "レストラン"]
+  }
+]
