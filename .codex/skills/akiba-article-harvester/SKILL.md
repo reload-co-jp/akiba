@@ -20,12 +20,21 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 ## Quick Start
 
 1. Read [references/source-list.md](references/source-list.md).
-2. Browse the requested source page, or all source pages when the user asks for broad harvesting.
+2. Browse the requested source page, or all source pages when the user asks for broad harvesting. For broad harvesting, always include X.com live search from `references/source-list.md` in the discovery pass.
 3. Build a candidate queue before writing. Prefer 5-10 solid candidates per pass when available; do not stop after the first one or two unless sources are exhausted or verification is blocked.
 4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site.
 5. Deduplicate the whole queue against `data/articles.json` by title, slug, event name, source URL, venue/date combination, and recognizable campaign names. Drop duplicates before drafting new articles.
 6. For each remaining candidate, open the primary source when possible and confirm date, venue, price, reservation/ticket rules, and image. Keep every source page used to find or confirm the candidate.
 7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules, then verify once with `pnpm build`.
+
+## X.com Discovery
+
+- Include X.com live search in every broad harvesting pass, using the source-list URL and keyword variants such as `秋葉原 イベント`, `秋葉原 コラボ`, `秋葉原 ポップアップ`, `秋葉原 オープン`, `アキバ イベント`, `AKIHABARA POP UP`, and venue names.
+- Treat X.com as discovery or supporting evidence only. Do not create an article from an unverified tweet alone.
+- Prefer posts from official venue, shop, organizer, publisher, label, or brand accounts. Drop posts from fan accounts, repost aggregators, or anonymous accounts unless they link to an official page.
+- When X reveals a candidate, search the exact event title, account name, venue, date, and linked domain to find a primary source. Write only after confirming date, venue, price or admission, reservation or ticket rules, and usable image from official/primary sources.
+- Record an X.com source only when the official account post confirms a fact that is not fully covered elsewhere, or when it is the discovery source and the article also has a primary confirmation source.
+- If X.com blocks browsing or login is unavailable, fall back to web search queries targeting `x.com` and official sites, then report X.com as blocked only if no usable view or search result is available.
 
 ## Bulk Harvesting Bias
 
