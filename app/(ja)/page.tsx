@@ -4,11 +4,13 @@ import { getAllArticles } from "lib/articles"
 
 export const metadata = {
   title: "アキバLive",
-  description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+  description:
+    "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
   alternates: { canonical: "/" },
   openGraph: {
     title: "アキバLive",
-    description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+    description:
+      "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
     url: "/",
     type: "website",
   },
@@ -16,7 +18,6 @@ export const metadata = {
 
 const Page = () => {
   const articles = getAllArticles()
-  const latestArticle = articles[0]
 
   return (
     <>
@@ -27,11 +28,9 @@ const Page = () => {
           <p className="home-hero__lead">
             懐かしさと熱気が交差する街で、今日出会えるエンタメの気配を集めます。
           </p>
-          {latestArticle && (
-            <Link className="home-hero__link" href={`/articles/${latestArticle.slug}/`}>
-              最新記事を読む
-            </Link>
-          )}
+          <Link className="home-hero__link" href={`/articles/`}>
+            最新記事を読む
+          </Link>
         </div>
       </section>
 
