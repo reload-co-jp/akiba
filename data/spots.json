@@ -320,5 +320,386 @@
       "closed": "Open year-round"
     },
     "tags": ["焼肉", "和牛", "ランチ"]
+  },
+  {
+    "id": 12,
+    "name": "千石電商",
+    "slug": "sengoku-denshi",
+    "category": "電気街・PCパーツ",
+    "description": "電子部品・工具・キットを専門に扱う老舗電子部品店。抵抗・コンデンサ・ICなど基本部品からマイコンモジュール・センサー類まで幅広く在庫。ホビーエレクトロニクスから業務用まで対応し、自作電子工作ファンに長年親しまれる。",
+    "address": "東京都千代田区外神田1-8-6",
+    "access": "JR秋葉原駅 電気街口 徒歩4分",
+    "hours": "10:00〜19:00",
+    "closed": "日曜・祝日",
+    "admission": "無料",
+    "website": "https://www.sengoku.co.jp/",
+    "lat": 35.6983,
+    "lng": 139.7710,
+    "image": {
+      "src": "/images/spots/sengoku-denshi.jpg",
+      "alt": "千石電商の外観",
+      "sourceLabel": "Wikimedia Commons (パブリックドメイン)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sengoku-Denshou_Akihabara.jpg"
+    },
+    "en": {
+      "name": "Sengoku Denshi",
+      "description": "A long-established electronics components shop stocking resistors, capacitors, ICs, microcontroller modules, and sensors. Catering to both hobbyists and professional engineers, it has been a staple of Akihabara's maker community for decades.",
+      "access": "4-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "10:00–19:00",
+      "closed": "Sundays and public holidays"
+    },
+    "tags": ["電子部品", "自作", "工具"]
+  },
+  {
+    "id": 13,
+    "name": "秋月電子通商",
+    "slug": "akizuki-denshi",
+    "category": "電気街・PCパーツ",
+    "description": "電子部品・キット・測定器を低価格で提供する電子部品専門店。Arduinoキット・マイコンボード・センサーモジュールなど自作電子工作向け部品が充実。オリジナルキット開発でも知られ、電子工作初心者から上級者まで幅広く支持される。",
+    "address": "東京都千代田区外神田1-6-1",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "hours": "11:00〜19:00（土日 10:00〜）",
+    "closed": "不定休",
+    "admission": "無料",
+    "website": "https://akizukidenshi.com/",
+    "lat": 35.6986,
+    "lng": 139.7708,
+    "image": {
+      "src": "/images/spots/akizuki-denshi.jpg",
+      "alt": "秋月電子通商の外観",
+      "sourceLabel": "Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akiduki_Denshi_Akihabara_2026.jpg"
+    },
+    "en": {
+      "name": "Akizuki Denshi Tsusho",
+      "description": "An electronics components specialist offering parts, kits, and measuring equipment at low prices. Stocks Arduino kits, microcontroller boards, and sensor modules popular with makers. Also known for its own original kit lineup, welcoming beginners and experts alike.",
+      "access": "3-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "11:00–19:00 (from 10:00 on weekends)",
+      "closed": "Irregular holidays"
+    },
+    "tags": ["電子部品", "キット", "Arduino"]
+  },
+  {
+    "id": 14,
+    "name": "メイドカフェ MAID√MADE 秋葉原駅前店",
+    "slug": "maid-made-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅電気街南口から徒歩30秒の好立地に構えるメイドカフェ。60分制の入場システムでゆったり過ごせる。メイドとの会話・ゲーム・撮影サービスが充実し、47席完備。名古屋大須にも展開するチェーン。",
+    "address": "東京都千代田区外神田1-15-13 秋葉原B&Vビル10F",
+    "access": "JR秋葉原駅 電気街南口 徒歩30秒",
+    "hours": "12:00〜22:00（L.O. 21:30）",
+    "closed": "無休",
+    "admission": "入場料あり（60分 ¥880〜 / ドリンク1杯込み）",
+    "website": "https://made-maid.com/",
+    "lat": 35.6988,
+    "lng": 139.7718,
+    "image": {
+      "src": "/images/spots/maid-made-akihabara.jpg",
+      "alt": "秋葉原のメイドカフェスタッフ",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_Cafe_Staff_Akihabara_Tokyo_Japan.jpg"
+    },
+    "en": {
+      "name": "Maid Cafe MAID√MADE Akihabara Station Front",
+      "description": "A maid cafe just 30 seconds from Akihabara Station's Electric Town South Exit. Operates on a 60-minute system with one drink included. Features conversation, games, and photo services with maid staff. 47 seats total.",
+      "access": "30-second walk from JR Akihabara Station (Electric Town South Exit)",
+      "hours": "12:00–22:00 (L.O. 21:30)",
+      "closed": "Open year-round",
+      "admission": "Entry fee applies (60 min from ¥880, includes 1 drink)"
+    },
+    "tags": ["メイドカフェ", "カフェ", "体験"]
+  },
+  {
+    "id": 15,
+    "name": "アキバ絶対領域",
+    "slug": "akiba-zettai-ryoiki",
+    "category": "グルメ・カフェ",
+    "description": "「カワイイ」をコンセプトにしたメイドカフェ＆バー。秋葉原エリアに複数店舗を展開し、フォトジェニックなメニューと明るく開放的な店内が特徴。ソフトドリンクからアルコールまで対応。",
+    "address": "東京都千代田区外神田3-1-1 大林ビル1F",
+    "access": "JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "12:00〜22:00（L.O. 21:30）",
+    "closed": "無休",
+    "admission": "入場料あり",
+    "website": "https://akibazettai.com/",
+    "lat": 35.7003,
+    "lng": 139.7700,
+    "image": {
+      "src": "/images/spots/akiba-zettai-ryoiki.jpg",
+      "alt": "秋葉原のメイドたち",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_in_Akihabara.jpg"
+    },
+    "en": {
+      "name": "Akiba Zettai Ryoiki",
+      "description": "A maid cafe and bar themed around 'kawaii' culture, with multiple locations across Akihabara. Known for photogenic menus and a bright, open interior. Serves both soft drinks and alcohol.",
+      "access": "5-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "12:00–22:00 (L.O. 21:30)",
+      "closed": "Open year-round",
+      "admission": "Entry fee applies"
+    },
+    "tags": ["メイドカフェ", "バー", "カフェ"]
+  },
+  {
+    "id": 16,
+    "name": "CURE MAID CAFÉ（キュアメイドカフェ）",
+    "slug": "cure-maid-cafe",
+    "category": "グルメ・カフェ",
+    "description": "2001年創業、「メイドカフェ発祥の店」として知られる老舗。クラシカルなメイド服のスタッフが「癒しの空間」を演出。アニメとのコラボカフェやオリジナルグッズも定期展開。",
+    "address": "東京都千代田区外神田1-2-7 オノデンビル4F",
+    "access": "JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "11:00〜20:00（金・土 〜22:00、日・祝 〜19:00）",
+    "closed": "不定休",
+    "admission": "無料（チャージなし）",
+    "website": "https://www.curemaid.jp/",
+    "lat": 35.6985,
+    "lng": 139.7700,
+    "image": {
+      "src": "/images/spots/cure-maid-cafe.jpg",
+      "alt": "秋葉原のメイドカフェスタッフ",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_caf%C3%A9_maid_in_promotional_activity,_in_Akihabara_(2011-04-15_17.58.07_by_Luca_Mascaro).jpg"
+    },
+    "en": {
+      "name": "CURE MAID CAFÉ",
+      "description": "Founded in 2001, widely known as the originator of the maid cafe concept. Maid staff in classic uniforms create a soothing atmosphere. Regular anime collaboration events and original merchandise releases.",
+      "access": "5-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "11:00–20:00 (until 22:00 Fri–Sat, until 19:00 Sun and holidays)",
+      "closed": "Irregular holidays",
+      "admission": "Free entry, no table charge"
+    },
+    "tags": ["メイドカフェ", "老舗", "カフェ"]
+  },
+  {
+    "id": 17,
+    "name": "2k540 AKI-OKA ARTISAN",
+    "slug": "2k540-aki-oka-artisan",
+    "category": "ショッピング",
+    "description": "JR秋葉原〜御徒町間の高架下を活用した職人・クラフト系ショッピング施設。ジュエリー・革製品・陶器など約50店舗が集積。工房を併設する店も多く、ものづくりの現場を間近で見ながら買い物できる。",
+    "address": "東京都台東区上野5-9",
+    "access": "JR秋葉原駅 電気街口 徒歩6分 / JR御徒町駅 南口 徒歩4分",
+    "hours": "11:00〜19:00（飲食店は別途）",
+    "closed": "水曜（祝日は営業）",
+    "admission": "無料",
+    "website": "https://www.jrtk.jp/2k540/",
+    "lat": 35.7054,
+    "lng": 139.7737,
+    "image": {
+      "src": "/images/spots/2k540-aki-oka-artisan.jpg",
+      "alt": "高架下に広がる2k540 AKI-OKA ARTISANの外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2k540_AKI-OKA_ARTISAN,_Tokyo_-_Nov_29,_2013.jpg"
+    },
+    "en": {
+      "name": "2k540 AKI-OKA ARTISAN",
+      "description": "A crafts and artisan shopping complex built under the elevated railway between Akihabara and Okachimachi stations. Around 50 shops sell jewelry, leather goods, ceramics, and more, many with on-site workshops open to visitors.",
+      "access": "6-minute walk from JR Akihabara Station (Electric Town exit) / 4-minute walk from JR Okachimachi Station (South exit)",
+      "hours": "11:00–19:00 (restaurants vary)",
+      "closed": "Wednesdays (open on public holidays)"
+    },
+    "tags": ["クラフト", "職人", "ショッピング"]
+  },
+  {
+    "id": 18,
+    "name": "マーチエキュート神田万世橋",
+    "slug": "maach-ecute-kanda-manseibashi",
+    "category": "ショッピング",
+    "description": "1943年廃駅となった万世橋駅の赤レンガ高架橋をリノベーションした複合商業施設。歴史的な階段や旧プラットホームを活かした空間が特徴で、飲食店・ショップが入居。神田川沿いのテラス席も人気。",
+    "address": "東京都千代田区神田須田町1-25-4",
+    "access": "JR秋葉原駅 電気街口 徒歩4分",
+    "hours": "ショップ 11:00〜20:00 / レストラン 月〜土 11:00〜23:00・日祝 〜21:00",
+    "closed": "無休",
+    "admission": "無料",
+    "website": "https://www.ecute.jp/maach",
+    "lat": 35.6968,
+    "lng": 139.7688,
+    "image": {
+      "src": "/images/spots/maach-ecute-kanda.jpg",
+      "alt": "マーチエキュート神田万世橋の外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MAAch_ecute_Kanda_Manseibashi.jpg"
+    },
+    "en": {
+      "name": "mAAch ecute Kanda-Manseibashi",
+      "description": "A renovated complex built inside the red-brick viaduct of the former Manseibashi Station (closed 1943). Its historic stairways and old platforms create a unique atmosphere. Shops and restaurants line the structure, with a riverside terrace along the Kanda River.",
+      "access": "4-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "Shops 11:00–20:00 / Restaurants Mon–Sat 11:00–23:00, Sun & holidays until 21:00",
+      "closed": "Open year-round"
+    },
+    "tags": ["歴史的建物", "レストラン", "ショッピング"]
+  },
+  {
+    "id": 19,
+    "name": "まんだらけコンプレックス",
+    "slug": "mandarake-complex",
+    "category": "アニメ・マンガ・同人",
+    "description": "サブカルチャー専門の大型中古ショップ。コスプレ・フィギュア・同人誌・トレカ・アニメ・マンガなど各ジャンルをフロアごとに展開。8階建てビル全館まんだらけで構成され、絶版・希少品も多数扱う。",
+    "address": "東京都千代田区外神田3-11-12",
+    "access": "JR秋葉原駅 電気街口 徒歩4分",
+    "hours": "12:00〜20:00（買取受付 〜19:30）",
+    "closed": "無休",
+    "admission": "無料",
+    "website": "https://www.mandarake.co.jp/dir/cmp/",
+    "lat": 35.7005,
+    "lng": 139.7710,
+    "image": {
+      "src": "/images/spots/mandarake-complex.jpg",
+      "alt": "まんだらけコンプレックスの外観",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mandarake_Complex,_Akihabara.jpg"
+    },
+    "en": {
+      "name": "Mandarake Complex",
+      "description": "A large used-goods shop dedicated to subculture merchandise. Eight floors of Mandarake cover cosplay, figures, doujinshi, trading cards, anime, and manga — each genre on its own floor. Rare and out-of-print items are a specialty.",
+      "access": "4-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "12:00–20:00 (buy-up reception until 19:30)",
+      "closed": "Open year-round"
+    },
+    "tags": ["同人誌", "フィギュア", "中古"]
+  },
+  {
+    "id": 20,
+    "name": "AKIBAカルチャーズZONE",
+    "slug": "akiba-cultures-zone",
+    "category": "アニメ・マンガ・同人",
+    "description": "アニメ・ゲーム・コスプレ・メイドカフェなど多様なサブカルチャーテナントが集まる6階建て複合施設。フロアごとに個性的な専門店が入居し、地下ではライブ公演も開催。秋葉原サブカルの縮図といえる施設。",
+    "address": "東京都千代田区外神田1-7-6",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "hours": "1〜2F 11:00〜21:00 / 3〜4F 11:00〜20:30 / 5F 平日11:00〜22:00・土日祝10:00〜22:00",
+    "closed": "各テナントによる",
+    "admission": "無料（各店舗利用は別途）",
+    "website": "https://www.akibacultureszone.com/",
+    "lat": 35.6990,
+    "lng": 139.7712,
+    "image": {
+      "src": "/images/spots/akiba-cultures-zone.jpg",
+      "alt": "AKIBAカルチャーズZONEの外観",
+      "sourceLabel": "Wikimedia Commons (CC BY 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKIBAカルチャーズZONE.jpg"
+    },
+    "en": {
+      "name": "AKIBA Cultures Zone",
+      "description": "A six-floor complex housing diverse subculture tenants including anime, gaming, cosplay, and maid cafes. Each floor holds distinctive specialty shops, and live events are staged in the basement. A microcosm of Akihabara subculture.",
+      "access": "3-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "1F–2F 11:00–21:00 / 3F–4F 11:00–20:30 / 5F weekdays 11:00–22:00, weekends from 10:00",
+      "closed": "Varies by tenant"
+    },
+    "tags": ["複合施設", "アニメ", "ライブ"]
+  },
+  {
+    "id": 21,
+    "name": "秋葉原ガチャポン会館",
+    "slug": "akihabara-gachapon-kaikan",
+    "category": "ゲーム・フィギュア",
+    "description": "常時500台以上のカプセルトイ筐体が並ぶガチャポン専門店。アニメ・ゲームキャラクターから食品サンプル系まで幅広いラインナップ。新作入荷も頻繁で、国内外のガチャポンファンが訪れる聖地。",
+    "address": "東京都千代田区外神田3-15-5 MNビル1F",
+    "access": "東京メトロ銀座線 末広町駅 徒歩2分 / JR秋葉原駅 電気街口 徒歩7分",
+    "hours": "平日 11:00〜20:00 / 日祝 11:00〜19:00",
+    "closed": "不定休",
+    "admission": "無料（ガチャポン利用は別途）",
+    "website": "https://www.akibagacha.com/",
+    "lat": 35.7004,
+    "lng": 139.7712,
+    "image": {
+      "src": "/images/spots/akihabara-gachapon-kaikan.jpg",
+      "alt": "秋葉原に並ぶガチャポン筐体",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wall_of_Gachapon,_Akihabara.jpg"
+    },
+    "en": {
+      "name": "Akihabara Gachapon Kaikan",
+      "description": "A capsule toy specialist with over 500 machines on the floor at any given time. Ranges from anime and game characters to food replicas. Regular restocks and new arrivals make it a must-visit destination for capsule toy fans worldwide.",
+      "access": "2-minute walk from Tokyo Metro Ginza Line Suehirocho Station / 7-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "Weekdays 11:00–20:00 / Sundays & holidays 11:00–19:00",
+      "closed": "Irregular holidays",
+      "admission": "Free entry (capsule toys paid separately)"
+    },
+    "tags": ["ガチャポン", "カプセルトイ", "コレクション"]
+  },
+  {
+    "id": 22,
+    "name": "コトブキヤ秋葉原館",
+    "slug": "kotobukiya-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "フィギュア・プラモデルメーカー「コトブキヤ」の旗艦店。自社製品を中心にオリジナルフィギュア・アーマードコアシリーズ・スタチューなどを展開。限定品・先行発売品も扱い、ファン必訪の専門店。",
+    "address": "東京都千代田区外神田1-8-8 岡嶋ビル",
+    "access": "JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "平日 12:00〜20:00 / 土日祝 11:00〜20:00",
+    "closed": "不定休",
+    "admission": "無料",
+    "website": "https://www.kotobukiya.co.jp/",
+    "lat": 35.6982,
+    "lng": 139.7710,
+    "image": {
+      "src": "/images/spots/kotobukiya-akihabara.jpg",
+      "alt": "コトブキヤ秋葉原館の入口",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kotobukiya_Akihabara_Store_entry_20130820.jpg"
+    },
+    "en": {
+      "name": "Kotobukiya Akihabara",
+      "description": "The flagship store of figure and plastic model maker Kotobukiya. Stocks the full lineup of original figures, Armored Core model kits, and statues, plus limited and pre-release items exclusive to this location.",
+      "access": "5-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "Weekdays 12:00–20:00 / Weekends & holidays 11:00–20:00",
+      "closed": "Irregular holidays"
+    },
+    "tags": ["フィギュア", "プラモデル", "限定品"]
+  },
+  {
+    "id": 23,
+    "name": "ソフマップAKIBA アミューズメント館",
+    "slug": "sofmap-akiba-amuse",
+    "category": "アニメ・マンガ・同人",
+    "description": "アニメ・ゲーム関連コンテンツ専門のソフマップ秋葉原店。CD・Blu-ray・ゲームソフト・フィギュアを幅広く取り扱い、中古品の買取・販売も対応。イベントスペースで声優・アーティストイベントも定期開催。",
+    "address": "東京都千代田区外神田1-10-8 平岡ビル",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "hours": "11:00〜20:00",
+    "closed": "無休",
+    "admission": "無料",
+    "website": "https://www.sofmap.com/tenpo/contents/?id=shops&sid=akiba_ams",
+    "lat": 35.6990,
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/sofmap-akiba-amuse.jpg",
+      "alt": "ソフマップ秋葉原店の入口",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sofmap_Akihabara_entrance_20100401.jpeg"
+    },
+    "en": {
+      "name": "Sofmap AKIBA Amusement Store",
+      "description": "Sofmap's Akihabara branch specializing in anime and game content. Stocks CDs, Blu-rays, game software, and figures, with used-goods buy-up and resale. Regular voice actor and artist events are held in the in-store event space.",
+      "access": "3-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "11:00–20:00",
+      "closed": "Open year-round"
+    },
+    "tags": ["アニメ", "ゲーム", "中古"]
+  },
+  {
+    "id": 24,
+    "name": "らしんばん 秋葉原店新館",
+    "slug": "lashinbang-akihabara",
+    "category": "アニメ・マンガ・同人",
+    "description": "アニメ・ゲームグッズの中古買取・販売専門店。フィギュア・グッズ・同人誌など幅広いジャンルを扱う。AKIBAカルチャーズZONE 1〜2Fに入居し、毎日買取受付を実施。",
+    "address": "東京都千代田区外神田1-7-6 AKIBAカルチャーズZONE 1F・2F",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "hours": "11:00〜21:00（買取受付 〜18:00）",
+    "closed": "無休",
+    "admission": "無料",
+    "website": "https://www.lashinbang.com/",
+    "lat": 35.6990,
+    "lng": 139.7712,
+    "image": {
+      "src": "/images/spots/lashinbang-akihabara.jpg",
+      "alt": "らしんばん秋葉原店新館の外観",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lashinbang_Akihabara_Store_20171225.jpg"
+    },
+    "en": {
+      "name": "Lashinbang Akihabara New Store",
+      "description": "A used anime and game goods specialist handling figures, character merchandise, and doujinshi across a wide range of genres. Located on floors 1–2 of AKIBA Cultures Zone, with daily buy-up reception.",
+      "access": "3-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "11:00–21:00 (buy-up reception until 18:00)",
+      "closed": "Open year-round"
+    },
+    "tags": ["フィギュア", "グッズ", "中古"]
   }
 ]
