@@ -230,6 +230,54 @@ body {
   margin: 0;
 }
 
+.article-month-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article-month-list__link {
+  align-items: center;
+  border: 1px solid rgba(96, 120, 111, 0.14);
+  border-radius: 8px;
+  color: #24312f;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.article-month-list__link:hover {
+  background-color: #f5f9f7;
+  border-color: rgba(185, 74, 58, 0.28);
+}
+
+.article-month-list__count {
+  color: #6b7f7a;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.article-month-nav {
+  margin: 0 0 1.5rem;
+}
+
+.article-month-nav__back {
+  color: #6b7f7a;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.article-month-nav__back:hover {
+  color: #b94a3a;
+}
+
 .article-list {
   display: grid;
   gap: 1.25rem;

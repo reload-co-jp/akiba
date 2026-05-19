@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { getAllArticles, getAllTags, getArticlePublishedDate } from "lib/articles"
+import { getAllArticles, getAllMonths, getAllTags, getArticlePublishedDate } from "lib/articles"
 import { getAllSpots } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 
@@ -7,6 +7,7 @@ export const dynamic = "force-static"
 
 const sitemap = (): MetadataRoute.Sitemap => {
   const articles = getAllArticles()
+  const months = getAllMonths()
   const tags = getAllTags()
   const spots = getAllSpots()
 
@@ -57,6 +58,18 @@ const sitemap = (): MetadataRoute.Sitemap => {
       changeFrequency: "monthly",
       priority: 0.3,
     },
+    {
+      url: absoluteUrl("/articles/month/"),
+      lastModified: latestDate,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    ...months.map(({ month }) => ({
+      url: absoluteUrl(`/articles/month/${month}/`),
+      lastModified: latestDate,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     ...articles.map((article) => ({
       url: absoluteUrl(`/articles/${article.slug}/`),
       lastModified: getArticlePublishedDate(article),

@@ -206,3 +206,32 @@ export const getAllTags = (): string[] => {
 export const getArticlesByTag = (tag: string): Article[] => {
   return getAllArticles().filter((a) => a.tags.includes(tag))
 }
+
+export type ArticleMonth = {
+  month: string
+  label: string
+  count: number
+}
+
+export const getAllMonths = (): ArticleMonth[] => {
+  const map = new Map<string, number>()
+  for (const article of articlesData) {
+    const month = article.publishedAt.slice(0, 7)
+    map.set(month, (map.get(month) ?? 0) + 1)
+  }
+  return Array.from(map.entries())
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .map(([month, count]) => {
+      const [year, m] = month.split("-")
+      return { month, label: `${year}年${parseInt(m)}月`, count }
+    })
+}
+
+export const getArticlesByMonth = (month: string): Article[] => {
+  return getAllArticles().filter((a) => a.publishedAt.startsWith(month))
+}
+
+export const formatMonth = (month: string): string => {
+  const [year, m] = month.split("-")
+  return `${year}年${parseInt(m)}月`
+}
