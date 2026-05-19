@@ -1,5 +1,54 @@
 [
   {
+    "id": 154,
+    "title": "【秋葉原】「VketReal 2026 Summer」がベルサール秋葉原で開催",
+    "slug": "vketreal-2026-summer-bellesalle-akihabara",
+    "summary": "XR体験型リアルイベント「VketReal 2026 Summer」が、2026年7月25日・26日にベルサール秋葉原1F・2Fで開催。バーチャルマーケット2026 Summerと連動し、出展ブースやXR体験、リアル会場企画を展開する。",
+    "content": "## 概要\n\nXR体験型リアルイベント「VketReal 2026 Summer」が、2026年7月25日と26日にベルサール秋葉原で開催されます。\n\n会場はベルサール秋葉原の1F・2F。メタバースイベント「バーチャルマーケット2026 Summer」と連動する、リアル会場型のイベントです。\n\n## 内容\n\n主催はHIKKY。バーチャルマーケット2026 Summerは2026年7月11日から26日までオンラインで開催され、リアルイベントのVketReal 2026 Summerは最終週末の7月25日・26日に秋葉原で実施されます。\n\n公式サイトでは、ベルサール秋葉原を会場にしたリアルイベントとして案内されています。PR TIMESの開催発表では、ベルサール秋葉原1階と2階の2フロアで実施し、企業・団体・一般サークルの出展募集も行うとされています。\n\n公式サイトにはチケット情報エリアが用意されています。料金や入場方法の詳細は、今後の公式発表で確認してください。\n\n## 開催情報\n\n- **会場**: ベルサール秋葉原 1F・2F\n- **住所**: 東京都千代田区外神田3-12-8 住友不動産秋葉原ビル\n- **期間**: 2026年7月25日〜7月26日\n- **内容**: XR体験型リアルイベント、出展ブース、バーチャルマーケット連動企画\n- **料金**: 公式発表待ち\n- **予約**: チケット詳細は公式サイトで案内予定\n\n## こんな人におすすめ\n\n- Vketやメタバース関連イベントを追っている方\n- 秋葉原でXR体験やリアル会場企画を楽しみたい方\n- ベルサール秋葉原の大型イベントをチェックしたい方\n- 企業ブースやクリエイター出展を見たい方",
+    "publishedAt": "2026-05-19",
+    "tags": [
+      "VketReal",
+      "XR",
+      "ベルサール秋葉原"
+    ],
+    "en": {
+      "title": "[Akihabara] VketReal 2026 Summer at Bellesalle Akihabara",
+      "summary": "The XR-focused real-world event VketReal 2026 Summer will be held at Bellesalle Akihabara 1F and 2F on July 25 and 26, 2026. Linked with Virtual Market 2026 Summer, it will feature booths, XR experiences, and on-site programs.",
+      "content": "## Overview\n\nThe XR-focused real-world event \"VketReal 2026 Summer\" will be held at Bellesalle Akihabara on July 25 and 26, 2026.\n\nThe venue will use Bellesalle Akihabara's first and second floors. It is a physical event connected with the metaverse event Virtual Market 2026 Summer.\n\n## Highlights\n\nThe organizer is HIKKY. Virtual Market 2026 Summer will run online from July 11 to 26, 2026, while the real-world VketReal 2026 Summer event will take place in Akihabara on the final weekend, July 25 and 26.\n\nThe official site introduces it as a real-world event at Bellesalle Akihabara. The PR TIMES announcement states that the event will use both the first and second floors of Bellesalle Akihabara and that companies, organizations, and general circles are being recruited as exhibitors.\n\nThe official site includes a ticket information area. Admission fees and entry details should be checked through future official announcements.\n\n## Event Details\n\n- **Venue**: Bellesalle Akihabara 1F and 2F\n- **Address**: Sumitomo Fudosan Akihabara Building, 3-12-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: July 25-26, 2026\n- **Contents**: XR-focused real-world event, exhibitor booths, and Virtual Market-linked programs\n- **Admission**: To be announced\n- **Reservation**: Ticket details will be announced on the official site\n\n## Recommended For\n\n- Fans following Vket and metaverse-related events\n- Visitors who want to enjoy XR experiences and real-world event programs in Akihabara\n- Those checking major events at Bellesalle Akihabara\n- Those interested in company booths and creator exhibitors"
+    },
+    "image": {
+      "src": "/images/articles/vketreal-2026-summer-bellesalle-akihabara.png",
+      "alt": "VketReal 2026 Summerのキービジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000489.000034617.html"
+    },
+    "sources": [
+      {
+        "label": "VketReal 2026 Summer 公式サイト",
+        "url": "https://vket.com/lp/2026Summer_real"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000489.000034617.html"
+      },
+      {
+        "label": "PR TIMES 開催発表",
+        "url": "https://prtimes.jp/main/html/rd/p/000000481.000034617.html"
+      },
+      {
+        "label": "Vket 公式X",
+        "url": "https://x.com/Virtual_Market_"
+      }
+    ],
+    "event": {
+      "venue": "ベルサール秋葉原",
+      "startDate": "2026-07-25",
+      "endDate": "2026-07-26",
+      "price": "公式発表待ち",
+      "reservation": true
+    }
+  },
+  {
     "id": 153,
     "title": "【秋葉原】小学生向け「8月8日リユースの日」がアキバ・スクエアで開催",
     "slug": "reuse-day-akiba-square-2026",
