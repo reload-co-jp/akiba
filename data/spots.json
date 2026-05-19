@@ -15,7 +15,9 @@
     "lng": 139.7733,
     "image": {
       "src": "/images/spots/yodobashi-akiba.jpg",
-      "alt": "ヨドバシカメラ マルチメディアAkibaの外観"
+      "alt": "ヨドバシカメラ マルチメディアAkibaの外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yodobashi-Akiba_2015.JPG"
     },
     "en": {
       "name": "Yodobashi Camera Multimedia Akiba",
@@ -42,7 +44,9 @@
     "lng": 139.7713,
     "image": {
       "src": "/images/spots/animate-akihabara.jpg",
-      "alt": "アニメイト秋葉原の外観"
+      "alt": "アニメイト秋葉原の外観",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Animate_Akihabara_main_entrance_20131125.jpg"
     },
     "en": {
       "name": "Animate Akihabara",
@@ -69,7 +73,9 @@
     "lng": 139.7705,
     "image": {
       "src": "/images/spots/gamers-akihabara.jpg",
-      "alt": "ゲーマーズ秋葉原本店の外観"
+      "alt": "ゲーマーズ秋葉原本店の外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gamers_Akihabara.jpg"
     },
     "en": {
       "name": "Gamers Akihabara Main Store",
@@ -96,7 +102,9 @@
     "lng": 139.7718,
     "image": {
       "src": "/images/spots/radio-kaikan.jpg",
-      "alt": "秋葉原ラジオ会館の外観"
+      "alt": "秋葉原ラジオ会館の外観",
+      "sourceLabel": "Wikimedia Commons (パブリックドメイン)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKIHABARA_Radio_Kaikan.jpg"
     },
     "en": {
       "name": "Akihabara Radio Kaikan",
@@ -123,7 +131,9 @@
     "lng": 139.7711,
     "image": {
       "src": "/images/spots/super-potato.jpg",
-      "alt": "スーパーポテト秋葉原店の外観"
+      "alt": "スーパーポテト秋葉原店の外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tienda_Super_Potato_(Akihabara,_Tokio).jpg"
     },
     "en": {
       "name": "Super Potato Akihabara",
@@ -151,7 +161,9 @@
     "lng": 139.7704,
     "image": {
       "src": "/images/spots/trader-akihabara.jpg",
-      "alt": "トレーダー秋葉原本店の外観"
+      "alt": "トレーダー秋葉原本店の外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TRADER_Akihabara.jpg"
     },
     "en": {
       "name": "Trader Akihabara Main Store",
@@ -178,7 +190,9 @@
     "lng": 139.7714,
     "image": {
       "src": "/images/spots/home-cafe.jpg",
-      "alt": "@ほぉ〜むカフェ本店の入口"
+      "alt": "@ほぉ〜むカフェ本店の入口",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outside_of_@home_cafe_20111128.jpg"
     },
     "en": {
       "name": "@Home Cafe Main Store",
@@ -206,7 +220,9 @@
     "lng": 139.7726,
     "image": {
       "src": "/images/spots/akihabara-udx.jpg",
-      "alt": "秋葉原UDXの外観"
+      "alt": "秋葉原UDXの外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AkihabaraUDX_201311.JPG"
     },
     "en": {
       "name": "Akihabara UDX",
