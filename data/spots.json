@@ -232,5 +232,93 @@
       "closed": "Open year-round (varies by venue)"
     },
     "tags": ["複合施設", "イベント", "レストラン"]
+  },
+  {
+    "id": 9,
+    "name": "めいどりーみん 秋葉原本店",
+    "slug": "maidreamin-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "全国・海外に展開するメイドカフェチェーンの本店。魔法のコトバでオムライスに絵を描くパフォーマンスやゲームなど、独自の体験型サービスで人気。アイドルライブイベントも定期開催。",
+    "address": "東京都千代田区外神田3-16-17 住吉ビル6F",
+    "access": "東京メトロ末広町駅 徒歩1分 / JR秋葉原駅 徒歩6分",
+    "hours": "月〜金 11:30〜23:00（土日祝 10:30〜）",
+    "closed": "無休",
+    "admission": "入場料あり（別途チャージ）",
+    "website": "https://maidreamin.com/shop/detail.html?id=1",
+    "lat": 35.7001,
+    "lng": 139.7710,
+    "image": {
+      "src": "/images/spots/maidreamin-akihabara.jpg",
+      "alt": "秋葉原でチラシを配るメイドたち",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maids_distributing_flyers_in_Akihabara_Tokyo_20100731_7376.jpg"
+    },
+    "en": {
+      "name": "Maidreamin Akihabara Main Store",
+      "description": "The flagship location of Japan's largest maid cafe chain, with branches worldwide. Known for its magical omelet rice drawing performances and interactive games. Regular idol live events are held in-store.",
+      "access": "1-minute walk from Tokyo Metro Suehirocho Station / 6-minute walk from JR Akihabara Station",
+      "hours": "Mon–Fri 11:30–23:00 (from 10:30 on weekends and holidays)",
+      "closed": "Open year-round",
+      "admission": "Entry fee + table charge apply"
+    },
+    "tags": ["メイドカフェ", "カフェ", "体験"]
+  },
+  {
+    "id": 10,
+    "name": "丸五",
+    "slug": "marugo-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "昭和22年創業、秋葉原を代表する老舗とんかつ専門店。食べログ「とんかつ百名店2026」選出。ロースカツ・ヒレカツともに肉厚で衣はサクサク。現金のみ・予約不可で行列必至。",
+    "address": "東京都千代田区外神田1-8-14",
+    "access": "JR秋葉原駅 電気街口 徒歩4分",
+    "hours": "11:30〜15:00、17:00〜21:00",
+    "closed": "月曜・火曜",
+    "admission": "無料",
+    "website": "",
+    "lat": 35.6988,
+    "lng": 139.7714,
+    "image": {
+      "src": "/images/spots/marugo-akihabara.jpg",
+      "alt": "丸五が入るビル周辺（秋葉原・外神田1丁目）",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_south-west_blocks_-_Dempa_Biru_No.3_with_MaruGo,_K%C5%8Dbu_Inari-jinja,_Hatago-ch%C5%8D_Viaduct,_Sumitomo_Fud%C5%8Dsan_Kanda_No.2,_Sumitomo_Fud%C5%8Dsan_Akihabara_1st,_SueHatsu_Biru_with_Coffee_An_-_Sotokanda_1_(2023-01-21_13.02.10_by_nakashi).jpg"
+    },
+    "en": {
+      "name": "Marugo",
+      "description": "A long-established tonkatsu specialist founded in 1947, recognized in Tabelog's Tonkatsu Top 100 for 2026. Thick-cut, crispy pork cutlets that draw long queues. Cash only, no reservations.",
+      "access": "4-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "11:30–15:00, 17:00–21:00",
+      "closed": "Mondays and Tuesdays"
+    },
+    "tags": ["とんかつ", "老舗", "ランチ"]
+  },
+  {
+    "id": 11,
+    "name": "焼肉の万世 秋葉原店",
+    "slug": "yakiniku-mansei-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原の名物「肉の万世」グループの焼肉専門店。国産和牛を中心に質の高い肉を提供。ランチから夜まで通し営業で、ひとり焼肉にも対応したカウンター席も完備。",
+    "address": "東京都千代田区外神田1-16-1 トゥモロービル6F",
+    "access": "JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "11:30〜22:00",
+    "closed": "無休",
+    "admission": "無料",
+    "website": "https://www.niku-mansei.com/contents/02honten/05yakiniku_mansei.html",
+    "lat": 35.6985,
+    "lng": 139.7706,
+    "image": {
+      "src": "/images/spots/yakiniku-mansei-akihabara.jpg",
+      "alt": "肉の万世秋葉原本店ビルの外観",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mansei_Akihabara_Main_Store.jpg"
+    },
+    "en": {
+      "name": "Yakiniku no Mansei Akihabara",
+      "description": "A yakiniku (Japanese BBQ) restaurant from the iconic Mansei Group. Centered on quality Japanese wagyu, open from lunch through dinner. Counter seating available for solo diners.",
+      "access": "5-minute walk from JR Akihabara Station (Electric Town exit)",
+      "hours": "11:30–22:00",
+      "closed": "Open year-round"
+    },
+    "tags": ["焼肉", "和牛", "ランチ"]
   }
 ]
