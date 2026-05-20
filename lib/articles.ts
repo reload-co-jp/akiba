@@ -1,6 +1,18 @@
 import articlesData from "../data/articles.json"
+import authorsData from "../data/authors.json"
 
 export type Lang = "ja" | "en"
+
+export type Author = {
+  id: number
+  name: string
+  description?: string
+}
+
+export const getAllAuthors = (): Author[] => authorsData
+
+export const getAuthorById = (id: number): Author | undefined =>
+  authorsData.find((a) => a.id === id)
 
 export type LocaleContent = {
   title: string
@@ -34,6 +46,7 @@ export type Article = {
     price: string
     reservation: boolean
   }
+  authorId?: number
 }
 
 export const getLocalizedContent = (article: Article, lang: Lang): LocaleContent => {

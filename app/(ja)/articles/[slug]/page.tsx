@@ -10,6 +10,7 @@ import {
   getArticleBySlug,
   getArticleImage,
   getArticlePublishedIso,
+  getAuthorById,
   placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
@@ -83,6 +84,7 @@ const Page = async ({ params }: Props) => {
     )
     .slice(0, 3)
 
+  const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
@@ -301,6 +303,21 @@ const Page = async ({ params }: Props) => {
             ))}
           </ul>
         </section>
+      )}
+
+      {author && (
+        <div
+          style={{
+            borderTop: "1px solid rgba(96, 120, 111, 0.14)",
+            marginTop: "2rem",
+            paddingTop: "1rem",
+            fontSize: ".875rem",
+            color: "#8a6f63",
+          }}
+        >
+          <span>執筆: </span>
+          <span style={{ color: "#24312f", fontWeight: "500" }}>{author.name}</span>
+        </div>
       )}
 
       <section className="article-tags-nav" aria-labelledby="article-tags-title">
