@@ -1,11 +1,13 @@
 [
   {
     "id": 1,
-    "name": "アキバLive編集部 with AI generated"
+    "name": "アキバLive編集部 with AI generated",
+    "schemaType": "Organization"
   },
   {
     "id": 2,
     "name": "kixixixixi",
-    "description": "サイト運営者"
+    "description": "サイト運営者",
+    "schemaType": "Person"
   }
 ]

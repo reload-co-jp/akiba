@@ -7,12 +7,13 @@ export type Author = {
   id: number
   name: string
   description?: string
+  schemaType?: "Person" | "Organization"
 }
 
-export const getAllAuthors = (): Author[] => authorsData
+export const getAllAuthors = (): Author[] => authorsData as Author[]
 
 export const getAuthorById = (id: number): Author | undefined =>
-  authorsData.find((a) => a.id === id)
+  (authorsData as Author[]).find((a) => a.id === id)
 
 export type LocaleContent = {
   title: string

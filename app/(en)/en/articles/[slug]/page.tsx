@@ -10,6 +10,7 @@ import {
   getArticleBySlug,
   getArticleImage,
   getArticlePublishedIso,
+  getAuthorById,
   getEnglishEventPrice,
   getEnglishEventVenue,
   getEnglishSeoDescription,
@@ -95,6 +96,7 @@ const Page = async ({ params }: Props) => {
     )
     .slice(0, 3)
 
+  const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const articleUrl = absoluteUrl(`/en/articles/${slug}/`)
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
@@ -117,11 +119,9 @@ const Page = async ({ params }: Props) => {
     dateModified: publishedAt,
     isAccessibleForFree: true,
     url: articleUrl,
-    author: {
-      "@type": "Organization",
-      name: "Akiba Live",
-      url: absoluteUrl("/"),
-    },
+    author: author
+      ? { "@type": author.schemaType ?? "Person", name: author.name }
+      : { "@type": "Organization", name: "Akiba Live", url: absoluteUrl("/") },
     publisher: {
       "@type": "Organization",
       name: "Akiba Live",

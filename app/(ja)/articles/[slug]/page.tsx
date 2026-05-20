@@ -102,11 +102,9 @@ const Page = async ({ params }: Props) => {
     dateModified: publishedAt,
     isAccessibleForFree: true,
     url: articleUrl,
-    author: {
-      "@type": "Organization",
-      name: "アキバLive",
-      url: absoluteUrl("/"),
-    },
+    author: author
+      ? { "@type": author.schemaType ?? "Person", name: author.name }
+      : { "@type": "Organization", name: "アキバLive", url: absoluteUrl("/") },
     publisher: {
       "@type": "Organization",
       name: "アキバLive",
