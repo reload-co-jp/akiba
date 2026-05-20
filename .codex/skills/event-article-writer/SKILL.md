@@ -39,6 +39,7 @@ Read [references/article-format.md](references/article-format.md) before editing
   - `## こんな人におすすめ`
 - Put actionable event facts in both `content` and `event`.
 - Add `sources` for every article. Use the clearest human-readable label you can. Order primary/official sources first, then ticket/venue pages, then aggregators or discovery sources.
+- Set `authorId` to `1` on every new article.
 
 ## Translation Rules
 
@@ -64,6 +65,7 @@ Every new article must include an `en` field. See the section heading mapping an
 - Keep `tags` short and scannable.
 - Set `event.reservation` to `true` only when reservation, ticket purchase, or advance registration is actually required or strongly indicated.
 - Include `en` field with translated `title`, `summary`, and `content`.
+- Include `authorId: 1`.
 
 ## Verification
 

@@ -25,7 +25,7 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site.
 5. Deduplicate the whole queue against `data/articles.json` by title, slug, event name, source URL, venue/date combination, and recognizable campaign names. Drop duplicates before drafting new articles.
 6. For each remaining candidate, open the primary source when possible and confirm date, venue, price, reservation/ticket rules, and image. Keep every source page used to find or confirm the candidate.
-7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules, then verify once with `pnpm build`.
+7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Set `authorId` to `1` on every new article, then verify once with `pnpm build`.
 
 ## X.com Discovery
 
@@ -107,5 +107,6 @@ For each selected candidate, follow `$event-article-writer`:
 - Use placeholder handling only when no usable image exists.
 - Add source URLs.
 - Include `en` field with English translations of `title`, `summary`, and `content`.
+- Set `authorId: 1` on every new article.
 - Update map coordinates in `components/events-map.tsx` when the event venue should appear on `/events`.
 - Run `pnpm build` after edits.
