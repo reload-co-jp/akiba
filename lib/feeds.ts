@@ -1,5 +1,5 @@
 import type { Article } from "lib/articles"
-import { getAllArticles, getArticleImage, getArticlePublishedDate } from "lib/articles"
+import { getAllArticles, getArticleImage, getArticlePublishedDate, getArticleTagNames } from "lib/articles"
 import { absoluteUrl, siteDescription, siteName } from "lib/site"
 
 const escapeXml = (s: string) =>
@@ -30,7 +30,7 @@ export const buildRssFeedXml = (articles = getAllArticles()) => {
       <description>${escapeXml(article.summary)}</description>
       <pubDate>${getArticlePublishedDate(article).toUTCString()}</pubDate>
       <media:content url="${absoluteUrl(image.src)}" medium="image" />
-      ${article.tags.map((tag) => `<category>${escapeXml(tag)}</category>`).join("\n      ")}
+      ${getArticleTagNames(article).map((tag) => `<category>${escapeXml(tag)}</category>`).join("\n      ")}
     </item>`
     })
     .join("")
@@ -65,7 +65,7 @@ export const buildAtomFeedXml = (articles = getAllArticles()) => {
     <updated>${publishedAt}</updated>
     <summary>${escapeXml(article.summary)}</summary>
     <link href="${absoluteUrl(image.src)}" rel="enclosure" type="image/${image.src.endsWith(".png") ? "png" : image.src.endsWith(".webp") ? "webp" : "jpeg"}" />
-    ${article.tags.map((tag) => `<category term="${escapeXml(tag)}" />`).join("\n    ")}
+    ${getArticleTagNames(article).map((tag) => `<category term="${escapeXml(tag)}" />`).join("\n    ")}
   </entry>`
     })
     .join("")

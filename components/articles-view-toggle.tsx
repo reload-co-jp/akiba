@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
-import { formatDate, getArticleImage, getLocalizedContent } from "lib/articles"
+import { formatDate, getArticleImage, getLocalizedContent, getTagById } from "lib/articles"
 import { useLang } from "./language-provider"
 
 export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
@@ -13,7 +13,12 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const { lang } = useLang()
   const selectedTag = searchParams.get("tag")
   const visibleArticles = selectedTag
-    ? articles.filter((article) => article.tags.includes(selectedTag))
+    ? articles.filter((article) =>
+        article.tagIds.some((id) => {
+          const t = getTagById(id)
+          return t?.name === selectedTag
+        }),
+      )
     : articles
 
   return (
@@ -67,11 +72,10 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
                   />
                   <div className="article-card__body">
                     <div className="article-card__tags">
-                      {article.tags.map((tag) => (
-                        <span key={tag} className="article-card__tag">
-                          {tag}
-                        </span>
-                      ))}
+                      {article.tagIds.map((tid) => {
+                        const t = getTagById(tid)
+                        return t ? <span key={tid} className="article-card__tag">{t.name}</span> : null
+                      })}
                     </div>
                     <h2 className="article-card__title">{localized.title}</h2>
                     <p className="article-card__summary">{localized.summary}</p>

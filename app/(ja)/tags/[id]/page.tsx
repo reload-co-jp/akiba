@@ -1,49 +1,54 @@
 import Link from "next/link"
+import { notFound } from "next/navigation"
 import { absoluteUrl } from "lib/site"
 import {
   formatDate,
   getAllTags,
   getArticleImage,
-  getArticlesByTag,
+  getArticlesByTagId,
   getArticlePublishedDate,
+  getTagById,
 } from "lib/articles"
 
 type Props = {
-  params: Promise<{ tag: string }>
+  params: Promise<{ id: string }>
 }
 
 export const generateStaticParams = () => {
-  return getAllTags().map((tag) => ({ tag: encodeURIComponent(tag) }))
+  return getAllTags().map((tag) => ({ id: String(tag.id) }))
 }
 
 export const generateMetadata = async ({ params }: Props) => {
-  const { tag } = await params
-  const decodedTag = decodeURIComponent(tag)
+  const { id } = await params
+  const tag = getTagById(Number(id))
+  if (!tag) return {}
   return {
-    title: `「${decodedTag}」の記事一覧`,
-    description: `秋葉原の${decodedTag}に関するエンタメニュース一覧`,
-    alternates: { canonical: `/tags/${tag}/` },
+    title: `「${tag.name}」の記事一覧`,
+    description: `秋葉原の${tag.name}に関するエンタメニュース一覧`,
+    alternates: { canonical: `/tags/${id}/` },
     openGraph: {
-      title: `「${decodedTag}」の記事一覧 | アキバLive`,
-      description: `秋葉原の${decodedTag}に関するエンタメニュース一覧`,
-      url: `/tags/${tag}/`,
+      title: `「${tag.name}」の記事一覧 | アキバLive`,
+      description: `秋葉原の${tag.name}に関するエンタメニュース一覧`,
+      url: `/tags/${id}/`,
       type: "website",
     },
   }
 }
 
 const Page = async ({ params }: Props) => {
-  const { tag } = await params
-  const decodedTag = decodeURIComponent(tag)
-  const articles = getArticlesByTag(decodedTag)
-  const tagUrl = absoluteUrl(`/tags/${tag}/`)
+  const { id } = await params
+  const tag = getTagById(Number(id))
+  if (!tag) notFound()
+
+  const articles = getArticlesByTagId(tag.id)
+  const tagUrl = absoluteUrl(`/tags/${id}/`)
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: `「${decodedTag}」の記事`, item: tagUrl },
+      { "@type": "ListItem", position: 2, name: `「${tag.name}」の記事`, item: tagUrl },
     ],
   }
 
@@ -60,13 +65,13 @@ const Page = async ({ params }: Props) => {
               <Link href="/">ホーム</Link>
             </li>
             <li className="breadcrumb__item breadcrumb__item--current" aria-current="page">
-              「{decodedTag}」の記事
+              「{tag.name}」の記事
             </li>
           </ol>
         </nav>
         <div className="home-articles__header">
           <p className="home-articles__kicker">Tag</p>
-          <h1 className="home-articles__title">「{decodedTag}」の記事</h1>
+          <h1 className="home-articles__title">「{tag.name}」の記事</h1>
         </div>
         <ul className="article-list">
           {articles.map((article) => (
@@ -80,9 +85,10 @@ const Page = async ({ params }: Props) => {
                   />
                   <div className="article-card__body">
                     <div className="article-card__tags">
-                      {article.tags.map((t) => (
-                        <span key={t} className="article-card__tag">{t}</span>
-                      ))}
+                      {article.tagIds.map((tid) => {
+                        const t = getTagById(tid)
+                        return t ? <span key={tid} className="article-card__tag">{t.name}</span> : null
+                      })}
                     </div>
                     <h2 className="article-card__title">{article.title}</h2>
                     <p className="article-card__summary">{article.summary}</p>

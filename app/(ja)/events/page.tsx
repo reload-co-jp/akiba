@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { EventsMap } from "components/events-map"
-import { getArticleImage, getOngoingEvents } from "lib/articles"
+import { getArticleImage, getOngoingEvents, getTagById } from "lib/articles"
 
 export const metadata = {
   title: "開催中のイベント",
@@ -46,11 +46,10 @@ const Page = () => {
                     />
                     <div>
                       <div className="events-card__tags">
-                        {article.tags.map((tag) => (
-                          <span key={tag} className="events-card__tag">
-                            {tag}
-                          </span>
-                        ))}
+                        {article.tagIds.map((tid) => {
+                          const t = getTagById(tid)
+                          return t ? <span key={tid} className="events-card__tag">{t.name}</span> : null
+                        })}
                       </div>
                       <h2 className="events-card__title">{article.title}</h2>
                       {article.event && (

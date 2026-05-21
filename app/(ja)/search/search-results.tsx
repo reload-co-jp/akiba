@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
-import { formatDate, getArticleImage } from "lib/articles"
+import { formatDate, getArticleImage, getArticleTagNames, getTagById } from "lib/articles"
 
 export function SearchResults({ articles }: { articles: Article[] }) {
   const searchParams = useSearchParams()
@@ -14,7 +14,7 @@ export function SearchResults({ articles }: { articles: Article[] }) {
         (a) =>
           a.title.includes(q) ||
           a.summary.includes(q) ||
-          a.tags.some((t) => t.includes(q)),
+          getArticleTagNames(a).some((t) => t.includes(q)),
       )
     : []
 
@@ -41,9 +41,10 @@ export function SearchResults({ articles }: { articles: Article[] }) {
                 />
                 <div className="article-card__body">
                   <div className="article-card__tags">
-                    {article.tags.map((t) => (
-                      <span key={t} className="article-card__tag">{t}</span>
-                    ))}
+                    {article.tagIds.map((tid) => {
+                      const t = getTagById(tid)
+                      return t ? <span key={tid} className="article-card__tag">{t.name}</span> : null
+                    })}
                   </div>
                   <h2 className="article-card__title">{article.title}</h2>
                   <p className="article-card__summary">{article.summary}</p>

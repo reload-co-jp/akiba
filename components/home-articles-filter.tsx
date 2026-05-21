@@ -2,18 +2,22 @@
 
 import Link from "next/link"
 import type { Article } from "lib/articles"
-import { formatDate, getArticleImage, getLocalizedContent } from "lib/articles"
+import { formatDate, getArticleImage, getLocalizedContent, getTagById } from "lib/articles"
 import { useLang } from "./language-provider"
 
 export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
   const { lang } = useLang()
-  const tagCounts = articles.reduce<Record<string, number>>((counts, article) => {
-    for (const tag of article.tags) {
-      counts[tag] = (counts[tag] ?? 0) + 1
+  const tagCounts = articles.reduce<Record<number, number>>((counts, article) => {
+    for (const id of article.tagIds) {
+      counts[id] = (counts[id] ?? 0) + 1
     }
     return counts
   }, {})
-  const tags = Object.keys(tagCounts).filter((tag) => tagCounts[tag] >= 2)
+  const tags = Object.keys(tagCounts)
+    .map(Number)
+    .filter((id) => tagCounts[id] >= 2)
+    .map((id) => ({ id, tag: getTagById(id) }))
+    .filter((t): t is { id: number; tag: NonNullable<ReturnType<typeof getTagById>> } => t.tag != null)
   const visibleArticles = articles.slice(0, 12)
 
   return (
@@ -38,11 +42,10 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
                     className="article-card__image"
                   />
                   <div className="article-card__tags">
-                    {article.tags.map((tag) => (
-                      <span key={tag} className="article-card__tag">
-                        {tag}
-                      </span>
-                    ))}
+                    {article.tagIds.map((tid) => {
+                      const t = getTagById(tid)
+                      return t ? <span key={tid} className="article-card__tag">{t.name}</span> : null
+                    })}
                   </div>
                   <h3 className="article-card__title">{localized.title}</h3>
                   <p className="article-card__summary">{localized.summary}</p>
@@ -65,13 +68,13 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
       )}
 
       <section className="home-tags" aria-label="記事カテゴリ">
-        {tags.map((tag) => (
+        {tags.map(({ id, tag }) => (
           <Link
-            key={tag}
-            href={{ pathname: "/articles/", query: { tag } }}
+            key={id}
+            href={`/tags/${id}/`}
             className="home-tags__item"
           >
-            {tag}
+            {tag.name}
           </Link>
         ))}
       </section>

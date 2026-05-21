@@ -16,6 +16,7 @@ import {
   getEnglishSeoDescription,
   getEnglishSeoKeywords,
   getEnglishSeoTitle,
+  getTagById,
   placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
@@ -86,7 +87,7 @@ const Page = async ({ params }: Props) => {
     .filter((candidate) => candidate.slug !== article.slug && candidate.en)
     .map((candidate) => ({
       article: candidate,
-      matchingTagCount: candidate.tags.filter((tag) => article.tags.includes(tag)).length,
+      matchingTagCount: candidate.tagIds.filter((id) => article.tagIds.includes(id)).length,
     }))
     .filter((candidate) => candidate.matchingTagCount > 0)
     .sort(
@@ -340,11 +341,14 @@ const Page = async ({ params }: Props) => {
       <section className="article-tags-nav" aria-labelledby="article-tags-title">
         <h2 id="article-tags-title">Tags</h2>
         <div className="article-tags-nav__list">
-          {article.tags.map((tag) => (
-            <Link key={tag} href={{ pathname: "/articles/", query: { tag } }} className="article-tags-nav__item">
-              {tag}
-            </Link>
-          ))}
+          {article.tagIds.map((tid) => {
+            const t = getTagById(tid)
+            return t ? (
+              <Link key={tid} href={`/tags/${tid}/`} className="article-tags-nav__item">
+                {t.name}
+              </Link>
+            ) : null
+          })}
         </div>
       </section>
 
@@ -365,9 +369,10 @@ const Page = async ({ params }: Props) => {
                       className="article-card__image"
                     />
                     <div className="article-card__tags">
-                      {relatedArticle.tags.map((tag) => (
-                        <span key={tag} className="article-card__tag">{tag}</span>
-                      ))}
+                      {relatedArticle.tagIds.map((tid) => {
+                        const t = getTagById(tid)
+                        return t ? <span key={tid} className="article-card__tag">{t.name}</span> : null
+                      })}
                     </div>
                     <h3 className="article-card__title">{relatedArticle.en!.title}</h3>
                     <time className="article-card__date" dateTime={relatedArticle.publishedAt}>

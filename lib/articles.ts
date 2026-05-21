@@ -1,5 +1,6 @@
 import articlesData from "../data/articles.json"
 import authorsData from "../data/authors.json"
+import tagsData from "../data/tags.json"
 
 export type Lang = "ja" | "en"
 
@@ -15,6 +16,16 @@ export const getAllAuthors = (): Author[] => authorsData as Author[]
 export const getAuthorById = (id: number): Author | undefined =>
   (authorsData as Author[]).find((a) => a.id === id)
 
+export type Tag = {
+  id: number
+  name: string
+}
+
+export const getAllTagsData = (): Tag[] => tagsData as Tag[]
+
+export const getTagById = (id: number): Tag | undefined =>
+  (tagsData as Tag[]).find((t) => t.id === id)
+
 export type LocaleContent = {
   title: string
   summary: string
@@ -28,7 +39,7 @@ export type Article = {
   summary: string
   content: string
   publishedAt: string
-  tags: string[]
+  tagIds: number[]
   en?: LocaleContent
   image?: {
     src: string
@@ -49,6 +60,9 @@ export type Article = {
   }
   authorId?: number
 }
+
+export const getArticleTagNames = (article: Article): string[] =>
+  article.tagIds.map((id) => getTagById(id)?.name ?? "").filter(Boolean)
 
 export const getLocalizedContent = (article: Article, lang: Lang): LocaleContent => {
   if (lang === "en" && article.en) return article.en
@@ -211,14 +225,17 @@ export const getOngoingEvents = (today: string): Article[] => {
   )
 }
 
-export const getAllTags = (): string[] => {
-  const tags = new Set<string>()
-  articlesData.forEach((a) => a.tags.forEach((t) => tags.add(t)))
-  return Array.from(tags).sort()
+export const getAllTags = (): Tag[] => {
+  const ids = new Set<number>()
+  ;(articlesData as Article[]).forEach((a) => a.tagIds.forEach((id) => ids.add(id)))
+  return Array.from(ids)
+    .map((id) => getTagById(id)!)
+    .filter(Boolean)
+    .sort((a, b) => a.name.localeCompare(b.name, "ja"))
 }
 
-export const getArticlesByTag = (tag: string): Article[] => {
-  return getAllArticles().filter((a) => a.tags.includes(tag))
+export const getArticlesByTagId = (id: number): Article[] => {
+  return getAllArticles().filter((a) => a.tagIds.includes(id))
 }
 
 export type ArticleMonth = {

@@ -91,7 +91,7 @@ const sitemap = (): MetadataRoute.Sitemap => {
       priority: 0.7,
     })),
     ...tags.map((tag) => ({
-      url: absoluteUrl(`/tags/${encodeURIComponent(tag)}/`),
+      url: absoluteUrl(`/tags/${tag.id}/`),
       lastModified: latestDate,
       changeFrequency: "weekly" as const,
       priority: 0.6,

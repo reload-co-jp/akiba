@@ -10,7 +10,9 @@ import {
   getArticleBySlug,
   getArticleImage,
   getArticlePublishedIso,
+  getArticleTagNames,
   getAuthorById,
+  getTagById,
   placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
@@ -50,7 +52,7 @@ export const generateMetadata = async ({ params }: Props) => {
       type: "article",
       publishedTime: publishedAt,
       modifiedTime: publishedAt,
-      tags: article.tags,
+      tags: getArticleTagNames(article),
     },
     twitter: {
       card: "summary_large_image",
@@ -59,7 +61,7 @@ export const generateMetadata = async ({ params }: Props) => {
       images: [image.src],
     },
     other: {
-      news_keywords: article.tags.slice(0, 10).join(", "),
+      news_keywords: getArticleTagNames(article).slice(0, 10).join(", "),
     },
   }
 }
@@ -74,7 +76,7 @@ const Page = async ({ params }: Props) => {
     .filter((candidate) => candidate.slug !== article.slug)
     .map((candidate) => ({
       article: candidate,
-      matchingTagCount: candidate.tags.filter((tag) => article.tags.includes(tag)).length,
+      matchingTagCount: candidate.tagIds.filter((id) => article.tagIds.includes(id)).length,
     }))
     .filter((candidate) => candidate.matchingTagCount > 0)
     .sort(
@@ -96,7 +98,7 @@ const Page = async ({ params }: Props) => {
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
     headline: article.title,
     description: article.summary,
-    keywords: article.tags.join(", "),
+    keywords: getArticleTagNames(article).join(", "),
     inLanguage: "ja",
     datePublished: publishedAt,
     dateModified: publishedAt,
@@ -188,11 +190,14 @@ const Page = async ({ params }: Props) => {
       </nav>
 
       <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: ".75rem" }}>
-        {article.tags.map((tag) => (
-          <Link key={tag} href={`/tags/${encodeURIComponent(tag)}/`} className="article-tag">
-            {tag}
-          </Link>
-        ))}
+        {article.tagIds.map((tid) => {
+          const t = getTagById(tid)
+          return t ? (
+            <Link key={tid} href={`/tags/${tid}/`} className="article-tag">
+              {t.name}
+            </Link>
+          ) : null
+        })}
       </div>
 
       {article.en && (
@@ -321,11 +326,14 @@ const Page = async ({ params }: Props) => {
       <section className="article-tags-nav" aria-labelledby="article-tags-title">
         <h2 id="article-tags-title">タグ</h2>
         <div className="article-tags-nav__list">
-          {article.tags.map((tag) => (
-            <Link key={tag} href={`/tags/${encodeURIComponent(tag)}/`} className="article-tags-nav__item">
-              {tag}
-            </Link>
-          ))}
+          {article.tagIds.map((tid) => {
+            const t = getTagById(tid)
+            return t ? (
+              <Link key={tid} href={`/tags/${tid}/`} className="article-tags-nav__item">
+                {t.name}
+              </Link>
+            ) : null
+          })}
         </div>
       </section>
 
@@ -346,9 +354,10 @@ const Page = async ({ params }: Props) => {
                       className="article-card__image"
                     />
                     <div className="article-card__tags">
-                      {relatedArticle.tags.map((tag) => (
-                        <span key={tag} className="article-card__tag">{tag}</span>
-                      ))}
+                      {relatedArticle.tagIds.map((tid) => {
+                        const t = getTagById(tid)
+                        return t ? <span key={tid} className="article-card__tag">{t.name}</span> : null
+                      })}
                     </div>
                     <h3 className="article-card__title">{relatedArticle.title}</h3>
                     <time className="article-card__date" dateTime={relatedArticle.publishedAt}>
