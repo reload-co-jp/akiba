@@ -14,6 +14,7 @@ import {
   getAuthorById,
   getTagById,
   placeholderImage,
+  addAkihabaraSeoTitle,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 
@@ -32,7 +33,7 @@ export const generateMetadata = async ({ params }: Props) => {
   const image = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
   return {
-    title: article.title,
+    title: addAkihabaraSeoTitle(article.title),
     description: article.summary,
     alternates: {
       canonical: `/articles/${slug}/`,
@@ -45,7 +46,7 @@ export const generateMetadata = async ({ params }: Props) => {
       }),
     },
     openGraph: {
-      title: article.title,
+      title: addAkihabaraSeoTitle(article.title),
       description: article.summary,
       url: `/articles/${slug}/`,
       images: [{ url: image.src, alt: image.alt }],
@@ -56,7 +57,7 @@ export const generateMetadata = async ({ params }: Props) => {
     },
     twitter: {
       card: "summary_large_image",
-      title: article.title,
+      title: addAkihabaraSeoTitle(article.title),
       description: article.summary,
       images: [image.src],
     },
@@ -96,7 +97,7 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
-    headline: article.title,
+    headline: addAkihabaraSeoTitle(article.title),
     description: article.summary,
     keywords: getArticleTagNames(article).join(", "),
     inLanguage: "ja",
@@ -125,7 +126,7 @@ const Page = async ({ params }: Props) => {
     ? {
         "@context": "https://schema.org",
         "@type": "Event",
-        name: article.title,
+        name: addAkihabaraSeoTitle(article.title),
         description: article.summary,
         startDate: article.event.startDate,
         endDate: article.event.endDate,
@@ -157,7 +158,7 @@ const Page = async ({ params }: Props) => {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: article.title, item: articleUrl },
+      { "@type": "ListItem", position: 2, name: addAkihabaraSeoTitle(article.title), item: articleUrl },
     ],
   }
 

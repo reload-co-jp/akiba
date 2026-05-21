@@ -64,6 +64,8 @@ export type Article = {
 export const getArticleTagNames = (article: Article): string[] =>
   article.tagIds.map((id) => getTagById(id)?.name ?? "").filter(Boolean)
 
+export const addAkihabaraSeoTitle = (title: string) => `【秋葉原】${title}`
+
 export const getLocalizedContent = (article: Article, lang: Lang): LocaleContent => {
   if (lang === "en" && article.en) return article.en
   return { title: article.title, summary: article.summary, content: article.content }

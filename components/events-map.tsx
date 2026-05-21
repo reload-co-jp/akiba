@@ -176,7 +176,7 @@ export const EventsMap = ({ events }: Props) => {
         <span>{selected.articles.length}件のイベント開催中</span>
         <ul>
           {selected.articles.map((article) => (
-            <li key={article.id}>{article.title.replace(/^【秋葉原】/, "")}</li>
+            <li key={article.id}>{article.title}</li>
           ))}
         </ul>
         <a href={externalMapUrl} target="_blank" rel="noopener noreferrer">
