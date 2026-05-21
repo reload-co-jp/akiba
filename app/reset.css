@@ -76,7 +76,7 @@ body {
 .site-main {
   background: transparent;
   min-height: calc(100dvh - 8.5rem);
-  padding: 0 1rem 4rem;
+  padding: 1rem 1rem 4rem;
 }
 
 .site-footer {
@@ -114,7 +114,7 @@ body {
     url("/images/hero.jpg") center / cover;
   border-radius: 0 0 34px 34px;
   display: flex;
-  margin: 0 -1rem 0;
+  margin: -1rem -1rem 0;
   min-height: min(650px, calc(100svh - 9rem));
   padding: 5rem 1rem 4rem;
 }
@@ -250,7 +250,9 @@ body {
   justify-content: space-between;
   padding: 1rem 1.25rem;
   text-decoration: none;
-  transition: border-color 0.2s, background-color 0.2s;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s;
 }
 
 .article-month-list__link:hover {
