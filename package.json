@@ -8,6 +8,7 @@
     "lint": "eslint",
     "build": "next build",
     "start": "next start",
+    "tweet:new": "node scripts/tweet-new-articles.mjs",
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit"
   },

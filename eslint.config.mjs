@@ -8,6 +8,16 @@ import { fixupConfigRules } from "@eslint/compat"
 export default [
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
   { ignores: [".next", "out", "next-env.d.ts", "next.config.js"] },
+  {
+    files: ["scripts/**/*.{js,mjs,cjs}"],
+    languageOptions: {
+      globals: {
+        console: "readonly",
+        fetch: "readonly",
+        process: "readonly",
+      },
+    },
+  },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   ...fixupConfigRules(pluginReact.configs.flat.recommended),
