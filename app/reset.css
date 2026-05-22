@@ -729,6 +729,10 @@ body {
   font-size: 0.9375rem;
 }
 
+.article-fluid-ad {
+  margin-top: 2rem;
+}
+
 .about-page {
   margin: 0 auto;
   max-width: 820px;
