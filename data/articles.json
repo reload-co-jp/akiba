@@ -1,5 +1,48 @@
 [
   {
+    "id": 179,
+    "title": "ポケモンカード大会「メルカリ トレカ杯 2026」がベルサール秋葉原で開催",
+    "slug": "mercari-toreca-cup-2026-akihabara",
+    "summary": "ポケモンカードゲーム大会「メルカリ トレカ杯 2026」が、2026年6月28日にベルサール秋葉原1F・2Fイベントホールで開催。最大512名が参加し、決勝トーナメントはYouTubeで生配信される。",
+    "content": "## 概要\n\nポケモンカードゲーム大会「メルカリ トレカ杯 2026」が、2026年6月28日にベルサール秋葉原で開催されます。会場は1F・2Fイベントホールで、参加費は無料です。\n\nメルカリがトレーディングカードを楽しむきっかけと、安心・安全な取引体験の紹介を目的に実施する大会です。最大512名が参加し、決勝トーナメントの一部はメルカリグループ公式YouTubeチャンネルで生配信されます。\n\n## 内容\n\n大会本戦はポケモンカードゲームを種目に、予選スイスドロー7回戦を実施。上位32名が決勝トーナメントへ進出し、優勝者を決定します。配信では試合中継、解説、現地レポートなども予定されています。\n\nサイドイベントとして、1名から参加できる4人フライトトーナメントも実施予定です。会場内には駿河屋もブース出展し、トレーディングカードやサプライ品などを販売します。\n\n参加条件は有効なメルカリIDを保有していること。18歳未満は保護者参加同意書が必要です。エントリー期間は2026年5月23日から6月7日まで、当選発表は6月12日予定です。\n\n## 開催情報\n\n- **会場**: ベルサール秋葉原 1F・2Fイベントホール\n- **住所**: 東京都千代田区外神田3-12-8\n- **日程**: 2026年6月28日\n- **時間**: 8:00〜20:30（予定）\n- **内容**: ポケモンカードゲーム大会、4人フライトトーナメント、駿河屋ブース、YouTube生配信\n- **参加人数**: 最大512名\n- **料金**: 参加費無料\n- **予約**: 必要。エントリー期間は2026年5月23日〜6月7日\n\n## こんな人におすすめ\n\n- ポケモンカードゲームの大会に参加したい方\n- 秋葉原で開催される大型トレカイベントを探している方\n- 決勝トーナメントの配信や現地レポートをチェックしたい方\n- 駿河屋ブースのトレカ・サプライ販売も見たい方",
+    "publishedAt": "2026-05-24",
+    "en": {
+      "title": "[Akihabara] Mercari Toreca Cup 2026 Pokemon Card Tournament at Bellesalle Akihabara",
+      "summary": "The Pokemon Card Game tournament Mercari Toreca Cup 2026 will be held on June 28, 2026 at Bellesalle Akihabara's 1F and 2F event halls. Up to 512 players can participate, with the final tournament streamed on YouTube.",
+      "content": "## Overview\n\nThe Pokemon Card Game tournament Mercari Toreca Cup 2026 will be held at Bellesalle Akihabara on June 28, 2026. The venue is the 1F and 2F event halls, and participation is free.\n\nMercari is holding the tournament to provide an opportunity to enjoy trading cards and introduce a safe and secure trading card transaction experience. Up to 512 players can participate, and part of the final tournament will be streamed on Mercari Group's official YouTube channel.\n\n## Highlights\n\nThe main tournament uses the Pokemon Card Game, with 7 Swiss rounds in the preliminary stage. The top 32 players advance to the final tournament to decide the winner. The stream is also scheduled to include match coverage, commentary, and on-site reports.\n\nA side event, a 4-player flight tournament that participants can join individually, is also planned. Surugaya will also exhibit a booth at the venue, selling trading cards and supply items.\n\nParticipants must hold a valid Mercari ID. Participants under 18 need a parental consent form. Entry runs from May 23 to June 7, 2026, with winners scheduled to be announced on June 12.\n\n## Event Details\n\n- **Venue**: Bellesalle Akihabara, 1F and 2F Event Halls\n- **Address**: 3-12-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: June 28, 2026\n- **Hours**: 8:00–20:30 (planned)\n- **Contents**: Pokemon Card Game tournament, 4-player flight tournament, Surugaya booth, YouTube livestream\n- **Capacity**: Up to 512 participants\n- **Admission**: Free to participate\n- **Reservation**: Required. Entry period runs from May 23 to June 7, 2026\n\n## Recommended For\n\n- Those who want to participate in a Pokemon Card Game tournament\n- Those looking for a large trading card event in Akihabara\n- Those who want to watch the final tournament stream and on-site reports\n- Those who also want to check Surugaya's trading card and supply booth"
+    },
+    "image": {
+      "src": "/images/articles/mercari-toreca-cup-2026-akihabara.jpg",
+      "alt": "メルカリ トレカ杯 2026の告知ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000540.000026386.html"
+    },
+    "sources": [
+      {
+        "label": "メルカリ プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000540.000026386.html"
+      },
+      {
+        "label": "メルカリグループ公式YouTube",
+        "url": "https://www.youtube.com/@mercarijp"
+      }
+    ],
+    "event": {
+      "venue": "ベルサール秋葉原",
+      "startDate": "2026-06-28",
+      "endDate": "2026-06-28",
+      "price": "参加費無料",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      50,
+      74,
+      100,
+      124
+    ]
+  },
+  {
     "id": 178,
     "title": "TVアニメ『あかね噺』夏祭りフェアがアニメイト秋葉原で開催",
     "slug": "akanebanashi-summer-festival-animate-akihabara-2026",
