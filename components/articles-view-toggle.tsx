@@ -4,29 +4,46 @@ import { useState } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
-import { formatDate, getArticleImage, getLocalizedContent, getTagById } from "lib/articles"
+import { formatDate, getArticleImage, getArticleTagNames, getLocalizedContent, getTagById } from "lib/articles"
 import { useLang } from "./language-provider"
 
 export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
-  const [view, setView] = useState<"grid" | "list">("grid")
   const searchParams = useSearchParams()
   const { lang } = useLang()
   const selectedTag = searchParams.get("tag")
-  const visibleArticles = selectedTag
-    ? articles.filter((article) =>
-        article.tagIds.some((id) => {
-          const t = getTagById(id)
-          return t?.name === selectedTag
-        }),
-      )
-    : articles
+  const [view, setView] = useState<"grid" | "list">("grid")
+  const [searchQuery, setSearchQuery] = useState(searchParams.get("q")?.trim() ?? "")
+
+  const q = searchQuery.trim()
+  const visibleArticles = articles.filter((article) => {
+    const tagMatch = selectedTag
+      ? article.tagIds.some((id) => getTagById(id)?.name === selectedTag)
+      : true
+    const searchMatch = q
+      ? article.title.includes(q) ||
+        article.summary.includes(q) ||
+        getArticleTagNames(article).some((t) => t.includes(q))
+      : true
+    return tagMatch && searchMatch
+  })
 
   return (
     <>
-      {selectedTag && (
+      <form className="search-form" onSubmit={(e) => e.preventDefault()}>
+        <input
+          type="search"
+          className="search-form__input"
+          placeholder="キーワードで絞り込む"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          aria-label="記事を検索"
+        />
+      </form>
+      {(selectedTag || q) && (
         <div className="article-filter-status">
-          <span>「{selectedTag}」の記事</span>
-          <Link href="/articles/" className="article-filter-status__reset">
+          {selectedTag && <span>「{selectedTag}」の記事</span>}
+          {q && <span>「{q}」の検索結果: {visibleArticles.length}件</span>}
+          <Link href="/articles/" className="article-filter-status__reset" onClick={() => setSearchQuery("")}>
             すべて表示
           </Link>
         </div>

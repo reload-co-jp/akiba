@@ -28,6 +28,15 @@ const Page = () => {
           <p className="home-hero__lead">
             懐かしさと熱気が交差する街で、今日出会えるエンタメの気配を集めます。
           </p>
+          <form action="/articles" className="home-hero__search">
+            <input
+              type="search"
+              name="q"
+              className="home-hero__search-input"
+              placeholder="記事を検索..."
+              aria-label="記事を検索"
+            />
+          </form>
           <Link className="home-hero__link" href={`/articles/`}>
             最新記事を読む
           </Link>
