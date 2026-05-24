@@ -1125,3 +1125,46 @@ body {
 .search-form__input::placeholder {
   color: #a09080;
 }
+
+.not-found-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.not-found-page__code {
+  color: #b94a3a;
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0 0 1rem;
+}
+
+.not-found-page__title {
+  color: #24312f;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+}
+
+.not-found-page__message {
+  color: #5f6f69;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  margin: 0 0 2rem;
+  max-width: 24rem;
+}
+
+.not-found-page__link {
+  background: #b94a3a;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+}
