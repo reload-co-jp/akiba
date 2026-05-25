@@ -155,6 +155,7 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
                 </button>
                 {dayEvents.length > 0 && (
                   <>
+                    <span className="cal__day-count">{dayEvents.length}</span>
                     <ul className="cal__day-events" aria-label={`${day}日のイベント`}>
                       {dayEvents.slice(0, 5).map((e) => (
                         <li key={e.id} className="cal__day-event">

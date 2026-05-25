@@ -1338,6 +1338,10 @@ body {
   white-space: nowrap;
 }
 
+.cal__day-count {
+  display: none;
+}
+
 .cal__day-more {
   color: #8a6f63;
   font-size: 0.625rem;
@@ -1528,14 +1532,17 @@ body {
     display: none;
   }
 
-  .cal__cell--has-events::after {
+  .cal__day-count {
     background: #b94a3a;
-    border-radius: 50%;
-    content: "";
-    display: block;
-    height: 4px;
-    margin: 0 auto;
-    width: 4px;
+    border-radius: 999px;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.5625rem;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 1rem;
+    padding: 0.1875rem 0.25rem;
+    text-align: center;
   }
 
   .cal__overlay {
