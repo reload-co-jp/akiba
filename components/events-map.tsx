@@ -20,7 +20,7 @@ type MapLocation = VenuePoint & {
 }
 
 const mapBounds = {
-  north: 35.7022,
+  north: 35.706,
   south: 35.6934,
   east: 139.7786,
   west: 139.767,
@@ -42,6 +42,9 @@ const venuePoints: Record<string, VenuePoint> = {
   "AKIBAカルチャーズZONE 4階 カルポップ": { lat: 35.6995, lng: 139.7716 },
   "あみあみ秋葉原フィギュアタワー店": { lat: 35.6992, lng: 139.772 },
   "秋葉原 SEEKBASE": { lat: 35.7011, lng: 139.7767 },
+  "2k540 AKI-OKA ARTISAN": { lat: 35.7054, lng: 139.7737 },
+  "2k540 AKI-OKA ARTISAN イベントスペースC": { lat: 35.7054, lng: 139.7737 },
+  "2k540 AKI-OKA ARTISAN イベントスペースC・D": { lat: 35.7054, lng: 139.7737 },
   "ボークス 秋葉原ホビー天国2": { lat: 35.7005, lng: 139.7714 },
   "コラボカフェ本舗 秋葉原店": { lat: 35.7003, lng: 139.7715 },
   "キュアメイドカフェ": { lat: 35.6982, lng: 139.771 },
