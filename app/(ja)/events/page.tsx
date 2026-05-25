@@ -25,6 +25,9 @@ const Page = () => {
         <h1 className="events-page__title">
           開催中のイベント
         </h1>
+        <p className="cal__subtitle">
+          <Link href="/events/calendar/">イベントカレンダーで見る</Link>
+        </p>
       </div>
 
       {events.length === 0 ? (
