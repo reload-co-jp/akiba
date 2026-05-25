@@ -26,7 +26,11 @@
       "hours": "9:30–22:00",
       "closed": "Open year-round"
     },
-    "tags": ["家電", "PCパーツ", "自作PC"]
+    "tags": [
+      "家電",
+      "PCパーツ",
+      "自作PC"
+    ]
   },
   {
     "id": 2,
@@ -55,7 +59,11 @@
       "hours": "10:00–21:00",
       "closed": "Irregular holidays"
     },
-    "tags": ["アニメ", "マンガ", "グッズ"]
+    "tags": [
+      "アニメ",
+      "マンガ",
+      "グッズ"
+    ]
   },
   {
     "id": 3,
@@ -84,7 +92,11 @@
       "hours": "10:00–21:00",
       "closed": "Irregular holidays"
     },
-    "tags": ["アニメ", "ゲーム", "声優"]
+    "tags": [
+      "アニメ",
+      "ゲーム",
+      "声優"
+    ]
   },
   {
     "id": 4,
@@ -113,7 +125,11 @@
       "hours": "Varies by tenant (approx. 11:00–20:00)",
       "closed": "Varies by tenant"
     },
-    "tags": ["フィギュア", "同人誌", "トレカ"]
+    "tags": [
+      "フィギュア",
+      "同人誌",
+      "トレカ"
+    ]
   },
   {
     "id": 5,
@@ -143,7 +159,11 @@
       "closed": "Irregular holidays",
       "admission": "Free entry (arcade games paid separately)"
     },
-    "tags": ["レトロゲーム", "中古ゲーム", "ファミコン"]
+    "tags": [
+      "レトロゲーム",
+      "中古ゲーム",
+      "ファミコン"
+    ]
   },
   {
     "id": 6,
@@ -172,7 +192,11 @@
       "hours": "11:00–20:00",
       "closed": "Irregular holidays"
     },
-    "tags": ["フィギュア", "トレカ", "中古"]
+    "tags": [
+      "フィギュア",
+      "トレカ",
+      "中古"
+    ]
   },
   {
     "id": 7,
@@ -202,7 +226,11 @@
       "closed": "Irregular holidays",
       "admission": "Entry fee + table charge apply"
     },
-    "tags": ["メイドカフェ", "カフェ", "体験"]
+    "tags": [
+      "メイドカフェ",
+      "カフェ",
+      "体験"
+    ]
   },
   {
     "id": 8,
@@ -231,7 +259,11 @@
       "hours": "Varies by venue",
       "closed": "Open year-round (varies by venue)"
     },
-    "tags": ["複合施設", "イベント", "レストラン"]
+    "tags": [
+      "複合施設",
+      "イベント",
+      "レストラン"
+    ]
   },
   {
     "id": 9,
@@ -246,7 +278,7 @@
     "admission": "入場料あり（別途チャージ）",
     "website": "https://maidreamin.com/shop/detail.html?id=1",
     "lat": 35.7001,
-    "lng": 139.7710,
+    "lng": 139.771,
     "image": {
       "src": "/images/spots/maidreamin-akihabara.jpg",
       "alt": "秋葉原でチラシを配るメイドたち",
@@ -261,7 +293,11 @@
       "closed": "Open year-round",
       "admission": "Entry fee + table charge apply"
     },
-    "tags": ["メイドカフェ", "カフェ", "体験"]
+    "tags": [
+      "メイドカフェ",
+      "カフェ",
+      "体験"
+    ]
   },
   {
     "id": 10,
@@ -290,7 +326,11 @@
       "hours": "11:30–15:00, 17:00–21:00",
       "closed": "Mondays and Tuesdays"
     },
-    "tags": ["とんかつ", "老舗", "ランチ"]
+    "tags": [
+      "とんかつ",
+      "老舗",
+      "ランチ"
+    ]
   },
   {
     "id": 11,
@@ -319,7 +359,11 @@
       "hours": "11:30–22:00",
       "closed": "Open year-round"
     },
-    "tags": ["焼肉", "和牛", "ランチ"]
+    "tags": [
+      "焼肉",
+      "和牛",
+      "ランチ"
+    ]
   },
   {
     "id": 12,
@@ -334,7 +378,7 @@
     "admission": "無料",
     "website": "https://www.sengoku.co.jp/",
     "lat": 35.6983,
-    "lng": 139.7710,
+    "lng": 139.771,
     "image": {
       "src": "/images/spots/sengoku-denshi.jpg",
       "alt": "千石電商の外観",
@@ -348,7 +392,11 @@
       "hours": "10:00–19:00",
       "closed": "Sundays and public holidays"
     },
-    "tags": ["電子部品", "自作", "工具"]
+    "tags": [
+      "電子部品",
+      "自作",
+      "工具"
+    ]
   },
   {
     "id": 13,
@@ -377,7 +425,11 @@
       "hours": "11:00–19:00 (from 10:00 on weekends)",
       "closed": "Irregular holidays"
     },
-    "tags": ["電子部品", "キット", "Arduino"]
+    "tags": [
+      "電子部品",
+      "キット",
+      "Arduino"
+    ]
   },
   {
     "id": 14,
@@ -407,7 +459,11 @@
       "closed": "Open year-round",
       "admission": "Entry fee applies (60 min from ¥880, includes 1 drink)"
     },
-    "tags": ["メイドカフェ", "カフェ", "体験"]
+    "tags": [
+      "メイドカフェ",
+      "カフェ",
+      "体験"
+    ]
   },
   {
     "id": 15,
@@ -422,7 +478,7 @@
     "admission": "入場料あり",
     "website": "https://akibazettai.com/",
     "lat": 35.7003,
-    "lng": 139.7700,
+    "lng": 139.77,
     "image": {
       "src": "/images/spots/akiba-zettai-ryoiki.jpg",
       "alt": "秋葉原のメイドたち",
@@ -437,7 +493,11 @@
       "closed": "Open year-round",
       "admission": "Entry fee applies"
     },
-    "tags": ["メイドカフェ", "バー", "カフェ"]
+    "tags": [
+      "メイドカフェ",
+      "バー",
+      "カフェ"
+    ]
   },
   {
     "id": 16,
@@ -452,7 +512,7 @@
     "admission": "無料（チャージなし）",
     "website": "https://www.curemaid.jp/",
     "lat": 35.6985,
-    "lng": 139.7700,
+    "lng": 139.77,
     "image": {
       "src": "/images/spots/cure-maid-cafe.jpg",
       "alt": "秋葉原のメイドカフェスタッフ",
@@ -467,7 +527,11 @@
       "closed": "Irregular holidays",
       "admission": "Free entry, no table charge"
     },
-    "tags": ["メイドカフェ", "老舗", "カフェ"]
+    "tags": [
+      "メイドカフェ",
+      "老舗",
+      "カフェ"
+    ]
   },
   {
     "id": 17,
@@ -496,7 +560,11 @@
       "hours": "11:00–19:00 (restaurants vary)",
       "closed": "Wednesdays (open on public holidays)"
     },
-    "tags": ["クラフト", "職人", "ショッピング"]
+    "tags": [
+      "クラフト",
+      "職人",
+      "ショッピング"
+    ]
   },
   {
     "id": 18,
@@ -525,7 +593,11 @@
       "hours": "Shops 11:00–20:00 / Restaurants Mon–Sat 11:00–23:00, Sun & holidays until 21:00",
       "closed": "Open year-round"
     },
-    "tags": ["歴史的建物", "レストラン", "ショッピング"]
+    "tags": [
+      "歴史的建物",
+      "レストラン",
+      "ショッピング"
+    ]
   },
   {
     "id": 19,
@@ -540,7 +612,7 @@
     "admission": "無料",
     "website": "https://www.mandarake.co.jp/dir/cmp/",
     "lat": 35.7005,
-    "lng": 139.7710,
+    "lng": 139.771,
     "image": {
       "src": "/images/spots/mandarake-complex.jpg",
       "alt": "まんだらけコンプレックスの外観",
@@ -554,7 +626,11 @@
       "hours": "12:00–20:00 (buy-up reception until 19:30)",
       "closed": "Open year-round"
     },
-    "tags": ["同人誌", "フィギュア", "中古"]
+    "tags": [
+      "同人誌",
+      "フィギュア",
+      "中古"
+    ]
   },
   {
     "id": 20,
@@ -568,7 +644,7 @@
     "closed": "各テナントによる",
     "admission": "無料（各店舗利用は別途）",
     "website": "https://www.akibacultureszone.com/",
-    "lat": 35.6990,
+    "lat": 35.699,
     "lng": 139.7712,
     "image": {
       "src": "/images/spots/akiba-cultures-zone.jpg",
@@ -583,7 +659,11 @@
       "hours": "1F–2F 11:00–21:00 / 3F–4F 11:00–20:30 / 5F weekdays 11:00–22:00, weekends from 10:00",
       "closed": "Varies by tenant"
     },
-    "tags": ["複合施設", "アニメ", "ライブ"]
+    "tags": [
+      "複合施設",
+      "アニメ",
+      "ライブ"
+    ]
   },
   {
     "id": 21,
@@ -613,7 +693,11 @@
       "closed": "Irregular holidays",
       "admission": "Free entry (capsule toys paid separately)"
     },
-    "tags": ["ガチャポン", "カプセルトイ", "コレクション"]
+    "tags": [
+      "ガチャポン",
+      "カプセルトイ",
+      "コレクション"
+    ]
   },
   {
     "id": 22,
@@ -628,7 +712,7 @@
     "admission": "無料",
     "website": "https://www.kotobukiya.co.jp/",
     "lat": 35.6982,
-    "lng": 139.7710,
+    "lng": 139.771,
     "image": {
       "src": "/images/spots/kotobukiya-akihabara.jpg",
       "alt": "コトブキヤ秋葉原館の入口",
@@ -642,7 +726,11 @@
       "hours": "Weekdays 12:00–20:00 / Weekends & holidays 11:00–20:00",
       "closed": "Irregular holidays"
     },
-    "tags": ["フィギュア", "プラモデル", "限定品"]
+    "tags": [
+      "フィギュア",
+      "プラモデル",
+      "限定品"
+    ]
   },
   {
     "id": 23,
@@ -656,7 +744,7 @@
     "closed": "無休",
     "admission": "無料",
     "website": "https://www.sofmap.com/tenpo/contents/?id=shops&sid=akiba_ams",
-    "lat": 35.6990,
+    "lat": 35.699,
     "lng": 139.7716,
     "image": {
       "src": "/images/spots/sofmap-akiba-amuse.jpg",
@@ -671,7 +759,11 @@
       "hours": "11:00–20:00",
       "closed": "Open year-round"
     },
-    "tags": ["アニメ", "ゲーム", "中古"]
+    "tags": [
+      "アニメ",
+      "ゲーム",
+      "中古"
+    ]
   },
   {
     "id": 24,
@@ -685,7 +777,7 @@
     "closed": "無休",
     "admission": "無料",
     "website": "https://www.lashinbang.com/",
-    "lat": 35.6990,
+    "lat": 35.699,
     "lng": 139.7712,
     "image": {
       "src": "/images/spots/lashinbang-akihabara.jpg",
@@ -700,6 +792,109 @@
       "hours": "11:00–21:00 (buy-up reception until 18:00)",
       "closed": "Open year-round"
     },
-    "tags": ["フィギュア", "グッズ", "中古"]
+    "tags": [
+      "フィギュア",
+      "グッズ",
+      "中古"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "海洋堂ホビーロビー東京",
+    "slug": "kaiyodo-hobby-lobby-tokyo",
+    "category": "フィギュア・模型",
+    "description": "海洋堂直営のフィギュア専門店。秋葉原ラジオ会館5Fに入居。リボルテック・ガチャガチャ・恐竜モデル・ジオラマなど幅広いラインナップを展開。国内外のコレクターにも人気。",
+    "address": "東京都千代田区外神田1-15-16 秋葉原ラジオ会館5F",
+    "access": "JR秋葉原駅 電気街口 徒歩1分（ラジオ会館5F）",
+    "hours": "平日 12:00〜20:00 / 土日祝 11:00〜19:00",
+    "closed": "不定休",
+    "admission": "無料",
+    "website": "https://kaiyodo.co.jp/kaiyodo_HB/TK_topics/",
+    "lat": 35.6984,
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/kaiyodo-hobby-lobby-tokyo.jpg",
+      "alt": "海洋堂ホビーロビー東京の外観",
+      "sourceLabel": "",
+      "sourceUrl": ""
+    },
+    "en": {
+      "name": "Kaiyodo Hobby Lobby Tokyo",
+      "description": "The official retail store of Kaiyodo, a world-renowned figure manufacturer. Located on the 5th floor of Akihabara Radio Kaikan. Stocks Revoltech, capsule toys, dinosaur models, dioramas, and the full range of Kaiyodo products.",
+      "access": "1-minute walk from JR Akihabara Station (Electric Town exit), Radio Kaikan 5F",
+      "hours": "Weekdays 12:00–20:00 / Weekends & holidays 11:00–19:00",
+      "closed": "Irregular holidays"
+    },
+    "tags": [
+      "フィギュア",
+      "海洋堂",
+      "ガチャガチャ"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Cafe ASAN",
+    "slug": "cafe-asan",
+    "category": "カフェ・グルメ",
+    "description": "2k540 AKI-OKA ARTISAN内にあるカフェ。ふわふわのスフレパンケーキが名物。ハンモック席など個性的な内装で、ゆったりとしたランチ・スイーツ時間を過ごせる。コラボカフェイベントも定期開催。",
+    "address": "東京都台東区上野5-9-9 2k540内",
+    "access": "JR秋葉原駅 中央口 徒歩10分 / 東京メトロ銀座線 末広町駅2番出口 徒歩3分",
+    "hours": "平日 11:30〜18:00 / 土日 11:30〜19:00",
+    "closed": "水曜（祝日の場合は営業）",
+    "admission": "無料",
+    "website": "http://www.cafeasan.jp/",
+    "lat": 35.7027,
+    "lng": 139.7739,
+    "image": {
+      "src": "/images/spots/cafe-asan.jpg",
+      "alt": "Cafe ASANの外観",
+      "sourceLabel": "",
+      "sourceUrl": ""
+    },
+    "en": {
+      "name": "Cafe ASAN",
+      "description": "A café inside the 2k540 AKI-OKA ARTISAN complex. Famous for its fluffy soufflé pancakes and unique interior with hammock seating. Regular collaboration café events are held here.",
+      "access": "10-minute walk from JR Akihabara Station (Central exit) / 3-minute walk from Tokyo Metro Ginza Line Suehirocho Station (Exit 2)",
+      "hours": "Weekdays 11:30–18:00 / Weekends 11:30–19:00",
+      "closed": "Wednesdays (open on public holidays)"
+    },
+    "tags": [
+      "カフェ",
+      "パンケーキ",
+      "スイーツ"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Cafe Mai:lish",
+    "slug": "cafe-mailish",
+    "category": "カフェ・グルメ",
+    "description": "2002年創業、秋葉原を代表する老舗メイド喫茶。外神田3丁目のビル2Fに入居。毎週末にコスプレイベントやコラボイベントを開催し、長年にわたりアキバ文化を牽引。",
+    "address": "東京都千代田区外神田3-6-2 FH協和スクエア2F",
+    "access": "JR秋葉原駅 電気街口 徒歩8分 / 東京メトロ銀座線 末広町駅3番出口 徒歩5分",
+    "hours": "月・火・木 14:00〜20:00 / 金・土・日 12:00〜20:00",
+    "closed": "水曜",
+    "admission": "無料",
+    "website": "https://www.mailish.jp/",
+    "lat": 35.7003,
+    "lng": 139.7705,
+    "image": {
+      "src": "/images/spots/cafe-mailish.jpg",
+      "alt": "Cafe Mai:lishの外観",
+      "sourceLabel": "",
+      "sourceUrl": ""
+    },
+    "en": {
+      "name": "Cafe Mai:lish",
+      "description": "A long-established maid café founded in 2002, one of Akihabara's most iconic. Located on the 2nd floor of FH Kyowa Square in Soto-Kanda 3-chome. Regular cosplay and collaboration events held on weekends.",
+      "access": "8-minute walk from JR Akihabara Station (Electric Town exit) / 5-minute walk from Tokyo Metro Ginza Line Suehirocho Station (Exit 3)",
+      "hours": "Mon/Tue/Thu 14:00–20:00 / Fri/Sat/Sun 12:00–20:00",
+      "closed": "Wednesdays"
+    },
+    "tags": [
+      "メイドカフェ",
+      "カフェ",
+      "老舗"
+    ]
   }
 ]
