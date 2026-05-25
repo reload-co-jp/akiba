@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { HomeArticlesFilter } from "components/home-articles-filter"
 import { getAllArticles } from "lib/articles"
+import { CalendarView } from "./events/calendar/calendar-view"
 
 export const metadata = {
   title: "アキバLive",
@@ -44,6 +45,8 @@ const Page = () => {
       </section>
 
       <HomeArticlesFilter articles={articles} />
+
+      <CalendarView events={articles.filter((a) => a.event != null)} maxEvents={10} />
     </>
   )
 }

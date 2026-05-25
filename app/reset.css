@@ -1416,6 +1416,19 @@ body {
   margin: 0;
 }
 
+.cal__more-link {
+  color: #3f5851;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.cal__more-link:hover {
+  color: #b94a3a;
+}
+
 .cal__clear-btn {
   background: none;
   border: 1px solid rgba(96, 120, 111, 0.3);

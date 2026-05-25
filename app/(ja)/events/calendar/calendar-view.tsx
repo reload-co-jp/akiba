@@ -5,7 +5,7 @@ import Link from "next/link"
 import { getArticleImage } from "lib/articles"
 import type { Article } from "lib/articles"
 
-type Props = { events: Article[] }
+type Props = { events: Article[]; maxEvents?: number }
 
 const WEEKDAYS = ["月", "火", "水", "木", "金", "土", "日"]
 
@@ -28,7 +28,7 @@ function formatRange(startDate: string, endDate: string) {
   return startDate === endDate ? s : `${s}〜${e}`
 }
 
-export const CalendarView = ({ events }: Props) => {
+export const CalendarView = ({ events, maxEvents }: Props) => {
   const now = new Date()
   const [year, setYear] = useState(now.getFullYear())
   const [month, setMonth] = useState(now.getMonth())
@@ -84,7 +84,9 @@ export const CalendarView = ({ events }: Props) => {
   ]
   while (cells.length % 7 !== 0) cells.push(null)
 
-  const listedEvents = selectedDate ? getEventsForDay(selectedDate) : monthEvents
+  const filteredEvents = selectedDate ? getEventsForDay(selectedDate) : monthEvents
+  const listedEvents = maxEvents ? filteredEvents.slice(0, maxEvents) : filteredEvents
+  const hasMore = maxEvents != null && filteredEvents.length > maxEvents
   const listHeading = selectedDate
     ? `${selectedDate.slice(5).replace("-", "/")} のイベント`
     : `${year}年${month + 1}月のイベント一覧`
@@ -214,6 +216,11 @@ export const CalendarView = ({ events }: Props) => {
                 </li>
               ))}
             </ul>
+          )}
+          {hasMore && (
+            <Link href="/events/calendar/" className="cal__more-link">
+              すべてのイベントを見る ({filteredEvents.length}件) →
+            </Link>
           )}
         </div>
       </div>
