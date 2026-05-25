@@ -814,9 +814,9 @@
     "lng": 139.7716,
     "image": {
       "src": "/images/spots/kaiyodo-hobby-lobby-tokyo.jpg",
-      "alt": "海洋堂ホビーロビー東京の外観",
-      "sourceLabel": "",
-      "sourceUrl": ""
+      "alt": "夜の秋葉原ラジオ会館ショッピングビル",
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan_Shopping_Building_(53416976349).jpg"
     },
     "en": {
       "name": "Kaiyodo Hobby Lobby Tokyo",
@@ -835,7 +835,7 @@
     "id": 26,
     "name": "Cafe ASAN",
     "slug": "cafe-asan",
-    "category": "カフェ・グルメ",
+    "category": "グルメ・カフェ",
     "description": "2k540 AKI-OKA ARTISAN内にあるカフェ。ふわふわのスフレパンケーキが名物。ハンモック席など個性的な内装で、ゆったりとしたランチ・スイーツ時間を過ごせる。コラボカフェイベントも定期開催。",
     "address": "東京都台東区上野5-9-9 2k540内",
     "access": "JR秋葉原駅 中央口 徒歩10分 / 東京メトロ銀座線 末広町駅2番出口 徒歩3分",
@@ -847,9 +847,9 @@
     "lng": 139.7739,
     "image": {
       "src": "/images/spots/cafe-asan.jpg",
-      "alt": "Cafe ASANの外観",
-      "sourceLabel": "",
-      "sourceUrl": ""
+      "alt": "2k540 AKI-OKA ARTISANの内部",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2k540_AKI-OKA_ARTISAN_-_Tokyo_IMG_1220_(13002157613).jpg"
     },
     "en": {
       "name": "Cafe ASAN",
@@ -868,7 +868,7 @@
     "id": 27,
     "name": "Cafe Mai:lish",
     "slug": "cafe-mailish",
-    "category": "カフェ・グルメ",
+    "category": "グルメ・カフェ",
     "description": "2002年創業、秋葉原を代表する老舗メイド喫茶。外神田3丁目のビル2Fに入居。毎週末にコスプレイベントやコラボイベントを開催し、長年にわたりアキバ文化を牽引。",
     "address": "東京都千代田区外神田3-6-2 FH協和スクエア2F",
     "access": "JR秋葉原駅 電気街口 徒歩8分 / 東京メトロ銀座線 末広町駅3番出口 徒歩5分",
@@ -880,9 +880,9 @@
     "lng": 139.7705,
     "image": {
       "src": "/images/spots/cafe-mailish.jpg",
-      "alt": "Cafe Mai:lishの外観",
-      "sourceLabel": "",
-      "sourceUrl": ""
+      "alt": "秋葉原のメイドカフェへの階段",
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stairs_to_Maid_Cafe.jpg"
     },
     "en": {
       "name": "Cafe Mai:lish",

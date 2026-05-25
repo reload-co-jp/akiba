@@ -1,6 +1,6 @@
 import spotsData from "../data/spots.json"
 
-export type SpotCategory = "電気街・PCパーツ" | "アニメ・マンガ・同人" | "ゲーム・フィギュア" | "グルメ・カフェ"
+export type SpotCategory = "電気街・PCパーツ" | "アニメ・マンガ・同人" | "ゲーム・フィギュア" | "グルメ・カフェ" | "ショッピング" | "フィギュア・模型"
 
 export type SpotLocalizedContent = {
   name: string

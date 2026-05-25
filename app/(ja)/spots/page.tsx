@@ -21,7 +21,9 @@ const categoryOrder: SpotCategory[] = [
   "電気街・PCパーツ",
   "アニメ・マンガ・同人",
   "ゲーム・フィギュア",
+  "フィギュア・模型",
   "グルメ・カフェ",
+  "ショッピング",
 ]
 
 const Page = () => {
