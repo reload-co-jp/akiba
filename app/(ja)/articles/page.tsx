@@ -1,6 +1,7 @@
 import { Suspense } from "react"
 import { getAllArticles } from "lib/articles"
 import { ArticlesViewToggle } from "components/articles-view-toggle"
+import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 export const metadata = {
   title: "記事一覧",
@@ -8,7 +9,8 @@ export const metadata = {
   alternates: { canonical: "/articles/" },
   openGraph: {
     title: "記事一覧 | アキバLive",
-    description: "アキバLiveの記事一覧です。秋葉原のエンタメ情報をお届けします。",
+    description:
+      "アキバLiveの記事一覧です。秋葉原のエンタメ情報をお届けします。",
     url: "/articles/",
     type: "website",
   },
@@ -28,6 +30,7 @@ const Page = () => {
       <Suspense fallback={null}>
         <ArticlesViewToggle articles={articles} />
       </Suspense>
+      <AdsenseFluidAd />
     </section>
   )
 }

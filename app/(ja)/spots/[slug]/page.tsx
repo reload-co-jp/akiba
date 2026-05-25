@@ -7,6 +7,7 @@ import {
   placeholderSpotImage,
 } from "lib/spots"
 import { absoluteUrl } from "lib/site"
+import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -260,6 +261,7 @@ const Page = async ({ params }: Props) => {
         <div className="article-content">
           <p>{spot.description}</p>
         </div>
+        <AdsenseFluidAd />
 
         <div style={{ marginTop: "2rem", textAlign: "center" }}>
           <Link
