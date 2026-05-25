@@ -45,7 +45,7 @@ export const CalendarView = ({ events }: Props) => {
     .filter(
       (a) => a.event && a.event.startDate <= monthEnd && a.event.endDate >= monthStart,
     )
-    .sort((a, b) => a.event!.startDate.localeCompare(b.event!.startDate))
+    .sort((a, b) => b.event!.startDate.localeCompare(a.event!.startDate))
 
   function getEventsForDay(dayStr: string) {
     return monthEvents.filter(
