@@ -1,5 +1,139 @@
 [
   {
+    "id": 200,
+    "title": "ブラックサンダー初のハッカソン「ブラッカソン」が秋葉原で開催",
+    "slug": "blackathon-akihabara-2026",
+    "summary": "有楽製菓のブラックサンダーが主催するエンジニア向けハッカソン「ブラッカソン」が、2026年6月6日・7日に東京・秋葉原で開催。参加費無料で、ブラックサンダー駆動開発を体感しながらチーム開発に挑む。",
+    "content": "## 概要\n\n有楽製菓のブラックサンダーが主催するエンジニア向けハッカソン「ブラッカソン」が、2026年6月6日と7日に東京・秋葉原で開催されます。\n\nブラックサンダーを「パソコン作業のおとも」として提案する企画で、ブラックサンダー駆動開発（BTDD - Black Thunder Driven Development）を体感しながら、当日発表されるお題に沿ってチーム開発に取り組むイベントです。\n\n## 内容\n\n参加者は開発の合間にブラックサンダーを食べながら、技術力に加えて発想力や遊び心も評価されるハッカソンに挑みます。参加特典としてイベントオリジナルSWAGとブラックサンダー1箱（20本入り）が用意されています。\n\n優勝チームには賞金39万3939円とブラックサンダー約1年分（320本）を贈呈。審査員にはデイリーポータルZ編集長の林雄司氏、CodeZine編集長の近藤佑子氏、面白法人カヤックのゆうもや氏、有楽製菓代表取締役の河合辰信氏などが参加します。\n\nエントリーは2026年4月21日から5月12日までで、選考結果は5月19日に連絡予定。会場詳細は参加者に別途案内されます。\n\n## 開催情報\n\n- **会場**: 東京・秋葉原（詳細は参加者へ別途案内）\n- **期間**: 2026年6月6日〜6月7日\n- **内容**: エンジニア向けハッカソン、ブラックサンダー駆動開発、成果物発表・審査\n- **参加費**: 無料\n- **参加特典**: イベントオリジナルSWAG、ブラックサンダー1箱（20本入り）\n- **優勝賞品**: 賞金39万3939円、ブラックサンダー約1年分（320本）\n- **予約**: 必要。エントリー期間は2026年4月21日〜5月12日\n\n## こんな人におすすめ\n\n- 秋葉原で開催されるハッカソンに参加したいエンジニア\n- ブラックサンダーのユニークな技術系企画が気になる方\n- チーム開発や発明系イベントに挑戦したい方\n- CodeZineやデイリーポータルZ関連の審査員が参加するイベントを追っている方",
+    "publishedAt": "2026-05-26",
+    "en": {
+      "title": "[Akihabara] Black Thunder Hackathon \"Blackathon\" to Be Held in Akihabara",
+      "summary": "Yuraku Confectionery will hold \"Blackathon,\" an engineer-focused hackathon hosted by Black Thunder, in Akihabara on June 6 and 7, 2026. The free event invites teams to experience Black Thunder Driven Development while building around a theme announced on the day.",
+      "content": "## Overview\n\nYuraku Confectionery will hold \"Blackathon,\" an engineer-focused hackathon hosted by Black Thunder, in Akihabara on June 6 and 7, 2026.\n\nThe project positions Black Thunder as a snack companion for computer work. Participants will experience BTDD, or Black Thunder Driven Development, while working in teams on a theme announced on the day.\n\n## Highlights\n\nParticipants will eat Black Thunder between development sessions while competing in a hackathon that evaluates technical skill, creativity, and playfulness. Participation perks include original event SWAG and one box of Black Thunder containing 20 bars.\n\nThe winning team receives ¥393,939 in prize money plus roughly one year of Black Thunder, or 320 bars. Judges include Daily Portal Z editor-in-chief Yuji Hayashi, CodeZine editor-in-chief Yuko Kondo, Kayac creator Yumoya, and Yuraku Confectionery president Tatsunobu Kawai.\n\nEntry runs from April 21 to May 12, 2026, with selection results planned for May 19. Venue details will be shared separately with participants.\n\n## Event Details\n\n- **Venue**: Akihabara, Tokyo (details shared separately with participants)\n- **Dates**: June 6-7, 2026\n- **Contents**: Engineer hackathon, Black Thunder Driven Development, project presentations and judging\n- **Admission**: Free\n- **Participant Perks**: Original event SWAG and one box of Black Thunder (20 bars)\n- **Winner Prize**: ¥393,939 and roughly one year of Black Thunder (320 bars)\n- **Reservation**: Required. Entry period runs from April 21 to May 12, 2026\n\n## Recommended For\n\n- Engineers who want to join a hackathon in Akihabara\n- Those interested in a playful tech event by Black Thunder\n- Those who want to try team development or invention-style events\n- Those following events with judges connected to CodeZine and Daily Portal Z"
+    },
+    "image": {
+      "src": "/images/articles/blackathon-akihabara-2026.jpg",
+      "alt": "ブラッカソンの告知ビジュアル",
+      "sourceLabel": "有楽製菓",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000312.000064626.html"
+    },
+    "sources": [
+      {
+        "label": "ブラッカソン 公式サイト",
+        "url": "https://www.yurakuseika.co.jp/blackathon/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000312.000064626.html"
+      },
+      {
+        "label": "connpass イベントページ",
+        "url": "https://connpass.com/event/390591/"
+      }
+    ],
+    "event": {
+      "venue": "東京・秋葉原",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-07",
+      "price": "無料",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      50,
+      60,
+      122,
+      207
+    ]
+  },
+  {
+    "id": 199,
+    "title": "「第2回 次世代 TCG ショップ カンファレンス」が秋葉原UDXで開催",
+    "slug": "next-generation-tcg-shop-conference-akihabara-udx-2026",
+    "summary": "リユース・トレカ業界向けの「第2回 次世代 TCG ショップ カンファレンス」が、2026年6月16日に秋葉原UDX SPACEで開催。トップ企業の登壇、店舗運営ノウハウ共有、懇親会を予定する。",
+    "content": "## 概要\n\nリユース・トレカ業界向けのオフラインイベント「第2回 次世代 TCG ショップ カンファレンス ―現場×仕組みのリアル講座―」が、2026年6月16日に秋葉原UDX SPACEで開催されます。\n\n主催はリユース業態・トレカショップ向けクラウドPOS「MOOV」を展開する株式会社コモンプロダクツ。トレカ店、ホビー店、メーカー、卸売業者、メディア関係者、店舗運営担当者などを対象にした業界カンファレンスです。\n\n## 内容\n\nイベントでは、リユース経済新聞社による市場トレンド予測、トップ企業によるゲストトーク、MOOV製品の最新情報などを予定しています。\n\n登壇者には、リユース経済新聞社の瀬川淳司氏、テイツーの荒金祥行氏、一休さんの金田健嗣氏、GIRAFULLの重走一樹氏、コモンプロダクツの中島裕介氏・華野浩司氏が案内されています。\n\nセミナー本編後にはトレカ業界の懇親会も予定。セミナー参加は無料で、懇親会は別途5,000円。定員は100名限定で、特設ページの申込フォームから参加申し込みを受け付けます。\n\n## 開催情報\n\n- **会場**: 秋葉原UDX SPACE カンファレンス A+B\n- **住所**: 東京都千代田区外神田4-14-1 秋葉原UDX 6F\n- **日程**: 2026年6月16日\n- **時間**: 15:00〜20:00（セミナー本編15:00〜18:00、懇親会18:00〜20:00予定）\n- **内容**: 市場トレンド予測、ゲストトークセッション、MOOV製品情報、懇親会\n- **定員**: 100名\n- **料金**: セミナー参加無料、懇親会は5,000円\n- **予約**: 特設ページから申込が必要\n\n## こんな人におすすめ\n\n- トレカショップやホビー店の運営に関わる方\n- リユース・トレカ市場の動向を知りたい方\n- 多店舗展開や店舗DXの実例を聞きたい事業者\n- 秋葉原UDXで開催される業界向けカンファレンスを探している方",
+    "publishedAt": "2026-05-26",
+    "en": {
+      "title": "[Akihabara] 2nd Next-Generation TCG Shop Conference at Akihabara UDX",
+      "summary": "The 2nd Next-Generation TCG Shop Conference for the reuse and trading-card industry will be held at Akihabara UDX SPACE on June 16, 2026. The program includes talks by leading companies, store-management know-how, and a networking session.",
+      "content": "## Overview\n\nThe offline event \"2nd Next-Generation TCG Shop Conference: Real Lessons from Operations and Systems\" will be held at Akihabara UDX SPACE on June 16, 2026.\n\nThe event is organized by Common Products, the company behind MOOV, a cloud POS service for reuse businesses and trading-card shops. It targets TCG shops, hobby shops, manufacturers, wholesalers, media, and store-operations staff.\n\n## Highlights\n\nThe program is set to include market trend forecasts from the Reuse Business Journal, guest talks by leading companies, and the latest information about MOOV products.\n\nSpeakers listed include Junji Segawa of the Reuse Business Journal, Yoshiyuki Arakane of Tay Two, Kenji Kaneda of Ikkyusan, Kazuki Shigehashi of GIRAFULL, and Yusuke Nakajima and Koji Kano of Common Products.\n\nA networking session for the TCG industry is planned after the seminar. Seminar participation is free, while the networking session costs ¥5,000. Capacity is limited to 100 people, with applications accepted through the special event page.\n\n## Event Details\n\n- **Venue**: Akihabara UDX SPACE Conference A+B\n- **Address**: Akihabara UDX 6F, 4-14-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: June 16, 2026\n- **Time**: 15:00-20:00 (seminar 15:00-18:00; networking planned 18:00-20:00)\n- **Contents**: Market trend forecast, guest talk session, MOOV product information, networking\n- **Capacity**: 100 people\n- **Admission**: Seminar free; networking session ¥5,000\n- **Reservation**: Required through the special event page\n\n## Recommended For\n\n- Those involved in running TCG or hobby shops\n- Those following trends in the reuse and trading-card market\n- Businesses seeking examples of multi-store operations or store DX\n- Those looking for industry conferences at Akihabara UDX"
+    },
+    "image": {
+      "src": "/images/articles/next-generation-tcg-shop-conference-akihabara-udx-2026.jpg",
+      "alt": "第2回 次世代 TCG ショップ カンファレンスの告知ビジュアル",
+      "sourceLabel": "株式会社コモンプロダクツ",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000010.000109608.html"
+    },
+    "sources": [
+      {
+        "label": "MOOV 特設ページ",
+        "url": "https://www.moov.jp/seminer-202606-tcg-conference/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000010.000109608.html"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原UDX SPACE カンファレンス A+B",
+      "startDate": "2026-06-16",
+      "endDate": "2026-06-16",
+      "price": "セミナー参加無料、懇親会は5,000円",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      60,
+      100,
+      109,
+      207,
+      211
+    ]
+  },
+  {
+    "id": 198,
+    "title": "ドロップレット技術カンファレンス「DROPLET2026」が秋葉原UDXで開催",
+    "slug": "droplet2026-akihabara-udx",
+    "summary": "ドロップレット技術カンファレンス「DROPLET2026」が、2026年6月4日・5日に秋葉原UDXで開催。講演、32演題のポスターセッション、研究相談マッチング、新製品体験ブースなどを実施する。",
+    "content": "## 概要\n\nドロップレット技術にフォーカスした年次ユーザーカンファレンス「DROPLET2026 ～One Drop Makes The Difference～」が、2026年6月4日と5日に秋葉原UDXで開催されます。\n\n主催は株式会社オンチップ・バイオテクノロジーズ。第4回となる今回は、マイクロ流体・ドロップレット技術、シングルセル解析、微生物スクリーニング、進化分子工学などを扱う研究・技術カンファレンスです。\n\n## 内容\n\n1日目は基調講演や招待講演を中心に構成され、オンライン同時配信も予定されています。2日目は現地参加のみで、32演題のポスターセッション、研究相談マッチング、新製品体験ブース、フォトコンテストなどを実施します。\n\nポスターセッションでは、Water-in-oilドロップレットによる微生物・ファージのハイスループットスクリーニング、生分解性プラスチック分解微生物・酵素探索、無細胞タンパク質合成系とドロップレットを組み合わせた進化分子工学など、多様な研究トピックが紹介される予定です。\n\n聴講は無料で、意見交流会のみ1,000円。当日受付払いです。申込締切は2026年5月31日と案内されています。\n\n## 開催情報\n\n- **会場**: 秋葉原UDX 6F Room A,B,C\n- **住所**: 東京都千代田区外神田4-14-1\n- **期間**: 2026年6月4日〜6月5日\n- **時間**: 10:00〜17:00（開場9:30）\n- **内容**: 講演、ポスターセッション、研究相談マッチング、新製品体験ブース、フォトコンテスト\n- **配信**: 1日目のみオンライン同時配信あり、2日目は現地参加のみ\n- **料金**: 聴講無料、意見交流会のみ1,000円\n- **予約**: 公式サイトから申込が必要。申込締切は2026年5月31日\n\n## こんな人におすすめ\n\n- ドロップレット技術やマイクロ流体技術を研究・活用している方\n- シングルセル解析や微生物スクリーニングに関心がある方\n- バイオものづくりや進化分子工学の最新事例を知りたい方\n- 秋葉原UDXで開催される技術カンファレンスを探している方",
+    "publishedAt": "2026-05-26",
+    "en": {
+      "title": "[Akihabara] Droplet Technology Conference \"DROPLET2026\" at Akihabara UDX",
+      "summary": "The droplet technology conference DROPLET2026 will be held at Akihabara UDX on June 4 and 5, 2026. The event includes lectures, 32 poster presentations, research matching, product experience booths, and more.",
+      "content": "## Overview\n\nThe annual user conference \"DROPLET2026: One Drop Makes The Difference,\" focused on droplet technology, will be held at Akihabara UDX on June 4 and 5, 2026.\n\nThe event is organized by On-chip Biotechnologies. The fourth edition covers microfluidics and droplet technology, single-cell analysis, microbial screening, molecular evolution engineering, and related research and technology topics.\n\n## Highlights\n\nDay one centers on keynote and invited lectures, with online simultaneous streaming planned. Day two is on-site only and includes 32 poster presentations, research consultation matching, new product experience booths, and a photo contest.\n\nPoster topics are set to include high-throughput screening of microbes and phages using water-in-oil droplets, searches for biodegradable-plastic-degrading microbes and enzymes, and molecular evolution engineering combining cell-free protein synthesis systems with droplets.\n\nAttendance is free, with only the networking exchange session costing ¥1,000, payable at reception. The application deadline is listed as May 31, 2026.\n\n## Event Details\n\n- **Venue**: Akihabara UDX 6F Room A,B,C\n- **Address**: 4-14-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: June 4-5, 2026\n- **Hours**: 10:00-17:00 (doors open 9:30)\n- **Contents**: Lectures, poster session, research consultation matching, new product experience booths, photo contest\n- **Streaming**: Day one includes simultaneous online streaming; day two is on-site only\n- **Admission**: Free attendance; networking exchange session ¥1,000\n- **Reservation**: Required through the official site. Application deadline is May 31, 2026\n\n## Recommended For\n\n- Researchers and users working with droplet or microfluidic technologies\n- Those interested in single-cell analysis or microbial screening\n- Those following examples in bio-manufacturing and molecular evolution engineering\n- Those looking for technology conferences at Akihabara UDX"
+    },
+    "image": {
+      "src": "/images/articles/droplet2026-akihabara-udx.jpg",
+      "alt": "DROPLET2026の告知ビジュアル",
+      "sourceLabel": "オンチップ・バイオテクノロジーズ",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000015.000068897.html"
+    },
+    "sources": [
+      {
+        "label": "DROPLET2026 公式サイト",
+        "url": "https://event.on-chip.co.jp/droplet2026"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000015.000068897.html"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原UDX 6F Room A,B,C",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-05",
+      "price": "聴講無料、意見交流会のみ1,000円",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      60,
+      109,
+      207,
+      211
+    ]
+  },
+  {
     "id": 197,
     "title": "秋葉原でドロップインできるコワーキングスペース6選｜料金・特徴を比較",
     "slug": "coworking-space-akihabara-guide",
