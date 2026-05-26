@@ -268,3 +268,32 @@ export const formatMonth = (month: string): string => {
   const [year, m] = month.split("-")
   return `${year}年${parseInt(m)}月`
 }
+
+export const getEndingSoonEvents = (today: string, days = 3): Article[] => {
+  const limit = new Date(today)
+  limit.setDate(limit.getDate() + days)
+  const limitStr = limit.toISOString().slice(0, 10)
+  return getAllArticles().filter(
+    (a) => a.event && a.event.startDate <= today && a.event.endDate >= today && a.event.endDate <= limitStr,
+  )
+}
+
+export const getUpcomingThisWeekEvents = (today: string, days = 7): Article[] => {
+  const limit = new Date(today)
+  limit.setDate(limit.getDate() + days)
+  const limitStr = limit.toISOString().slice(0, 10)
+  return getAllArticles().filter(
+    (a) => a.event && a.event.startDate > today && a.event.startDate <= limitStr,
+  )
+}
+
+export const getTopVenues = (limit = 15): { venue: string; count: number }[] => {
+  const map = new Map<string, number>()
+  for (const a of getAllArticles()) {
+    if (a.event) map.set(a.event.venue, (map.get(a.event.venue) ?? 0) + 1)
+  }
+  return Array.from(map.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([venue, count]) => ({ venue, count }))
+}
