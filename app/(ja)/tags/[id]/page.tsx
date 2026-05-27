@@ -31,6 +31,13 @@ export const generateMetadata = async ({ params }: Props) => {
       description: `秋葉原の${tag.name}に関するエンタメニュース一覧`,
       url: `/tags/${id}/`,
       type: "website",
+      images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `「${tag.name}」の記事一覧 | アキバLive`,
+      description: `秋葉原の${tag.name}に関するエンタメニュース一覧`,
+      images: ["/images/hero.jpg"],
     },
   }
 }
@@ -52,11 +59,29 @@ const Page = async ({ params }: Props) => {
     ],
   }
 
+  const itemListLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `秋葉原 ${tag.name} 記事一覧`,
+    url: tagUrl,
+    numberOfItems: articles.length,
+    itemListElement: articles.map((article, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: article.title,
+      url: absoluteUrl(`/articles/${article.slug}/`),
+    })),
+  }
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
       />
       <section className="home-articles">
         <nav aria-label="パンくずリスト" className="breadcrumb">

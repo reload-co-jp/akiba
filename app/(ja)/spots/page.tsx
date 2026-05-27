@@ -14,6 +14,13 @@ export const metadata = {
       "秋葉原の観光スポット一覧。電気街・アニメ・ゲーム・グルメなどカテゴリ別に紹介します。",
     url: "/spots/",
     type: "website",
+    images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "観光スポット | アキバLive",
+    description: "秋葉原の観光スポット一覧。電気街・アニメ・ゲーム・グルメなどカテゴリ別に紹介します。",
+    images: ["/images/hero.jpg"],
   },
 }
 

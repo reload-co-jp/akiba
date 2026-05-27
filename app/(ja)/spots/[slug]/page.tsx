@@ -21,12 +21,13 @@ export const generateMetadata = async ({ params }: Props) => {
   const spot = getSpotBySlug(slug)
   if (!spot) return {}
   const image = getSpotImage(spot)
+  const seoTitle = `【秋葉原】${spot.name}`
   return {
-    title: spot.name,
+    title: seoTitle,
     description: spot.description,
     alternates: { canonical: `/spots/${slug}/` },
     openGraph: {
-      title: spot.name,
+      title: seoTitle,
       description: spot.description,
       url: `/spots/${slug}/`,
       images: [{ url: image.src, alt: image.alt }],
@@ -34,7 +35,7 @@ export const generateMetadata = async ({ params }: Props) => {
     },
     twitter: {
       card: "summary_large_image",
-      title: spot.name,
+      title: seoTitle,
       description: spot.description,
       images: [image.src],
     },
