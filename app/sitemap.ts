@@ -1,9 +1,11 @@
 import type { MetadataRoute } from "next"
 import {
   getAllArticles,
+  getAllAuthors,
   getAllMonths,
   getAllTags,
   getArticlePublishedDate,
+  getArticlesByAuthorId,
   getArticlesByMonth,
   getArticlesByTagId,
 } from "lib/articles"
@@ -95,6 +97,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ...(tagLatest ? { lastModified: tagLatest } : {}),
         changeFrequency: "weekly" as const,
         priority: 0.6,
+      }
+    }),
+    ...getAllAuthors().map((author) => {
+      const authorArticles = getArticlesByAuthorId(author.id)
+      const authorLatest =
+        authorArticles.length > 0
+          ? new Date(Math.max(...authorArticles.map((a) => getArticlePublishedDate(a).getTime())))
+          : undefined
+      return {
+        url: absoluteUrl(`/authors/${author.id}/`),
+        ...(authorLatest ? { lastModified: authorLatest } : {}),
+        changeFrequency: "weekly" as const,
+        priority: 0.7,
       }
     }),
   ]

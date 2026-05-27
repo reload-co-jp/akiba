@@ -2,6 +2,7 @@ import Link from "next/link"
 import { HomeArticlesFilter } from "components/home-articles-filter"
 import { getAllArticles } from "lib/articles"
 import { CalendarView } from "./events/calendar/calendar-view"
+import { absoluteUrl } from "lib/site"
 
 export const metadata = {
   title: "アキバLive",
@@ -14,14 +15,39 @@ export const metadata = {
       "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
     url: "/",
     type: "website",
+    images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "アキバLive",
+    description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+    images: ["/images/hero.jpg"],
   },
 }
 
 const Page = () => {
   const articles = getAllArticles()
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "秋葉原 最新エンタメニュース",
+    url: absoluteUrl("/"),
+    numberOfItems: articles.slice(0, 20).length,
+    itemListElement: articles.slice(0, 20).map((article, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: article.title,
+      url: absoluteUrl(`/articles/${article.slug}/`),
+    })),
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="home-hero">
         <div className="home-hero__content">
           <p className="home-hero__kicker">Akihabara journal</p>

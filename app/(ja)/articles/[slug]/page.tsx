@@ -321,7 +321,9 @@ const Page = async ({ params }: Props) => {
           }}
         >
           <span>執筆: </span>
-          <span style={{ color: "#24312f", fontWeight: "500" }}>{author.name}</span>
+          <Link href={`/authors/${article.authorId}/`} style={{ color: "#24312f", fontWeight: "500" }}>
+            {author.name}
+          </Link>
         </div>
       )}
 

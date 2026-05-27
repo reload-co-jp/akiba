@@ -240,6 +240,10 @@ export const getArticlesByTagId = (id: number): Article[] => {
   return getAllArticles().filter((a) => a.tagIds.includes(id))
 }
 
+export const getArticlesByAuthorId = (id: number): Article[] => {
+  return getAllArticles().filter((a) => a.authorId === id)
+}
+
 export type ArticleMonth = {
   month: string
   label: string
