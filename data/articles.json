@@ -1,5 +1,48 @@
 [
   {
+    "id": 207,
+    "title": "「光が死んだ夏」9巻発売記念フェアがAKIHABARAゲーマーズ本店で開催",
+    "slug": "hikaru-ga-shinda-natsu-vol9-gamers-akihabara-2026",
+    "summary": "『光が死んだ夏』9巻発売記念フェアが、2026年5月下旬からAKIHABARAゲーマーズ本店などで開催。対象商品1冊購入ごとに、キャラスタンド全2種をランダムで1枚配布する。",
+    "content": "## 概要\n\n『光が死んだ夏』9巻発売記念フェアが、2026年5月下旬からAKIHABARAゲーマーズ本店などで開催されています。\n\nモクモクれん先生の角川コミックス・エース作品を対象にした購入特典フェアで、最新9巻発売にあわせて既刊も対象に含まれます。\n\n## 内容\n\n期間中、対象商品を1冊購入するごとに、特典として「キャラスタンド」全2種からランダムで1枚が配布されます。特典はなくなり次第終了で、在庫状況は店舗やオンラインショップごとに異なります。\n\n対象商品は、2026年6月4日発売予定の角川コミックス・エース『光が死んだ夏』9巻と、好評発売中の1巻から8巻です。ゲーマーズ公式ページでは、オンラインショップでの配布条件が異なる場合があると案内されています。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店\n- **住所**: 東京都千代田区外神田1-14-7\n- **期間**: 2026年5月下旬〜なくなり次第終了\n- **対象商品**: 角川コミックス・エース『光が死んだ夏』1巻〜9巻\n- **特典**: キャラスタンド全2種からランダム配布\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要。特典はなくなり次第終了\n\n## こんな人におすすめ\n\n- 『光が死んだ夏』9巻を購入予定の方\n- キャラスタンド特典を集めたい方\n- AKIHABARAゲーマーズ本店のコミック発売記念フェアを巡りたい方",
+    "publishedAt": "2026-05-27",
+    "en": {
+      "title": "[Akihabara] Hikaru ga Shinda Natsu Volume 9 Release Fair at AKIHABARA Gamers",
+      "summary": "A release fair for volume 9 of Hikaru ga Shinda Natsu is being held at AKIHABARA Gamers and other stores from late May 2026. Customers receive one random character stand from two designs for each eligible book purchased.",
+      "content": "## Overview\n\nA release fair for volume 9 of *Hikaru ga Shinda Natsu* is being held at AKIHABARA Gamers and other stores from late May 2026.\n\nThe purchase bonus campaign covers Mokumokuren's Kadokawa Comics Ace series, including both the new ninth volume and earlier volumes.\n\n## Highlights\n\nDuring the campaign, customers receive one random character stand from two designs for each eligible book purchased. Bonuses are available while supplies last, and stock may differ by store or online shop.\n\nEligible items include volume 9 of *Hikaru ga Shinda Natsu*, scheduled for release on June 4, 2026, as well as volumes 1 through 8. The official Gamers page notes that online shop distribution conditions may differ.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers\n- **Address**: 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: From late May 2026 while supplies last\n- **Eligible Items**: *Hikaru ga Shinda Natsu* volumes 1-9, Kadokawa Comics Ace\n- **Bonus**: One random character stand from two designs\n- **Admission**: Free entry; merchandise sold separately\n- **Reservation**: Not required. Bonuses are available while supplies last\n\n## Recommended For\n\n- Readers planning to buy volume 9 of *Hikaru ga Shinda Natsu*\n- Collectors looking for the character stand bonus\n- Visitors checking comic release fairs at AKIHABARA Gamers"
+    },
+    "image": {
+      "src": "/images/articles/hikaru-ga-shinda-natsu-vol9-gamers-akihabara-2026.jpg",
+      "alt": "光が死んだ夏 9巻発売記念フェアの告知ビジュアル",
+      "sourceLabel": "ゲーマーズ 公式ページ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7547"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式ページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7547"
+      },
+      {
+        "label": "ゲーマーズ イベント・フェア一覧",
+        "url": "https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&store=5"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-05-21",
+      "endDate": "2026-06-30",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      29,
+      57,
+      64,
+      207
+    ]
+  },
+  {
     "id": 206,
     "title": "秋葉原駅から歩く歴史散歩｜神田明神・湯島聖堂・旧万世橋駅跡を訪ねる",
     "slug": "akihabara-historical-walk-guide",
