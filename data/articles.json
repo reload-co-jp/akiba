@@ -1,5 +1,47 @@
 [
   {
+    "id": 214,
+    "title": "TVアニメ『少女終末旅行』POP UP SHOPがAKIBAカルチャーズZONEで開催",
+    "slug": "girls-last-tour-popup-culpop-akihabara-2026",
+    "summary": "TVアニメ『少女終末旅行』POP UP SHOPが、2026年6月12日から6月28日までAKIBAカルチャーズZONE 4階 カルポップで開催。カーテン魂による期間限定ショップとして、描き下ろしビジュアルを使ったグッズ展開が予定されている。",
+    "content": "## 概要\n\nTVアニメ『少女終末旅行』POP UP SHOPが、2026年6月12日から6月28日までAKIBAカルチャーズZONE 4階 カルポップで開催されます。\n\nカーテン魂のイベント一覧で、開催日と会場が告知されている期間限定ショップです。特設ページではメインビジュアルが公開され、イベント詳細は後日発表予定と案内されています。\n\n## 内容\n\n会場は秋葉原のAKIBAカルチャーズZONE 4階 カルポップ。カーテン魂の特設ページでは『少女終末旅行』POP UP SHOPとして告知され、チトとユーリを描いたビジュアルが掲載されています。\n\n現時点で詳細な商品ラインナップは未発表ですが、カーテン魂のイベント情報ではポップアップショップとして開催が案内されています。来場前に公式特設ページで続報を確認しておくと安心です。\n\n## 開催情報\n\n- **会場**: AKIBAカルチャーズZONE 4階 カルポップ\n- **住所**: 東京都千代田区外神田1-7-6\n- **期間**: 2026年6月12日〜6月28日\n- **内容**: TVアニメ『少女終末旅行』の期間限定POP UP SHOP\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『少女終末旅行』の新作グッズ情報を追っている方\n- AKIBAカルチャーズZONEのアニメ系ポップアップを巡りたい方\n- カーテン魂の描き下ろしビジュアル商品をチェックしたい方",
+    "publishedAt": "2026-05-28",
+    "en": {
+      "title": "[Akihabara] Girls' Last Tour POP UP SHOP at AKIBA Cultures Zone",
+      "summary": "A Girls' Last Tour POP UP SHOP will run at CulPop on the 4th floor of AKIBA Cultures Zone from June 12 to June 28, 2026. The limited-time shop by Curtain Damashii is expected to feature goods using a newly drawn visual.",
+      "content": "## Overview\n\nA Girls' Last Tour POP UP SHOP will be held at CulPop on the 4th floor of AKIBA Cultures Zone from June 12 to June 28, 2026.\n\nCurtain Damashii lists the dates and venue on its event information page. The special page shows the main visual and notes that further event details will be announced later.\n\n## Highlights\n\nThe venue is CulPop on the 4th floor of AKIBA Cultures Zone in Akihabara. Curtain Damashii's special page announces the shop as a Girls' Last Tour POP UP SHOP and shows a visual featuring Chito and Yuuri.\n\nDetailed merchandise information has not yet been announced, but Curtain Damashii's event page confirms it as a pop-up shop. Check the official special page before visiting for updates.\n\n## Event Details\n\n- **Venue**: AKIBA Cultures Zone 4th Floor CulPop\n- **Address**: 1-7-6 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: June 12-28, 2026\n- **Contents**: Limited-time POP UP SHOP for the TV anime Girls' Last Tour\n- **Admission**: Free entry; merchandise sold separately\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans following new Girls' Last Tour merchandise\n- Visitors touring anime pop-up shops at AKIBA Cultures Zone\n- Those interested in Curtain Damashii goods using newly drawn visuals"
+    },
+    "image": {
+      "src": "/images/articles/girls-last-tour-popup-culpop-akihabara-2026.jpg",
+      "alt": "TVアニメ『少女終末旅行』POP UP SHOPの告知ビジュアル",
+      "sourceLabel": "カーテン魂 特設ページ",
+      "sourceUrl": "https://www.curtain-damashii.com/event/girlslasttour2026/"
+    },
+    "sources": [
+      {
+        "label": "カーテン魂 特設ページ",
+        "url": "https://www.curtain-damashii.com/event/girlslasttour2026/"
+      },
+      {
+        "label": "カーテン魂 イベント情報",
+        "url": "https://www.curtain-damashii.com/"
+      }
+    ],
+    "event": {
+      "venue": "AKIBAカルチャーズZONE 4階 カルポップ",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-28",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      47,
+      59,
+      129
+    ]
+  },
+  {
     "id": 213,
     "title": "「アイドルマスター ミリオンライブ！シアターデイズ×アトレ秋葉原」が開催決定",
     "slug": "million-live-theater-days-atre-akihabara-2026",
