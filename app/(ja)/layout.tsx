@@ -142,6 +142,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
               </Link>
               <nav className="site-header__nav" aria-label="主要ナビゲーション">
                 <Link href="/articles/">新着記事</Link>
+                <Link href="/events/today/">今日のイベント</Link>
                 <Link href="/events/">開催中</Link>
                 <Link href="/about/">このサイトについて</Link>
               </nav>
@@ -159,6 +160,8 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                 >
                   運営会社
                 </a>
+                {" / "}
+                <Link href="/events/today/">今日のイベント</Link>
                 {" / "}
                 <Link href="/articles/month/">月別</Link>
                 {" / "}

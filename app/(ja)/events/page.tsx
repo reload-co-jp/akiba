@@ -3,12 +3,12 @@ import { EventsMap } from "components/events-map"
 import { getArticleImage, getOngoingEvents, getTagById } from "lib/articles"
 
 export const metadata = {
-  title: "開催中のイベント",
-  description: "秋葉原で現在開催中のイベント一覧",
+  title: "秋葉原の開催中イベント一覧｜アニメ・ゲーム・コラボカフェ・POPUP",
+  description: "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
   alternates: { canonical: "/events/" },
   openGraph: {
-    title: "開催中のイベント | アキバLive",
-    description: "秋葉原で現在開催中のイベント一覧",
+    title: "秋葉原の開催中イベント一覧｜アニメ・ゲーム・コラボカフェ・POPUP",
+    description: "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
     url: "/events/",
     type: "website",
   },
@@ -25,9 +25,10 @@ const Page = () => {
         <h1 className="events-page__title">
           開催中のイベント
         </h1>
-        <p className="cal__subtitle">
-          <Link href="/events/calendar/">イベントカレンダーで見る</Link>
-        </p>
+        <div className="cal__subtitle-row">
+          <Link href="/events/today/" className="cal__today-btn">今日のイベントを見る →</Link>
+          <Link href="/events/calendar/" className="cal__subtitle-link">イベントカレンダーで見る</Link>
+        </div>
       </div>
 
       {events.length === 0 ? (

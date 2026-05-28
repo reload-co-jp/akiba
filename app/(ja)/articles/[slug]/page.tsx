@@ -275,6 +275,11 @@ const Page = async ({ params }: Props) => {
             <dt style={{ color: "#8a6f63" }}>予約</dt>
             <dd style={{ color: "#24312f", margin: 0 }}>{article.event.reservation ? "要予約" : "不要"}</dd>
           </dl>
+          <p style={{ margin: ".75rem 0 0", fontSize: ".8125rem" }}>
+            <Link href="/events/today/" style={{ color: "#3f5851" }}>
+              → 今日開催の秋葉原イベント一覧を見る
+            </Link>
+          </p>
         </div>
       )}
 
