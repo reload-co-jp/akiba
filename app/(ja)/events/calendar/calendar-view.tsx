@@ -96,9 +96,10 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
       <div className="events-page__header">
         <p className="events-page__kicker">Event Calendar</p>
         <h1 className="events-page__title">イベントカレンダー</h1>
-        <p className="cal__subtitle">
-          <Link href="/events/">開催中のイベント一覧</Link>
-        </p>
+        <div className="cal__subtitle-row">
+          <Link href="/events/today/" className="cal__today-btn">今日のイベントを見る →</Link>
+          <Link href="/events/" className="cal__subtitle-link">開催中のイベント一覧</Link>
+        </div>
       </div>
 
       <div className="cal">

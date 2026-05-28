@@ -1171,13 +1171,32 @@ body {
 
 /* Calendar */
 
-.cal__subtitle {
-  font-size: 0.8125rem;
-  margin-top: 0.5rem;
+.cal__subtitle-row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
 }
 
-.cal__subtitle a {
+.cal__today-btn {
+  background: #3f5851;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.375rem 0.875rem;
+  text-decoration: none;
+}
+
+.cal__today-btn:hover {
+  background: #2e4139;
+}
+
+.cal__subtitle-link {
   color: #3f5851;
+  font-size: 0.8125rem;
+  text-decoration: underline;
 }
 
 .cal {
