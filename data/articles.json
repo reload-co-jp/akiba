@@ -1,5 +1,58 @@
 [
   {
+    "id": 217,
+    "title": "『TRIGUN STARGAZE』POP UP SHOPがあみあみ秋葉原で開催",
+    "slug": "trigun-stargaze-popup-amiami-akihabara-2026",
+    "summary": "『TRIGUN STARGAZE POP UP SHOP in AmiAmi』が、2026年6月5日から6月21日まであみあみ秋葉原フィギュアタワー店で開催。場面写や描き起こしミニキャライラストを使ったグッズ販売、購入特典の配布を行う。",
+    "content": "## 概要\n\n『TRIGUN STARGAZE POP UP SHOP in AmiAmi』が、2026年6月5日から6月21日まであみあみ秋葉原フィギュアタワー店で開催されます。\n\n会場は8Fイベントスペース。アニメ公式サイトでも、POP UP SHOPの開催期間と開催場所が案内されています。\n\n## 内容\n\nイベントでは、作中の場面写を使用したグッズや、描き起こしミニキャラ「プレイバック」シリーズのグッズを販売します。\n\nラインナップには「トレーディングキラキラカード」「ズームインアクリルスタンド」「キャラバッジコレクション -プレイバック-」などが案内されています。\n\n対象商品を税込3,300円購入するごとに、購入特典として「オリジナルポストカード」全6種からランダムで1枚を配布します。\n\n## 開催情報\n\n- **会場**: あみあみ秋葉原フィギュアタワー店 8F イベントスペース\n- **住所**: 東京都千代田区外神田1-15-3\n- **期間**: 2026年6月5日〜6月21日\n- **内容**: 『TRIGUN STARGAZE』グッズ販売、購入特典配布\n- **特典条件**: 対象商品3,300円（税込）購入ごとにオリジナルポストカード全6種からランダムで1枚配布\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『TRIGUN STARGAZE』の新作グッズを秋葉原でチェックしたい方\n- あみあみ秋葉原フィギュアタワー店の期間限定ショップを巡りたい方\n- 描き起こしミニキャラ「プレイバック」シリーズのグッズを集めたい方",
+    "publishedAt": "2026-05-29",
+    "en": {
+      "title": "[Akihabara] TRIGUN STARGAZE POP UP SHOP at AmiAmi Akihabara",
+      "summary": "TRIGUN STARGAZE POP UP SHOP in AmiAmi will be held at AmiAmi Akihabara Figure Tower from June 5 to June 21, 2026. The shop sells goods using scene stills and newly drawn mini-character artwork, with a purchase bonus postcard campaign.",
+      "content": "## Overview\n\nTRIGUN STARGAZE POP UP SHOP in AmiAmi will be held at AmiAmi Akihabara Figure Tower from June 5 to June 21, 2026.\n\nThe venue is the 8th-floor event space. The official anime site also lists the pop-up shop dates and venue.\n\n## Highlights\n\nThe shop sells merchandise using scene stills from the anime and newly drawn mini-character artwork from the Playback series.\n\nItems listed include trading glitter cards, zoom-in acrylic stands, and Character Badge Collection - Playback - goods.\n\nFor every 3,300 yen including tax spent on eligible items, shoppers receive one random original postcard from six designs.\n\n## Event Details\n\n- **Venue**: AmiAmi Akihabara Figure Tower, 8F event space\n- **Address**: 1-15-3 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: June 5-21, 2026\n- **Contents**: TRIGUN STARGAZE merchandise sales and purchase bonus distribution\n- **Bonus condition**: One random original postcard from six designs for every 3,300 yen including tax spent on eligible items\n- **Admission**: Free entry; merchandise sold separately\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans who want to check TRIGUN STARGAZE goods in Akihabara\n- Visitors touring limited-time shops at AmiAmi Akihabara Figure Tower\n- Collectors interested in the newly drawn mini-character Playback series"
+    },
+    "image": {
+      "src": "/images/articles/trigun-stargaze-popup-amiami-akihabara-2026.jpeg",
+      "alt": "『TRIGUN STARGAZE POP UP SHOP in AmiAmi』の告知ビジュアル",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/"
+    },
+    "sources": [
+      {
+        "label": "アニメ『TRIGUN STARGAZE』公式NEWS",
+        "url": "https://trigun-anime.com/news/?p=1039"
+      },
+      {
+        "label": "あみあみ 特設ページ",
+        "url": "https://realstore.amiami.jp/event/trigunstargaze_260605.html"
+      },
+      {
+        "label": "コラボカフェ 記事",
+        "url": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/"
+      },
+      {
+        "label": "コラボカフェ 秋葉原タグ",
+        "url": "https://collabo-cafe.com/events/tag/akihabara/"
+      }
+    ],
+    "event": {
+      "venue": "あみあみ秋葉原フィギュアタワー店",
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-21",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      17,
+      33,
+      47,
+      50,
+      88,
+      196
+    ]
+  },
+  {
     "id": 216,
     "title": "『僕は友達が少ない』POP UPショップがメロンブックス秋葉原1号店で開催",
     "slug": "haganai-popup-melonbooks-akihabara-2026",
