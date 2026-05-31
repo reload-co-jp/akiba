@@ -1,5 +1,52 @@
 [
   {
+    "id": 226,
+    "title": "書泉ブックタワー×秀和システム「初夏の入門書フェア」が開催",
+    "slug": "shosen-shuwasystem-early-summer-books-fair-2026",
+    "summary": "書泉ブックタワー×秀和システム「はじめてでも安心 初夏の入門書フェア」が、2026年5月11日から6月10日まで書泉ブックタワー3階特設コーナーで開催。生成AI、C言語、Java、Python、SAP、SNS、イラスト技法などの入門書を展開する。",
+    "content": "## 概要\n\n書泉ブックタワー×秀和システム「はじめてでも安心 初夏の入門書フェア」が、2026年5月11日から6月10日まで秋葉原の書泉ブックタワーで開催されます。\n\n会場は書泉ブックタワー3階の上りエスカレータ側特設コーナーです。\n\n## 内容\n\nフェアでは、はじめて学ぶ人向けの入門書を中心に展開。生成AI関連書、C言語、Java、Python、SAPの入門書に加え、LINE、note、SNSの活用書、イラスト技法書などが紹介されています。\n\nプログラミングやIT、クリエイティブ分野の学習を始めたい人が、店頭で実物を見ながら選べるフェアです。\n\n## 開催情報\n\n- **会場**: 書泉ブックタワー 3階 上りエスカレータ側特設コーナー\n- **住所**: 東京都千代田区神田佐久間町1-11-1\n- **期間**: 2026年5月11日〜6月10日\n- **内容**: 秀和システムの入門書フェア\n- **料金**: 商品購入に準ずる\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 生成AIやプログラミングの入門書を探している方\n- C言語、Java、Python、SAPを基礎から学びたい方\n- SNS活用やイラスト技法の本を秋葉原で見比べたい方",
+    "publishedAt": "2026-05-31",
+    "en": {
+      "title": "[Akihabara] Shosen Book Tower x Shuwa System Early Summer Introductory Books Fair",
+      "summary": "Shosen Book Tower and Shuwa System's Early Summer Introductory Books Fair runs from May 11 to June 10, 2026 at a special third-floor corner of Shosen Book Tower. The fair features beginner-friendly books on generative AI, C, Java, Python, SAP, social media, illustration techniques, and more.",
+      "content": "## Overview\n\nShosen Book Tower and Shuwa System's \"Early Summer Introductory Books Fair\" is being held at Shosen Book Tower in Akihabara from May 11 to June 10, 2026.\n\nThe venue is a special corner beside the upward escalator on the third floor of Shosen Book Tower.\n\n## Highlights\n\nThe fair focuses on introductory books for people starting something new. Featured categories include generative AI, C, Java, Python, SAP, LINE, note, social media, and illustration techniques.\n\nIt is a useful in-store fair for visitors who want to browse beginner-friendly IT, programming, and creative books in Akihabara.\n\n## Event Details\n\n- **Venue**: Shosen Book Tower, 3F special corner beside the upward escalator\n- **Address**: 1-11-1 Kanda Sakumacho, Chiyoda-ku, Tokyo\n- **Period**: May 11 to June 10, 2026\n- **Content**: Introductory books fair by Shuwa System\n- **Admission**: Based on product purchase\n- **Reservation**: Not required\n\n## Recommended For\n\n- Visitors looking for introductory books on generative AI or programming\n- Beginners who want to learn C, Java, Python, or SAP\n- Readers comparing books on social media use or illustration techniques in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/shosen-shuwasystem-early-summer-books-fair-2026.jpg",
+      "alt": "書泉ブックタワー×秀和システム 初夏の入門書フェアの告知ビジュアル",
+      "sourceLabel": "書泉 フェアページ",
+      "sourceUrl": "https://www.shosen.co.jp/fair/42583/"
+    },
+    "sources": [
+      {
+        "label": "書泉 フェアページ",
+        "url": "https://www.shosen.co.jp/fair/42583/"
+      },
+      {
+        "label": "書泉 イベント・フェア一覧",
+        "url": "https://www.shosen.co.jp/event/"
+      }
+    ],
+    "event": {
+      "venue": "書泉ブックタワー 3階 上りエスカレータ側特設コーナー",
+      "startDate": "2026-05-11",
+      "endDate": "2026-06-10",
+      "price": "商品購入に準ずる",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      50,
+      3,
+      114,
+      122,
+      192,
+      193,
+      194,
+      201
+    ]
+  },
+  {
     "id": 225,
     "title": "香水じゅん写真集『syndrome』発売記念イベントが書泉ブックタワーで開催",
     "slug": "kasui-jun-syndrome-shosen-booktower-2026",
