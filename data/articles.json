@@ -1,5 +1,92 @@
 [
   {
+    "id": 231,
+    "title": "「イキヅライブ！ LOVELIVE! BLUEBIRD」×ゲーマーズ3rdフェアが開催",
+    "slug": "ikizulive-love-live-bluebird-3rd-fair-gamers-2026",
+    "summary": "「イキヅライブ！ LOVELIVE! BLUEBIRD」×ゲーマーズ3rdフェア～どうだ！いきづらい部！～が、2026年6月9日から6月30日までゲーマーズ各店とオンラインショップで開催。関連オーディオ商品購入または関連グッズ購入でブロマイド特典を配布する。",
+    "content": "## 概要\n\n「イキヅライブ！ LOVELIVE! BLUEBIRD」×ゲーマーズ3rdフェア～どうだ！いきづらい部！～が、2026年6月9日から6月30日までゲーマーズ各店とゲーマーズオンラインショップで開催されます。\n\nAKIHABARAゲーマーズ本店も対象店舗に含まれる店頭フェアです。\n\n## 内容\n\n期間中、開催対象店舗でイキヅライブ！関連オーディオ商品を1点購入、または関連グッズを1,100円（税込）購入するごとに、特典としてブロマイド全10種からランダムで1枚が配布されます。\n\n特典は絵柄を選べず、なくなり次第終了です。オンラインくじ、カプセル筐体商品、一部TCGなどは特典付与対象外と案内されています。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店ほかゲーマーズ各店、ゲーマーズオンラインショップ\n- **住所**: 東京都千代田区外神田1-14-7 宝田中央通りビル\n- **期間**: 2026年6月9日〜6月30日\n- **内容**: 関連商品購入特典ブロマイド配布\n- **特典条件**: 関連オーディオ商品1点購入、または関連グッズ1,100円（税込）購入ごとにブロマイド1枚\n- **料金**: 商品購入に準ずる\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- イキヅライブ！ LOVELIVE! BLUEBIRDを追っている方\n- ゲーマーズのラブライブ！関連フェアを巡りたい方\n- ブロマイド特典付きの店頭キャンペーンをチェックしたい方",
+    "publishedAt": "2026-05-31",
+    "en": {
+      "title": "[Akihabara] Ikizulive! LOVELIVE! BLUEBIRD x Gamers 3rd Fair",
+      "summary": "The Ikizulive! LOVELIVE! BLUEBIRD x Gamers 3rd Fair runs from June 9 to June 30, 2026 at Gamers stores and the Gamers online shop. Customers receive random bromide bonuses with eligible audio or merchandise purchases.",
+      "content": "## Overview\n\nThe Ikizulive! LOVELIVE! BLUEBIRD x Gamers 3rd Fair will run from June 9 to June 30, 2026 at Gamers stores and the Gamers online shop.\n\nAKIHABARA Gamers is included as one of the participating stores.\n\n## Highlights\n\nDuring the fair, customers receive one random bromide from ten designs for each eligible Ikizulive! audio product purchased, or for every 1,100 yen including tax spent on related goods at participating stores.\n\nDesigns cannot be selected, and bonuses are available while supplies last. Online kuji, capsule machine items, some trading card goods, and other excluded items may not qualify.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers and other Gamers stores, plus the Gamers online shop\n- **Address**: Takara Chuo-dori Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: June 9-30, 2026\n- **Contents**: Bromide purchase bonus campaign for related products\n- **Bonus Condition**: One bromide per eligible audio product purchase or per 1,100 yen including tax spent on related goods\n- **Admission**: Based on product purchase\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans following Ikizulive! LOVELIVE! BLUEBIRD\n- Visitors checking Love Live-related fairs at Gamers\n- Collectors looking for in-store bromide bonus campaigns"
+    },
+    "image": {
+      "src": "/images/articles/ikizulive-love-live-bluebird-3rd-fair-gamers-2026.jpg",
+      "alt": "「イキヅライブ！ LOVELIVE! BLUEBIRD」×ゲーマーズ3rdフェアの告知ビジュアル",
+      "sourceLabel": "ゲーマーズ イベント・フェアページ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7591"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ イベント・フェアページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7591"
+      },
+      {
+        "label": "ゲーマーズ イベント・フェア一覧",
+        "url": "https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&store=90004"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-06-09",
+      "endDate": "2026-06-30",
+      "price": "商品購入に準ずる",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      50,
+      47,
+      72,
+      114
+    ]
+  },
+  {
+    "id": 230,
+    "title": "桃鈴ねね 1st Album「Peachful Story」発売記念キャンペーンがAKIHABARAゲーマーズ本店で開催",
+    "slug": "momosuzu-nene-peachful-story-gamers-akihabara-2026",
+    "summary": "桃鈴ねね 1st Album「Peachful Story」発売記念キャンペーンが、2026年7月7日からAKIHABARAゲーマーズ本店などで開催。店頭抽選会、応募抽選キャンペーン、メッセージコーナー、写真展、エレベーター装飾を展開する。",
+    "content": "## 概要\n\nホロライブ所属VTuber・桃鈴ねねさんの1st Album「Peachful Story」発売記念キャンペーンが、2026年7月7日からAKIHABARAゲーマーズ本店などで開催されます。\n\nAKIHABARAゲーマーズ本店では、店頭抽選会、応募抽選キャンペーン、メッセージコーナー、写真展、エレベーター装飾が展開されます。\n\n## 内容\n\n店頭抽選会は2026年7月7日から7月12日まで開催。対象商品を1点購入するごとに1回参加でき、直筆サイン入り告知ポスターや告知ポスターが景品として用意されています。\n\n応募抽選キャンペーンでは、対象商品購入者にシリアルコード付き応募券を配布。抽選で直筆サイン＆コメント入り色紙がプレゼントされます。応募券配布期間は7月7日から7月19日まで、応募締切は7月26日23:59です。\n\nAKIHABARAゲーマーズ本店では7月7日から7月12日まで写真展、7月6日から7月12日までエレベーター装飾も実施されます。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店\n- **住所**: 東京都千代田区外神田1-14-7 宝田中央通りビル\n- **主な期間**: 2026年7月7日〜7月19日\n- **店頭抽選会・写真展**: 2026年7月7日〜7月12日\n- **エレベーター装飾**: 2026年7月6日〜7月12日\n- **対象商品**: 桃鈴ねね 1st Album「Peachful Story」通常盤 3,300円（税込）\n- **内容**: 店頭抽選会、応募抽選、メッセージコーナー、写真展、エレベーター装飾\n- **料金**: 対象商品購入に準ずる\n- **予約**: 不要。抽選や応募は対象商品購入条件あり\n\n## こんな人におすすめ\n\n- 桃鈴ねねさんの1st Albumを購入予定の方\n- ホロライブの店頭キャンペーンを巡りたい方\n- AKIHABARAゲーマーズ本店の写真展や装飾企画をチェックしたい方",
+    "publishedAt": "2026-05-31",
+    "en": {
+      "title": "[Akihabara] Momosuzu Nene 1st Album Peachful Story Release Campaign at AKIHABARA Gamers",
+      "summary": "A release campaign for hololive VTuber Momosuzu Nene's 1st album Peachful Story starts at AKIHABARA Gamers and other stores on July 7, 2026. The campaign includes an in-store lottery, application lottery, message corner, photo exhibit, and elevator decorations.",
+      "content": "## Overview\n\nA release campaign for hololive VTuber Momosuzu Nene's 1st album Peachful Story will be held at AKIHABARA Gamers and other stores from July 7, 2026.\n\nAt AKIHABARA Gamers, the campaign includes an in-store lottery, application lottery, message corner, photo exhibit, and elevator decorations.\n\n## Highlights\n\nThe in-store lottery runs from July 7 to July 12, 2026. Customers can enter once per eligible product purchased, with prizes including signed announcement posters and announcement posters.\n\nThe application lottery distributes serial-code application tickets to eligible purchasers. Applicants can enter for a signed and commented shikishi board. Application tickets are distributed from July 7 to July 19, with the application deadline set for July 26 at 23:59.\n\nAKIHABARA Gamers will also hold a photo exhibit from July 7 to July 12 and elevator decorations from July 6 to July 12.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers\n- **Address**: Takara Chuo-dori Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Main Period**: July 7-19, 2026\n- **In-store Lottery and Photo Exhibit**: July 7-12, 2026\n- **Elevator Decorations**: July 6-12, 2026\n- **Eligible Product**: Momosuzu Nene 1st Album Peachful Story regular edition, ¥3,300 including tax\n- **Contents**: In-store lottery, application lottery, message corner, photo exhibit, elevator decorations\n- **Admission**: Based on eligible product purchase\n- **Reservation**: Not required; lotteries and applications require eligible purchase\n\n## Recommended For\n\n- Fans planning to buy Momosuzu Nene's 1st album\n- Visitors following hololive in-store campaigns\n- Visitors checking photo exhibits and decorations at AKIHABARA Gamers"
+    },
+    "image": {
+      "src": "/images/articles/momosuzu-nene-peachful-story-gamers-akihabara-2026.jpg",
+      "alt": "桃鈴ねね 1st Album「Peachful Story」発売記念キャンペーンの告知ビジュアル",
+      "sourceLabel": "ゲーマーズ イベント・フェアページ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7579"
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ イベント・フェアページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7579"
+      },
+      {
+        "label": "ゲーマーズ イベント・フェア一覧",
+        "url": "https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&store=90004"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-19",
+      "price": "対象商品購入に準ずる",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      50,
+      29,
+      63,
+      72,
+      114
+    ]
+  },
+  {
     "id": 229,
     "title": "「プロジェクトセカイ COLORFUL LIVE 5th - Frontier -」×ゲーマーズコラボキャンペーンが開催",
     "slug": "project-sekai-colorful-live-5th-gamers-akihabara-2026",
