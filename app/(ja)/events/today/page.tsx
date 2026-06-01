@@ -43,23 +43,53 @@ const FAQ_ITEMS = [
     q: "秋葉原の定番イベント会場を知りたい",
     a: "「よく使われる会場一覧」セクションに開催実績の多い会場を掲載しています。AKIHABARAゲーマーズ本店・書泉ブックタワー・ベルサール秋葉原・秋葉原UDXなどが主要会場です。",
   },
+  {
+    q: "秋葉原で今日開催されているアニメイベントは何ですか？",
+    a: "ページ内「カテゴリ別イベント」の「アニメ・漫画」タブから、本日開催中のアニメ・漫画関連イベントを絞り込んで確認できます。",
+  },
+  {
+    q: "今日の秋葉原でコラボカフェはやっていますか？",
+    a: "「カテゴリ別イベント」の「コラボカフェ」タブで本日開催中のコラボカフェを一覧表示できます。詳細ページで予約方法や料金も確認できます。",
+  },
+  {
+    q: "今日行ける秋葉原のポップアップショップを知りたい",
+    a: "「カテゴリ別イベント」の「ポップアップ・限定ショップ」タブから、本日開催中のポップアップストアや期間限定ショップを確認できます。",
+  },
+  {
+    q: "秋葉原イベントの開催情報はいつ更新されますか？",
+    a: "新しいイベント情報が入り次第、随時更新しています。開催期間・会場・料金を正確に掲載するよう努めていますが、変更の場合は各公式サイトをご確認ください。",
+  },
+  {
+    q: "今週末に秋葉原で開催されるイベントを調べたい",
+    a: "「今週開催予定のイベント」セクションか、「今週の秋葉原イベント」ページで週末のイベントをまとめて確認できます。",
+  },
+  {
+    q: "秋葉原イベントへのアクセス方法は？",
+    a: "秋葉原へはJR秋葉原駅・東京メトロ日比谷線秋葉原駅・つくばエクスプレス秋葉原駅が最寄りです。各イベント詳細ページに会場住所を掲載しています。",
+  },
 ]
 
 const fmtRange = (s: string, e: string) =>
   `${s.slice(5).replace("-", "/")} 〜 ${e.slice(5).replace("-", "/")}`
 
-export const metadata = {
-  title: "秋葉原のイベント情報【今日開催】アニメ・ゲーム・コラボカフェ・POPUPまとめ",
-  description:
-    "今日開催中の秋葉原イベントを一覧で紹介。アニメ、ゲーム、コラボカフェ、POPUP、ホビー、PC関連イベントを開催場所・期間・公式リンク付きで確認できます。",
-  alternates: { canonical: "/events/today/" },
-  openGraph: {
-    title: "秋葉原のイベント情報【今日開催】アニメ・ゲーム・コラボカフェ・POPUPまとめ",
-    description:
-      "今日開催中の秋葉原イベントを一覧で紹介。アニメ、ゲーム、コラボカフェ、POPUP、ホビー、PC関連イベントを開催場所・期間・公式リンク付きで確認できます。",
-    url: "/events/today/",
-    type: "website",
-  },
+export const generateMetadata = () => {
+  const today = new Date().toISOString().slice(0, 10)
+  const [year, month, day] = today.split("-")
+  const dateLabel = `${parseInt(month)}月${parseInt(day)}日`
+  const ongoingCount = getOngoingEvents(today).length
+  const title = `秋葉原イベント【${dateLabel}開催中${ongoingCount}件】アニメ・ゲーム・コラボカフェ・POPUPまとめ`
+  const description = `${dateLabel}に秋葉原で開催中のイベントを一覧で紹介。アニメ・漫画、ゲーム・トレカ、コラボカフェ、ポップアップストア、声優・アイドル、ホビー・フィギュアなど${ongoingCount}件を会場・期間・公式リンク付きで確認できます。AKIHABARAゲーマーズ・書泉ブックタワー・アトレ秋葉原など主要会場別にも絞り込み可能。`
+  return {
+    title,
+    description,
+    alternates: { canonical: "/events/today/" },
+    openGraph: {
+      title,
+      description,
+      url: "/events/today/",
+      type: "website",
+    },
+  }
 }
 
 const Page = () => {
@@ -94,6 +124,8 @@ const Page = () => {
     ],
   }
 
+  const firstImage = ongoingEvents[0] ? absoluteUrl(getArticleImage(ongoingEvents[0]).src) : undefined
+
   const collectionPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -106,6 +138,21 @@ const Page = () => {
     inLanguage: "ja",
     breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
     publisher: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+    ...(firstImage ? { image: firstImage } : {}),
+    about: {
+      "@type": "Place",
+      name: "秋葉原",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "秋葉原",
+        addressRegion: "東京都",
+        addressCountry: "JP",
+      },
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: [".today-lead", ".today-section__title"],
+    },
   }
 
   const eventJsonLds = ongoingEvents.slice(0, 10).map((a) => ({
@@ -118,12 +165,14 @@ const Page = () => {
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     url: absoluteUrl(`/articles/${a.slug}/`),
+    image: absoluteUrl(getArticleImage(a).src),
     location: {
       "@type": "Place",
       name: a.event!.venue,
       address: {
         "@type": "PostalAddress",
-        addressLocality: "秋葉原",
+        streetAddress: a.event!.venue,
+        addressLocality: "千代田区外神田",
         addressRegion: "東京都",
         addressCountry: "JP",
       },
@@ -180,8 +229,9 @@ const Page = () => {
         </header>
 
         <p className="today-lead">
-          秋葉原では毎日、アニメ・ゲーム・コラボカフェ・POPUPストアなど多彩なイベントが開催されています。
-          このページでは本日開催中のイベントを会場・カテゴリ別にまとめています。
+          秋葉原では毎日、アニメ・漫画、ゲーム・トレカ、コラボカフェ、ポップアップストア、声優・アイドルイベント、ホビー・フィギュアの展示販売など多彩なイベントが開催されています。
+          このページでは{todayLabel}に開催中のイベントを会場・カテゴリ別にまとめています。
+          AKIHABARAゲーマーズ本店・書泉ブックタワー・アニメイト秋葉原・ベルサール秋葉原・アトレ秋葉原など主要会場別に絞り込み可能。
           公式リンクと開催期間を確認して、おでかけの参考にしてください。
         </p>
 
