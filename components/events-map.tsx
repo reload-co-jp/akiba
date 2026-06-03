@@ -37,6 +37,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "秋葉原・損保会館": { lat: 35.6969, lng: 139.7685 },
   "秋葉原UDX": { lat: 35.7003, lng: 139.7726 },
   "秋葉原UDXシアター": { lat: 35.7001, lng: 139.7726 },
+  "ベルサール秋葉原": { lat: 35.7007, lng: 139.7717 },
   "神田明神ホール": { lat: 35.7017, lng: 139.7677 },
   "書泉ブックタワー": { lat: 35.6976, lng: 139.7745 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },
@@ -75,6 +76,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "ネコリパブリック 東京 お茶の水店": { lat: 35.7032, lng: 139.7688 },
   "モンハン酒場 東京・秋葉原": { lat: 35.6978, lng: 139.7714 },
   "BEEP秋葉原店": { lat: 35.7009, lng: 139.7712 },
+  "秋葉原撮影スタジオ『いろはにぼっくす』": { lat: 35.7016, lng: 139.7755 },
 }
 
 const broadVenuePatterns = ["全国", "対象10店舗", "各店"]
