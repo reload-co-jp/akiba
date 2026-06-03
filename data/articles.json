@@ -1,5 +1,57 @@
 [
   {
+    "id": 260,
+    "title": "『NTE』レクイエム実装記念イベントが秋葉原ダイビルで開催",
+    "slug": "nte-requiem-tomato-akihabara-daibiru-2026",
+    "summary": "『NTE: Neverness to Everness』の新キャラクター「レクイエム」実装を記念したスペシャルイベント「レクイエムのトマト100％休日」が、2026年6月6日・7日に秋葉原ダイビルイベントスペースで開催される。",
+    "content": "## 概要\n\n『NTE: Neverness to Everness』のVer.1.1「夢巡る回廊」配信と新キャラクター「レクイエム」実装を記念したスペシャルイベント「レクイエムのトマト100％休日」が、秋葉原で開催されます。\n\n会場は秋葉原ダイビルイベントスペース。開催日は2026年6月6日と7日の2日間です。\n\n## 内容\n\n4Gamerでは、公式XのフォローやSNSへの写真投稿などのミッションをクリアすると、限定ステッカーやプレゼントガチャに挑戦する権利などがもらえると紹介されています。\n\nPR TIMES配信記事では、会場に特別なフォトスポットを用意し、イベント限定ノベルティも展開すると案内されています。あわせて、秋葉原駅構内では「レクイエム」の広告掲出も行われています。\n\n## 開催情報\n\n- **会場**: 秋葉原ダイビルイベントスペース\n- **住所**: 東京都千代田区外神田1-18-13\n- **日程**: 2026年6月6日〜6月7日\n- **時間**: 6月6日 11:00〜19:00 / 6月7日 10:00〜18:00\n- **内容**: フォトスポット、ミッション企画、限定ノベルティ配布、プレゼントガチャなど\n- **料金**: 入場無料\n- **予約**: 不要。混雑時は整列や整理券配布の場合あり\n\n## こんな人におすすめ\n\n- 『NTE: Neverness to Everness』の新キャラクター「レクイエム」を追っている方\n- 秋葉原で開催されるゲーム系リアルイベントに参加したい方\n- フォトスポットや限定ノベルティをチェックしたい方",
+    "publishedAt": "2026-06-03",
+    "en": {
+      "title": "[Akihabara] 'NTE' Requiem Release Event at Akihabara Daibiru",
+      "summary": "A special event, 'Requiem's 100% Tomato Holiday,' celebrating the release of the new 'NTE: Neverness to Everness' character Requiem will be held at Akihabara Daibiru Event Space on June 6 and 7, 2026.",
+      "content": "## Overview\n\nA special event titled 'Requiem's 100% Tomato Holiday' will be held in Akihabara to celebrate Ver.1.1 'Dreaming Corridor' and the release of the new character Requiem in 'NTE: Neverness to Everness.'\n\nThe venue is Akihabara Daibiru Event Space. The event runs for two days on June 6 and 7, 2026.\n\n## Highlights\n\n4Gamer reports that visitors who complete missions such as following the official X account or posting photos on social media can receive limited stickers or earn chances to try a prize gacha.\n\nThe PR TIMES-distributed article says the venue will feature special photo spots and event-only novelty items. Requiem advertisements are also being displayed inside Akihabara Station.\n\n## Event Details\n\n- **Venue**: Akihabara Daibiru Event Space\n- **Address**: 1-18-13 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: June 6–7, 2026\n- **Hours**: June 6 11:00–19:00 / June 7 10:00–18:00\n- **Contents**: Photo spots, mission activities, limited novelty distribution, prize gacha, and more\n- **Admission**: Free\n- **Reservation**: Not required. Queues or numbered entry tickets may be used during crowded periods\n\n## Recommended For\n\n- Fans following the new 'NTE: Neverness to Everness' character Requiem\n- Visitors interested in game-related real-world events in Akihabara\n- Those who want to check photo spots and limited novelty items"
+    },
+    "image": {
+      "src": "/images/articles/nte-requiem-tomato-akihabara-daibiru-2026.jpg",
+      "alt": "NTE レクイエムのトマト100％休日の告知画像",
+      "sourceLabel": "PR TIMES / Inside Games",
+      "sourceUrl": "https://www.inside-games.jp/release/prtimes/20260603/289976.html"
+    },
+    "sources": [
+      {
+        "label": "NTE 公式X イベント告知",
+        "url": "https://x.com/NTE_JP/status/2060919207479718310"
+      },
+      {
+        "label": "4Gamer ニュース",
+        "url": "https://www.4gamer.net/games/817/G081722/20260602027/"
+      },
+      {
+        "label": "PR TIMES / Inside Games 配信記事",
+        "url": "https://www.inside-games.jp/release/prtimes/20260603/289976.html"
+      },
+      {
+        "label": "NTE 公式サイト",
+        "url": "https://nte.perfectworld.com/"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原ダイビルイベントスペース",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-07",
+      "price": "入場無料",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      74,
+      50,
+      215,
+      156,
+      198
+    ]
+  },
+  {
     "id": 259,
     "title": "harmoe 3rdアルバム発売記念の店頭キャンペーン＆衣装展がAKIHABARAゲーマーズ本店で開催",
     "slug": "harmoe-twice-upon-a-time-gamers-akihabara-2026",
