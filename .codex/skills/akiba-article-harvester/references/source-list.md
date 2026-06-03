@@ -30,6 +30,10 @@ Use these pages for recurring Akihabara article harvesting.
   - URL: https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja
   - Notes: broad news discovery for Akihabara openings, closures, campaigns, incidents, and local changes. Treat as discovery only; open the linked article and prefer primary or official sources before writing.
 
+- Ceek.jp News Akihabara search
+  - URL: https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1
+  - Notes: broad news discovery for Akihabara-related articles across Japanese news sites. Treat as discovery only; open the linked article and prefer primary or official sources before writing.
+
 - Enjoy Tokyo Akihabara area
   - URL: https://www.enjoytokyo.jp/event/list/area1319/
   - Notes: event discovery. Confirm against official pages when possible.
