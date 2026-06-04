@@ -163,6 +163,10 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                 {" / "}
                 <Link href="/events/today/">今日のイベント</Link>
                 {" / "}
+                <Link href="/events/popup/">POPUPストア</Link>
+                {" / "}
+                <Link href="/events/collab-cafe/">コラボカフェ</Link>
+                {" / "}
                 <Link href="/articles/month/">月別</Link>
                 {" / "}
                 <Link href="/about/">このサイトについて</Link>

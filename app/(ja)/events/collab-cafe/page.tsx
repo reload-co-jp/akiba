@@ -54,6 +54,23 @@ const Page = () => {
         "秋葉原で開催中・開催予定のコラボカフェを一覧で紹介。アニメ・ゲームキャラクターとのコラボカフェや期間限定メニューの情報を会場・期間付きで確認できます。",
       inLanguage: "ja",
     },
+    ...(ongoing.length > 0
+      ? [
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "開催中のコラボカフェ一覧",
+            url: pageUrl,
+            numberOfItems: ongoing.length,
+            itemListElement: ongoing.slice(0, 10).map((a, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: a.title,
+              url: absoluteUrl(`/articles/${a.slug}/`),
+            })),
+          },
+        ]
+      : []),
     ...ongoing.slice(0, 5).map((a) => ({
       "@context": "https://schema.org",
       "@type": "Event",
@@ -99,8 +116,9 @@ const Page = () => {
         </header>
 
         <p className="today-lead">
-          秋葉原ではアニメ・ゲームとのコラボカフェが常時複数開催されています。
-          限定メニューや特典グッズを楽しめる期間限定カフェを開催中・開催予定にわけてまとめました。
+          秋葉原ではアニメ・ゲーム・アイドルとのコラボカフェが常時複数開催されています。
+          描き下ろしメニュー・限定グッズ・来店特典など、推しキャラクターと過ごせる期間限定カフェを開催中・開催予定にわけてまとめました。
+          気になるコラボカフェを見つけて、秋葉原での特別な体験を楽しんでください。
         </p>
 
         <section className="today-section" aria-labelledby="ongoing-heading">
@@ -124,7 +142,7 @@ const Page = () => {
                         alt={getArticleImage(a).alt}
                       />
                       <div>
-                        <h2 className="events-card__title">{a.title}</h2>
+                        <h3 className="events-card__title">{a.title}</h3>
                         <dl className="events-card__meta">
                           <dt>会場</dt>
                           <dd>{a.event!.venue}</dd>

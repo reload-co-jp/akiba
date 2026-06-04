@@ -54,6 +54,23 @@ const Page = () => {
         "秋葉原で開催中・開催予定のポップアップストアを一覧で紹介。アニメ・ゲーム・キャラクターの期間限定ショップやPOPUP情報を会場・期間付きで確認できます。",
       inLanguage: "ja",
     },
+    ...(ongoing.length > 0
+      ? [
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "開催中のポップアップストア一覧",
+            url: pageUrl,
+            numberOfItems: ongoing.length,
+            itemListElement: ongoing.slice(0, 10).map((a, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: a.title,
+              url: absoluteUrl(`/articles/${a.slug}/`),
+            })),
+          },
+        ]
+      : []),
     ...ongoing.slice(0, 5).map((a) => ({
       "@context": "https://schema.org",
       "@type": "Event",
@@ -99,8 +116,9 @@ const Page = () => {
         </header>
 
         <p className="today-lead">
-          秋葉原ではアニメ・ゲームキャラクターの期間限定ポップアップストアが常時開催されています。
-          グッズ販売・限定特典・展示など、ここでしか手に入らないアイテムをチェックしてください。
+          秋葉原ではアニメ・ゲーム・アイドルなどのキャラクターをテーマにした期間限定ポップアップストアが常時開催されています。
+          限定グッズ販売・描き下ろしビジュアル・サイン入り特典など、会場でしか手に入らないアイテムを会場・開催期間付きで紹介します。
+          開催中のPOPUPストアをまとめてチェックして、推しのイベントを見逃さないようにしましょう。
         </p>
 
         <section className="today-section" aria-labelledby="ongoing-heading">
@@ -124,7 +142,7 @@ const Page = () => {
                         alt={getArticleImage(a).alt}
                       />
                       <div>
-                        <h2 className="events-card__title">{a.title}</h2>
+                        <h3 className="events-card__title">{a.title}</h3>
                         <dl className="events-card__meta">
                           <dt>会場</dt>
                           <dd>{a.event!.venue}</dd>
