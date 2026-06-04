@@ -51,6 +51,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "コラボカフェ本舗 秋葉原店": { lat: 35.7003, lng: 139.7715 },
   "キュアメイドカフェ": { lat: 35.6982, lng: 139.771 },
   "AKIHABARAゲーマーズ本店": { lat: 35.699, lng: 139.7714 },
+  "ペットショップCoo&RIKU秋葉原店": { lat: 35.7011, lng: 139.7719 },
   "メロンブックス秋葉原1号店": { lat: 35.6987, lng: 139.7718 },
   "秋葉原Venus": { lat: 35.701, lng: 139.7716 },
   "秋葉原COSMICLAB": { lat: 35.7021, lng: 139.7715 },
