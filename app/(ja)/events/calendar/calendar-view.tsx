@@ -167,7 +167,7 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
                         <li className="cal__day-more">+{dayEvents.length - 5}</li>
                       )}
                     </ul>
-                    <div className="cal__overlay" onClick={(e) => e.stopPropagation()}>
+                    <div className="cal__overlay" role="presentation" onClick={(e) => e.stopPropagation()} onKeyDown={(e) => e.stopPropagation()}>
                       <p className="cal__overlay-date">
                         {month + 1}/{day}（{["月","火","水","木","金","土","日"][colIndex]}）
                       </p>

@@ -69,12 +69,9 @@ const FAQ_ITEMS = [
   },
 ]
 
-const fmtRange = (s: string, e: string) =>
-  `${s.slice(5).replace("-", "/")} 〜 ${e.slice(5).replace("-", "/")}`
-
 export const generateMetadata = () => {
   const today = new Date().toISOString().slice(0, 10)
-  const [year, month, day] = today.split("-")
+  const [, month, day] = today.split("-")
   const dateLabel = `${parseInt(month)}月${parseInt(day)}日`
   const ongoingCount = getOngoingEvents(today).length
   const title = `秋葉原イベント【${dateLabel}開催中${ongoingCount}件】アニメ・ゲーム・コラボカフェ・POPUPまとめ`
