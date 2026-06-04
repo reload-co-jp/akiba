@@ -1,4 +1,4 @@
 interface:
   display_name: "Akiba Article Harvester"
-  short_description: "秋葉原イベント候補を重複除外し一括記事化する"
-  default_prompt: "Use $akiba-article-harvester to find many new Akihabara event candidates, remove duplicates, and add all safely verified articles."
+  short_description: "秋葉原記事候補を重複除外し一括記事化する"
+  default_prompt: "Use $akiba-article-harvester to find many new Akihabara article candidates, including events and local happenings, remove duplicates, and add all safely verified articles."
