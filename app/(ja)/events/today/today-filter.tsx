@@ -16,8 +16,11 @@ const getImg = (article: Article) => article.image ?? PLACEHOLDER
 const fmtRange = (s: string, e: string) =>
   `${s.slice(5).replace("-", "/")} 〜 ${e.slice(5).replace("-", "/")}`
 
+const INITIAL_LIMIT = 20
+
 export const TodayVenueFilter = ({ events, tagMap }: Props) => {
   const [selectedVenue, setSelectedVenue] = useState<string | null>(null)
+  const [showAll, setShowAll] = useState(false)
 
   if (events.length === 0) {
     return <p className="events-page__empty">本日開催中のイベントはありません。</p>
@@ -25,6 +28,8 @@ export const TodayVenueFilter = ({ events, tagMap }: Props) => {
 
   const venues = Array.from(new Set(events.map((e) => e.event!.venue)))
   const filtered = selectedVenue ? events.filter((e) => e.event!.venue === selectedVenue) : events
+  const visible = showAll || selectedVenue ? filtered : filtered.slice(0, INITIAL_LIMIT)
+  const hasMore = !showAll && !selectedVenue && filtered.length > INITIAL_LIMIT
 
   return (
     <>
@@ -51,7 +56,7 @@ export const TodayVenueFilter = ({ events, tagMap }: Props) => {
         </div>
       )}
       <ul className="events-list">
-        {filtered.map((article) => (
+        {visible.map((article) => (
           <li key={article.id}>
             <Link href={`/articles/${article.slug}/`} className="events-card-link">
               <article className="events-card events-card--with-image">
@@ -96,6 +101,11 @@ export const TodayVenueFilter = ({ events, tagMap }: Props) => {
           </li>
         ))}
       </ul>
+      {hasMore && (
+        <button className="today-show-more" onClick={() => setShowAll(true)}>
+          残り{filtered.length - INITIAL_LIMIT}件を表示
+        </button>
+      )}
     </>
   )
 }

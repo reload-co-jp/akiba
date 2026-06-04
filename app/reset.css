@@ -1669,6 +1669,24 @@ body {
   text-decoration: underline;
 }
 
+.today-show-more {
+  background: none;
+  border: 1px solid rgba(96, 120, 111, 0.35);
+  border-radius: 8px;
+  color: #3f5851;
+  cursor: pointer;
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+}
+
+.today-show-more:hover {
+  background: rgba(96, 120, 111, 0.06);
+}
+
 .today-related {
   display: flex;
   flex-direction: column;
