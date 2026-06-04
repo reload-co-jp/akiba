@@ -1,5 +1,51 @@
 [
   {
+    "id": 262,
+    "title": "サンコー秋葉原総本店が4月12日に閉店、オンラインと体験拠点展開へ注力",
+    "slug": "thanko-akihabara-main-store-close-2026",
+    "summary": "サンコー秋葉原総本店が、2026年4月12日を最終営業日として閉店。2009年のオープン以来続いた実店舗を閉じ、今後は新商品の開発やデジタル体験、全国の体験拠点展開へ経営資源を集中する。",
+    "content": "## 概要\n\nサンコー秋葉原総本店が、2026年4月12日をもって閉店しました。\n\nサンコーの公式プレスリリースでは、2009年にオープンした秋葉原総本店を閉店し、今後は新商品の開発、ECサイトでの購入体験、SNSを通じたコミュニケーション、動画やライブ配信などのデジタル体験強化へ注力すると案内されています。\n\n## 内容\n\n秋葉原総本店は、サンコー製品を実際に触って試せるリアルな接点として営業してきた店舗です。閉店後は、全国のエディオン店舗などに展開する「サンコーコーナー」やオンラインでの情報発信を通じて、製品体験の場を広げる方針が示されています。\n\n閉店にあわせて、2026年4月4日から4月12日までファイナルイベントを実施。歴代ヒット商品から最新作まで約200種類のサンコー製品を特別価格で販売し、Xでは「#ありがとうサンコー秋葉原総本店」を使った思い出投稿企画も行われました。\n\n## 開催情報\n\n- **会場**: サンコー秋葉原総本店\n- **住所**: 東京都千代田区外神田3-14-8 新末広ビルB\n- **最終営業日**: 2026年4月12日\n- **ファイナルイベント**: 2026年4月4日〜4月12日\n- **内容**: サンコー秋葉原総本店の閉店、ファイナルセール、思い出投稿企画\n- **今後の展開**: 新商品開発、EC・SNS・動画などのデジタル体験強化、全国の体験拠点展開\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- サンコー秋葉原総本店を利用していた方\n- 秋葉原のガジェットショップ閉店情報を記録しておきたい方\n- サンコー製品の今後の販売・体験方法を確認したい方",
+    "publishedAt": "2026-06-04",
+    "en": {
+      "title": "[Akihabara] Thanko Akihabara Main Store Closed on April 12, Shifting Focus to Online and Experience Hubs",
+      "summary": "Thanko Akihabara Main Store closed with April 12, 2026 as its final business day. After operating since 2009, the company is shifting resources toward new product development, digital experiences, and experience hubs across Japan.",
+      "content": "## Overview\n\nThanko Akihabara Main Store closed on April 12, 2026.\n\nAccording to Thanko's official press release, the company closed the Akihabara Main Store, which had opened in 2009, and will focus on new product development, EC purchase experiences, communication through social media, and strengthened digital experiences such as video and livestream content.\n\n## Highlights\n\nThe Akihabara Main Store had served as a real-world touchpoint where visitors could try Thanko products in person. After the closure, the company plans to expand product experience opportunities through Thanko Corners at Edion stores around Japan and through online information channels.\n\nTo mark the closure, a final event was held from April 4 to April 12, 2026. Around 200 Thanko products, from historic hits to new releases, were sold at special prices, and an X campaign invited users to post memories with the hashtag #ありがとうサンコー秋葉原総本店.\n\n## Event Details\n\n- **Venue**: Thanko Akihabara Main Store\n- **Address**: Shin-Suehiro Building B, 3-14-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Final Business Day**: April 12, 2026\n- **Final Event**: April 4-12, 2026\n- **Contents**: Closure of Thanko Akihabara Main Store, final sale, and memory-posting campaign\n- **Future Direction**: New product development, digital experience strengthening through EC/SNS/video, and nationwide experience hubs\n- **Reservation**: Not required\n\n## Recommended For\n\n- People who used Thanko Akihabara Main Store\n- Readers tracking the closure of Akihabara gadget shops\n- Those who want to check how Thanko products will be sold or experienced in the future"
+    },
+    "image": {
+      "src": "/images/articles/thanko-akihabara-main-store-close-2026.jpg",
+      "alt": "サンコー秋葉原総本店閉店告知のメインビジュアル",
+      "sourceLabel": "サンコー株式会社 PR TIMESプレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000425.000111905.html"
+    },
+    "sources": [
+      {
+        "label": "サンコー株式会社 PR TIMESプレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000425.000111905.html"
+      },
+      {
+        "label": "サンコー公式サイト",
+        "url": "https://www.thanko.jp/view/page/thanko-inc"
+      },
+      {
+        "label": "PC Watch 記事",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2098272.html"
+      }
+    ],
+    "event": {
+      "venue": "サンコー秋葉原総本店",
+      "startDate": "2026-04-12",
+      "endDate": "2026-04-12",
+      "price": "閉店情報",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      88,
+      207,
+      229
+    ]
+  },
+  {
     "id": 261,
     "title": "ペットショップCoo&RIKU秋葉原店が6月7日に閉店",
     "slug": "coo-riku-akihabara-close-2026",
