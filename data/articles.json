@@ -1,5 +1,46 @@
 [
   {
+    "id": 269,
+    "title": "都内随一の千貫神輿で知られる「鳥越祭」が鳥越神社で開催",
+    "slug": "torikoe-matsuri-torikoe-jinja-2026",
+    "summary": "台東区の鳥越神社で「鳥越祭」が2026年6月6日・7日・9日に開催される。都内随一の重さを誇る御本社神輿「千貫神輿」と、夕刻の提灯に照らされる「鳥越の夜祭り」で知られる祭礼。",
+    "content": "## 概要\n\n台東区の鳥越神社で「鳥越祭」が開催されます。\n\n台東区公式ページによると、開催日程は2026年6月6日、7日、9日。開催場所は鳥越神社です。鳥越神社はJR総武線浅草橋駅から徒歩8分で、秋葉原駅周辺からも浅草橋方面へアクセスしやすいエリアにあります。\n\n## 内容\n\n鳥越神社の御本社神輿は「千貫神輿」と呼ばれ、都内随一の重さを誇る神輿として紹介されています。\n\n日曜日には、氏子各町が御本社神輿を引き継ぎながら担ぎます。渡御列の先頭には猿田彦（天狗）や手古舞連、子供たちが持つ五色の旗が進み、夕刻には神輿の弓張提灯と町会の高張提灯に火が入ります。\n\nこの宮入道中は「鳥越の夜祭り」と呼ばれ、荘厳で幻想的な雰囲気が見どころです。詳細な進行や最新情報は、鳥越神社の公式Facebookで案内されています。\n\n## 開催情報\n\n- **会場**: 鳥越神社\n- **住所**: 東京都台東区鳥越2丁目4-1\n- **日程**: 2026年6月6日・6月7日・6月9日\n- **アクセス**: 都営浅草線 蔵前駅から徒歩6分 / 都営大江戸線 新御徒町駅から徒歩8分 / JR総武線 浅草橋駅から徒歩8分\n- **内容**: 鳥越神社の例大祭、御本社神輿の渡御、鳥越の夜祭り\n- **料金**: 観覧無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 鳥越神社の千貫神輿を見たい方\n- 浅草橋・蔵前周辺の祭礼を巡りたい方\n- 秋葉原周辺から徒歩圏の伝統行事を探している方",
+    "publishedAt": "2026-06-05",
+    "en": {
+      "title": "[Akihabara Area] Torikoe Matsuri at Torikoe Shrine, Known for Its Massive Sengam Mikoshi",
+      "summary": "Torikoe Matsuri will be held at Torikoe Shrine in Taito City on June 6, 7, and 9, 2026. The festival is known for the shrine's massive main mikoshi, called the Sengam Mikoshi, and the atmospheric Torikoe Night Festival lit by lanterns in the evening.",
+      "content": "## Overview\n\nTorikoe Matsuri will be held at Torikoe Shrine in Taito City.\n\nAccording to the official Taito City page, the festival dates are June 6, 7, and 9, 2026, and the venue is Torikoe Shrine. The shrine is an 8-minute walk from JR Asakusabashi Station and is also accessible from the Akihabara area toward Asakusabashi.\n\n## Highlights\n\nTorikoe Shrine's main shrine mikoshi is called the Sengam Mikoshi and is introduced as one of the heaviest mikoshi in Tokyo.\n\nOn Sunday, parishioner neighborhoods carry the main mikoshi in relay. The procession is led by Sarutahiko, also known as Tengu, tekomai performers, and children carrying five-colored flags. In the evening, lanterns on the mikoshi and tall lanterns from local neighborhood associations are lit.\n\nThis final approach to the shrine is known as the Torikoe Night Festival and is noted for its solemn and dreamlike atmosphere. Detailed schedules and the latest information are provided on Torikoe Shrine's official Facebook page.\n\n## Event Details\n\n- **Venue**: Torikoe Shrine\n- **Address**: 2-4-1 Torikoe, Taito-ku, Tokyo\n- **Dates**: June 6, June 7, and June 9, 2026\n- **Access**: 6-minute walk from Toei Asakusa Line Kuramae Station / 8-minute walk from Toei Oedo Line Shin-Okachimachi Station / 8-minute walk from JR Sobu Line Asakusabashi Station\n- **Contents**: Torikoe Shrine annual festival, main mikoshi procession, Torikoe Night Festival\n- **Admission**: Free viewing\n- **Reservation**: Not required\n\n## Recommended For\n\n- People who want to see Torikoe Shrine's Sengam Mikoshi\n- Visitors touring traditional festivals around Asakusabashi and Kuramae\n- Anyone looking for a traditional event within walking distance of the Akihabara area"
+    },
+    "image": {
+      "src": "/images/articles/torikoe-matsuri-torikoe-jinja-2026.jpg",
+      "alt": "鳥越祭の御神輿の写真",
+      "sourceLabel": "台東区公式ページ",
+      "sourceUrl": "https://www.city.taito.lg.jp/event/kanko/torikoematsuri.html"
+    },
+    "sources": [
+      {
+        "label": "台東区公式ページ",
+        "url": "https://www.city.taito.lg.jp/event/kanko/torikoematsuri.html"
+      },
+      {
+        "label": "鳥越神社公式Facebook",
+        "url": "https://www.facebook.com/torikoej"
+      }
+    ],
+    "event": {
+      "venue": "鳥越神社",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-09",
+      "price": "観覧無料",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      198,
+      207
+    ]
+  },
+  {
     "id": 268,
     "title": "嘘・架空がテーマの展示即売イベント「嘘のマーケット」がアトリエアールで開催",
     "slug": "uso-no-market-atelier-r-asakusabashi-2026",
