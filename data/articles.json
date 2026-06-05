@@ -1,5 +1,91 @@
 [
   {
+    "id": 268,
+    "title": "嘘・架空がテーマの展示即売イベント「嘘のマーケット」がアトリエアールで開催",
+    "slug": "uso-no-market-atelier-r-asakusabashi-2026",
+    "summary": "嘘・架空をテーマにした展示即売イベント「嘘のマーケット」が、2026年6月6日・7日に浅草橋のアトリエアールで開催。秋葉原駅から徒歩10分の会場で、ZINE、雑貨、アート、体験型サービス、特別展示を展開する。",
+    "content": "## 概要\n\n嘘・架空をテーマにした展示即売イベント「嘘のマーケット」が、2026年6月6日と7日に開催されます。\n\n会場は浅草橋のアトリエアール。公式案内では、JR浅草橋駅西口から徒歩1分、JR秋葉原駅昭和通り口から徒歩10分の会場として紹介されています。\n\n## 内容\n\n「嘘のマーケット」は、ZINE、雑貨、アート作品、体験型サービスなど、「これは本当なのか？」と感じるようなコンテンツを多様なクリエイターが展示・販売するイベントです。\n\n出展内容には、体験型ショップ『白い粉屋さん』、架空CMソング関連企画、架空レコードストア風の展示・販売、嘘のサイン会、架空の街や広告をテーマにしたZINE・グッズなどが案内されています。\n\n特別展示として「ないあるある展」と「ミニリアル異変探しゲーム in 嘘マ」も実施。これらは入場チケットのみで観覧・体験できます。入場チケットは時間指定制で、指定時間から30分以内の入場が案内されています。\n\n## 開催情報\n\n- **会場**: アトリエアール\n- **住所**: 東京都台東区浅草橋1丁目24番11号\n- **アクセス**: JR浅草橋駅西口から徒歩1分 / JR秋葉原駅昭和通り口から徒歩10分\n- **日程**: 2026年6月6日〜6月7日\n- **時間**: 11:00〜19:00\n- **入場チケット料**: 1,500円\n- **内容**: 嘘・架空をテーマにしたZINE、雑貨、アート作品、体験型サービスの展示即売、特別展示\n- **滞在目安**: 1時間程度\n- **予約**: 必要。ESCAPE.IDで時間指定チケットを購入\n\n## こんな人におすすめ\n\n- 架空設定やフェイク感のある作品が好きな方\n- ZINE、雑貨、アート、体験型コンテンツをまとめて見たい方\n- 秋葉原・浅草橋周辺でユニークな展示即売イベントを探している方",
+    "publishedAt": "2026-06-05",
+    "en": {
+      "title": "[Akihabara Area] Uso no Market, a Fiction-Themed Exhibition and Sales Event, at Atelier R",
+      "summary": "Uso no Market, an exhibition and sales event themed around lies and fictional creations, will be held at Atelier R in Asakusabashi on June 6 and 7, 2026. The venue is about a 10-minute walk from Akihabara Station and features ZINEs, goods, art, experiences, and special exhibits.",
+      "content": "## Overview\n\nUso no Market, an exhibition and sales event themed around lies and fictional creations, will be held on June 6 and 7, 2026.\n\nThe venue is Atelier R in Asakusabashi. The official guide lists access as a 1-minute walk from JR Asakusabashi Station West Exit and a 10-minute walk from JR Akihabara Station Showa-dori Exit.\n\n## Highlights\n\nUso no Market brings together ZINEs, goods, art, experiential services, and other creations that make visitors wonder whether they are real.\n\nListed exhibitor contents include the experiential shop 'White Powder Shop,' fictional commercial song activities, a fictional record store-style display and sales booth, a fake signing event, and ZINEs and goods themed around fictional towns and advertisements.\n\nSpecial exhibits include 'Nai Aru Aru Exhibition' and 'Mini Real Anomaly-Finding Game in Uso Ma.' These can be viewed or experienced with the admission ticket alone. Tickets are timed, and visitors are instructed to enter within 30 minutes of their designated time.\n\n## Event Details\n\n- **Venue**: Atelier R\n- **Address**: 1-24-11 Asakusabashi, Taito-ku, Tokyo\n- **Access**: 1-minute walk from JR Asakusabashi Station West Exit / 10-minute walk from JR Akihabara Station Showa-dori Exit\n- **Dates**: June 6-7, 2026\n- **Hours**: 11:00-19:00\n- **Admission Ticket**: ¥1,500\n- **Contents**: Exhibition and sales of fiction-themed ZINEs, goods, art, and experiential services, plus special exhibits\n- **Estimated Stay**: About 1 hour\n- **Reservation**: Required. Timed tickets are sold through ESCAPE.ID\n\n## Recommended For\n\n- People who enjoy fictional settings and fake-but-plausible creations\n- Visitors interested in ZINEs, goods, art, and experiential content\n- Anyone looking for a unique exhibition and sales event around Akihabara and Asakusabashi"
+    },
+    "image": {
+      "src": "/images/articles/uso-no-market-atelier-r-asakusabashi-2026.jpg",
+      "alt": "嘘のマーケットの告知ビジュアル",
+      "sourceLabel": "ESCAPE.ID イベントページ",
+      "sourceUrl": "https://escape.id/maniana-org/e-usoma/"
+    },
+    "sources": [
+      {
+        "label": "ESCAPE.ID イベントページ",
+        "url": "https://escape.id/maniana-org/e-usoma/"
+      },
+      {
+        "label": "マニアなツアー公式note",
+        "url": "https://note.com/manianananika/n/n50b734a74b6b"
+      }
+    ],
+    "event": {
+      "venue": "アトリエアール",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-07",
+      "price": "入場チケット1,500円（体験・物品購入は別途）",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      94,
+      156,
+      177,
+      207
+    ]
+  },
+  {
+    "id": 267,
+    "title": "メルティアブックス新創刊記念フェアが書泉ブックタワーで開催",
+    "slug": "meltya-books-shosen-book-tower-fair-2026",
+    "summary": "一二三書房の新レーベル「メルティアブックス」創刊を記念したフェアが、2026年6月5日から9月4日まで書泉ブックタワー8階で開催。限定SSペーパー、サイン本販売、サイン色紙展示＆抽選プレゼントを展開する。",
+    "content": "## 概要\n\n一二三書房の新レーベル「メルティアブックス」創刊を記念したフェアが、秋葉原の書泉ブックタワーで開催されています。\n\n書泉公式ページによると、取扱場所は書泉ブックタワー8階、書泉グランデ3階、書泉オンラインショップ。秋葉原では書泉ブックタワー8階で、2026年6月5日から9月4日まで実施されます。\n\n## 内容\n\nフェアでは、メルティアブックス新創刊タイトルに書泉限定SSペーパーを付けて販売します。対象タイトルには『塩対応の婚約者を置いて旅に出たら、捨てたはずの王子がついてきた』や『さよなら、鳥かごの恋～義兄に捨てられた淑女は幼馴染の一途な指先に溺れる～』などが含まれます。\n\nまた、新創刊タイトルのサイン本販売も実施。6月5日発売の2タイトルについては、2026年6月13日の開店時から書泉ブックタワーと書泉グランデで店頭販売されます。\n\nフェア終了後には、展示された直筆サイン入り複製イラスト色紙の抽選プレゼントも予定されています。応募には対象商品の購入レシートが必要です。\n\n## 開催情報\n\n- **会場**: 書泉ブックタワー8階\n- **住所**: 東京都千代田区神田佐久間町1-11-1\n- **期間**: 2026年6月5日〜9月4日\n- **内容**: 書泉限定SSペーパー配布、サイン本販売、サイン色紙展示＆抽選プレゼント\n- **サイン本店頭販売**: 2026年6月13日開店時より一部タイトルを販売\n- **対象商品**: メルティアブックス新創刊タイトル\n- **料金**: 商品購入に準ずる\n- **予約**: 不要。サイン本・特典は在庫状況に準ずる\n\n## こんな人におすすめ\n\n- メルティアブックスの新刊を秋葉原で購入したい方\n- 書泉限定SSペーパーやサイン本をチェックしたい方\n- 女性向けライトノベルの書店フェアを巡りたい方",
+    "publishedAt": "2026-06-05",
+    "en": {
+      "title": "[Akihabara] Meltya Books Launch Fair at Shosen Book Tower",
+      "summary": "A launch fair for Hifumi Shobo's new Meltya Books label runs at Shosen Book Tower 8F from June 5 to September 4, 2026, featuring exclusive SS papers, signed books, and signed illustration board displays with a giveaway.",
+      "content": "## Overview\n\nA fair celebrating the launch of Hifumi Shobo's new Meltya Books label is being held at Shosen Book Tower in Akihabara.\n\nAccording to Shosen's official page, the fair is available at Shosen Book Tower 8F, Shosen Grande 3F, and Shosen Online Shop. In Akihabara, it runs at Shosen Book Tower 8F from June 5 to September 4, 2026.\n\n## Highlights\n\nThe fair offers Shosen-exclusive short story papers with new Meltya Books launch titles. Listed titles include 'Shio Taiou no Konyakusha wo Oite Tabi ni Detara, Suteta Hazu no Ouji ga Tsuitekita' and 'Sayonara, Torikago no Koi.'\n\nSigned books for the launch titles will also be sold. For the two titles released on June 5, signed copies will go on sale at Shosen Book Tower and Shosen Grande from store opening on June 13, 2026.\n\nAfter the fair, signed reproduction illustration boards displayed in-store are planned as lottery prizes. Entry requires a receipt for eligible purchases.\n\n## Event Details\n\n- **Venue**: Shosen Book Tower 8F\n- **Address**: 1-11-1 Kanda Sakumacho, Chiyoda-ku, Tokyo\n- **Dates**: June 5-September 4, 2026\n- **Contents**: Shosen-exclusive SS papers, signed book sales, signed illustration board display and lottery giveaway\n- **Signed Book Store Sales**: Selected titles from store opening on June 13, 2026\n- **Eligible Products**: New Meltya Books launch titles\n- **Admission**: Based on product purchase\n- **Reservation**: Not required. Signed books and bonuses depend on stock availability\n\n## Recommended For\n\n- Readers who want to buy Meltya Books titles in Akihabara\n- Fans checking Shosen-exclusive SS papers and signed books\n- Visitors interested in women-oriented light novel bookstore fairs"
+    },
+    "image": {
+      "src": "/images/articles/meltya-books-shosen-book-tower-fair-2026.jpg",
+      "alt": "メルティアブックス新創刊記念フェア in 書泉の告知ビジュアル",
+      "sourceLabel": "書泉公式ページ",
+      "sourceUrl": "https://www.shosen.co.jp/fair/42899/"
+    },
+    "sources": [
+      {
+        "label": "書泉公式ページ",
+        "url": "https://www.shosen.co.jp/fair/42899/"
+      },
+      {
+        "label": "書泉ブックタワー店舗情報",
+        "url": "https://www.shosen.co.jp/tower/"
+      }
+    ],
+    "event": {
+      "venue": "書泉ブックタワー",
+      "startDate": "2026-06-05",
+      "endDate": "2026-09-04",
+      "price": "商品購入に準ずる",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      78,
+      114,
+      193,
+      207
+    ]
+  },
+  {
     "id": 266,
     "title": "ポケピース POP UP STORE BY FLOWERINGがJR秋葉原駅AKIBA LINKで開催",
     "slug": "pokepeace-flowering-akiba-link-2026",
