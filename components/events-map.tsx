@@ -39,6 +39,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "ものづくり館 by YKK": { lat: 35.6985, lng: 139.7767 },
   "秋葉原・損保会館": { lat: 35.6969, lng: 139.7685 },
   "秋葉原UDX": { lat: 35.7003, lng: 139.7726 },
+  "AKIBA_SQUARE": { lat: 35.7003, lng: 139.7726 },
   "秋葉原UDXシアター": { lat: 35.7001, lng: 139.7726 },
   "ベルサール秋葉原": { lat: 35.7007, lng: 139.7717 },
   "神田明神ホール": { lat: 35.7017, lng: 139.7677 },

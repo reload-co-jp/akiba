@@ -1,5 +1,181 @@
 [
   {
+    "id": 275,
+    "title": "ワテラス広場で「クラフトビールマルシェ 2026」が開催",
+    "slug": "waterras-craft-beer-marche-2026",
+    "summary": "神田淡路町のワテラス広場で「ワテラス クラフトビールマルシェ 2026」が2026年6月18日から20日まで開催。普段なかなか飲めないビールを一度に楽しめるマルシェで、当日はお得な回数券も販売される。",
+    "content": "## 概要\n\n神田淡路町のワテラス広場で「ワテラス クラフトビールマルシェ 2026」が開催されます。\n\n期間は2026年6月18日から6月20日までの3日間。6月18日・19日は17:00から21:00まで、6月20日は12:00から20:00まで実施されます。\n\n## 内容\n\nワテラス公式ページでは、普段なかなか飲むことができないビールを一度に楽しめる機会として紹介されています。来場者は会場でビールを飲み比べながら、自分好みのビール醸造所を見つけられるイベントです。\n\n当日はお得な回数券も販売予定です。会場はワテラス広場で、屋外マルシェ形式のクラフトビールイベントとして楽しめます。\n\nまた、6月19日には関連企画として「ワテラス クラフトビールワークショップ」も開催されます。こちらは5種のビール試飲と醸造家によるビール講座を行う事前申込制のワークショップです。\n\n## 開催情報\n\n- **会場**: ワテラス広場\n- **住所**: 東京都千代田区神田淡路町2-101\n- **期間**: 2026年6月18日〜6月20日\n- **時間**: 6月18日・19日 17:00〜21:00 / 6月20日 12:00〜20:00\n- **内容**: クラフトビールのマルシェ、飲み比べ、回数券販売\n- **関連企画**: 2026年6月19日に「ワテラス クラフトビールワークショップ」を開催\n- **料金**: 会場販売に準ずる\n- **予約**: 不要。関連ワークショップは事前申込制\n- **主催**: 一般社団法人淡路エリアマネジメント\n\n## こんな人におすすめ\n\n- クラフトビールを飲み比べたい方\n- 神田淡路町・ワテラス周辺で仕事帰りに立ち寄れるイベントを探している方\n- 新しいビール醸造所や好みのビールを見つけたい方",
+    "publishedAt": "2026-06-06",
+    "en": {
+      "title": "WATERRAS Craft Beer Marche 2026 at WATERRAS Plaza",
+      "summary": "WATERRAS Craft Beer Marche 2026 will be held at WATERRAS Plaza in Kanda-Awajicho from June 18 to 20, 2026. The event offers a chance to enjoy beers that are usually hard to find, with value ticket books available on site.",
+      "content": "## Overview\n\nWATERRAS Craft Beer Marche 2026 will be held at WATERRAS Plaza in Kanda-Awajicho.\n\nThe event runs for three days from June 18 to June 20, 2026. Hours are 17:00-21:00 on June 18 and 19, and 12:00-20:00 on June 20.\n\n## Highlights\n\nThe official WATERRAS page introduces the marche as a chance to enjoy beers that are usually hard to drink all at once. Visitors can compare beers at the venue and find breweries that suit their tastes.\n\nValue ticket books will also be sold on site. The venue is WATERRAS Plaza, making this an outdoor craft beer marche event.\n\nA related WATERRAS Craft Beer Workshop will also be held on June 19. That workshop includes tastings of five beers and a brewer-led beer lecture, and requires advance application.\n\n## Event Details\n\n- **Venue**: WATERRAS Plaza\n- **Address**: 2-101 Kanda-Awajicho, Chiyoda-ku, Tokyo\n- **Dates**: June 18-20, 2026\n- **Hours**: June 18 and 19 17:00-21:00 / June 20 12:00-20:00\n- **Contents**: Craft beer marche, beer tasting, value ticket book sales\n- **Related Event**: WATERRAS Craft Beer Workshop on June 19, 2026\n- **Price**: Based on on-site sales\n- **Reservation**: Not required. The related workshop requires advance application\n- **Organizer**: Awaji Area Management Association\n\n## Recommended For\n\n- People who want to compare craft beers\n- Visitors looking for an after-work event around Kanda-Awajicho and WATERRAS\n- Anyone who wants to discover new breweries or favorite beers"
+    },
+    "image": {
+      "src": "/images/articles/waterras-craft-beer-marche-2026.jpg",
+      "alt": "ワテラス クラフトビールマルシェ 2026の告知ポスター",
+      "sourceLabel": "ワテラス公式イベントページ",
+      "sourceUrl": "https://www.waterras.com/event/archives/event/35243/"
+    },
+    "sources": [
+      {
+        "label": "ワテラス公式イベントページ",
+        "url": "https://www.waterras.com/event/archives/event/35243/"
+      },
+      {
+        "label": "ワテラス クラフトビールワークショップ",
+        "url": "https://www.waterras.com/event/archives/event/35255/"
+      }
+    ],
+    "event": {
+      "venue": "ワテラス",
+      "startDate": "2026-06-18",
+      "endDate": "2026-06-20",
+      "price": "会場販売に準ずる",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      50,
+      70,
+      149,
+      166,
+      207
+    ]
+  },
+  {
+    "id": 274,
+    "title": "ワテラスでクラフトビールワークショップが開催",
+    "slug": "waterras-craft-beer-workshop-2026",
+    "summary": "神田淡路町のワテラスで「ワテラス クラフトビールワークショップ」が2026年6月19日に開催。5種のビール試飲、醸造家によるビール講座、ワテラスオリジナルビールのコンセプト決めを行う。",
+    "content": "## 概要\n\n神田淡路町のワテラスで「ワテラス クラフトビールワークショップ」が開催されます。\n\n開催日は2026年6月19日。会場はワテラスコモンホール3階で、2回制のワークショップとして実施されます。\n\n## 内容\n\nイベントでは、5種のビール試飲と、醸造家によるビール講座を行います。初心者も歓迎と案内されており、試飲を通じてビールについて学べる内容です。\n\nあわせて、今後ワテラスで開催予定のイベントで提供する「ワテラスオリジナルビール」のコンセプト決めも行います。講師は東京・武蔵野市の26K Breweryから平槇氏が担当します。\n\n各回の定員は30名。参加費は一般1,500円、ワテラス在勤・在住者は1,000円です。申込締切は2026年6月12日正午で、公式ページでは申し込み終了と表示されています。\n\n## 開催情報\n\n- **会場**: ワテラスコモンホール 3F\n- **住所**: 東京都千代田区神田淡路町2-101\n- **日程**: 2026年6月19日\n- **時間**: 1回目 17:30〜18:30 / 2回目 18:45〜19:45\n- **内容**: 5種のビール試飲、醸造家によるビール講座、ワテラスオリジナルビールのコンセプト決め\n- **定員**: 各回30名\n- **参加費**: 一般1,500円 / ワテラス在勤・在住者1,000円\n- **予約**: 事前申込制。申込締切は2026年6月12日12:00\n\n## こんな人におすすめ\n\n- クラフトビールを試飲しながら学びたい方\n- ワテラス周辺のワークショップに参加したい方\n- オリジナルビールづくりのコンセプト決めに関わってみたい方",
+    "publishedAt": "2026-06-06",
+    "en": {
+      "title": "Craft Beer Workshop at WATERRAS",
+      "summary": "WATERRAS Craft Beer Workshop will be held in Kanda-Awajicho on June 19, 2026. The workshop includes tastings of five beers, a brewer-led beer lecture, and concept planning for a WATERRAS original beer.",
+      "content": "## Overview\n\nWATERRAS Craft Beer Workshop will be held at WATERRAS in Kanda-Awajicho.\n\nThe event date is June 19, 2026. The venue is WATERRAS Common Hall on the 3rd floor, and the workshop will be held in two sessions.\n\n## Highlights\n\nThe event includes tastings of five beers and a beer lecture by a brewer. Beginners are welcome, and the workshop is designed as a chance to learn about beer through tasting.\n\nParticipants will also help decide the concept for a WATERRAS original beer planned for future events at WATERRAS. The lecturer is Hiramaki from 26K Brewery in Musashino, Tokyo.\n\nCapacity is 30 people per session. The participation fee is ¥1,500 for general participants and ¥1,000 for people who work or live at WATERRAS. The application deadline is noon on June 12, 2026, and the official page currently shows that applications have closed.\n\n## Event Details\n\n- **Venue**: WATERRAS Common Hall 3F\n- **Address**: 2-101 Kanda-Awajicho, Chiyoda-ku, Tokyo\n- **Date**: June 19, 2026\n- **Hours**: Session 1 17:30-18:30 / Session 2 18:45-19:45\n- **Contents**: Tastings of five beers, brewer-led beer lecture, concept planning for a WATERRAS original beer\n- **Capacity**: 30 people per session\n- **Participation Fee**: General ¥1,500 / WATERRAS workers and residents ¥1,000\n- **Reservation**: Advance application required. Deadline was June 12, 2026 at 12:00\n\n## Recommended For\n\n- People who want to learn while tasting craft beer\n- Visitors interested in workshops around WATERRAS\n- Anyone who wants to help shape the concept for an original beer"
+    },
+    "image": {
+      "src": "/images/articles/waterras-craft-beer-workshop-2026.jpg",
+      "alt": "ワテラス クラフトビールワークショップの告知画像",
+      "sourceLabel": "ワテラス公式イベントページ",
+      "sourceUrl": "https://www.waterras.com/event/archives/event/35255/"
+    },
+    "sources": [
+      {
+        "label": "ワテラス公式イベントページ",
+        "url": "https://www.waterras.com/event/archives/event/35255/"
+      },
+      {
+        "label": "参加申込フォーム",
+        "url": "https://form.run/@craftbeerws2026"
+      }
+    ],
+    "event": {
+      "venue": "ワテラス",
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-19",
+      "price": "一般1,500円 / ワテラス在勤・在住者1,000円",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      70,
+      149,
+      150,
+      207
+    ]
+  },
+  {
+    "id": 273,
+    "title": "『HUNTER×HUNTER』アニメイトフェアが秋葉原店で開催",
+    "slug": "hunter-hunter-animate-fair-akihabara-2026",
+    "summary": "「『HUNTER×HUNTER』アニメイトフェア in 2026 Summer」が、2026年6月13日から6月28日までアニメイト秋葉原店など対象店舗で開催。新規Ani-Artイラストの先行販売商品と購入特典を展開する。",
+    "content": "## 概要\n\nTVアニメ『HUNTER×HUNTER』のフェア「『HUNTER×HUNTER』アニメイトフェア in 2026 Summer」が、アニメイト秋葉原店を含む対象店舗で開催されます。\n\n開催期間は2026年6月13日から6月28日まで。AMNIBUSのイベントページでは、アニメイト対象店舗とアニメイト通販で実施すると案内されています。\n\n## 内容\n\n今回のフェアでは、TVアニメ『HUNTER×HUNTER』の新規Ani-Artイラストを使用した新商品を多数先行販売します。\n\n会場では対象キャラクターのグッズ販売に加え、購入特典も予定されています。アニメイト秋葉原店は対象店舗に含まれており、秋葉原でHUNTER×HUNTER関連グッズをチェックできるフェアです。\n\n一部商品や特典は在庫状況により終了する場合があります。来店前にAMNIBUS公式ページやアニメイト店頭案内を確認しておくと安心です。\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原店\n- **住所**: 東京都千代田区外神田4-3-1\n- **期間**: 2026年6月13日〜6月28日\n- **内容**: 新規Ani-Artイラスト商品の先行販売、購入特典\n- **対象店舗**: アニメイト秋葉原店ほか対象店舗、アニメイト通販\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要。商品・特典は在庫状況に準ずる\n\n## こんな人におすすめ\n\n- 『HUNTER×HUNTER』の新規Ani-Artグッズを集めたい方\n- アニメイト秋葉原店のフェアを巡りたい方\n- 購入特典つきのアニメグッズ企画をチェックしたい方",
+    "publishedAt": "2026-06-06",
+    "en": {
+      "title": "HUNTER x HUNTER Animate Fair at Animate Akihabara",
+      "summary": "HUNTER x HUNTER Animate Fair in 2026 Summer will run from June 13 to 28, 2026 at Animate Akihabara and other participating stores, featuring early sales of new Ani-Art illustration goods and purchase bonuses.",
+      "content": "## Overview\n\nHUNTER x HUNTER Animate Fair in 2026 Summer will be held at participating Animate stores, including Animate Akihabara.\n\nThe event runs from June 13 to June 28, 2026. AMNIBUS lists the fair as taking place at participating Animate stores and Animate mail order.\n\n## Highlights\n\nThe fair will offer early sales of many new products using new Ani-Art illustrations from the TV anime HUNTER x HUNTER.\n\nIn addition to character goods, purchase bonuses are planned. Animate Akihabara is included among the participating stores, making this an Akihabara stop for fans checking HUNTER x HUNTER merchandise.\n\nSome products and bonuses may end depending on stock. Checking the AMNIBUS official page or in-store guidance before visiting is recommended.\n\n## Event Details\n\n- **Venue**: Animate Akihabara\n- **Address**: 4-3-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: June 13-28, 2026\n- **Contents**: Early sales of new Ani-Art illustration goods and purchase bonuses\n- **Participating Stores**: Animate Akihabara and other participating stores, plus Animate mail order\n- **Admission**: Free entry; product purchases are separate\n- **Reservation**: Not required. Products and bonuses depend on stock availability\n\n## Recommended For\n\n- Fans collecting new HUNTER x HUNTER Ani-Art goods\n- Visitors checking fairs at Animate Akihabara\n- People looking for anime merchandise events with purchase bonuses"
+    },
+    "image": {
+      "src": "/images/articles/hunter-hunter-animate-fair-akihabara-2026.jpg",
+      "alt": "『HUNTER×HUNTER』アニメイトフェア in 2026 Summerの告知ビジュアル",
+      "sourceLabel": "AMNIBUS イベントページ",
+      "sourceUrl": "https://event.amnibus.com/hunterhunter-animate-2026summer/"
+    },
+    "sources": [
+      {
+        "label": "AMNIBUS イベントページ",
+        "url": "https://event.amnibus.com/hunterhunter-animate-2026summer/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000008971.000016064.html"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原店",
+      "startDate": "2026-06-13",
+      "endDate": "2026-06-28",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      47,
+      48,
+      61,
+      207
+    ]
+  },
+  {
+    "id": 272,
+    "title": "第60回「Daijob Career Fair」がAKIBA_SQUAREで開催",
+    "slug": "daijob-career-fair-akiba-square-2026",
+    "summary": "グローバル人材向け転職イベント「第60回 Daijob Career Fair」が、2026年6月12日にAKIBA_SQUAREで開催。外資・グローバル企業の採用担当者と直接話せる合同企業説明会で、参加無料・事前登録制。",
+    "content": "## 概要\n\nグローバル人材向け転職イベント「第60回 Daijob Career Fair」が、秋葉原のAKIBA_SQUAREで開催されます。\n\n開催日は2026年6月12日。会場は秋葉原UDX 2階のAKIBA_SQUAREで、主催はDaijob.comを運営するヒューマンリソシア株式会社です。\n\n## 内容\n\nDaijob Career Fairは、語学力や留学経験、専門スキルを活かして働きたい求職者と、外資・グローバル企業をつなぐ対面型の合同企業説明会です。\n\n第60回では、Uber Japanやザ・カハラ・ホテルなど、世界展開する企業の参加が案内されています。会場では企業の採用担当者と直接面談できるほか、選考のヒントや現場のリアルな声を得られる場として紹介されています。\n\n転職お役立ちセミナーも予定され、Uber Japanの採用担当者による英語セミナーや、在留資格に関する日本語セミナーなどが案内されています。参加費は無料で、公式サイトから事前登録を受け付けます。\n\n## 開催情報\n\n- **会場**: AKIBA_SQUARE\n- **住所**: 東京都千代田区外神田4-14-1 秋葉原UDX 2F\n- **日程**: 2026年6月12日\n- **時間**: 16:30〜20:30（最終入場20:00）\n- **内容**: 外資・グローバル企業の合同企業説明会、企業面談、転職セミナー\n- **対象**: 語学力を活かして働きたいバイリンガル人材\n- **料金**: 参加無料\n- **予約**: 公式サイトから事前登録が必要\n\n## こんな人におすすめ\n\n- 秋葉原で開催される転職・キャリアイベントを探している方\n- 外資系企業やグローバル企業への転職を考えている方\n- 語学力や留学経験を仕事に活かしたい方\n- 企業担当者と直接話せる合同説明会に参加したい方",
+    "publishedAt": "2026-06-06",
+    "en": {
+      "title": "60th Daijob Career Fair at AKIBA_SQUARE",
+      "summary": "The 60th Daijob Career Fair, a career event for global talent, will be held at AKIBA_SQUARE on June 12, 2026. The free, registration-based fair lets bilingual job seekers meet recruiters from foreign-affiliated and global companies.",
+      "content": "## Overview\n\nThe 60th Daijob Career Fair, a career event for global talent, will be held at AKIBA_SQUARE in Akihabara.\n\nThe event date is June 12, 2026. The venue is AKIBA_SQUARE on the 2nd floor of Akihabara UDX, and the organizer is Human Resocia, operator of Daijob.com.\n\n## Highlights\n\nDaijob Career Fair is an in-person joint company information session that connects job seekers who want to use language skills, study abroad experience, or professional skills with foreign-affiliated and global companies.\n\nFor the 60th edition, participating companies include Uber Japan and The Kahala Hotel. Visitors can speak directly with company recruiters and gain insight into selection processes and workplace realities.\n\nCareer seminars are also planned, including an English seminar by an Uber Japan recruiter and a Japanese seminar about residence status. Participation is free, with registration accepted through the official website.\n\n## Event Details\n\n- **Venue**: AKIBA_SQUARE\n- **Address**: Akihabara UDX 2F, 4-14-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: June 12, 2026\n- **Hours**: 16:30-20:30, last entry 20:00\n- **Contents**: Joint company fair, recruiter meetings, career seminars\n- **Target Audience**: Bilingual talent who want to use language skills at work\n- **Admission**: Free\n- **Reservation**: Advance registration through the official website is required\n\n## Recommended For\n\n- People looking for career events in Akihabara\n- Job seekers considering foreign-affiliated or global companies\n- People who want to use language skills or study abroad experience at work\n- Visitors who want to speak directly with company recruiters"
+    },
+    "image": {
+      "src": "/images/articles/daijob-career-fair-akiba-square-2026.png",
+      "alt": "第60回 Daijob Career Fairの告知ビジュアル",
+      "sourceLabel": "ヒューマンリソシア ニュース",
+      "sourceUrl": "https://corporate.resocia.jp/info/news/20260513_60th_daijobcareerfair"
+    },
+    "sources": [
+      {
+        "label": "ヒューマンリソシア ニュース",
+        "url": "https://corporate.resocia.jp/info/news/20260513_60th_daijobcareerfair"
+      },
+      {
+        "label": "ヒューマンホールディングス ニュース",
+        "url": "https://www.athuman.com/news/2026/26838/"
+      },
+      {
+        "label": "Daijob Career Fair 公式サイト",
+        "url": "https://www.daijob.com/cfair/place/66"
+      }
+    ],
+    "event": {
+      "venue": "AKIBA_SQUARE",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-12",
+      "price": "参加無料",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      60,
+      207,
+      211
+    ]
+  },
+  {
     "id": 271,
     "title": "『RAIDOU Remastered』1周年記念商店がアニメイト秋葉原ANNEXで開催",
     "slug": "raidou-remastered-animate-akihabara-annex-popup-2026",
