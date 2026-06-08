@@ -134,15 +134,15 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
             <div className="site-header__inner">
               <Link href="/" className="site-header__brand">
                 <img
-                  src="/images/logo.svg"
+                  src="/images/logo.png"
                   alt="アキバLive"
                   width="195"
                   height="48"
                 />
               </Link>
               <nav className="site-header__nav" aria-label="主要ナビゲーション">
-                <Link href="/articles/">新着記事</Link>
-                <Link href="/events/today/">今日のイベント</Link>
+                <Link href="/articles/">新着</Link>
+                <Link href="/events/today/">今日</Link>
                 <Link href="/events/">開催中</Link>
               </nav>
             </div>

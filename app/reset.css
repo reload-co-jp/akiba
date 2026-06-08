@@ -29,8 +29,8 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1080px;
-  min-height: 4rem;
-  padding: 0.75rem 1rem;
+  min-height: 3rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .site-header__brand {
@@ -42,7 +42,7 @@ body {
 .site-header__brand img {
   display: block;
   height: auto;
-  max-width: 195px;
+  max-width: 120px;
   width: min(48vw, 195px);
 }
 
@@ -58,7 +58,7 @@ body {
   color: #3f5851;
   font-size: 0.75rem;
   font-weight: 700;
-  padding: 0.5rem 0.875rem;
+  padding: 0.25rem 0.75rem;
   text-decoration: none;
 }
 
@@ -510,15 +510,15 @@ body {
 
 @media (max-width: 640px) {
   .site-header__inner {
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
     gap: 0.375rem;
     min-height: unset;
     padding: 0.5rem 1rem;
   }
 
   .site-header__brand img {
-    width: min(44vw, 160px);
+    width: min(44vw, 120px);
   }
 
   .site-header__nav {
