@@ -32,6 +32,7 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
       ): t is { id: number; tag: NonNullable<ReturnType<typeof getTagById>> } =>
         t.tag != null
     )
+    .slice(0, 30)
   const visibleArticles = articles.slice(0, 12)
 
   return (
