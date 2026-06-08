@@ -14,13 +14,13 @@ Use these files when creating or updating event articles:
   "title": "【秋葉原】イベント名",
   "slug": "event-slug-2026",
   "summary": "一覧とメタデータ向けの短い要約。",
-  "content": "## 概要\n\n...\n\n## 内容\n\n...\n\n## 開催情報\n\n...\n\n## こんな人におすすめ\n\n...",
+  "content": "## 概要\n\n[イベントの概要を2〜3文のproseで。何のイベントか、どこが特徴か、なぜ注目かを書く。箇条書きにしない。]\n\n## 内容\n\n[全体の魅力・性格を1〜2文のproseで説明してから、具体的なコンテンツ・展示・特典を箇条書きで続ける。]\n\n- [コンテンツ項目1]\n- [コンテンツ項目2]\n\n## 開催情報\n\n- **日時**: YYYY年M月D日（曜）〜 M月D日（曜）\n- **会場**: 会場名（フロア情報があれば含める）\n- **料金**: 入場無料 / ¥X,XXX など\n- **予約**: 要事前予約 / 予約不要 など\n\n## こんな人におすすめ\n\n- [ターゲット1]\n- [ターゲット2]\n- [ターゲット3]",
   "publishedAt": "2026-04-24",
   "tags": ["イベント", "秋葉原"],
   "en": {
     "title": "[Akihabara] Event Name",
     "summary": "Short summary for listings and metadata.",
-    "content": "## Overview\n\n...\n\n## Highlights\n\n...\n\n## Event Details\n\n...\n\n## Recommended For\n\n..."
+    "content": "## Overview\n\n[2-3 sentences of prose. What the event is, what makes it distinctive, why it is worth visiting. No bullet points.]\n\n## Highlights\n\n[1-2 sentences of prose describing the overall character or appeal, then bullet points for specific content items.]\n\n- [Content item 1]\n- [Content item 2]\n\n## Event Details\n\n- **Dates**: Month D–D, YYYY\n- **Venue**: Venue name (floor if available)\n- **Price**: Free admission / ¥X,XXX etc.\n- **Reservation**: Required / Not required etc.\n\n## Recommended For\n\n- [Target audience 1]\n- [Target audience 2]\n- [Target audience 3]"
   },
   "image": {
     "src": "/images/articles/event-slug-2026.webp",

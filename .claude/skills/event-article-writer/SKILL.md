@@ -38,6 +38,11 @@ Read [references/article-format.md](references/article-format.md) before editing
   - `## 内容`
   - `## 開催情報`
   - `## こんな人におすすめ`
+- **Section writing guidance:**
+  - `## 概要`: 2〜3文の prose で書く。何のイベントか・どこが特徴か・なぜ注目かを文章で説明する。箇条書き禁止。
+  - `## 内容`: 最初に 1〜2文の prose で全体の魅力・性格を説明し、その後に具体的な展示物・コンテンツ・特典などを箇条書きで列挙する。prose なしで箇条書きだけで始めない。
+  - `## 開催情報`: 日時・会場・料金・予約可否など構造化された箇条書きで書く。
+  - `## こんな人におすすめ`: 2〜3の短い箇条書き、または 1〜2文の prose。
 - Put actionable event facts in both `content` and `event`.
 - Add `sources` for every article. Use the clearest human-readable label you can. Order primary/official sources first, then ticket/venue pages, then aggregators or discovery sources.
 - Set `authorId` to `1` on every new article.
