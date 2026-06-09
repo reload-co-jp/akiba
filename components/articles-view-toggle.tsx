@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Fragment } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
@@ -110,8 +110,8 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
         {visibleArticles.map((article, i) => {
           const localized = getLocalizedContent(article, lang)
           return (
-            <>
-              <li key={article.id}>
+            <Fragment key={article.id}>
+              <li>
                 <Link
                   href={`/articles/${article.slug}/`}
                   className="article-card-link"
@@ -148,11 +148,11 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
                 </Link>
               </li>
               {i % 10 === 9 && (
-                <li key={`ad-${i}`}>
+                <li>
                   <AdsenseFluidAd />
                 </li>
               )}
-            </>
+            </Fragment>
           )
         })}
       </ul>
