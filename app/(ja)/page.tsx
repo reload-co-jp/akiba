@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { HomeArticlesFilter } from "components/home-articles-filter"
 import { getAllArticles } from "lib/articles"
 import { CalendarView } from "./events/calendar/calendar-view"
@@ -65,10 +64,9 @@ const Page = () => {
               placeholder="記事を検索..."
               aria-label="記事を検索"
             />
+
+            <button className="home-hero__link">最新記事を読む</button>
           </form>
-          <Link className="home-hero__link" href={`/articles/`}>
-            最新記事を読む
-          </Link>
         </div>
       </section>
 
