@@ -1,6 +1,11 @@
 import Link from "next/link"
 import { getAllArticles, getArticleImage } from "lib/articles"
 import { absoluteUrl } from "lib/site"
+import { fmtRange } from "lib/format"
+import { Breadcrumb } from "components/breadcrumb"
+import { EventSection } from "components/event-section"
+import { CalListItem } from "components/cal-list-item"
+import { EventCard } from "components/event-card"
 
 const POPUP_TAG_IDS = [17, 128, 129, 196, 54, 62]
 
@@ -17,9 +22,6 @@ export const metadata = {
     type: "website",
   },
 }
-
-const fmtRange = (s: string, e: string) =>
-  `${s.slice(5).replace("-", "/")} 〜 ${e.slice(5).replace("-", "/")}`
 
 const Page = () => {
   const today = new Date().toISOString().slice(0, 10)
@@ -98,17 +100,13 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="events-page">
-        <nav className="breadcrumb" aria-label="パンくずリスト">
-          <ol className="breadcrumb__list">
-            <li className="breadcrumb__item">
-              <Link href="/">ホーム</Link>
-            </li>
-            <li className="breadcrumb__item">
-              <Link href="/events/">イベント</Link>
-            </li>
-            <li className="breadcrumb__item breadcrumb__item--current">POPUPストア特集</li>
-          </ol>
-        </nav>
+        <Breadcrumb
+          items={[
+            { label: "ホーム", href: "/" },
+            { label: "イベント", href: "/events/" },
+            { label: "POPUPストア特集" },
+          ]}
+        />
 
         <header className="events-page__header">
           <p className="events-page__kicker">Popup Store in Akihabara</p>
@@ -121,93 +119,57 @@ const Page = () => {
           開催中のPOPUPストアをまとめてチェックして、推しのイベントを見逃さないようにしましょう。
         </p>
 
-        <section className="today-section" aria-labelledby="ongoing-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Ongoing</p>
-            <h2 id="ongoing-heading" className="today-section__title">
-              開催中のポップアップストア（{ongoing.length}件）
-            </h2>
-          </div>
+        <EventSection
+          id="ongoing-heading"
+          kicker="Ongoing"
+          title={`開催中のポップアップストア（${ongoing.length}件）`}
+        >
           {ongoing.length === 0 ? (
             <p className="events-page__empty">現在開催中のポップアップストアはありません。</p>
           ) : (
             <ul className="events-list">
               {ongoing.map((a) => (
-                <li key={a.id}>
-                  <Link href={`/articles/${a.slug}/`} className="events-card-link">
-                    <article className="events-card events-card--with-image">
-                      <img
-                        className="events-card__image"
-                        src={getArticleImage(a).src}
-                        alt={getArticleImage(a).alt}
-                      />
-                      <div>
-                        <h3 className="events-card__title">{a.title}</h3>
-                        <dl className="events-card__meta">
-                          <dt>会場</dt>
-                          <dd>{a.event!.venue}</dd>
-                          <dt>期間</dt>
-                          <dd>{fmtRange(a.event!.startDate, a.event!.endDate)}</dd>
-                          <dt>料金</dt>
-                          <dd>{a.event!.price}</dd>
-                        </dl>
-                      </div>
-                    </article>
-                  </Link>
-                  {a.sources?.[0]?.url && (
-                    <a
-                      href={a.sources[0].url}
-                      className="today-official-link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      ↗ {a.sources[0].label}
-                    </a>
-                  )}
-                </li>
+                <EventCard
+                  key={a.id}
+                  href={`/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  title={a.title}
+                  venue={a.event!.venue}
+                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate)}
+                  price={a.event!.price}
+                  sourceUrl={a.sources?.[0]?.url}
+                  sourceLabel={a.sources?.[0]?.label}
+                />
               ))}
             </ul>
           )}
-        </section>
+        </EventSection>
 
-        <section className="today-section" aria-labelledby="upcoming-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Upcoming</p>
-            <h2 id="upcoming-heading" className="today-section__title">
-              開催予定のポップアップストア（{upcoming.length}件）
-            </h2>
-          </div>
+        <EventSection
+          id="upcoming-heading"
+          kicker="Upcoming"
+          title={`開催予定のポップアップストア（${upcoming.length}件）`}
+        >
           {upcoming.length === 0 ? (
             <p className="events-page__empty">開催予定のポップアップストアはありません。</p>
           ) : (
             <ul className="cal__list">
               {upcoming.map((a) => (
-                <li key={a.id}>
-                  <Link href={`/articles/${a.slug}/`} className="cal__list-item">
-                    <img
-                      className="cal__list-image"
-                      src={getArticleImage(a).src}
-                      alt={getArticleImage(a).alt}
-                    />
-                    <time className="cal__list-date" dateTime={a.event!.startDate}>
-                      {a.event!.startDate.slice(5).replace("-", "/")} 〜
-                    </time>
-                    <span className="cal__list-title">{a.title}</span>
-                    <span className="cal__list-venue">{a.event!.venue}</span>
-                  </Link>
-                </li>
+                <CalListItem
+                  key={a.id}
+                  href={`/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  dateTime={a.event!.startDate}
+                  dateLabel={`${a.event!.startDate.slice(5).replace("-", "/")} 〜`}
+                  title={a.title}
+                  venue={a.event!.venue}
+                />
               ))}
             </ul>
           )}
-        </section>
+        </EventSection>
 
-        <section className="today-section" aria-labelledby="related-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Related</p>
-            <h2 id="related-heading" className="today-section__title">
-              関連リンク
-            </h2>
-          </div>
+        <EventSection id="related-heading" kicker="Related" title="関連リンク">
           <ul className="today-related">
             <li>
               <Link href="/events/today/" className="today-related__link">
@@ -230,7 +192,7 @@ const Page = () => {
               </Link>
             </li>
           </ul>
-        </section>
+        </EventSection>
       </div>
     </>
   )

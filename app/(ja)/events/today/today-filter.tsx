@@ -1,20 +1,15 @@
 "use client"
 
 import { useState } from "react"
-import Link from "next/link"
 import type { Article } from "lib/articles"
+import { getArticleImage } from "lib/articles"
+import { fmtRange } from "lib/format"
+import { EventCard } from "components/event-card"
 
 type Props = {
   events: Article[]
   tagMap: Record<number, string>
 }
-
-const PLACEHOLDER = { src: "/images/placeholder.jpg", alt: "アキバLiveの記事サムネイル" }
-
-const getImg = (article: Article) => article.image ?? PLACEHOLDER
-
-const fmtRange = (s: string, e: string) =>
-  `${s.slice(5).replace("-", "/")} 〜 ${e.slice(5).replace("-", "/")}`
 
 const INITIAL_LIMIT = 20
 
@@ -57,48 +52,18 @@ export const TodayVenueFilter = ({ events, tagMap }: Props) => {
       )}
       <ul className="events-list">
         {visible.map((article) => (
-          <li key={article.id}>
-            <Link href={`/articles/${article.slug}/`} className="events-card-link">
-              <article className="events-card events-card--with-image">
-                <img
-                  className="events-card__image"
-                  src={getImg(article).src}
-                  alt={getImg(article).alt}
-                />
-                <div>
-                  <div className="events-card__tags">
-                    {article.tagIds.map((tid) => {
-                      const name = tagMap[tid]
-                      return name ? (
-                        <span key={tid} className="events-card__tag">{name}</span>
-                      ) : null
-                    })}
-                  </div>
-                  <h3 className="events-card__title">{article.title}</h3>
-                  {article.event && (
-                    <dl className="events-card__meta">
-                      <dt>会場</dt>
-                      <dd>{article.event.venue}</dd>
-                      <dt>期間</dt>
-                      <dd>{fmtRange(article.event.startDate, article.event.endDate)}</dd>
-                      <dt>料金</dt>
-                      <dd>{article.event.price}</dd>
-                    </dl>
-                  )}
-                </div>
-              </article>
-            </Link>
-            {article.sources?.[0]?.url && (
-              <a
-                href={article.sources[0].url}
-                className="today-official-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ↗ {article.sources[0].label}
-              </a>
-            )}
-          </li>
+          <EventCard
+            key={article.id}
+            href={`/articles/${article.slug}/`}
+            image={getArticleImage(article)}
+            title={article.title}
+            venue={article.event!.venue}
+            dateRange={fmtRange(article.event!.startDate, article.event!.endDate)}
+            price={article.event!.price}
+            tags={article.tagIds.flatMap((tid) => (tagMap[tid] ? [tagMap[tid]] : []))}
+            sourceUrl={article.sources?.[0]?.url}
+            sourceLabel={article.sources?.[0]?.label}
+          />
         ))}
       </ul>
       {hasMore && (

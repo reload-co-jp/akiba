@@ -1,7 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import Link from "next/link"
+import { fmtRange } from "lib/format"
+import { CalListItem } from "components/cal-list-item"
 
 type CategoryEvent = {
   id: number
@@ -24,11 +25,6 @@ type CategoryGroup = {
 type Props = {
   groups: CategoryGroup[]
 }
-
-const PLACEHOLDER = { src: "/images/placeholder.jpg", alt: "アキバLiveの記事サムネイル" }
-
-const fmtRange = (s: string, e: string) =>
-  `${s.slice(5).replace("-", "/")} 〜 ${e.slice(5).replace("-", "/")}`
 
 export const TodayCategoryFilter = ({ groups }: Props) => {
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -66,21 +62,17 @@ export const TodayCategoryFilter = ({ groups }: Props) => {
         <div key={group.id} className="today-category">
           <h3 className="today-category__title">{group.name}</h3>
           <ul className="cal__list">
-            {group.events.map((a) => {
-              const img = a.image ?? PLACEHOLDER
-              return (
-                <li key={a.id}>
-                  <Link href={`/articles/${a.slug}/`} className="cal__list-item">
-                    <img className="cal__list-image" src={img.src} alt={img.alt} />
-                    <time className="cal__list-date" dateTime={a.event.startDate}>
-                      {fmtRange(a.event.startDate, a.event.endDate)}
-                    </time>
-                    <span className="cal__list-title">{a.title}</span>
-                    <span className="cal__list-venue">{a.event.venue}</span>
-                  </Link>
-                </li>
-              )
-            })}
+            {group.events.map((a) => (
+              <CalListItem
+                key={a.id}
+                href={`/articles/${a.slug}/`}
+                image={a.image}
+                dateTime={a.event.startDate}
+                dateLabel={fmtRange(a.event.startDate, a.event.endDate)}
+                title={a.title}
+                venue={a.event.venue}
+              />
+            ))}
           </ul>
         </div>
       ))}

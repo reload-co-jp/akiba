@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { EventsMap } from "components/events-map"
 import { getArticleImage, getOngoingEvents, getTagById } from "lib/articles"
+import { fmtRange } from "lib/format"
+import { EventCard } from "components/event-card"
 
 export const metadata = {
   title: "秋葉原の開催中イベント一覧｜アニメ・ゲーム・コラボカフェ・POPUP",
@@ -38,40 +40,20 @@ const Page = () => {
           <EventsMap events={events} />
           <ul className="events-list">
             {events.map((article) => (
-              <li key={article.id}>
-                <Link href={`/articles/${article.slug}/`} className="events-card-link">
-                  <article
-                    className="events-card events-card--with-image"
-                  >
-                    <img
-                      className="events-card__image"
-                      src={getArticleImage(article).src}
-                      alt={getArticleImage(article).alt}
-                    />
-                    <div>
-                      <div className="events-card__tags">
-                        {article.tagIds.map((tid) => {
-                          const t = getTagById(tid)
-                          return t ? <span key={tid} className="events-card__tag">{t.name}</span> : null
-                        })}
-                      </div>
-                      <h2 className="events-card__title">{article.title}</h2>
-                      {article.event && (
-                        <dl className="events-card__meta">
-                          <dt>会場</dt>
-                          <dd>{article.event.venue}</dd>
-                          <dt>期間</dt>
-                          <dd>
-                            {article.event.startDate} 〜 {article.event.endDate}
-                          </dd>
-                          <dt>料金</dt>
-                          <dd>{article.event.price}</dd>
-                        </dl>
-                      )}
-                    </div>
-                  </article>
-                </Link>
-              </li>
+              <EventCard
+                key={article.id}
+                href={`/articles/${article.slug}/`}
+                image={getArticleImage(article)}
+                title={article.title}
+                venue={article.event!.venue}
+                dateRange={fmtRange(article.event!.startDate, article.event!.endDate)}
+                price={article.event!.price}
+                tags={article.tagIds.flatMap((tid) => {
+                  const t = getTagById(tid)
+                  return t ? [t.name] : []
+                })}
+                headingAs="h2"
+              />
             ))}
           </ul>
         </div>

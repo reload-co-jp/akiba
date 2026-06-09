@@ -1,6 +1,10 @@
 import Link from "next/link"
 import { getAllArticles, getArticleImage } from "lib/articles"
 import { absoluteUrl } from "lib/site"
+import { fmtRange } from "lib/format"
+import { Breadcrumb } from "components/breadcrumb"
+import { EventSection } from "components/event-section"
+import { CalListItem } from "components/cal-list-item"
 
 export const metadata = {
   title: "秋葉原イベントカレンダー【月別】アニメ・ゲーム・コラボカフェまとめ",
@@ -15,9 +19,6 @@ export const metadata = {
     type: "website",
   },
 }
-
-const fmtRange = (s: string, e: string) =>
-  `${s.slice(5).replace("-", "/")} 〜 ${e.slice(5).replace("-", "/")}`
 
 const fmtMonthLabel = (ym: string) => {
   const [y, m] = ym.split("-")
@@ -71,17 +72,13 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="events-page">
-        <nav className="breadcrumb" aria-label="パンくずリスト">
-          <ol className="breadcrumb__list">
-            <li className="breadcrumb__item">
-              <Link href="/">ホーム</Link>
-            </li>
-            <li className="breadcrumb__item">
-              <Link href="/events/">イベント</Link>
-            </li>
-            <li className="breadcrumb__item breadcrumb__item--current">月別イベント</li>
-          </ol>
-        </nav>
+        <Breadcrumb
+          items={[
+            { label: "ホーム", href: "/" },
+            { label: "イベント", href: "/events/" },
+            { label: "月別イベント" },
+          ]}
+        />
 
         <header className="events-page__header">
           <p className="events-page__kicker">Monthly Event Calendar</p>
@@ -95,42 +92,34 @@ const Page = () => {
           <p className="events-page__empty">今後のイベント情報はありません。</p>
         ) : (
           months.map(([ym, events]) => (
-            <section key={ym} className="today-section" aria-labelledby={`month-${ym}`}>
-              <div className="today-section__header">
-                <h2 id={`month-${ym}`} className="today-section__title">
+            <EventSection
+              key={ym}
+              id={`month-${ym}`}
+              title={
+                <>
                   {fmtMonthLabel(ym)}
                   <span className="today-month-count">（{events.length}件）</span>
-                </h2>
-              </div>
+                </>
+              }
+            >
               <ul className="cal__list">
                 {events.map((a) => (
-                  <li key={a.id}>
-                    <Link href={`/articles/${a.slug}/`} className="cal__list-item">
-                      <img
-                        className="cal__list-image"
-                        src={getArticleImage(a).src}
-                        alt={getArticleImage(a).alt}
-                      />
-                      <time className="cal__list-date" dateTime={a.event!.startDate}>
-                        {fmtRange(a.event!.startDate, a.event!.endDate)}
-                      </time>
-                      <span className="cal__list-title">{a.title}</span>
-                      <span className="cal__list-venue">{a.event!.venue}</span>
-                    </Link>
-                  </li>
+                  <CalListItem
+                    key={a.id}
+                    href={`/articles/${a.slug}/`}
+                    image={getArticleImage(a)}
+                    dateTime={a.event!.startDate}
+                    dateLabel={fmtRange(a.event!.startDate, a.event!.endDate)}
+                    title={a.title}
+                    venue={a.event!.venue}
+                  />
                 ))}
               </ul>
-            </section>
+            </EventSection>
           ))
         )}
 
-        <section className="today-section" aria-labelledby="related-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Related</p>
-            <h2 id="related-heading" className="today-section__title">
-              関連リンク
-            </h2>
-          </div>
+        <EventSection id="related-heading" kicker="Related" title="関連リンク">
           <ul className="today-related">
             <li>
               <Link href="/events/today/" className="today-related__link">
@@ -158,7 +147,7 @@ const Page = () => {
               </Link>
             </li>
           </ul>
-        </section>
+        </EventSection>
       </div>
     </>
   )

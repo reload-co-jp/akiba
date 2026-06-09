@@ -1,8 +1,15 @@
 import Link from "next/link"
 import { getAllArticles, getArticleImage, getEnglishEventVenue, getEnglishEventPrice } from "lib/articles"
 import { absoluteUrl } from "lib/site"
+import { fmtRange } from "lib/format"
+import { Breadcrumb } from "components/breadcrumb"
+import { EventSection } from "components/event-section"
+import { CalListItem } from "components/cal-list-item"
+import { EventCard } from "components/event-card"
 
 const POPUP_TAG_IDS = [17, 128, 129, 196, 54, 62]
+
+const EN_LABELS = { venue: "Venue", dates: "Dates", price: "Price" }
 
 export const metadata = {
   title: "Akihabara Popup Stores | Ongoing & Upcoming Limited Shops",
@@ -27,9 +34,6 @@ export const metadata = {
     locale: "en_US",
   },
 }
-
-const fmtRange = (s: string, e: string) =>
-  `${s.slice(5).replace("-", "/")} – ${e.slice(5).replace("-", "/")}`
 
 const Page = () => {
   const today = new Date().toISOString().slice(0, 10)
@@ -60,8 +64,7 @@ const Page = () => {
       "@type": "CollectionPage",
       url: pageUrl,
       name: "Akihabara Popup Stores",
-      description:
-        "Popup stores and limited shops currently open and upcoming in Akihabara.",
+      description: "Popup stores and limited shops currently open and upcoming in Akihabara.",
       inLanguage: "en",
     },
     ...(ongoing.length > 0
@@ -109,17 +112,14 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="events-page">
-        <nav className="breadcrumb" aria-label="Breadcrumb">
-          <ol className="breadcrumb__list">
-            <li className="breadcrumb__item">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="breadcrumb__item">
-              <Link href="/en/events/">Events</Link>
-            </li>
-            <li className="breadcrumb__item breadcrumb__item--current">Popup Stores</li>
-          </ol>
-        </nav>
+        <Breadcrumb
+          ariaLabel="Breadcrumb"
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Events", href: "/en/events/" },
+            { label: "Popup Stores" },
+          ]}
+        />
 
         <header className="events-page__header">
           <p className="events-page__kicker">Popup Store in Akihabara</p>
@@ -133,93 +133,58 @@ const Page = () => {
           stores below.
         </p>
 
-        <section className="today-section" aria-labelledby="ongoing-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Ongoing</p>
-            <h2 id="ongoing-heading" className="today-section__title">
-              Ongoing Popup Stores ({ongoing.length})
-            </h2>
-          </div>
+        <EventSection
+          id="ongoing-heading"
+          kicker="Ongoing"
+          title={`Ongoing Popup Stores (${ongoing.length})`}
+        >
           {ongoing.length === 0 ? (
             <p className="events-page__empty">No popup stores currently open.</p>
           ) : (
             <ul className="events-list">
               {ongoing.map((a) => (
-                <li key={a.id}>
-                  <Link href={`/en/articles/${a.slug}/`} className="events-card-link">
-                    <article className="events-card events-card--with-image">
-                      <img
-                        className="events-card__image"
-                        src={getArticleImage(a).src}
-                        alt={getArticleImage(a).alt}
-                      />
-                      <div>
-                        <h3 className="events-card__title">{a.en!.title}</h3>
-                        <dl className="events-card__meta">
-                          <dt>Venue</dt>
-                          <dd>{getEnglishEventVenue(a)}</dd>
-                          <dt>Dates</dt>
-                          <dd>{fmtRange(a.event!.startDate, a.event!.endDate)}</dd>
-                          <dt>Price</dt>
-                          <dd>{getEnglishEventPrice(a)}</dd>
-                        </dl>
-                      </div>
-                    </article>
-                  </Link>
-                  {a.sources?.[0]?.url && (
-                    <a
-                      href={a.sources[0].url}
-                      className="today-official-link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      ↗ {a.sources[0].label}
-                    </a>
-                  )}
-                </li>
+                <EventCard
+                  key={a.id}
+                  href={`/en/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  title={a.en!.title}
+                  venue={getEnglishEventVenue(a) ?? a.event!.venue}
+                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate, "–")}
+                  price={getEnglishEventPrice(a) ?? a.event!.price}
+                  sourceUrl={a.sources?.[0]?.url}
+                  sourceLabel={a.sources?.[0]?.label}
+                  labels={EN_LABELS}
+                />
               ))}
             </ul>
           )}
-        </section>
+        </EventSection>
 
-        <section className="today-section" aria-labelledby="upcoming-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Upcoming</p>
-            <h2 id="upcoming-heading" className="today-section__title">
-              Upcoming Popup Stores ({upcoming.length})
-            </h2>
-          </div>
+        <EventSection
+          id="upcoming-heading"
+          kicker="Upcoming"
+          title={`Upcoming Popup Stores (${upcoming.length})`}
+        >
           {upcoming.length === 0 ? (
             <p className="events-page__empty">No upcoming popup stores.</p>
           ) : (
             <ul className="cal__list">
               {upcoming.map((a) => (
-                <li key={a.id}>
-                  <Link href={`/en/articles/${a.slug}/`} className="cal__list-item">
-                    <img
-                      className="cal__list-image"
-                      src={getArticleImage(a).src}
-                      alt={getArticleImage(a).alt}
-                    />
-                    <time className="cal__list-date" dateTime={a.event!.startDate}>
-                      from {a.event!.startDate.slice(5).replace("-", "/")}
-                    </time>
-                    <span className="cal__list-title">{a.en!.title}</span>
-                    <span className="cal__list-venue">{getEnglishEventVenue(a)}</span>
-                  </Link>
-                </li>
+                <CalListItem
+                  key={a.id}
+                  href={`/en/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  dateTime={a.event!.startDate}
+                  dateLabel={`from ${a.event!.startDate.slice(5).replace("-", "/")}`}
+                  title={a.en!.title}
+                  venue={getEnglishEventVenue(a) ?? a.event!.venue}
+                />
               ))}
             </ul>
           )}
-        </section>
+        </EventSection>
 
-        <section className="today-section" aria-labelledby="related-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Related</p>
-            <h2 id="related-heading" className="today-section__title">
-              Related Pages
-            </h2>
-          </div>
+        <EventSection id="related-heading" kicker="Related" title="Related Pages">
           <ul className="today-related">
             <li>
               <Link href="/en/events/today/" className="today-related__link">
@@ -242,7 +207,7 @@ const Page = () => {
               </Link>
             </li>
           </ul>
-        </section>
+        </EventSection>
       </div>
     </>
   )

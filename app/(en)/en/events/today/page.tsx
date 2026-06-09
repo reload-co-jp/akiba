@@ -10,6 +10,9 @@ import {
   getTagById,
 } from "lib/articles"
 import { absoluteUrl, siteName } from "lib/site"
+import { Breadcrumb } from "components/breadcrumb"
+import { EventSection } from "components/event-section"
+import { CalListItem } from "components/cal-list-item"
 import { TodayVenueFilter } from "./today-venue-filter"
 import { TodayCategoryFilter } from "./today-category-filter"
 
@@ -136,17 +139,14 @@ const Page = () => {
       />
 
       <div className="events-page">
-        <nav className="breadcrumb" aria-label="Breadcrumb">
-          <ol className="breadcrumb__list">
-            <li className="breadcrumb__item">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="breadcrumb__item">
-              <Link href="/en/events/">Events</Link>
-            </li>
-            <li className="breadcrumb__item breadcrumb__item--current">Today&apos;s Events</li>
-          </ol>
-        </nav>
+        <Breadcrumb
+          ariaLabel="Breadcrumb"
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Events", href: "/en/events/" },
+            { label: "Today's Events" },
+          ]}
+        />
 
         <header className="events-page__header">
           <p className="events-page__kicker">Today&apos;s Events in Akihabara</p>
@@ -163,14 +163,7 @@ const Page = () => {
           and category.
         </p>
 
-        {/* Ongoing Today */}
-        <section className="today-section" aria-labelledby="today-events-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Ongoing Today</p>
-            <h2 id="today-events-heading" className="today-section__title">
-              Events in Akihabara Today
-            </h2>
-          </div>
+        <EventSection id="today-events-heading" kicker="Ongoing Today" title="Events in Akihabara Today">
           <TodayVenueFilter
             events={ongoingEvents.map((a) => ({
               id: a.id,
@@ -190,16 +183,9 @@ const Page = () => {
               sourceLabel: a.sources?.[0]?.label,
             }))}
           />
-        </section>
+        </EventSection>
 
-        {/* By Category */}
-        <section className="today-section" aria-labelledby="category-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">By Category</p>
-            <h2 id="category-heading" className="today-section__title">
-              Events by Category
-            </h2>
-          </div>
+        <EventSection id="category-heading" kicker="By Category" title="Events by Category">
           <TodayCategoryFilter
             groups={categorized.map((g) => ({
               id: g.id,
@@ -217,80 +203,49 @@ const Page = () => {
               })),
             }))}
           />
-        </section>
+        </EventSection>
 
-        {/* Ending Soon */}
-        <section className="today-section" aria-labelledby="ending-soon-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Ending Soon</p>
-            <h2 id="ending-soon-heading" className="today-section__title">
-              Ending Soon
-            </h2>
-          </div>
+        <EventSection id="ending-soon-heading" kicker="Ending Soon" title="Ending Soon">
           {endingSoonEvents.length === 0 ? (
             <p className="events-page__empty">No events ending within 3 days.</p>
           ) : (
             <ul className="cal__list">
               {endingSoonEvents.map((a) => (
-                <li key={a.id}>
-                  <Link href={`/en/articles/${a.slug}/`} className="cal__list-item">
-                    <img
-                      className="cal__list-image"
-                      src={getArticleImage(a).src}
-                      alt={getArticleImage(a).alt}
-                    />
-                    <time className="cal__list-date" dateTime={a.event!.endDate}>
-                      ends {a.event!.endDate.slice(5).replace("-", "/")}
-                    </time>
-                    <span className="cal__list-title">{a.en!.title}</span>
-                    <span className="cal__list-venue">{getEnglishEventVenue(a)}</span>
-                  </Link>
-                </li>
+                <CalListItem
+                  key={a.id}
+                  href={`/en/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  dateTime={a.event!.endDate}
+                  dateLabel={`ends ${a.event!.endDate.slice(5).replace("-", "/")}`}
+                  title={a.en!.title}
+                  venue={getEnglishEventVenue(a) ?? a.event!.venue}
+                />
               ))}
             </ul>
           )}
-        </section>
+        </EventSection>
 
-        {/* Coming This Week */}
-        <section className="today-section" aria-labelledby="upcoming-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Coming This Week</p>
-            <h2 id="upcoming-heading" className="today-section__title">
-              Starting This Week
-            </h2>
-          </div>
+        <EventSection id="upcoming-heading" kicker="Coming This Week" title="Starting This Week">
           {upcomingEvents.length === 0 ? (
             <p className="events-page__empty">No events starting this week.</p>
           ) : (
             <ul className="cal__list">
               {upcomingEvents.map((a) => (
-                <li key={a.id}>
-                  <Link href={`/en/articles/${a.slug}/`} className="cal__list-item">
-                    <img
-                      className="cal__list-image"
-                      src={getArticleImage(a).src}
-                      alt={getArticleImage(a).alt}
-                    />
-                    <time className="cal__list-date" dateTime={a.event!.startDate}>
-                      from {a.event!.startDate.slice(5).replace("-", "/")}
-                    </time>
-                    <span className="cal__list-title">{a.en!.title}</span>
-                    <span className="cal__list-venue">{getEnglishEventVenue(a)}</span>
-                  </Link>
-                </li>
+                <CalListItem
+                  key={a.id}
+                  href={`/en/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  dateTime={a.event!.startDate}
+                  dateLabel={`from ${a.event!.startDate.slice(5).replace("-", "/")}`}
+                  title={a.en!.title}
+                  venue={getEnglishEventVenue(a) ?? a.event!.venue}
+                />
               ))}
             </ul>
           )}
-        </section>
+        </EventSection>
 
-        {/* Popular Venues */}
-        <section className="today-section" aria-labelledby="venues-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Popular Venues</p>
-            <h2 id="venues-heading" className="today-section__title">
-              Popular Venues in Akihabara
-            </h2>
-          </div>
+        <EventSection id="venues-heading" kicker="Popular Venues" title="Popular Venues in Akihabara">
           <ul className="today-venues-grid" aria-label="Event venues in Akihabara">
             {topVenues.map(({ venue }) => (
               <li key={venue} className="today-venues-grid__item">
@@ -298,16 +253,9 @@ const Page = () => {
               </li>
             ))}
           </ul>
-        </section>
+        </EventSection>
 
-        {/* Related Links */}
-        <section className="today-section" aria-labelledby="related-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Related</p>
-            <h2 id="related-heading" className="today-section__title">
-              Related Pages
-            </h2>
-          </div>
+        <EventSection id="related-heading" kicker="Related" title="Related Pages">
           <ul className="today-related">
             <li>
               <Link href="/en/events/this-week/" className="today-related__link">
@@ -335,7 +283,7 @@ const Page = () => {
               </Link>
             </li>
           </ul>
-        </section>
+        </EventSection>
       </div>
     </>
   )

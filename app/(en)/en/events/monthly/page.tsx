@@ -1,6 +1,10 @@
 import Link from "next/link"
 import { getAllArticles, getArticleImage, getEnglishEventVenue } from "lib/articles"
 import { absoluteUrl } from "lib/site"
+import { fmtRange } from "lib/format"
+import { Breadcrumb } from "components/breadcrumb"
+import { EventSection } from "components/event-section"
+import { CalListItem } from "components/cal-list-item"
 
 export const metadata = {
   title: "Akihabara Event Calendar by Month | Anime, Games, Collab Cafe",
@@ -25,9 +29,6 @@ export const metadata = {
     locale: "en_US",
   },
 }
-
-const fmtRange = (s: string, e: string) =>
-  `${s.slice(5).replace("-", "/")} – ${e.slice(5).replace("-", "/")}`
 
 const fmtMonthLabel = (ym: string) => {
   const [y, m] = ym.split("-")
@@ -82,17 +83,14 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="events-page">
-        <nav className="breadcrumb" aria-label="Breadcrumb">
-          <ol className="breadcrumb__list">
-            <li className="breadcrumb__item">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="breadcrumb__item">
-              <Link href="/en/events/">Events</Link>
-            </li>
-            <li className="breadcrumb__item breadcrumb__item--current">Monthly Calendar</li>
-          </ol>
-        </nav>
+        <Breadcrumb
+          ariaLabel="Breadcrumb"
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Events", href: "/en/events/" },
+            { label: "Monthly Calendar" },
+          ]}
+        />
 
         <header className="events-page__header">
           <p className="events-page__kicker">Monthly Event Calendar</p>
@@ -103,42 +101,34 @@ const Page = () => {
           <p className="events-page__empty">No upcoming events.</p>
         ) : (
           months.map(([ym, events]) => (
-            <section key={ym} className="today-section" aria-labelledby={`month-${ym}`}>
-              <div className="today-section__header">
-                <h2 id={`month-${ym}`} className="today-section__title">
+            <EventSection
+              key={ym}
+              id={`month-${ym}`}
+              title={
+                <>
                   {fmtMonthLabel(ym)}
                   <span className="today-month-count"> ({events.length})</span>
-                </h2>
-              </div>
+                </>
+              }
+            >
               <ul className="cal__list">
                 {events.map((a) => (
-                  <li key={a.id}>
-                    <Link href={`/en/articles/${a.slug}/`} className="cal__list-item">
-                      <img
-                        className="cal__list-image"
-                        src={getArticleImage(a).src}
-                        alt={getArticleImage(a).alt}
-                      />
-                      <time className="cal__list-date" dateTime={a.event!.startDate}>
-                        {fmtRange(a.event!.startDate, a.event!.endDate)}
-                      </time>
-                      <span className="cal__list-title">{a.en!.title}</span>
-                      <span className="cal__list-venue">{getEnglishEventVenue(a)}</span>
-                    </Link>
-                  </li>
+                  <CalListItem
+                    key={a.id}
+                    href={`/en/articles/${a.slug}/`}
+                    image={getArticleImage(a)}
+                    dateTime={a.event!.startDate}
+                    dateLabel={fmtRange(a.event!.startDate, a.event!.endDate, "–")}
+                    title={a.en!.title}
+                    venue={getEnglishEventVenue(a) ?? a.event!.venue}
+                  />
                 ))}
               </ul>
-            </section>
+            </EventSection>
           ))
         )}
 
-        <section className="today-section" aria-labelledby="related-heading">
-          <div className="today-section__header">
-            <p className="today-section__kicker">Related</p>
-            <h2 id="related-heading" className="today-section__title">
-              Related Pages
-            </h2>
-          </div>
+        <EventSection id="related-heading" kicker="Related" title="Related Pages">
           <ul className="today-related">
             <li>
               <Link href="/en/events/today/" className="today-related__link">
@@ -166,7 +156,7 @@ const Page = () => {
               </Link>
             </li>
           </ul>
-        </section>
+        </EventSection>
       </div>
     </>
   )
