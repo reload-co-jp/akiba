@@ -3,6 +3,7 @@ import {
   getOngoingEvents,
   getArticleImage,
   getTagById,
+  getTagEnName,
   getEnglishEventVenue,
   getEnglishEventPrice,
 } from "lib/articles"
@@ -106,7 +107,7 @@ const Page = () => {
                 price={getEnglishEventPrice(article) ?? article.event!.price}
                 tags={article.tagIds.flatMap((tid) => {
                   const t = getTagById(tid)
-                  return t ? [t.name] : []
+                  return t ? [getTagEnName(t)] : []
                 })}
                 headingAs="h2"
                 labels={EN_LABELS}

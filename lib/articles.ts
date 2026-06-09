@@ -19,12 +19,15 @@ export const getAuthorById = (id: number): Author | undefined =>
 export type Tag = {
   id: number
   name: string
+  nameEn?: string
 }
 
 export const getAllTagsData = (): Tag[] => tagsData as Tag[]
 
 export const getTagById = (id: number): Tag | undefined =>
   (tagsData as Tag[]).find((t) => t.id === id)
+
+export const getTagEnName = (tag: Tag): string => tag.nameEn ?? tag.name
 
 export type LocaleContent = {
   title: string

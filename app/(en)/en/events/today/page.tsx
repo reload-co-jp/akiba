@@ -8,6 +8,7 @@ import {
   getEnglishEventVenue,
   getEnglishEventPrice,
   getTagById,
+  getTagEnName,
 } from "lib/articles"
 import { absoluteUrl, siteName } from "lib/site"
 import { Breadcrumb } from "components/breadcrumb"
@@ -76,7 +77,7 @@ const Page = () => {
     image: a.image,
     tags: a.tagIds.flatMap((tid) => {
       const t = getTagById(tid)
-      return t ? [t.name] : []
+      return t ? [getTagEnName(t)] : []
     }),
     event: {
       venue: getEnglishEventVenue(a) ?? a.event!.venue,

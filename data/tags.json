@@ -1,946 +1,238 @@
 [
-  {
-    "id": 1,
-    "name": "1年A組のモンスター"
-  },
-  {
-    "id": 2,
-    "name": "2k540"
-  },
-  {
-    "id": 3,
-    "name": "AI"
-  },
-  {
-    "id": 4,
-    "name": "AIR 3331"
-  },
-  {
-    "id": 5,
-    "name": "AKIBA FAN CUBE"
-  },
-  {
-    "id": 6,
-    "name": "AR"
-  },
-  {
-    "id": 7,
-    "name": "ASMR"
-  },
-  {
-    "id": 8,
-    "name": "BEEP秋葉原店"
-  },
-  {
-    "id": 9,
-    "name": "BL"
-  },
-  {
-    "id": 10,
-    "name": "FK comics"
-  },
-  {
-    "id": 11,
-    "name": "Fate/Grand Order"
-  },
-  {
-    "id": 12,
-    "name": "GA文庫"
-  },
-  {
-    "id": 13,
-    "name": "GiGO"
-  },
-  {
-    "id": 15,
-    "name": "JRE CARD"
-  },
-  {
-    "id": 16,
-    "name": "JRE POINT"
-  },
-  {
-    "id": 18,
-    "name": "RAKU SPA 1010 神田"
-  },
-  {
-    "id": 19,
-    "name": "REAL AKIBA BOYZ"
-  },
-  {
-    "id": 20,
-    "name": "REJECT"
-  },
-  {
-    "id": 21,
-    "name": "SAO"
-  },
-  {
-    "id": 22,
-    "name": "SEEKBASE"
-  },
-  {
-    "id": 23,
-    "name": "SISGA JAPAN"
-  },
-  {
-    "id": 24,
-    "name": "SOUNDNOTE AKIHABARA"
-  },
-  {
-    "id": 25,
-    "name": "STU48"
-  },
-  {
-    "id": 26,
-    "name": "TOPPA"
-  },
-  {
-    "id": 27,
-    "name": "VR"
-  },
-  {
-    "id": 28,
-    "name": "VRChat"
-  },
-  {
-    "id": 29,
-    "name": "VTuber"
-  },
-  {
-    "id": 30,
-    "name": "VketReal"
-  },
-  {
-    "id": 31,
-    "name": "XR"
-  },
-  {
-    "id": 32,
-    "name": "pop'n music"
-  },
-  {
-    "id": 33,
-    "name": "あみあみ"
-  },
-  {
-    "id": 34,
-    "name": "お隣の天使様"
-  },
-  {
-    "id": 35,
-    "name": "かぴばらしょっぷ"
-  },
-  {
-    "id": 36,
-    "name": "ご注文はうさぎですか？"
-  },
-  {
-    "id": 37,
-    "name": "とある科学の超電磁砲T"
-  },
-  {
-    "id": 38,
-    "name": "めいどりーみん"
-  },
-  {
-    "id": 39,
-    "name": "ものづくり"
-  },
-  {
-    "id": 40,
-    "name": "ゆめ∞みた"
-  },
-  {
-    "id": 41,
-    "name": "ゆゆ式"
-  },
-  {
-    "id": 42,
-    "name": "アイドル"
-  },
-  {
-    "id": 43,
-    "name": "アキバCOギャラリー"
-  },
-  {
-    "id": 44,
-    "name": "アキバ・スクエア"
-  },
-  {
-    "id": 45,
-    "name": "アクセサリー"
-  },
-  {
-    "id": 46,
-    "name": "アトレ秋葉原"
-  },
-  {
-    "id": 47,
-    "name": "アニメ"
-  },
-  {
-    "id": 48,
-    "name": "アニメイト"
-  },
-  {
-    "id": 49,
-    "name": "アニメ化"
-  },
-  {
-    "id": 50,
-    "name": "イベント"
-  },
-  {
-    "id": 51,
-    "name": "エンタメ"
-  },
-  {
-    "id": 52,
-    "name": "オタクに優しいギャルはいない!?"
-  },
-  {
-    "id": 53,
-    "name": "オライリー"
-  },
-  {
-    "id": 54,
-    "name": "オンリーショップ"
-  },
-  {
-    "id": 55,
-    "name": "オーディオ"
-  },
-  {
-    "id": 56,
-    "name": "オープン"
-  },
-  {
-    "id": 57,
-    "name": "カフェ"
-  },
-  {
-    "id": 58,
-    "name": "カラオケの鉄人"
-  },
-  {
-    "id": 59,
-    "name": "カルポップ"
-  },
-  {
-    "id": 60,
-    "name": "カンファレンス"
-  },
-  {
-    "id": 61,
-    "name": "キャラクター"
-  },
-  {
-    "id": 62,
-    "name": "キャラポップストア"
-  },
-  {
-    "id": 63,
-    "name": "キャンペーン"
-  },
-  {
-    "id": 64,
-    "name": "キュアメイドカフェ"
-  },
-  {
-    "id": 65,
-    "name": "クイーンズブレイド"
-  },
-  {
-    "id": 66,
-    "name": "グッドスマイルカンパニー"
-  },
-  {
-    "id": 67,
-    "name": "グノーシア"
-  },
-  {
-    "id": 68,
-    "name": "グランエンタス"
-  },
-  {
-    "id": 69,
-    "name": "グリッドマン"
-  },
-  {
-    "id": 70,
-    "name": "グルメ"
-  },
-  {
-    "id": 71,
-    "name": "ゲマくじ"
-  },
-  {
-    "id": 72,
-    "name": "ゲーマーズ"
-  },
-  {
-    "id": 73,
-    "name": "ゲーミングデバイス"
-  },
-  {
-    "id": 74,
-    "name": "ゲーム"
-  },
-  {
-    "id": 75,
-    "name": "ゲーム開発"
-  },
-  {
-    "id": 76,
-    "name": "コスプレ"
-  },
-  {
-    "id": 77,
-    "name": "コトブキヤ"
-  },
-  {
-    "id": 78,
-    "name": "コミック"
-  },
-  {
-    "id": 79,
-    "name": "コミック電撃だいおうじ"
-  },
-  {
-    "id": 80,
-    "name": "コラボ"
-  },
-  {
-    "id": 81,
-    "name": "コラボカフェ"
-  },
-  {
-    "id": 82,
-    "name": "コラボ風呂"
-  },
-  {
-    "id": 83,
-    "name": "ゴディバ"
-  },
-  {
-    "id": 84,
-    "name": "サイバーセキュリティ"
-  },
-  {
-    "id": 85,
-    "name": "サイレント・ウィッチ"
-  },
-  {
-    "id": 86,
-    "name": "サイン会"
-  },
-  {
-    "id": 87,
-    "name": "サイン本"
-  },
-  {
-    "id": 88,
-    "name": "ショップ"
-  },
-  {
-    "id": 89,
-    "name": "ジャズ"
-  },
-  {
-    "id": 90,
-    "name": "スイーツ"
-  },
-  {
-    "id": 91,
-    "name": "スポーツ"
-  },
-  {
-    "id": 92,
-    "name": "ゾンビランドサガ"
-  },
-  {
-    "id": 93,
-    "name": "タリーズコーヒー"
-  },
-  {
-    "id": 94,
-    "name": "チケット"
-  },
-  {
-    "id": 95,
-    "name": "デジタルフィギュア"
-  },
-  {
-    "id": 96,
-    "name": "デジモン"
-  },
-  {
-    "id": 97,
-    "name": "デジモンアドベンチャー"
-  },
-  {
-    "id": 98,
-    "name": "デート・ア・ライブ"
-  },
-  {
-    "id": 99,
-    "name": "トリッカル"
-  },
-  {
-    "id": 100,
-    "name": "トレカ"
-  },
-  {
-    "id": 101,
-    "name": "トークイベント"
-  },
-  {
-    "id": 103,
-    "name": "ドムドムハンバーガー"
-  },
-  {
-    "id": 104,
-    "name": "ドラゴンクエスト"
-  },
-  {
-    "id": 105,
-    "name": "ドローン"
-  },
-  {
-    "id": 106,
-    "name": "ネコぱら"
-  },
-  {
-    "id": 107,
-    "name": "ハンドメイド"
-  },
-  {
-    "id": 108,
-    "name": "バンドリ！"
-  },
-  {
-    "id": 109,
-    "name": "ビジネスイベント"
-  },
-  {
-    "id": 110,
-    "name": "ファシリテーション"
-  },
-  {
-    "id": 111,
-    "name": "ファンタジア文庫"
-  },
-  {
-    "id": 112,
-    "name": "ファンミーティング"
-  },
-  {
-    "id": 113,
-    "name": "フィギュア"
-  },
-  {
-    "id": 114,
-    "name": "フェア"
-  },
-  {
-    "id": 115,
-    "name": "フードフェス"
-  },
-  {
-    "id": 116,
-    "name": "ブシロード"
-  },
-  {
-    "id": 117,
-    "name": "ブラウンダスト2"
-  },
-  {
-    "id": 118,
-    "name": "ブルーロック"
-  },
-  {
-    "id": 119,
-    "name": "プライズフィギュア"
-  },
-  {
-    "id": 120,
-    "name": "プリズマ☆イリヤ"
-  },
-  {
-    "id": 121,
-    "name": "プリンセスラバー！"
-  },
-  {
-    "id": 122,
-    "name": "プログラミング"
-  },
-  {
-    "id": 123,
-    "name": "プロレス"
-  },
-  {
-    "id": 124,
-    "name": "ベルサール秋葉原"
-  },
-  {
-    "id": 125,
-    "name": "ホテル"
-  },
-  {
-    "id": 126,
-    "name": "ホビー"
-  },
-  {
-    "id": 127,
-    "name": "ボークス"
-  },
-  {
-    "id": 129,
-    "name": "ポップアップストア"
-  },
-  {
-    "id": 130,
-    "name": "ミュージアム"
-  },
-  {
-    "id": 131,
-    "name": "メイドカフェ"
-  },
-  {
-    "id": 132,
-    "name": "メタバース"
-  },
-  {
-    "id": 133,
-    "name": "メダリスト"
-  },
-  {
-    "id": 134,
-    "name": "モンスターハンター"
-  },
-  {
-    "id": 135,
-    "name": "モンハン酒場"
-  },
-  {
-    "id": 136,
-    "name": "ユニコ"
-  },
-  {
-    "id": 137,
-    "name": "ヨガ"
-  },
-  {
-    "id": 138,
-    "name": "ヨドバシAkiba"
-  },
-  {
-    "id": 139,
-    "name": "ライブ"
-  },
-  {
-    "id": 140,
-    "name": "ライブハウス"
-  },
-  {
-    "id": 141,
-    "name": "ラブライブ！"
-  },
-  {
-    "id": 142,
-    "name": "リィンカーネーションの花弁"
-  },
-  {
-    "id": 143,
-    "name": "リゼロ"
-  },
-  {
-    "id": 144,
-    "name": "リニューアル"
-  },
-  {
-    "id": 145,
-    "name": "リユース"
-  },
-  {
-    "id": 146,
-    "name": "リリースイベント"
-  },
-  {
-    "id": 147,
-    "name": "ルイーダの酒場"
-  },
-  {
-    "id": 148,
-    "name": "ロボット"
-  },
-  {
-    "id": 149,
-    "name": "ワテラス"
-  },
-  {
-    "id": 150,
-    "name": "ワークショップ"
-  },
-  {
-    "id": 151,
-    "name": "一式さんは恋を知りたい。"
-  },
-  {
-    "id": 152,
-    "name": "一時休業"
-  },
-  {
-    "id": 153,
-    "name": "上伊那ぼたん"
-  },
-  {
-    "id": 154,
-    "name": "五等分の花嫁"
-  },
-  {
-    "id": 155,
-    "name": "伊藤彩沙"
-  },
-  {
-    "id": 156,
-    "name": "体験"
-  },
-  {
-    "id": 157,
-    "name": "保護猫"
-  },
-  {
-    "id": 158,
-    "name": "俳優イベント"
-  },
-  {
-    "id": 159,
-    "name": "俺だけレベルアップな件"
-  },
-  {
-    "id": 160,
-    "name": "公演"
-  },
-  {
-    "id": 161,
-    "name": "再オープン"
-  },
-  {
-    "id": 162,
-    "name": "写真集"
-  },
-  {
-    "id": 163,
-    "name": "初音ミク"
-  },
-  {
-    "id": 164,
-    "name": "周年"
-  },
-  {
-    "id": 165,
-    "name": "呪術廻戦"
-  },
-  {
-    "id": 166,
-    "name": "地域イベント"
-  },
-  {
-    "id": 167,
-    "name": "声優"
-  },
-  {
-    "id": 168,
-    "name": "声優イベント"
-  },
-  {
-    "id": 169,
-    "name": "夢限大みゅーたいぷ"
-  },
-  {
-    "id": 170,
-    "name": "大暮維人"
-  },
-  {
-    "id": 171,
-    "name": "大相撲"
-  },
-  {
-    "id": 172,
-    "name": "子どもの日"
-  },
-  {
-    "id": 173,
-    "name": "学園の姫攻略始めたら修羅場になってた件"
-  },
-  {
-    "id": 174,
-    "name": "安彦良和"
-  },
-  {
-    "id": 175,
-    "name": "小倉唯"
-  },
-  {
-    "id": 176,
-    "name": "小山百代"
-  },
-  {
-    "id": 177,
-    "name": "展示"
-  },
-  {
-    "id": 180,
-    "name": "岩本町"
-  },
-  {
-    "id": 181,
-    "name": "幽☆遊☆白書"
-  },
-  {
-    "id": 182,
-    "name": "怪談"
-  },
-  {
-    "id": 183,
-    "name": "戦姫絶唱シンフォギア"
-  },
-  {
-    "id": 184,
-    "name": "抽選会"
-  },
-  {
-    "id": 185,
-    "name": "握手会"
-  },
-  {
-    "id": 186,
-    "name": "撮影会"
-  },
-  {
-    "id": 187,
-    "name": "新店舗"
-  },
-  {
-    "id": 188,
-    "name": "日本シードル祭り"
-  },
-  {
-    "id": 189,
-    "name": "日本文化"
-  },
-  {
-    "id": 190,
-    "name": "旧友と不倫してみた"
-  },
-  {
-    "id": 191,
-    "name": "映像"
-  },
-  {
-    "id": 193,
-    "name": "書泉ブックタワー"
-  },
-  {
-    "id": 194,
-    "name": "書籍"
-  },
-  {
-    "id": 195,
-    "name": "最遊記"
-  },
-  {
-    "id": 196,
-    "name": "期間限定ショップ"
-  },
-  {
-    "id": 197,
-    "name": "涼宮ハルヒ"
-  },
-  {
-    "id": 198,
-    "name": "無料イベント"
-  },
-  {
-    "id": 199,
-    "name": "特典会"
-  },
-  {
-    "id": 200,
-    "name": "現代アート"
-  },
-  {
-    "id": 201,
-    "name": "生成AI"
-  },
-  {
-    "id": 202,
-    "name": "生誕祭"
-  },
-  {
-    "id": 203,
-    "name": "異世界"
-  },
-  {
-    "id": 204,
-    "name": "研修会"
-  },
-  {
-    "id": 205,
-    "name": "神田明神ホール"
-  },
-  {
-    "id": 206,
-    "name": "私に天使が舞い降りた！"
-  },
-  {
-    "id": 207,
-    "name": "秋葉原"
-  },
-  {
-    "id": 208,
-    "name": "秋葉原CLUB GOODMAN"
-  },
-  {
-    "id": 209,
-    "name": "秋葉原COSMICLAB"
-  },
-  {
-    "id": 210,
-    "name": "秋葉原Galaxy"
-  },
-  {
-    "id": 211,
-    "name": "秋葉原UDX"
-  },
-  {
-    "id": 213,
-    "name": "秋葉原Venus"
-  },
-  {
-    "id": 214,
-    "name": "秋葉原ZEST"
-  },
-  {
-    "id": 215,
-    "name": "秋葉原ダイビル"
-  },
-  {
-    "id": 216,
-    "name": "秋葉原ティア"
-  },
-  {
-    "id": 217,
-    "name": "移転"
-  },
-  {
-    "id": 218,
-    "name": "立花日菜"
-  },
-  {
-    "id": 219,
-    "name": "蓮ノ空女学院スクールアイドルクラブ"
-  },
-  {
-    "id": 220,
-    "name": "複製原画展"
-  },
-  {
-    "id": 221,
-    "name": "親子イベント"
-  },
-  {
-    "id": 222,
-    "name": "試乗会"
-  },
-  {
-    "id": 223,
-    "name": "講座"
-  },
-  {
-    "id": 224,
-    "name": "谷中福丸饅頭"
-  },
-  {
-    "id": 225,
-    "name": "貴族転生"
-  },
-  {
-    "id": 226,
-    "name": "超かぐや姫"
-  },
-  {
-    "id": 227,
-    "name": "週に一度クラスメイトを買う話"
-  },
-  {
-    "id": 228,
-    "name": "銀魂"
-  },
-  {
-    "id": 229,
-    "name": "閉店"
-  },
-  {
-    "id": 230,
-    "name": "雑誌"
-  },
-  {
-    "id": 231,
-    "name": "雑貨"
-  },
-  {
-    "id": 232,
-    "name": "電動アシスト自転車"
-  },
-  {
-    "id": 233,
-    "name": "青ブタ"
-  },
-  {
-    "id": 234,
-    "name": "食べ放題"
-  },
-  {
-    "id": 235,
-    "name": "魔入りました！入間くん"
-  },
-  {
-    "id": 236,
-    "name": "魔法少女にあこがれて"
-  },
-  {
-    "id": 237,
-    "name": "魔法少女ノ因習村"
-  },
-  {
-    "id": 238,
-    "name": "鯉のぼり"
-  },
-  {
-    "id": 239,
-    "name": "コワーキングスペース"
-  },
-  {
-    "id": 240,
-    "name": "シェアオフィス"
-  },
-  {
-    "id": 242,
-    "name": "歴史"
-  },
-  {
-    "id": 243,
-    "name": "神田明神"
-  },
-  {
-    "id": 244,
-    "name": "湯島聖堂"
-  },
-  {
-    "id": 245,
-    "name": "まち歩き"
-  }
+  { "id": 1, "name": "1年A組のモンスター", "nameEn": "Monster of Class 1-A" },
+  { "id": 2, "name": "2k540", "nameEn": "2k540" },
+  { "id": 3, "name": "AI", "nameEn": "AI" },
+  { "id": 4, "name": "AIR 3331", "nameEn": "AIR 3331" },
+  { "id": 5, "name": "AKIBA FAN CUBE", "nameEn": "AKIBA FAN CUBE" },
+  { "id": 6, "name": "AR", "nameEn": "AR" },
+  { "id": 7, "name": "ASMR", "nameEn": "ASMR" },
+  { "id": 8, "name": "BEEP秋葉原店", "nameEn": "BEEP Akihabara" },
+  { "id": 9, "name": "BL", "nameEn": "BL" },
+  { "id": 10, "name": "FK comics", "nameEn": "FK comics" },
+  { "id": 11, "name": "Fate/Grand Order", "nameEn": "Fate/Grand Order" },
+  { "id": 12, "name": "GA文庫", "nameEn": "GA Bunko" },
+  { "id": 13, "name": "GiGO", "nameEn": "GiGO" },
+  { "id": 15, "name": "JRE CARD", "nameEn": "JRE CARD" },
+  { "id": 16, "name": "JRE POINT", "nameEn": "JRE POINT" },
+  { "id": 18, "name": "RAKU SPA 1010 神田", "nameEn": "RAKU SPA 1010 Kanda" },
+  { "id": 19, "name": "REAL AKIBA BOYZ", "nameEn": "REAL AKIBA BOYZ" },
+  { "id": 20, "name": "REJECT", "nameEn": "REJECT" },
+  { "id": 21, "name": "SAO", "nameEn": "SAO" },
+  { "id": 22, "name": "SEEKBASE", "nameEn": "SEEKBASE" },
+  { "id": 23, "name": "SISGA JAPAN", "nameEn": "SISGA JAPAN" },
+  { "id": 24, "name": "SOUNDNOTE AKIHABARA", "nameEn": "SOUNDNOTE AKIHABARA" },
+  { "id": 25, "name": "STU48", "nameEn": "STU48" },
+  { "id": 26, "name": "TOPPA", "nameEn": "TOPPA" },
+  { "id": 27, "name": "VR", "nameEn": "VR" },
+  { "id": 28, "name": "VRChat", "nameEn": "VRChat" },
+  { "id": 29, "name": "VTuber", "nameEn": "VTuber" },
+  { "id": 30, "name": "VketReal", "nameEn": "VketReal" },
+  { "id": 31, "name": "XR", "nameEn": "XR" },
+  { "id": 32, "name": "pop'n music", "nameEn": "pop'n music" },
+  { "id": 33, "name": "あみあみ", "nameEn": "Amiami" },
+  { "id": 34, "name": "お隣の天使様", "nameEn": "The Angel Next Door Spoils Me Rotten" },
+  { "id": 35, "name": "かぴばらしょっぷ", "nameEn": "Kapibara Shop" },
+  { "id": 36, "name": "ご注文はうさぎですか？", "nameEn": "Is the Order a Rabbit?" },
+  { "id": 37, "name": "とある科学の超電磁砲T", "nameEn": "A Certain Scientific Railgun T" },
+  { "id": 38, "name": "めいどりーみん", "nameEn": "Maidreamin" },
+  { "id": 39, "name": "ものづくり", "nameEn": "Craftsmanship" },
+  { "id": 40, "name": "ゆめ∞みた", "nameEn": "Yume∞Mita" },
+  { "id": 41, "name": "ゆゆ式", "nameEn": "Yuyushiki" },
+  { "id": 42, "name": "アイドル", "nameEn": "Idol" },
+  { "id": 43, "name": "アキバCOギャラリー", "nameEn": "Akiba CO Gallery" },
+  { "id": 44, "name": "アキバ・スクエア", "nameEn": "Akiba Square" },
+  { "id": 45, "name": "アクセサリー", "nameEn": "Accessories" },
+  { "id": 46, "name": "アトレ秋葉原", "nameEn": "Atre Akihabara" },
+  { "id": 47, "name": "アニメ", "nameEn": "Anime" },
+  { "id": 48, "name": "アニメイト", "nameEn": "Animate" },
+  { "id": 49, "name": "アニメ化", "nameEn": "Anime Adaptation" },
+  { "id": 50, "name": "イベント", "nameEn": "Event" },
+  { "id": 51, "name": "エンタメ", "nameEn": "Entertainment" },
+  { "id": 52, "name": "オタクに優しいギャルはいない!?", "nameEn": "There's No Way a Gal Would Be Friendly to Otaku!?" },
+  { "id": 53, "name": "オライリー", "nameEn": "O'Reilly" },
+  { "id": 54, "name": "オンリーショップ", "nameEn": "Exclusive Shop" },
+  { "id": 55, "name": "オーディオ", "nameEn": "Audio" },
+  { "id": 56, "name": "オープン", "nameEn": "Opening" },
+  { "id": 57, "name": "カフェ", "nameEn": "Cafe" },
+  { "id": 58, "name": "カラオケの鉄人", "nameEn": "Karaoke no Tetsujin" },
+  { "id": 59, "name": "カルポップ", "nameEn": "Kalpop" },
+  { "id": 60, "name": "カンファレンス", "nameEn": "Conference" },
+  { "id": 61, "name": "キャラクター", "nameEn": "Character" },
+  { "id": 62, "name": "キャラポップストア", "nameEn": "Chara Pop Store" },
+  { "id": 63, "name": "キャンペーン", "nameEn": "Campaign" },
+  { "id": 64, "name": "キュアメイドカフェ", "nameEn": "Cure Maid Cafe" },
+  { "id": 65, "name": "クイーンズブレイド", "nameEn": "Queen's Blade" },
+  { "id": 66, "name": "グッドスマイルカンパニー", "nameEn": "Good Smile Company" },
+  { "id": 67, "name": "グノーシア", "nameEn": "Gnosia" },
+  { "id": 68, "name": "グランエンタス", "nameEn": "Grand Entus" },
+  { "id": 69, "name": "グリッドマン", "nameEn": "GRIDMAN" },
+  { "id": 70, "name": "グルメ", "nameEn": "Food" },
+  { "id": 71, "name": "ゲマくじ", "nameEn": "Gema Kuji" },
+  { "id": 72, "name": "ゲーマーズ", "nameEn": "Gamers" },
+  { "id": 73, "name": "ゲーミングデバイス", "nameEn": "Gaming Devices" },
+  { "id": 74, "name": "ゲーム", "nameEn": "Games" },
+  { "id": 75, "name": "ゲーム開発", "nameEn": "Game Development" },
+  { "id": 76, "name": "コスプレ", "nameEn": "Cosplay" },
+  { "id": 77, "name": "コトブキヤ", "nameEn": "Kotobukiya" },
+  { "id": 78, "name": "コミック", "nameEn": "Comics" },
+  { "id": 79, "name": "コミック電撃だいおうじ", "nameEn": "Comic Dengeki Daioji" },
+  { "id": 80, "name": "コラボ", "nameEn": "Collaboration" },
+  { "id": 81, "name": "コラボカフェ", "nameEn": "Collab Cafe" },
+  { "id": 82, "name": "コラボ風呂", "nameEn": "Collab Bath" },
+  { "id": 83, "name": "ゴディバ", "nameEn": "Godiva" },
+  { "id": 84, "name": "サイバーセキュリティ", "nameEn": "Cybersecurity" },
+  { "id": 85, "name": "サイレント・ウィッチ", "nameEn": "Silent Witch" },
+  { "id": 86, "name": "サイン会", "nameEn": "Autograph Session" },
+  { "id": 87, "name": "サイン本", "nameEn": "Signed Book" },
+  { "id": 88, "name": "ショップ", "nameEn": "Shop" },
+  { "id": 89, "name": "ジャズ", "nameEn": "Jazz" },
+  { "id": 90, "name": "スイーツ", "nameEn": "Sweets" },
+  { "id": 91, "name": "スポーツ", "nameEn": "Sports" },
+  { "id": 92, "name": "ゾンビランドサガ", "nameEn": "Zombie Land Saga" },
+  { "id": 93, "name": "タリーズコーヒー", "nameEn": "Tully's Coffee" },
+  { "id": 94, "name": "チケット", "nameEn": "Ticket" },
+  { "id": 95, "name": "デジタルフィギュア", "nameEn": "Digital Figure" },
+  { "id": 96, "name": "デジモン", "nameEn": "Digimon" },
+  { "id": 97, "name": "デジモンアドベンチャー", "nameEn": "Digimon Adventure" },
+  { "id": 98, "name": "デート・ア・ライブ", "nameEn": "Date A Live" },
+  { "id": 99, "name": "トリッカル", "nameEn": "Trickle" },
+  { "id": 100, "name": "トレカ", "nameEn": "Trading Cards" },
+  { "id": 101, "name": "トークイベント", "nameEn": "Talk Event" },
+  { "id": 103, "name": "ドムドムハンバーガー", "nameEn": "Dom Dom Hamburger" },
+  { "id": 104, "name": "ドラゴンクエスト", "nameEn": "Dragon Quest" },
+  { "id": 105, "name": "ドローン", "nameEn": "Drone" },
+  { "id": 106, "name": "ネコぱら", "nameEn": "Nekopara" },
+  { "id": 107, "name": "ハンドメイド", "nameEn": "Handmade" },
+  { "id": 108, "name": "バンドリ！", "nameEn": "BanG Dream!" },
+  { "id": 109, "name": "ビジネスイベント", "nameEn": "Business Event" },
+  { "id": 110, "name": "ファシリテーション", "nameEn": "Facilitation" },
+  { "id": 111, "name": "ファンタジア文庫", "nameEn": "Fantasia Bunko" },
+  { "id": 112, "name": "ファンミーティング", "nameEn": "Fan Meeting" },
+  { "id": 113, "name": "フィギュア", "nameEn": "Figures" },
+  { "id": 114, "name": "フェア", "nameEn": "Fair" },
+  { "id": 115, "name": "フードフェス", "nameEn": "Food Festival" },
+  { "id": 116, "name": "ブシロード", "nameEn": "Bushiroad" },
+  { "id": 117, "name": "ブラウンダスト2", "nameEn": "Brown Dust 2" },
+  { "id": 118, "name": "ブルーロック", "nameEn": "Blue Lock" },
+  { "id": 119, "name": "プライズフィギュア", "nameEn": "Prize Figure" },
+  { "id": 120, "name": "プリズマ☆イリヤ", "nameEn": "Prisma☆Illya" },
+  { "id": 121, "name": "プリンセスラバー！", "nameEn": "Princess Lover!" },
+  { "id": 122, "name": "プログラミング", "nameEn": "Programming" },
+  { "id": 123, "name": "プロレス", "nameEn": "Pro Wrestling" },
+  { "id": 124, "name": "ベルサール秋葉原", "nameEn": "Bellesalle Akihabara" },
+  { "id": 125, "name": "ホテル", "nameEn": "Hotel" },
+  { "id": 126, "name": "ホビー", "nameEn": "Hobby" },
+  { "id": 127, "name": "ボークス", "nameEn": "Volks" },
+  { "id": 129, "name": "ポップアップストア", "nameEn": "Pop-up Store" },
+  { "id": 130, "name": "ミュージアム", "nameEn": "Museum" },
+  { "id": 131, "name": "メイドカフェ", "nameEn": "Maid Cafe" },
+  { "id": 132, "name": "メタバース", "nameEn": "Metaverse" },
+  { "id": 133, "name": "メダリスト", "nameEn": "Medalist" },
+  { "id": 134, "name": "モンスターハンター", "nameEn": "Monster Hunter" },
+  { "id": 135, "name": "モンハン酒場", "nameEn": "Monster Hunter Tavern" },
+  { "id": 136, "name": "ユニコ", "nameEn": "Unico" },
+  { "id": 137, "name": "ヨガ", "nameEn": "Yoga" },
+  { "id": 138, "name": "ヨドバシAkiba", "nameEn": "Yodobashi Akiba" },
+  { "id": 139, "name": "ライブ", "nameEn": "Live" },
+  { "id": 140, "name": "ライブハウス", "nameEn": "Live House" },
+  { "id": 141, "name": "ラブライブ！", "nameEn": "Love Live!" },
+  { "id": 142, "name": "リィンカーネーションの花弁", "nameEn": "Reincarnation no Kaben" },
+  { "id": 143, "name": "リゼロ", "nameEn": "Re:Zero" },
+  { "id": 144, "name": "リニューアル", "nameEn": "Renewal" },
+  { "id": 145, "name": "リユース", "nameEn": "Resale" },
+  { "id": 146, "name": "リリースイベント", "nameEn": "Release Event" },
+  { "id": 147, "name": "ルイーダの酒場", "nameEn": "Luida's Bar" },
+  { "id": 148, "name": "ロボット", "nameEn": "Robot" },
+  { "id": 149, "name": "ワテラス", "nameEn": "Waterras" },
+  { "id": 150, "name": "ワークショップ", "nameEn": "Workshop" },
+  { "id": 151, "name": "一式さんは恋を知りたい。", "nameEn": "Isshiki-san Wants to Know Love." },
+  { "id": 152, "name": "一時休業", "nameEn": "Temporary Closure" },
+  { "id": 153, "name": "上伊那ぼたん", "nameEn": "Kamiina Botan" },
+  { "id": 154, "name": "五等分の花嫁", "nameEn": "The Quintessential Quintuplets" },
+  { "id": 155, "name": "伊藤彩沙", "nameEn": "Ito Ayasa" },
+  { "id": 156, "name": "体験", "nameEn": "Experience" },
+  { "id": 157, "name": "保護猫", "nameEn": "Rescue Cats" },
+  { "id": 158, "name": "俳優イベント", "nameEn": "Actor Event" },
+  { "id": 159, "name": "俺だけレベルアップな件", "nameEn": "Solo Leveling" },
+  { "id": 160, "name": "公演", "nameEn": "Performance" },
+  { "id": 161, "name": "再オープン", "nameEn": "Reopening" },
+  { "id": 162, "name": "写真集", "nameEn": "Photo Book" },
+  { "id": 163, "name": "初音ミク", "nameEn": "Hatsune Miku" },
+  { "id": 164, "name": "周年", "nameEn": "Anniversary" },
+  { "id": 165, "name": "呪術廻戦", "nameEn": "Jujutsu Kaisen" },
+  { "id": 166, "name": "地域イベント", "nameEn": "Local Event" },
+  { "id": 167, "name": "声優", "nameEn": "Voice Actor" },
+  { "id": 168, "name": "声優イベント", "nameEn": "Voice Actor Event" },
+  { "id": 169, "name": "夢限大みゅーたいぷ", "nameEn": "Mugendai Myu-type" },
+  { "id": 170, "name": "大暮維人", "nameEn": "Ogure Ito" },
+  { "id": 171, "name": "大相撲", "nameEn": "Sumo" },
+  { "id": 172, "name": "子どもの日", "nameEn": "Children's Day" },
+  { "id": 173, "name": "学園の姫攻略始めたら修羅場になってた件", "nameEn": "Gakuen no Hime Kouryaku" },
+  { "id": 174, "name": "安彦良和", "nameEn": "Yoshikazu Yasuhiko" },
+  { "id": 175, "name": "小倉唯", "nameEn": "Ogura Yui" },
+  { "id": 176, "name": "小山百代", "nameEn": "Koyama Momoyo" },
+  { "id": 177, "name": "展示", "nameEn": "Exhibition" },
+  { "id": 180, "name": "岩本町", "nameEn": "Iwamotocho" },
+  { "id": 181, "name": "幽☆遊☆白書", "nameEn": "Yu Yu Hakusho" },
+  { "id": 182, "name": "怪談", "nameEn": "Ghost Story" },
+  { "id": 183, "name": "戦姫絶唱シンフォギア", "nameEn": "Senki Zessho Symphogear" },
+  { "id": 184, "name": "抽選会", "nameEn": "Lottery" },
+  { "id": 185, "name": "握手会", "nameEn": "Handshake Event" },
+  { "id": 186, "name": "撮影会", "nameEn": "Photo Session" },
+  { "id": 187, "name": "新店舗", "nameEn": "New Store" },
+  { "id": 188, "name": "日本シードル祭り", "nameEn": "Japan Cider Festival" },
+  { "id": 189, "name": "日本文化", "nameEn": "Japanese Culture" },
+  { "id": 190, "name": "旧友と不倫してみた", "nameEn": "Affair with an Old Friend" },
+  { "id": 191, "name": "映像", "nameEn": "Video" },
+  { "id": 193, "name": "書泉ブックタワー", "nameEn": "Shosen Book Tower" },
+  { "id": 194, "name": "書籍", "nameEn": "Books" },
+  { "id": 195, "name": "最遊記", "nameEn": "Saiyuki" },
+  { "id": 196, "name": "期間限定ショップ", "nameEn": "Limited-time Shop" },
+  { "id": 197, "name": "涼宮ハルヒ", "nameEn": "Haruhi Suzumiya" },
+  { "id": 198, "name": "無料イベント", "nameEn": "Free Event" },
+  { "id": 199, "name": "特典会", "nameEn": "Benefits Event" },
+  { "id": 200, "name": "現代アート", "nameEn": "Contemporary Art" },
+  { "id": 201, "name": "生成AI", "nameEn": "Generative AI" },
+  { "id": 202, "name": "生誕祭", "nameEn": "Birthday Event" },
+  { "id": 203, "name": "異世界", "nameEn": "Isekai" },
+  { "id": 204, "name": "研修会", "nameEn": "Training Session" },
+  { "id": 205, "name": "神田明神ホール", "nameEn": "Kanda Myojin Hall" },
+  { "id": 206, "name": "私に天使が舞い降りた！", "nameEn": "Wataten!: an Angel Flew Down to Me" },
+  { "id": 207, "name": "秋葉原", "nameEn": "Akihabara" },
+  { "id": 208, "name": "秋葉原CLUB GOODMAN", "nameEn": "Akihabara CLUB GOODMAN" },
+  { "id": 209, "name": "秋葉原COSMICLAB", "nameEn": "Akihabara COSMICLAB" },
+  { "id": 210, "name": "秋葉原Galaxy", "nameEn": "Akihabara Galaxy" },
+  { "id": 211, "name": "秋葉原UDX", "nameEn": "Akihabara UDX" },
+  { "id": 213, "name": "秋葉原Venus", "nameEn": "Akihabara Venus" },
+  { "id": 214, "name": "秋葉原ZEST", "nameEn": "Akihabara ZEST" },
+  { "id": 215, "name": "秋葉原ダイビル", "nameEn": "Akihabara Daibiru" },
+  { "id": 216, "name": "秋葉原ティア", "nameEn": "Akihabara Tia" },
+  { "id": 217, "name": "移転", "nameEn": "Relocation" },
+  { "id": 218, "name": "立花日菜", "nameEn": "Tachibana Hina" },
+  { "id": 219, "name": "蓮ノ空女学院スクールアイドルクラブ", "nameEn": "Hasunosora Girls' High School Idol Club" },
+  { "id": 220, "name": "複製原画展", "nameEn": "Reproduction Artwork Exhibition" },
+  { "id": 221, "name": "親子イベント", "nameEn": "Family Event" },
+  { "id": 222, "name": "試乗会", "nameEn": "Test Ride" },
+  { "id": 223, "name": "講座", "nameEn": "Course" },
+  { "id": 224, "name": "谷中福丸饅頭", "nameEn": "Yanaka Fukumaru Manju" },
+  { "id": 225, "name": "貴族転生", "nameEn": "Aristocrat Reincarnation" },
+  { "id": 226, "name": "超かぐや姫", "nameEn": "Super Kaguya-hime" },
+  { "id": 227, "name": "週に一度クラスメイトを買う話", "nameEn": "The Story of Buying a Classmate Once a Week" },
+  { "id": 228, "name": "銀魂", "nameEn": "Gintama" },
+  { "id": 229, "name": "閉店", "nameEn": "Store Closure" },
+  { "id": 230, "name": "雑誌", "nameEn": "Magazine" },
+  { "id": 231, "name": "雑貨", "nameEn": "Goods" },
+  { "id": 232, "name": "電動アシスト自転車", "nameEn": "E-bike" },
+  { "id": 233, "name": "青ブタ", "nameEn": "Rascal Does Not Dream" },
+  { "id": 234, "name": "食べ放題", "nameEn": "All-you-can-eat" },
+  { "id": 235, "name": "魔入りました！入間くん", "nameEn": "Welcome to Demon School! Iruma-kun" },
+  { "id": 236, "name": "魔法少女にあこがれて", "nameEn": "Gushing over Magical Girls" },
+  { "id": 237, "name": "魔法少女ノ因習村", "nameEn": "Magical Girl's Inquisition Village" },
+  { "id": 238, "name": "鯉のぼり", "nameEn": "Koinobori" },
+  { "id": 239, "name": "コワーキングスペース", "nameEn": "Coworking Space" },
+  { "id": 240, "name": "シェアオフィス", "nameEn": "Shared Office" },
+  { "id": 242, "name": "歴史", "nameEn": "History" },
+  { "id": 243, "name": "神田明神", "nameEn": "Kanda Myojin" },
+  { "id": 244, "name": "湯島聖堂", "nameEn": "Yushima Seido" },
+  { "id": 245, "name": "まち歩き", "nameEn": "Town Walk" }
 ]

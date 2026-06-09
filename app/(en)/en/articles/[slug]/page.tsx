@@ -18,6 +18,7 @@ import {
   getEnglishSeoKeywords,
   getEnglishSeoTitle,
   getTagById,
+  getTagEnName,
   placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
@@ -422,10 +423,10 @@ const Page = async ({ params }: Props) => {
               return t ? (
                 <Link
                   key={tid}
-                  href={`/tags/${tid}/`}
+                  href={`/en/tags/${tid}/`}
                   className="article-tags-nav__item"
                 >
-                  {t.name}
+                  {getTagEnName(t)}
                 </Link>
               ) : null
             })}
@@ -461,7 +462,7 @@ const Page = async ({ params }: Props) => {
                           const t = getTagById(tid)
                           return t ? (
                             <span key={tid} className="article-card__tag">
-                              {t.name}
+                              {getTagEnName(t)}
                             </span>
                           ) : null
                         })}
