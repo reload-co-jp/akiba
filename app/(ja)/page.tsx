@@ -3,6 +3,7 @@ import { HomeArticlesFilter } from "components/home-articles-filter"
 import { getAllArticles } from "lib/articles"
 import { CalendarView } from "./events/calendar/calendar-view"
 import { absoluteUrl } from "lib/site"
+import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 export const metadata = {
   title: "アキバLive",
@@ -20,7 +21,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "アキバLive",
-    description: "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
+    description:
+      "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
     images: ["/images/hero.jpg"],
   },
 }
@@ -71,8 +73,12 @@ const Page = () => {
       </section>
 
       <HomeArticlesFilter articles={articles} />
+      <AdsenseFluidAd />
 
-      <CalendarView events={articles.filter((a) => a.event != null)} maxEvents={10} />
+      <CalendarView
+        events={articles.filter((a) => a.event != null)}
+        maxEvents={10}
+      />
     </>
   )
 }
