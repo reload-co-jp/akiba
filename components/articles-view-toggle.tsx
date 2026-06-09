@@ -18,7 +18,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const searchParams = useSearchParams()
   const { lang } = useLang()
   const selectedTag = searchParams.get("tag")
-  const [view, setView] = useState<"grid" | "list">("grid")
+  const [view, setView] = useState<"grid" | "list">("list")
   const [searchQuery, setSearchQuery] = useState(
     searchParams.get("q")?.trim() ?? ""
   )
