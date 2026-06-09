@@ -13133,5 +13133,90 @@
       "price": "¥5,000（全席自由）",
       "reservation": true
     }
+  },
+  {
+    "id": 315,
+    "slug": "michinoku-tetsudo-vol5-shosen-booktower-2026",
+    "title": "「みちのくの鉄道その3 宮城県・福島県の私鉄」発売記念トークショー・サイン会が書泉ブックタワーで開催",
+    "summary": "「昭和30年代～50年代の地方私鉄を歩く 第5巻 みちのくの鉄道その3 宮城県・福島県の私鉄」の発売を記念したトークショー・サイン会が、2026年6月28日（日）16:00から書泉ブックタワーで開催。著者の髙井薫平氏と亀井秀夫氏が登壇。参加はLivePocket先着順チケット。",
+    "content": "## 概要\n\n「昭和30年代～50年代の地方私鉄を歩く 第5巻 みちのくの鉄道その3 宮城県・福島県の私鉄」の発売を記念したトークショー・サイン会が、2026年6月28日（日）16:00から秋葉原の書泉ブックタワーで開催されます。\n\n著者は髙井薫平氏と亀井秀夫氏。昭和30年代から50年代にかけて走っていた宮城県・福島県の地方私鉄を、豊富な写真とともに振り返る一冊の発売を記念したイベントです。\n\n## 内容\n\nイベントでは、著者によるトークショーとサイン会を実施。参加には書泉オンラインショップでの参加券購入が必要で、参加券はLivePocketで先着順で販売されます。\n\n入場には購入した対象書籍の持参が必要です。\n\n## 開催情報\n\n- **会場**: 書泉ブックタワー（秋葉原）\n- **住所**: 東京都千代田区神田佐久間町1-11-1\n- **開催日**: 2026年6月28日（日）\n- **時間**: 16:00〜\n- **参加券販売**: LivePocket（先着順）\n- **対象書籍**: 「昭和30年代～50年代の地方私鉄を歩く 第5巻」¥2,970（税込）\n- **予約**: 必要。LivePocketで参加券購入\n\n## こんな人におすすめ\n\n- 昭和の地方鉄道・廃線に関心がある方\n- 宮城県・福島県の鉄道史をフォトで学びたい方\n- 書泉ブックタワーの鉄道・趣味系トークイベントをチェックしている方",
+    "publishedAt": "2026-06-09",
+    "en": {
+      "title": "[Akihabara] Talk Show & Signing: \"Michinoku Railways Vol.3 — Miyagi & Fukushima Private Lines\" at Shosen Book Tower",
+      "summary": "A talk show and signing event for the book 'Walking Through Showa-Era Regional Private Railways Vol.5: Michinoku Railways No.3 — Miyagi & Fukushima Prefectures' will be held at Shosen Book Tower in Akihabara on June 28, 2026. Authors Kaehei Takai and Hideo Kamei will appear. First-come, first-served tickets via LivePocket.",
+      "content": "## Overview\n\nA talk show and signing event commemorating the release of 'Walking Through Showa 30s–50s Regional Private Railways Vol.5: Michinoku Railways No.3 — Miyagi & Fukushima Prefectures' will be held at Shosen Book Tower in Akihabara on Sunday, June 28, 2026 at 4:00 PM.\n\nAuthors Kaehei Takai and Hideo Kamei will appear and discuss the private railways of Miyagi and Fukushima that ran during the Showa era, richly documented with photographs.\n\n## Highlights\n\nThe event includes a talk show followed by a signing session. Participation requires purchasing a ticket through LivePocket in advance. Attendees must bring the purchased book.\n\n## Event Details\n\n- **Venue**: Shosen Book Tower (Akihabara)\n- **Address**: 1-11-1 Kanda Sakumacho, Chiyoda-ku, Tokyo\n- **Date**: Sunday, June 28, 2026\n- **Time**: 4:00 PM\n- **Tickets**: LivePocket, first-come, first-served\n- **Target book**: Vol.5 ¥2,970 (tax included)\n- **Reservation**: Required via LivePocket\n\n## Recommended For\n\n- Fans of Showa-era local railways and closed lines\n- Those interested in railway history of Miyagi and Fukushima through photographs\n- Visitors following niche hobby talk events at Shosen Book Tower"
+    },
+    "image": {
+      "src": "/images/articles/michinoku-tetsudo-vol5-shosen-booktower-2026.jpg",
+      "alt": "みちのくの鉄道その3 宮城県・福島県の私鉄 書影",
+      "sourceLabel": "書泉ブックタワー イベントページ",
+      "sourceUrl": "https://www.shosen.co.jp/event/43485/"
+    },
+    "sources": [
+      {
+        "label": "書泉ブックタワー イベントページ",
+        "url": "https://www.shosen.co.jp/event/43485/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      86,
+      101,
+      193,
+      194,
+      207
+    ],
+    "event": {
+      "venue": "書泉ブックタワー",
+      "startDate": "2026-06-28",
+      "endDate": "2026-06-28",
+      "price": "参加券あり（LivePocket）",
+      "reservation": true
+    }
+  },
+  {
+    "id": 316,
+    "slug": "hayamizu-rasenin-basyauma-bis-red-shosen-2026",
+    "title": "「速水螺旋人の馬車馬大作戦bis 赤本 新装版」発売記念 速水螺旋人先生サイン会が書泉ブックタワーで開催",
+    "summary": "「速水螺旋人の馬車馬大作戦bis 赤本 新装版」発売を記念したサイン会が2026年7月12日（日）15:30から書泉ブックタワーで開催。速水螺旋人先生によるリクエスト可能なイラスト入りサイン・宛名入れを実施。書泉限定イラストペーパーの特典も。LivePocket先着順。",
+    "content": "## 概要\n\n「速水螺旋人の馬車馬大作戦bis 赤本 新装版」（イカロス出版）の発売を記念したサイン会が、2026年7月12日（日）15:30から秋葉原の書泉ブックタワーで開催されます。\n\n速水螺旋人先生は漫画家・イラストレーターとして幅広い媒体で活躍。2015年に刊行後に品切れが続いていた『馬車馬大作戦bis 赤本』が、新規描き下ろし収録の新装版として復活します。\n\n## 内容\n\nサイン会では、著者の直筆署名に加え、参加者のリクエストに応じたキャラクターイラストと宛名入れを実施。撮影は禁止です。\n\n参加特典として書泉限定イラストペーパーが配布されます。参加申込はLivePocketのみで、先着順。書泉店頭での予約受付はありません。\n\n## 開催情報\n\n- **会場**: 書泉ブックタワー（秋葉原）\n- **住所**: 東京都千代田区神田佐久間町1-11-1\n- **開催日**: 2026年7月12日（日）\n- **時間**: 15:30〜\n- **参加方法**: LivePocketで先着順予約\n- **対象書籍**: 「速水螺旋人の馬車馬大作戦bis 赤本 新装版」¥2,750（税込）AB判208ページ\n- **特典**: 書泉限定イラストペーパー配布\n- **撮影**: 禁止\n\n## こんな人におすすめ\n\n- 速水螺旋人先生のミリタリー系イラストや漫画を追っている方\n- 「馬車馬大作戦bis」の新装版を手に入れたい方\n- 書泉ブックタワーのサイン会でリクエストイラスト入りサインを希望する方",
+    "publishedAt": "2026-06-09",
+    "en": {
+      "title": "[Akihabara] Signing Event: 'Hayamizu Rasenin's Basyauma War Chronicles bis Red Book New Edition' at Shosen Book Tower",
+      "summary": "A signing event commemorating the release of 'Hayamizu Rasenin's Basyauma War Chronicles bis Red Book New Edition' (Ikaros Publishing) will be held at Shosen Book Tower in Akihabara on July 12, 2026 at 3:30 PM. Author Hayamizu Rasenin will provide signatures with requested character illustrations and personalized inscriptions. A Shosen-exclusive illustration paper bonus is included. First-come, first-served via LivePocket.",
+      "content": "## Overview\n\nA signing event for the newly released 'Hayamizu Rasenin's Basyauma War Chronicles bis Red Book New Edition' (Ikaros Publishing) will be held at Shosen Book Tower in Akihabara on Sunday, July 12, 2026 at 3:30 PM.\n\nHayamizu Rasenin is a manga artist and illustrator active across a wide range of media. The original 'Basyauma bis Red Book' was published in 2015 and sold out quickly; this new edition is a revised reissue with newly commissioned content.\n\n## Highlights\n\nAt the signing, the artist will provide handwritten signatures along with custom character illustrations based on attendee requests, plus personalized inscriptions. Photography is prohibited.\n\nAttendees receive a Shosen-exclusive illustration paper as a bonus. Sign-ups are through LivePocket only, first-come, first-served. No in-store reservations.\n\n## Event Details\n\n- **Venue**: Shosen Book Tower (Akihabara)\n- **Address**: 1-11-1 Kanda Sakumacho, Chiyoda-ku, Tokyo\n- **Date**: Sunday, July 12, 2026\n- **Time**: 3:30 PM\n- **Registration**: LivePocket, first-come, first-served\n- **Target book**: ¥2,750 (tax included), AB format, 208 pages\n- **Bonus**: Shosen-exclusive illustration paper\n- **Photography**: Not permitted\n\n## Recommended For\n\n- Fans of Hayamizu Rasenin's military-themed illustrations and manga\n- Collectors looking for the new edition of 'Basyauma bis Red Book'\n- Attendees who want a custom character illustration with their signed copy at Shosen Book Tower"
+    },
+    "image": {
+      "src": "/images/articles/hayamizu-rasenin-basyauma-bis-red-shosen-2026.jpg",
+      "alt": "速水螺旋人の馬車馬大作戦bis 赤本 新装版 書影",
+      "sourceLabel": "書泉ブックタワー イベントページ",
+      "sourceUrl": "https://www.shosen.co.jp/event/43487/"
+    },
+    "sources": [
+      {
+        "label": "書泉ブックタワー イベントページ",
+        "url": "https://www.shosen.co.jp/event/43487/"
+      },
+      {
+        "label": "イカロス出版 書籍ページ",
+        "url": "https://books.ikaros.jp/book/b10166443.html"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      86,
+      193,
+      194,
+      207
+    ],
+    "event": {
+      "venue": "書泉ブックタワー",
+      "startDate": "2026-07-12",
+      "endDate": "2026-07-12",
+      "price": "対象書籍購入に準ずる",
+      "reservation": true
+    }
   }
 ]
