@@ -148,7 +148,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
                 </Link>
               </li>
               {i % 10 === 9 && (
-                <li>
+                <li key={`ad-${i}`}>
                   <AdsenseFluidAd />
                 </li>
               )}
