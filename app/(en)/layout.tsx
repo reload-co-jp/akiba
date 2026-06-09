@@ -67,50 +67,57 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
       </head>
       <body>
         <LanguageProvider>
-        {isProduction && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
-              strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
+          {isProduction && (
+            <>
+              <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+                strategy="afterInteractive"
+              />
+              <Script id="google-analytics" strategy="afterInteractive">
+                {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', '${googleAnalyticsId}');
               `}
-            </Script>
-            <Script
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6542845006087970"
-              strategy="afterInteractive"
-              crossOrigin="anonymous"
-            />
-          </>
-        )}
-        <header className="site-header">
-          <div className="site-header__inner">
-            <Link href="/" className="site-header__brand">
-              <img src="/images/logo.svg" alt="Akiba Live" width="195" height="48" />
-            </Link>
-            <nav className="site-header__nav" aria-label="Site navigation">
-              <Link href="/">日本語</Link>
-            </nav>
-          </div>
-        </header>
-        <main className="site-main">
-          {children}
-        </main>
-        <footer className="site-footer">
-          <div className="site-footer__inner">
-            <p>
-              &copy; Akiba Live /{" "}
-              <a href="https://reload.co.jp" rel="noopener noreferrer" target="_blank">
-                Company
-              </a>
-            </p>
-          </div>
-        </footer>
+              </Script>
+              <Script
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6542845006087970"
+                strategy="afterInteractive"
+                crossOrigin="anonymous"
+              />
+            </>
+          )}
+          <header className="site-header">
+            <div className="site-header__inner">
+              <Link href="/" className="site-header__brand">
+                <img
+                  src="/images/logo.png"
+                  alt="アキバLive"
+                  width="195"
+                  height="48"
+                />
+              </Link>
+              <nav className="site-header__nav" aria-label="Site navigation">
+                <Link href="/">日本語</Link>
+              </nav>
+            </div>
+          </header>
+          <main className="site-main">{children}</main>
+          <footer className="site-footer">
+            <div className="site-footer__inner">
+              <p>
+                &copy; Akiba Live /{" "}
+                <a
+                  href="https://reload.co.jp"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Company
+                </a>
+              </p>
+            </div>
+          </footer>
         </LanguageProvider>
       </body>
     </html>

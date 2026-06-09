@@ -13,8 +13,8 @@ import { absoluteUrl, siteName } from "lib/site"
 import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
 import { CalListItem } from "components/cal-list-item"
-import { TodayVenueFilter } from "./today-venue-filter"
-import { TodayCategoryFilter } from "./today-category-filter"
+import { TodayVenueFilter } from "components/today-venue-filter"
+import { TodayCategoryFilter } from "components/today-category-filter"
 
 const CATEGORY_GROUPS: Array<{ id: string; name: string; tagIds: number[] }> = [
   { id: "anime", name: "Anime & Manga", tagIds: [47, 49, 78, 79, 203] },
@@ -26,6 +26,7 @@ const CATEGORY_GROUPS: Array<{ id: string; name: string; tagIds: number[] }> = [
   { id: "exhibition", name: "Exhibition & Art", tagIds: [177, 178, 179, 130, 200] },
   { id: "conference", name: "Technology & Conference", tagIds: [60, 109, 122, 201] },
 ]
+
 
 export const generateMetadata = () => {
   const today = new Date().toISOString().slice(0, 10)
@@ -68,9 +69,41 @@ const Page = () => {
   const upcomingEvents = getUpcomingThisWeekEvents(today, 7).filter((a) => a.en)
   const topVenues = getTopVenues(15)
 
+  const venueFilterEvents = ongoingEvents.map((a) => ({
+    id: a.id,
+    slug: a.slug,
+    title: a.en!.title,
+    image: a.image,
+    tags: a.tagIds.flatMap((tid) => {
+      const t = getTagById(tid)
+      return t ? [t.name] : []
+    }),
+    event: {
+      venue: getEnglishEventVenue(a) ?? a.event!.venue,
+      startDate: a.event!.startDate,
+      endDate: a.event!.endDate,
+      price: getEnglishEventPrice(a) ?? a.event!.price,
+    },
+    sourceUrl: a.sources?.[0]?.url,
+    sourceLabel: a.sources?.[0]?.label,
+  }))
+
   const categorized = CATEGORY_GROUPS.map((group) => ({
-    ...group,
-    events: ongoingEvents.filter((e) => e.tagIds.some((id) => group.tagIds.includes(id))),
+    id: group.id,
+    name: group.name,
+    events: ongoingEvents
+      .filter((e) => e.tagIds.some((id) => group.tagIds.includes(id)))
+      .map((a) => ({
+        id: a.id,
+        slug: a.slug,
+        title: a.en!.title,
+        image: a.image,
+        event: {
+          venue: getEnglishEventVenue(a) ?? a.event!.venue,
+          startDate: a.event!.startDate,
+          endDate: a.event!.endDate,
+        },
+      })),
   })).filter((g) => g.events.length > 0)
 
   const pageUrl = absoluteUrl("/en/events/today/")
@@ -165,43 +198,17 @@ const Page = () => {
 
         <EventSection id="today-events-heading" kicker="Ongoing Today" title="Events in Akihabara Today">
           <TodayVenueFilter
-            events={ongoingEvents.map((a) => ({
-              id: a.id,
-              slug: a.slug,
-              title: a.en!.title,
-              image: a.image,
-              tagNames: a.tagIds
-                .map((tid) => getTagById(tid)?.name)
-                .filter((n): n is string => !!n),
-              event: {
-                venue: getEnglishEventVenue(a) ?? a.event!.venue,
-                startDate: a.event!.startDate,
-                endDate: a.event!.endDate,
-                price: getEnglishEventPrice(a) ?? a.event!.price,
-              },
-              sourceUrl: a.sources?.[0]?.url,
-              sourceLabel: a.sources?.[0]?.label,
-            }))}
+            events={venueFilterEvents}
+            hrefPrefix="/en/articles/"
+            locale="en"
           />
         </EventSection>
 
         <EventSection id="category-heading" kicker="By Category" title="Events by Category">
           <TodayCategoryFilter
-            groups={categorized.map((g) => ({
-              id: g.id,
-              name: g.name,
-              events: g.events.map((a) => ({
-                id: a.id,
-                slug: a.slug,
-                title: a.en!.title,
-                image: a.image,
-                event: {
-                  venue: getEnglishEventVenue(a) ?? a.event!.venue,
-                  startDate: a.event!.startDate,
-                  endDate: a.event!.endDate,
-                },
-              })),
-            }))}
+            groups={categorized}
+            hrefPrefix="/en/articles/"
+            locale="en"
           />
         </EventSection>
 

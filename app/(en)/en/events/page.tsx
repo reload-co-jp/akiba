@@ -7,6 +7,11 @@ import {
   getEnglishEventPrice,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
+import { fmtRange } from "lib/format"
+import { Breadcrumb } from "components/breadcrumb"
+import { EventCard } from "components/event-card"
+
+const EN_LABELS = { venue: "Venue", dates: "Dates", price: "Price" }
 
 export const metadata = {
   title: "Ongoing Events in Akihabara | Anime, Games, Collab Cafe, Popup",
@@ -65,14 +70,13 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <section className="events-page">
-        <nav className="breadcrumb" aria-label="Breadcrumb">
-          <ol className="breadcrumb__list">
-            <li className="breadcrumb__item">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="breadcrumb__item breadcrumb__item--current">Events</li>
-          </ol>
-        </nav>
+        <Breadcrumb
+          ariaLabel="Breadcrumb"
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Events" },
+          ]}
+        />
 
         <div className="events-page__header">
           <p className="events-page__kicker">Ongoing events</p>
@@ -92,42 +96,21 @@ const Page = () => {
         ) : (
           <ul className="events-list">
             {events.map((article) => (
-              <li key={article.id}>
-                <Link href={`/en/articles/${article.slug}/`} className="events-card-link">
-                  <article className="events-card events-card--with-image">
-                    <img
-                      className="events-card__image"
-                      src={getArticleImage(article).src}
-                      alt={getArticleImage(article).alt}
-                    />
-                    <div>
-                      <div className="events-card__tags">
-                        {article.tagIds.map((tid) => {
-                          const t = getTagById(tid)
-                          return t ? (
-                            <span key={tid} className="events-card__tag">
-                              {t.name}
-                            </span>
-                          ) : null
-                        })}
-                      </div>
-                      <h2 className="events-card__title">{article.en!.title}</h2>
-                      {article.event && (
-                        <dl className="events-card__meta">
-                          <dt>Venue</dt>
-                          <dd>{getEnglishEventVenue(article)}</dd>
-                          <dt>Dates</dt>
-                          <dd>
-                            {article.event.startDate} – {article.event.endDate}
-                          </dd>
-                          <dt>Price</dt>
-                          <dd>{getEnglishEventPrice(article)}</dd>
-                        </dl>
-                      )}
-                    </div>
-                  </article>
-                </Link>
-              </li>
+              <EventCard
+                key={article.id}
+                href={`/en/articles/${article.slug}/`}
+                image={getArticleImage(article)}
+                title={article.en!.title}
+                venue={getEnglishEventVenue(article) ?? article.event!.venue}
+                dateRange={fmtRange(article.event!.startDate, article.event!.endDate, "–")}
+                price={getEnglishEventPrice(article) ?? article.event!.price}
+                tags={article.tagIds.flatMap((tid) => {
+                  const t = getTagById(tid)
+                  return t ? [t.name] : []
+                })}
+                headingAs="h2"
+                labels={EN_LABELS}
+              />
             ))}
           </ul>
         )}

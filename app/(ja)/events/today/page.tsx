@@ -11,8 +11,9 @@ import { absoluteUrl, siteName } from "lib/site"
 import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
 import { CalListItem } from "components/cal-list-item"
-import { TodayVenueFilter } from "./today-filter"
-import { TodayCategoryFilter } from "./today-category-filter"
+import { TodayVenueFilter } from "components/today-venue-filter"
+import { TodayCategoryFilter } from "components/today-category-filter"
+
 
 const CATEGORY_GROUPS: Array<{ id: string; name: string; tagIds: number[] }> = [
   { id: "anime", name: "アニメ・漫画", tagIds: [47, 49, 78, 79, 203] },
@@ -72,6 +73,7 @@ const FAQ_ITEMS = [
   },
 ]
 
+
 export const generateMetadata = () => {
   const today = new Date().toISOString().slice(0, 10)
   const [, month, day] = today.split("-")
@@ -106,9 +108,38 @@ const Page = () => {
     string
   >
 
+  const venueFilterEvents = ongoingEvents.map((a) => ({
+    id: a.id,
+    slug: a.slug,
+    title: a.title,
+    image: a.image,
+    tags: a.tagIds.flatMap((tid) => (tagMap[tid] ? [tagMap[tid]] : [])),
+    event: {
+      venue: a.event!.venue,
+      startDate: a.event!.startDate,
+      endDate: a.event!.endDate,
+      price: a.event!.price,
+    },
+    sourceUrl: a.sources?.[0]?.url,
+    sourceLabel: a.sources?.[0]?.label,
+  }))
+
   const categorized = CATEGORY_GROUPS.map((group) => ({
-    ...group,
-    events: ongoingEvents.filter((e) => e.tagIds.some((id) => group.tagIds.includes(id))),
+    id: group.id,
+    name: group.name,
+    events: ongoingEvents
+      .filter((e) => e.tagIds.some((id) => group.tagIds.includes(id)))
+      .map((a) => ({
+        id: a.id,
+        slug: a.slug,
+        title: a.title,
+        image: a.image,
+        event: {
+          venue: a.event!.venue,
+          startDate: a.event!.startDate,
+          endDate: a.event!.endDate,
+        },
+      })),
   })).filter((g) => g.events.length > 0)
 
   const pageUrl = absoluteUrl("/events/today/")
@@ -232,26 +263,18 @@ const Page = () => {
         </p>
 
         <EventSection id="today-events-heading" kicker="Ongoing Today" title="今日開催の秋葉原イベント一覧">
-          <TodayVenueFilter events={ongoingEvents} tagMap={tagMap} />
+          <TodayVenueFilter
+            events={venueFilterEvents}
+            hrefPrefix="/articles/"
+            locale="ja"
+          />
         </EventSection>
 
         <EventSection id="category-heading" kicker="By Category" title="カテゴリ別イベント">
           <TodayCategoryFilter
-            groups={categorized.map((g) => ({
-              id: g.id,
-              name: g.name,
-              events: g.events.map((a) => ({
-                id: a.id,
-                title: a.title,
-                slug: a.slug,
-                image: a.image,
-                event: {
-                  venue: a.event!.venue,
-                  startDate: a.event!.startDate,
-                  endDate: a.event!.endDate,
-                },
-              })),
-            }))}
+            groups={categorized}
+            hrefPrefix="/articles/"
+            locale="ja"
           />
         </EventSection>
 
