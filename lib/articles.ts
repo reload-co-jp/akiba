@@ -47,6 +47,8 @@ export type Article = {
   image?: {
     src: string
     alt: string
+    width?: number
+    height?: number
     sourceLabel?: string
     sourceUrl?: string
   }
@@ -167,6 +169,8 @@ export const getEnglishSeoKeywords = (article: Article) => {
 export const placeholderImage = {
   src: "/images/placeholder.jpg",
   alt: "アキバLiveの記事サムネイル",
+  width: 1024,
+  height: 683,
 }
 
 export const getArticleImage = (article: Article) =>

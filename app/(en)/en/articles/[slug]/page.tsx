@@ -58,7 +58,14 @@ export const generateMetadata = async ({ params }: Props) => {
       title: seoTitle,
       description: seoDescription,
       url: `/en/articles/${slug}/`,
-      images: [{ url: image.src, alt: image.alt }],
+      images: [
+        {
+          url: image.src,
+          alt: image.alt,
+          ...(image.width && { width: image.width }),
+          ...(image.height && { height: image.height }),
+        },
+      ],
       type: "article",
       locale: "en_US",
       alternateLocale: ["ja_JP"],
@@ -139,7 +146,12 @@ const Page = async ({ params }: Props) => {
         height: 180,
       },
     },
-    image: { "@type": "ImageObject", url: absoluteUrl(articleImage.src) },
+    image: {
+      "@type": "ImageObject",
+      url: absoluteUrl(articleImage.src),
+      ...(articleImage.width && { width: articleImage.width }),
+      ...(articleImage.height && { height: articleImage.height }),
+    },
     about: [
       { "@type": "Place", name: "Akihabara, Tokyo" },
       { "@type": "Thing", name: "Akihabara events" },

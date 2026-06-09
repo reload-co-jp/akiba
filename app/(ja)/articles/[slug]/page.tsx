@@ -50,7 +50,14 @@ export const generateMetadata = async ({ params }: Props) => {
       title: addAkihabaraSeoTitle(article.title),
       description: article.summary,
       url: `/articles/${slug}/`,
-      images: [{ url: image.src, alt: image.alt }],
+      images: [
+        {
+          url: image.src,
+          alt: image.alt,
+          ...(image.width && { width: image.width }),
+          ...(image.height && { height: image.height }),
+        },
+      ],
       type: "article",
       publishedTime: publishedAt,
       modifiedTime: publishedAt,
@@ -123,7 +130,12 @@ const Page = async ({ params }: Props) => {
         height: 180,
       },
     },
-    image: { "@type": "ImageObject", url: absoluteUrl(articleImage.src) },
+    image: {
+      "@type": "ImageObject",
+      url: absoluteUrl(articleImage.src),
+      ...(articleImage.width && { width: articleImage.width }),
+      ...(articleImage.height && { height: articleImage.height }),
+    },
   }
 
   const eventJsonLd = article.event

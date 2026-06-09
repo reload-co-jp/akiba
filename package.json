@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "format": "prettier --write .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "update-image-dims": "node scripts/update-image-dimensions.mjs"
   },
   "keywords": [],
   "author": "",

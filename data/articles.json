@@ -15,7 +15,9 @@
       "src": "/images/articles/makeine-animate-akihabara-fair-2026.jpg",
       "alt": "TVアニメ『負けヒロインが多すぎる！』アニメイトフェアの告知ビジュアル",
       "sourceLabel": "AMNIBUSイベントページ",
-      "sourceUrl": "https://event.amnibus.com/makeine-animate/"
+      "sourceUrl": "https://event.amnibus.com/makeine-animate/",
+      "width": 1140,
+      "height": 640
     },
     "sources": [
       {
@@ -61,7 +63,9 @@
       "src": "/images/articles/hazuki-noa-noah-shosen-booktower-2026.jpg",
       "alt": "羽月乃蒼写真集『Noah』発売記念イベントの告知画像",
       "sourceLabel": "LivePocketイベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/073q2"
+      "sourceUrl": "https://t.livepocket.jp/e/073q2",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -108,7 +112,9 @@
       "src": "/images/articles/arimura-yuki-rintoshite-shosen-booktower-2026.jpg",
       "alt": "有村ユキ写真集『凛として、ゆるやかに。』発売記念イベントの告知画像",
       "sourceLabel": "LivePocketイベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/17jpu"
+      "sourceUrl": "https://t.livepocket.jp/e/17jpu",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -155,7 +161,9 @@
       "src": "/images/articles/manaka-tsugu-highleg-tengoku-shosen-booktower-2026.jpg",
       "alt": "真中つぐ1st写真集『ハイレグ天国』発売記念イベントの告知画像",
       "sourceLabel": "LivePocketイベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/mwrw8"
+      "sourceUrl": "https://t.livepocket.jp/e/mwrw8",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -202,7 +210,9 @@
       "src": "/images/articles/komori-kano-junpakuno17-shosen-booktower-2026.jpg",
       "alt": "小森香乃『純白の17歳』発売記念イベントの告知画像",
       "sourceLabel": "LivePocketイベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/8ljys"
+      "sourceUrl": "https://t.livepocket.jp/e/8ljys",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -249,7 +259,9 @@
       "src": "/images/articles/needy-girl-overdose-gamers-akihabara-event-2026.jpg",
       "alt": "Blu-ray&DVD「NEEDY GIRL OVERDOSE 1」発売記念イベントの告知ビジュアル",
       "sourceLabel": "ゲーマーズ公式イベントページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7417"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7417",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -293,7 +305,9 @@
       "src": "/images/articles/bang-dream-heisei-gal-gamers-akihabara-2026.jpg",
       "alt": "BanG Dream! 平成★GAL化計画！ in ゲーマーズの告知ビジュアル",
       "sourceLabel": "ゲーマーズ公式イベントページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7587"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7587",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -339,7 +353,9 @@
       "src": "/images/articles/hasunosora-summer-fair-gamers-akihabara-2026.jpg",
       "alt": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ サマーフェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ公式イベントページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7544"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7544",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -386,7 +402,9 @@
       "src": "/images/articles/nijigasaki-summer-fair-gamers-akihabara-2026.jpg",
       "alt": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 サマーフェア in ゲーマーズ 2026の告知ビジュアル",
       "sourceLabel": "ゲーマーズ公式イベントページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7571"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7571",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -432,7 +450,9 @@
       "src": "/images/articles/atre-akihabara-barcode-point-up-july-2026.jpg",
       "alt": "2026年7月 バーコード限定ポイントアップキャンペーンの告知画像",
       "sourceLabel": "アトレ秋葉原 公式ニュース",
-      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6847/"
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6847/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -477,7 +497,9 @@
       "src": "/images/articles/memento-unicorn-bengal-site-closed-2026.jpg",
       "alt": "メメントユニコーン跡地の内装工事が進む丸山ビルの区画",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111529.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111529.html",
+      "width": 960,
+      "height": 640
     },
     "sources": [
       {
@@ -508,7 +530,9 @@
       "src": "/images/articles/kyoshin-sangyo-akihabara-closed-2026.jpg",
       "alt": "協進産業の閉業告知が掲示された現地の様子",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2101034.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2101034.html",
+      "width": 500,
+      "height": 333
     },
     "sources": [
       {
@@ -538,7 +562,9 @@
       "src": "/images/articles/icom-sign-akihabara-denpakaikan-ended-2026.jpg",
       "alt": "秋葉原電波会館のアイコム広告看板が掲示されていた壁面",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2101034.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2101034.html",
+      "width": 500,
+      "height": 333
     },
     "sources": [
       {
@@ -567,7 +593,9 @@
       "src": "/images/articles/npc24h-kanda-3chome-parking-open-2026.jpg",
       "alt": "営業を開始したNPC24H神田3丁目第2パーキング",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111178.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111178.html",
+      "width": 960,
+      "height": 640
     },
     "sources": [
       {
@@ -597,7 +625,9 @@
       "src": "/images/articles/jihanki-base-radio-center-relocation-2026.jpg",
       "alt": "秋葉原ラジオセンター内に移設された自販機BASEの暖簾と自販機",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111178.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111178.html",
+      "width": 960,
+      "height": 640
     },
     "sources": [
       {
@@ -629,7 +659,9 @@
       "src": "/images/articles/times-akihabara-ekimae-cultural-property-survey-2026.jpg",
       "alt": "埋蔵文化財試掘調査が行われたタイムズ秋葉原駅電気街口",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111178.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2111178.html",
+      "width": 960,
+      "height": 640
     },
     "sources": [
       {
@@ -658,7 +690,9 @@
       "src": "/images/articles/smart-cafe-akihabara-open-2026.jpg",
       "alt": "和泉橋近くにオープンしたスマートカフェの店頭",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2101374.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2101374.html",
+      "width": 500,
+      "height": 334
     },
     "sources": [
       {
@@ -691,7 +725,9 @@
       "src": "/images/articles/tcg-full-house-akihabara-preopen-2026.jpg",
       "alt": "プレオープンしたTCG FULL HOUSE秋葉原店の店頭",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2113182.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2113182.html",
+      "width": 500,
+      "height": 333
     },
     "sources": [
       {
@@ -724,7 +760,9 @@
       "src": "/images/articles/the-tobacco-akihabara-open-2026.jpg",
       "alt": "閉店したTHE TOBACCO AKIHABARAの店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0408/629945"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0408/629945",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -756,7 +794,9 @@
       "src": "/images/articles/kodawari-menya-hego-akihabara-open-2026.jpg",
       "alt": "拘り麺屋 へごの店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0415/630867"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0415/630867",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -788,7 +828,9 @@
       "src": "/images/articles/moses-kebab-junk-street-akihabara-open-2026.jpg",
       "alt": "モーゼスさんのケバブ 秋葉原2号店の店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0423/631916"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0423/631916",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -824,7 +866,9 @@
       "src": "/images/articles/extreca-akihabara-denpakaikan-open-2026.jpg",
       "alt": "秋葉原電波会館1階にオープンしたエクストレカの店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0423/631908"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0423/631908",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -857,7 +901,9 @@
       "src": "/images/articles/mondamusen-radio-depart-close-2026.jpg",
       "alt": "門田無線電機の閉店告知が掲示された店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0331/628930"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0331/628930",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -888,7 +934,9 @@
       "src": "/images/articles/figure-hobby-maruru-6-akihabara-open-2026.jpg",
       "alt": "秋葉原電波会館1階にオープンしたFIGURE HOBBY MARURU 6号店の店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0311/626132"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0311/626132",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -922,7 +970,9 @@
       "src": "/images/articles/culpop-radio-center-akihabara-open-2026.jpg",
       "alt": "秋葉原ラジオセンター2階にオープンしたカルポップ ラジオセンター店の店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0415/630854"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0415/630854",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -955,7 +1005,9 @@
       "src": "/images/articles/ryusei-pao-akihabara-rocket-radio-open-2026.jpg",
       "alt": "ロケットアマチュア無線本館ビルにオープンした竜星のPAO秋葉原ロケット無線店の店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0218/623447"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0218/623447",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -988,7 +1040,9 @@
       "src": "/images/articles/bic-camera-akiba-akibatan-acrylic-keychain-campaign-2026.jpg",
       "alt": "擬人化記念ドレスアキバたんアクキー配布キャンペーンの告知画像",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2112975.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2112975.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -1023,7 +1077,9 @@
       "src": "/images/articles/fancy-tokyo-akihabara-open-compuace-site-2026.jpg",
       "alt": "コンピュエース秋葉原店跡地にオープンしたファンシー東京の店頭",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0515/634585"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0515/634585",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -1060,7 +1116,9 @@
       "src": "/images/articles/fumoshowroom-akihabara-temporary-closure-june-2026.jpg",
       "alt": "ふもっふのおみせショールーム秋葉原店の閉店告知が掲示された入口",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0423/631943"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0423/631943",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -1097,7 +1155,9 @@
       "src": "/images/articles/starry-sky-iku-mizushima-starlit-anniversary-gratte-akihabara-2026.jpg",
       "alt": "Starry☆Sky 水嶋郁 Starlit Anniversary連動企画グラッテの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43781/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43781/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1141,7 +1201,9 @@
       "src": "/images/articles/solo-leveling-animate-gratte-akihabara-2026.jpg",
       "alt": "俺だけレベルアップな件×Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/44330/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/44330/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1186,7 +1248,9 @@
       "src": "/images/articles/vs-ambivalenz-only-shop-animate-gratte-akihabara-2026.jpg",
       "alt": "VS AMBIVALENZ オンリーショップ in animate 開催記念Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43910/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43910/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1230,7 +1294,9 @@
       "src": "/images/articles/idolish7-harmony-lounge-happy-kitchen-time-gratte-akihabara-2026.jpg",
       "alt": "アイドリッシュセブン Harmony Lounge / HAPPY KiTCHEN TiMEの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43955/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43955/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1276,7 +1342,9 @@
       "src": "/images/articles/beluck-animate-fair-2026-gratte-akihabara.jpg",
       "alt": "BeLuck×アニメイトフェア2026開催記念グラッテの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/44480/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/44480/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1320,7 +1388,9 @@
       "src": "/images/articles/senjyushi-rhodoknight-switch-animate-gratte-akihabara-2026.jpg",
       "alt": "千銃士:Rhodoknight for Nintendo Switch 発売記念Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/42661/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/42661/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1365,7 +1435,9 @@
       "src": "/images/articles/last-boss-queen-season2-animate-gratte-akihabara-2026.jpg",
       "alt": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2×Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/44289/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/44289/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1410,7 +1482,9 @@
       "src": "/images/articles/new-prince-of-tennis-mijitaku-fair-animate-gratte-akihabara-2026.jpg",
       "alt": "新テニスの王子様 身支度フェア記念Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43979/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43979/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1455,7 +1529,9 @@
       "src": "/images/articles/shinsoku-akihabara-unification-store-plan-2026.jpg",
       "alt": "シンソク秋葉原統一計画のキービジュアル",
       "sourceLabel": "シンソク公式LP",
-      "sourceUrl": "https://shinsoku-tcg.com/store-plans/akihabara-unification"
+      "sourceUrl": "https://shinsoku-tcg.com/store-plans/akihabara-unification",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -1487,7 +1563,9 @@
       "src": "/images/articles/alien-stage-find-your-plus-one-animate-gratte-akihabara-2026.jpg",
       "alt": "ALIEN STAGE：＜Find your Plus One!＞ Fair in animate 開催記念グラッテの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/38106/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/38106/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -1531,7 +1609,9 @@
       "src": "/images/articles/saeko-giantess-dating-sim-animate-gratte-akihabara-2026.jpg",
       "alt": "Nintendo Switch版 SAEKO: Giantess Dating Sim 発売記念Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43795/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43795/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1576,7 +1656,9 @@
       "src": "/images/articles/dynamic-chord-12th-anniversary-animate-gratte-akihabara-2026.jpg",
       "alt": "DYNAMIC CHORD 12th anniversary Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43190/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43190/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1620,7 +1702,9 @@
       "src": "/images/articles/nijigasaki-summer-fair-gamers-akihabara-2026.jpg",
       "alt": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 サマーフェア in ゲーマーズ 2026の告知ビジュアル",
       "sourceLabel": "ゲーマーズ公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7571"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7571",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -1664,7 +1748,9 @@
       "src": "/images/articles/blackish-house-sidez-retour-animate-gratte-akihabara-2026.jpg",
       "alt": "Blackish House ←sideZ -Retour発売記念グラッテの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43866/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43866/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1708,7 +1794,9 @@
       "src": "/images/articles/love-and-deepspace-animate-gratte-akihabara-2026.jpg",
       "alt": "恋と深空 アニメイトフェア開催記念Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/41658/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/41658/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -1753,7 +1841,9 @@
       "src": "/images/articles/zerowake-gates-half-anniversary-animate-gratte-akihabara-2026.jpg",
       "alt": "Zerowake GATES ハーフアニバーサリー×Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/41617/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/41617/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1797,7 +1887,9 @@
       "src": "/images/articles/collector-yui-popup-kotobukiya-akihabara-2026.jpg",
       "alt": "コレクター・ユイ POP UP CORNERの告知ビジュアル",
       "sourceLabel": "コトブキヤ公式ページ",
-      "sourceUrl": "https://www.kotobukiya.co.jp/event/detail/1251/"
+      "sourceUrl": "https://www.kotobukiya.co.jp/event/detail/1251/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -1841,7 +1933,9 @@
       "src": "/images/articles/jibaku-shonen-hanako-kun-2-animate-gratte-akihabara-2026.jpg",
       "alt": "地縛少年花子くん２×Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/41798/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/41798/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1886,7 +1980,9 @@
       "src": "/images/articles/aijitsu-to-hanayome-animate-gratte-akihabara-2026.jpg",
       "alt": "愛日と花嫁-四季折々-発売記念Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43530/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43530/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1930,7 +2026,9 @@
       "src": "/images/articles/oharae-animate-gratte-akihabara-2026.jpg",
       "alt": "大穢×Gratte 第二弾の告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/42333/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/42333/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -1974,7 +2072,9 @@
       "src": "/images/articles/ga-bunko-20th-animate-only-shop-akihabara-2026.jpg",
       "alt": "GA文庫20周年オンリーショップの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/onlyshop/42500/"
+      "sourceUrl": "https://www.animate.co.jp/onlyshop/42500/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2017,7 +2117,9 @@
       "src": "/images/articles/tokimeki-memorial-animate-gratte-akihabara-2026.jpg",
       "alt": "ときめきメモリアル ×Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/43681/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/43681/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -2061,7 +2163,9 @@
       "src": "/images/articles/sonic-35th-animate-gratte-akihabara-2026.jpg",
       "alt": "ソニック・ザ・ヘッジホッグ35周年記念アニメイトフェア×Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/41746/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/41746/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -2105,7 +2209,9 @@
       "src": "/images/articles/princess-connect-redive-8th-animate-only-shop-2026.jpg",
       "alt": "『プリンセスコネクト！Re:Dive』8th Anniversary animate ONLY SHOPの告知ビジュアル",
       "sourceLabel": "アニメイト公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/onlyshop/40663/"
+      "sourceUrl": "https://www.animate.co.jp/onlyshop/40663/",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -2149,7 +2255,9 @@
       "src": "/images/articles/waterras-craft-beer-marche-2026.jpg",
       "alt": "ワテラス クラフトビールマルシェ 2026の告知ポスター",
       "sourceLabel": "ワテラス公式イベントページ",
-      "sourceUrl": "https://www.waterras.com/event/archives/event/35243/"
+      "sourceUrl": "https://www.waterras.com/event/archives/event/35243/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2193,7 +2301,9 @@
       "src": "/images/articles/waterras-craft-beer-workshop-2026.jpg",
       "alt": "ワテラス クラフトビールワークショップの告知画像",
       "sourceLabel": "ワテラス公式イベントページ",
-      "sourceUrl": "https://www.waterras.com/event/archives/event/35255/"
+      "sourceUrl": "https://www.waterras.com/event/archives/event/35255/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2236,7 +2346,9 @@
       "src": "/images/articles/hunter-hunter-animate-fair-akihabara-2026.jpg",
       "alt": "『HUNTER×HUNTER』アニメイトフェア in 2026 Summerの告知ビジュアル",
       "sourceLabel": "AMNIBUS イベントページ",
-      "sourceUrl": "https://event.amnibus.com/hunterhunter-animate-2026summer/"
+      "sourceUrl": "https://event.amnibus.com/hunterhunter-animate-2026summer/",
+      "width": 1140,
+      "height": 640
     },
     "sources": [
       {
@@ -2325,7 +2437,9 @@
       "src": "/images/articles/raidou-remastered-animate-akihabara-annex-popup-2026.jpg",
       "alt": "『RAIDOU Remastered: 超力兵団奇譚』1周年記念商店の告知ビジュアル",
       "sourceLabel": "Collabo Cafe",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/raidou-1th-anniversary-popup-store-animate2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/raidou-1th-anniversary-popup-store-animate2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2373,7 +2487,9 @@
       "src": "/images/articles/kanachoro-bunny-outfit-volks-akihabara-2026.jpg",
       "alt": "TVアニメ『カナン様はあくまでチョロい』POP UP SHOPの告知ビジュアル",
       "sourceLabel": "ボークス秋葉原ホビー天国2 店舗ブログ",
-      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/06/04/031961.html"
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/06/04/031961.html",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -2417,7 +2533,9 @@
       "src": "/images/articles/torikoe-matsuri-torikoe-jinja-2026.jpg",
       "alt": "鳥越祭の御神輿の写真",
       "sourceLabel": "台東区公式ページ",
-      "sourceUrl": "https://www.city.taito.lg.jp/event/kanko/torikoematsuri.html"
+      "sourceUrl": "https://www.city.taito.lg.jp/event/kanko/torikoematsuri.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2458,7 +2576,9 @@
       "src": "/images/articles/uso-no-market-atelier-r-asakusabashi-2026.jpg",
       "alt": "嘘のマーケットの告知ビジュアル",
       "sourceLabel": "ESCAPE.ID イベントページ",
-      "sourceUrl": "https://escape.id/maniana-org/e-usoma/"
+      "sourceUrl": "https://escape.id/maniana-org/e-usoma/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2501,7 +2621,9 @@
       "src": "/images/articles/meltya-books-shosen-book-tower-fair-2026.jpg",
       "alt": "メルティアブックス新創刊記念フェア in 書泉の告知ビジュアル",
       "sourceLabel": "書泉公式ページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42899/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42899/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -2544,7 +2666,9 @@
       "src": "/images/articles/pokepeace-flowering-akiba-link-2026.jpg",
       "alt": "ポケピース POP UP STORE BY FLOWERINGの秋葉原会場ビジュアル",
       "sourceLabel": "FLOWERING公式サイト",
-      "sourceUrl": "https://flowering.co.jp/info/pokepeace-pop-up-store/"
+      "sourceUrl": "https://flowering.co.jp/info/pokepeace-pop-up-store/",
+      "width": 400,
+      "height": 400
     },
     "sources": [
       {
@@ -2587,7 +2711,9 @@
       "src": "/images/articles/im-doraemon-flowering-ecute-akihabara-2026.jpg",
       "alt": "I'M DORAEMON POP-UP STORE BY FLOWERINGの告知ビジュアル",
       "sourceLabel": "エキュート秋葉原 公式ページ",
-      "sourceUrl": "https://www.ecute.jp/akihabara/limitedshop/6929"
+      "sourceUrl": "https://www.ecute.jp/akihabara/limitedshop/6929",
+      "width": 100,
+      "height": 100
     },
     "sources": [
       {
@@ -2630,7 +2756,9 @@
       "src": "/images/articles/francais-ecute-akihabara-limited-shop-2026.jpg",
       "alt": "フランセの洋菓子イメージ",
       "sourceLabel": "エキュート秋葉原 公式ページ",
-      "sourceUrl": "https://www.ecute.jp/akihabara/limitedshop/6910"
+      "sourceUrl": "https://www.ecute.jp/akihabara/limitedshop/6910",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2672,7 +2800,9 @@
       "src": "/images/articles/aburasoba-souhonten-ichikakuya-akihabara-renewal-2026.jpg",
       "alt": "油そば総本店の油そばメニューイメージ",
       "sourceLabel": "株式会社ガーデン PR TIMESプレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000292.000027681.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000292.000027681.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2718,7 +2848,9 @@
       "src": "/images/articles/thanko-akihabara-main-store-close-2026.jpg",
       "alt": "サンコー秋葉原総本店閉店告知のメインビジュアル",
       "sourceLabel": "サンコー株式会社 PR TIMESプレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000425.000111905.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000425.000111905.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2810,7 +2942,9 @@
       "src": "/images/articles/nte-requiem-tomato-akihabara-daibiru-2026.jpg",
       "alt": "NTE レクイエムのトマト100％休日の告知画像",
       "sourceLabel": "PR TIMES / Inside Games",
-      "sourceUrl": "https://www.inside-games.jp/release/prtimes/20260603/289976.html"
+      "sourceUrl": "https://www.inside-games.jp/release/prtimes/20260603/289976.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2862,7 +2996,9 @@
       "src": "/images/articles/harmoe-twice-upon-a-time-gamers-akihabara-2026.jpg",
       "alt": "harmoe 3rdアルバム「twice upon a time」発売記念 店頭キャンペーン＆衣装展の告知画像",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7596"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7596",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2904,7 +3040,9 @@
       "src": "/images/articles/hololive-1st-generation-anniversary-parade-celestial-gamers-2026.jpg",
       "alt": "hololive 1st Generation Anniversary Parade -Celestial- フェアの告知画像",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7567"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7567",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2950,7 +3088,9 @@
       "src": "/images/articles/gamers-sei-pai-matsuri-2026-akihabara.jpg",
       "alt": "ゲーマーズ 聖・パイ祭り 2026 〜全人類乳（ニュー）ワールド〜の告知画像",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7605"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7605",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -2992,7 +3132,9 @@
       "src": "/images/articles/dandadan-street-style-popup-bushiroad-akihabara-2026.jpg",
       "alt": "TVアニメ『ダンダダン』POP UP SHOP Street Style ver.の告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009529.000014827.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009529.000014827.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -3081,7 +3223,9 @@
       "src": "/images/articles/irohani-box-akihabara-studio-open-2026.jpg",
       "alt": "秋葉原撮影スタジオ『いろはにぼっくす』のスタジオ写真",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000957.000060459.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000957.000060459.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -3169,7 +3313,9 @@
       "src": "/images/articles/maebashi-witches-popup-volks-akihabara-2026.jpg",
       "alt": "前橋ウィッチーズ POP UP SHOP in ボークス秋葉原ホビー天国2の告知ビジュアル",
       "sourceLabel": "ボークス 秋葉原ホビー天国2 店舗ブログ",
-      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/06/03/031977.html"
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/06/03/031977.html",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -3211,7 +3357,9 @@
       "src": "/images/articles/eita-noodle-party-shosen-booktower-2026.jpg",
       "alt": "ゑいた初画集販売記念個展『NOODLE PARTY』の告知ビジュアル",
       "sourceLabel": "書泉",
-      "sourceUrl": "https://www.shosen.co.jp/event/43308/"
+      "sourceUrl": "https://www.shosen.co.jp/event/43308/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -3294,7 +3442,9 @@
       "src": "/images/articles/noblesse-minette-debut-live-soundnote-akihabara-2026.jpg",
       "alt": "ノブレス・ミネット デビューライブ『はじまりのうた』の告知ビジュアル",
       "sourceLabel": "TIGET",
-      "sourceUrl": "https://tiget.net/events/486878"
+      "sourceUrl": "https://tiget.net/events/486878",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -3332,7 +3482,9 @@
       "src": "/images/articles/bang-dream-heisei-gal-gamers-2026.jpg",
       "alt": "BanG Dream! 平成★GAL化計画！ in ゲーマーズの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7587"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7587",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -3378,7 +3530,9 @@
       "src": "/images/articles/bluearchive-benriya68-final-fair-gamers-2026.jpg",
       "alt": "ブルーアーカイブ 便利屋68業務日誌 完結記念フェア in GAMERSの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7496"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7496",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -3420,7 +3574,9 @@
       "src": "/images/articles/oshinoko-gigo-campaign-akihabara-2026.jpg",
       "alt": "【推しの子】×GiGOキャンペーン2026の告知ビジュアル",
       "sourceLabel": "GiGO公式サイト",
-      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-06-oshinoko-cp?area=13"
+      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-06-oshinoko-cp?area=13",
+      "width": 960,
+      "height": 960
     },
     "sources": [
       {
@@ -3466,7 +3622,9 @@
       "src": "/images/articles/harumakigohan-gigo-campaign-akihabara-2026.jpg",
       "alt": "『はるまきごはん』×GiGOキャンペーンの告知ビジュアル",
       "sourceLabel": "GiGO公式サイト",
-      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-05-harumakigohan-cp?area=13"
+      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-05-harumakigohan-cp?area=13",
+      "width": 960,
+      "height": 960
     },
     "sources": [
       {
@@ -3508,7 +3666,9 @@
       "src": "/images/articles/diaace-gigo-campaign-akihabara-2026.jpg",
       "alt": "TVアニメ『ダイヤのA actII -Second Season-』×GiGOキャンペーンの告知ビジュアル",
       "sourceLabel": "GiGO公式サイト",
-      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-05-diaace-cp?area=13"
+      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-05-diaace-cp?area=13",
+      "width": 960,
+      "height": 960
     },
     "sources": [
       {
@@ -3550,7 +3710,9 @@
       "src": "/images/articles/heroaca-gigo-campaign-akihabara-2026.jpg",
       "alt": "アニメ『僕のヒーローアカデミア』×GiGOキャンペーンの告知ビジュアル",
       "sourceLabel": "GiGO公式サイト",
-      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-05-heroaca-cp?area=13"
+      "sourceUrl": "https://www.gigo.co.jp/campaigns/2026-05-heroaca-cp?area=13",
+      "width": 960,
+      "height": 960
     },
     "sources": [
       {
@@ -3592,7 +3754,9 @@
       "src": "/images/articles/volks-fss-exhibition-akihabara-2026.jpg",
       "alt": "ボークス F.S.S.シリーズ展 秋葉原ホビー天国2 2026夏の告知ビジュアル",
       "sourceLabel": "ボークス公式サイト",
-      "sourceUrl": "https://hobby.volks.co.jp/event/fss-exhibition/"
+      "sourceUrl": "https://hobby.volks.co.jp/event/fss-exhibition/",
+      "width": 560,
+      "height": 770
     },
     "sources": [
       {
@@ -3630,7 +3794,9 @@
       "src": "/images/articles/yukizna-no-sew-leather-goods-ykk-akihabara-2026.jpg",
       "alt": "YUKIZNAで作る縫わない革小物のワークショップ画像",
       "sourceLabel": "PassMarket",
-      "sourceUrl": "https://passmarket.yahoo.co.jp/event/show/detail/01chi7qth3351.html"
+      "sourceUrl": "https://passmarket.yahoo.co.jp/event/show/detail/01chi7qth3351.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -3672,7 +3838,9 @@
       "src": "/images/articles/kobu-inari-goshuin-hatagocho-akihabara-2026.jpg",
       "alt": "講武稲荷神社の御朱印頒布告知ポスター",
       "sourceLabel": "秋葉原電気街振興会",
-      "sourceUrl": "https://akiba.or.jp/3742"
+      "sourceUrl": "https://akiba.or.jp/3742",
+      "width": 1005,
+      "height": 1518
     },
     "sources": [
       {
@@ -3710,7 +3878,9 @@
       "src": "/images/articles/beep-akihabara-seekbase-grand-open-2026.jpg",
       "alt": "SEEKBASE3号棟に設置されたBEEP秋葉原店の看板",
       "sourceLabel": "BEEP秋葉原 公式ブログ",
-      "sourceUrl": "https://www.akihabara-beep.com/13011/"
+      "sourceUrl": "https://www.akihabara-beep.com/13011/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -3748,7 +3918,9 @@
       "src": "/images/articles/lovelive-hasunosora-atre-akihabara-pop-up-2026.jpg",
       "alt": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ POP UP SHOPのキービジュアル",
       "sourceLabel": "A-on STORE 特設ページ",
-      "sourceUrl": "https://a-onstore.jp/shop/hasunosora-atre/"
+      "sourceUrl": "https://a-onstore.jp/shop/hasunosora-atre/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -3883,7 +4055,9 @@
       "src": "/images/articles/girls-band-cry-vol1-signing-shosen-booktower-2026.jpg",
       "alt": "ライドコミックス『ガールズバンドクライ1』発売記念 伊勢海老ボイル先生サイン会の告知画像",
       "sourceLabel": "書泉 イベントページ",
-      "sourceUrl": "https://www.shosen.co.jp/event/43138/"
+      "sourceUrl": "https://www.shosen.co.jp/event/43138/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -3927,7 +4101,9 @@
       "src": "/images/articles/ishigami-senki-vol7-shosen-booktower-2026.jpg",
       "alt": "『石神戦記』7巻発売記念フェアの告知ビジュアル",
       "sourceLabel": "書泉 フェアページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42507/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42507/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -3970,7 +4146,9 @@
       "src": "/images/articles/high-school-dxd-kouou-gakuen-store-gamers-akihabara-2026.jpg",
       "alt": "「ハイスクールD×D」駒王学園購買部 in ゲーマーズの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェアページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7553"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7553",
+      "width": 100,
+      "height": 100
     },
     "sources": [
       {
@@ -4013,7 +4191,9 @@
       "src": "/images/articles/atre-akihabara-shopping-campaign-june-2026.jpg",
       "alt": "最大2万ポイントが当たる！アトレを満喫★お買物キャンペーンの告知画像",
       "sourceLabel": "アトレ秋葉原 公式ニュース",
-      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7085"
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7085",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -4056,7 +4236,9 @@
       "src": "/images/articles/ikizulive-love-live-bluebird-3rd-fair-gamers-2026.jpg",
       "alt": "「イキヅライブ！ LOVELIVE! BLUEBIRD」×ゲーマーズ3rdフェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェアページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7591"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7591",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -4099,7 +4281,9 @@
       "src": "/images/articles/momosuzu-nene-peachful-story-gamers-akihabara-2026.jpg",
       "alt": "桃鈴ねね 1st Album「Peachful Story」発売記念キャンペーンの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェアページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7579"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7579",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -4143,7 +4327,9 @@
       "src": "/images/articles/project-sekai-colorful-live-5th-gamers-akihabara-2026.jpg",
       "alt": "プロジェクトセカイ COLORFUL LIVE 5th - Frontier - ×ゲーマーズコラボキャンペーンの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェアページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7590"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7590",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -4232,7 +4418,9 @@
       "src": "/images/articles/yasagure-shoukansha-vol1-gamers-akihabara-2026.jpg",
       "alt": "「やさぐれ召喚者は動かない」1巻発売記念フェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェアページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7575"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7575",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -4275,7 +4463,9 @@
       "src": "/images/articles/shosen-shuwasystem-early-summer-books-fair-2026.jpg",
       "alt": "書泉ブックタワー×秀和システム 初夏の入門書フェアの告知ビジュアル",
       "sourceLabel": "書泉 フェアページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42583/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42583/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -4321,7 +4511,9 @@
       "src": "/images/articles/kasui-jun-syndrome-shosen-booktower-2026.jpg",
       "alt": "香水じゅん写真集『syndrome』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/56vu-"
+      "sourceUrl": "https://t.livepocket.jp/e/56vu-",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -4370,7 +4562,9 @@
       "src": "/images/articles/ito-mayuki-chronicle-shosen-booktower-2026.jpg",
       "alt": "伊藤舞雪写真集『Chronicle』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/h_59z"
+      "sourceUrl": "https://t.livepocket.jp/e/h_59z",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -4419,7 +4613,9 @@
       "src": "/images/articles/kyosei-kankei-vol1-shosen-booktower-2026.jpg",
       "alt": "「教生カンケイ」1巻の書影",
       "sourceLabel": "書泉 フェアページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42317/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42317/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -4462,7 +4658,9 @@
       "src": "/images/articles/tengai-no-vault-vol1-shosen-booktower-2026.jpg",
       "alt": "「天蓋のヴォールト」1巻の書影",
       "sourceLabel": "書泉 フェアページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/43143/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/43143/",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -4505,7 +4703,9 @@
       "src": "/images/articles/voice-style-vol6-oishi-kokona-animate-akihabara-2026.jpg",
       "alt": "VOICEスタイルVOL.6 発売記念 大石恋々菜さんイベントの告知ビジュアル",
       "sourceLabel": "アニメイト イベントページ",
-      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115491"
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115491",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -4549,7 +4749,9 @@
       "src": "/images/articles/anemoi-na-ga-signing-animate-akihabara-2026.jpg",
       "alt": "『anemoi -アネモイ-』発売記念 Na-Ga先生サイン会の告知ビジュアル",
       "sourceLabel": "アニメイト イベントページ",
-      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115188"
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115188",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -4592,7 +4794,9 @@
       "src": "/images/articles/dengeki-daioh-32nd-signing-animate-akihabara-2026.jpg",
       "alt": "電撃大王32周年記念サイン会の告知ビジュアル",
       "sourceLabel": "アニメイト イベントページ",
-      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115142"
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115142",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -4639,7 +4843,9 @@
       "src": "/images/articles/daiyonkyokai-2nd-anniversary-animate-akihabara-2026.jpeg",
       "alt": "「第四境界」2周年記念フェアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/daiyonkyokai-2nd-anniversary-animatefair2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/daiyonkyokai-2nd-anniversary-animatefair2026/",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -4687,7 +4893,9 @@
       "src": "/images/articles/trigun-stargaze-popup-amiami-akihabara-2026.jpeg",
       "alt": "『TRIGUN STARGAZE POP UP SHOP in AmiAmi』の告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/",
+      "width": 1200,
+      "height": 630
     },
     "sources": [
       {
@@ -4740,7 +4948,9 @@
       "src": "/images/articles/haganai-popup-melonbooks-akihabara-2026.jpg",
       "alt": "『僕は友達が少ない』POP UPショップ 2026の告知画像",
       "sourceLabel": "Anime Maps",
-      "sourceUrl": "https://animemaps.com/ja/event/%E3%80%8E%E5%83%95%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%8C%E5%B0%91%E3%81%AA%E3%81%84%E3%80%8Fpop-up%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-2026/"
+      "sourceUrl": "https://animemaps.com/ja/event/%E3%80%8E%E5%83%95%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%8C%E5%B0%91%E3%81%AA%E3%81%84%E3%80%8Fpop-up%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-2026/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -4792,7 +5002,9 @@
       "src": "/images/articles/ske48-ota-ayaka-photobook-shosen-2026.jpg",
       "alt": "SKE48太田彩夏1st写真集「タイトル未定」予約特典会の告知画像",
       "sourceLabel": "書泉 イベントページ",
-      "sourceUrl": "https://www.shosen.co.jp/event/43062/"
+      "sourceUrl": "https://www.shosen.co.jp/event/43062/",
+      "width": 350,
+      "height": 350
     },
     "sources": [
       {
@@ -4840,7 +5052,9 @@
       "src": "/images/articles/girls-last-tour-popup-culpop-akihabara-2026.jpg",
       "alt": "TVアニメ『少女終末旅行』POP UP SHOPの告知ビジュアル",
       "sourceLabel": "カーテン魂 特設ページ",
-      "sourceUrl": "https://www.curtain-damashii.com/event/girlslasttour2026/"
+      "sourceUrl": "https://www.curtain-damashii.com/event/girlslasttour2026/",
+      "width": 1220,
+      "height": 1719
     },
     "sources": [
       {
@@ -4918,7 +5132,9 @@
       "src": "/images/articles/carrozzeria-2026-summer-experience-bellesalle-akihabara.jpg",
       "alt": "2026年夏 カロッツェリア新商品体験会の告知画像",
       "sourceLabel": "パイオニア 公式イベント情報",
-      "sourceUrl": "https://jpn.pioneer/ja/corp/news/event_campaign/"
+      "sourceUrl": "https://jpn.pioneer/ja/corp/news/event_campaign/",
+      "width": 750,
+      "height": 421
     },
     "sources": [
       {
@@ -4961,7 +5177,9 @@
       "src": "/images/articles/ore-no-anison-vol62-akihabara-zest-2026.jpg",
       "alt": "俺のアニソン Vol.62の告知画像",
       "sourceLabel": "TIGET イベントページ",
-      "sourceUrl": "https://tiget.net/events/487776"
+      "sourceUrl": "https://tiget.net/events/487776",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -5004,7 +5222,9 @@
       "src": "/images/articles/needy-girl-overdose-vol1-release-event-gamers-akihabara-2026.jpg",
       "alt": "NEEDY GIRL OVERDOSE １発売記念イベントの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7417"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7417",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5047,7 +5267,9 @@
       "src": "/images/articles/needy-girl-overdose-animate-fair-gamers-akihabara-2026.jpg",
       "alt": "NEEDY GIRL OVERDOSE アニメイトフェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7442"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7442",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5089,7 +5311,9 @@
       "src": "/images/articles/aobuta-summer-check-popup-volks-akihabara-2026.jpg",
       "alt": "青春ブタ野郎シリーズ POP UP SHOP サマーチェックver.の告知ビジュアル",
       "sourceLabel": "ボークス 秋葉原ホビー天国2 店舗ブログ",
-      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/25/031879.html"
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/25/031879.html",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -5131,7 +5355,9 @@
       "src": "/images/articles/hikaru-ga-shinda-natsu-vol9-gamers-akihabara-2026.jpg",
       "alt": "光が死んだ夏 9巻発売記念フェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7547"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7547",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5174,7 +5400,9 @@
       "src": "/images/articles/akihabara-historical-walk-guide.jpg",
       "alt": "神田明神の随神門と境内",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KandaMyojinGate8837.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KandaMyojinGate8837.jpg",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -5216,7 +5444,9 @@
       "src": "/images/articles/taikan-yoho-gratte-animate-akihabara-2026.jpg",
       "alt": "体感予報×Gratteの告知ビジュアル",
       "sourceLabel": "アニメイト Gratte 公式ページ",
-      "sourceUrl": "https://www.animate.co.jp/gratte/42314/"
+      "sourceUrl": "https://www.animate.co.jp/gratte/42314/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -5261,7 +5491,9 @@
       "src": "/images/articles/bungo-mayoi-collabocafe-honpo-akihabara-2026.jpg",
       "alt": "文豪ストレイドッグス 迷ヰ犬怪奇譚 × コラボカフェ本舗の告知ビジュアル",
       "sourceLabel": "コラボカフェ本舗 公式ページ",
-      "sourceUrl": "https://collabocafe-honpo.co.jp/event/bungomayoi2605/"
+      "sourceUrl": "https://collabocafe-honpo.co.jp/event/bungomayoi2605/",
+      "width": 100,
+      "height": 100
     },
     "sources": [
       {
@@ -5310,7 +5542,9 @@
       "src": "/images/articles/ieyasu-shingen-talk-kanda-myojin-2026.jpg",
       "alt": "徳川家康公と武田信玄公 講演会・トークイベントの告知ビジュアル",
       "sourceLabel": "株式会社ペイメントフォー",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000211.000140094.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000211.000140094.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5358,7 +5592,9 @@
       "src": "/images/articles/inaba-haneru-curemaid-cafe-akihabara-2026.jpg",
       "alt": "因幡はねる Always watching you カフェの告知ビジュアル",
       "sourceLabel": "774株式会社",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000045.000071134.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000045.000071134.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5407,7 +5643,9 @@
       "src": "/images/articles/hatsune-miku-karatetsu-akihabara-2026.jpg",
       "alt": "初音ミク × カラオケの鉄人 COLLABORATIONの告知ビジュアル",
       "sourceLabel": "株式会社arma bianca",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009049.000016064.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009049.000016064.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5455,7 +5693,9 @@
       "src": "/images/articles/blackathon-akihabara-2026.jpg",
       "alt": "ブラッカソンの告知ビジュアル",
       "sourceLabel": "有楽製菓",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000312.000064626.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000312.000064626.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5502,7 +5742,9 @@
       "src": "/images/articles/next-generation-tcg-shop-conference-akihabara-udx-2026.jpg",
       "alt": "第2回 次世代 TCG ショップ カンファレンスの告知ビジュアル",
       "sourceLabel": "株式会社コモンプロダクツ",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000010.000109608.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000010.000109608.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5546,7 +5788,9 @@
       "src": "/images/articles/droplet2026-akihabara-udx.jpg",
       "alt": "DROPLET2026の告知ビジュアル",
       "sourceLabel": "オンチップ・バイオテクノロジーズ",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000015.000068897.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000015.000068897.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5589,7 +5833,9 @@
       "src": "/images/articles/coworking-space-akihabara-guide.jpg",
       "alt": "秋葉原エリアのコワーキングスペース",
       "sourceLabel": "秋葉原コワーキングスペース generated by gemini",
-      "sourceUrl": "https://rampart-akiba.jp/"
+      "sourceUrl": "https://rampart-akiba.jp/",
+      "width": 864,
+      "height": 482
     },
     "sources": [
       {
@@ -5640,7 +5886,9 @@
       "src": "/images/articles/2k540-popup-shop-event-space-c-d-may-2026.jpg",
       "alt": "2k540イベントスペースC・D POP UP SHOPの告知画像",
       "sourceLabel": "2k540 AKI-OKA ARTISAN",
-      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00492/"
+      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00492/",
+      "width": 330,
+      "height": 330
     },
     "sources": [
       {
@@ -5678,7 +5926,9 @@
       "src": "/images/articles/hinano-kanon-aventure-shosen-booktower-2026.jpg",
       "alt": "ひなの花音写真集『Aventure』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/1i4-h"
+      "sourceUrl": "https://t.livepocket.jp/e/1i4-h",
+      "width": 600,
+      "height": 600
     },
     "sources": [
       {
@@ -5762,7 +6012,9 @@
       "src": "/images/articles/pierrot-magical-girls-popup-atre-akihabara-2026.jpg",
       "alt": "ぴえろ魔法少女～I admire magical girls～ポップアップイベントの告知ビジュアル",
       "sourceLabel": "魔法の姉妹ルルットリリィ公式サイト",
-      "sourceUrl": "https://www.luluttolilly.com/news/detail.php?id=23592"
+      "sourceUrl": "https://www.luluttolilly.com/news/detail.php?id=23592",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -5804,7 +6056,9 @@
       "src": "/images/articles/mizudakochan-vol5-sign-fair-gamers-akihabara-2026.jpg",
       "alt": "『ミズダコちゃんからは逃げられない！』5巻発売記念サイン色紙プレゼントフェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7554"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7554",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5847,7 +6101,9 @@
       "src": "/images/articles/majo-wa-mangetsu-ni-saku-vol5-sign-fair-gamers-akihabara-2026.jpg",
       "alt": "『魔女は満月に咲く』5巻発売記念サイン色紙プレゼントフェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7552"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7552",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5890,7 +6146,9 @@
       "src": "/images/articles/kirio-fanclub-bluray-present-campaign-gamers-akihabara-2026.jpg",
       "alt": "TVアニメ『霧尾ファンクラブ』Blu-ray発売記念プレゼントキャンペーンの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7497"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7497",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5933,7 +6191,9 @@
       "src": "/images/articles/strategic-lovers-11-store-gamers-akihabara-2026.jpg",
       "alt": "『ストラテジックラバーズ』コミックス11巻発売記念ストアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7538"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7538",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -5975,7 +6235,9 @@
       "src": "/images/articles/payton-naomi-rashisa-campaign-gamers-akihabara-2026.jpg",
       "alt": "ペイトン尚未 1st Album「らしさ」発売記念キャンペーンの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7564"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7564",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6054,7 +6316,9 @@
       "src": "/images/articles/sasaki-riko-ri-pathos-lottery-gamers-akihabara-2026.jpg",
       "alt": "佐々木李子 フルアルバム「RI PATHOS」発売記念抽選会の告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7572"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7572",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6096,7 +6360,9 @@
       "src": "/images/articles/ender-lilies-magnolia-popup-gamers-akihabara-2026.jpg",
       "alt": "『ENDER LILIES』＆『ENDER MAGNOLIA』POP UP SHOPの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7408"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7408",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6138,7 +6404,9 @@
       "src": "/images/articles/kaorisan-anime-screening-gamers-akihabara-2026.jpg",
       "alt": "TVアニメ『花織さんは転生しても喧嘩がしたい』先行上映会の告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7539"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7539",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6290,7 +6558,9 @@
       "src": "/images/articles/punk-drunkers-popup-kenelebunshitsu-2026.jpg",
       "alt": "PUNK DRUNKERS POPUP in ケンエレブンシツの告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000086.000166988.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000086.000166988.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6333,7 +6603,9 @@
       "src": "/images/articles/mercari-toreca-cup-2026-akihabara.jpg",
       "alt": "メルカリ トレカ杯 2026の告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000540.000026386.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000540.000026386.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6376,7 +6648,9 @@
       "src": "/images/articles/akanebanashi-summer-festival-animate-akihabara-2026.jpeg",
       "alt": "TVアニメ あかね噺 アニメイトフェア 夏祭りの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/akanebanashi-summer-festival-animate-fair2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/akanebanashi-summer-festival-animate-fair2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6418,7 +6692,9 @@
       "src": "/images/articles/prisma-illya-china-dress-granentas-2026.jpg",
       "alt": "劇場版 プリズマ☆イリヤ POP UP SHOP チャイナドレスの告知ビジュアル",
       "sourceLabel": "GEE!STORE イベント情報",
-      "sourceUrl": "https://www.geestore.com/geenet/event/14955.html"
+      "sourceUrl": "https://www.geestore.com/geenet/event/14955.html",
+      "width": 1200,
+      "height": 1697
     },
     "sources": [
       {
@@ -6460,7 +6736,9 @@
       "src": "/images/articles/sirotan-funwari-store-ecute-akihabara-2026.jpg",
       "alt": "しろたんふんわりストアの告知ビジュアル",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000140.000045781.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000140.000045781.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6502,7 +6780,9 @@
       "src": "/images/articles/browndust-popup-akiba-cultures-zone-2026.jpeg",
       "alt": "ブラウンダスト ポップアップストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/browndust-pop-up-store-akihabara-2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/browndust-pop-up-store-akihabara-2026/",
+      "width": 1200,
+      "height": 786
     },
     "sources": [
       {
@@ -6544,7 +6824,9 @@
       "src": "/images/articles/hotel-en-yo-akihabara-open-2026.jpg",
       "alt": "HOTEL EN-YOの外観写真",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000058.000056249.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000058.000056249.html",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -6670,7 +6952,9 @@
       "src": "/images/articles/nigoriri-ice-cream-parlor-kotobukiya-akihabara-2026.jpeg",
       "alt": "にごリリ アイスクリームパーラー POP UP STOREの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/nitengojigen-ice-cream-parlor-pop-up-store-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/nitengojigen-ice-cream-parlor-pop-up-store-akihabara2026/",
+      "width": 1500,
+      "height": 981
     },
     "sources": [
       {
@@ -6712,7 +6996,9 @@
       "src": "/images/articles/yanaka-fukumaru-manju-atre-akihabara-2026.jpg",
       "alt": "谷中福丸饅頭 期間限定POP UP SHOPの告知画像",
       "sourceLabel": "アトレ秋葉原 公式ニュース",
-      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7063"
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7063",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -6754,7 +7040,9 @@
       "src": "/images/articles/kyuyu-to-furin-shosen-signing-2026.jpg",
       "alt": "旧友と不倫してみた 第1巻・第2巻連続刊行記念サイン会の告知画像",
       "sourceLabel": "書泉 公式イベントページ",
-      "sourceUrl": "https://www.shosen.co.jp/event/42844/"
+      "sourceUrl": "https://www.shosen.co.jp/event/42844/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6800,7 +7088,9 @@
       "src": "/images/articles/bandori-yume-mita-fair-gamers-akihabara-2026.jpg",
       "alt": "TVアニメ「バンドリ！ ゆめ∞みた」放送記念フェアの告知ビジュアル",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009451.000014827.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009451.000014827.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6892,7 +7182,9 @@
       "src": "/images/articles/momoyo-koyama-gemakuji-lottery-gamers-akihabara-2026.jpg",
       "alt": "ゲマくじ「小山百代」発売記念スペシャル抽選会の告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7531"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7531",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6930,7 +7222,9 @@
       "src": "/images/articles/gakuen-hime-comic1-fair-gamers-akihabara-2026.jpg",
       "alt": "『学園の姫攻略始めたら修羅場になってた件』複製原画展の告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7504"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7504",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -6968,7 +7262,9 @@
       "src": "/images/articles/week-classmate-vol9-fair-gamers-akihabara-2026.jpg",
       "alt": "『週に一度クラスメイトを買う話』9巻発売記念既刊フェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7517"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7517",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7006,7 +7302,9 @@
       "src": "/images/articles/dengeki-daiohji-vol153-lottery-gamers-akihabara-2026.jpg",
       "alt": "「コミック電撃だいおうじ VOL.153」抽選会の告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7540"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7540",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7044,7 +7342,9 @@
       "src": "/images/articles/bbm-sumo-fair-shosen-booktower-2026.jpg",
       "alt": "BBM大相撲応援フェアの告知ビジュアル",
       "sourceLabel": "書泉 公式ページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42248/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42248/",
+      "width": 750,
+      "height": 755
     },
     "sources": [
       {
@@ -7082,7 +7382,9 @@
       "src": "/images/articles/oreilly-selection-fair-shosen-booktower-2026.jpg",
       "alt": "2026 春のオライリーセレクションフェアの告知ビジュアル",
       "sourceLabel": "書泉 公式ページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42230/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42230/",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -7120,7 +7422,9 @@
       "src": "/images/articles/aji-no-prowrestling-fair-shosen-booktower-2026.jpg",
       "alt": "『味のプロレス マニアック編』刊行記念フェアの告知ビジュアル",
       "sourceLabel": "書泉 公式ページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/41910/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/41910/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -7258,7 +7562,9 @@
       "src": "/images/articles/akihabara-tier-ayaka-sakuma-live-18-2026.webp",
       "alt": "第18回 秋葉原ティア ワンマンライブ＆ファンミーティングの告知ビジュアル",
       "sourceLabel": "レッツエンジョイ東京 イベントページ",
-      "sourceUrl": "https://www.enjoytokyo.jp/event/2065908/"
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2065908/",
+      "width": 426,
+      "height": 640
     },
     "sources": [
       {
@@ -7300,7 +7606,9 @@
       "src": "/images/articles/popn-music-popup-gamers-akihabara-2026.jpg",
       "alt": "「pop'n music」POP UP SHOPの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7528"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7528",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7338,7 +7646,9 @@
       "src": "/images/articles/gridman-universe-popup-volks-akihabara-2026.jpg",
       "alt": "グリッドマン ユニバース POP UP SHOPの告知ビジュアル",
       "sourceLabel": "ボークス 秋葉原ホビー天国2 店舗ブログ",
-      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/14/031806.html"
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/14/031806.html",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -7376,7 +7686,9 @@
       "src": "/images/articles/kapibara-shop-volks-akihabara-2026.jpg",
       "alt": "かぴばらしょっぷ拡大出張所 2026初夏の告知ビジュアル",
       "sourceLabel": "ボークス 秋葉原ホビー天国2 店舗ブログ",
-      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/14/031805.html"
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/14/031805.html",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -7414,7 +7726,9 @@
       "src": "/images/articles/trickcal-popup-gamers-akihabara-2026.jpg",
       "alt": "トリッカル・もちもちほっぺ大作戦 POPUPストアの告知ビジュアル",
       "sourceLabel": "4Gamer 記事",
-      "sourceUrl": "https://www.4gamer.net/games/913/G091374/20260515043/index_2.html"
+      "sourceUrl": "https://www.4gamer.net/games/913/G091374/20260515043/index_2.html",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -7452,7 +7766,9 @@
       "src": "/images/articles/gigo-expo-2026-akihabara.jpg",
       "alt": "GiGO EXPO 2026の告知ビジュアル",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001137.000034930.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001137.000034930.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7498,7 +7814,9 @@
       "src": "/images/articles/shosen-isekai-fair-2026.jpg",
       "alt": "2026年女性向け異世界フェアの告知ビジュアル",
       "sourceLabel": "書泉 公式フェアページ",
-      "sourceUrl": "https://www.shosen.co.jp/fair/41850/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/41850/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -7536,7 +7854,9 @@
       "src": "/images/articles/camp-cricket-workshop-akihabara-daibiru-2026.webp",
       "alt": "CAMPクリケットワークショップのイメージ",
       "sourceLabel": "レッツエンジョイ東京 イベントページ",
-      "sourceUrl": "https://www.enjoytokyo.jp/event/2065020/"
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2065020/",
+      "width": 512,
+      "height": 640
     },
     "sources": [
       {
@@ -7582,7 +7902,9 @@
       "src": "/images/articles/camp-facilitator-training-akihabara-daibiru-2026.webp",
       "alt": "CAMPファシリテーター研修会のイメージ",
       "sourceLabel": "レッツエンジョイ東京 イベントページ",
-      "sourceUrl": "https://www.enjoytokyo.jp/event/2060307/"
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2060307/",
+      "width": 640,
+      "height": 313
     },
     "sources": [
       {
@@ -7624,7 +7946,9 @@
       "src": "/images/articles/atre-akihabara-barcode-point-up-june-2026.jpg",
       "alt": "2026年6月バーコード限定ポイントアップキャンペーン告知画像",
       "sourceLabel": "アトレ秋葉原 公式ニュース",
-      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6846/"
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6846/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -7662,7 +7986,9 @@
       "src": "/images/articles/jre-card-atre-akihabara-campaign-2026.jpg",
       "alt": "JRE CARD 新規入会キャンペーン告知画像",
       "sourceLabel": "アトレ秋葉原 公式ニュース",
-      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6981/"
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6981/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -7700,7 +8026,9 @@
       "src": "/images/articles/prisma-illya-licht-pop-up-gamers-akihabara-2026.jpg",
       "alt": "劇場版Fate/kaleid liner プリズマ☆イリヤ Licht 名前の無い少女ポップアップストアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7395"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7395",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7738,7 +8066,9 @@
       "src": "/images/articles/outside-vrchat-live-club-goodman-akihabara-2026.jpg",
       "alt": "OUTSIDE VRChat発リアルライブイベントの告知ビジュアル",
       "sourceLabel": "バーチャルライフマガジン記事",
-      "sourceUrl": "https://vr-lifemagazine.com/outside_press/"
+      "sourceUrl": "https://vr-lifemagazine.com/outside_press/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -7780,7 +8110,9 @@
       "src": "/images/articles/akihabara-tier-ayaka-sakuma-live-2026.webp",
       "alt": "第17回 秋葉原ティア ワンマンライブ＆ファンミーティングの告知ビジュアル",
       "sourceLabel": "レッツエンジョイ東京 イベントページ",
-      "sourceUrl": "https://www.enjoytokyo.jp/event/2065907/"
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2065907/",
+      "width": 426,
+      "height": 640
     },
     "sources": [
       {
@@ -7822,7 +8154,9 @@
       "src": "/images/articles/ayasa-ito-photobook-gamers-akihabara-2026.jpg",
       "alt": "伊藤彩沙 写真集発売記念イベントの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7491"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7491",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7860,7 +8194,9 @@
       "src": "/images/articles/hina-tachibana-live-in-holic-gamers-akihabara-2026.jpg",
       "alt": "立花日菜 1st concert LIVE IN HOLIC Blu-ray発売記念リリースイベントの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7345"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7345",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7902,7 +8238,9 @@
       "src": "/images/articles/digimon-beatbreak-animate-akihabara-2026.jpg",
       "alt": "DIGIMON BEATBREAK POP UP SHOP in アニメイトの告知ビジュアル",
       "sourceLabel": "COCOLLABO 公式ページ",
-      "sourceUrl": "https://www.cocollabo.net/pages/digimon-beatbreak-2026"
+      "sourceUrl": "https://www.cocollabo.net/pages/digimon-beatbreak-2026",
+      "width": 1800,
+      "height": 600
     },
     "sources": [
       {
@@ -7944,7 +8282,9 @@
       "src": "/images/articles/railgun-t-pop-up-gamers-akihabara-2026.jpg",
       "alt": "TVアニメ「とある科学の超電磁砲T」ポップアップストアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ 公式ページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7503"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7503",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -7986,7 +8326,9 @@
       "src": "/images/articles/tsumiki-community-day-2026-akihabara-udx.jpg",
       "alt": "Tsumiki Community Day 2026のメインビジュアル",
       "sourceLabel": "株式会社積木製作 PR TIMESプレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000050.000024673.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000050.000024673.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -8069,7 +8411,9 @@
       "src": "/images/articles/figure-japanese-culture-edocco-studio-2026.webp",
       "alt": "秋葉原からフィギュアと日本の文化を考えるイベントビジュアル",
       "sourceLabel": "EDOCCO STUDIOイベント予約",
-      "sourceUrl": "https://edoccostudio-reserve.stores.jp/items/6992c6c3bd174839f372530e"
+      "sourceUrl": "https://edoccostudio-reserve.stores.jp/items/6992c6c3bd174839f372530e",
+      "width": 453,
+      "height": 640
     },
     "sources": [
       {
@@ -8111,7 +8455,9 @@
       "src": "/images/articles/beeeem-vol2-logyou-shosen-2026.jpg",
       "alt": "BEEEEM vol.2発売記念イベントのビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/a7_o5"
+      "sourceUrl": "https://t.livepocket.jp/e/a7_o5",
+      "width": 350,
+      "height": 350
     },
     "sources": [
       {
@@ -8149,7 +8495,9 @@
       "src": "/images/articles/okiguchi-yuna-zutto-shosen-2026.jpg",
       "alt": "沖口優奈1st写真集『ずっと。』発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/zh_lk"
+      "sourceUrl": "https://t.livepocket.jp/e/zh_lk",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8187,7 +8535,9 @@
       "src": "/images/articles/miuto-sakura-mizuuranai-shosen-2026.jpg",
       "alt": "水卜さくら写真集『水うらなひ』発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/i1hzt"
+      "sourceUrl": "https://t.livepocket.jp/e/i1hzt",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -8225,7 +8575,9 @@
       "src": "/images/articles/coshollic44-kurousagi-shosen-2026.jpg",
       "alt": "コスホリック44公式パンフレット くろうさぎver.発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/aag78"
+      "sourceUrl": "https://t.livepocket.jp/e/aag78",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8263,7 +8615,9 @@
       "src": "/images/articles/coshollic44-yunori-rika-shosen-2026.jpg",
       "alt": "コスホリック44公式パンフレット 柚乃りかver.発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/adktn"
+      "sourceUrl": "https://t.livepocket.jp/e/adktn",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8301,7 +8655,9 @@
       "src": "/images/articles/sakai-mio-naturally-shosen-2026.jpg",
       "alt": "坂井美桜写真集「naturally」発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/cudct"
+      "sourceUrl": "https://t.livepocket.jp/e/cudct",
+      "width": 600,
+      "height": 600
     },
     "sources": [
       {
@@ -8339,7 +8695,9 @@
       "src": "/images/articles/saejima-nana-bannounyu-shosen-2026.jpg",
       "alt": "冴島なな1st写真集『万能乳』発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/5o5ig"
+      "sourceUrl": "https://t.livepocket.jp/e/5o5ig",
+      "width": 200,
+      "height": 200
     },
     "sources": [
       {
@@ -8377,7 +8735,9 @@
       "src": "/images/articles/coshollic44-rinashi-shosen-2026.jpg",
       "alt": "コスホリック44公式パンフレット りなしぃver.発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/0_lrn"
+      "sourceUrl": "https://t.livepocket.jp/e/0_lrn",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8415,7 +8775,9 @@
       "src": "/images/articles/hasaki-miharu-fadeless-shosen-2026.jpg",
       "alt": "羽咲みはる写真集『Fadeless』発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/vnybo"
+      "sourceUrl": "https://t.livepocket.jp/e/vnybo",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8453,7 +8815,9 @@
       "src": "/images/articles/kuriemi-namaguri-shosen-2026.jpg",
       "alt": "くりえみ写真集『生栗』発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/jxdx-"
+      "sourceUrl": "https://t.livepocket.jp/e/jxdx-",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8491,7 +8855,9 @@
       "src": "/images/articles/bushi-jiden-en-serio-shosen-2026.jpg",
       "alt": "BUSHI自伝 EN SERIOマジで！刊行記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/7q0my"
+      "sourceUrl": "https://t.livepocket.jp/e/7q0my",
+      "width": 757,
+      "height": 1115
     },
     "sources": [
       {
@@ -8529,7 +8895,9 @@
       "src": "/images/articles/fairy-kiss-10th-anniversary-shosen-2026.jpg",
       "alt": "フェアリーキス10周年記念サイン本販売イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/c_844"
+      "sourceUrl": "https://t.livepocket.jp/e/c_844",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -8567,7 +8935,9 @@
       "src": "/images/articles/yokyun-cosplay-shacho-shosen-2026.jpg",
       "alt": "よきゅーん「年商6億円のコスプレ社長」発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/7i7x5"
+      "sourceUrl": "https://t.livepocket.jp/e/7i7x5",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -8605,7 +8975,9 @@
       "src": "/images/articles/yokyun-cosplay-shacho-otowatashi-shosen-2026.jpg",
       "alt": "よきゅーん「年商6億円のコスプレ社長」お渡し特典会ビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/owfa_"
+      "sourceUrl": "https://t.livepocket.jp/e/owfa_",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -8643,7 +9015,9 @@
       "src": "/images/articles/tamabukuro-tatakai-no-wonderland-shosen-2026.jpg",
       "alt": "玉袋筋太郎の闘魂伝承座談会２発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/o87po"
+      "sourceUrl": "https://t.livepocket.jp/e/o87po",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8681,7 +9055,9 @@
       "src": "/images/articles/shaku-alice-furete-kimi-shosen-2026.jpg",
       "alt": "釈アリス写真集「ふれて、君。」発売記念イベントビジュアル",
       "sourceLabel": "ライブポケット イベントページ",
-      "sourceUrl": "https://t.livepocket.jp/e/nbepz"
+      "sourceUrl": "https://t.livepocket.jp/e/nbepz",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -8719,7 +9095,9 @@
       "src": "/images/articles/vtuber-expo-2026-akihabara.webp",
       "alt": "VTUBER EXPO 2026のイベントビジュアル",
       "sourceLabel": "レッツエンジョイ東京 イベントページ",
-      "sourceUrl": "https://www.enjoytokyo.jp/event/2063960/"
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2063960/",
+      "width": 1200,
+      "height": 800
     },
     "sources": [
       {
@@ -8769,7 +9147,9 @@
       "src": "/images/articles/gnosia-clinic-popup-store-akihabara-2026.jpeg",
       "alt": "グノーシア D.Q.O.クリニックテーマのポップアップストア告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/gnosia-clinic-popup-store-tokyo-osaka2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/gnosia-clinic-popup-store-tokyo-osaka2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -8811,7 +9191,9 @@
       "src": "/images/articles/saiyuki-honda-popup-store-akihabara-2026.jpeg",
       "alt": "最遊記RELOAD BLAST × Honda ポップアップストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/saiyuki-honda-pop-up-store-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/saiyuki-honda-pop-up-store-akihabara2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -8853,7 +9235,9 @@
       "src": "/images/articles/sao-dancer-popup-store-akihabara-2026.jpeg",
       "alt": "ソードアート・オンライン 踊り子ver.ポップアップストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/sword-art-online-dancer-pop-up-store-tokyo-osaka2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/sword-art-online-dancer-pop-up-store-tokyo-osaka2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -8891,7 +9275,9 @@
       "src": "/images/articles/re-zero-cafe-curemaid-akihabara-2026.jpg",
       "alt": "Re:ゼロから始める異世界生活 キュアメイドカフェコラボの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/re-zero-cafe-curemaid-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/re-zero-cafe-curemaid-akihabara2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -8933,7 +9319,9 @@
       "src": "/images/articles/otonarino-travel-popup-store-akihabara-2026.jpeg",
       "alt": "お隣の天使様 真昼と一緒に旅行ストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/otonarino-travel-pop-up-store-gamers2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/otonarino-travel-pop-up-store-gamers2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -8975,7 +9363,9 @@
       "src": "/images/articles/medalist-drawing-popup-store-akihabara-2026.jpg",
       "alt": "TVアニメ『メダリスト』Drawing描き下ろしストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/medalist-drawing-pop-up-store-kotobukiya-akihabara-2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/medalist-drawing-pop-up-store-kotobukiya-akihabara-2026/",
+      "width": 1400,
+      "height": 636
     },
     "sources": [
       {
@@ -9017,7 +9407,9 @@
       "src": "/images/articles/5hanayome-sakura-drink-popup-store-akihabara-2026.jpg",
       "alt": "五等分の花嫁＊ 桜ドリンクver.ストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/5hanayome-sakura-drink-pop-up-store-gigo-akihabara5-2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/5hanayome-sakura-drink-pop-up-store-gigo-akihabara5-2026/",
+      "width": 900,
+      "height": 1000
     },
     "sources": [
       {
@@ -9059,7 +9451,9 @@
       "src": "/images/articles/aobuta-flower-crown-popup-store-akihabara-2026.jpeg",
       "alt": "青春ブタ野郎 花冠 ver.ストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/aobuta-flower-crown-pop-up-store-gamers2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/aobuta-flower-crown-pop-up-store-gamers2026/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -9105,7 +9499,9 @@
       "src": "/images/articles/domdomhamburger-gigo-campaign-2026.jpg",
       "alt": "ドムドムハンバーガー × GiGO コラボキャンペーンの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/domdomhamburger-gigo-campaign-2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/domdomhamburger-gigo-campaign-2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9151,7 +9547,9 @@
       "src": "/images/articles/anthem-akiba-opening-2026.jpg",
       "alt": "ANTHEM AKIBA オープン告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000917.000060459.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000917.000060459.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9193,7 +9591,9 @@
       "src": "/images/articles/re-robo-fess-2026-akiba.jpg",
       "alt": "Re-ROBO Fess 2026 in Akiba の告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000001.000182164.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000001.000182164.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9239,7 +9639,9 @@
       "src": "/images/articles/gochiusa-bloom-popup-shop-bcr-akihabara-2026.jpg",
       "alt": "ご注文はうさぎですか？ BLOOM POP UP SHOP in ブシロードクリエイティブストア 秋葉原本店の告知ビジュアル",
       "sourceLabel": "TRAICY Release",
-      "sourceUrl": "https://release.traicy.com/posts/202604231128467/"
+      "sourceUrl": "https://release.traicy.com/posts/202604231128467/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9285,7 +9687,9 @@
       "src": "/images/articles/mirai-v-shoten-akihabara-2026.jpg",
       "alt": "未来V書店の告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000008278.000016756.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000008278.000016756.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9331,7 +9735,9 @@
       "src": "/images/articles/holomodel-yodobashi-akiba-2026.jpg",
       "alt": "ホロモデルのヨドバシカメラ販売開始告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000325.000074603.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000325.000074603.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9377,7 +9783,9 @@
       "src": "/images/articles/erway-yodobashi-akiba-2026.jpg",
       "alt": "ERWAY春の大試乗会の告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000701.000051534.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000701.000051534.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9469,7 +9877,9 @@
       "src": "/images/articles/kayafeshu-2026-akihabara.jpg",
       "alt": "かやふぇしゅ2026 ~10th Anniversary~ のイベントビジュアル",
       "sourceLabel": "秋葉原イベント情報",
-      "sourceUrl": "https://www.akihabaraevent.com/kayafeshu-2026-10th-anniversary-night-akihabara/"
+      "sourceUrl": "https://www.akihabaraevent.com/kayafeshu-2026-10th-anniversary-night-akihabara/",
+      "width": 0,
+      "height": 0
     },
     "sources": [
       {
@@ -9515,7 +9925,9 @@
       "src": "/images/articles/spiceseed-festival-2026-akihabara-udx.jpg",
       "alt": "SpiceSeed Festival 2026 in AkihabaraUDX のキービジュアル",
       "sourceLabel": "PR TIMES転載記事",
-      "sourceUrl": "https://www.inside-games.jp/release/prtimes/20260413/283042.html"
+      "sourceUrl": "https://www.inside-games.jp/release/prtimes/20260413/283042.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9565,7 +9977,9 @@
       "src": "/images/articles/jesse-mineo-beware-the-flowers-bite-2026.jpg",
       "alt": "ジェシー・ミネオ成果発表展示「猛花注意 BEWARE! THE FLOWERS BITE!」のビジュアル",
       "sourceLabel": "3331 公式サイト",
-      "sourceUrl": "https://www.3331.jp/schedule2/019924.html"
+      "sourceUrl": "https://www.3331.jp/schedule2/019924.html",
+      "width": 1280,
+      "height": 1804
     },
     "sources": [
       {
@@ -9611,7 +10025,9 @@
       "src": "/images/articles/luidas-bar-dragonquest-40th-2026.jpg",
       "alt": "ルイーダの酒場 ドラゴンクエスト40周年記念イベントのビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000177.000119643.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000177.000119643.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9653,7 +10069,9 @@
       "src": "/images/articles/real-akiba-boyz-akiba3150-2026.jpg",
       "alt": "REAL AKIBA BOYZ 東京体育館ワンマン「あきば3150」の告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000933.000060459.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000933.000060459.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9699,7 +10117,9 @@
       "src": "/images/articles/gigo-akihabara5-prize-figures-2026-04.jpg",
       "alt": "GiGO秋葉原5号館で展示された新作プライズフィギュアの様子",
       "sourceLabel": "電撃ホビーウェブ",
-      "sourceUrl": "https://hobby.dengeki.com/news/2989469/"
+      "sourceUrl": "https://hobby.dengeki.com/news/2989469/",
+      "width": 1200,
+      "height": 630
     },
     "sources": [
       {
@@ -9741,7 +10161,9 @@
       "src": "/images/articles/fate-go-raku-spa-kanda-2026.jpg",
       "alt": "Fate/Grand Order×極楽湯・RAKU SPA コラボキャンペーンのキービジュアル",
       "sourceLabel": "RAKU SPA 公式サイト",
-      "sourceUrl": "https://rakuspa.com/fate-go/"
+      "sourceUrl": "https://rakuspa.com/fate-go/",
+      "width": 1200,
+      "height": 630
     },
     "sources": [
       {
@@ -9791,7 +10213,9 @@
       "src": "/images/articles/jujutsukaisen-raku-spa-kanda-2026.jpg",
       "alt": "アニメ『呪術廻戦』5周年×極楽湯・RAKU SPA コラボキャンペーンのキービジュアル",
       "sourceLabel": "RAKU SPA 公式サイト",
-      "sourceUrl": "https://rakuspa.com/jujutsukaisen3/"
+      "sourceUrl": "https://rakuspa.com/jujutsukaisen3/",
+      "width": 1200,
+      "height": 630
     },
     "sources": [
       {
@@ -9837,7 +10261,9 @@
       "src": "/images/articles/shosen-bl-fair-signed-books-2026.jpg",
       "alt": "書泉BLフェア2026 BLサイン本店頭販売の告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/3g_1x"
+      "sourceUrl": "https://t.livepocket.jp/e/3g_1x",
+      "width": 37,
+      "height": 37
     },
     "sources": [
       {
@@ -9875,7 +10301,9 @@
       "src": "/images/articles/matsumoto-miina-matsumoto-miina-2026.jpg",
       "alt": "松本みいな写真集「まつもと、みいな。」発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/kvrrf"
+      "sourceUrl": "https://t.livepocket.jp/e/kvrrf",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -9913,7 +10341,9 @@
       "src": "/images/articles/cream-june-2026-enu-chan.jpg",
       "alt": "Cream 6月号発売記念 えぬちゃん握手会の告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/u9l7z"
+      "sourceUrl": "https://t.livepocket.jp/e/u9l7z",
+      "width": 1848,
+      "height": 2772
     },
     "sources": [
       {
@@ -9951,7 +10381,9 @@
       "src": "/images/articles/furuno-hono-honotan-2026.jpg",
       "alt": "古乃ほの1st写真集『ほのたん』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/u-rmq"
+      "sourceUrl": "https://t.livepocket.jp/e/u-rmq",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -9989,7 +10421,9 @@
       "src": "/images/articles/sasaki-aki-himitsukichi-2026.jpg",
       "alt": "佐々木あき写真集『ひみつきち』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/d2u79"
+      "sourceUrl": "https://t.livepocket.jp/e/d2u79",
+      "width": 1709,
+      "height": 2388
     },
     "sources": [
       {
@@ -10027,7 +10461,9 @@
       "src": "/images/articles/mitsuhashi-kun-no-lies-2026.jpg",
       "alt": "三橋くん1st写真集『no lies』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/9na54"
+      "sourceUrl": "https://t.livepocket.jp/e/9na54",
+      "width": 2476,
+      "height": 3316
     },
     "sources": [
       {
@@ -10065,7 +10501,9 @@
       "src": "/images/articles/oguri-misao-mofumofu-onsen-biyori-2026.jpg",
       "alt": "小栗操写真集『もふもふ温泉日和』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/rrqj7"
+      "sourceUrl": "https://t.livepocket.jp/e/rrqj7",
+      "width": 1709,
+      "height": 2386
     },
     "sources": [
       {
@@ -10141,7 +10579,9 @@
       "src": "/images/articles/someya-toshiyuki-face-to-fece-2026.jpg",
       "alt": "染谷俊之 写真集『face to fece』発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/vmdas"
+      "sourceUrl": "https://t.livepocket.jp/e/vmdas",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -10179,7 +10619,9 @@
       "src": "/images/articles/kaede-fuua-touching-breeze-2026.jpg",
       "alt": "楓ふうあ「TOUCHING breeze」発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/b5q3m"
+      "sourceUrl": "https://t.livepocket.jp/e/b5q3m",
+      "width": 1333,
+      "height": 2000
     },
     "sources": [
       {
@@ -10217,7 +10659,9 @@
       "src": "/images/articles/gansozushi-akihabara-manseibashi-renewal-2026.jpg",
       "alt": "元祖寿司 秋葉原万世橋店の店舗外観",
       "sourceLabel": "元祖寿司 公式サイト",
-      "sourceUrl": "https://www.gansozushi.com/shop/cat1/20091009post.html"
+      "sourceUrl": "https://www.gansozushi.com/shop/cat1/20091009post.html",
+      "width": 100,
+      "height": 100
     },
     "sources": [
       {
@@ -10259,7 +10703,9 @@
       "src": "/images/articles/browndust2-shop-akihabara-2026.jpg",
       "alt": "ブラウンダスト2 SHOP オープン告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001833.000010988.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001833.000010988.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -10305,7 +10751,9 @@
       "src": "/images/articles/fujiyama-tokyo-akihabara-sushi-tabehoudai-2026.jpg",
       "alt": "FUJIYAMA TOKYO 秋葉原本店のサンキュー食べ放題プラン告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000865.000014510.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000865.000014510.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -10397,7 +10845,9 @@
       "src": "/images/articles/sumikkogurashi-athome-cafe-akihabara-2026.jpg",
       "alt": "すみっコぐらし×あっとほぉーむカフェの描きおろしコラボビジュアル",
       "sourceLabel": "サンエックス株式会社 プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000784.000018631.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000784.000018631.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -10443,7 +10893,9 @@
       "src": "/images/articles/tcg-gate-akihabara-open-2026.jpg",
       "alt": "TCG GATEグランドオープン告知ビジュアル",
       "sourceLabel": "株式会社Anmore プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000007.000178839.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000007.000178839.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -10489,7 +10941,9 @@
       "src": "/images/articles/izumibashi-koinobori-festival-2026.jpg",
       "alt": "第二回 和泉橋 鯉のぼりまつりの開催告知掲示",
       "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2104779.html"
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2104779.html",
+      "width": 960,
+      "height": 640
     },
     "sources": [
       {
@@ -10539,7 +10993,9 @@
       "src": "/images/articles/kuranika-admachipp-akihabara-campaign-2026.jpg",
       "alt": "TVアニメ『クラスで2番目に可愛い女の子と友だちになった』キービジュアル",
       "sourceLabel": "TVアニメ『クラにか』公式サイト",
-      "sourceUrl": "https://kuranika.asmik-ace.co.jp/news/post-451"
+      "sourceUrl": "https://kuranika.asmik-ace.co.jp/news/post-451",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -10585,7 +11041,9 @@
       "src": "/images/articles/gtmf-2026-akihabara-udx.jpg",
       "alt": "GTMF 2026のキービジュアル",
       "sourceLabel": "GTMF 2026 公式サイト",
-      "sourceUrl": "https://gtmf.jp/"
+      "sourceUrl": "https://gtmf.jp/",
+      "width": 1920,
+      "height": 1080
     },
     "sources": [
       {
@@ -10626,7 +11084,9 @@
     "image": {
       "src": "/images/articles/veloce-iwamotocho-renewal-2026.jpg",
       "alt": "カフェ・ベローチェ 岩本町駅前店のリニューアルオープン告知",
-      "sourceLabel": "現地掲示"
+      "sourceLabel": "現地掲示",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -10667,7 +11127,9 @@
       "src": "/images/articles/gakuen-idolmaster-atre-akihabara-2026.jpg",
       "alt": "学園アイドルマスター×アトレ秋葉原 アーリーサマー描き下ろしビジュアル",
       "sourceLabel": "アトレ秋葉原 公式サイト",
-      "sourceUrl": "https://www.atre.co.jp/index.php/akihabara/news/6972"
+      "sourceUrl": "https://www.atre.co.jp/index.php/akihabara/news/6972",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -10713,7 +11175,9 @@
       "src": "/images/articles/nagao-shokken-food-sample-atre-akihabara-2026.jpg",
       "alt": "食品サンプルのながお食研POP UP SHOP告知ビジュアル",
       "sourceLabel": "アトレ秋葉原 公式サイト",
-      "sourceUrl": "https://www.atre.co.jp/index.php/akihabara/news/6917"
+      "sourceUrl": "https://www.atre.co.jp/index.php/akihabara/news/6917",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -10751,7 +11215,9 @@
       "src": "/images/articles/p30th-atre-akihabara-2026.jpg",
       "alt": "P30th × アトレ秋葉原 キービジュアル",
       "sourceLabel": "アトレ秋葉原 公式サイト",
-      "sourceUrl": "https://www.atre.co.jp/index.php/akihabara/news/6948"
+      "sourceUrl": "https://www.atre.co.jp/index.php/akihabara/news/6948",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -10801,7 +11267,9 @@
       "src": "/images/articles/3x3-exe-premier-2026-waterras.jpg",
       "alt": "ワテラスで開催された3x3.EXE PREMIERの試合風景",
       "sourceLabel": "3x3.EXE PREMIER 公式サイト",
-      "sourceUrl": "https://3x3exe.com/premier/waterras_260516-17/"
+      "sourceUrl": "https://3x3exe.com/premier/waterras_260516-17/",
+      "width": 3,
+      "height": 3
     },
     "sources": [
       {
@@ -10847,7 +11315,9 @@
       "src": "/images/articles/ykk-kirakira-fastener-phone-pochette-2026.jpg",
       "alt": "キラキラファスナーで作るスマホポシェット",
       "sourceLabel": "PassMarket",
-      "sourceUrl": "https://passmarket.yahoo.co.jp/event/show/detail/01y1pk2kux151.html"
+      "sourceUrl": "https://passmarket.yahoo.co.jp/event/show/detail/01y1pk2kux151.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -10893,7 +11363,9 @@
       "src": "/images/articles/blue-lock-atre-akihabara-2026.jpg",
       "alt": "TVアニメ「ブルーロック」×アトレ秋葉原 運命の一枚キービジュアル",
       "sourceLabel": "アニメユニバーシティコープ公式サイト",
-      "sourceUrl": "https://au-coop.jp/pages/bll_atre_2605"
+      "sourceUrl": "https://au-coop.jp/pages/bll_atre_2605",
+      "width": 900,
+      "height": 1200
     },
     "sources": [
       {
@@ -10971,7 +11443,9 @@
       "src": "/images/articles/matsudaya-strawberry-daifuku-atre-akihabara-2026.jpg",
       "alt": "菓子処 まつだ屋の苺大福串",
       "sourceLabel": "アトレ秋葉原 ニュース",
-      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6982/"
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6982/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -11009,7 +11483,9 @@
       "src": "/images/articles/gintama-charapop-store-atre-akihabara-2026.jpg",
       "alt": "銀魂キャラポップストアのキービジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000332.000159118.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000332.000159118.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11051,7 +11527,9 @@
       "src": "/images/articles/nekoyoga-neco-republic-ochanomizu-2026.webp",
       "alt": "ネコヨガのイメージ",
       "sourceLabel": "レッツエンジョイ東京",
-      "sourceUrl": "https://www.enjoytokyo.jp/event/2064157/"
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2064157/",
+      "width": 480,
+      "height": 640
     },
     "sources": [
       {
@@ -11093,7 +11571,9 @@
       "src": "/images/articles/nukitashi-boyfriend-shirt-culpop-akihabara-2026.jpg",
       "alt": "ぬきたし THE ANIMATION POP UP SHOPの告知ビジュアル",
       "sourceLabel": "ぬきたしPOPUP 公式サイト",
-      "sourceUrl": "https://nukiani.info/"
+      "sourceUrl": "https://nukiani.info/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11135,7 +11615,9 @@
       "src": "/images/articles/otonari-angel-shiki-irodori-gamers-2026.jpg",
       "alt": "お隣の天使様2 四季の彩りポップアップの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7352"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7352",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11173,7 +11655,9 @@
       "src": "/images/articles/date-a-live-v-nurse-popup-gamers-akihabara-2026.jpg",
       "alt": "デート・ア・ライブV 南の島のナースポップアップの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7514"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7514",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11211,7 +11695,9 @@
       "src": "/images/articles/nekopara-love-project-gamers-akihabara-2026.jpg",
       "alt": "ネコぱら ラブプロジェクト ポップアップストアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7381"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7381",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11249,7 +11735,9 @@
       "src": "/images/articles/zombieland-saga-movie-gamers-akihabara-2026.jpg",
       "alt": "劇場版ゾンビランドサガ Blu-ray発売記念ポップアップの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7379"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7379",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11287,7 +11775,9 @@
       "src": "/images/articles/stellasora-half-anniversary-animate-akihabara-2026.jpg",
       "alt": "ステラソラ ハーフアニバーサリー記念オンリーショップの告知ビジュアル",
       "sourceLabel": "アニメイト オンリーショップ",
-      "sourceUrl": "https://www.animate.co.jp/onlyshop/607062/"
+      "sourceUrl": "https://www.animate.co.jp/onlyshop/607062/",
+      "width": 144,
+      "height": 144
     },
     "sources": [
       {
@@ -11325,7 +11815,9 @@
       "src": "/images/articles/isshiki-san-koishiritai-gamers-akihabara-2026.jpg",
       "alt": "一式さんは恋を知りたい。コミックス10巻発売記念ストアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7487"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7487",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11363,7 +11855,9 @@
       "src": "/images/articles/princess-lover-museum-gamers-akihabara-2026.jpg",
       "alt": "TVアニメ プリンセスラバー！ミュージアムの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7459"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7459",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11401,7 +11895,9 @@
       "src": "/images/articles/queens-blade-museum-gamers-akihabara-2026.jpg",
       "alt": "クイーンズブレイド ミュージアムの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント・フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7365"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7365",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11439,7 +11935,9 @@
       "src": "/images/articles/shosen-unico-fair-booktower-2026.jpg",
       "alt": "書泉ユニコフェアの告知ビジュアル",
       "sourceLabel": "書泉 イベント",
-      "sourceUrl": "https://www.shosen.co.jp/event/42295/"
+      "sourceUrl": "https://www.shosen.co.jp/event/42295/",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -11477,7 +11975,9 @@
       "src": "/images/articles/oh-great-art-popup-shosen-booktower-2026.jpg",
       "alt": "灰仭巫覡とエア・ギア アートPOPUPの告知ビジュアル",
       "sourceLabel": "書泉 イベント",
-      "sourceUrl": "https://www.shosen.co.jp/event/41019/"
+      "sourceUrl": "https://www.shosen.co.jp/event/41019/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -11515,7 +12015,9 @@
       "src": "/images/articles/ichinen-a-gumi-monster-hidetaka-sign-shosen-2026.jpg",
       "alt": "1年A組のモンスター16巻発売記念 英貴先生リアルサイン会の告知ビジュアル",
       "sourceLabel": "書泉 イベント",
-      "sourceUrl": "https://www.shosen.co.jp/event/41891/"
+      "sourceUrl": "https://www.shosen.co.jp/event/41891/",
+      "width": 600,
+      "height": 600
     },
     "sources": [
       {
@@ -11553,7 +12055,9 @@
       "src": "/images/articles/zoku-hitori-burari-gohan-shosen-booktower-2026.jpg",
       "alt": "続ひとりぶらりごはん発売記念フェアの告知画像",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42145/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42145/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11591,7 +12095,9 @@
       "src": "/images/articles/phantom-loose-shosen-booktower-2026.jpg",
       "alt": "ファントムルース1巻発売記念フェアの告知ビジュアル",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/41358/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/41358/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -11629,7 +12135,9 @@
       "src": "/images/articles/k-no-shihaisha-shosen-booktower-2026.jpg",
       "alt": "Kの支配者 奥田枠短編集 発売記念フェアの告知ビジュアル",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/41366/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/41366/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -11667,7 +12175,9 @@
       "src": "/images/articles/smoke-oh-great-sign-shosen-booktower-2026.jpg",
       "alt": "『Smoke』発売記念 大暮維人先生サイン会の告知ビジュアル",
       "sourceLabel": "書泉 イベント",
-      "sourceUrl": "https://www.shosen.co.jp/event/40928/"
+      "sourceUrl": "https://www.shosen.co.jp/event/40928/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -11705,7 +12215,9 @@
       "src": "/images/articles/silver-road-yasuhiko-shosen-booktower-2026.jpg",
       "alt": "『銀色の路－半田銀山異聞－』発売記念イベントの告知ビジュアル",
       "sourceLabel": "書泉 イベント",
-      "sourceUrl": "https://www.shosen.co.jp/event/40926/"
+      "sourceUrl": "https://www.shosen.co.jp/event/40926/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11743,7 +12255,9 @@
       "src": "/images/articles/gakeppuchi-reijo-fk-comics-shosen-2026.jpg",
       "alt": "崖っぷち令嬢は騎士様の求愛に気づかない1発売記念フェアの特典ビジュアル",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42176/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42176/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11781,7 +12295,9 @@
       "src": "/images/articles/banno-jochu-connie-ville-shosen-2026.jpg",
       "alt": "万能女中コニー・ヴィレ4発売記念フェアの特典ビジュアル",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/42175/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/42175/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11819,7 +12335,9 @@
       "src": "/images/articles/mugendai-myutype-chowakusei-x-gamers-2026.jpg",
       "alt": "夢限大みゅーたいぷ 超惑星Xへの旅リリースイベントの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベント",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7301"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7301",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11857,7 +12375,9 @@
       "src": "/images/articles/kizoku-tensei-bluray-campaign-gamers-akihabara-2026.jpg",
       "alt": "貴族転生Blu-ray BOX店頭抽選キャンペーンの告知ビジュアル",
       "sourceLabel": "ゲーマーズ フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7404"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7404",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11895,7 +12415,9 @@
       "src": "/images/articles/mahoako-gamers-fair-akihabara-2026.jpg",
       "alt": "魔法少女にあこがれてゲーマーズフェアの告知ビジュアル",
       "sourceLabel": "ゲーマーズ フェア",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7360"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7360",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -11933,7 +12455,9 @@
       "src": "/images/articles/mairimashita-irumakun-season4-shosen-2026.jpg",
       "alt": "魔入りました！入間くん第4シリーズ放送記念フェアの告知ビジュアル",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/40989/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/40989/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -11971,7 +12495,9 @@
       "src": "/images/articles/reincarnation-no-kaben-anime-shosen-2026.jpg",
       "alt": "リィンカーネーションの花弁アニメ化記念フェアの告知ビジュアル",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/40983/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/40983/",
+      "width": 600,
+      "height": 600
     },
     "sources": [
       {
@@ -12009,7 +12535,9 @@
       "src": "/images/articles/kamiinabotan-anime-shosen-2026.jpg",
       "alt": "上伊那ぼたん、酔へる姿は百合の花アニメ化フェアの告知ビジュアル",
       "sourceLabel": "書泉 フェア",
-      "sourceUrl": "https://www.shosen.co.jp/fair/40846/"
+      "sourceUrl": "https://www.shosen.co.jp/fair/40846/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12047,7 +12575,9 @@
       "src": "/images/articles/first-cabin-akihabara-reopen-2026.jpg",
       "alt": "ファーストキャビン秋葉原のラウンジ",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000025.000089778.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000025.000089778.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12089,7 +12619,9 @@
       "src": "/images/articles/stu48-kai-kokoa-2nd-photobook-shosen-2026.jpg",
       "alt": "STU48甲斐心愛2nd写真集発売記念イベントの告知画像",
       "sourceLabel": "LivePocket",
-      "sourceUrl": "https://t.livepocket.jp/e/2_8tn"
+      "sourceUrl": "https://t.livepocket.jp/e/2_8tn",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -12127,7 +12659,9 @@
       "src": "/images/articles/blue-lock-collabocafe-honpo-akihabara-2026.jpg",
       "alt": "ブルーロック Honey Lemon cafe の告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/blue-lock-collabocafe-honpo-honey-lemon2026-add-info-sdc/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/blue-lock-collabocafe-honpo-honey-lemon2026-add-info-sdc/",
+      "width": 100,
+      "height": 100
     },
     "sources": [
       {
@@ -12165,7 +12699,9 @@
       "src": "/images/articles/digimon-adventure-cheer-animate-akihabara-2026.jpeg",
       "alt": "デジモンアドベンチャー応援ストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/digimon-adventure-cheer-pop-up-store-animate2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/digimon-adventure-cheer-pop-up-store-animate2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12207,7 +12743,9 @@
       "src": "/images/articles/irumakun-6th-anniversary-toppa-akiba-2026.jpeg",
       "alt": "魔入りました！入間くんアニメ6周年ストアの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/irumakun-6th-anniversary-pop-up-store-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/irumakun-6th-anniversary-pop-up-store-akihabara2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12249,7 +12787,9 @@
       "src": "/images/articles/2k540-fanfare-made-in-koukashita-2026.jpg",
       "alt": "2k540ファンファーレ~made in 高架下~2026の告知ビジュアル",
       "sourceLabel": "2k540 AKI-OKA ARTISAN",
-      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00485/"
+      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00485/",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -12291,7 +12831,9 @@
       "src": "/images/articles/createtsu-2k540-pop-up-2026.jpg",
       "alt": "クリエー鉄の期間限定出店告知ビジュアル",
       "sourceLabel": "2k540 AKI-OKA ARTISAN",
-      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00488/"
+      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00488/",
+      "width": 300,
+      "height": 300
     },
     "sources": [
       {
@@ -12333,7 +12875,9 @@
       "src": "/images/articles/marse-tina-2k540-pop-up-2026.jpg",
       "alt": "MARSEとTiNaのPOP-UP SHOP告知ビジュアル",
       "sourceLabel": "2k540 AKI-OKA ARTISAN",
-      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00487/"
+      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00487/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -12383,7 +12927,9 @@
       "src": "/images/articles/whismr-wbm1-yodobashi-akiba-2026.jpg",
       "alt": "WHISMR W-BM1のヨドバシカメラ店頭展開告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000014.000146685.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000014.000146685.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12429,7 +12975,9 @@
       "src": "/images/articles/reject-gear-yodobashi-akiba-2026.jpg",
       "alt": "REJECT GEARのヨドバシカメラ取扱開始告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000522.000050979.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000522.000050979.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12475,7 +13023,9 @@
       "src": "/images/articles/monster-hunter-bar-hanamainogi-2026.jpg",
       "alt": "交わりの祭事 花舞の儀フェアの告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000175.000119643.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000175.000119643.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12517,7 +13067,9 @@
       "src": "/images/articles/maidreamin-18th-anniversary-akihabara-2026.jpg",
       "alt": "めいどりーみん18周年記念プロジェクトの告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000089.000018160.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000089.000018160.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12559,7 +13111,9 @@
       "src": "/images/articles/browndust2-amiami-akihabara-pop-up-2026.jpeg",
       "alt": "ブラウンダスト2 POP UP SHOP in あみあみの告知ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/browndust2-pop-up-store-amiami-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/browndust2-pop-up-store-amiami-akihabara2026/",
+      "width": 100,
+      "height": 100
     },
     "sources": [
       {
@@ -12601,7 +13155,9 @@
       "src": "/images/articles/otaku-friendly-gal-popup-gamers-akihabara-2026.jpg",
       "alt": "アニメ「オタクに優しいギャルはいない!?」POP UP SHOPの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7468"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7468",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12644,7 +13200,9 @@
       "src": "/images/articles/solo-leveling-bushiroad-creative-store-akihabara-2026.jpg",
       "alt": "TVアニメ『俺だけレベルアップな件』POP UP SHOPの告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009494.000014827.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009494.000014827.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12728,7 +13286,9 @@
       "src": "/images/articles/gemacos-vol11-akihabara-gamers-2026.jpg",
       "alt": "ゲマコス！ 即売会&チェキ会 vol.11の告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7524"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7524",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12766,7 +13326,9 @@
       "src": "/images/articles/yui-ogura-qed-release-event-gamers-akihabara-2026.jpg",
       "alt": "小倉唯 Newシングル Q.E.D. 発売記念お渡し会イベントの告知ビジュアル",
       "sourceLabel": "ゲーマーズ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7513"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7513",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -12804,7 +13366,9 @@
       "src": "/images/articles/seeka-idol-festival-akihabara-venus-2026.jpg",
       "alt": "SeeKa IDOL FESTIVALの告知ビジュアル",
       "sourceLabel": "TIGET",
-      "sourceUrl": "https://tiget.net/events/488912"
+      "sourceUrl": "https://tiget.net/events/488912",
+      "width": 216,
+      "height": 216
     },
     "sources": [
       {
@@ -12842,7 +13406,9 @@
       "src": "/images/articles/idol-planetarium-vol254-cosmiclab-akihabara-2026.jpg",
       "alt": "アイドルプラネタリウム VOL.254の告知ビジュアル",
       "sourceLabel": "X画像",
-      "sourceUrl": "https://pbs.twimg.com/media/GVKfPWraEAIGMY0?format=jpg&name=large"
+      "sourceUrl": "https://pbs.twimg.com/media/GVKfPWraEAIGMY0?format=jpg&name=large",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -13076,7 +13642,9 @@
       "src": "/images/articles/wataten-precious-friends-undokai-volks-akihabara-2026.jpg",
       "alt": "『私に天使が舞い降りた！プレシャス・フレンズ』POP UP SHOP（運動会）の告知ビジュアル",
       "sourceLabel": "ボークス 秋葉原ホビー天国2 店舗ブログ",
-      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/01/031672.html"
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/05/01/031672.html",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -13122,7 +13690,9 @@
       "src": "/images/articles/hasunosora-bloom-garden-party-gigo-akihabara-2026.jpg",
       "alt": "映画『ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』×GiGOコラボカフェの告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001133.000034930.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001133.000034930.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13210,7 +13780,9 @@
       "src": "/images/articles/silent-witch-volks-akihabara-2026.jpg",
       "alt": "TVアニメ『サイレント・ウィッチ 沈黙の魔女の隠しごと』POP UP SHOPの告知ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000008931.000016064.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000008931.000016064.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13364,7 +13936,9 @@
       "src": "/images/articles/chokaguya-hime-gamers-fair-akihabara-2026.jpg",
       "alt": "「超かぐや姫！」新グッズ先行発売フェア in ゲーマーズの告知ビジュアル",
       "sourceLabel": "ゲーマーズ イベントページ",
-      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7333"
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7333",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13406,7 +13980,9 @@
       "src": "/images/articles/beep-akihabara-temporary-close-move-2026.jpg",
       "alt": "BEEP秋葉原店の店頭写真",
       "sourceLabel": "BEEP秋葉原 公式ブログ",
-      "sourceUrl": "https://www.akihabara-beep.com/12885/"
+      "sourceUrl": "https://www.akihabara-beep.com/12885/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -13485,7 +14061,9 @@
       "src": "/images/articles/haruhi-kotobukiya-akihabara-2026.jpeg",
       "alt": "涼宮ハルヒシリーズ POP UP SHOP in コトブキヤの告知ビジュアル",
       "sourceLabel": "Collabo Cafe 記事",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/haruhi-pop-up-store-kotobukiya-tokyo-osaka2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/haruhi-pop-up-store-kotobukiya-tokyo-osaka2026/",
+      "width": 72,
+      "height": 72
     },
     "sources": [
       {
@@ -13523,7 +14101,9 @@
       "src": "/images/articles/good-smile-pop-up-store-akiba-co-gallery-2026.jpg",
       "alt": "GOOD SMILE POP UP STOREの告知ビジュアル",
       "sourceLabel": "グッドスマイルカンパニー イベントページ",
-      "sourceUrl": "https://www.goodsmile.com/ja/event/6832"
+      "sourceUrl": "https://www.goodsmile.com/ja/event/6832",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13561,7 +14141,9 @@
       "src": "/images/articles/symphogear-xv-popup-grand-entas-2026.jpg",
       "alt": "戦姫絶唱シンフォギアXV POP UP SHOPの告知ビジュアル",
       "sourceLabel": "GEE!店舗情報＆イベント情報",
-      "sourceUrl": "https://www.geestore.com/geenet/event/14906.html"
+      "sourceUrl": "https://www.geestore.com/geenet/event/14906.html",
+      "width": 1200,
+      "height": 675
     },
     "sources": [
       {
@@ -13637,7 +14219,9 @@
       "src": "/images/articles/zenshin-zenrei-vol5-udx-theater-2026.jpg",
       "alt": "全心全霊 Vol.5 城谷節の真骨頂 〜怪怖涙談〜の告知フライヤー",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000015.000106076.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000015.000106076.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13675,7 +14259,9 @@
       "src": "/images/articles/potafes-2026-summer-akihabara.jpg",
       "alt": "ポタフェス 2026夏 秋葉原 メインビジュアル",
       "sourceLabel": "ポタフェス 公式サイト",
-      "sourceUrl": "https://potafes.com/"
+      "sourceUrl": "https://potafes.com/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -13723,7 +14309,9 @@
       "src": "/images/articles/watatabe-rain-tears-gamers-akihabara-2026.jpg",
       "alt": "私を喰べたい、ひとでなし 雨と涙 ストア ビジュアル",
       "sourceLabel": "Collabo Cafe 記事",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/watatabe-rain-and-tears-pop-up-store-gamers-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/watatabe-rain-and-tears-pop-up-store-gamers-akihabara2026/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13768,7 +14356,9 @@
       "src": "/images/articles/anime-michi-live-talk-vol1-anthem-akiba-2026.jpg",
       "alt": "アニメ道ライブトーク Vol.1 告知ビジュアル",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000956.000060459.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000956.000060459.html",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13811,7 +14401,9 @@
       "src": "/images/articles/shirotani-wataru-dokuen-vol5-akihabara-udx-2026.jpg",
       "alt": "怪談師 城谷歩 独演会 全心全霊 Vol.5 告知ビジュアル",
       "sourceLabel": "怪談師 城谷歩 公式HP",
-      "sourceUrl": "https://centenaria.co.jp/production/shirotani-wataru/schedule/"
+      "sourceUrl": "https://centenaria.co.jp/production/shirotani-wataru/schedule/",
+      "width": 96,
+      "height": 96
     },
     "sources": [
       {
@@ -13859,7 +14451,9 @@
       "src": "/images/articles/michinoku-tetsudo-vol5-shosen-booktower-2026.jpg",
       "alt": "みちのくの鉄道その3 宮城県・福島県の私鉄 書影",
       "sourceLabel": "書泉ブックタワー イベントページ",
-      "sourceUrl": "https://www.shosen.co.jp/event/43485/"
+      "sourceUrl": "https://www.shosen.co.jp/event/43485/",
+      "width": 1,
+      "height": 1
     },
     "sources": [
       {
@@ -13900,7 +14494,9 @@
       "src": "/images/articles/hayamizu-rasenin-basyauma-bis-red-shosen-2026.jpg",
       "alt": "速水螺旋人の馬車馬大作戦bis 赤本 新装版 書影",
       "sourceLabel": "書泉ブックタワー イベントページ",
-      "sourceUrl": "https://www.shosen.co.jp/event/43487/"
+      "sourceUrl": "https://www.shosen.co.jp/event/43487/",
+      "width": 150,
+      "height": 150
     },
     "sources": [
       {
