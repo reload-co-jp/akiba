@@ -1,5 +1,101 @@
 [
   {
+    "id": 336,
+    "title": "「ぷよクエカフェ2026」がClove Lounge 秋葉原で開催",
+    "slug": "puyoque-cafe-2026-clove-lounge-akihabara",
+    "summary": "「ぷよぷよ!! クエスト」のコラボカフェ「ぷよクエカフェ2026」が、2026年6月19日から7月5日までClove Lounge Cafe &Bar 秋葉原で開催。13周年記念メニュー、ノベルティ、限定グッズを展開する。",
+    "content": "## 概要\n\n「ぷよぷよ!! クエスト」のコラボカフェ「ぷよクエカフェ2026」が、Clove Lounge Cafe &Bar 秋葉原で開催されます。\n\n開催期間は2026年6月19日から7月5日まで。2026年も開催が決定したぷよクエカフェとして、13周年を祝うメニューや作品世界をイメージしたメニューが用意されます。\n\n## 内容\n\nコラボメニューには、13周年お祝いドリンク、時空探偵社をテーマにしたフード、ルルーやカーバンクルをイメージしたメニューなどが登場します。\n\n来店特典としてランチョンマット全21種からランダムで1枚を配布。対象メニュー注文特典や、事前予約来店者向けのゲーム内アイテムQRコード特典も案内されています。\n\n限定グッズも販売予定です。来店前に特設ページで予約方法、メニュー、グッズ、特典の在庫状況を確認してください。\n\n## 開催情報\n\n- **会場**: Clove Lounge Cafe &Bar 秋葉原\n- **住所**: 東京都千代田区神田佐久間町1-13 チョムチョム秋葉原6F\n- **期間**: 2026年6月19日〜7月5日\n- **内容**: コラボフード・ドリンク、来店特典、注文特典、限定グッズ販売\n- **料金**: 飲食・物販は別途\n- **予約**: 特設ページで事前予約を確認\n\n## こんな人におすすめ\n\n- 「ぷよぷよ!! クエスト」の13周年企画を楽しみたい方\n- 秋葉原駅近くでゲームコラボカフェを巡りたい方\n- メニュー特典や限定グッズを集めたい方",
+    "publishedAt": "2026-06-10",
+    "en": {
+      "title": "PuyoQue Cafe 2026 at Clove Lounge Akihabara",
+      "summary": "PuyoQue Cafe 2026, a collaboration cafe for Puyo Puyo!! Quest, will run at Clove Lounge Cafe &Bar Akihabara from June 19 to July 5, 2026, featuring 13th anniversary menus, bonuses, and limited goods.",
+      "content": "## Overview\n\nPuyoQue Cafe 2026, a collaboration cafe for \"Puyo Puyo!! Quest,\" will be held at Clove Lounge Cafe &Bar Akihabara.\n\nThe cafe runs from June 19 to July 5, 2026. It celebrates the game's 13th anniversary with themed menus inspired by the characters and world of the game.\n\n## Highlights\n\nThe menu includes a 13th anniversary drink, food based on the Space-Time Detective Agency, and character-inspired items featuring Rulue, Carbuncle, and others.\n\nVisitors receive one random luncheon mat from a set of 21. Menu order bonuses and a QR-code bonus for an in-game item for visitors with advance reservations are also listed.\n\nLimited goods will also be sold. Check the special site before visiting for reservation details, menus, goods, and bonus availability.\n\n## Event Details\n\n- **Venue**: Clove Lounge Cafe &Bar Akihabara\n- **Address**: Chom Chom Akihabara 6F, 1-13 Kanda Sakumacho, Chiyoda-ku, Tokyo\n- **Dates**: June 19-July 5, 2026\n- **Contents**: Collaboration food and drinks, visitor bonuses, order bonuses, and limited goods\n- **Admission**: Food, drinks, and merchandise are separate\n- **Reservation**: Check the special site for advance reservations\n\n## Recommended For\n\n- Fans who want to celebrate the Puyo Puyo!! Quest 13th anniversary\n- Visitors looking for a game collaboration cafe near Akihabara Station\n- Collectors interested in menu bonuses and limited goods"
+    },
+    "image": {
+      "src": "/images/articles/puyoque-cafe-2026-clove-lounge-akihabara.jpg",
+      "alt": "ぷよクエカフェ2026の告知ビジュアル",
+      "sourceLabel": "コラボカフェ記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/puyopuyo-cafe-clove-lounge-cafe-bar2026/"
+    },
+    "sources": [
+      {
+        "label": "ぷよクエカフェ2026 特設ページ",
+        "url": "https://clovecafe.jp/puyocafe2026/"
+      },
+      {
+        "label": "コラボカフェ記事",
+        "url": "https://collabo-cafe.com/events/collabo/puyopuyo-cafe-clove-lounge-cafe-bar2026/"
+      },
+      {
+        "label": "コラボカフェ 秋葉原一覧",
+        "url": "https://collabo-cafe.com/events/tag/akihabara/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      57,
+      74,
+      81,
+      207
+    ],
+    "event": {
+      "startDate": "2026-06-19",
+      "endDate": "2026-07-05",
+      "venue": "Clove Lounge Cafe &Bar 秋葉原",
+      "price": "飲食・物販は別途",
+      "reservation": true,
+      "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原6F",
+      "category": "collab-cafe"
+    }
+  },
+  {
+    "id": 335,
+    "title": "保護猫に囲まれる「ネコヨガ（6月）」がお茶の水で開催",
+    "slug": "neko-yoga-june-2026-neco-republic-ochanomizu",
+    "summary": "保護猫たちに囲まれて行う「ネコヨガ（6月）」が、2026年6月20日にネコリパブリック 東京 お茶の水店で開催。参加費は4,000円で、11時から13時まで実施される。",
+    "content": "## 概要\n\n保護猫たちに囲まれて行う「ネコヨガ（6月）」が、ネコリパブリック 東京 お茶の水店で開催されます。\n\n開催日は2026年6月20日。時間は11:00から13:00までで、参加費は4,000円です。\n\n## 内容\n\nネコヨガは、保護猫が自由に過ごす空間で行うやさしいヨガです。参加費の一部は保護猫たちへの寄付になります。\n\n当日は11:00開場、11:20から12:30までネコヨガ、12:30から13:00まで猫たちとのふれあい時間が案内されています。ヨガ初心者や体が硬い人でも参加しやすい内容です。\n\n## 開催情報\n\n- **会場**: ネコリパブリック 東京 お茶の水店\n- **住所**: 東京都文京区湯島3-1-9 CRANEビル4階\n- **開催日**: 2026年6月20日\n- **時間**: 11:00〜13:00（ネコヨガ11:20〜12:30、ふれあい12:30〜13:00）\n- **料金**: 4,000円\n- **予約**: 公式予約ページを確認\n\n## こんな人におすすめ\n\n- 保護猫に囲まれてリラックスしたい方\n- ヨガ初心者でも参加しやすい体験を探している方\n- 秋葉原・御茶ノ水周辺で猫イベントを探している方",
+    "publishedAt": "2026-06-10",
+    "en": {
+      "title": "June Cat Yoga at Neco Republic Tokyo Ochanomizu",
+      "summary": "June Cat Yoga, a gentle yoga event surrounded by rescue cats, will be held at Neco Republic Tokyo Ochanomizu on June 20, 2026. Admission is 4,000 yen and the session runs from 11:00 to 13:00.",
+      "content": "## Overview\n\nJune Cat Yoga will be held at Neco Republic Tokyo Ochanomizu.\n\nThe event takes place on June 20, 2026, from 11:00 to 13:00. Admission is 4,000 yen.\n\n## Highlights\n\nCat Yoga is a gentle yoga session held in a space where rescue cats roam freely. Part of the participation fee is donated to support the cats.\n\nThe schedule lists doors at 11:00, yoga from 11:20 to 12:30, and time with the cats from 12:30 to 13:00. The event is suitable for beginners and people who are not very flexible.\n\n## Event Details\n\n- **Venue**: Neco Republic Tokyo Ochanomizu\n- **Address**: CRANE Building 4F, 3-1-9 Yushima, Bunkyo-ku, Tokyo\n- **Date**: June 20, 2026\n- **Time**: 11:00-13:00; yoga 11:20-12:30, cat interaction 12:30-13:00\n- **Admission**: 4,000 yen\n- **Reservation**: Check the official reservation page\n\n## Recommended For\n\n- People who want to relax surrounded by rescue cats\n- Beginners looking for an easy yoga experience\n- Visitors looking for cat events around Akihabara and Ochanomizu"
+    },
+    "image": {
+      "src": "/images/articles/neko-yoga-june-2026-neco-republic-ochanomizu.webp",
+      "alt": "ネコヨガ（6月）のイメージ",
+      "sourceLabel": "レッツエンジョイ東京 イベントページ",
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2067395/"
+    },
+    "sources": [
+      {
+        "label": "レッツエンジョイ東京 イベントページ",
+        "url": "https://www.enjoytokyo.jp/event/2067395/"
+      },
+      {
+        "label": "レッツエンジョイ東京 秋葉原イベント一覧",
+        "url": "https://www.enjoytokyo.jp/event/list/area1319/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      137,
+      156,
+      157,
+      207
+    ],
+    "event": {
+      "startDate": "2026-06-20",
+      "endDate": "2026-06-20",
+      "venue": "ネコリパブリック 東京 お茶の水店",
+      "price": "4,000円",
+      "reservation": true,
+      "address": "東京都文京区湯島3-1-9 CRANEビル4階",
+      "category": "experience"
+    }
+  },
+  {
     "id": 334,
     "title": "『負けヒロインが多すぎる！』アニメイトフェアが秋葉原店で開催",
     "slug": "makeine-animate-akihabara-fair-2026",
