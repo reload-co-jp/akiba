@@ -47,6 +47,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "Clove Lounge Cafe &Bar 秋葉原": { lat: 35.6978, lng: 139.7747 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },
   "AKIBAカルチャーズZONE 4階 カルポップ": { lat: 35.6995, lng: 139.7716 },
+  "あみあみ秋葉原ラジオ会館店": { lat: 35.6987, lng: 139.7715 },
   "あみあみ秋葉原フィギュアタワー店": { lat: 35.6992, lng: 139.772 },
   "秋葉原 SEEKBASE": { lat: 35.7011, lng: 139.7767 },
   "2k540 AKI-OKA ARTISAN": { lat: 35.7054, lng: 139.7737 },
