@@ -425,6 +425,41 @@ body {
   font-size: 0.8125rem;
 }
 
+.pagination {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pagination__btn {
+  background: none;
+  border: 1px solid rgba(96, 120, 111, 0.3);
+  border-radius: 6px;
+  color: #3f5851;
+  cursor: pointer;
+  font-size: 0.9375rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.pagination__btn:hover:not(:disabled) {
+  background-color: #e7f0ed;
+  border-color: rgba(96, 120, 111, 0.5);
+}
+
+.pagination__btn:disabled {
+  color: #b0bdb9;
+  cursor: default;
+}
+
+.pagination__info {
+  color: #3f5851;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
 .articles-view-toggle__btn {
   align-items: center;
   background: none;

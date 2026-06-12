@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, Fragment } from "react"
+import { useState, Fragment, useEffect } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
@@ -14,6 +14,8 @@ import {
 import { useLang } from "./language-provider"
 import AdsenseFluidAd from "./adsense-fluid-ad"
 
+const ITEMS_PER_PAGE = 50
+
 export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const searchParams = useSearchParams()
   const { lang } = useLang()
@@ -22,6 +24,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const [searchQuery, setSearchQuery] = useState(
     searchParams.get("q")?.trim() ?? ""
   )
+  const [page, setPage] = useState(1)
 
   const q = searchQuery.trim()
   const visibleArticles = articles.filter((article) => {
@@ -35,6 +38,16 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
       : true
     return tagMatch && searchMatch
   })
+
+  useEffect(() => {
+    setPage(1)
+  }, [q, selectedTag])
+
+  const totalPages = Math.ceil(visibleArticles.length / ITEMS_PER_PAGE)
+  const pagedArticles = visibleArticles.slice(
+    (page - 1) * ITEMS_PER_PAGE,
+    page * ITEMS_PER_PAGE
+  )
 
   return (
     <>
@@ -107,7 +120,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
       <ul
         className={`article-list${view === "list" ? " article-list--list" : ""}`}
       >
-        {visibleArticles.map((article, i) => {
+        {pagedArticles.map((article, i) => {
           const localized = getLocalizedContent(article, lang)
           return (
             <Fragment key={article.id}>
@@ -156,6 +169,29 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
           )
         })}
       </ul>
+      {totalPages > 1 && (
+        <nav className="pagination" aria-label="ページナビゲーション">
+          <button
+            className="pagination__btn"
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            disabled={page === 1}
+            aria-label="前のページ"
+          >
+            ‹ 前へ
+          </button>
+          <span className="pagination__info">
+            {page} / {totalPages}
+          </span>
+          <button
+            className="pagination__btn"
+            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+            disabled={page === totalPages}
+            aria-label="次のページ"
+          >
+            次へ ›
+          </button>
+        </nav>
+      )}
     </>
   )
 }
