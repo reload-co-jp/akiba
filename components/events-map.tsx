@@ -43,6 +43,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "秋葉原UDXシアター": { lat: 35.7001, lng: 139.7726 },
   "ベルサール秋葉原": { lat: 35.7007, lng: 139.7717 },
   "神田明神ホール": { lat: 35.7017, lng: 139.7677 },
+  "リズムキャンバス": { lat: 35.7027, lng: 139.7694 },
   "書泉ブックタワー": { lat: 35.6976, lng: 139.7745 },
   "Clove Lounge Cafe &Bar 秋葉原": { lat: 35.6978, lng: 139.7747 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },
