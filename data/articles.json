@@ -1,5 +1,53 @@
 [
   {
+    "id": 360,
+    "title": "マーチエキュート神田万世橋で通年イルミネーションを実施",
+    "slug": "maach-ecute-kanda-manseibashi-illumination-2026",
+    "summary": "マーチエキュート神田万世橋で、赤レンガのアーチをメープルカラーのライトで彩るイルミネーションを通年実施中。2026年4月時点の案内では休館日以外、16:00から23:00まで楽しめる。",
+    "content": "## 概要\n\nマーチエキュート神田万世橋で、赤レンガの高架橋をライトアップするイルミネーションが通年実施されています。\n\nWalkerPlusの2026年4月時点の掲載情報では、休館日を除き16:00から23:00まで点灯。JR秋葉原駅電気街口から徒歩4分の、神田川沿いの夜景スポットとして楽しめます。\n\n## 内容\n\n会場は、旧万世橋駅の赤レンガ高架橋を活用した商業施設「マーチエキュート神田万世橋」です。\n\nイルミネーションは、温かみのあるメープルカラーのライトで、100年以上前に建てられた赤レンガのアーチを照らす内容。公式サイトでも「暖イルミ」として、万世橋とオープンデッキをつなぐライトアップや、アーチを大きな暖炉に見立てた演出が紹介されています。\n\n神田川の水面に光が映る場所でもあり、秋葉原駅から少し歩いて夜の万世橋周辺を巡りたいときに立ち寄りやすいスポットです。\n\n## 開催情報\n\n- **会場**: マーチエキュート神田万世橋\n- **住所**: 東京都千代田区神田須田町1-25-4\n- **開催日**: 通年開催（休館日を除く）\n- **時間**: 16:00〜23:00\n- **料金**: 観覧無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 秋葉原駅周辺で夜に立ち寄れるスポットを探している方\n- 旧万世橋駅や赤レンガ高架橋の雰囲気を楽しみたい方\n- 神田川沿いで写真を撮りたい方",
+    "publishedAt": "2026-06-13",
+    "en": {
+      "title": "[Akihabara] Year-Round Illumination at mAAch ecute Kanda-Manseibashi",
+      "summary": "mAAch ecute Kanda-Manseibashi is running a year-round illumination that lights the red-brick arches with warm maple-colored lights. WalkerPlus lists the hours as 16:00-23:00 except closure days, based on April 2026 information.",
+      "content": "## Overview\n\nmAAch ecute Kanda-Manseibashi is running a year-round illumination that lights up the red-brick railway arches.\n\nAccording to WalkerPlus information listed as of April 2026, the lights are on from 16:00 to 23:00 except closure days. The site is about a four-minute walk from JR Akihabara Station's Electric Town Exit, making it an easy evening stop along the Kanda River.\n\n## Highlights\n\nThe venue is mAAch ecute Kanda-Manseibashi, a commercial complex built into the former Manseibashi Station red-brick viaduct.\n\nThe illumination uses warm maple-colored lights to illuminate arches that are more than a century old. The official site has also introduced the display as Dan Illumi, linking Manseibashi and the open deck with light and treating the brick arches like a large fireplace.\n\nBecause the lights reflect on the Kanda River, it is a convenient spot for visitors who want to walk from Akihabara Station and enjoy the nighttime atmosphere around Manseibashi.\n\n## Event Details\n\n- **Venue**: mAAch ecute Kanda-Manseibashi\n- **Address**: 1-25-4 Kanda Sudacho, Chiyoda-ku, Tokyo\n- **Dates**: Year-round except closure days\n- **Hours**: 16:00-23:00\n- **Admission**: Free viewing\n- **Reservation**: Not required\n\n## Recommended For\n\n- Visitors looking for an evening stop near Akihabara Station\n- People who enjoy former railway sites and red-brick architecture\n- Anyone who wants to take photos along the Kanda River"
+    },
+    "image": {
+      "src": "/images/articles/maach-ecute-kanda-manseibashi-illumination-2026.jpg",
+      "alt": "マーチエキュート神田万世橋イルミネーション",
+      "sourceLabel": "WalkerPlus",
+      "sourceUrl": "https://www.walkerplus.com/event/ar0313e372912/",
+      "width": 533,
+      "height": 400
+    },
+    "sources": [
+      {
+        "label": "WalkerPlus イベント情報",
+        "url": "https://www.walkerplus.com/event/ar0313e372912/"
+      },
+      {
+        "label": "WalkerPlus 詳細データ",
+        "url": "https://www.walkerplus.com/event/ar0313e372912/data.html"
+      },
+      {
+        "label": "マーチエキュート神田万世橋 公式サイト",
+        "url": "https://www.ecute.jp/maach"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      63,
+      207
+    ],
+    "event": {
+      "venue": "マーチエキュート神田万世橋",
+      "startDate": "2026-04-24",
+      "endDate": "2026-09-30",
+      "price": "観覧無料",
+      "reservation": false
+    }
+  },
+  {
     "id": 359,
     "title": "『2.5次元の誘惑』水着ver. POPUP SHOPがAKIHABARAゲーマーズ本店で開催",
     "slug": "nigoriri-swimsuit-popup-gamers-akihabara-2026",
