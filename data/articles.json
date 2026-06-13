@@ -1,5 +1,101 @@
 [
   {
+    "id": 362,
+    "title": "『ミリシタ』9周年秋葉原イベントでゲーマーズ事前入場整理券抽選を実施",
+    "slug": "millionlive-9th-akihabara-festival-gamers-lottery-2026",
+    "summary": "『アイドルマスター ミリオンライブ！ シアターデイズ』9周年企画「9th Anniversary in AKIHABARA〜秋葉原っぱフェスティバル〜」で、AKIHABARAゲーマーズ本店の6月26日・27日分の事前入場整理券抽選が実施される。",
+    "content": "## 概要\n\n『アイドルマスター ミリオンライブ！ シアターデイズ』の9周年企画「9th Anniversary in AKIHABARA〜秋葉原っぱフェスティバル〜」で、AKIHABARAゲーマーズ本店の事前入場整理券抽選が実施されます。\n\n対象日は2026年6月26日と6月27日。応募期間は2026年6月21日18:00までで、整理券番号は6月22日20:00頃から順次通知予定です。\n\n## 内容\n\nゲーマーズの案内では、AKIHABARAゲーマーズ本店で開催される6月26日・27日分について、事前入場整理券抽選の応募を受け付けています。\n\n対象企画は、あみあみの特設ページで案内されている『アイドルマスター ミリオンライブ！ シアターデイズ』9周年の秋葉原イベントです。初日付近の混雑が想定される日程に参加したい場合は、抽選応募の有無を確認しておきたい内容です。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店\n- **住所**: 東京都千代田区外神田1-14-7 外神田一丁目ビル\n- **対象日**: 2026年6月26日〜6月27日\n- **応募期間**: 2026年6月21日18:00まで\n- **整理券番号通知**: 2026年6月22日20:00頃より順次\n- **内容**: 事前入場整理券抽選\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 必要。ゲーマーズの応募フォームから抽選申込\n\n## こんな人におすすめ\n\n- 『ミリシタ』9周年の秋葉原企画を初日付近に巡りたい方\n- AKIHABARAゲーマーズ本店の混雑対策情報を確認したい方\n- 秋葉原で開催されるアイドルマスター関連イベントを追っている方",
+    "publishedAt": "2026-06-14",
+    "en": {
+      "title": "[Akihabara] Gamers Entry Lottery for Million Live! Theater Days 9th Anniversary Event",
+      "summary": "For The Idolmaster Million Live! Theater Days 9th Anniversary in AKIHABARA event, AKIHABARA Gamers Main Store is running an advance entry ticket lottery for June 26 and 27, 2026.",
+      "content": "## Overview\n\nFor The Idolmaster Million Live! Theater Days 9th Anniversary in AKIHABARA: Akihabarappa Festival, AKIHABARA Gamers Main Store is running an advance entry ticket lottery.\n\nThe lottery covers June 26 and June 27, 2026. Applications are accepted until 18:00 on June 21, and entry ticket numbers are scheduled to be announced from around 20:00 on June 22.\n\n## Highlights\n\nGamers is accepting lottery applications for advance entry tickets for the June 26 and 27 dates at AKIHABARA Gamers Main Store.\n\nThe lottery is tied to the 9th anniversary Akihabara event for The Idolmaster Million Live! Theater Days, introduced on the AmiAmi special site. Visitors planning to attend during the opening dates should check the lottery requirements in advance.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers Main Store\n- **Address**: Sotokanda 1-chome Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Target dates**: June 26-27, 2026\n- **Application deadline**: Until 18:00 on June 21, 2026\n- **Ticket number notice**: From around 20:00 on June 22, 2026\n- **Contents**: Advance entry ticket lottery\n- **Admission**: Free entry; merchandise sold separately\n- **Reservation**: Required. Apply through the Gamers lottery form\n\n## Recommended For\n\n- Fans planning to visit the Million Live! Theater Days 9th anniversary Akihabara event during its opening dates\n- Visitors checking crowd-control information for AKIHABARA Gamers Main Store\n- People following Idolmaster-related events in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/millionlive-9th-akihabara-festival-gamers-lottery-2026.jpg",
+      "alt": "アイドルマスター ミリオンライブ！ シアターデイズ 9th Anniversary in AKIHABARA ゲーマーズ事前入場整理券抽選告知画像",
+      "sourceLabel": "ゲーマーズ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7665",
+      "width": 810,
+      "height": 306
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ イベント・フェア",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7665"
+      },
+      {
+        "label": "あみあみ 特設ページ",
+        "url": "https://special.amiami.jp/theaterdays_9th/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      42,
+      50,
+      63,
+      72,
+      74,
+      207
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-27",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": true
+    }
+  },
+  {
+    "id": 361,
+    "title": "アニメ『僕のヒーローアカデミア』全国ご当地応援フェアがアニメイト秋葉原ANNEXなどで開催",
+    "slug": "heroaca-gotouchi-animate-akihabara-annex-2026",
+    "summary": "アニメ『僕のヒーローアカデミア』全国ご当地応援フェアが、2026年8月8日から8月30日まで全国アニメイト・アニメイト通販で開催。秋葉原ではアニメイト秋葉原ANNEXのグラッテでコラボメニューも展開する。",
+    "content": "## 概要\n\nアニメ『僕のヒーローアカデミア』全国ご当地応援フェアが、2026年8月8日から8月30日まで開催されます。\n\n対象は全国アニメイトとアニメイト通販。秋葉原では、アニメイト秋葉原ANNEXがグラッテ開催店舗に含まれています。\n\n## 内容\n\nフェア期間中、アニメ『僕のヒーローアカデミア』関連商品を購入または予約すると、条件に応じて特典「ペナント風ステッカー（全6種）」がランダムで配布されます。\n\n対象は、キャラクターグッズ税込1,100円購入・予約内金ごと、オーディオ・ビジュアル商品1点ごと、またはグラッテ飲食・有償特典1点ごとです。特典はなくなり次第終了します。\n\n同期間には「全国ご当地応援フェア開催記念グラッテ」も実施。秋葉原ANNEXではラテとアイシングクッキーを販売し、グラフィックラテはイートイン660円、テイクアウト648円、アイシングクッキーはイートイン605円、テイクアウト594円です。\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原ANNEX ほか全国アニメイト・アニメイト通販\n- **住所**: 東京都千代田区外神田4-3-1\n- **期間**: 2026年8月8日〜8月30日\n- **内容**: 対象商品購入特典、グラッテ、アイシングクッキー\n- **特典**: ペナント風ステッカー全6種をランダム配布\n- **料金**: 入場無料（商品・メニュー購入は別途）\n- **予約**: 不要。特典はなくなり次第終了\n\n## こんな人におすすめ\n\n- 『僕のヒーローアカデミア』10周年関連企画を追っている方\n- アニメイト秋葉原ANNEXのグラッテを巡りたい方\n- ご当地テーマの描き下ろしグッズや特典を集めたい方",
+    "publishedAt": "2026-06-13",
+    "en": {
+      "title": "[Akihabara] My Hero Academia Nationwide Local Support Fair at Animate Akihabara Annex",
+      "summary": "The My Hero Academia Nationwide Local Support Fair will run at Animate stores and Animate Online Shop from August 8 to 30, 2026. In Akihabara, Animate Akihabara Annex will also offer the related Gratte collaboration menu.",
+      "content": "## Overview\n\nThe My Hero Academia Nationwide Local Support Fair will run from August 8 to August 30, 2026.\n\nThe campaign covers Animate stores nationwide and Animate Online Shop. In Akihabara, Animate Akihabara Annex is included among the Gratte participating stores.\n\n## Highlights\n\nDuring the fair, customers who purchase or reserve eligible My Hero Academia products can receive a random pennant-style sticker from a set of six, depending on purchase conditions.\n\nThe bonus applies to character goods purchases or reservation deposits of 1,100 yen including tax per unit, audio-visual product purchases or reservations, or Gratte food and paid bonus purchases. Bonuses end when supplies run out.\n\nA related Gratte campaign will run during the same period. At Akihabara Annex, graphic lattes and icing cookies will be sold. Graphic lattes cost 660 yen for eat-in or 648 yen for takeout, while icing cookies cost 605 yen for eat-in or 594 yen for takeout.\n\n## Event Details\n\n- **Venue**: Animate Akihabara Annex and other Animate stores / Animate Online Shop\n- **Address**: 4-3-1 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: August 8-30, 2026\n- **Contents**: Purchase bonuses, Gratte drinks, and icing cookies\n- **Bonus**: Random pennant-style sticker from six designs\n- **Admission**: Free entry; products and menu items sold separately\n- **Reservation**: Not required. Bonuses end when supplies run out\n\n## Recommended For\n\n- Fans following My Hero Academia 10th anniversary projects\n- Visitors checking Gratte campaigns at Animate Akihabara Annex\n- Collectors interested in local-themed illustrated goods and bonuses"
+    },
+    "image": {
+      "src": "/images/articles/heroaca-gotouchi-animate-akihabara-annex-2026.jpg",
+      "alt": "アニメ『僕のヒーローアカデミア』全国ご当地応援フェア告知画像",
+      "sourceLabel": "アニメイト",
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115520",
+      "width": 1080,
+      "height": 663
+    },
+    "sources": [
+      {
+        "label": "アニメイト フェアページ",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115520"
+      },
+      {
+        "label": "アニメイト ヒロアカ10周年特設ページ",
+        "url": "https://www.animate.co.jp/ex/heroaca_animate_10th/"
+      },
+      {
+        "label": "アニメイトタイムズ 記事",
+        "url": "https://www.animatetimes.com/news/details.php?id=1781181859"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      48,
+      50,
+      63,
+      207
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原ANNEX",
+      "startDate": "2026-08-08",
+      "endDate": "2026-08-30",
+      "price": "入場無料（商品・メニュー購入は別途）",
+      "reservation": false
+    }
+  },
+  {
     "id": 360,
     "title": "マーチエキュート神田万世橋で通年イルミネーションを実施",
     "slug": "maach-ecute-kanda-manseibashi-illumination-2026",
