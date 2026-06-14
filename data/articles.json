@@ -1,5 +1,53 @@
 [
   {
+    "id": 366,
+    "title": "トレカラウンジでTCG『NEXUS』体験会＆ミニ大会が開催",
+    "slug": "toreca-lounge-nexus-trial-mini-tournament-akihabara-2026",
+    "summary": "秋葉原のトレカラウンジで、TCG『NEXUS -ザ・フェイブカードゲーム-』の体験会とミニ大会が2026年6月5日に開催。プロデューサーの原氏も参加し、体験会、フリータイム、ミニ大会を展開した。",
+    "content": "## 概要\n\n秋葉原のトレカラウンジで、TCG『NEXUS -ザ・フェイブカードゲーム-』の体験会とミニ大会が2026年6月5日に開催されました。\n\n会場は外神田3丁目のトレカラウンジ。株式会社マルチプルが企画・運営に協力し、カードゲーム『NEXUS』にとって2度目の体験会として実施されています。\n\n## 内容\n\n当日は、14:00から15:30まで体験会第1部、16:00から17:30まで体験会第2部を実施。各回の定員は32名と案内されています。\n\nその後、17:30から18:30まで大会参加者向けのフリータイム、19:00から21:00まで「NEXUS大会 〜ミニLiLYPSEカップ〜」が行われました。大会は25分1本先取制、スイスドロー形式で実施されています。\n\nPR TIMESの発表では、プロデューサーの原氏も会場に登場し、参加者が直接挑戦する場面や、表彰式・じゃんけん大会でサインカードが手渡される様子が紹介されています。\n\n## 開催情報\n\n- **会場**: トレカラウンジ\n- **住所**: 東京都千代田区外神田3-8-9 昌徳ビル6階\n- **開催日**: 2026年6月5日\n- **時間**: 14:00〜21:00\n- **内容**: TCG『NEXUS』体験会、フリータイム、ミニ大会\n- **定員**: 体験会各回32名、ミニ大会32名\n- **主催協力**: 株式会社マルチプル\n\n## こんな人におすすめ\n\n- 秋葉原のトレカイベントを追っている方\n- 『NEXUS -ザ・フェイブカードゲーム-』の体験会や大会情報を知りたい方\n- トレカラウンジで開催された地域イベントの記録を見たい方",
+    "publishedAt": "2026-06-15",
+    "en": {
+      "title": "[Akihabara] NEXUS TCG Trial Session and Mini Tournament Held at Toreca Lounge",
+      "summary": "A trial session and mini tournament for the trading card game NEXUS: The Fave Card Game was held at Toreca Lounge in Akihabara on June 5, 2026. Producer Hara also joined the event, which included trial sessions, free play, and a mini tournament.",
+      "content": "## Overview\n\nA trial session and mini tournament for the trading card game *NEXUS: The Fave Card Game* was held at Toreca Lounge in Akihabara on June 5, 2026.\n\nThe venue was Toreca Lounge in Sotokanda 3-chome. Multiple Inc. supported planning and operations, and the event was described as the second trial session for the card game *NEXUS*.\n\n## Highlights\n\nThe day began with two trial sessions: the first from 14:00 to 15:30 and the second from 16:00 to 17:30. Each session was listed with a capacity of 32 participants.\n\nA free-play period for tournament participants followed from 17:30 to 18:30, and the NEXUS Tournament: Mini LiLYPSE Cup ran from 19:00 to 21:00. The tournament used a Swiss-draw format with one-game matches limited to 25 minutes.\n\nAccording to the PR TIMES release, producer Hara also appeared at the venue, with participants challenging him directly. The report also shows the award ceremony and a rock-paper-scissors event where signed cards were handed to winners.\n\n## Event Details\n\n- **Venue**: Toreca Lounge\n- **Address**: Shotoku Building 6F, 3-8-9 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: June 5, 2026\n- **Time**: 14:00-21:00\n- **Contents**: NEXUS TCG trial sessions, free play, and mini tournament\n- **Capacity**: 32 people per trial session; 32 people for the mini tournament\n- **Operational Support**: Multiple Inc.\n\n## Recommended For\n\n- People following trading card events in Akihabara\n- Fans looking for *NEXUS: The Fave Card Game* trial and tournament information\n- Readers interested in local events held at Toreca Lounge"
+    },
+    "image": {
+      "src": "/images/articles/toreca-lounge-nexus-trial-mini-tournament-akihabara-2026.jpg",
+      "alt": "トレカラウンジで開催されたTCG『NEXUS』体験会の様子",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000012.000177148.html",
+      "width": 1198,
+      "height": 900
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000012.000177148.html"
+      },
+      {
+        "label": "PR TIMES 秋葉原キーワード一覧",
+        "url": "https://prtimes.jp/topics/keywords/%E7%A7%8B%E8%91%89%E5%8E%9F"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      51,
+      100,
+      156,
+      207
+    ],
+    "event": {
+      "venue": "トレカラウンジ",
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-05",
+      "price": "参加条件は公式案内を確認",
+      "reservation": false,
+      "address": "東京都千代田区外神田3-8-9 昌徳ビル6階",
+      "category": "experience"
+    }
+  },
+  {
     "id": 365,
     "title": "初心者向け捕獲セミナーがネコリパブリックお茶の水店で開催",
     "slug": "beginner-capture-seminar-neco-republic-ochanomizu-2026",
