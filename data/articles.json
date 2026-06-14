@@ -1,5 +1,53 @@
 [
   {
+    "id": 365,
+    "title": "初心者向け捕獲セミナーがネコリパブリックお茶の水店で開催",
+    "slug": "beginner-capture-seminar-neco-republic-ochanomizu-2026",
+    "summary": "「初心者向け捕獲セミナー」が、2026年6月21日にネコリパブリック 東京 お茶の水店で開催。捕獲のスペシャリストが解説する1時間のセミナーで、料金は2,200円、ワンドリンク付き。",
+    "content": "## 概要\n\n「初心者向け捕獲セミナー」が、2026年6月21日にネコリパブリック 東京 お茶の水店で開催されます。\n\n会場は湯島3丁目のネコリパブリック 東京 お茶の水店。秋葉原駅周辺イベントとしてレッツエンジョイ東京に掲載されています。\n\n## 内容\n\nセミナーでは、捕獲のスペシャリストが初心者向けに解説します。地域猫活動や保護猫に関心がある人が、捕獲に関する基本を学ぶ機会になりそうです。\n\n開催時間は18:00から19:00まで。料金は2,200円で、ワンドリンク付きです。問い合わせ先はネコリパブリック お茶の水店と案内されています。\n\n## 開催情報\n\n- **会場**: ネコリパブリック 東京 お茶の水店\n- **住所**: 東京都文京区湯島3-1-9 CRANEビル4階\n- **開催日**: 2026年6月21日\n- **時間**: 18:00〜19:00\n- **内容**: 初心者向け捕獲セミナー\n- **料金**: 2,200円（ワンドリンク付き）\n- **問い合わせ**: ネコリパブリック お茶の水店\n\n## こんな人におすすめ\n\n- 地域猫活動や保護猫活動に関心がある方\n- 捕獲に関する基礎を専門家から学びたい方\n- 秋葉原・御茶ノ水周辺で動物福祉系イベントを探している方",
+    "publishedAt": "2026-06-14",
+    "en": {
+      "title": "[Ochanomizu] Beginner Capture Seminar at Neco Republic Tokyo Ochanomizu",
+      "summary": "A beginner capture seminar will be held at Neco Republic Tokyo Ochanomizu on June 21, 2026. The one-hour session is led by a capture specialist and costs 2,200 yen with one drink included.",
+      "content": "## Overview\n\nA beginner capture seminar will be held at Neco Republic Tokyo Ochanomizu on June 21, 2026.\n\nThe venue is Neco Republic Tokyo Ochanomizu in Yushima 3-chome. The event is listed by Let's Enjoy Tokyo as an Akihabara-area event.\n\n## Highlights\n\nThe seminar introduces capture basics for beginners, explained by a capture specialist. It may be useful for people interested in community cat activities and rescue cat support.\n\nThe session runs from 18:00 to 19:00. Admission is 2,200 yen and includes one drink. The contact listed is Neco Republic Ochanomizu.\n\n## Event Details\n\n- **Venue**: Neco Republic Tokyo Ochanomizu\n- **Address**: CRANE Building 4F, 3-1-9 Yushima, Bunkyo-ku, Tokyo\n- **Date**: June 21, 2026\n- **Time**: 18:00-19:00\n- **Contents**: Beginner capture seminar\n- **Admission**: 2,200 yen with one drink included\n- **Contact**: Neco Republic Ochanomizu\n\n## Recommended For\n\n- People interested in community cat and rescue cat activities\n- Beginners who want to learn capture basics from a specialist\n- Visitors looking for animal welfare events around Akihabara and Ochanomizu"
+    },
+    "image": {
+      "src": "/images/articles/beginner-capture-seminar-neco-republic-ochanomizu-2026.webp",
+      "alt": "初心者向け捕獲セミナーの告知画像",
+      "sourceLabel": "レッツエンジョイ東京",
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2069220/",
+      "width": 512,
+      "height": 640
+    },
+    "sources": [
+      {
+        "label": "レッツエンジョイ東京 イベントページ",
+        "url": "https://www.enjoytokyo.jp/event/2069220/"
+      },
+      {
+        "label": "レッツエンジョイ東京 秋葉原イベント一覧",
+        "url": "https://www.enjoytokyo.jp/event/list/area1319/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      137,
+      156,
+      157,
+      207
+    ],
+    "event": {
+      "venue": "ネコリパブリック 東京 お茶の水店",
+      "startDate": "2026-06-21",
+      "endDate": "2026-06-21",
+      "price": "2,200円（ワンドリンク付き）",
+      "reservation": false,
+      "address": "東京都文京区湯島3-1-9 CRANEビル4階",
+      "category": "experience"
+    }
+  },
+  {
     "id": 364,
     "title": "『薔薇の名前［完全版］』刊行記念トークイベントがオチャノバで開催",
     "slug": "name-of-the-rose-complete-talk-ochanova-2026",
