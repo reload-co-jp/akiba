@@ -1,5 +1,49 @@
 [
   {
+    "id": 364,
+    "title": "『薔薇の名前［完全版］』刊行記念トークイベントがオチャノバで開催",
+    "slug": "name-of-the-rose-complete-talk-ochanova-2026",
+    "summary": "『薔薇の名前［完全版］』の刊行記念・大ヒット御礼トークイベントが、2026年7月11日に御茶ノ水のオチャノバで開催。河島思朗先生と原基晶先生が登壇し、イベント後にはミニサイン会も行われる。",
+    "content": "## 概要\n\n『薔薇の名前［完全版］』の刊行記念・大ヒット御礼トークイベントが、2026年7月11日に開催されます。\n\n会場は御茶ノ水のオチャノバ。書泉が主催し、河島思朗先生と原基晶先生が登壇します。\n\n## 内容\n\nイベントでは、ウンベルト・エーコ『薔薇の名前［完全版］』をテーマに、古典語を専門とする河島思朗先生と、イタリア文学・ルネサンス文化を専門とする原基晶先生による対談を実施します。\n\nイベント後にはミニサイン会も予定されています。サイン対象は『薔薇の名前［完全版］』で、持ち込み可能と案内されています。そのほかの書籍は会場内販売分に限られます。\n\n参加費は2,000円（税込）。申込はLivePocketで2026年6月13日12:00から受付が始まっており、先着順で定員になり次第終了します。\n\n## 開催情報\n\n- **会場**: オチャノバ\n- **住所**: 東京都千代田区神田駿河台4-3 新お茶の水ビルディング7F\n- **開催日**: 2026年7月11日\n- **時間**: 14:00開演（13:30開場）\n- **内容**: 河島思朗先生・原基晶先生によるトークイベント、ミニサイン会\n- **料金**: 2,000円（税込）\n- **予約**: 必要。LivePocketで先着販売\n\n## こんな人におすすめ\n\n- 『薔薇の名前』やウンベルト・エーコ作品を深く知りたい方\n- イタリア文学や西洋古典学のトークイベントに参加したい方\n- 御茶ノ水・秋葉原周辺で書籍関連イベントを探している方",
+    "publishedAt": "2026-06-14",
+    "en": {
+      "title": "[Ochanomizu] The Name of the Rose Complete Edition Talk Event at Ochanova",
+      "summary": "A talk event celebrating the publication and success of The Name of the Rose Complete Edition will be held at Ochanova in Ochanomizu on July 11, 2026. Shiro Kawashima and Motoaki Hara will appear, followed by a mini signing session.",
+      "content": "## Overview\n\nA talk event celebrating the publication and success of The Name of the Rose Complete Edition will be held on July 11, 2026.\n\nThe venue is Ochanova in Ochanomizu. The event is organized by Shosen and features Shiro Kawashima and Motoaki Hara.\n\n## Highlights\n\nThe talk will focus on Umberto Eco's The Name of the Rose Complete Edition, with Shiro Kawashima, a scholar of classical languages, and Motoaki Hara, a specialist in Italian literature and Renaissance culture.\n\nA mini signing session is also scheduled after the talk. The signing is for The Name of the Rose Complete Edition, and attendees may bring their own copy. Other books are limited to copies sold at the venue.\n\nAdmission is 2,000 yen including tax. Tickets are sold through LivePocket on a first-come, first-served basis from 12:00 on June 13, 2026 until capacity is reached.\n\n## Event Details\n\n- **Venue**: Ochanova\n- **Address**: 7F Shin-Ochanomizu Building, 4-3 Kanda Surugadai, Chiyoda-ku, Tokyo\n- **Date**: July 11, 2026\n- **Time**: Starts at 14:00; doors open at 13:30\n- **Contents**: Talk by Shiro Kawashima and Motoaki Hara, plus a mini signing session\n- **Admission**: 2,000 yen including tax\n- **Reservation**: Required. Tickets sold through LivePocket\n\n## Recommended For\n\n- Readers who want to learn more about The Name of the Rose and Umberto Eco\n- Visitors interested in Italian literature or classical studies talks\n- People looking for book-related events around Ochanomizu and Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/name-of-the-rose-complete-talk-ochanova-2026.jpg",
+      "alt": "薔薇の名前［完全版］刊行記念トークイベント告知画像",
+      "sourceLabel": "書泉",
+      "sourceUrl": "https://www.shosen.co.jp/event/43533/",
+      "width": 1124,
+      "height": 843
+    },
+    "sources": [
+      {
+        "label": "書泉 イベントページ",
+        "url": "https://www.shosen.co.jp/event/43533/"
+      },
+      {
+        "label": "LivePocket チケットページ",
+        "url": "https://livepocket.jp/e/0mji2"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      63,
+      207
+    ],
+    "event": {
+      "venue": "オチャノバ",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-11",
+      "price": "2,000円（税込）",
+      "reservation": true
+    }
+  },
+  {
     "id": 363,
     "title": "イタリアンレザーのコンパクトウォレット手縫い制作ワークショップが秋葉原駅近くで開催",
     "slug": "leather-compact-wallet-workshop-yazzietaise-akihabara-2026",

@@ -23,7 +23,7 @@ const mapBounds = {
   north: 35.706,
   south: 35.6934,
   east: 139.7786,
-  west: 139.767,
+  west: 139.7654,
 }
 
 const venuePoints: Record<string, VenuePoint> = {
@@ -37,6 +37,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "マーチエキュート神田万世橋": { lat: 35.6968, lng: 139.7705 },
   "ワテラス": { lat: 35.6977, lng: 139.7679 },
   "WATERRAS（ワテラス）": { lat: 35.6977, lng: 139.7679 },
+  "オチャノバ": { lat: 35.6982, lng: 139.7656 },
   "ものづくり館 by YKK": { lat: 35.6985, lng: 139.7767 },
   "秋葉原・損保会館": { lat: 35.6969, lng: 139.7685 },
   "秋葉原UDX": { lat: 35.7003, lng: 139.7726 },
