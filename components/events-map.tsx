@@ -69,6 +69,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "サンコー秋葉原総本店": { lat: 35.7018, lng: 139.7715 },
   "すい〜ときゃっと": { lat: 35.7013, lng: 139.7715 },
   "Meat Winery": { lat: 35.7011, lng: 139.7715 },
+  "PIZZERIA & BAR NOHGA": { lat: 35.701, lng: 139.7716 },
   "スンドゥブ 中山豆腐店 秋葉原": { lat: 35.6988, lng: 139.7718 },
   "田中電気株式会社 セミナースペース": { lat: 35.6984, lng: 139.7728 },
   "ヤジーテイス": { lat: 35.7017, lng: 139.778 },
