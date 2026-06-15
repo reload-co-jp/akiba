@@ -6,6 +6,7 @@ import {
   getSpotImage,
   placeholderSpotImage,
 } from "lib/spots"
+import { getArticlesBySpotName, formatDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
@@ -49,6 +50,7 @@ const Page = async ({ params }: Props) => {
 
   const spotUrl = absoluteUrl(`/spots/${slug}/`)
   const spotImage = getSpotImage(spot)
+  const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(0, 10)
   const isPlaceholderImage = spotImage.src === placeholderSpotImage.src
 
   const jsonLd = {
@@ -263,6 +265,50 @@ const Page = async ({ params }: Props) => {
           <p>{spot.description}</p>
         </div>
         <AdsenseFluidAd />
+
+        {relatedArticles.length > 0 && (
+          <section aria-labelledby="spot-events-title" style={{ marginTop: "2rem" }}>
+            <h2
+              id="spot-events-title"
+              style={{
+                fontSize: "1rem",
+                fontWeight: "bold",
+                color: "#b94a3a",
+                marginBottom: ".75rem",
+              }}
+            >
+              この会場のイベント
+            </h2>
+            <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: ".5rem" }}>
+              {relatedArticles.map((article) => (
+                <li key={article.id}>
+                  <Link
+                    href={`/articles/${article.slug}/`}
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "baseline",
+                      gap: ".5rem",
+                      fontSize: ".875rem",
+                      color: "#24312f",
+                      textDecoration: "none",
+                      padding: ".5rem",
+                      borderRadius: "4px",
+                      border: "1px solid rgba(96, 120, 111, 0.14)",
+                    }}
+                  >
+                    <span style={{ flex: 1, lineHeight: "1.4" }}>{article.title}</span>
+                    {article.event && (
+                      <span style={{ color: "#8a6f63", whiteSpace: "nowrap", fontSize: ".75rem" }}>
+                        {formatDate(article.event.startDate)}〜{formatDate(article.event.endDate)}
+                      </span>
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <div style={{ marginTop: "2rem", textAlign: "center" }}>
           <Link

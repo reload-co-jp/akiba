@@ -17,6 +17,7 @@ import {
   placeholderImage,
   addAkihabaraSeoTitle,
 } from "lib/articles"
+import { getSpotByVenueName } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 
 type Props = {
@@ -99,6 +100,7 @@ const Page = async ({ params }: Props) => {
     .slice(0, 3)
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
+  const relatedSpot = article.event ? getSpotByVenueName(article.event.venue) : undefined
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
@@ -335,7 +337,13 @@ const Page = async ({ params }: Props) => {
             >
               <dt style={{ color: "#8a6f63" }}>会場</dt>
               <dd style={{ color: "#24312f", margin: 0 }}>
-                {article.event.venue}
+                {relatedSpot ? (
+                  <Link href={`/spots/${relatedSpot.slug}/`} style={{ color: "#b94a3a" }}>
+                    {article.event.venue}
+                  </Link>
+                ) : (
+                  article.event.venue
+                )}
               </dd>
               <dt style={{ color: "#8a6f63" }}>期間</dt>
               <dd style={{ color: "#24312f", margin: 0 }}>

@@ -247,6 +247,17 @@ export const getArticlesByTagId = (id: number): Article[] => {
   return getAllArticles().filter((a) => a.tagIds.includes(id))
 }
 
+export const getArticlesBySpotName = (spotName: string, aliases: string[] = []): Article[] => {
+  const names = [spotName, ...aliases]
+  return getAllArticles().filter(
+    (a) =>
+      a.event &&
+      names.some(
+        (name) => a.event!.venue.includes(name) || name.includes(a.event!.venue),
+      ),
+  )
+}
+
 export const getArticlesByAuthorId = (id: number): Article[] => {
   return getAllArticles().filter((a) => a.authorId === id)
 }
