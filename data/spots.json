@@ -929,7 +929,13 @@
       "JR秋葉原駅 AKIBA LINK",
       "エキュート秋葉原",
       "AKIBA LINK"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/atre-akihabara.jpg",
+      "alt": "アトレ秋葉原の関連ビジュアル",
+      "sourceLabel": "アトレ秋葉原 公式ニュース",
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6847/"
+    }
   },
   {
     "id": 29,
@@ -942,7 +948,13 @@
     "hours": "10:00〜21:00",
     "closed": "不定休",
     "lat": 35.6984,
-    "lng": 139.7731
+    "lng": 139.7731,
+    "image": {
+      "src": "/images/spots/bandai-namco-cross-store-akihabara.jpg",
+      "alt": "バンダイナムコ Cross Store アトレ秋葉原店の関連ビジュアル",
+      "sourceLabel": "魔法の姉妹ルルットリリィ公式サイト",
+      "sourceUrl": "https://www.luluttolilly.com/news/detail.php?id=23592"
+    }
   },
   {
     "id": 30,
@@ -955,7 +967,13 @@
     "hours": "テナントにより異なる",
     "closed": "テナントにより異なる",
     "lat": 35.6999,
-    "lng": 139.7729
+    "lng": 139.7729,
+    "image": {
+      "src": "/images/spots/akihabara-daibiru.webp",
+      "alt": "秋葉原ダイビルの関連ビジュアル",
+      "sourceLabel": "レッツエンジョイ東京 イベントページ",
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2065020/"
+    }
   },
   {
     "id": 31,
@@ -969,7 +987,13 @@
     "closed": "無休",
     "website": "https://www.waterras.com/",
     "lat": 35.6977,
-    "lng": 139.7679
+    "lng": 139.7679,
+    "image": {
+      "src": "/images/spots/waterras.jpg",
+      "alt": "ワテラスの外観",
+      "sourceLabel": "ワテラス公式サイト",
+      "sourceUrl": "https://www.waterras.com/"
+    }
   },
   {
     "id": 32,
@@ -983,7 +1007,13 @@
     "closed": "日・祝日、年末年始",
     "website": "https://monozukuri.ykkfastening.com/",
     "lat": 35.6985,
-    "lng": 139.7767
+    "lng": 139.7767,
+    "image": {
+      "src": "/images/spots/monozukurikan-ykk.png",
+      "alt": "ものづくり館 by YKKの公式ビジュアル",
+      "sourceLabel": "ものづくり館 by YKK 公式サイト",
+      "sourceUrl": "https://monozukuri.ykkfastening.com/"
+    }
   },
   {
     "id": 33,
@@ -996,7 +1026,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.6969,
-    "lng": 139.7685
+    "lng": 139.7685,
+    "image": {
+      "src": "/images/spots/akihabara-sonpo-kaikan.jpg",
+      "alt": "秋葉原・損保会館で開催されたアナログオーディオフェアの会場風景",
+      "sourceLabel": "アナログオーディオフェア公式サイト",
+      "sourceUrl": "https://analogaudio-fair.com/"
+    }
   },
   {
     "id": 34,
@@ -1010,7 +1046,13 @@
     "closed": "不定休",
     "website": "https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/",
     "lat": 35.7007,
-    "lng": 139.7717
+    "lng": 139.7717,
+    "image": {
+      "src": "/images/spots/bellesalle-akihabara.jpg",
+      "alt": "ベルサール秋葉原の公式ビジュアル",
+      "sourceLabel": "ベルサール公式サイト",
+      "sourceUrl": "https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/"
+    }
   },
   {
     "id": 35,
@@ -1024,7 +1066,13 @@
     "closed": "不定休",
     "website": "https://myoujin-hall.jp/",
     "lat": 35.7017,
-    "lng": 139.7677
+    "lng": 139.7677,
+    "image": {
+      "src": "/images/spots/kandamyojin-hall.png",
+      "alt": "神田明神ホールの公式ビジュアル",
+      "sourceLabel": "神田明神ホール公式サイト",
+      "sourceUrl": "https://myoujin-hall.jp/"
+    }
   },
   {
     "id": 36,
@@ -1037,7 +1085,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.7027,
-    "lng": 139.7694
+    "lng": 139.7694,
+    "image": {
+      "src": "/images/spots/rhythm-canvas.jpg",
+      "alt": "リズムキャンバスの関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000006.000174847.html"
+    }
   },
   {
     "id": 37,
@@ -1051,7 +1105,13 @@
     "closed": "年中無休",
     "website": "https://www.shosen.co.jp/tower/",
     "lat": 35.6976,
-    "lng": 139.7745
+    "lng": 139.7745,
+    "image": {
+      "src": "/images/spots/shosen-book-tower.jpg",
+      "alt": "書泉ブックタワーの公式ビジュアル",
+      "sourceLabel": "書泉公式サイト",
+      "sourceUrl": "https://www.shosen.co.jp/tower/"
+    }
   },
   {
     "id": 38,
@@ -1064,7 +1124,13 @@
     "hours": "12:00〜22:00",
     "closed": "不定休",
     "lat": 35.6978,
-    "lng": 139.7747
+    "lng": 139.7747,
+    "image": {
+      "src": "/images/spots/clove-lounge-akihabara.jpg",
+      "alt": "Clove Lounge Cafe &Bar 秋葉原の関連ビジュアル",
+      "sourceLabel": "コラボカフェ記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/puyopuyo-cafe-clove-lounge-cafe-bar2026/"
+    }
   },
   {
     "id": 39,
@@ -1077,7 +1143,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.6988,
-    "lng": 139.7716
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/akiba-fan-cube.jpeg",
+      "alt": "AKIBA FAN CUBEの関連ビジュアル",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/gnosia-clinic-popup-store-tokyo-osaka2026/"
+    }
   },
   {
     "id": 40,
@@ -1090,7 +1162,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.7005,
-    "lng": 139.7716
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/esports-studio-akiba.jpg",
+      "alt": "eSports Studio AKIBAの関連ビジュアル",
+      "sourceLabel": "こどもとIT",
+      "sourceUrl": "https://edu.watch.impress.co.jp/docs/news/2116392.html"
+    }
   },
   {
     "id": 41,
@@ -1104,7 +1182,13 @@
     "closed": "不定休",
     "website": "https://laox-globalretailing.co.jp/laox_store/stores/akihabara/",
     "lat": 35.7002,
-    "lng": 139.7718
+    "lng": 139.7718,
+    "image": {
+      "src": "/images/spots/laox-akihabara.jpg",
+      "alt": "ラオックス秋葉原本店の関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000064.000152399.html"
+    }
   },
   {
     "id": 42,
@@ -1117,7 +1201,13 @@
     "hours": "12:00〜21:00",
     "closed": "不定休",
     "lat": 35.7014,
-    "lng": 139.7712
+    "lng": 139.7712,
+    "image": {
+      "src": "/images/spots/toreka-lounge.jpg",
+      "alt": "トレカラウンジの関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000012.000177148.html"
+    }
   },
   {
     "id": 43,
@@ -1131,7 +1221,13 @@
     "closed": "年中無休",
     "website": "https://realstore.amiami.jp/shop/shop2.html",
     "lat": 35.6992,
-    "lng": 139.772
+    "lng": 139.772,
+    "image": {
+      "src": "/images/spots/amiami-akihabara-figure-tower.jpeg",
+      "alt": "あみあみ秋葉原フィギュアタワー店の関連ビジュアル",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/"
+    }
   },
   {
     "id": 44,
@@ -1145,7 +1241,13 @@
     "closed": "不定休",
     "website": "https://www.jrtk.jp/seekbase/",
     "lat": 35.7011,
-    "lng": 139.7767
+    "lng": 139.7767,
+    "image": {
+      "src": "/images/spots/seekbase-akihabara.png",
+      "alt": "秋葉原 SEEKBASEの公式ビジュアル",
+      "sourceLabel": "SEEKBASE公式サイト",
+      "sourceUrl": "https://www.jrtk.jp/seekbase/"
+    }
   },
   {
     "id": 45,
@@ -1159,7 +1261,13 @@
     "closed": "年中無休",
     "website": "https://hobby.volks.co.jp/shop/hobbytengoku2/",
     "lat": 35.7005,
-    "lng": 139.7714
+    "lng": 139.7714,
+    "image": {
+      "src": "/images/spots/volks-akihabara-hobby-tengoku-2.jpg",
+      "alt": "ボークス 秋葉原ホビー天国2の公式ビジュアル",
+      "sourceLabel": "ボークス公式サイト",
+      "sourceUrl": "https://hobby.volks.co.jp/shop/hobbytengoku2/"
+    }
   },
   {
     "id": 46,
@@ -1172,7 +1280,13 @@
     "hours": "11:00〜21:00",
     "closed": "不定休",
     "lat": 35.7003,
-    "lng": 139.7715
+    "lng": 139.7715,
+    "image": {
+      "src": "/images/spots/collabcafe-honpo-akihabara.jpg",
+      "alt": "コラボカフェ本舗 秋葉原店の関連ビジュアル",
+      "sourceLabel": "コラボカフェ本舗 公式ページ",
+      "sourceUrl": "https://collabocafe-honpo.co.jp/event/bungomayoi2605/"
+    }
   },
   {
     "id": 47,
@@ -1185,7 +1299,13 @@
     "hours": "11:00〜20:00",
     "closed": "不定休",
     "lat": 35.7003,
-    "lng": 139.7716
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/onkyo-direct-anime-store.jpg",
+      "alt": "ONKYO DIRECT ANIME STORE（音アニ1号店）の関連ビジュアル",
+      "sourceLabel": "ONKYO DIRECT",
+      "sourceUrl": "https://onkyodirect.jp/shop/pages/SWB_EARPHONE.aspx"
+    }
   },
   {
     "id": 48,
@@ -1198,7 +1318,13 @@
     "hours": "11:00〜翌2:00",
     "closed": "年中無休",
     "lat": 35.6983,
-    "lng": 139.7729
+    "lng": 139.7729,
+    "image": {
+      "src": "/images/spots/ikkakuya-akihabara.jpg",
+      "alt": "壱角家 秋葉原総本店の関連ビジュアル",
+      "sourceLabel": "株式会社ガーデン PR TIMESプレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000292.000027681.html"
+    }
   },
   {
     "id": 49,
@@ -1211,7 +1337,13 @@
     "hours": "11:00〜20:00",
     "closed": "不定休",
     "lat": 35.7011,
-    "lng": 139.7719
+    "lng": 139.7719,
+    "image": {
+      "src": "/images/spots/coo-riku-akihabara.png",
+      "alt": "ペットショップCoo&RIKU秋葉原店の関連ビジュアル",
+      "sourceLabel": "ペットショップCoo&RIKU",
+      "sourceUrl": "https://www.pet-coo.com/news/67%EF%BC%88%E6%97%A5%EF%BC%89%E7%A7%8B%E8%91%89%E5%8E%9F%E5%BA%97%E9%96%89%E5%BA%97%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+    }
   },
   {
     "id": 50,
@@ -1224,7 +1356,13 @@
     "hours": "11:00〜20:00",
     "closed": "不定休",
     "lat": 35.7013,
-    "lng": 139.7715
+    "lng": 139.7715,
+    "image": {
+      "src": "/images/spots/sweet-cat-akihabara.jpg",
+      "alt": "すい〜ときゃっとの関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000138894.html"
+    }
   },
   {
     "id": 51,
@@ -1237,7 +1375,13 @@
     "hours": "17:00〜23:00（ランチ 11:30〜14:00）",
     "closed": "不定休",
     "lat": 35.7011,
-    "lng": 139.7715
+    "lng": 139.7715,
+    "image": {
+      "src": "/images/spots/meat-winery-akihabara.jpg",
+      "alt": "Meat Wineryの関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000003.000127501.html"
+    }
   },
   {
     "id": 52,
@@ -1251,7 +1395,13 @@
     "closed": "年中無休",
     "website": "https://www.nohgahotel.com/akihabara/en/restaurant/",
     "lat": 35.701,
-    "lng": 139.7716
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/pizzeria-bar-nohga.png",
+      "alt": "PIZZERIA & BAR NOHGAの公式ビジュアル",
+      "sourceLabel": "NOHGA HOTEL AKIHABARA TOKYO公式サイト",
+      "sourceUrl": "https://www.nohgahotel.com/akihabara/en/restaurant/"
+    }
   },
   {
     "id": 53,
@@ -1264,7 +1414,13 @@
     "hours": "11:00〜22:00",
     "closed": "不定休",
     "lat": 35.6988,
-    "lng": 139.7718
+    "lng": 139.7718,
+    "image": {
+      "src": "/images/spots/sundubu-nakayama-akihabara.jpg",
+      "alt": "スンドゥブ 中山豆腐店 秋葉原の関連ビジュアル",
+      "sourceLabel": "ASCII.jp",
+      "sourceUrl": "https://ascii.jp/elem/000/004/409/4409324/"
+    }
   },
   {
     "id": 54,
@@ -1277,7 +1433,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.6984,
-    "lng": 139.7728
+    "lng": 139.7728,
+    "image": {
+      "src": "/images/spots/tanaka-denki-seminar-space.png",
+      "alt": "田中電気株式会社 セミナースペースの関連ビジュアル",
+      "sourceLabel": "ASCII.jp",
+      "sourceUrl": "https://ascii.jp/elem/000/004/409/4409558/"
+    }
   },
   {
     "id": 55,
@@ -1291,7 +1453,13 @@
     "closed": "不定休",
     "website": "https://www.yazzietaise.co.jp/",
     "lat": 35.7017,
-    "lng": 139.778
+    "lng": 139.778,
+    "image": {
+      "src": "/images/spots/yazzie-taise.jpg",
+      "alt": "ヤジーテイスの関連ビジュアル",
+      "sourceLabel": "WalkerPlus",
+      "sourceUrl": "https://www.walkerplus.com/event/ar0313e600366/"
+    }
   },
   {
     "id": 56,
@@ -1305,7 +1473,13 @@
     "closed": "年中無休",
     "website": "https://www.melonbooks.co.jp/",
     "lat": 35.6987,
-    "lng": 139.7718
+    "lng": 139.7718,
+    "image": {
+      "src": "/images/spots/melonbooks-akihabara-1.jpg",
+      "alt": "メロンブックス秋葉原1号店の関連ビジュアル",
+      "sourceLabel": "Anime Maps",
+      "sourceUrl": "https://animemaps.com/ja/event/%E3%80%8E%E5%83%95%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%8C%E5%B0%91%E3%81%AA%E3%81%84%E3%80%8Fpop-up%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-2026/"
+    }
   },
   {
     "id": 57,
@@ -1318,7 +1492,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.701,
-    "lng": 139.7716
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/akihabara-venus.png",
+      "alt": "秋葉原Venusの関連ビジュアル",
+      "sourceLabel": "TIGET",
+      "sourceUrl": "https://tiget.net/events/488099"
+    }
   },
   {
     "id": 58,
@@ -1331,7 +1511,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.7021,
-    "lng": 139.7715
+    "lng": 139.7715,
+    "image": {
+      "src": "/images/spots/akihabara-cosmiclab.jpg",
+      "alt": "秋葉原COSMICLABの関連ビジュアル",
+      "sourceLabel": "X画像",
+      "sourceUrl": "https://pbs.twimg.com/media/GVKfPWraEAIGMY0?format=jpg&name=large"
+    }
   },
   {
     "id": 59,
@@ -1344,7 +1530,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.7007,
-    "lng": 139.7706
+    "lng": 139.7706,
+    "image": {
+      "src": "/images/spots/akihabara-zest.jpg",
+      "alt": "秋葉原ZESTの関連ビジュアル",
+      "sourceLabel": "TIGET イベントページ",
+      "sourceUrl": "https://tiget.net/events/487776"
+    }
   },
   {
     "id": 60,
@@ -1358,7 +1550,13 @@
     "closed": "不定休",
     "website": "https://club.goodman2020.com/",
     "lat": 35.6977,
-    "lng": 139.7738
+    "lng": 139.7738,
+    "image": {
+      "src": "/images/spots/akihabara-club-goodman.jpg",
+      "alt": "秋葉原CLUB GOODMANの関連ビジュアル",
+      "sourceLabel": "バーチャルライフマガジン記事",
+      "sourceUrl": "https://vr-lifemagazine.com/outside_press/"
+    }
   },
   {
     "id": 61,
@@ -1372,7 +1570,13 @@
     "closed": "不定休",
     "website": "https://www.theia-live.com/",
     "lat": 35.701,
-    "lng": 139.7716
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/akihabara-theia.jpg",
+      "alt": "秋葉原ティアの公式ビジュアル",
+      "sourceLabel": "秋葉原ティア公式サイト",
+      "sourceUrl": "https://www.theia-live.com/"
+    }
   },
   {
     "id": 62,
@@ -1386,7 +1590,13 @@
     "closed": "不定休",
     "website": "https://www.soundnote.tokyo/",
     "lat": 35.7019,
-    "lng": 139.7783
+    "lng": 139.7783,
+    "image": {
+      "src": "/images/spots/soundnote-akihabara.jpg",
+      "alt": "SOUNDNOTE AKIHABARAの関連ビジュアル",
+      "sourceLabel": "TIGET",
+      "sourceUrl": "https://tiget.net/events/486878"
+    }
   },
   {
     "id": 63,
@@ -1399,7 +1609,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.702,
-    "lng": 139.7714
+    "lng": 139.7714,
+    "image": {
+      "src": "/images/spots/akihabara-galaxy.jpg",
+      "alt": "秋葉原Galaxyの外観",
+      "sourceLabel": "エルミタージュ秋葉原",
+      "sourceUrl": "https://www.gdm.or.jp/crew/2023/0712/497064"
+    }
   },
   {
     "id": 64,
@@ -1412,7 +1628,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.7017,
-    "lng": 139.7716
+    "lng": 139.7716,
+    "image": {
+      "src": "/images/spots/akiba-co-gallery.png",
+      "alt": "アキバCOギャラリーの関連ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001022.000042572.html"
+    }
   },
   {
     "id": 65,
@@ -1425,7 +1647,13 @@
     "hours": "11:00〜20:00",
     "closed": "不定休",
     "lat": 35.7001,
-    "lng": 139.7714
+    "lng": 139.7714,
+    "image": {
+      "src": "/images/spots/bushiroad-creative-store-akihabara.jpg",
+      "alt": "ブシロードクリエイティブストア 秋葉原本店の関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009529.000014827.html"
+    }
   },
   {
     "id": 66,
@@ -1438,7 +1666,13 @@
     "hours": "11:00〜20:00",
     "closed": "不定休",
     "lat": 35.6984,
-    "lng": 139.773
+    "lng": 139.773,
+    "image": {
+      "src": "/images/spots/toppa-base-akiba.webp",
+      "alt": "TOPPA!!! BASE AKIBAの関連ビジュアル",
+      "sourceLabel": "BEYBLADE X タカラトミー商品ページ",
+      "sourceUrl": "https://beyblade.takaratomy.co.jp/beyblade-x/news/news260603.html"
+    }
   },
   {
     "id": 67,
@@ -1455,7 +1689,13 @@
     "lng": 139.7719,
     "aliases": [
       "GiGO秋葉原5号館"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/gigo-akihabara-5-akibako.jpg",
+      "alt": "GiGO秋葉原5号館 Akib@koの関連ビジュアル",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/5hanayome-sakura-drink-pop-up-store-gigo-akihabara5-2026/"
+    }
   },
   {
     "id": 68,
@@ -1468,7 +1708,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.6982,
-    "lng": 139.7728
+    "lng": 139.7728,
+    "image": {
+      "src": "/images/spots/akihabara-gran-entas.jpg",
+      "alt": "秋葉原 グランエンタス（オノデン1F）の関連ビジュアル",
+      "sourceLabel": "GEE!店舗情報＆イベント情報",
+      "sourceUrl": "https://www.geestore.com/geenet/event/14906.html"
+    }
   },
   {
     "id": 69,
@@ -1482,7 +1728,13 @@
     "closed": "不定休",
     "website": "https://anthemakiba.com/",
     "lat": 35.7007,
-    "lng": 139.7695
+    "lng": 139.7695,
+    "image": {
+      "src": "/images/spots/anthem-akiba.jpg",
+      "alt": "LIVE HOUSE＆CLUB ANTHEM AKIBAの公式ビジュアル",
+      "sourceLabel": "ANTHEM AKIBA公式サイト",
+      "sourceUrl": "https://anthemakiba.com/"
+    }
   },
   {
     "id": 70,
@@ -1495,7 +1747,13 @@
     "hours": "イベントにより異なる",
     "closed": "不定休",
     "lat": 35.6947,
-    "lng": 139.7772
+    "lng": 139.7772,
+    "image": {
+      "src": "/images/spots/air-3331-iwamotocho.jpg",
+      "alt": "AIR 3331 岩本町レジデンス＆スタジオの関連ビジュアル",
+      "sourceLabel": "3331 公式サイト",
+      "sourceUrl": "https://www.3331.jp/schedule2/019924.html"
+    }
   },
   {
     "id": 71,
@@ -1508,7 +1766,13 @@
     "hours": "11:00〜翌8:00",
     "closed": "不定休",
     "lat": 35.6966,
-    "lng": 139.7684
+    "lng": 139.7684,
+    "image": {
+      "src": "/images/spots/raku-spa-1010-kanda.jpg",
+      "alt": "RAKU SPA 1010 神田の関連ビジュアル",
+      "sourceLabel": "RAKU SPA 公式サイト",
+      "sourceUrl": "https://rakuspa.com/fate-go/"
+    }
   },
   {
     "id": 72,
@@ -1522,7 +1786,13 @@
     "closed": "木曜日",
     "website": "https://www.neco-republic.jp/shop/shop-necorepublic-ochanomizu/",
     "lat": 35.7032,
-    "lng": 139.7688
+    "lng": 139.7688,
+    "image": {
+      "src": "/images/spots/neco-republic-ochanomizu.jpg",
+      "alt": "ネコリパブリック 東京 お茶の水店の店内",
+      "sourceLabel": "ネコリパブリック公式サイト",
+      "sourceUrl": "https://www.neco-republic.jp/shop/shop-necorepublic-ochanomizu/"
+    }
   },
   {
     "id": 73,
@@ -1536,7 +1806,13 @@
     "closed": "水曜日",
     "website": "https://www.akihabara-beep.com/",
     "lat": 35.7009,
-    "lng": 139.7712
+    "lng": 139.7712,
+    "image": {
+      "src": "/images/spots/beep-akihabara.webp",
+      "alt": "BEEP秋葉原店の公式ビジュアル",
+      "sourceLabel": "BEEP秋葉原店公式サイト",
+      "sourceUrl": "https://www.akihabara-beep.com/"
+    }
   },
   {
     "id": 74,
@@ -1549,7 +1825,13 @@
     "hours": "11:00〜22:00",
     "closed": "年中無休",
     "lat": 35.7003,
-    "lng": 139.7715
+    "lng": 139.7715,
+    "image": {
+      "src": "/images/spots/sushiro-akihabara-chuo-dori.jpg",
+      "alt": "スシロー 秋葉原中央通り店の関連ビジュアル",
+      "sourceLabel": "4Gamer",
+      "sourceUrl": "https://www.4gamer.net/games/630/G063081/20260611007/"
+    }
   },
   {
     "id": 75,
@@ -1562,6 +1844,12 @@
     "hours": "10:00〜22:00",
     "closed": "不定休",
     "lat": 35.7016,
-    "lng": 139.7755
+    "lng": 139.7755,
+    "image": {
+      "src": "/images/spots/iroha-ni-box-akihabara.jpg",
+      "alt": "秋葉原撮影スタジオ『いろはにぼっくす』の関連ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000957.000060459.html"
+    }
   }
 ]
