@@ -101,6 +101,44 @@ const Page = async ({ params }: Props) => {
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const relatedSpot = article.event ? getSpotByVenueName(article.event.venue) : undefined
+  const primaryTag = article.tagIds.map((tid) => getTagById(tid)).find(Boolean)
+  const nextLinks = [
+    article.event
+      ? {
+          href: "/events/today/",
+          label: "今日行ける秋葉原イベント",
+          description: "開催中のイベントを日付で探す",
+        }
+      : primaryTag
+        ? {
+            href: `/tags/${primaryTag.id}/`,
+            label: `「${primaryTag.name}」の関連記事`,
+            description: "同じテーマの記事をまとめて読む",
+          }
+        : null,
+    article.event
+      ? {
+          href: "/events/this-week/",
+          label: "今週の秋葉原イベント",
+          description: "週末までの予定をまとめて確認",
+        }
+      : {
+          href: "/articles/",
+          label: "秋葉原の新着記事",
+          description: "最新ニュースから次に見る記事を探す",
+        },
+    relatedSpot
+      ? {
+          href: `/spots/${relatedSpot.slug}/`,
+          label: `${article.event?.venue}のスポット情報`,
+          description: "会場の場所や周辺情報を見る",
+        }
+      : {
+          href: "/articles/month/",
+          label: "月別アーカイブ",
+          description: "過去の秋葉原ニュースを月ごとに探す",
+        },
+  ].filter((link): link is { href: string; label: string; description: string } => link != null)
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
@@ -442,6 +480,21 @@ const Page = async ({ params }: Props) => {
           </div>
         )}
         <AdsenseFluidAd />
+
+        <section className="article-next-steps" aria-labelledby="article-next-steps-title">
+          <div>
+            <p className="home-articles__kicker">Next</p>
+            <h2 id="article-next-steps-title">次に見る</h2>
+          </div>
+          <div className="article-next-steps__grid">
+            {nextLinks.map((link) => (
+              <Link key={link.href} href={link.href} className="article-next-steps__item">
+                <span>{link.label}</span>
+                <small>{link.description}</small>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <section
           className="article-tags-nav"
