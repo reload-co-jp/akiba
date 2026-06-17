@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import { marked } from "marked"
 import { ArticleImagePreview } from "components/article-image-preview"
+import { WantToGoButton } from "components/want-to-go-button"
 import {
   formatDate,
   formatDateTime,
@@ -311,11 +312,31 @@ const Page = async ({ params }: Props) => {
             fontSize: ".75rem",
             color: "#8a6f63",
             display: "block",
-            marginBottom: "1.5rem",
+            marginBottom: ".75rem",
           }}
         >
           {formatDateTime(article)}
         </time>
+
+        <div className="article-save-row">
+          <WantToGoButton
+            article={{
+              id: article.id,
+              slug: article.slug,
+              title: article.title,
+              image: { src: articleImage.src, alt: articleImage.alt },
+              ...(article.event
+                ? {
+                    event: {
+                      venue: article.event.venue,
+                      startDate: article.event.startDate,
+                      endDate: article.event.endDate,
+                    },
+                  }
+                : {}),
+            }}
+          />
+        </div>
 
         <figure className="article-hero-image">
           {isPlaceholderImage ? (
