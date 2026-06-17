@@ -140,6 +140,39 @@ const Page = async ({ params }: Props) => {
           description: "過去の秋葉原ニュースを月ごとに探す",
         },
   ].filter((link): link is { href: string; label: string; description: string } => link != null)
+  const articleCtaLinks = [
+    article.event
+      ? {
+          href: "/events/this-week/",
+          label: "今週ほかに行けるイベントを見る",
+        }
+      : primaryTag
+        ? {
+            href: `/tags/${primaryTag.id}/`,
+            label: `「${primaryTag.name}」の記事をもっと見る`,
+          }
+        : null,
+    relatedSpot
+      ? {
+          href: `/spots/${relatedSpot.slug}/`,
+          label: `${article.event?.venue}の会場情報を見る`,
+        }
+      : {
+          href: "/akiba-today/",
+          label: "今日の秋葉原まとめを見る",
+        },
+    primaryTag
+      ? {
+          href: `/tags/${primaryTag.id}/`,
+          label: `同じタグの記事を見る`,
+        }
+      : {
+          href: "/articles/",
+          label: "新着記事を見る",
+        },
+  ]
+    .filter((link): link is { href: string; label: string } => link != null)
+    .filter((link, index, links) => links.findIndex((item) => item.href === link.href) === index)
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
@@ -429,6 +462,20 @@ const Page = async ({ params }: Props) => {
           className="article-content"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
+
+        <aside className="article-inline-cta" aria-labelledby="article-inline-cta-title">
+          <div>
+            <p className="home-articles__kicker">Next Action</p>
+            <h2 id="article-inline-cta-title">次に行く場所を探す</h2>
+          </div>
+          <div className="article-inline-cta__links">
+            {articleCtaLinks.map((link) => (
+              <Link key={link.href} href={link.href}>
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </aside>
 
         {article.sources && article.sources.length > 0 && (
           <section

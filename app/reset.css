@@ -626,6 +626,51 @@ body {
   border-bottom: 1px solid #e5e7eb;
 }
 
+.article-inline-cta {
+  background: #fffdf8;
+  border: 1px solid rgba(96, 120, 111, 0.14);
+  border-radius: 8px;
+  margin: 2rem 0 0;
+  padding: 1rem;
+}
+
+.article-inline-cta h2 {
+  color: #24312f;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin: 0 0 0.9rem;
+}
+
+.article-inline-cta__links {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.article-inline-cta__links a {
+  align-items: center;
+  border: 1px solid rgba(185, 74, 58, 0.18);
+  border-radius: 8px;
+  color: #b94a3a;
+  display: flex;
+  font-size: 0.875rem;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 1.5;
+  padding: 0.75rem 0.85rem;
+  text-decoration: none;
+}
+
+.article-inline-cta__links a::after {
+  content: "→";
+  flex: 0 0 auto;
+  margin-left: 0.75rem;
+}
+
+.article-inline-cta__links a:hover {
+  background: #fff1e8;
+  border-color: rgba(185, 74, 58, 0.34);
+}
+
 .article-hero-image {
   background: #fffdf8;
   border: 1px solid rgba(96, 120, 111, 0.14);
