@@ -17,6 +17,7 @@ import {
   getTagById,
   placeholderImage,
   addAkihabaraSeoTitle,
+  getSeoTitle,
 } from "lib/articles"
 import { getSpotByVenueName } from "lib/spots"
 import { absoluteUrl } from "lib/site"
@@ -35,8 +36,9 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!article) return {}
   const image = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
+  const seoTitle = getSeoTitle(article)
   return {
-    title: addAkihabaraSeoTitle(article.title),
+    title: seoTitle,
     description: article.summary,
     alternates: {
       canonical: `/articles/${slug}/`,
@@ -49,7 +51,7 @@ export const generateMetadata = async ({ params }: Props) => {
       }),
     },
     openGraph: {
-      title: addAkihabaraSeoTitle(article.title),
+      title: seoTitle,
       description: article.summary,
       url: `/articles/${slug}/`,
       images: [
@@ -67,7 +69,7 @@ export const generateMetadata = async ({ params }: Props) => {
     },
     twitter: {
       card: "summary_large_image",
-      title: addAkihabaraSeoTitle(article.title),
+      title: seoTitle,
       description: article.summary,
       images: [image.src],
     },

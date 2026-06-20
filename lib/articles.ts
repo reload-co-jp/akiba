@@ -38,6 +38,7 @@ export type LocaleContent = {
 export type Article = {
   id: number
   title: string
+  seoTitle?: string
   slug: string
   summary: string
   content: string
@@ -70,6 +71,11 @@ export const getArticleTagNames = (article: Article): string[] =>
   article.tagIds.map((id) => getTagById(id)?.name ?? "").filter(Boolean)
 
 export const addAkihabaraSeoTitle = (title: string) => `【秋葉原】${title}`
+
+// <title>/OGP/Twitter向け。Google検索結果での切れを防ぐため、タイトルが長い記事だけ
+// data/articles.json の seoTitle（短縮版）を使う。h1やJSON-LDのheadlineは article.title を使う。
+export const getSeoTitle = (article: Article) =>
+  addAkihabaraSeoTitle(article.seoTitle ?? article.title)
 
 export const getLocalizedContent = (article: Article, lang: Lang): LocaleContent => {
   if (lang === "en" && article.en) return article.en
