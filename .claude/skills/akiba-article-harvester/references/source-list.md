@@ -2,6 +2,8 @@
 
 Use these pages for recurring Akihabara article harvesting.
 
+Most sources below (except X.com) are fetched and parsed in one pass by `../scripts/harvest.py list all` — see [SKILL.md](../SKILL.md#harvest-script). Read that script's output from a redirected file rather than browsing these pages with WebFetch one at a time.
+
 ## Primary / Venue Sources
 
 - アトレ秋葉原 news

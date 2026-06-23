@@ -21,12 +21,31 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 ## Quick Start
 
 1. Read [references/source-list.md](references/source-list.md).
-2. Browse the requested source page, or all source pages when the user asks for broad harvesting. For broad harvesting, always include X.com live search and news/discovery sources from `references/source-list.md` in the discovery pass.
+2. Browse sources with `scripts/harvest.py` (see [Harvest Script](#harvest-script) below), not WebFetch — WebFetch in this environment gets redirected/throttled by the context-mode MCP plugin and burns several tool calls before failing. `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all` covers every primary/aggregator source in one pass. Still run X.com live search and news/discovery sources separately (the script doesn't cover those) for broad harvesting.
 3. Build a candidate queue before writing. Aim for as many solid candidates as possible; do not cap the batch at 5-10 when more verified candidates are available. Stop only when sources are exhausted or verification is blocked.
 4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site. Include both event items and non-event local happenings / "秋葉原で起こった出来事".
-5. Deduplicate the whole queue against `data/articles.json` by title, slug, event/news name, source URL, venue/location/date combination, store or company name, and recognizable campaign names. Drop duplicates before drafting new articles.
-6. For each remaining candidate, open the primary source when possible and confirm the facts relevant to the item: date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
+5. Deduplicate the whole queue with `python3 scripts/harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) before drafting new articles — do this BEFORE deep fact-checking, since most rejections happen here.
+6. For each remaining candidate, confirm facts with `python3 scripts/harvest.py detail "<url>"`: date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
 7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Set `authorId` to `1` on every new article, then verify once with `pnpm build`.
+
+### Avoiding the ls-noise hook
+
+A PreToolUse hook in this environment prepends a full directory listing to raw Bash stdout, which burns context fast across many harvest calls. Always redirect script output to a temp file and read it back with the Read tool instead of letting it print directly:
+
+```
+python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all > /tmp/harvest_out.txt 2>&1
+```
+Then `Read` `/tmp/harvest_out.txt`. This applies to every `harvest.py` invocation below.
+
+## Harvest Script
+
+`scripts/harvest.py` bakes in the source-specific parsing fixes found in past runs (wrong href shapes, titles hidden in `title=""` attributes instead of link text, stale archived listings, etc — see comments in the script). Three subcommands:
+
+- `list <source|all>` — candidate `(title, url)` pairs for one source name from `references/source-list.md` (`atre`, `shosen`, `prtimes`, `walkerplus`, `collabocafe`, `gamers`, `enjoytokyo`, `gnews`, `ceek`), or `all`.
+- `detail <url>...` — fetches one or more detail pages and prints `TITLE` / `OGIMG` / `OGDESC` / `FACTS` (date, venue, price, reservation lines). Use this for step 6 instead of WebFetch. Prints a warning if the page mentions 神保町/グランデ (the shosen Jimbocho store — out of Akihabara scope).
+- `dedup <candidate>...` — see Duplicate Check below.
+
+If a source's HTML structure changes and extraction breaks, fix the relevant entry in `SOURCES` (or the `gnews`/`ceek` branches) in the script directly rather than reverting to ad-hoc regex in the conversation — keeping the fix in the script means the next run benefits too.
 
 ## X.com Discovery
 
@@ -62,14 +81,27 @@ Exclude:
 
 ## Duplicate Check
 
-Before writing:
+**Title-keyword search alone under-detects duplicates.** This repo's articles are usually titled formally/officially (e.g. `「オタクに優しいギャルはいない!?」POP UP SHOPがボークス秋葉原ホビー天国2で開催`), while aggregators use colloquial nicknames (e.g. collabocafe's `オタギャル`). A plain `rg` for the colloquial keyword finds nothing even though the event was already added last run. Discovering this cost most of a harvesting session once — don't re-learn it.
 
-- Search existing article data with `rg -n "<event keyword>|<venue>|<source id>" data/articles.json`.
-- Compare normalized titles: remove brackets, quote marks, 「開催」, 「オープン」, 「リニューアル」, 「閉店」, date suffixes, and campaign subtitles.
+Before writing, for every candidate in the queue, run one batched check (not one `rg` call per keyword):
+
+```
+python3 .claude/skills/akiba-article-harvester/scripts/harvest.py dedup \
+  "<keyword1>|<source-url-1>" "<keyword2>|<source-url-2>" ... > /tmp/dedup_out.txt 2>&1
+```
+
+Then `Read` `/tmp/dedup_out.txt`. This checks three things at once per candidate:
+1. Japanese keyword as a substring of existing `title`/`summary`/`content`.
+2. Romanized tokens pulled from the candidate's own source URL (aggregator URLs already carry an English slug hint, e.g. `.../otagal-animal-butler-and-maid-popup-store-akihabara2026/`) against existing article `slug`s.
+3. The same tokens against filenames already saved under `public/images/articles/` — images can exist for an article you haven't otherwise matched yet.
+
+A match is a heuristic signal, not proof — open the existing article and compare dates/venue before concluding it's a true duplicate (multi-run franchises legitimately get a new pop-up every few months at the same venue).
+
+Additional checks:
 - Compare source URLs and event IDs such as WalkerPlus `/event/ar0313e.../`, LivePocket `/e/...`, Atre `/news/...`.
 - If same event exists, do not create another article. Add any newly found source URL to the existing article's `sources` array when it is not already present, then report the duplicate. Only update article facts/content when the user asked for refresh.
 - When harvesting many items, maintain a temporary duplicate ledger: `new`, `duplicate`, `hold`. Only `new` candidates are written as articles.
-- Before final edits, run one combined `rg -n "keyword1|keyword2|venue1|source-id"` check for all selected candidates to catch late duplicates.
+- Run the dedup batch a second time right before final edits with the full selected list, to catch late duplicates revealed mid-session.
 
 ## Source Recording
 
@@ -89,6 +121,13 @@ Prefer primary or official sources over aggregators:
 3. Aggregators such as WalkerPlus, Enjoy Tokyo, Collabo Cafe, PR TIMES, only when they clearly attribute details.
 
 When an aggregator reveals an event but not enough facts, search the exact event title and venue to find a primary source.
+
+### Per-source gotchas (already baked into `scripts/harvest.py`, but matters when reading its output)
+
+- **shosen**: the `/event/` listing mixes 書泉ブックタワー (Akihabara, in scope) and 書泉グランデ (Jimbocho, out of scope) — the listing page doesn't say which. Always run `harvest.py detail` on the event URL and check for the 神保町/グランデ warning before writing.
+- **gamers**: `event_fair/list.php` mixes current fairs (detail `id` roughly 7000+) with years-old archived ones (`id` in the low hundreds). Always confirm the actual 開催期間 on the detail page is current/future before treating it as a candidate.
+- **collabocafe**: the `/events/tag/akihabara/` page includes non-Akihabara legs of multi-city tours (Osaka, Nagoya, Shinjuku, Ikebukuro, etc). Confirm the Akihabara venue explicitly in the detail page's `OGDESC`/`FACTS` before writing — don't assume every item tagged "akihabara" is actually there.
+- **walkerplus / enjoytokyo**: area-filtered listings are noisy — many results are Tokyo-wide, not Akihabara-specific. Treat as low-precision; verify venue text explicitly before including.
 
 ## Output When Harvesting
 
