@@ -179,6 +179,14 @@ const Page = async ({ params }: Props) => {
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
   const isPlaceholderImage = articleImage.src === placeholderImage.src
+  const tagNames = getArticleTagNames(article)
+  const sourceUrls = article.sources
+    ?.map((source) => source.url)
+    .filter((url): url is string => Boolean(url))
+  const mentions = [
+    ...tagNames.map((name) => ({ "@type": "Thing", name })),
+    ...(article.event ? [{ "@type": "Place", name: article.event.venue }] : []),
+  ]
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -186,7 +194,7 @@ const Page = async ({ params }: Props) => {
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
     headline: addAkihabaraSeoTitle(article.title),
     description: article.summary,
-    keywords: getArticleTagNames(article).join(", "),
+    keywords: tagNames.join(", "),
     inLanguage: "ja",
     datePublished: publishedAt,
     dateModified: publishedAt,
@@ -212,6 +220,23 @@ const Page = async ({ params }: Props) => {
       ...(articleImage.width && { width: articleImage.width }),
       ...(articleImage.height && { height: articleImage.height }),
     },
+    about: [
+      { "@type": "Place", name: "秋葉原" },
+      { "@type": "Thing", name: "秋葉原イベント" },
+      { "@type": "Thing", name: "秋葉原エンタメ" },
+    ],
+    mentions,
+    contentLocation: {
+      "@type": "Place",
+      name: "秋葉原",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "千代田区",
+        addressRegion: "東京都",
+        addressCountry: "JP",
+      },
+    },
+    ...(sourceUrls && sourceUrls.length > 0 ? { citation: sourceUrls } : {}),
   }
 
   const eventJsonLd = article.event

@@ -14,6 +14,18 @@ const robots = (): MetadataRoute.Robots => {
         userAgent: "Googlebot-News",
         allow: "/",
       },
+      {
+        userAgent: [
+          "GPTBot",
+          "ChatGPT-User",
+          "OAI-SearchBot",
+          "PerplexityBot",
+          "ClaudeBot",
+          "Claude-SearchBot",
+          "anthropic-ai",
+        ],
+        allow: "/",
+      },
     ],
     sitemap: [
       absoluteUrl("/sitemap.xml"),

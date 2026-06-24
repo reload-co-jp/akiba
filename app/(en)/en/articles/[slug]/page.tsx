@@ -119,6 +119,9 @@ const Page = async ({ params }: Props) => {
   const seoKeywords = getEnglishSeoKeywords(article)
   const seoVenue = getEnglishEventVenue(article)
   const seoPrice = getEnglishEventPrice(article)
+  const sourceUrls = article.sources
+    ?.map((source) => source.url)
+    .filter((url): url is string => Boolean(url))
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -172,6 +175,11 @@ const Page = async ({ params }: Props) => {
       url: absoluteUrl(`/articles/${slug}/`),
       inLanguage: "ja",
     },
+    mentions: [
+      ...seoKeywords.map((name) => ({ "@type": "Thing", name })),
+      ...(seoVenue ? [{ "@type": "Place", name: seoVenue }] : []),
+    ],
+    ...(sourceUrls && sourceUrls.length > 0 ? { citation: sourceUrls } : {}),
   }
 
   const eventLd = article.event

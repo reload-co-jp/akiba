@@ -86,6 +86,12 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
           title="アキバLive Atom Feed"
           type="application/atom+xml"
         />
+        <link
+          href="/llms.txt"
+          rel="alternate"
+          title="アキバLive LLM index"
+          type="text/markdown"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}

@@ -60,6 +60,12 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <head>
+        <link
+          href="/llms.txt"
+          rel="alternate"
+          title="Akiba Live LLM index"
+          type="text/markdown"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
