@@ -17497,5 +17497,50 @@
       129,
       72
     ]
+  },
+  {
+    "id": 403,
+    "title": "パーソナルトレーニングジム「TOKIEL秋葉原店」が7月1日オープン",
+    "slug": "tokiel-akihabara-personal-gym-open-2026",
+    "summary": "パーソナルトレーニングジム「TOKIEL秋葉原店」が、2026年7月1日に神田佐久間町のSobe.Japan.BLD 3階へオープン。JR秋葉原駅徒歩1分の立地で、オープン記念の無料体験や入会金無料キャンペーンを実施する。",
+    "content": "## 概要\n\n株式会社TIUが展開するパーソナルトレーニングジム「TOKIEL秋葉原店」が、2026年7月1日にオープンします。場所は東京都千代田区神田佐久間町3丁目10 Sobe.Japan.BLD 3階で、JR総武線・東京メトロ日比谷線の秋葉原駅から徒歩1分の立地です。\n\n「運動習慣をつけ、美しく健康な身体に導く」をコンセプトにしたジムで、秋葉原駅東側エリアの新店舗として案内されています。\n\n## 内容\n\nTOKIEL秋葉原店では、ウェア・シューズ・タオルの無料提供やプロテイン無料提供を掲げ、手ぶらで通いやすいサービスを打ち出しています。オープン記念として、通常22,000円の入会金と通常5,500円の体験が無料になるキャンペーンも案内されています。\n\n料金例として、月4回コース28,160円、月8回コース52,800円、通い放題プラン220,000円などが掲載されています。詳細な条件は店舗への問い合わせが必要です。\n\n## 開催情報\n\n- **店舗名**: パーソナルトレーニングジム TOKIEL秋葉原店\n- **住所**: 東京都千代田区神田佐久間町3丁目10 Sobe.Japan.BLD 3階\n- **オープン日**: 2026年7月1日\n- **アクセス**: JR総武線・東京メトロ日比谷線 秋葉原駅 徒歩1分\n- **内容**: パーソナルトレーニング、無料体験、オープン記念キャンペーン\n- **料金**: 月4回28,160円〜。入会金22,000円、体験5,500円はオープン記念で無料案内\n- **予約**: 体験予約は店舗ページから受付\n\n## こんな人におすすめ\n\n- 秋葉原駅近くでパーソナルジムを探している方\n- 仕事帰りや通勤途中に手ぶらで運動したい方\n- オープン記念の無料体験を利用して店舗を試したい方",
+    "publishedAt": "2026-06-24",
+    "en": {
+      "title": "[Akihabara] Personal Training Gym TOKIEL Akihabara Opens on July 1",
+      "summary": "Personal training gym TOKIEL Akihabara opens on July 1, 2026 on the 3rd floor of Sobe.Japan.BLD in Kanda Sakumacho. Located one minute from Akihabara Station, the new branch is offering opening campaigns including free trial sessions and waived enrollment fees.",
+      "content": "## Overview\n\nTIU Co., Ltd. will open personal training gym TOKIEL Akihabara on July 1, 2026. The gym is located on the 3rd floor of Sobe.Japan.BLD, 3-10 Kanda Sakumacho, Chiyoda-ku, Tokyo, about one minute on foot from JR Sobu Line and Tokyo Metro Hibiya Line Akihabara Station.\n\nThe gym is introduced as a new Akihabara east-side branch built around the concept of helping people build exercise habits and achieve healthier bodies.\n\n## Highlights\n\nTOKIEL Akihabara promotes easy drop-in use by providing workout wear, shoes, towels, and protein at no extra charge. As an opening campaign, the usual ¥22,000 enrollment fee and ¥5,500 trial session are listed as free.\n\nExample plans include a four-session monthly plan at ¥28,160, an eight-session monthly plan at ¥52,800, and an unlimited-use plan at ¥220,000. Visitors should contact the branch for detailed conditions.\n\n## Event Details\n\n- **Shop**: Personal Training Gym TOKIEL Akihabara\n- **Address**: Sobe.Japan.BLD 3F, 3-10 Kanda Sakumacho, Chiyoda-ku, Tokyo\n- **Opening Date**: July 1, 2026\n- **Access**: 1 minute on foot from JR Sobu Line and Tokyo Metro Hibiya Line Akihabara Station\n- **Contents**: Personal training, trial sessions, opening campaign\n- **Price**: From ¥28,160 for four monthly sessions. The ¥22,000 enrollment fee and ¥5,500 trial session are listed as free for the opening campaign\n- **Reservation**: Trial reservations accepted via the shop page\n\n## Recommended For\n\n- People looking for a personal gym near Akihabara Station\n- Visitors who want to work out after work or during their commute without bringing gear\n- Anyone who wants to try the branch through the opening trial campaign"
+    },
+    "image": {
+      "src": "/images/articles/tokiel-akihabara-personal-gym-open-2026.jpg",
+      "alt": "TOKIEL秋葉原店オープン告知ビジュアル",
+      "sourceLabel": "PR TIMES（株式会社TIU）",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000028.000129111.html",
+      "width": 2008,
+      "height": 474
+    },
+    "sources": [
+      {
+        "label": "PR TIMES（株式会社TIU）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000028.000129111.html"
+      },
+      {
+        "label": "PR TIMES 秋葉原キーワード検索",
+        "url": "https://prtimes.jp/topics/keywords/%E7%A7%8B%E8%91%89%E5%8E%9F"
+      }
+    ],
+    "event": {
+      "venue": "TOKIEL秋葉原店",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-01",
+      "price": "月4回28,160円〜。オープン記念で体験無料案内",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      56,
+      63,
+      187,
+      207
+    ]
   }
 ]
