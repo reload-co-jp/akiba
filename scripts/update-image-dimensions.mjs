@@ -2,6 +2,7 @@
  * 記事画像の width/height を抽出して articles.json に追記するスクリプト
  * 使い方: node scripts/update-image-dimensions.mjs
  */
+/* global console */
 import { readFileSync, writeFileSync, existsSync } from "fs"
 import { execSync } from "child_process"
 import { join, dirname } from "path"
@@ -55,7 +56,7 @@ console.log(`更新: ${updated} 件`)
 console.log(`1200px未満: ${tooSmall.length} 件`)
 if (tooSmall.length > 0) {
   console.log("\n--- 1200px未満の記事 ---")
-  for (const { slug, width, height, src } of tooSmall) {
+  for (const { slug, width, height } of tooSmall) {
     console.log(`  ${width}x${height}  ${slug}`)
   }
 }

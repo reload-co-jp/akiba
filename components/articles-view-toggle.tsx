@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, Fragment, useEffect } from "react"
+import { useState, Fragment } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
@@ -24,7 +24,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
   const [searchQuery, setSearchQuery] = useState(
     searchParams.get("q")?.trim() ?? ""
   )
-  const [page, setPage] = useState(1)
+  const [pagination, setPagination] = useState({ filterKey: "", page: 1 })
 
   const q = searchQuery.trim()
   const visibleArticles = articles.filter((article) => {
@@ -39,10 +39,14 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
     return tagMatch && searchMatch
   })
 
-  useEffect(() => {
-    setPage(1)
-  }, [q, selectedTag])
-
+  const filterKey = `${q}\u0000${selectedTag ?? ""}`
+  const page = pagination.filterKey === filterKey ? pagination.page : 1
+  const setPage = (getNextPage: (page: number) => number) => {
+    setPagination((current) => {
+      const currentPage = current.filterKey === filterKey ? current.page : 1
+      return { filterKey, page: getNextPage(currentPage) }
+    })
+  }
   const totalPages = Math.ceil(visibleArticles.length / ITEMS_PER_PAGE)
   const pagedArticles = visibleArticles.slice(
     (page - 1) * ITEMS_PER_PAGE,
@@ -57,7 +61,10 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
           className="search-form__input"
           placeholder="キーワードで絞り込む"
           value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
+          onChange={(e) => {
+            setSearchQuery(e.target.value)
+            setPagination({ filterKey: `${e.target.value.trim()}\u0000${selectedTag ?? ""}`, page: 1 })
+          }}
           aria-label="記事を検索"
         />
       </form>

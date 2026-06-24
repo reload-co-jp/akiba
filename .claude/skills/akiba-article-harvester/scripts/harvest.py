@@ -175,7 +175,7 @@ def list_source(name, limit=80):
             link = re.search(r"<link>(.*?)</link>", it, re.S).group(1)
             pub = re.search(r"<pubDate>(.*?)</pubDate>", it, re.S)
             pub = pub.group(1)[:16] if pub else ""
-            print(f"{pub} | {trunc(title, 80)} | {link[:70]}")
+            print(f"{pub} | {trunc(title, 80)} | {link}")
         return
     if name == "ceek":
         text = fetch("https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1")
