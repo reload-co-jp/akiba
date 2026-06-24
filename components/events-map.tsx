@@ -110,6 +110,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "BEEP秋葉原店": { lat: 35.7009, lng: 139.7712 },
   "スシロー 秋葉原中央通り店": { lat: 35.7003, lng: 139.7715 },
   "秋葉原撮影スタジオ『いろはにぼっくす』": { lat: 35.7016, lng: 139.7755 },
+  "Akiba Robolabo Meetup": { lat: 35.7011, lng: 139.7767 },
 }
 
 const broadVenuePatterns = ["全国", "対象10店舗", "各店"]

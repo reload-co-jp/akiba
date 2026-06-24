@@ -16577,6 +16577,10 @@
       {
         "label": "超高層ビル・都市開発研究所",
         "url": "https://skyscrapers-and-urbandevelopment.com/94331/"
+      },
+      {
+        "label": "建設通信新聞Digital",
+        "url": "https://www.kensetsunews.com/web-kan/1225231"
       }
     ],
     "authorId": 1,
@@ -17760,5 +17764,49 @@
       207,
       63
     ]
+  },
+  {
+    "id": 409,
+    "title": "ロボティクスモビリティ「tatamo!」秋葉原試乗イベント開催",
+    "slug": "tatamo-test-ride-akiba-robolabo-meetup-2026",
+    "summary": "ICOMAが開発中のロボティクスモビリティ「tatamo!」の無料試乗イベントが7月11日、Akiba Robolabo Meetupで開催。Shiftallの水冷ウェア「ChillerX Pro」の同時体験コーナーも用意される。",
+    "content": "## 概要\n\n株式会社ICOMAが開発中のロボティクスモビリティ「tatamo!」の試乗イベントが、2026年7月11日に秋葉原のAkiba Robolabo Meetupで開催される。「tatamo!」は特定小型原付区分に分類され、16歳以上であれば運転免許不要で公道走行できるのが特徴。秋葉原の街なかで実際に走行を体験できる貴重な機会となる。\n\n## 内容\n\n当日は試乗だけでなく、株式会社Shiftallのペルチェ式水冷ウェア「ChillerX Pro」との同時体験コーナーも設けられ、夏場の体験イベントとして楽しめる内容になっている。\n\n- 「tatamo!」の試乗体験（特定小型原付、16歳以上免許不要）\n- 最高時速20km、1充電あたり約30km走行可能\n- Shiftall「ChillerX Pro」の同時体験コーナー\n\n## 開催情報\n\n- **日時**: 2026年7月11日（土）11:00〜17:00\n- **会場**: Akiba Robolabo Meetup（秋葉原・御徒町間高架下 SEEKBASE内）\n- **料金**: 無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 新しいロボティクスモビリティに興味がある方\n- 免許不要の小型モビリティを体験したい方\n- 暑い季節のガジェット体験を探している方",
+    "publishedAt": "2026-06-24",
+    "en": {
+      "title": "Free Test Ride Event for Robotics Mobility \"tatamo!\" in Akihabara",
+      "summary": "ICOMA will host a free test ride event for its robotics mobility \"tatamo!\" on July 11 at Akiba Robolabo Meetup, with a hands-on corner for Shiftall's water-cooled wear \"ChillerX Pro\" available at the same time.",
+      "content": "## Overview\n\nICOMA Inc. will hold a test ride event on July 11, 2026 for its robotics mobility \"tatamo!,\" currently in development, at Akiba Robolabo Meetup in Akihabara. \"tatamo!\" is classified as a specified small moped, meaning anyone 16 or older can ride it on public roads without a driver's license, making this a rare chance to try it out on Akihabara's streets.\n\n## Highlights\n\nBeyond the test ride itself, the event also features a hands-on corner for Shiftall's Peltier water-cooled wear \"ChillerX Pro,\" making it a fitting experience event for the summer heat.\n\n- Test ride of \"tatamo!\" (specified small moped category, no license required for ages 16+)\n- Top speed of 20km/h, approximately 30km of range per charge\n- Hands-on corner for Shiftall's \"ChillerX Pro\" available at the same time\n\n## Event Details\n\n- **Dates**: July 11 (Sat), 2026, 11:00-17:00\n- **Venue**: Akiba Robolabo Meetup (inside SEEKBASE, under the elevated tracks between Akihabara and Okachimachi)\n- **Price**: Free\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone interested in new robotics mobility devices\n- Those who want to try a license-free compact mobility vehicle\n- Gadget fans looking for a summer hands-on experience"
+    },
+    "image": {
+      "src": "/images/articles/tatamo-test-ride-akiba-robolabo-meetup-2026.jpg",
+      "alt": "ロボティクスモビリティ「tatamo!」の試乗イベント告知ビジュアル",
+      "sourceLabel": "テクノエッジ TechnoEdge",
+      "sourceUrl": "https://www.techno-edge.net/article/2026/06/24/5219.html",
+      "width": 600,
+      "height": 337
+    },
+    "sources": [
+      {
+        "label": "テクノエッジ TechnoEdge",
+        "url": "https://www.techno-edge.net/article/2026/06/24/5219.html"
+      },
+      {
+        "label": "Google News 秋葉原検索",
+        "url": "https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      222,
+      148,
+      50
+    ],
+    "event": {
+      "venue": "Akiba Robolabo Meetup",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-11",
+      "price": "無料",
+      "reservation": false
+    }
   }
 ]
