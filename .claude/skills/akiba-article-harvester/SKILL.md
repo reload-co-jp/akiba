@@ -37,6 +37,12 @@ python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all > /tm
 ```
 Then `Read` `/tmp/harvest_out.txt`. This applies to every `harvest.py` invocation below.
 
+### DNS / Network Failures
+
+Article sources often fail inside agent sandboxes with temporary DNS or network errors. The harvest script retries transient failures automatically (3 attempts with backoff). When output contains `FETCH FAILED after retries` or DNS messages such as `Temporary failure in name resolution`, rerun the exact same `harvest.py` command with escalated network permissions instead of switching to manual one-off fetching.
+
+Use the same rule for images: prefer `curl -L --retry 3 --retry-delay 2 --connect-timeout 10 "<image-url>" -o public/images/articles/<slug>.<ext>`. If `curl` fails with DNS/network sandbox errors, rerun the exact command with escalated network permissions.
+
 ## Harvest Script
 
 `scripts/harvest.py` bakes in the source-specific parsing fixes found in past runs (wrong href shapes, titles hidden in `title=""` attributes instead of link text, stale archived listings, etc — see comments in the script). Three subcommands:

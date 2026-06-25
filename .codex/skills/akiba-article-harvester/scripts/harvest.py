@@ -20,7 +20,10 @@ letting it print directly into the conversation, e.g.:
 import html
 import json
 import re
+import socket
 import sys
+import time
+import urllib.error
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
@@ -31,10 +34,44 @@ ARTICLES_JSON = REPO_ROOT / "data" / "articles.json"
 IMAGES_DIR = REPO_ROOT / "public" / "images" / "articles"
 
 
-def fetch(url, timeout=20):
+def is_transient_network_error(exc):
+    if isinstance(exc, (socket.gaierror, TimeoutError, urllib.error.URLError)):
+        return True
+    msg = str(exc).lower()
+    return any(
+        marker in msg
+        for marker in [
+            "temporary failure in name resolution",
+            "nodename nor servname provided",
+            "name or service not known",
+            "timed out",
+            "network is unreachable",
+        ]
+    )
+
+
+def fetch(url, timeout=20, retries=3, retry_delay=2):
     req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="ignore")
+    last_error = None
+    for attempt in range(1, retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", errors="ignore")
+        except Exception as exc:
+            last_error = exc
+            if attempt >= retries or not is_transient_network_error(exc):
+                break
+            print(
+                f"FETCH RETRY {attempt}/{retries}: {url} ({type(exc).__name__}: {exc})",
+                file=sys.stderr,
+            )
+            time.sleep(retry_delay * attempt)
+    print(
+        "FETCH FAILED after retries. If this is DNS/network sandboxing, rerun the same "
+        f"harvest.py command with escalated network permissions. URL: {url}",
+        file=sys.stderr,
+    )
+    raise last_error
 
 
 def dec(s):
