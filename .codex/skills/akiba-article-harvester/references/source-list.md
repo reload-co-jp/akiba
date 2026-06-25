@@ -22,6 +22,34 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
   - URL: https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&category=0&keyword=AKIHABARA
   - Notes: strong source for AKIHABARAゲーマーズ本店 fairs and pop-up shops.
 
+- アニメイト フェア・イベント
+  - URL: https://www.animate-onlineshop.jp/contents/fair_event/
+  - Notes: strong source for アニメイト秋葉原 fairs, only shops, reservation rules, and purchase bonuses. Filter for 秋葉原 / AKIHABARA in detail pages.
+
+- あみあみ実店舗イベント
+  - URL: https://realstore.amiami.jp/event/
+  - Notes: primary source for あみあみ秋葉原ラジオ会館店 and あみあみ秋葉原フィギュアタワー店 events. May block scripted access; if blocked, use aggregator discovery and confirm with searchable official detail pages.
+
+- コトブキヤ イベント一覧
+  - URL: https://www.kotobukiya.co.jp/event/
+  - Notes: source for Kotobukiya shop events, hobby exhibitions, campaigns, and limited sales. Filter for コトブキヤ秋葉原館 or Akihabara-related venue text.
+
+- MOGRA 秋葉原
+  - URL: https://club-mogra.jp/
+  - Notes: source for anime song, game music, Touhou, DJ, and club events at 秋葉原MOGRA. Include normal live/DJ events when date, venue, price, and visitor value are clear.
+
+- 秋葉原ZEST schedule
+  - URL: https://akihabara-zest.com/schedule/
+  - Notes: live house schedule. Include normal live events as well as idol, anime, game, and voice-actor adjacent events when details are complete.
+
+- 秋葉原Galaxy schedule
+  - URL: https://akihabara-galaxy.com/schedule/
+  - Notes: live house schedule. Include normal live events when date, venue, price, and performers are clear.
+
+- 秋葉原CLUB GOODMAN schedule
+  - URL: https://goodman2020.com/schedule/
+  - Notes: live house schedule. Include normal live events when details are complete.
+
 ## Aggregator / Discovery Sources
 
 - PR TIMES Akihabara search
@@ -47,6 +75,14 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
 - WalkerPlus Akihabara event list
   - URL: https://www.walkerplus.com/event_list/ar0313/sc309922d/
   - Notes: useful for workshops and local events. Individual pages may be enough when source attribution is clear; still search official/ticket page.
+
+- AKIBA PC Hotline! 秋葉原情報
+  - URL: https://akiba-pc.watch.impress.co.jp/category/info/
+  - Notes: high-value discovery for Akihabara openings, closures, spot updates, food, campaigns, sales, gadget launches, and event roundups. Prefer primary/official source after discovery when available.
+
+- AKIBA PC Hotline! イベント
+  - URL: https://akiba-pc.watch.impress.co.jp/category/event/
+  - Notes: high-value discovery for PC/gadget/hobby events, hands-on demos, store campaigns, and Akihabara event announcements. Confirm event facts before writing.
 
 - X.com (Twitter) Akihabara search
   - URL: https://x.com/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F+%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88&f=live

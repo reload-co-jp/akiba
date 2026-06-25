@@ -93,6 +93,7 @@ class LinkExtractor(HTMLParser):
         self.items = []
         self.cur_href = None
         self.cur_text = []
+        self.cur_has_title_attr = False
         self.depth = 0
 
     def handle_starttag(self, tag, attrs):
@@ -102,7 +103,8 @@ class LinkExtractor(HTMLParser):
             if self.href_filter(href):
                 self.cur_href = href
                 # many sites (shosen) put the real title in title="", not inner text
-                self.cur_text = [d["title"]] if d.get("title") else []
+                self.cur_has_title_attr = bool(d.get("title"))
+                self.cur_text = [d["title"]] if self.cur_has_title_attr else []
                 self.depth = 1
             elif self.cur_href is not None:
                 self.depth += 1
@@ -118,9 +120,10 @@ class LinkExtractor(HTMLParser):
                 text = " ".join(t.strip() for t in self.cur_text if t.strip())
                 self.items.append((self.cur_href, text))
                 self.cur_href = None
+                self.cur_has_title_attr = False
 
     def handle_data(self, data):
-        if self.cur_href is not None:
+        if self.cur_href is not None and not self.cur_has_title_attr:
             t = data.strip()
             if t:
                 self.cur_text.append(t)
@@ -130,15 +133,13 @@ def extract(url, href_filter, base=""):
     text = fetch(url)
     p = LinkExtractor(href_filter)
     p.feed(text)
-    seen = set()
-    out = []
+    out_by_url = {}
     for href, t in p.items:
         full = href if href.startswith("http") else base + href
-        if full in seen:
-            continue
-        seen.add(full)
-        out.append((dec(t), full))
-    return out
+        title = dec(t)
+        if full not in out_by_url or (not out_by_url[full] and title):
+            out_by_url[full] = title
+    return [(t, href) for href, t in out_by_url.items()]
 
 
 # --- per-source extraction -------------------------------------------------
@@ -196,6 +197,51 @@ SOURCES = {
         url="https://www.enjoytokyo.jp/event/list/area1319/",
         href_filter=lambda h: bool(re.search(r"/event/\d{6,7}/$", h or "")),
         base="",
+    ),
+    "akibapc_info": dict(
+        url="https://akiba-pc.watch.impress.co.jp/category/info/",
+        href_filter=lambda h: bool(re.search(r"/docs/news/news/\d+\.html$", h or "")),
+        base="https://akiba-pc.watch.impress.co.jp",
+    ),
+    "akibapc_event": dict(
+        url="https://akiba-pc.watch.impress.co.jp/category/event/",
+        href_filter=lambda h: bool(re.search(r"/docs/news/news/\d+\.html$", h or "")),
+        base="https://akiba-pc.watch.impress.co.jp",
+    ),
+    "animate": dict(
+        url="https://www.animate-onlineshop.jp/contents/fair_event/",
+        href_filter=lambda h: "detail.php?id=" in (h or ""),
+        base="https://www.animate-onlineshop.jp/contents/fair_event/",
+    ),
+    "amiami_realstore": dict(
+        url="https://realstore.amiami.jp/event/",
+        href_filter=lambda h: bool(re.search(r"/event/[^\"#]+\.html?$", h or "")),
+        base="https://realstore.amiami.jp",
+    ),
+    "kotobukiya": dict(
+        url="https://www.kotobukiya.co.jp/event/",
+        href_filter=lambda h: bool(re.search(r"/event/[^\"#]+/?$", h or "")) and h != "/event/",
+        base="https://www.kotobukiya.co.jp",
+    ),
+    "mogra": dict(
+        url="https://club-mogra.jp/event/",
+        href_filter=lambda h: bool(re.search(r"/20\d{2}/\d{2}/\d{2}/", h or "")),
+        base="https://club-mogra.jp",
+    ),
+    "akihabara_zest": dict(
+        url="https://akihabara-zest.com/schedule/",
+        href_filter=lambda h: bool(re.search(r"/schedule/[^\"#]+/?$", h or "")),
+        base="https://akihabara-zest.com",
+    ),
+    "akihabara_galaxy": dict(
+        url="https://akihabara-galaxy.com/schedule/",
+        href_filter=lambda h: bool(re.search(r"/schedule/[^\"#]+/?$", h or "")),
+        base="https://akihabara-galaxy.com",
+    ),
+    "club_goodman": dict(
+        url="https://goodman2020.com/schedule/",
+        href_filter=lambda h: bool(re.search(r"/events?/", h or "") or re.search(r"/schedule/[^\"#]+/?$", h or "")),
+        base="https://goodman2020.com",
     ),
 }
 

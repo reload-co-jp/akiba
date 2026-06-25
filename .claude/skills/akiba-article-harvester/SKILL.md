@@ -47,7 +47,7 @@ Use the same rule for images: prefer `curl -L --retry 3 --retry-delay 2 --connec
 
 `scripts/harvest.py` bakes in the source-specific parsing fixes found in past runs (wrong href shapes, titles hidden in `title=""` attributes instead of link text, stale archived listings, etc — see comments in the script). Three subcommands:
 
-- `list <source|all>` — candidate `(title, url)` pairs for one source name from `references/source-list.md` (`atre`, `shosen`, `prtimes`, `walkerplus`, `collabocafe`, `gamers`, `enjoytokyo`, `gnews`, `ceek`), or `all`.
+- `list <source|all>` — candidate `(title, url)` pairs for one source name from `references/source-list.md` (`atre`, `shosen`, `prtimes`, `walkerplus`, `collabocafe`, `gamers`, `enjoytokyo`, `akibapc_info`, `akibapc_event`, `animate`, `amiami_realstore`, `kotobukiya`, `mogra`, `akihabara_zest`, `akihabara_galaxy`, `club_goodman`, `gnews`, `ceek`), or `all`.
 - `detail <url>...` — fetches one or more detail pages and prints `TITLE` / `OGIMG` / `OGDESC` / `FACTS` (date, venue, price, reservation lines). Use this for step 6 instead of WebFetch. Prints a warning if the page mentions 神保町/グランデ (the shosen Jimbocho store — out of Akihabara scope).
 - `dedup <candidate>...` — see Duplicate Check below.
 
@@ -134,6 +134,8 @@ When an aggregator reveals an event but not enough facts, search the exact event
 - **gamers**: `event_fair/list.php` mixes current fairs (detail `id` roughly 7000+) with years-old archived ones (`id` in the low hundreds). Always confirm the actual 開催期間 on the detail page is current/future before treating it as a candidate.
 - **collabocafe**: the `/events/tag/akihabara/` page includes non-Akihabara legs of multi-city tours (Osaka, Nagoya, Shinjuku, Ikebukuro, etc). Confirm the Akihabara venue explicitly in the detail page's `OGDESC`/`FACTS` before writing — don't assume every item tagged "akihabara" is actually there.
 - **walkerplus / enjoytokyo**: area-filtered listings are noisy — many results are Tokyo-wide, not Akihabara-specific. Treat as low-precision; verify venue text explicitly before including.
+- **AKIBA PC Hotline!**: high-value discovery but often aggregates several small items in one article. Split into separate articles only when each item has enough facts and clear reader value; otherwise use as a supporting discovery/source.
+- **live house schedules**: include normal live events too, not only anime/game-adjacent ones, as long as the venue is in scope and date, price, performers, and visitor-facing details are clear.
 
 ## Output When Harvesting
 
