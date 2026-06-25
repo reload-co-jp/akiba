@@ -18022,5 +18022,216 @@
       "price": "対象商品の購入が必要",
       "reservation": false
     }
+  },
+  {
+    "id": 415,
+    "title": "『ミリシタ』9周年コラボがアトレ秋葉原で開催",
+    "slug": "idolmaster-millionlive-theaterdays-9th-atre-akihabara-2026",
+    "summary": "『アイドルマスター ミリオンライブ！ シアターデイズ』9周年企画「9th Anniversary in AKIHABARA」が、2026年6月26日から7月9日までアトレ秋葉原で開催。物販、購入特典、コラボフードを展開する。",
+    "content": "## 概要\n\n『アイドルマスター ミリオンライブ！ シアターデイズ』の9周年企画「9th Anniversary in AKIHABARA～秋葉原っぱフェスティバル～」が、アトレ秋葉原で開催されます。期間は2026年6月26日から7月9日までで、建物ラッピング、物販、館内ショップとのコラボフードを展開します。\n\n## 内容\n\nアトレ秋葉原では、アイドルマスター オフィシャルショップ拡張スペースでのグッズ販売に加え、館内ショップの対象購入特典やコラボメニューが用意されます。初日付近は一部フード店舗でアトレ公式LINEを使った抽選販売も案内されています。\n\n- 館内各ショップで税込500円購入ごとに特典をランダム配布\n- イベントスペースで税込3,000円購入ごとに特典を配布\n- アトレ秋葉原1の各ショップでコラボフードを販売\n- 6月26日～28日は一部店舗で抽選販売を実施\n\n## 開催情報\n\n- **日時**: 2026年6月26日(金)〜7月9日(木)\n- **会場**: アトレ秋葉原\n- **料金**: 入場無料（商品購入・飲食は別途）\n- **予約**: 不要。一部コラボフードは抽選販売あり\n\n## こんな人におすすめ\n\n- 『ミリシタ』9周年の秋葉原企画を巡りたい方\n- アトレ秋葉原の館内特典やコラボフードを楽しみたい方\n- アイドルマスター関連グッズを秋葉原で集めたい方",
+    "publishedAt": "2026-06-25",
+    "en": {
+      "title": "[Akihabara] Million Live! Theater Days 9th Anniversary Collab at Atre Akihabara",
+      "summary": "The Idolmaster Million Live! Theater Days 9th Anniversary in AKIHABARA project runs at Atre Akihabara from June 26 to July 9, 2026, featuring merchandise, purchase bonuses, and collaboration food.",
+      "content": "## Overview\n\nThe Idolmaster Million Live! Theater Days 9th Anniversary in AKIHABARA: Akihara-ppa Festival will be held at Atre Akihabara. Running from June 26 to July 9, 2026, the project includes building wrapping, merchandise sales, and collaboration food with in-mall shops.\n\n## Highlights\n\nAtre Akihabara will host merchandise sales at an expanded Idolmaster Official Shop space, along with purchase bonuses at participating shops and collaboration menus around the mall. For the opening period, some food shops will use lottery sales via Atre's official LINE account.\n\n- Random bonuses distributed for every ¥500 (tax included) spent at participating mall shops\n- Bonus distribution for every ¥3,000 (tax included) spent at the event space\n- Collaboration food sold at participating Atre Akihabara 1 shops\n- Lottery sales at some food shops from June 26-28\n\n## Event Details\n\n- **Dates**: June 26 (Fri) - July 9 (Thu), 2026\n- **Venue**: Atre Akihabara\n- **Price**: Free admission (merchandise and food purchases are separate)\n- **Reservation**: Not required. Some collaboration food uses lottery sales\n\n## Recommended For\n\n- Fans touring the Million Live! Theater Days 9th anniversary Akihabara project\n- Visitors interested in Atre Akihabara mall bonuses and collaboration food\n- Idolmaster fans collecting related merchandise in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/idolmaster-millionlive-theaterdays-9th-atre-akihabara-2026.jpg",
+      "alt": "『アイドルマスター ミリオンライブ！ シアターデイズ×アトレ秋葉原』の告知ビジュアル",
+      "sourceLabel": "アトレ秋葉原 公式ニュース",
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7183",
+      "width": 560,
+      "height": 315
+    },
+    "sources": [
+      {
+        "label": "アトレ秋葉原 公式ニュース（物販・特典・フード）",
+        "url": "https://www.atre.co.jp/akihabara/news/7183"
+      },
+      {
+        "label": "アトレ秋葉原 公式ニュース（コラボフード）",
+        "url": "https://www.atre.co.jp/akihabara/news/7184"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      46,
+      42,
+      50,
+      80,
+      207
+    ],
+    "event": {
+      "venue": "アトレ秋葉原",
+      "startDate": "2026-06-26",
+      "endDate": "2026-07-09",
+      "price": "入場無料（商品購入・飲食は別途）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 416,
+    "title": "『きみが死ぬまで恋をしたい』8周年コラボがアトレ秋葉原で開催",
+    "slug": "kimishinu-8th-anniversary-atre-akihabara-2026",
+    "summary": "あおのなち『きみが死ぬまで恋をしたい』の8周年記念コラボイベントが、2026年8月7日から8月20日までアトレ秋葉原で開催。館内展示やコラボショップ、購入抽選会を予定する。",
+    "content": "## 概要\n\nあおのなち『きみが死ぬまで恋をしたい』の8周年を記念したコラボイベント「きみが死ぬまで恋をしたい 8th Anniversary Celebration Party in atre AKIHABARA」が、アトレ秋葉原1で開催されます。期間は2026年8月7日から8月20日までです。\n\n## 内容\n\nイベントでは、白い衣装のシーナたちを描いた記念ビジュアルを使った館内展開が予定されています。描き下ろしイラストを使ったオリジナルグッズ販売のコラボショップも設置され、購入者向けのハズレなし抽選会も案内されています。\n\n- 8周年記念コラボイベントをアトレ秋葉原1で開催\n- 描き下ろしイラストを使用したオリジナルグッズを販売予定\n- コラボショップで税込5,000円購入ごとにハズレなし抽選会を実施予定\n\n## 開催情報\n\n- **日時**: 2026年8月7日(金)〜8月20日(木)\n- **会場**: アトレ秋葉原1\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『きみが死ぬまで恋をしたい』8周年企画を秋葉原で楽しみたい方\n- 描き下ろしグッズや館内装飾をチェックしたい方\n- アトレ秋葉原の漫画・アニメ系コラボを巡りたい方",
+    "publishedAt": "2026-06-25",
+    "en": {
+      "title": "[Akihabara] I Want to Love You Till Your Dying Day 8th Anniversary Collab at Atre",
+      "summary": "An 8th anniversary collaboration event for Aono Nachi's I Want to Love You Till Your Dying Day will run at Atre Akihabara from August 7 to August 20, 2026, with in-mall displays, a collaboration shop, and purchase lottery plans.",
+      "content": "## Overview\n\nThe I Want to Love You Till Your Dying Day 8th Anniversary Celebration Party in atre AKIHABARA, celebrating the 8th anniversary of Aono Nachi's series, will be held at Atre Akihabara 1. The event runs from August 7 to August 20, 2026.\n\n## Highlights\n\nThe event will use anniversary visuals featuring Sheena and others in white outfits for its in-mall presentation. A collaboration shop selling original merchandise with newly drawn illustrations is also planned, along with a no-lose purchase lottery for shoppers.\n\n- 8th anniversary collaboration event held at Atre Akihabara 1\n- Original merchandise using newly drawn illustrations planned for sale\n- No-lose lottery planned for every ¥5,000 (tax included) spent at the collaboration shop\n\n## Event Details\n\n- **Dates**: August 7 (Fri) - August 20 (Thu), 2026\n- **Venue**: Atre Akihabara 1\n- **Price**: Free admission (merchandise purchases are separate)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans who want to enjoy the 8th anniversary project in Akihabara\n- Visitors interested in newly drawn merchandise and in-mall decoration\n- People following manga and anime collaborations at Atre Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/kimishinu-8th-anniversary-atre-akihabara-2026.jpg",
+      "alt": "『きみが死ぬまで恋をしたい』8周年アトレ秋葉原コラボの告知ビジュアル",
+      "sourceLabel": "コミックナタリー",
+      "sourceUrl": "https://natalie.mu/comic/news/677267",
+      "width": 1200,
+      "height": 630
+    },
+    "sources": [
+      {
+        "label": "コミックナタリー",
+        "url": "https://natalie.mu/comic/news/677267"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      46,
+      78,
+      80,
+      207
+    ],
+    "event": {
+      "venue": "アトレ秋葉原1",
+      "startDate": "2026-08-07",
+      "endDate": "2026-08-20",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 417,
+    "title": "『アポカリプスホテルかりかり』POP UP SHOPが書泉ブックタワーで開催",
+    "slug": "apocalypse-hotel-karikari-popup-shosen-booktower-2026",
+    "summary": "『アポカリプスホテルかりかり』刊行記念POP UP SHOPが、2026年7月7日から7月20日まで書泉ブックタワー9階で開催。複製原画展示、関連書籍・オリジナルグッズ販売、購入抽選会を実施する。",
+    "content": "## 概要\n\n『アポカリプスホテルかりかり』の刊行を記念したPOP UP SHOP「こずみっくでかなんじゃこりゃー」が、秋葉原の書泉ブックタワーで開催されます。期間は2026年7月7日から7月20日までで、会場は9階イベントスペースです。\n\n## 内容\n\n会場では、竹本泉先生による複製原画展示や、関連書籍・オリジナルグッズ販売を実施します。POP UP SHOP用の描き下ろしイラストも用意され、購入金額に応じた抽選会も行われます。\n\n- 複製原画展示と関連書籍販売\n- オリジナルグッズ販売\n- 1会計税込3,300円以上購入ごとにオリジナルグッズが当たる抽選会に参加可能\n\n## 開催情報\n\n- **日時**: 2026年7月7日(火)〜7月20日(月・祝) 11:00〜20:00\n- **会場**: 書泉ブックタワー 9階イベントスペース\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『アポカリプスホテルかりかり』の刊行記念企画を見たい方\n- 竹本泉先生の複製原画や描き下ろしイラストを楽しみたい方\n- 書泉ブックタワーの漫画・書籍系POP UPを巡りたい方",
+    "publishedAt": "2026-06-25",
+    "en": {
+      "title": "[Akihabara] Apocalypse Hotel Karikari Pop-Up Shop at Shosen Book Tower",
+      "summary": "A publication commemorative pop-up shop for Apocalypse Hotel Karikari will be held on the 9th floor of Shosen Book Tower from July 7 to July 20, 2026, featuring reproduction artwork, books, original goods, and a purchase lottery.",
+      "content": "## Overview\n\nThe publication commemorative pop-up shop for Apocalypse Hotel Karikari, titled Kozumikku de Kanan ja Korya, will be held at Shosen Book Tower in Akihabara. It runs from July 7 to July 20, 2026 on the 9th floor event space.\n\n## Highlights\n\nThe venue will display reproduction artwork by Izumi Takemoto and sell related books and original merchandise. A newly drawn illustration created for the pop-up shop is also planned, and shoppers can join a lottery based on purchase amount.\n\n- Reproduction artwork display and related book sales\n- Original merchandise sales\n- For each transaction of ¥3,300 (tax included) or more, shoppers can join a lottery for original goods\n\n## Event Details\n\n- **Dates**: July 7 (Tue) - July 20 (Mon, holiday), 2026, 11:00-20:00\n- **Venue**: Shosen Book Tower, 9F event space\n- **Price**: Free admission (merchandise purchases are separate)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans interested in the Apocalypse Hotel Karikari publication event\n- Visitors who want to see Izumi Takemoto reproduction artwork and newly drawn visuals\n- People touring manga and book-related pop-up events at Shosen Book Tower"
+    },
+    "image": {
+      "src": "/images/articles/apocalypse-hotel-karikari-popup-shosen-booktower-2026.jpg",
+      "alt": "『アポカリプスホテルかりかり』POP UP SHOPの告知ビジュアル",
+      "sourceLabel": "書泉 公式イベントページ",
+      "sourceUrl": "https://www.shosen.co.jp/event/43525/",
+      "width": 750,
+      "height": 1060
+    },
+    "sources": [
+      {
+        "label": "書泉 公式イベントページ",
+        "url": "https://www.shosen.co.jp/event/43525/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      193,
+      78,
+      129,
+      177,
+      207
+    ],
+    "event": {
+      "venue": "書泉ブックタワー",
+      "startDate": "2026-07-07",
+      "endDate": "2026-07-20",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 418,
+    "title": "『ヴィンランド・サガ』POP UP SHOPが書泉ブックタワーで開催",
+    "slug": "vinland-saga-popup-shosen-booktower-2026",
+    "summary": "『ヴィンランド・サガ』連載完結1周年記念POP UP SHOPが、2026年7月10日から8月2日まで書泉ブックタワーなどで開催。原作イラストを使用した新作グッズを販売する。",
+    "content": "## 概要\n\n幸村誠氏による漫画『ヴィンランド・サガ』の連載完結1周年を記念したPOP UP SHOPが、書泉ブックタワーを含む3店舗で開催されます。秋葉原の書泉ブックタワー会場は6階で、期間は2026年7月10日から8月2日までです。\n\n## 内容\n\n会場では、原作イラストを使用した新作グッズを販売します。書泉グランデ、書泉ブックタワー、芳林堂書店高田馬場店の3店舗で同時展開され、オンライン販売も7月10日から9月6日まで予定されています。\n\n- 『ヴィンランド・サガ』原作イラストグッズを販売\n- 書泉ブックタワー6階で秋葉原会場を展開\n- オンライン販売も2026年7月10日から9月6日まで予定\n\n## 開催情報\n\n- **日時**: 2026年7月10日(金)〜8月2日(日) 11:00〜20:00\n- **会場**: 書泉ブックタワー 6階\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『ヴィンランド・サガ』完結記念グッズを集めたい方\n- 原作イラストを使用した新作グッズを秋葉原で見たい方\n- 書泉ブックタワーの漫画系POP UP SHOPを巡りたい方",
+    "publishedAt": "2026-06-25",
+    "en": {
+      "title": "[Akihabara] Vinland Saga Pop-Up Shop at Shosen Book Tower",
+      "summary": "A Vinland Saga pop-up shop celebrating the first anniversary of the manga's completion will run from July 10 to August 2, 2026 at Shosen Book Tower and other stores, selling new merchandise using original manga artwork.",
+      "content": "## Overview\n\nA pop-up shop celebrating the first anniversary of Makoto Yukimura's Vinland Saga manga completion will be held at three stores including Shosen Book Tower. The Akihabara venue is on the 6th floor of Shosen Book Tower and runs from July 10 to August 2, 2026.\n\n## Highlights\n\nThe venue will sell new merchandise using original manga illustrations. The shop runs simultaneously at Shosen Grande, Shosen Book Tower, and Horindo Takadanobaba, with online sales also planned from July 10 to September 6.\n\n- Vinland Saga merchandise using original manga illustrations will be sold\n- Akihabara venue held on the 6th floor of Shosen Book Tower\n- Online sales are also scheduled from July 10 to September 6, 2026\n\n## Event Details\n\n- **Dates**: July 10 (Fri) - August 2 (Sun), 2026, 11:00-20:00\n- **Venue**: Shosen Book Tower, 6F\n- **Price**: Free admission (merchandise purchases are separate)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans collecting merchandise commemorating Vinland Saga's completion\n- Visitors who want to see new goods using original manga artwork in Akihabara\n- People touring manga pop-up shops at Shosen Book Tower"
+    },
+    "image": {
+      "src": "/images/articles/vinland-saga-popup-shosen-booktower-2026.jpg",
+      "alt": "『ヴィンランド・サガ』POP UP SHOPの告知ビジュアル",
+      "sourceLabel": "書泉 公式イベントページ",
+      "sourceUrl": "https://www.shosen.co.jp/event/43043/",
+      "width": 750,
+      "height": 1060
+    },
+    "sources": [
+      {
+        "label": "書泉 公式イベントページ",
+        "url": "https://www.shosen.co.jp/event/43043/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      193,
+      78,
+      129,
+      207
+    ],
+    "event": {
+      "venue": "書泉ブックタワー",
+      "startDate": "2026-07-10",
+      "endDate": "2026-08-02",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 419,
+    "title": "「青春ブタ野郎」シリーズPOP UP CORNERがコトブキヤ秋葉原館で開催",
+    "slug": "aobuta-popup-corner-kotobukiya-akihabara-2026",
+    "summary": "「青春ブタ野郎」シリーズPOP UP CORNER in コトブキヤが、2026年6月19日から6月28日までコトブキヤ秋葉原館で開催。新商品を含む関連商品の販売と購入特典を展開する。",
+    "content": "## 概要\n\n「青春ブタ野郎」シリーズPOP UP CORNER in コトブキヤが、コトブキヤ秋葉原館で開催されています。秋葉原館の期間は2026年6月19日から6月28日までで、日本橋店への巡回も予定されています。\n\n## 内容\n\n会場では、「青春ブタ野郎」シリーズの新商品を含む関連商品を販売します。公式ページでは購入特典も案内され、来店時は購入制限や店舗周辺でのトレード禁止などの注意事項も確認しておきたい内容です。\n\n- 「青春ブタ野郎」シリーズ関連商品を販売\n- 新商品を含むPOP UP CORNER展開\n- 秋葉原館の後、日本橋店でも開催予定\n\n## 開催情報\n\n- **日時**: 2026年6月19日(金)〜6月28日(日)\n- **会場**: コトブキヤ秋葉原館\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 「青春ブタ野郎」シリーズの新作グッズを秋葉原で見たい方\n- コトブキヤ秋葉原館の期間限定コーナーを巡りたい方\n- アニメ・ライトノベル系POP UPをチェックしている方",
+    "publishedAt": "2026-06-25",
+    "en": {
+      "title": "[Akihabara] Rascal Does Not Dream Series Pop-Up Corner at Kotobukiya Akihabara",
+      "summary": "The Rascal Does Not Dream series Pop-Up Corner in Kotobukiya runs at Kotobukiya Akihabara from June 19 to June 28, 2026, selling related merchandise including new items and offering purchase bonuses.",
+      "content": "## Overview\n\nThe Rascal Does Not Dream series Pop-Up Corner in Kotobukiya is being held at Kotobukiya Akihabara. The Akihabara run lasts from June 19 to June 28, 2026, with a later run planned at the Nihonbashi store.\n\n## Highlights\n\nThe venue sells Rascal Does Not Dream series merchandise, including new items. The official page also lists purchase bonuses, and visitors should check notes such as purchase limits and the ban on trading around the store.\n\n- Rascal Does Not Dream series merchandise will be sold\n- Pop-up corner includes new items\n- A Nihonbashi store run is planned after the Akihabara venue\n\n## Event Details\n\n- **Dates**: June 19 (Fri) - June 28 (Sun), 2026\n- **Venue**: Kotobukiya Akihabara\n- **Price**: Free admission (merchandise purchases are separate)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans who want to see new Rascal Does Not Dream merchandise in Akihabara\n- Visitors touring limited-time corners at Kotobukiya Akihabara\n- People following anime and light-novel pop-up events"
+    },
+    "image": {
+      "src": "/images/articles/aobuta-popup-corner-kotobukiya-akihabara-2026.jpg",
+      "alt": "「青春ブタ野郎」シリーズPOP UP CORNER in コトブキヤの告知ビジュアル",
+      "sourceLabel": "コトブキヤ 公式イベントページ",
+      "sourceUrl": "https://www.kotobukiya.co.jp/event/detail/1268/",
+      "width": 2000,
+      "height": 1125
+    },
+    "sources": [
+      {
+        "label": "コトブキヤ 公式イベントページ",
+        "url": "https://www.kotobukiya.co.jp/event/detail/1268/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      77,
+      47,
+      129,
+      207
+    ],
+    "event": {
+      "venue": "コトブキヤ秋葉原館",
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-28",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
   }
 ]
