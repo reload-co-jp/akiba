@@ -4,6 +4,7 @@ import {
   getAllAuthors,
   getAllMonths,
   getAllTags,
+  getArticleImage,
   getArticlePublishedDate,
   getArticlesByAuthorId,
   getArticlesByMonth,
@@ -55,6 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: getArticlePublishedDate(article),
       changeFrequency: "weekly" as const,
       priority: 0.8,
+      images: [absoluteUrl(getArticleImage(article).src)],
       ...(article.en
         ? {
             alternates: {
@@ -74,6 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: getArticlePublishedDate(article),
         changeFrequency: "weekly" as const,
         priority: 0.8,
+        images: [absoluteUrl(getArticleImage(article).src)],
         alternates: {
           languages: {
             ja: absoluteUrl(`/articles/${article.slug}/`),
