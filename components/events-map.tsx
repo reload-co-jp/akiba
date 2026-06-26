@@ -43,6 +43,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "秋葉原・損保会館": { lat: 35.6969, lng: 139.7685 },
   "秋葉原UDX": { lat: 35.7003, lng: 139.7726 },
   "AKIBA_SQUARE": { lat: 35.7003, lng: 139.7726 },
+  "東京アニメセンター in UDX": { lat: 35.7003, lng: 139.7726 },
   "秋葉原UDXシアター": { lat: 35.7001, lng: 139.7726 },
   "ベルサール秋葉原": { lat: 35.7007, lng: 139.7717 },
   "アキバナビスペース": { lat: 35.7016, lng: 139.7712 },
