@@ -63,6 +63,7 @@ export type Article = {
     endDate: string
     price: string
     reservation: boolean
+    performer?: string
   }
   authorId?: number
 }

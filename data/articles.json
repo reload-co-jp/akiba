@@ -39,7 +39,8 @@
       "endDate": "2026-07-12",
       "price": "グッズ購入代（2,000円ごとに特典）",
       "reservation": false,
-      "category": "fair"
+      "category": "fair",
+      "performer": "オタクに優しいギャルはいない!?"
     }
   },
   {
@@ -89,7 +90,8 @@
       "endDate": "2026-07-04",
       "price": "入場無料",
       "reservation": false,
-      "category": "event"
+      "category": "event",
+      "performer": "ドールズフロントライン2：エクシリウム"
     }
   },
   {
@@ -131,7 +133,8 @@
       "endDate": "2026-07-20",
       "price": "グッズ購入代（2,200円ごとに特典）",
       "reservation": false,
-      "category": "fair"
+      "category": "fair",
+      "performer": "ラブライブ！虹ヶ咲学園スクールアイドル同好会"
     }
   },
   {
@@ -211,7 +214,8 @@
       "endDate": "2026-08-16",
       "price": "550円〜",
       "reservation": false,
-      "category": "event"
+      "category": "event",
+      "performer": "ファイブスター物語（F.S.S.）"
     }
   },
   {
@@ -253,7 +257,8 @@
       "endDate": "2026-07-20",
       "price": "グッズ購入代",
       "reservation": false,
-      "category": "fair"
+      "category": "fair",
+      "performer": "スノウボールアース"
     }
   },
   {
@@ -297,7 +302,8 @@
       "endDate": "2026-07-20",
       "price": "料理1,300円〜（税込）／コラボドリンク880円（税込）",
       "reservation": false,
-      "category": "collab-cafe"
+      "category": "collab-cafe",
+      "performer": "君のことが大大大大大好きな100人の彼女"
     }
   },
   {
@@ -480,7 +486,8 @@
       "endDate": "2026-08-16",
       "price": "入場無料（商品購入は別途）",
       "reservation": false,
-      "category": "event"
+      "category": "event",
+      "performer": "ようこそ実力至上主義の教室へ"
     },
     "seoTitle": "『ようこそ実力至上主義の教室へ 4th Season』ミュージアム AKIHABARAゲーマーズ本店"
   },
@@ -1183,7 +1190,8 @@
       "startDate": "2026-07-10",
       "endDate": "2026-08-02",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "ヴィンランド・サガ"
     }
   },
   {
@@ -17054,7 +17062,8 @@
       "startDate": "2026-06-26",
       "endDate": "2026-07-26",
       "price": "対象店舗で税込3,000円以上利用",
-      "reservation": false
+      "reservation": false,
+      "performer": "Re:ゼロから始める異世界生活"
     },
     "seoTitle": "「夏の秋葉原電気街まつり 2026」×『Re:ゼロから始める異世界生活』コラボ"
   },
@@ -17223,7 +17232,8 @@
       "startDate": "2026-06-26",
       "endDate": "2026-07-20",
       "price": "飲食・物販は別途",
-      "reservation": true
+      "reservation": true,
+      "performer": "超次元ゲイム ネプテューヌ"
     },
     "authorId": 1,
     "tagIds": [
@@ -17309,7 +17319,8 @@
       "startDate": "2026-07-11",
       "endDate": "2026-07-26",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "青春ブタ野郎"
     },
     "authorId": 1,
     "tagIds": [
@@ -17350,7 +17361,8 @@
       "startDate": "2026-06-26",
       "endDate": "2026-07-12",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "魔法少女にあこがれて"
     },
     "authorId": 1,
     "tagIds": [
@@ -17451,7 +17463,8 @@
       "startDate": "2026-08-07",
       "endDate": "2026-08-20",
       "price": "入場無料（グッズ購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "きみが死ぬまで恋をしたい"
     },
     "authorId": 1,
     "tagIds": [
@@ -17542,7 +17555,8 @@
       "startDate": "2026-06-27",
       "endDate": "2026-07-12",
       "price": "入場無料（グッズ購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "オタクに優しいギャルはいない!?"
     },
     "authorId": 1,
     "tagIds": [
@@ -17663,7 +17677,8 @@
       "startDate": "2026-06-26",
       "endDate": "2026-07-12",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "戦姫絶唱シンフォギア"
     },
     "authorId": 1,
     "tagIds": [
@@ -17703,7 +17718,8 @@
       "startDate": "2026-06-27",
       "endDate": "2026-07-12",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "戦姫絶唱シンフォギアXV"
     },
     "authorId": 1,
     "tagIds": [
@@ -17741,7 +17757,8 @@
       "startDate": "2026-07-03",
       "endDate": "2026-07-03",
       "price": "メンバー券（2冊）4,400円、グループ券（5冊）11,000円（税込）",
-      "reservation": true
+      "reservation": true,
+      "performer": "フィルフェリーチェ"
     },
     "authorId": 1,
     "tagIds": [
@@ -17803,7 +17820,8 @@
       "startDate": "2026-07-25",
       "endDate": "2026-08-09",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "ゾンビランドサガ"
     },
     "authorId": 1,
     "tagIds": [
@@ -17897,7 +17915,8 @@
       "startDate": "2026-07-04",
       "endDate": "2026-07-05",
       "price": "無料（商品購入は別途）",
-      "reservation": true
+      "reservation": true,
+      "performer": "鳴潮（Wuthering Waves）"
     }
   },
   {
@@ -17983,7 +18002,8 @@
       "startDate": "2026-07-10",
       "endDate": "2026-07-23",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "ケロロ軍曹"
     }
   },
   {
@@ -18028,7 +18048,8 @@
       "startDate": "2026-06-13",
       "endDate": "2026-06-28",
       "price": "無料",
-      "reservation": false
+      "reservation": false,
+      "performer": "BEYBLADE X"
     }
   },
   {
@@ -18150,7 +18171,8 @@
       "startDate": "2026-06-13",
       "endDate": "2026-07-05",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "ホロライブプロダクション"
     },
     "authorId": 1,
     "tagIds": [
@@ -18199,7 +18221,8 @@
       "startDate": "2026-07-03",
       "endDate": "2026-07-12",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "宇崎ちゃんは遊びたい！ω"
     }
   },
   {
@@ -18244,7 +18267,8 @@
       "startDate": "2026-07-03",
       "endDate": "2026-07-12",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "ハイスクールD×D HERO"
     }
   },
   {
@@ -18326,7 +18350,8 @@
       "startDate": "2026-07-11",
       "endDate": "2026-07-11",
       "price": "対象商品の購入が必要",
-      "reservation": false
+      "reservation": false,
+      "performer": "白き鋼鉄のX（イクス）"
     }
   },
   {
@@ -18372,7 +18397,8 @@
       "startDate": "2026-06-26",
       "endDate": "2026-07-09",
       "price": "入場無料（商品購入・飲食は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "アイドルマスター ミリオンライブ！シアターデイズ"
     }
   },
   {
@@ -18414,7 +18440,8 @@
       "startDate": "2026-07-07",
       "endDate": "2026-07-20",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "アポカリプスホテルかりかり"
     }
   },
   {
@@ -18455,7 +18482,8 @@
       "startDate": "2026-07-10",
       "endDate": "2026-08-02",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "ヴィンランド・サガ"
     }
   },
   {
@@ -18496,7 +18524,8 @@
       "startDate": "2026-06-19",
       "endDate": "2026-06-28",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "青春ブタ野郎"
     }
   },
   {
@@ -18539,7 +18568,8 @@
       "startDate": "2026-06-27",
       "endDate": "2026-07-12",
       "price": "入場無料（商品購入は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "僕のヒーローアカデミア"
     }
   },
   {
@@ -18583,7 +18613,8 @@
       "startDate": "2026-06-10",
       "endDate": "2026-07-09",
       "price": "対象店舗で税込1,100円以上利用",
-      "reservation": false
+      "reservation": false,
+      "performer": "転生したらスライムだった件"
     }
   },
   {
@@ -18667,7 +18698,8 @@
       "startDate": "2026-06-26",
       "endDate": "2026-07-31",
       "price": "入場無料（商品購入・飲食は別途）",
-      "reservation": false
+      "reservation": false,
+      "performer": "グランブルーファンタジー"
     }
   },
   {
@@ -18749,7 +18781,8 @@
       "startDate": "2026-08-22",
       "endDate": "2026-08-22",
       "price": "各部4,800円(税込)",
-      "reservation": true
+      "reservation": true,
+      "performer": "AHS（エーエイチエス）"
     }
   },
   {

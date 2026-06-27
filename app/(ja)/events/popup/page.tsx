@@ -90,6 +90,10 @@ const Page = () => {
           addressCountry: "JP",
         },
       },
+      organizer: { "@type": "Organization", name: "アキバLive", url: absoluteUrl("/") },
+      performer: a.event!.performer
+        ? { "@type": "PerformingGroup", name: a.event!.performer }
+        : { "@type": "Organization", name: "アキバLive", url: absoluteUrl("/") },
     })),
   ]
 

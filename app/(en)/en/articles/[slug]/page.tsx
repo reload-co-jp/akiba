@@ -217,6 +217,9 @@ const Page = async ({ params }: Props) => {
           name: "Akiba Live",
           url: absoluteUrl("/"),
         },
+        performer: article.event.performer
+          ? { "@type": "PerformingGroup", name: article.event.performer }
+          : { "@type": "Organization", name: "Akiba Live", url: absoluteUrl("/") },
       }
     : null
 

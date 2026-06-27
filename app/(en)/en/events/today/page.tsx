@@ -161,6 +161,9 @@ const Page = () => {
       },
     },
     organizer: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+    performer: a.event!.performer
+      ? { "@type": "PerformingGroup", name: a.event!.performer }
+      : { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
   }))
 
   return (
