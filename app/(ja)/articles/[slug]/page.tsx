@@ -26,6 +26,21 @@ type Props = {
   params: Promise<{ slug: string }>
 }
 
+const getArticleLinkSources = (article: NonNullable<ReturnType<typeof getArticleBySlug>>) => {
+  const links = [
+    ...(article.sources ?? []),
+    ...(article.image?.sourceUrl
+      ? [{ label: article.image.sourceLabel ?? "画像出典", url: article.image.sourceUrl }]
+      : []),
+  ]
+
+  return links.filter(
+    (source, index, sources) =>
+      source.url == null ||
+      sources.findIndex((candidate) => candidate.url === source.url) === index,
+  )
+}
+
 export const generateStaticParams = () => {
   return getAllSlugs().map((slug) => ({ slug }))
 }
@@ -180,8 +195,9 @@ const Page = async ({ params }: Props) => {
   const publishedAt = getArticlePublishedIso(article)
   const isPlaceholderImage = articleImage.src === placeholderImage.src
   const tagNames = getArticleTagNames(article)
-  const sourceUrls = article.sources
-    ?.map((source) => source.url)
+  const articleLinkSources = getArticleLinkSources(article)
+  const sourceUrls = articleLinkSources
+    .map((source) => source.url)
     .filter((url): url is string => Boolean(url))
   const mentions = [
     ...tagNames.map((name) => ({ "@type": "Thing", name })),
@@ -236,7 +252,7 @@ const Page = async ({ params }: Props) => {
         addressCountry: "JP",
       },
     },
-    ...(sourceUrls && sourceUrls.length > 0 ? { citation: sourceUrls } : {}),
+    ...(sourceUrls.length > 0 ? { citation: sourceUrls } : {}),
   }
 
   const eventJsonLd = article.event
@@ -507,7 +523,7 @@ const Page = async ({ params }: Props) => {
           </div>
         </aside>
 
-        {article.sources && article.sources.length > 0 && (
+        {articleLinkSources.length > 0 && (
           <section
             aria-labelledby="article-sources-title"
             style={{
@@ -527,7 +543,7 @@ const Page = async ({ params }: Props) => {
                 margin: "0 0 .75rem",
               }}
             >
-              情報ソース
+              公式URL・参考URL
             </h2>
             <ul
               style={{
@@ -538,7 +554,7 @@ const Page = async ({ params }: Props) => {
                 paddingLeft: "1.25rem",
               }}
             >
-              {article.sources.map((source) => (
+              {articleLinkSources.map((source) => (
                 <li key={`${source.label}-${source.url ?? "text"}`}>
                   {source.url ? (
                     <a

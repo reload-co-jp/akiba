@@ -27,6 +27,21 @@ type Props = {
   params: Promise<{ slug: string }>
 }
 
+const getArticleLinkSources = (article: NonNullable<ReturnType<typeof getArticleBySlug>>) => {
+  const links = [
+    ...(article.sources ?? []),
+    ...(article.image?.sourceUrl
+      ? [{ label: article.image.sourceLabel ?? "Image source", url: article.image.sourceUrl }]
+      : []),
+  ]
+
+  return links.filter(
+    (source, index, sources) =>
+      source.url == null ||
+      sources.findIndex((candidate) => candidate.url === source.url) === index,
+  )
+}
+
 export const generateStaticParams = () => {
   return getEnglishSlugs().map((slug) => ({ slug }))
 }
@@ -119,8 +134,9 @@ const Page = async ({ params }: Props) => {
   const seoKeywords = getEnglishSeoKeywords(article)
   const seoVenue = getEnglishEventVenue(article)
   const seoPrice = getEnglishEventPrice(article)
-  const sourceUrls = article.sources
-    ?.map((source) => source.url)
+  const articleLinkSources = getArticleLinkSources(article)
+  const sourceUrls = articleLinkSources
+    .map((source) => source.url)
     .filter((url): url is string => Boolean(url))
 
   const jsonLd = {
@@ -179,7 +195,7 @@ const Page = async ({ params }: Props) => {
       ...seoKeywords.map((name) => ({ "@type": "Thing", name })),
       ...(seoVenue ? [{ "@type": "Place", name: seoVenue }] : []),
     ],
-    ...(sourceUrls && sourceUrls.length > 0 ? { citation: sourceUrls } : {}),
+    ...(sourceUrls.length > 0 ? { citation: sourceUrls } : {}),
   }
 
   const eventLd = article.event
@@ -383,7 +399,7 @@ const Page = async ({ params }: Props) => {
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
 
-        {article.sources && article.sources.length > 0 && (
+        {articleLinkSources.length > 0 && (
           <section
             aria-labelledby="article-sources-title"
             style={{
@@ -403,7 +419,7 @@ const Page = async ({ params }: Props) => {
                 margin: "0 0 .75rem",
               }}
             >
-              Sources
+              Official / Reference Links
             </h2>
             <ul
               style={{
@@ -414,7 +430,7 @@ const Page = async ({ params }: Props) => {
                 paddingLeft: "1.25rem",
               }}
             >
-              {article.sources.map((source) => (
+              {articleLinkSources.map((source) => (
                 <li key={`${source.label}-${source.url ?? "text"}`}>
                   {source.url ? (
                     <a
