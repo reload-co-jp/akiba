@@ -50,8 +50,11 @@ Use these files when creating or updating event articles:
 - Keep `title` around 32 full-width characters or fewer (excluding the dynamic `【秋葉原】` prefix) so it does not get truncated in Google search results. Event name + venue + "で開催" style titles easily exceed this — trim modifiers or shorten the venue name when the full event name makes it too long.
 - `image` and `sources` are optional in TypeScript, but event articles in this repo should include them whenever possible.
 - `sources` stores every source page used while harvesting or writing: discovery pages, aggregators, official pages, ticket pages, venue pages, press releases, and official SNS pages when they confirm facts.
+- The article detail page renders `sources` as `公式URL・参考URL`. Add every official/reference URL found, including official event/campaign pages, ticket/reservation pages, venue/shop pages, official SNS posts, primary press releases, and reliable reference articles.
+- If `image.sourceUrl` is an official/reference page and is not already in `sources`, add it to `sources` too.
 - When the same event is discovered from multiple sources, keep multiple `sources` entries. Deduplicate only exact or normalized URL duplicates.
 - Order `sources` by reliability: primary/official, ticket/venue, press release, aggregator/discovery.
+- Use human-readable labels that identify link type, e.g. `公式サイト`, `公式ニュース`, `チケットページ`, `会場公式サイト`, `公式X`, `PR TIMES プレスリリース`, `Collabo Cafe 記事`.
 - `event.venue` can include floor information when it is part of the source listing.
 - `price` is display text, not normalized numeric data.
 - `reservation` is a boolean summary, not a detailed reservation policy.

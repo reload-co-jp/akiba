@@ -23,6 +23,9 @@ Read [references/article-format.md](references/article-format.md) before editing
 - Prefer official event sites, official ticketing pages, official SNS, venue pages, and primary press releases.
 - If the direct source blocks scraping or hides details behind JavaScript, use a reliable secondary page that clearly attributes the event and keep both the original page and the secondary page in `sources` when possible.
 - Keep every source page used to find or confirm the article in `sources`. If multiple sources point to the same event, save all non-duplicate source URLs rather than choosing only one.
+- Add every available official/reference link to `sources`: official event/campaign pages, ticket/reservation pages, venue/shop pages, official SNS posts, primary press releases, and reliable reference articles. The article detail page renders `sources` under `公式URL・参考URL`.
+- When starting from an aggregator or press article, search for the official event/shop/venue URL and include it before the aggregator whenever found.
+- If `image.sourceUrl` points to an official/reference page that is not already listed, add the same URL to `sources` too.
 - When updating an existing article because a duplicate was found from a new source, append the new source to `sources` if absent. Do not rewrite article facts unless the user asked for refresh or the new source corrects a clear error.
 - Keep dates explicit in `YYYY-MM-DD` format inside JSON.
 - Do not invent missing facts. Omit or soften claims when the source is unclear.
@@ -45,6 +48,7 @@ Read [references/article-format.md](references/article-format.md) before editing
   - `## こんな人におすすめ`: 2〜3の短い箇条書き、または 1〜2文の prose。
 - Put actionable event facts in both `content` and `event`.
 - Add `sources` for every article. Use the clearest human-readable label you can. Order primary/official sources first, then ticket/venue pages, then aggregators or discovery sources.
+- Use labels that clarify link type, such as `公式サイト`, `公式ニュース`, `チケットページ`, `会場公式サイト`, `公式X`, `PR TIMES プレスリリース`, or `Collabo Cafe 記事`.
 - Set `authorId` to `1` on every new article.
 
 ## Translation Rules

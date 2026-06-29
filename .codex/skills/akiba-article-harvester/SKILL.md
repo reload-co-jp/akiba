@@ -26,7 +26,7 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site. Include both event items and non-event local happenings / "秋葉原で起こった出来事".
 5. Deduplicate the whole queue with `python3 scripts/harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) before drafting new articles — do this BEFORE deep fact-checking, since most rejections happen here.
 6. For each remaining candidate, confirm facts with `python3 scripts/harvest.py detail "<url>"`: date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
-7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Set `authorId` to `1` on every new article, then verify once with `pnpm build`.
+7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Include official/reference links in `sources` so the article detail page can render them. Set `authorId` to `1` on every new article, then verify once with `pnpm build`.
 
 For large command output, redirect to a temp file and read the file back instead of letting it print directly, e.g.:
 
@@ -110,6 +110,9 @@ Additional checks:
 
 - Every article created through this skill must keep discovery and confirmation sources in `sources`.
 - Save all source pages actually used: source-list/discovery page, aggregator page, primary/official page, ticket page, venue page, press release, and official SNS page when it confirms facts.
+- If an official URL, reference URL, ticket URL, venue URL, or official SNS URL exists, add it to `sources`; the site renders these as article links under `公式URL・参考URL`.
+- Always try to find a primary/official URL when the candidate comes from an aggregator. Do not rely on aggregator-only sources unless no official page can be found after searching the exact event title, venue, organizer, and date.
+- When `image.sourceUrl` points to an official/reference page that is not already in `sources`, add the same URL to `sources` too.
 - Prefer putting primary/official sources first, then ticket/venue pages, then aggregators/discovery pages.
 - When the same event is found from multiple sources, keep multiple entries in `sources`; do not replace the earlier source.
 - Deduplicate sources by normalized URL. Ignore trailing slashes, tracking parameters, and obvious mobile/desktop variants.
@@ -152,7 +155,7 @@ For each selected candidate, follow `$event-article-writer`:
 - Use `data/articles.json` schema.
 - Save article images under `public/images/articles/`.
 - Use placeholder handling only when no usable image exists.
-- Add source URLs.
+- Add official/reference source URLs in `sources`.
 - Include `en` field with English translations of `title`, `summary`, and `content`.
 - Set `authorId: 1` on every new article.
 - Add `event` data only when the article is a dated event, campaign, opening, closure, or other item that should appear on `/events`. For ordinary news without a useful event-style date/location, omit `event`.
