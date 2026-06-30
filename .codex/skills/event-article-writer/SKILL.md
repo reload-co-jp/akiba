@@ -13,9 +13,11 @@ Read [references/article-format.md](references/article-format.md) before editing
 
 1. Identify every event source used for discovery and fact confirmation.
 2. Confirm the event facts from primary or clearly attributable sources.
-3. Download a usable thumbnail image when available.
-4. Add or update the article entry in `data/articles.json`, including the `en` translation field.
-5. Verify the article route and metadata with `pnpm build`.
+3. Before drafting, check `data/articles.json` for duplicates using source URLs and event identity (see [Duplicate Handling](#duplicate-handling)).
+4. If a duplicate exists, merge the new source/facts into the existing article instead of creating another entry.
+5. Download a usable thumbnail image when available.
+6. Add or update the article entry in `data/articles.json`, including the `en` translation field.
+7. Verify the article route and metadata with `pnpm build`.
 
 ## Source Rules
 
@@ -26,9 +28,19 @@ Read [references/article-format.md](references/article-format.md) before editing
 - Add every available official/reference link to `sources`: official event/campaign pages, ticket/reservation pages, venue/shop pages, official SNS posts, primary press releases, and reliable reference articles. The article detail page renders `sources` under `公式URL・参考URL`.
 - When starting from an aggregator or press article, search for the official event/shop/venue URL and include it before the aggregator whenever found.
 - If `image.sourceUrl` points to an official/reference page that is not already listed, add the same URL to `sources` too.
-- When updating an existing article because a duplicate was found from a new source, append the new source to `sources` if absent. Do not rewrite article facts unless the user asked for refresh or the new source corrects a clear error.
+- When updating an existing article because a duplicate was found from a new source, append the new source to `sources` if absent and merge any newly confirmed useful facts into `summary`/`content`/`event`. Do not create a second article for the same event/news item.
 - Keep dates explicit in `YYYY-MM-DD` format inside JSON.
 - Do not invent missing facts. Omit or soften claims when the source is unclear.
+
+## Duplicate Handling
+
+- Before creating an article, compare every discovery/confirmation URL against existing `sources[].url` and `image.sourceUrl` in `data/articles.json`.
+- Normalize URLs before comparing: remove fragments, common tracking parameters (`utm_*`, `fbclid`, `gclid`, etc.), trailing slashes, and obvious mobile/desktop variants.
+- A source URL match means the article already exists unless the source page clearly refers to a different event. Merge into the existing article.
+- If source URLs do not match, still check for duplicates by title/keyword, slug and image filename tokens, official event IDs, venue/date, performer/work name, campaign name, and product/shop name.
+- When the same event/news item exists, preserve the existing `id` and `slug`; add new `sources`, merge newly confirmed facts, and update the image only when the new source provides a better or more official image.
+- If an existing article lacks details that the new source confirms, update `summary`, `content`, `event`, and `en` so the article contains the combined best information.
+- If a duplicate article already exists as a separate entry, merge useful information into the chosen canonical article, remove the duplicate entry, and delete any now-unreferenced image files.
 
 ## Writing Rules
 

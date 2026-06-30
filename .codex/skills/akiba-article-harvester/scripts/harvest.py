@@ -24,6 +24,7 @@ import socket
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
@@ -342,17 +343,47 @@ def slug_tokens(url_or_slug):
     return out
 
 
+TRACKING_QUERY_PREFIXES = ("utm_",)
+TRACKING_QUERY_KEYS = {
+    "fbclid", "gclid", "yclid", "mc_cid", "mc_eid", "igshid", "ref", "ref_src",
+    "spm", "feature", "si",
+}
+
+
+def normalize_source_url(url):
+    """Normalize source/reference URLs for duplicate detection. This keeps
+    source identity stable while ignoring tracking noise."""
+    if not url:
+        return ""
+    parsed = urllib.parse.urlsplit(url.strip())
+    scheme = parsed.scheme.lower() or "https"
+    netloc = parsed.netloc.lower()
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+    path = re.sub(r"/+$", "", parsed.path) or "/"
+    query_items = []
+    for key, value in urllib.parse.parse_qsl(parsed.query, keep_blank_values=True):
+        key_l = key.lower()
+        if key_l in TRACKING_QUERY_KEYS or any(key_l.startswith(p) for p in TRACKING_QUERY_PREFIXES):
+            continue
+        query_items.append((key_l, value))
+    query = urllib.parse.urlencode(sorted(query_items))
+    return urllib.parse.urlunsplit((scheme, netloc, path, query, ""))
+
+
 def cmd_dedup(candidates):
     """Check candidates against existing articles. Each candidate is either:
       - a Japanese keyword/title fragment -> substring-matched against
         title/summary/content (works when the aggregator's wording matches
         this repo's wording — often does NOT, since this repo tends to use
         formal/official titles while aggregators use colloquial ones), or
-      - a source URL (collabocafe/gamers/atre/...) -> its path tokens are
-        cross-checked against existing slugs AND image filenames under
-        public/images/articles/. This catches the common case where a
-        candidate looks "new" by title-keyword search alone but was already
-        harvested under different Japanese wording in a prior pass.
+      - a source URL (collabocafe/gamers/atre/...) -> first checked exactly
+        against existing sources[].url and image.sourceUrl after URL
+        normalization, then its path tokens are cross-checked against existing
+        slugs AND image filenames under public/images/articles/. This catches
+        both direct source reuse and the common case where a candidate looks
+        "new" by title-keyword search alone but was already harvested under
+        different Japanese wording in a prior pass.
       - "keyword|url" to run both checks for one candidate at once.
     Token matches are a heuristic, not proof — always open the existing
     article and compare dates/venue before concluding it's a true duplicate.
@@ -361,6 +392,16 @@ def cmd_dedup(candidates):
     existing_slugs = [a["slug"] for a in articles]
     image_stems = [p.stem for p in IMAGES_DIR.glob("*")] if IMAGES_DIR.exists() else []
     slug_to_article = {a["slug"]: a for a in articles}
+    source_url_index = {}
+    for a in articles:
+        for src in a.get("sources", []) or []:
+            norm = normalize_source_url(src.get("url", ""))
+            if norm:
+                source_url_index.setdefault(norm, {})[a["slug"]] = a
+        img = a.get("image") or {}
+        norm = normalize_source_url(img.get("sourceUrl", ""))
+        if norm:
+            source_url_index.setdefault(norm, {})[a["slug"]] = a
 
     for cand in candidates:
         kw, _, url = cand.partition("|")
@@ -383,6 +424,14 @@ def cmd_dedup(candidates):
 
         target_url = url or (kw if kw.startswith("http") else "")
         if target_url:
+            norm_target = normalize_source_url(target_url)
+            source_hits = list(source_url_index.get(norm_target, {}).values())
+            if source_hits:
+                found_any = True
+                print(f"  SOURCE URL MATCH ({norm_target}):")
+                for a in source_hits[:5]:
+                    print(f"    {a['slug']} | {a['title']} | {a['publishedAt']}")
+
             toks = slug_tokens(target_url)
             hits = set()
             for slug in existing_slugs + image_stems:

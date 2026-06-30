@@ -24,7 +24,7 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 2. Browse sources with `scripts/harvest.py` (see [Harvest Script](#harvest-script) below), not WebFetch — WebFetch in this environment gets redirected/throttled by the context-mode MCP plugin and burns several tool calls before failing. `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all` covers every primary/aggregator source in one pass. Still run X.com live search and news/discovery sources separately (the script doesn't cover those) for broad harvesting.
 3. Build a candidate queue before writing. Aim for as many solid candidates as possible; do not cap the batch at 5-10 when more verified candidates are available. Stop only when sources are exhausted or verification is blocked.
 4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site. Include both event items and non-event local happenings / "秋葉原で起こった出来事".
-5. Deduplicate the whole queue with `python3 scripts/harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) before drafting new articles — do this BEFORE deep fact-checking, since most rejections happen here.
+5. Deduplicate the whole queue with `python3 scripts/harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) before drafting new articles — do this BEFORE deep fact-checking, since most rejections happen here. Always include the source URL used for discovery/confirmation so the dedup check can compare against existing `sources[].url`.
 6. For each remaining candidate, confirm facts with `python3 scripts/harvest.py detail "<url>"`: date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
 7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Include official/reference links in `sources` so the article detail page can render them. Set `authorId` to `1` on every new article, then verify once with `pnpm build`.
 
@@ -105,7 +105,11 @@ A match is a heuristic signal, not proof — open the existing article and compa
 
 Additional checks:
 - Compare source URLs and event IDs such as WalkerPlus `/event/ar0313e.../`, LivePocket `/e/...`, Atre `/news/...`.
-- If same event exists, do not create another article. Add any newly found source URL to the existing article's `sources` array when it is not already present, then report the duplicate. Only update article facts/content when the user asked for refresh.
+- Treat `SOURCE URL MATCH` from `harvest.py dedup` as an existing article unless the source page clearly changed to a different event. Do not create a new article.
+- If the source URL does not match but the same event/news item already exists by title, slug/image token, venue/date, performer, campaign name, product name, or official event ID, do not create another article.
+- When a duplicate exists, merge into the existing article: add any newly found source URL to `sources`, add newly confirmed facts to `summary`/`content`/`event` when useful, keep or replace the image only if the new one is better, and preserve the existing slug unless the user explicitly asks to rename.
+- Deduplicate sources by normalized URL before saving. Normalize by removing fragments, common tracking parameters (`utm_*`, `fbclid`, `gclid`, etc.), trailing slashes, and obvious mobile/desktop variants.
+- Report merged duplicates under `重複`/`マージ`, including the existing slug. Do not report them as skipped when you added source/content to the existing article.
 - When harvesting many items, maintain a temporary duplicate ledger: `new`, `duplicate`, `hold`. Only `new` candidates are written as articles.
 - Run the dedup batch a second time right before final edits with the full selected list, to catch late duplicates revealed mid-session.
 
