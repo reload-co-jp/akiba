@@ -22,21 +22,23 @@ export const generateMetadata = async ({ params }: Props) => {
   const { id } = await params
   const tag = getTagById(Number(id))
   if (!tag) return {}
+  const title = `秋葉原の${tag.name}イベント一覧｜開催中・予定`
+  const description = `秋葉原の${tag.name}関連イベント・ニュース一覧。開催中、開催予定、ポップアップ、フェア、展示情報をまとめて確認できます。`
   return {
-    title: `「${tag.name}」の記事一覧`,
-    description: `秋葉原の${tag.name}に関するエンタメニュース一覧`,
+    title,
+    description,
     alternates: { canonical: `/tags/${id}/` },
     openGraph: {
-      title: `「${tag.name}」の記事一覧 | アキバLive`,
-      description: `秋葉原の${tag.name}に関するエンタメニュース一覧`,
+      title: `${title} | アキバLive`,
+      description,
       url: `/tags/${id}/`,
       type: "website",
       images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
-      title: `「${tag.name}」の記事一覧 | アキバLive`,
-      description: `秋葉原の${tag.name}に関するエンタメニュース一覧`,
+      title: `${title} | アキバLive`,
+      description,
       images: ["/images/hero.jpg"],
     },
   }

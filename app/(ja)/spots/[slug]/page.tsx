@@ -22,14 +22,15 @@ export const generateMetadata = async ({ params }: Props) => {
   const spot = getSpotBySlug(slug)
   if (!spot) return {}
   const image = getSpotImage(spot)
-  const seoTitle = `【秋葉原】${spot.name}`
+  const seoTitle = `${spot.name}｜秋葉原のイベント会場・アクセス・営業時間`
+  const description = `${spot.name}のアクセス、営業時間、住所、関連イベントを紹介。秋葉原で開催中・開催予定のイベント確認にも使えます。`
   return {
     title: seoTitle,
-    description: spot.description,
+    description,
     alternates: { canonical: `/spots/${slug}/` },
     openGraph: {
       title: seoTitle,
-      description: spot.description,
+      description,
       url: `/spots/${slug}/`,
       images: [{ url: image.src, alt: image.alt }],
       type: "website",
@@ -37,7 +38,7 @@ export const generateMetadata = async ({ params }: Props) => {
     twitter: {
       card: "summary_large_image",
       title: seoTitle,
-      description: spot.description,
+      description,
       images: [image.src],
     },
   }
@@ -154,7 +155,7 @@ const Page = async ({ params }: Props) => {
             lineHeight: "1.4",
           }}
         >
-          {spot.name}
+          {spot.name}｜秋葉原のイベント会場・アクセス
         </h1>
 
         <figure className="article-hero-image">

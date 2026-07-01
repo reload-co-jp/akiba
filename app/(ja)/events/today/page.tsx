@@ -79,8 +79,8 @@ export const generateMetadata = () => {
   const [, month, day] = today.split("-")
   const dateLabel = `${parseInt(month)}月${parseInt(day)}日`
   const ongoingCount = getOngoingEvents(today).length
-  const title = `秋葉原イベント【${dateLabel}開催中${ongoingCount}件】アニメ・ゲーム・コラボカフェ・POPUPまとめ`
-  const description = `${dateLabel}に秋葉原で開催中のイベントを一覧で紹介。アニメ・漫画、ゲーム・トレカ、コラボカフェ、ポップアップストア、声優・アイドル、ホビー・フィギュアなど${ongoingCount}件を会場・期間・公式リンク付きで確認できます。AKIHABARAゲーマーズ・書泉ブックタワー・アトレ秋葉原など主要会場別にも絞り込み可能。`
+  const title = `今日の秋葉原イベント【${dateLabel}開催中${ongoingCount}件】アニメ・ゲーム・ポップアップ一覧`
+  const description = `${dateLabel}に今日行ける秋葉原イベントを一覧で紹介。アニメ・漫画、ゲーム・トレカ、コラボカフェ、ポップアップストア、声優・アイドル、ホビー・フィギュアなど${ongoingCount}件を会場・期間・公式リンク付きで確認できます。AKIHABARAゲーマーズ・書泉ブックタワー・アトレ秋葉原など主要会場別にも絞り込み可能。`
   return {
     title,
     description,

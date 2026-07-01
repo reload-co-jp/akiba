@@ -10,21 +10,28 @@ import { EventCard } from "components/event-card"
 const POPUP_TAG_IDS = [17, 128, 129, 196, 54, 62]
 
 export const metadata = {
-  title: "秋葉原のポップアップストア情報【開催中・予定】期間限定ショップまとめ",
+  title: "秋葉原ポップアップストア一覧【今日行ける・開催中・予定】",
   description:
-    "秋葉原で開催中・開催予定のポップアップストアを一覧で紹介。アニメ・ゲーム・キャラクターの期間限定ショップやPOPUP情報を会場・期間付きで確認できます。",
+    "秋葉原で今日行ける・開催中・開催予定のポップアップストアを一覧で紹介。アニメ・ゲーム・キャラクターの期間限定ショップやPOPUP情報を会場・期間・公式リンク付きで確認できます。",
   alternates: { canonical: "/events/popup/" },
   openGraph: {
-    title: "秋葉原のポップアップストア情報【開催中・予定】期間限定ショップまとめ",
+    title: "秋葉原ポップアップストア一覧【今日行ける・開催中・予定】",
     description:
-      "秋葉原で開催中・開催予定のポップアップストアを一覧で紹介。アニメ・ゲーム・キャラクターの期間限定ショップやPOPUP情報を会場・期間付きで確認できます。",
+      "秋葉原で今日行ける・開催中・開催予定のポップアップストアを一覧で紹介。アニメ・ゲーム・キャラクターの期間限定ショップやPOPUP情報を会場・期間・公式リンク付きで確認できます。",
     url: "/events/popup/",
     type: "website",
   },
 }
 
+const addDays = (date: string, days: number) => {
+  const value = new Date(`${date}T00:00:00Z`)
+  value.setDate(value.getDate() + days)
+  return value.toISOString().slice(0, 10)
+}
+
 const Page = () => {
   const today = new Date().toISOString().slice(0, 10)
+  const weekEnd = addDays(today, 7)
 
   const allPopup = getAllArticles().filter(
     (a) => a.event && a.tagIds.some((tid) => POPUP_TAG_IDS.includes(tid)),
@@ -34,6 +41,15 @@ const Page = () => {
     (a) => a.event!.startDate <= today && a.event!.endDate >= today,
   )
   const upcoming = allPopup.filter((a) => a.event!.startDate > today)
+  const startingThisWeek = upcoming.filter((a) => a.event!.startDate <= weekEnd)
+  const venueCounts = ongoing.reduce<Map<string, number>>((map, article) => {
+    const venue = article.event!.venue
+    map.set(venue, (map.get(venue) ?? 0) + 1)
+    return map
+  }, new Map())
+  const topVenues = [...venueCounts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ja"))
+    .slice(0, 12)
 
   const pageUrl = absoluteUrl("/events/popup/")
 
@@ -51,9 +67,9 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       url: pageUrl,
-      name: "秋葉原のポップアップストア情報【開催中・予定】",
+      name: "秋葉原ポップアップストア一覧【今日行ける・開催中・予定】",
       description:
-        "秋葉原で開催中・開催予定のポップアップストアを一覧で紹介。アニメ・ゲーム・キャラクターの期間限定ショップやPOPUP情報を会場・期間付きで確認できます。",
+        "秋葉原で今日行ける・開催中・開催予定のポップアップストアを一覧で紹介。アニメ・ゲーム・キャラクターの期間限定ショップやPOPUP情報を会場・期間・公式リンク付きで確認できます。",
       inLanguage: "ja",
     },
     ...(ongoing.length > 0
@@ -114,7 +130,7 @@ const Page = () => {
 
         <header className="events-page__header">
           <p className="events-page__kicker">Popup Store in Akihabara</p>
-          <h1 className="events-page__title">秋葉原のポップアップストア情報【開催中・予定】</h1>
+          <h1 className="events-page__title">秋葉原ポップアップストア一覧【今日行ける・開催中・予定】</h1>
         </header>
 
         <p className="today-lead">
@@ -148,6 +164,66 @@ const Page = () => {
             </ul>
           )}
         </EventSection>
+
+        <EventSection
+          id="today-popup-heading"
+          kicker="Today"
+          title={`今日行ける秋葉原ポップアップストア（${ongoing.length}件）`}
+        >
+          {ongoing.length === 0 ? (
+            <p className="events-page__empty">今日行けるポップアップストアはありません。</p>
+          ) : (
+            <ul className="cal__list">
+              {ongoing.slice(0, 12).map((a) => (
+                <CalListItem
+                  key={a.id}
+                  href={`/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  dateTime={a.event!.endDate}
+                  dateLabel={`〜${a.event!.endDate.slice(5).replace("-", "/")}`}
+                  title={a.title}
+                  venue={a.event!.venue}
+                />
+              ))}
+            </ul>
+          )}
+        </EventSection>
+
+        <EventSection
+          id="starting-this-week-heading"
+          kicker="This Week"
+          title={`今週開始のポップアップストア（${startingThisWeek.length}件）`}
+        >
+          {startingThisWeek.length === 0 ? (
+            <p className="events-page__empty">今週開始予定のポップアップストアはありません。</p>
+          ) : (
+            <ul className="cal__list">
+              {startingThisWeek.map((a) => (
+                <CalListItem
+                  key={a.id}
+                  href={`/articles/${a.slug}/`}
+                  image={getArticleImage(a)}
+                  dateTime={a.event!.startDate}
+                  dateLabel={`${a.event!.startDate.slice(5).replace("-", "/")} 〜`}
+                  title={a.title}
+                  venue={a.event!.venue}
+                />
+              ))}
+            </ul>
+          )}
+        </EventSection>
+
+        {topVenues.length > 0 && (
+          <EventSection id="popup-venues-heading" kicker="Venues" title="会場別ポップアップストア">
+            <ul className="today-venues-grid" aria-label="秋葉原のポップアップストア会場一覧">
+              {topVenues.map(([venue, count]) => (
+                <li key={venue} className="today-venues-grid__item">
+                  {venue}（{count}件）
+                </li>
+              ))}
+            </ul>
+          </EventSection>
+        )}
 
         <EventSection
           id="upcoming-heading"

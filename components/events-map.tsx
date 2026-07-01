@@ -89,6 +89,7 @@ const venuePoints: Record<string, VenuePoint> = {
   "秋葉原ティア": { lat: 35.701, lng: 139.7716 },
   "SOUNDNOTE AKIHABARA": { lat: 35.7019, lng: 139.7783 },
   "秋葉原Galaxy": { lat: 35.702, lng: 139.7714 },
+  "秋葉原MOGRA": { lat: 35.702, lng: 139.7749 },
   "アキバCOギャラリー": { lat: 35.7017, lng: 139.7716 },
   "アニメイト秋葉原店": { lat: 35.6997, lng: 139.7714 },
   "アニメイト秋葉原1号館": { lat: 35.6997, lng: 139.7714 },
