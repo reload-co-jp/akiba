@@ -88,9 +88,11 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
               `}
               </Script>
               <Script
+                id="google-adsense"
                 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6542845006087970"
                 strategy="afterInteractive"
                 crossOrigin="anonymous"
+                data-ad-frequency-hint="30s"
               />
             </>
           )}
