@@ -289,6 +289,10 @@
       {
         "label": "ベルサール秋葉原 公式サイト",
         "url": "https://www.bellesalle.co.jp/shisetsu/bs_akihabara/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000324.000050327.html"
       }
     ],
     "authorId": 1,
@@ -16627,6 +16631,10 @@
       {
         "label": "PHILE WEB 告知記事",
         "url": "https://www.phileweb.com/news/d-av/202606/05/65283.html"
+      },
+      {
+        "label": "Shokz Japan PR TIMES",
+        "url": "https://prtimes.jp/main/html/rd/p/000000125.000096332.html"
       }
     ],
     "authorId": 1,
@@ -18696,6 +18704,10 @@
       {
         "label": "PR TIMES",
         "url": "https://prtimes.jp/main/html/rd/p/000001150.000008686.html"
+      },
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2120378.html"
       }
     ],
     "authorId": 1,
@@ -20239,5 +20251,65 @@
       73,
       207
     ]
+  },
+  {
+    "id": 488,
+    "title": "1.8型画面搭載「KEIYOデジタル缶バッジ」がツクモ秋葉原2店舗に入荷",
+    "slug": "keiyo-digital-can-badge-tsukumo-akihabara-2026",
+    "summary": "好みの画像を表示できる1.8インチディスプレイ搭載デジタルバッジ「KEIYOデジタル缶バッジ（AN-S173）」が、ツクモパソコン本店IIとTSUKUMO eX.に入荷。店頭価格は4,860円。",
+    "content": "## 概要\n\n1.8インチディスプレイを搭載し、好みの画像を表示できる「KEIYOデジタル缶バッジ（AN-S173）」が秋葉原のツクモ2店舗に入荷しました。取り扱い店舗はツクモパソコン本店IIとTSUKUMO eX.で、店頭価格は4,860円です。\n\n## 内容\n\n推し活グッズやイベント用アクセサリーとして使いやすい、画面付きのデジタルバッジです。小型ながらバッテリーを内蔵し、画像表示用の身につけるディスプレイとして利用できます。\n\n- 1.8インチディスプレイ搭載のデジタルバッジ\n- 好きな画像を表示可能\n- 本体サイズは58×57.8×9mm、重量は約27.6g\n- バッテリー容量は500mAh\n- 駆動時間は最大輝度時約5.5時間、最低輝度時約9.5時間\n- 付属品はUSBケーブル、ストラップなど\n\n## 販売情報\n\n- **商品名**: KEIYOデジタル缶バッジ（AN-S173）\n- **販売店舗**: ツクモパソコン本店II、TSUKUMO eX.\n- **店頭価格**: 4,860円\n- **掲載日**: 2026年7月3日\n\n## こんな人におすすめ\n\n- 推し画像を身につけて表示したい方\n- 秋葉原でユニークなガジェットを探している方\n- イベントや店頭で使える小型ディスプレイ系アイテムに興味がある方",
+    "publishedAt": "2026-07-03",
+    "tagIds": [
+      73,
+      207
+    ],
+    "en": {
+      "title": "KEIYO Digital Can Badge with 1.8-inch Display Arrives at Two Tsukumo Akihabara Stores",
+      "summary": "The KEIYO Digital Can Badge (AN-S173), a digital badge with a 1.8-inch display for showing custom images, has arrived at Tsukumo Pasokon Honten II and TSUKUMO eX. in Akihabara. The in-store price is ¥4,860.",
+      "content": "## Overview\n\nThe KEIYO Digital Can Badge (AN-S173), a digital badge with a 1.8-inch display that can show custom images, has arrived at two Tsukumo stores in Akihabara. It is available at Tsukumo Pasokon Honten II and TSUKUMO eX. for ¥4,860 in-store.\n\n## Highlights\n\nThis screen-equipped digital badge is suited for fan activities and event accessories. Despite its small size, it includes a built-in battery and can be used as a wearable display for images.\n\n- Digital badge with a 1.8-inch display\n- Can show custom images\n- Body size is 58 x 57.8 x 9mm, weighing about 27.6g\n- 500mAh battery capacity\n- Battery life is about 5.5 hours at maximum brightness and about 9.5 hours at minimum brightness\n- Includes USB cable, strap, and other accessories\n\n## Sales Details\n\n- **Product**: KEIYO Digital Can Badge (AN-S173)\n- **Stores**: Tsukumo Pasokon Honten II, TSUKUMO eX.\n- **In-store price**: ¥4,860\n- **Article date**: July 3, 2026\n\n## Recommended For\n\n- People who want to wear and display favorite images\n- Visitors looking for unusual gadgets in Akihabara\n- Anyone interested in small display accessories for events or stores"
+    },
+    "image": {
+      "src": "/images/articles/keiyo-digital-can-badge-tsukumo-akihabara-2026.jpg",
+      "alt": "KEIYOデジタル缶バッジの店頭写真",
+      "sourceLabel": "AKIBA PC Hotline!",
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2122043.html"
+    },
+    "sources": [
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2122043.html"
+      }
+    ],
+    "authorId": 1
+  },
+  {
+    "id": 489,
+    "title": "Core i5搭載「Latitude 5500」中古品がPCコンフル秋葉原3号店で27,800円",
+    "slug": "dell-latitude-5500-pc-comfull-akihabara-2026",
+    "summary": "Dellの15.6型ノートPC「Latitude 5500」中古品がPCコンフル秋葉原3号店でセール中。Core i5-8265U、8GBメモリ、256GB SSD、Windows 11 Pro搭載で、店頭価格は27,800円。",
+    "content": "## 概要\n\nDellの15.6インチノートPC「Latitude 5500」の中古品が、PCコンフル秋葉原3号店でセール販売されています。Core i5-8265UとWindows 11 Proを搭載したモデルで、店頭価格は27,800円です。\n\n## 内容\n\nビジネス向けノートPCの中古セールで、在庫や状態は店頭販売のため変動します。保証期間は30日と案内されています。\n\n- 15.6インチのDell製ノートPC中古品\n- CPUはCore i5-8265U（4コア/8スレッド）\n- メモリ8GB、SSD 256GB\n- OSはWindows 11 Pro\n- 保証期間は30日\n\n## 販売情報\n\n- **商品名**: Dell Latitude 5500 中古品\n- **販売店舗**: PCコンフル秋葉原3号店\n- **店頭価格**: 27,800円\n- **掲載日**: 2026年7月3日\n\n## こんな人におすすめ\n\n- 秋葉原で中古ノートPCを探している方\n- Windows 11 Pro搭載の手頃なビジネスPCが欲しい方\n- 店頭で状態を確認して購入したい方",
+    "publishedAt": "2026-07-03",
+    "tagIds": [
+      73,
+      207
+    ],
+    "en": {
+      "title": "Used Core i5 Latitude 5500 Laptops on Sale for ¥27,800 at PC Comfull Akihabara 3rd Store",
+      "summary": "Used Dell Latitude 5500 15.6-inch laptops are on sale at PC Comfull Akihabara 3rd Store. The model includes a Core i5-8265U, 8GB RAM, 256GB SSD, and Windows 11 Pro, with an in-store price of ¥27,800.",
+      "content": "## Overview\n\nUsed Dell Latitude 5500 15.6-inch laptops are on sale at PC Comfull Akihabara 3rd Store. The model includes a Core i5-8265U and Windows 11 Pro, with an in-store price of ¥27,800.\n\n## Highlights\n\nThis is a used business laptop sale, so stock and condition may vary at the store. The warranty period is listed as 30 days.\n\n- Used Dell 15.6-inch laptop\n- Core i5-8265U CPU with 4 cores and 8 threads\n- 8GB memory and 256GB SSD\n- Windows 11 Pro\n- 30-day warranty\n\n## Sales Details\n\n- **Product**: Used Dell Latitude 5500\n- **Store**: PC Comfull Akihabara 3rd Store\n- **In-store price**: ¥27,800\n- **Article date**: July 3, 2026\n\n## Recommended For\n\n- People looking for used laptops in Akihabara\n- Anyone who wants an affordable Windows 11 Pro business PC\n- Buyers who prefer checking condition in-store before purchasing"
+    },
+    "image": {
+      "src": "/images/articles/dell-latitude-5500-pc-comfull-akihabara-2026.jpg",
+      "alt": "Dell Latitude 5500中古品の店頭写真",
+      "sourceLabel": "AKIBA PC Hotline!",
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2122020.html"
+    },
+    "sources": [
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2122020.html"
+      }
+    ],
+    "authorId": 1
   }
 ]
