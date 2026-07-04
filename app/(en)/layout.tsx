@@ -53,7 +53,7 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
       "@id": absoluteUrl("/#organization"),
       name: siteNameEn,
       url: absoluteUrl("/"),
-      logo: absoluteUrl("/icon.svg"),
+      logo: absoluteUrl("/apple-icon.png"),
     },
   ]
 

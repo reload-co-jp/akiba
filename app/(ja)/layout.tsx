@@ -67,7 +67,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
       "@id": absoluteUrl("/#organization"),
       name: siteName,
       url: absoluteUrl("/"),
-      logo: absoluteUrl("/icon.svg"),
+      logo: absoluteUrl("/apple-icon.png"),
     },
   ]
 
