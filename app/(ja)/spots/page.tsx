@@ -100,7 +100,11 @@ const Page = () => {
                           <img
                             src={image.src}
                             alt={image.alt}
+                            width={image.width}
+                            height={image.height}
                             className="article-card__image"
+                            loading="lazy"
+                            decoding="async"
                           />
                           <div className="article-card__tags">
                             {spot.tags?.map((tag) => (

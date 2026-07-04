@@ -178,7 +178,11 @@ const Page = () => {
                     <img
                       src={getArticleImage(article).src}
                       alt={getArticleImage(article).alt}
+                      width={getArticleImage(article).width}
+                      height={getArticleImage(article).height}
                       className="article-card__image"
+                      loading="lazy"
+                      decoding="async"
                     />
                     <h3 className="article-card__title">{article.title}</h3>
                     <time className="article-card__date" dateTime={article.publishedAt}>

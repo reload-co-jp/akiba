@@ -324,11 +324,20 @@ const Page = async ({ params }: Props) => {
 
         <figure className="article-hero-image">
           {isPlaceholderImage ? (
-            <img src={articleImage.src} alt={articleImage.alt} />
+            <img
+              src={articleImage.src}
+              alt={articleImage.alt}
+              width={articleImage.width}
+              height={articleImage.height}
+              fetchPriority="high"
+              decoding="async"
+            />
           ) : (
             <ArticleImagePreview
               src={articleImage.src}
               alt={articleImage.alt}
+              width={articleImage.width}
+              height={articleImage.height}
             />
           )}
           {article.image?.sourceLabel && (
@@ -494,7 +503,11 @@ const Page = async ({ params }: Props) => {
                       <img
                         src={getArticleImage(relatedArticle).src}
                         alt={getArticleImage(relatedArticle).alt}
+                        width={getArticleImage(relatedArticle).width}
+                        height={getArticleImage(relatedArticle).height}
                         className="article-card__image"
+                        loading="lazy"
+                        decoding="async"
                       />
                       <div className="article-card__tags">
                         {relatedArticle.tagIds.map((tid) => {

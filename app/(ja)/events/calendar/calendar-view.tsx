@@ -208,6 +208,10 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
                       className="cal__list-image"
                       src={getArticleImage(a).src}
                       alt={getArticleImage(a).alt}
+                      width={getArticleImage(a).width}
+                      height={getArticleImage(a).height}
+                      loading="lazy"
+                      decoding="async"
                     />
                     <time className="cal__list-date" dateTime={a.event!.startDate}>
                       {formatRange(a.event!.startDate, a.event!.endDate)}

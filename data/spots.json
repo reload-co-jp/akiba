@@ -17,7 +17,9 @@
       "src": "/images/spots/yodobashi-akiba.jpg",
       "alt": "ヨドバシカメラ マルチメディアAkibaの外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yodobashi-Akiba_2015.JPG"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yodobashi-Akiba_2015.JPG",
+      "width": 4896,
+      "height": 3672
     },
     "en": {
       "name": "Yodobashi Camera Multimedia Akiba",
@@ -50,7 +52,9 @@
       "src": "/images/spots/animate-akihabara.jpg",
       "alt": "アニメイト秋葉原の外観",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Animate_Akihabara_main_entrance_20131125.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Animate_Akihabara_main_entrance_20131125.jpg",
+      "width": 240,
+      "height": 240
     },
     "en": {
       "name": "Animate Akihabara",
@@ -83,7 +87,9 @@
       "src": "/images/spots/gamers-akihabara.jpg",
       "alt": "ゲーマーズ秋葉原本店の外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gamers_Akihabara.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gamers_Akihabara.jpg",
+      "width": 640,
+      "height": 480
     },
     "en": {
       "name": "Gamers Akihabara Main Store",
@@ -119,7 +125,9 @@
       "src": "/images/spots/radio-kaikan.jpg",
       "alt": "秋葉原ラジオ会館の外観",
       "sourceLabel": "Wikimedia Commons (パブリックドメイン)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKIHABARA_Radio_Kaikan.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKIHABARA_Radio_Kaikan.jpg",
+      "width": 72,
+      "height": 72
     },
     "en": {
       "name": "Akihabara Radio Kaikan",
@@ -152,7 +160,9 @@
       "src": "/images/spots/super-potato.jpg",
       "alt": "スーパーポテト秋葉原店の外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tienda_Super_Potato_(Akihabara,_Tokio).jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tienda_Super_Potato_(Akihabara,_Tokio).jpg",
+      "width": 1,
+      "height": 1
     },
     "en": {
       "name": "Super Potato Akihabara",
@@ -186,7 +196,9 @@
       "src": "/images/spots/trader-akihabara.jpg",
       "alt": "トレーダー秋葉原本店の外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TRADER_Akihabara.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TRADER_Akihabara.jpg",
+      "width": 72,
+      "height": 72
     },
     "en": {
       "name": "Trader Akihabara Main Store",
@@ -219,7 +231,9 @@
       "src": "/images/spots/home-cafe.jpg",
       "alt": "@ほぉ〜むカフェ本店の入口",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outside_of_@home_cafe_20111128.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outside_of_@home_cafe_20111128.jpg",
+      "width": 3104,
+      "height": 4672
     },
     "en": {
       "name": "@Home Cafe Main Store",
@@ -253,7 +267,9 @@
       "src": "/images/spots/akihabara-udx.jpg",
       "alt": "秋葉原UDXの外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AkihabaraUDX_201311.JPG"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AkihabaraUDX_201311.JPG",
+      "width": 96,
+      "height": 96
     },
     "en": {
       "name": "Akihabara UDX",
@@ -292,7 +308,9 @@
       "src": "/images/spots/maidreamin-akihabara.jpg",
       "alt": "秋葉原でチラシを配るメイドたち",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maids_distributing_flyers_in_Akihabara_Tokyo_20100731_7376.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maids_distributing_flyers_in_Akihabara_Tokyo_20100731_7376.jpg",
+      "width": 72,
+      "height": 72
     },
     "en": {
       "name": "Maidreamin Akihabara Main Store",
@@ -329,7 +347,9 @@
       "src": "/images/spots/marugo-akihabara.jpg",
       "alt": "丸五が入るビル周辺（秋葉原・外神田1丁目）",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_south-west_blocks_-_Dempa_Biru_No.3_with_MaruGo,_K%C5%8Dbu_Inari-jinja,_Hatago-ch%C5%8D_Viaduct,_Sumitomo_Fud%C5%8Dsan_Kanda_No.2,_Sumitomo_Fud%C5%8Dsan_Akihabara_1st,_SueHatsu_Biru_with_Coffee_An_-_Sotokanda_1_(2023-01-21_13.02.10_by_nakashi).jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_south-west_blocks_-_Dempa_Biru_No.3_with_MaruGo,_K%C5%8Dbu_Inari-jinja,_Hatago-ch%C5%8D_Viaduct,_Sumitomo_Fud%C5%8Dsan_Kanda_No.2,_Sumitomo_Fud%C5%8Dsan_Akihabara_1st,_SueHatsu_Biru_with_Coffee_An_-_Sotokanda_1_(2023-01-21_13.02.10_by_nakashi).jpg",
+      "width": 4608,
+      "height": 3456
     },
     "en": {
       "name": "Marugo",
@@ -362,7 +382,9 @@
       "src": "/images/spots/yakiniku-mansei-akihabara.jpg",
       "alt": "肉の万世秋葉原本店ビルの外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mansei_Akihabara_Main_Store.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mansei_Akihabara_Main_Store.jpg",
+      "width": 72,
+      "height": 72
     },
     "en": {
       "name": "Yakiniku no Mansei Akihabara",
@@ -395,7 +417,9 @@
       "src": "/images/spots/sengoku-denshi.jpg",
       "alt": "千石電商の外観",
       "sourceLabel": "Wikimedia Commons (パブリックドメイン)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sengoku-Denshou_Akihabara.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sengoku-Denshou_Akihabara.jpg",
+      "width": 72,
+      "height": 72
     },
     "en": {
       "name": "Sengoku Denshi",
@@ -428,7 +452,9 @@
       "src": "/images/spots/akizuki-denshi.jpg",
       "alt": "秋月電子通商の外観",
       "sourceLabel": "Wikimedia Commons (CC BY 4.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akiduki_Denshi_Akihabara_2026.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akiduki_Denshi_Akihabara_2026.jpg",
+      "width": 96,
+      "height": 96
     },
     "en": {
       "name": "Akizuki Denshi Tsusho",
@@ -461,7 +487,9 @@
       "src": "/images/spots/maid-made-akihabara.jpg",
       "alt": "秋葉原のメイドカフェスタッフ",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_Cafe_Staff_Akihabara_Tokyo_Japan.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_Cafe_Staff_Akihabara_Tokyo_Japan.jpg",
+      "width": 1152,
+      "height": 1728
     },
     "en": {
       "name": "Maid Cafe MAID√MADE Akihabara Station Front",
@@ -495,7 +523,9 @@
       "src": "/images/spots/akiba-zettai-ryoiki.jpg",
       "alt": "秋葉原のメイドたち",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_in_Akihabara.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_in_Akihabara.jpg",
+      "width": 4416,
+      "height": 3312
     },
     "en": {
       "name": "Akiba Zettai Ryoiki",
@@ -529,7 +559,9 @@
       "src": "/images/spots/cure-maid-cafe.jpg",
       "alt": "秋葉原のメイドカフェスタッフ",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_caf%C3%A9_maid_in_promotional_activity,_in_Akihabara_(2011-04-15_17.58.07_by_Luca_Mascaro).jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maid_caf%C3%A9_maid_in_promotional_activity,_in_Akihabara_(2011-04-15_17.58.07_by_Luca_Mascaro).jpg",
+      "width": 72,
+      "height": 72
     },
     "en": {
       "name": "CURE MAID CAFÉ",
@@ -566,7 +598,9 @@
       "src": "/images/spots/2k540-aki-oka-artisan.jpg",
       "alt": "高架下に広がる2k540 AKI-OKA ARTISANの外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2k540_AKI-OKA_ARTISAN,_Tokyo_-_Nov_29,_2013.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2k540_AKI-OKA_ARTISAN,_Tokyo_-_Nov_29,_2013.jpg",
+      "width": 3264,
+      "height": 2448
     },
     "en": {
       "name": "2k540 AKI-OKA ARTISAN",
@@ -599,7 +633,9 @@
       "src": "/images/spots/maach-ecute-kanda.jpg",
       "alt": "マーチエキュート神田万世橋の外観",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MAAch_ecute_Kanda_Manseibashi.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MAAch_ecute_Kanda_Manseibashi.jpg",
+      "width": 3264,
+      "height": 2448
     },
     "en": {
       "name": "mAAch ecute Kanda-Manseibashi",
@@ -632,7 +668,9 @@
       "src": "/images/spots/mandarake-complex.jpg",
       "alt": "まんだらけコンプレックスの外観",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mandarake_Complex,_Akihabara.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mandarake_Complex,_Akihabara.jpg",
+      "width": 72,
+      "height": 72
     },
     "en": {
       "name": "Mandarake Complex",
@@ -665,7 +703,9 @@
       "src": "/images/spots/akiba-cultures-zone.jpg",
       "alt": "AKIBAカルチャーズZONEの外観",
       "sourceLabel": "Wikimedia Commons (CC BY 3.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKIBAカルチャーズZONE.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKIBAカルチャーズZONE.jpg",
+      "width": 1,
+      "height": 1
     },
     "en": {
       "name": "AKIBA Cultures Zone",
@@ -698,7 +738,9 @@
       "src": "/images/spots/akihabara-gachapon-kaikan.jpg",
       "alt": "秋葉原に並ぶガチャポン筐体",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wall_of_Gachapon,_Akihabara.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wall_of_Gachapon,_Akihabara.jpg",
+      "width": 1,
+      "height": 1
     },
     "en": {
       "name": "Akihabara Gachapon Kaikan",
@@ -732,7 +774,9 @@
       "src": "/images/spots/kotobukiya-akihabara.jpg",
       "alt": "コトブキヤ秋葉原館の入口",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kotobukiya_Akihabara_Store_entry_20130820.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kotobukiya_Akihabara_Store_entry_20130820.jpg",
+      "width": 5477,
+      "height": 3651
     },
     "en": {
       "name": "Kotobukiya Akihabara",
@@ -765,7 +809,9 @@
       "src": "/images/spots/sofmap-akiba-amuse.jpg",
       "alt": "ソフマップ秋葉原店の入口",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sofmap_Akihabara_entrance_20100401.jpeg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sofmap_Akihabara_entrance_20100401.jpeg",
+      "width": 4672,
+      "height": 3104
     },
     "en": {
       "name": "Sofmap AKIBA Amusement Store",
@@ -798,7 +844,9 @@
       "src": "/images/spots/lashinbang-akihabara.jpg",
       "alt": "らしんばん秋葉原店新館の外観",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lashinbang_Akihabara_Store_20171225.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lashinbang_Akihabara_Store_20171225.jpg",
+      "width": 96,
+      "height": 96
     },
     "en": {
       "name": "Lashinbang Akihabara New Store",
@@ -831,7 +879,9 @@
       "src": "/images/spots/kaiyodo-hobby-lobby-tokyo.jpg",
       "alt": "夜の秋葉原ラジオ会館ショッピングビル",
       "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan_Shopping_Building_(53416976349).jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan_Shopping_Building_(53416976349).jpg",
+      "width": 240,
+      "height": 240
     },
     "en": {
       "name": "Kaiyodo Hobby Lobby Tokyo",
@@ -864,7 +914,9 @@
       "src": "/images/spots/cafe-asan.jpg",
       "alt": "2k540 AKI-OKA ARTISANの内部",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2k540_AKI-OKA_ARTISAN_-_Tokyo_IMG_1220_(13002157613).jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2k540_AKI-OKA_ARTISAN_-_Tokyo_IMG_1220_(13002157613).jpg",
+      "width": 180,
+      "height": 180
     },
     "en": {
       "name": "Cafe ASAN",
@@ -897,7 +949,9 @@
       "src": "/images/spots/cafe-mailish.jpg",
       "alt": "秋葉原のメイドカフェへの階段",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stairs_to_Maid_Cafe.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stairs_to_Maid_Cafe.jpg",
+      "width": 1024,
+      "height": 768
     },
     "en": {
       "name": "Cafe Mai:lish",
@@ -934,7 +988,9 @@
       "src": "/images/spots/atre-akihabara.jpg",
       "alt": "アトレ秋葉原の関連ビジュアル",
       "sourceLabel": "アトレ秋葉原 公式ニュース",
-      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6847/"
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6847/",
+      "width": 96,
+      "height": 96
     }
   },
   {
@@ -953,7 +1009,9 @@
       "src": "/images/spots/bandai-namco-cross-store-akihabara.jpg",
       "alt": "バンダイナムコ Cross Store アトレ秋葉原店の関連ビジュアル",
       "sourceLabel": "魔法の姉妹ルルットリリィ公式サイト",
-      "sourceUrl": "https://www.luluttolilly.com/news/detail.php?id=23592"
+      "sourceUrl": "https://www.luluttolilly.com/news/detail.php?id=23592",
+      "width": 96,
+      "height": 96
     }
   },
   {
@@ -972,7 +1030,9 @@
       "src": "/images/spots/akihabara-daibiru.webp",
       "alt": "秋葉原ダイビルの関連ビジュアル",
       "sourceLabel": "レッツエンジョイ東京 イベントページ",
-      "sourceUrl": "https://www.enjoytokyo.jp/event/2065020/"
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2065020/",
+      "width": 512,
+      "height": 640
     }
   },
   {
@@ -992,7 +1052,9 @@
       "src": "/images/spots/waterras.jpg",
       "alt": "ワテラスの外観",
       "sourceLabel": "ワテラス公式サイト",
-      "sourceUrl": "https://www.waterras.com/"
+      "sourceUrl": "https://www.waterras.com/",
+      "width": 100,
+      "height": 100
     }
   },
   {
@@ -1031,7 +1093,9 @@
       "src": "/images/spots/akihabara-sonpo-kaikan.jpg",
       "alt": "秋葉原・損保会館で開催されたアナログオーディオフェアの会場風景",
       "sourceLabel": "アナログオーディオフェア公式サイト",
-      "sourceUrl": "https://analogaudio-fair.com/"
+      "sourceUrl": "https://analogaudio-fair.com/",
+      "width": 72,
+      "height": 72
     }
   },
   {
@@ -1051,7 +1115,9 @@
       "src": "/images/spots/bellesalle-akihabara.jpg",
       "alt": "ベルサール秋葉原の公式ビジュアル",
       "sourceLabel": "ベルサール公式サイト",
-      "sourceUrl": "https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/"
+      "sourceUrl": "https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1090,7 +1156,9 @@
       "src": "/images/spots/rhythm-canvas.jpg",
       "alt": "リズムキャンバスの関連ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000006.000174847.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000006.000174847.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1110,7 +1178,9 @@
       "src": "/images/spots/shosen-book-tower.jpg",
       "alt": "書泉ブックタワーの公式ビジュアル",
       "sourceLabel": "書泉公式サイト",
-      "sourceUrl": "https://www.shosen.co.jp/tower/"
+      "sourceUrl": "https://www.shosen.co.jp/tower/",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1129,7 +1199,9 @@
       "src": "/images/spots/clove-lounge-akihabara.jpg",
       "alt": "Clove Lounge Cafe &Bar 秋葉原の関連ビジュアル",
       "sourceLabel": "コラボカフェ記事",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/puyopuyo-cafe-clove-lounge-cafe-bar2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/puyopuyo-cafe-clove-lounge-cafe-bar2026/",
+      "width": 1800,
+      "height": 1012
     }
   },
   {
@@ -1148,7 +1220,9 @@
       "src": "/images/spots/akiba-fan-cube.jpeg",
       "alt": "AKIBA FAN CUBEの関連ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/gnosia-clinic-popup-store-tokyo-osaka2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/gnosia-clinic-popup-store-tokyo-osaka2026/",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1167,7 +1241,9 @@
       "src": "/images/spots/esports-studio-akiba.jpg",
       "alt": "eSports Studio AKIBAの関連ビジュアル",
       "sourceLabel": "こどもとIT",
-      "sourceUrl": "https://edu.watch.impress.co.jp/docs/news/2116392.html"
+      "sourceUrl": "https://edu.watch.impress.co.jp/docs/news/2116392.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1187,7 +1263,9 @@
       "src": "/images/spots/laox-akihabara.jpg",
       "alt": "ラオックス秋葉原本店の関連ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000064.000152399.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000064.000152399.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1206,7 +1284,9 @@
       "src": "/images/spots/toreka-lounge.jpg",
       "alt": "トレカラウンジの関連ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000012.000177148.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000012.000177148.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1226,7 +1306,9 @@
       "src": "/images/spots/amiami-akihabara-figure-tower.jpeg",
       "alt": "あみあみ秋葉原フィギュアタワー店の関連ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/",
+      "width": 1200,
+      "height": 630
     }
   },
   {
@@ -1266,7 +1348,9 @@
       "src": "/images/spots/volks-akihabara-hobby-tengoku-2.jpg",
       "alt": "ボークス 秋葉原ホビー天国2の公式ビジュアル",
       "sourceLabel": "ボークス公式サイト",
-      "sourceUrl": "https://hobby.volks.co.jp/shop/hobbytengoku2/"
+      "sourceUrl": "https://hobby.volks.co.jp/shop/hobbytengoku2/",
+      "width": 960,
+      "height": 480
     }
   },
   {
@@ -1285,7 +1369,9 @@
       "src": "/images/spots/collabcafe-honpo-akihabara.jpg",
       "alt": "コラボカフェ本舗 秋葉原店の関連ビジュアル",
       "sourceLabel": "コラボカフェ本舗 公式ページ",
-      "sourceUrl": "https://collabocafe-honpo.co.jp/event/bungomayoi2605/"
+      "sourceUrl": "https://collabocafe-honpo.co.jp/event/bungomayoi2605/",
+      "width": 100,
+      "height": 100
     }
   },
   {
@@ -1304,7 +1390,9 @@
       "src": "/images/spots/onkyo-direct-anime-store.jpg",
       "alt": "ONKYO DIRECT ANIME STORE（音アニ1号店）の関連ビジュアル",
       "sourceLabel": "ONKYO DIRECT",
-      "sourceUrl": "https://onkyodirect.jp/shop/pages/SWB_EARPHONE.aspx"
+      "sourceUrl": "https://onkyodirect.jp/shop/pages/SWB_EARPHONE.aspx",
+      "width": 600,
+      "height": 600
     }
   },
   {
@@ -1323,7 +1411,9 @@
       "src": "/images/spots/ikkakuya-akihabara.jpg",
       "alt": "壱角家 秋葉原総本店の関連ビジュアル",
       "sourceLabel": "株式会社ガーデン PR TIMESプレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000292.000027681.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000292.000027681.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1361,7 +1451,9 @@
       "src": "/images/spots/sweet-cat-akihabara.jpg",
       "alt": "すい〜ときゃっとの関連ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000138894.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000138894.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1380,7 +1472,9 @@
       "src": "/images/spots/meat-winery-akihabara.jpg",
       "alt": "Meat Wineryの関連ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000003.000127501.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000003.000127501.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1419,7 +1513,9 @@
       "src": "/images/spots/sundubu-nakayama-akihabara.jpg",
       "alt": "スンドゥブ 中山豆腐店 秋葉原の関連ビジュアル",
       "sourceLabel": "ASCII.jp",
-      "sourceUrl": "https://ascii.jp/elem/000/004/409/4409324/"
+      "sourceUrl": "https://ascii.jp/elem/000/004/409/4409324/",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1458,7 +1554,9 @@
       "src": "/images/spots/yazzie-taise.jpg",
       "alt": "ヤジーテイスの関連ビジュアル",
       "sourceLabel": "WalkerPlus",
-      "sourceUrl": "https://www.walkerplus.com/event/ar0313e600366/"
+      "sourceUrl": "https://www.walkerplus.com/event/ar0313e600366/",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1478,7 +1576,9 @@
       "src": "/images/spots/melonbooks-akihabara-1.jpg",
       "alt": "メロンブックス秋葉原1号店の関連ビジュアル",
       "sourceLabel": "Anime Maps",
-      "sourceUrl": "https://animemaps.com/ja/event/%E3%80%8E%E5%83%95%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%8C%E5%B0%91%E3%81%AA%E3%81%84%E3%80%8Fpop-up%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-2026/"
+      "sourceUrl": "https://animemaps.com/ja/event/%E3%80%8E%E5%83%95%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%8C%E5%B0%91%E3%81%AA%E3%81%84%E3%80%8Fpop-up%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-2026/",
+      "width": 300,
+      "height": 300
     }
   },
   {
@@ -1516,7 +1616,9 @@
       "src": "/images/spots/akihabara-cosmiclab.jpg",
       "alt": "秋葉原COSMICLABの関連ビジュアル",
       "sourceLabel": "X画像",
-      "sourceUrl": "https://pbs.twimg.com/media/GVKfPWraEAIGMY0?format=jpg&name=large"
+      "sourceUrl": "https://pbs.twimg.com/media/GVKfPWraEAIGMY0?format=jpg&name=large",
+      "width": 72,
+      "height": 72
     }
   },
   {
@@ -1535,7 +1637,9 @@
       "src": "/images/spots/akihabara-zest.jpg",
       "alt": "秋葉原ZESTの関連ビジュアル",
       "sourceLabel": "TIGET イベントページ",
-      "sourceUrl": "https://tiget.net/events/487776"
+      "sourceUrl": "https://tiget.net/events/487776",
+      "width": 72,
+      "height": 72
     }
   },
   {
@@ -1555,7 +1659,9 @@
       "src": "/images/spots/akihabara-club-goodman.jpg",
       "alt": "秋葉原CLUB GOODMANの関連ビジュアル",
       "sourceLabel": "バーチャルライフマガジン記事",
-      "sourceUrl": "https://vr-lifemagazine.com/outside_press/"
+      "sourceUrl": "https://vr-lifemagazine.com/outside_press/",
+      "width": 300,
+      "height": 300
     }
   },
   {
@@ -1575,7 +1681,9 @@
       "src": "/images/spots/akihabara-theia.jpg",
       "alt": "秋葉原ティアの公式ビジュアル",
       "sourceLabel": "秋葉原ティア公式サイト",
-      "sourceUrl": "https://www.theia-live.com/"
+      "sourceUrl": "https://www.theia-live.com/",
+      "width": 2500,
+      "height": 1768
     }
   },
   {
@@ -1595,7 +1703,9 @@
       "src": "/images/spots/soundnote-akihabara.jpg",
       "alt": "SOUNDNOTE AKIHABARAの関連ビジュアル",
       "sourceLabel": "TIGET",
-      "sourceUrl": "https://tiget.net/events/486878"
+      "sourceUrl": "https://tiget.net/events/486878",
+      "width": 72,
+      "height": 72
     }
   },
   {
@@ -1614,7 +1724,9 @@
       "src": "/images/spots/akihabara-galaxy.jpg",
       "alt": "秋葉原Galaxyの外観",
       "sourceLabel": "エルミタージュ秋葉原",
-      "sourceUrl": "https://www.gdm.or.jp/crew/2023/0712/497064"
+      "sourceUrl": "https://www.gdm.or.jp/crew/2023/0712/497064",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1652,7 +1764,9 @@
       "src": "/images/spots/bushiroad-creative-store-akihabara.jpg",
       "alt": "ブシロードクリエイティブストア 秋葉原本店の関連ビジュアル",
       "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009529.000014827.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009529.000014827.html",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1694,7 +1808,9 @@
       "src": "/images/spots/gigo-akihabara-5-akibako.jpg",
       "alt": "GiGO秋葉原5号館 Akib@koの関連ビジュアル",
       "sourceLabel": "コラボカフェ",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/5hanayome-sakura-drink-pop-up-store-gigo-akihabara5-2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/5hanayome-sakura-drink-pop-up-store-gigo-akihabara5-2026/",
+      "width": 900,
+      "height": 1000
     }
   },
   {
@@ -1713,7 +1829,9 @@
       "src": "/images/spots/akihabara-gran-entas.jpg",
       "alt": "秋葉原 グランエンタス（オノデン1F）の関連ビジュアル",
       "sourceLabel": "GEE!店舗情報＆イベント情報",
-      "sourceUrl": "https://www.geestore.com/geenet/event/14906.html"
+      "sourceUrl": "https://www.geestore.com/geenet/event/14906.html",
+      "width": 1200,
+      "height": 675
     }
   },
   {
@@ -1733,7 +1851,9 @@
       "src": "/images/spots/anthem-akiba.jpg",
       "alt": "LIVE HOUSE＆CLUB ANTHEM AKIBAの公式ビジュアル",
       "sourceLabel": "ANTHEM AKIBA公式サイト",
-      "sourceUrl": "https://anthemakiba.com/"
+      "sourceUrl": "https://anthemakiba.com/",
+      "width": 0,
+      "height": 0
     }
   },
   {
@@ -1752,7 +1872,9 @@
       "src": "/images/spots/air-3331-iwamotocho.jpg",
       "alt": "AIR 3331 岩本町レジデンス＆スタジオの関連ビジュアル",
       "sourceLabel": "3331 公式サイト",
-      "sourceUrl": "https://www.3331.jp/schedule2/019924.html"
+      "sourceUrl": "https://www.3331.jp/schedule2/019924.html",
+      "width": 1280,
+      "height": 1804
     }
   },
   {
@@ -1771,7 +1893,9 @@
       "src": "/images/spots/raku-spa-1010-kanda.jpg",
       "alt": "RAKU SPA 1010 神田の関連ビジュアル",
       "sourceLabel": "RAKU SPA 公式サイト",
-      "sourceUrl": "https://rakuspa.com/fate-go/"
+      "sourceUrl": "https://rakuspa.com/fate-go/",
+      "width": 1200,
+      "height": 630
     }
   },
   {
@@ -1791,7 +1915,9 @@
       "src": "/images/spots/neco-republic-ochanomizu.jpg",
       "alt": "ネコリパブリック 東京 お茶の水店の店内",
       "sourceLabel": "ネコリパブリック公式サイト",
-      "sourceUrl": "https://www.neco-republic.jp/shop/shop-necorepublic-ochanomizu/"
+      "sourceUrl": "https://www.neco-republic.jp/shop/shop-necorepublic-ochanomizu/",
+      "width": 1,
+      "height": 1
     }
   },
   {
@@ -1811,7 +1937,9 @@
       "src": "/images/spots/beep-akihabara.webp",
       "alt": "BEEP秋葉原店の公式ビジュアル",
       "sourceLabel": "BEEP秋葉原店公式サイト",
-      "sourceUrl": "https://www.akihabara-beep.com/"
+      "sourceUrl": "https://www.akihabara-beep.com/",
+      "width": 750,
+      "height": 320
     }
   },
   {
@@ -1830,7 +1958,9 @@
       "src": "/images/spots/sushiro-akihabara-chuo-dori.jpg",
       "alt": "スシロー 秋葉原中央通り店の関連ビジュアル",
       "sourceLabel": "4Gamer",
-      "sourceUrl": "https://www.4gamer.net/games/630/G063081/20260611007/"
+      "sourceUrl": "https://www.4gamer.net/games/630/G063081/20260611007/",
+      "width": 800,
+      "height": 666
     }
   },
   {
@@ -1849,7 +1979,9 @@
       "src": "/images/spots/iroha-ni-box-akihabara.jpg",
       "alt": "秋葉原撮影スタジオ『いろはにぼっくす』の関連ビジュアル",
       "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000957.000060459.html"
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000957.000060459.html",
+      "width": 1,
+      "height": 1
     }
   }
 ]

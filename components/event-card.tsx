@@ -1,10 +1,15 @@
 import Link from "next/link"
 
-const PLACEHOLDER = { src: "/images/placeholder.jpg", alt: "アキバLiveの記事サムネイル" }
+const PLACEHOLDER = {
+  src: "/images/placeholder.jpg",
+  alt: "アキバLiveの記事サムネイル",
+  width: 1024,
+  height: 683,
+}
 
 type Props = {
   href: string
-  image?: { src: string; alt: string }
+  image?: { src: string; alt: string; width?: number; height?: number }
   title: string
   venue: string
   dateRange: string
@@ -36,7 +41,15 @@ export const EventCard = ({
     <li>
       <Link href={href} className="events-card-link">
         <article className="events-card events-card--with-image">
-          <img className="events-card__image" src={img.src} alt={img.alt} />
+          <img
+            className="events-card__image"
+            src={img.src}
+            alt={img.alt}
+            width={img.width}
+            height={img.height}
+            loading="lazy"
+            decoding="async"
+          />
           <div>
             {tags && tags.length > 0 && (
               <div className="events-card__tags">

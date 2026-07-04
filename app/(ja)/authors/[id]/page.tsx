@@ -124,7 +124,11 @@ const Page = async ({ params }: Props) => {
                   <img
                     src={getArticleImage(article).src}
                     alt={getArticleImage(article).alt}
+                    width={getArticleImage(article).width}
+                    height={getArticleImage(article).height}
                     className="article-card__image"
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="article-card__body">
                     <div className="article-card__tags">

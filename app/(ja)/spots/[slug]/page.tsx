@@ -1,11 +1,6 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import {
-  getAllSpotSlugs,
-  getSpotBySlug,
-  getSpotImage,
-  placeholderSpotImage,
-} from "lib/spots"
+import { getAllSpotSlugs, getSpotBySlug, getSpotImage } from "lib/spots"
 import { getArticlesBySpotName, formatDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
@@ -52,7 +47,6 @@ const Page = async ({ params }: Props) => {
   const spotUrl = absoluteUrl(`/spots/${slug}/`)
   const spotImage = getSpotImage(spot)
   const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(0, 10)
-  const isPlaceholderImage = spotImage.src === placeholderSpotImage.src
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -159,11 +153,14 @@ const Page = async ({ params }: Props) => {
         </h1>
 
         <figure className="article-hero-image">
-          {isPlaceholderImage ? (
-            <img src={spotImage.src} alt={spotImage.alt} />
-          ) : (
-            <img src={spotImage.src} alt={spotImage.alt} />
-          )}
+          <img
+            src={spotImage.src}
+            alt={spotImage.alt}
+            width={spotImage.width}
+            height={spotImage.height}
+            fetchPriority="high"
+            decoding="async"
+          />
           {spot.image?.sourceLabel && (
             <figcaption>
               画像:&nbsp;

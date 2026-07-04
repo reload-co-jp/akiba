@@ -28,6 +28,8 @@ export type Spot = {
   image?: {
     src: string
     alt: string
+    width?: number
+    height?: number
     sourceLabel?: string
     sourceUrl?: string
   }
@@ -39,6 +41,8 @@ export type Spot = {
 export const placeholderSpotImage = {
   src: "/images/placeholder.jpg",
   alt: "アキバLiveのスポット画像",
+  width: 1024,
+  height: 683,
 }
 
 export const getSpotImage = (spot: Spot) => spot.image ?? placeholderSpotImage

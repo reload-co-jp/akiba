@@ -5,9 +5,11 @@ import { useEffect, useState } from "react"
 type Props = {
   src: string
   alt: string
+  width?: number
+  height?: number
 }
 
-export function ArticleImagePreview({ src, alt }: Props) {
+export function ArticleImagePreview({ src, alt, width, height }: Props) {
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
@@ -34,7 +36,14 @@ export function ArticleImagePreview({ src, alt }: Props) {
         onClick={() => setIsOpen(true)}
         aria-label="画像を拡大表示"
       >
-        <img src={src} alt={alt} />
+        <img
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          fetchPriority="high"
+          decoding="async"
+        />
       </button>
 
       {isOpen && (
