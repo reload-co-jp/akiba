@@ -77,8 +77,6 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
-      139,
       140,
       207
     ]
@@ -123,9 +121,7 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       75,
-      139,
       140,
       207
     ]
@@ -167,8 +163,6 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
-      139,
       140,
       207
     ]
@@ -209,8 +203,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
-      139,
       140,
       207
     ]
@@ -251,8 +243,6 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
-      139,
       140,
       207
     ]
@@ -299,7 +289,6 @@
     "tagIds": [
       74,
       124,
-      50,
       198
     ],
     "event": {
@@ -424,8 +413,7 @@
     "tagIds": [
       193,
       87,
-      78,
-      207
+      78
     ],
     "event": {
       "venue": "書泉ブックタワー（秋葉原）",
@@ -514,7 +502,6 @@
     "authorId": 1,
     "tagIds": [
       73,
-      50,
       156,
       207
     ],
@@ -564,12 +551,10 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       72,
       114,
       130,
-      184,
-      207
+      184
     ],
     "event": {
       "venue": "AKIHABARAゲーマーズ本店",
@@ -663,8 +648,7 @@
     "tagIds": [
       46,
       70,
-      90,
-      207
+      90
     ],
     "event": {
       "venue": "アトレ秋葉原1",
@@ -712,7 +696,6 @@
       76,
       129,
       184,
-      207,
       211
     ],
     "event": {
@@ -793,13 +776,11 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       78,
       129,
       177,
       193,
       194,
-      207,
       220
     ],
     "event": {
@@ -896,7 +877,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       51,
       100,
       156,
@@ -944,7 +924,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       137,
       156,
       157,
@@ -992,7 +971,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       207
     ],
@@ -1045,7 +1023,6 @@
     "authorId": 1,
     "tagIds": [
       39,
-      50,
       107,
       150,
       156,
@@ -1092,11 +1069,9 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       63,
       72,
-      74,
-      207
+      74
     ],
     "event": {
       "venue": "AKIHABARAゲーマーズ本店",
@@ -1143,9 +1118,7 @@
     "authorId": 1,
     "tagIds": [
       48,
-      50,
-      63,
-      207
+      63
     ],
     "event": {
       "venue": "アニメイト秋葉原ANNEX",
@@ -1191,7 +1164,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       207
     ],
@@ -1236,13 +1208,11 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       63,
       72,
       74,
       80,
-      129,
-      207
+      129
     ],
     "event": {
       "venue": "AKIHABARAゲーマーズ本店",
@@ -1281,13 +1251,11 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       78,
       129,
-      193,
-      207
+      193
     ],
     "event": {
       "venue": "書泉ブックタワー",
@@ -1326,7 +1294,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       207
     ],
@@ -1366,7 +1333,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       207
@@ -1415,7 +1381,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       207
@@ -1456,7 +1421,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       207
@@ -1497,7 +1461,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       207
@@ -1542,7 +1505,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       70,
       207
@@ -1583,7 +1545,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       70,
       207
@@ -1624,7 +1585,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       70,
       207
@@ -1669,7 +1629,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       207
@@ -1759,7 +1718,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       80,
@@ -1906,7 +1864,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       74,
       80,
@@ -1953,10 +1910,7 @@
     "authorId": 1,
     "tagIds": [
       48,
-      50,
-      51,
-      139,
-      207
+      139
     ],
     "event": {
       "venue": "アニメイト秋葉原1号館",
@@ -2002,7 +1956,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       70,
       74,
@@ -2064,8 +2017,7 @@
       50,
       74,
       80,
-      124,
-      207
+      124
     ],
     "event": {
       "venue": "ベルサール秋葉原",
@@ -2156,8 +2108,7 @@
     "tagIds": [
       33,
       47,
-      50,
-      207
+      50
     ],
     "event": {
       "startDate": "2026-06-06",
@@ -2204,8 +2155,7 @@
     "tagIds": [
       50,
       74,
-      124,
-      207
+      124
     ],
     "event": {
       "startDate": "2026-11-07",
@@ -2246,11 +2196,9 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       86,
       162,
-      193,
-      207
+      193
     ],
     "event": {
       "startDate": "2026-06-27",
@@ -2296,7 +2244,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       57,
       74,
       207,
@@ -2342,7 +2289,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       137,
       156,
       157,
@@ -2392,9 +2338,7 @@
     "tagIds": [
       47,
       48,
-      50,
-      114,
-      207
+      114
     ],
     "event": {
       "startDate": "2026-06-13",
@@ -2439,11 +2383,9 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       86,
       162,
-      193,
-      207
+      193
     ],
     "event": {
       "startDate": "2026-06-13",
@@ -2488,11 +2430,9 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       86,
       162,
-      193,
-      207
+      193
     ],
     "event": {
       "startDate": "2026-06-14",
@@ -2537,11 +2477,9 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       86,
       162,
-      193,
-      207
+      193
     ],
     "event": {
       "startDate": "2026-06-20",
@@ -2586,11 +2524,9 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       86,
       162,
-      193,
-      207
+      193
     ],
     "event": {
       "startDate": "2026-06-27",
@@ -2634,11 +2570,9 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       72,
       114,
       141,
-      207,
       219
     ],
     "event": {
@@ -2683,11 +2617,9 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       72,
       114,
-      141,
-      207
+      141
     ],
     "event": {
       "venue": "AKIHABARAゲーマーズ本店ほか各店",
@@ -2734,8 +2666,7 @@
     "tagIds": [
       16,
       46,
-      63,
-      207
+      63
     ],
     "event": {
       "startDate": "2026-07-01",
@@ -2775,7 +2706,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      88,
       207,
       229
     ]
@@ -2904,8 +2834,6 @@
     "authorId": 1,
     "tagIds": [
       22,
-      88,
-      207,
       217
     ]
   },
@@ -2970,7 +2898,6 @@
     "tagIds": [
       56,
       57,
-      88,
       187,
       207
     ]
@@ -3004,7 +2931,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       100,
       187,
       207
@@ -3039,8 +2965,6 @@
     "authorId": 1,
     "tagIds": [
       22,
-      88,
-      207,
       229
     ]
   },
@@ -3073,7 +2997,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       187,
       207
     ]
@@ -3111,7 +3034,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       187,
       207
     ]
@@ -3145,7 +3067,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       100,
       187,
       207
@@ -3179,7 +3100,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      88,
       207,
       229
     ]
@@ -3213,7 +3133,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       113,
       126,
       187,
@@ -3249,7 +3168,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       129,
       187,
       207
@@ -3284,7 +3202,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       100,
       187,
       207
@@ -3360,7 +3277,6 @@
     "authorId": 1,
     "tagIds": [
       56,
-      88,
       126,
       187,
       207
@@ -3404,7 +3320,6 @@
     "tagIds": [
       73,
       74,
-      88,
       207,
       229
     ],
@@ -3458,8 +3373,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ],
     "seoTitle": "Starry☆Sky 水嶋郁 連動企画グラッテ アニメイト秋葉原ANNEX"
   },
@@ -3505,8 +3419,7 @@
       47,
       48,
       57,
-      80,
-      207
+      80
     ]
   },
   {
@@ -3551,8 +3464,7 @@
       48,
       54,
       57,
-      80,
-      207
+      80
     ],
     "seoTitle": "VS AMBIVALENZオンリーショップ開催記念Gratte アニメイト秋葉原ANNEX"
   },
@@ -3599,8 +3511,7 @@
       48,
       57,
       74,
-      80,
-      207
+      80
     ],
     "seoTitle": "アイナナ「Harmony Lounge」Gratte アニメイト秋葉原ANNEX"
   },
@@ -3645,8 +3556,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ],
     "seoTitle": "「BeLuck×アニメイトフェア2026」開催記念グラッテ アニメイト秋葉原ANNEX"
   },
@@ -3692,8 +3602,7 @@
       48,
       57,
       74,
-      80,
-      207
+      80
     ],
     "seoTitle": "千銃士:Rhodoknight発売記念Gratte アニメイト秋葉原ANNEX"
   },
@@ -3739,8 +3648,7 @@
       47,
       48,
       57,
-      80,
-      207
+      80
     ]
   },
   {
@@ -3785,8 +3693,7 @@
       47,
       48,
       57,
-      80,
-      207
+      80
     ]
   },
   {
@@ -3864,8 +3771,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ]
   },
   {
@@ -3910,8 +3816,7 @@
       48,
       57,
       74,
-      80,
-      207
+      80
     ]
   },
   {
@@ -3955,8 +3860,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ],
     "seoTitle": "DYNAMIC CHORD 12th anniversary Gratte アニメイト秋葉原ANNEX"
   },
@@ -4001,8 +3905,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ],
     "seoTitle": "Blackish House ←sideZ -Retour発売記念グラッテ アニメイト秋葉原ANNEX"
   },
@@ -4048,8 +3951,7 @@
       48,
       57,
       74,
-      80,
-      207
+      80
     ]
   },
   {
@@ -4093,8 +3995,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ],
     "seoTitle": "Zerowake GATESハーフアニバーサリー×Gratte アニメイト秋葉原ANNEX"
   },
@@ -4140,8 +4041,7 @@
       47,
       61,
       77,
-      129,
-      207
+      129
     ]
   },
   {
@@ -4186,8 +4086,7 @@
       47,
       48,
       57,
-      80,
-      207
+      80
     ]
   },
   {
@@ -4231,8 +4130,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ]
   },
   {
@@ -4276,8 +4174,7 @@
     "tagIds": [
       48,
       57,
-      80,
-      207
+      80
     ]
   },
   {
@@ -4321,8 +4218,7 @@
     "tagIds": [
       47,
       48,
-      54,
-      207
+      54
     ]
   },
   {
@@ -4367,8 +4263,7 @@
       48,
       57,
       74,
-      80,
-      207
+      80
     ]
   },
   {
@@ -4413,8 +4308,7 @@
       48,
       57,
       74,
-      80,
-      207
+      80
     ]
   },
   {
@@ -4459,8 +4353,7 @@
       47,
       48,
       54,
-      74,
-      207
+      74
     ]
   },
   {
@@ -4502,11 +4395,9 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       70,
       149,
-      166,
-      207
+      166
     ]
   },
   {
@@ -4550,8 +4441,7 @@
     "tagIds": [
       70,
       149,
-      150,
-      207
+      150
     ]
   },
   {
@@ -4595,8 +4485,7 @@
     "tagIds": [
       47,
       48,
-      61,
-      207
+      61
     ]
   },
   {
@@ -4641,7 +4530,6 @@
     "authorId": 1,
     "tagIds": [
       60,
-      207,
       211
     ]
   },
@@ -4691,8 +4579,7 @@
       48,
       61,
       74,
-      129,
-      207
+      129
     ]
   },
   {
@@ -4737,8 +4624,7 @@
       47,
       61,
       127,
-      129,
-      207
+      129
     ]
   },
   {
@@ -4870,8 +4756,7 @@
     "tagIds": [
       78,
       114,
-      193,
-      207
+      193
     ]
   },
   {
@@ -5101,7 +4986,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      88,
       207,
       229
     ]
@@ -5147,7 +5031,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      88,
       207,
       229
     ]
@@ -5200,7 +5083,6 @@
     "authorId": 1,
     "tagIds": [
       74,
-      50,
       215,
       156,
       198
@@ -5246,8 +5128,7 @@
     "authorId": 1,
     "tagIds": [
       72,
-      114,
-      50
+      114
     ],
     "seoTitle": "harmoe 3rdアルバム発売記念 衣装展 AKIHABARAゲーマーズ本店"
   },
@@ -5340,8 +5221,7 @@
     "authorId": 1,
     "tagIds": [
       72,
-      129,
-      88
+      129
     ]
   },
   {
@@ -5389,8 +5269,7 @@
     "tagIds": [
       47,
       129,
-      116,
-      88
+      116
     ]
   },
   {
@@ -5608,7 +5487,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       86,
       177,
       193,
@@ -5649,7 +5527,6 @@
     "authorId": 1,
     "tagIds": [
       42,
-      139,
       140,
       213
     ]
@@ -5690,7 +5567,6 @@
     "authorId": 1,
     "tagIds": [
       42,
-      139,
       140
     ]
   },
@@ -5743,12 +5619,10 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       72,
       80,
       108,
-      114,
-      207
+      114
     ],
     "seoTitle": "BanG Dream! 平成★GAL化計画！ in ゲーマーズ AKIHABARAゲーマーズ本店"
   },
@@ -6022,7 +5896,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       113,
       126,
       127,
@@ -6200,13 +6073,11 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
       72,
       129,
       46,
-      141,
-      207
+      141
     ]
   },
   {
@@ -6337,7 +6208,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
       86,
       193,
@@ -6383,7 +6253,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       114,
       193,
       194
@@ -6428,7 +6297,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
       72,
       129
@@ -6474,7 +6342,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       16,
       46,
       63
@@ -6519,7 +6386,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
       72,
       114
@@ -6564,7 +6430,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       29,
       63,
       72,
@@ -6611,7 +6476,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
       72,
       74,
@@ -6657,7 +6521,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
       72,
       129,
@@ -6703,7 +6566,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       72,
       114,
       194
@@ -6748,7 +6610,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       3,
       114,
       122,
@@ -6801,7 +6662,6 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       94,
       162,
       193,
@@ -6852,7 +6712,6 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       94,
       162,
       193,
@@ -6898,7 +6757,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       78,
       114,
       193
@@ -6943,7 +6801,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       78,
       114,
       193
@@ -6989,8 +6846,6 @@
     "authorId": 1,
     "tagIds": [
       48,
-      50,
-      167,
       168,
       194
     ]
@@ -7035,7 +6890,6 @@
     "authorId": 1,
     "tagIds": [
       48,
-      50,
       74,
       86
     ]
@@ -7084,7 +6938,6 @@
     "authorId": 1,
     "tagIds": [
       48,
-      50,
       78,
       86
     ]
@@ -7133,7 +6986,6 @@
     "authorId": 1,
     "tagIds": [
       48,
-      50,
       74,
       114,
       196
@@ -7189,8 +7041,6 @@
       129,
       33,
       47,
-      50,
-      88,
       196
     ]
   },
@@ -7243,8 +7093,6 @@
     "tagIds": [
       129,
       47,
-      50,
-      88,
       196
     ]
   },
@@ -7292,7 +7140,6 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       162,
       193,
       199
@@ -7394,11 +7241,9 @@
       42,
       46,
       47,
-      50,
       74,
       80,
-      129,
-      207
+      129
     ],
     "image": {
       "src": "/images/articles/million-live-9th-anniversary-akihabara-festival-2026.jpg",
@@ -7493,9 +7338,7 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
-      167,
       168
     ]
   },
@@ -7545,11 +7388,8 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       72,
-      167,
-      168,
-      207
+      168
     ],
     "seoTitle": "「NEEDY GIRL OVERDOSE 1」発売記念 AKIHABARAゲーマーズ本店"
   },
@@ -7683,8 +7523,7 @@
     "tagIds": [
       29,
       57,
-      64,
-      207
+      64
     ]
   },
   {
@@ -7723,7 +7562,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      207,
       189,
       245,
       242,
@@ -7773,8 +7611,7 @@
       29,
       57,
       64,
-      80,
-      207
+      80
     ]
   },
   {
@@ -7823,8 +7660,7 @@
       29,
       57,
       64,
-      80,
-      207
+      80
     ]
   },
   {
@@ -7870,11 +7706,9 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       101,
       123,
-      205,
-      207
+      205
     ]
   },
   {
@@ -7923,8 +7757,7 @@
       29,
       57,
       64,
-      80,
-      207
+      80
     ]
   },
   {
@@ -7972,8 +7805,7 @@
     "tagIds": [
       58,
       80,
-      163,
-      207
+      163
     ]
   },
   {
@@ -8019,7 +7851,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       60,
       122,
       207
@@ -8067,7 +7898,6 @@
       60,
       100,
       109,
-      207,
       211
     ]
   },
@@ -8112,7 +7942,6 @@
     "tagIds": [
       60,
       109,
-      207,
       211
     ]
   },
@@ -8379,7 +8208,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       78,
       184
@@ -8425,7 +8253,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       78,
       184
@@ -8472,7 +8299,6 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       63,
       184
     ],
@@ -8517,7 +8343,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       78,
       129
     ],
@@ -8562,7 +8387,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       167,
       184
@@ -8600,8 +8424,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
-      167,
       168
     ],
     "seoTitle": "『VOICEスタイルVOL.6』発売記念 青山なぎさイベント AKIHABARAゲーマーズ本店"
@@ -8645,7 +8467,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       184
     ]
@@ -8689,7 +8510,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       74,
       129
     ],
@@ -8738,9 +8558,7 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
-      167,
       168
     ],
     "seoTitle": "TVアニメ『花織さんは転生しても喧嘩がしたい』第1話先行上映会 AKIHABARAゲーマーズ本店"
@@ -8776,7 +8594,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       47,
       114
     ]
@@ -8812,8 +8629,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
-      167,
       168,
       199
     ],
@@ -8846,8 +8661,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
-      167,
       168
     ],
     "seoTitle": "ペイトン尚未 1st Album「らしさ」発売記念 AKIHABARAゲーマーズ本店"
@@ -8891,7 +8704,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
       126,
       129,
       200
@@ -10715,7 +10527,6 @@
     "authorId": 1,
     "tagIds": [
       115,
-      50,
       207
     ]
   },
@@ -16591,11 +16402,8 @@
     },
     "authorId": 1,
     "tagIds": [
-      50,
-      139,
       160,
       182,
-      207,
       211
     ]
   },
@@ -16640,10 +16448,8 @@
     "authorId": 1,
     "tagIds": [
       55,
-      50,
       124,
-      198,
-      207
+      198
     ],
     "event": {
       "venue": "ベルサール秋葉原・秋葉原コンベンションホール",
@@ -16686,11 +16492,9 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       72,
       78,
-      129,
-      207
+      129
     ],
     "event": {
       "venue": "AKIHABARAゲーマーズ本店 7F",
@@ -16732,7 +16536,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       101,
       140,
       207
@@ -16773,12 +16576,10 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       86,
       101,
       193,
-      194,
-      207
+      194
     ],
     "event": {
       "venue": "書泉ブックタワー",
@@ -16821,11 +16622,9 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       86,
       193,
-      194,
-      207
+      194
     ],
     "event": {
       "venue": "書泉ブックタワー",
@@ -17002,8 +16801,7 @@
       33,
       113,
       126,
-      184,
-      207
+      184
     ],
     "seoTitle": "「METAL BUILD ストライクフリーダムガンダム＜リバイバル版＞」抽選販売 AmiAmi秋葉原ラジオ会館店"
   },
@@ -17083,7 +16881,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      88,
       207,
       229,
       70
@@ -17121,7 +16918,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       63,
       207,
       47
@@ -17168,7 +16964,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       101,
       207
     ],
@@ -17213,7 +17008,6 @@
       64,
       57,
       80,
-      207,
       47
     ],
     "event": {
@@ -17309,8 +17103,7 @@
       74,
       80,
       57,
-      64,
-      207
+      64
     ]
   },
   {
@@ -17395,8 +17188,7 @@
     "tagIds": [
       233,
       129,
-      127,
-      207
+      127
     ]
   },
   {
@@ -17437,8 +17229,7 @@
     "tagIds": [
       236,
       114,
-      127,
-      207
+      127
     ]
   },
   {
@@ -17540,8 +17331,7 @@
       46,
       78,
       80,
-      164,
-      207
+      164
     ]
   },
   {
@@ -17631,12 +17421,10 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       52,
       80,
       127,
-      129,
-      207
+      129
     ]
   },
   {
@@ -17714,7 +17502,6 @@
     },
     "authorId": 1,
     "tagIds": [
-      88,
       126,
       207,
       229
@@ -17912,12 +17699,10 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       72,
       80,
       92,
-      129,
-      207
+      129
     ],
     "image": {
       "src": "/images/articles/zombie-land-saga-movie-popup-gamers-akihabara-2026.jpg",
@@ -18004,9 +17789,7 @@
       211,
       129,
       76,
-      184,
-      50,
-      207
+      184
     ],
     "event": {
       "venue": "秋葉原UDX ギャラリーNEXT",
@@ -18092,8 +17875,7 @@
     "tagIds": [
       46,
       62,
-      129,
-      207
+      129
     ],
     "event": {
       "venue": "バンダイナムコ Cross Store アトレ秋葉原店",
@@ -18138,7 +17920,6 @@
     "tagIds": [
       26,
       156,
-      50,
       207
     ],
     "event": {
@@ -18223,8 +18004,7 @@
     "authorId": 1,
     "tagIds": [
       222,
-      148,
-      50
+      148
     ],
     "event": {
       "venue": "Akiba Robolabo Meetup",
@@ -18276,9 +18056,7 @@
     "tagIds": [
       29,
       48,
-      50,
-      54,
-      207
+      54
     ]
   },
   {
@@ -18365,11 +18143,9 @@
     "tagIds": [
       33,
       47,
-      50,
       80,
       129,
-      196,
-      207
+      196
     ],
     "event": {
       "venue": "あみあみ秋葉原フィギュアタワー店 8F イベントスペース",
@@ -18410,7 +18186,6 @@
     "authorId": 1,
     "tagIds": [
       44,
-      50,
       177,
       211
     ],
@@ -18494,8 +18269,7 @@
     "tagIds": [
       77,
       47,
-      129,
-      207
+      129
     ],
     "event": {
       "venue": "コトブキヤ秋葉原館",
@@ -18535,10 +18309,8 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       80,
       129,
-      207,
       211
     ],
     "event": {
@@ -18624,7 +18396,6 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       74,
       198,
       207
@@ -18668,8 +18439,7 @@
       72,
       74,
       80,
-      129,
-      207
+      129
     ],
     "event": {
       "venue": "AKIHABARAゲーマーズ本店",
@@ -18713,7 +18483,6 @@
     "authorId": 1,
     "tagIds": [
       42,
-      50,
       198,
       207
     ],
@@ -18753,9 +18522,7 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       139,
-      207,
       211
     ],
     "event": {
@@ -18885,7 +18652,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      50,
       177,
       207
     ],
@@ -19004,7 +18770,6 @@
     "authorId": 1,
     "tagIds": [
       207,
-      88,
       229
     ]
   },
@@ -19041,11 +18806,9 @@
     "authorId": 1,
     "tagIds": [
       47,
-      50,
       77,
       80,
-      129,
-      207
+      129
     ],
     "event": {
       "venue": "コトブキヤ秋葉原館",
@@ -19162,8 +18925,6 @@
     ],
     "authorId": 1,
     "tagIds": [
-      207,
-      50,
       77,
       63
     ],
@@ -19300,7 +19061,6 @@
       "content": "## Overview\n\nA pop-up store for the Sunrise Studio original TV anime 'Maebashi Witches' × AMNIBUS is being held at Volks Akihabara Hobby Heaven 2. The store features Flower Festival ver. newly drawn goods.\n\n## Special Bonus\n\nFor every ¥2,000 (tax included) spent on eligible products, customers receive one random bromide from a set of 11 designs.\n\n## Event Details\n\n- **Period**: July 3 (Fri) – July 19 (Sun), 2026\n- **Venue**: Volks Akihabara Hobby Heaven 2"
     },
     "tagIds": [
-      207,
       129,
       127,
       80
@@ -19352,11 +19112,9 @@
     "tagIds": [
       46,
       47,
-      50,
       62,
       80,
-      129,
-      207
+      129
     ]
   },
   {
@@ -19482,7 +19240,6 @@
     },
     "tagIds": [
       207,
-      50,
       63,
       163,
       166,
@@ -19575,10 +19332,8 @@
     },
     "tagIds": [
       48,
-      50,
       63,
-      80,
-      207
+      80
     ]
   },
   {
@@ -19618,10 +19373,8 @@
     },
     "tagIds": [
       13,
-      50,
       124,
-      198,
-      207
+      198
     ]
   },
   {
@@ -19660,9 +19413,7 @@
       "content": "## Overview\n\nThe game music DJ event VGM 4 GIGS will be held at MOGRA Akihabara on July 1, 2026. MOGRA lists it as a regular event held on the first Wednesday of each month from 19:00.\n\n## Details\n\nThe club event centers on game music and features DJs and VJs. Admission is 1,300 yen plus one drink, with drinks starting at 700 yen.\n\nThe event page lists profiles for performers including members of LIFE is SAMPLING, game music DJs, and VJs. It is a weekday-night option for enjoying game music in Akihabara.\n\n## Event Details\n\n- **Venue**: MOGRA Akihabara\n- **Address**: 3-11 Akihabara, Taito-ku, Tokyo\n- **Date**: July 1, 2026\n- **Time**: From 19:00\n- **Admission**: 1,300 yen plus one drink from 700 yen\n- **Content**: Game music DJ/VJ event"
     },
     "tagIds": [
-      50,
       74,
-      139,
       140,
       207
     ]
@@ -19704,8 +19455,6 @@
     },
     "tagIds": [
       47,
-      50,
-      139,
       140,
       207
     ]
@@ -19746,9 +19495,7 @@
       "content": "## Overview\n\nMOGRA HOUSE LAB.02, an experimental event focused on house music, will be held at MOGRA Akihabara on July 22, 2026.\n\n## Details\n\nThe event runs from 19:00 to 23:00 at MOGRA Akihabara. Regular admission is 1,800 yen plus one drink, with a 500 yen discount for guests who bring the printed flyer.\n\nThe official page introduces DJs and producers active in house music as well as DJs whose selections span voice-actor songs, J-pop, and idol music.\n\n## Event Details\n\n- **Venue**: MOGRA Akihabara\n- **Address**: 3-11 Akihabara, Taito-ku, Tokyo\n- **Date**: July 22, 2026\n- **Time**: 19:00–23:00\n- **Admission**: Regular 1,800 yen plus one drink\n- **Discount**: 500 yen off with printed flyer"
     },
     "tagIds": [
-      50,
       89,
-      139,
       140,
       207
     ]
@@ -19795,8 +19542,7 @@
     "tagIds": [
       42,
       46,
-      80,
-      207
+      80
     ]
   },
   {
@@ -19837,8 +19583,7 @@
     "tagIds": [
       48,
       74,
-      80,
-      207
+      80
     ]
   },
   {
@@ -19877,10 +19622,8 @@
       "content": "## Overview\n\nThe Akihabara Tourism Promotion Association will hold AKIBA Subculture Summit at Kanda Myojin 2026 on August 15, 2026 at EDOCCO STUDIO in the Kanda Myojin Cultural Exchange Hall. The participatory event presents card game culture not only as competition, but also as culture to learn, experience, and share across the district.\n\n## Highlights\n\nThe venue will host cultural talks, card game culture experience sessions, and Akihabara culture tours. A district-wide AKIBA mystery quiz rally is also planned from August 15 to 24.\n\n- Talks themed around card game culture\n- Card game culture experiences, including beginner TCG sessions\n- Akihabara culture tours\n- AKIBA mystery quiz rally from August 15 to 24\n\n## Event Details\n\n- **Venue**: Kanda Myojin Cultural Exchange Hall EDOCCO STUDIO\n- **Event Date**: August 15, 2026\n- **Related Program**: AKIBA Mystery Quiz Rally, August 15-24, 2026\n- **Price**: Free\n- **Reservation**: Advance registration required\n- **Organizer**: Akihabara Tourism Promotion Association\n\n## Recommended For\n\n- People interested in Akihabara subculture and card game culture\n- Visitors who want to join a walking event around Kanda Myojin\n- Anyone looking for free hands-on events in Akihabara"
     },
     "tagIds": [
-      50,
       166,
       198,
-      207,
       243
     ]
   },
@@ -19921,7 +19664,6 @@
     },
     "tagIds": [
       29,
-      50,
       57,
       207
     ]
@@ -19962,7 +19704,6 @@
       "content": "## Overview\n\nMAGES. will hold the pop-up event STEINS;GATE Final Mission at Belle Salle Akihabara B1F on August 29 and 30, 2026. The official Akihabara event features the first official merchandise sales after the release of *STEINS;GATE RE:BOOT*.\n\n## Highlights\n\nThe venue will feature official merchandise sales, graphic displays, and an exhibit including a roughly 2.7-meter artificial satellite. Some items can be purchased in advance through venue-pickup online orders from July 6 at 18:00 through July 12 at 23:59.\n\n- First official merchandise sales after *STEINS;GATE RE:BOOT*\n- Graphic displays and a roughly 2.7-meter artificial satellite exhibit\n- Eligible goods available through venue-pickup online orders\n- Some time slots require advance reservation to reduce crowding\n\n## Event Details\n\n- **Venue**: Belle Salle Akihabara B1F\n- **Dates/Hours**: August 29, 2026, 10:00-19:00; August 30, 2026, 10:00-17:00\n- **Admission**: Free\n- **Reservation**: Some time slots require advance reservation\n- **Venue-Pickup Online Orders**: July 6, 2026, 18:00 - July 12, 2026, 23:59\n\n## Recommended For\n\n- Fans of the *STEINS;GATE* series\n- Visitors who want official goods and exhibits in Akihabara\n- Those planning to use venue-pickup online ordering"
     },
     "tagIds": [
-      50,
       74,
       80,
       129,
@@ -20005,7 +19746,6 @@
       "content": "## Overview\n\nEntame Urakata Lounge & Night #5, a networking event for entertainment industry staff, will be held at Rhythm Canvas in Suehirocho on July 15, 2026. The event brings production staff, operators, performers, and businesses together at the same tables.\n\n## Highlights\n\nThe fifth edition is capped at 77 participants on a first-come basis. The event is designed to help first-time and solo participants find people to talk with through 15-second self-introductions and reception matching.\n\n- Lounge from 16:00 to 18:30, free with advance entry\n- Night session costs ¥1,000 with soft drinks and alcohol included\n- Food and drink carry-in welcome\n- Three-minute pitch slots for sponsors and companies\n\n## Event Details\n\n- **Venue**: Rhythm Canvas\n- **Date**: July 15, 2026\n- **Price**: Lounge free; night session ¥1,000\n- **Capacity**: First 77 participants\n- **Reservation**: Form submission required\n\n## Recommended For\n\n- People involved in entertainment production, operations, or backstage work\n- Those looking for industry networking around Akihabara and Suehirocho\n- First-time participants seeking an approachable networking event"
     },
     "tagIds": [
-      50,
       109,
       166,
       207
@@ -20149,7 +19889,6 @@
     },
     "tagIds": [
       47,
-      50,
       80,
       129,
       207
