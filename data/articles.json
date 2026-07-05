@@ -1,5 +1,130 @@
 [
   {
+    "id": 523,
+    "title": "『この素晴らしい世界に祝福を！』展 ～Cheerful～がAKIBA_SQUAREで開催",
+    "slug": "konosuba-cheerful-exhibition-akiba-square-2026",
+    "summary": "アニメ10周年記念の展示会「『この素晴らしい世界に祝福を！』展 ～Cheerful～」が、2026年10月12日から10月31日まで秋葉原UDX 2階のAKIBA_SQUAREで開催される。",
+    "content": "## 概要\n\n「『この素晴らしい世界に祝福を！』展 ～Cheerful～」は、TVアニメ「この素晴らしい世界に祝福を！」10周年を記念した展示イベントです。会場は秋葉原UDX 2階のAKIBA_SQUAREで、2026年10月12日から10月31日まで開催されます。\n\n## 内容\n\n公式10周年サイトでは、アニメ10周年を記念した作品展示会として告知されています。コミックナタリーでは、入場券とグッズ付き入場券、当日券の料金、イープラスでの前売り販売開始日が紹介されています。\n\n- 会期は2026年10月12日（月・祝）から10月31日（土）まで\n- 会場は秋葉原UDX 2階「AKIBA_SQUARE」\n- 前売り入場券は2,800円、グッズ付き入場券は4,800円\n- 当日券は3,200円、グッズ付き当日券は5,200円\n- 前売り券は2026年7月26日からイープラスで販売予定\n\n## 開催情報\n\n- **期間**: 2026年10月12日（月・祝）〜10月31日（土）\n- **会場**: AKIBA_SQUARE（秋葉原UDX 2階）\n- **料金**: 入場券2,800円、グッズ付き入場券4,800円、当日券3,200円、グッズ付き当日券5,200円\n- **予約**: 前売り券あり。イープラスで販売予定\n\n## こんな人におすすめ\n\n- 「このすば」10周年企画を追っている方\n- 秋葉原UDXのアニメ展示イベントを探している方\n- グッズ付きチケットのある展示会に行きたい方",
+    "publishedAt": "2026-07-06",
+    "tags": ["イベント", "秋葉原", "秋葉原UDX", "アニメ"],
+    "en": {
+      "title": "KonoSuba Exhibition Cheerful to Take Place at AKIBA_SQUARE",
+      "summary": "The 10th anniversary exhibition KonoSuba: God's Blessing on This Wonderful World! Exhibition - Cheerful - will be held at AKIBA_SQUARE on the 2nd floor of Akihabara UDX from October 12 to October 31, 2026.",
+      "content": "## Overview\n\nKonoSuba: God's Blessing on This Wonderful World! Exhibition - Cheerful - is an exhibition celebrating the 10th anniversary of the TV anime series. It will be held at AKIBA_SQUARE on the 2nd floor of Akihabara UDX from October 12 to October 31, 2026.\n\n## Highlights\n\nThe official 10th anniversary site announces the event as a commemorative exhibition for the anime's 10th anniversary. Comic Natalie reports the ticket categories, same-day prices, and the planned start of advance ticket sales through eplus.\n\n- Dates: October 12 to October 31, 2026\n- Venue: AKIBA_SQUARE on the 2nd floor of Akihabara UDX\n- Advance admission ticket: ¥2,800; advance ticket with goods: ¥4,800\n- Same-day ticket: ¥3,200; same-day ticket with goods: ¥5,200\n- Advance tickets are scheduled to go on sale through eplus on July 26, 2026\n\n## Event Details\n\n- **Dates**: October 12-31, 2026\n- **Venue**: AKIBA_SQUARE, Akihabara UDX 2F\n- **Price**: Admission ¥2,800; admission with goods ¥4,800; same-day ¥3,200; same-day with goods ¥5,200\n- **Reservation**: Advance tickets planned through eplus\n\n## Recommended For\n\n- Fans following KonoSuba's 10th anniversary projects\n- Visitors looking for anime exhibitions at Akihabara UDX\n- Those interested in exhibitions with goods-included tickets"
+    },
+    "image": {
+      "src": "/images/articles/konosuba-cheerful-exhibition-akiba-square-2026.png",
+      "alt": "このすば展 ～Cheerful～のキービジュアル",
+      "sourceLabel": "公式展示ページ",
+      "sourceUrl": "https://konosuba.com/10th_anniv/exhibition/"
+    },
+    "sources": [
+      {
+        "label": "公式展示ページ",
+        "url": "https://konosuba.com/10th_anniv/exhibition/"
+      },
+      {
+        "label": "10周年記念サイト",
+        "url": "https://konosuba.com/10th_anniv/"
+      },
+      {
+        "label": "コミックナタリー",
+        "url": "https://natalie.mu/comic/news/679393"
+      }
+    ],
+    "event": {
+      "venue": "AKIBA_SQUARE",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-31",
+      "price": "入場券2,800円、グッズ付き入場券4,800円、当日券3,200円、グッズ付き当日券5,200円",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      47,
+      177,
+      207,
+      211
+    ]
+  },
+  {
+    "id": 522,
+    "title": "佐久間彩加の「第18回 秋葉原ティア ワンマンライブ&ファンミーティング」が開催",
+    "slug": "akihabara-tia-18th-oneman-fanmeeting-2026",
+    "summary": "カラオケバトルU-18元四天王の佐久間彩加による「第18回 秋葉原ティア ワンマンライブ&ファンミーティング」が、2026年8月2日に秋葉原ティアで開催される。",
+    "content": "## 概要\n\n「第18回 秋葉原ティア ワンマンライブ&ファンミーティング」は、カラオケバトルU-18元四天王の佐久間彩加によるライブとファンミーティングです。2026年8月2日に外神田の秋葉原ティアで開催されます。\n\n## 内容\n\nWalkerPlusのイベント情報では、ライブとファンミーティングを組み合わせた内容として紹介されています。アルコールを含む3.5時間飲み放題付きで、7月5日と8月2日の両方に申し込んだ人には手書きの手紙プレゼントも案内されています。\n\n- 開場13:00、開演13:30\n- 物販終了は16:45予定\n- 会場は秋葉原ティア\n- アルコールを含む3.5時間飲み放題付き\n- 7月5日と8月2日の両日申込者向け特典あり\n\n## 開催情報\n\n- **日時**: 2026年8月2日（日）13:00〜16:45\n- **会場**: 秋葉原ティア（東京都千代田区外神田4-4-3 小木曽ビル6階）\n- **料金**: 公式ページに記載なし\n- **予約**: 公式ページに記載なし\n\n## こんな人におすすめ\n\n- 佐久間彩加のライブを近距離で楽しみたい方\n- 秋葉原の小規模ライブイベントを探している方\n- ファンミーティング付きの音楽イベントに参加したい方",
+    "publishedAt": "2026-07-06",
+    "tags": ["イベント", "秋葉原", "ライブ", "秋葉原ティア"],
+    "en": {
+      "title": "Ayaka Sakuma's 18th Akihabara Tia One-Man Live and Fan Meeting to Be Held",
+      "summary": "The 18th Akihabara Tia One-Man Live and Fan Meeting by Ayaka Sakuma, a former Karaoke Battle U-18 top-four performer, will be held at Akihabara Tia on August 2, 2026.",
+      "content": "## Overview\n\nThe 18th Akihabara Tia One-Man Live and Fan Meeting is a live performance and fan meeting by Ayaka Sakuma, a former Karaoke Battle U-18 top-four performer. It will be held at Akihabara Tia in Sotokanda on August 2, 2026.\n\n## Highlights\n\nWalkerPlus describes the event as a combined live show and fan meeting. It includes 3.5 hours of all-you-can-drink service including alcohol, and a handwritten letter gift is listed for visitors who apply for both the July 5 and August 2 events.\n\n- Doors open at 13:00; show starts at 13:30\n- Merchandise sales are scheduled to end at 16:45\n- Venue: Akihabara Tia\n- Includes 3.5 hours of all-you-can-drink service with alcohol\n- Bonus listed for those applying for both the July 5 and August 2 events\n\n## Event Details\n\n- **Date/Time**: August 2, 2026, 13:00-16:45\n- **Venue**: Akihabara Tia, Ogiso Building 6F, 4-4-3 Sotokanda, Chiyoda-ku, Tokyo\n- **Price**: Not listed on the official page\n- **Reservation**: Not listed on the official page\n\n## Recommended For\n\n- Fans who want to see Ayaka Sakuma perform up close\n- Visitors looking for small live events in Akihabara\n- Those interested in music events with fan meetings"
+    },
+    "image": {
+      "src": "/images/articles/akihabara-tia-18th-oneman-fanmeeting-2026.jpg",
+      "alt": "第18回 秋葉原ティア ワンマンライブ&ファンミーティングの告知画像",
+      "sourceLabel": "WalkerPlus",
+      "sourceUrl": "https://www.walkerplus.com/event/ar0313e596436/"
+    },
+    "sources": [
+      {
+        "label": "WalkerPlus",
+        "url": "https://www.walkerplus.com/event/ar0313e596436/"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原ティア",
+      "startDate": "2026-08-02",
+      "endDate": "2026-08-02",
+      "price": "公式ページに記載なし",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      139,
+      207,
+      216
+    ]
+  },
+  {
+    "id": 521,
+    "title": "「SMP」食玩プラモデルがあみあみ秋葉原ラジオ会館店で展示",
+    "slug": "smp-shokugan-modeling-project-amiami-akihabara-2026",
+    "summary": "バンダイ キャンディ事業部の食玩プラキットブランド「SMP[SHOKUGAN MODELING PROJECT]」のアイテムが、あみあみ秋葉原ラジオ会館店で展示されている。",
+    "content": "## 概要\n\nバンダイ キャンディ事業部が展開する食玩プラキットブランド「SMP[SHOKUGAN MODELING PROJECT]」のアイテムが、あみあみ秋葉原ラジオ会館店で展示されています。電撃ホビーウェブが2026年7月5日に秋葉原展示レポートとして紹介しました。\n\n## 展示内容\n\n記事では、「ARMORED CORE VI FIRES OF RUBICON」のAAP07: BALTEUS（バルテウス）や、「百獣戦隊ガオレンジャー」のパワーアニマルシリーズ エクストラなどが取り上げられています。\n\n- 食玩プラキットブランド「SMP」の展示\n- 「ARMORED CORE VI」バルテウス関連アイテム\n- 「百獣戦隊ガオレンジャー」パワーアニマルシリーズ エクストラ\n- 会場はあみあみ秋葉原ラジオ会館店\n\n## 店舗情報\n\n- **店舗**: あみあみ秋葉原ラジオ会館店\n- **所在地**: 秋葉原ラジオ会館内\n- **掲載日**: 2026年7月5日\n\n## こんな人におすすめ\n\n- SMPシリーズの展示品を見たい方\n- アーマード・コアやスーパー戦隊系プラモデルを追っている方\n- 秋葉原ラジオ会館でホビー展示をチェックしたい方",
+    "publishedAt": "2026-07-06",
+    "tags": ["秋葉原", "あみあみ", "ホビー", "フィギュア"],
+    "en": {
+      "title": "SMP Shokugan Plastic Models Displayed at AmiAmi Akihabara Radio Kaikan",
+      "summary": "Items from Bandai Candy's SMP[SHOKUGAN MODELING PROJECT] shokugan plastic model brand are on display at AmiAmi Akihabara Radio Kaikan.",
+      "content": "## Overview\n\nItems from Bandai Candy's SMP[SHOKUGAN MODELING PROJECT] shokugan plastic model brand are on display at AmiAmi Akihabara Radio Kaikan. Dengeki Hobby Web featured the display in an Akihabara report published on July 5, 2026.\n\n## Display Highlights\n\nThe article highlights items including AAP07: BALTEUS from ARMORED CORE VI FIRES OF RUBICON and the Power Animals Series Extra from Hyakuju Sentai Gaoranger.\n\n- Display of items from the SMP shokugan plastic model brand\n- ARMORED CORE VI BALTEUS-related item\n- Hyakuju Sentai Gaoranger Power Animals Series Extra\n- Venue: AmiAmi Akihabara Radio Kaikan\n\n## Store Info\n\n- **Store**: AmiAmi Akihabara Radio Kaikan\n- **Location**: Inside Akihabara Radio Kaikan\n- **Article Date**: July 5, 2026\n\n## Recommended For\n\n- Visitors who want to see SMP series display samples\n- Fans following Armored Core or Super Sentai plastic models\n- Hobby fans checking displays around Akihabara Radio Kaikan"
+    },
+    "image": {
+      "src": "/images/articles/smp-shokugan-modeling-project-amiami-akihabara-2026.jpg",
+      "alt": "あみあみ秋葉原ラジオ会館店に展示されたSMP食玩プラモデル",
+      "sourceLabel": "電撃ホビーウェブ",
+      "sourceUrl": "https://hobby.dengeki.com/news/3070813/"
+    },
+    "sources": [
+      {
+        "label": "電撃ホビーウェブ",
+        "url": "https://hobby.dengeki.com/news/3070813/"
+      },
+      {
+        "label": "あみあみ 店舗情報",
+        "url": "https://www.amiami.jp/top/page/t/store.html"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      33,
+      113,
+      126,
+      177,
+      207
+    ]
+  },
+  {
     "id": 520,
     "title": "日本語ダンスミュージックパーティー「PURE IBIZA ver.202」が秋葉原MOGRAで開催",
     "slug": "pure-ibiza-ver-202-mogra-2026",
