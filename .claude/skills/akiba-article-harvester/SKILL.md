@@ -79,6 +79,7 @@ Include:
 - Online reservation, ticket, preorder, or application pages only when the physical venue, store, pickup point, or local action is in scope.
 
 Exclude:
+- Ordinary PC/electronics stock arrivals, restocks, or sales (入荷・販売情報) with no collaboration or event angle — e.g. GPU/CPU restocks, parts sales, junk lots, price drops at PC shops. Include only when tied to a collaboration, event, store opening/closure, or other notable local happening.
 - Generic national campaigns with no specific Akihabara venue.
 - Pure press releases with no local action, local venue/store, local impact, or Akihabara-specific reader value.
 - Crime, accident, or emergency items whose only value is sensational detail; include only when there is clear local public impact such as closures, access restrictions, safety notices, or major service changes.
