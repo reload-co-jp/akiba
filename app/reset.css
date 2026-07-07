@@ -310,6 +310,7 @@ body {
 
 .article-list {
   display: grid;
+  align-items: start;
   gap: 1.25rem;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   list-style: none;
@@ -320,7 +321,6 @@ body {
 .article-card-link {
   display: block;
   text-decoration: none;
-  height: 100%;
 }
 
 .article-card {
@@ -329,7 +329,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 16px 40px rgba(68, 83, 77, 0.08);
   overflow: hidden;
-  min-height: 100%;
   padding: 0 0 1.25rem;
   transition:
     transform 0.2s,
@@ -354,6 +353,7 @@ body {
   aspect-ratio: 16 / 10;
   background: #e7f0ed;
   display: block;
+  height: auto;
   object-fit: contain;
   width: 100%;
 }
