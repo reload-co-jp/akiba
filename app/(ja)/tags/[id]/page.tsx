@@ -24,9 +24,21 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!tag) return {}
   const title = `秋葉原の${tag.name}イベント一覧｜開催中・予定`
   const description = `秋葉原の${tag.name}関連イベント・ニュース一覧。開催中、開催予定、ポップアップ、フェア、展示情報をまとめて確認できます。`
+  const keywords = [
+    "秋葉原",
+    "神田",
+    "アキバ",
+    tag.name,
+    `秋葉原 ${tag.name}`,
+    `神田 ${tag.name}`,
+    `${tag.name} イベント`,
+    `${tag.name} ポップアップ`,
+    `${tag.name} 展示`,
+  ]
   return {
     title,
     description,
+    keywords,
     alternates: { canonical: `/tags/${id}/` },
     openGraph: {
       title: `${title} | アキバLive`,

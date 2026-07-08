@@ -73,6 +73,46 @@ export const getArticleTagNames = (article: Article): string[] =>
 
 export const addAkihabaraSeoTitle = (title: string) => `【秋葉原】${title}`
 
+const unique = (items: Array<string | undefined>) =>
+  Array.from(
+    new Set(
+      items
+        .map((item) => item?.trim())
+        .filter((item): item is string => Boolean(item)),
+    ),
+  )
+
+export const getJapaneseSeoKeywords = (article: Article): string[] => {
+  const tagNames = getArticleTagNames(article)
+  const venue = article.event?.venue
+  const base = [
+    "秋葉原",
+    "アキバ",
+    "神田",
+    "末広町",
+    "御茶ノ水",
+    "東京都千代田区",
+    "秋葉原イベント",
+    "秋葉原ニュース",
+    "秋葉原観光",
+    "秋葉原おでかけ",
+    article.event ? "今日行ける秋葉原イベント" : undefined,
+    article.event ? "今週の秋葉原イベント" : undefined,
+    venue ? `${venue} イベント` : undefined,
+    venue ? `秋葉原 ${venue}` : undefined,
+  ]
+
+  return unique([
+    ...base,
+    ...tagNames,
+    ...tagNames.flatMap((tag) => [
+      `秋葉原 ${tag}`,
+      `神田 ${tag}`,
+      venue ? `${venue} ${tag}` : undefined,
+    ]),
+  ]).slice(0, 30)
+}
+
 // <title>/OGP/Twitter向け。Google検索結果での切れを防ぐため、タイトルが長い記事だけ
 // data/articles.json の seoTitle（短縮版）を使う。h1やJSON-LDのheadlineは article.title を使う。
 export const getSeoTitle = (article: Article) =>

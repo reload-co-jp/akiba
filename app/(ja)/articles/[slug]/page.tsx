@@ -18,6 +18,7 @@ import {
   placeholderImage,
   addAkihabaraSeoTitle,
   getSeoTitle,
+  getJapaneseSeoKeywords,
 } from "lib/articles"
 import { getSpotByVenueName } from "lib/spots"
 import { absoluteUrl } from "lib/site"
@@ -52,9 +53,11 @@ export const generateMetadata = async ({ params }: Props) => {
   const image = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
   const seoTitle = getSeoTitle(article)
+  const keywords = getJapaneseSeoKeywords(article)
   return {
     title: seoTitle,
     description: article.summary,
+    keywords,
     alternates: {
       canonical: `/articles/${slug}/`,
       ...(article.en && {
@@ -89,7 +92,7 @@ export const generateMetadata = async ({ params }: Props) => {
       images: [image.src],
     },
     other: {
-      news_keywords: getArticleTagNames(article).slice(0, 10).join(", "),
+      news_keywords: keywords.slice(0, 10).join(", "),
     },
   }
 }
@@ -195,6 +198,7 @@ const Page = async ({ params }: Props) => {
   const publishedAt = getArticlePublishedIso(article)
   const isPlaceholderImage = articleImage.src === placeholderImage.src
   const tagNames = getArticleTagNames(article)
+  const seoKeywords = getJapaneseSeoKeywords(article)
   const articleLinkSources = getArticleLinkSources(article)
   const sourceUrls = articleLinkSources
     .map((source) => source.url)
@@ -202,7 +206,42 @@ const Page = async ({ params }: Props) => {
   const mentions = [
     ...tagNames.map((name) => ({ "@type": "Thing", name })),
     ...(article.event ? [{ "@type": "Place", name: article.event.venue }] : []),
+    ...(relatedSpot
+      ? [
+          {
+            "@type": "Place",
+            name: relatedSpot.name,
+            url: absoluteUrl(`/spots/${relatedSpot.slug}/`),
+          },
+        ]
+      : []),
   ]
+
+  const eventLocation = article.event
+    ? {
+        "@type": "Place",
+        name: article.event.venue,
+        ...(relatedSpot ? { url: absoluteUrl(`/spots/${relatedSpot.slug}/`) } : {}),
+        ...(relatedSpot?.website ? { sameAs: relatedSpot.website } : {}),
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: relatedSpot?.address ?? article.event.venue,
+          addressLocality: relatedSpot ? "千代田区" : "秋葉原",
+          addressRegion: "東京都",
+          addressCountry: "JP",
+        },
+        ...(relatedSpot?.lat && relatedSpot.lng
+          ? {
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: relatedSpot.lat,
+                longitude: relatedSpot.lng,
+              },
+              hasMap: `https://www.google.com/maps/search/?api=1&query=${relatedSpot.lat},${relatedSpot.lng}`,
+            }
+          : {}),
+      }
+    : null
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -210,7 +249,7 @@ const Page = async ({ params }: Props) => {
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
     headline: addAkihabaraSeoTitle(article.title),
     description: article.summary,
-    keywords: tagNames.join(", "),
+    keywords: seoKeywords.join(", "),
     inLanguage: "ja",
     datePublished: publishedAt,
     dateModified: publishedAt,
@@ -238,8 +277,10 @@ const Page = async ({ params }: Props) => {
     },
     about: [
       { "@type": "Place", name: "秋葉原" },
+      { "@type": "Place", name: "神田" },
       { "@type": "Thing", name: "秋葉原イベント" },
       { "@type": "Thing", name: "秋葉原エンタメ" },
+      ...tagNames.map((name) => ({ "@type": "Thing", name })),
     ],
     mentions,
     contentLocation: {
@@ -268,15 +309,15 @@ const Page = async ({ params }: Props) => {
         isAccessibleForFree: article.event.price === "無料",
         url: articleUrl,
         image: absoluteUrl(articleImage.src),
-        location: {
-          "@type": "Place",
-          name: article.event.venue,
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: "秋葉原",
-            addressRegion: "東京都",
-            addressCountry: "JP",
-          },
+        keywords: seoKeywords.join(", "),
+        location: eventLocation,
+        offers: {
+          "@type": "Offer",
+          url: articleUrl,
+          availability: "https://schema.org/InStock",
+          ...(article.event.price === "無料"
+            ? { price: "0", priceCurrency: "JPY" }
+            : { priceSpecification: { "@type": "PriceSpecification", priceCurrency: "JPY", description: article.event.price } }),
         },
         organizer: {
           "@type": "Organization",

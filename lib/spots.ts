@@ -47,6 +47,42 @@ export const placeholderSpotImage = {
 
 export const getSpotImage = (spot: Spot) => spot.image ?? placeholderSpotImage
 
+const unique = (items: Array<string | undefined>) =>
+  Array.from(
+    new Set(
+      items
+        .map((item) => item?.trim())
+        .filter((item): item is string => Boolean(item)),
+    ),
+  )
+
+export const getSpotSeoKeywords = (spot: Spot): string[] => {
+  const features = [spot.category, ...(spot.tags ?? [])]
+
+  return unique([
+    "秋葉原",
+    "アキバ",
+    "神田",
+    "末広町",
+    "御茶ノ水",
+    "東京都千代田区",
+    "秋葉原 観光",
+    "秋葉原 スポット",
+    "秋葉原 イベント会場",
+    `${spot.name} アクセス`,
+    `${spot.name} 営業時間`,
+    `${spot.name} イベント`,
+    `秋葉原 ${spot.name}`,
+    `神田 ${spot.name}`,
+    ...features,
+    ...features.flatMap((feature) => [
+      `秋葉原 ${feature}`,
+      `神田 ${feature}`,
+      `${spot.name} ${feature}`,
+    ]),
+  ]).slice(0, 30)
+}
+
 export const getAllSpots = (): Spot[] => spotsData as Spot[]
 
 export const getSpotBySlug = (slug: string): Spot | undefined =>

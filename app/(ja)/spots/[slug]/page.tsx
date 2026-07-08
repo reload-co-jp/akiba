@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { getAllSpotSlugs, getSpotBySlug, getSpotImage } from "lib/spots"
+import { getAllSpotSlugs, getSpotBySlug, getSpotImage, getSpotSeoKeywords } from "lib/spots"
 import { getArticlesBySpotName, formatDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
@@ -17,11 +17,13 @@ export const generateMetadata = async ({ params }: Props) => {
   const spot = getSpotBySlug(slug)
   if (!spot) return {}
   const image = getSpotImage(spot)
+  const keywords = getSpotSeoKeywords(spot)
   const seoTitle = `${spot.name}｜秋葉原のイベント会場・アクセス・営業時間`
   const description = `${spot.name}のアクセス、営業時間、住所、関連イベントを紹介。秋葉原で開催中・開催予定のイベント確認にも使えます。`
   return {
     title: seoTitle,
     description,
+    keywords,
     alternates: { canonical: `/spots/${slug}/` },
     openGraph: {
       title: seoTitle,
@@ -47,20 +49,40 @@ const Page = async ({ params }: Props) => {
   const spotUrl = absoluteUrl(`/spots/${slug}/`)
   const spotImage = getSpotImage(spot)
   const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(0, 10)
+  const spotKeywords = getSpotSeoKeywords(spot)
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "TouristAttraction",
+    "@type": ["TouristAttraction", "Place", "LocalBusiness"],
+    "@id": `${spotUrl}#place`,
     name: spot.name,
     description: spot.description,
     url: spotUrl,
+    keywords: spotKeywords.join(", "),
+    category: spot.category,
     address: {
       "@type": "PostalAddress",
       streetAddress: spot.address,
-      addressLocality: "秋葉原",
+      addressLocality: "千代田区",
       addressRegion: "東京都",
       addressCountry: "JP",
     },
+    areaServed: [
+      { "@type": "Place", name: "秋葉原" },
+      { "@type": "Place", name: "神田" },
+      { "@type": "Place", name: "末広町" },
+    ],
+    openingHours: spot.hours,
+    publicAccess: true,
+    isAccessibleForFree: spot.admission === "無料" || spot.admission == null,
+    amenityFeature: [
+      { "@type": "LocationFeatureSpecification", name: spot.category, value: true },
+      ...(spot.tags ?? []).map((tag) => ({
+        "@type": "LocationFeatureSpecification",
+        name: tag,
+        value: true,
+      })),
+    ],
     ...(spot.lat && spot.lng
       ? {
           geo: {
@@ -71,7 +93,38 @@ const Page = async ({ params }: Props) => {
         }
       : {}),
     ...(spot.website ? { sameAs: spot.website } : {}),
-    image: absoluteUrl(spotImage.src),
+    image: {
+      "@type": "ImageObject",
+      url: absoluteUrl(spotImage.src),
+      ...(spotImage.width && { width: spotImage.width }),
+      ...(spotImage.height && { height: spotImage.height }),
+    },
+    subjectOf: relatedArticles.map((article, i) => ({
+      "@type": article.event ? "Event" : "NewsArticle",
+      position: i + 1,
+      name: article.title,
+      url: absoluteUrl(`/articles/${article.slug}/`),
+      ...(article.event
+        ? {
+            startDate: article.event.startDate,
+            endDate: article.event.endDate,
+          }
+        : {}),
+    })),
+  }
+
+  const relatedEventsLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${spot.name}の関連イベント・ニュース`,
+    url: spotUrl,
+    numberOfItems: relatedArticles.length,
+    itemListElement: relatedArticles.map((article, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: article.title,
+      url: absoluteUrl(`/articles/${article.slug}/`),
+    })),
   }
 
   const breadcrumbLd = {
@@ -98,7 +151,7 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([jsonLd, relatedEventsLd]) }}
       />
       <script
         type="application/ld+json"
