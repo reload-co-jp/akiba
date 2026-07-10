@@ -1,5 +1,43 @@
 [
   {
+    "id": 541,
+    "title": "TOKYO ATOMに『ロック祭FINAL 後夜祭』特設コーナーが期間限定で登場",
+    "slug": "rock-festival-final-after-party-tokyo-atom-akihabara-2026",
+    "summary": "秋葉原のTOKYO ATOMショップ内に、『ロック祭FINAL 後夜祭』特設コーナーが2026年7月18日から9月27日まで期間限定で登場。『ロック祭FINAL』で販売していた一部商品を取り扱う予定。",
+    "content": "## 概要\n\n秋葉原のTOKYO ATOMショップ内に、『ロック祭FINAL 後夜祭』特設コーナーが期間限定で登場します。開催期間は2026年7月18日から9月27日までです。\n\n## 内容\n\n手塚治虫公式サイト「虫ん坊」の告知によると、特設コーナーでは『ロック祭FINAL』で販売していた一部商品を取り扱う予定です。店内の一部コーナーで展開されるため、手塚治虫作品のグッズを秋葉原で探している人に向いた短期企画です。\n\n- TOKYO ATOMショップ内に特設コーナーを設置\n- 『ロック祭FINAL』で販売していた一部商品を取り扱い予定\n- 営業時間は11:00〜19:00\n- 月曜定休、祝日の場合は翌火曜休み\n\n## 開催情報\n\n- **会場**: TOKYO ATOMショップ内一部コーナー\n- **期間**: 2026年7月18日（土）〜9月27日（日）\n- **営業時間**: 11:00〜19:00\n- **定休日**: 月曜（祝日の場合は翌火曜）\n- **内容**: 『ロック祭FINAL 後夜祭』特設コーナー、一部商品の販売\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 手塚治虫作品のグッズを秋葉原で探している方\n- 『ロック祭FINAL』関連商品をチェックしたい方\n- TOKYO ATOMの期間限定コーナーを巡りたい方",
+    "publishedAt": "2026-07-10",
+    "tags": ["秋葉原", "イベント", "ポップアップ"],
+    "en": {
+      "title": "Rock Festival FINAL After-Party Special Corner to Open at TOKYO ATOM in Akihabara",
+      "summary": "A limited-time Rock Festival FINAL After-Party special corner will appear inside the TOKYO ATOM shop in Akihabara from July 18 to September 27, 2026. It is scheduled to carry some items previously sold at Rock Festival FINAL.",
+      "content": "## Overview\n\nA limited-time Rock Festival FINAL After-Party special corner will appear inside the TOKYO ATOM shop in Akihabara. The corner runs from July 18 to September 27, 2026.\n\n## Highlights\n\nAccording to the announcement on Osamu Tezuka official site Mushi-n-Bo, the special corner is scheduled to carry some items that were sold at Rock Festival FINAL. It will be set up in part of the shop, making it a short-term stop for visitors looking for Osamu Tezuka related goods in Akihabara.\n\n- Special corner inside the TOKYO ATOM shop\n- Scheduled to carry some items previously sold at Rock Festival FINAL\n- Hours are 11:00-19:00\n- Closed Mondays, or the following Tuesday when Monday is a holiday\n\n## Event Details\n\n- **Venue**: A section inside the TOKYO ATOM shop\n- **Dates**: July 18-September 27, 2026\n- **Hours**: 11:00-19:00\n- **Closed**: Mondays, or Tuesday when Monday is a holiday\n- **Contents**: Rock Festival FINAL After-Party special corner and selected merchandise sales\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required\n\n## Recommended For\n\n- Visitors looking for Osamu Tezuka goods in Akihabara\n- Fans who want to check Rock Festival FINAL related items\n- People touring limited-time corners at TOKYO ATOM"
+    },
+    "image": {
+      "src": "/images/articles/rock-festival-final-after-party-tokyo-atom-akihabara-2026.jpg",
+      "alt": "『ロック祭FINAL 後夜祭』特設コーナーの告知ビジュアル",
+      "sourceLabel": "手塚治虫公式サイト 虫ん坊",
+      "sourceUrl": "https://tezukaosamu.net/jp/mushi/entry/34985.html"
+    },
+    "sources": [
+      {
+        "label": "手塚治虫公式サイト 虫ん坊",
+        "url": "https://tezukaosamu.net/jp/mushi/entry/34985.html"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      50,
+      207
+    ],
+    "event": {
+      "venue": "TOKYO ATOMショップ内一部コーナー",
+      "startDate": "2026-07-18",
+      "endDate": "2026-09-27",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    }
+  },
+  {
     "id": 540,
     "title": "ロボット格闘技「REK TOKYO」がベルサール秋葉原で日本初開催",
     "slug": "rek-tokyo-robot-fighting-bellesalle-akihabara-2026",
