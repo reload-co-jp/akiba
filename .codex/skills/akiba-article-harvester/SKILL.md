@@ -36,7 +36,7 @@ python3 .codex/skills/akiba-article-harvester/scripts/harvest.py list all > /tmp
 
 ### DNS / Network Failures
 
-Article sources often fail inside agent sandboxes with temporary DNS or network errors. The harvest script retries transient failures automatically (3 attempts with backoff). When output contains `FETCH FAILED after retries` or DNS messages such as `Temporary failure in name resolution`, rerun the exact same `harvest.py` command with escalated network permissions instead of switching to manual one-off fetching.
+Article sources often fail inside agent sandboxes with temporary DNS or network errors. The harvest script retries transient failures automatically (5 attempts with backoff). When output contains `FETCH FAILED after retries` or DNS messages such as `Temporary failure in name resolution`, rerun the exact same `harvest.py` command with escalated network permissions instead of switching to manual one-off fetching. For local debugging only, `HARVEST_FETCH_BACKEND=curl` forces curl and `HARVEST_CURL_FALLBACK=1 HARVEST_FETCH_BACKEND=auto` enables curl fallback after urllib retries; keep the default urllib backend for normal agent runs because subprocess curl can inherit sandbox DNS limits.
 
 Use the same rule for images: prefer `curl -L --retry 3 --retry-delay 2 --connect-timeout 10 "<image-url>" -o public/images/articles/<slug>.<ext>`. If `curl` fails with DNS/network sandbox errors, rerun the exact command with escalated network permissions.
 

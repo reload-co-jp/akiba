@@ -19,8 +19,10 @@ letting it print directly into the conversation, e.g.:
 """
 import html
 import json
+import os
 import re
 import socket
+import subprocess
 import sys
 import time
 import urllib.error
@@ -29,10 +31,13 @@ import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
-UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+UA = {"User-Agent": USER_AGENT}
 REPO_ROOT = Path(__file__).resolve().parents[4]
 ARTICLES_JSON = REPO_ROOT / "data" / "articles.json"
 IMAGES_DIR = REPO_ROOT / "public" / "images" / "articles"
+FETCH_BACKEND = os.environ.get("HARVEST_FETCH_BACKEND", "urllib").lower()
+CURL_FALLBACK = os.environ.get("HARVEST_CURL_FALLBACK") == "1"
 
 
 def is_transient_network_error(exc):
@@ -51,25 +56,91 @@ def is_transient_network_error(exc):
     )
 
 
-def fetch(url, timeout=20, retries=3, retry_delay=2):
-    req = urllib.request.Request(url, headers=UA)
-    last_error = None
-    for attempt in range(1, retries + 1):
+def decode_response(raw, charset=""):
+    sample = raw[:4096].decode("ascii", errors="ignore")
+    meta = re.search(r"charset=[\"']?([A-Za-z0-9._-]+)", sample, re.I)
+    candidates = [charset, meta.group(1) if meta else "", "utf-8", "cp932", "shift_jis", "euc_jp"]
+    for enc in candidates:
+        if not enc:
+            continue
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.read().decode("utf-8", errors="ignore")
-        except Exception as exc:
-            last_error = exc
-            if attempt >= retries or not is_transient_network_error(exc):
-                break
+            return raw.decode(enc)
+        except (LookupError, UnicodeDecodeError):
+            continue
+    return raw.decode("utf-8", errors="ignore")
+
+
+def fetch_with_urllib(url, timeout):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        charset = r.headers.get_content_charset() or ""
+        return decode_response(r.read(), charset)
+
+
+def fetch_with_curl(url, timeout=20, retries=4, retry_delay=2):
+    # curl is often more reliable than urllib in agent sandboxes, especially
+    # when DNS resolution is flaky. Keep this shell-free for safety.
+    cmd = [
+        "curl",
+        "-L",
+        "-sS",
+        "-f",
+        "--retry",
+        str(retries),
+        "--retry-delay",
+        str(retry_delay),
+        "--retry-all-errors",
+        "--connect-timeout",
+        str(min(timeout, 20)),
+        "--max-time",
+        str(timeout + 30),
+        "--user-agent",
+        USER_AGENT,
+        url,
+    ]
+    if os.environ.get("HARVEST_CURL_IPV4") == "1":
+        cmd.insert(2, "--ipv4")
+    proc = subprocess.run(cmd, capture_output=True, check=False)
+    if proc.returncode != 0 and b"unknown option: --retry-all-errors" in proc.stderr.lower():
+        cmd.remove("--retry-all-errors")
+        proc = subprocess.run(cmd, capture_output=True, check=False)
+    if proc.returncode != 0:
+        stderr = proc.stderr.decode("utf-8", errors="ignore").strip()
+        raise RuntimeError(f"curl failed ({proc.returncode}): {stderr}")
+    return decode_response(proc.stdout)
+
+
+def fetch(url, timeout=20, retries=5, retry_delay=2):
+    last_error = None
+    if FETCH_BACKEND in ("auto", "urllib"):
+        for attempt in range(1, retries + 1):
+            try:
+                return fetch_with_urllib(url, timeout)
+            except Exception as exc:
+                last_error = exc
+                if attempt >= retries or not is_transient_network_error(exc):
+                    break
+                print(
+                    f"FETCH RETRY {attempt}/{retries}: {url} ({type(exc).__name__}: {exc})",
+                    file=sys.stderr,
+                )
+                time.sleep(retry_delay * attempt)
+
+    if FETCH_BACKEND == "curl" or (FETCH_BACKEND == "auto" and CURL_FALLBACK):
+        if last_error is not None:
             print(
-                f"FETCH RETRY {attempt}/{retries}: {url} ({type(exc).__name__}: {exc})",
+                f"FETCH FALLBACK curl: {url} (urllib failed: {type(last_error).__name__}: {last_error})",
                 file=sys.stderr,
             )
-            time.sleep(retry_delay * attempt)
+        try:
+            return fetch_with_curl(url, timeout=timeout, retry_delay=retry_delay)
+        except Exception as exc:
+            last_error = exc
+
     print(
-        "FETCH FAILED after retries. If this is DNS/network sandboxing, rerun the same "
-        f"harvest.py command with escalated network permissions. URL: {url}",
+        "FETCH FAILED after retries. If this is DNS/network "
+        "sandboxing, rerun the same harvest.py command with escalated network permissions. "
+        f"URL: {url}",
         file=sys.stderr,
     )
     raise last_error
