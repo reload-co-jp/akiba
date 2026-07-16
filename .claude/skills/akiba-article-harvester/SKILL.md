@@ -45,13 +45,24 @@ Use the same rule for images: prefer `curl -L --retry 3 --retry-delay 2 --connec
 
 ## Harvest Script
 
-`scripts/harvest.py` bakes in the source-specific parsing fixes found in past runs (wrong href shapes, titles hidden in `title=""` attributes instead of link text, stale archived listings, etc — see comments in the script). Three subcommands:
+`scripts/harvest.py` bakes in the source-specific parsing fixes found in past runs (wrong href shapes, titles hidden in `title=""` attributes instead of link text, stale archived listings, etc — see comments in the script). Four subcommands:
 
 - `list <source|all>` — candidate `(title, url)` pairs for one source name from `references/source-list.md` (`atre`, `shosen`, `prtimes`, `walkerplus`, `collabocafe`, `gamers`, `enjoytokyo`, `akibapc_info`, `akibapc_event`, `animate`, `amiami_realstore`, `kotobukiya`, `mogra`, `akihabara_zest`, `akihabara_galaxy`, `club_goodman`, `gnews`, `ceek`), or `all`.
 - `detail <url>...` — fetches one or more detail pages and prints `TITLE` / `OGIMG` / `OGDESC` / `FACTS` (date, venue, price, reservation lines). Use this for step 6 instead of WebFetch. Prints a warning if the page mentions 神保町/グランデ (the shosen Jimbocho store — out of Akihabara scope).
-- `dedup <candidate>...` — see Duplicate Check below.
+- `dedup <candidate>...` — see Duplicate Check below. Also checks each candidate against `references/excluded-candidates.jsonl` (see [Excluded Candidates Log](#excluded-candidates-log)) and prints `PREVIOUSLY EXCLUDED (<reason>, checked <date>)` when a match is found, so a held/rejected URL from an earlier session doesn't get re-researched.
+- `exclude "<url>" "<reason>" "<note>"` — append one held/rejected candidate to `references/excluded-candidates.jsonl`. See [Excluded Candidates Log](#excluded-candidates-log).
 
 If a source's HTML structure changes and extraction breaks, fix the relevant entry in `SOURCES` (or the `gnews`/`ceek` branches) in the script directly rather than reverting to ad-hoc regex in the conversation — keeping the fix in the script means the next run benefits too.
+
+## Excluded Candidates Log
+
+`references/excluded-candidates.jsonl` records every candidate URL that was researched and then held or rejected — not because it duplicates an existing article (that's what `sources[].url` in `data/articles.json` already covers), but because it was out of scope, already ended, or otherwise not worth an article. Without this log, the same low-value URL gets re-fetched and re-evaluated every harvesting pass.
+
+- One JSON object per line: `{"url": "...", "reason": "...", "note": "...", "checked": "YYYY-MM-DD"}`.
+- `reason` is a short machine-friendly tag. Use one of: `out_of_scope_venue` (e.g. shosen Jimbocho/Grande, not Akihabara), `event_ended` (dated event whose period is already over), `not_akihabara_specific` (real event/campaign but tied to a non-Akihabara location or a generic national campaign), `insufficient_facts` (source page lacked confirmable core facts), `low_value` (in-scope but judged not worth an article — ordinary stock/restock news, etc).
+- `dedup` automatically checks candidate URLs (and `keyword|url` pairs) against this log via normalized-URL match and prints `PREVIOUSLY EXCLUDED` — treat that the same as a duplicate signal: skip deep fact-checking unless something material changed (e.g. an `insufficient_facts` entry where a follow-up source now has the missing facts, or an `event_ended` entry that turns out to be a new run of a recurring event at a new venue/date).
+- After deciding to hold or reject a candidate during a harvesting pass, log it immediately: `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py exclude "<url>" "<reason>" "<short note>"`. Do this for every `保留` item, not just a summary at the end — logging happens per-candidate as you triage the queue.
+- Do not log a candidate here if it turned out to be a duplicate of an existing article — that case is already covered by `sources[].url` in `data/articles.json`, and `dedup`'s `SOURCE URL MATCH` / slug-token checks already catch it on the next pass.
 
 ## X.com Discovery
 
@@ -113,6 +124,7 @@ Additional checks:
 - Report merged duplicates under `重複`/`マージ`, including the existing slug. Do not report them as skipped when you added source/content to the existing article.
 - When harvesting many items, maintain a temporary duplicate ledger: `new`, `duplicate`, `hold`. Only `new` candidates are written as articles.
 - Run the dedup batch a second time right before final edits with the full selected list, to catch late duplicates revealed mid-session.
+- Every `hold`/rejected candidate (out-of-scope venue, event already ended, not Akihabara-specific, insufficient facts, judged low-value) must be logged to `references/excluded-candidates.jsonl` via `harvest.py exclude` — see [Excluded Candidates Log](#excluded-candidates-log). This is what makes the next harvesting pass skip re-researching the same rejected URL.
 
 ## Source Recording
 
@@ -152,7 +164,7 @@ If the user asks to add articles, implement them directly.
 If many candidates are found, keep the response compact:
 - `追加`: slugs created
 - `重複`: existing slugs or titles
-- `保留`: reason, such as missing source, unclear venue, or no image
+- `保留`: reason, such as missing source, unclear venue, or no image (each one should already be logged to `references/excluded-candidates.jsonl` per [Excluded Candidates Log](#excluded-candidates-log))
 - `確認`: `pnpm build` result
 
 Do not list every discovered candidate when many were rejected. Report only useful outcomes: added, duplicate, held, and verification.

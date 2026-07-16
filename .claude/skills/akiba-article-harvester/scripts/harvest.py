@@ -10,7 +10,12 @@ in the fixes found the hard way so each harvest run doesn't re-derive them.
 Usage:
   python3 harvest.py list <source|all>      # candidate (title, url) pairs
   python3 harvest.py detail <url>           # TITLE/OGIMG/OGDESC/FACTS for one page
-  python3 harvest.py dedup "<kw1>" "<kw2>"   # check candidates against existing data
+  python3 harvest.py dedup "<kw1>" "<kw2>"   # check candidates against existing data + excluded log
+  python3 harvest.py exclude "<url>" "<reason>" "<note>"
+                                             # log a held/rejected candidate so future
+                                             # dedup runs skip re-researching it. reason is a
+                                             # short tag: out_of_scope_venue, event_ended,
+                                             # not_akihabara_specific, insufficient_facts, low_value
 
 Run with output redirected to a file and read the file back, e.g.:
   python3 harvest.py list all > /tmp/harvest_out.txt 2>&1
@@ -34,6 +39,51 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 REPO_ROOT = Path(__file__).resolve().parents[4]
 ARTICLES_JSON = REPO_ROOT / "data" / "articles.json"
 IMAGES_DIR = REPO_ROOT / "public" / "images" / "articles"
+EXCLUDED_JSONL = Path(__file__).resolve().parent.parent / "references" / "excluded-candidates.jsonl"
+
+
+def load_excluded():
+    """Load previously-held/rejected candidate URLs so dedup runs don't
+    re-research the same non-article every harvest pass. Keyed by normalized
+    URL; last entry for a given URL wins if it was logged more than once."""
+    if not EXCLUDED_JSONL.exists():
+        return {}
+    out = {}
+    for line in EXCLUDED_JSONL.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            rec = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        norm = normalize_source_url(rec.get("url", ""))
+        if norm:
+            out[norm] = rec
+    return out
+
+
+def cmd_exclude(args):
+    """Append one held/rejected candidate to the excluded-candidates log.
+    Usage: python3 harvest.py exclude "<url>" "<reason>" "<note>"
+    reason is a short machine-friendly tag, e.g. out_of_scope_venue,
+    event_ended, not_akihabara_specific, insufficient_facts, low_value."""
+    if len(args) < 2:
+        print('Usage: python3 harvest.py exclude "<url>" "<reason>" ["<note>"]')
+        return
+    url = args[0]
+    reason = args[1]
+    note = args[2] if len(args) > 2 else ""
+    rec = {
+        "url": url,
+        "reason": reason,
+        "note": note,
+        "checked": time.strftime("%Y-%m-%d"),
+    }
+    EXCLUDED_JSONL.parent.mkdir(parents=True, exist_ok=True)
+    with EXCLUDED_JSONL.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    print(f"Logged excluded candidate: {url} ({reason})")
 
 
 def is_transient_network_error(exc):
@@ -404,10 +454,21 @@ def cmd_dedup(candidates):
         if norm:
             source_url_index.setdefault(norm, {})[a["slug"]] = a
 
+    excluded = load_excluded()
+
     for cand in candidates:
         kw, _, url = cand.partition("|")
         print(f"\n=== {cand} ===")
         found_any = False
+
+        excluded_target = url or (kw if kw.startswith("http") else "")
+        if excluded_target:
+            rec = excluded.get(normalize_source_url(excluded_target))
+            if rec:
+                found_any = True
+                print(f"  PREVIOUSLY EXCLUDED ({rec.get('reason', '?')}, checked {rec.get('checked', '?')}):")
+                if rec.get("note"):
+                    print(f"    {rec['note']}")
 
         if kw and not kw.startswith("http"):
             text_hits = [
@@ -465,6 +526,8 @@ def main():
         cmd_detail(args)
     elif cmd == "dedup":
         cmd_dedup(args)
+    elif cmd == "exclude":
+        cmd_exclude(args)
     else:
         print(__doc__)
 
