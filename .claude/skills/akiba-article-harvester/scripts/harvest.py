@@ -297,35 +297,104 @@ SOURCES = {
 }
 
 
+CRIME_NOISE_RE = re.compile(r"逮捕|容疑|殺人予備|通り魔|無差別殺傷|殺傷事件")
+ELECTRONICS_STOCK_RE = re.compile(
+    r"(円|台)(が|など|から|、).{0,15}(セール|入荷|発売|中古|未使用品|特価|割引|引き)"
+)
+AKIBA_EVENT_KEYWORDS_RE = re.compile(
+    r"開店|閉店|閉業|オープン|移転|解体|コラボ|イベント|キャンペーン|フェア|POP ?UP|ポップアップ|開催|リニューアル"
+)
+
+
+def noise_reason(title):
+    """Classify obviously-out-of-scope rows so they can be collapsed to a
+    count instead of printed in full. Two big offenders drove /tmp/harvest_out.txt
+    past 500 lines in one pass: gnews/ceek syndicate the same story across dozens
+    of outlets, and akibapc_info's routine used-electronics price posts are
+    excluded by SKILL.md's candidate rules anyway. Keep this conservative —
+    anything that also looks like an opening/closing/collab/event is never
+    filtered, since that's exactly the non-event 出来事 this skill wants."""
+    if CRIME_NOISE_RE.search(title):
+        return "crime"
+    if not AKIBA_EVENT_KEYWORDS_RE.search(title) and ELECTRONICS_STOCK_RE.search(title):
+        return "stock"
+    return None
+
+
+def normalize_news_title(title):
+    """Collapse '<same story> - Outlet A' / '<same story> - Outlet B' into one
+    grouping key so syndicated reposts (common on gnews/ceek) count once."""
+    t = re.sub(r"\s*[\|\-–—]\s*[^\|\-–—]{1,30}$", "", title).strip()
+    t = re.sub(r"\s+", "", t)
+    t = re.sub(r"[「」『』（）()]", "", t)
+    return t
+
+
+def strip_fragment(url):
+    return url.split("#")[0]
+
+
+def print_items(name, rows, limit):
+    """rows: iterable of (extra_or_None, title, url). Applies noise filtering
+    (see noise_reason) and duplicate-title grouping (see normalize_news_title)
+    before printing, so callers reading the redirected output file don't pay
+    for reading past dozens of reposts of the same story or routine PC-parts
+    sale posts that SKILL.md excludes anyway."""
+    noise_counts = {}
+    seen_keys = {}
+    kept = []
+    for extra, title, url in rows:
+        reason = noise_reason(title)
+        if reason:
+            noise_counts[reason] = noise_counts.get(reason, 0) + 1
+            continue
+        key = normalize_news_title(title)
+        if key in seen_keys:
+            seen_keys[key][0] += 1
+            continue
+        entry = [1, extra, title, strip_fragment(url)]
+        seen_keys[key] = entry
+        kept.append(entry)
+
+    suffix = ""
+    if noise_counts.get("crime"):
+        suffix += f", {noise_counts['crime']} crime-noise filtered"
+    if noise_counts.get("stock"):
+        suffix += f", {noise_counts['stock']} stock-noise filtered"
+    print(f"\n=== {name} ({len(kept)} shown / {len(rows)} total{suffix}) ===")
+    for count, extra, title, url in kept[:limit]:
+        dup = f" (x{count})" if count > 1 else ""
+        prefix = f"{extra} | " if extra else ""
+        print(f"{prefix}{trunc(title, 70)}{dup} | {url}")
+
+
 def list_source(name, limit=80):
     if name == "gnews":
         text = fetch(
             "https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja"
         )
         items = re.findall(r"<item>(.*?)</item>", text, re.S)
-        print(f"\n=== gnews ({len(items)}) ===")
-        for it in items[:limit]:
+        rows = []
+        for it in items:
             title = dec(re.search(r"<title>(.*?)</title>", it, re.S).group(1))
             link = re.search(r"<link>(.*?)</link>", it, re.S).group(1)
             pub = re.search(r"<pubDate>(.*?)</pubDate>", it, re.S)
             pub = pub.group(1)[:16] if pub else ""
-            print(f"{pub} | {trunc(title, 80)} | {link}")
+            rows.append((pub, title, link))
+        print_items("gnews", rows, limit)
         return
     if name == "ceek":
-        text = fetch("https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1")
         items = extract(
             "https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1",
             lambda h: h and h.startswith("http") and "ceek.jp" not in h,
         )
-        print(f"\n=== ceek ({len(items)}) ===")
-        for t, href in items[:limit]:
-            print(f"{trunc(t, 70)} | {href}")
+        rows = [(None, t, href) for t, href in items]
+        print_items("ceek", rows, limit)
         return
     cfg = SOURCES[name]
     items = extract(cfg["url"], cfg["href_filter"], cfg["base"])
-    print(f"\n=== {name} ({len(items)}) ===")
-    for t, href in items[:limit]:
-        print(f"{trunc(t, 70)} | {href}")
+    rows = [(None, t, href) for t, href in items]
+    print_items(name, rows, limit)
 
 
 def cmd_list(args):
