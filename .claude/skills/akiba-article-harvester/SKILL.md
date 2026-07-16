@@ -26,7 +26,7 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site. Include both event items and non-event local happenings / "秋葉原で起こった出来事".
 5. Deduplicate the whole queue with `python3 scripts/harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) before drafting new articles — do this BEFORE deep fact-checking, since most rejections happen here. Always include the source URL used for discovery/confirmation so the dedup check can compare against existing `sources[].url`.
 6. For each remaining candidate, confirm facts with `python3 scripts/harvest.py detail "<url>"`: date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
-7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Include official/reference links in `sources` so the article detail page can render them. Set `authorId` to `1` on every new article, then verify once with `pnpm build`.
+7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Include official/reference links in `sources` so the article detail page can render them. Set `authorId` to `1` on every new article, then run `pnpm run validate:articles` for a fast structural check and fix anything it reports, then verify once with `pnpm build`.
 
 ### Avoiding the ls-noise hook
 
@@ -165,7 +165,7 @@ If many candidates are found, keep the response compact:
 - `追加`: slugs created
 - `重複`: existing slugs or titles
 - `保留`: reason, such as missing source, unclear venue, or no image (each one should already be logged to `references/excluded-candidates.jsonl` per [Excluded Candidates Log](#excluded-candidates-log))
-- `確認`: `pnpm build` result
+- `確認`: `pnpm run validate:articles` and `pnpm build` result
 
 Do not list every discovered candidate when many were rejected. Report only useful outcomes: added, duplicate, held, and verification.
 
@@ -180,4 +180,5 @@ For each selected candidate, follow `$event-article-writer`:
 - Set `authorId: 1` on every new article.
 - Add `event` data only when the article is a dated event, campaign, opening, closure, or other item that should appear on `/events`. For ordinary news without a useful event-style date/location, omit `event`.
 - Update map coordinates in `components/events-map.tsx` when the venue/location should appear on `/events`.
-- Run `pnpm build` after edits.
+- Run `pnpm run validate:articles` after edits (fast structural check); fix anything it reports.
+- Run `pnpm build` once after the whole batch is written and validated.

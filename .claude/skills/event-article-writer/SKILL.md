@@ -17,7 +17,8 @@ Read [references/article-format.md](references/article-format.md) before editing
 4. If a duplicate exists, merge the new source/facts into the existing article instead of creating another entry.
 5. Download a usable thumbnail image when available.
 6. Add or update the article entry in `data/articles.json`, including the `en` translation field.
-7. Verify the article route and metadata with `pnpm build`.
+7. Run `pnpm run validate:articles` for a fast structural check (see [Verification](#verification)); fix anything it reports.
+8. Verify the article route and metadata with `pnpm build` once the batch is done.
 
 ## Source Rules
 
@@ -91,7 +92,8 @@ Every new article must include an `en` field. See the section heading mapping an
 
 ## Verification
 
-- Run `pnpm build` after edits.
-- Confirm the generated route appears in build output.
+- After every `data/articles.json` edit, run `pnpm run validate:articles` (or `python3 scripts/validate-articles.py`) first. It checks JSON syntax, required fields, duplicate id/slug, unknown `tagIds`/`authorId`, date formats, `event.startDate <= endDate`, and `image.src` pointing at a file that actually exists under `public/images/articles/` — in well under a second, without invoking Next.js. Fix everything it reports before moving on.
+- Only run `pnpm build` once, after the validator is clean and all articles in the batch are written — not after every single edit. It's the one check that confirms actual route generation and OGP wiring, which the validator can't see.
+- Confirm the generated route appears in `pnpm build` output.
 - If an image was added, make sure the file exists under `public/images/articles/`.
 - If the article includes `image`, the detail page should emit the OGP image automatically through existing app code.

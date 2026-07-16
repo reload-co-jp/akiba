@@ -11,7 +11,8 @@
     "start": "next start",
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
-    "update-image-dims": "node scripts/update-image-dimensions.mjs"
+    "update-image-dims": "node scripts/update-image-dimensions.mjs",
+    "validate:articles": "python3 scripts/validate-articles.py"
   },
   "keywords": [],
   "author": "",
