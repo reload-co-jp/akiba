@@ -12,3 +12,6 @@
 {"url": "https://collabo-cafe.com/events/collabo/otonarino-tenshisama-yumekawa-lavender-popup-store-gamers2026/", "reason": "insufficient_facts", "note": "ゲーマーズ東京・宮城・愛知・大阪の4店舗、東京がAKIHABARAゲーマーズ本店か特定できず", "checked": "2026-07-16"}
 {"url": "https://collabo-cafe.com/events/collabo/wind-breaker-cafe-collabocafe-honpo2026/", "reason": "insufficient_facts", "note": "コラボカフェ本舗の東京拠点が秋葉原か特定できず", "checked": "2026-07-16"}
 {"url": "https://collabo-cafe.com/events/collabo/zombielandsaga-movie-romero-pajamas-popup-store-gamers-akihabara2026/", "reason": "duplicate_merged", "note": "zombieland-saga-yumeginga-paradise-popup-gamers-akihabara-2026と同一イベント、既にsource収録済み", "checked": "2026-07-16"}
+{"url": "https://www.mor-sai.jp/have-a-bike-day", "reason": "insufficient_facts", "note": "gnews見出しは2026-07-16付だが検索結果は全て2025年8月19日開催の記述のみで2026年開催の具体的日時が確認できず。次回2026年の公式発表確認後に再検討", "checked": "2026-07-17"}
+{"url": "https://gamebiz.jp/news/429539", "reason": "insufficient_facts", "note": "バブルボブル40周年記念祭inタイトーステーション、全国のタイトー対象店舗が開催地でAkihabara固有の情報(日程/限定特典)未確認", "checked": "2026-07-17"}
+{"url": "https://president.jp/articles/-/115881", "reason": "low_value", "note": "メイド喫茶激減・コンカフェ急増のトレンド分析記事。具体的な日時・会場・料金等のイベント性なし、読者の行動につながる具体的情報なし", "checked": "2026-07-17"}
