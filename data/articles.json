@@ -22410,5 +22410,85 @@
       "price": "無料（昼の部）、夜の交流イベントは5,500円",
       "reservation": false
     }
+  },
+  {
+    "id": 562,
+    "title": "「青春ブタ野郎」バカンスver.ストアがボークス秋葉原ホビー天国2で開催",
+    "slug": "aobuta-vacation-popup-volks-akihabara-2026",
+    "summary": "「青春ブタ野郎」シリーズのポップアップストア「バカンスver.ストア」が、2026年7月11日から7月26日までボークス秋葉原ホビー天国2 7Fイベントスペースで開催。バカンスコンセプトの描き下ろしグッズを販売し、2,000円（税込）購入ごとに抽選会に参加できる。",
+    "content": "## 概要\n\n「青春ブタ野郎（青ブタ）」シリーズのポップアップストア「バカンスver.ストア」が、2026年7月11日から7月26日までボークス秋葉原ホビー天国2で開催されます。\n\n会場は7Fイベントスペース。バカンスをコンセプトにした新規描き下ろしイラストを使用した期間限定ショップです。\n\n## 内容\n\n会場ではバカンスver.描き下ろしイラストを使用したグッズを先行販売するほか、購入特典として抽選会を実施します。\n\n- バカンスver.描き下ろしイラストグッズの先行販売\n- 会場限定購入特典（抽選会）\n\n購入特典として、対象商品を税込2,000円購入するごとに1回、豪華景品が当たる抽選会に参加できます。景品はA賞「描き下ろしB1タペストリー（全1種）」、B賞「描き下ろしA5ビジュアルアクリルプレート（全1種）」、C賞「描き下ろしイラストカード（全12種）ランダム」です。\n\n## 開催情報\n\n- **日時**: 2026年7月11日（土）〜7月26日（日）\n- **会場**: ボークス秋葉原ホビー天国2 7Fイベントスペース\n- **住所**: 東京都千代田区外神田4-2-10\n- **営業時間**: 平日11:00〜19:00 / 土日祝10:00〜19:00\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要。混雑時は入場制限の場合あり\n\n## こんな人におすすめ\n\n- 「青春ブタ野郎」シリーズの新作グッズを集めたい方\n- バカンスver.の描き下ろしビジュアルを見たい方\n- ボークス秋葉原ホビー天国2のポップアップを巡りたい方\n- 抽選会の豪華景品を狙いたい方",
+    "publishedAt": "2026-07-16",
+    "en": {
+      "title": "\"Rascal Does Not Dream\" Vacation ver. Store at Volks Akihabara Hobby Tengoku 2",
+      "summary": "The Rascal Does Not Dream series pop-up shop \"Vacation ver. Store\" runs July 11–26, 2026 at Volks Akihabara Hobby Tengoku 2's 7F event space, selling newly drawn vacation-themed merchandise with a lottery for every ¥2,000 (tax included) spent.",
+      "content": "## Overview\n\nThe *Rascal Does Not Dream* (Aobuta) series pop-up shop \"Vacation ver. Store\" will be held at Volks Akihabara Hobby Tengoku 2 from July 11 to July 26, 2026.\n\nThe venue is the 7F event space. This limited-time shop features newly drawn illustrations with a vacation concept.\n\n## Highlights\n\nThe venue sells newly drawn Vacation ver. merchandise and offers a venue-limited purchase lottery.\n\n- Advance sale of newly drawn Vacation ver. merchandise\n- Venue-limited purchase bonus (lottery)\n\nAs a purchase bonus, customers can enter a lottery for luxury prizes once for every ¥2,000 (tax included) spent on eligible products. Prizes include Prize A \"newly drawn B1 tapestry\" (1 design), Prize B \"newly drawn A5 visual acrylic plate\" (1 design), and Prize C \"newly drawn illustration cards\" (12 designs, random).\n\n## Event Details\n\n- **Dates**: July 11–26, 2026\n- **Venue**: Volks Akihabara Hobby Tengoku 2, 7F Event Space\n- **Address**: 4-2-10 Sotokanda, Chiyoda-ku, Tokyo\n- **Hours**: Weekdays 11:00–19:00 / weekends and holidays 10:00–19:00\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required. Entry may be limited during crowded periods\n\n## Recommended For\n\n- Fans collecting new *Rascal Does Not Dream* series merchandise\n- Visitors who want to see the Vacation ver. newly drawn visuals\n- Those touring pop-up shops at Volks Akihabara Hobby Tengoku 2\n- Collectors aiming for the lottery's luxury prizes"
+    },
+    "image": {
+      "src": "/images/articles/aobuta-vacation-popup-volks-akihabara-2026.jpg",
+      "alt": "「青春ブタ野郎」バカンスver.ストアの告知ビジュアル",
+      "sourceLabel": "ボークス秋葉原ホビー天国2 店舗ブログ",
+      "sourceUrl": "https://www.volks.co.jp/blog_sr/akiba2/2026/06/19/032107.html"
+    },
+    "sources": [
+      {
+        "label": "ボークス秋葉原ホビー天国2 店舗ブログ",
+        "url": "https://www.volks.co.jp/blog_sr/akiba2/2026/06/19/032107.html"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/aobuta-vacation-pop-up-store-volks-akihabara2026/"
+      },
+      {
+        "label": "ボークス秋葉原ホビー天国2 店舗情報",
+        "url": "https://hobby.volks.co.jp/shop/hobbytengoku2/"
+      }
+    ],
+    "event": {
+      "venue": "ボークス 秋葉原ホビー天国2",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-26",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [233, 129, 127]
+  },
+  {
+    "id": 563,
+    "title": "『少女終末旅行』物販イベント「少女空想旅行」がボークス秋葉原で開催",
+    "slug": "shojo-kuso-ryoko-volks-akihabara-2026",
+    "summary": "『少女終末旅行』の物販イベント「少女空想旅行」が、2026年7月31日から8月16日までボークス秋葉原ホビー天国2 7階で開催。グルーヴガレージによる秋葉原での同作品イベント第5弾で、描き下ろしグッズや購入特典を展開する。",
+    "content": "## 概要\n\nTVアニメ『少女終末旅行』の物販イベント「少女空想旅行」が、2026年7月31日から8月16日までの17日間、ボークス秋葉原ホビー天国2で開催されます。\n\n作品の世界観に沿った商品を作り続けてきたグルーヴガレージが手がける、秋葉原での同作品イベントとしては第5回目にあたります。\n\n## 内容\n\n会場は7階全フロアを使用し、描き下ろしグッズを中心に展開します。\n\n- 新規描き下ろしグッズの販売\n- 購入特典イラストカード（全9種）の配布\n- ガラポン抽選会\n\n購入特典として、対象商品を税込1,000円購入するごとにイラストカード（全9種、なくなり次第配布終了）を1枚プレゼント。さらに税込3,000円購入するごとに、さかな＆ほねのオモテウラアクリルチェーン（1日5名）が当たるガラポン抽選会に挑戦できます。\n\n## 開催情報\n\n- **日時**: 2026年7月31日（金）〜8月16日（日）\n- **会場**: ボークス秋葉原ホビー天国2 7階\n- **住所**: 東京都千代田区外神田4-2-10\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『少女終末旅行』のファン\n- グルーヴガレージの描き下ろしグッズを集めたい方\n- 秋葉原でのポップアップイベントを巡りたい方\n- ガラポン抽選会に挑戦したい方",
+    "publishedAt": "2026-07-16",
+    "en": {
+      "title": "\"Girls' Last Tour\" Goods Event \"Shojo Kuso Ryoko\" at Volks Akihabara",
+      "summary": "The Girls' Last Tour goods event \"Shojo Kuso Ryoko\" runs July 31–August 16, 2026 at Volks Akihabara Hobby Tengoku 2's 7th floor, the fifth installment of Groove Garage's Akihabara events for the series, featuring newly drawn merchandise and purchase bonuses.",
+      "content": "## Overview\n\nA goods event for the TV anime *Girls' Last Tour*, titled \"Shojo Kuso Ryoko,\" will be held at Volks Akihabara Hobby Tengoku 2 for 17 days from July 31 to August 16, 2026.\n\nThis marks the fifth Akihabara event for the series produced by Groove Garage, which has continued creating merchandise faithful to the series' world since its broadcast.\n\n## Highlights\n\nThe event occupies the entire 7th floor and centers on newly drawn merchandise.\n\n- Sale of newly drawn merchandise\n- Purchase bonus illustration cards (9 designs)\n- Gachapon lottery\n\nAs a purchase bonus, customers receive one illustration card (from 9 designs, while supplies last) for every ¥1,000 (tax included) spent on eligible products. Spending ¥3,000 (tax included) also enters customers into a gachapon lottery for a fish-and-bone double-sided acrylic chain (5 winners per day).\n\n## Event Details\n\n- **Dates**: July 31–August 16, 2026\n- **Venue**: Volks Akihabara Hobby Tengoku 2, 7th Floor\n- **Address**: 4-2-10 Sotokanda, Chiyoda-ku, Tokyo\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of *Girls' Last Tour*\n- Those wanting to collect Groove Garage's newly drawn merchandise\n- Visitors touring pop-up events in Akihabara\n- Those wanting to try the gachapon lottery"
+    },
+    "image": {
+      "src": "/images/articles/shojo-kuso-ryoko-volks-akihabara-2026.jpg",
+      "alt": "『少女終末旅行』「少女空想旅行」告知ビジュアル",
+      "sourceLabel": "マイナビニュース",
+      "sourceUrl": "https://news.mynavi.jp/article/20260716-4706462/"
+    },
+    "sources": [
+      {
+        "label": "マイナビニュース",
+        "url": "https://news.mynavi.jp/article/20260716-4706462/"
+      },
+      {
+        "label": "ボークス秋葉原ホビー天国2 店舗情報",
+        "url": "https://hobby.volks.co.jp/shop/hobbytengoku2/"
+      }
+    ],
+    "event": {
+      "venue": "ボークス 秋葉原ホビー天国2",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-16",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [47, 129, 127]
   }
 ]

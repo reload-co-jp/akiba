@@ -8,3 +8,7 @@
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7111", "reason": "event_ended", "note": "死亡遊戯で飯を食う。ミュージアム。開催期間2026-02-27〜04-19で終了済み", "checked": "2026-07-16"}
 {"url": "https://prtimes.jp/main/html/rd/p/000000265.000070373.html", "reason": "not_akihabara_specific", "note": "新時代44 大名古屋ビル北店限定の周年イベント。秋葉原と無関係", "checked": "2026-07-16"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2124492.html", "reason": "insufficient_facts", "note": "サンコー秋葉原総本店跡地に動き、との見出しだが本文に跡地の具体的動向の記述なし（マルツ秋葉原本店のTDKラムダ特価情報が主）。跡地の続報が出たら再確認", "checked": "2026-07-16"}
+{"url": "https://collabo-cafe.com/events/collabo/konosuba-animate-fair2026/", "reason": "not_akihabara_specific", "note": "アニメイト対象店舗全国フェア、秋葉原限定でない", "checked": "2026-07-16"}
+{"url": "https://collabo-cafe.com/events/collabo/otonarino-tenshisama-yumekawa-lavender-popup-store-gamers2026/", "reason": "insufficient_facts", "note": "ゲーマーズ東京・宮城・愛知・大阪の4店舗、東京がAKIHABARAゲーマーズ本店か特定できず", "checked": "2026-07-16"}
+{"url": "https://collabo-cafe.com/events/collabo/wind-breaker-cafe-collabocafe-honpo2026/", "reason": "insufficient_facts", "note": "コラボカフェ本舗の東京拠点が秋葉原か特定できず", "checked": "2026-07-16"}
+{"url": "https://collabo-cafe.com/events/collabo/zombielandsaga-movie-romero-pajamas-popup-store-gamers-akihabara2026/", "reason": "duplicate_merged", "note": "zombieland-saga-yumeginga-paradise-popup-gamers-akihabara-2026と同一イベント、既にsource収録済み", "checked": "2026-07-16"}
