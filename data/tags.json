@@ -1163,5 +1163,35 @@
     "id": 245,
     "name": "まち歩き",
     "nameEn": "Town Walk"
+  },
+  {
+    "id": 246,
+    "name": "アズールレーン",
+    "nameEn": "Azur Lane"
+  },
+  {
+    "id": 247,
+    "name": "幼女戦記",
+    "nameEn": "Saga of Tanya the Evil"
+  },
+  {
+    "id": 248,
+    "name": "KADOKAWA",
+    "nameEn": "KADOKAWA"
+  },
+  {
+    "id": 249,
+    "name": "TCL",
+    "nameEn": "TCL"
+  },
+  {
+    "id": 250,
+    "name": "つくばエクスプレス",
+    "nameEn": "Tsukuba Express"
+  },
+  {
+    "id": 251,
+    "name": "ジーストア・アキバ",
+    "nameEn": "GEE!STORE Akiba"
   }
 ]
