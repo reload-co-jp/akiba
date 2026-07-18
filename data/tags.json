@@ -1198,5 +1198,15 @@
     "id": 252,
     "name": "ホロライブ",
     "nameEn": "hololive"
+  },
+  {
+    "id": 253,
+    "name": "Fate/strange Fake",
+    "nameEn": "Fate/strange Fake"
+  },
+  {
+    "id": 254,
+    "name": "アイドルマスター",
+    "nameEn": "THE iDOLM@STER"
   }
 ]
