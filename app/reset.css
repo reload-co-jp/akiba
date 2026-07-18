@@ -1109,6 +1109,10 @@ body {
   top: 5.5rem;
 }
 
+.events-page__bottom-map .events-map {
+  position: static;
+}
+
 .events-map__header {
   margin-bottom: 0.75rem;
 }
@@ -1293,6 +1297,36 @@ body {
   width: 96px;
 }
 
+.events-list--grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.events-card--grid {
+  grid-template-columns: 1fr;
+  padding: 0;
+  overflow: hidden;
+}
+
+.events-card--grid > div {
+  padding: 0.875rem 1rem 1rem;
+}
+
+.events-card__image--grid {
+  aspect-ratio: 4 / 3;
+  border-radius: 8px 8px 0 0;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .events-list--grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .events-card__tags {
   display: flex;
   flex-wrap: wrap;
@@ -1341,12 +1375,15 @@ body {
 
 @media (max-width: 520px) {
   .events-card--with-image {
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 1fr;
   }
 
   .events-card__image {
-    height: 80px;
-    width: 80px;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
   }
 }
 
@@ -1775,6 +1812,47 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.cal__list--large .cal__list-item {
+  grid-template-columns: 6rem 6.5rem 1fr;
+}
+
+.cal__list--large .cal__list-image {
+  height: 6rem;
+  width: 6rem;
+}
+
+@media (max-width: 640px) {
+  .cal__list--large .cal__list-item {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 0 0 0.75rem;
+  }
+
+  .cal__list--large .cal__list-image {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px 8px 0 0;
+    grid-row: 1;
+    height: auto;
+    width: 100%;
+  }
+
+  .cal__list--large .cal__list-date {
+    grid-row: 2;
+    padding: 0.625rem 0.75rem 0;
+  }
+
+  .cal__list--large .cal__list-title {
+    grid-row: 3;
+    padding: 0.125rem 0.75rem 0;
+  }
+
+  .cal__list--large .cal__list-venue {
+    grid-row: 4;
+    padding: 0 0.75rem;
+    white-space: normal;
+  }
 }
 
 /* Today Events Page */

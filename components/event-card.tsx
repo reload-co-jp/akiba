@@ -19,6 +19,7 @@ type Props = {
   sourceLabel?: string
   headingAs?: "h2" | "h3"
   labels?: { venue?: string; dates?: string; price?: string }
+  layout?: "row" | "grid"
 }
 
 export const EventCard = ({
@@ -33,16 +34,26 @@ export const EventCard = ({
   sourceLabel,
   headingAs = "h3",
   labels = {},
+  layout = "row",
 }: Props) => {
   const img = image ?? PLACEHOLDER
   const Heading = headingAs as "h2" | "h3"
   const l = { venue: "会場", dates: "期間", price: "料金", ...labels }
+  const isGrid = layout === "grid"
   return (
     <li>
       <Link href={href} className="events-card-link">
-        <article className="events-card events-card--with-image">
+        <article
+          className={
+            isGrid
+              ? "events-card events-card--grid"
+              : "events-card events-card--with-image"
+          }
+        >
           <img
-            className="events-card__image"
+            className={
+              isGrid ? "events-card__image events-card__image--grid" : "events-card__image"
+            }
             src={img.src}
             alt={img.alt}
             width={img.width}

@@ -6,6 +6,7 @@ import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
 import { CalListItem } from "components/cal-list-item"
 import { EventCard } from "components/event-card"
+import { EventsMap } from "components/events-map"
 
 const COLLAB_CAFE_TAG_IDS = [81, 57, 131, 82]
 
@@ -146,7 +147,7 @@ const Page = () => {
           {ongoing.length === 0 ? (
             <p className="events-page__empty">No collab cafes currently open.</p>
           ) : (
-            <ul className="events-list">
+            <ul className="events-list events-list--grid">
               {ongoing.map((a) => (
                 <EventCard
                   key={a.id}
@@ -159,6 +160,7 @@ const Page = () => {
                   sourceUrl={a.sources?.[0]?.url}
                   sourceLabel={a.sources?.[0]?.label}
                   labels={EN_LABELS}
+                  layout="grid"
                 />
               ))}
             </ul>
@@ -173,7 +175,7 @@ const Page = () => {
           {upcoming.length === 0 ? (
             <p className="events-page__empty">No upcoming collab cafes.</p>
           ) : (
-            <ul className="cal__list">
+            <ul className="cal__list cal__list--large">
               {upcoming.map((a) => (
                 <CalListItem
                   key={a.id}
@@ -188,6 +190,14 @@ const Page = () => {
             </ul>
           )}
         </EventSection>
+
+        {allCollabCafe.length > 0 && (
+          <EventSection id="collab-cafe-map-heading" kicker="Map" title="Venue Map">
+            <div className="events-page__bottom-map">
+              <EventsMap events={allCollabCafe} />
+            </div>
+          </EventSection>
+        )}
 
         <EventSection id="related-heading" kicker="Related" title="Related Pages">
           <ul className="today-related">

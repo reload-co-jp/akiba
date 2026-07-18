@@ -6,6 +6,7 @@ import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
 import { CalListItem } from "components/cal-list-item"
 import { EventCard } from "components/event-card"
+import { EventsMap } from "components/events-map"
 
 const POPUP_TAG_IDS = [17, 128, 129, 196, 54, 62]
 
@@ -145,7 +146,7 @@ const Page = () => {
           {ongoing.length === 0 ? (
             <p className="events-page__empty">No popup stores currently open.</p>
           ) : (
-            <ul className="events-list">
+            <ul className="events-list events-list--grid">
               {ongoing.map((a) => (
                 <EventCard
                   key={a.id}
@@ -158,6 +159,7 @@ const Page = () => {
                   sourceUrl={a.sources?.[0]?.url}
                   sourceLabel={a.sources?.[0]?.label}
                   labels={EN_LABELS}
+                  layout="grid"
                 />
               ))}
             </ul>
@@ -172,7 +174,7 @@ const Page = () => {
           {upcoming.length === 0 ? (
             <p className="events-page__empty">No upcoming popup stores.</p>
           ) : (
-            <ul className="cal__list">
+            <ul className="cal__list cal__list--large">
               {upcoming.map((a) => (
                 <CalListItem
                   key={a.id}
@@ -187,6 +189,14 @@ const Page = () => {
             </ul>
           )}
         </EventSection>
+
+        {allPopup.length > 0 && (
+          <EventSection id="popup-map-heading" kicker="Map" title="Venue Map">
+            <div className="events-page__bottom-map">
+              <EventsMap events={allPopup} />
+            </div>
+          </EventSection>
+        )}
 
         <EventSection id="related-heading" kicker="Related" title="Related Pages">
           <ul className="today-related">
