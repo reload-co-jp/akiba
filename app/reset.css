@@ -1120,6 +1120,25 @@ body {
   margin: 0;
 }
 
+.article-venue-map {
+  margin-bottom: 1rem;
+}
+
+.article-venue-map iframe {
+  aspect-ratio: 16 / 10;
+  border: 1px solid rgba(96, 120, 111, 0.14);
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+}
+
+.article-venue-map a {
+  color: #b94a3a;
+  display: inline-block;
+  font-size: 0.8125rem;
+  margin-top: 0.5rem;
+}
+
 .events-map__frame {
   aspect-ratio: 4 / 3;
   background: #e7f0ed;

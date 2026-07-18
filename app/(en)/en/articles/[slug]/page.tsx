@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import { marked } from "marked"
 import { ArticleImagePreview } from "components/article-image-preview"
+import { ArticleVenueMap } from "components/article-venue-map"
 import {
   formatDate,
   formatDateTime,
@@ -22,6 +23,8 @@ import {
   placeholderImage,
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
+import { getSpotByVenueName } from "lib/spots"
+import { getVenuePoint } from "lib/venue-points"
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -134,6 +137,12 @@ const Page = async ({ params }: Props) => {
   const seoKeywords = getEnglishSeoKeywords(article)
   const seoVenue = getEnglishEventVenue(article)
   const seoPrice = getEnglishEventPrice(article)
+  const relatedSpot = article.event ? getSpotByVenueName(article.event.venue) : undefined
+  const venuePoint = article.event
+    ? relatedSpot?.lat && relatedSpot.lng
+      ? { lat: relatedSpot.lat, lng: relatedSpot.lng }
+      : getVenuePoint(article.event.venue)
+    : undefined
   const articleLinkSources = getArticleLinkSources(article)
   const sourceUrls = articleLinkSources
     .map((source) => source.url)
@@ -400,6 +409,17 @@ const Page = async ({ params }: Props) => {
                 {article.event.reservation ? "Required" : "Not required"}
               </dd>
             </dl>
+            {venuePoint && (
+              <div style={{ marginTop: "1rem" }}>
+                <ArticleVenueMap
+                  venue={seoVenue}
+                  lat={venuePoint.lat}
+                  lng={venuePoint.lng}
+                  query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} Akihabara`}
+                  mapLabel="Open in Google Maps"
+                />
+              </div>
+            )}
           </div>
         )}
 

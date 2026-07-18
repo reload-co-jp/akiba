@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import { marked } from "marked"
 import { ArticleImagePreview } from "components/article-image-preview"
+import { ArticleVenueMap } from "components/article-venue-map"
 import { WantToGoButton } from "components/want-to-go-button"
 import {
   formatDate,
@@ -22,6 +23,7 @@ import {
 } from "lib/articles"
 import { getSpotByVenueName } from "lib/spots"
 import { absoluteUrl } from "lib/site"
+import { getVenuePoint } from "lib/venue-points"
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -122,6 +124,11 @@ const Page = async ({ params }: Props) => {
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const relatedSpot = article.event ? getSpotByVenueName(article.event.venue) : undefined
+  const venuePoint = article.event
+    ? relatedSpot?.lat && relatedSpot.lng
+      ? { lat: relatedSpot.lat, lng: relatedSpot.lng }
+      : getVenuePoint(article.event.venue)
+    : undefined
   const primaryTag = article.tagIds.map((tid) => getTagById(tid)).find(Boolean)
   const nextLinks = [
     article.event
@@ -546,6 +553,16 @@ const Page = async ({ params }: Props) => {
                 {article.event.reservation ? "要予約" : "不要"}
               </dd>
             </dl>
+            {venuePoint && (
+              <div style={{ marginTop: "1rem" }}>
+                <ArticleVenueMap
+                  venue={article.event.venue}
+                  lat={venuePoint.lat}
+                  lng={venuePoint.lng}
+                  query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} 秋葉原`}
+                />
+              </div>
+            )}
             <p style={{ margin: ".75rem 0 0", fontSize: ".8125rem" }}>
               <Link href="/events/today/" style={{ color: "#3f5851" }}>
                 → 今日開催の秋葉原イベント一覧を見る
