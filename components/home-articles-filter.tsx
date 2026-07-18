@@ -11,9 +11,12 @@ import {
 import { useLang } from "./language-provider"
 import AdsenseFluidAd from "./adsense-fluid-ad"
 
+const RECENT_TAG_WINDOW = 60
+
 export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
   const { lang } = useLang()
-  const tagCounts = articles.reduce<Record<number, number>>(
+  const recentArticles = articles.slice(0, RECENT_TAG_WINDOW)
+  const tagCounts = recentArticles.reduce<Record<number, number>>(
     (counts, article) => {
       for (const id of article.tagIds) {
         counts[id] = (counts[id] ?? 0) + 1
@@ -25,6 +28,7 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
   const tags = Object.keys(tagCounts)
     .map(Number)
     .filter((id) => tagCounts[id] >= 2)
+    .sort((a, b) => tagCounts[b] - tagCounts[a])
     .map((id) => ({ id, tag: getTagById(id) }))
     .filter(
       (
