@@ -258,6 +258,22 @@ body {
   margin: 0;
 }
 
+.home-articles__more {
+  background: #b94a3a;
+  border: 1px solid #b94a3a;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+}
+
+.home-articles__more:hover {
+  background: #9f3f32;
+  border-color: #9f3f32;
+}
+
 .article-month-list {
   display: flex;
   flex-direction: column;
