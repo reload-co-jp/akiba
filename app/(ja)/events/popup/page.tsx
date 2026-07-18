@@ -119,9 +119,9 @@ const Page = () => {
         </header>
 
         <p className="today-lead">
-          秋葉原ではアニメ・ゲーム・アイドルなどのキャラクターをテーマにした期間限定ポップアップストアが常時開催されています。
-          限定グッズ販売・描き下ろしビジュアル・サイン入り特典など、会場でしか手に入らないアイテムを会場・開催期間付きで紹介します。
-          開催中のPOPUPストアをまとめてチェックして、推しのイベントを見逃さないようにしましょう。
+          秋葉原ではアニメ・ゲーム・アイドルとコラボした期間限定ポップアップストアが続々オープン中。
+          限定グッズや描き下ろしビジュアル、サイン入り特典まで、会場でしか手に入らないアイテムを開催期間つきでまとめて紹介。
+          気になるPOPUPをチェックして、推しのイベントを見逃さないようにしよう。
         </p>
 
         <EventSection
@@ -130,7 +130,7 @@ const Page = () => {
           title={`開催中のポップアップストア（${ongoing.length}件）`}
         >
           {ongoing.length === 0 ? (
-            <p className="events-page__empty">現在開催中のポップアップストアはありません。</p>
+            <p className="events-page__empty">今開催中のポップアップストアはないみたい。</p>
           ) : (
             <ul className="events-list events-list--grid">
               {ongoing.map((a) => (
@@ -157,7 +157,7 @@ const Page = () => {
           title={`開催予定のポップアップストア（${upcoming.length}件）`}
         >
           {upcoming.length === 0 ? (
-            <p className="events-page__empty">開催予定のポップアップストアはありません。</p>
+            <p className="events-page__empty">今のところ開催予定のポップアップストアはなし。</p>
           ) : (
             <ul className="cal__list cal__list--large">
               {upcoming.map((a) => (
