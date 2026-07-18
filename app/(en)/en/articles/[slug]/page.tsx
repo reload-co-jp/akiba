@@ -125,7 +125,7 @@ const Page = async ({ params }: Props) => {
         new Date(b.article.publishedAt).getTime() -
           new Date(a.article.publishedAt).getTime()
     )
-    .slice(0, 3)
+    .slice(0, 9)
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const articleUrl = absoluteUrl(`/en/articles/${slug}/`)
