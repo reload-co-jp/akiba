@@ -21,7 +21,7 @@ const AdsenseFluidAd = () => {
     <aside
       className="article-fluid-ad"
       aria-label="広告"
-      style={{ maxWidth: "960px", margin: "0 auto" }}
+      style={{ maxWidth: "960px", margin: "0 auto", padding: ".5rem" }}
     >
       <ins
         className="adsbygoogle"
