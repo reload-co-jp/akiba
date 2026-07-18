@@ -553,16 +553,6 @@ const Page = async ({ params }: Props) => {
                 {article.event.reservation ? "要予約" : "不要"}
               </dd>
             </dl>
-            {venuePoint && (
-              <div style={{ marginTop: "1rem" }}>
-                <ArticleVenueMap
-                  venue={article.event.venue}
-                  lat={venuePoint.lat}
-                  lng={venuePoint.lng}
-                  query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} 秋葉原`}
-                />
-              </div>
-            )}
             <p style={{ margin: ".75rem 0 0", fontSize: ".8125rem" }}>
               <Link href="/events/today/" style={{ color: "#3f5851" }}>
                 → 今日開催の秋葉原イベント一覧を見る
@@ -575,6 +565,17 @@ const Page = async ({ params }: Props) => {
           className="article-content"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
+
+        {venuePoint && article.event && (
+          <div style={{ marginBottom: "1.5rem" }}>
+            <ArticleVenueMap
+              venue={article.event.venue}
+              lat={venuePoint.lat}
+              lng={venuePoint.lng}
+              query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} 秋葉原`}
+            />
+          </div>
+        )}
 
         <aside className="article-inline-cta" aria-labelledby="article-inline-cta-title">
           <div>

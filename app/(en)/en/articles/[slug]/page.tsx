@@ -409,17 +409,6 @@ const Page = async ({ params }: Props) => {
                 {article.event.reservation ? "Required" : "Not required"}
               </dd>
             </dl>
-            {venuePoint && (
-              <div style={{ marginTop: "1rem" }}>
-                <ArticleVenueMap
-                  venue={seoVenue}
-                  lat={venuePoint.lat}
-                  lng={venuePoint.lng}
-                  query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} Akihabara`}
-                  mapLabel="Open in Google Maps"
-                />
-              </div>
-            )}
           </div>
         )}
 
@@ -427,6 +416,18 @@ const Page = async ({ params }: Props) => {
           className="article-content"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
+
+        {venuePoint && article.event && (
+          <div style={{ marginBottom: "1.5rem" }}>
+            <ArticleVenueMap
+              venue={seoVenue}
+              lat={venuePoint.lat}
+              lng={venuePoint.lng}
+              query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} Akihabara`}
+              mapLabel="Open in Google Maps"
+            />
+          </div>
+        )}
 
         {articleLinkSources.length > 0 && (
           <section
