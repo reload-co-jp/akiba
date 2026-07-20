@@ -22,3 +22,4 @@
 {"url": "https://prtimes.jp/main/html/rd/p/000000505.000034617.html", "reason": "low_value", "note": "VketReal 2026 Summer企業ブース情報。既存記事vketreal-2026-summer-bellesalle-akihabaraで対応済みの追加PR", "checked": "2026-07-18"}
 {"url": "https://club-mogra.jp/2026/07/31/9578/", "reason": "insufficient_facts", "note": "MOGRA JAM! vol.17 (7/31) ページに時間・料金・出演者情報なし、画像も汎用gifのみ", "checked": "2026-07-18"}
 {"url": "https://www.shosen.co.jp/event/41847/", "reason": "out_of_scope_venue", "note": "2026年女性向け異世界フェア サイン本販売 書泉グランデ（神保町）開催。秋葉原対象外", "checked": "2026-07-19"}
+{"url": "https://sunbornjapan.co.jp/event/summer-front/", "reason": "duplicate_merged", "note": "ドルフロ2サマーフロントin秋葉原、既存記事dolls-frontline2-summer-front-akihabara-2026で対応済み", "checked": "2026-07-20"}
