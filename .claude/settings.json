@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/tmp/**)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Write(/tmp/**)",
+      "Write(//tmp/**)",
+      "Write(//private/tmp/**)",
+      "Edit(/tmp/**)",
+      "Edit(//tmp/**)",
+      "Edit(//private/tmp/**)"
+    ]
+  }
+}
