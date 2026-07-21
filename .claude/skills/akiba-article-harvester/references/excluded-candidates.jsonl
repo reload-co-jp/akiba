@@ -30,3 +30,4 @@
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7737", "reason": "out_of_scope_venue", "note": "sprite×ゲーマーズ出張店、会場はコミケ108(東京ビッグサイト)で秋葉原店舗ではない", "checked": "2026-07-21"}
 {"url": "https://www.dempa-times.co.jp/telecommunications/54190/", "reason": "not_akihabara_specific", "note": "秋葉原ドローンスクール運営会社の展示会出展先が東京ビッグサイト、秋葉原での開催ではない", "checked": "2026-07-21"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2126344.html", "reason": "low_value", "note": "コミケカタログ販売/アコム閉店/ミストシャワーの雑報まとめ、いずれも単独記事化するには facts薄い", "checked": "2026-07-21"}
+{"url": "https://clecle.me/", "reason": "insufficient_facts", "note": "クルクル秋葉原店7周年祭(8/1-2)、gnews見出しのみでhobby.watch元記事URL特定できず、公式サイトnews欄もJS描画で詳細未確認", "checked": "2026-07-21"}

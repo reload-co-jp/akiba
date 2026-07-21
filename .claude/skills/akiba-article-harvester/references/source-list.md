@@ -39,16 +39,16 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
   - Notes: source for anime song, game music, Touhou, DJ, and club events at 秋葉原MOGRA. Include normal live/DJ events when date, venue, price, and visitor value are clear.
 
 - 秋葉原ZEST schedule
-  - URL: https://akihabara-zest.com/schedule/
-  - Notes: live house schedule. Include normal live events as well as idol, anime, game, and voice-actor adjacent events when details are complete.
+  - URL: https://akihabarazest.com/schedule (no hyphen — the old hyphenated domain is dead/unresolvable)
+  - Notes: live house schedule. Include normal live events as well as idol, anime, game, and voice-actor adjacent events when details are complete. Site is a JS-rendered Next.js app — `harvest.py list akihabara_zest` returns 0 items (plain HTTP fetch can't see the client-rendered listing). Use WebSearch or X.com for discovery instead.
 
 - 秋葉原Galaxy schedule
-  - URL: https://akihabara-galaxy.com/schedule/
-  - Notes: live house schedule. Include normal live events when date, venue, price, and performers are clear.
+  - URL: https://galaxy-group.jp/akihabara/evt_booking (old akihabara-galaxy.com domain is dead/unresolvable)
+  - Notes: live house schedule. Include normal live events when date, venue, price, and performers are clear. No static event-listing page found — `harvest.py list akihabara_galaxy` returns 0 items. Use WebSearch or X.com for discovery instead.
 
 - 秋葉原CLUB GOODMAN schedule
-  - URL: https://goodman2020.com/schedule/
-  - Notes: live house schedule. Include normal live events when details are complete.
+  - URL: https://club.goodman2020.com/events (old goodman2020.com/schedule/ 404s — schedule moved to the `club.` subdomain)
+  - Notes: live house schedule. Include normal live events when details are complete. Works well via `harvest.py list club_goodman`.
 
 ## Aggregator / Discovery Sources
 

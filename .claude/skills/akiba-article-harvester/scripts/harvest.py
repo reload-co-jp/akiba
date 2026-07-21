@@ -279,20 +279,30 @@ SOURCES = {
         href_filter=lambda h: bool(re.search(r"/20\d{2}/\d{2}/\d{2}/", h or "")),
         base="https://club-mogra.jp",
     ),
+    # NOTE: akihabarazest.com (no hyphen; old "akihabara-zest.com" is dead/unresolvable)
+    # is a Next.js app that renders /schedule client-side via JS — plain HTTP fetch
+    # returns the page shell with no event links. list() will show 0 items here;
+    # use WebSearch/X.com fallback for this venue instead.
     "akihabara_zest": dict(
-        url="https://akihabara-zest.com/schedule/",
+        url="https://akihabarazest.com/schedule",
         href_filter=lambda h: bool(re.search(r"/schedule/[^\"#]+/?$", h or "")),
-        base="https://akihabara-zest.com",
+        base="https://akihabarazest.com",
     ),
+    # NOTE: akihabara-galaxy.com is dead/unresolvable; current site is
+    # galaxy-group.jp/akihabara. No plain static event-listing page was found
+    # (evt_booking is a JS/widget-driven booking page with no event links in
+    # the HTML) — list() will likely show 0 items. Use WebSearch/X.com fallback.
     "akihabara_galaxy": dict(
-        url="https://akihabara-galaxy.com/schedule/",
-        href_filter=lambda h: bool(re.search(r"/schedule/[^\"#]+/?$", h or "")),
-        base="https://akihabara-galaxy.com",
+        url="https://galaxy-group.jp/akihabara/evt_booking",
+        href_filter=lambda h: bool(re.search(r"/akihabara/news/[^\"#]+/?$", h or "")),
+        base="https://galaxy-group.jp",
     ),
+    # NOTE: goodman2020.com/schedule/ 404s; the live schedule moved to the
+    # club.goodman2020.com subdomain with numeric /events/{id} pages.
     "club_goodman": dict(
-        url="https://goodman2020.com/schedule/",
-        href_filter=lambda h: bool(re.search(r"/events?/", h or "") or re.search(r"/schedule/[^\"#]+/?$", h or "")),
-        base="https://goodman2020.com",
+        url="https://club.goodman2020.com/events",
+        href_filter=lambda h: bool(re.search(r"^/events/\d+$", h or "")),
+        base="https://club.goodman2020.com",
     ),
 }
 
