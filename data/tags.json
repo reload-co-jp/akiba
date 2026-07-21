@@ -1208,5 +1208,15 @@
     "id": 254,
     "name": "アイドルマスター",
     "nameEn": "THE iDOLM@STER"
+  },
+  {
+    "id": 255,
+    "name": "タイトーステーション",
+    "nameEn": "Taito Station"
+  },
+  {
+    "id": 256,
+    "name": "ポケモンカード",
+    "nameEn": "Pokémon Card Game"
   }
 ]

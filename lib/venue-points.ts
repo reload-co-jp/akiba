@@ -110,6 +110,8 @@ export const venuePoints: Record<string, VenuePoint> = {
   "秋葉原撮影スタジオ『いろはにぼっくす』": { lat: 35.7016, lng: 139.7755 },
   "Akiba Robolabo Meetup": { lat: 35.7011, lng: 139.7767 },
   "ギャラリーエピキュート": { lat: 35.7046, lng: 139.7717 },
+  "タイトーステーション秋葉原東西自由通路店": { lat: 35.6984, lng: 139.7736 },
+  "晴れる屋2 秋葉原タワー店": { lat: 35.6989, lng: 139.7716 },
 }
 
 export const getVenuePoint = (venue: string): VenuePoint | undefined => {
