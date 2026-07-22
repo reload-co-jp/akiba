@@ -23728,5 +23728,45 @@
       139,
       140
     ]
+  },
+  {
+    "id": 594,
+    "title": "「CLUB YUGATO in REAL 2026 SUMMER」が秋葉原MOGRAで7月25日開催",
+    "slug": "club-yugato-real-2026-summer-mogra-akihabara",
+    "summary": "日本語ダンスミュージックイベント「CLUB YUGATO in REAL 2026 SUMMER」が、2026年7月25日に秋葉原MOGRAで開催。OPEN14:00〜CLOSE20:00の昼間開催で、料金は前売2,000円＋1ドリンク、当日2,500円＋1ドリンク。",
+    "content": "## 概要\n\n日本語ダンスミュージックイベント「CLUB YUGATO in REAL 2026 SUMMER」が、2026年7月25日（土）に秋葉原MOGRAで開催される。\n\n## 内容\n\n開催時間はOPEN14:00〜CLOSE20:00の昼間帯。DJにはkihada096、_Ryou_、mirin2221、QZKG_DOLL_PLAY、-Metarabi-めたらび、みぜすた、やつあん、RURI_niki、kuroi7188、Yuka_Minazukiが出演し、VJはやつあん、_Ryou_が担当する。\n\n入場者には先着でオリジナルステッカーが配布される予定。\n\n## 開催情報\n\n- **会場**: 秋葉原MOGRA\n- **住所**: 東京都台東区秋葉原3-11\n- **日程**: 2026年7月25日（土）\n- **時間**: OPEN 14:00〜CLOSE 20:00\n- **料金**: 前売2,000円＋1ドリンク／当日2,500円＋1ドリンク\n- **出演DJ**: kihada096、_Ryou_、mirin2221、QZKG_DOLL_PLAY、-Metarabi-めたらび、みぜすた、やつあん、RURI_niki、kuroi7188、Yuka_Minazuki\n- **VJ**: やつあん、_Ryou_\n- **特典**: 入場者にオリジナルステッカー配布（先着順）\n\n## こんな人におすすめ\n\n- 日本語ダンスミュージックのクラブイベントを探している方\n- 土曜の昼間に秋葉原MOGRAで音楽を楽しみたい方\n- 幅広いDJ/VJ陣のプレイを聴きたい方",
+    "publishedAt": "2026-07-21",
+    "authorId": 1,
+    "image": {
+      "src": "/images/articles/club-yugato-real-2026-summer-mogra-akihabara.jpg",
+      "alt": "CLUB YUGATO in REAL 2026 SUMMER イベントビジュアル",
+      "sourceLabel": "MOGRA 公式サイト",
+      "sourceUrl": "https://club-mogra.jp/2026/07/25/9625/",
+      "width": 700,
+      "height": 990
+    },
+    "event": {
+      "venue": "秋葉原MOGRA",
+      "startDate": "2026-07-25",
+      "endDate": "2026-07-25",
+      "price": "前売2,000円＋1ドリンク／当日2,500円＋1ドリンク",
+      "reservation": false,
+      "category": "music"
+    },
+    "sources": [
+      {
+        "label": "MOGRA 公式イベントページ",
+        "url": "https://club-mogra.jp/2026/07/25/9625/"
+      }
+    ],
+    "en": {
+      "title": "Japanese Dance Music Event CLUB YUGATO in REAL 2026 SUMMER at MOGRA Akihabara",
+      "summary": "CLUB YUGATO in REAL 2026 SUMMER, a Japanese dance music event, will be held at MOGRA Akihabara on July 25, 2026, from 14:00 to 20:00. Advance tickets are 2,000 yen plus one drink; door tickets are 2,500 yen plus one drink.",
+      "content": "## Overview\n\nCLUB YUGATO in REAL 2026 SUMMER, a Japanese dance music event, will be held at MOGRA Akihabara on Saturday, July 25, 2026.\n\n## Highlights\n\nThe event runs during the daytime, from 14:00 (doors) to 20:00 (close). DJs include kihada096, _Ryou_, mirin2221, QZKG_DOLL_PLAY, -Metarabi-めたらび, みぜすた, やつあん, RURI_niki, kuroi7188, and Yuka_Minazuki, with VJ duties handled by やつあん and _Ryou_.\n\nAttendees receive an original sticker while supplies last.\n\n## Event Details\n\n- **Venue**: MOGRA Akihabara\n- **Address**: 3-11 Akihabara, Taito-ku, Tokyo\n- **Date**: Saturday, July 25, 2026\n- **Time**: Doors 14:00 / Close 20:00\n- **Price**: Advance 2,000 yen + 1 drink / Door 2,500 yen + 1 drink\n- **DJs**: kihada096, _Ryou_, mirin2221, QZKG_DOLL_PLAY, -Metarabi-めたらび, みぜすた, やつあん, RURI_niki, kuroi7188, Yuka_Minazuki\n- **VJ**: やつあん, _Ryou_\n- **Perk**: Original sticker for attendees while supplies last\n\n## Recommended For\n\n- Anyone looking for a Japanese dance music club event\n- Fans who want to enjoy music at MOGRA Akihabara on a Saturday afternoon\n- Listeners who want to hear a wide lineup of DJs and VJs"
+    },
+    "tagIds": [
+      207,
+      140
+    ]
   }
 ]

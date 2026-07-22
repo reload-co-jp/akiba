@@ -31,3 +31,5 @@
 {"url": "https://www.dempa-times.co.jp/telecommunications/54190/", "reason": "not_akihabara_specific", "note": "秋葉原ドローンスクール運営会社の展示会出展先が東京ビッグサイト、秋葉原での開催ではない", "checked": "2026-07-21"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2126344.html", "reason": "low_value", "note": "コミケカタログ販売/アコム閉店/ミストシャワーの雑報まとめ、いずれも単独記事化するには facts薄い", "checked": "2026-07-21"}
 {"url": "https://clecle.me/", "reason": "insufficient_facts", "note": "クルクル秋葉原店7周年祭(8/1-2)、gnews見出しのみでhobby.watch元記事URL特定できず、公式サイトnews欄もJS描画で詳細未確認", "checked": "2026-07-21"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1242/", "reason": "out_of_scope_venue", "note": "IDOLY PRIDE POP UP STORE Stylish Choir、会場はコトブキヤホール(東京都立川市緑町4-5)で秋葉原館ではない", "checked": "2026-07-22"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1298/", "reason": "insufficient_facts", "note": "絶対無敵ライジンオー35周年POP UP STORE(8/7-8/16、コトブキヤ秋葉原館) 日程venue確認済みだが detail page 403継続、画像・価格等の詳細facts未確認", "checked": "2026-07-22"}
