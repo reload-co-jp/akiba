@@ -33,3 +33,10 @@
 {"url": "https://clecle.me/", "reason": "insufficient_facts", "note": "クルクル秋葉原店7周年祭(8/1-2)、gnews見出しのみでhobby.watch元記事URL特定できず、公式サイトnews欄もJS描画で詳細未確認", "checked": "2026-07-21"}
 {"url": "https://www.kotobukiya.co.jp/event/detail/1242/", "reason": "out_of_scope_venue", "note": "IDOLY PRIDE POP UP STORE Stylish Choir、会場はコトブキヤホール(東京都立川市緑町4-5)で秋葉原館ではない", "checked": "2026-07-22"}
 {"url": "https://www.kotobukiya.co.jp/event/detail/1298/", "reason": "insufficient_facts", "note": "絶対無敵ライジンオー35周年POP UP STORE(8/7-8/16、コトブキヤ秋葉原館) 日程venue確認済みだが detail page 403継続、画像・価格等の詳細facts未確認", "checked": "2026-07-22"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000141.000024930.html", "reason": "not_akihabara_specific", "note": "サンケイビル木造中高層オフィス、秋葉原に立地するが単なる自社ビル建設ニュースでイベント/店舗性なし", "checked": "2026-07-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2124492.html", "reason": "insufficient_facts", "note": "サンコー秋葉原総本店跡地の動き、との見出しだが本文に跡地の具体的動向記述なし。再確認済み、変化なし", "checked": "2026-07-23"}
+{"url": "https://collabo-cafe.com/events/collabo/icon-summit-popup-store-saitama-osaka2026/", "reason": "not_akihabara_specific", "note": "ICON SUMMIT POP UP STOREは埼玉・大阪開催で秋葉原会場なし", "checked": "2026-07-23"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000192.000119643.html", "reason": "low_value", "note": "モンハン酒場季節メニュー、既存店の通常フェア更新で新規性乏しい", "checked": "2026-07-23"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000014.000121487.html", "reason": "low_value", "note": "TCL×ヨドバシAkiba店頭体験イベント、単発デモで詳細事実に乏しい", "checked": "2026-07-23"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000505.000034617.html", "reason": "low_value", "note": "VketRealの企業ブース詳細のみのプレスリリース、イベント自体は既存記事vketreal-2026-summer-bellesalle-akihabaraでカバー済み", "checked": "2026-07-23"}
+{"url": "https://prtimes.jp/main/html/rd/p/000019764.000007006.html", "reason": "not_akihabara_specific", "note": "カドスト×グランエンタス、秋葉原以外の店舗展開の話", "checked": "2026-07-23"}
