@@ -21556,6 +21556,10 @@
       {
         "label": "PR TIMES プレスリリース",
         "url": "https://prtimes.jp/main/html/rd/p/000000242.000046985.html"
+      },
+      {
+        "label": "STEINS;GATE ファイナルミッション 公式ポップアップイベントサイト",
+        "url": "https://www.kagaku-adv.com/sp/sgfinalmission/"
       }
     ],
     "en": {
@@ -23852,6 +23856,85 @@
       50,
       126,
       145
+    ]
+  },
+  {
+    "id": 597,
+    "title": "「KARATZポップアップストア」が2k540で7月30日から8月2日まで開催",
+    "slug": "karatz-jewelry-popup-2k540-akihabara-2026",
+    "summary": "宝石専門店KARATZのポップアップストアが、2026年7月30日(木)から8月2日(日)まで2k540 AKI-OKA ARTISAN(JR秋葉原〜御徒町間高架下)で開催。各月の誕生石や世界五大宝石、パライバトルマリンなど世界中から集めた宝石を展示販売し、オーダーメイド相談会も毎日実施する。",
+    "content": "## 概要\n\n宝石専門店KARATZは、恒例のポップアップストアを2026年7月30日(木)から8月2日(日)まで、2k540 AKI-OKA ARTISAN(JR秋葉原〜御徒町間高架下)にて開催する。\n\n## 内容\n\n会場には各月の誕生石、世界五大宝石(ダイヤモンド、ルビー、サファイア、エメラルド、アレキサンドライト)、パライバトルマリンをはじめ、KARATZが世界中から集めた宝石を多数展示販売。国内外の熟練職人によるカット石やオリジナルジュエリーも並ぶ。会場ではオーダーメイド相談会を毎日実施しており、石を枠にセットした仕上がりイメージをその場で確認しながら相談できる。宝石に詳しいスタッフが常駐し、質問にも対応する。\n\n## 開催情報\n\n- **会場**: 2k540 AKI-OKA ARTISAN（東京都千代田区、JR秋葉原駅〜御徒町駅間高架下）\n- **日時**: 2026年7月30日(木)〜8月2日(日)\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: オーダーメイド相談は当日受付\n\n## こんな人におすすめ\n\n- 天然宝石やジュエリーに興味がある方\n- オーダーメイドジュエリーを検討している方\n- 秋葉原〜御徒町エリアを散策したい方",
+    "publishedAt": "2026-07-23",
+    "en": {
+      "title": "\"KARATZ Pop-up Store\" to Be Held at 2k540 from July 30 to August 2",
+      "summary": "Gemstone specialty store KARATZ will hold its pop-up store from Thursday, July 30 to Sunday, August 2, 2026 at 2k540 AKI-OKA ARTISAN (under the elevated tracks between JR Akihabara and Okachimachi). The event displays and sells gemstones gathered from around the world, including monthly birthstones, the Big Five gemstones, and Paraiba tourmaline, with daily custom-order consultations.",
+      "content": "## Overview\n\nGemstone specialty store KARATZ will hold its regular pop-up store from Thursday, July 30 to Sunday, August 2, 2026, at 2k540 AKI-OKA ARTISAN, located under the elevated railway between JR Akihabara and Okachimachi stations.\n\n## Highlights\n\nThe venue will display and sell a wide range of gemstones gathered from around the world by KARATZ, including monthly birthstones, the Big Five gemstones (diamond, ruby, sapphire, emerald, and alexandrite), and Paraiba tourmaline, alongside expertly cut loose stones and original jewelry from craftsmen in Japan and abroad. Custom-order consultations are held daily, letting visitors check a finished image by setting stones into frames on the spot. Knowledgeable staff will be on hand to answer questions about the gems.\n\n## Event Details\n\n- **Venue**: 2k540 AKI-OKA ARTISAN (under the elevated tracks between JR Akihabara and Okachimachi, Chiyoda-ku, Tokyo)\n- **Date**: July 30 (Thu) - August 2 (Sun), 2026\n- **Price**: Free admission (purchases sold separately)\n- **Reservation**: Custom-order consultations accepted on the day\n\n## Recommended For\n\n- Anyone interested in natural gemstones and jewelry\n- Those considering custom-made jewelry\n- Visitors exploring the Akihabara-Okachimachi area"
+    },
+    "image": {
+      "src": "/images/articles/karatz-jewelry-popup-2k540-akihabara-2026.jpg",
+      "alt": "KARATZポップアップストア告知バナー",
+      "sourceLabel": "KARATZ公式サイト",
+      "sourceUrl": "https://store.karatz.jp/blogs/news/202607karatzpopup"
+    },
+    "sources": [
+      {
+        "label": "KARATZ公式サイト",
+        "url": "https://store.karatz.jp/blogs/news/202607karatzpopup"
+      }
+    ],
+    "event": {
+      "venue": "2k540 AKI-OKA ARTISAN",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-02",
+      "price": "入場無料",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      129,
+      2,
+      45
+    ]
+  },
+  {
+    "id": 598,
+    "title": "「Rakuten esports SHOP」初のポップアップショップがFandom Akibaで8月8日から開催",
+    "slug": "rakuten-esports-shop-popup-fandom-akiba-2026",
+    "summary": "楽天が運営するVTuber・ストリーマー公式グッズショップ「Rakuten esports SHOP」初のポップアップショップが、2026年8月8日(土)から16日(日)までFandom Akiba 5F(千代田区外神田)で期間限定オープン。猫麦とろろ、Nachoneko、天唄サウの新商品を販売し、等身大パネルのフォトスポットも設置する。",
+    "content": "## 概要\n\n楽天グループは、VTuber・ストリーマーの公式グッズオンラインショップ「Rakuten esports SHOP」初となるポップアップショップを、2026年8月8日(土)から8月16日(日)までFandom Akiba 5F（東京都千代田区外神田1-11-3 東和ビル）で期間限定オープンする。\n\n## 内容\n\nこれまでオンライン限定だった「Rakuten esports SHOP」を、実物を見て購入したいというユーザーの要望に応え実店舗展開。楽天がサポートする猫麦とろろ、Nachoneko、天唄サウの人気商品・新商品を店頭で手に取って購入できる。合計3,000円（税込）以上購入すると、ポップアップショップ限定ステッカーを配布。会場にはタレントの等身大パネルを使ったフォトスポットも設置され、記念撮影を楽しめる。なお「なちょりたんしりーず（Nachoneko）」のオンライン販売は8月10日（月）開始予定。\n\n## 開催情報\n\n- **会場**: Fandom Akiba 5F（東京都千代田区外神田1-11-3 東和ビル）\n- **日時**: 2026年8月8日(土)〜8月16日(日)\n- **料金**: 入場無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 猫麦とろろ、Nachoneko、天唄サウのファン\n- VTuber・ストリーマーグッズを実物で確認して買いたい方\n- 秋葉原でフォトスポットを楽しみたい方",
+    "publishedAt": "2026-07-23",
+    "en": {
+      "title": "\"Rakuten esports SHOP\" Opens Its First Pop-up Shop at Fandom Akiba from August 8",
+      "summary": "The first pop-up shop for \"Rakuten esports SHOP,\" Rakuten's official merchandise store for VTubers and streamers, opens at Fandom Akiba 5F (Sotokanda, Chiyoda-ku) from Saturday, August 8 to Sunday, August 16, 2026. It sells new merchandise from Nekomugi Tororo, Nachoneko, and Amauta Sau, with a photo spot featuring life-sized talent panels.",
+      "content": "## Overview\n\nRakuten Group will open the first-ever pop-up shop for \"Rakuten esports SHOP,\" its official online merchandise store for VTubers and streamers, from Saturday, August 8 to Sunday, August 16, 2026, at Fandom Akiba 5F (Towa Building, 1-11-3 Sotokanda, Chiyoda-ku, Tokyo).\n\n## Highlights\n\nResponding to user requests to see items in person before buying, the previously online-only \"Rakuten esports SHOP\" gets a physical storefront. Visitors can pick up and purchase popular and new merchandise from talents Rakuten supports, including Nekomugi Tororo, Nachoneko, and Amauta Sau. Anyone spending 3,000 yen (tax included) or more receives a pop-up shop exclusive sticker. The venue also features a photo spot with life-sized panels of the talents for commemorative photos. Online sales of the \"Nachoritan Series\" (Nachoneko) are scheduled to begin August 10 (Mon).\n\n## Event Details\n\n- **Venue**: Fandom Akiba 5F (Towa Building, 1-11-3 Sotokanda, Chiyoda-ku, Tokyo)\n- **Date**: August 8 (Sat) - August 16 (Sun), 2026\n- **Price**: Free admission\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of Nekomugi Tororo, Nachoneko, and Amauta Sau\n- Anyone who wants to see VTuber/streamer merchandise in person before buying\n- Visitors looking for a photo spot in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/rakuten-esports-shop-popup-fandom-akiba-2026.jpg",
+      "alt": "Rakuten esports SHOP ポップアップショップ告知ビジュアル",
+      "sourceLabel": "楽天グループ PR TIMESプレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002655.000005889.html"
+    },
+    "sources": [
+      {
+        "label": "楽天グループ PR TIMESプレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000002655.000005889.html"
+      }
+    ],
+    "event": {
+      "venue": "Fandom Akiba 5F",
+      "startDate": "2026-08-08",
+      "endDate": "2026-08-16",
+      "price": "入場無料",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      129,
+      29
     ]
   }
 ]

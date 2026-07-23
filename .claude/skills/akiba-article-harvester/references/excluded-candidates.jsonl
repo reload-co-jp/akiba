@@ -40,3 +40,9 @@
 {"url": "https://prtimes.jp/main/html/rd/p/000000014.000121487.html", "reason": "low_value", "note": "TCL×ヨドバシAkiba店頭体験イベント、単発デモで詳細事実に乏しい", "checked": "2026-07-23"}
 {"url": "https://prtimes.jp/main/html/rd/p/000000505.000034617.html", "reason": "low_value", "note": "VketRealの企業ブース詳細のみのプレスリリース、イベント自体は既存記事vketreal-2026-summer-bellesalle-akihabaraでカバー済み", "checked": "2026-07-23"}
 {"url": "https://prtimes.jp/main/html/rd/p/000019764.000007006.html", "reason": "not_akihabara_specific", "note": "カドスト×グランエンタス、秋葉原以外の店舗展開の話", "checked": "2026-07-23"}
+{"url": "https://akiba.keizai.com/", "reason": "not_akihabara_specific", "note": "巨大ホットドッグ現る、NY発の記事のケイザイ新聞ネットワーク系列シンジケート配信、秋葉原固有情報なし", "checked": "2026-07-23"}
+{"url": "https://markezine.jp/article/detail/77231", "reason": "not_akihabara_specific", "note": "ブックオフ旅アトOMO施策、秋葉原/新宿/池袋/横浜4都市共通施策で秋葉原固有情報なし", "checked": "2026-07-23"}
+{"url": "https://www.advantech.com/ja-jp/resources/news/edj-2026", "reason": "low_value", "note": "Edge AI Day Japan 2026、法人顧客限定招待制イベントで会場詳細非公開、一般読者価値低い", "checked": "2026-07-23"}
+{"url": "https://av.watch.impress.co.jp/docs/news/2122616.html", "reason": "event_ended", "note": "ポタフェス2026夏秋葉原、7月11-12日開催で既に終了済み", "checked": "2026-07-23"}
+{"url": "https://travel.watch.impress.co.jp/docs/news/2124371.html", "reason": "not_akihabara_specific", "note": "TX1日乗り放題きっぷ、秋葉原~つくば沿線全体対象の鉄道キャンペーンで秋葉原固有の来訪価値は薄い", "checked": "2026-07-23"}
+{"url": "https://www.kagaku-adv.com/sp/sgfinalmission/", "reason": "duplicate_merged", "note": "STEINS;GATEファイナルミッション ポップアップ、既存記事steins-gate-final-mission-bellesalle-akihabaraと同一イベント(8/29-30ベルサール秋葉原)", "checked": "2026-07-23"}

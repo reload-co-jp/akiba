@@ -113,6 +113,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "タイトーステーション秋葉原東西自由通路店": { lat: 35.6984, lng: 139.7736 },
   "晴れる屋2 秋葉原タワー店": { lat: 35.6989, lng: 139.7716 },
   "クルクル秋葉原店": { lat: 35.7025, lng: 139.7715 },
+  "Fandom Akiba 5F": { lat: 35.6989, lng: 139.7726 },
 }
 
 export const getVenuePoint = (venue: string): VenuePoint | undefined => {
