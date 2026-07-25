@@ -47,3 +47,10 @@
 {"url": "https://travel.watch.impress.co.jp/docs/news/2124371.html", "reason": "not_akihabara_specific", "note": "TX1日乗り放題きっぷ、秋葉原~つくば沿線全体対象の鉄道キャンペーンで秋葉原固有の来訪価値は薄い", "checked": "2026-07-23"}
 {"url": "https://www.kagaku-adv.com/sp/sgfinalmission/", "reason": "duplicate_merged", "note": "STEINS;GATEファイナルミッション ポップアップ、既存記事steins-gate-final-mission-bellesalle-akihabaraと同一イベント(8/29-30ベルサール秋葉原)", "checked": "2026-07-23"}
 {"url": "https://www.shosen.co.jp/event/44669/", "reason": "out_of_scope_venue", "note": "書泉グランデ（神保町）開催。秋葉原対象外", "checked": "2026-07-24"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2125163.html", "reason": "insufficient_facts", "note": "ベルサールドルフロ2/初音ミク秋葉原フェスティバル2026/シュタゲ15周年展の複合まとめ記事、個別イベント終了済みor既存記事あり、今回未着手", "checked": "2026-07-25"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2124810.html", "reason": "low_value", "note": "ビアードパパゴジラシュー/初音ミク×22カレー/吉野家コラボの複合雑報、単独記事化するには各facts薄い", "checked": "2026-07-25"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2124492.html", "reason": "low_value", "note": "サンコー総本店跡地/TDKラムダ特価/七夕飾りの複合雑報、今回未着手", "checked": "2026-07-25"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2123446.html", "reason": "event_ended", "note": "GIGABYTE 40周年記念展、7/17-20開催で本日(7/25)時点で終了済み", "checked": "2026-07-25"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2125909.html", "reason": "event_ended", "note": "セガ×NVIDIA ジェンスン・フアン氏来訪イベント、7/15開催で終了済み", "checked": "2026-07-25"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2120378.html", "reason": "event_ended", "note": "Thermal Camp 2026、7/11開催で終了済み", "checked": "2026-07-25"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2118022.html", "reason": "event_ended", "note": "GiGO EXPO 2026、7/20-21開催で終了済み", "checked": "2026-07-25"}
