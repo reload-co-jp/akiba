@@ -98,6 +98,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "コトブキヤ秋葉原館": { lat: 35.6994, lng: 139.7711 },
   "コトブキヤ秋葉原館2階": { lat: 35.6994, lng: 139.7711 },
   "GiGO秋葉原5号館 Akib@ko": { lat: 35.6991, lng: 139.7719 },
+  "GiGOコラボカフェ秋葉原3号館": { lat: 35.7005, lng: 139.7717 },
   "秋葉原 グランエンタス（オノデン1F）": { lat: 35.6982, lng: 139.7728 },
   "エンタス（秋葉原オノデンビル5F）": { lat: 35.6982, lng: 139.7728 },
   "LIVE HOUSE＆CLUB ANTHEM AKIBA": { lat: 35.7007, lng: 139.7695 },
