@@ -58,3 +58,30 @@
 {"url": "https://nfm.nikkeibp.co.jp/atcl/news/21/00001/08329/", "reason": "insufficient_facts", "note": "三菱地所が秋葉原の店舗ビル取得(6/30報道)。日経不動産マーケット情報は有料記事で詳細(住所/用途/インパクト)未確認", "checked": "2026-07-26"}
 {"url": "https://www.arukikata.co.jp/webmagazine/", "reason": "insufficient_facts", "note": "秋葉原ベトナム茶文化写真展8/5開催、地球の歩き方gnews見出しのみで該当記事の実URL特定できず", "checked": "2026-07-26"}
 {"url": "https://collabo-cafe.com/events/collabo/yowapeda-popup-store-princesscafe-tokyo-osaka2026/", "reason": "out_of_scope_venue", "note": "弱虫ペダルLIMIT BREAKストア、会場は東京交通会館(有楽町)・リンクス梅田で秋葉原対象外", "checked": "2026-07-26"}
+{"url": "https://www.shosen.co.jp/event/44569/", "reason": "out_of_scope_venue", "note": "紺野天龍トークイベント、書泉グランデ(神保町)開催", "checked": "2026-07-27"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7785", "reason": "out_of_scope_venue", "note": "テクロノス クロスドリィミア、コミケ108(ビッグサイト)ブース、秋葉原店販売は事後のみ", "checked": "2026-07-27"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116045", "reason": "not_akihabara_specific", "note": "TYPE-MOONフェア2026 SUMMER、全国アニメイト対象、秋葉原固有情報なし", "checked": "2026-07-27"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115939", "reason": "out_of_scope_venue", "note": "HELIOS Rising Heroes、アニメイト渋谷開催、秋葉原対象外", "checked": "2026-07-27"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115648", "reason": "not_akihabara_specific", "note": "桃源暗鬼冒険譚フェア、全国アニメイト対象、秋葉原固有情報なし", "checked": "2026-07-27"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115323", "reason": "not_akihabara_specific", "note": "コードギアス20thフェア、全国アニメイト対象、秋葉原固有情報なし", "checked": "2026-07-27"}
+{"url": "https://club.goodman2020.com/events/38937", "reason": "event_ended", "note": "CLUB GOODMAN 30th Anniversary Tribute、2026年7月4日開催済み", "checked": "2026-07-27"}
+{"url": "https://club.goodman2020.com/events/37788", "reason": "event_ended", "note": "TIM HODGKINSON&ATSUKO KAMURA、7/2開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39077", "reason": "event_ended", "note": "相良奈美×ぴよ工房、7/3開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/36906", "reason": "event_ended", "note": "少年ナイフ712 DAY PARTY、7/5開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39260", "reason": "event_ended", "note": "ちょこはちWWW VS LIVE、7/5開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39262", "reason": "event_ended", "note": "江口いちご星降るMilky Way、7/7開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39263", "reason": "event_ended", "note": "瀬戸ハワイのビーチ、7/9開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39258", "reason": "event_ended", "note": "らんでぶ2026夏Fes、7/11開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39264", "reason": "event_ended", "note": "永野希バースデー悪霊の神々、7/12開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39265", "reason": "event_ended", "note": "Quiet Mayhem vol4、7/15開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39266", "reason": "event_ended", "note": "愛野可奈SUMMER TRIANGLE、7/16開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39176", "reason": "event_ended", "note": "Fuku Fes vol1、7/19開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/40009", "reason": "event_ended", "note": "吉田達也一楽儀光Drum Modular Progress、7/21開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39270", "reason": "event_ended", "note": "MUSIC BATTER Vol15、7/22開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39271", "reason": "event_ended", "note": "茉白彩聖7月のまぼろし、7/23開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/38650", "reason": "event_ended", "note": "東京60WATTS、7/24開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/39272", "reason": "event_ended", "note": "face to ace LIVE GOES ON、7/25開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/40368", "reason": "event_ended", "note": "神楽ひらん新曲発表主催、7/26開催済み", "checked": "2026-07-28"}
+{"url": "https://club.goodman2020.com/events/35983", "reason": "event_ended", "note": "無機質な狂気第17夜、7/26開催済み", "checked": "2026-07-28"}
+{"url": "https://club-mogra.jp/2026/07/07/9593/", "reason": "event_ended", "note": "AKIBA-POP CLUB、7/7開催済み", "checked": "2026-07-28"}
+{"url": "https://club-mogra.jp/2026/07/09/9574/", "reason": "event_ended", "note": "アニソンオールディーズ、7/9開催済み", "checked": "2026-07-28"}
