@@ -11,6 +11,7 @@ export const mapBounds = {
 }
 
 export const venuePoints: Record<string, VenuePoint> = {
+  "EXBAR TOKYO plus AKIHABARA": { lat: 35.6984, lng: 139.7735 },
   "アトレ秋葉原1": { lat: 35.6984, lng: 139.7731 },
   "アトレ秋葉原2": { lat: 35.6981, lng: 139.7742 },
   "JR秋葉原駅 AKIBA LINK": { lat: 35.6983, lng: 139.7733 },
