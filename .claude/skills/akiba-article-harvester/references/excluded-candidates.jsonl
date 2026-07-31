@@ -89,3 +89,10 @@
 {"url": "https://prtimes.jp/main/html/rd/p/000000032.000044394.html", "reason": "not_akihabara_specific", "note": "シュタゲ×HINEMOS日本酒コラボ。直営店は原宿/横浜/仙台/小田原のみでAkihabara実店舗なし、通販中心", "checked": "2026-07-29"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2128546.html", "reason": "event_ended", "note": "VketReal 2026 Summer(AMD×マウスコンピュータ出展)7/25-26開催で終了済み、個別ブース出展の事後レポート記事のため保留", "checked": "2026-07-30"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7737", "reason": "not_akihabara_specific", "note": "sprite×ゲーマーズ出張店、コミケ108ブース出展の告知で秋葉原店舗イベントではない", "checked": "2026-07-30"}
+{"url": "https://www.shosen.co.jp/event/44638/", "reason": "out_of_scope_venue", "note": "オルクセン王国史7 野上武志サイン会、書泉グランデ(神保町)開催", "checked": "2026-07-31"}
+{"url": "https://www.shosen.co.jp/event/44620/", "reason": "out_of_scope_venue", "note": "オルクセン王国史7 樽見京一郎サイン会、書泉グランデ(神保町)開催", "checked": "2026-07-31"}
+{"url": "https://prtimes.jp/main/html/rd/p/000003686.000025615.html", "reason": "not_akihabara_specific", "note": "狂犬レディ麒麟ガレージキット、あみあみ実店舗サイトのみで秋葉原固有店舗・イベント性なし", "checked": "2026-07-31"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2128718.html", "reason": "duplicate_merged", "note": "シュタゲ15周年展部分は既存記事steins-gate-animation-15th-exhibition-akiba-square-2026と同一(記事内の1項目のみ)", "checked": "2026-07-31"}
+{"url": "https://www.goodsmileracing.com/news/news20260706/", "reason": "insufficient_facts", "note": "GOODSMILE RACING 2026アキバCOギャラリー、事実確認済みだが専用画像が見つからず保留", "checked": "2026-07-31"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7775", "reason": "insufficient_facts", "note": "転校先の清楚可憐な美少女POPUP、事実確認済みだが専用画像が見つからず保留", "checked": "2026-07-31"}
+{"url": "https://youjo-senki.jp/news.html", "reason": "insufficient_facts", "note": "幼女戦記II×アド街っぷタイアップ、公式ソースに専用画像なく保留", "checked": "2026-07-31"}
