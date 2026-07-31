@@ -719,6 +719,10 @@
       {
         "label": "Gamer 記事",
         "url": "https://www.gamer.ne.jp/news/202607100004/"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/azurlane-after-bath-pop-up-store-tokyo-osaka2026/"
       }
     ],
     "event": {
@@ -25028,6 +25032,291 @@
       207,
       48,
       129
+    ]
+  },
+  {
+    "id": 627,
+    "title": "「刀剣乱舞STORE」秋葉原・京都で8月1日より開催",
+    "slug": "touken-ranbu-store-akihabara-kyoto-2026",
+    "summary": "「刀剣乱舞STORE」が2026年8月1日から10月25日まで秋葉原・京都で開催。「祝装ver.」をテーマにした描き下ろしグッズを多数販売し、購入特典として千社札風ステッカーも配布する。",
+    "content": "## 概要\n\n日本刀を擬人化した刀剣男士が活躍する人気ゲーム「刀剣乱舞 -ONLINE- (とうらぶ)」の常設イベントストア「刀剣乱舞STORE」が、秋葉原と京都で2026年8月1日から10月25日まで開催される。秋葉原会場は「刀剣乱舞STORE AKIHABARA」として、中央通り沿いのヒューテック秋葉原ビルに登場する。\n\n## 内容\n\n「祝装ver.」をテーマに描かれたイラストを使用したグッズが多数ラインナップされ、開催期間中も新商品が続々登場する予定。\n\n- 「祝装ver.」描き下ろしイラストのグッズを多数販売\n- グッズ1会計2,000円（税込）ごとに「御伴散歩 さくら装備 千社札風ステッカー（全125種）」をランダムで1枚プレゼント\n- 開催期間中、特定日は事前抽選入場（mogily使用）を実施\n\n## 開催情報\n\n- **日時**: 2026年8月1日（土）〜10月25日（日）\n- **会場**: 刀剣乱舞STORE AKIHABARA（ヒューテック秋葉原ビル 1F〜3F、東京都千代田区外神田4-3-1）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 通常入場は不要（一部日程のみ事前抽選制）\n\n## こんな人におすすめ\n\n- 「刀剣乱舞」の新作グッズを秋葉原で購入したい方\n- 「祝装ver.」描き下ろしイラストをチェックしたい方\n- 期間限定の常設ストアをじっくり巡りたい方",
+    "publishedAt": "2026-07-31",
+    "tags": [
+      "秋葉原",
+      "イベント",
+      "ポップアップ"
+    ],
+    "en": {
+      "title": "Touken Ranbu Store to Open in Akihabara and Kyoto",
+      "summary": "Touken Ranbu Store will run in Akihabara and Kyoto from August 1 to October 25, 2026, offering newly drawn \"celebration outfit\" themed goods along with a shrine-tag sticker purchase bonus.",
+      "content": "## Overview\n\nThe long-running pop-up store \"Touken Ranbu Store\" for the popular game Touken Ranbu -ONLINE- (Toulove), featuring anthropomorphized Japanese swords, will run in Akihabara and Kyoto from August 1 to October 25, 2026. The Akihabara venue, \"Touken Ranbu Store AKIHABARA,\" opens inside the Heutech Akihabara Building along Chuo-dori.\n\n## Highlights\n\nThe store features a wide lineup of goods illustrated in a \"celebration outfit\" theme, with new merchandise continuing to be added throughout the run.\n\n- A wide range of goods featuring newly drawn \"celebration outfit\" illustrations\n- A random shrine-tag style sticker (125 varieties) given as a bonus for every ¥2,000 spent per transaction\n- Advance lottery entry (via mogily) required on select dates during the run\n\n## Event Details\n\n- **Dates**: August 1–October 25, 2026\n- **Venue**: Touken Ranbu Store AKIHABARA (Heutech Akihabara Building 1F–3F, 4-3-1 Sotokanda, Chiyoda-ku, Tokyo)\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required for normal entry (advance lottery on select dates)\n\n## Recommended For\n\n- Fans wanting to buy new Touken Ranbu merchandise in Akihabara\n- Visitors interested in the \"celebration outfit\" themed artwork\n- Those who want to browse a long-running pop-up store at their own pace"
+    },
+    "image": {
+      "src": "/images/articles/touken-ranbu-store-akihabara-kyoto-2026.jpg",
+      "alt": "「刀剣乱舞STORE」の告知ビジュアル",
+      "sourceLabel": "Collabo Cafe",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/toukenranbu-popup-store-akihabara-kyoto2026/"
+    },
+    "sources": [
+      {
+        "label": "刀剣乱舞STORE 公式サイト",
+        "url": "https://www.toulove-store.com/2026/"
+      },
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/wakiba/find/1430639.html"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/toukenranbu-popup-store-akihabara-kyoto2026/"
+      }
+    ],
+    "event": {
+      "venue": "刀剣乱舞STORE AKIHABARA（ヒューテック秋葉原ビル）",
+      "startDate": "2026-08-01",
+      "endDate": "2026-10-25",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      129
+    ]
+  },
+  {
+    "id": 628,
+    "title": "「G線上の魔王」POP UP SHOPがゲーマーズ秋葉原本店で開催",
+    "slug": "g-senjou-no-maou-popup-gamers-akihabara-2026",
+    "summary": "「G線上の魔王」のPOP UP SHOPが、AKIHABARAゲーマーズ本店ほかゲーマーズ4店舗にて2026年8月1日から8月16日まで開催。対象商品購入・予約でランダムイラストカードを配布する。",
+    "content": "## 概要\n\nAKABEiSOFT2（あかべぇそふとつぅ）が手がける名作アドベンチャーゲーム「G線上の魔王」のPOP UP SHOPが、AKIHABARAゲーマーズ本店を含むゲーマーズ4店舗にて2026年8月1日から8月16日まで開催される。\n\n## 内容\n\n対象商品の購入・予約に応じて特典グッズが配布されるほか、店頭でグッズを直接手に取って選べるのが魅力。\n\n- 対象商品を購入または予約内金2,200円（税込）ごとに「イラストカード（全5種）」をランダムで1枚プレゼント\n- ゲーマーズ秋葉原本店・名古屋店・なんば店・池袋店、およびオンラインショップで開催\n\n## 開催情報\n\n- **日時**: 2026年8月1日（土）〜8月16日（日）\n- **会場**: AKIHABARAゲーマーズ本店ほかゲーマーズ4店舗\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要（一部特典は予約内金の対象）\n\n## こんな人におすすめ\n\n- 「G線上の魔王」のグッズを秋葉原で探している方\n- ランダム特典のイラストカードを集めたい方\n- ゲーマーズのPOP UP SHOPを定期的に巡っている方",
+    "publishedAt": "2026-07-31",
+    "tags": [
+      "秋葉原",
+      "イベント",
+      "ポップアップ"
+    ],
+    "en": {
+      "title": "G-senjou no Maou Pop-Up Shop to Open at Gamers Akihabara",
+      "summary": "A G-senjou no Maou pop-up shop will run at AKIHABARA Gamers and three other Gamers stores from August 1 to August 16, 2026, with a random illustration card bonus for eligible purchases.",
+      "content": "## Overview\n\nA pop-up shop for the acclaimed adventure game G-senjou no Maou, developed by AKABEiSOFT2, will run at AKIHABARA Gamers and three other Gamers locations from August 1 to August 16, 2026.\n\n## Highlights\n\nBonus goods are distributed based on purchases or pre-orders of eligible merchandise, and shoppers can browse the goods in person at the stores.\n\n- A random illustration card (5 varieties) given as a bonus for every ¥2,200 spent or pre-ordered on eligible items\n- Held at Gamers Akihabara Main Store, Nagoya, Namba, and Ikebukuro stores, plus the online shop\n\n## Event Details\n\n- **Dates**: August 1–16, 2026\n- **Venue**: AKIHABARA Gamers Main Store and 3 other Gamers stores\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required (some bonuses tied to pre-order deposits)\n\n## Recommended For\n\n- Fans looking for G-senjou no Maou merchandise in Akihabara\n- Collectors chasing the random illustration card bonus\n- Regulars who follow Gamers' rotating pop-up shops"
+    },
+    "image": {
+      "src": "/images/articles/g-senjou-no-maou-popup-gamers-akihabara-2026.jpg",
+      "alt": "「G線上の魔王」POP UP SHOPの告知ビジュアル",
+      "sourceLabel": "Collabo Cafe",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/g-senjou-no-maou-pop-up-store-gamers2026/"
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/g-senjou-no-maou-pop-up-store-gamers2026/"
+      },
+      {
+        "label": "ゲーマーズ イベント・フェア一覧",
+        "url": "https://www.gamers.co.jp/contents/event_fair/list.php"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-16",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      129,
+      72
+    ]
+  },
+  {
+    "id": 629,
+    "title": "「2.5次元の誘惑」POP UP SHOPがボークス秋葉原で開催",
+    "slug": "nitengojigen-popup-voks-akihabara-2026",
+    "summary": "アニメ「2.5次元の誘惑」のPOP UP SHOPが、ボークス秋葉原ホビー天国2など3店舗にて2026年8月22日から9月6日まで開催。購入特典のブロマイドも配布される。",
+    "content": "## 概要\n\n橋本悠原作の人気漫画を原作としたアニメ「2.5次元の誘惑」×AMNIBUSのPOP UP SHOPが、ボークス秋葉原ホビー天国2をはじめとするボークス3店舗にて2026年8月22日から9月6日まで開催される。\n\n## 内容\n\n美麗なアプリゲームイラストを使用したグッズが多数ラインナップされ、購入特典も用意される。\n\n- トレーディンググリッター缶バッジ（単品605円）\n- パーツ付きBIGアクリルスタンド（各1,980円）\n- A4アクリルパネル（各4,378円）\n- 2,000円（税込）お買い上げごとに「特典ブロマイド（全6種）」をランダムで1枚プレゼント\n\n## 開催情報\n\n- **日時**: 2026年8月22日（土）〜9月6日（日）\n- **会場**: ボークス秋葉原ホビー天国2 1F店頭（ほか大阪・名古屋ショールーム）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 「2.5次元の誘惑」のグッズを秋葉原で購入したい方\n- 美麗イラストを使用したアクリルグッズを集めたい方\n- ボークス秋葉原ホビー天国2のPOP UP SHOPを巡りたい方",
+    "publishedAt": "2026-07-31",
+    "tags": [
+      "秋葉原",
+      "イベント",
+      "ポップアップ"
+    ],
+    "en": {
+      "title": "2.5-Dimensional Seduction Pop-Up Shop to Open at Voks Akihabara",
+      "summary": "A pop-up shop for the anime 2.5-Dimensional Seduction will run at Voks Akihabara Hobby Tengoku 2 and two other Voks stores from August 22 to September 6, 2026, with a random bromide bonus for purchases.",
+      "content": "## Overview\n\nA pop-up shop for the anime 2.5-Dimensional Seduction, based on Yu Hashimoto's popular manga, in collaboration with AMNIBUS, will run at Voks Akihabara Hobby Tengoku 2 and two other Voks stores from August 22 to September 6, 2026.\n\n## Highlights\n\nThe shop offers a wide range of goods featuring beautifully drawn app-game artwork, along with a purchase bonus.\n\n- Trading glitter can badges (¥605 each)\n- Big acrylic stands with parts (¥1,980 each)\n- A4 acrylic panels (¥4,378 each)\n- A random bonus bromide (6 varieties) for every ¥2,000 spent\n\n## Event Details\n\n- **Dates**: August 22–September 6, 2026\n- **Venue**: Voks Akihabara Hobby Tengoku 2, 1F storefront (plus Osaka and Nagoya showrooms)\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans wanting to buy 2.5-Dimensional Seduction merchandise in Akihabara\n- Collectors of beautifully illustrated acrylic goods\n- Visitors touring pop-up shops at Voks Akihabara Hobby Tengoku 2"
+    },
+    "image": {
+      "src": "/images/articles/nitengojigen-popup-voks-akihabara-2026.jpg",
+      "alt": "「2.5次元の誘惑」POP UP SHOPの告知ビジュアル",
+      "sourceLabel": "Collabo Cafe",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/nitengojigen-pop-up-store-vs-hobby2026/"
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/nitengojigen-pop-up-store-vs-hobby2026/"
+      }
+    ],
+    "event": {
+      "venue": "ボークス秋葉原ホビー天国2",
+      "startDate": "2026-08-22",
+      "endDate": "2026-09-06",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      129,
+      127
+    ]
+  },
+  {
+    "id": 630,
+    "title": "「ゼンレスゾーンゼロ」2周年イベントがベルサール秋葉原で開催",
+    "slug": "zenless-zone-zero-2nd-anniversary-bellesalle-akihabara-2026",
+    "summary": "「ゼンレスゾーンゼロ（ゼンゼロ）」の2周年記念オフラインイベントが、ベルサール秋葉原にて2026年7月31日から8月2日まで開催。物販エリアではねんどろいくなどオリジナルグッズを多数販売する。",
+    "content": "## 概要\n\nCOGNOSPHEREが手掛ける人気ゲーム「ゼンレスゾーンゼロ（ゼンゼロ）」の2周年記念オフラインイベントが、ベルサール秋葉原にて2026年7月31日から8月2日まで開催される。会場ではステージ企画や物販エリアなど、盛りだくさんの内容が展開された。\n\n## 内容\n\n物販エリアでは、人気キャラクターたちを使用したオリジナルグッズが多数ラインナップされた。\n\n- GSC ねんどろいど（各7,700円）\n- ポップアップ限定シリーズ ホログラムチケット（各880円）\n- 流れ砂アクリルスタンド（各2,780円）\n- ボンプ18cmぬいぐるみマスコット（各3,300円）\n- 3,000円（税込）以上購入でキャラクターホログラムカードを1枚、7,000円（税込）以上購入でクリアファイル（レミエールver.）をプレゼント\n\n## 開催情報\n\n- **日時**: 2026年7月31日（金）〜8月2日（日）\n- **会場**: ベルサール秋葉原\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 要事前予約（各エリアへの入場にLINEによる整理券が必要）\n\n## こんな人におすすめ\n\n- 「ゼンレスゾーンゼロ」のオリジナルグッズを秋葉原で購入したい方\n- 2周年記念イベントの物販・ステージを楽しみたい方\n- 人気キャラクターのねんどろいどやアクリルスタンドを集めたい方",
+    "publishedAt": "2026-07-31",
+    "tags": [
+      "秋葉原",
+      "イベント"
+    ],
+    "en": {
+      "title": "Zenless Zone Zero 2nd Anniversary Event to Be Held at Bellesalle Akihabara",
+      "summary": "A 2nd anniversary offline event for Zenless Zone Zero will run at Bellesalle Akihabara from July 31 to August 2, 2026, with a merchandise area selling Nendoroid figures and other original goods.",
+      "content": "## Overview\n\nA 2nd anniversary offline event for the popular game Zenless Zone Zero, developed by Cognosphere, will run at Bellesalle Akihabara from July 31 to August 2, 2026. The venue features stage programs and a merchandise area packed with content.\n\n## Highlights\n\nThe merchandise area offers a wide lineup of original goods featuring the game's popular characters.\n\n- GSC Nendoroid figures (¥7,700 each)\n- Pop-up exclusive series hologram tickets (¥880 each)\n- Flowing sand acrylic stands (¥2,780 each)\n- Bangboo 18cm plush mascots (¥3,300 each)\n- A character hologram card for purchases of ¥3,000+, and a clear file (Lumière ver.) for ¥7,000+\n\n## Event Details\n\n- **Dates**: July 31–August 2, 2026\n- **Venue**: Bellesalle Akihabara\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Required (LINE-based numbered ticket needed to enter each area)\n\n## Recommended For\n\n- Fans wanting to buy Zenless Zone Zero original goods in Akihabara\n- Visitors interested in the 2nd anniversary stage programs and merchandise\n- Collectors of Nendoroid figures and acrylic stands featuring popular characters"
+    },
+    "image": {
+      "src": "/images/articles/zenless-zone-zero-2nd-anniversary-bellesalle-akihabara-2026.jpg",
+      "alt": "「ゼンレスゾーンゼロ」2周年イベントの告知ビジュアル",
+      "sourceLabel": "Collabo Cafe",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/zenless-2nd-anniversary-off-line-event-akihabara2026/"
+    },
+    "sources": [
+      {
+        "label": "ゼンレスゾーンゼロ公式X",
+        "url": "https://x.com/ZZZ_JP/status/2079400976973275259"
+      },
+      {
+        "label": "HoYoLAB 記事",
+        "url": "https://www.hoyolab.com/article/45940500"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/zenless-2nd-anniversary-off-line-event-akihabara2026/"
+      },
+      {
+        "label": "GAME Watch フォトレポート",
+        "url": "https://game.watch.impress.co.jp/docs/kikaku/2129513.html"
+      }
+    ],
+    "event": {
+      "venue": "ベルサール秋葉原",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      129,
+      124
+    ]
+  },
+  {
+    "id": 631,
+    "title": "「鬼灯の冷徹」POP UP SHOPがブシロード秋葉原本店で開催",
+    "slug": "hozuki-no-reitetsu-popup-bushiroad-creative-akihabara-2026",
+    "summary": "TVアニメ「鬼灯の冷徹」のPOP UP SHOP〜夏祭りver.〜が、ブシロードクリエイティブストア秋葉原本店にて2026年8月13日から8月23日まで開催。夏祭りテーマの新規描き下ろしグッズが登場する。",
+    "content": "## 概要\n\nTVアニメ「鬼灯の冷徹」のPOP UP SHOP「〜夏祭りver.〜」が、ブシロードクリエイティブストア秋葉原本店にて2026年8月13日から8月23日まで開催される。\n\n## 内容\n\n夏祭りをテーマにした新規描き下ろしイラストのグッズが多数ラインナップされ、会場ではスタンディパネルの展示も実施される。\n\n- 夏祭りver.描き下ろしイラストを使用したグッズを多数販売\n- 会場にスタンディパネルを展示\n- 1会計3,000円（税込）お買い上げごとに「ホログラムシート（全5種）」をランダムで1枚プレゼント\n\n## 開催情報\n\n- **日時**: 2026年8月13日（木）〜8月23日（日）\n- **会場**: ブシロードクリエイティブストア秋葉原本店（アニメイト秋葉原ANNEX 5F）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 「鬼灯の冷徹」の新作グッズを秋葉原で購入したい方\n- 夏祭りテーマの描き下ろしイラストをチェックしたい方\n- ブシロードクリエイティブストアのPOP UP SHOPを巡っている方",
+    "publishedAt": "2026-07-31",
+    "tags": [
+      "秋葉原",
+      "イベント",
+      "ポップアップ"
+    ],
+    "en": {
+      "title": "Hozuki's Coolheadedness Pop-Up Shop to Open at Bushiroad Creative Store Akihabara",
+      "summary": "A summer festival themed pop-up shop for the TV anime Hozuki's Coolheadedness will run at Bushiroad Creative Store Akihabara Main Store from August 13 to August 23, 2026, featuring newly drawn merchandise.",
+      "content": "## Overview\n\nA pop-up shop for the TV anime Hozuki's Coolheadedness, themed \"Summer Festival ver.,\" will run at Bushiroad Creative Store Akihabara Main Store from August 13 to August 23, 2026.\n\n## Highlights\n\nThe shop offers a wide lineup of goods featuring newly drawn summer-festival-themed artwork, and standee panels are also on display at the venue.\n\n- A wide range of goods featuring newly drawn \"Summer Festival ver.\" artwork\n- Standee panel display at the venue\n- A random hologram sheet (5 varieties) given as a bonus for every ¥3,000 spent per transaction\n\n## Event Details\n\n- **Dates**: August 13–23, 2026\n- **Venue**: Bushiroad Creative Store Akihabara Main Store (Animate Akihabara ANNEX 5F)\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans wanting to buy new Hozuki's Coolheadedness merchandise in Akihabara\n- Visitors interested in the summer-festival themed artwork\n- Regulars following Bushiroad Creative Store's pop-up shops"
+    },
+    "image": {
+      "src": "/images/articles/hozuki-no-reitetsu-popup-bushiroad-creative-akihabara-2026.jpg",
+      "alt": "「鬼灯の冷徹」POP UP SHOP〜夏祭りver.〜の告知ビジュアル",
+      "sourceLabel": "ブシロードクリエイティブ 公式サイト",
+      "sourceUrl": "https://bushiroad-creative.com/topics/102354/"
+    },
+    "sources": [
+      {
+        "label": "ブシロードクリエイティブ 公式サイト",
+        "url": "https://bushiroad-creative.com/topics/102354/"
+      }
+    ],
+    "event": {
+      "venue": "ブシロードクリエイティブストア 秋葉原本店",
+      "startDate": "2026-08-13",
+      "endDate": "2026-08-23",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      129,
+      116
+    ]
+  },
+  {
+    "id": 632,
+    "title": "「TATSUJIN EXTREME」試遊会と井上淳哉氏サイン会がBEEP秋葉原で開催",
+    "slug": "tatsujin-extreme-beep-akihabara-inoue-junya-signing-2026",
+    "summary": "シューティング「TATSUJIN EXTREME」の新作ゲーム体験会と井上淳哉氏のサイン会が、BEEP秋葉原店にて2026年8月2日に開催。パッケージ版購入者などが対象の先着50名限定イベント。",
+    "content": "## 概要\n\nTHQ Nordic JapanとTATSUJINが7月30日に配信を開始したシューティング「TATSUJIN EXTREME」を記念し、新作ゲーム体験会と井上淳哉氏のサイン会がBEEP秋葉原店にて2026年8月2日に開催される。\n\n## 内容\n\n会場では本作を実際に試遊できる体験会に加え、発売を記念したサイン会も実施される。\n\n- 「TATSUJIN EXTREME」を試遊できる新作ゲーム体験会\n- 井上淳哉氏によるサイン会（先着50名予定）\n- サイン会対象は「TATSUJIN EXTREME」パッケージ版持参者、または当日BEEP秋葉原店で合計4,500円以上購入した人（ダウンロード版は対象外）\n\n## 開催情報\n\n- **日時**: 2026年8月2日（日）\n- **会場**: BEEP秋葉原店\n- **料金**: 参加無料（サイン会は購入条件あり）\n- **予約**: 不要（サイン会は先着順、購入条件あり）\n\n## こんな人におすすめ\n\n- レトロ調シューティング「TATSUJIN EXTREME」を試遊したい方\n- 井上淳哉氏のサインを求めているファン\n- BEEP秋葉原店のレトロゲームイベントを巡りたい方",
+    "publishedAt": "2026-07-31",
+    "tags": [
+      "秋葉原",
+      "イベント"
+    ],
+    "en": {
+      "title": "TATSUJIN EXTREME Trial Event and Junya Inoue Signing to Be Held at BEEP Akihabara",
+      "summary": "A hands-on trial event and a signing session with Junya Inoue for the shooter TATSUJIN EXTREME will be held at BEEP Akihabara on August 2, 2026, limited to the first 50 attendees meeting purchase conditions.",
+      "content": "## Overview\n\nTo mark the July 30 release of the shooter TATSUJIN EXTREME by THQ Nordic Japan and TATSUJIN, a hands-on trial event and a signing session with Junya Inoue will be held at BEEP Akihabara on August 2, 2026.\n\n## Highlights\n\nThe venue offers a hands-on trial of the game alongside a signing session to celebrate the release.\n\n- A hands-on trial event for TATSUJIN EXTREME\n- A signing session with Junya Inoue (first 50 attendees planned)\n- Signing eligibility requires bringing the TATSUJIN EXTREME package version or spending ¥4,500+ at BEEP Akihabara that day (download version not eligible)\n\n## Event Details\n\n- **Date**: August 2, 2026\n- **Venue**: BEEP Akihabara\n- **Price**: Free to attend; signing has purchase conditions\n- **Reservation**: Not required (signing is first-come, first-served with purchase conditions)\n\n## Recommended For\n\n- Fans wanting to try the retro-style shooter TATSUJIN EXTREME\n- Fans hoping for Junya Inoue's signature\n- Visitors following retro game events at BEEP Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/tatsujin-extreme-beep-akihabara-inoue-junya-signing-2026.jpg",
+      "alt": "「TATSUJIN EXTREME」試遊会・サイン会の告知画像",
+      "sourceLabel": "GAME Watch",
+      "sourceUrl": "https://game.watch.impress.co.jp/docs/news/2129439.html"
+    },
+    "sources": [
+      {
+        "label": "GAME Watch 記事",
+        "url": "https://game.watch.impress.co.jp/docs/news/2129439.html"
+      }
+    ],
+    "event": {
+      "venue": "BEEP秋葉原店",
+      "startDate": "2026-08-02",
+      "endDate": "2026-08-02",
+      "price": "参加無料（サイン会は購入条件あり）",
+      "reservation": false
+    },
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      8,
+      86
     ]
   }
 ]
