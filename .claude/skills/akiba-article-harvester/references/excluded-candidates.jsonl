@@ -96,3 +96,7 @@
 {"url": "https://www.goodsmileracing.com/news/news20260706/", "reason": "insufficient_facts", "note": "GOODSMILE RACING 2026アキバCOギャラリー、事実確認済みだが専用画像が見つからず保留", "checked": "2026-07-31"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7775", "reason": "insufficient_facts", "note": "転校先の清楚可憐な美少女POPUP、事実確認済みだが専用画像が見つからず保留", "checked": "2026-07-31"}
 {"url": "https://youjo-senki.jp/news.html", "reason": "insufficient_facts", "note": "幼女戦記II×アド街っぷタイアップ、公式ソースに専用画像なく保留", "checked": "2026-07-31"}
+{"url": "https://collabo-cafe.com/events/collabo/don-quijote-magazine-shop-item2026-0725/", "reason": "not_akihabara_specific", "note": "マガジンショップ、ドンキホーテ全国対象店舗展開、秋葉原固有の店舗なし", "checked": "2026-08-01"}
+{"url": "https://bushiroad-creative.com/topics/102354/", "reason": "low_value", "note": "鬼灯の冷徹POP UP SHOP、既存記事id631 hozuki-no-reitetsu-popup-bushiroad-creative-akihabara-2026と重複", "checked": "2026-08-01"}
+{"url": "https://cof-xr.co.jp/avemujica/", "reason": "low_value", "note": "Ave Mujica XR pupa ludere、既存記事id606 ave-mujica-xr-pupa-ludere-entas-akihabara-2026と重複", "checked": "2026-08-01"}
+{"url": "https://prtimes.jp/main/html/rd/p/000003686.000025615.html", "reason": "not_akihabara_specific", "note": "狂犬レディ麒麟ガレージキット、あみあみ実店舗サイトのみで秋葉原固有店舗・イベント性なし（既存ログと重複だが再確認）", "checked": "2026-08-01"}
