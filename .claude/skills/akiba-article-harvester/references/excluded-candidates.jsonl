@@ -100,3 +100,10 @@
 {"url": "https://bushiroad-creative.com/topics/102354/", "reason": "low_value", "note": "鬼灯の冷徹POP UP SHOP、既存記事id631 hozuki-no-reitetsu-popup-bushiroad-creative-akihabara-2026と重複", "checked": "2026-08-01"}
 {"url": "https://cof-xr.co.jp/avemujica/", "reason": "low_value", "note": "Ave Mujica XR pupa ludere、既存記事id606 ave-mujica-xr-pupa-ludere-entas-akihabara-2026と重複", "checked": "2026-08-01"}
 {"url": "https://prtimes.jp/main/html/rd/p/000003686.000025615.html", "reason": "not_akihabara_specific", "note": "狂犬レディ麒麟ガレージキット、あみあみ実店舗サイトのみで秋葉原固有店舗・イベント性なし（既存ログと重複だが再確認）", "checked": "2026-08-01"}
+{"url": "https://www.shosen.co.jp/event/44698/", "reason": "out_of_scope_venue", "note": "棚架ユウ転生剣サイン本、書泉グランデ神保町扱い", "checked": "2026-08-02"}
+{"url": "https://club-mogra.jp/2026/08/28/9885/", "reason": "insufficient_facts", "note": "MOGRA17周年DAY1-3、料金/出演者情報ページに未掲載", "checked": "2026-08-02"}
+{"url": "https://club.goodman2020.com/events/40065", "reason": "insufficient_facts", "note": "CLUB GOODMAN30周年ボブバン祭、日付情報取得できず", "checked": "2026-08-02"}
+{"url": "https://www.walkerplus.com/event/ar0313e605678/", "reason": "insufficient_facts", "note": "レザーワークショップ、開催場所(店名)不明", "checked": "2026-08-02"}
+{"url": "https://www.walkerplus.com/event/ar0313e607183/", "reason": "insufficient_facts", "note": "光るペンケースワークショップ、開催場所(店名)不明", "checked": "2026-08-02"}
+{"url": "https://www.walkerplus.com/event/ar0313e607462/", "reason": "out_of_scope_venue", "note": "畳まつり、浅草橋の畳店開催で秋葉原エリア外", "checked": "2026-08-02"}
+{"url": "https://www.walkerplus.com/event/ar0313e608047/", "reason": "insufficient_facts", "note": "Bug Brigade展示会、開催場所(会場名)不明", "checked": "2026-08-02"}
