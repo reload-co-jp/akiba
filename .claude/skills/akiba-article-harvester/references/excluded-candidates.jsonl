@@ -107,3 +107,10 @@
 {"url": "https://www.walkerplus.com/event/ar0313e607183/", "reason": "insufficient_facts", "note": "光るペンケースワークショップ、開催場所(店名)不明", "checked": "2026-08-02"}
 {"url": "https://www.walkerplus.com/event/ar0313e607462/", "reason": "out_of_scope_venue", "note": "畳まつり、浅草橋の畳店開催で秋葉原エリア外", "checked": "2026-08-02"}
 {"url": "https://www.walkerplus.com/event/ar0313e608047/", "reason": "insufficient_facts", "note": "Bug Brigade展示会、開催場所(会場名)不明", "checked": "2026-08-02"}
+{"url": "https://www.shosen.co.jp/event/44902/", "reason": "out_of_scope_venue", "note": "線形代数出版記念講演、書泉グランデ(神保町)開催", "checked": "2026-08-03"}
+{"url": "https://club.goodman2020.com/events/38978", "reason": "insufficient_facts", "note": "ORBIT vs 曇ヶ原、価格のみ取得、日時・出演者情報ページに未掲載(スクレイパー限界)", "checked": "2026-08-03"}
+{"url": "https://www.enjoytokyo.jp/event/2075413/", "reason": "not_akihabara_specific", "note": "パウパトロールスタンプラリー、TX×東武の広域企画(秋葉原・つくば・北千住・守谷)、秋葉原限定でない", "checked": "2026-08-03"}
+{"url": "https://www.enjoytokyo.jp/event/2077454/", "reason": "not_akihabara_specific", "note": "トイストーリー5東京メトロスタンプラリー、全線対象の広域企画、秋葉原限定でない", "checked": "2026-08-03"}
+{"url": "https://x.com/WW_JP_Official/status/1971545294283387254", "reason": "event_ended", "note": "鳴潮秋葉原UDXポップアップイベント、2025年10月18-19日開催で既に終了", "checked": "2026-08-03"}
+{"url": "https://x.com/GLStore_JP/status/2075568761470697749", "reason": "event_ended", "note": "絆の祝典POP UP EVENT inベルサール秋葉原、7月17-20日開催で既に終了", "checked": "2026-08-03"}
+{"url": "https://x.com/CuLpop_Akiba/highlights", "reason": "insufficient_facts", "note": "SAGA PLANETSサマーフェス出張所inCuLpop、2025年か2026年か開催年が確定できず(検索結果に2025年のURLパス/過去形の言及が混在)", "checked": "2026-08-03"}
