@@ -2950,5 +2950,7343 @@
       "ホテル",
       "宿泊"
     ]
+  },
+  {
+    "id": 111,
+    "name": "オステリア ジラソーレ",
+    "slug": "osm-node-508409153",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.696043,
+    "lng": 139.775006,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/508409153",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "NIJYU-MARU",
+    "slug": "osm-node-1048849850",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697295,
+    "lng": 139.771468,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1048849850",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "甘太郎",
+    "slug": "osm-node-1048849889",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697238,
+    "lng": 139.771473,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1048849889",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "北海道",
+    "slug": "osm-node-1048849902",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697206,
+    "lng": 139.771471,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1048849902",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "はなまるうどん",
+    "slug": "osm-node-1565011709",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのうどん店",
+    "lat": 35.696177,
+    "lng": 139.770913,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1565011709",
+    "address": "東京都千代田区神田須田町一丁目7-1 ウィン神田高橋ビル",
+    "hours": "Mo-Su 10:00-22:30",
+    "cuisine": [
+      "japanese",
+      "udon"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "テスタドゥーラ",
+    "slug": "osm-node-1635279747",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.696213,
+    "lng": 139.769031,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1635279747"
+  },
+  {
+    "id": 117,
+    "name": "トプカ",
+    "slug": "osm-node-1635279750",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.696269,
+    "lng": 139.769182,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1635279750",
+    "cuisine": [
+      "indian"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "80's Cafe",
+    "slug": "osm-node-1635279964",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.69681,
+    "lng": 139.769366,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1635279964",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "The Rose & Crown",
+    "slug": "osm-node-1862474175",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698751,
+    "lng": 139.772331,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1862474175",
+    "hours": "Mo-Fr 11:00-23:30; Sa-Su,PH 11:00-23:00",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "エクセルシオール カフェ",
+    "slug": "osm-node-1862474176",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699279,
+    "lng": 139.772387,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1862474176",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "うず潮",
+    "slug": "osm-node-1914950017",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.698635,
+    "lng": 139.772818,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1914950017",
+    "website": "https://www.jefb.co.jp/uzushio/shop/",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "魚がし日本一",
+    "slug": "osm-node-1914950021",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698371,
+    "lng": 139.772188,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1914950021"
+  },
+  {
+    "id": 123,
+    "name": "BECK'S COFFEE SHOP",
+    "slug": "osm-node-1914950025",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698707,
+    "lng": 139.772825,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1914950025",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "土間土間",
+    "slug": "osm-node-1914973970",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697987,
+    "lng": 139.77242,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1914973970",
+    "hours": "Mo-Su 16:00-05:00",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "牛角",
+    "slug": "osm-node-1914973971",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.697956,
+    "lng": 139.772416,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1914973971",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "めいどりーみん",
+    "slug": "osm-node-1914973974",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.697957,
+    "lng": 139.772447,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1914973974",
+    "hours": "Mo-Sa 11:30-23:00; Su 11:00-22:00",
+    "website": "https://maidreamin.com/shopinfo",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "昭和食堂",
+    "slug": "osm-node-1915000552",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697893,
+    "lng": 139.772457,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915000552",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "つけ麺屋やすべえ",
+    "slug": "osm-node-1915001551",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.697877,
+    "lng": 139.772457,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915001551",
+    "address": "東京都千代田区外神田一丁目15-11",
+    "website": "http://www.yasubee.com/",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "マンガ・ネット館",
+    "slug": "osm-node-1915011177",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.69771,
+    "lng": 139.772308,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915011177",
+    "hours": "Mo-Su 11:00-05:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Pepper Lunch",
+    "slug": "osm-node-1915016877",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの鉄板焼き店",
+    "lat": 35.697695,
+    "lng": 139.771496,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915016877",
+    "cuisine": [
+      "teppanyaki"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "富士そば",
+    "slug": "osm-node-1915112160",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのそば店",
+    "lat": 35.698277,
+    "lng": 139.771498,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915112160",
+    "hours": "24/7",
+    "cuisine": [
+      "soba"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "VAPE STAND CAFE",
+    "slug": "osm-node-1915112162",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.698067,
+    "lng": 139.771649,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915112162",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "MaiDreamin",
+    "slug": "osm-node-1915112166",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698303,
+    "lng": 139.7715,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915112166",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "かつや",
+    "slug": "osm-node-1915183134",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.69858,
+    "lng": 139.770843,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915183134",
+    "address": "東京都千代田区外神田一丁目4-11",
+    "cuisine": [
+      "fried_food"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "ケンタッキーフライドチキン",
+    "slug": "osm-node-1915185148",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.698597,
+    "lng": 139.770627,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915185148",
+    "cuisine": [
+      "chicken"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "だるまのめ",
+    "slug": "osm-node-1915227174",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.698882,
+    "lng": 139.770458,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915227174",
+    "website": "http://usingroup.jp/darumanome/",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "壱角屋",
+    "slug": "osm-node-1915234620",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.698944,
+    "lng": 139.770468,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915234620",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "赤津加",
+    "slug": "osm-node-1915234625",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698969,
+    "lng": 139.770658,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915234625",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "呑み処ひろし",
+    "slug": "osm-node-1915346968",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69998,
+    "lng": 139.770307,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1915346968",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "九州じゃんがら",
+    "slug": "osm-node-1916483949",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.700781,
+    "lng": 139.770661,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916483949",
+    "address": "東京都千代田区外神田三丁目11-6",
+    "hours": "Mo-Fr 10:30-23:30; Sa-Su 09:30-23:30",
+    "website": "http://www.kyusyujangara.co.jp/shops/akihabara.html",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "伝説のすた丼屋",
+    "slug": "osm-node-1916509737",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.700929,
+    "lng": 139.770617,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916509737",
+    "cuisine": [
+      "pork_bowl"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Cafe Euro",
+    "slug": "osm-node-1916524088",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのスイーツ店",
+    "lat": 35.701401,
+    "lng": 139.770575,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916524088",
+    "cuisine": [
+      "sweets",
+      "crepe"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "鉄道居酒屋 Little TGV",
+    "slug": "osm-node-1916524089",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.701322,
+    "lng": 139.770594,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916524089",
+    "website": "http://littletgv.com/",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "マチガイネッ サンドウィッチズ",
+    "slug": "osm-node-1916530502",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.702019,
+    "lng": 139.770659,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916530502",
+    "website": "https://ameblo.jp/machigaine/",
+    "cuisine": [
+      "hot_dog"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "牛かつ 壱弐参",
+    "slug": "osm-node-1916530503",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.702028,
+    "lng": 139.770607,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916530503",
+    "cuisine": [
+      "gyukatsu"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "モーゼスさんのケバブ",
+    "slug": "osm-node-1916530505",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのケバブ店",
+    "lat": 35.701697,
+    "lng": 139.770411,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916530505",
+    "cuisine": [
+      "kebab"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "刀削麺荘 唐家",
+    "slug": "osm-node-1916530507",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.702017,
+    "lng": 139.770634,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916530507",
+    "website": "https://www.kara-ya.com/",
+    "cuisine": [
+      "toshomen"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "繁栄堂",
+    "slug": "osm-node-1916535040",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.702341,
+    "lng": 139.770506,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916535040",
+    "cuisine": [
+      "bento"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "田中そば店",
+    "slug": "osm-node-1916535041",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.70233,
+    "lng": 139.770648,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916535041",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "そば処松月庵",
+    "slug": "osm-node-1916535042",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのそば店",
+    "lat": 35.7023,
+    "lng": 139.770501,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916535042",
+    "cuisine": [
+      "soba"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "HoneyHoney",
+    "slug": "osm-node-1916536728",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702431,
+    "lng": 139.770483,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916536728",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "肉汁麺ススム",
+    "slug": "osm-node-1916536731",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.70246,
+    "lng": 139.770504,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916536731",
+    "address": "東京都千代田区外神田三丁目7-12",
+    "hours": "Mo-Su 11:00-21:00",
+    "website": "http://susumu.me/",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "天想伝 楽",
+    "slug": "osm-node-1916536735",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.702824,
+    "lng": 139.770684,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1916536735",
+    "address": "東京都千代田区外神田三丁目8-7",
+    "website": "http://tenprosper.co.jp/shopinfo_gaku.html",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "サブウェイ",
+    "slug": "osm-node-1932733676",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのサンドイッチ店",
+    "lat": 35.701458,
+    "lng": 139.772444,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1932733676",
+    "hours": "Mo-Fr 08:30-21:00; Sa,Su,PH 10:00-21:00",
+    "website": "https://www.subway.co.jp/",
+    "cuisine": [
+      "sandwich"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "スターバックス",
+    "slug": "osm-node-1969405837",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.697759,
+    "lng": 139.77375,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1969405837",
+    "address": "東京都千代田区神田佐久間町一丁目6-5",
+    "hours": "07:00-22:30",
+    "website": "https://www.starbucks.co.jp/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "スターバックス",
+    "slug": "osm-node-1969409220",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698458,
+    "lng": 139.772557,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/1969409220",
+    "address": "東京都千代田区外神田一丁目17-6 アトレ秋葉原1",
+    "hours": "Mo-Su 07:00-22:30",
+    "website": "https://www.starbucks.co.jp/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "PRONTO",
+    "slug": "osm-node-2010539591",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699779,
+    "lng": 139.774216,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2010539591",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "PRONTO",
+    "slug": "osm-node-2010539595",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700545,
+    "lng": 139.772563,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2010539595",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "マクドナルド",
+    "slug": "osm-node-2010539600",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのハンバーガー店",
+    "lat": 35.699244,
+    "lng": 139.773774,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2010539600",
+    "hours": "24/7",
+    "cuisine": [
+      "burger"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "マクドナルド",
+    "slug": "osm-node-2010539604",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのハンバーガー店",
+    "lat": 35.699776,
+    "lng": 139.77177,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2010539604",
+    "hours": "Mo-Su 00:00-01:00,05:00-24:00",
+    "cuisine": [
+      "burger"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "エクセルシオール カフェ",
+    "slug": "osm-node-2031224127",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701494,
+    "lng": 139.771319,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2031224127",
+    "hours": "Mo-Fr 07:00-22:00; Sa-Su 07:00-21:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "デニーズ",
+    "slug": "osm-node-2059303755",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.69737,
+    "lng": 139.77366,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2059303755",
+    "address": "東京都千代田区神田佐久間町一丁目8-3",
+    "cuisine": [
+      "western",
+      "japanese"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "ドトールコーヒーショップ",
+    "slug": "osm-node-2059303757",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700579,
+    "lng": 139.775197,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2059303757",
+    "address": "東京都千代田区神田松永町18-1 ビオレ秋葉原",
+    "hours": "Mo-Fr 07:30-20:00; Sa 08:30-19:00; Su,PH 10:30-19:00",
+    "website": "https://www.doutor.co.jp/dcs/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "ドトールコーヒーショップ",
+    "slug": "osm-node-2059303758",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699492,
+    "lng": 139.769572,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2059303758",
+    "address": "東京都千代田区外神田一丁目6-6",
+    "hours": "Mo-Fr 07:30-20:00; Sa 08:00-20:00; Su,PH 08:30-20:00",
+    "website": "https://www.doutor.co.jp/dcs/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "ミライザカ",
+    "slug": "osm-node-2059756439",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの郷土料理店",
+    "lat": 35.697306,
+    "lng": 139.773374,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2059756439",
+    "cuisine": [
+      "regional"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "ジャン・カレー",
+    "slug": "osm-node-2192149227",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.70284,
+    "lng": 139.769735,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2192149227",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "めいどりーみん",
+    "slug": "osm-node-2261286702",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699072,
+    "lng": 139.770493,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2261286702",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "矢まと",
+    "slug": "osm-node-2262375008",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697665,
+    "lng": 139.773367,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2262375008",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "銀蔵",
+    "slug": "osm-node-2262375010",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.697308,
+    "lng": 139.773238,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2262375010",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "アキバギルド",
+    "slug": "osm-node-2263796306",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699535,
+    "lng": 139.771018,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2263796306",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "ばんから",
+    "slug": "osm-node-2263796314",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.701267,
+    "lng": 139.772154,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2263796314",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "めいどりーみん",
+    "slug": "osm-node-2266530197",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.70123,
+    "lng": 139.771815,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2266530197",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "すき家",
+    "slug": "osm-node-2266577913",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの牛丼店",
+    "lat": 35.701457,
+    "lng": 139.772127,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2266577913",
+    "hours": "24/7",
+    "cuisine": [
+      "beef_bowl"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "iTubeStudio",
+    "slug": "osm-node-2272548379",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699561,
+    "lng": 139.770469,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2272548379",
+    "address": "東京都千代田区外神田一丁目7-6 カルチャーズZONE",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "小諸そば",
+    "slug": "osm-node-2276456188",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.699669,
+    "lng": 139.76944,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2276456188",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Cafe & Bar B-Cats",
+    "slug": "osm-node-2276456238",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700968,
+    "lng": 139.770263,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2276456238",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "本格ガールズバー Glitter",
+    "slug": "osm-node-2276456273",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702309,
+    "lng": 139.770666,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2276456273",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "MACHIGAINE",
+    "slug": "osm-node-2276456274",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのサンドイッチ店",
+    "lat": 35.702314,
+    "lng": 139.77064,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2276456274",
+    "cuisine": [
+      "sandwich"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "MOCO",
+    "slug": "osm-node-2276977430",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699403,
+    "lng": 139.771562,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2276977430",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Grand Pirates Cafe & Bar",
+    "slug": "osm-node-2277871454",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699345,
+    "lng": 139.769869,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2277871454",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "めいどりーみん秋葉原ひみつきち",
+    "slug": "osm-node-2277871464",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699323,
+    "lng": 139.769866,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2277871464",
+    "hours": "Mo-Fr 13:30-23:00;Sa,Su,PH 10:30-23:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "塚田農場",
+    "slug": "osm-node-2292245570",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697269,
+    "lng": 139.771469,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2292245570",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "天狗",
+    "slug": "osm-node-2292247523",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697367,
+    "lng": 139.773498,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2292247523",
+    "address": "東京都千代田区神田佐久間町一丁目8-2 第一阿部ビル",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "ガスト",
+    "slug": "osm-node-2292248471",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697696,
+    "lng": 139.774489,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2292248471",
+    "cuisine": [
+      "western",
+      "japanese"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "世界の山ちゃん",
+    "slug": "osm-node-2292250493",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69642,
+    "lng": 139.775953,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2292250493",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "日高屋",
+    "slug": "osm-node-2349391581",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.697664,
+    "lng": 139.774521,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2349391581",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "立ち呑み 串吟",
+    "slug": "osm-node-2383032943",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.697355,
+    "lng": 139.773613,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2383032943",
+    "address": "東京都千代田区18-4",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "モスバーガー",
+    "slug": "osm-node-2458239674",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのハンバーガー店",
+    "lat": 35.702197,
+    "lng": 139.771398,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2458239674",
+    "address": "東京都千代田区外神田三丁目16-14",
+    "hours": "Mo-Su 07:00-23:00",
+    "website": "https://ssl.mos.jp/shop/detail/02232/",
+    "cuisine": [
+      "burger"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "とんこつらーめん博多風龍",
+    "slug": "osm-node-2458242030",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.701867,
+    "lng": 139.771399,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2458242030",
+    "cuisine": [
+      "noodle",
+      "ramen"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "La Petit Kanda",
+    "slug": "osm-node-2509984547",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのフレンチ",
+    "lat": 35.697711,
+    "lng": 139.769342,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2509984547",
+    "cuisine": [
+      "french"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Tapas Blanco",
+    "slug": "osm-node-2522784376",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのスペイン料理店",
+    "lat": 35.698059,
+    "lng": 139.773772,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2522784376",
+    "hours": "Mo-Su 11:00-23:30",
+    "cuisine": [
+      "spanish"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "こまきしょくどう -鎌倉不識庵",
+    "slug": "osm-node-2724689539",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.699642,
+    "lng": 139.773211,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2724689539",
+    "website": "https://konnichiha.net/fushikian/",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "やなか珈琲店",
+    "slug": "osm-node-2724692644",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699587,
+    "lng": 139.773146,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2724692644",
+    "website": "https://www.yanaka-coffeeten.com/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "濱かつ",
+    "slug": "osm-node-2834279011",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698699,
+    "lng": 139.774766,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2834279011",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "サイゼリヤ",
+    "slug": "osm-node-2834282258",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.698325,
+    "lng": 139.774843,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2834282258",
+    "hours": "Mo-Su 10:00-23:00",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "JAM Akihabara",
+    "slug": "osm-node-2952193647",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700383,
+    "lng": 139.769942,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/2952193647",
+    "website": "http://jam-akiba.com/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "竹むら",
+    "slug": "osm-node-3233781672",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.696675,
+    "lng": 139.76907,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3233781672",
+    "hours": "Tu-Sa 11:00-20:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "ルノアール",
+    "slug": "osm-node-3263198583",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.697854,
+    "lng": 139.774771,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3263198583",
+    "hours": "Mo-Sa 07:30-23:00; PH 08:00-22:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "缶's bar",
+    "slug": "osm-node-3263236545",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.698138,
+    "lng": 139.77427,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3263236545",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "つじ田",
+    "slug": "osm-node-3263272304",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.699003,
+    "lng": 139.770131,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3263272304",
+    "website": "https://www.toeimusen.co.jp/"
+  },
+  {
+    "id": 201,
+    "name": "てんや",
+    "slug": "osm-node-3263298104",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.701613,
+    "lng": 139.771841,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3263298104",
+    "address": "東京都千代田区外神田四丁目5-4 亀松ビル",
+    "cuisine": [
+      "fries"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "タリーズコーヒー",
+    "slug": "osm-node-3263334938",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700855,
+    "lng": 139.772506,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3263334938",
+    "address": "東京都千代田区外神田四丁目14-1 秋葉原UDX1",
+    "hours": "Mo-Fr 07:30-22:30; Sa 08:00-22:30; Su,PH 08:00-22:00",
+    "website": "https://www.tullys.co.jp/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Akiba ICHI",
+    "slug": "osm-node-3345148204",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700583,
+    "lng": 139.772473,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3345148204",
+    "address": "東京都千代田区外神田四丁目14-1"
+  },
+  {
+    "id": 204,
+    "name": "C&C",
+    "slug": "osm-node-3364718752",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.698345,
+    "lng": 139.775229,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718752",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "テング酒場",
+    "slug": "osm-node-3364718755",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698339,
+    "lng": 139.775131,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718755",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "博多満月",
+    "slug": "osm-node-3364718764",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698342,
+    "lng": 139.775077,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718764",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "博多風龍",
+    "slug": "osm-node-3364718765",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.698394,
+    "lng": 139.775227,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718765",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "梅もと",
+    "slug": "osm-node-3364718766",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.698571,
+    "lng": 139.77524,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718766",
+    "cuisine": [
+      "noodle",
+      "soba",
+      "udon"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "牛角",
+    "slug": "osm-node-3364718767",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.698394,
+    "lng": 139.775072,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718767",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "白木屋",
+    "slug": "osm-node-3364718768",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698394,
+    "lng": 139.775131,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718768",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "笑笑",
+    "slug": "osm-node-3364718769",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698371,
+    "lng": 139.775076,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718769",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "金の蔵",
+    "slug": "osm-node-3364718770",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69837,
+    "lng": 139.775128,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364718770",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "かつや",
+    "slug": "osm-node-3364729740",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.699521,
+    "lng": 139.774773,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364729740",
+    "cuisine": [
+      "fried_food"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "ねぎま三ぞう",
+    "slug": "osm-node-3364729757",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.699646,
+    "lng": 139.774532,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364729757",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "吉野家",
+    "slug": "osm-node-3364729758",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの牛丼店",
+    "lat": 35.699525,
+    "lng": 139.774689,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364729758",
+    "cuisine": [
+      "beef_bowl"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "我家",
+    "slug": "osm-node-3364744687",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700892,
+    "lng": 139.774667,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364744687"
+  },
+  {
+    "id": 217,
+    "name": "一会",
+    "slug": "osm-node-3364760091",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.702739,
+    "lng": 139.772536,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364760091",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "順興",
+    "slug": "osm-node-3364761794",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.702673,
+    "lng": 139.773228,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3364761794",
+    "hours": "11:30-14:30,17:00-23:00",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "ヒーローズ",
+    "slug": "osm-node-3607126011",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.699489,
+    "lng": 139.769412,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3607126011",
+    "cuisine": [
+      "steak_house"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "ドトールコーヒーショップ",
+    "slug": "osm-node-3632374360",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.696317,
+    "lng": 139.77513,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3632374360",
+    "hours": "Mo-Fr 06:50-21:30; Sa 07:30-20:30; Su,PH 08:00-19:30",
+    "website": "https://www.doutor.co.jp/dcs/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "サンマルクカフェ",
+    "slug": "osm-node-3658839514",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698912,
+    "lng": 139.774859,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3658839514",
+    "address": "東京都千代田区神田花岡町1-1",
+    "hours": "Mo-Su 07:30-22:00",
+    "website": "http://www.saint-marc-hd.com/cafe/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "カフェ・ベローチェ",
+    "slug": "osm-node-3663930453",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699281,
+    "lng": 139.77461,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3663930453",
+    "website": "https://chatnoir-company.com/chatnoir/html/brand/brand_veloce.html",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "ねこ・JaLaLa",
+    "slug": "osm-node-3889725819",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.70187,
+    "lng": 139.769511,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3889725819",
+    "address": "東京都千代田区外神田三丁目5-5",
+    "hours": "Mo-Su 11:00-20:00",
+    "website": "https://www.nekojalala.com/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "カリガリ",
+    "slug": "osm-node-3889725856",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.70284,
+    "lng": 139.770051,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3889725856",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "東和酒場",
+    "slug": "osm-node-3889728057",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.702242,
+    "lng": 139.769236,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3889728057",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "やよい軒",
+    "slug": "osm-node-3889728059",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.702272,
+    "lng": 139.769557,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3889728059",
+    "address": "東京都千代田区外神田三丁目6-2",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "らーめん影武者",
+    "slug": "osm-node-3889728062",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.701343,
+    "lng": 139.769467,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3889728062",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "須田町食堂",
+    "slug": "osm-node-3939035866",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700304,
+    "lng": 139.772602,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/3939035866",
+    "cuisine": [
+      "bar_and_grill"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "松屋",
+    "slug": "osm-node-4018914744",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.69896,
+    "lng": 139.775238,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4018914744",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "バーガーキング",
+    "slug": "osm-node-4026218118",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのハンバーガー店",
+    "lat": 35.697753,
+    "lng": 139.775224,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4026218118",
+    "hours": "24/7",
+    "website": "https://www.burgerkingjapan.co.jp",
+    "cuisine": [
+      "burger"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "サイゼリヤ",
+    "slug": "osm-node-4026234994",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.70152,
+    "lng": 139.771198,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4026234994",
+    "address": "東京都千代田区外神田三丁目15-1",
+    "hours": "11:00-24:00",
+    "website": "https://www.saizeriya.co.jp/restaurant/shop_detail.php?cd=0943",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "NEW TYPE",
+    "slug": "osm-node-4069456104",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702437,
+    "lng": 139.770446,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4069456104",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "花籠",
+    "slug": "osm-node-4069459646",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702018,
+    "lng": 139.770681,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4069459646",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "秋葉原ラーメン わいず",
+    "slug": "osm-node-4069462002",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.702833,
+    "lng": 139.770544,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4069462002",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "カレーの市民 アルバ",
+    "slug": "osm-node-4069497698",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.700539,
+    "lng": 139.770375,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4069497698",
+    "cuisine": [
+      "indian"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "幽幻飯店",
+    "slug": "osm-node-4069513072",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700159,
+    "lng": 139.770325,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4069513072",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "最強油そば 春日亭",
+    "slug": "osm-node-4069513074",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.699897,
+    "lng": 139.770308,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4069513074",
+    "cuisine": [
+      "ramen",
+      "noodle"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "百万石",
+    "slug": "osm-node-4071204452",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69624,
+    "lng": 139.773907,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4071204452",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "牛丼専門サンボ",
+    "slug": "osm-node-4322916839",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの牛丼店",
+    "lat": 35.701276,
+    "lng": 139.77103,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4322916839",
+    "cuisine": [
+      "beef_bowl"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "めいどりーみん",
+    "slug": "osm-node-4428508790",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701982,
+    "lng": 139.771337,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4428508790",
+    "address": "東京都千代田区外神田三丁目16-17",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Trad Bar Sekirei",
+    "slug": "osm-node-4451079698",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702661,
+    "lng": 139.772529,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4451079698",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Hitachino Brewing Lab",
+    "slug": "osm-node-4487838689",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.697062,
+    "lng": 139.770652,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4487838689"
+  },
+  {
+    "id": 243,
+    "name": "Aslan kebab",
+    "slug": "osm-node-4524764559",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのケバブ店",
+    "lat": 35.697645,
+    "lng": 139.774571,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4524764559",
+    "cuisine": [
+      "kebab"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "幸楽苑",
+    "slug": "osm-node-4524764575",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.698139,
+    "lng": 139.775792,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4524764575",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "こまきしょくどう",
+    "slug": "osm-node-4535075891",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのアジア料理店",
+    "lat": 35.699615,
+    "lng": 139.773215,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4535075891",
+    "hours": "Mo-Fr 11:00-16:00, 17:00-19:30; Sa-Su 11:00-19:30",
+    "website": "https://www.kamakura-komaki.com",
+    "cuisine": [
+      "asian",
+      "japanese"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "秋葉原神社",
+    "slug": "osm-node-4643581846",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.69952,
+    "lng": 139.769287,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4643581846"
+  },
+  {
+    "id": 247,
+    "name": "雁川",
+    "slug": "osm-node-4748454621",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.700996,
+    "lng": 139.770847,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4748454621",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "CoCo壱番屋",
+    "slug": "osm-node-4768327421",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.698738,
+    "lng": 139.775772,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4768327421",
+    "cuisine": [
+      "curry",
+      "japanese"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "poulet frit",
+    "slug": "osm-node-4809155721",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.699274,
+    "lng": 139.774313,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4809155721"
+  },
+  {
+    "id": 250,
+    "name": "アキバフクロウ",
+    "slug": "osm-node-4873039521",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700785,
+    "lng": 139.774864,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4873039521",
+    "hours": "Mo, We-Fr 12:00-18:00; Sa-Su 12:00-19:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "百年本舗",
+    "slug": "osm-node-4890833054",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.702809,
+    "lng": 139.770918,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4890833054",
+    "address": "東京都千代田区外神田三丁目8-9",
+    "hours": "Mo-Su 11:00-22:00",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "アイ・キッチン",
+    "slug": "osm-node-4893150632",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.702728,
+    "lng": 139.769691,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4893150632",
+    "address": "東京都千代田区外神田三丁目6-5",
+    "cuisine": [
+      "indian"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "上等カレー",
+    "slug": "osm-node-4903113481",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.701954,
+    "lng": 139.771887,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4903113481",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "魔法メイド学園アルティマ",
+    "slug": "osm-node-4903113482",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701968,
+    "lng": 139.771954,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4903113482",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "CHRONOSGATE",
+    "slug": "osm-node-4903113484",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701981,
+    "lng": 139.7719,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4903113484",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "Pepper Lunch",
+    "slug": "osm-node-4903899872",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの鉄板焼き店",
+    "lat": 35.702539,
+    "lng": 139.772011,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4903899872",
+    "cuisine": [
+      "teppanyaki"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "江戸前寿司 桜荘",
+    "slug": "osm-node-4905084089",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.702823,
+    "lng": 139.770972,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4905084089",
+    "address": "東京都千代田区外神田三丁目8-9",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "Kielo Coffee",
+    "slug": "osm-node-4934083638",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701868,
+    "lng": 139.775986,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4934083638",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "8style",
+    "slug": "osm-node-4937999261",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702223,
+    "lng": 139.769559,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4937999261",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "CROWN TIARA",
+    "slug": "osm-node-4937999262",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702168,
+    "lng": 139.769538,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4937999262",
+    "website": "http://www.crown-tiara.jp",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "高まり研究所",
+    "slug": "osm-node-4937999265",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702081,
+    "lng": 139.769726,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4937999265",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "嵯峨谷",
+    "slug": "osm-node-4960888639",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのそば店",
+    "lat": 35.701315,
+    "lng": 139.770884,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4960888639",
+    "address": "東京都千代田区外神田三丁目10-7",
+    "website": "https://foryou-group.co.jp/brandfc/kantou/entry-78.html",
+    "cuisine": [
+      "soba",
+      "noodle"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "神田たまごけん",
+    "slug": "osm-node-4960892182",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.701266,
+    "lng": 139.77119,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4960892182",
+    "hours": "Mo-Su 11:00-21:00"
+  },
+  {
+    "id": 264,
+    "name": "鮨与志",
+    "slug": "osm-node-4963011099",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.702194,
+    "lng": 139.772295,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4963011099"
+  },
+  {
+    "id": 265,
+    "name": "THE 1/3",
+    "slug": "osm-node-4963027551",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702089,
+    "lng": 139.772405,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4963027551",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "ロイヤルホスト",
+    "slug": "osm-node-4963027554",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.701734,
+    "lng": 139.771997,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4963027554",
+    "cuisine": [
+      "japanese",
+      "italian",
+      "french"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "もののぷ",
+    "slug": "osm-node-4963027559",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702084,
+    "lng": 139.771902,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4963027559",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "ラホール",
+    "slug": "osm-node-4972947154",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.701049,
+    "lng": 139.770842,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4972947154",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "じとっこ組合",
+    "slug": "osm-node-4986032737",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのパブ・居酒屋",
+    "lat": 35.698446,
+    "lng": 139.77589,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4986032737",
+    "cuisine": [
+      "chicken"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "菊寿し",
+    "slug": "osm-node-4986032740",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.697481,
+    "lng": 139.77578,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4986032740",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "CoCo壱番屋",
+    "slug": "osm-node-4986032741",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.698457,
+    "lng": 139.775794,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4986032741",
+    "cuisine": [
+      "curry",
+      "japanese"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "麺屋武蔵",
+    "slug": "osm-node-4986032742",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.698624,
+    "lng": 139.775857,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4986032742",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 273,
+    "name": "魚金",
+    "slug": "osm-node-4987968720",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.70136,
+    "lng": 139.774666,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4987968720",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 274,
+    "name": "もふれる",
+    "slug": "osm-node-4988069836",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702597,
+    "lng": 139.772535,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/4988069836",
+    "website": "http://moff-rell.com/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "ねぎし",
+    "slug": "osm-node-5006971688",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの郷土料理店",
+    "lat": 35.702223,
+    "lng": 139.771398,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5006971688",
+    "cuisine": [
+      "regional"
+    ]
+  },
+  {
+    "id": 276,
+    "name": "Chatime",
+    "slug": "osm-node-5006971690",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのタピオカ店",
+    "lat": 35.702431,
+    "lng": 139.771411,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5006971690",
+    "cuisine": [
+      "bubble_tea"
+    ]
+  },
+  {
+    "id": 277,
+    "name": "麵屋武一",
+    "slug": "osm-node-5009315597",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.700735,
+    "lng": 139.770967,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5009315597",
+    "cuisine": [
+      "noodle",
+      "ramen"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "日乃屋カレー",
+    "slug": "osm-node-5009324771",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.699122,
+    "lng": 139.770351,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5009324771",
+    "cuisine": [
+      "indian",
+      "curry"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "Akibaスモーカーズ",
+    "slug": "osm-node-5019141733",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702027,
+    "lng": 139.770744,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5019141733",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Baron",
+    "slug": "osm-node-5019141740",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702396,
+    "lng": 139.77099,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5019141740",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "夜宴迷宮",
+    "slug": "osm-node-5019147295",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.701386,
+    "lng": 139.770659,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5019147295",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "パラレルルーム",
+    "slug": "osm-node-5019147297",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.701369,
+    "lng": 139.770667,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5019147297",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "誠酒屋",
+    "slug": "osm-node-5019147298",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.701349,
+    "lng": 139.770667,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5019147298",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 284,
+    "name": "Imitiaz's Camera Market",
+    "slug": "osm-node-5019797152",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.702307,
+    "lng": 139.771451,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5019797152",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "天下一品",
+    "slug": "osm-node-5019797157",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.702086,
+    "lng": 139.771421,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5019797157",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 286,
+    "name": "ダーツ & アミューズメントバー",
+    "slug": "osm-node-5026488354",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700087,
+    "lng": 139.769385,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026488354",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Akiba Sanatorium",
+    "slug": "osm-node-5026492026",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700133,
+    "lng": 139.76936,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026492026",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 288,
+    "name": "炭の魂",
+    "slug": "osm-node-5026492027",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.700128,
+    "lng": 139.769373,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026492027",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "Pasta Blue Berry",
+    "slug": "osm-node-5026546643",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.701426,
+    "lng": 139.769467,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026546643",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "スナック和",
+    "slug": "osm-node-5026546645",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.701433,
+    "lng": 139.769082,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026546645",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "bistrot nous",
+    "slug": "osm-node-5026546646",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのフレンチ",
+    "lat": 35.701513,
+    "lng": 139.769147,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026546646",
+    "cuisine": [
+      "french"
+    ]
+  },
+  {
+    "id": 292,
+    "name": "陳麻家",
+    "slug": "osm-node-5026546647",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.701453,
+    "lng": 139.769092,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026546647",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 293,
+    "name": "餃子屋壱番",
+    "slug": "osm-node-5026546649",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.70175,
+    "lng": 139.76916,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026546649",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 294,
+    "name": "Pasta Bar MAKITA",
+    "slug": "osm-node-5026546656",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.701789,
+    "lng": 139.769182,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5026546656",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Ring a Bell",
+    "slug": "osm-node-5031532369",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699518,
+    "lng": 139.769415,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5031532369",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Carl's Jr.",
+    "slug": "osm-node-5050002956",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのハンバーガー店",
+    "lat": 35.701296,
+    "lng": 139.771789,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5050002956",
+    "hours": "Mo-Su 10:00-21:00",
+    "cuisine": [
+      "burger"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Vault Coffee",
+    "slug": "osm-node-5050002958",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.70146,
+    "lng": 139.77193,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5050002958",
+    "hours": "Mo-Su 10:00-22:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "若狭家",
+    "slug": "osm-node-5051208709",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの海鮮料理店",
+    "lat": 35.701695,
+    "lng": 139.771354,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5051208709",
+    "cuisine": [
+      "seafood",
+      "japanese"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Schwartz Chevalier",
+    "slug": "osm-node-5051208712",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701867,
+    "lng": 139.771385,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5051208712",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "LILIAN PICOLE",
+    "slug": "osm-node-5051279062",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.70176,
+    "lng": 139.771377,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5051279062",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Cafe Chales",
+    "slug": "osm-node-5051279063",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701771,
+    "lng": 139.771339,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5051279063",
+    "hours": "Mo-Su 17:00-24:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "トラジ",
+    "slug": "osm-node-5057770997",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.697964,
+    "lng": 139.773769,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5057770997",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "82 Ale House",
+    "slug": "osm-node-5057770998",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69792,
+    "lng": 139.773702,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5057770998",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "サーティワンアイスクリーム",
+    "slug": "osm-node-5057771000",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのスイーツ店",
+    "lat": 35.697999,
+    "lng": 139.773796,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5057771000",
+    "cuisine": [
+      "sweets"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Sai Thai",
+    "slug": "osm-node-5057771001",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのタイ料理店",
+    "lat": 35.698007,
+    "lng": 139.773766,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5057771001",
+    "cuisine": [
+      "thai"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "はなまるうどん",
+    "slug": "osm-node-5061599638",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのうどん店",
+    "lat": 35.699056,
+    "lng": 139.775212,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061599638",
+    "cuisine": [
+      "japanese",
+      "udon"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "壱角家",
+    "slug": "osm-node-5061599640",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.698892,
+    "lng": 139.775236,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061599640",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "スパゲッティーのパンチョ",
+    "slug": "osm-node-5061599643",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.698547,
+    "lng": 139.775221,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061599643",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "中国料理 黒龍",
+    "slug": "osm-node-5061599644",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.69868,
+    "lng": 139.775799,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061599644",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "葡萄屋",
+    "slug": "osm-node-5061599652",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69861,
+    "lng": 139.775783,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061599652",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "箱根そば",
+    "slug": "osm-node-5061599659",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのそば店",
+    "lat": 35.698014,
+    "lng": 139.775094,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061599659",
+    "cuisine": [
+      "soba"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "Bistro Teriyaki",
+    "slug": "osm-node-5061648218",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.700823,
+    "lng": 139.774699,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061648218",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "プリモプリマ",
+    "slug": "osm-node-5061790163",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702307,
+    "lng": 139.773058,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5061790163",
+    "website": "http://primo-prima.com/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 314,
+    "name": "僕と猫",
+    "slug": "osm-node-5062122561",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701401,
+    "lng": 139.771916,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5062122561",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "カフェバー　White&Cross Load",
+    "slug": "osm-node-5062122563",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701391,
+    "lng": 139.771875,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5062122563",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 316,
+    "name": "大衆酒場ちばチャン",
+    "slug": "osm-node-5068098449",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.701312,
+    "lng": 139.771912,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5068098449",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Cat Cafe Mocha",
+    "slug": "osm-node-5068098452",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701326,
+    "lng": 139.771864,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5068098452",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "カフェトマティーナ",
+    "slug": "osm-node-5069107594",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.697962,
+    "lng": 139.775104,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5069107594",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Shinobazu",
+    "slug": "osm-node-5071693013",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699347,
+    "lng": 139.769426,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5071693013",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "エンジェルドロップス",
+    "slug": "osm-node-5071693016",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699576,
+    "lng": 139.769424,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5071693016",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "珈琲 庵",
+    "slug": "osm-node-5071694063",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699312,
+    "lng": 139.76957,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5071694063",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "みけねこカフェ",
+    "slug": "osm-node-5180290825",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702031,
+    "lng": 139.770664,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5180290825",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 323,
+    "name": "FLYING SCOTSMAN",
+    "slug": "osm-node-5181116184",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700188,
+    "lng": 139.771988,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5181116184",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 324,
+    "name": "COLLABO CAFE HONPO",
+    "slug": "osm-node-5181116186",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700617,
+    "lng": 139.772051,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5181116186",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "とんこつらーめん博多風龍",
+    "slug": "osm-node-5181116188",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.700372,
+    "lng": 139.772015,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5181116188",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "oerlrer man",
+    "slug": "osm-node-5181116190",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700712,
+    "lng": 139.772498,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5181116190",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "東京スタミナカレー365",
+    "slug": "osm-node-5181116192",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.700373,
+    "lng": 139.772,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5181116192",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 328,
+    "name": "マグロ専門居酒屋AKIBA",
+    "slug": "osm-node-5181116193",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.700215,
+    "lng": 139.771978,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5181116193",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "宇奈とと",
+    "slug": "osm-node-5181116195",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのうなぎ店",
+    "lat": 35.700296,
+    "lng": 139.772016,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5181116195",
+    "cuisine": [
+      "unagi"
+    ]
+  },
+  {
+    "id": 330,
+    "name": "Jack in the Donuts",
+    "slug": "osm-node-5199221061",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.698398,
+    "lng": 139.774511,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5199221061",
+    "address": "東京都千代田区神田花岡町1-1",
+    "cuisine": [
+      "donut"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "超ごってり麺 ごっつ",
+    "slug": "osm-node-5210427665",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.70056,
+    "lng": 139.775275,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5210427665",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 332,
+    "name": "高しな",
+    "slug": "osm-node-5210427675",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.700449,
+    "lng": 139.775817,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5210427675",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "Sevens",
+    "slug": "osm-node-5226192345",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700989,
+    "lng": 139.769095,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5226192345",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 334,
+    "name": "Live & Bar ZEST",
+    "slug": "osm-node-5230307078",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700405,
+    "lng": 139.769836,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5230307078",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Saint Universe",
+    "slug": "osm-node-5230312401",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701842,
+    "lng": 139.771402,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5230312401",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "ベルベット",
+    "slug": "osm-node-5230312402",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701834,
+    "lng": 139.771388,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5230312402",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "青海珈琲",
+    "slug": "osm-node-5255112207",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702393,
+    "lng": 139.770486,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5255112207",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 338,
+    "name": "さかなや道場",
+    "slug": "osm-node-5295097939",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698119,
+    "lng": 139.775908,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5295097939",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 339,
+    "name": "かぐらや",
+    "slug": "osm-node-5295097943",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697353,
+    "lng": 139.775828,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5295097943",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 340,
+    "name": "GIRL'S CAFE☆TOKYO",
+    "slug": "osm-node-5300723849",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701257,
+    "lng": 139.772052,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5300723849",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "フルーフ デゥ セゾン",
+    "slug": "osm-node-5307660946",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.702363,
+    "lng": 139.77292,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5307660946"
+  },
+  {
+    "id": 342,
+    "name": "パステルメイド",
+    "slug": "osm-node-5307671299",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702592,
+    "lng": 139.772558,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5307671299",
+    "hours": "Mo off; Tu-Fr 14:00-21:00; Sa-Su,PH 13:00-21:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "あきば食堂",
+    "slug": "osm-node-5317636173",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700561,
+    "lng": 139.769919,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5317636173"
+  },
+  {
+    "id": 344,
+    "name": "カレー食堂 心",
+    "slug": "osm-node-5317636174",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.700709,
+    "lng": 139.770582,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5317636174"
+  },
+  {
+    "id": 345,
+    "name": "橙幻郷",
+    "slug": "osm-node-5317636176",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700524,
+    "lng": 139.770034,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5317636176",
+    "address": "東京都千代田区外神田三丁目2-7",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 346,
+    "name": "桃猫堂",
+    "slug": "osm-node-5321098076",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702352,
+    "lng": 139.771326,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5321098076",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "エルヴィス",
+    "slug": "osm-node-5321098077",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702348,
+    "lng": 139.77136,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5321098077",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 348,
+    "name": "もふもふバニー",
+    "slug": "osm-node-5334276817",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702058,
+    "lng": 139.77038,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5334276817",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "コスプレカフェ&バー アルバス",
+    "slug": "osm-node-5355683412",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.701992,
+    "lng": 139.77213,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5355683412",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "日高屋",
+    "slug": "osm-node-5371455198",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.69954,
+    "lng": 139.774973,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5371455198",
+    "cuisine": [
+      "chinese",
+      "noodle"
+    ]
+  },
+  {
+    "id": 351,
+    "name": "スターケバブ",
+    "slug": "osm-node-5463700154",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのケバブ店",
+    "lat": 35.69908,
+    "lng": 139.770391,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5463700154",
+    "cuisine": [
+      "kebab"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "アニカラアーミーズ",
+    "slug": "osm-node-5479236748",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699327,
+    "lng": 139.769414,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5479236748",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 353,
+    "name": "巫女喫茶 秋葉亭",
+    "slug": "osm-node-5479310976",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.69956,
+    "lng": 139.769324,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5479310976",
+    "hours": "12:00-23:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "足湯喫茶 浪漫亭",
+    "slug": "osm-node-5479310977",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699597,
+    "lng": 139.769325,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5479310977",
+    "hours": "12:00-23:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "BLACK HONEY",
+    "slug": "osm-node-5482740055",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700131,
+    "lng": 139.769415,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5482740055",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "LUZZ",
+    "slug": "osm-node-5482740056",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700137,
+    "lng": 139.769384,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5482740056",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "ゲームズバーコネクト",
+    "slug": "osm-node-5482740057",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700147,
+    "lng": 139.769421,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5482740057",
+    "hours": "Mo-Su 12:00-22:00",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 358,
+    "name": "ChaRiotz",
+    "slug": "osm-node-5482740059",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700148,
+    "lng": 139.769375,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5482740059",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "多次元秘密基地",
+    "slug": "osm-node-5482740060",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700142,
+    "lng": 139.769398,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5482740060",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "ITTI",
+    "slug": "osm-node-5544427523",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699004,
+    "lng": 139.774288,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5544427523",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 361,
+    "name": "MOOGA",
+    "slug": "osm-node-5549484982",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのハンバーガー店",
+    "lat": 35.702794,
+    "lng": 139.770356,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5549484982",
+    "hours": "Mo-Fr 11:00-20:00",
+    "cuisine": [
+      "burger",
+      "chinese"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "きづなすし",
+    "slug": "osm-node-5588956024",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.697687,
+    "lng": 139.771612,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5588956024",
+    "hours": "24/7",
+    "website": "https://gurunavi.com/en/get2536/rst/?__ngt__=TT0e3c5a55c006ac1e4a5ab1QLL--g5iK9ilt-_1jZnvh8",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 363,
+    "name": "カレーは飲み物。",
+    "slug": "osm-node-5700961530",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.700887,
+    "lng": 139.775892,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5700961530",
+    "cuisine": [
+      "indian",
+      "cuisine"
+    ]
+  },
+  {
+    "id": 364,
+    "name": "そば・うどん あきば",
+    "slug": "osm-node-5700964037",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.700991,
+    "lng": 139.775878,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5700964037",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "ワイン&バー BAMBA-R",
+    "slug": "osm-node-5700964040",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700916,
+    "lng": 139.775895,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5700964040"
+  },
+  {
+    "id": 366,
+    "name": "卍力",
+    "slug": "osm-node-5701181899",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.701221,
+    "lng": 139.775919,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5701181899"
+  },
+  {
+    "id": 367,
+    "name": "秋葉原とら八",
+    "slug": "osm-node-5702452120",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698412,
+    "lng": 139.775978,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5702452120",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 368,
+    "name": "エリート",
+    "slug": "osm-node-5770564982",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702057,
+    "lng": 139.775019,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5770564982",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 369,
+    "name": "なぜ蕎麦にラー油を入れるのか。",
+    "slug": "osm-node-5860910909",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.700356,
+    "lng": 139.775815,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5860910909",
+    "cuisine": [
+      "noodle",
+      "soba"
+    ]
+  },
+  {
+    "id": 370,
+    "name": "THIRD PLACE",
+    "slug": "osm-node-5877588652",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702054,
+    "lng": 139.770467,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5877588652",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 371,
+    "name": "海楽水産 栄",
+    "slug": "osm-node-5951310540",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.702617,
+    "lng": 139.769282,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/5951310540",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 372,
+    "name": "そば處",
+    "slug": "osm-node-6056089196",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.699965,
+    "lng": 139.775279,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6056089196"
+  },
+  {
+    "id": 373,
+    "name": "銀座 和蘭豆",
+    "slug": "osm-node-6056089227",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.70016,
+    "lng": 139.775845,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6056089227",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 374,
+    "name": "CoCo壱番屋",
+    "slug": "osm-node-6056089229",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.700006,
+    "lng": 139.775279,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6056089229",
+    "hours": "Mo-Su 11:00-22:30",
+    "cuisine": [
+      "curry",
+      "japanese"
+    ]
+  },
+  {
+    "id": 375,
+    "name": "日乃本比内や",
+    "slug": "osm-node-6068196605",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700621,
+    "lng": 139.772583,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6068196605"
+  },
+  {
+    "id": 376,
+    "name": "メイド喫茶学院フィーユ",
+    "slug": "osm-node-6086147632",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701996,
+    "lng": 139.771331,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6086147632",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 377,
+    "name": "蔵屋",
+    "slug": "osm-node-6114555923",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700806,
+    "lng": 139.774797,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6114555923",
+    "hours": "Mo-Sa 11:00-14:00,17:00-23:30; Su,PH off"
+  },
+  {
+    "id": 378,
+    "name": "ガスト",
+    "slug": "osm-node-6235520163",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698704,
+    "lng": 139.772298,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6235520163",
+    "hours": "06:30-24:00",
+    "cuisine": [
+      "western",
+      "japanese"
+    ]
+  },
+  {
+    "id": 379,
+    "name": "はま寿司",
+    "slug": "osm-node-6235520164",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.698693,
+    "lng": 139.77225,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6235520164",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 380,
+    "name": "WANTED",
+    "slug": "osm-node-6235535018",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.700199,
+    "lng": 139.771964,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6235535018",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 381,
+    "name": "タニマ",
+    "slug": "osm-node-6235888560",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.701088,
+    "lng": 139.772033,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6235888560"
+  },
+  {
+    "id": 382,
+    "name": "ナチュラリア",
+    "slug": "osm-node-6235888562",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701084,
+    "lng": 139.772041,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6235888562",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 383,
+    "name": "すし酒場 きんのだし",
+    "slug": "osm-node-6241716985",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.698812,
+    "lng": 139.771538,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6241716985",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 384,
+    "name": "しゃぶしゃぶ きんのだし",
+    "slug": "osm-node-6241716986",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698808,
+    "lng": 139.77159,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6241716986",
+    "cuisine": [
+      "japanese",
+      "shabushabu"
+    ]
+  },
+  {
+    "id": 385,
+    "name": "赤から",
+    "slug": "osm-node-6241716987",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの郷土料理店",
+    "lat": 35.698836,
+    "lng": 139.771561,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6241716987",
+    "hours": "Mo-Fr 16:00-23:30;Sa,Su,PH 15:00-23:30",
+    "cuisine": [
+      "regional"
+    ]
+  },
+  {
+    "id": 386,
+    "name": "虎連坊",
+    "slug": "osm-node-6243154793",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698814,
+    "lng": 139.772271,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6243154793",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 387,
+    "name": "福寿",
+    "slug": "osm-node-6243154795",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.698776,
+    "lng": 139.77226,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6243154795",
+    "hours": "Mo-Fr 11:00-15:00,17:00-23:00;Sa,Su,PH 11:30-23:00",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 388,
+    "name": "小割烹おはし",
+    "slug": "osm-node-6243154798",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698791,
+    "lng": 139.772304,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6243154798",
+    "hours": "11:30-15:30,17:30-23:30",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 389,
+    "name": "和合餃子",
+    "slug": "osm-node-6273480114",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.702216,
+    "lng": 139.774894,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6273480114",
+    "address": "東京都台東区秋葉原3-7",
+    "hours": "11:00-15:00,17:00-23:00",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 390,
+    "name": "関取りラーメン竜軒",
+    "slug": "osm-node-6275748665",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.700322,
+    "lng": 139.771908,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6275748665",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 391,
+    "name": "Bankam",
+    "slug": "osm-node-6275748669",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700222,
+    "lng": 139.771926,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6275748669",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 392,
+    "name": "とり庄",
+    "slug": "osm-node-6275748670",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.700322,
+    "lng": 139.771959,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6275748670",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "アキバ絶対領域 +e",
+    "slug": "osm-node-6331247199",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.69966,
+    "lng": 139.769621,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6331247199",
+    "hours": "12:00-22:00",
+    "website": "https://akibazettai.com",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 394,
+    "name": "ブラックシンデレラ",
+    "slug": "osm-node-6331247200",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699652,
+    "lng": 139.769615,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6331247200",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 395,
+    "name": "Melty Charm",
+    "slug": "osm-node-6331247201",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699638,
+    "lng": 139.769609,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6331247201",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 396,
+    "name": "BLUE EGG",
+    "slug": "osm-node-6331247202",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699627,
+    "lng": 139.769601,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6331247202",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 397,
+    "name": "男装カフェ",
+    "slug": "osm-node-6331247203",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699618,
+    "lng": 139.769591,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6331247203",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 398,
+    "name": "Maison de chou chou",
+    "slug": "osm-node-6331247204",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699607,
+    "lng": 139.769581,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6331247204",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 399,
+    "name": "Smiley Crapes",
+    "slug": "osm-node-6418727516",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのクレープ店",
+    "lat": 35.700734,
+    "lng": 139.771736,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6418727516",
+    "cuisine": [
+      "crepe"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "SANDO LAB TOKYO",
+    "slug": "osm-node-6418727517",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのクレープ店",
+    "lat": 35.700773,
+    "lng": 139.771735,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6418727517",
+    "cuisine": [
+      "crepe"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "丸十精肉店",
+    "slug": "osm-node-6418727518",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.700813,
+    "lng": 139.771736,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6418727518",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 402,
+    "name": "アキバ絶対領域 AD2045",
+    "slug": "osm-node-6517856033",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700211,
+    "lng": 139.772015,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6517856033",
+    "hours": "12:00-22:00",
+    "website": "https://akibazettai.com",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 403,
+    "name": "アキバ絶対領域 A.D.1912",
+    "slug": "osm-node-6517857691",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699931,
+    "lng": 139.769927,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6517857691",
+    "hours": "12:00-22:00",
+    "website": "https://akibazettai.com",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 404,
+    "name": "信州戸隠生蕎麦 みのがさ",
+    "slug": "osm-node-6659453252",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.700089,
+    "lng": 139.775812,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6659453252",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "ちよだニャンとなるcafe",
+    "slug": "osm-node-6756008503",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702303,
+    "lng": 139.77262,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/6756008503",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 406,
+    "name": "猿田彦珈琲",
+    "slug": "osm-node-7202136541",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698413,
+    "lng": 139.772487,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/7202136541",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 407,
+    "name": "二十四区",
+    "slug": "osm-node-7378437081",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.702725,
+    "lng": 139.769285,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/7378437081",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "果寮MATSUTOMI",
+    "slug": "osm-node-7626507723",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702706,
+    "lng": 139.772048,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/7626507723",
+    "hours": "11:00-19:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 409,
+    "name": "JY03 B@SE",
+    "slug": "osm-node-7836344158",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697718,
+    "lng": 139.775967,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/7836344158",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "杉のあかり",
+    "slug": "osm-node-7836344159",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697713,
+    "lng": 139.775935,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/7836344159",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "らーめん紬麦",
+    "slug": "osm-node-7836344160",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.697715,
+    "lng": 139.775864,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/7836344160"
+  },
+  {
+    "id": 412,
+    "name": "まぐろ人",
+    "slug": "osm-node-8261044516",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.698986,
+    "lng": 139.774835,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/8261044516",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 413,
+    "name": "ポータルカフェ",
+    "slug": "osm-node-8762203404",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.697825,
+    "lng": 139.773755,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/8762203404",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 414,
+    "name": "銀座ライオン",
+    "slug": "osm-node-8933745572",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698057,
+    "lng": 139.771897,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/8933745572",
+    "address": "東京都千代田区外神田一丁目15-16 秋葉原ラジオ会館"
+  },
+  {
+    "id": 415,
+    "name": "Country Spice",
+    "slug": "osm-node-8988010873",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.702857,
+    "lng": 139.775274,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/8988010873",
+    "cuisine": [
+      "indian"
+    ]
+  },
+  {
+    "id": 416,
+    "name": "スシロー",
+    "slug": "osm-node-8998971575",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.698815,
+    "lng": 139.771921,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/8998971575",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 417,
+    "name": "大戸屋",
+    "slug": "osm-node-8998971576",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.6988,
+    "lng": 139.771854,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/8998971576",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 418,
+    "name": "ルノアール",
+    "slug": "osm-node-8998971579",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698705,
+    "lng": 139.772037,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/8998971579",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 419,
+    "name": "アロマズ オブ インディア",
+    "slug": "osm-node-9019515674",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.696843,
+    "lng": 139.769502,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9019515674",
+    "cuisine": [
+      "indian"
+    ]
+  },
+  {
+    "id": 420,
+    "name": "INTERSECTION CAFE",
+    "slug": "osm-node-9019515678",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.696807,
+    "lng": 139.769122,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9019515678",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 421,
+    "name": "どうぶつメイド あにま〜る",
+    "slug": "osm-node-9043566646",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699294,
+    "lng": 139.769889,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9043566646",
+    "hours": "13:00-23:00",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 422,
+    "name": "パレスゲート",
+    "slug": "osm-node-9043566647",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699332,
+    "lng": 139.769899,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9043566647",
+    "hours": "13:00-23:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 423,
+    "name": "Bunny's Guild",
+    "slug": "osm-node-9043566648",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699334,
+    "lng": 139.769797,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9043566648",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 424,
+    "name": "女神の中庭",
+    "slug": "osm-node-9043566649",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699294,
+    "lng": 139.769804,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9043566649",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 425,
+    "name": "まぜるーむCafe",
+    "slug": "osm-node-9043566651",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699337,
+    "lng": 139.769554,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9043566651",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 426,
+    "name": "いっぺこっぺ",
+    "slug": "osm-node-9103650020",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.701923,
+    "lng": 139.769511,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103650020",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 427,
+    "name": "家系らーめん 武将家",
+    "slug": "osm-node-9103711351",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.700004,
+    "lng": 139.771981,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103711351",
+    "address": "東京都千代田区外神田四丁目2-7",
+    "hours": "11:00-22:00",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 428,
+    "name": "春代",
+    "slug": "osm-node-9103711352",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.700202,
+    "lng": 139.771993,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103711352",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 429,
+    "name": "中山豆腐店",
+    "slug": "osm-node-9103711353",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの韓国料理店",
+    "lat": 35.700217,
+    "lng": 139.772,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103711353",
+    "cuisine": [
+      "tofu",
+      "korean"
+    ]
+  },
+  {
+    "id": 430,
+    "name": "Maison de Eterna",
+    "slug": "osm-node-9103723727",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701242,
+    "lng": 139.772026,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103723727",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 431,
+    "name": "Maison de ROZE",
+    "slug": "osm-node-9103723728",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701233,
+    "lng": 139.772043,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103723728",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 432,
+    "name": "マジカルツインテール",
+    "slug": "osm-node-9103735017",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701025,
+    "lng": 139.772089,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735017",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 433,
+    "name": "スターリーフォレスト",
+    "slug": "osm-node-9103735018",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701037,
+    "lng": 139.772088,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735018",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 434,
+    "name": "The Seven Dreadly Sins",
+    "slug": "osm-node-9103735019",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701012,
+    "lng": 139.772093,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735019",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 435,
+    "name": "洋食は飲み物。",
+    "slug": "osm-node-9103735021",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.701029,
+    "lng": 139.772104,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735021"
+  },
+  {
+    "id": 436,
+    "name": "CoCo都可",
+    "slug": "osm-node-9103735022",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701012,
+    "lng": 139.772111,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735022",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 437,
+    "name": "湊一や",
+    "slug": "osm-node-9103735463",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69791,
+    "lng": 139.77461,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735463",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 438,
+    "name": "炉区",
+    "slug": "osm-node-9103735464",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697907,
+    "lng": 139.774565,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735464",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 439,
+    "name": "十勝石狩函館",
+    "slug": "osm-node-9103735465",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697898,
+    "lng": 139.774594,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735465",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 440,
+    "name": "楽蔵",
+    "slug": "osm-node-9103735466",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69797,
+    "lng": 139.774568,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735466",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 441,
+    "name": "ウメ子の家",
+    "slug": "osm-node-9103735468",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.69799,
+    "lng": 139.774587,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735468",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 442,
+    "name": "女子社員酒場",
+    "slug": "osm-node-9103735469",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.697935,
+    "lng": 139.774576,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103735469",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 443,
+    "name": "HUB",
+    "slug": "osm-node-9103752885",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697754,
+    "lng": 139.774206,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103752885",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 444,
+    "name": "八吉",
+    "slug": "osm-node-9103752886",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697927,
+    "lng": 139.774196,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103752886",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 445,
+    "name": "Clove Base",
+    "slug": "osm-node-9103752887",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.6978,
+    "lng": 139.774192,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103752887",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 446,
+    "name": "海底撈火鍋",
+    "slug": "osm-node-9103752888",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.697885,
+    "lng": 139.774216,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103752888",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 447,
+    "name": "KI・CHI・RI",
+    "slug": "osm-node-9103752890",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.697869,
+    "lng": 139.7742,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103752890"
+  },
+  {
+    "id": 448,
+    "name": "ダーツBAR REGALO",
+    "slug": "osm-node-9103752892",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.697936,
+    "lng": 139.77423,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9103752892",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 449,
+    "name": "築地すし好",
+    "slug": "osm-node-9107667176",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.69787,
+    "lng": 139.773722,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9107667176",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 450,
+    "name": "磯丸水産",
+    "slug": "osm-node-9107698618",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの海鮮料理店",
+    "lat": 35.697389,
+    "lng": 139.772607,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9107698618",
+    "cuisine": [
+      "seafood"
+    ]
+  },
+  {
+    "id": 451,
+    "name": "吟くら",
+    "slug": "osm-node-9198719026",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.699637,
+    "lng": 139.775879,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9198719026",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 452,
+    "name": "三笠",
+    "slug": "osm-node-9198719031",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.699633,
+    "lng": 139.775964,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9198719031",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 453,
+    "name": "和幸",
+    "slug": "osm-node-9202057205",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698587,
+    "lng": 139.774612,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9202057205",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 454,
+    "name": "娘娘美苑",
+    "slug": "osm-node-9246255498",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699543,
+    "lng": 139.769419,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9246255498",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 455,
+    "name": "餃子の王将 Express",
+    "slug": "osm-node-9372022533",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.698502,
+    "lng": 139.772197,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9372022533",
+    "cuisine": [
+      "chinese",
+      "gyoza"
+    ]
+  },
+  {
+    "id": 456,
+    "name": "丸亀製麺",
+    "slug": "osm-node-9418883314",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.698366,
+    "lng": 139.772178,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9418883314",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 457,
+    "name": "越後屋平次",
+    "slug": "osm-node-9419026850",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698861,
+    "lng": 139.774524,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9419026850",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 458,
+    "name": "鮨スタンド三六五",
+    "slug": "osm-node-9459285068",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.702692,
+    "lng": 139.769687,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9459285068"
+  },
+  {
+    "id": 459,
+    "name": "築地銀だこ",
+    "slug": "osm-node-9490252681",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.698367,
+    "lng": 139.774758,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9490252681",
+    "address": "東京都千代田区神田花岡町1-1",
+    "cuisine": [
+      "takoyaki"
+    ]
+  },
+  {
+    "id": 460,
+    "name": "汁なし担々麺 ピリリ",
+    "slug": "osm-node-9556174927",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.70279,
+    "lng": 139.770407,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9556174927",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 461,
+    "name": "けむりちゅーどく",
+    "slug": "osm-node-9556174928",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.70281,
+    "lng": 139.770409,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9556174928",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 462,
+    "name": "秋葉原集会所",
+    "slug": "osm-node-9556174930",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702613,
+    "lng": 139.770683,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9556174930",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 463,
+    "name": "Pricinha",
+    "slug": "osm-node-9556174931",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702625,
+    "lng": 139.770678,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9556174931",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 464,
+    "name": "Suki Lab",
+    "slug": "osm-node-9556174936",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702229,
+    "lng": 139.769978,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9556174936",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 465,
+    "name": "発掘グラドル文化祭",
+    "slug": "osm-node-9566449971",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.702723,
+    "lng": 139.770674,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9566449971",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 466,
+    "name": "メイド投げ放題　テネブラエ",
+    "slug": "osm-node-9566449972",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701259,
+    "lng": 139.771068,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9566449972",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 467,
+    "name": "リリアンキュキュ",
+    "slug": "osm-node-9566449973",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700787,
+    "lng": 139.770516,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9566449973",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 468,
+    "name": "エトランゼ",
+    "slug": "osm-node-9566577749",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.697173,
+    "lng": 139.772826,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9566577749",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 469,
+    "name": "妹メイドカフェ ソラミカ",
+    "slug": "osm-node-9654182669",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698759,
+    "lng": 139.770255,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9654182669",
+    "hours": "Mo,Fr 14:00-22:00; We 17:00-22:00; Sa,Su 12:00-22:00"
+  },
+  {
+    "id": 470,
+    "name": "マクドナルド",
+    "slug": "osm-node-9721674058",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのハンバーガー店",
+    "lat": 35.697969,
+    "lng": 139.775239,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/9721674058",
+    "hours": "24/7",
+    "cuisine": [
+      "burger"
+    ]
+  },
+  {
+    "id": 471,
+    "name": "アンテップ　ケバブ",
+    "slug": "osm-node-10137262817",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのケバブ店",
+    "lat": 35.698472,
+    "lng": 139.770225,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10137262817",
+    "cuisine": [
+      "kebab",
+      "turkish"
+    ]
+  },
+  {
+    "id": 472,
+    "name": "鶏王けいすけ",
+    "slug": "osm-node-10137262917",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698474,
+    "lng": 139.770165,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10137262917",
+    "address": "東京都千代田区外神田一丁目3-4",
+    "hours": "11:00-21:00",
+    "website": "https://www.grandcuisine.jp/archives/shop/58"
+  },
+  {
+    "id": 473,
+    "name": "タリーズコーヒー",
+    "slug": "osm-node-10137263017",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698848,
+    "lng": 139.769826,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10137263017",
+    "hours": "Mo-Sa 07:00-22:00; Su 07:00-21:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 474,
+    "name": "焼肉ライク",
+    "slug": "osm-node-10138985317",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.702143,
+    "lng": 139.771893,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10138985317",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 475,
+    "name": "アキバなら異世界メイドがお給仕したって問題ないよねっ！",
+    "slug": "osm-node-10183608085",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698575,
+    "lng": 139.771601,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10183608085",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 476,
+    "name": "グランサイファーキッチン",
+    "slug": "osm-node-10232149780",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.697744,
+    "lng": 139.770415,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10232149780",
+    "address": "東京都千代田区外神田一丁目1-10 パセラリゾーツAKIBAマルチエンターテインメント",
+    "hours": "Mo-Su 11:00-22:00",
+    "website": "https://www.pasela.co.jp/paselabo_shop/grandcypher-kitchen/"
+  },
+  {
+    "id": 477,
+    "name": "STANDBAR_ASTONE",
+    "slug": "osm-node-10243774134",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700286,
+    "lng": 139.775048,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10243774134",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 478,
+    "name": "たん清",
+    "slug": "osm-node-10243774140",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.70015,
+    "lng": 139.775019,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10243774140",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 479,
+    "name": "焼肉ライク",
+    "slug": "osm-node-10284093171",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.698549,
+    "lng": 139.77087,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284093171",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 480,
+    "name": "ローストビーフ大野",
+    "slug": "osm-node-10284192272",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698448,
+    "lng": 139.770591,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284192272"
+  },
+  {
+    "id": 481,
+    "name": "立喰い焼肉　治郎丸",
+    "slug": "osm-node-10284192273",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.698445,
+    "lng": 139.770555,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284192273",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 482,
+    "name": "麺屋武蔵 巌虎",
+    "slug": "osm-node-10284192276",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698148,
+    "lng": 139.770377,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284192276",
+    "address": "東京都千代田区外神田一丁目3-9",
+    "hours": "11:00-22:00",
+    "website": "https://menya634.co.jp/storelist/akihabara2/"
+  },
+  {
+    "id": 483,
+    "name": "塚田農場",
+    "slug": "osm-node-10284195657",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.699189,
+    "lng": 139.77163,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284195657",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 484,
+    "name": "魚民",
+    "slug": "osm-node-10284195658",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.699152,
+    "lng": 139.77162,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284195658",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 485,
+    "name": "秋葉原ホルモン",
+    "slug": "osm-node-10284195660",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.699121,
+    "lng": 139.771615,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284195660",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 486,
+    "name": "フラペコ",
+    "slug": "osm-node-10284207371",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699671,
+    "lng": 139.769629,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284207371",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 487,
+    "name": "MOTTO",
+    "slug": "osm-node-10284207372",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699681,
+    "lng": 139.769635,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10284207372",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 488,
+    "name": "ゴーゴーカレー",
+    "slug": "osm-node-10464553504",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.699446,
+    "lng": 139.771131,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10464553504",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 489,
+    "name": "Lily Cottage",
+    "slug": "osm-node-10554040881",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.696286,
+    "lng": 139.771366,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10554040881",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 490,
+    "name": "マイファーストメイド",
+    "slug": "osm-node-10682517092",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701253,
+    "lng": 139.771775,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10682517092",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 491,
+    "name": "しゃぶ葉",
+    "slug": "osm-node-10799430305",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698332,
+    "lng": 139.774749,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10799430305",
+    "hours": "Mo-Su 11:00-11:00",
+    "cuisine": [
+      "buffet"
+    ]
+  },
+  {
+    "id": 492,
+    "name": "アキバわんわん帝国",
+    "slug": "osm-node-10832019058",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701366,
+    "lng": 139.77105,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10832019058",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 493,
+    "name": "麹蔵",
+    "slug": "osm-node-10968697005",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.697372,
+    "lng": 139.773842,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10968697005"
+  },
+  {
+    "id": 494,
+    "name": "ナポリタンのパンチョ",
+    "slug": "osm-node-10991114503",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700775,
+    "lng": 139.77097,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/10991114503"
+  },
+  {
+    "id": 495,
+    "name": "牛角",
+    "slug": "osm-node-11017003640",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.697778,
+    "lng": 139.771557,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11017003640",
+    "cuisine": [
+      "barbecue"
+    ]
+  },
+  {
+    "id": 496,
+    "name": "牛かつ もと村",
+    "slug": "osm-node-11017003641",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.697695,
+    "lng": 139.771555,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11017003641"
+  },
+  {
+    "id": 497,
+    "name": "Pepper Lunch",
+    "slug": "osm-node-11017003642",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの鉄板焼き店",
+    "lat": 35.697792,
+    "lng": 139.77146,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11017003642",
+    "cuisine": [
+      "teppanyaki"
+    ]
+  },
+  {
+    "id": 498,
+    "name": "韓無量",
+    "slug": "osm-node-11017003643",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの韓国料理店",
+    "lat": 35.697723,
+    "lng": 139.771557,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11017003643",
+    "cuisine": [
+      "korean"
+    ]
+  },
+  {
+    "id": 499,
+    "name": "呼炉凪来",
+    "slug": "osm-node-11017003644",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697754,
+    "lng": 139.771552,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11017003644",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 500,
+    "name": "チャイナメイドカフェ 龍龍-ロンロン-",
+    "slug": "osm-node-11042181488",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698462,
+    "lng": 139.770376,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11042181488",
+    "address": "東京都千代田区外神田一丁目3-5",
+    "hours": "17:00-23:00; Sa, Su, PH 15:00-23:00",
+    "website": "https://www.akiba-maidcafe.co.jp/ronron/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 501,
+    "name": "マジカルロリポップ",
+    "slug": "osm-node-11042181489",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700039,
+    "lng": 139.771998,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11042181489",
+    "hours": "Mo-Fr 17:00-23:00; Sa-Su,PH 15:00-23:00",
+    "website": "https://www.akiba-maidcafe.co.jp/magical-lollipop/",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 502,
+    "name": "Like a Doll",
+    "slug": "osm-node-11042181490",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700075,
+    "lng": 139.771983,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11042181490",
+    "hours": "Mo-Fr 17:00-23:00; Sa-Su,PH 15:00-23:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 503,
+    "name": "CHIANTI-DUE",
+    "slug": "osm-node-11047734019",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.696702,
+    "lng": 139.773831,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11047734019",
+    "hours": "Mo-Su 07:00-10:00,11:30-15:00,17:30-22:00",
+    "website": "https://saas-1972.co.jp/due",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 504,
+    "name": "アニソンカフェ　すたーず",
+    "slug": "osm-node-11047734069",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.696786,
+    "lng": 139.771965,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11047734069",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 505,
+    "name": "じぶんどき",
+    "slug": "osm-node-11194950514",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698712,
+    "lng": 139.771889,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950514"
+  },
+  {
+    "id": 506,
+    "name": "かまどか",
+    "slug": "osm-node-11194950515",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698793,
+    "lng": 139.772002,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950515"
+  },
+  {
+    "id": 507,
+    "name": "北海道",
+    "slug": "osm-node-11194950518",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698859,
+    "lng": 139.771813,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950518",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 508,
+    "name": "肉屋横丁",
+    "slug": "osm-node-11194950519",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698741,
+    "lng": 139.771836,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950519"
+  },
+  {
+    "id": 509,
+    "name": "ちばチャン",
+    "slug": "osm-node-11194950521",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.698812,
+    "lng": 139.771806,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950521",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "東京串焼倶楽部",
+    "slug": "osm-node-11194950522",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698743,
+    "lng": 139.772002,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950522"
+  },
+  {
+    "id": 511,
+    "name": "松尾ジンギスカン",
+    "slug": "osm-node-11194950525",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698766,
+    "lng": 139.7719,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950525"
+  },
+  {
+    "id": 512,
+    "name": "モーゼスさんのケバブ",
+    "slug": "osm-node-11194950527",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのケバブ店",
+    "lat": 35.698889,
+    "lng": 139.771676,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950527",
+    "cuisine": [
+      "kebab"
+    ]
+  },
+  {
+    "id": 513,
+    "name": "築地銀だこ",
+    "slug": "osm-node-11194950528",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのファストフード店",
+    "lat": 35.698846,
+    "lng": 139.771968,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11194950528",
+    "cuisine": [
+      "takoyaki"
+    ]
+  },
+  {
+    "id": 514,
+    "name": "ジョナサン",
+    "slug": "osm-node-11212314342",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.697868,
+    "lng": 139.772612,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11212314342",
+    "cuisine": [
+      "italian",
+      "japanese"
+    ]
+  },
+  {
+    "id": 515,
+    "name": "横浜くりこ庵",
+    "slug": "osm-node-11237554506",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697818,
+    "lng": 139.771423,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11237554506",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 516,
+    "name": "ミアカフェ",
+    "slug": "osm-node-11251399270",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702807,
+    "lng": 139.770521,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11251399270",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 517,
+    "name": "あぶりどりバリ鳥",
+    "slug": "osm-node-11276600257",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700571,
+    "lng": 139.772827,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11276600257"
+  },
+  {
+    "id": 518,
+    "name": "讃岐うどん伊吹や製麺",
+    "slug": "osm-node-11276600258",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.700459,
+    "lng": 139.77281,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11276600258",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 519,
+    "name": "築地食堂源ちゃん",
+    "slug": "osm-node-11276600259",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700651,
+    "lng": 139.772828,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11276600259"
+  },
+  {
+    "id": 520,
+    "name": "秋葉原拉麺劇場",
+    "slug": "osm-node-11276600261",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.700805,
+    "lng": 139.772853,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11276600261",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 521,
+    "name": "サパナ",
+    "slug": "osm-node-11276600262",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700912,
+    "lng": 139.772733,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11276600262"
+  },
+  {
+    "id": 522,
+    "name": "鉄板ハンブルグ",
+    "slug": "osm-node-11276600263",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700915,
+    "lng": 139.772629,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11276600263"
+  },
+  {
+    "id": 523,
+    "name": "トラットリアアリオリ",
+    "slug": "osm-node-11276600264",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのイタリアン",
+    "lat": 35.700885,
+    "lng": 139.772545,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11276600264",
+    "cuisine": [
+      "italian"
+    ]
+  },
+  {
+    "id": 524,
+    "name": "スターバックス",
+    "slug": "osm-node-11411659358",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.6977,
+    "lng": 139.772627,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11411659358",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 525,
+    "name": "麻布茶房 北海道アイスクリーム",
+    "slug": "osm-node-11411659359",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのスイーツ店",
+    "lat": 35.698216,
+    "lng": 139.77266,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11411659359",
+    "address": "東京都千代田区外神田一丁目17-4",
+    "website": "https://www.amaya-company.co.jp/shop/",
+    "cuisine": [
+      "sweets"
+    ]
+  },
+  {
+    "id": 526,
+    "name": "富士そば",
+    "slug": "osm-node-11563517011",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのそば店",
+    "lat": 35.698233,
+    "lng": 139.775775,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11563517011",
+    "cuisine": [
+      "soba"
+    ]
+  },
+  {
+    "id": 527,
+    "name": "コメダ珈琲店",
+    "slug": "osm-node-11687421647",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.69834,
+    "lng": 139.774653,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11687421647",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 528,
+    "name": "タリーズコーヒー",
+    "slug": "osm-node-11687421648",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698322,
+    "lng": 139.774882,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11687421648",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 529,
+    "name": "すためし",
+    "slug": "osm-node-11743269065",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698948,
+    "lng": 139.770436,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11743269065",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 530,
+    "name": "もふる",
+    "slug": "osm-node-11743269066",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698907,
+    "lng": 139.770841,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11743269066",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 531,
+    "name": "麺屋はるか",
+    "slug": "osm-node-11777070434",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.701929,
+    "lng": 139.772263,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11777070434",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 532,
+    "name": "ひむか食堂",
+    "slug": "osm-node-11779681418",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.702336,
+    "lng": 139.771434,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11779681418",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 533,
+    "name": "あだち",
+    "slug": "osm-node-11779681419",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.700778,
+    "lng": 139.770717,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11779681419",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 534,
+    "name": "壱角家",
+    "slug": "osm-node-11782064311",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.698807,
+    "lng": 139.771078,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11782064311",
+    "hours": "10:30-23:00",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 535,
+    "name": "鉄板王国",
+    "slug": "osm-node-11782064312",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698808,
+    "lng": 139.771046,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11782064312"
+  },
+  {
+    "id": 536,
+    "name": "Brownie",
+    "slug": "osm-node-11782470737",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.702818,
+    "lng": 139.770502,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11782470737",
+    "cuisine": [
+      "indian",
+      "curry"
+    ]
+  },
+  {
+    "id": 537,
+    "name": "なぜ蕎麦にラー油を入れるのか。",
+    "slug": "osm-node-11789247422",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.701642,
+    "lng": 139.771835,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11789247422",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 538,
+    "name": "LiveCafe&bar ティア",
+    "slug": "osm-node-11789247424",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701388,
+    "lng": 139.771858,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11789247424",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 539,
+    "name": "あきは",
+    "slug": "osm-node-11799182728",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.701561,
+    "lng": 139.769456,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11799182728",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 540,
+    "name": "Shisha Bar まどい",
+    "slug": "osm-node-11799182729",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.701561,
+    "lng": 139.769472,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11799182729",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 541,
+    "name": "milk Planet",
+    "slug": "osm-node-11823676907",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702353,
+    "lng": 139.771306,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11823676907",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 542,
+    "name": "mizuiro days",
+    "slug": "osm-node-11823676908",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702351,
+    "lng": 139.771289,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11823676908",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 543,
+    "name": "Minny",
+    "slug": "osm-node-11823676909",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702364,
+    "lng": 139.771296,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11823676909",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 544,
+    "name": "e-Sorts Square AKIHABARA",
+    "slug": "osm-node-11843168373",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700457,
+    "lng": 139.770129,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11843168373",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 545,
+    "name": "すし酒場 フジヤマ 秋葉原本店",
+    "slug": "osm-node-11868525069",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.697764,
+    "lng": 139.775078,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11868525069",
+    "hours": "Mo-Su 16:00-23:00",
+    "website": "https://fujiyama-akihabara.owst.jp",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 546,
+    "name": "吉野家",
+    "slug": "osm-node-11878410230",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの牛丼店",
+    "lat": 35.699384,
+    "lng": 139.771119,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11878410230",
+    "address": "東京都千代田区外神田1丁目11-8",
+    "cuisine": [
+      "beef_bowl"
+    ]
+  },
+  {
+    "id": 547,
+    "name": "オンステージ",
+    "slug": "osm-node-11908867518",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.701381,
+    "lng": 139.770675,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11908867518",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 548,
+    "name": "ちゃんぽん",
+    "slug": "osm-node-11924884075",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの麺類店",
+    "lat": 35.699164,
+    "lng": 139.775229,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11924884075",
+    "cuisine": [
+      "noodle"
+    ]
+  },
+  {
+    "id": 549,
+    "name": "白洋亭",
+    "slug": "osm-node-11924884076",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのインド料理店",
+    "lat": 35.699258,
+    "lng": 139.774965,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11924884076",
+    "cuisine": [
+      "indian",
+      "curry"
+    ]
+  },
+  {
+    "id": 550,
+    "name": "しゃぶしゃぶ温野菜",
+    "slug": "osm-node-11936246093",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697718,
+    "lng": 139.774544,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11936246093",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 551,
+    "name": "NOHGA",
+    "slug": "osm-node-11961957231",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.701066,
+    "lng": 139.770563,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/11961957231",
+    "cuisine": [
+      "italian_pizza"
+    ]
+  },
+  {
+    "id": 552,
+    "name": "Kamukura",
+    "slug": "osm-node-12050828869",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698488,
+    "lng": 139.774535,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12050828869"
+  },
+  {
+    "id": 553,
+    "name": "肉の万世 アキバプレイス店",
+    "slug": "osm-node-12090414615",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.701548,
+    "lng": 139.771159,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12090414615"
+  },
+  {
+    "id": 554,
+    "name": "清流　初つぼみ",
+    "slug": "osm-node-12131327478",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697786,
+    "lng": 139.77349,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12131327478",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 555,
+    "name": "ビアホール　だん家",
+    "slug": "osm-node-12131327479",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.697386,
+    "lng": 139.773123,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12131327479",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 556,
+    "name": "風来居",
+    "slug": "osm-node-12240860100",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.696085,
+    "lng": 139.770094,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12240860100",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 557,
+    "name": "メイドカフェmore fun",
+    "slug": "osm-node-12357285594",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.700558,
+    "lng": 139.77004,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12357285594",
+    "hours": "Mo off; Tu-Fr 17:00-21:55; Sa-Su 15:00-21:55",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 558,
+    "name": "きたろう",
+    "slug": "osm-node-12357285597",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.700925,
+    "lng": 139.770257,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12357285597",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 559,
+    "name": "マモケバブレストラン&バー",
+    "slug": "osm-node-12410888899",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.701381,
+    "lng": 139.770577,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12410888899"
+  },
+  {
+    "id": 560,
+    "name": "Korokoro Dou Board Gaming",
+    "slug": "osm-node-12541135001",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.696089,
+    "lng": 139.773703,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12541135001",
+    "hours": "Mo-Fr 13:00-23:00; Sa-Su 10:00-23:00",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 561,
+    "name": "はま寿司",
+    "slug": "osm-node-12647537530",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.699268,
+    "lng": 139.773975,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12647537530",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 562,
+    "name": "ゴーゴーカレー",
+    "slug": "osm-node-12712686941",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカレー店",
+    "lat": 35.69765,
+    "lng": 139.774637,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12712686941",
+    "website": "https://gogocurry.com/pages/shop-detail/akihabara",
+    "cuisine": [
+      "curry"
+    ]
+  },
+  {
+    "id": 563,
+    "name": "ネオスナック メンヘラノカベ",
+    "slug": "osm-node-12784643148",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699656,
+    "lng": 139.769343,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12784643148",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 564,
+    "name": "ルナ",
+    "slug": "osm-node-12784643149",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699668,
+    "lng": 139.76936,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12784643149",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 565,
+    "name": "Nautilus",
+    "slug": "osm-node-12784643150",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699681,
+    "lng": 139.769349,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12784643150",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 566,
+    "name": "スナックラフォーレ",
+    "slug": "osm-node-12784643151",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.699684,
+    "lng": 139.769366,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12784643151",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 567,
+    "name": "【MAID MADE】メイドメイド",
+    "slug": "osm-node-12784816613",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.69767,
+    "lng": 139.772292,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12784816613",
+    "address": "東京都千代田区外神田一丁目15-13 秋葉原B&Vビル",
+    "hours": "Mo-Su,PH 12:00-22:00",
+    "website": "https://made-maid.com/shop/3",
+    "cuisine": [
+      "maid_cafe",
+      "japanese"
+    ]
+  },
+  {
+    "id": 568,
+    "name": "スシロー",
+    "slug": "osm-node-12899496412",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの寿司店",
+    "lat": 35.701529,
+    "lng": 139.771143,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12899496412",
+    "cuisine": [
+      "sushi"
+    ]
+  },
+  {
+    "id": 569,
+    "name": "ZAKI",
+    "slug": "osm-node-12908845946",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.700571,
+    "lng": 139.775063,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12908845946"
+  },
+  {
+    "id": 570,
+    "name": "JIN",
+    "slug": "osm-node-12908845950",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.702143,
+    "lng": 139.773031,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12908845950",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 571,
+    "name": "Misty Veil",
+    "slug": "osm-node-12909242837",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.702587,
+    "lng": 139.772573,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12909242837",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 572,
+    "name": "丸福珈琲",
+    "slug": "osm-node-12961278448",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.698463,
+    "lng": 139.774919,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/12961278448",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 573,
+    "name": "ジュークステーキ",
+    "slug": "osm-node-13118706643",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.697343,
+    "lng": 139.773537,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13118706643",
+    "cuisine": [
+      "steak_house"
+    ]
+  },
+  {
+    "id": 574,
+    "name": "Chakra Izakaya",
+    "slug": "osm-node-13252000219",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.698527,
+    "lng": 139.769696,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13252000219",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 575,
+    "name": "ジーニー",
+    "slug": "osm-node-13332693196",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.70183,
+    "lng": 139.773293,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13332693196",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 576,
+    "name": "香福味坊",
+    "slug": "osm-node-13364005451",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.697921,
+    "lng": 139.775239,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13364005451",
+    "hours": "24/7",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 577,
+    "name": "TOKYO豚骨BASE",
+    "slug": "osm-node-13390443982",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのラーメン店",
+    "lat": 35.698757,
+    "lng": 139.772831,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13390443982",
+    "cuisine": [
+      "ramen"
+    ]
+  },
+  {
+    "id": 578,
+    "name": "The French Toast Factory",
+    "slug": "osm-node-13403735801",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.698611,
+    "lng": 139.774841,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13403735801"
+  },
+  {
+    "id": 579,
+    "name": "Mo-Mo-Paradise",
+    "slug": "osm-node-13439073301",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.697924,
+    "lng": 139.773645,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13439073301",
+    "hours": "Mo-Su 11:00-15:00, 17:00-22:30",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 580,
+    "name": "富士そば",
+    "slug": "osm-node-13536486158",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのそば店",
+    "lat": 35.699809,
+    "lng": 139.7758,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13536486158",
+    "cuisine": [
+      "soba"
+    ]
+  },
+  {
+    "id": 581,
+    "name": "Bonfino",
+    "slug": "osm-node-13536486162",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.699251,
+    "lng": 139.775891,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13536486162",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 582,
+    "name": "バーミヤン",
+    "slug": "osm-node-13584987489",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの中華料理店",
+    "lat": 35.698329,
+    "lng": 139.774794,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13584987489",
+    "cuisine": [
+      "chinese"
+    ]
+  },
+  {
+    "id": 583,
+    "name": "四十八漁場",
+    "slug": "osm-node-13584987490",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの海鮮料理店",
+    "lat": 35.698337,
+    "lng": 139.774703,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13584987490",
+    "cuisine": [
+      "seafood"
+    ]
+  },
+  {
+    "id": 584,
+    "name": "Pepper Lunch",
+    "slug": "osm-node-13673605328",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの鉄板焼き店",
+    "lat": 35.698836,
+    "lng": 139.77478,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13673605328",
+    "cuisine": [
+      "teppanyaki"
+    ]
+  },
+  {
+    "id": 585,
+    "name": "宮越屋珈琲",
+    "slug": "osm-node-13702838821",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.7007,
+    "lng": 139.769444,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13702838821",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 586,
+    "name": "GOOD ステーキ",
+    "slug": "osm-node-13730065901",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.696384,
+    "lng": 139.775173,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13730065901"
+  },
+  {
+    "id": 587,
+    "name": "Cafe Daisy",
+    "slug": "osm-node-13759867509",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのカフェ",
+    "lat": 35.701925,
+    "lng": 139.769675,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13759867509",
+    "cuisine": [
+      "cafe"
+    ]
+  },
+  {
+    "id": 588,
+    "name": "ハートオブハーツ",
+    "slug": "osm-node-13968476027",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのバー",
+    "lat": 35.70014,
+    "lng": 139.770321,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "node/13968476027",
+    "cuisine": [
+      "bar"
+    ]
+  },
+  {
+    "id": 589,
+    "name": "スターケバブ アキバテラス",
+    "slug": "osm-way-88982688",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのケバブ店",
+    "lat": 35.701377,
+    "lng": 139.770902,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/88982688",
+    "cuisine": [
+      "kebab"
+    ]
+  },
+  {
+    "id": 590,
+    "name": "炉ばた 石くら",
+    "slug": "osm-way-88999560",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの居酒屋",
+    "lat": 35.700041,
+    "lng": 139.770305,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/88999560",
+    "cuisine": [
+      "izakaya"
+    ]
+  },
+  {
+    "id": 591,
+    "name": "箸勝ビル",
+    "slug": "osm-way-88999565",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.69994,
+    "lng": 139.769893,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/88999565"
+  },
+  {
+    "id": 592,
+    "name": "いし橋",
+    "slug": "osm-way-91530860",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアのすき焼き店",
+    "lat": 35.702796,
+    "lng": 139.769884,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/91530860",
+    "cuisine": [
+      "sukiyaki",
+      "japanese"
+    ]
+  },
+  {
+    "id": 593,
+    "name": "お肉の店 やまの",
+    "slug": "osm-way-98454515",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの焼肉店",
+    "lat": 35.697666,
+    "lng": 139.775234,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/98454515",
+    "website": "http://www.yamano29.com/",
+    "cuisine": [
+      "yakiniku"
+    ]
+  },
+  {
+    "id": 594,
+    "name": "いせ源",
+    "slug": "osm-way-150624609",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.696578,
+    "lng": 139.769166,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/150624609",
+    "cuisine": [
+      "japanese"
+    ]
+  },
+  {
+    "id": 595,
+    "name": "ちゃんこ 一の谷",
+    "slug": "osm-way-160438935",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの和食店",
+    "lat": 35.702252,
+    "lng": 139.768973,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/160438935",
+    "cuisine": [
+      "japanese",
+      "chanko"
+    ]
+  },
+  {
+    "id": 596,
+    "name": "RESTAURANT PLATINUM FISH マーチエキュート神田万世橋店",
+    "slug": "osm-way-743276344",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原エリアの飲食店",
+    "lat": 35.697241,
+    "lng": 139.770013,
+    "tier": "B",
+    "dataSource": "osm",
+    "osmId": "way/743276344",
+    "address": "東京都千代田区神田須田町一丁目25-4 マーチエキュート神田万世橋",
+    "website": "https://platinumfish.jp/shoplist/manseibashi/"
   }
 ]

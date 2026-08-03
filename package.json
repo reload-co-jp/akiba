@@ -13,7 +13,9 @@
     "typecheck": "tsc --noEmit",
     "update-image-dims": "node scripts/update-image-dimensions.mjs",
     "validate:articles": "python3 scripts/validate-articles.py",
-    "validate:spots": "python3 scripts/validate-spots.py"
+    "validate:spots": "python3 scripts/validate-spots.py",
+    "fetch:osm-gourmet": "python3 scripts/fetch-osm-gourmet.py",
+    "merge:osm-gourmet": "python3 scripts/merge-osm-gourmet.py"
   },
   "keywords": [],
   "author": "",

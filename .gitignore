@@ -44,3 +44,6 @@ lib-cov
 out/
 
 next-env.d.ts
+
+# Raw source data for the spot pipeline (re-fetch with scripts/fetch-osm-gourmet.py)
+data/raw/
