@@ -52,7 +52,9 @@ export const EventCard = ({
         >
           <img
             className={
-              isGrid ? "events-card__image events-card__image--grid" : "events-card__image"
+              isGrid
+                ? "events-card__image events-card__image--grid"
+                : "events-card__image"
             }
             src={img.src}
             alt={img.alt}
@@ -84,19 +86,12 @@ export const EventCard = ({
                 </>
               )}
             </dl>
+            {sourceUrl && (
+              <div className="today-official-link">{sourceLabel}</div>
+            )}
           </div>
         </article>
       </Link>
-      {sourceUrl && (
-        <a
-          href={sourceUrl}
-          className="today-official-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ↗ {sourceLabel}
-        </a>
-      )}
     </li>
   )
 }
