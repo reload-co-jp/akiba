@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "update-image-dims": "node scripts/update-image-dimensions.mjs",
-    "validate:articles": "python3 scripts/validate-articles.py"
+    "validate:articles": "python3 scripts/validate-articles.py",
+    "validate:spots": "python3 scripts/validate-spots.py"
   },
   "keywords": [],
   "author": "",

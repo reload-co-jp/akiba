@@ -335,7 +335,9 @@
       "体験"
     ],
     "aliases": [
-      "めいどりーみん 秋葉原"
+      "めいどりーみん 秋葉原",
+      "めいどりーみん秋葉原本店",
+      "めいどりーみん秋葉原"
     ]
   },
   {
@@ -1844,7 +1846,7 @@
     "slug": "gigo-akihabara-5-akibako",
     "category": "ゲーム・フィギュア",
     "description": "GiGO（旧セガ）が運営するアミューズメント施設。上層階のレンタルイベントスペース「Akib@ko」は、アニメ・ゲームのポップアップショップや物販イベントの会場として人気。",
-    "address": "東京都千代田区外神田1-11-11",
+    "address": "東京都千代田区外神田1-10-1 吉葉無線ビル",
     "access": "JR秋葉原駅 電気街口 徒歩3分",
     "hours": "10:00〜23:00",
     "closed": "年中無休",
@@ -2923,31 +2925,6 @@
     "tags": [
       "クラフトビール",
       "ゲームバー"
-    ]
-  },
-  {
-    "id": 109,
-    "name": "めいどりーみん秋葉原本店",
-    "slug": "maidreamin-akihabara-honten",
-    "category": "グルメ・カフェ",
-    "description": "全世界展開するメイドカフェチェーン「めいどりーみん」の秋葉原本店。フード・ドリンクに加え、写真撮影やステージパフォーマンスも楽しめる。",
-    "address": "東京都千代田区外神田3-16-17 住吉ビル6F",
-    "access": "末広町駅 徒歩1分",
-    "hours": "月〜金 11:30〜23:00 / 土日祝 10:30〜23:00",
-    "closed": "無休",
-    "website": "https://maidreamin.com/",
-    "image": {
-      "src": "/images/spots/maidreamin-akihabara-honten.jpg",
-      "alt": "めいどりーみん秋葉原本店の関連ビジュアル",
-      "sourceLabel": "Gamer",
-      "sourceUrl": "https://www.gamer.ne.jp/news/202607240061/",
-      "width": 1200,
-      "height": 848
-    },
-    "tags": [
-      "メイドカフェ",
-      "カフェ",
-      "体験"
     ]
   },
   {
