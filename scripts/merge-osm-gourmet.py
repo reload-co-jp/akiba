@@ -58,6 +58,17 @@ CUISINE_SYNONYMS = {
     "noodles": "noodle",
     "yakitori": "izakaya",
     "japanese;ramen": "ramen",
+    # Two keys that mean the same shop would otherwise produce two index
+    # pages with identical headings, competing for the same search query.
+    "barbecue": "yakiniku",
+    "steak_house": "steak",
+    "italian_pizza": "pizza",
+    "shabushabu": "shabu_shabu",
+    "gyukatsu": "tonkatsu",
+    "pork_bowl": "donburi",
+    "fries": "fried_food",
+    # Too vague to be a category of its own.
+    "cuisine": "",
 }
 
 # Fallback when a place carries no cuisine tag at all.
@@ -118,7 +129,9 @@ def extract_cuisine(tags):
         part = part.strip().lower()
         if not part:
             continue
-        values.append(CUISINE_SYNONYMS.get(part, part))
+        mapped = CUISINE_SYNONYMS.get(part, part)
+        if mapped:  # synonyms may map to "" to drop a useless value
+            values.append(mapped)
     if not values:
         fallback = AMENITY_FALLBACK_CUISINE.get(tags.get("amenity"))
         if fallback:

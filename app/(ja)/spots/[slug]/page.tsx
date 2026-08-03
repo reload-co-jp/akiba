@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { getAllSpotSlugs, getSpotBySlug, getSpotImage, getSpotSeoKeywords } from "lib/spots"
 import { getArticlesBySpotName, formatDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
+import { jsonLdScript } from "lib/json-ld"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 type Props = {
@@ -161,11 +162,11 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([jsonLd, relatedEventsLd]) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript([jsonLd, relatedEventsLd]) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumbLd) }}
       />
       <article
         style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}

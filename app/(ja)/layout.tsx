@@ -182,6 +182,8 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                 {" / "}
                 <Link href="/spots/">観光スポット</Link>
                 {" / "}
+                <Link href="/spots/gourmet/">秋葉原グルメ</Link>
+                {" / "}
                 <Link href="/terms/">利用規約</Link>
                 {" / "}
                 <Link href="/privacy/">プライバシーポリシー</Link>

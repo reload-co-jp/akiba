@@ -130,6 +130,78 @@ export const getSpotsByCategory = (category: SpotCategory): Spot[] =>
 export const getAllSpotCategories = (): SpotCategory[] =>
   Array.from(new Set(getDetailPageSpots().map((s) => s.category)))
 
+/**
+ * Japanese shop-type nouns for each cuisine key. Each value has to read
+ * naturally on its own as a page heading ("秋葉原のラーメン店").
+ * Mirrors CUISINE_SHOP_LABELS in scripts/merge-osm-gourmet.py.
+ */
+export const cuisineLabels: Record<string, string> = {
+  maid_cafe: "メイドカフェ",
+  collab_cafe: "コラボカフェ",
+  cat_cafe: "猫カフェ",
+  cafe: "カフェ",
+  izakaya: "居酒屋",
+  bar: "バー",
+  ramen: "ラーメン店",
+  noodle: "麺類店",
+  soba: "そば店",
+  udon: "うどん店",
+  sushi: "寿司店",
+  japanese: "和食店",
+  chinese: "中華料理店",
+  curry: "カレー店",
+  italian: "イタリアン",
+  french: "フレンチ",
+  korean: "韓国料理店",
+  indian: "インド料理店",
+  thai: "タイ料理店",
+  vietnamese: "ベトナム料理店",
+  mexican: "メキシコ料理店",
+  spanish: "スペイン料理店",
+  american: "アメリカン料理店",
+  asian: "アジア料理店",
+  international: "各国料理店",
+  regional: "郷土料理店",
+  yakiniku: "焼肉店",
+  tonkatsu: "とんかつ店",
+  chicken: "鶏料理店",
+  takoyaki: "たこ焼き店",
+  fried_food: "揚げ物店",
+  western: "洋食店",
+  tempura: "天ぷら店",
+  steak: "ステーキ店",
+  seafood: "海鮮料理店",
+  fish: "魚料理店",
+  unagi: "うなぎ店",
+  donburi: "丼もの店",
+  beef_bowl: "牛丼店",
+  gyoza: "餃子店",
+  okonomiyaki: "お好み焼き店",
+  yakisoba: "焼きそば店",
+  shabu_shabu: "しゃぶしゃぶ店",
+  sukiyaki: "すき焼き店",
+  teppanyaki: "鉄板焼き店",
+  hot_pot: "鍋料理店",
+  oden: "おでん店",
+  pizza: "ピザ店",
+  burger: "ハンバーガー店",
+  sandwich: "サンドイッチ店",
+  kebab: "ケバブ店",
+  sweets: "スイーツ店",
+  crepe: "クレープ店",
+  bubble_tea: "タピオカ店",
+}
+
+export const getCuisineLabel = (cuisine: string): string =>
+  cuisineLabels[cuisine] ?? cuisine
+
+/**
+ * A cuisine needs enough places behind it to be worth its own page — one or
+ * two entries makes a page with nothing on it. Everything below the bar still
+ * appears on the main gourmet index.
+ */
+export const MIN_SPOTS_PER_CUISINE_PAGE = 5
+
 /** Gourmet spots of every tier — the source for the gourmet index pages. */
 export const getGourmetSpots = (): Spot[] =>
   (spotsData as Spot[]).filter((s) => s.category === "グルメ・カフェ")
@@ -138,9 +210,26 @@ export const getSpotsByCuisine = (cuisine: string): Spot[] =>
   getGourmetSpots().filter((s) => s.cuisine?.includes(cuisine))
 
 export const getAllCuisines = (): string[] =>
-  Array.from(
-    new Set(getGourmetSpots().flatMap((s) => s.cuisine ?? [])),
-  ).sort()
+  Array.from(new Set(getGourmetSpots().flatMap((s) => s.cuisine ?? []))).sort()
+
+/** Cuisines that get their own /spots/gourmet/[cuisine]/ page. */
+export const getPagedCuisines = (): string[] =>
+  getAllCuisines()
+    .filter(
+      (c) =>
+        cuisineLabels[c] !== undefined &&
+        getSpotsByCuisine(c).length >= MIN_SPOTS_PER_CUISINE_PAGE,
+    )
+    .sort((a, b) => getSpotsByCuisine(b).length - getSpotsByCuisine(a).length)
+
+/** Spots first, so the ones we can actually link to lead the list. */
+export const sortGourmetSpots = (spots: Spot[]): Spot[] =>
+  [...spots].sort((a, b) => {
+    const aLinkable = hasDetailPage(a) ? 0 : 1
+    const bLinkable = hasDetailPage(b) ? 0 : 1
+    if (aLinkable !== bLinkable) return aLinkable - bLinkable
+    return a.name.localeCompare(b.name, "ja")
+  })
 
 export const getSpotByVenueName = (venue: string): Spot | undefined => {
   // Only tier A: an article linking to a tier B spot would 404.

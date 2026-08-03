@@ -2,6 +2,7 @@ import Link from "next/link"
 import { getDetailPageSpots, getAllSpotCategories, getSpotImage } from "lib/spots"
 import type { SpotCategory } from "lib/spots"
 import { absoluteUrl } from "lib/site"
+import { jsonLdScript } from "lib/json-ld"
 
 export const metadata = {
   title: "観光スポット",
@@ -57,7 +58,7 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       <section
         style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}
@@ -66,6 +67,12 @@ const Page = () => {
           <p className="home-articles__kicker">Spot guide</p>
           <h1 className="home-articles__title">観光スポット</h1>
         </div>
+
+        <nav aria-label="関連一覧" className="gourmet-cuisine-nav">
+          <Link href="/spots/gourmet/" className="gourmet-cuisine-nav__link">
+            秋葉原のグルメ・飲食店一覧
+          </Link>
+        </nav>
 
         {categories.map((category) => {
           const categorySpots = spots.filter((s) => s.category === category)

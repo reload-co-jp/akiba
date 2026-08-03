@@ -2141,3 +2141,109 @@ body {
     display: none;
   }
 }
+
+.gourmet-lead {
+  color: #5c5148;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  margin: 1rem 0 1.5rem;
+}
+
+.gourmet-cuisine-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 2rem;
+}
+
+.gourmet-cuisine-nav__link {
+  align-items: center;
+  background: #fffdf8;
+  border: 1px solid rgba(96, 120, 111, 0.18);
+  border-radius: 999px;
+  color: #24312f;
+  display: inline-flex;
+  font-size: 0.8125rem;
+  gap: 0.375rem;
+  padding: 0.375rem 0.875rem;
+  text-decoration: none;
+}
+
+.gourmet-cuisine-nav__link:hover {
+  border-color: #b94a3a;
+  color: #b94a3a;
+}
+
+.gourmet-cuisine-nav__count {
+  color: #8a6f63;
+  font-size: 0.6875rem;
+}
+
+.gourmet-list {
+  border-top: 1px solid rgba(96, 120, 111, 0.14);
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+.gourmet-list__item {
+  border-bottom: 1px solid rgba(96, 120, 111, 0.14);
+  padding: 0.75rem 0.25rem;
+}
+
+.gourmet-list__head {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.gourmet-list__name {
+  color: #24312f;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.gourmet-list__name--link {
+  color: #b94a3a;
+  text-decoration: none;
+}
+
+.gourmet-list__name--link:hover {
+  text-decoration: underline;
+}
+
+.gourmet-list__cuisines {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.gourmet-list__cuisine {
+  background: rgba(185, 74, 58, 0.08);
+  border-radius: 4px;
+  color: #8a6f63;
+  font-size: 0.6875rem;
+  padding: 0.125rem 0.375rem;
+}
+
+.gourmet-list__meta {
+  color: #8a6f63;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  margin: 0.25rem 0 0;
+}
+
+.gourmet-attribution {
+  border-top: 1px solid rgba(96, 120, 111, 0.14);
+  color: #8a6f63;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  margin: 2rem 0 0;
+  padding-top: 1rem;
+}
+
+.gourmet-attribution a {
+  color: #b94a3a;
+}

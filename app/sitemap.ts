@@ -10,7 +10,7 @@ import {
   getArticlesByMonth,
   getArticlesByTagId,
 } from "lib/articles"
-import { getDetailPageSpots } from "lib/spots"
+import { getDetailPageSpots, getPagedCuisines } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 
 export const dynamic = "force-static"
@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   )
   const months = getAllMonths()
   const spots = getDetailPageSpots()
+  const cuisines = getPagedCuisines()
   const tags = getAllTags()
 
   return [
@@ -35,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/events/collab-cafe/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/events/popup/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/spots/"), lastModified: latestDate, changeFrequency: "weekly", priority: 0.8 },
+    { url: absoluteUrl("/spots/gourmet/"), lastModified: latestDate, changeFrequency: "weekly", priority: 0.8 },
     { url: absoluteUrl("/about/"), changeFrequency: "monthly", priority: 0.6 },
     { url: absoluteUrl("/terms/"), changeFrequency: "monthly", priority: 0.3 },
     { url: absoluteUrl("/privacy/"), changeFrequency: "monthly", priority: 0.3 },
@@ -89,6 +91,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: absoluteUrl(`/spots/${spot.slug}/`),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    })),
+    ...cuisines.map((cuisine) => ({
+      url: absoluteUrl(`/spots/gourmet/${cuisine}/`),
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
     })),
     ...tags.map((tag) => {
       const tagArticles = getArticlesByTagId(tag.id)

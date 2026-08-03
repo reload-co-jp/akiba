@@ -256,6 +256,10 @@
       "コンカフェ",
       "カフェ",
       "体験"
+    ],
+    "cuisine": [
+      "maid_cafe",
+      "cafe"
     ]
   },
   {
@@ -338,6 +342,10 @@
       "めいどりーみん 秋葉原",
       "めいどりーみん秋葉原本店",
       "めいどりーみん秋葉原"
+    ],
+    "cuisine": [
+      "maid_cafe",
+      "cafe"
     ]
   },
   {
@@ -373,6 +381,9 @@
       "とんかつ",
       "老舗",
       "ランチ"
+    ],
+    "cuisine": [
+      "tonkatsu"
     ]
   },
   {
@@ -408,6 +419,9 @@
       "焼肉",
       "和牛",
       "ランチ"
+    ],
+    "cuisine": [
+      "yakiniku"
     ]
   },
   {
@@ -514,6 +528,10 @@
       "メイドカフェ",
       "カフェ",
       "体験"
+    ],
+    "cuisine": [
+      "maid_cafe",
+      "cafe"
     ]
   },
   {
@@ -550,6 +568,10 @@
       "メイドカフェ",
       "バー",
       "カフェ"
+    ],
+    "cuisine": [
+      "maid_cafe",
+      "bar"
     ]
   },
   {
@@ -589,6 +611,10 @@
     ],
     "aliases": [
       "キュアメイドカフェ"
+    ],
+    "cuisine": [
+      "maid_cafe",
+      "cafe"
     ]
   },
   {
@@ -944,6 +970,10 @@
       "カフェ",
       "パンケーキ",
       "スイーツ"
+    ],
+    "cuisine": [
+      "cafe",
+      "sweets"
     ]
   },
   {
@@ -979,6 +1009,10 @@
       "メイドカフェ",
       "カフェ",
       "老舗"
+    ],
+    "cuisine": [
+      "maid_cafe",
+      "cafe"
     ]
   },
   {
@@ -1226,7 +1260,11 @@
       "sourceUrl": "https://collabo-cafe.com/events/collabo/puyopuyo-cafe-clove-lounge-cafe-bar2026/",
       "width": 1800,
       "height": 1012
-    }
+    },
+    "cuisine": [
+      "cafe",
+      "bar"
+    ]
   },
   {
     "id": 39,
@@ -1412,7 +1450,11 @@
       "sourceUrl": "https://collabocafe-honpo.co.jp/event/bungomayoi2605/",
       "width": 100,
       "height": 100
-    }
+    },
+    "cuisine": [
+      "collab_cafe",
+      "cafe"
+    ]
   },
   {
     "id": 47,
@@ -1463,6 +1505,9 @@
       "グルメ",
       "ラーメン",
       "家系"
+    ],
+    "cuisine": [
+      "ramen"
     ]
   },
   {
@@ -1503,7 +1548,11 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000138894.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "cuisine": [
+      "cafe",
+      "sweets"
+    ]
   },
   {
     "id": 51,
@@ -1524,7 +1573,11 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000003.000127501.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "cuisine": [
+      "steak",
+      "bar"
+    ]
   },
   {
     "id": 52,
@@ -1544,7 +1597,11 @@
       "alt": "PIZZERIA & BAR NOHGAの公式ビジュアル",
       "sourceLabel": "NOHGA HOTEL AKIHABARA TOKYO公式サイト",
       "sourceUrl": "https://www.nohgahotel.com/akihabara/en/restaurant/"
-    }
+    },
+    "cuisine": [
+      "pizza",
+      "bar"
+    ]
   },
   {
     "id": 53,
@@ -1565,7 +1622,10 @@
       "sourceUrl": "https://ascii.jp/elem/000/004/409/4409324/",
       "width": 1,
       "height": 1
-    }
+    },
+    "cuisine": [
+      "korean"
+    ]
   },
   {
     "id": 54,
@@ -1971,7 +2031,11 @@
       "sourceUrl": "https://www.neco-republic.jp/shop/shop-necorepublic-ochanomizu/",
       "width": 1,
       "height": 1
-    }
+    },
+    "cuisine": [
+      "cat_cafe",
+      "cafe"
+    ]
   },
   {
     "id": 73,
@@ -2024,7 +2088,10 @@
       "sourceUrl": "https://www.4gamer.net/games/630/G063081/20260611007/",
       "width": 800,
       "height": 666
-    }
+    },
+    "cuisine": [
+      "sushi"
+    ]
   },
   {
     "id": 75,
@@ -2083,6 +2150,9 @@
       "グルメ",
       "焼肉",
       "牛たん"
+    ],
+    "cuisine": [
+      "yakiniku"
     ]
   },
   {
@@ -2197,6 +2267,9 @@
       "カフェ",
       "作業",
       "チェーン店"
+    ],
+    "cuisine": [
+      "cafe"
     ]
   },
   {
@@ -2384,6 +2457,10 @@
     "tags": [
       "コラボ酒場",
       "モンスターハンター"
+    ],
+    "cuisine": [
+      "collab_cafe",
+      "bar"
     ]
   },
   {
@@ -2453,6 +2530,10 @@
     "tags": [
       "コラボ酒場",
       "ドラゴンクエスト"
+    ],
+    "cuisine": [
+      "collab_cafe",
+      "bar"
     ]
   },
   {
@@ -2478,6 +2559,9 @@
       "グルメ",
       "寿司",
       "回転寿司"
+    ],
+    "cuisine": [
+      "sushi"
     ]
   },
   {
@@ -2502,6 +2586,9 @@
       "グルメ",
       "寿司",
       "食べ放題"
+    ],
+    "cuisine": [
+      "sushi"
     ]
   },
   {
@@ -2772,6 +2859,10 @@
     "tags": [
       "コラボカフェ",
       "ソフマップ"
+    ],
+    "cuisine": [
+      "collab_cafe",
+      "cafe"
     ]
   },
   {
@@ -2925,6 +3016,9 @@
     "tags": [
       "クラフトビール",
       "ゲームバー"
+    ],
+    "cuisine": [
+      "bar"
     ]
   },
   {
@@ -3173,7 +3267,7 @@
     "dataSource": "osm",
     "osmId": "node/1914973971",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -3424,7 +3518,7 @@
     "dataSource": "osm",
     "osmId": "node/1916509737",
     "cuisine": [
-      "pork_bowl"
+      "donburi"
     ]
   },
   {
@@ -3487,7 +3581,7 @@
     "dataSource": "osm",
     "osmId": "node/1916530503",
     "cuisine": [
-      "gyukatsu"
+      "tonkatsu"
     ]
   },
   {
@@ -4368,7 +4462,7 @@
     "osmId": "node/3263298104",
     "address": "東京都千代田区外神田四丁目5-4 亀松ビル",
     "cuisine": [
-      "fries"
+      "fried_food"
     ]
   },
   {
@@ -4491,7 +4585,7 @@
     "dataSource": "osm",
     "osmId": "node/3364718767",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -4639,7 +4733,7 @@
     "dataSource": "osm",
     "osmId": "node/3607126011",
     "cuisine": [
-      "steak_house"
+      "steak"
     ]
   },
   {
@@ -5910,7 +6004,7 @@
     "dataSource": "osm",
     "osmId": "node/5057770997",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -6829,8 +6923,7 @@
     "dataSource": "osm",
     "osmId": "node/5700961530",
     "cuisine": [
-      "indian",
-      "cuisine"
+      "indian"
     ]
   },
   {
@@ -7134,7 +7227,7 @@
     "osmId": "node/6241716986",
     "cuisine": [
       "japanese",
-      "shabushabu"
+      "shabu_shabu"
     ]
   },
   {
@@ -7181,7 +7274,7 @@
     "osmId": "node/6243154795",
     "hours": "Mo-Fr 11:00-15:00,17:00-23:00;Sa,Su,PH 11:30-23:00",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -7396,7 +7489,7 @@
     "dataSource": "osm",
     "osmId": "node/6418727518",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -8490,7 +8583,7 @@
     "dataSource": "osm",
     "osmId": "node/10138985317",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -8550,7 +8643,7 @@
     "dataSource": "osm",
     "osmId": "node/10243774140",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -8565,7 +8658,7 @@
     "dataSource": "osm",
     "osmId": "node/10284093171",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -8592,7 +8685,7 @@
     "dataSource": "osm",
     "osmId": "node/10284192273",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -8797,7 +8890,7 @@
     "dataSource": "osm",
     "osmId": "node/11017003640",
     "cuisine": [
-      "barbecue"
+      "yakiniku"
     ]
   },
   {
@@ -9621,7 +9714,7 @@
     "dataSource": "osm",
     "osmId": "node/11961957231",
     "cuisine": [
-      "italian_pizza"
+      "pizza"
     ]
   },
   {
@@ -9946,7 +10039,7 @@
     "dataSource": "osm",
     "osmId": "node/13118706643",
     "cuisine": [
-      "steak_house"
+      "steak"
     ]
   },
   {
