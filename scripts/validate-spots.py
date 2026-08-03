@@ -26,7 +26,11 @@ SPOTS_JSON = REPO_ROOT / "data" / "spots.json"
 ARTICLES_JSON = REPO_ROOT / "data" / "articles.json"
 PUBLIC_DIR = REPO_ROOT / "public"
 
-REQUIRED_STR_FIELDS = ["name", "slug", "category", "description", "address", "access"]
+# Tier B spots are bulk-imported and only ever appear in an index page, so
+# they are allowed to carry nothing but a name, a category and coordinates.
+# Anything with its own detail page must be able to fill that page.
+REQUIRED_STR_FIELDS = ["name", "slug", "category", "description"]
+REQUIRED_DETAIL_PAGE_FIELDS = ["address", "access"]
 
 VALID_CATEGORIES = {
     "電気街・PCパーツ",
@@ -86,10 +90,24 @@ def main():
     for spot in spots:
         label = f"spot '{spot.get('slug', '?')}'"
 
-        for field in REQUIRED_STR_FIELDS:
+        tier = spot.get("tier", "A")
+        if tier not in ("A", "B"):
+            errors.append(f"{label}: tier must be 'A' or 'B', got {tier!r}")
+        has_detail_page = tier != "B"
+
+        required = list(REQUIRED_STR_FIELDS)
+        if has_detail_page:
+            required += REQUIRED_DETAIL_PAGE_FIELDS
+        for field in required:
             val = spot.get(field)
             if not isinstance(val, str) or not val.strip():
                 errors.append(f"{label}: missing or empty '{field}'")
+
+        if not has_detail_page:
+            if spot.get("lat") is None or spot.get("lng") is None:
+                errors.append(f"{label}: tier B spots need lat/lng to be placeable on an index page")
+            if not spot.get("dataSource"):
+                errors.append(f"{label}: tier B spots must record a dataSource")
 
         spot_id = spot.get("id")
         if not isinstance(spot_id, int):
@@ -147,9 +165,12 @@ def main():
         if a.get("event") and a["event"].get("venue")
     }
 
+    # Mirror getSpotByVenueName(), which only ever returns detail-page spots.
+    linkable = [s for s in spots if s.get("tier", "A") != "B"]
+
     # A spot nobody links to is not broken, but a spot whose name *almost*
     # matches a venue usually means a typo or a spacing difference.
-    for spot in spots:
+    for spot in linkable:
         if any(venue_matches(spot, v) for v in venues):
             continue
         stripped = spot["name"].replace(" ", "").replace("　", "")
@@ -165,7 +186,7 @@ def main():
 
     unmatched = sorted(
         v for v in venues
-        if not VENUE_IGNORE_RE.search(v) and not any(venue_matches(s, v) for s in spots)
+        if not VENUE_IGNORE_RE.search(v) and not any(venue_matches(s, v) for s in linkable)
     )
     for venue in unmatched:
         warnings.append(f"article venue has no spot: '{venue}'")

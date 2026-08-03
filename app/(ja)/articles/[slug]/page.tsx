@@ -572,7 +572,7 @@ const Page = async ({ params }: Props) => {
               venue={article.event.venue}
               lat={venuePoint.lat}
               lng={venuePoint.lng}
-              query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} 秋葉原`}
+              query={relatedSpot?.address ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} 秋葉原`}
             />
           </div>
         )}

@@ -423,7 +423,7 @@ const Page = async ({ params }: Props) => {
               venue={seoVenue}
               lat={venuePoint.lat}
               lng={venuePoint.lng}
-              query={relatedSpot ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} Akihabara`}
+              query={relatedSpot?.address ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} Akihabara`}
               mapLabel="Open in Google Maps"
             />
           </div>

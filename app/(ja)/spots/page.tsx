@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { getAllSpots, getAllSpotCategories, getSpotImage } from "lib/spots"
+import { getDetailPageSpots, getAllSpotCategories, getSpotImage } from "lib/spots"
 import type { SpotCategory } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 
@@ -34,7 +34,7 @@ const categoryOrder: SpotCategory[] = [
 ]
 
 const Page = () => {
-  const spots = getAllSpots()
+  const spots = getDetailPageSpots()
   const categories = categoryOrder.filter((c) =>
     getAllSpotCategories().includes(c)
   )

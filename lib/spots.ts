@@ -11,16 +11,29 @@ export type SpotLocalizedContent = {
   admission?: string
 }
 
+/**
+ * "A" spots get their own detail page: we know enough about them (address,
+ * opening hours, or a first-party source) for the page to stand on its own.
+ * "B" spots are name + location only — they appear in the gourmet index
+ * pages but never get a detail page of their own, so we don't publish
+ * hundreds of near-empty pages. Missing tier means "A" for the hand-written
+ * spots that predate this field.
+ */
+export type SpotTier = "A" | "B"
+
+export type SpotDataSource = "manual" | "osm" | "taito-opendata" | "akiba-or"
+
 export type Spot = {
   id: number
   name: string
   slug: string
   category: SpotCategory
   description: string
-  address: string
-  access: string
-  hours: string
-  closed: string
+  /** Optional: bulk-imported spots often only have coordinates. */
+  address?: string
+  access?: string
+  hours?: string
+  closed?: string
   admission?: string
   website?: string
   lat?: number
@@ -36,6 +49,15 @@ export type Spot = {
   en?: SpotLocalizedContent
   tags?: string[]
   aliases?: string[]
+  /** Cuisine keys, roughly following the OSM `cuisine` tag (ramen, curry, …). */
+  cuisine?: string[]
+  priceRange?: string
+  tier?: SpotTier
+  /** OSM element id (e.g. "node/1234567"), used to re-match on refresh. */
+  osmId?: string
+  dataSource?: SpotDataSource
+  /** ISO date the details were last checked against a source. */
+  lastVerified?: string
 }
 
 export const placeholderSpotImage = {
@@ -83,23 +105,46 @@ export const getSpotSeoKeywords = (spot: Spot): string[] => {
   ]).slice(0, 30)
 }
 
+/** Every spot, including tier B ones that have no detail page. */
 export const getAllSpots = (): Spot[] => spotsData as Spot[]
+
+/**
+ * Whether this spot gets its own /spots/[slug]/ page. Everything that links
+ * to a detail page must go through here, or we end up linking to 404s.
+ */
+export const hasDetailPage = (spot: Spot): boolean => spot.tier !== "B"
+
+/** Spots with a detail page — what the /spots/ index should list. */
+export const getDetailPageSpots = (): Spot[] =>
+  (spotsData as Spot[]).filter(hasDetailPage)
 
 export const getSpotBySlug = (slug: string): Spot | undefined =>
   (spotsData as Spot[]).find((s) => s.slug === slug)
 
 export const getAllSpotSlugs = (): string[] =>
-  (spotsData as Spot[]).map((s) => s.slug)
+  getDetailPageSpots().map((s) => s.slug)
 
 export const getSpotsByCategory = (category: SpotCategory): Spot[] =>
-  (spotsData as Spot[]).filter((s) => s.category === category)
+  getDetailPageSpots().filter((s) => s.category === category)
 
 export const getAllSpotCategories = (): SpotCategory[] =>
-  Array.from(new Set((spotsData as Spot[]).map((s) => s.category)))
+  Array.from(new Set(getDetailPageSpots().map((s) => s.category)))
+
+/** Gourmet spots of every tier — the source for the gourmet index pages. */
+export const getGourmetSpots = (): Spot[] =>
+  (spotsData as Spot[]).filter((s) => s.category === "グルメ・カフェ")
+
+export const getSpotsByCuisine = (cuisine: string): Spot[] =>
+  getGourmetSpots().filter((s) => s.cuisine?.includes(cuisine))
+
+export const getAllCuisines = (): string[] =>
+  Array.from(
+    new Set(getGourmetSpots().flatMap((s) => s.cuisine ?? [])),
+  ).sort()
 
 export const getSpotByVenueName = (venue: string): Spot | undefined => {
-  const spots = getAllSpots()
-  return spots.find(
+  // Only tier A: an article linking to a tier B spot would 404.
+  return getDetailPageSpots().find(
     (spot) =>
       venue.includes(spot.name) ||
       spot.name.includes(venue) ||

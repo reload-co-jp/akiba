@@ -10,7 +10,7 @@ import {
   getArticlesByMonth,
   getArticlesByTagId,
 } from "lib/articles"
-import { getAllSpots } from "lib/spots"
+import { getDetailPageSpots } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 
 export const dynamic = "force-static"
@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     Math.max(...articles.map((a) => getArticlePublishedDate(a).getTime())),
   )
   const months = getAllMonths()
-  const spots = getAllSpots()
+  const spots = getDetailPageSpots()
   const tags = getAllTags()
 
   return [

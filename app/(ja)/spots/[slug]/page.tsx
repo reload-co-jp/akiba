@@ -51,9 +51,15 @@ const Page = async ({ params }: Props) => {
   const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(0, 10)
   const spotKeywords = getSpotSeoKeywords(spot)
 
+  // Restaurant is a subtype of LocalBusiness, so eating places get the richer
+  // type (servesCuisine / priceRange) without losing the generic properties.
+  const isEatery = spot.category === "グルメ・カフェ"
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": ["TouristAttraction", "Place", "LocalBusiness"],
+    "@type": isEatery
+      ? ["Restaurant", "Place", "LocalBusiness"]
+      : ["TouristAttraction", "Place", "LocalBusiness"],
     "@id": `${spotUrl}#place`,
     name: spot.name,
     description: spot.description,
@@ -62,7 +68,7 @@ const Page = async ({ params }: Props) => {
     category: spot.category,
     address: {
       "@type": "PostalAddress",
-      streetAddress: spot.address,
+      ...(spot.address ? { streetAddress: spot.address } : {}),
       addressLocality: "千代田区",
       addressRegion: "東京都",
       addressCountry: "JP",
@@ -72,7 +78,11 @@ const Page = async ({ params }: Props) => {
       { "@type": "Place", name: "神田" },
       { "@type": "Place", name: "末広町" },
     ],
-    openingHours: spot.hours,
+    ...(spot.hours ? { openingHours: spot.hours } : {}),
+    ...(isEatery && spot.cuisine?.length
+      ? { servesCuisine: spot.cuisine }
+      : {}),
+    ...(spot.priceRange ? { priceRange: spot.priceRange } : {}),
     publicAccess: true,
     isAccessibleForFree: spot.admission === "無料" || spot.admission == null,
     amenityFeature: [
@@ -260,14 +270,30 @@ const Page = async ({ params }: Props) => {
               gap: ".25rem .75rem",
             }}
           >
-            <dt style={{ color: "#8a6f63" }}>住所</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{spot.address}</dd>
-            <dt style={{ color: "#8a6f63" }}>アクセス</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{spot.access}</dd>
-            <dt style={{ color: "#8a6f63" }}>営業時間</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{spot.hours}</dd>
-            <dt style={{ color: "#8a6f63" }}>定休日</dt>
-            <dd style={{ color: "#24312f", margin: 0 }}>{spot.closed}</dd>
+            {spot.address && (
+              <>
+                <dt style={{ color: "#8a6f63" }}>住所</dt>
+                <dd style={{ color: "#24312f", margin: 0 }}>{spot.address}</dd>
+              </>
+            )}
+            {spot.access && (
+              <>
+                <dt style={{ color: "#8a6f63" }}>アクセス</dt>
+                <dd style={{ color: "#24312f", margin: 0 }}>{spot.access}</dd>
+              </>
+            )}
+            {spot.hours && (
+              <>
+                <dt style={{ color: "#8a6f63" }}>営業時間</dt>
+                <dd style={{ color: "#24312f", margin: 0 }}>{spot.hours}</dd>
+              </>
+            )}
+            {spot.closed && (
+              <>
+                <dt style={{ color: "#8a6f63" }}>定休日</dt>
+                <dd style={{ color: "#24312f", margin: 0 }}>{spot.closed}</dd>
+              </>
+            )}
             {spot.admission && (
               <>
                 <dt style={{ color: "#8a6f63" }}>料金</dt>
