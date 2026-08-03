@@ -227,7 +227,14 @@
     "website": "https://www.cafe-athome.com/",
     "lat": 35.699570265671,
     "lng": 139.77072532732,
-    "aliases": ["@ほぉ〜むカフェ", "@ほぉ~むカフェ", "アットホームカフェ", "あっとほぉーむ", "at-home cafe", "athome cafe"],
+    "aliases": [
+      "@ほぉ〜むカフェ",
+      "@ほぉ~むカフェ",
+      "アットホームカフェ",
+      "あっとほぉーむ",
+      "at-home cafe",
+      "athome cafe"
+    ],
     "image": {
       "src": "/images/spots/home-cafe.jpg",
       "alt": "あっとほぉーむカフェ本店の入口",
@@ -772,6 +779,10 @@
     "website": "https://www.kotobukiya.co.jp/",
     "lat": 35.6982,
     "lng": 139.771,
+    "aliases": [
+      "コトブキヤ秋葉原店",
+      "コトブキヤ秋葉原店 5F"
+    ],
     "image": {
       "src": "/images/spots/kotobukiya-akihabara.jpg",
       "alt": "コトブキヤ秋葉原館の入口",
@@ -1176,7 +1187,10 @@
     "website": "https://www.shosen.co.jp/tower/",
     "lat": 35.6976,
     "lng": 139.7745,
-    "aliases": ["書泉ブックタワー秋葉原", "書泉"],
+    "aliases": [
+      "書泉ブックタワー秋葉原",
+      "書泉"
+    ],
     "image": {
       "src": "/images/spots/shosen-book-tower.jpg",
       "alt": "書泉ブックタワーの公式ビジュアル",
@@ -1185,7 +1199,11 @@
       "width": 1,
       "height": 1
     },
-    "tags": ["書店", "サイン会", "コラボPOPUP"]
+    "tags": [
+      "書店",
+      "サイン会",
+      "コラボPOPUP"
+    ]
   },
   {
     "id": 38,
@@ -1284,7 +1302,9 @@
     "closed": "不定休",
     "lat": 35.7014,
     "lng": 139.7712,
-    "aliases": ["トレカラウンジ秋葉原"],
+    "aliases": [
+      "トレカラウンジ秋葉原"
+    ],
     "image": {
       "src": "/images/spots/toreka-lounge.jpg",
       "alt": "トレカラウンジの関連ビジュアル",
@@ -1293,7 +1313,11 @@
       "width": 1,
       "height": 1
     },
-    "tags": ["トレーディングカード", "TCG", "対戦スペース"]
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース"
+    ]
   },
   {
     "id": 43,
@@ -1342,7 +1366,7 @@
     "name": "ボークス 秋葉原ホビー天国2",
     "slug": "volks-akihabara-hobby-tengoku-2",
     "category": "フィギュア・模型",
-    "description": "ボークスが運営するフィギュア・プラモデル・ガレージキット専門店。スーパードルフィーや限定品を多数取り扱い、ホビーファンから高い支持を得る。",
+    "description": "ボークスが運営するフィギュア・プラモデル・ガレージキット専門店。スーパードルフィーや限定品を多数取り扱い、ホビーファンから高い支持を得る。上層階には物販・展示イベント用のイベントスペースを複数フロア備え、コラボイベントの会場としても頻繁に利用される。",
     "address": "東京都千代田区外神田4-2-10",
     "access": "JR秋葉原駅 徒歩5分",
     "hours": "平日12:00〜20:00 / 土日祝10:00〜20:00",
@@ -1350,6 +1374,14 @@
     "website": "https://hobby.volks.co.jp/shop/hobbytengoku2/",
     "lat": 35.7005,
     "lng": 139.7714,
+    "aliases": [
+      "ボークス秋葉原ホビー天国2",
+      "ボークス秋葉原ホビー天国2 1F特設会場",
+      "ボークス秋葉原ホビー天国2 6F",
+      "ボークス秋葉原ホビー天国2 6Fイベントスペース",
+      "ボークス秋葉原ホビー天国2 6Fイベントフロア",
+      "ボークス秋葉原ホビー天国2 7Fイベントスペース"
+    ],
     "image": {
       "src": "/images/spots/volks-akihabara-hobby-tengoku-2.jpg",
       "alt": "ボークス 秋葉原ホビー天国2の公式ビジュアル",
@@ -1413,7 +1445,10 @@
     "closed": "年中無休",
     "lat": 35.6983,
     "lng": 139.7729,
-    "aliases": ["壱角家秋葉原", "壱角家 秋葉原"],
+    "aliases": [
+      "壱角家秋葉原",
+      "壱角家 秋葉原"
+    ],
     "image": {
       "src": "/images/spots/ikkakuya-akihabara.jpg",
       "alt": "壱角家 秋葉原総本店の関連ビジュアル",
@@ -1422,7 +1457,11 @@
       "width": 1,
       "height": 1
     },
-    "tags": ["グルメ", "ラーメン", "家系"]
+    "tags": [
+      "グルメ",
+      "ラーメン",
+      "家系"
+    ]
   },
   {
     "id": 49,
@@ -1810,7 +1849,8 @@
     "lat": 35.6991,
     "lng": 139.7719,
     "aliases": [
-      "GiGO秋葉原5号館"
+      "GiGO秋葉原5号館",
+      "GiGOのたい焼き秋葉原5号館"
     ],
     "image": {
       "src": "/images/spots/gigo-akihabara-5-akibako.jpg",
@@ -1941,7 +1981,11 @@
     "website": "https://www.akihabara-beep.com/",
     "lat": 35.7009,
     "lng": 139.7712,
-    "aliases": ["beep akihabara", "BEEP秋葉原", "ビープ秋葉原"],
+    "aliases": [
+      "beep akihabara",
+      "BEEP秋葉原",
+      "ビープ秋葉原"
+    ],
     "image": {
       "src": "/images/spots/beep-akihabara.webp",
       "alt": "BEEP秋葉原店の公式ビジュアル",
@@ -1950,7 +1994,11 @@
       "width": 750,
       "height": 320
     },
-    "tags": ["レトロゲーム", "レトロPC", "アーケード基板"]
+    "tags": [
+      "レトロゲーム",
+      "レトロPC",
+      "アーケード基板"
+    ]
   },
   {
     "id": 74,
@@ -2005,7 +2053,12 @@
     "hours": "ランチ 11:30〜15:00（L.O.14:30） / ディナー 17:00〜21:30（L.O.21:00）",
     "closed": "月曜日",
     "website": "https://gyutan-lemon.com/",
-    "aliases": ["牛たんの檸檬", "牛タンの檸檬", "牛タン檸檬", "牛たん檸檬"],
+    "aliases": [
+      "牛たんの檸檬",
+      "牛タンの檸檬",
+      "牛タン檸檬",
+      "牛たん檸檬"
+    ],
     "image": {
       "src": "/images/spots/gyutan-no-lemon-akihabara.png",
       "alt": "牛たんの檸檬の公式サイトOGP画像",
@@ -2021,7 +2074,11 @@
       "hours": "Lunch 11:30-15:00 (L.O. 14:30) / Dinner 17:00-21:30 (L.O. 21:00)",
       "closed": "Mondays"
     },
-    "tags": ["グルメ", "焼肉", "牛たん"]
+    "tags": [
+      "グルメ",
+      "焼肉",
+      "牛たん"
+    ]
   },
   {
     "id": 77,
@@ -2033,7 +2090,11 @@
     "access": "JR秋葉原駅 徒歩7分（蔵前橋通り沿い、旧コンピュエース秋葉原店跡地）",
     "hours": "店頭・公式情報要確認",
     "closed": "店頭・公式情報要確認",
-    "aliases": ["ファンシー東京 秋葉原店", "ファンシー東京 秋葉原", "秋葉原ファンシー東京"],
+    "aliases": [
+      "ファンシー東京 秋葉原店",
+      "ファンシー東京 秋葉原",
+      "秋葉原ファンシー東京"
+    ],
     "image": {
       "src": "/images/spots/fancy-tokyo-akihabara.jpg",
       "alt": "コンピュエース秋葉原店跡地にオープンしたファンシー東京の店頭",
@@ -2049,7 +2110,11 @@
       "hours": "Check storefront or official information",
       "closed": "Check storefront or official information"
     },
-    "tags": ["ホビーショップ", "ファンシーグッズ", "ショッピング"]
+    "tags": [
+      "ホビーショップ",
+      "ファンシーグッズ",
+      "ショッピング"
+    ]
   },
   {
     "id": 78,
@@ -2064,7 +2129,11 @@
     "website": "https://x.com/toreca_maall",
     "lat": 35.698155,
     "lng": 139.77092,
-    "aliases": ["トレカモーール秋葉原1号店", "トレカモール", "トレカモーール"],
+    "aliases": [
+      "トレカモーール秋葉原1号店",
+      "トレカモール",
+      "トレカモーール"
+    ],
     "image": {
       "src": "/images/spots/torecamall-akihabara.webp",
       "alt": "トレカモール秋葉原1号店の店内",
@@ -2080,7 +2149,11 @@
       "hours": "Check storefront or official information",
       "closed": "Check storefront or official information"
     },
-    "tags": ["トレーディングカード", "TCG", "ポケモンカード"]
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "ポケモンカード"
+    ]
   },
   {
     "id": 79,
@@ -2095,7 +2168,11 @@
     "website": "https://c-united.co.jp/store/detail/000394/",
     "lat": 35.695884,
     "lng": 139.774995,
-    "aliases": ["ベローチェ 岩本町", "岩本町 ベローチェ", "カフェ・ベローチェ 岩本町店"],
+    "aliases": [
+      "ベローチェ 岩本町",
+      "岩本町 ベローチェ",
+      "カフェ・ベローチェ 岩本町店"
+    ],
     "image": {
       "src": "/images/spots/veloce-iwamotocho.jpg",
       "alt": "カフェ・ベローチェ 岩本町駅前店のリニューアルオープン告知",
@@ -2111,6 +2188,559 @@
       "hours": "7:00-22:00",
       "closed": "Open year-round"
     },
-    "tags": ["カフェ", "作業", "チェーン店"]
+    "tags": [
+      "カフェ",
+      "作業",
+      "チェーン店"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "秋葉原MOGRA",
+    "slug": "mogra-akihabara",
+    "category": "イベント・ライブ",
+    "description": "アニソン・ボーカロイド・ゲーム音楽を中心に扱うクラブ/ライブハウス。DJイベントやライブが連日開催され、アニソンDJカルチャーの発信拠点として国内外のファンから支持されている。",
+    "address": "東京都台東区秋葉原3-11",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "イベントにより異なる",
+    "closed": "店頭・公式情報要確認",
+    "website": "https://mogra.net/",
+    "aliases": [
+      "MOGRA",
+      "MOGRA秋葉原"
+    ],
+    "image": {
+      "src": "/images/spots/mogra-akihabara.jpeg",
+      "alt": "秋葉原MOGRAの関連ビジュアル",
+      "sourceLabel": "MOGRA 公式ページ",
+      "sourceUrl": "https://mogra.net/",
+      "width": 700,
+      "height": 700
+    },
+    "tags": [
+      "クラブ",
+      "DJイベント",
+      "アニソン"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "GiGO秋葉原3号館",
+    "slug": "gigo-akihabara-3",
+    "category": "ゲーム・フィギュア",
+    "description": "GiGO（旧セガ）が運営するアミューズメント施設。館内の「RETRO:G」フロアやコラボカフェスペースでは、アニメ・ゲームコラボのポップアップやカードゲームイベントが頻繁に開催される。",
+    "address": "東京都千代田区外神田1-11-11",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "hours": "10:00〜23:00",
+    "closed": "店頭・公式情報要確認",
+    "website": "https://www.gigo.co.jp/",
+    "aliases": [
+      "GiGO秋葉原各店",
+      "GiGOコラボカフェ秋葉原3号館",
+      "GiGO秋葉原3号館「RETRO:G」",
+      "GiGOのたい焼き秋葉原"
+    ],
+    "image": {
+      "src": "/images/spots/gigo-akihabara-3.jpg",
+      "alt": "GiGO秋葉原3号館の関連ビジュアル",
+      "sourceLabel": "GiGO公式サイト",
+      "sourceUrl": "https://www.gigo.co.jp/",
+      "width": 960,
+      "height": 960
+    },
+    "tags": [
+      "アミューズメント",
+      "コラボカフェ",
+      "カードゲーム"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "神田明神文化交流館 EDOCCO STUDIO",
+    "slug": "edocco-studio",
+    "category": "イベント・ライブ",
+    "description": "神田明神境内にある文化交流施設の地下1階イベントスペース。サブカルチャー系のトークイベントや展示、コラボ企画などが開催される。",
+    "address": "東京都千代田区外神田2-16-2",
+    "access": "JR秋葉原駅 徒歩7分",
+    "hours": "イベントにより異なる",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "EDOCCO STUDIO",
+      "神田明神境内 / 神田明神文化交流館 EDOCCO STUDIO"
+    ],
+    "image": {
+      "src": "/images/spots/edocco-studio.jpg",
+      "alt": "神田明神文化交流館 EDOCCO STUDIOの関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000007.000150262.html",
+      "width": 1780,
+      "height": 1260
+    },
+    "tags": [
+      "イベントスペース",
+      "神田明神",
+      "文化交流"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "LIFORK秋葉原II",
+    "slug": "lifork-akihabara-2",
+    "category": "電気街・PCパーツ",
+    "description": "自作PC・PCパーツ専門店。トークセッションや体験会など、PCビルド文化に関するイベントスペースとしても利用される。",
+    "address": "東京都千代田区外神田3-13-2 秋葉原TMOビル",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "LIFORK AKIHABARA II"
+    ],
+    "image": {
+      "src": "/images/spots/lifork-akihabara-2.jpg",
+      "alt": "LIFORK秋葉原IIの関連ビジュアル",
+      "sourceLabel": "週刊アスキー",
+      "sourceUrl": "https://weekly.ascii.jp/elem/000/004/407/4407775/",
+      "width": 1200,
+      "height": 675
+    },
+    "tags": [
+      "自作PC",
+      "PCパーツ"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "オチャノバ",
+    "slug": "ochanova",
+    "category": "イベント・ライブ",
+    "description": "書泉が運営するトークイベント・サイン会向けスペース。作家・声優のトークショーやサイン会が定期的に開催される。",
+    "address": "東京都千代田区神田駿河台4-3 新お茶の水ビルディング7F",
+    "access": "JR御茶ノ水駅・秋葉原駅から徒歩圏内",
+    "hours": "イベントにより異なる",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/ochanova.jpg",
+      "alt": "オチャノバの関連ビジュアル",
+      "sourceLabel": "書泉",
+      "sourceUrl": "https://www.shosen.co.jp/event/43533/",
+      "width": 1124,
+      "height": 843
+    },
+    "tags": [
+      "トークイベント",
+      "サイン会",
+      "書泉"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "カラオケの鉄人 コラボミックス 秋葉原電気街店",
+    "slug": "karaoke-tetsujin-collabomix-akihabara",
+    "category": "イベント・ライブ",
+    "description": "カラオケの鉄人が展開するコラボカフェ併設型店舗。アニメ・ゲームIPとのコラボカフェ企画が定期的に行われる。",
+    "address": "東京都千代田区外神田4-4-3 秋葉原SILビル 7F",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "カラオケの鉄人コラボミックス秋葉原電気街店"
+    ],
+    "image": {
+      "src": "/images/spots/karateetsu-collabomix-akihabara.jpg",
+      "alt": "カラオケの鉄人 コラボミックス 秋葉原電気街店の関連ビジュアル",
+      "sourceLabel": "株式会社arma bianca",
+      "sourceUrl": "https://www.karatetsu.com/animegame/piapro.shtml",
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "カラオケ",
+      "コラボカフェ"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "モンハン酒場 東京・秋葉原",
+    "slug": "monster-hunter-bar-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "『モンスターハンター』シリーズの常設コラボ酒場。作中モチーフの料理・ドリンクを提供し、期間ごとにフェア企画が展開される。",
+    "address": "東京都千代田区外神田1-1-10 パセラリゾーツAKIBAマルチエンターテインメント3F",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/monhan-bar-akihabara.jpg",
+      "alt": "モンハン酒場 東京・秋葉原の関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000175.000119643.html",
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "コラボ酒場",
+      "モンスターハンター"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "ケンエレブンシツ",
+    "slug": "kenelebunshitsu",
+    "category": "イベント・ライブ",
+    "description": "御茶ノ水エリアのイベント・ポップアップスペース。アパレル・グッズ系ブランドのポップアップショップ会場として利用される。",
+    "address": "東京都千代田区駿河台2-6 エキュートエディション御茶ノ水構内2F",
+    "access": "JR御茶ノ水駅構内",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/kenelebunshitsu.jpg",
+      "alt": "ケンエレブンシツの関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000086.000166988.html",
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "ポップアップ",
+      "イベントスペース"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "HOTEL EN-YO",
+    "slug": "hotel-en-yo",
+    "category": "ショッピング",
+    "description": "秋葉原・神田佐久間町エリアのホテル。コラボルームやコラボ企画の会場として利用されることがある。",
+    "address": "東京都千代田区神田佐久間町3丁目21-6",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/hotel-en-yo.jpg",
+      "alt": "HOTEL EN-YOの関連ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000058.000056249.html",
+      "width": 72,
+      "height": 72
+    },
+    "tags": [
+      "ホテル",
+      "宿泊"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "ルイーダの酒場",
+    "slug": "luidas-bar-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "『ドラゴンクエスト』シリーズの常設コラボ酒場。作中の「ルイーダの酒場」を再現した空間で、テーマ料理・ドリンクを提供する。",
+    "address": "東京都千代田区外神田1丁目1-10 パセラリゾーツAKIBAマルチエンターテインメント1F",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/luidas-bar-akihabara.jpg",
+      "alt": "ルイーダの酒場の関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000177.000119643.html",
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "コラボ酒場",
+      "ドラゴンクエスト"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "元祖寿司 秋葉原万世橋店",
+    "slug": "gansozushi-manseibashi",
+    "category": "グルメ・カフェ",
+    "description": "回転寿司チェーン「元祖寿司」の秋葉原万世橋店。リニューアルを経て営業する寿司店で、観光や買い物帰りの食事利用に便利な立地。",
+    "address": "東京都千代田区外神田1-15-1",
+    "access": "JR秋葉原駅 徒歩2分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "website": "",
+    "image": {
+      "src": "/images/spots/gansozushi-manseibashi.jpg",
+      "alt": "元祖寿司 秋葉原万世橋店の関連ビジュアル",
+      "sourceLabel": "元祖寿司 公式サイト",
+      "sourceUrl": "https://www.gansozushi.com/2026/04/424.html",
+      "width": 100,
+      "height": 100
+    },
+    "tags": [
+      "グルメ",
+      "寿司",
+      "回転寿司"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "FUJIYAMA TOKYO 秋葉原本店",
+    "slug": "fujiyama-tokyo-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "寿司食べ放題を提供する飲食店。観光客からも人気で、外国語対応など秋葉原の国際色を反映したサービスを展開。",
+    "address": "東京都千代田区神田佐久間町1-20",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/fujiyama-tokyo-akihabara.jpg",
+      "alt": "FUJIYAMA TOKYO 秋葉原本店の関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000865.000014510.html",
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "グルメ",
+      "寿司",
+      "食べ放題"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "TCG GATE",
+    "slug": "tcg-gate-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードゲーム専門店。カードの売買・対戦スペースを提供し、秋葉原のTCGショップの一角を担う。",
+    "address": "東京都千代田区外神田4-7-3 虎ビル2階",
+    "access": "JR秋葉原駅 徒歩6分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/tcg-gate-akihabara.jpg",
+      "alt": "TCG GATEの関連ビジュアル",
+      "sourceLabel": "株式会社Anmore プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000007.000178839.html",
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "トレーディングカード",
+      "TCG"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "ファーストキャビン秋葉原",
+    "slug": "first-cabin-akihabara",
+    "category": "ショッピング",
+    "description": "カプセルホテル「ファーストキャビン」の秋葉原店。ビジネス・観光利用の宿泊施設として、リニューアル・改装を経て営業する。",
+    "address": "東京都千代田区神田佐久間町三丁目38",
+    "access": "JR秋葉原駅 昭和通り口 徒歩5分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/first-cabin-akihabara.jpg",
+      "alt": "ファーストキャビン秋葉原の関連ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000025.000089778.html",
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "ホテル",
+      "カプセルホテル"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "アキバナビスペース",
+    "slug": "akiba-navi-space",
+    "category": "イベント・ライブ",
+    "description": "秋葉原のイベント・展示スペース。物販イベントやファン交流イベントの会場として利用される。",
+    "address": "東京都千代田区外神田3-1-8 松岡ビルB1",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "イベントにより異なる",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/akiba-navi-space.webp",
+      "alt": "アキバナビスペースの関連ビジュアル",
+      "sourceLabel": "BWP事務局 PR TIMES風リリース（@Press）",
+      "sourceUrl": "https://www.atpress.ne.jp/news/606945",
+      "width": 607,
+      "height": 840
+    },
+    "tags": [
+      "イベントスペース",
+      "物販イベント"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "TOKIEL秋葉原店",
+    "slug": "tokiel-akihabara",
+    "category": "ショッピング",
+    "description": "パーソナルジム「TOKIEL」の秋葉原店。トレーニング指導を中心としたフィットネス施設。",
+    "address": "東京都千代田区神田佐久間町3丁目10 Sobe.Japan.BLD 3階",
+    "access": "JR秋葉原駅 昭和通り口 徒歩3分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/tokiel-akihabara.jpg",
+      "alt": "TOKIEL秋葉原店の関連ビジュアル",
+      "sourceLabel": "PR TIMES（株式会社TIU）",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000028.000129111.html",
+      "width": 2008,
+      "height": 474
+    },
+    "tags": [
+      "パーソナルジム",
+      "フィットネス"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "AKB48劇場",
+    "slug": "akb48-theater",
+    "category": "イベント・ライブ",
+    "description": "ドン・キホーテ秋葉原店8階にあるAKB48の常設劇場。定期公演やスペシャルイベントが開催される、秋葉原のアイドル文化を象徴するスポット。",
+    "address": "東京都千代田区外神田4-3-3 ドン・キホーテ秋葉原8階",
+    "access": "JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "公演スケジュールによる",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "AKB48劇場（ドン・キホーテ秋葉原8階）"
+    ],
+    "image": {
+      "src": "/images/spots/akb48-theater.jpg",
+      "alt": "AKB48劇場の関連ビジュアル",
+      "sourceLabel": "音楽ナタリー",
+      "sourceUrl": "https://www.akb48.co.jp/theater",
+      "width": 1920,
+      "height": 1080
+    },
+    "tags": [
+      "アイドル",
+      "劇場",
+      "AKB48"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "晴れる屋2 秋葉原タワー店",
+    "slug": "hareruya2-akihabara-tower",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードゲーム専門店「晴れる屋2」の秋葉原タワー店。カードの売買・対戦環境を提供する。",
+    "address": "東京都千代田区外神田1-2-13 石丸3号館ビル",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/hareruya2-akihabara-tower.jpg",
+      "alt": "晴れる屋2 秋葉原タワー店の関連ビジュアル",
+      "sourceLabel": "晴れる屋2 秋葉原タワー店 公式ページ",
+      "sourceUrl": "https://corp.hareruyamtg.com/news/6545",
+      "width": 1080,
+      "height": 740
+    },
+    "tags": [
+      "トレーディングカード",
+      "TCG"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "クルクル秋葉原店",
+    "slug": "kurukuru-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "中古ホビー専門店「クルクル」の秋葉原店。フィギュア・プラモデルなどの中古品売買を行う。",
+    "address": "東京都千代田区外神田4-6-1 塩田トゥールビル7F",
+    "access": "JR秋葉原駅 徒歩6分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/kurukuru-akihabara.jpg",
+      "alt": "クルクル秋葉原店の関連ビジュアル",
+      "sourceLabel": "HOBBY Watch",
+      "sourceUrl": "https://hobby.watch.impress.co.jp/docs/news/2126629.html",
+      "width": 378,
+      "height": 198
+    },
+    "tags": [
+      "中古ホビー",
+      "フィギュア"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Fandom Akiba",
+    "slug": "fandom-akiba",
+    "category": "ショッピング",
+    "description": "VTuber・ストリーマー関連グッズを扱うイベントスペース。ポップアップショップ会場として利用される。",
+    "address": "東京都千代田区外神田1-11-3 東和ビル",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "イベントにより異なる",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "Fandom Akiba 5F"
+    ],
+    "image": {
+      "src": "/images/spots/fandom-akiba.jpg",
+      "alt": "Fandom Akibaの関連ビジュアル",
+      "sourceLabel": "楽天グループ PR TIMESプレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002655.000005889.html",
+      "width": 1920,
+      "height": 1080
+    },
+    "tags": [
+      "VTuberグッズ",
+      "ポップアップ"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "刀剣乱舞STORE AKIHABARA",
+    "slug": "touken-ranbu-store-akihabara",
+    "category": "ショッピング",
+    "description": "『刀剣乱舞-ONLINE-』の常設イベントストア。オリジナルグッズの販売や期間ごとのフェア企画を展開する。",
+    "address": "東京都千代田区外神田4-3-1 ヒューテック秋葉原ビル 1F〜3F",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "刀剣乱舞STORE AKIHABARA（ヒューテック秋葉原ビル）"
+    ],
+    "image": {
+      "src": "/images/spots/touken-ranbu-store-akihabara.jpg",
+      "alt": "刀剣乱舞STORE AKIHABARAの関連ビジュアル",
+      "sourceLabel": "Collabo Cafe",
+      "sourceUrl": "https://www.toulove-store.com/2026/",
+      "width": 1500,
+      "height": 705
+    },
+    "tags": [
+      "コラボグッズ",
+      "刀剣乱舞"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "東京アニメセンター in UDX",
+    "slug": "tokyo-anime-center-udx",
+    "category": "イベント・ライブ",
+    "description": "秋葉原UDX2階にあるアニメ関連の常設展示・物販施設。作品コラボのポップアップショップや展示企画が定期的に開催される。",
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDX 2F",
+    "access": "JR秋葉原駅 電気街口 徒歩2分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "東京アニメセンター"
+    ],
+    "image": {
+      "src": "/images/spots/tokyo-anime-center-udx.jpg",
+      "alt": "東京アニメセンター in UDXの関連ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/heroaca-villain-pop-up-store-tokyo-anime-center-2026/",
+      "width": 1412,
+      "height": 984
+    },
+    "tags": [
+      "アニメ",
+      "ポップアップ",
+      "展示"
+    ]
   }
 ]
