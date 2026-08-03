@@ -1168,7 +1168,7 @@
     "name": "書泉ブックタワー",
     "slug": "shosen-book-tower",
     "category": "アニメ・マンガ・同人",
-    "description": "秋葉原駅至近の大型専門書店。鉄道・アイドル・格闘技・ミリタリー・コンピューターなど趣味系ジャンルに特化した品揃えが特徴。サイン会や握手会なども頻繁に開催。",
+    "description": "秋葉原駅至近の大型専門書店。鉄道・アイドル・格闘技・ミリタリー・コンピューターなど趣味系ジャンルに特化した品揃えが特徴。フロアごとにジャンルを分けた売り場構成で、著者・声優によるサイン会や特典会、コラボPOPUPも頻繁に開催される秋葉原の書店文化を代表するスポット。",
     "address": "東京都千代田区神田佐久間町1-11-1",
     "access": "JR秋葉原駅 昭和通り口 徒歩1分",
     "hours": "11:00〜20:00",
@@ -1176,6 +1176,7 @@
     "website": "https://www.shosen.co.jp/tower/",
     "lat": 35.6976,
     "lng": 139.7745,
+    "aliases": ["書泉ブックタワー秋葉原", "書泉"],
     "image": {
       "src": "/images/spots/shosen-book-tower.jpg",
       "alt": "書泉ブックタワーの公式ビジュアル",
@@ -1183,7 +1184,8 @@
       "sourceUrl": "https://www.shosen.co.jp/tower/",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": ["書店", "サイン会", "コラボPOPUP"]
   },
   {
     "id": 38,
@@ -1275,13 +1277,14 @@
     "name": "トレカラウンジ",
     "slug": "toreka-lounge",
     "category": "ゲーム・フィギュア",
-    "description": "トレーディングカードゲームに特化したラウンジ。カードの売買や対戦スペースの提供に加え、大会・イベント開催にも対応。",
+    "description": "トレーディングカードゲームに特化したラウンジ。カードの売買や対戦スペースの提供に加え、大会・イベント開催にも対応。ラオックス秋葉原本店を拠点とする「トレカモール秋葉原」とは別の独立店舗で、落ち着いた環境でカードを選びたい層に利用される。",
     "address": "東京都千代田区外神田4-6-1",
     "access": "JR秋葉原駅 徒歩6分",
     "hours": "12:00〜21:00",
     "closed": "不定休",
     "lat": 35.7014,
     "lng": 139.7712,
+    "aliases": ["トレカラウンジ秋葉原"],
     "image": {
       "src": "/images/spots/toreka-lounge.jpg",
       "alt": "トレカラウンジの関連ビジュアル",
@@ -1289,7 +1292,8 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000012.000177148.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": ["トレーディングカード", "TCG", "対戦スペース"]
   },
   {
     "id": 43,
@@ -1402,13 +1406,14 @@
     "name": "壱角家 秋葉原総本店",
     "slug": "ikkakuya-akihabara",
     "category": "グルメ・カフェ",
-    "description": "横浜発の家系ラーメンチェーン・壱角家の秋葉原店。深夜まで営業しており、イベント帰りの来客にも重宝される。",
+    "description": "横浜発の家系ラーメンチェーン・壱角家の秋葉原店。濃厚豚骨醤油スープと極太麺の家系ラーメンを提供し、深夜まで営業しているためイベント帰りの来客にも重宝される。油そば専門ブランドとのコラボ・リニューアルも行われるなど、店舗展開の動きを追いやすいスポット。",
     "address": "東京都千代田区外神田1-5-3",
     "access": "JR秋葉原駅 電気街口 徒歩1分",
     "hours": "11:00〜翌2:00",
     "closed": "年中無休",
     "lat": 35.6983,
     "lng": 139.7729,
+    "aliases": ["壱角家秋葉原", "壱角家 秋葉原"],
     "image": {
       "src": "/images/spots/ikkakuya-akihabara.jpg",
       "alt": "壱角家 秋葉原総本店の関連ビジュアル",
@@ -1416,7 +1421,8 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000292.000027681.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": ["グルメ", "ラーメン", "家系"]
   },
   {
     "id": 49,
@@ -1927,7 +1933,7 @@
     "name": "BEEP秋葉原店",
     "slug": "beep-akihabara",
     "category": "ゲーム・フィギュア",
-    "description": "レトロPC・レトロゲーム・アーケード基板を専門に取り扱うショップ。往年のゲームハードや希少ソフトの売買でマニア層から絶大な支持を集める。",
+    "description": "レトロPC・レトロゲーム・アーケード基板を専門に取り扱うショップ。往年のゲームハードや希少ソフトの売買でマニア層から絶大な支持を集める。2026年にSEEKBASE3号棟へ移転オープンしており、PC-98旧作タイトルの抽選販売など旧作ファン向け企画も定期的に実施。",
     "address": "東京都千代田区神田練塀町15-1 SEEKBASE内",
     "access": "JR秋葉原駅 電気街口 徒歩5分",
     "hours": "11:00〜20:00",
@@ -1935,6 +1941,7 @@
     "website": "https://www.akihabara-beep.com/",
     "lat": 35.7009,
     "lng": 139.7712,
+    "aliases": ["beep akihabara", "BEEP秋葉原", "ビープ秋葉原"],
     "image": {
       "src": "/images/spots/beep-akihabara.webp",
       "alt": "BEEP秋葉原店の公式ビジュアル",
@@ -1942,7 +1949,8 @@
       "sourceUrl": "https://www.akihabara-beep.com/",
       "width": 750,
       "height": 320
-    }
+    },
+    "tags": ["レトロゲーム", "レトロPC", "アーケード基板"]
   },
   {
     "id": 74,
@@ -2042,5 +2050,67 @@
       "closed": "Check storefront or official information"
     },
     "tags": ["ホビーショップ", "ファンシーグッズ", "ショッピング"]
+  },
+  {
+    "id": 78,
+    "name": "トレカモール秋葉原1号店",
+    "slug": "torecamall-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "国内初のトレーディングカード専門モールとして、ラオックス秋葉原本店のB1F・5Fに複数のトレカ専門店が集結する形態で展開。ポケモンカードやワンピースカードなど各種TCGの売買・在庫をまとめてチェックできる。",
+    "address": "東京都千代田区外神田1-2-9 ラオックス秋葉原本店 B1F・5F",
+    "access": "JR秋葉原駅 電気街口 徒歩1分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "website": "https://x.com/toreca_maall",
+    "lat": 35.698155,
+    "lng": 139.77092,
+    "aliases": ["トレカモーール秋葉原1号店", "トレカモール", "トレカモーール"],
+    "image": {
+      "src": "/images/spots/torecamall-akihabara.webp",
+      "alt": "トレカモール秋葉原1号店の店内",
+      "sourceLabel": "サードニュース",
+      "sourceUrl": "https://news.3rd-in.co.jp/article/08354fae-a092-11ef-a714-9ca3ba083d71",
+      "width": 1200,
+      "height": 844
+    },
+    "en": {
+      "name": "Torecamall Akihabara Store 1",
+      "description": "Japan's first specialty mall for trading card shops, gathering multiple TCG stores on the B1F and 5F of Laox Akihabara Main Store. Covers buying, selling, and stock for titles such as Pokemon Card Game and One Piece Card Game.",
+      "access": "1-minute walk from JR Akihabara Station Electric Town exit",
+      "hours": "Check storefront or official information",
+      "closed": "Check storefront or official information"
+    },
+    "tags": ["トレーディングカード", "TCG", "ポケモンカード"]
+  },
+  {
+    "id": 79,
+    "name": "カフェ・ベローチェ 岩本町駅前店",
+    "slug": "veloce-iwamotocho",
+    "category": "グルメ・カフェ",
+    "description": "岩本町駅A3出口近くにあるカフェ・ベローチェの店舗。2026年5月13日にリニューアルオープン。Free Wi-Fi・客席コンセント・各種キャッシュレス決済・Uber Eatsに対応し、秋葉原・岩本町エリアで作業や休憩に使いやすい立地。",
+    "address": "東京都千代田区神田岩本町1-14 KDX秋葉原ビル1F",
+    "access": "岩本町駅A3出口 徒歩1分 / JR秋葉原駅昭和通り口 徒歩3分",
+    "hours": "7:00〜22:00",
+    "closed": "無休",
+    "website": "https://c-united.co.jp/store/detail/000394/",
+    "lat": 35.695884,
+    "lng": 139.774995,
+    "aliases": ["ベローチェ 岩本町", "岩本町 ベローチェ", "カフェ・ベローチェ 岩本町店"],
+    "image": {
+      "src": "/images/spots/veloce-iwamotocho.jpg",
+      "alt": "カフェ・ベローチェ 岩本町駅前店のリニューアルオープン告知",
+      "sourceLabel": "現地掲示",
+      "sourceUrl": "https://c-united.co.jp/store/detail/000394/",
+      "width": 72,
+      "height": 72
+    },
+    "en": {
+      "name": "Cafe Veloce Iwamotocho Ekimae",
+      "description": "A Cafe Veloce location near Exit A3 of Iwamotocho Station, reopened after renovation on May 13, 2026. Offers free Wi-Fi, seat-side power outlets, cashless payment, and Uber Eats, making it convenient for work or breaks in the Akihabara/Iwamotocho area.",
+      "access": "1-minute walk from Iwamotocho Station Exit A3 / 3-minute walk from JR Akihabara Station Showa-dori exit",
+      "hours": "7:00-22:00",
+      "closed": "Open year-round"
+    },
+    "tags": ["カフェ", "作業", "チェーン店"]
   }
 ]
