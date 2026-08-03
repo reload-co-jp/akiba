@@ -5,12 +5,12 @@ import { absoluteUrl } from "lib/site"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 export const metadata = {
-  title: "アキバLive",
+  title: "アキバLive｜秋葉原の最新イベント・コラボ・ニュース",
   description:
     "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "アキバLive",
+    title: "アキバLive｜秋葉原の最新イベント・コラボ・ニュース",
     description:
       "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
     url: "/",
@@ -19,7 +19,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "アキバLive",
+    title: "アキバLive｜秋葉原の最新イベント・コラボ・ニュース",
     description:
       "秋葉原で今起きているエンタメ情報を、ニュース記事としてわかりやすく届けるメディア",
     images: ["/images/hero.jpg"],

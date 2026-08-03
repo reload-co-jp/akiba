@@ -215,36 +215,38 @@
   },
   {
     "id": 7,
-    "name": "@ほぉ〜むカフェ 本店",
+    "name": "あっとほぉーむカフェ 秋葉原本店",
     "slug": "home-cafe-akihabara",
     "category": "グルメ・カフェ",
-    "description": "秋葉原を代表するメイドカフェの老舗。「おかえりなさいませ、ご主人様」の接客スタイルで世界的に有名。フードやドリンクはもちろん、写真撮影・ゲームなどのサービスも充実。",
-    "address": "東京都千代田区外神田1-11-4 みつわビル5F",
-    "access": "JR秋葉原駅 徒歩3分",
-    "hours": "11:30〜22:00（土日祝 10:30〜）",
-    "closed": "不定休",
+    "description": "秋葉原を代表するメイドカフェの老舗。「あっとほぉーむカフェ」「アットホームカフェ」とも表記される。「おかえりなさいませ、ご主人様・お嬢様」の接客スタイルで世界的に有名で、ビル3〜7階の5フロアにメイドカフェを展開。フードやドリンクはもちろん、写真撮影・ステージライブなどのサービスも充実。",
+    "address": "東京都千代田区外神田1-11-4 みつわビル",
+    "access": "JR秋葉原駅 電気街口(北側) 徒歩3分",
+    "hours": "月〜金 11:00〜22:00 / 土日 10:00〜22:00",
+    "closed": "無休",
     "admission": "入場料あり（別途チャージ）",
     "website": "https://www.cafe-athome.com/",
-    "lat": 35.6991,
-    "lng": 139.7714,
+    "lat": 35.699570265671,
+    "lng": 139.77072532732,
+    "aliases": ["@ほぉ〜むカフェ", "@ほぉ~むカフェ", "アットホームカフェ", "あっとほぉーむ", "at-home cafe", "athome cafe"],
     "image": {
       "src": "/images/spots/home-cafe.jpg",
-      "alt": "@ほぉ〜むカフェ本店の入口",
+      "alt": "あっとほぉーむカフェ本店の入口",
       "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outside_of_@home_cafe_20111128.jpg",
       "width": 3104,
       "height": 4672
     },
     "en": {
-      "name": "@Home Cafe Main Store",
-      "description": "One of Akihabara's most iconic maid cafes, world-famous for its 'Welcome home, Master' hospitality. Offers food, drinks, photo services, and mini-games alongside the maid experience.",
-      "access": "3-minute walk from JR Akihabara Station",
-      "hours": "11:30–22:00 (from 10:30 on weekends and holidays)",
-      "closed": "Irregular holidays",
+      "name": "at-home cafe Akihabara Main Store",
+      "description": "One of Akihabara's most iconic maid cafes, world-famous for its 'Welcome home, Master' hospitality. Spans five floors (3F-7F) of a single building. Offers food, drinks, photo services, and stage live shows alongside the maid experience.",
+      "access": "3-minute walk from JR Akihabara Station (Electric Town exit, north side)",
+      "hours": "Mon-Fri 11:00-22:00 / Sat-Sun 10:00-22:00",
+      "closed": "Open year-round",
       "admission": "Entry fee + table charge apply"
     },
     "tags": [
       "メイドカフェ",
+      "コンカフェ",
       "カフェ",
       "体験"
     ]
@@ -1983,5 +1985,62 @@
       "width": 1,
       "height": 1
     }
+  },
+  {
+    "id": 76,
+    "name": "牛たんの檸檬 秋葉原店",
+    "slug": "gyutan-no-lemon-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "『牛たんは厚切りがうんまい！』をコンセプトにした厚切り牛たん専門店。希少部位「たん元」を使用した名物『極み』ステーキが人気で、国内外8店舗目として2026年7月にオープン。ランチ・ディナー共に営業しており、観光や買い物の合間の食事にも使いやすい。",
+    "address": "東京都千代田区神田佐久間町3-38 大陽ビル1階",
+    "access": "東京メトロ日比谷線秋葉原駅1番出口から徒歩約3分 / JR秋葉原駅昭和通り口から徒歩約6分",
+    "hours": "ランチ 11:30〜15:00（L.O.14:30） / ディナー 17:00〜21:30（L.O.21:00）",
+    "closed": "月曜日",
+    "website": "https://gyutan-lemon.com/",
+    "aliases": ["牛たんの檸檬", "牛タンの檸檬", "牛タン檸檬", "牛たん檸檬"],
+    "image": {
+      "src": "/images/spots/gyutan-no-lemon-akihabara.png",
+      "alt": "牛たんの檸檬の公式サイトOGP画像",
+      "sourceLabel": "牛たんの檸檬 公式サイト",
+      "sourceUrl": "https://gyutan-lemon.com/",
+      "width": 1200,
+      "height": 630
+    },
+    "en": {
+      "name": "Gyutan no Lemon Akihabara",
+      "description": "A thick-cut beef tongue specialty restaurant built around the concept that thick-cut beef tongue is delicious. Known for its signature Kiwami steak using the rare tongue-root cut. Opened in July 2026 as the brand's eighth location in Japan and overseas, serving both lunch and dinner.",
+      "access": "3-minute walk from Exit 1 of Akihabara Station (Hibiya Line) / 6-minute walk from Showa-dori exit of JR Akihabara Station",
+      "hours": "Lunch 11:30-15:00 (L.O. 14:30) / Dinner 17:00-21:30 (L.O. 21:00)",
+      "closed": "Mondays"
+    },
+    "tags": ["グルメ", "焼肉", "牛たん"]
+  },
+  {
+    "id": 77,
+    "name": "ファンシー東京",
+    "slug": "fancy-tokyo-akihabara",
+    "category": "ショッピング",
+    "description": "蔵前橋通り沿い、旧コンピュエース秋葉原店の跡地にオープンしたホビーショップ。ファンシー系グッズを中心に取り扱う。長年ケーブル・コネクタ販売で親しまれてきた場所が、新しい形の物販店として生まれ変わった。",
+    "address": "東京都千代田区外神田3-8-7 一光ビル1階",
+    "access": "JR秋葉原駅 徒歩7分（蔵前橋通り沿い、旧コンピュエース秋葉原店跡地）",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "aliases": ["ファンシー東京 秋葉原店", "ファンシー東京 秋葉原", "秋葉原ファンシー東京"],
+    "image": {
+      "src": "/images/spots/fancy-tokyo-akihabara.jpg",
+      "alt": "コンピュエース秋葉原店跡地にオープンしたファンシー東京の店頭",
+      "sourceLabel": "エルミタージュ秋葉原",
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0515/634585",
+      "width": 1024,
+      "height": 768
+    },
+    "en": {
+      "name": "Fancy Tokyo Akihabara",
+      "description": "A hobby shop mainly handling fancy-style goods, opened along Kuramaebashi-dori at the former site of CompuAce Akihabara, long known for cables and connectors.",
+      "access": "7-minute walk from JR Akihabara Station (along Kuramaebashi-dori, former CompuAce Akihabara site)",
+      "hours": "Check storefront or official information",
+      "closed": "Check storefront or official information"
+    },
+    "tags": ["ホビーショップ", "ファンシーグッズ", "ショッピング"]
   }
 ]
