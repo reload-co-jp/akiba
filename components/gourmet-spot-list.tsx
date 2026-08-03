@@ -1,5 +1,10 @@
 import Link from "next/link"
-import { getCuisineLabel, hasDetailPage, type Spot } from "lib/spots"
+import {
+  distanceFromStation,
+  getCuisineLabel,
+  hasDetailPage,
+  type Spot,
+} from "lib/spots"
 
 /**
  * Renders gourmet spots as a compact directory row rather than a card.
@@ -11,7 +16,12 @@ import { getCuisineLabel, hasDetailPage, type Spot } from "lib/spots"
 export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
   <ul className="gourmet-list">
     {spots.map((spot) => {
+      // Most bulk-imported entries have neither an address nor opening hours,
+      // so distance from the station is often the only concrete thing we can
+      // tell the reader about them.
+      const distance = distanceFromStation(spot)
       const details = [
+        distance != null ? `秋葉原駅から約${distance}m` : undefined,
         spot.address,
         spot.hours,
       ].filter(Boolean) as string[]
@@ -56,7 +66,8 @@ export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
  */
 export const OsmAttribution = () => (
   <p className="gourmet-attribution">
-    店舗の一部は{" "}
+    駅からの距離はJR秋葉原駅電気街口からの直線距離で、実際の歩行距離とは
+    異なります。店舗の一部は{" "}
     <a
       href="https://www.openstreetmap.org/copyright"
       rel="noopener noreferrer"

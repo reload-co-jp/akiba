@@ -222,12 +222,44 @@ export const getPagedCuisines = (): string[] =>
     )
     .sort((a, b) => getSpotsByCuisine(b).length - getSpotsByCuisine(a).length)
 
-/** Spots first, so the ones we can actually link to lead the list. */
+/** JR Akihabara Station, Electric Town exit. */
+export const AKIHABARA_STATION = { lat: 35.698383, lng: 139.773071 }
+
+/**
+ * Straight-line distance from Akihabara Station, in metres, rounded to 10m to
+ * avoid implying more precision than a point-to-point measure deserves.
+ *
+ * Deliberately not converted to walking minutes: the Japanese convention for
+ * "徒歩◯分" is road distance at 80m/min, and quoting a straight-line figure
+ * that way would understate every entry. Pages label this as 直線距離.
+ */
+export const distanceFromStation = (spot: Spot): number | undefined => {
+  if (spot.lat == null || spot.lng == null) return undefined
+  const meanLat = ((spot.lat + AKIHABARA_STATION.lat) / 2) * (Math.PI / 180)
+  const x =
+    (spot.lng - AKIHABARA_STATION.lng) * (Math.PI / 180) * Math.cos(meanLat)
+  const y = (spot.lat - AKIHABARA_STATION.lat) * (Math.PI / 180)
+  const metres = Math.hypot(x, y) * 6371000
+  return Math.round(metres / 10) * 10
+}
+
+/**
+ * Spots with their own page lead — they are the ones with an image, a written
+ * description and related coverage. Everything else follows by how close it is
+ * to the station, which is the most useful ordering for a directory.
+ */
 export const sortGourmetSpots = (spots: Spot[]): Spot[] =>
   [...spots].sort((a, b) => {
     const aLinkable = hasDetailPage(a) ? 0 : 1
     const bLinkable = hasDetailPage(b) ? 0 : 1
     if (aLinkable !== bLinkable) return aLinkable - bLinkable
+
+    const aDist = distanceFromStation(a)
+    const bDist = distanceFromStation(b)
+    if (aDist != null && bDist != null && aDist !== bDist) return aDist - bDist
+    if (aDist == null && bDist != null) return 1
+    if (aDist != null && bDist == null) return -1
+
     return a.name.localeCompare(b.name, "ja")
   })
 

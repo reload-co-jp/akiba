@@ -159,7 +159,8 @@ const Page = async ({ params }: Props) => {
         </div>
 
         <p className="gourmet-lead">
-          秋葉原エリアの{label}を{spots.length}件掲載しています。
+          秋葉原エリアの{label}を{spots.length}件、
+          秋葉原駅から近い順に掲載しています。
         </p>
 
         <AdsenseFluidAd />

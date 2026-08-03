@@ -127,7 +127,8 @@ const Page = () => {
         </div>
 
         <p className="gourmet-lead">
-          秋葉原エリアで食事ができる店を{spots.length}件掲載しています。
+          秋葉原エリアで食事ができる店を{spots.length}件、
+          秋葉原駅から近い順に掲載しています。
           ジャンルから絞り込むか、下の一覧から探してください。
         </p>
 
