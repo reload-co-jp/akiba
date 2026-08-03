@@ -1612,6 +1612,9 @@
     "slug": "melonbooks-akihabara-1",
     "category": "アニメ・マンガ・同人",
     "description": "同人誌・アニメグッズ専門書店チェーン「メロンブックス」の秋葉原主力店。同人誌・コスプレ用品・美少女ゲームなどを幅広く取り扱う。作家サイン会なども開催。",
+    "aliases": [
+      "メロンブックス秋葉原店"
+    ],
     "address": "東京都千代田区外神田1-10-5 廣瀬ビルB1F",
     "access": "JR秋葉原駅 電気街口 徒歩2分",
     "hours": "10:00〜21:00",
@@ -2741,6 +2744,234 @@
       "アニメ",
       "ポップアップ",
       "展示"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "STELLAMAP Cafe",
+    "slug": "stellamap-cafe",
+    "category": "グルメ・カフェ",
+    "description": "ソフマップが運営するコラボカフェ。漫画・アニメ・ゲーム作品とのコラボカフェ企画を定期的に展開する。",
+    "address": "東京都千代田区外神田1-10-8 平岡ビル7階",
+    "access": "JR秋葉原駅 電気街口 徒歩4分",
+    "hours": "11:00〜20:00（料理L.O.19:00）",
+    "closed": "店頭・公式情報要確認",
+    "aliases": [
+      "ステラマップカフェ"
+    ],
+    "image": {
+      "src": "/images/spots/stellamap-cafe.jpg",
+      "alt": "STELLAMAP Cafeの関連ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/sofmap-wf4bido9/",
+      "width": 1000,
+      "height": 563
+    },
+    "tags": [
+      "コラボカフェ",
+      "ソフマップ"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "ジーストア・アキバ",
+    "slug": "geestore-akiba",
+    "category": "アニメ・マンガ・同人",
+    "description": "コスプレ衣装・キャラクターグッズを扱う複合ショップ。同ビル内にコスパ、コスパティオ、キュアメイドカフェなど複数のテナントが入居し、作品コラボのポップアップも頻繁に開催される。",
+    "address": "東京都千代田区外神田3-15-5",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "平日11:00〜20:00 / 日祝11:00〜19:00",
+    "closed": "不定休",
+    "website": "https://www.geestore.com/",
+    "image": {
+      "src": "/images/spots/geestore-akiba.jpg",
+      "alt": "ジーストア・アキバの関連ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://www.geestore.com/geenet/event/15071.html",
+      "width": 1200,
+      "height": 630
+    },
+    "tags": [
+      "コスプレ",
+      "キャラクターグッズ"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "トレーダー秋葉原2号店",
+    "slug": "trader-akihabara-2",
+    "category": "ゲーム・フィギュア",
+    "description": "フィギュア・トレカ・ゲームソフトの買取・販売を行う中古ショップ「トレーダー」の秋葉原2号店。トレーダー秋葉原本店とは別店舗で、抽選販売企画なども実施される。",
+    "address": "東京都千代田区外神田1-4-9",
+    "access": "JR秋葉原駅 徒歩4分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "website": "https://www.trader.co.jp/",
+    "image": {
+      "src": "/images/spots/trader-akihabara-2.jpg",
+      "alt": "トレーダー秋葉原2号店の関連ビジュアル",
+      "sourceLabel": "ASCII.jp",
+      "sourceUrl": "https://ascii.jp/elem/000/004/413/4413523/",
+      "width": 1200,
+      "height": 800
+    },
+    "tags": [
+      "フィギュア",
+      "トレカ",
+      "中古"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "ギャラリーエピキュート",
+    "slug": "gallery-epicute",
+    "category": "イベント・ライブ",
+    "description": "秋葉原の展示・アート系ギャラリー。原画展や版画展など、作家の展示・即売イベントの会場として利用される。",
+    "address": "東京都千代田区外神田6-15-14 外神田ストークビル6F",
+    "access": "JR秋葉原駅 徒歩8分",
+    "hours": "イベントにより異なる",
+    "closed": "店頭・公式情報要確認",
+    "image": {
+      "src": "/images/spots/gallery-epicute.jpg",
+      "alt": "ギャラリーエピキュートの関連ビジュアル",
+      "sourceLabel": "レッツエンジョイ東京",
+      "sourceUrl": "https://www.enjoytokyo.jp/event/2070906/",
+      "width": 461,
+      "height": 640
+    },
+    "tags": [
+      "ギャラリー",
+      "展示"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "アキバプラザ",
+    "slug": "akiba-plaza",
+    "category": "イベント・ライブ",
+    "description": "富士ソフトが運営する貸し会議室・イベントホール施設。大小20の施設を備え、セミナーや展示会、企業イベントの会場として利用される。",
+    "address": "東京都千代田区神田練塀町3",
+    "access": "JR秋葉原駅 中央改札口 徒歩2分 / つくばエクスプレス秋葉原駅A3出口 徒歩1分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "店頭・公式情報要確認",
+    "website": "https://www.fsi.co.jp/akibaplaza/",
+    "image": {
+      "src": "/images/spots/akiba-plaza.jpg",
+      "alt": "アキバプラザの関連ビジュアル",
+      "sourceLabel": "アドバンテック公式サイト",
+      "sourceUrl": "https://www.advantech.com/ja-jp/resources/news/edj-2026",
+      "width": 820,
+      "height": 460
+    },
+    "tags": [
+      "イベントホール",
+      "貸し会議室"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "ENTAS（秋葉原イベントスペース）",
+    "slug": "entas-akihabara",
+    "category": "イベント・ライブ",
+    "description": "秋葉原オノデン秋葉原本館ビル5Fにあるイベントスペース。アイドル・VTuberのライブやXR体験イベントの会場として利用される。",
+    "address": "東京都千代田区外神田1-2-7 オノデン秋葉原本館ビル5F",
+    "access": "JR秋葉原駅 徒歩2分",
+    "hours": "イベントにより異なる",
+    "closed": "店頭・公式情報要確認",
+    "website": "https://www.entas.jp/",
+    "aliases": [
+      "エンタス",
+      "エンタス（秋葉原オノデンビル5F）"
+    ],
+    "image": {
+      "src": "/images/spots/entas-akihabara.jpg",
+      "alt": "ENTAS（秋葉原イベントスペース）の関連ビジュアル",
+      "sourceLabel": "テレ東プラス（プレスリリース掲載）",
+      "sourceUrl": "https://cof-xr.co.jp/avemujica/",
+      "width": 650,
+      "height": 366
+    },
+    "tags": [
+      "イベントスペース",
+      "ライブハウス",
+      "VTuber"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "EXBAR TOKYO plus AKIHABARA",
+    "slug": "exbar-tokyo-plus-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "タイトーが運営するクラフトビール＆ゲームバー。秋葉原東西自由通路直結で、セルフサーバーでのクラフトビールやアーケードゲームを楽しめる。",
+    "address": "東京都千代田区神田佐久間町1-6 1号館 秋葉原東西自由通路内",
+    "access": "JR秋葉原駅 電気街口・中央改札口 徒歩1分",
+    "hours": "10:00〜23:00（L.O.22:30）",
+    "closed": "店頭・公式情報要確認",
+    "website": "https://exbar.jp/akihabara/",
+    "aliases": [
+      "EXBAR TOKYO plus 秋葉原",
+      "タイトーステーション秋葉原東西自由通路店 / EXBAR TOKYO plus秋葉原"
+    ],
+    "image": {
+      "src": "/images/spots/exbar-tokyo-plus-akihabara.jpg",
+      "alt": "EXBAR TOKYO plus AKIHABARAの関連ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000795.000041970.html",
+      "width": 1920,
+      "height": 1080
+    },
+    "tags": [
+      "クラフトビール",
+      "ゲームバー"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "めいどりーみん秋葉原本店",
+    "slug": "maidreamin-akihabara-honten",
+    "category": "グルメ・カフェ",
+    "description": "全世界展開するメイドカフェチェーン「めいどりーみん」の秋葉原本店。フード・ドリンクに加え、写真撮影やステージパフォーマンスも楽しめる。",
+    "address": "東京都千代田区外神田3-16-17 住吉ビル6F",
+    "access": "末広町駅 徒歩1分",
+    "hours": "月〜金 11:30〜23:00 / 土日祝 10:30〜23:00",
+    "closed": "無休",
+    "website": "https://maidreamin.com/",
+    "image": {
+      "src": "/images/spots/maidreamin-akihabara-honten.jpg",
+      "alt": "めいどりーみん秋葉原本店の関連ビジュアル",
+      "sourceLabel": "Gamer",
+      "sourceUrl": "https://www.gamer.ne.jp/news/202607240061/",
+      "width": 1200,
+      "height": 848
+    },
+    "tags": [
+      "メイドカフェ",
+      "カフェ",
+      "体験"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "秋葉原ワシントンホテル",
+    "slug": "washington-hotel-akihabara",
+    "category": "ショッピング",
+    "description": "秋葉原駅近くのビジネスホテル。ロビーリニューアルなどの改装を行いながら営業する、観光・出張利用に便利な宿泊施設。",
+    "address": "東京都千代田区神田佐久間町1-8-3",
+    "access": "JR秋葉原駅 徒歩2分",
+    "hours": "店頭・公式情報要確認",
+    "closed": "無休",
+    "website": "https://washington-hotels.jp/akihabara/",
+    "image": {
+      "src": "/images/spots/washington-hotel-akihabara.jpg",
+      "alt": "秋葉原ワシントンホテルの関連ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001164.000001368.html",
+      "width": 1681,
+      "height": 1260
+    },
+    "tags": [
+      "ホテル",
+      "宿泊"
     ]
   }
 ]
