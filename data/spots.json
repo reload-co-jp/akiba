@@ -3120,7 +3120,9 @@
     "osmId": "node/508409153",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田岩本町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 112,
@@ -3135,7 +3137,9 @@
     "osmId": "node/1048849850",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 113,
@@ -3150,7 +3154,9 @@
     "osmId": "node/1048849889",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 114,
@@ -3165,7 +3171,9 @@
     "osmId": "node/1048849902",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 115,
@@ -3195,7 +3203,9 @@
     "lng": 139.769031,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/1635279747"
+    "osmId": "node/1635279747",
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 117,
@@ -3210,7 +3220,9 @@
     "osmId": "node/1635279750",
     "cuisine": [
       "indian"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 118,
@@ -3225,7 +3237,9 @@
     "osmId": "node/1635279964",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 119,
@@ -3241,7 +3255,9 @@
     "hours": "Mo-Fr 11:00-23:30; Sa-Su,PH 11:00-23:00",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 120,
@@ -3256,7 +3272,9 @@
     "osmId": "node/1862474176",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 121,
@@ -3272,7 +3290,9 @@
     "website": "https://www.jefb.co.jp/uzushio/shop/",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 122,
@@ -3284,7 +3304,9 @@
     "lng": 139.772188,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/1914950021"
+    "osmId": "node/1914950021",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 123,
@@ -3299,7 +3321,9 @@
     "osmId": "node/1914950025",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 124,
@@ -3315,7 +3339,9 @@
     "hours": "Mo-Su 16:00-05:00",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 125,
@@ -3330,7 +3356,9 @@
     "osmId": "node/1914973971",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 126,
@@ -3347,7 +3375,9 @@
     "website": "https://maidreamin.com/shopinfo",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 127,
@@ -3362,7 +3392,9 @@
     "osmId": "node/1915000552",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 128,
@@ -3395,7 +3427,9 @@
     "hours": "Mo-Su 11:00-05:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 130,
@@ -3410,7 +3444,9 @@
     "osmId": "node/1915016877",
     "cuisine": [
       "teppanyaki"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 131,
@@ -3426,7 +3462,9 @@
     "hours": "24/7",
     "cuisine": [
       "soba"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 132,
@@ -3441,7 +3479,9 @@
     "osmId": "node/1915112162",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 133,
@@ -3456,7 +3496,9 @@
     "osmId": "node/1915112166",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 134,
@@ -3487,7 +3529,9 @@
     "osmId": "node/1915185148",
     "cuisine": [
       "chicken"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 136,
@@ -3503,7 +3547,9 @@
     "website": "http://usingroup.jp/darumanome/",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 137,
@@ -3518,7 +3564,9 @@
     "osmId": "node/1915234620",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 138,
@@ -3533,7 +3581,9 @@
     "osmId": "node/1915234625",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 139,
@@ -3548,7 +3598,9 @@
     "osmId": "node/1915346968",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 140,
@@ -3581,7 +3633,9 @@
     "osmId": "node/1916509737",
     "cuisine": [
       "donburi"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 142,
@@ -3597,7 +3651,9 @@
     "cuisine": [
       "sweets",
       "crepe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 143,
@@ -3613,7 +3669,9 @@
     "website": "http://littletgv.com/",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 144,
@@ -3629,7 +3687,9 @@
     "website": "https://ameblo.jp/machigaine/",
     "cuisine": [
       "hot_dog"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 145,
@@ -3644,7 +3704,9 @@
     "osmId": "node/1916530503",
     "cuisine": [
       "tonkatsu"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 146,
@@ -3659,7 +3721,9 @@
     "osmId": "node/1916530505",
     "cuisine": [
       "kebab"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 147,
@@ -3675,7 +3739,9 @@
     "website": "https://www.kara-ya.com/",
     "cuisine": [
       "toshomen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 148,
@@ -3690,7 +3756,9 @@
     "osmId": "node/1916535040",
     "cuisine": [
       "bento"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 149,
@@ -3705,7 +3773,9 @@
     "osmId": "node/1916535041",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 150,
@@ -3720,7 +3790,9 @@
     "osmId": "node/1916535042",
     "cuisine": [
       "soba"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 151,
@@ -3735,7 +3807,9 @@
     "osmId": "node/1916536728",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 152,
@@ -3787,7 +3861,9 @@
     "website": "https://www.subway.co.jp/",
     "cuisine": [
       "sandwich"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 155,
@@ -3838,7 +3914,9 @@
     "osmId": "node/2010539591",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田練塀町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 158,
@@ -3853,7 +3931,9 @@
     "osmId": "node/2010539595",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 159,
@@ -3869,7 +3949,9 @@
     "hours": "24/7",
     "cuisine": [
       "burger"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 160,
@@ -3885,7 +3967,9 @@
     "hours": "Mo-Su 00:00-01:00,05:00-24:00",
     "cuisine": [
       "burger"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 161,
@@ -3901,7 +3985,9 @@
     "hours": "Mo-Fr 07:00-22:00; Sa-Su 07:00-21:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 162,
@@ -3969,7 +4055,9 @@
     "osmId": "node/2059756439",
     "cuisine": [
       "regional"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 166,
@@ -3984,7 +4072,9 @@
     "osmId": "node/2192149227",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 167,
@@ -3999,7 +4089,9 @@
     "osmId": "node/2261286702",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 168,
@@ -4014,7 +4106,9 @@
     "osmId": "node/2262375008",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 169,
@@ -4029,7 +4123,9 @@
     "osmId": "node/2262375010",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 170,
@@ -4044,7 +4140,9 @@
     "osmId": "node/2263796306",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 171,
@@ -4059,7 +4157,9 @@
     "osmId": "node/2263796314",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 172,
@@ -4074,7 +4174,9 @@
     "osmId": "node/2266530197",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 173,
@@ -4090,7 +4192,9 @@
     "hours": "24/7",
     "cuisine": [
       "beef_bowl"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 174,
@@ -4121,7 +4225,9 @@
     "osmId": "node/2276456188",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 176,
@@ -4136,7 +4242,9 @@
     "osmId": "node/2276456238",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 177,
@@ -4151,7 +4259,9 @@
     "osmId": "node/2276456273",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 178,
@@ -4166,7 +4276,9 @@
     "osmId": "node/2276456274",
     "cuisine": [
       "sandwich"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 179,
@@ -4181,7 +4293,9 @@
     "osmId": "node/2276977430",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 180,
@@ -4196,7 +4310,9 @@
     "osmId": "node/2277871454",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 181,
@@ -4212,7 +4328,9 @@
     "hours": "Mo-Fr 13:30-23:00;Sa,Su,PH 10:30-23:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 182,
@@ -4227,7 +4345,9 @@
     "osmId": "node/2292245570",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 183,
@@ -4259,7 +4379,9 @@
     "cuisine": [
       "western",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 185,
@@ -4274,7 +4396,9 @@
     "osmId": "node/2292250493",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区岩本町三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 186,
@@ -4289,7 +4413,9 @@
     "osmId": "node/2349391581",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 187,
@@ -4339,7 +4465,9 @@
     "cuisine": [
       "noodle",
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 190,
@@ -4354,7 +4482,9 @@
     "osmId": "node/2509984547",
     "cuisine": [
       "french"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 191,
@@ -4370,7 +4500,9 @@
     "hours": "Mo-Su 11:00-23:30",
     "cuisine": [
       "spanish"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 192,
@@ -4386,7 +4518,9 @@
     "website": "https://konnichiha.net/fushikian/",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田相生町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 193,
@@ -4402,7 +4536,9 @@
     "website": "https://www.yanaka-coffeeten.com/",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田相生町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 194,
@@ -4417,7 +4553,9 @@
     "osmId": "node/2834279011",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 195,
@@ -4433,7 +4571,9 @@
     "hours": "Mo-Su 10:00-23:00",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 196,
@@ -4449,7 +4589,9 @@
     "website": "http://jam-akiba.com/",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 197,
@@ -4465,7 +4607,9 @@
     "hours": "Tu-Sa 11:00-20:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 198,
@@ -4481,7 +4625,9 @@
     "hours": "Mo-Sa 07:30-23:00; PH 08:00-22:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 199,
@@ -4496,7 +4642,9 @@
     "osmId": "node/3263236545",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 200,
@@ -4509,7 +4657,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/3263272304",
-    "website": "https://www.toeimusen.co.jp/"
+    "website": "https://www.toeimusen.co.jp/",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 201,
@@ -4571,7 +4721,9 @@
     "osmId": "node/3364718752",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 205,
@@ -4586,7 +4738,9 @@
     "osmId": "node/3364718755",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 206,
@@ -4601,7 +4755,9 @@
     "osmId": "node/3364718764",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 207,
@@ -4616,7 +4772,9 @@
     "osmId": "node/3364718765",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 208,
@@ -4633,7 +4791,9 @@
       "noodle",
       "soba",
       "udon"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 209,
@@ -4648,7 +4808,9 @@
     "osmId": "node/3364718767",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 210,
@@ -4663,7 +4825,9 @@
     "osmId": "node/3364718768",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 211,
@@ -4678,7 +4842,9 @@
     "osmId": "node/3364718769",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 212,
@@ -4693,7 +4859,9 @@
     "osmId": "node/3364718770",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 213,
@@ -4708,7 +4876,9 @@
     "osmId": "node/3364729740",
     "cuisine": [
       "fried_food"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 214,
@@ -4723,7 +4893,9 @@
     "osmId": "node/3364729757",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 215,
@@ -4738,7 +4910,9 @@
     "osmId": "node/3364729758",
     "cuisine": [
       "beef_bowl"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 216,
@@ -4750,7 +4924,9 @@
     "lng": 139.774667,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/3364744687"
+    "osmId": "node/3364744687",
+    "address": "東京都千代田区神田練塀町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 217,
@@ -4765,7 +4941,9 @@
     "osmId": "node/3364760091",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 218,
@@ -4781,7 +4959,9 @@
     "hours": "11:30-14:30,17:00-23:00",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 219,
@@ -4796,7 +4976,9 @@
     "osmId": "node/3607126011",
     "cuisine": [
       "steak"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 220,
@@ -4813,7 +4995,9 @@
     "website": "https://www.doutor.co.jp/dcs/",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田岩本町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 221,
@@ -4847,7 +5031,9 @@
     "website": "https://chatnoir-company.com/chatnoir/html/brand/brand_veloce.html",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 223,
@@ -4880,7 +5066,9 @@
     "osmId": "node/3889725856",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 225,
@@ -4895,7 +5083,9 @@
     "osmId": "node/3889728057",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 226,
@@ -4926,7 +5116,9 @@
     "osmId": "node/3889728062",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 228,
@@ -4941,7 +5133,9 @@
     "osmId": "node/3939035866",
     "cuisine": [
       "bar_and_grill"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 229,
@@ -4956,7 +5150,9 @@
     "osmId": "node/4018914744",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 230,
@@ -4973,7 +5169,9 @@
     "website": "https://www.burgerkingjapan.co.jp",
     "cuisine": [
       "burger"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 231,
@@ -5006,7 +5204,9 @@
     "osmId": "node/4069456104",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 233,
@@ -5021,7 +5221,9 @@
     "osmId": "node/4069459646",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 234,
@@ -5036,7 +5238,9 @@
     "osmId": "node/4069462002",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 235,
@@ -5051,7 +5255,9 @@
     "osmId": "node/4069497698",
     "cuisine": [
       "indian"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 236,
@@ -5066,7 +5272,9 @@
     "osmId": "node/4069513072",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 237,
@@ -5082,7 +5290,9 @@
     "cuisine": [
       "ramen",
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 238,
@@ -5097,7 +5307,9 @@
     "osmId": "node/4071204452",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 239,
@@ -5112,7 +5324,9 @@
     "osmId": "node/4322916839",
     "cuisine": [
       "beef_bowl"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 240,
@@ -5143,7 +5357,9 @@
     "osmId": "node/4451079698",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 242,
@@ -5155,7 +5371,9 @@
     "lng": 139.770652,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/4487838689"
+    "osmId": "node/4487838689",
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 243,
@@ -5170,7 +5388,9 @@
     "osmId": "node/4524764559",
     "cuisine": [
       "kebab"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 244,
@@ -5185,7 +5405,9 @@
     "osmId": "node/4524764575",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区神田平河町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 245,
@@ -5203,7 +5425,9 @@
     "cuisine": [
       "asian",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田相生町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 246,
@@ -5215,7 +5439,9 @@
     "lng": 139.769287,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/4643581846"
+    "osmId": "node/4643581846",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 247,
@@ -5230,7 +5456,9 @@
     "osmId": "node/4748454621",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 248,
@@ -5246,7 +5474,9 @@
     "cuisine": [
       "curry",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 249,
@@ -5258,7 +5488,9 @@
     "lng": 139.774313,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/4809155721"
+    "osmId": "node/4809155721",
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 250,
@@ -5274,7 +5506,9 @@
     "hours": "Mo, We-Fr 12:00-18:00; Sa-Su 12:00-19:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田練塀町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 251,
@@ -5322,7 +5556,9 @@
     "osmId": "node/4903113481",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 254,
@@ -5337,7 +5573,9 @@
     "osmId": "node/4903113482",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 255,
@@ -5352,7 +5590,9 @@
     "osmId": "node/4903113484",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 256,
@@ -5367,7 +5607,9 @@
     "osmId": "node/4903899872",
     "cuisine": [
       "teppanyaki"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 257,
@@ -5415,7 +5657,9 @@
     "osmId": "node/4937999261",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 260,
@@ -5431,7 +5675,9 @@
     "website": "http://www.crown-tiara.jp",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 261,
@@ -5446,7 +5692,9 @@
     "osmId": "node/4937999265",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 262,
@@ -5477,7 +5725,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/4960892182",
-    "hours": "Mo-Su 11:00-21:00"
+    "hours": "Mo-Su 11:00-21:00",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 264,
@@ -5489,7 +5739,9 @@
     "lng": 139.772295,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/4963011099"
+    "osmId": "node/4963011099",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 265,
@@ -5504,7 +5756,9 @@
     "osmId": "node/4963027551",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 266,
@@ -5521,7 +5775,9 @@
       "japanese",
       "italian",
       "french"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 267,
@@ -5536,7 +5792,9 @@
     "osmId": "node/4963027559",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 268,
@@ -5551,7 +5809,9 @@
     "osmId": "node/4972947154",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 269,
@@ -5566,7 +5826,9 @@
     "osmId": "node/4986032737",
     "cuisine": [
       "chicken"
-    ]
+    ],
+    "address": "東京都千代田区神田平河町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 270,
@@ -5581,7 +5843,9 @@
     "osmId": "node/4986032740",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 271,
@@ -5597,7 +5861,9 @@
     "cuisine": [
       "curry",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田平河町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 272,
@@ -5612,7 +5878,9 @@
     "osmId": "node/4986032742",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 273,
@@ -5627,7 +5895,9 @@
     "osmId": "node/4987968720",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都台東区秋葉原",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 274,
@@ -5643,7 +5913,9 @@
     "website": "http://moff-rell.com/",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 275,
@@ -5658,7 +5930,9 @@
     "osmId": "node/5006971688",
     "cuisine": [
       "regional"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 276,
@@ -5673,7 +5947,9 @@
     "osmId": "node/5006971690",
     "cuisine": [
       "bubble_tea"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 277,
@@ -5689,7 +5965,9 @@
     "cuisine": [
       "noodle",
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 278,
@@ -5705,7 +5983,9 @@
     "cuisine": [
       "indian",
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 279,
@@ -5720,7 +6000,9 @@
     "osmId": "node/5019141733",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 280,
@@ -5735,7 +6017,9 @@
     "osmId": "node/5019141740",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 281,
@@ -5750,7 +6034,9 @@
     "osmId": "node/5019147295",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 282,
@@ -5765,7 +6051,9 @@
     "osmId": "node/5019147297",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 283,
@@ -5780,7 +6068,9 @@
     "osmId": "node/5019147298",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 284,
@@ -5795,7 +6085,9 @@
     "osmId": "node/5019797152",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 285,
@@ -5810,7 +6102,9 @@
     "osmId": "node/5019797157",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 286,
@@ -5825,7 +6119,9 @@
     "osmId": "node/5026488354",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 287,
@@ -5840,7 +6136,9 @@
     "osmId": "node/5026492026",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 288,
@@ -5855,7 +6153,9 @@
     "osmId": "node/5026492027",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 289,
@@ -5870,7 +6170,9 @@
     "osmId": "node/5026546643",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 290,
@@ -5885,7 +6187,9 @@
     "osmId": "node/5026546645",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 291,
@@ -5900,7 +6204,9 @@
     "osmId": "node/5026546646",
     "cuisine": [
       "french"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 292,
@@ -5915,7 +6221,9 @@
     "osmId": "node/5026546647",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 293,
@@ -5930,7 +6238,9 @@
     "osmId": "node/5026546649",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 294,
@@ -5945,7 +6255,9 @@
     "osmId": "node/5026546656",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 295,
@@ -5960,7 +6272,9 @@
     "osmId": "node/5031532369",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 296,
@@ -5976,7 +6290,9 @@
     "hours": "Mo-Su 10:00-21:00",
     "cuisine": [
       "burger"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 297,
@@ -5992,7 +6308,9 @@
     "hours": "Mo-Su 10:00-22:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 298,
@@ -6008,7 +6326,9 @@
     "cuisine": [
       "seafood",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 299,
@@ -6023,7 +6343,9 @@
     "osmId": "node/5051208712",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 300,
@@ -6038,7 +6360,9 @@
     "osmId": "node/5051279062",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 301,
@@ -6054,7 +6378,9 @@
     "hours": "Mo-Su 17:00-24:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 302,
@@ -6069,7 +6395,9 @@
     "osmId": "node/5057770997",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 303,
@@ -6084,7 +6412,9 @@
     "osmId": "node/5057770998",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 304,
@@ -6099,7 +6429,9 @@
     "osmId": "node/5057771000",
     "cuisine": [
       "sweets"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 305,
@@ -6114,7 +6446,9 @@
     "osmId": "node/5057771001",
     "cuisine": [
       "thai"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 306,
@@ -6130,7 +6464,9 @@
     "cuisine": [
       "japanese",
       "udon"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 307,
@@ -6145,7 +6481,9 @@
     "osmId": "node/5061599640",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 308,
@@ -6160,7 +6498,9 @@
     "osmId": "node/5061599643",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 309,
@@ -6175,7 +6515,9 @@
     "osmId": "node/5061599644",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 310,
@@ -6190,7 +6532,9 @@
     "osmId": "node/5061599652",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 311,
@@ -6205,7 +6549,9 @@
     "osmId": "node/5061599659",
     "cuisine": [
       "soba"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 312,
@@ -6220,7 +6566,9 @@
     "osmId": "node/5061648218",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田練塀町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 313,
@@ -6236,7 +6584,9 @@
     "website": "http://primo-prima.com/",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 314,
@@ -6251,7 +6601,9 @@
     "osmId": "node/5062122561",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 315,
@@ -6266,7 +6618,9 @@
     "osmId": "node/5062122563",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 316,
@@ -6281,7 +6635,9 @@
     "osmId": "node/5068098449",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 317,
@@ -6296,7 +6652,9 @@
     "osmId": "node/5068098452",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 318,
@@ -6311,7 +6669,9 @@
     "osmId": "node/5069107594",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 319,
@@ -6326,7 +6686,9 @@
     "osmId": "node/5071693013",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 320,
@@ -6341,7 +6703,9 @@
     "osmId": "node/5071693016",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 321,
@@ -6356,7 +6720,9 @@
     "osmId": "node/5071694063",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 322,
@@ -6371,7 +6737,9 @@
     "osmId": "node/5180290825",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 323,
@@ -6386,7 +6754,9 @@
     "osmId": "node/5181116184",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 324,
@@ -6401,7 +6771,9 @@
     "osmId": "node/5181116186",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 325,
@@ -6416,7 +6788,9 @@
     "osmId": "node/5181116188",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 326,
@@ -6431,7 +6805,9 @@
     "osmId": "node/5181116190",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 327,
@@ -6446,7 +6822,9 @@
     "osmId": "node/5181116192",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 328,
@@ -6461,7 +6839,9 @@
     "osmId": "node/5181116193",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 329,
@@ -6476,7 +6856,9 @@
     "osmId": "node/5181116195",
     "cuisine": [
       "unagi"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 330,
@@ -6507,7 +6889,9 @@
     "osmId": "node/5210427665",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 332,
@@ -6522,7 +6906,9 @@
     "osmId": "node/5210427675",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 333,
@@ -6537,7 +6923,9 @@
     "osmId": "node/5226192345",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 334,
@@ -6552,7 +6940,9 @@
     "osmId": "node/5230307078",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 335,
@@ -6567,7 +6957,9 @@
     "osmId": "node/5230312401",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 336,
@@ -6582,7 +6974,9 @@
     "osmId": "node/5230312402",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 337,
@@ -6597,7 +6991,9 @@
     "osmId": "node/5255112207",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 338,
@@ -6612,7 +7008,9 @@
     "osmId": "node/5295097939",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田平河町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 339,
@@ -6627,7 +7025,9 @@
     "osmId": "node/5295097943",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 340,
@@ -6642,7 +7042,9 @@
     "osmId": "node/5300723849",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 341,
@@ -6654,7 +7056,9 @@
     "lng": 139.77292,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/5307660946"
+    "osmId": "node/5307660946",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 342,
@@ -6670,7 +7074,9 @@
     "hours": "Mo off; Tu-Fr 14:00-21:00; Sa-Su,PH 13:00-21:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 343,
@@ -6682,7 +7088,9 @@
     "lng": 139.769919,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/5317636173"
+    "osmId": "node/5317636173",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 344,
@@ -6694,7 +7102,9 @@
     "lng": 139.770582,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/5317636174"
+    "osmId": "node/5317636174",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 345,
@@ -6725,7 +7135,9 @@
     "osmId": "node/5321098076",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 347,
@@ -6740,7 +7152,9 @@
     "osmId": "node/5321098077",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 348,
@@ -6755,7 +7169,9 @@
     "osmId": "node/5334276817",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 349,
@@ -6770,7 +7186,9 @@
     "osmId": "node/5355683412",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 350,
@@ -6786,7 +7204,9 @@
     "cuisine": [
       "chinese",
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 351,
@@ -6801,7 +7221,9 @@
     "osmId": "node/5463700154",
     "cuisine": [
       "kebab"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 352,
@@ -6816,7 +7238,9 @@
     "osmId": "node/5479236748",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 353,
@@ -6832,7 +7256,9 @@
     "hours": "12:00-23:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 354,
@@ -6848,7 +7274,9 @@
     "hours": "12:00-23:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 355,
@@ -6863,7 +7291,9 @@
     "osmId": "node/5482740055",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 356,
@@ -6878,7 +7308,9 @@
     "osmId": "node/5482740056",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 357,
@@ -6894,7 +7326,9 @@
     "hours": "Mo-Su 12:00-22:00",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 358,
@@ -6909,7 +7343,9 @@
     "osmId": "node/5482740059",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 359,
@@ -6924,7 +7360,9 @@
     "osmId": "node/5482740060",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 360,
@@ -6939,7 +7377,9 @@
     "osmId": "node/5544427523",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 361,
@@ -6956,7 +7396,9 @@
     "cuisine": [
       "burger",
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 362,
@@ -6973,7 +7415,9 @@
     "website": "https://gurunavi.com/en/get2536/rst/?__ngt__=TT0e3c5a55c006ac1e4a5ab1QLL--g5iK9ilt-_1jZnvh8",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 363,
@@ -7005,7 +7449,9 @@
     "osmId": "node/5700964037",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都台東区台東一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 365,
@@ -7031,7 +7477,9 @@
     "lng": 139.775919,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/5701181899"
+    "osmId": "node/5701181899",
+    "address": "東京都台東区台東一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 367,
@@ -7046,7 +7494,9 @@
     "osmId": "node/5702452120",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 368,
@@ -7061,7 +7511,9 @@
     "osmId": "node/5770564982",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都台東区秋葉原",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 369,
@@ -7077,7 +7529,9 @@
     "cuisine": [
       "noodle",
       "soba"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 370,
@@ -7092,7 +7546,9 @@
     "osmId": "node/5877588652",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 371,
@@ -7107,7 +7563,9 @@
     "osmId": "node/5951310540",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 372,
@@ -7119,7 +7577,9 @@
     "lng": 139.775279,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/6056089196"
+    "osmId": "node/6056089196",
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 373,
@@ -7134,7 +7594,9 @@
     "osmId": "node/6056089227",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 374,
@@ -7151,7 +7613,9 @@
     "cuisine": [
       "curry",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 375,
@@ -7163,7 +7627,9 @@
     "lng": 139.772583,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/6068196605"
+    "osmId": "node/6068196605",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 376,
@@ -7178,7 +7644,9 @@
     "osmId": "node/6086147632",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 377,
@@ -7191,7 +7659,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6114555923",
-    "hours": "Mo-Sa 11:00-14:00,17:00-23:30; Su,PH off"
+    "hours": "Mo-Sa 11:00-14:00,17:00-23:30; Su,PH off",
+    "address": "東京都千代田区神田練塀町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 378,
@@ -7208,7 +7678,9 @@
     "cuisine": [
       "western",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 379,
@@ -7223,7 +7695,9 @@
     "osmId": "node/6235520164",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 380,
@@ -7238,7 +7712,9 @@
     "osmId": "node/6235535018",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 381,
@@ -7250,7 +7726,9 @@
     "lng": 139.772033,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/6235888560"
+    "osmId": "node/6235888560",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 382,
@@ -7265,7 +7743,9 @@
     "osmId": "node/6235888562",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 383,
@@ -7280,7 +7760,9 @@
     "osmId": "node/6241716985",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 384,
@@ -7296,7 +7778,9 @@
     "cuisine": [
       "japanese",
       "shabu_shabu"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 385,
@@ -7312,7 +7796,9 @@
     "hours": "Mo-Fr 16:00-23:30;Sa,Su,PH 15:00-23:30",
     "cuisine": [
       "regional"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 386,
@@ -7327,7 +7813,9 @@
     "osmId": "node/6243154793",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 387,
@@ -7343,7 +7831,9 @@
     "hours": "Mo-Fr 11:00-15:00,17:00-23:00;Sa,Su,PH 11:30-23:00",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 388,
@@ -7359,7 +7849,9 @@
     "hours": "11:30-15:30,17:30-23:30",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 389,
@@ -7391,7 +7883,9 @@
     "osmId": "node/6275748665",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 391,
@@ -7406,7 +7900,9 @@
     "osmId": "node/6275748669",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 392,
@@ -7421,7 +7917,9 @@
     "osmId": "node/6275748670",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 393,
@@ -7438,7 +7936,9 @@
     "website": "https://akibazettai.com",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 394,
@@ -7453,7 +7953,9 @@
     "osmId": "node/6331247200",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 395,
@@ -7468,7 +7970,9 @@
     "osmId": "node/6331247201",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 396,
@@ -7483,7 +7987,9 @@
     "osmId": "node/6331247202",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 397,
@@ -7498,7 +8004,9 @@
     "osmId": "node/6331247203",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 398,
@@ -7513,7 +8021,9 @@
     "osmId": "node/6331247204",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 399,
@@ -7528,7 +8038,9 @@
     "osmId": "node/6418727516",
     "cuisine": [
       "crepe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 400,
@@ -7543,7 +8055,9 @@
     "osmId": "node/6418727517",
     "cuisine": [
       "crepe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 401,
@@ -7558,7 +8072,9 @@
     "osmId": "node/6418727518",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 402,
@@ -7575,7 +8091,9 @@
     "website": "https://akibazettai.com",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 403,
@@ -7592,7 +8110,9 @@
     "website": "https://akibazettai.com",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 404,
@@ -7607,7 +8127,9 @@
     "osmId": "node/6659453252",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 405,
@@ -7622,7 +8144,9 @@
     "osmId": "node/6756008503",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 406,
@@ -7637,7 +8161,9 @@
     "osmId": "node/7202136541",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 407,
@@ -7652,7 +8178,9 @@
     "osmId": "node/7378437081",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 408,
@@ -7668,7 +8196,9 @@
     "hours": "11:00-19:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 409,
@@ -7683,7 +8213,9 @@
     "osmId": "node/7836344158",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 410,
@@ -7698,7 +8230,9 @@
     "osmId": "node/7836344159",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 411,
@@ -7710,7 +8244,9 @@
     "lng": 139.775864,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/7836344160"
+    "osmId": "node/7836344160",
+    "address": "東京都千代田区神田平河町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 412,
@@ -7725,7 +8261,9 @@
     "osmId": "node/8261044516",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 413,
@@ -7740,7 +8278,9 @@
     "osmId": "node/8762203404",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 414,
@@ -7785,7 +8325,9 @@
     "osmId": "node/8998971575",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 417,
@@ -7800,7 +8342,9 @@
     "osmId": "node/8998971576",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 418,
@@ -7815,7 +8359,9 @@
     "osmId": "node/8998971579",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 419,
@@ -7830,7 +8376,9 @@
     "osmId": "node/9019515674",
     "cuisine": [
       "indian"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 420,
@@ -7845,7 +8393,9 @@
     "osmId": "node/9019515678",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 421,
@@ -7861,7 +8411,9 @@
     "hours": "13:00-23:00",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 422,
@@ -7877,7 +8429,9 @@
     "hours": "13:00-23:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 423,
@@ -7892,7 +8446,9 @@
     "osmId": "node/9043566648",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 424,
@@ -7907,7 +8463,9 @@
     "osmId": "node/9043566649",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 425,
@@ -7922,7 +8480,9 @@
     "osmId": "node/9043566651",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 426,
@@ -7937,7 +8497,9 @@
     "osmId": "node/9103650020",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 427,
@@ -7969,7 +8531,9 @@
     "osmId": "node/9103711352",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 429,
@@ -7985,7 +8549,9 @@
     "cuisine": [
       "tofu",
       "korean"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 430,
@@ -8000,7 +8566,9 @@
     "osmId": "node/9103723727",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 431,
@@ -8015,7 +8583,9 @@
     "osmId": "node/9103723728",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 432,
@@ -8030,7 +8600,9 @@
     "osmId": "node/9103735017",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 433,
@@ -8045,7 +8617,9 @@
     "osmId": "node/9103735018",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 434,
@@ -8060,7 +8634,9 @@
     "osmId": "node/9103735019",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 435,
@@ -8072,7 +8648,9 @@
     "lng": 139.772104,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/9103735021"
+    "osmId": "node/9103735021",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 436,
@@ -8087,7 +8665,9 @@
     "osmId": "node/9103735022",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 437,
@@ -8102,7 +8682,9 @@
     "osmId": "node/9103735463",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 438,
@@ -8117,7 +8699,9 @@
     "osmId": "node/9103735464",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 439,
@@ -8132,7 +8716,9 @@
     "osmId": "node/9103735465",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 440,
@@ -8147,7 +8733,9 @@
     "osmId": "node/9103735466",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 441,
@@ -8162,7 +8750,9 @@
     "osmId": "node/9103735468",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 442,
@@ -8177,7 +8767,9 @@
     "osmId": "node/9103735469",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 443,
@@ -8192,7 +8784,9 @@
     "osmId": "node/9103752885",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 444,
@@ -8207,7 +8801,9 @@
     "osmId": "node/9103752886",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 445,
@@ -8222,7 +8818,9 @@
     "osmId": "node/9103752887",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 446,
@@ -8237,7 +8835,9 @@
     "osmId": "node/9103752888",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 447,
@@ -8249,7 +8849,9 @@
     "lng": 139.7742,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/9103752890"
+    "osmId": "node/9103752890",
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 448,
@@ -8264,7 +8866,9 @@
     "osmId": "node/9103752892",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 449,
@@ -8279,7 +8883,9 @@
     "osmId": "node/9107667176",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 450,
@@ -8294,7 +8900,9 @@
     "osmId": "node/9107698618",
     "cuisine": [
       "seafood"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 451,
@@ -8309,7 +8917,9 @@
     "osmId": "node/9198719026",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 452,
@@ -8324,7 +8934,9 @@
     "osmId": "node/9198719031",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 453,
@@ -8339,7 +8951,9 @@
     "osmId": "node/9202057205",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 454,
@@ -8354,7 +8968,9 @@
     "osmId": "node/9246255498",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 455,
@@ -8370,7 +8986,9 @@
     "cuisine": [
       "chinese",
       "gyoza"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 456,
@@ -8385,7 +9003,9 @@
     "osmId": "node/9418883314",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 457,
@@ -8400,7 +9020,9 @@
     "osmId": "node/9419026850",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 458,
@@ -8412,7 +9034,9 @@
     "lng": 139.769687,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/9459285068"
+    "osmId": "node/9459285068",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 459,
@@ -8443,7 +9067,9 @@
     "osmId": "node/9556174927",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 461,
@@ -8458,7 +9084,9 @@
     "osmId": "node/9556174928",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 462,
@@ -8473,7 +9101,9 @@
     "osmId": "node/9556174930",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 463,
@@ -8488,7 +9118,9 @@
     "osmId": "node/9556174931",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 464,
@@ -8503,7 +9135,9 @@
     "osmId": "node/9556174936",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 465,
@@ -8518,7 +9152,9 @@
     "osmId": "node/9566449971",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 466,
@@ -8533,7 +9169,9 @@
     "osmId": "node/9566449972",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 467,
@@ -8548,7 +9186,9 @@
     "osmId": "node/9566449973",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 468,
@@ -8563,7 +9203,9 @@
     "osmId": "node/9566577749",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 469,
@@ -8576,7 +9218,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9654182669",
-    "hours": "Mo,Fr 14:00-22:00; We 17:00-22:00; Sa,Su 12:00-22:00"
+    "hours": "Mo,Fr 14:00-22:00; We 17:00-22:00; Sa,Su 12:00-22:00",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 470,
@@ -8592,7 +9236,9 @@
     "hours": "24/7",
     "cuisine": [
       "burger"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 471,
@@ -8608,7 +9254,9 @@
     "cuisine": [
       "kebab",
       "turkish"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 472,
@@ -8639,7 +9287,9 @@
     "hours": "Mo-Sa 07:00-22:00; Su 07:00-21:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 474,
@@ -8654,7 +9304,9 @@
     "osmId": "node/10138985317",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 475,
@@ -8669,7 +9321,9 @@
     "osmId": "node/10183608085",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 476,
@@ -8699,7 +9353,9 @@
     "osmId": "node/10243774134",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 478,
@@ -8714,7 +9370,9 @@
     "osmId": "node/10243774140",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区神田練塀町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 479,
@@ -8729,7 +9387,9 @@
     "osmId": "node/10284093171",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 480,
@@ -8741,7 +9401,9 @@
     "lng": 139.770591,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/10284192272"
+    "osmId": "node/10284192272",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 481,
@@ -8756,7 +9418,9 @@
     "osmId": "node/10284192273",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 482,
@@ -8786,7 +9450,9 @@
     "osmId": "node/10284195657",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 484,
@@ -8801,7 +9467,9 @@
     "osmId": "node/10284195658",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 485,
@@ -8816,7 +9484,9 @@
     "osmId": "node/10284195660",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 486,
@@ -8831,7 +9501,9 @@
     "osmId": "node/10284207371",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 487,
@@ -8846,7 +9518,9 @@
     "osmId": "node/10284207372",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 488,
@@ -8861,7 +9535,9 @@
     "osmId": "node/10464553504",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 489,
@@ -8876,7 +9552,9 @@
     "osmId": "node/10554040881",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 490,
@@ -8891,7 +9569,9 @@
     "osmId": "node/10682517092",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 491,
@@ -8907,7 +9587,9 @@
     "hours": "Mo-Su 11:00-11:00",
     "cuisine": [
       "buffet"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 492,
@@ -8922,7 +9604,9 @@
     "osmId": "node/10832019058",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 493,
@@ -8934,7 +9618,9 @@
     "lng": 139.773842,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/10968697005"
+    "osmId": "node/10968697005",
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 494,
@@ -8946,7 +9632,9 @@
     "lng": 139.77097,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/10991114503"
+    "osmId": "node/10991114503",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 495,
@@ -8961,7 +9649,9 @@
     "osmId": "node/11017003640",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 496,
@@ -8973,7 +9663,9 @@
     "lng": 139.771555,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11017003641"
+    "osmId": "node/11017003641",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 497,
@@ -8988,7 +9680,9 @@
     "osmId": "node/11017003642",
     "cuisine": [
       "teppanyaki"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 498,
@@ -9003,7 +9697,9 @@
     "osmId": "node/11017003643",
     "cuisine": [
       "korean"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 499,
@@ -9018,7 +9714,9 @@
     "osmId": "node/11017003644",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 500,
@@ -9053,7 +9751,9 @@
     "website": "https://www.akiba-maidcafe.co.jp/magical-lollipop/",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 502,
@@ -9069,7 +9769,9 @@
     "hours": "Mo-Fr 17:00-23:00; Sa-Su,PH 15:00-23:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 503,
@@ -9086,7 +9788,9 @@
     "website": "https://saas-1972.co.jp/due",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 504,
@@ -9101,7 +9805,9 @@
     "osmId": "node/11047734069",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 505,
@@ -9113,7 +9819,9 @@
     "lng": 139.771889,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11194950514"
+    "osmId": "node/11194950514",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 506,
@@ -9125,7 +9833,9 @@
     "lng": 139.772002,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11194950515"
+    "osmId": "node/11194950515",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 507,
@@ -9140,7 +9850,9 @@
     "osmId": "node/11194950518",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 508,
@@ -9152,7 +9864,9 @@
     "lng": 139.771836,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11194950519"
+    "osmId": "node/11194950519",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 509,
@@ -9167,7 +9881,9 @@
     "osmId": "node/11194950521",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 510,
@@ -9179,7 +9895,9 @@
     "lng": 139.772002,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11194950522"
+    "osmId": "node/11194950522",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 511,
@@ -9191,7 +9909,9 @@
     "lng": 139.7719,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11194950525"
+    "osmId": "node/11194950525",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 512,
@@ -9206,7 +9926,9 @@
     "osmId": "node/11194950527",
     "cuisine": [
       "kebab"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 513,
@@ -9221,7 +9943,9 @@
     "osmId": "node/11194950528",
     "cuisine": [
       "takoyaki"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 514,
@@ -9237,7 +9961,9 @@
     "cuisine": [
       "italian",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 515,
@@ -9252,7 +9978,9 @@
     "osmId": "node/11237554506",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 516,
@@ -9267,7 +9995,9 @@
     "osmId": "node/11251399270",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 517,
@@ -9279,7 +10009,9 @@
     "lng": 139.772827,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11276600257"
+    "osmId": "node/11276600257",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 518,
@@ -9294,7 +10026,9 @@
     "osmId": "node/11276600258",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 519,
@@ -9306,7 +10040,9 @@
     "lng": 139.772828,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11276600259"
+    "osmId": "node/11276600259",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 520,
@@ -9321,7 +10057,9 @@
     "osmId": "node/11276600261",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 521,
@@ -9333,7 +10071,9 @@
     "lng": 139.772733,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11276600262"
+    "osmId": "node/11276600262",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 522,
@@ -9345,7 +10085,9 @@
     "lng": 139.772629,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11276600263"
+    "osmId": "node/11276600263",
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 523,
@@ -9360,7 +10102,9 @@
     "osmId": "node/11276600264",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 524,
@@ -9375,7 +10119,9 @@
     "osmId": "node/11411659358",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 525,
@@ -9407,7 +10153,9 @@
     "osmId": "node/11563517011",
     "cuisine": [
       "soba"
-    ]
+    ],
+    "address": "東京都千代田区神田平河町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 527,
@@ -9422,7 +10170,9 @@
     "osmId": "node/11687421647",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 528,
@@ -9437,7 +10187,9 @@
     "osmId": "node/11687421648",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 529,
@@ -9452,7 +10204,9 @@
     "osmId": "node/11743269065",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 530,
@@ -9467,7 +10221,9 @@
     "osmId": "node/11743269066",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 531,
@@ -9482,7 +10238,9 @@
     "osmId": "node/11777070434",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 532,
@@ -9497,7 +10255,9 @@
     "osmId": "node/11779681418",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 533,
@@ -9512,7 +10272,9 @@
     "osmId": "node/11779681419",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 534,
@@ -9528,7 +10290,9 @@
     "hours": "10:30-23:00",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 535,
@@ -9540,7 +10304,9 @@
     "lng": 139.771046,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/11782064312"
+    "osmId": "node/11782064312",
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 536,
@@ -9556,7 +10322,9 @@
     "cuisine": [
       "indian",
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 537,
@@ -9571,7 +10339,9 @@
     "osmId": "node/11789247422",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 538,
@@ -9586,7 +10356,9 @@
     "osmId": "node/11789247424",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 539,
@@ -9601,7 +10373,9 @@
     "osmId": "node/11799182728",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 540,
@@ -9616,7 +10390,9 @@
     "osmId": "node/11799182729",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 541,
@@ -9631,7 +10407,9 @@
     "osmId": "node/11823676907",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 542,
@@ -9646,7 +10424,9 @@
     "osmId": "node/11823676908",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 543,
@@ -9661,7 +10441,9 @@
     "osmId": "node/11823676909",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 544,
@@ -9676,7 +10458,9 @@
     "osmId": "node/11843168373",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 545,
@@ -9693,7 +10477,9 @@
     "website": "https://fujiyama-akihabara.owst.jp",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 546,
@@ -9724,7 +10510,9 @@
     "osmId": "node/11908867518",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 548,
@@ -9739,7 +10527,9 @@
     "osmId": "node/11924884075",
     "cuisine": [
       "noodle"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 549,
@@ -9755,7 +10545,9 @@
     "cuisine": [
       "indian",
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 550,
@@ -9770,7 +10562,9 @@
     "osmId": "node/11936246093",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 551,
@@ -9785,7 +10579,9 @@
     "osmId": "node/11961957231",
     "cuisine": [
       "pizza"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 552,
@@ -9797,7 +10593,9 @@
     "lng": 139.774535,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/12050828869"
+    "osmId": "node/12050828869",
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 553,
@@ -9809,7 +10607,9 @@
     "lng": 139.771159,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/12090414615"
+    "osmId": "node/12090414615",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 554,
@@ -9824,7 +10624,9 @@
     "osmId": "node/12131327478",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 555,
@@ -9839,7 +10641,9 @@
     "osmId": "node/12131327479",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 556,
@@ -9854,7 +10658,9 @@
     "osmId": "node/12240860100",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 557,
@@ -9870,7 +10676,9 @@
     "hours": "Mo off; Tu-Fr 17:00-21:55; Sa-Su 15:00-21:55",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 558,
@@ -9885,7 +10693,9 @@
     "osmId": "node/12357285597",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 559,
@@ -9897,7 +10707,9 @@
     "lng": 139.770577,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/12410888899"
+    "osmId": "node/12410888899",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 560,
@@ -9913,7 +10725,9 @@
     "hours": "Mo-Fr 13:00-23:00; Sa-Su 10:00-23:00",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 561,
@@ -9928,7 +10742,9 @@
     "osmId": "node/12647537530",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 562,
@@ -9944,7 +10760,9 @@
     "website": "https://gogocurry.com/pages/shop-detail/akihabara",
     "cuisine": [
       "curry"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 563,
@@ -9959,7 +10777,9 @@
     "osmId": "node/12784643148",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 564,
@@ -9974,7 +10794,9 @@
     "osmId": "node/12784643149",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 565,
@@ -9989,7 +10811,9 @@
     "osmId": "node/12784643150",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 566,
@@ -10004,7 +10828,9 @@
     "osmId": "node/12784643151",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 567,
@@ -10038,7 +10864,9 @@
     "osmId": "node/12899496412",
     "cuisine": [
       "sushi"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 569,
@@ -10050,7 +10878,9 @@
     "lng": 139.775063,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/12908845946"
+    "osmId": "node/12908845946",
+    "address": "東京都千代田区神田松永町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 570,
@@ -10065,7 +10895,9 @@
     "osmId": "node/12908845950",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 571,
@@ -10080,7 +10912,9 @@
     "osmId": "node/12909242837",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 572,
@@ -10095,7 +10929,9 @@
     "osmId": "node/12961278448",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 573,
@@ -10110,7 +10946,9 @@
     "osmId": "node/13118706643",
     "cuisine": [
       "steak"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 574,
@@ -10125,7 +10963,9 @@
     "osmId": "node/13252000219",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 575,
@@ -10140,7 +10980,9 @@
     "osmId": "node/13332693196",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田四丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 576,
@@ -10156,7 +10998,9 @@
     "hours": "24/7",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 577,
@@ -10171,7 +11015,9 @@
     "osmId": "node/13390443982",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "address": "東京都千代田区外神田一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 578,
@@ -10183,7 +11029,9 @@
     "lng": 139.774841,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/13403735801"
+    "osmId": "node/13403735801",
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 579,
@@ -10199,7 +11047,9 @@
     "hours": "Mo-Su 11:00-15:00, 17:00-22:30",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 580,
@@ -10214,7 +11064,9 @@
     "osmId": "node/13536486158",
     "cuisine": [
       "soba"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 581,
@@ -10229,7 +11081,9 @@
     "osmId": "node/13536486162",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区神田和泉町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 582,
@@ -10244,7 +11098,9 @@
     "osmId": "node/13584987489",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 583,
@@ -10259,7 +11115,9 @@
     "osmId": "node/13584987490",
     "cuisine": [
       "seafood"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 584,
@@ -10274,7 +11132,9 @@
     "osmId": "node/13673605328",
     "cuisine": [
       "teppanyaki"
-    ]
+    ],
+    "address": "東京都千代田区神田花岡町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 585,
@@ -10289,7 +11149,9 @@
     "osmId": "node/13702838821",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 586,
@@ -10301,7 +11163,9 @@
     "lng": 139.775173,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/13730065901"
+    "osmId": "node/13730065901",
+    "address": "東京都千代田区神田岩本町",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 587,
@@ -10316,7 +11180,9 @@
     "osmId": "node/13759867509",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 588,
@@ -10331,7 +11197,9 @@
     "osmId": "node/13968476027",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 589,
@@ -10346,7 +11214,9 @@
     "osmId": "way/88982688",
     "cuisine": [
       "kebab"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 590,
@@ -10361,7 +11231,9 @@
     "osmId": "way/88999560",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 591,
@@ -10373,7 +11245,9 @@
     "lng": 139.769893,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "way/88999565"
+    "osmId": "way/88999565",
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 592,
@@ -10389,7 +11263,9 @@
     "cuisine": [
       "sukiyaki",
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区外神田三丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 593,
@@ -10405,7 +11281,9 @@
     "website": "http://www.yamano29.com/",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "address": "東京都千代田区神田佐久間町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 594,
@@ -10420,7 +11298,9 @@
     "osmId": "way/150624609",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "address": "東京都千代田区神田須田町一丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 595,
@@ -10436,7 +11316,9 @@
     "cuisine": [
       "japanese",
       "chanko"
-    ]
+    ],
+    "address": "東京都千代田区外神田二丁目",
+    "addressSource": "gsi-reverse"
   },
   {
     "id": 596,

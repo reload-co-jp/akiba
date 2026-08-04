@@ -21,7 +21,13 @@ export type SpotLocalizedContent = {
  */
 export type SpotTier = "A" | "B"
 
-export type SpotDataSource = "manual" | "osm" | "taito-opendata" | "akiba-or"
+export type SpotDataSource =
+  | "manual"
+  | "osm"
+  | "taito-opendata"
+  | "akiba-or"
+  /** Town-level address derived from coordinates — no block or building number. */
+  | "gsi-reverse"
 
 export type Spot = {
   id: number

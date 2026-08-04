@@ -67,7 +67,8 @@ export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
 export const OsmAttribution = () => (
   <p className="gourmet-attribution">
     駅からの距離はJR秋葉原駅電気街口からの直線距離で、実際の歩行距離とは
-    異なります。店舗の一部は{" "}
+    異なります。番地のない住所は位置情報から求めた町丁目までの表示です。
+    店舗の一部は{" "}
     <a
       href="https://www.openstreetmap.org/copyright"
       rel="noopener noreferrer"
