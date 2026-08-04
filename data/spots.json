@@ -5398,7 +5398,9 @@
     "osmId": "node/4934083638",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "address": "東京都台東区台東一丁目２９番４号第一共和ビル１階",
+    "addressSource": "taito-opendata"
   },
   {
     "id": 259,
@@ -6986,7 +6988,9 @@
     "osmId": "node/5700961530",
     "cuisine": [
       "indian"
-    ]
+    ],
+    "address": "東京都台東区台東一丁目９番４号片岡ビル１階",
+    "addressSource": "taito-opendata"
   },
   {
     "id": 364,
@@ -7013,7 +7017,9 @@
     "lng": 139.775895,
     "tier": "B",
     "dataSource": "osm",
-    "osmId": "node/5700964040"
+    "osmId": "node/5700964040",
+    "address": "東京都台東区台東一丁目９番４号松浦ビル１階",
+    "addressSource": "taito-opendata"
   },
   {
     "id": 366,
@@ -7762,7 +7768,9 @@
     "osmId": "node/8988010873",
     "cuisine": [
       "indian"
-    ]
+    ],
+    "address": "東京都台東区上野五丁目１番２号",
+    "addressSource": "taito-opendata"
   },
   {
     "id": 416,

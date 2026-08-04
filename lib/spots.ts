@@ -55,7 +55,14 @@ export type Spot = {
   tier?: SpotTier
   /** OSM element id (e.g. "node/1234567"), used to re-match on refresh. */
   osmId?: string
+  /** Where the record itself came from. Drives ODbL attribution for "osm". */
   dataSource?: SpotDataSource
+  /**
+   * Set only when the address was filled in from somewhere other than
+   * dataSource — kept separate so enriching an address never erases the
+   * record's origin, and with it the reason we owe an attribution.
+   */
+  addressSource?: SpotDataSource
   /** ISO date the details were last checked against a source. */
   lastVerified?: string
 }
