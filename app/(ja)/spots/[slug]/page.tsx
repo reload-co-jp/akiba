@@ -1,6 +1,12 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { getAllSpotSlugs, getSpotBySlug, getSpotImage, getSpotSeoKeywords } from "lib/spots"
+import {
+  getAllSpotSlugs,
+  getSpotBySlug,
+  getSpotImage,
+  getSpotSeoKeywords,
+  getSpotHeadline,
+} from "lib/spots"
 import { getArticlesBySpotName, formatDate } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
@@ -19,8 +25,7 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!spot) return {}
   const image = getSpotImage(spot)
   const keywords = getSpotSeoKeywords(spot)
-  const seoTitle = `${spot.name}｜秋葉原のイベント会場・アクセス・営業時間`
-  const description = `${spot.name}のアクセス、営業時間、住所、関連イベントを紹介。秋葉原で開催中・開催予定のイベント確認にも使えます。`
+  const { title: seoTitle, description } = getSpotHeadline(spot)
   return {
     title: seoTitle,
     description,
@@ -213,7 +218,7 @@ const Page = async ({ params }: Props) => {
             lineHeight: "1.4",
           }}
         >
-          {spot.name}｜秋葉原のイベント会場・アクセス
+          {getSpotHeadline(spot).heading}
         </h1>
 
         <figure className="article-hero-image">
@@ -355,7 +360,9 @@ const Page = async ({ params }: Props) => {
                 marginBottom: ".75rem",
               }}
             >
-              この会場のイベント
+              {spot.category === "グルメ・カフェ"
+                ? "この店舗の関連ニュース"
+                : "この会場のイベント"}
             </h2>
             <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: ".5rem" }}>
               {relatedArticles.map((article) => (

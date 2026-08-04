@@ -506,8 +506,8 @@
     "closed": "無休",
     "admission": "入場料あり（60分 ¥880〜 / ドリンク1杯込み）",
     "website": "https://made-maid.com/",
-    "lat": 35.6988,
-    "lng": 139.7718,
+    "lat": 35.69767,
+    "lng": 139.772292,
     "image": {
       "src": "/images/spots/maid-made-akihabara.jpg",
       "alt": "秋葉原のメイドカフェスタッフ",
@@ -532,6 +532,12 @@
     "cuisine": [
       "maid_cafe",
       "cafe"
+    ],
+    "osmId": "node/12784816613",
+    "aliases": [
+      "MAID MADE",
+      "メイドメイド",
+      "MAID√MADE"
     ]
   },
   {
@@ -3604,21 +3610,36 @@
   },
   {
     "id": 140,
-    "name": "九州じゃんがら",
-    "slug": "osm-node-1916483949",
+    "name": "九州じゃんがら 秋葉原本店",
+    "slug": "kyushu-jangara-akihabara",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "1984年創業の九州とんこつラーメン店。秋葉原本店は中央通り沿いにあり、細麺と豚骨スープを合わせた看板メニュー「じゃんがら」で知られる。明太子や高菜をのせた「ぼんしゃん」「こぼんしゃん」など、トッピング違いの定番メニューを揃える。",
     "lat": 35.700781,
     "lng": 139.770661,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/1916483949",
-    "address": "東京都千代田区外神田三丁目11-6",
-    "hours": "Mo-Fr 10:30-23:30; Sa-Su 09:30-23:30",
-    "website": "http://www.kyusyujangara.co.jp/shops/akihabara.html",
+    "address": "東京都千代田区外神田3-11-6",
+    "hours": "11:00〜22:00（L.O.21:45）",
+    "website": "https://kyushujangara.co.jp/",
     "cuisine": [
       "ramen"
-    ]
+    ],
+    "access": "東京メトロ末広町駅 3番出口 徒歩3分 / JR秋葉原駅 電気街口 徒歩6分",
+    "closed": "年中無休",
+    "tags": [
+      "ラーメン",
+      "とんこつ",
+      "老舗"
+    ],
+    "image": {
+      "src": "/images/spots/kyushu-jangara-akihabara.jpg",
+      "alt": "九州じゃんがらの看板メニュー",
+      "sourceLabel": "九州じゃんがら 公式サイト",
+      "sourceUrl": "https://kyushujangara.co.jp/",
+      "width": 750,
+      "height": 750
+    },
+    "lastVerified": "2026-08-04"
   },
   {
     "id": 141,
@@ -9327,18 +9348,37 @@
   },
   {
     "id": 476,
-    "name": "グランサイファーキッチン",
-    "slug": "osm-node-10232149780",
+    "name": "グランサイファーキッチン - Grandcypher KITCHEN",
+    "slug": "grandcypher-kitchen",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
+    "description": "『グランブルーファンタジー』の常設コラボレストラン。2021年6月にパセラリゾーツAKIBAのコラボタウン「パセラボ」内でグランドオープンした。作中の騎空艇「グランサイファー」を模した内装で、キャラクターをモチーフにしたフード・ドリンクを提供する。期間限定の企画やグランドメニューの入れ替えも行われる。",
     "lat": 35.697744,
     "lng": 139.770415,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10232149780",
-    "address": "東京都千代田区外神田一丁目1-10 パセラリゾーツAKIBAマルチエンターテインメント",
-    "hours": "Mo-Su 11:00-22:00",
-    "website": "https://www.pasela.co.jp/paselabo_shop/grandcypher-kitchen/"
+    "address": "東京都千代田区外神田1-1-10 パセラリゾーツAKIBAマルチエンターテインメント2階 コラボタウンパセラボ内",
+    "hours": "公式サイト要確認",
+    "website": "https://www.pasela.co.jp/paselabo_shop/grandcypher-kitchen/",
+    "access": "JR秋葉原駅 電気街口（北側） 徒歩3分",
+    "closed": "公式サイト要確認",
+    "admission": "事前予約制",
+    "cuisine": [
+      "collab_cafe"
+    ],
+    "tags": [
+      "コラボカフェ",
+      "グランブルーファンタジー",
+      "常設"
+    ],
+    "image": {
+      "src": "/images/spots/grandcypher-kitchen.webp",
+      "alt": "グランサイファーキッチンの公式ビジュアル",
+      "sourceLabel": "パセラリゾーツ 公式サイト",
+      "sourceUrl": "https://www.pasela.co.jp/paselabo_shop/grandcypher-kitchen/",
+      "width": 1200,
+      "height": 630
+    },
+    "lastVerified": "2026-08-04"
   },
   {
     "id": 477,
@@ -9425,17 +9465,34 @@
   {
     "id": 482,
     "name": "麺屋武蔵 巌虎",
-    "slug": "osm-node-10284192276",
+    "slug": "menya-musashi-iwatora",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
+    "description": "ラーメンチェーン「麺屋武蔵」の秋葉原店。店名の「巌虎（いわとら）」は各店に固有の屋号を与える同チェーンの流儀によるもの。カウンターのみの小規模店舗で、濃厚つけ麺と炙りベーコンを使ったメニューを看板とする。",
     "lat": 35.698148,
     "lng": 139.770377,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10284192276",
-    "address": "東京都千代田区外神田一丁目3-9",
-    "hours": "11:00-22:00",
-    "website": "https://menya634.co.jp/storelist/akihabara2/"
+    "address": "東京都千代田区外神田1-3-9",
+    "hours": "11:00〜22:00",
+    "website": "https://menya634.co.jp/storelist/akihabara2/",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "closed": "年中無休",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "つけ麺"
+    ],
+    "image": {
+      "src": "/images/spots/menya-musashi-iwatora.jpg",
+      "alt": "麺屋武蔵 巌虎の公式ビジュアル",
+      "sourceLabel": "麺屋武蔵 公式サイト",
+      "sourceUrl": "https://menya634.co.jp/storelist/akihabara2/",
+      "width": 1200,
+      "height": 500
+    },
+    "lastVerified": "2026-08-04"
   },
   {
     "id": 483,
@@ -10831,25 +10888,6 @@
     ],
     "address": "東京都千代田区外神田一丁目",
     "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 567,
-    "name": "【MAID MADE】メイドメイド",
-    "slug": "osm-node-12784816613",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの和食店",
-    "lat": 35.69767,
-    "lng": 139.772292,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/12784816613",
-    "address": "東京都千代田区外神田一丁目15-13 秋葉原B&Vビル",
-    "hours": "Mo-Su,PH 12:00-22:00",
-    "website": "https://made-maid.com/shop/3",
-    "cuisine": [
-      "maid_cafe",
-      "japanese"
-    ]
   },
   {
     "id": 568,

@@ -209,6 +209,26 @@ export const getCuisineLabel = (cuisine: string): string =>
   cuisineLabels[cuisine] ?? cuisine
 
 /**
+ * How a spot's own page describes itself. Spots started out as event venues,
+ * but the directory now includes restaurants and shops, and calling a ramen
+ * shop an イベント会場 is simply wrong.
+ */
+export const getSpotHeadline = (spot: Spot) => {
+  if (spot.category === "グルメ・カフェ") {
+    return {
+      heading: `${spot.name}｜秋葉原のグルメ・アクセス`,
+      title: `${spot.name}｜秋葉原のグルメ・アクセス・営業時間`,
+      description: `${spot.name}のアクセス、営業時間、住所を紹介。秋葉原で食事や休憩ができる店を探すときに。`,
+    }
+  }
+  return {
+    heading: `${spot.name}｜秋葉原のイベント会場・アクセス`,
+    title: `${spot.name}｜秋葉原のイベント会場・アクセス・営業時間`,
+    description: `${spot.name}のアクセス、営業時間、住所、関連イベントを紹介。秋葉原で開催中・開催予定のイベント確認にも使えます。`,
+  }
+}
+
+/**
  * A cuisine needs enough places behind it to be worth its own page — one or
  * two entries makes a page with nothing on it. Everything below the bar still
  * appears on the main gourmet index.
