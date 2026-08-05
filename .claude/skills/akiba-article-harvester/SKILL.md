@@ -21,12 +21,29 @@ Use this skill before `$event-article-writer` when the user asks to "秋葉原�
 ## Quick Start
 
 1. Read [references/source-list.md](references/source-list.md).
-2. Browse sources with `scripts/harvest.py` (see [Harvest Script](#harvest-script) below), not WebFetch — WebFetch in this environment gets redirected/throttled by the context-mode MCP plugin and burns several tool calls before failing. `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all` covers every primary/aggregator source in one pass. Still run X.com live search and news/discovery sources separately (the script doesn't cover those) for broad harvesting.
+2. Browse sources by delegating to the `web-scraper` agent (see [Scraping Delegation](#scraping-delegation)), which runs `scripts/harvest.py` (see [Harvest Script](#harvest-script) below), not WebFetch — WebFetch in this environment gets redirected/throttled by the context-mode MCP plugin and burns several tool calls before failing. `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all` covers every primary/aggregator source in one pass. Still run X.com live search and news/discovery sources separately (the script doesn't cover those) for broad harvesting.
 3. Build a candidate queue before writing. Aim for as many solid candidates as possible; do not cap the batch at 5-10 when more verified candidates are available. Stop only when sources are exhausted or verification is blocked.
 4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site. Include both event items and non-event local happenings / "秋葉原で起こった出来事".
 5. Deduplicate the whole queue with `python3 scripts/harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) before drafting new articles — do this BEFORE deep fact-checking, since most rejections happen here. Always include the source URL used for discovery/confirmation so the dedup check can compare against existing `sources[].url`.
-6. For each remaining candidate, confirm facts with `python3 scripts/harvest.py detail "<url>"`: date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
+6. For each remaining candidate, confirm facts by delegating the `harvest.py detail "<url>"` fetches to the `web-scraper` agent (batch all remaining URLs into one delegation): date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
 7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Include official/reference links in `sources` so the article detail page can render them. Set `authorId` to `1` on every new article, then run `pnpm run validate:articles` for a fast structural check and fix anything it reports, then verify once with `pnpm build`.
+
+## Scraping Delegation
+
+Fetching and extraction run on the cheap `web-scraper` agent (Haiku), not in the main context. Raw listing/detail output never enters the main conversation — only the structured candidate JSON the agent returns.
+
+Delegate these:
+
+- **Listing sweep** (step 2): one `Agent` call, `subagent_type: "web-scraper"`, asking for `harvest.py list all` plus any X.com / news sources, returning every candidate as `{source_url, title, date_text}`.
+- **Detail confirmation** (step 6): one `Agent` call with all remaining candidate URLs, returning the full default schema (date, venue, price, official URL, image URL, summary) per URL.
+
+Keep in the main context (these are editorial/state-changing, not scraping):
+
+- Dedup (`harvest.py dedup`) and the hold/reject decision.
+- `harvest.py exclude` logging.
+- All `data/articles.json` edits, image placement, `validate:articles`, `pnpm build`.
+
+Give the agent explicit URLs and the exact fields wanted. It does not judge scope, duplicates, or article-worthiness — that stays here.
 
 ### Avoiding the ls-noise hook
 

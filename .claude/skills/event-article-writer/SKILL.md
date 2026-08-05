@@ -11,11 +11,13 @@ Read [references/article-format.md](references/article-format.md) before editing
 
 ## Workflow
 
+Delegate the fetching steps (2 and 5) to the `web-scraper` agent — it runs on a cheap model and returns structured JSON, keeping raw page output out of this context. Everything else (dedup, editorial judgement, `data/articles.json` edits, verification) stays here.
+
 1. Identify every event source used for discovery and fact confirmation.
-2. Confirm the event facts from primary or clearly attributable sources.
+2. Confirm the event facts from primary or clearly attributable sources — delegate the page fetches to `web-scraper`, batching all source URLs into one call.
 3. Before drafting, check `data/articles.json` for duplicates using source URLs and event identity (see [Duplicate Handling](#duplicate-handling)).
 4. If a duplicate exists, merge the new source/facts into the existing article instead of creating another entry.
-5. Download a usable thumbnail image when available.
+5. Download a usable thumbnail image when available — `web-scraper` may fetch it to a path you specify.
 6. Add or update the article entry in `data/articles.json`, including the `en` translation field.
 7. Run `pnpm run validate:articles` for a fast structural check (see [Verification](#verification)); fix anything it reports.
 8. Verify the article route and metadata with `pnpm build` once the batch is done.
