@@ -5058,21 +5058,38 @@
   },
   {
     "id": 223,
-    "name": "ねこ・JaLaLa",
-    "slug": "osm-node-3889725819",
+    "name": "ねこ・JaLaLa（ジャララ）",
+    "slug": "neko-jalala",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
+    "description": "末広町駅近くにある秋葉原の老舗猫カフェ。メインクーン、マンチカン、ラグドールなど多彩な猫種が暮らし、人懐っこい猫が多いことで知られる。時間制のワンドリンク制で、猫と自由に触れ合いながら過ごせる。",
     "lat": 35.70187,
     "lng": 139.769511,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/3889725819",
-    "address": "東京都千代田区外神田三丁目5-5",
-    "hours": "Mo-Su 11:00-20:00",
+    "address": "東京都千代田区外神田3-5-5",
+    "hours": "12:00〜20:00（最終入店19:30）",
     "website": "https://www.nekojalala.com/",
     "cuisine": [
+      "cat_cafe",
       "cafe"
-    ]
+    ],
+    "access": "東京メトロ末広町駅 徒歩3分 / JR秋葉原駅 電気街口 徒歩8分",
+    "closed": "年中無休（臨時休業あり）",
+    "admission": "平日30分ごと750円 / 土日祝60分1700円（以降30分ごと850円）※別途ワンドリンク制",
+    "tags": [
+      "猫カフェ",
+      "老舗",
+      "体験"
+    ],
+    "image": {
+      "src": "/images/spots/neko-jalala.jpg",
+      "alt": "ねこ・JaLaLaの公式ビジュアル",
+      "sourceLabel": "ねこ・JaLaLa 公式サイト",
+      "sourceUrl": "https://www.nekojalala.com/",
+      "width": 1731,
+      "height": 909
+    },
+    "lastVerified": "2026-08-05"
   },
   {
     "id": 224,
@@ -9281,18 +9298,35 @@
   },
   {
     "id": 472,
-    "name": "鶏王けいすけ",
-    "slug": "osm-node-10137262917",
+    "name": "鶏王けいすけ 秋葉原店",
+    "slug": "toriou-keisuke-akihabara",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
+    "description": "骨付きの鶏もも肉を丸ごとのせた鶏白湯ラーメンで知られる店。ラーメンプロデューサー・竹田敬介氏が手がける「けいすけ」系列の一店で、卓上のもやしナムルが食べ放題という点でも知られる。",
     "lat": 35.698474,
     "lng": 139.770165,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10137262917",
-    "address": "東京都千代田区外神田一丁目3-4",
-    "hours": "11:00-21:00",
-    "website": "https://www.grandcuisine.jp/archives/shop/58"
+    "address": "東京都千代田区外神田1-3-4 第3ナガシマビル1F",
+    "hours": "月〜金 11:30〜21:30（L.O.21:00） / 土日祝 11:00〜21:30（L.O.21:00）",
+    "website": "https://www.grandcuisine.jp/archives/shop/58",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "closed": "無休",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "鶏白湯"
+    ],
+    "image": {
+      "src": "/images/spots/toriou-keisuke-akihabara.webp",
+      "alt": "鶏王けいすけの公式ビジュアル",
+      "sourceLabel": "グランドキュイジーヌ 公式サイト",
+      "sourceUrl": "https://www.grandcuisine.jp/archives/shop/58",
+      "width": 1200,
+      "height": 630
+    },
+    "lastVerified": "2026-08-05"
   },
   {
     "id": 473,
@@ -9778,20 +9812,36 @@
   {
     "id": 500,
     "name": "チャイナメイドカフェ 龍龍-ロンロン-",
-    "slug": "osm-node-11042181488",
+    "slug": "china-maid-cafe-ronron",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
+    "description": "チャイナドレスを取り入れたオリジナル衣装が特徴のメイドカフェ。秋葉原のメイドカフェのなかでも中華をテーマにした業態で、夕方からの営業を中心とする。",
     "lat": 35.698462,
     "lng": 139.770376,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11042181488",
-    "address": "東京都千代田区外神田一丁目3-5",
-    "hours": "17:00-23:00; Sa, Su, PH 15:00-23:00",
+    "address": "東京都千代田区外神田1-3-5 第二中村ビル2階",
+    "hours": "平日 17:00〜23:00 / 土日祝 15:00〜23:00",
     "website": "https://www.akiba-maidcafe.co.jp/ronron/",
     "cuisine": [
+      "maid_cafe",
       "cafe"
-    ]
+    ],
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "closed": "年中無休",
+    "tags": [
+      "メイドカフェ",
+      "コンカフェ",
+      "体験"
+    ],
+    "image": {
+      "src": "/images/spots/china-maid-cafe-ronron.jpg",
+      "alt": "チャイナメイドカフェ 龍龍-ロンロン-の公式ビジュアル",
+      "sourceLabel": "チャイナメイドカフェ 龍龍 公式サイト",
+      "sourceUrl": "https://www.akiba-maidcafe.co.jp/ronron/",
+      "width": 1076,
+      "height": 1522
+    },
+    "lastVerified": "2026-08-05"
   },
   {
     "id": 501,
@@ -11361,15 +11411,35 @@
   {
     "id": 596,
     "name": "RESTAURANT PLATINUM FISH マーチエキュート神田万世橋店",
-    "slug": "osm-way-743276344",
+    "slug": "platinum-fish-manseibashi",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
+    "description": "旧万世橋駅の煉瓦高架橋を活用した商業施設「マーチエキュート神田万世橋」2階のレストラン。魚料理とイタリアンを中心に、神田川沿いの眺めとあわせて食事ができる。",
     "lat": 35.697241,
     "lng": 139.770013,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "way/743276344",
-    "address": "東京都千代田区神田須田町一丁目25-4 マーチエキュート神田万世橋",
-    "website": "https://platinumfish.jp/shoplist/manseibashi/"
+    "address": "東京都千代田区神田須田町1-25-4 マーチエキュート神田万世橋 2F",
+    "website": "https://platinumfish.jp/shoplist/manseibashi/",
+    "access": "JR秋葉原駅 電気街口 徒歩4分 / 東京メトロ淡路町駅・小川町駅 徒歩4分",
+    "hours": "月〜土 11:00〜23:00（FOOD L.O.22:00 / DRINK L.O.22:30） / 日祝 11:00〜21:00（FOOD L.O.20:00 / DRINK L.O.20:30）",
+    "closed": "施設休館日に準じる",
+    "cuisine": [
+      "seafood",
+      "italian"
+    ],
+    "tags": [
+      "魚料理",
+      "イタリアン",
+      "マーチエキュート"
+    ],
+    "image": {
+      "src": "/images/spots/platinum-fish-manseibashi.jpg",
+      "alt": "RESTAURANT PLATINUM FISH マーチエキュート神田万世橋店の店内",
+      "sourceLabel": "プラチナフィッシュ 公式サイト",
+      "sourceUrl": "https://platinumfish.jp/shoplist/manseibashi/",
+      "width": 1200,
+      "height": 450
+    },
+    "lastVerified": "2026-08-05"
   }
 ]
