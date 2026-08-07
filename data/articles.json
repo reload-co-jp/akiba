@@ -271,9 +271,10 @@
       "VTuber"
     ],
     "tagIds": [
-      207,
-      50,
       29,
+      50,
+      80,
+      207,
       243
     ],
     "en": {
@@ -303,6 +304,14 @@
       {
         "label": "CRUX イベント情報X",
         "url": "https://x.com/crux_animeevent"
+      },
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130902.html"
+      },
+      {
+        "label": "WalkerPlus イベントページ",
+        "url": "https://www.walkerplus.com/event/ar0313e607546/"
       }
     ],
     "event": {
@@ -414,52 +423,6 @@
       "endDate": "2026-09-21",
       "price": "特典付き1,540円（税込） / 有償特典付き2,200円（税込）",
       "reservation": true
-    },
-    "authorId": 1
-  },
-  {
-    "id": 548,
-    "title": "『EVANGELION STORE SUMMER FES 2026 in AmiAmi』があみあみ秋葉原ラジオ会館店で開催",
-    "slug": "evangelion-store-summer-fes-2026-amiami-akihabara",
-    "summary": "『EVANGELION STORE SUMMER FES 2026 in AmiAmi』が、2026年7月18日から8月2日まであみあみ秋葉原ラジオ会館店で開催。限定商品や関連グッズ販売、税込3,300円購入ごとの特製チケット風クリアカード配布を展開する。",
-    "content": "## 概要\n\n『エヴァンゲリオン』の限定商品や関連グッズを集めた『EVANGELION STORE SUMMER FES 2026 in AmiAmi』が、あみあみ秋葉原ラジオ会館店で開催される。会期は2026年7月18日から8月2日まで。\n\n## 内容\n\n会場では、EVANGELION STORE関連の限定商品やグッズを販売する。対象商品を税込3,300円購入するごとに、特製チケット風クリアカード全5種からランダムで1枚が配布される。\n\n- あみあみ秋葉原ラジオ会館店で開催\n- 『エヴァンゲリオン』限定商品や関連グッズを販売\n- 税込3,300円購入ごとに特製チケット風クリアカードをランダム配布\n- 特典はなくなり次第終了\n\n## 開催情報\n\n- **会場**: あみあみ秋葉原ラジオ会館店\n- **期間**: 2026年7月18日（土）〜8月2日（日）\n- **内容**: 限定商品・関連グッズ販売、購入特典配布\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『エヴァンゲリオン』の限定グッズを秋葉原で探したい方\n- あみあみ秋葉原ラジオ会館店のポップアップを巡りたい方\n- 購入特典のチケット風クリアカードを集めたい方",
-    "publishedAt": "2026-07-13",
-    "tags": [
-      "秋葉原",
-      "イベント",
-      "ポップアップ"
-    ],
-    "tagIds": [
-      207,
-      50,
-      129,
-      33,
-      61,
-      74
-    ],
-    "en": {
-      "title": "EVANGELION STORE SUMMER FES 2026 in AmiAmi to Be Held at AmiAmi Akihabara Radio Kaikan",
-      "summary": "EVANGELION STORE SUMMER FES 2026 in AmiAmi will run at AmiAmi Akihabara Radio Kaikan from July 18 to August 2, 2026. The event features limited items, related goods, and special ticket-style clear cards for every ¥3,300 spent.",
-      "content": "## Overview\n\nEVANGELION STORE SUMMER FES 2026 in AmiAmi, featuring limited Evangelion items and related goods, will be held at AmiAmi Akihabara Radio Kaikan. The event runs from July 18 to August 2, 2026.\n\n## Highlights\n\nThe venue will sell limited EVANGELION STORE items and related merchandise. For every ¥3,300 spent on eligible Evangelion goods, customers receive one random special ticket-style clear card from five designs.\n\n- Held at AmiAmi Akihabara Radio Kaikan\n- Limited Evangelion items and related merchandise on sale\n- Random special ticket-style clear card for every ¥3,300 spent\n- Bonuses are available while supplies last\n\n## Event Details\n\n- **Venue**: AmiAmi Akihabara Radio Kaikan\n- **Dates**: July 18-August 2, 2026\n- **Contents**: Limited item and related goods sales, plus purchase bonuses\n- **Price**: Free admission; merchandise sold separately\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans looking for limited Evangelion goods in Akihabara\n- Visitors touring popups at AmiAmi Akihabara Radio Kaikan\n- Collectors interested in the ticket-style clear card bonuses"
-    },
-    "image": {
-      "src": "/images/articles/evangelion-store-summer-fes-2026-amiami-akihabara.jpg",
-      "alt": "『EVANGELION STORE SUMMER FES 2026 in AmiAmi』の告知ビジュアル",
-      "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000003647.000025615.html"
-    },
-    "sources": [
-      {
-        "label": "PR TIMES プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000003647.000025615.html"
-      }
-    ],
-    "event": {
-      "venue": "あみあみ秋葉原ラジオ会館店",
-      "startDate": "2026-07-18",
-      "endDate": "2026-08-02",
-      "price": "入場無料（商品購入は別途）",
-      "reservation": false
     },
     "authorId": 1
   },
@@ -1518,50 +1481,6 @@
       177,
       207,
       211
-    ]
-  },
-  {
-    "id": 522,
-    "title": "佐久間彩加の「第18回 秋葉原ティア ワンマンライブ&ファンミーティング」が開催",
-    "slug": "akihabara-tia-18th-oneman-fanmeeting-2026",
-    "summary": "カラオケバトルU-18元四天王の佐久間彩加による「第18回 秋葉原ティア ワンマンライブ&ファンミーティング」が、2026年8月2日に秋葉原ティアで開催される。",
-    "content": "## 概要\n\n「第18回 秋葉原ティア ワンマンライブ&ファンミーティング」は、カラオケバトルU-18元四天王の佐久間彩加によるライブとファンミーティング。2026年8月2日に外神田の秋葉原ティアで開催される。\n\n## 内容\n\nWalkerPlusのイベント情報では、ライブとファンミーティングを組み合わせた内容として紹介されている。アルコールを含む3.5時間飲み放題付きで、7月5日と8月2日の両方に申し込んだ人には手書きの手紙プレゼントも案内されている。\n\n- 開場13:00、開演13:30\n- 物販終了は16:45予定\n- 会場は秋葉原ティア\n- アルコールを含む3.5時間飲み放題付き\n- 7月5日と8月2日の両日申込者向け特典あり\n\n## 開催情報\n\n- **日時**: 2026年8月2日（日）13:00〜16:45\n- **会場**: 秋葉原ティア（東京都千代田区外神田4-4-3 小木曽ビル6階）\n- **料金**: 公式ページに記載なし\n- **予約**: 公式ページに記載なし\n\n## こんな人におすすめ\n\n- 佐久間彩加のライブを近距離で楽しみたい方\n- 秋葉原の小規模ライブイベントを探している方\n- ファンミーティング付きの音楽イベントに参加したい方",
-    "publishedAt": "2026-07-06",
-    "tags": [
-      "イベント",
-      "秋葉原",
-      "ライブ",
-      "秋葉原ティア"
-    ],
-    "en": {
-      "title": "Ayaka Sakuma's 18th Akihabara Tia One-Man Live and Fan Meeting to Be Held",
-      "summary": "The 18th Akihabara Tia One-Man Live and Fan Meeting by Ayaka Sakuma, a former Karaoke Battle U-18 top-four performer, will be held at Akihabara Tia on August 2, 2026.",
-      "content": "## Overview\n\nThe 18th Akihabara Tia One-Man Live and Fan Meeting is a live performance and fan meeting by Ayaka Sakuma, a former Karaoke Battle U-18 top-four performer. It will be held at Akihabara Tia in Sotokanda on August 2, 2026.\n\n## Highlights\n\nWalkerPlus describes the event as a combined live show and fan meeting. It includes 3.5 hours of all-you-can-drink service including alcohol, and a handwritten letter gift is listed for visitors who apply for both the July 5 and August 2 events.\n\n- Doors open at 13:00; show starts at 13:30\n- Merchandise sales are scheduled to end at 16:45\n- Venue: Akihabara Tia\n- Includes 3.5 hours of all-you-can-drink service with alcohol\n- Bonus listed for those applying for both the July 5 and August 2 events\n\n## Event Details\n\n- **Date/Time**: August 2, 2026, 13:00-16:45\n- **Venue**: Akihabara Tia, Ogiso Building 6F, 4-4-3 Sotokanda, Chiyoda-ku, Tokyo\n- **Price**: Not listed on the official page\n- **Reservation**: Not listed on the official page\n\n## Recommended For\n\n- Fans who want to see Ayaka Sakuma perform up close\n- Visitors looking for small live events in Akihabara\n- Those interested in music events with fan meetings"
-    },
-    "image": {
-      "src": "/images/articles/akihabara-tia-18th-oneman-fanmeeting-2026.jpg",
-      "alt": "第18回 秋葉原ティア ワンマンライブ&ファンミーティングの告知画像",
-      "sourceLabel": "WalkerPlus",
-      "sourceUrl": "https://www.walkerplus.com/event/ar0313e596436/"
-    },
-    "sources": [
-      {
-        "label": "WalkerPlus",
-        "url": "https://www.walkerplus.com/event/ar0313e596436/"
-      }
-    ],
-    "event": {
-      "venue": "秋葉原ティア",
-      "startDate": "2026-08-02",
-      "endDate": "2026-08-02",
-      "price": "公式ページに記載なし",
-      "reservation": false
-    },
-    "authorId": 1,
-    "tagIds": [
-      139,
-      207,
-      216
     ]
   },
   {
@@ -11527,6 +11446,10 @@
       {
         "label": "WalkerPlus 詳細データ",
         "url": "https://www.walkerplus.com/event/ar0313e596436/data.html"
+      },
+      {
+        "label": "WalkerPlus",
+        "url": "https://www.walkerplus.com/event/ar0313e596436/"
       }
     ],
     "event": {
@@ -21272,47 +21195,6 @@
     ]
   },
   {
-    "id": 477,
-    "title": "「AKIBAサブカルサミット＠神田明神2026」が8月15日に開催、謎解きクイズラリーも展開",
-    "slug": "akiba-subculture-summit-kandamyojin-2026",
-    "summary": "NPO法人秋葉原観光推進協会が、2026年8月15日に神田明神文化交流館 EDOCCO STUDIOで「AKIBAサブカルサミット＠神田明神2026」を開催。カードゲーム文化体験、秋葉原文化体験ツアー、8月15日〜24日の謎解きクイズラリーを実施する。",
-    "content": "## 概要\n\nNPO法人秋葉原観光推進協会（ATPA）が、2026年8月15日に神田明神文化交流館「EDOCCO STUDIO」で「AKIBAサブカルサミット＠神田明神2026」を開催する。カードゲーム文化を「競技」だけでなく「文化」として学び、体験し、街へ広げる参加型イベント。\n\n## 内容\n\n会場では文化講演会、カードゲーム文化体験会、秋葉原文化体験ツアーを実施する。さらに8月15日から24日まで、秋葉原の街を回る「AKIBA謎解きクイズラリー」も展開予定。\n\n- カードゲーム文化をテーマにした講演会\n- 初めてのTCG体験を含むカードゲーム文化体験会\n- 秋葉原文化体験ツアー\n- 8月15日〜24日のAKIBA謎解きクイズラリー\n\n## 開催情報\n\n- **会場**: 神田明神文化交流館 EDOCCO STUDIO\n- **開催日**: 2026年8月15日（土）\n- **関連企画**: AKIBA謎解きクイズラリー（2026年8月15日〜24日）\n- **料金**: 無料\n- **予約**: 事前申込制\n- **主催**: NPO法人秋葉原観光推進協会（ATPA）\n\n## こんな人におすすめ\n\n- 秋葉原のサブカルチャーやカードゲーム文化に関心がある方\n- 神田明神周辺の街歩きイベントに参加したい方\n- 無料で参加できる秋葉原の体験型イベントを探している方",
-    "publishedAt": "2026-07-02",
-    "authorId": 1,
-    "image": {
-      "src": "/images/articles/akiba-subculture-summit-kandamyojin-2026.jpg",
-      "alt": "AKIBAサブカルサミット＠神田明神2026 告知ビジュアル",
-      "sourceLabel": "PR TIMES",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000007.000150262.html",
-      "width": 1780,
-      "height": 1260
-    },
-    "event": {
-      "venue": "神田明神文化交流館 EDOCCO STUDIO",
-      "startDate": "2026-08-15",
-      "endDate": "2026-08-24",
-      "price": "無料",
-      "reservation": true,
-      "category": "event"
-    },
-    "sources": [
-      {
-        "label": "PR TIMES プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000000007.000150262.html"
-      }
-    ],
-    "en": {
-      "title": "AKIBA Subculture Summit at Kanda Myojin 2026 to Run on August 15 with Mystery Quiz Rally",
-      "summary": "The Akihabara Tourism Promotion Association will hold AKIBA Subculture Summit at Kanda Myojin 2026 on August 15, 2026 at EDOCCO STUDIO in the Kanda Myojin Cultural Exchange Hall. The event includes card game culture experiences, Akihabara culture tours, and a mystery quiz rally running August 15-24.",
-      "content": "## Overview\n\nThe Akihabara Tourism Promotion Association will hold AKIBA Subculture Summit at Kanda Myojin 2026 on August 15, 2026 at EDOCCO STUDIO in the Kanda Myojin Cultural Exchange Hall. The participatory event presents card game culture not only as competition, but also as culture to learn, experience, and share across the district.\n\n## Highlights\n\nThe venue will host cultural talks, card game culture experience sessions, and Akihabara culture tours. A district-wide AKIBA mystery quiz rally is also planned from August 15 to 24.\n\n- Talks themed around card game culture\n- Card game culture experiences, including beginner TCG sessions\n- Akihabara culture tours\n- AKIBA mystery quiz rally from August 15 to 24\n\n## Event Details\n\n- **Venue**: Kanda Myojin Cultural Exchange Hall EDOCCO STUDIO\n- **Event Date**: August 15, 2026\n- **Related Program**: AKIBA Mystery Quiz Rally, August 15-24, 2026\n- **Price**: Free\n- **Reservation**: Advance registration required\n- **Organizer**: Akihabara Tourism Promotion Association\n\n## Recommended For\n\n- People interested in Akihabara subculture and card game culture\n- Visitors who want to join a walking event around Kanda Myojin\n- Anyone looking for free hands-on events in Akihabara"
-    },
-    "tagIds": [
-      166,
-      198,
-      243
-    ]
-  },
-  {
     "id": 478,
     "title": "REALITYスターライバーのコラボカフェがCafe ASANで開催、オリジナルメニューとコースター登場",
     "slug": "reality-star-liver-cafe-asan-akihabara-2026",
@@ -24313,6 +24195,10 @@
       {
         "label": "PR TIMES プレスリリース",
         "url": "https://prtimes.jp/main/html/rd/p/000000008.000150262.html"
+      },
+      {
+        "label": "PR TIMES プレスリリース（第一報）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000007.000150262.html"
       }
     ],
     "event": {
@@ -24434,6 +24320,10 @@
       {
         "label": "エンジョイ・トーキョー",
         "url": "https://www.enjoytokyo.jp/event/2027809/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000003647.000025615.html"
       }
     ],
     "event": {
@@ -26530,49 +26420,6 @@
       "startDate": "2026-05-21",
       "endDate": "2026-05-21",
       "price": "入場無料",
-      "reservation": false
-    },
-    "authorId": 1
-  },
-  {
-    "id": 674,
-    "title": "「しぐれうい」コラボの神田明神「納涼祭り」が8月7日〜9日開催",
-    "slug": "kanda-myojin-noryo-matsuri-shigure-ui-2026",
-    "summary": "神田明神の「納涼祭り」が2026年8月7日から9日まで境内で開催。VTuber「しぐれうい」とのコラボやアニソン盆踊り、屋台グルメ、ビール＆日本酒祭りなどを展開する。",
-    "content": "## 概要\n\n神田明神の恒例行事「納涼祭り」が、2026年8月7日から9日まで境内で開催される。今年はVTuber「しぐれうい」とのコラボを展開するほか、アニソン盆踊りや屋台グルメも楽しめる。\n\n## 内容\n\n境内では夏らしい縁日の賑わいに加え、アニメ・VTuberファン向けの企画も用意されている。\n\n- VTuber「しぐれうい」とのコラボ企画\n- アニソン盆踊り\n- 屋台グルメの出店\n- 絶品グルメ ビール＆日本酒祭りを同時開催\n- 雨天の場合は中止\n\n## 開催情報\n\n- **日時**: 2026年8月7日（金）〜9日（日）\n- **会場**: 神田明神 境内\n\n## こんな人におすすめ\n\n- 「しぐれうい」ファン\n- 秋葉原・神田エリアの夏祭りを楽しみたい方\n- 屋台グルメやビール・日本酒を楽しみたい方",
-    "publishedAt": "2026-08-07",
-    "tagIds": [
-      207,
-      50,
-      243,
-      80
-    ],
-    "en": {
-      "title": "Kanda Myojin \"Summer Festival\" with Shigure Ui Collaboration Runs August 7–9",
-      "summary": "Kanda Myojin's annual \"Summer Festival\" runs from August 7 to 9, 2026 on the shrine grounds, featuring a collaboration with VTuber Shigure Ui, anime-song Bon Odori dancing, food stalls, and a beer and sake festival.",
-      "content": "## Overview\n\nKanda Myojin's annual \"Summer Festival\" (Noryo Matsuri) runs from August 7 to 9, 2026 on the shrine grounds. This year's edition features a collaboration with VTuber Shigure Ui, along with anime-song Bon Odori dancing and food stalls.\n\n## Highlights\n\nThe shrine grounds combine a classic summer festival atmosphere with programming aimed at anime and VTuber fans.\n\n- Collaboration event with VTuber Shigure Ui\n- Anime-song Bon Odori dancing\n- Food stalls\n- \"Delicious Gourmet Beer & Sake Festival\" held concurrently\n- Cancelled in case of rain\n\n## Event Details\n\n- **Dates**: August 7 (Fri)–9 (Sun), 2026\n- **Venue**: Kanda Myojin shrine grounds\n\n## Recommended For\n\n- Fans of VTuber Shigure Ui\n- Those wanting to enjoy a summer festival in the Akihabara/Kanda area\n- Fans of food stalls, beer, and sake"
-    },
-    "image": {
-      "src": "/images/articles/kanda-myojin-noryo-matsuri-shigure-ui-2026.jpg",
-      "alt": "神田明神納涼祭り2026の様子",
-      "sourceLabel": "AKIBA PC Hotline! 記事",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130902.html"
-    },
-    "sources": [
-      {
-        "label": "AKIBA PC Hotline! 記事",
-        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130902.html"
-      },
-      {
-        "label": "WalkerPlus イベントページ",
-        "url": "https://www.walkerplus.com/event/ar0313e607546/"
-      }
-    ],
-    "event": {
-      "venue": "神田明神 境内",
-      "startDate": "2026-08-07",
-      "endDate": "2026-08-09",
-      "price": "入場無料（屋台は別途）",
       "reservation": false
     },
     "authorId": 1
