@@ -194,3 +194,7 @@
 {"url": "https://club-mogra.jp/2026/08/12/9876/", "reason": "insufficient_facts", "note": "タイトルのみ、出演者/ジャンル詳細不明", "checked": "2026-08-07"}
 {"url": "https://club-mogra.jp/2026/08/23/9878/", "reason": "insufficient_facts", "note": "タイトルのみ、出演者/ジャンル詳細不明", "checked": "2026-08-07"}
 {"url": "https://club-mogra.jp/2026/08/13/9825/", "reason": "insufficient_facts", "note": "タイトルのみ、出演者/ジャンル詳細不明", "checked": "2026-08-07"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1294/", "reason": "event_ended", "note": "メイドインアビスPOP UP CORNER 7/24-8/2、8/8時点で終了済み", "checked": "2026-08-08"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115150", "reason": "not_akihabara_specific", "note": "ぼっちざろっくサマーフェア2026、全国アニメイト対象、横浜ビブレのみ特別展示、秋葉原固有情報なし", "checked": "2026-08-08"}
+{"url": "https://x.com/oomotoya001/status/1954345268796899537", "reason": "event_ended", "note": "家系ラーメン大﨑家 末広町店、2025年8月開店済み(店名も大元家ではなく大﨑家)", "checked": "2026-08-08"}
+{"url": "https://collabo-cafe.com/events/collabo/hatsune-miku-akihabara-festival-pop-up-store2026/", "reason": "event_ended", "note": "初音ミク秋葉原フェスティバル2026、7/3-7/26開催で終了済み", "checked": "2026-08-08"}

@@ -26462,5 +26462,45 @@
       "reservation": false
     },
     "authorId": 1
+  },
+  {
+    "id": 677,
+    "title": "「オペラセリア」ポップアップストアがコトブキヤ秋葉原館で開催",
+    "slug": "opera-seria-popup-kotobukiya-akihabara-2026",
+    "summary": "「アイドルマスター ミリオンライブ！」のユニット「オペラセリア」をテーマにしたポップアップストアが、コトブキヤ秋葉原館で2026年9月11日から27日まで開催。新規描き下ろしグッズが展開される。",
+    "content": "## 概要\n\n「アイドルマスター ミリオンライブ！」のユニット「オペラセリア」をテーマにしたポップアップストアが、コトブキヤ秋葉原館で2026年9月11日（金）から27日（日）まで開催される。\n\n## 内容\n\n会場では新規描き下ろしイラストを使用したグッズが展開される。\n\n- 「オペラセリア」新規描き下ろしイラストグッズを販売\n- コトブキヤ秋葉原館5Fにて開催\n\n## 開催情報\n\n- **日時**: 2026年9月11日（金）〜9月27日（日）\n- **会場**: コトブキヤ秋葉原館 5F\n\n## こんな人におすすめ\n\n- 「アイドルマスター ミリオンライブ！」のファン\n- 「オペラセリア」の新規グッズを探している方",
+    "publishedAt": "2026-08-08",
+    "tagIds": [
+      207,
+      50,
+      129,
+      77,
+      254
+    ],
+    "en": {
+      "title": "\"Opera Seria\" Pop-Up Store Held at Kotobukiya Akihabara",
+      "summary": "A pop-up store themed around \"Opera Seria,\" a unit from THE iDOLM@STER Million Live!, runs at Kotobukiya Akihabara from September 11 to 27, 2026, featuring newly drawn merchandise.",
+      "content": "## Overview\n\nA pop-up store themed around \"Opera Seria,\" a unit from THE iDOLM@STER Million Live!, is being held at Kotobukiya Akihabara from Friday, September 11 to Sunday, September 27, 2026.\n\n## Highlights\n\nThe venue features merchandise using newly drawn illustrations of the unit.\n\n- Merchandise featuring newly drawn \"Opera Seria\" illustrations\n- Held on the 5th floor of Kotobukiya Akihabara\n\n## Event Details\n\n- **Dates**: Friday, September 11 – Sunday, September 27, 2026\n- **Venue**: Kotobukiya Akihabara, 5F\n\n## Recommended For\n\n- Fans of THE iDOLM@STER Million Live!\n- Those looking for new \"Opera Seria\" merchandise"
+    },
+    "image": {
+      "src": "/images/articles/opera-seria-popup-kotobukiya-akihabara-2026.jpg",
+      "alt": "「オペラセリア」ポップアップストア告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/opera-seria-popup-shop-akihabara-2026/"
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/opera-seria-popup-shop-akihabara-2026/"
+      }
+    ],
+    "event": {
+      "venue": "コトブキヤ秋葉原館 5F",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-27",
+      "price": "商品購入に準ずる",
+      "reservation": false
+    },
+    "authorId": 1
   }
 ]
