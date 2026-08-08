@@ -296,13 +296,20 @@ export const getArticlesByTagId = (id: number): Article[] => {
 
 export const getArticlesBySpotName = (spotName: string, aliases: string[] = []): Article[] => {
   const names = [spotName, ...aliases]
-  return getAllArticles().filter(
-    (a) =>
+  return getAllArticles().filter((a) => {
+    if (
       a.event &&
       names.some(
         (name) => a.event!.venue.includes(name) || name.includes(a.event!.venue),
-      ),
-  )
+      )
+    ) {
+      return true
+    }
+    // No event venue to match (or it didn't): fall back to a plain-text
+    // mention so non-event articles (closures, one-off news) still link up.
+    const text = `${a.title} ${a.content}`
+    return names.some((name) => name.length >= 3 && text.includes(name))
+  })
 }
 
 export const getArticlesByAuthorId = (id: number): Article[] => {

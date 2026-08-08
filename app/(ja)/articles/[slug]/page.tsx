@@ -21,7 +21,7 @@ import {
   getSeoTitle,
   getJapaneseSeoKeywords,
 } from "lib/articles"
-import { getSpotByVenueName } from "lib/spots"
+import { getSpotForArticle } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { getVenuePoint } from "lib/venue-points"
 
@@ -123,7 +123,7 @@ const Page = async ({ params }: Props) => {
     .slice(0, 9)
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
-  const relatedSpot = article.event ? getSpotByVenueName(article.event.venue) : undefined
+  const relatedSpot = getSpotForArticle(article)
   const venuePoint = article.event
     ? relatedSpot?.lat && relatedSpot.lng
       ? { lat: relatedSpot.lat, lng: relatedSpot.lng }
@@ -158,7 +158,7 @@ const Page = async ({ params }: Props) => {
     relatedSpot
       ? {
           href: `/spots/${relatedSpot.slug}/`,
-          label: `${article.event?.venue}のスポット情報`,
+          label: `${relatedSpot.name}のスポット情報`,
           description: "会場の場所や周辺情報を見る",
         }
       : {
@@ -182,7 +182,7 @@ const Page = async ({ params }: Props) => {
     relatedSpot
       ? {
           href: `/spots/${relatedSpot.slug}/`,
-          label: `${article.event?.venue}の会場情報を見る`,
+          label: `${relatedSpot.name}の会場情報を見る`,
         }
       : {
           href: "/akiba-today/",

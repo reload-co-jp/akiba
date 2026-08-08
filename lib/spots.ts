@@ -308,6 +308,27 @@ export const getSpotByVenueName = (venue: string): Spot | undefined => {
   )
 }
 
+/**
+ * Same idea as getSpotByVenueName but for articles without an event.venue —
+ * matches on a plain-text mention of the spot's name in the title/body so
+ * closures, one-off news, etc. still link back to their spot page.
+ */
+export const getSpotForArticle = (article: {
+  title: string
+  content: string
+  event?: { venue: string }
+}): Spot | undefined => {
+  if (article.event) {
+    const bySpot = getSpotByVenueName(article.event.venue)
+    if (bySpot) return bySpot
+  }
+  const text = `${article.title} ${article.content}`
+  return getDetailPageSpots().find((spot) => {
+    const names = [spot.name, ...(spot.aliases ?? [])]
+    return names.some((name) => name.length >= 3 && text.includes(name))
+  })
+}
+
 export const getLocalizedSpotContent = (spot: Spot, lang: "ja" | "en"): SpotLocalizedContent => {
   if (lang === "en" && spot.en) return spot.en
   return {
