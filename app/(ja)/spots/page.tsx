@@ -8,6 +8,19 @@ export const metadata = {
   title: "観光スポット",
   description:
     "秋葉原の観光スポット一覧。電気街・アニメ・ゲーム・グルメなどカテゴリ別に紹介します。",
+  keywords: [
+    "秋葉原",
+    "アキバ",
+    "秋葉原 観光",
+    "秋葉原 観光スポット",
+    "秋葉原 電気街",
+    "秋葉原 アニメ",
+    "秋葉原 ゲーム",
+    "秋葉原 グルメ",
+    "秋葉原 ショッピング",
+    "神田",
+    "末広町",
+  ],
   alternates: { canonical: "/spots/" },
   openGraph: {
     title: "観光スポット | アキバLive",
@@ -54,11 +67,30 @@ const Page = () => {
     })),
   }
 
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "観光スポット",
+        item: absoluteUrl("/spots/"),
+      },
+    ],
+  }
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript([jsonLd, breadcrumbLd]) }}
       />
       <section
         style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}
