@@ -6,11 +6,13 @@ import {
   getSpotImage,
   getSpotSeoKeywords,
   getSpotHeadline,
+  getSpotsByCategory,
 } from "lib/spots"
-import { getArticlesBySpotName, formatDate } from "lib/articles"
+import { getArticlesBySpotName, formatDate, getArticleImage } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
+import { ArticleVenueMap } from "components/article-venue-map"
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -56,6 +58,9 @@ const Page = async ({ params }: Props) => {
   const spotImage = getSpotImage(spot)
   const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(0, 10)
   const spotKeywords = getSpotSeoKeywords(spot)
+  const otherCategorySpots = getSpotsByCategory(spot.category)
+    .filter((s) => s.slug !== spot.slug)
+    .slice(0, 8)
 
   // Restaurant is a subtype of LocalBusiness, so eating places get the richer
   // type (servesCuisine / priceRange) without losing the generic properties.
@@ -328,19 +333,12 @@ const Page = async ({ params }: Props) => {
 
         {spot.lat && spot.lng && (
           <div style={{ marginBottom: "1.5rem" }}>
-            <a
-              href={`https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`}
-              rel="noopener noreferrer"
-              target="_blank"
-              style={{
-                display: "inline-block",
-                fontSize: ".875rem",
-                color: "#b94a3a",
-                textDecoration: "underline",
-              }}
-            >
-              Google マップで見る
-            </a>
+            <ArticleVenueMap
+              venue={spot.name}
+              lat={spot.lat}
+              lng={spot.lng}
+              query={spot.address ? `${spot.name} ${spot.address}` : `${spot.name} 秋葉原`}
+            />
           </div>
         )}
 
@@ -364,30 +362,84 @@ const Page = async ({ params }: Props) => {
                 ? "この店舗の関連ニュース"
                 : "この会場のイベント"}
             </h2>
-            <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: ".5rem" }}>
-              {relatedArticles.map((article) => (
-                <li key={article.id}>
+            <ul
+              className="article-list"
+              style={{ listStyle: "none", padding: 0, margin: 0 }}
+            >
+              {relatedArticles.map((article) => {
+                const articleImage = getArticleImage(article)
+                return (
+                  <li key={article.id}>
+                    <Link
+                      href={`/articles/${article.slug}/`}
+                      className="article-card-link"
+                    >
+                      <article className="article-card">
+                        <img
+                          src={articleImage.src}
+                          alt={articleImage.alt}
+                          width={articleImage.width}
+                          height={articleImage.height}
+                          className="article-card__image"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                        <h3 className="article-card__title">{article.title}</h3>
+                        <time
+                          className="article-card__date"
+                          dateTime={article.event?.startDate ?? article.publishedAt}
+                        >
+                          {article.event
+                            ? `${formatDate(article.event.startDate)}〜${formatDate(article.event.endDate)}`
+                            : formatDate(article.publishedAt)}
+                        </time>
+                      </article>
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        )}
+
+        {otherCategorySpots.length > 0 && (
+          <section aria-labelledby="spot-nearby-title" style={{ marginTop: "2rem" }}>
+            <h2
+              id="spot-nearby-title"
+              style={{
+                fontSize: "1rem",
+                fontWeight: "bold",
+                color: "#b94a3a",
+                marginBottom: ".75rem",
+              }}
+            >
+              {spot.category}のほかのスポット
+            </h2>
+            <ul
+              style={{
+                listStyle: "none",
+                margin: 0,
+                padding: 0,
+                display: "flex",
+                flexWrap: "wrap",
+                gap: ".5rem",
+              }}
+            >
+              {otherCategorySpots.map((nearby) => (
+                <li key={nearby.id}>
                   <Link
-                    href={`/articles/${article.slug}/`}
+                    href={`/spots/${nearby.slug}/`}
                     style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "baseline",
-                      gap: ".5rem",
-                      fontSize: ".875rem",
+                      display: "inline-block",
+                      fontSize: ".8125rem",
                       color: "#24312f",
                       textDecoration: "none",
-                      padding: ".5rem",
-                      borderRadius: "4px",
+                      padding: ".4rem .75rem",
+                      borderRadius: "999px",
                       border: "1px solid rgba(96, 120, 111, 0.14)",
                     }}
                   >
-                    <span style={{ flex: 1, lineHeight: "1.4" }}>{article.title}</span>
-                    {article.event && (
-                      <span style={{ color: "#8a6f63", whiteSpace: "nowrap", fontSize: ".75rem" }}>
-                        {formatDate(article.event.startDate)}〜{formatDate(article.event.endDate)}
-                      </span>
-                    )}
+                    {nearby.name}
                   </Link>
                 </li>
               ))}

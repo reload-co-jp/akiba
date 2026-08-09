@@ -167,39 +167,11 @@ const Page = async ({ params }: Props) => {
           description: "過去の秋葉原ニュースを月ごとに探す",
         },
   ].filter((link): link is { href: string; label: string; description: string } => link != null)
-  const articleCtaLinks = [
-    article.event
-      ? {
-          href: "/events/this-week/",
-          label: "今週ほかに行けるイベントを見る",
-        }
-      : primaryTag
-        ? {
-            href: `/tags/${primaryTag.id}/`,
-            label: `「${primaryTag.name}」の記事をもっと見る`,
-          }
-        : null,
-    relatedSpot
-      ? {
-          href: `/spots/${relatedSpot.slug}/`,
-          label: `${relatedSpot.name}の会場情報を見る`,
-        }
-      : {
-          href: "/akiba-today/",
-          label: "今日の秋葉原まとめを見る",
-        },
-    primaryTag
-      ? {
-          href: `/tags/${primaryTag.id}/`,
-          label: `同じタグの記事を見る`,
-        }
-      : {
-          href: "/articles/",
-          label: "新着記事を見る",
-        },
-  ]
-    .filter((link): link is { href: string; label: string } => link != null)
-    .filter((link, index, links) => links.findIndex((item) => item.href === link.href) === index)
+  // Inline CTA (right after the body) reuses the same link set as the
+  // end-of-article "next steps" section, just trimmed and without the
+  // description — avoids showing two different-looking link lists for the
+  // same choices.
+  const articleCtaLinks = nextLinks.slice(0, 2)
   const articleUrl = absoluteUrl(`/articles/${slug}/`)
   const articleImage = getArticleImage(article)
   const publishedAt = getArticlePublishedIso(article)
