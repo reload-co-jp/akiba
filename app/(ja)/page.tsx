@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { HomeArticlesFilter } from "components/home-articles-filter"
 import { getAllArticles } from "lib/articles"
 import { CalendarView } from "./events/calendar/calendar-view"
@@ -67,6 +68,18 @@ const Page = () => {
 
             <button className="home-hero__link">最新記事を読む</button>
           </form>
+
+          <nav className="home-tags" aria-label="人気コンテンツ">
+            <Link href="/spots/gourmet/" className="home-tags__item">
+              秋葉原グルメ
+            </Link>
+            <Link href="/spots/gourmet/ramen/" className="home-tags__item">
+              秋葉原ラーメン
+            </Link>
+            <Link href="/events/today/" className="home-tags__item">
+              今日のイベント
+            </Link>
+          </nav>
         </div>
       </section>
 

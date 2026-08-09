@@ -1218,5 +1218,50 @@
     "id": 256,
     "name": "ポケモンカード",
     "nameEn": "Pokémon Card Game"
+  },
+  {
+    "id": 257,
+    "name": "ラーメン",
+    "nameEn": "Ramen"
+  },
+  {
+    "id": 258,
+    "name": "居酒屋",
+    "nameEn": "Izakaya"
+  },
+  {
+    "id": 259,
+    "name": "バー",
+    "nameEn": "Bar"
+  },
+  {
+    "id": 260,
+    "name": "寿司",
+    "nameEn": "Sushi"
+  },
+  {
+    "id": 261,
+    "name": "ケバブ",
+    "nameEn": "Kebab"
+  },
+  {
+    "id": 262,
+    "name": "イタリアン",
+    "nameEn": "Italian"
+  },
+  {
+    "id": 263,
+    "name": "メイドカフェ",
+    "nameEn": "Maid Cafe"
+  },
+  {
+    "id": 264,
+    "name": "中華",
+    "nameEn": "Chinese"
+  },
+  {
+    "id": 265,
+    "name": "カレー",
+    "nameEn": "Curry"
   }
 ]
