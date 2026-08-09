@@ -127,6 +127,8 @@ export const venuePoints: Record<string, VenuePoint> = {
   "Fandom Akiba 5F": { lat: 35.6989, lng: 139.7726 },
   "刀剣乱舞STORE AKIHABARA": { lat: 35.7002, lng: 139.7716 },
   アトレ秋葉原: { lat: 35.6984, lng: 139.7731 },
+  "ノーガホテル 秋葉原 東京": { lat: 35.6978, lng: 139.7714 },
+  "Hey2（秋葉原）": { lat: 35.6989, lng: 139.7724 },
 }
 
 export const getVenuePoint = (venue: string): VenuePoint | undefined => {
