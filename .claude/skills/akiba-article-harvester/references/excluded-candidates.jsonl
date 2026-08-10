@@ -211,3 +211,8 @@
 {"url": "https://www.enjoytokyo.jp/event/2071901/", "reason": "out_of_scope_venue", "note": "はてな展、会場は西武渋谷店", "checked": "2026-08-10"}
 {"url": "https://www.enjoytokyo.jp/event/2054820/", "reason": "out_of_scope_venue", "note": "ピクサーの世界展、会場はCREVIA BASE Tokyo(豊洲)", "checked": "2026-08-10"}
 {"url": "gnews:zenzero-2nd-anniversary-akihabara", "reason": "event_ended", "note": "ゼンゼロ2周年イベント、7/31-8/2開催で終了済み", "checked": "2026-08-10"}
+{"url": "https://bandainamco-am.co.jp/chara_shop/idolmaster/NEWS/akihabara/20260624.html", "reason": "event_ended", "note": "アイドルマスター×アトレ秋葉原 7/24-8/6 開催済み終了(確認日8/10)", "checked": "2026-08-10"}
+{"url": "https://response.jp/article/img/2026/08/01/414767/2231810.html", "reason": "event_ended", "note": "ゼンゼロ2周年ヤマハXSR900GP展示 7/31-8/2 ベルサール秋葉原 開催済み終了", "checked": "2026-08-10"}
+{"url": "https://hobby.dengeki.com/news/3116576/", "reason": "insufficient_facts", "note": "無職転生III/ライザのアトリエ3 フィギュア彩色見本展示、具体的終了日・確定会場リスト不明", "checked": "2026-08-10"}
+{"url": "https://tetsudo-ch.com/13034165.html", "reason": "low_value", "note": "エキュート秋葉原駅ナカグルメ複合記事、T'sたんたん単独記事に統合済み", "checked": "2026-08-10"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2131790.html", "reason": "insufficient_facts", "note": "サンコー跡地カードショップ「シンソク」正確なオープン日未確認", "checked": "2026-08-10"}
