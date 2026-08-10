@@ -35,6 +35,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "ベルサール秋葉原": { lat: 35.7007, lng: 139.7717 },
   "アキバナビスペース": { lat: 35.7016, lng: 139.7712 },
   "LIFORK秋葉原II": { lat: 35.7011, lng: 139.7716 },
+  "LIFORK AKIHABARA II": { lat: 35.7011, lng: 139.7716 },
   "神田明神": { lat: 35.7017, lng: 139.7677 },
   "神田明神境内": { lat: 35.7017, lng: 139.7677 },
   "神田明神ホール": { lat: 35.7017, lng: 139.7677 },

@@ -22031,6 +22031,10 @@
     },
     "sources": [
       {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000126.000145037.html"
+      },
+      {
         "label": "4Gamer.net 開催レポート",
         "url": "https://www.4gamer.net/games/456/G045622/20260715005/"
       },
@@ -26865,5 +26869,204 @@
       "reservation": false
     },
     "authorId": 1
+  },
+  {
+    "id": 687,
+    "title": "自作PC文化祭「Thermal Camp 2026」がLIFORK AKIHABARAで開催",
+    "slug": "thermal-camp-2026-akihabara",
+    "summary": "Thermaltake取扱代理店の株式会社アスクが、自作PCの文化祭をテーマにしたイベント「Thermal Camp 2026」を2026年7月11日、LIFORK AKIHABARA IIで開催。レトロテーマの新作PCケース展示やトークセッション、体験コーナーを実施した。",
+    "content": "## 概要\n\nThermaltake製品の取扱代理店である株式会社アスクは、2026年7月11日、東京・秋葉原の「LIFORK AKIHABARA II」において、自作PCの文化祭をテーマにしたスペシャルイベント「Thermal Camp 2026」を開催した。同社が扱うPCパーツブランドの新製品を体験できる無料イベントとして企画された。\n\n## 内容\n\nレトロなデザインを基調とした新作PCケースの展示を中心に、来場者が実際に製品に触れて楽しめる体験型のコンテンツで構成された。\n\n- レトロテーマの新作PCケース「Retro 360 TG」「Retro 260 TG」「Retro 240 Ultra ARGB Sync」の展示\n- モリケン氏、オリオスペック松澤店長によるトークセッション\n- シムレーシング＆RGBソフトウェアの体験コーナー\n- 来場者限定プレゼント＆じゃんけん大会\n\n## 開催情報\n\n- **日時**: 2026年7月11日（土）13:00〜18:00（開場12:40）\n- **会場**: LIFORK AKIHABARA II 1F（東京都千代田区外神田3-13-2 秋葉原TMOビル1階）\n- **料金**: 入場無料\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- 自作PCパーツの最新モデルを実際に見て触りたい方\n- PCケースのデザインにこだわりたい方\n- 秋葉原で無料の自作PCイベントを探している方",
+    "publishedAt": "2026-07-11",
+    "tags": ["秋葉原", "無料イベント", "トークイベント", "体験"],
+    "tagIds": [207, 198, 101, 156],
+    "en": {
+      "title": "Custom PC Festival \"Thermal Camp 2026\" Held at LIFORK AKIHABARA",
+      "summary": "ASK Corporation, the Japan distributor for Thermaltake, held \"Thermal Camp 2026,\" a custom PC culture festival, at LIFORK AKIHABARA II on July 11, 2026, featuring new retro-themed PC cases, a talk session, and hands-on corners.",
+      "content": "## Overview\n\nASK Corporation, the Japan distributor for Thermaltake products, held a special event called \"Thermal Camp 2026\" — a festival themed around custom PC culture — at LIFORK AKIHABARA II in Akihabara, Tokyo on July 11, 2026. The free event let visitors try out new PC parts from brands the company distributes.\n\n## Highlights\n\nThe event centered on a display of new retro-themed PC cases, with hands-on content letting visitors experience the products directly.\n\n- Display of new retro-themed PC cases: \"Retro 360 TG,\" \"Retro 260 TG,\" and \"Retro 240 Ultra ARGB Sync\"\n- Talk session featuring Moriken and OliOSpec store manager Matsuzawa\n- Sim racing and RGB software hands-on corner\n- Visitor giveaways and a rock-paper-scissors tournament\n\n## Event Details\n\n- **Dates**: July 11, 2026, 13:00–18:00 (doors open 12:40)\n- **Venue**: LIFORK AKIHABARA II 1F (Akihabara TMO Building 1F, 3-13-2 Sotokanda, Chiyoda-ku, Tokyo)\n- **Price**: Free admission\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone wanting to see and try the latest custom PC parts in person\n- Readers who care about PC case design\n- Those looking for free custom-PC events in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/thermal-camp-2026-akihabara.jpg",
+      "alt": "Thermal Camp 2026の告知ビジュアル",
+      "sourceLabel": "株式会社アスク 公式ニュース",
+      "sourceUrl": "https://www.ask-corp.jp/news/2026/06/thermal-camp-2026.html"
+    },
+    "sources": [
+      {
+        "label": "株式会社アスク 公式ニュース",
+        "url": "https://www.ask-corp.jp/news/2026/06/thermal-camp-2026.html"
+      },
+      {
+        "label": "公式X",
+        "url": "https://x.com/askcorp_info/status/2071933562597638340"
+      }
+    ],
+    "authorId": 1,
+    "event": {
+      "venue": "LIFORK AKIHABARA II 1F",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-11",
+      "price": "入場無料",
+      "reservation": false
+    }
+  },
+  {
+    "id": 688,
+    "title": "ゲーミングPC専門店「MDL秋葉原店」が内田ビルにオープン",
+    "slug": "mdl-akihabara-open-2026",
+    "summary": "鹿児島発のゲーミングPCブランド「MDL」が、東京初の実店舗「MDL秋葉原店」を外神田1-9-9 内田ビル2Fに2026年8月8日オープン。先着1,000名にゲーミングキーボード・マウスを配布するオープニングキャンペーンを実施した。",
+    "content": "## 概要\n\nコストパフォーマンス重視のBTOゲーミングPCブランド「MDL」を運営する株式会社モダンデザイン（鹿児島県）は、2026年8月8日、東京初の実店舗となる「MDL秋葉原店」を東京都千代田区外神田1-9-9 内田ビル2Fにオープンした。地方発のゲーミングPCブランドが秋葉原に旗艦店を構える形となる。\n\n## 内容\n\nオープン初日はオープニングキャンペーン目当ての来場者が殺到し、想定を超える人出となった。\n\n- 先着1,000名にゲーミングキーボード「MDL Aurora」（900個）とマウス「MDL Lumina」（100個）を無料配布\n- 新規会員登録で1万円引きクーポンを配布\n- コストパフォーマンス重視のBTOゲーミングPCを販売\n\n## 開催情報\n\n- **日時**: 2026年8月8日（土）11:00 オープン\n- **会場**: MDL秋葉原店（東京都千代田区外神田1-9-9 内田ビル2F）\n- **料金**: 入店無料\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- コストパフォーマンス重視のゲーミングPCを探している方\n- 秋葉原で新しいPCショップを見てみたい方\n- BTOパソコンの実機を店頭で確認したい方",
+    "publishedAt": "2026-08-08",
+    "tags": ["秋葉原", "オープン", "新店舗", "ゲーミングデバイス"],
+    "tagIds": [207, 56, 187, 73],
+    "en": {
+      "title": "Gaming PC Specialty Shop \"MDL Akihabara\" Opens in Uchida Building",
+      "summary": "Kagoshima-based gaming PC brand \"MDL\" opened its first physical store in Tokyo, \"MDL Akihabara,\" at Uchida Building 2F, 1-9-9 Sotokanda, on August 8, 2026, with an opening campaign giving away gaming keyboards and mice to the first 1,000 visitors.",
+      "content": "## Overview\n\nModern Design Inc., a Kagoshima-based company behind the value-focused build-to-order gaming PC brand \"MDL,\" opened its first physical store in Tokyo — \"MDL Akihabara\" — at Uchida Building 2F, 1-9-9 Sotokanda, Chiyoda-ku, Tokyo, on August 8, 2026. It marks a regional gaming PC brand establishing a flagship store in Akihabara.\n\n## Highlights\n\nOn opening day, the store drew a larger-than-expected crowd of visitors drawn by the opening campaign.\n\n- Free gaming keyboards (\"MDL Aurora,\" 900 units) and mice (\"MDL Lumina,\" 100 units) for the first 1,000 visitors\n- ¥10,000 discount coupon for new members\n- Sells value-focused build-to-order gaming PCs\n\n## Event Details\n\n- **Dates**: August 8, 2026, opened 11:00\n- **Venue**: MDL Akihabara (Uchida Building 2F, 1-9-9 Sotokanda, Chiyoda-ku, Tokyo)\n- **Price**: Free entry\n- **Reservation**: Not required\n\n## Recommended For\n\n- Shoppers looking for value-focused gaming PCs\n- Anyone curious to check out a new PC shop in Akihabara\n- Those who want to see build-to-order PCs in person"
+    },
+    "image": {
+      "src": "/images/articles/mdl-akihabara-open-2026.jpg",
+      "alt": "MDL秋葉原店の店頭ビジュアル",
+      "sourceLabel": "AKIBA PC Hotline!",
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130547.html"
+    },
+    "sources": [
+      {
+        "label": "AKIBA PC Hotline!",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130547.html"
+      },
+      {
+        "label": "エルミタージュ秋葉原",
+        "url": "https://www.gdm.or.jp/crew/2026/0807/647322"
+      },
+      {
+        "label": "MDL 公式X",
+        "url": "https://x.com/mdl_make"
+      }
+    ],
+    "authorId": 1,
+    "event": {
+      "venue": "MDL秋葉原店",
+      "startDate": "2026-08-08",
+      "endDate": "2026-08-08",
+      "price": "入店無料",
+      "reservation": false
+    }
+  },
+  {
+    "id": 689,
+    "title": "ラジオデパートの老舗電子部品店「門田無線電機」が5月閉店",
+    "slug": "kadota-musen-denki-close-2026",
+    "summary": "東京ラジオデパート3階で50年以上営業してきた電子部品専門店「門田無線電機」が、2026年5月20日をもって閉店した。ボリュームやトグルスイッチ、真空管ソケットなど3,200種類以上の部品を扱い、サンハヤト製品の販売代理店としても知られていた。",
+    "content": "## 概要\n\n東京都千代田区外神田の東京ラジオデパート3階で営業してきた電子部品専門店「門田無線電機」が、2026年5月20日をもって閉店した。秋葉原で50年以上にわたり営業を続けてきた老舗の一つで、部品を求める電子工作愛好家やプロの技術者に長く親しまれてきた。\n\n## 内容\n\n同店はボリューム、トグルスイッチ、プラグ、ジャック、真空管ソケットなど3,200種類以上の電子部品を取り扱い、電子部品メーカー・サンハヤトの製品を扱う販売代理店としても知られていた。\n\n- 取扱品目はボリューム、トグルスイッチ、プラグ、ジャック、真空管ソケットなど3,200種類以上\n- 営業時間は10:00〜16:00、日曜・祝日定休\n- サンハヤト製品の販売代理店だった\n\n## 開催情報\n\n- **日時**: 2026年5月20日（水）閉店\n- **会場**: 東京ラジオデパート3F（東京都千代田区外神田1-14-3）\n- **料金**: -\n- **予約**: -\n\n## こんな人におすすめ\n\n- 秋葉原の電子部品店の歴史に関心がある方\n- ラジオデパートで買い物をしていた方\n- 秋葉原の店舗変遷を追っている方",
+    "publishedAt": "2026-05-20",
+    "tags": ["秋葉原", "閉店"],
+    "tagIds": [207, 229],
+    "en": {
+      "title": "Longtime Electronic Parts Shop \"Kadota Musen Denki\" Closes in Radio Depaato",
+      "summary": "Electronic parts specialty shop \"Kadota Musen Denki,\" which operated on the 3rd floor of Tokyo Radio Depaato for over 50 years, closed on May 20, 2026. The shop stocked more than 3,200 types of parts including volume controls, toggle switches, and vacuum tube sockets, and was known as a distributor for Sunhayato products.",
+      "content": "## Overview\n\nElectronic parts specialty shop \"Kadota Musen Denki,\" which operated on the 3rd floor of Tokyo Radio Depaato in Sotokanda, Chiyoda-ku, Tokyo, closed on May 20, 2026. One of Akihabara's longtime shops, it had been in business for more than 50 years and was well known among electronics hobbyists and professional technicians alike.\n\n## Highlights\n\nThe shop carried over 3,200 types of electronic parts, including volume controls, toggle switches, plugs, jacks, and vacuum tube sockets, and was known as a distributor for parts maker Sunhayato.\n\n- Stocked more than 3,200 part types: volume controls, toggle switches, plugs, jacks, vacuum tube sockets, and more\n- Business hours were 10:00–16:00, closed Sundays and holidays\n- Served as a distributor for Sunhayato products\n\n## Event Details\n\n- **Date**: Closed Wednesday, May 20, 2026\n- **Venue**: Tokyo Radio Depaato 3F (1-14-3 Sotokanda, Chiyoda-ku, Tokyo)\n- **Price**: —\n- **Reservation**: —\n\n## Recommended For\n\n- Readers interested in the history of Akihabara's electronic parts shops\n- Former customers of Tokyo Radio Depaato\n- Anyone tracking the changing shop landscape in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/kadota-musen-denki-close-2026.jpg",
+      "alt": "門田無線電機の店頭ビジュアル",
+      "sourceLabel": "エルミタージュ秋葉原",
+      "sourceUrl": "https://www.gdm.or.jp/crew/2026/0331/628930"
+    },
+    "sources": [
+      {
+        "label": "エルミタージュ秋葉原",
+        "url": "https://www.gdm.or.jp/crew/2026/0331/628930"
+      },
+      {
+        "label": "サンハヤト 公式X",
+        "url": "https://x.com/sunhayato_corp/status/2038798351051956267"
+      }
+    ],
+    "authorId": 1,
+    "event": {
+      "venue": "東京ラジオデパート3F",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-20",
+      "price": "商品購入に準ずる",
+      "reservation": false
+    }
+  },
+  {
+    "id": 690,
+    "title": "『STEINS;GATE RE:BOOT』秋葉原アキバジャックキャンペーン開催",
+    "slug": "steins-gate-reboot-akihabara-jack-2026",
+    "summary": "『STEINS;GATE RE:BOOT』の秋葉原アキバジャックキャンペーンが2026年8月17日〜9月6日開催。AKIHABARAゲーマーズ本店やコトブキヤ秋葉原館など舞台の秋葉原30店舗が参加し、限定ポストカードの配布や記念イベントを実施する。",
+    "content": "## 概要\n\n『STEINS;GATE RE:BOOT』の8月20日発売を記念し、作品の舞台である秋葉原の店舗を巻き込んだ「アキバジャックキャンペーン」が2026年8月17日から9月6日まで開催される。秋葉原ラジオ会館では一足早く7月20日からコラボ企画が始まっており、街全体を挙げた展開となる。\n\n## 内容\n\n秋葉原ゲーマーズ本店やコトブキヤ秋葉原館、メロンブックス1号店など、作品ゆかりの秋葉原30店舗が参加するスタンプラリー的キャンペーン。\n\n- 対象店舗で700円以上会計時に「シュタインズ・ゲート」と伝えると限定ポストカード（全8種）をランダムでプレゼント（なくなり次第終了）\n- 秋葉原ラジオ会館では7月20日〜8月31日にコラボ企画実施、8月29日・30日は1Fエントランスで特別イベント開催\n- ラジオ会館では対象レシート3,000円ごとに1回、8月21日〜30日の期間で抽選参加可能\n- 8月15日19:00からはいとうかなこ、桃井はるこ出演のスタジオトーク＆ミニライブをYouTubeで生配信\n\n> 『STEINS;GATE RE:BOOT』舞台・秋葉原でアキバジャックキャンペーン開催\n> — MAGES.公式プレスリリースより\n\n## 開催情報\n\n- **日時**: 2026年8月17日（月）〜9月6日（日）（秋葉原ラジオ会館は7月20日〜8月31日）\n- **会場**: 秋葉原エリア30店舗（AKIHABARAゲーマーズ本店、コトブキヤ秋葉原館、メロンブックス1号店ほか）、秋葉原ラジオ会館\n- **料金**: 対象店舗で700円以上のお会計（特典条件）\n- **予約**: 予約不要（ラジオ会館の抽選は対象レシート必要）\n\n## こんな人におすすめ\n\n- 『STEINS;GATE』シリーズのファンで舞台探訪を楽しみたい方\n- 限定ポストカードを集めたい方\n- 秋葉原の複数店舗を回るスタンプラリー企画が好きな方",
+    "publishedAt": "2026-08-09",
+    "tags": ["秋葉原", "キャンペーン", "コラボ", "ゲーマーズ", "コトブキヤ"],
+    "tagIds": [207, 63, 80, 72, 77],
+    "en": {
+      "title": "\"STEINS;GATE RE:BOOT\" Akihabara Jack Campaign Launches",
+      "summary": "A district-wide \"Akihabara Jack Campaign\" for \"STEINS;GATE RE:BOOT\" runs August 17–September 6, 2026, with 30 participating shops across Akihabara — the game's real-world setting — including AKIHABARA Gamers main store and Kotobukiya Akihabara, offering limited postcards and tie-in events.",
+      "content": "## Overview\n\nTo mark the August 20 release of \"STEINS;GATE RE:BOOT,\" a district-wide \"Akihabara Jack Campaign\" involving shops across Akihabara — the series' real-world setting — runs from August 17 to September 6, 2026. Akihabara Radio Kaikan got a head start with its own tie-in from July 20, making this a district-spanning promotion.\n\n## Highlights\n\nThe campaign is a stamp-rally-style promotion spanning 30 Akihabara shops tied to the series, including AKIHABARA Gamers main store, Kotobukiya Akihabara, and Melonbooks store 1.\n\n- Spend ¥700 or more at a participating shop and mention \"Steins;Gate\" to receive a random limited postcard (8 designs, while supplies last)\n- Akihabara Radio Kaikan runs its own tie-in July 20–August 31, with a special event at the 1F entrance August 29–30\n- Radio Kaikan lottery entries August 21–30, one per qualifying ¥3,000 receipt\n- A studio talk and mini live stream featuring Kanako Itou and Haruko Momoi airs on YouTube from 19:00 on August 15\n\n> \"STEINS;GATE RE:BOOT\" Akihabara Jack Campaign launches in the series' real-world setting\n> — MAGES. official press release\n\n## Event Details\n\n- **Dates**: August 17–September 6, 2026 (Akihabara Radio Kaikan: July 20–August 31)\n- **Venue**: 30 shops across Akihabara (AKIHABARA Gamers main store, Kotobukiya Akihabara, Melonbooks store 1, and more), Akihabara Radio Kaikan\n- **Price**: Spend ¥700+ at a participating shop (for the bonus)\n- **Reservation**: Not required (Radio Kaikan lottery requires a qualifying receipt)\n\n## Recommended For\n\n- \"STEINS;GATE\" fans who enjoy visiting the series' real-world locations\n- Anyone collecting the limited postcards\n- Readers who enjoy multi-shop stamp rally campaigns in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/steins-gate-reboot-akihabara-jack-2026.jpg",
+      "alt": "STEINS;GATE RE:BOOT アキバジャックキャンペーンの告知ビジュアル",
+      "sourceLabel": "MAGES. 公式プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000249.000046985.html"
+    },
+    "sources": [
+      {
+        "label": "MAGES. 公式プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000249.000046985.html"
+      },
+      {
+        "label": "秋葉原ラジオ会館 特設ページ",
+        "url": "https://akihabara-radiokaikan.co.jp/summer_2026/"
+      }
+    ],
+    "authorId": 1,
+    "event": {
+      "venue": "秋葉原エリア30店舗・秋葉原ラジオ会館",
+      "startDate": "2026-08-17",
+      "endDate": "2026-09-06",
+      "price": "対象店舗で700円以上のお会計",
+      "reservation": false
+    }
+  },
+  {
+    "id": 691,
+    "title": "『FF14』エーテライトとリアル交歓＆メダル作成がEXBARで体験可能に",
+    "slug": "ff14-exbar-akihabara-aetheryte-2026",
+    "summary": "『ファイナルファンタジーXIV』とEXBAR TOKYO plus AKIHABARAのコラボ企画として、高さ約160cmの実物大エーテライトモニュメントでの記念撮影と、都市ごとのオリジナルメダル作成が2026年7月31日より秋葉原駅構内の店舗で体験できるようになった。",
+    "content": "## 概要\n\n秋葉原駅構内「秋葉原東西自由通路」に位置するクラフトビール&グッズショップ「EXBAR TOKYO plus AKIHABARA」で、『ファイナルファンタジーXIV』とのコラボ企画が2026年7月31日よりスタートした。ゲーム内の転送拠点「エーテライト」を模した実物大モニュメントが店内に設置され、ファンが作品世界を身近に感じられる常設コンテンツとなっている。\n\n## 内容\n\n高さ約160cmのエーテライトモニュメントでの記念撮影に加え、グリダニア・リムサ・ロミンサ・ウルダハの3都市をイメージしたオリジナルメダルを作成できる。\n\n- 実物大エーテライトモニュメント（高さ約160cm）での記念撮影が可能\n- グリダニア・リムサ・ロミンサ・ウルダハの3色から選べるオリジナルメダル作成\n- 3,000円以上購入で先着・数量限定の記念ポストカードをプレゼント（1人1枚）\n- クラフトビールはプリペイドカードによるセルフ注文方式\n\n## 開催情報\n\n- **日時**: 2026年7月31日より実施中（常設、営業時間10:00〜23:00・ラストオーダー22:30）\n- **会場**: EXBAR TOKYO plus AKIHABARA（東京都千代田区神田佐久間町1-6-1 秋葉原東西自由通路内、JR秋葉原駅より徒歩1分）\n- **料金**: メダル作成は店舗利用に準ずる、クラフトビールは1,000円〜\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- 『FF14』のファンで作品世界を体感したい方\n- 秋葉原駅構内で気軽に立ち寄れるコラボスポットを探している方\n- オリジナルグッズやメダル作成を楽しみたい方",
+    "publishedAt": "2026-07-31",
+    "tags": ["秋葉原", "コラボ", "ゲーム", "体験"],
+    "tagIds": [207, 80, 74, 156],
+    "en": {
+      "title": "\"FINAL FANTASY XIV\" Aetheryte Photo Spot & Medal Making Now at EXBAR Akihabara",
+      "summary": "A \"FINAL FANTASY XIV\" collaboration at EXBAR TOKYO plus AKIHABARA lets visitors take photos with a roughly 160cm-tall full-scale Aetheryte monument and craft city-themed original medals, available at the shop inside Akihabara Station from July 31, 2026.",
+      "content": "## Overview\n\n\"EXBAR TOKYO plus AKIHABARA,\" a craft beer and goods shop located in the Akihabara Station east-west concourse, launched a \"FINAL FANTASY XIV\" collaboration on July 31, 2026. A full-scale monument modeled on the game's Aetheryte teleportation points was installed in the shop, giving fans a permanent way to feel closer to the game's world.\n\n## Highlights\n\nBeyond photo opportunities with the roughly 160cm-tall Aetheryte monument, visitors can craft an original medal themed after Gridania, Limsa Lominsa, or Ul'dah.\n\n- Photo opportunities with the full-scale Aetheryte monument (approx. 160cm tall)\n- Craft an original medal, choosing from three city-themed colors: Gridania, Limsa Lominsa, or Ul'dah\n- Spend ¥3,000+ to receive a limited commemorative postcard while supplies last (one per person)\n- Craft beer is self-service, ordered via prepaid card\n\n## Event Details\n\n- **Dates**: Ongoing since July 31, 2026 (permanent feature; hours 10:00–23:00, last order 22:30)\n- **Venue**: EXBAR TOKYO plus AKIHABARA (1-6-1 Kanda-Sakumacho, Chiyoda-ku, Tokyo, inside the Akihabara Station east-west concourse; 1-minute walk from JR Akihabara Station)\n- **Price**: Medal making priced per shop visit; craft beer from ¥1,000\n- **Reservation**: Not required\n\n## Recommended For\n\n- \"FINAL FANTASY XIV\" fans who want to experience the game's world in person\n- Anyone looking for a quick collab stop inside Akihabara Station\n- Visitors who enjoy making original goods or medals"
+    },
+    "image": {
+      "src": "/images/articles/ff14-exbar-akihabara-aetheryte-2026.jpg",
+      "alt": "EXBAR TOKYO plus AKIHABARAのFF14エーテライトモニュメント",
+      "sourceLabel": "FINAL FANTASY XIV Lodestone 公式トピック",
+      "sourceUrl": "https://na.finalfantasyxiv.com/lodestone/topics/detail/82b918851369a3097c2903aa65ef54caecce239a"
+    },
+    "sources": [
+      {
+        "label": "FINAL FANTASY XIV Lodestone 公式トピック",
+        "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/82b918851369a3097c2903aa65ef54caecce239a"
+      },
+      {
+        "label": "電撃オンライン 記事",
+        "url": "https://dengekionline.com/article/202608/83539"
+      }
+    ],
+    "authorId": 1,
+    "event": {
+      "venue": "EXBAR TOKYO plus AKIHABARA",
+      "startDate": "2026-07-31",
+      "endDate": "2026-07-31",
+      "price": "店舗利用に準ずる",
+      "reservation": false
+    }
   }
 ]
