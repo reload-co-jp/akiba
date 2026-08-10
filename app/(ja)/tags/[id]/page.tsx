@@ -14,6 +14,24 @@ type Props = {
   params: Promise<{ id: string }>
 }
 
+/**
+ * Tags that mirror a /spots/gourmet/[cuisine] genre. For these, "イベント
+ * 一覧" is the wrong framing — people searching "秋葉原 ラーメン" want
+ * shops, not event listings — so metadata and the page body branch to a
+ * gourmet-flavored copy and cross-link to the matching cuisine page.
+ */
+const gourmetTagCuisine: Record<string, string> = {
+  ラーメン: "ramen",
+  居酒屋: "izakaya",
+  バー: "bar",
+  寿司: "sushi",
+  ケバブ: "kebab",
+  イタリアン: "italian",
+  メイドカフェ: "maid_cafe",
+  中華: "chinese",
+  カレー: "curry",
+}
+
 export const generateStaticParams = () => {
   return getAllTags().map((tag) => ({ id: String(tag.id) }))
 }
@@ -22,19 +40,34 @@ export const generateMetadata = async ({ params }: Props) => {
   const { id } = await params
   const tag = getTagById(Number(id))
   if (!tag) return {}
-  const title = `秋葉原の${tag.name}イベント一覧｜開催中・予定`
-  const description = `秋葉原の${tag.name}関連イベント・ニュース一覧。開催中、開催予定、ポップアップ、フェア、展示情報をまとめて確認できます。`
-  const keywords = [
-    "秋葉原",
-    "神田",
-    "アキバ",
-    tag.name,
-    `秋葉原 ${tag.name}`,
-    `神田 ${tag.name}`,
-    `${tag.name} イベント`,
-    `${tag.name} ポップアップ`,
-    `${tag.name} 展示`,
-  ]
+  const cuisine = gourmetTagCuisine[tag.name]
+  const title = cuisine
+    ? `秋葉原の${tag.name}情報一覧｜新店舗・ニュース`
+    : `秋葉原の${tag.name}イベント一覧｜開催中・予定`
+  const description = cuisine
+    ? `秋葉原エリアの${tag.name}に関する最新ニュース・新店舗情報をまとめて紹介。実際に行けるお店一覧もあわせて確認できます。`
+    : `秋葉原の${tag.name}関連イベント・ニュース一覧。開催中、開催予定、ポップアップ、フェア、展示情報をまとめて確認できます。`
+  const keywords = cuisine
+    ? [
+        "秋葉原",
+        "神田",
+        "アキバ",
+        tag.name,
+        `秋葉原 ${tag.name}`,
+        `神田 ${tag.name}`,
+        `${tag.name} 秋葉原 店`,
+      ]
+    : [
+        "秋葉原",
+        "神田",
+        "アキバ",
+        tag.name,
+        `秋葉原 ${tag.name}`,
+        `神田 ${tag.name}`,
+        `${tag.name} イベント`,
+        `${tag.name} ポップアップ`,
+        `${tag.name} 展示`,
+      ]
   return {
     title,
     description,
@@ -63,6 +96,7 @@ const Page = async ({ params }: Props) => {
 
   const articles = getArticlesByTagId(tag.id)
   const tagUrl = absoluteUrl(`/tags/${id}/`)
+  const cuisine = gourmetTagCuisine[tag.name]
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -112,6 +146,13 @@ const Page = async ({ params }: Props) => {
           <p className="home-articles__kicker">Tag</p>
           <h1 className="home-articles__title">「{tag.name}」の記事</h1>
         </div>
+        {cuisine && (
+          <p className="gourmet-lead">
+            秋葉原で{tag.name}のお店を探すなら、
+            <Link href={`/spots/gourmet/${cuisine}/`}>秋葉原の{tag.name}一覧</Link>
+            もあわせてチェック。
+          </p>
+        )}
         <ul className="article-list">
           {articles.map((article) => (
             <li key={article.id}>
