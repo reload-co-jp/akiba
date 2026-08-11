@@ -10,6 +10,7 @@ import {
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
+import { GourmetSpotMap } from "components/gourmet-spot-map"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 const title = "秋葉原のグルメ・飲食店一覧"
@@ -147,11 +148,13 @@ const Page = () => {
           ))}
         </nav>
 
-        <AdsenseFluidAd />
+        <GourmetSpotMap spots={spots} />
 
         <GourmetSpotList spots={spots} />
 
         <OsmAttribution />
+
+        <AdsenseFluidAd />
       </section>
     </>
   )

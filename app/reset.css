@@ -2142,6 +2142,99 @@ body {
   }
 }
 
+.gourmet-map {
+  margin: 1rem 0 1.5rem;
+}
+
+.gourmet-map__header {
+  margin-bottom: 0.75rem;
+}
+
+.gourmet-map__kicker {
+  color: #b94a3a;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.gourmet-map__header h2 {
+  color: #24312f;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.gourmet-map__frame {
+  aspect-ratio: 4 / 3;
+  background: #e7f0ed;
+  border: 1px solid rgba(96, 120, 111, 0.14);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gourmet-map__frame iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  pointer-events: none;
+  width: 100%;
+}
+
+.gourmet-map__pins {
+  inset: 0;
+  position: absolute;
+}
+
+.gourmet-map__pin {
+  background: #b94a3a;
+  border: 2px solid #fff;
+  border-radius: 999px 999px 999px 0;
+  box-shadow: 0 6px 18px rgba(36, 49, 47, 0.28);
+  cursor: pointer;
+  height: 1rem;
+  padding: 0;
+  position: absolute;
+  transform: translate(-50%, -100%) rotate(-45deg);
+  width: 1rem;
+}
+
+.gourmet-map__pin--active {
+  background: #24312f;
+  height: 1.25rem;
+  width: 1.25rem;
+  z-index: 2;
+}
+
+.gourmet-map__selected {
+  background: #fffdf8;
+  border: 1px solid rgba(96, 120, 111, 0.14);
+  border-radius: 8px;
+  display: grid;
+  gap: 0.25rem;
+  margin-top: 0.75rem;
+  padding: 0.875rem;
+}
+
+.gourmet-map__selected strong {
+  color: #24312f;
+  font-size: 0.9375rem;
+}
+
+.gourmet-map__selected span {
+  color: #5f6f69;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.gourmet-map__selected a {
+  color: #b94a3a;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .gourmet-lead {
   color: #5c5148;
   font-size: 0.875rem;
