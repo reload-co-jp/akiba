@@ -2188,7 +2188,22 @@ body {
 
 .gourmet-list__item {
   border-bottom: 1px solid rgba(96, 120, 111, 0.14);
+  display: flex;
+  gap: 0.75rem;
   padding: 0.75rem 0.25rem;
+}
+
+.gourmet-list__thumb {
+  border-radius: 6px;
+  flex-shrink: 0;
+  height: 64px;
+  object-fit: cover;
+  width: 64px;
+}
+
+.gourmet-list__body {
+  flex: 1;
+  min-width: 0;
 }
 
 .gourmet-list__head {

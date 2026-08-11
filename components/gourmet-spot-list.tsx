@@ -30,30 +30,42 @@ export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
 
       return (
         <li key={spot.id} className="gourmet-list__item">
-          <div className="gourmet-list__head">
-            {hasDetailPage(spot) ? (
-              <Link
-                href={`/spots/${spot.slug}/`}
-                className="gourmet-list__name gourmet-list__name--link"
-              >
-                {spot.name}
-              </Link>
-            ) : (
-              <span className="gourmet-list__name">{spot.name}</span>
-            )}
-            {cuisines.length > 0 && (
-              <span className="gourmet-list__cuisines">
-                {cuisines.map((label) => (
-                  <span key={label} className="gourmet-list__cuisine">
-                    {label}
-                  </span>
-                ))}
-              </span>
+          {spot.image && (
+            <img
+              src={spot.image.src}
+              alt={spot.image.alt}
+              className="gourmet-list__thumb"
+              loading="lazy"
+              width={96}
+              height={96}
+            />
+          )}
+          <div className="gourmet-list__body">
+            <div className="gourmet-list__head">
+              {hasDetailPage(spot) ? (
+                <Link
+                  href={`/spots/${spot.slug}/`}
+                  className="gourmet-list__name gourmet-list__name--link"
+                >
+                  {spot.name}
+                </Link>
+              ) : (
+                <span className="gourmet-list__name">{spot.name}</span>
+              )}
+              {cuisines.length > 0 && (
+                <span className="gourmet-list__cuisines">
+                  {cuisines.map((label) => (
+                    <span key={label} className="gourmet-list__cuisine">
+                      {label}
+                    </span>
+                  ))}
+                </span>
+              )}
+            </div>
+            {details.length > 0 && (
+              <p className="gourmet-list__meta">{details.join("／")}</p>
             )}
           </div>
-          {details.length > 0 && (
-            <p className="gourmet-list__meta">{details.join("／")}</p>
-          )}
         </li>
       )
     })}
