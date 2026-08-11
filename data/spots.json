@@ -1618,7 +1618,7 @@
     "slug": "sundubu-nakayama-akihabara",
     "category": "グルメ・カフェ",
     "description": "韓国料理・スンドゥブ（豆腐チゲ）専門店。秋葉原エリアの韓国グルメスポットとして知られる。",
-    "address": "東京都千代田区外神田1-7-5",
+    "address": "東京都千代田区外神田4-2-6 AKIBA426ビル1F",
     "access": "JR秋葉原駅 電気街口 徒歩4分",
     "hours": "11:00〜22:00",
     "closed": "不定休",
@@ -3428,23 +3428,6 @@
     ],
     "hours": "月〜木・日・祝・祝前日 11:00〜24:00 / 金・土 11:00〜翌1:00",
     "closed": "年中無休"
-  },
-  {
-    "id": 130,
-    "name": "Pepper Lunch",
-    "slug": "osm-node-1915016877",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの鉄板焼き店",
-    "lat": 35.697695,
-    "lng": 139.771496,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/1915016877",
-    "cuisine": [
-      "teppanyaki"
-    ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
   },
   {
     "id": 131,
@@ -6507,8 +6490,9 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-27 石鍋ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金10:00〜翌3:00 / 土日祝10:00〜23:00"
   },
   {
     "id": 308,
@@ -6524,8 +6508,9 @@
     "cuisine": [
       "italian"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-25 KTビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜22:00"
   },
   {
     "id": 309,
@@ -6541,8 +6526,9 @@
     "cuisine": [
       "chinese"
     ],
-    "address": "東京都千代田区神田佐久間町二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町2-18",
+    "addressSource": "gsi-reverse",
+    "access": "JR山手線秋葉原駅 徒歩4分"
   },
   {
     "id": 310,
@@ -6558,8 +6544,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町2-18 モリモトビルB1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金・祝前日17:30〜23:30（L.O.22:30、ドリンクL.O.23:00）/ 土17:30〜23:00（L.O.22:00）"
   },
   {
     "id": 311,
@@ -6575,8 +6562,10 @@
     "cuisine": [
       "soba"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-19 山中ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜土7:00〜22:30 / 日祝7:00〜22:00",
+    "closed": "無休"
   },
   {
     "id": 312,
@@ -6592,8 +6581,10 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田練塀町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田練塀町66",
+    "addressSource": "gsi-reverse",
+    "access": "秋葉原駅A3出口 徒歩2分",
+    "hours": "月〜木17:00〜23:00 / 金17:00〜23:30 / 土16:00〜22:30 / 日祝16:00〜22:00"
   },
   {
     "id": 313,
@@ -6627,8 +6618,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-3 小木曽ビル5F",
+    "addressSource": "gsi-reverse",
+    "hours": "日〜木12:00〜21:00 / 金土祝前日12:00〜22:00"
   },
   {
     "id": 315,
@@ -6644,8 +6636,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-3 小木曽ビル3F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日11:30〜23:00"
   },
   {
     "id": 316,
@@ -6678,8 +6671,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-3 秋葉原SILビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "10:00〜21:00（最終入店20:30）",
+    "closed": "無休"
   },
   {
     "id": 318,
@@ -6695,8 +6690,10 @@
     "cuisine": [
       "italian"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-19 山中ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00",
+    "closed": "不定休"
   },
   {
     "id": 319,
@@ -6712,8 +6709,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-2-3 土屋ビル2F〜4F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日16:00〜22:00 / 土日13:00〜22:00",
+    "closed": "月曜"
   },
   {
     "id": 320,
@@ -6729,7 +6728,7 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-6-7 秋葉原センタービル4F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -6746,8 +6745,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-5-8 末初ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜18:00",
+    "closed": "無休"
   },
   {
     "id": 322,
@@ -6763,8 +6764,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-8-17 渡辺ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "16:00〜翌4:00"
   },
   {
     "id": 323,
@@ -6781,24 +6783,8 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 324,
-    "name": "COLLABO CAFE HONPO",
-    "slug": "osm-node-5181116186",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.700617,
-    "lng": 139.772051,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5181116186",
-    "cuisine": [
-      "cafe"
-    ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "平日11:00〜22:00（L.O.21:30）/ 土日祝10:00〜20:00（L.O.19:30）"
   },
   {
     "id": 325,
@@ -6814,8 +6800,9 @@
     "cuisine": [
       "ramen"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-3-11",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜翌2:00（日は11:00〜20:00）"
   },
   {
     "id": 326,
@@ -6832,24 +6819,8 @@
       "bar"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 327,
-    "name": "東京スタミナカレー365",
-    "slug": "osm-node-5181116192",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカレー店",
-    "lat": 35.700373,
-    "lng": 139.772,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5181116192",
-    "cuisine": [
-      "curry"
-    ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木11:30〜23:00（L.O.22:30）/ 金土11:30〜23:30（料理L.O.22:30、ドリンクL.O.23:00）/ 日11:30〜22:00（L.O.21:30）"
   },
   {
     "id": 328,
@@ -6865,8 +6836,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-2-6 AKIBA426ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金ランチ11:30〜13:30 / 月〜土・祝ディナー15:30〜23:00（L.O.22:30、ドリンクL.O.22:00）/ 土・祝ランチ12:00〜13:30"
   },
   {
     "id": 329,
@@ -6882,8 +6854,9 @@
     "cuisine": [
       "unagi"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-3-11 TSHビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:00"
   },
   {
     "id": 330,
@@ -6899,7 +6872,9 @@
     "address": "東京都千代田区神田花岡町1-1",
     "cuisine": [
       "donut"
-    ]
+    ],
+    "hours": "10:30〜21:00",
+    "closed": "施設の休館日に準ずる"
   },
   {
     "id": 331,
@@ -6915,8 +6890,9 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区神田松永町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田松永町18-1 ビオレ秋葉原1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜翌4:00（毎日）"
   },
   {
     "id": 332,
@@ -6932,8 +6908,10 @@
     "cuisine": [
       "chinese"
     ],
-    "address": "東京都千代田区神田和泉町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田和泉町1-3-6 エンドウビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金11:30〜14:00（L.O.13:30）・16:00〜23:30（L.O.23:00）/ 土15:00〜23:00（L.O.22:30）",
+    "closed": "日曜・祝日"
   },
   {
     "id": 333,
@@ -6949,8 +6927,9 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田2-9-9 glan+Akihabara B1",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜水・金〜日・祝20:00〜翌1:00（L.O.翌0:30、ドリンクL.O.翌0:45）"
   },
   {
     "id": 334,
@@ -6966,7 +6945,7 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-2-14",
     "addressSource": "gsi-reverse"
   },
   {
@@ -6983,8 +6962,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-15-6 秋葉原M2ビル6F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木17:00〜23:00 / 金17:00〜翌4:00 / 土16:00〜翌4:00 / 日16:00〜23:00"
   },
   {
     "id": 336,
@@ -7034,8 +7014,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田平河町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町2-11 秋葉原ビル2F・3F・4F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木11:30〜25:00 / 金11:30〜29:00 / 土12:00〜24:00 / 日12:00〜14:00・15:00〜24:00 / 祝11:30〜14:00・15:00〜24:00"
   },
   {
     "id": 339,
@@ -7051,8 +7032,10 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町2-1",
+    "addressSource": "gsi-reverse",
+    "hours": "17:00〜23:00（祝日は〜22:00）",
+    "closed": "無休"
   },
   {
     "id": 340,
@@ -7068,8 +7051,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-7-7 MTビル10F",
+    "addressSource": "gsi-reverse",
+    "access": "JR秋葉原駅 電気街口 徒歩3分"
   },
   {
     "id": 341,
@@ -7082,8 +7066,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5307660946",
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-11-2",
+    "addressSource": "gsi-reverse",
+    "hours": "平日10:00〜18:30 / 土日祝11:30〜18:30（共にL.O.18:00）",
+    "closed": "水曜・木曜"
   },
   {
     "id": 342,
@@ -7114,8 +7100,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5317636173",
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-2-6",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜15:30",
+    "closed": "日曜・祝日"
   },
   {
     "id": 344,
@@ -7128,8 +7116,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5317636174",
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-11-4 アパホテル秋葉原駅電気街口1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜22:00（L.O.21:30）"
   },
   {
     "id": 345,
@@ -7145,7 +7134,9 @@
     "address": "東京都千代田区外神田三丁目2-7",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "hours": "平日17:00〜23:00 / 土日祝12:00〜23:00（モーニング木〜日8:00〜11:00）",
+    "closed": "水曜"
   },
   {
     "id": 346,
@@ -7161,8 +7152,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-16-13 FTビル9F",
+    "addressSource": "gsi-reverse",
+    "hours": "17:00〜翌5:00",
+    "closed": "なし"
   },
   {
     "id": 347,
@@ -7178,24 +7171,7 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 348,
-    "name": "もふもふバニー",
-    "slug": "osm-node-5334276817",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.702058,
-    "lng": 139.77038,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5334276817",
-    "cuisine": [
-      "cafe"
-    ],
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-16-13 FTビル4F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -7212,8 +7188,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-6-10 リバティ9号館7F",
+    "addressSource": "gsi-reverse",
+    "hours": "15:00〜翌5:00（土日祝12:00開店 / 火〜木23:00閉店 / 祝前日翌5:00閉店）",
+    "closed": "なし"
   },
   {
     "id": 350,
@@ -7230,8 +7208,10 @@
       "chinese",
       "noodle"
     ],
-    "address": "東京都千代田区神田松永町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田松永町4-7 EIWA秋葉原ビル",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜水10:00〜翌4:00 / 木〜土24時間営業 / 日〜23:00",
+    "closed": "無休"
   },
   {
     "id": 351,
@@ -7247,8 +7227,10 @@
     "cuisine": [
       "kebab"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-8-10 バウハウスビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:00",
+    "closed": "無休"
   },
   {
     "id": 352,
@@ -7264,8 +7246,9 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-5-7 宝ビル5F",
+    "addressSource": "gsi-reverse",
+    "access": "秋葉原駅 徒歩5分"
   },
   {
     "id": 353,
@@ -7278,29 +7261,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5479310976",
-    "hours": "12:00-23:00",
+    "hours": "12:00〜23:00",
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 354,
-    "name": "足湯喫茶 浪漫亭",
-    "slug": "osm-node-5479310977",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.699597,
-    "lng": 139.769325,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5479310977",
-    "hours": "12:00-23:00",
-    "cuisine": [
-      "cafe"
-    ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-6-1 1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -7317,8 +7282,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-13-5 松井ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "13:00〜LAST",
+    "closed": "無休"
   },
   {
     "id": 356,
@@ -7334,8 +7301,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-1-3 秋葉原パークビル7F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金15:00〜close / 土日祝12:00〜close",
+    "closed": "無休"
   },
   {
     "id": 357,
@@ -7348,12 +7317,13 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5482740057",
-    "hours": "Mo-Su 12:00-22:00",
+    "hours": "15:00〜22:00（FOOD L.O.21:00、DRINK L.O.21:30）",
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-1-3 秋葉原パークビル6F",
+    "addressSource": "gsi-reverse",
+    "closed": "水曜（祝日の場合は翌木曜）"
   },
   {
     "id": 358,
@@ -7369,8 +7339,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-1-3 秋葉原パークビル4F",
+    "addressSource": "gsi-reverse",
+    "hours": "全日17:00〜翌5:00",
+    "closed": "なし"
   },
   {
     "id": 359,
@@ -7386,8 +7358,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-1-3 秋葉原パークビル3F",
+    "addressSource": "gsi-reverse",
+    "hours": "18:00〜23:00",
+    "closed": "無休"
   },
   {
     "id": 360,
@@ -7422,8 +7396,9 @@
       "burger",
       "chinese"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-7-8 インタスビル1F",
+    "addressSource": "gsi-reverse",
+    "closed": "水曜日"
   },
   {
     "id": 362,
@@ -7436,13 +7411,14 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5588956024",
-    "hours": "24/7",
+    "hours": "11:00〜23:30",
     "website": "https://gurunavi.com/en/get2536/rst/?__ngt__=TT0e3c5a55c006ac1e4a5ab1QLL--g5iK9ilt-_1jZnvh8",
     "cuisine": [
       "sushi"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-15-18 奥山ビル1・2F",
+    "addressSource": "gsi-reverse",
+    "closed": "年中無休"
   },
   {
     "id": 363,
@@ -7459,7 +7435,9 @@
       "indian"
     ],
     "address": "東京都台東区台東一丁目９番４号片岡ビル１階",
-    "addressSource": "taito-opendata"
+    "addressSource": "taito-opendata",
+    "hours": "11:00〜16:00・17:30〜21:30頃（売り切れ次第終了）",
+    "closed": "無休"
   },
   {
     "id": 364,
@@ -7475,8 +7453,10 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都台東区台東一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都台東区台東1-10-3 第95新井ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "6:30〜15:00（麺がなくなり次第終了）",
+    "closed": "日曜・祝日"
   },
   {
     "id": 365,
@@ -7490,7 +7470,9 @@
     "dataSource": "osm",
     "osmId": "node/5700964040",
     "address": "東京都台東区台東一丁目９番４号松浦ビル１階",
-    "addressSource": "taito-opendata"
+    "addressSource": "taito-opendata",
+    "hours": "11:30〜15:00（L.O.14:30）・17:00〜23:00（L.O.22:30）",
+    "closed": "日曜（臨時休業あり）"
   },
   {
     "id": 366,
@@ -7503,8 +7485,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5701181899",
-    "address": "東京都台東区台東一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都台東区台東1-10-5",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜土11:00〜21:00 / 日11:00〜17:00",
+    "closed": "なし"
   },
   {
     "id": 367,
@@ -7520,8 +7504,10 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町2-17",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜土16:00〜23:20 / 日祝16:00〜23:00",
+    "closed": "年末年始"
   },
   {
     "id": 368,
@@ -7555,8 +7541,9 @@
       "noodle",
       "soba"
     ],
-    "address": "東京都千代田区神田和泉町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田和泉町1-3-5 サンフランビル2号館",
+    "addressSource": "gsi-reverse",
+    "hours": "昼11:00〜16:00 / 夜17:30〜21:30"
   },
   {
     "id": 370,
@@ -7572,8 +7559,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-7-14 MYビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日15:00〜21:00 / 土日祝12:00〜20:00（最終入店19:00）"
   },
   {
     "id": 371,
@@ -7620,8 +7608,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田和泉町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田和泉町1-3-3 タイワビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金7:30〜20:00（L.O.19:30）/ 土日祝9:00〜19:00（L.O.18:30）"
   },
   {
     "id": 374,
@@ -7634,12 +7623,12 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6056089229",
-    "hours": "Mo-Su 11:00-22:30",
+    "hours": "11:00〜22:30（L.O.22:00）",
     "cuisine": [
       "curry",
       "japanese"
     ],
-    "address": "東京都千代田区神田松永町",
+    "address": "東京都千代田区神田松永町16 内尾松永ビル1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -7653,8 +7642,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6068196605",
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDX AKIBA_ICHI 3F",
+    "addressSource": "gsi-reverse",
+    "hours": "ランチ11:00〜14:00（L.O.14:00）/ ディナー17:00〜23:00（L.O.22:00）"
   },
   {
     "id": 376,
@@ -7671,7 +7661,8 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "平日17:00〜23:00 / 土日祝13:00〜23:00"
   },
   {
     "id": 377,
@@ -7684,9 +7675,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6114555923",
-    "hours": "Mo-Sa 11:00-14:00,17:00-23:30; Su,PH off",
-    "address": "東京都千代田区神田練塀町",
-    "addressSource": "gsi-reverse"
+    "hours": "月〜金ランチ11:30〜13:30・ディナー17:00〜24:00（L.O.23:00、ドリンクL.O.23:30）/ 土17:00〜23:00（L.O.22:00、ドリンクL.O.22:30）",
+    "address": "東京都千代田区神田練塀町67",
+    "addressSource": "gsi-reverse",
+    "closed": "日曜・祝日"
   },
   {
     "id": 378,
@@ -7699,12 +7691,12 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6235520163",
-    "hours": "06:30-24:00",
+    "hours": "6:30〜22:30（毎日）",
     "cuisine": [
       "western",
       "japanese"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-18-18 秋葉原駅前プラザ4F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -7721,8 +7713,9 @@
     "cuisine": [
       "sushi"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-18 BiTO AKIBA PLAZA 3F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金11:00〜23:00 / 土日祝10:00〜23:00"
   },
   {
     "id": 380,
@@ -7738,22 +7731,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 381,
-    "name": "タニマ",
-    "slug": "osm-node-6235888560",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
-    "lat": 35.701088,
-    "lng": 139.772033,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/6235888560",
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-2-6 AKIBA426ビル5F",
+    "addressSource": "gsi-reverse",
+    "access": "JR秋葉原駅 電気街口 徒歩2分",
+    "hours": "通常18:00〜29:00（貸切予約時11:00〜29:00）"
   },
   {
     "id": 382,
@@ -7769,8 +7750,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-9 松井ビル3F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日16:00〜23:00 / 土日12:00〜23:00",
+    "closed": "無休"
   },
   {
     "id": 383,
@@ -7787,7 +7770,8 @@
       "sushi"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金16:00〜23:00 / 土日祝14:00〜23:00"
   },
   {
     "id": 384,
@@ -7804,8 +7788,9 @@
       "japanese",
       "shabu_shabu"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-13-1 Akiba1131ビルディング6F・7F・8F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金16:00〜23:00 / 土日祝14:00〜23:00"
   },
   {
     "id": 385,
@@ -7818,11 +7803,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6241716987",
-    "hours": "Mo-Fr 16:00-23:30;Sa,Su,PH 15:00-23:30",
+    "hours": "月〜木16:00〜23:00（L.O.22:30）/ 金16:00〜23:30（L.O.22:45）/ 土日祝12:00〜23:30（L.O.22:45）",
     "cuisine": [
       "regional"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-13-1 Akiba1131.bldg 5F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -7839,8 +7824,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-18 秋葉原駅前プラザビル9F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日ランチ11:30〜14:30（L.O.14:00）/ 平日・土曜ディナー17:00〜22:00（L.O.21:00）/ 金・祝前日17:00〜23:00（L.O.22:00）"
   },
   {
     "id": 387,
@@ -7853,29 +7839,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6243154795",
-    "hours": "Mo-Fr 11:00-15:00,17:00-23:00;Sa,Su,PH 11:30-23:00",
+    "hours": "平日11:30〜15:00・17:00〜23:00 / 土日祝11:30〜23:00",
     "cuisine": [
       "yakiniku"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 388,
-    "name": "小割烹おはし",
-    "slug": "osm-node-6243154798",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
-    "lat": 35.698791,
-    "lng": 139.772304,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/6243154798",
-    "hours": "11:30-15:30,17:30-23:30",
-    "cuisine": [
-      "izakaya"
-    ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-18-18 BiTO AKIBA PLAZA 8F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -7909,8 +7877,10 @@
     "cuisine": [
       "ramen"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-3-12",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:00",
+    "closed": "月曜（祝日の場合は翌日）"
   },
   {
     "id": 391,
@@ -7943,8 +7913,10 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-3-12",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金17:00〜22:30 / 土17:00〜22:00",
+    "closed": "日曜・祝日"
   },
   {
     "id": 393,
@@ -7957,12 +7929,12 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6331247199",
-    "hours": "12:00-22:00",
+    "hours": "〜21:00（アルコール〜20:00）",
     "website": "https://akibazettai.com",
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田3-1-15 箸勝ビル2F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -7979,8 +7951,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-6-3 アキバあそび館ビル3F",
+    "addressSource": "gsi-reverse",
+    "access": "秋葉原駅 電気街口（北側） 徒歩4分",
+    "hours": "18:00〜25:00"
   },
   {
     "id": 395,
@@ -7996,8 +7970,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-6-3 アキバあそび館4F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日17:00〜23:00 / 土日祝15:00〜23:00"
   },
   {
     "id": 396,
@@ -8013,8 +7988,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-6-3 アキバあそび館5F",
+    "addressSource": "gsi-reverse",
+    "hours": "火〜金14:00〜22:00 / 土日祝13:00〜22:00"
   },
   {
     "id": 397,
@@ -8047,7 +8023,7 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-6-3 アキバあそび館ビル7F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8064,8 +8040,9 @@
     "cuisine": [
       "crepe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-3-3 ドン・キホーテ秋葉原店内",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00"
   },
   {
     "id": 400,
@@ -8081,8 +8058,9 @@
     "cuisine": [
       "crepe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-3-3 ドン・キホーテ秋葉原店1F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日10:30〜21:30 / 休日10:00〜21:45"
   },
   {
     "id": 401,
@@ -8098,8 +8076,10 @@
     "cuisine": [
       "yakiniku"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-3-3",
+    "addressSource": "gsi-reverse",
+    "access": "JR秋葉原駅 電気街出口 徒歩5分 / 東京メトロ末広町駅1番出口 徒歩3分",
+    "hours": "11:00〜21:00（毎日）"
   },
   {
     "id": 402,
@@ -8117,7 +8097,7 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
+    "address": "東京都千代田区外神田6-14-2 サカイ末広ビル2F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8131,12 +8111,12 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/6517857691",
-    "hours": "12:00-22:00",
+    "hours": "〜22:00",
     "website": "https://akibazettai.com",
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-1-15 箸勝ビル2F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8154,7 +8134,9 @@
       "noodle"
     ],
     "address": "東京都千代田区神田和泉町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金6:00〜19:00 / 土日祝6:00〜15:00",
+    "closed": "無休"
   },
   {
     "id": 405,
@@ -8187,8 +8169,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1 1F",
+    "addressSource": "gsi-reverse",
+    "hours": "8:00〜22:00",
+    "closed": "不定休（アトレ秋葉原1休館日に準ずる）"
   },
   {
     "id": 407,
@@ -8204,7 +8188,7 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田二丁目",
+    "address": "東京都千代田区外神田2-14-5 B1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8218,46 +8202,13 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/7626507723",
-    "hours": "11:00-19:00",
+    "hours": "平日8:00〜19:00 / 土日祝11:00〜19:00",
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 409,
-    "name": "JY03 B@SE",
-    "slug": "osm-node-7836344158",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
-    "lat": 35.697718,
-    "lng": 139.775967,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/7836344158",
-    "cuisine": [
-      "izakaya"
-    ],
-    "address": "東京都千代田区神田佐久間町二丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 410,
-    "name": "杉のあかり",
-    "slug": "osm-node-7836344159",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
-    "lat": 35.697713,
-    "lng": 139.775935,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/7836344159",
-    "cuisine": [
-      "izakaya"
-    ],
-    "address": "東京都千代田区神田佐久間町二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-7-3",
+    "addressSource": "gsi-reverse",
+    "closed": "木曜"
   },
   {
     "id": 411,
@@ -8271,7 +8222,9 @@
     "dataSource": "osm",
     "osmId": "node/7836344160",
     "address": "東京都千代田区神田平河町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "11:30〜14:30（L.O.14:00）・18:00〜20:00（L.O.19:30）",
+    "closed": "土曜・日曜・祝日"
   },
   {
     "id": 412,
@@ -8287,8 +8240,9 @@
     "cuisine": [
       "sushi"
     ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba8F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（L.O.22:30、ドリンクL.O.22:30）"
   },
   {
     "id": 413,
@@ -8304,8 +8258,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-6-5 アキバトリム2F",
+    "addressSource": "gsi-reverse",
+    "hours": "7:00〜21:00（L.O.20:00）",
+    "closed": "無休"
   },
   {
     "id": 414,
@@ -8318,7 +8274,8 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/8933745572",
-    "address": "東京都千代田区外神田一丁目15-16 秋葉原ラジオ会館"
+    "address": "東京都千代田区外神田一丁目15-16 秋葉原ラジオ会館",
+    "hours": "月〜金12:00〜22:30（L.O.22:00）/ 土11:30〜22:30（L.O.22:00）/ 日祝11:30〜21:30（L.O.21:00）"
   },
   {
     "id": 415,
@@ -8351,8 +8308,9 @@
     "cuisine": [
       "sushi"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA B1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金11:00〜23:00 / 土日祝10:30〜23:00"
   },
   {
     "id": 417,
@@ -8368,8 +8326,9 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 4F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00"
   },
   {
     "id": 418,
@@ -8385,8 +8344,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 新秋葉原ビルB1",
+    "addressSource": "gsi-reverse",
+    "hours": "7:30〜22:00",
+    "closed": "無休"
   },
   {
     "id": 419,
@@ -8402,25 +8363,10 @@
     "cuisine": [
       "indian"
     ],
-    "address": "東京都千代田区神田須田町一丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 420,
-    "name": "INTERSECTION CAFE",
-    "slug": "osm-node-9019515678",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.696807,
-    "lng": 139.769122,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/9019515678",
-    "cuisine": [
-      "cafe"
-    ],
-    "address": "東京都千代田区神田須田町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田須田町1-21-4 神田NKビル B1F・1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜15:00（L.O.14:30）・17:00〜23:00（L.O.22:30）",
+    "closed": "無休（年末年始あり）"
   },
   {
     "id": 421,
@@ -8433,11 +8379,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9043566646",
-    "hours": "13:00-23:00",
+    "hours": "平日17:00〜23:00 / 土日祝14:00〜23:00",
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-8-4 銭谷ビル4F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8451,11 +8397,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9043566647",
-    "hours": "13:00-23:00",
+    "hours": "13:00〜23:00",
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-8-4 銭谷ビル2F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8472,8 +8418,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-1-10 オーク秋葉原5F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木・日祝17:00〜0:00 / 金土祝前日17:00〜5:00",
+    "closed": "年中無休"
   },
   {
     "id": 424,
@@ -8489,8 +8437,9 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-8-3 野水ビル4F",
+    "addressSource": "gsi-reverse",
+    "hours": "月16:00〜23:00 / 火水木11:00〜23:00 / 金土祝前日11:00〜翌5:00 / 日祝11:00〜23:00"
   },
   {
     "id": 425,
@@ -8506,8 +8455,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-7-12 AKIHABARA CROSS",
+    "addressSource": "gsi-reverse",
+    "hours": "平日17:00〜22:00 / 土15:00〜22:00 / 日13:00〜21:00"
   },
   {
     "id": 426,
@@ -8523,7 +8473,7 @@
     "cuisine": [
       "curry"
     ],
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-5-3",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8538,45 +8488,11 @@
     "dataSource": "osm",
     "osmId": "node/9103711351",
     "address": "東京都千代田区外神田四丁目2-7",
-    "hours": "11:00-22:00",
+    "hours": "11:00〜23:00",
     "cuisine": [
       "ramen"
-    ]
-  },
-  {
-    "id": 428,
-    "name": "春代",
-    "slug": "osm-node-9103711352",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
-    "lat": 35.700202,
-    "lng": 139.771993,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/9103711352",
-    "cuisine": [
-      "izakaya"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 429,
-    "name": "中山豆腐店",
-    "slug": "osm-node-9103711353",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの韓国料理店",
-    "lat": 35.700217,
-    "lng": 139.772,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/9103711353",
-    "cuisine": [
-      "tofu",
-      "korean"
-    ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "closed": "無休"
   },
   {
     "id": 430,
@@ -8592,42 +8508,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 431,
-    "name": "Maison de ROZE",
-    "slug": "osm-node-9103723728",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.701233,
-    "lng": 139.772043,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/9103723728",
-    "cuisine": [
-      "cafe"
-    ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 432,
-    "name": "マジカルツインテール",
-    "slug": "osm-node-9103735017",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.701025,
-    "lng": 139.772089,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/9103735017",
-    "cuisine": [
-      "cafe"
-    ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-7 MTビル3F",
+    "addressSource": "gsi-reverse",
+    "hours": "15:00〜last"
   },
   {
     "id": 433,
@@ -8643,8 +8526,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-8 A-FRONT 5F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日18:00〜23:00 / 土日祝13:00〜23:00"
   },
   {
     "id": 434,
@@ -8674,7 +8558,7 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9103735021",
-    "address": "東京都千代田区外神田四丁目",
+    "address": "東京都千代田区外神田4-4-8",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8691,8 +8575,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-8 A-FRONT 1F",
+    "addressSource": "gsi-reverse",
+    "hours": "〜21:00"
   },
   {
     "id": 437,
@@ -8708,8 +8593,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-16 KDX秋葉原ビル5F",
+    "addressSource": "gsi-reverse",
+    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
   },
   {
     "id": 438,
@@ -8725,8 +8611,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル5F",
+    "addressSource": "gsi-reverse",
+    "hours": "17:00〜23:30"
   },
   {
     "id": 439,
@@ -8742,8 +8629,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル4F",
+    "addressSource": "gsi-reverse",
+    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
   },
   {
     "id": 440,
@@ -8759,8 +8647,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル3F",
+    "addressSource": "gsi-reverse",
+    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
   },
   {
     "id": 441,
@@ -8776,8 +8665,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日17:00〜23:30 / 土日16:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
   },
   {
     "id": 442,
@@ -8793,8 +8683,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-15-3 TC第1秋葉原昭和通り口ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日17:00〜L.O.22:30 / 土15:00〜L.O.21:30 / 日15:00〜L.O.20:30",
+    "closed": "なし"
   },
   {
     "id": 443,
@@ -8810,7 +8702,7 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
+    "address": "東京都千代田区神田練塀町 富士ソフト秋葉原ビル1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -8844,8 +8736,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原6F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日13:00〜21:00 / 土日祝11:00〜21:00"
   },
   {
     "id": 446,
@@ -8861,8 +8754,10 @@
     "cuisine": [
       "chinese"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原5F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜翌5:00",
+    "closed": "無休"
   },
   {
     "id": 447,
@@ -8875,8 +8770,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9103752890",
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-13",
+    "addressSource": "gsi-reverse",
+    "hours": "月木日17:00〜23:00 / 金17:00〜翌1:00 / 土16:00〜23:00 / 祝17:00〜23:00 / 祝前日17:00〜翌1:00"
   },
   {
     "id": 448,
@@ -8892,8 +8788,9 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原2F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金・祝前日15:00〜翌5:00 / 土日祝12:00〜翌5:00"
   },
   {
     "id": 449,
@@ -8909,8 +8806,10 @@
     "cuisine": [
       "sushi"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-6-5 アキバ・トリム5F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜14:00・17:00〜22:30（L.O.22:00）/ 土11:00〜22:30（L.O.22:00）/ 日祝11:00〜22:00（L.O.21:30）",
+    "closed": "元日"
   },
   {
     "id": 450,
@@ -8926,8 +8825,10 @@
     "cuisine": [
       "seafood"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-16-10 山本無線駅前ビル",
+    "addressSource": "gsi-reverse",
+    "hours": "24時間営業",
+    "closed": "無休"
   },
   {
     "id": 451,
@@ -8943,8 +8844,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田和泉町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田和泉町1-2-22",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金11:30〜16:00・17:00〜23:00 / 土11:30〜16:00"
   },
   {
     "id": 452,
@@ -8960,8 +8862,10 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田和泉町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田和泉町1-2-21 三笠ビル",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜15:00・17:00〜22:00",
+    "closed": "日曜"
   },
   {
     "id": 453,
@@ -8977,8 +8881,10 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba8F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（L.O.22:00）",
+    "closed": "無休（施設に準ずる）"
   },
   {
     "id": 454,
@@ -8994,7 +8900,7 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-6-7 秋葉原センタービル3F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9012,8 +8918,9 @@
       "chinese",
       "gyoza"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1店1F",
+    "addressSource": "gsi-reverse",
+    "hours": "10:00〜21:30（L.O.21:00）"
   },
   {
     "id": 456,
@@ -9029,8 +8936,9 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1-1F",
+    "addressSource": "gsi-reverse",
+    "hours": "10:00〜22:30（L.O.22:00）"
   },
   {
     "id": 457,
@@ -9046,8 +8954,9 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシアキバ8F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（毎日）"
   },
   {
     "id": 458,
@@ -9060,8 +8969,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9459285068",
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-6-5",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金12:00〜15:00（L.O.14:30）・17:00〜22:00（L.O.21:30）/ 土12:00〜15:00（L.O.14:30）",
+    "closed": "日曜"
   },
   {
     "id": 459,
@@ -9077,7 +8988,8 @@
     "address": "東京都千代田区神田花岡町1-1",
     "cuisine": [
       "takoyaki"
-    ]
+    ],
+    "hours": "10:30〜21:00（毎日）"
   },
   {
     "id": 460,
@@ -9093,7 +9005,7 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-7-8 DB末広町ビル1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9110,8 +9022,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-7-8 DB末広町2F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日14:00〜28:30 / 土日12:00〜28:30"
   },
   {
     "id": 462,
@@ -9243,8 +9156,8 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9654182669",
-    "hours": "Mo,Fr 14:00-22:00; We 17:00-22:00; Sa,Su 12:00-22:00",
-    "address": "東京都千代田区外神田一丁目",
+    "hours": "14:00〜23:00",
+    "address": "東京都千代田区外神田1-9-11 神タワービル4F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9258,11 +9171,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9721674058",
-    "hours": "24/7",
+    "hours": "5:00〜25:00（毎日）",
     "cuisine": [
       "burger"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
+    "address": "東京都千代田区神田佐久間町1-21",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9280,8 +9193,9 @@
       "kebab",
       "turkish"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-3-5",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜22:00頃"
   },
   {
     "id": 472,
@@ -9294,10 +9208,10 @@
     "dataSource": "osm",
     "osmId": "node/10137262917",
     "address": "東京都千代田区外神田1-3-4 第3ナガシマビル1F",
-    "hours": "月〜金 11:30〜21:30（L.O.21:00） / 土日祝 11:00〜21:30（L.O.21:00）",
+    "hours": "月〜金11:30〜21:30（L.O.21:00）/ 土日祝11:00〜21:30（L.O.21:00）",
     "website": "https://www.grandcuisine.jp/archives/shop/58",
     "access": "JR秋葉原駅 電気街口 徒歩3分",
-    "closed": "無休",
+    "closed": "年中無休",
     "cuisine": [
       "ramen"
     ],
@@ -9326,28 +9240,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10137263017",
-    "hours": "Mo-Sa 07:00-22:00; Su 07:00-21:00",
+    "hours": "月〜水・土日7:00〜21:00 / 木金7:00〜22:00",
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 474,
-    "name": "焼肉ライク",
-    "slug": "osm-node-10138985317",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの焼肉店",
-    "lat": 35.702143,
-    "lng": 139.771893,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/10138985317",
-    "cuisine": [
-      "yakiniku"
-    ],
-    "address": "東京都千代田区外神田四丁目",
+    "address": "東京都千代田区外神田1-9-1 住友不動産秋葉原ファーストビル・テラス1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9378,7 +9275,7 @@
     "dataSource": "osm",
     "osmId": "node/10232149780",
     "address": "東京都千代田区外神田1-1-10 パセラリゾーツAKIBAマルチエンターテインメント2階 コラボタウンパセラボ内",
-    "hours": "公式サイト要確認",
+    "hours": "平日11:30〜21:00（L.O.20:20）/ 土日祝10:00〜22:30（L.O.21:50）",
     "website": "https://www.pasela.co.jp/paselabo_shop/grandcypher-kitchen/",
     "access": "JR秋葉原駅 電気街口（北側） 徒歩3分",
     "closed": "公式サイト要確認",
@@ -9415,7 +9312,7 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田松永町",
+    "address": "東京都千代田区神田松永町17-12",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9432,8 +9329,9 @@
     "cuisine": [
       "yakiniku"
     ],
-    "address": "東京都千代田区神田練塀町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田練塀町45 ライオンズマンション秋葉原B1",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金・祝前日16:00〜22:15（L.O.21:15）/ 土祝15:30〜22:00"
   },
   {
     "id": 479,
@@ -9449,8 +9347,9 @@
     "cuisine": [
       "yakiniku"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-4-11 2F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（L.O.22:30）"
   },
   {
     "id": 480,
@@ -9463,8 +9362,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10284192272",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-2-3 土屋ビルB1",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜土11:00〜23:00 / 日祝11:00〜22:00",
+    "closed": "なし"
   },
   {
     "id": 481,
@@ -9480,7 +9381,7 @@
     "cuisine": [
       "yakiniku"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-2-3 土屋ビル1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9497,7 +9398,7 @@
     "hours": "11:00〜22:00",
     "website": "https://menya634.co.jp/storelist/akihabara2/",
     "access": "JR秋葉原駅 電気街口 徒歩3分",
-    "closed": "年中無休",
+    "closed": "無休",
     "cuisine": [
       "ramen"
     ],
@@ -9529,7 +9430,7 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-13-3 ヒューリック秋葉原中央通りビル8F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9546,8 +9447,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-13-3 日拓秋葉原中央通りビル",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木17:00〜翌2:00 / 金17:00〜翌4:00 / 土12:00〜翌4:00 / 日祝12:00〜翌2:00"
   },
   {
     "id": 485,
@@ -9563,8 +9465,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 4F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金16:00〜23:00 / 土日祝15:00〜23:00"
   },
   {
     "id": 486,
@@ -9580,8 +9483,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-6-3 アキバあそび館1F",
+    "addressSource": "gsi-reverse",
+    "hours": "15:00〜24:00"
   },
   {
     "id": 487,
@@ -9614,8 +9518,9 @@
     "cuisine": [
       "curry"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-11-7",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:30（毎日）"
   },
   {
     "id": 489,
@@ -9631,8 +9536,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田須田町二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田須田町2-1 BP秋葉原ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日16:00〜23:00 / 休日14:00〜23:00",
+    "closed": "年中無休"
   },
   {
     "id": 490,
@@ -9648,8 +9555,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-4-2 共益外神田ビル",
+    "addressSource": "gsi-reverse",
+    "hours": "平日15:00〜22:00 / 土日祝12:00〜22:00"
   },
   {
     "id": 491,
@@ -9662,11 +9570,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10799430305",
-    "hours": "Mo-Su 11:00-11:00",
+    "hours": "平日11:00〜23:00 / 土10:30〜23:00 / 日祝10:30〜23:00",
     "cuisine": [
       "buffet"
     ],
-    "address": "東京都千代田区神田花岡町",
+    "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2 4F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9683,8 +9591,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-14-5 久郷ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金17:00〜23:00 / 土日15:00〜23:00"
   },
   {
     "id": 493,
@@ -9697,8 +9606,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10968697005",
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-8-3 ダイハツ秋葉原ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日ランチ11:30〜14:30・ディナー17:00〜23:00 / 土11:30〜23:00 / 日祝11:30〜22:00"
   },
   {
     "id": 494,
@@ -9711,8 +9621,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/10991114503",
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-13-5 松井ビルB1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金10:30〜22:00（L.O.21:30）/ 土日祝10:30〜21:00（L.O.20:30）"
   },
   {
     "id": 495,
@@ -9728,8 +9639,9 @@
     "cuisine": [
       "yakiniku"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-15-18 奥山ビル7F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金17:00〜24:00 / 土日祝16:00〜24:00"
   },
   {
     "id": 496,
@@ -9742,8 +9654,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11017003641",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-15-18 奥山ビルB1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜22:00",
+    "closed": "年中無休"
   },
   {
     "id": 497,
@@ -9759,8 +9673,9 @@
     "cuisine": [
       "teppanyaki"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-15-1",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（毎日）"
   },
   {
     "id": 498,
@@ -9776,8 +9691,9 @@
     "cuisine": [
       "korean"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-15-18 奥山ビル3F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木17:00〜23:50 / 金17:00〜翌4:00 / 土13:00〜翌4:00 / 日祝13:00〜23:30"
   },
   {
     "id": 499,
@@ -9793,8 +9709,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-15-18 奥山ビル6F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木・土日16:00〜翌1:00（L.O.0:00、ドリンクL.O.0:30）/ 金16:00〜翌5:00（L.O.4:00、ドリンクL.O.4:30）"
   },
   {
     "id": 500,
@@ -9807,7 +9724,7 @@
     "dataSource": "osm",
     "osmId": "node/11042181488",
     "address": "東京都千代田区外神田1-3-5 第二中村ビル2階",
-    "hours": "平日 17:00〜23:00 / 土日祝 15:00〜23:00",
+    "hours": "平日17:00〜23:00 / 土日祝15:00〜23:00",
     "website": "https://www.akiba-maidcafe.co.jp/ronron/",
     "cuisine": [
       "maid_cafe",
@@ -9846,8 +9763,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-2-7 TIT秋葉原3F",
+    "addressSource": "gsi-reverse",
+    "closed": "年中無休"
   },
   {
     "id": 502,
@@ -9878,13 +9796,14 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11047734019",
-    "hours": "Mo-Su 07:00-10:00,11:30-15:00,17:30-22:00",
+    "hours": "日〜土11:30〜14:00・17:30〜21:00",
     "website": "https://saas-1972.co.jp/due",
     "cuisine": [
       "italian"
     ],
-    "address": "東京都千代田区神田須田町二丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田須田町2-25-12 ホテルリソル秋葉原2F",
+    "addressSource": "gsi-reverse",
+    "closed": "月曜"
   },
   {
     "id": 504,
@@ -9901,7 +9820,8 @@
       "cafe"
     ],
     "address": "東京都千代田区神田須田町二丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木18:00〜3:00 / 金・祝前日18:00〜5:00 / 土17:00〜5:00 / 日祝17:00〜3:00"
   },
   {
     "id": 505,
@@ -9914,8 +9834,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11194950514",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 8F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）/ 土日祝15:00〜23:30",
+    "closed": "無休"
   },
   {
     "id": 506,
@@ -9928,25 +9850,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11194950515",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 507,
-    "name": "北海道",
-    "slug": "osm-node-11194950518",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
-    "lat": 35.698859,
-    "lng": 139.771813,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/11194950518",
-    "cuisine": [
-      "izakaya"
-    ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 6F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（年中無休）"
   },
   {
     "id": 508,
@@ -9959,8 +9865,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11194950519",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 3F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日ランチ11:30〜15:00（L.O.14:30）・ディナー17:00〜23:00（最終入店21:30）/ 土日祝11:30〜23:00（最終入店21:30）",
+    "closed": "ビルに準ずる"
   },
   {
     "id": 509,
@@ -9976,7 +9884,7 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-18-19 10F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -9990,8 +9898,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11194950522",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 秋葉原プロジェクトビル5F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜木ランチ11:30〜14:00・ディナー16:00〜23:30 / 金ランチ11:30〜14:00・ディナー16:00〜24:00 / 土日祝11:30〜23:30",
+    "closed": "なし"
   },
   {
     "id": 511,
@@ -10004,25 +9914,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11194950525",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 512,
-    "name": "モーゼスさんのケバブ",
-    "slug": "osm-node-11194950527",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのケバブ店",
-    "lat": 35.698889,
-    "lng": 139.771676,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/11194950527",
-    "cuisine": [
-      "kebab"
-    ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 5F",
+    "addressSource": "gsi-reverse",
+    "hours": "ランチ11:30〜15:00（L.O.14:30）/ ディナー17:00〜22:30（L.O.22:00）"
   },
   {
     "id": 513,
@@ -10038,8 +9932,9 @@
     "cuisine": [
       "takoyaki"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-18-19 Bito AKIBA 4F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日17:00〜23:00 / 土15:00〜23:00 / 日祝15:00〜22:00"
   },
   {
     "id": 514,
@@ -10057,7 +9952,8 @@
       "japanese"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "hours": "6:30〜23:30"
   },
   {
     "id": 515,
@@ -10073,8 +9969,9 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-15-1 半田ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "10:00〜21:00"
   },
   {
     "id": 516,
@@ -10090,8 +9987,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-7-9 サンビュー外神田201号",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金18:00〜22:00 / 土日祝10:00〜22:00",
+    "closed": "不定休"
   },
   {
     "id": 517,
@@ -10121,8 +10020,9 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDX2F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（日曜〜22:00）"
   },
   {
     "id": 519,
@@ -10135,8 +10035,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11276600259",
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDX2F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜22:00（L.O.）",
+    "closed": "不定休（秋葉原UDXに準ずる）"
   },
   {
     "id": 520,
@@ -10152,8 +10054,9 @@
     "cuisine": [
       "ramen"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDXビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:30 L.O.（QRコード）・22:00 L.O.（券売機）/ 日祝〜20:30 L.O.・21:00 L.O."
   },
   {
     "id": 521,
@@ -10166,8 +10069,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11276600262",
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDX2F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（ランチ11:00〜16:00）"
   },
   {
     "id": 522,
@@ -10180,8 +10084,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11276600263",
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDXビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜22:00（毎日）"
   },
   {
     "id": 523,
@@ -10197,8 +10102,10 @@
     "cuisine": [
       "italian"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-14-1 秋葉原UDXビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日ランチ11:00〜15:00（L.O.14:45）・ディナー17:00〜22:00（L.O.21:00）/ 土日11:00〜22:00",
+    "closed": "不定休（秋葉原UDXに準ずる）"
   },
   {
     "id": 524,
@@ -10214,8 +10121,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1",
+    "addressSource": "gsi-reverse",
+    "hours": "7:00〜22:30"
   },
   {
     "id": 525,
@@ -10228,11 +10136,12 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11411659359",
-    "address": "東京都千代田区外神田一丁目17-4",
+    "address": "東京都千代田区外神田1-17-4 JR東日本ホテルメッツ秋葉原1F",
     "website": "https://www.amaya-company.co.jp/shop/",
     "cuisine": [
       "sweets"
-    ]
+    ],
+    "hours": "11:00〜22:00"
   },
   {
     "id": 526,
@@ -10248,8 +10157,10 @@
     "cuisine": [
       "soba"
     ],
-    "address": "東京都千代田区神田平河町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田平河町4-8-5",
+    "addressSource": "gsi-reverse",
+    "hours": "3:45〜翌3:00",
+    "closed": "年中無休"
   },
   {
     "id": 527,
@@ -10265,8 +10176,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2店2F",
+    "addressSource": "gsi-reverse",
+    "hours": "7:00〜23:00",
+    "closed": "無休"
   },
   {
     "id": 528,
@@ -10282,8 +10195,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金7:00〜21:00 / 土日8:00〜21:00"
   },
   {
     "id": 529,
@@ -10333,8 +10247,10 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-6-7 カンダエイトビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日11:00〜22:00（L.O.21:45）/ 土日祝10:00〜22:00（L.O.21:45）",
+    "closed": "無し"
   },
   {
     "id": 532,
@@ -10350,8 +10266,9 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-16-13 1F",
+    "addressSource": "gsi-reverse",
+    "hours": "ランチ11:30〜15:00 / 夜18:00〜20:00"
   },
   {
     "id": 533,
@@ -10367,8 +10284,10 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-11-6",
+    "addressSource": "gsi-reverse",
+    "hours": "平日11:30〜15:00・17:00〜23:30 / 土日11:30〜15:00",
+    "closed": "不定休"
   },
   {
     "id": 534,
@@ -10399,8 +10318,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/11782064312",
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-10-9 TY2ビル2・3F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金10:30〜23:00（L.O.22:45）/ 土日祝9:00〜23:00（L.O.22:45）"
   },
   {
     "id": 536,
@@ -10417,8 +10337,10 @@
       "indian",
       "curry"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-7-9 サンビュー外神田1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金12:00〜16:00・18:00〜21:00 / 土12:00〜16:00・18:00〜20:00 / 祝12:00〜19:00",
+    "closed": "日曜"
   },
   {
     "id": 537,
@@ -10434,8 +10356,9 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-5-4",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:30（日曜〜20:00）"
   },
   {
     "id": 538,
@@ -10485,8 +10408,9 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-5-1 エトランゼ18秋葉原9F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜日18:00〜28:00"
   },
   {
     "id": 541,
@@ -10502,8 +10426,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-16-13 FTビル6F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金16:00〜23:00 / 土日祝13:00〜23:00",
+    "closed": "年中無休"
   },
   {
     "id": 542,
@@ -10519,8 +10445,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-16-13 FTビル7F",
+    "addressSource": "gsi-reverse",
+    "hours": "全日20:00〜5:00"
   },
   {
     "id": 543,
@@ -10553,8 +10480,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-2-12 Box'R AKIBAビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "火〜日祝12:00〜23:00",
+    "closed": "月曜"
   },
   {
     "id": 545,
@@ -10589,7 +10518,8 @@
     "address": "東京都千代田区外神田1丁目11-8",
     "cuisine": [
       "beef_bowl"
-    ]
+    ],
+    "hours": "24時間営業"
   },
   {
     "id": 547,
@@ -10605,8 +10535,9 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-10-5 T&K AKIBAビル3F",
+    "addressSource": "gsi-reverse",
+    "closed": "月曜（祝日の際は営業）"
   },
   {
     "id": 548,
@@ -10622,8 +10553,10 @@
     "cuisine": [
       "noodle"
     ],
-    "address": "東京都千代田区神田松永町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田松永町1 河本ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜土11:00〜23:00（L.O.22:00）",
+    "closed": "日曜・祝日"
   },
   {
     "id": 549,
@@ -10640,8 +10573,9 @@
       "indian",
       "curry"
     ],
-    "address": "東京都千代田区神田松永町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:00"
   },
   {
     "id": 550,
@@ -10657,8 +10591,9 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル3F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金16:00〜23:00 / 土日祝11:30〜23:00"
   },
   {
     "id": 551,
@@ -10674,7 +10609,7 @@
     "cuisine": [
       "pizza"
     ],
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-10-11",
     "addressSource": "gsi-reverse"
   },
   {
@@ -10688,8 +10623,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/12050828869",
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（L.O.22:30）"
   },
   {
     "id": 553,
@@ -10702,8 +10638,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/12090414615",
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-15-1 アキバプレイス3F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:30（L.O.）",
+    "closed": "なし"
   },
   {
     "id": 554,
@@ -10719,8 +10657,10 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-6-4 だん家秋葉原ビル9F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金11:30〜14:00・17:00〜23:00 / 土17:00〜23:00",
+    "closed": "日曜・祝日"
   },
   {
     "id": 555,
@@ -10736,8 +10676,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-6-13 JR高架下",
+    "addressSource": "gsi-reverse",
+    "hours": "全日11:30〜22:00"
   },
   {
     "id": 556,
@@ -10753,8 +10694,10 @@
     "cuisine": [
       "ramen"
     ],
-    "address": "東京都千代田区神田須田町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田須田町1-5 翔和須田町ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（毎日）",
+    "closed": "無休"
   },
   {
     "id": 557,
@@ -10788,8 +10731,10 @@
     "cuisine": [
       "ramen"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-4-16",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:00",
+    "closed": "無休"
   },
   {
     "id": 559,
@@ -10802,8 +10747,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/12410888899",
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-10-5",
+    "addressSource": "gsi-reverse",
+    "hours": "9:30〜23:00"
   },
   {
     "id": 560,
@@ -10820,7 +10766,7 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田須田町二丁目",
+    "address": "東京都千代田区神田須田町1-14-1 Aフロント神田須田町ビルB1F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -10855,8 +10801,9 @@
     "cuisine": [
       "curry"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-16-1 大橋ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "9:55〜21:55（年中無休）"
   },
   {
     "id": 563,
@@ -10872,7 +10819,7 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
+    "address": "東京都千代田区外神田1-3-4 第3ナガシマビル2F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -10889,8 +10836,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-6-2 AKB162ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "19:00〜25:00",
+    "closed": "祝日"
   },
   {
     "id": 565,
@@ -10906,8 +10855,10 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-2-11 遠藤ビルB1F",
+    "addressSource": "gsi-reverse",
+    "hours": "17:00〜25:00",
+    "closed": "年中無休"
   },
   {
     "id": 566,
@@ -10923,25 +10874,9 @@
     "cuisine": [
       "bar"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 568,
-    "name": "スシロー",
-    "slug": "osm-node-12899496412",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの寿司店",
-    "lat": 35.701529,
-    "lng": 139.771143,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/12899496412",
-    "cuisine": [
-      "sushi"
-    ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-6-2 AKB162ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日19:00〜25:00 / 土日祝18:00〜25:00"
   },
   {
     "id": 569,
@@ -10954,8 +10889,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/12908845946",
-    "address": "東京都千代田区神田松永町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田松永町18 ビオレ秋葉原1F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金11:30〜15:00・17:00〜22:30",
+    "closed": "土曜・日曜・祝日"
   },
   {
     "id": 570,
@@ -11005,7 +10942,7 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田花岡町",
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba4F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -11022,8 +10959,9 @@
     "cuisine": [
       "steak"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-8 ニュー千代田ビルB1F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:30〜14:30（ランチのみ）"
   },
   {
     "id": 574,
@@ -11056,8 +10994,9 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田4-13-7 鈴木ビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日15:00開店 / 土日祝14:00開店"
   },
   {
     "id": 576,
@@ -11070,11 +11009,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/13364005451",
-    "hours": "24/7",
+    "hours": "朝食7:00〜10:00（L.O.9:30）/ ランチ11:00〜17:00 / ディナー17:00〜23:00 / 深夜23:00〜翌5:00（L.O.4:30）",
     "cuisine": [
       "chinese"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
+    "address": "東京都千代田区神田佐久間町1-21 Chiyoda Terrace B1",
     "addressSource": "gsi-reverse"
   },
   {
@@ -11091,8 +11030,9 @@
     "cuisine": [
       "ramen"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田1-17-6",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金10:00〜22:30 / 土日祝10:00〜22:00"
   },
   {
     "id": 578,
@@ -11105,8 +11045,10 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/13403735801",
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba8F",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜23:00（L.O.22:00）",
+    "closed": "なし"
   },
   {
     "id": 579,
@@ -11119,11 +11061,11 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/13439073301",
-    "hours": "Mo-Su 11:00-15:00, 17:00-22:30",
+    "hours": "月〜日ランチ11:00〜15:00（L.O.14:30）/ ディナー17:00〜22:30（L.O.22:00）",
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
+    "address": "東京都千代田区神田佐久間町1-6-5 アキバ・トリム6F",
     "addressSource": "gsi-reverse"
   },
   {
@@ -11140,7 +11082,7 @@
     "cuisine": [
       "soba"
     ],
-    "address": "東京都千代田区神田和泉町",
+    "address": "東京都千代田区神田和泉町1-2",
     "addressSource": "gsi-reverse"
   },
   {
@@ -11157,8 +11099,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区神田和泉町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田和泉町1 YKKビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "毎日8:00〜19:00",
+    "closed": "土曜・日曜・祝日"
   },
   {
     "id": 582,
@@ -11174,8 +11118,9 @@
     "cuisine": [
       "chinese"
     ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2店5F",
+    "addressSource": "gsi-reverse",
+    "hours": "10:00〜23:00（毎日）"
   },
   {
     "id": 583,
@@ -11191,25 +11136,9 @@
     "cuisine": [
       "seafood"
     ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 584,
-    "name": "Pepper Lunch",
-    "slug": "osm-node-13673605328",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの鉄板焼き店",
-    "lat": 35.698836,
-    "lng": 139.77478,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/13673605328",
-    "cuisine": [
-      "teppanyaki"
-    ],
-    "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2・3F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜金ランチ11:30〜14:30（L.O.14:00）/ 月〜木ディナー17:00〜22:30（L.O.21:30）/ 金土17:00〜23:00（L.O.22:00）/ 日16:00〜22:00（L.O.21:00）"
   },
   {
     "id": 585,
@@ -11225,8 +11154,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-3-1 Nビル1F",
+    "addressSource": "gsi-reverse",
+    "hours": "9:00〜21:00",
+    "closed": "年中無休"
   },
   {
     "id": 586,
@@ -11239,8 +11170,9 @@
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/13730065901",
-    "address": "東京都千代田区神田岩本町",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田岩本町1-13 秋葉原清新ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "月〜土11:00〜15:30・17:00〜21:30 / 日11:00〜15:30・17:00〜20:30"
   },
   {
     "id": 587,
@@ -11256,25 +11188,10 @@
     "cuisine": [
       "cafe"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 588,
-    "name": "ハートオブハーツ",
-    "slug": "osm-node-13968476027",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのバー",
-    "lat": 35.70014,
-    "lng": 139.770321,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/13968476027",
-    "cuisine": [
-      "bar"
-    ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-5-6 SIMAWA BLDG.1F",
+    "addressSource": "gsi-reverse",
+    "hours": "8:30〜17:00（L.O.16:30）",
+    "closed": "日曜・祝日・年末年始"
   },
   {
     "id": 589,
@@ -11290,8 +11207,10 @@
     "cuisine": [
       "kebab"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区外神田3-10-7",
+    "addressSource": "gsi-reverse",
+    "hours": "11:00〜21:00",
+    "closed": "不定休"
   },
   {
     "id": 590,
@@ -11307,21 +11226,7 @@
     "cuisine": [
       "izakaya"
     ],
-    "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
-  },
-  {
-    "id": 591,
-    "name": "箸勝ビル",
-    "slug": "osm-way-88999565",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
-    "lat": 35.69994,
-    "lng": 139.769893,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "way/88999565",
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-1-11",
     "addressSource": "gsi-reverse"
   },
   {
@@ -11339,7 +11244,7 @@
       "sukiyaki",
       "japanese"
     ],
-    "address": "東京都千代田区外神田三丁目",
+    "address": "東京都千代田区外神田3-6-8",
     "addressSource": "gsi-reverse"
   },
   {
@@ -11357,8 +11262,10 @@
     "cuisine": [
       "yakiniku"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "address": "東京都千代田区神田佐久間町1-21 あつみ薬品ビル2F",
+    "addressSource": "gsi-reverse",
+    "hours": "平日11:30〜14:00・17:00〜22:30（L.O.22:00）/ 土日祝11:30〜14:00・17:00〜22:00（L.O.21:30）",
+    "closed": "不定休"
   },
   {
     "id": 594,
@@ -11374,7 +11281,7 @@
     "cuisine": [
       "japanese"
     ],
-    "address": "東京都千代田区神田須田町一丁目",
+    "address": "東京都千代田区神田須田町1-11-1",
     "addressSource": "gsi-reverse"
   },
   {
@@ -11392,7 +11299,7 @@
       "japanese",
       "chanko"
     ],
-    "address": "東京都千代田区外神田二丁目",
+    "address": "東京都千代田区外神田2-13-4",
     "addressSource": "gsi-reverse"
   },
   {
