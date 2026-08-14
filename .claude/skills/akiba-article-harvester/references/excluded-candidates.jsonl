@@ -216,3 +216,11 @@
 {"url": "https://hobby.dengeki.com/news/3116576/", "reason": "insufficient_facts", "note": "無職転生III/ライザのアトリエ3 フィギュア彩色見本展示、具体的終了日・確定会場リスト不明", "checked": "2026-08-10"}
 {"url": "https://tetsudo-ch.com/13034165.html", "reason": "low_value", "note": "エキュート秋葉原駅ナカグルメ複合記事、T'sたんたん単独記事に統合済み", "checked": "2026-08-10"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2131790.html", "reason": "insufficient_facts", "note": "サンコー跡地カードショップ「シンソク」正確なオープン日未確認", "checked": "2026-08-10"}
+{"url": "https://collabo-cafe.com/events/collabo/a3-animatecafe-vol12-2026/", "reason": "not_akihabara_specific", "note": "A3!×アニメイトカフェ第12弾、会場は池袋3号店・名古屋2号店のみ、秋葉原記載なし", "checked": "2026-08-15"}
+{"url": "https://www.shosen.co.jp/event/44988/", "reason": "out_of_scope_venue", "note": "高橋よしひろ犬マンガの世界お渡し会、書泉グランデ(神保町)3F開催", "checked": "2026-08-15"}
+{"url": "https://www.shosen.co.jp/event/44967/", "reason": "out_of_scope_venue", "note": "理原先生祝言の籠サイン本抽選、書泉オンラインショップ扱い・グランデ(神保町)表記", "checked": "2026-08-15"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132163.html", "reason": "insufficient_facts", "note": "ゼンゼロ2周年イベント(ベルサール秋葉原)は開始日・終了日とも未確認、7/31撮影時点で開催中としか分からず。パルワールド/TOYSTORY/盗掘王は別途候補化", "checked": "2026-08-15"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132163.html#toukutsuou", "reason": "low_value", "note": "盗掘王×あきかるアキバジャックキャンペーン、8月16日終了で掲載時点でほぼ終了間際", "checked": "2026-08-15"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132132.html#gyudon-sambo", "reason": "low_value", "note": "牛丼サンボ新作POP掲示、日付不明・単なる店頭POP情報で記事化価値薄い", "checked": "2026-08-15"}
+{"url": "https://x.com/haikyuatrePUS/status/1955902301794963828", "reason": "insufficient_facts", "note": "ハイキューPOPUP@アトレ秋葉原9/9-9/30、日付・場所は確認済みだが使用可能な画像URL未確認(公式ニュースページ未掲載)", "checked": "2026-08-15"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7815", "reason": "insufficient_facts", "note": "小林愛香BLUE MAGICミニライブ@ゲーマーズ本店9/5、日付場所確認済みだが画像URL未確認", "checked": "2026-08-15"}
