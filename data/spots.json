@@ -3329,7 +3329,13 @@
     "address": "東京都千代田区外神田1-17-6 エキュート秋葉原",
     "addressSource": "gsi-reverse",
     "hours": "平日6:30〜22:00 / 土日祝7:00〜22:00",
-    "website": "https://www.ecute.jp/akihabara/shop/5637"
+    "website": "https://www.ecute.jp/akihabara/shop/5637",
+    "image": {
+      "src": "/images/spots/becks-coffee-shop-akihabara.jpg",
+      "alt": "BECK'S COFFEE SHOP秋葉原店のコーヒー",
+      "sourceLabel": "BECK'S COFFEE SHOP 公式サイト(エキュート秋葉原)",
+      "sourceUrl": "https://www.ecute.jp/akihabara/shop/5637"
+    }
   },
   {
     "id": 124,
@@ -3427,7 +3433,13 @@
       "ramen"
     ],
     "hours": "月〜木・日・祝・祝前日 11:00〜24:00 / 金・土 11:00〜翌1:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "image": {
+      "src": "/images/spots/yasubee-tsukemen-akihabara.jpg",
+      "alt": "つけ麺屋やすべえのつけ麺",
+      "sourceLabel": "つけ麺屋やすべえ 公式サイト",
+      "sourceUrl": "http://www.yasubee.com/"
+    }
   },
   {
     "id": 131,
@@ -3782,7 +3794,13 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 徒歩7分",
     "hours": "12:00〜22:30",
-    "website": "https://www.honey2.jp/"
+    "website": "https://www.honey2.jp/",
+    "image": {
+      "src": "/images/spots/honeyhoney-akihabara.jpg",
+      "alt": "HoneyHoney秋葉原店の店内",
+      "sourceLabel": "HoneyHoney 公式サイト",
+      "sourceUrl": "https://www.honey2.jp/"
+    }
   },
   {
     "id": 152,
@@ -4046,7 +4064,13 @@
     "access": "JR秋葉原駅 徒歩2分",
     "hours": "月〜金・祝前日 15:00〜翌3:00 / 土日 12:00〜翌3:00 / 祝日 14:00〜翌3:00",
     "closed": "無休",
-    "website": "https://miraizaka.com/akihabaraekimae/"
+    "website": "https://miraizaka.com/akihabaraekimae/",
+    "image": {
+      "src": "/images/spots/miraizaka-akihabaraekimae.jpg",
+      "alt": "ミライザカ秋葉原駅前店の店内",
+      "sourceLabel": "ミライザカ 公式サイト",
+      "sourceUrl": "https://miraizaka.com/akihabaraekimae/"
+    }
   },
   {
     "id": 166,
@@ -10502,7 +10526,13 @@
       "sushi"
     ],
     "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/fujiyama-sushizakaba-akihabara.jpg",
+      "alt": "すし酒場 フジヤマ 秋葉原本店の寿司盛り合わせ",
+      "sourceLabel": "すし酒場 フジヤマ 秋葉原本店 公式サイト",
+      "sourceUrl": "https://fujiyama-akihabara.owst.jp"
+    }
   },
   {
     "id": 546,
@@ -11265,7 +11295,13 @@
     "address": "東京都千代田区神田佐久間町1-21 あつみ薬品ビル2F",
     "addressSource": "gsi-reverse",
     "hours": "平日11:30〜14:00・17:00〜22:30（L.O.22:00）/ 土日祝11:30〜14:00・17:00〜22:00（L.O.21:30）",
-    "closed": "不定休"
+    "closed": "不定休",
+    "image": {
+      "src": "/images/spots/yamano-nikuya-akihabara.jpg",
+      "alt": "お肉の店 やまのの肉料理",
+      "sourceLabel": "お肉の店 やまの 公式サイト",
+      "sourceUrl": "http://www.yamano29.com/"
+    }
   },
   {
     "id": 594,
