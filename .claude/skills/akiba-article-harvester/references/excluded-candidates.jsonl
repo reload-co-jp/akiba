@@ -224,3 +224,9 @@
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132132.html#gyudon-sambo", "reason": "low_value", "note": "牛丼サンボ新作POP掲示、日付不明・単なる店頭POP情報で記事化価値薄い", "checked": "2026-08-15"}
 {"url": "https://x.com/haikyuatrePUS/status/1955902301794963828", "reason": "insufficient_facts", "note": "ハイキューPOPUP@アトレ秋葉原9/9-9/30、日付・場所は確認済みだが使用可能な画像URL未確認(公式ニュースページ未掲載)", "checked": "2026-08-15"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7815", "reason": "insufficient_facts", "note": "小林愛香BLUE MAGICミニライブ@ゲーマーズ本店9/5、日付場所確認済みだが画像URL未確認", "checked": "2026-08-15"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7815", "reason": "insufficient_facts", "note": "小林愛香BLUE MAGICミニライブ9/5、OGIMG取得不可(og:image未設定)、他画像ソースなし", "checked": "2026-08-17"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132981.html", "reason": "insufficient_facts", "note": "Hey2(旧ヒロセテクニカル跡地)オープン日不明、シンソク秋葉原7号店は2026年秋オープン予定で未確定", "checked": "2026-08-17"}
+{"url": "https://club-mogra.jp/2026/08/28/9885/", "reason": "insufficient_facts", "note": "MOGRA 17th ANNIVERSARY PARTY DAY1、出演者・時間詳細が本文取得できず", "checked": "2026-08-17"}
+{"url": "https://club-mogra.jp/2026/08/30/9888/", "reason": "insufficient_facts", "note": "MOGRA 17th ANNIVERSARY PARTY DAY3、出演者・時間詳細が本文取得できず", "checked": "2026-08-17"}
+{"url": "https://club.goodman2020.com/events/39296", "reason": "event_ended", "note": "CLUB GOODMAN 30周年カイカカクレ企画、画像ファイル名より8月8日開催と判明、基準日2026-08-17時点で終了済み", "checked": "2026-08-17"}
+{"url": "https://club.goodman2020.com/events/38978", "reason": "event_ended", "note": "CLUB GOODMAN 30周年ORBIT vs 曇ヶ原、画像ファイル名より8月11日開催と判明、基準日2026-08-17時点で終了済み", "checked": "2026-08-17"}

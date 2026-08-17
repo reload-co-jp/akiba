@@ -13454,6 +13454,14 @@
     },
     "sources": [
       {
+        "label": "Musicman ニュース",
+        "url": "https://www.musicman.co.jp/business/718751"
+      },
+      {
+        "label": "ANTHEM AKIBA 公式サイト",
+        "url": "https://anthemakiba.com/"
+      },
+      {
         "label": "PR TIMES プレスリリース",
         "url": "https://prtimes.jp/main/html/rd/p/000000917.000060459.html"
       },
@@ -27535,6 +27543,122 @@
         "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132132.html"
       }
     ],
+    "authorId": 1
+  },
+  {
+    "id": 706,
+    "title": "期間限定POP UP SHOP「Gran Gift」がアトレ秋葉原で開催",
+    "slug": "gran-gift-popup-atre-akihabara-2026",
+    "summary": "アトレ秋葉原で期間限定ポップアップショップ「Gran Gift」が2026年8月21日から9月3日まで開催される。",
+    "content": "## 概要\n\nアトレ秋葉原で期間限定ポップアップショップ「Gran Gift」が開催される。会期は2026年8月21日から9月3日までの約2週間で、アトレ秋葉原の館内スペースに出店する。\n\n## 内容\n\n会期中はアトレ秋葉原の館内で展開される期間限定ショップとして、通常の店舗ラインナップにはない商品構成で来店者を迎える。\n\n- 期間限定での出店のため、会期中の来店がおすすめ\n\n## 開催情報\n\n- **日時**: 2026年8月21日（金）〜9月3日（木）\n- **会場**: アトレ秋葉原\n- **営業時間**: 10:00〜21:00\n- **料金**: 入場無料\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- アトレ秋葉原で買い物のついでに立ち寄りたい方\n- 期間限定ショップをチェックするのが好きな方",
+    "publishedAt": "2026-08-17",
+    "tagIds": [
+      207,
+      46,
+      129,
+      196
+    ],
+    "en": {
+      "title": "Pop-Up Shop \"Gran Gift\" Opens at Atre Akihabara",
+      "summary": "A limited-time pop-up shop called \"Gran Gift\" runs at Atre Akihabara from August 21 to September 3, 2026.",
+      "content": "## Overview\n\nA limited-time pop-up shop called \"Gran Gift\" is being held at Atre Akihabara. The event runs for about two weeks, from August 21 to September 3, 2026, in a space inside the Atre Akihabara building.\n\n## Highlights\n\nDuring the event period, the pop-up offers a lineup not normally found among Atre Akihabara's regular stores.\n\n- Since it's a limited-time shop, visiting during the event period is recommended\n\n## Event Details\n\n- **Dates**: August 21–September 3, 2026\n- **Venue**: Atre Akihabara\n- **Hours**: 10:00–21:00\n- **Price**: Free admission\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone shopping at Atre Akihabara who wants to stop by\n- Fans of checking out limited-time shops"
+    },
+    "image": {
+      "src": "/images/articles/gran-gift-popup-atre-akihabara-2026.jpg",
+      "alt": "期間限定POP UP SHOP「Gran Gift」告知ビジュアル",
+      "sourceLabel": "アトレ秋葉原 公式ニュース",
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7510"
+    },
+    "sources": [
+      {
+        "label": "アトレ秋葉原 公式ニュース",
+        "url": "https://www.atre.co.jp/akihabara/news/7510"
+      }
+    ],
+    "event": {
+      "venue": "アトレ秋葉原",
+      "startDate": "2026-08-21",
+      "endDate": "2026-09-03",
+      "price": "入場無料",
+      "reservation": false
+    },
+    "authorId": 1
+  },
+  {
+    "id": 707,
+    "title": "「ブルーアーカイブ」5.5周年ポップアップストアが秋葉原で開催",
+    "slug": "bluearchive-5-5th-popup-akihabara-2026",
+    "summary": "「ブルーアーカイブ -Blue Archive-」の5.5周年記念ポップアップストアが、秋葉原「アキバCOギャラリー」で2026年8月28日から9月13日まで開催される。",
+    "content": "## 概要\n\n人気ゲーム「ブルーアーカイブ -Blue Archive-」の5.5周年を記念したポップアップストアが、秋葉原の「アキバCOギャラリー」で開催される。等身大タペストリーやアクリルスタンドなど、記念グッズが多数販売される。\n\n## 内容\n\n会場では5.5周年を彩る描き下ろしグッズが多数展開され、ファン必見のラインナップとなる。\n\n- 等身大タペストリー（8,800円）\n- アクリルスタンド（1,980円）\n- そのほか多数のオリジナルグッズ\n\n## 開催情報\n\n- **日時**: 2026年8月28日（金）〜9月13日（日）\n- **会場**: アキバCOギャラリー（東京都千代田区外神田）\n- **営業時間**: 平日16:00〜20:00、土日11:00〜20:00（初日8月28日のみ11:00〜19:00）\n- **料金**: 入場無料（グッズ購入は別途）\n- **予約**: 8月28日・29日は事前入店予約制（LivePocket、申込期間8月12日12:00〜8月23日23:59）、8月30日以降はフリー入場\n\n## こんな人におすすめ\n\n- 「ブルーアーカイブ」ファン\n- 5.5周年記念グッズを手に入れたい方",
+    "publishedAt": "2026-08-17",
+    "tagIds": [
+      207,
+      129,
+      80
+    ],
+    "en": {
+      "title": "\"Blue Archive\" 5.5th Anniversary Pop-Up Store Opens in Akihabara",
+      "summary": "A pop-up store celebrating the 5.5th anniversary of \"Blue Archive\" runs at Akiba CO Gallery in Akihabara from August 28 to September 13, 2026.",
+      "content": "## Overview\n\nA pop-up store celebrating the 5.5th anniversary of the popular game \"Blue Archive\" is being held at Akiba CO Gallery in Akihabara. Numerous anniversary goods, including life-size tapestries and acrylic stands, will be sold.\n\n## Highlights\n\nThe venue features a wide range of newly illustrated goods marking the 5.5th anniversary, a must-see lineup for fans.\n\n- Life-size tapestry (¥8,800)\n- Acrylic stand (¥1,980)\n- And many other original goods\n\n## Event Details\n\n- **Dates**: August 28–September 13, 2026\n- **Venue**: Akiba CO Gallery (Sotokanda, Chiyoda-ku, Tokyo)\n- **Hours**: Weekdays 16:00–20:00, weekends 11:00–20:00 (opening day, August 28, only 11:00–19:00)\n- **Price**: Free admission (goods sold separately)\n- **Reservation**: Advance entry reservation required for August 28–29 (via LivePocket, application period August 12 12:00–August 23 23:59); free entry from August 30 onward\n\n## Recommended For\n\n- \"Blue Archive\" fans\n- Anyone wanting 5.5th anniversary commemorative goods"
+    },
+    "image": {
+      "src": "/images/articles/bluearchive-5-5th-popup-akihabara-2026.jpg",
+      "alt": "「ブルーアーカイブ」5.5周年ポップアップストア告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/bluearchive-5-5th-popup-store-akiba-2026/"
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/bluearchive-5-5th-popup-store-akiba-2026/"
+      }
+    ],
+    "event": {
+      "venue": "アキバCOギャラリー",
+      "startDate": "2026-08-28",
+      "endDate": "2026-09-13",
+      "price": "入場無料（グッズ購入は別途）",
+      "reservation": true
+    },
+    "authorId": 1
+  },
+  {
+    "id": 708,
+    "title": "TVアニメ「魔法少女にあこがれて」POP UP SHOPがゲーマーズで開催",
+    "slug": "mahoako-popup-gamers-akihabara-2026",
+    "summary": "TVアニメ「魔法少女にあこがれて」のポップアップショップが、AKIHABARAゲーマーズ本店を含むゲーマーズ4店舗で2026年9月12日から開催される。",
+    "content": "## 概要\n\nTVアニメ「魔法少女にあこがれて」のポップアップショップが、AKIHABARAゲーマーズ本店を含むゲーマーズ4店舗で開催される。描き下ろしイラストを使用したオリジナルグッズが多数展開される。\n\n## 内容\n\n会場では描き下ろしイラストをあしらったグッズが販売されるほか、購入特典も用意される。\n\n- 缶バッジ（550円）\n- アクリルカード（690円）\n- アクリルスタンド（1,320円）、BIGアクリルスタンド（1,980円）ほか\n- 対象商品2,000円（税込）ごとの購入で特典イラストカード（全9種）をランダムでプレゼント\n\n## 開催情報\n\n- **日時**: 2026年9月12日（土）〜9月27日（日）\n- **会場**: AKIHABARAゲーマーズ本店（ほか仙台・名古屋・なんば店）\n- **料金**: 入場無料（グッズ購入は別途）\n- **予約**: 予約不要\n- **備考**: 会期終了後、9月28日〜10月12日にゲーマーズオンラインショップで事後通販を実施\n\n## こんな人におすすめ\n\n- 「魔法少女にあこがれて」ファン\n- 描き下ろしグッズを集めたい方",
+    "publishedAt": "2026-08-17",
+    "tagIds": [
+      207,
+      72,
+      129,
+      236
+    ],
+    "en": {
+      "title": "TV Anime \"Mahoako\" Pop-Up Shop Opens at Gamers",
+      "summary": "A pop-up shop for the TV anime \"Mahoako\" (I Yearn for a Magical Girl) opens at four Gamers stores, including AKIHABARA Gamers Main Store, starting September 12, 2026.",
+      "content": "## Overview\n\nA pop-up shop for the TV anime \"Mahoako\" (I Yearn for a Magical Girl) is being held at four Gamers stores, including AKIHABARA Gamers Main Store. A wide range of original goods featuring newly drawn illustrations will be available.\n\n## Highlights\n\nThe venue sells goods featuring newly drawn illustrations, along with purchase bonuses.\n\n- Can badge (¥550)\n- Acrylic card (¥690)\n- Acrylic stand (¥1,320), BIG acrylic stand (¥1,980), and more\n- A random illustration card (one of 9 designs) given as a bonus for every ¥2,000 (tax included) spent on eligible items\n\n## Event Details\n\n- **Dates**: September 12–27, 2026\n- **Venue**: AKIHABARA Gamers Main Store (also Sendai, Nagoya, and Namba stores)\n- **Price**: Free admission (goods sold separately)\n- **Reservation**: Not required\n- **Note**: A follow-up mail order will run at the Gamers Online Shop from September 28 to October 12 after the event ends\n\n## Recommended For\n\n- \"Mahoako\" fans\n- Anyone collecting newly illustrated goods"
+    },
+    "image": {
+      "src": "/images/articles/mahoako-popup-gamers-akihabara-2026.jpg",
+      "alt": "「魔法少女にあこがれて」POP UP SHOP告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/mahoako-popup-shop-gamers-2026/"
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/mahoako-popup-shop-gamers-2026/"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-27",
+      "price": "入場無料（グッズ購入は別途）",
+      "reservation": false
+    },
     "authorId": 1
   }
 ]
