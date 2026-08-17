@@ -1087,7 +1087,8 @@
       "sourceLabel": "レッツエンジョイ東京 イベントページ",
       "sourceUrl": "https://www.enjoytokyo.jp/event/2065020/",
       "width": 512,
-      "height": 640
+      "height": 640,
+      "copyrightRisk": true
     }
   },
   {
@@ -1265,7 +1266,8 @@
       "sourceLabel": "コラボカフェ記事",
       "sourceUrl": "https://collabo-cafe.com/events/collabo/puyopuyo-cafe-clove-lounge-cafe-bar2026/",
       "width": 1800,
-      "height": 1012
+      "height": 1012,
+      "copyrightRisk": true
     },
     "cuisine": [
       "cafe",
@@ -1290,7 +1292,8 @@
       "sourceLabel": "コラボカフェ",
       "sourceUrl": "https://collabo-cafe.com/events/collabo/gnosia-clinic-popup-store-tokyo-osaka2026/",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "copyrightRisk": true
     }
   },
   {
@@ -1311,7 +1314,8 @@
       "sourceLabel": "こどもとIT",
       "sourceUrl": "https://edu.watch.impress.co.jp/docs/news/2116392.html",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "copyrightRisk": true
     }
   },
   {
@@ -1384,7 +1388,8 @@
       "sourceLabel": "コラボカフェ",
       "sourceUrl": "https://collabo-cafe.com/events/collabo/trigun-stargaze-pop-up-store-amiami-akihabara2026/",
       "width": 1200,
-      "height": 630
+      "height": 630,
+      "copyrightRisk": true
     }
   },
   {
@@ -1481,7 +1486,8 @@
       "sourceLabel": "ONKYO DIRECT",
       "sourceUrl": "https://onkyodirect.jp/shop/pages/SWB_EARPHONE.aspx",
       "width": 600,
-      "height": 600
+      "height": 600,
+      "copyrightRisk": true
     }
   },
   {
@@ -1534,7 +1540,8 @@
       "src": "/images/spots/coo-riku-akihabara.png",
       "alt": "ペットショップCoo&RIKU秋葉原店の関連ビジュアル",
       "sourceLabel": "ペットショップCoo&RIKU",
-      "sourceUrl": "https://www.pet-coo.com/news/67%EF%BC%88%E6%97%A5%EF%BC%89%E7%A7%8B%E8%91%89%E5%8E%9F%E5%BA%97%E9%96%89%E5%BA%97%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+      "sourceUrl": "https://www.pet-coo.com/news/67%EF%BC%88%E6%97%A5%EF%BC%89%E7%A7%8B%E8%91%89%E5%8E%9F%E5%BA%97%E9%96%89%E5%BA%97%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "copyrightRisk": true
     }
   },
   {
@@ -1630,7 +1637,8 @@
       "sourceLabel": "ASCII.jp",
       "sourceUrl": "https://ascii.jp/elem/000/004/409/4409324/",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "copyrightRisk": true
     },
     "cuisine": [
       "korean"
@@ -1653,7 +1661,8 @@
       "src": "/images/spots/tanaka-denki-seminar-space.png",
       "alt": "田中電気株式会社 セミナースペースの関連ビジュアル",
       "sourceLabel": "ASCII.jp",
-      "sourceUrl": "https://ascii.jp/elem/000/004/409/4409558/"
+      "sourceUrl": "https://ascii.jp/elem/000/004/409/4409558/",
+      "copyrightRisk": true
     }
   },
   {
@@ -1675,7 +1684,8 @@
       "sourceLabel": "WalkerPlus",
       "sourceUrl": "https://www.walkerplus.com/event/ar0313e600366/",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "copyrightRisk": true
     }
   },
   {
@@ -1700,7 +1710,8 @@
       "sourceLabel": "Anime Maps",
       "sourceUrl": "https://animemaps.com/ja/event/%E3%80%8E%E5%83%95%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%8C%E5%B0%91%E3%81%AA%E3%81%84%E3%80%8Fpop-up%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-2026/",
       "width": 300,
-      "height": 300
+      "height": 300,
+      "copyrightRisk": true
     }
   },
   {
@@ -1719,7 +1730,8 @@
       "src": "/images/spots/akihabara-venus.png",
       "alt": "秋葉原Venusの関連ビジュアル",
       "sourceLabel": "TIGET",
-      "sourceUrl": "https://tiget.net/events/488099"
+      "sourceUrl": "https://tiget.net/events/488099",
+      "copyrightRisk": true
     }
   },
   {
@@ -1740,7 +1752,8 @@
       "sourceLabel": "X画像",
       "sourceUrl": "https://pbs.twimg.com/media/GVKfPWraEAIGMY0?format=jpg&name=large",
       "width": 72,
-      "height": 72
+      "height": 72,
+      "copyrightRisk": true
     }
   },
   {
@@ -1761,7 +1774,8 @@
       "sourceLabel": "TIGET イベントページ",
       "sourceUrl": "https://tiget.net/events/487776",
       "width": 72,
-      "height": 72
+      "height": 72,
+      "copyrightRisk": true
     }
   },
   {
@@ -1783,7 +1797,8 @@
       "sourceLabel": "バーチャルライフマガジン記事",
       "sourceUrl": "https://vr-lifemagazine.com/outside_press/",
       "width": 300,
-      "height": 300
+      "height": 300,
+      "copyrightRisk": true
     }
   },
   {
@@ -1827,7 +1842,8 @@
       "sourceLabel": "TIGET",
       "sourceUrl": "https://tiget.net/events/486878",
       "width": 72,
-      "height": 72
+      "height": 72,
+      "copyrightRisk": true
     }
   },
   {
@@ -1848,7 +1864,8 @@
       "sourceLabel": "エルミタージュ秋葉原",
       "sourceUrl": "https://www.gdm.or.jp/crew/2023/0712/497064",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "copyrightRisk": true
     }
   },
   {
@@ -1933,7 +1950,8 @@
       "sourceLabel": "コラボカフェ",
       "sourceUrl": "https://collabo-cafe.com/events/collabo/5hanayome-sakura-drink-pop-up-store-gigo-akihabara5-2026/",
       "width": 900,
-      "height": 1000
+      "height": 1000,
+      "copyrightRisk": true
     }
   },
   {
@@ -1954,7 +1972,8 @@
       "sourceLabel": "GEE!店舗情報＆イベント情報",
       "sourceUrl": "https://www.geestore.com/geenet/event/14906.html",
       "width": 1200,
-      "height": 675
+      "height": 675,
+      "copyrightRisk": true
     }
   },
   {
@@ -2098,7 +2117,8 @@
       "sourceLabel": "4Gamer",
       "sourceUrl": "https://www.4gamer.net/games/630/G063081/20260611007/",
       "width": 800,
-      "height": 666
+      "height": 666,
+      "copyrightRisk": true
     },
     "cuisine": [
       "sushi"
@@ -2190,7 +2210,8 @@
       "sourceLabel": "エルミタージュ秋葉原",
       "sourceUrl": "https://www.gdm.or.jp/crew/2026/0515/634585",
       "width": 1024,
-      "height": 768
+      "height": 768,
+      "copyrightRisk": true
     },
     "en": {
       "name": "Fancy Tokyo Akihabara",
@@ -2231,7 +2252,8 @@
       "sourceLabel": "サードニュース",
       "sourceUrl": "https://news.3rd-in.co.jp/article/08354fae-a092-11ef-a714-9ca3ba083d71",
       "width": 1200,
-      "height": 844
+      "height": 844,
+      "copyrightRisk": true
     },
     "en": {
       "name": "Torecamall Akihabara Store 1",
@@ -2270,7 +2292,8 @@
       "sourceLabel": "現地掲示",
       "sourceUrl": "https://c-united.co.jp/store/detail/000394/",
       "width": 72,
-      "height": 72
+      "height": 72,
+      "copyrightRisk": true
     },
     "en": {
       "name": "Cafe Veloce Iwamotocho Ekimae",
@@ -2401,7 +2424,8 @@
       "sourceLabel": "週刊アスキー",
       "sourceUrl": "https://weekly.ascii.jp/elem/000/004/407/4407775/",
       "width": 1200,
-      "height": 675
+      "height": 675,
+      "copyrightRisk": true
     },
     "tags": [
       "自作PC",
@@ -2426,7 +2450,8 @@
       "sourceLabel": "書泉",
       "sourceUrl": "https://www.shosen.co.jp/event/43533/",
       "width": 1124,
-      "height": 843
+      "height": 843,
+      "copyrightRisk": true
     },
     "tags": [
       "トークイベント",
@@ -2455,7 +2480,8 @@
       "sourceLabel": "株式会社arma bianca",
       "sourceUrl": "https://www.karatetsu.com/animegame/piapro.shtml",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "copyrightRisk": true
     },
     "tags": [
       "カラオケ",
@@ -2751,7 +2777,8 @@
       "sourceLabel": "音楽ナタリー",
       "sourceUrl": "https://www.akb48.co.jp/theater",
       "width": 1920,
-      "height": 1080
+      "height": 1080,
+      "copyrightRisk": true
     },
     "tags": [
       "アイドル",
@@ -2802,7 +2829,8 @@
       "sourceLabel": "HOBBY Watch",
       "sourceUrl": "https://hobby.watch.impress.co.jp/docs/news/2126629.html",
       "width": 378,
-      "height": 198
+      "height": 198,
+      "copyrightRisk": true
     },
     "tags": [
       "中古ホビー",
@@ -2858,7 +2886,8 @@
       "sourceLabel": "Collabo Cafe",
       "sourceUrl": "https://www.toulove-store.com/2026/",
       "width": 1500,
-      "height": 705
+      "height": 705,
+      "copyrightRisk": true
     },
     "tags": [
       "コラボグッズ",
@@ -2886,7 +2915,8 @@
       "sourceLabel": "Collabo Cafe 記事",
       "sourceUrl": "https://collabo-cafe.com/events/collabo/heroaca-villain-pop-up-store-tokyo-anime-center-2026/",
       "width": 1412,
-      "height": 984
+      "height": 984,
+      "copyrightRisk": true
     },
     "tags": [
       "アニメ",
@@ -2915,7 +2945,8 @@
       "sourceLabel": "Collabo Cafe 記事",
       "sourceUrl": "https://collabo-cafe.com/events/collabo/sofmap-wf4bido9/",
       "width": 1000,
-      "height": 563
+      "height": 563,
+      "copyrightRisk": true
     },
     "tags": [
       "コラボカフェ",
@@ -2946,7 +2977,8 @@
       "sourceLabel": "Collabo Cafe 記事",
       "sourceUrl": "https://www.geestore.com/geenet/event/15071.html",
       "width": 1200,
-      "height": 630
+      "height": 630,
+      "copyrightRisk": true
     },
     "tags": [
       "コスプレ",
@@ -2972,7 +3004,8 @@
       "sourceLabel": "ASCII.jp",
       "sourceUrl": "https://ascii.jp/elem/000/004/413/4413523/",
       "width": 1200,
-      "height": 800
+      "height": 800,
+      "copyrightRisk": true
     },
     "tags": [
       "フィギュア",
@@ -2998,7 +3031,8 @@
       "sourceLabel": "レッツエンジョイ東京",
       "sourceUrl": "https://www.enjoytokyo.jp/event/2070906/",
       "width": 461,
-      "height": 640
+      "height": 640,
+      "copyrightRisk": true
     },
     "tags": [
       "ギャラリー",
@@ -3141,7 +3175,14 @@
     "addressSource": "gsi-reverse",
     "access": "都営新宿線 岩本町駅 A3出口 徒歩1分",
     "hours": "月〜金 11:30〜14:30（L.O.14:00）17:30〜22:00（L.O.21:00）",
-    "closed": "土曜・日曜・祝日"
+    "closed": "土曜・日曜・祝日",
+    "image": {
+      "src": "/images/spots/osteria-girasole-akihabara.jpg",
+      "alt": "オステリア ジラソーレのクリームスパゲティ",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/212835/640x640_rect_f77bc04eb80bc2df595c74c26e7f8b73.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 112,
@@ -3237,7 +3278,14 @@
     "address": "東京都千代田区神田須田町1-13-8 加納ビル 1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜土・祝前日 17:30〜22:30（L.O.21:00、ドリンクL.O.21:30）",
-    "closed": "日曜日・祝日"
+    "closed": "日曜日・祝日",
+    "image": {
+      "src": "/images/spots/testadura-akihabara.jpg",
+      "alt": "テスタドゥーラのウニスパゲティ",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/104488/640x640_rect_104488344.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 118,
@@ -3310,7 +3358,14 @@
     "address": "東京都千代田区外神田1-17-6",
     "addressSource": "gsi-reverse",
     "hours": "10:00〜22:30",
-    "closed": "アトレ秋葉原に準じる"
+    "closed": "アトレ秋葉原に準じる",
+    "image": {
+      "src": "/images/spots/uogashi-nihonichi-akihabara.jpg",
+      "alt": "魚がし日本一の握り寿司",
+      "sourceLabel": "4travel 投稿写真",
+      "sourceUrl": "https://cdn.4travel.jp/img/tcs/t/tips/pict/src/169/952/src_16995259.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 123,
@@ -3414,7 +3469,14 @@
     "address": "東京都千代田区外神田1-15-11 秋葉原西川ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金 11:00〜24:00 / 土・祝 10:00〜24:00 / 日 10:00〜23:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "image": {
+      "src": "/images/spots/showa-shokudo-akihabara.jpg",
+      "alt": "昭和食堂のスタミナ丼",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37615146.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 128,
@@ -3553,7 +3615,14 @@
     ],
     "address": "東京都千代田区外神田1-9-8 秋葉原ダイヤモンドビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金 11:00〜翌3:30 / 土 10:00〜翌3:30 / 日・祝 10:00〜23:00"
+    "hours": "月〜金 11:00〜翌3:30 / 土 10:00〜翌3:30 / 日・祝 10:00〜23:00",
+    "image": {
+      "src": "/images/spots/ikkakuya2-sotokanda.jpg",
+      "alt": "壱角屋の家系ラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37145260.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 138,
@@ -3572,7 +3641,13 @@
     "address": "東京都千代田区外神田1-10-2",
     "addressSource": "gsi-reverse",
     "hours": "平日17:00〜22:00（L.O.21:30）/ 土曜17:00〜21:30（L.O.21:00）",
-    "closed": "日曜・祝日・第1第3土曜"
+    "closed": "日曜・祝日・第1第3土曜",
+    "image": {
+      "src": "/images/spots/akazuka-akihabara.jpg",
+      "alt": "赤津加の鶏もつ煮込み定食",
+      "sourceLabel": "赤津加 公式サイト",
+      "sourceUrl": "https://sr-s-shotaro.jp/"
+    }
   },
   {
     "id": 139,
@@ -3591,7 +3666,14 @@
     "address": "東京都千代田区外神田3-1-12",
     "addressSource": "gsi-reverse",
     "hours": "17:00〜23:30（L.O.22:00）、ランチ11:30〜14:00",
-    "closed": "日曜・祝日"
+    "closed": "日曜・祝日",
+    "image": {
+      "src": "/images/spots/nomidokoro-hiroshi-akihabara.jpg",
+      "alt": "呑み処ひろしの特製ネギダレ唐揚げ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/20104485.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 140,
@@ -3681,7 +3763,14 @@
     ],
     "address": "東京都千代田区外神田3-8-17 渡辺ビル B1F",
     "addressSource": "gsi-reverse",
-    "access": "JR秋葉原駅 徒歩4分／末広町駅 徒歩2分"
+    "access": "JR秋葉原駅 徒歩4分／末広町駅 徒歩2分",
+    "image": {
+      "src": "/images/spots/gyukatsu-hifumi-akihabara.jpg",
+      "alt": "牛かつ壱弐参の牛かつ定食",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/204709/640x640_rect_1e648058cf74c1348aafdd1ecea63518.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 146,
@@ -3738,7 +3827,14 @@
     "address": "東京都千代田区外神田3-7-12",
     "addressSource": "gsi-reverse",
     "hours": "11:30〜18:00頃",
-    "closed": "土曜・日曜・祝日"
+    "closed": "土曜・日曜・祝日",
+    "image": {
+      "src": "/images/spots/haneido-akihabara.jpg",
+      "alt": "繁栄堂の手作り弁当",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/26660199.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 149,
@@ -3757,7 +3853,14 @@
     "address": "東京都千代田区外神田3-8-3 第1針谷ビル1F",
     "addressSource": "gsi-reverse",
     "access": "東京メトロ銀座線 末広町駅 徒歩3分",
-    "hours": "11:00〜21:00"
+    "hours": "11:00〜21:00",
+    "image": {
+      "src": "/images/spots/tanaka-sobaten-akihabara.jpg",
+      "alt": "田中そば店のチャーシュー中華そば",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38366066.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 150,
@@ -3774,7 +3877,14 @@
       "soba"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/shogetsuan-akihabara.jpg",
+      "alt": "そば処松月庵の天もりそば",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/56377/640x640_rect_56377463.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 151,
@@ -4089,7 +4199,14 @@
     "address": "東京都千代田区外神田3-6-7 大西ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "11:30〜21:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/jean-curry-akihabara.jpg",
+      "alt": "ジャン・カレーのカレーライス",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33123781.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 168,
@@ -4109,7 +4226,14 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩1分",
     "hours": "月〜金 11:30〜14:30・16:00〜23:00 / 土 11:30〜14:30・15:00〜23:00 / 日 11:30〜14:30・15:00〜22:30",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/yamato-kandasakumacho.jpg",
+      "alt": "矢まとの新鮮魚介刺身盛り",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://rimage.gnst.jp/rest/img/51fp8bn70000/t_0oja.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 169,
@@ -4127,7 +4251,14 @@
     ],
     "address": "東京都千代田区神田佐久間町1-8-6",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金 11:30〜23:00（L.O.22:30）/ 土 11:30〜22:30（L.O.22:00）/ 日・祝 11:30〜22:00（L.O.21:30）"
+    "hours": "月〜金 11:30〜23:00（L.O.22:30）/ 土 11:30〜22:30（L.O.22:00）/ 日・祝 11:30〜22:00（L.O.21:30）",
+    "image": {
+      "src": "/images/spots/ginzo-kandasakumacho.jpg",
+      "alt": "銀蔵の握り寿司",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://rimage.gnst.jp/rest/img/4vkf9yhm0000/t_0qjv.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 170,
@@ -4602,7 +4733,14 @@
     ],
     "address": "東京都千代田区神田須田町1-19",
     "addressSource": "gsi-reverse",
-    "closed": "月曜・日曜・祝日"
+    "closed": "月曜・日曜・祝日",
+    "image": {
+      "src": "/images/spots/takemura-kandasudacho.jpg",
+      "alt": "竹むらの揚げたて揚げまんじゅう",
+      "sourceLabel": "miil 投稿写真",
+      "sourceUrl": "https://images.miil.me/j/7738a89c-569e-11f1-a87b-067c0dd1ffa9.orig.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 198,
@@ -4620,7 +4758,14 @@
       "cafe"
     ],
     "address": "東京都千代田区神田佐久間町1-18 信交ビル2F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/renoir-kandasakumacho.jpg",
+      "alt": "喫茶室ルノアールの店内",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/13222569.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 199,
@@ -4639,7 +4784,14 @@
     "address": "東京都千代田区神田花岡町1-19",
     "addressSource": "gsi-reverse",
     "hours": "月〜土・祝 16:00〜23:00",
-    "closed": "日曜"
+    "closed": "日曜",
+    "image": {
+      "src": "/images/spots/cans-bar-kandahanaokacho.jpg",
+      "alt": "缶's barの缶詰とドリンク",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/15033617.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 200,
@@ -4673,7 +4825,14 @@
     "cuisine": [
       "fried_food"
     ],
-    "hours": "平日10:30〜22:00 / 土10:00〜21:00 / 日祝10:00〜21:00"
+    "hours": "平日10:30〜22:00 / 土10:00〜21:00 / 日祝10:00〜21:00",
+    "image": {
+      "src": "/images/spots/tenya-sotokanda.jpg",
+      "alt": "てんやの天丼",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38956458.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 202,
@@ -4724,7 +4883,14 @@
     ],
     "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "平日10:00〜23:00 / 土日祝10:00〜21:30"
+    "hours": "平日10:00〜23:00 / 土日祝10:00〜21:30",
+    "image": {
+      "src": "/images/spots/cc-kandasakumacho.jpg",
+      "alt": "C&Cのカレーセット",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39294452.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 205,
@@ -4741,7 +4907,14 @@
       "izakaya"
     ],
     "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/tengu-sakaba-kandasakumacho.jpg",
+      "alt": "テング酒場の焼き鳥盛り合わせ",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/doc/brand_store/images/89/gstr00389_main_360.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 206,
@@ -4760,7 +4933,14 @@
     "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル4F",
     "addressSource": "gsi-reverse",
     "hours": "17:00〜23:45（L.O.23:15）",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/hakata-mangetsu-kandasakumacho.jpg",
+      "alt": "博多満月の博多もつ鍋",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/22160150.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 207,
@@ -4777,7 +4957,14 @@
       "ramen"
     ],
     "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/hakata-furyu-sotokanda.jpg",
+      "alt": "博多風龍のとんこつラーメン",
+      "sourceLabel": "miil 投稿写真",
+      "sourceUrl": "https://images.miil.me/j/c09c7af8-24ba-11ef-b74c-0a5243633487.orig.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 208,
@@ -4796,7 +4983,14 @@
       "udon"
     ],
     "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/umemoto-kandasakumacho.jpg",
+      "alt": "梅もとのディナーコース料理",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s524x524/q80/das/-/retty/img_ebisu/restaurant/100000078932/archive/1681673-5e3d17e3a3ea4-t.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 209,
@@ -4853,7 +5047,14 @@
     "address": "東京都千代田区神田佐久間町1-24",
     "addressSource": "gsi-reverse",
     "hours": "17:00〜翌3:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/warawara-kandasakumacho.jpg",
+      "alt": "笑笑の店内",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/16/27/P045401627/P045401627_69.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 212,
@@ -4872,7 +5073,14 @@
     "address": "東京都千代田区神田佐久間町1-24 ガトー秋葉原ビル2F",
     "addressSource": "gsi-reverse",
     "hours": "16:00〜23:30（L.O.22:45、ドリンクL.O.23:00）/ 金・祝前日17:00〜翌5:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/kinnokura-kandasakumacho.jpg",
+      "alt": "金の蔵の串焼き定食",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/125238/150x150_square_125238371.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 213,
@@ -4910,7 +5118,14 @@
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅 A3出口 徒歩1分",
     "hours": "16:00〜24:00",
-    "closed": "なし"
+    "closed": "なし",
+    "image": {
+      "src": "/images/spots/negima-sanzou-kandamatsunagacho.jpg",
+      "alt": "ねぎま三ぞうの店内",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001503455/archive/1860000-5f617cb082b01.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 215,
@@ -4945,7 +5160,14 @@
     "address": "東京都千代田区神田練塀町70 第二横島ビル1F",
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅 徒歩4分",
-    "hours": "月〜金・祝前日 11:00〜14:30（L.O.14:20）・17:00〜23:00（L.O.22:20）"
+    "hours": "月〜金・祝前日 11:00〜14:30（L.O.14:20）・17:00〜23:00（L.O.22:20）",
+    "image": {
+      "src": "/images/spots/waga-ya-kandanerikabecho.jpg",
+      "alt": "我家の特製幕の内定食",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/5390/150x150_square_5390711.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 217,
@@ -4962,7 +5184,14 @@
       "izakaya"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/ichie-sotokanda.jpg",
+      "alt": "一会の焼き鳥とおでんの盛り合わせ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36541319.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 218,
@@ -4980,7 +5209,14 @@
       "chinese"
     ],
     "address": "東京都千代田区外神田4-12-5 富田ビル1F・2F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/junko-sotokanda.jpg",
+      "alt": "順興の中華料理",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/31053020.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 219,
@@ -4999,7 +5235,14 @@
     "address": "東京都千代田区外神田1-6-7",
     "addressSource": "gsi-reverse",
     "hours": "平日11:00〜15:00・15:00〜21:45（L.O.21:00）/ 土日祝11:00〜21:45（L.O.21:00）",
-    "closed": "無休（年末年始を除く）"
+    "closed": "無休（年末年始を除く）",
+    "image": {
+      "src": "/images/spots/heroes-sotokanda.jpg",
+      "alt": "ヒーローズのステーキ料理",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37647702.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 220,
@@ -5090,7 +5333,14 @@
     ],
     "address": "東京都千代田区外神田3-6-9 沖村ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "平日11:30〜23:00（休憩15:00〜17:00）/ 土日祝11:00〜23:00（通し営業）"
+    "hours": "平日11:30〜23:00（休憩15:00〜17:00）/ 土日祝11:00〜23:00（通し営業）",
+    "image": {
+      "src": "/images/spots/kaligari-sotokanda.jpg",
+      "alt": "カリガリのカレーライス",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38499340.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 225,
@@ -5107,7 +5357,14 @@
       "chinese"
     ],
     "address": "東京都千代田区外神田二丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/towa-sakaba-sotokanda.jpg",
+      "alt": "東和酒場の店頭看板",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001257432/archive/3234111-65b1cc637a87e.jpeg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 226,
@@ -5141,7 +5398,14 @@
       "ramen"
     ],
     "address": "東京都千代田区外神田3-4-16",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/ramen-kagemusha-sotokanda.jpg",
+      "alt": "らーめん影武者のラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/35186947.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 229,
@@ -5271,7 +5535,14 @@
     "address": "東京都千代田区外神田3-2-9",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜21:30（L.O.21:00）",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/curry-no-shimin-alba-sotokanda.jpg",
+      "alt": "カレーの市民アルバのカツカレー",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/373818/640x640_rect_35e7995817964109d269515ccd734d7f.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 237,
@@ -5291,7 +5562,14 @@
     "address": "東京都千代田区外神田3-1-12 大石ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜土11:00〜22:45 / 日祝11:00〜21:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/kasugatei-sotokanda.jpg",
+      "alt": "最強油そば 春日亭のメニュー看板",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/312844/640x640_rect_cf625db30b23eeacf8c573fbee8db812.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 238,
@@ -5327,7 +5605,14 @@
     "address": "東京都千代田区外神田3-14-4 国際ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "月水金11:30〜19:00 / 土祝11:30〜18:00 / 日11:30〜17:00",
-    "closed": "木曜"
+    "closed": "木曜",
+    "image": {
+      "src": "/images/spots/gyudon-sambo-sotokanda.jpg",
+      "alt": "牛丼専門サンボの牛丼",
+      "sourceLabel": "ヒトサラ 投稿写真",
+      "sourceUrl": "https://img.hitosara.com/images/user-photos/674c27b7-e72d-45f0-8337-8515ad8c2efc/0000421108-01676063525.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 240,
@@ -5343,7 +5628,13 @@
     "address": "東京都千代田区外神田三丁目16-17",
     "cuisine": [
       "cafe"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/maidreamin-sotokanda3.jpg",
+      "alt": "めいどりーみん外神田店の店内",
+      "sourceLabel": "めいどりーみん 公式サイト",
+      "sourceUrl": "https://maidreamin.com/assets/images/shop/1/img-shop-detail-gallery-1.jpg"
+    }
   },
   {
     "id": 241,
@@ -5361,7 +5652,14 @@
     ],
     "address": "東京都千代田区外神田4-8-3 ナカダイビル1F",
     "addressSource": "gsi-reverse",
-    "access": "JR秋葉原駅 電気街口 徒歩6分 / 銀座線末広町駅1番出口 徒歩1分"
+    "access": "JR秋葉原駅 電気街口 徒歩6分 / 銀座線末広町駅1番出口 徒歩1分",
+    "image": {
+      "src": "/images/spots/trad-bar-sekirei-sotokanda.jpg",
+      "alt": "Trad Bar Sekireiのカクテル",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/30513336.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 242,
@@ -5396,7 +5694,14 @@
     "address": "東京都千代田区神田佐久間町1-15",
     "addressSource": "gsi-reverse",
     "hours": "10:00〜20:30",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/aslan-kebab-kandasakumacho.jpg",
+      "alt": "Aslan kebabのケバブサンド",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/20344023.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 244,
@@ -5428,7 +5733,14 @@
     "dataSource": "osm",
     "osmId": "node/4643581846",
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/akihabara-jinja.jpg",
+      "alt": "秋葉原神社の赤い鳥居と外観",
+      "sourceLabel": "4travel 投稿写真",
+      "sourceUrl": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/19/27/03/650x450_19270386.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 247,
@@ -5460,7 +5772,14 @@
     "dataSource": "osm",
     "osmId": "node/4809155721",
     "address": "東京都千代田区神田松永町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/poulet-frit-kandamatsunagacho.jpg",
+      "alt": "poulet fritの看板",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=1980x10000:format=jpg/path/s789695bc2b43cf56/image/i7a0d5583b34a7453/version/1544528294/%E5%94%90%E6%8F%9A%E3%81%92.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 250,
@@ -5479,7 +5798,14 @@
     ],
     "address": "東京都千代田区神田練塀町67",
     "addressSource": "gsi-reverse",
-    "access": "秋葉原駅 徒歩3分"
+    "access": "秋葉原駅 徒歩3分",
+    "image": {
+      "src": "/images/spots/akiba-fukurou-kandanerikabecho.jpg",
+      "alt": "アキバフクロウの店内フクロウ",
+      "sourceLabel": "あそびゅー 投稿写真",
+      "sourceUrl": "https://image.asoview-media.com/image/production/asorepo/review0002080103-001--0e65e9e9-71d2-4f08-b19c-2c0d377f56dd.jpeg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 251,
@@ -5497,7 +5823,14 @@
     "cuisine": [
       "ramen"
     ],
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/hyakunen-honpo-sotokanda.jpg",
+      "alt": "百年本舗の肉汁中華ソバ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001294830/archive/2157147-5fdc1ad946180.jpeg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 252,
@@ -5533,7 +5866,14 @@
     ],
     "address": "東京都千代田区外神田4-6-1 シューマンビル",
     "addressSource": "gsi-reverse",
-    "hours": "平日11:00〜23:00 / 土日祝11:00〜20:30"
+    "hours": "平日11:00〜23:00 / 土日祝11:00〜20:30",
+    "image": {
+      "src": "/images/spots/joto-curry-sotokanda.jpg",
+      "alt": "上等カレーの店舗外観",
+      "sourceLabel": "ヒトサラ 投稿写真",
+      "sourceUrl": "https://img.hitosara.com/images/user-photos/bb32d081-3e5c-4637-accf-b81c15f6e229/0000421108-31736376526.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 254,
@@ -5586,7 +5926,14 @@
     ],
     "address": "東京都千代田区外神田4-7-2 佐竹ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00"
+    "hours": "11:00〜23:00",
+    "image": {
+      "src": "/images/spots/pepper-lunch-sotokanda.jpg",
+      "alt": "Pepper Lunchのペッパーライス",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/355479/640x640_rect_31e735ce9f85a45ba29cc325dbffa5a7.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 257,
@@ -5604,7 +5951,14 @@
       "sushi"
     ],
     "hours": "月〜金11:30〜13:30・17:00〜22:00（L.O.21:30）/ 土11:30〜13:30",
-    "closed": "日曜・祝日・土曜不定休（月1回）"
+    "closed": "日曜・祝日・土曜不定休（月1回）",
+    "image": {
+      "src": "/images/spots/edomae-sushi-osho-sotokanda.jpg",
+      "alt": "江戸前寿司 桜荘の握り寿司",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37126442.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 258,
@@ -5623,7 +5977,14 @@
     "address": "東京都台東区台東一丁目２９番４号第一共和ビル１階",
     "addressSource": "taito-opendata",
     "hours": "月〜金8:00〜19:00 / 土日9:00〜19:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/kielo-coffee-taito.jpg",
+      "alt": "Kielo Coffeeの店内",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37065358.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 259,
@@ -5713,7 +6074,14 @@
     "osmId": "node/4960892182",
     "hours": "Mo-Su 11:00-21:00",
     "address": "東京都千代田区外神田3-14-3",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/kanda-tamagoken-sotokanda.jpg",
+      "alt": "神田たまごけんのオムライス",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/359463/150x150_square_f8dcdd5ed24d67aac20ea1887779a7cd.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 264,
@@ -5729,7 +6097,14 @@
     "address": "東京都千代田区外神田4-6-7 カンダエイトビル1F",
     "addressSource": "gsi-reverse",
     "hours": "11:30〜14:00・17:00〜22:00",
-    "closed": "毎週日曜・第3土曜"
+    "closed": "毎週日曜・第3土曜",
+    "image": {
+      "src": "/images/spots/sushi-yoshi-sotokanda.jpg",
+      "alt": "鮨与志の寿司盛り合わせ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39114134.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 265,
@@ -5747,7 +6122,13 @@
     ],
     "address": "東京都千代田区外神田4-9-2 千住ビル1〜2F",
     "addressSource": "gsi-reverse",
-    "hours": "ドロップイン11:00〜20:00"
+    "hours": "ドロップイン11:00〜20:00",
+    "image": {
+      "src": "/images/spots/the-onethird-sotokanda.jpg",
+      "alt": "THE 1/3のコワーキングスペース",
+      "sourceLabel": "THE 1/3 公式サイト",
+      "sourceUrl": "https://static.wixstatic.com/media/6a633f_54f5ade89995479f86b3c1fab0d05e01~mv2.jpg"
+    }
   },
   {
     "id": 266,
@@ -5804,7 +6185,14 @@
     "address": "東京都千代田区外神田3-10-9 木村ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜20:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/lahore-sotokanda.jpg",
+      "alt": "ラホールのカツカレー",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/226771/640x640_rect_cc9d51b741f98c686d49e65b1b6dd72e.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 269,
@@ -5822,7 +6210,14 @@
     ],
     "address": "東京都千代田区神田平河町4 渡辺ビル2-3F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜土・祝前日16:00〜翌3:00 / 日祝16:00〜翌0:00"
+    "hours": "月〜土・祝前日16:00〜翌3:00 / 日祝16:00〜翌0:00",
+    "image": {
+      "src": "/images/spots/jitokko-kumiai-kandahirakawacho.jpg",
+      "alt": "じとっこ組合のみやざき地頭鶏料理",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/17927655.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 270,
@@ -5841,7 +6236,14 @@
     "address": "東京都千代田区神田佐久間町2-1 奥田ビル1F",
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅4出口 徒歩0分",
-    "hours": "ランチ11:30〜13:30 / ディナー17:00〜21:00"
+    "hours": "ランチ11:30〜13:30 / ディナー17:00〜21:00",
+    "image": {
+      "src": "/images/spots/kikuzushi-kandasakumacho.jpg",
+      "alt": "菊寿しの本鮪大とろ握り",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/254475/640x640_rect_830d12a694d2ce067b4988958ceb53a5.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 271,
@@ -5880,7 +6282,14 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 昭和通り口 徒歩1分",
     "hours": "11:00〜22:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/menya-musashi-kandasakumacho.jpg",
+      "alt": "麺屋武蔵のつけ麺",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/34295327.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 273,
@@ -5899,7 +6308,14 @@
     "address": "東京都千代田区神田練塀町85 JEBL秋葉原スクエア2F",
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 中央口 徒歩5分",
-    "hours": "ランチ11:30〜15:00 / ディナー17:00〜23:00（土曜15:00〜23:00通し営業）"
+    "hours": "ランチ11:30〜15:00 / ディナー17:00〜23:00（土曜15:00〜23:00通し営業）",
+    "image": {
+      "src": "/images/spots/uokin-kandanerikabecho.jpg",
+      "alt": "魚金の海鮮刺身盛り合わせ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33616362.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 274,
@@ -5937,7 +6353,14 @@
     ],
     "address": "東京都千代田区外神田3-16-14 エスポワール3F",
     "addressSource": "gsi-reverse",
-    "access": "東京メトロ銀座線末広町駅 徒歩2分 / JR秋葉原駅 徒歩6分"
+    "access": "東京メトロ銀座線末広町駅 徒歩2分 / JR秋葉原駅 徒歩6分",
+    "image": {
+      "src": "/images/spots/negishi-sotokanda.jpg",
+      "alt": "ねぎしの牛タンセット",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/55/24/P022845524/P022845524_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 276,
@@ -5974,7 +6397,14 @@
     ],
     "address": "東京都千代田区外神田3-13-5",
     "addressSource": "gsi-reverse",
-    "hours": "月〜土11:30〜23:00 / 日11:30〜22:00"
+    "hours": "月〜土11:30〜23:00 / 日11:30〜22:00",
+    "image": {
+      "src": "/images/spots/menya-buichi-sotokanda.jpg",
+      "alt": "麵屋武一の濃厚鶏白湯ラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38650941.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 278,
@@ -5995,7 +6425,13 @@
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅 電気街口（北側） 徒歩3分",
     "hours": "11:00〜21:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/hinoya-curry-sotokanda.jpg",
+      "alt": "日乃屋カレー秋葉原店の外観",
+      "sourceLabel": "日乃屋カレー 公式サイト",
+      "sourceUrl": "https://hinoya.jp/wp-content/uploads/2016/03/Cd1k8P8UAAEYOKe-1.jpg"
+    }
   },
   {
     "id": 279,
@@ -6013,7 +6449,13 @@
     ],
     "address": "東京都千代田区外神田3-8-17 萩野ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "平日14:00〜22:00（金曜23:00まで）/ 土日祝12:00〜23:00（日・祝前日22:00まで）"
+    "hours": "平日14:00〜22:00（金曜23:00まで）/ 土日祝12:00〜23:00（日・祝前日22:00まで）",
+    "image": {
+      "src": "/images/spots/akiba-smokers-sotokanda.jpg",
+      "alt": "Akibaスモーカーズのシーシャ店内",
+      "sourceLabel": "Akibaスモーカーズ 公式サイト",
+      "sourceUrl": "https://akiba-smokers.com/wp-content/uploads/2016/03/お店について1.jpg"
+    }
   },
   {
     "id": 280,
@@ -6121,7 +6563,13 @@
       "ramen"
     ],
     "address": "東京都千代田区外神田3-16-15",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/tenkaippin-sotokanda.jpg",
+      "alt": "天下一品秋葉原店の外観",
+      "sourceLabel": "天下一品 公式サイト",
+      "sourceUrl": "https://www.tenkaippin.co.jp/wp-content/uploads/2022/03/秋葉原.jpg"
+    }
   },
   {
     "id": 286,
@@ -6138,7 +6586,14 @@
       "bar"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/darts-amusement-bar-sotokanda.jpg",
+      "alt": "ダーツ & アミューズメントバーの店内",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://rimage.gnst.jp/rest/img/rmruv00w0000/s_006c.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 287,
@@ -6176,7 +6631,14 @@
     "address": "東京都千代田区外神田3-1-3",
     "addressSource": "gsi-reverse",
     "hours": "月〜金11:30〜14:45・17:00〜翌0:00 / 土11:00〜14:45・17:00〜翌0:00 / 祝日祝前日11:30〜16:00・16:01〜22:00",
-    "closed": "日曜"
+    "closed": "日曜",
+    "image": {
+      "src": "/images/spots/sumi-no-tamashii-sotokanda.jpg",
+      "alt": "炭の魂の定食",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/27755351.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 289,
@@ -6193,7 +6655,14 @@
       "italian"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/pasta-blueberry-sotokanda.jpg",
+      "alt": "Pasta Blue Berryのカルボナーラ",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/125656/640x640_rect_125656636.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 290,
@@ -6228,7 +6697,14 @@
     ],
     "address": "東京都千代田区外神田2-10-8",
     "addressSource": "gsi-reverse",
-    "access": "秋葉原駅 徒歩8分 / 末広町駅 徒歩5分"
+    "access": "秋葉原駅 徒歩8分 / 末広町駅 徒歩5分",
+    "image": {
+      "src": "/images/spots/bistrot-nous-sotokanda.jpg",
+      "alt": "bistrot nousのダック・コンフィ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007674/archive/1442793-5e3beb3b4873a.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 292,
@@ -6247,7 +6723,14 @@
     "address": "東京都千代田区外神田2-10-8",
     "addressSource": "gsi-reverse",
     "hours": "月〜土11:00〜23:00 / 日・祝11:00〜22:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/chinmaya-sotokanda.jpg",
+      "alt": "陳麻家の麻婆豆腐と担々麺",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36756724.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 293,
@@ -6264,7 +6747,14 @@
       "chinese"
     ],
     "address": "東京都千代田区外神田二丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/gyoza-ichiban-sotokanda.jpg",
+      "alt": "餃子屋壱番の餃子とチャーハン",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/149061/640x640_rect_149061969.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 294,
@@ -6281,7 +6771,14 @@
       "italian"
     ],
     "address": "東京都千代田区外神田二丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/pasta-bar-makita-sotokanda.jpg",
+      "alt": "Pasta Bar MAKITAのミートソースパスタ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/26874894.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 295,
@@ -6318,7 +6815,14 @@
     ],
     "address": "東京都千代田区外神田4-4-3",
     "addressSource": "gsi-reverse",
-    "access": "JR秋葉原駅 徒歩6分"
+    "access": "JR秋葉原駅 徒歩6分",
+    "image": {
+      "src": "/images/spots/carls-jr-sotokanda.jpg",
+      "alt": "Carl's Jr.のベーコンチーズバーガー",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/48532/640x640_rect_9f762fe3119f10725aa23884a9fb91cc.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 297,
@@ -6336,7 +6840,14 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/vault-coffee-sotokanda.jpg",
+      "alt": "Vault Coffeeのコーヒー",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/28694510.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 298,
@@ -6354,7 +6865,14 @@
       "japanese"
     ],
     "address": "東京都千代田区外神田3-15-7",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/wakasaya-sotokanda.jpg",
+      "alt": "若狭家の海鮮丼",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/191890/640x640_rect_62c646b7767c0fe2f7027f01a3d9b8bb.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 299,
@@ -6570,7 +7088,14 @@
     ],
     "address": "東京都千代田区神田佐久間町2-18 モリモトビルB1F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金・祝前日17:30〜23:30（L.O.22:30、ドリンクL.O.23:00）/ 土17:30〜23:00（L.O.22:00）"
+    "hours": "月〜金・祝前日17:30〜23:30（L.O.22:30、ドリンクL.O.23:00）/ 土17:30〜23:00（L.O.22:00）",
+    "image": {
+      "src": "/images/spots/budouya-kandasakumacho.jpg",
+      "alt": "葡萄屋のステーキ",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/86/01/P026918601/P026918601_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 311,
@@ -6589,7 +7114,14 @@
     "address": "東京都千代田区神田佐久間町1-19 山中ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜土7:00〜22:30 / 日祝7:00〜22:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/hakone-soba-kandasakumacho.jpg",
+      "alt": "箱根そばの桜海老かき揚げ天そば",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://c-mr.gnst.jp/cont/menu_image/9d/b4/2586164_l.jpeg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 312,
@@ -6698,7 +7230,13 @@
     "address": "東京都千代田区外神田4-4-3 秋葉原SILビル2F",
     "addressSource": "gsi-reverse",
     "hours": "10:00〜21:00（最終入店20:30）",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/cat-cafe-mocha-sotokanda.jpg",
+      "alt": "Cat Cafe Mochaの店内と猫たち",
+      "sourceLabel": "Cat Cafe Mocha 公式サイト",
+      "sourceUrl": "https://catmocha.jp/assets/img/shop/akihabara2/slide-shop01.jpg"
+    }
   },
   {
     "id": 318,
@@ -6753,7 +7291,14 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田1-6-7 秋葉原センタービル4F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/angel-drops-sotokanda.jpg",
+      "alt": "エンジェルドロップスの店内バーカウンター",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://d1y99f3h50q0h9.cloudfront.net/public/conca/shop/img_main_path/b1cc9159f4a7b72b54b5135279d623542c6df9c8A535.jpeg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 321,
@@ -6772,7 +7317,14 @@
     "address": "東京都千代田区外神田1-5-8 末初ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜18:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/coffee-an-sotokanda.jpg",
+      "alt": "珈琲庵のコーヒー",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33282516.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 322,
@@ -6808,7 +7360,14 @@
     ],
     "address": "東京都千代田区外神田四丁目",
     "addressSource": "gsi-reverse",
-    "hours": "平日11:00〜22:00（L.O.21:30）/ 土日祝10:00〜20:00（L.O.19:30）"
+    "hours": "平日11:00〜22:00（L.O.21:30）/ 土日祝10:00〜20:00（L.O.19:30）",
+    "image": {
+      "src": "/images/spots/flying-scotsman-sotokanda.jpg",
+      "alt": "FLYING SCOTSMANのパンケーキ",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/42132/640x640_rect_42132720.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 325,
@@ -6826,7 +7385,14 @@
     ],
     "address": "東京都千代田区外神田4-3-11",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜翌2:00（日は11:00〜20:00）"
+    "hours": "11:00〜翌2:00（日は11:00〜20:00）",
+    "image": {
+      "src": "/images/spots/tonkotsu-hakatafuryu-sotokanda2.jpg",
+      "alt": "とんこつらーめん博多風龍のラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37800806.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 326,
@@ -6844,7 +7410,14 @@
     ],
     "address": "東京都千代田区外神田四丁目",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木11:30〜23:00（L.O.22:30）/ 金土11:30〜23:30（料理L.O.22:30、ドリンクL.O.23:00）/ 日11:30〜22:00（L.O.21:30）"
+    "hours": "月〜木11:30〜23:00（L.O.22:30）/ 金土11:30〜23:30（料理L.O.22:30、ドリンクL.O.23:00）/ 日11:30〜22:00（L.O.21:30）",
+    "image": {
+      "src": "/images/spots/oerlrer-man-sotokanda.jpg",
+      "alt": "oerlrer manのオムライス",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/340772/150x150_square_693a85792ad8d108b4fb20b3e04b8d6d.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 328,
@@ -6862,7 +7435,14 @@
     ],
     "address": "東京都千代田区外神田4-2-6 AKIBA426ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金ランチ11:30〜13:30 / 月〜土・祝ディナー15:30〜23:00（L.O.22:30、ドリンクL.O.22:00）/ 土・祝ランチ12:00〜13:30"
+    "hours": "月〜金ランチ11:30〜13:30 / 月〜土・祝ディナー15:30〜23:00（L.O.22:30、ドリンクL.O.22:00）/ 土・祝ランチ12:00〜13:30",
+    "image": {
+      "src": "/images/spots/maguro-senmon-izakaya-akiba.jpg",
+      "alt": "マグロ専門居酒屋AKIBAのマグロといくらの海鮮丼",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/25580019.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 329,
@@ -6880,7 +7460,14 @@
     ],
     "address": "東京都千代田区外神田4-3-11 TSHビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜21:00"
+    "hours": "11:00〜21:00",
+    "image": {
+      "src": "/images/spots/unatoto-sotokanda.jpg",
+      "alt": "宇奈ととの鰻の蒲焼き丼",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/55/73/P039045573/P039045573_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 330,
@@ -6898,7 +7485,14 @@
       "donut"
     ],
     "hours": "10:30〜21:00",
-    "closed": "施設の休館日に準ずる"
+    "closed": "施設の休館日に準ずる",
+    "image": {
+      "src": "/images/spots/jack-in-the-donuts-kandahanaokacho.jpg",
+      "alt": "Jack in the Donutsのドーナツ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38054031.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 331,
@@ -6916,7 +7510,14 @@
     ],
     "address": "東京都千代田区神田松永町18-1 ビオレ秋葉原1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜翌4:00（毎日）"
+    "hours": "11:00〜翌4:00（毎日）",
+    "image": {
+      "src": "/images/spots/gottari-men-gottsu-kandamatsunagacho.jpg",
+      "alt": "超ごってり麺 ごっつの豚骨ラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39424159.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 332,
@@ -6935,7 +7536,14 @@
     "address": "東京都千代田区神田和泉町1-3-6 エンドウビル1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金11:30〜14:00（L.O.13:30）・16:00〜23:30（L.O.23:00）/ 土15:00〜23:00（L.O.22:30）",
-    "closed": "日曜・祝日"
+    "closed": "日曜・祝日",
+    "image": {
+      "src": "/images/spots/takashina-kandaizumicho.jpg",
+      "alt": "高しなの唐揚げ定食",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37021410.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 333,
@@ -7093,7 +7701,14 @@
     "address": "東京都千代田区外神田4-11-2",
     "addressSource": "gsi-reverse",
     "hours": "平日10:00〜18:30 / 土日祝11:30〜18:30（共にL.O.18:00）",
-    "closed": "水曜・木曜"
+    "closed": "水曜・木曜",
+    "image": {
+      "src": "/images/spots/fruits-de-saison-sotokanda.jpg",
+      "alt": "フルーフ デゥ セゾンの店頭看板",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://c-mr.gnst.jp/cont/menu_image/e4/82/2000030565_l.jpeg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 342,
@@ -7127,7 +7742,14 @@
     "address": "東京都千代田区外神田3-2-6",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜15:30",
-    "closed": "日曜・祝日"
+    "closed": "日曜・祝日",
+    "image": {
+      "src": "/images/spots/akiba-shokudo-sotokanda.jpg",
+      "alt": "あきば食堂の唐揚げ定食",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/25870585.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 344,
@@ -7142,7 +7764,14 @@
     "osmId": "node/5317636174",
     "address": "東京都千代田区外神田3-11-4 アパホテル秋葉原駅電気街口1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜22:00（L.O.21:30）"
+    "hours": "11:00〜22:00（L.O.21:30）",
+    "image": {
+      "src": "/images/spots/curry-shokudo-kokoro-sotokanda.jpg",
+      "alt": "カレー食堂 心の鶏がら醤油スープカレー",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/39/21/P039573921/P039573921_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 345,
@@ -7160,7 +7789,14 @@
       "cafe"
     ],
     "hours": "平日17:00〜23:00 / 土日祝12:00〜23:00（モーニング木〜日8:00〜11:00）",
-    "closed": "水曜"
+    "closed": "水曜",
+    "image": {
+      "src": "/images/spots/tougenkyo-sotokanda.jpg",
+      "alt": "橙幻郷のオムライス",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/166797/640x640_rect_959f10112142e352df77347a6014c857.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 346,
@@ -7254,7 +7890,14 @@
     "address": "東京都千代田区外神田1-8-10 バウハウスビル1F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜21:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/star-kebab-sotokanda.jpg",
+      "alt": "スターケバブのケバブサンド",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39500594.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 352,
@@ -7422,7 +8065,14 @@
     ],
     "address": "東京都千代田区外神田3-7-8 インタスビル1F",
     "addressSource": "gsi-reverse",
-    "closed": "水曜日"
+    "closed": "水曜日",
+    "image": {
+      "src": "/images/spots/mooga-sotokanda.jpg",
+      "alt": "MOOGAの飲食セット",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://rimage.gnst.jp/rest/img/54hxkfn20000/s_0n5d.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 362,
@@ -7461,7 +8111,14 @@
     "address": "東京都台東区台東一丁目９番４号片岡ビル１階",
     "addressSource": "taito-opendata",
     "hours": "11:00〜16:00・17:30〜21:30頃（売り切れ次第終了）",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/curry-wa-nomimono-taito.jpg",
+      "alt": "カレーは飲み物。のカツカレー",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/35806840.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 364,
@@ -7496,7 +8153,14 @@
     "address": "東京都台東区台東一丁目９番４号松浦ビル１階",
     "addressSource": "taito-opendata",
     "hours": "11:30〜15:00（L.O.14:30）・17:00〜23:00（L.O.22:30）",
-    "closed": "日曜（臨時休業あり）"
+    "closed": "日曜（臨時休業あり）",
+    "image": {
+      "src": "/images/spots/bamba-r-taito.jpg",
+      "alt": "ワイン&バー BAMBA-Rのパスタ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/27853915.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 366,
@@ -7512,7 +8176,14 @@
     "address": "東京都台東区台東1-10-5",
     "addressSource": "gsi-reverse",
     "hours": "月〜土11:00〜21:00 / 日11:00〜17:00",
-    "closed": "なし"
+    "closed": "なし",
+    "image": {
+      "src": "/images/spots/manjiriki-taito.jpg",
+      "alt": "卍力のスパイスラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38112639.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 367,
@@ -7531,7 +8202,14 @@
     "address": "東京都千代田区神田佐久間町2-17",
     "addressSource": "gsi-reverse",
     "hours": "月〜土16:00〜23:20 / 日祝16:00〜23:00",
-    "closed": "年末年始"
+    "closed": "年末年始",
+    "image": {
+      "src": "/images/spots/akihabara-toraya-kandasakumacho.jpg",
+      "alt": "秋葉原とら八の焼きとん料理",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://rimage.gnst.jp/rest/img/1bpfzn7w0000/s_0nei.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 368,
@@ -7548,7 +8226,14 @@
       "cafe"
     ],
     "address": "東京都台東区秋葉原",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/elite-taito.jpg",
+      "alt": "エリートの喫茶店内観",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36434916.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 369,
@@ -7567,7 +8252,14 @@
     ],
     "address": "東京都千代田区神田和泉町1-3-5 サンフランビル2号館",
     "addressSource": "gsi-reverse",
-    "hours": "昼11:00〜16:00 / 夜17:30〜21:30"
+    "hours": "昼11:00〜16:00 / 夜17:30〜21:30",
+    "image": {
+      "src": "/images/spots/naze-soba-ni-rayu-kandaizumicho.jpg",
+      "alt": "なぜ蕎麦にラー油を入れるのか。のそば料理",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/resize/640x640c/restaurant/images/Rvw/367822/f2f949bfeb78848cd0960666f2c12604.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 370,
@@ -7585,7 +8277,14 @@
     ],
     "address": "東京都千代田区外神田3-7-14 MYビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "平日15:00〜21:00 / 土日祝12:00〜20:00（最終入店19:00）"
+    "hours": "平日15:00〜21:00 / 土日祝12:00〜20:00（最終入店19:00）",
+    "image": {
+      "src": "/images/spots/third-place-sotokanda.jpg",
+      "alt": "THIRD PLACEのボードゲームスペース店内",
+      "sourceLabel": "ボードゲーム関連メディア 掲載写真",
+      "sourceUrl": "https://image-bodoge.cdn-hoobby.net/space_a49bb21e-9e54-4aaf-82c4-76c73aa09173.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 371,
@@ -7634,7 +8333,14 @@
     ],
     "address": "東京都千代田区神田和泉町1-3-3 タイワビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金7:30〜20:00（L.O.19:30）/ 土日祝9:00〜19:00（L.O.18:30）"
+    "hours": "月〜金7:30〜20:00（L.O.19:30）/ 土日祝9:00〜19:00（L.O.18:30）",
+    "image": {
+      "src": "/images/spots/ginza-oranda-mame-kandaizumicho.jpg",
+      "alt": "銀座 和蘭豆のアイスコーヒー",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/resize/640x640c/restaurant/images/Rvw/329881/2df4810fc677f40411e64ce241a47232.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 374,
@@ -7668,7 +8374,14 @@
     "osmId": "node/6068196605",
     "address": "東京都千代田区外神田4-14-1 秋葉原UDX AKIBA_ICHI 3F",
     "addressSource": "gsi-reverse",
-    "hours": "ランチ11:00〜14:00（L.O.14:00）/ ディナー17:00〜23:00（L.O.22:00）"
+    "hours": "ランチ11:00〜14:00（L.O.14:00）/ ディナー17:00〜23:00（L.O.22:00）",
+    "image": {
+      "src": "/images/spots/hinomoto-hinaiya-sotokanda.jpg",
+      "alt": "日乃本比内やの比内地鶏親子丼",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/34644137.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 376,
@@ -7702,7 +8415,14 @@
     "hours": "月〜金ランチ11:30〜13:30・ディナー17:00〜24:00（L.O.23:00、ドリンクL.O.23:30）/ 土17:00〜23:00（L.O.22:00、ドリンクL.O.22:30）",
     "address": "東京都千代田区神田練塀町67",
     "addressSource": "gsi-reverse",
-    "closed": "日曜・祝日"
+    "closed": "日曜・祝日",
+    "image": {
+      "src": "/images/spots/kurayado-kandanerikabecho.jpg",
+      "alt": "蔵屋の店内",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/89/02/P047328902/P047328902_368.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 378,
@@ -7758,7 +8478,14 @@
     "address": "東京都千代田区外神田4-2-6 AKIBA426ビル5F",
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩2分",
-    "hours": "通常18:00〜29:00（貸切予約時11:00〜29:00）"
+    "hours": "通常18:00〜29:00（貸切予約時11:00〜29:00）",
+    "image": {
+      "src": "/images/spots/wanted-sotokanda.jpg",
+      "alt": "WANTEDのフルーツカクテル",
+      "sourceLabel": "CafeRun 掲載写真",
+      "sourceUrl": "https://img.caferun.jp/shop_data/00000005956/shop/vip/original/1564732196_8099.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 382,
@@ -7795,7 +8522,14 @@
     ],
     "address": "東京都千代田区外神田一丁目",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金16:00〜23:00 / 土日祝14:00〜23:00"
+    "hours": "月〜金16:00〜23:00 / 土日祝14:00〜23:00",
+    "image": {
+      "src": "/images/spots/sushi-sakaba-kinnodashi-sotokanda.jpg",
+      "alt": "すし酒場きんのだしの寿司盛り合わせ",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/02/08/P048720208/P048720208_368.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 384,
@@ -7814,7 +8548,14 @@
     ],
     "address": "東京都千代田区外神田1-13-1 Akiba1131ビルディング6F・7F・8F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金16:00〜23:00 / 土日祝14:00〜23:00"
+    "hours": "月〜金16:00〜23:00 / 土日祝14:00〜23:00",
+    "image": {
+      "src": "/images/spots/shabushabu-kinnodashi-sotokanda.jpg",
+      "alt": "しゃぶしゃぶきんのだしの野菜盛り",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/24521117.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 385,
@@ -7832,7 +8573,14 @@
       "regional"
     ],
     "address": "東京都千代田区外神田1-13-1 Akiba1131.bldg 5F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/akakara-sotokanda.jpg",
+      "alt": "赤からの赤から鍋",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001203132/archive/1825365-5f4d921535d77.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 386,
@@ -7885,7 +8633,14 @@
     "hours": "11:00-15:00,17:00-23:00",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/wago-gyoza-taito.jpg",
+      "alt": "和合餃子の手作り餃子食べ放題コース",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://r.gnavi.co.jp/gf2u701/img/gf2u701ps1.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 390,
@@ -7940,7 +8695,14 @@
     "address": "東京都千代田区外神田4-3-12",
     "addressSource": "gsi-reverse",
     "hours": "月〜金17:00〜22:30 / 土17:00〜22:00",
-    "closed": "日曜・祝日"
+    "closed": "日曜・祝日",
+    "image": {
+      "src": "/images/spots/torisho-sotokanda.jpg",
+      "alt": "とり庄の焼き鳥盛り合わせ",
+      "sourceLabel": "ヒトサラ 投稿写真",
+      "sourceUrl": "https://img.hitosara.com/images/user-photos/fd63480e-eb89-46d3-b084-1d684bb5f13e/0000832403-01716859104.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 393,
@@ -8066,7 +8828,14 @@
     ],
     "address": "東京都千代田区外神田4-3-3 ドン・キホーテ秋葉原店内",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00"
+    "hours": "11:00〜23:00",
+    "image": {
+      "src": "/images/spots/smiley-crapes-sotokanda.jpg",
+      "alt": "Smiley Crapesのクレープ",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/371065/640x640_rect_25b3c21d0a3b9ec2a9de775822cf57ab.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 400,
@@ -8084,7 +8853,14 @@
     ],
     "address": "東京都千代田区外神田4-3-3 ドン・キホーテ秋葉原店1F",
     "addressSource": "gsi-reverse",
-    "hours": "平日10:30〜21:30 / 休日10:00〜21:45"
+    "hours": "平日10:30〜21:30 / 休日10:00〜21:45",
+    "image": {
+      "src": "/images/spots/sando-lab-tokyo-sotokanda.jpg",
+      "alt": "SANDO LAB TOKYOのフライサンド",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/320316/640x640_rect_a4ab829fb3b9afb488cc1998fe69378e.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 401,
@@ -8103,7 +8879,14 @@
     "address": "東京都千代田区外神田4-3-3",
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街出口 徒歩5分 / 東京メトロ末広町駅1番出口 徒歩3分",
-    "hours": "11:00〜21:00（毎日）"
+    "hours": "11:00〜21:00（毎日）",
+    "image": {
+      "src": "/images/spots/maruju-seinikuten-sotokanda.jpg",
+      "alt": "丸十精肉店の黒毛和牛串",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/337063/640x640_rect_2704a9b488659701fd25a9f5faa4e22b.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 402,
@@ -8160,7 +8943,14 @@
     "address": "東京都千代田区神田和泉町",
     "addressSource": "gsi-reverse",
     "hours": "月〜金6:00〜19:00 / 土日祝6:00〜15:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/shinshu-togakushi-minogasa-kandaizumicho.jpg",
+      "alt": "信州戸隠生蕎麦みのがさの天ぷらそば",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/371818/150x150_square_e10d345f8c4ae655f8d1f23ec7bdc827.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 405,
@@ -8196,7 +8986,14 @@
     "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1 1F",
     "addressSource": "gsi-reverse",
     "hours": "8:00〜22:00",
-    "closed": "不定休（アトレ秋葉原1休館日に準ずる）"
+    "closed": "不定休（アトレ秋葉原1休館日に準ずる）",
+    "image": {
+      "src": "/images/spots/sarutahiko-coffee-sotokanda.jpg",
+      "alt": "猿田彦珈琲のハンドドリップコーヒー",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/271032/640x640_rect_30a0c093d024a15a34552b92c8c37d93.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 407,
@@ -8213,7 +9010,14 @@
       "izakaya"
     ],
     "address": "東京都千代田区外神田2-14-5 B1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/nijuyoku-sotokanda.jpg",
+      "alt": "二十四区の串天揚げ",
+      "sourceLabel": "ぐるなび 投稿写真",
+      "sourceUrl": "https://rimage.gnst.jp/rest/img/cuy1j5wf0000/t_0o6x.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 408,
@@ -8232,7 +9036,14 @@
     ],
     "address": "東京都千代田区外神田4-7-3",
     "addressSource": "gsi-reverse",
-    "closed": "木曜"
+    "closed": "木曜",
+    "image": {
+      "src": "/images/spots/karyo-matsutomi-sotokanda.jpg",
+      "alt": "果寮MATSUTOMIのフルーツジュース",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/257452/640x640_rect_acda1b15861a1b9f781c1a84fbc8262a.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 411,
@@ -8248,7 +9059,14 @@
     "address": "東京都千代田区神田平河町",
     "addressSource": "gsi-reverse",
     "hours": "11:30〜14:30（L.O.14:00）・18:00〜20:00（L.O.19:30）",
-    "closed": "土曜・日曜・祝日"
+    "closed": "土曜・日曜・祝日",
+    "image": {
+      "src": "/images/spots/ramen-tsumugimugi-kandahirakawacho.jpg",
+      "alt": "らーめん紬麦のラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37012225.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 412,
@@ -8266,7 +9084,14 @@
     ],
     "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba8F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（L.O.22:30、ドリンクL.O.22:30）"
+    "hours": "11:00〜23:00（L.O.22:30、ドリンクL.O.22:30）",
+    "image": {
+      "src": "/images/spots/maguro-hito-kandahanaokacho.jpg",
+      "alt": "まぐろ人の寿司カウンター",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/01/04/P023820104/P023820104_368.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 413,
@@ -8316,7 +9141,14 @@
       "indian"
     ],
     "address": "東京都台東区上野五丁目１番２号",
-    "addressSource": "taito-opendata"
+    "addressSource": "taito-opendata",
+    "image": {
+      "src": "/images/spots/country-spice-taito.jpg",
+      "alt": "Country Spiceのバターチキンカレー",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/364482/640x640_rect_5677798455f2e8868a239f2624eebf6c.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 416,
@@ -8371,7 +9203,14 @@
     "address": "東京都千代田区外神田1-18-19 新秋葉原ビルB1",
     "addressSource": "gsi-reverse",
     "hours": "7:30〜22:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/renoir2-sotokanda.jpg",
+      "alt": "ルノアールのアイスコーヒー",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/34561674.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 419,
@@ -8390,7 +9229,14 @@
     "address": "東京都千代田区神田須田町1-21-4 神田NKビル B1F・1F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜15:00（L.O.14:30）・17:00〜23:00（L.O.22:30）",
-    "closed": "無休（年末年始あり）"
+    "closed": "無休（年末年始あり）",
+    "image": {
+      "src": "/images/spots/aromas-of-india-kandasudacho.jpg",
+      "alt": "アロマズ オブ インディアのバターチキンカレー",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/180457/640x640_rect_34a0cdca57defdad284e3f32d64f8588.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 421,
@@ -8655,7 +9501,14 @@
     ],
     "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル4F",
     "addressSource": "gsi-reverse",
-    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
+    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）",
+    "image": {
+      "src": "/images/spots/tokachi-ishikari-hakodate-kandasakumacho.jpg",
+      "alt": "十勝石狩函館の海鮮刺身盛り合わせ",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/03/80/P041880380/P041880380_238.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 440,
@@ -8673,7 +9526,14 @@
     ],
     "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
+    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）",
+    "image": {
+      "src": "/images/spots/rakuzo-kandasakumacho.jpg",
+      "alt": "楽蔵のグリル料理",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/20/38/P041872038/P041872038_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 441,
@@ -8691,7 +9551,14 @@
     ],
     "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "平日17:00〜23:30 / 土日16:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
+    "hours": "平日17:00〜23:30 / 土日16:00〜23:30（L.O.22:30、ドリンクL.O.23:00）",
+    "image": {
+      "src": "/images/spots/umeko-no-ie-kandasakumacho.jpg",
+      "alt": "ウメ子の家のチーズフォンデュ",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/11/69/P048171169/P048171169_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 442,
@@ -8727,7 +9594,14 @@
       "izakaya"
     ],
     "address": "東京都千代田区神田練塀町 富士ソフト秋葉原ビル1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/hub-kandanerikabecho.jpg",
+      "alt": "HUBのフィッシュ・アンド・チップス",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/56/95/P047495695/P047495695_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 444,
@@ -8744,7 +9618,14 @@
       "izakaya"
     ],
     "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/hachikichi-kandasakumacho.jpg",
+      "alt": "八吉の焼き魚定食",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36858902.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 445,
@@ -8781,7 +9662,14 @@
     "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原5F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜翌5:00",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/kaiteiro-kasennabe-kandasakumacho.jpg",
+      "alt": "海底撈火鍋のしゃぶしゃぶ肉",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/52/40/P035675240/P035675240_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 447,
@@ -8796,7 +9684,14 @@
     "osmId": "node/9103752890",
     "address": "東京都千代田区神田佐久間町1-13",
     "addressSource": "gsi-reverse",
-    "hours": "月木日17:00〜23:00 / 金17:00〜翌1:00 / 土16:00〜23:00 / 祝17:00〜23:00 / 祝前日17:00〜翌1:00"
+    "hours": "月木日17:00〜23:00 / 金17:00〜翌1:00 / 土16:00〜23:00 / 祝17:00〜23:00 / 祝前日17:00〜翌1:00",
+    "image": {
+      "src": "/images/spots/kichiri-kandasakumacho.jpg",
+      "alt": "KI・CHI・RIの店内",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000040859/archive/3862723-69436c47c4ebc.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 448,
@@ -8814,7 +9709,14 @@
     ],
     "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原2F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金・祝前日15:00〜翌5:00 / 土日祝12:00〜翌5:00"
+    "hours": "月〜金・祝前日15:00〜翌5:00 / 土日祝12:00〜翌5:00",
+    "image": {
+      "src": "/images/spots/darts-bar-regalo-kandasakumacho.jpg",
+      "alt": "ダーツBAR REGALOの店内",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/83/45/P050898345/P050898345_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 449,
@@ -8833,7 +9735,14 @@
     "address": "東京都千代田区神田佐久間町1-6-5 アキバ・トリム5F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜14:00・17:00〜22:30（L.O.22:00）/ 土11:00〜22:30（L.O.22:00）/ 日祝11:00〜22:00（L.O.21:30）",
-    "closed": "元日"
+    "closed": "元日",
+    "image": {
+      "src": "/images/spots/tsukiji-sushiko-kandasakumacho.jpg",
+      "alt": "築地すし好の寿司盛り合わせ",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/15/89/P033991589/P033991589_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 450,
@@ -8852,7 +9761,13 @@
     "address": "東京都千代田区外神田1-16-10 山本無線駅前ビル",
     "addressSource": "gsi-reverse",
     "hours": "24時間営業",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/isomaru-suisan-sotokanda.jpg",
+      "alt": "磯丸水産秋葉原店の外観",
+      "sourceLabel": "磯丸水産 公式サイト",
+      "sourceUrl": "https://isomaru.jp/1417/wp-content/uploads/2022/12/isomaru_gaikan-1.jpg"
+    }
   },
   {
     "id": 451,
@@ -8870,7 +9785,14 @@
     ],
     "address": "東京都千代田区神田和泉町1-2-22",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金11:30〜16:00・17:00〜23:00 / 土11:30〜16:00"
+    "hours": "月〜金11:30〜16:00・17:00〜23:00 / 土11:30〜16:00",
+    "image": {
+      "src": "/images/spots/ginkura-kandaizumicho.jpg",
+      "alt": "吟くらのフライ盛り合わせ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/18149447.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 452,
@@ -8889,7 +9811,14 @@
     "address": "東京都千代田区神田和泉町1-2-21 三笠ビル",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜15:00・17:00〜22:00",
-    "closed": "日曜"
+    "closed": "日曜",
+    "image": {
+      "src": "/images/spots/mikasa-kandaizumicho.jpg",
+      "alt": "三笠の定食",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/35839726.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 453,
@@ -8908,7 +9837,14 @@
     "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba8F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜23:00（L.O.22:00）",
-    "closed": "無休（施設に準ずる）"
+    "closed": "無休（施設に準ずる）",
+    "image": {
+      "src": "/images/spots/wako-kandahanaokacho.jpg",
+      "alt": "和幸のとんかつ定食",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38362269.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 454,
@@ -8925,7 +9861,14 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田1-6-7 秋葉原センタービル3F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/nyanya-biyuan-sotokanda.jpg",
+      "alt": "娘娘美苑のドリンク",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/257276/640x640_rect_dbfa937f010ae984e6bd8a91847222c2.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 455,
@@ -8980,7 +9923,13 @@
     ],
     "address": "東京都千代田区神田花岡町1-1 ヨドバシアキバ8F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（毎日）"
+    "hours": "11:00〜23:00（毎日）",
+    "image": {
+      "src": "/images/spots/echigoya-heiji-kandahanaokacho.jpg",
+      "alt": "越後屋平次の目鯛西京漬けランチ",
+      "sourceLabel": "あきばる 掲載写真",
+      "sourceUrl": "https://akibaru.jp/wp-content/uploads/2023/03/echigoya-heiji-medai08.jpg"
+    }
   },
   {
     "id": 458,
@@ -8996,7 +9945,14 @@
     "address": "東京都千代田区外神田3-6-5",
     "addressSource": "gsi-reverse",
     "hours": "月〜金12:00〜15:00（L.O.14:30）・17:00〜22:00（L.O.21:30）/ 土12:00〜15:00（L.O.14:30）",
-    "closed": "日曜"
+    "closed": "日曜",
+    "image": {
+      "src": "/images/spots/sushi-stand-365-sotokanda.jpg",
+      "alt": "鮨スタンド三六五の握り寿司",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/31867293.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 459,
@@ -9030,7 +9986,13 @@
       "noodle"
     ],
     "address": "東京都千代田区外神田3-7-8 DB末広町ビル1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/shirunashi-tantanmen-piriri-sotokanda.jpg",
+      "alt": "汁なし担々麺ピリリの担々麺",
+      "sourceLabel": "あきばる 掲載写真",
+      "sourceUrl": "https://akibaru.jp/wp-content/uploads/2022/02/piriri06.jpeg"
+    }
   },
   {
     "id": 461,
@@ -9065,7 +10027,13 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/akihabara-shukaijo-sotokanda.jpg",
+      "alt": "秋葉原集会所のボードゲームスペース店内",
+      "sourceLabel": "秋葉原集会所 公式サイト",
+      "sourceUrl": "https://shukaijo.com/img/store01.jpg"
+    }
   },
   {
     "id": 463,
@@ -9116,7 +10084,14 @@
       "bar"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/hakkutsu-gradol-bunkasai-sotokanda.jpg",
+      "alt": "発掘グラドル文化祭の会場",
+      "sourceLabel": "コンカフェナビ 掲載写真",
+      "sourceUrl": "https://concafenavi.com/data/conversion/webp.php/?f=ef34c73aeb3185c9da20f7596f193203.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 466,
@@ -9219,7 +10194,14 @@
     ],
     "address": "東京都千代田区外神田1-3-5",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜22:00頃"
+    "hours": "11:00〜22:00頃",
+    "image": {
+      "src": "/images/spots/antep-kebab-sotokanda.jpg",
+      "alt": "アンテップ ケバブのケバブプレート",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38070094.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 472,
@@ -9373,7 +10355,14 @@
     ],
     "address": "東京都千代田区外神田1-4-11 2F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（L.O.22:30）"
+    "hours": "11:00〜23:00（L.O.22:30）",
+    "image": {
+      "src": "/images/spots/yakiniku-like-sotokanda.jpg",
+      "alt": "焼肉ライクの焼肉セット",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/31792014.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 480,
@@ -9389,7 +10378,14 @@
     "address": "東京都千代田区外神田1-2-3 土屋ビルB1",
     "addressSource": "gsi-reverse",
     "hours": "月〜土11:00〜23:00 / 日祝11:00〜22:00",
-    "closed": "なし"
+    "closed": "なし",
+    "image": {
+      "src": "/images/spots/roastbeef-ono-sotokanda.jpg",
+      "alt": "ローストビーフ大野のローストビーフ丼",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37610939.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 481,
@@ -9406,7 +10402,14 @@
       "yakiniku"
     ],
     "address": "東京都千代田区外神田1-2-3 土屋ビル1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "image": {
+      "src": "/images/spots/tachigui-yakiniku-jiromaru-sotokanda.jpg",
+      "alt": "立喰い焼肉 治郎丸の部位メニュー看板",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/135195/640x640_rect_135195954.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 482,
@@ -9491,7 +10494,14 @@
     ],
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 4F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金16:00〜23:00 / 土日祝15:00〜23:00"
+    "hours": "月〜金16:00〜23:00 / 土日祝15:00〜23:00",
+    "image": {
+      "src": "/images/spots/akihabara-hormone-sotokanda.jpg",
+      "alt": "秋葉原ホルモンの串焼き",
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/161307/640x640_rect_161307293.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 486,
@@ -9563,7 +10573,14 @@
     "address": "東京都千代田区神田須田町2-1 BP秋葉原ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "平日16:00〜23:00 / 休日14:00〜23:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "image": {
+      "src": "/images/spots/lily-cottage-kandasudacho.jpg",
+      "alt": "Lily Cottageの店内インテリア",
+      "sourceLabel": "コンカフェ.jp 掲載写真",
+      "sourceUrl": "https://img.con-cafe.jp/upload/2023/01/lycottage_bg-3.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 490,
@@ -9632,7 +10649,14 @@
     "osmId": "node/10968697005",
     "address": "東京都千代田区神田佐久間町1-8-3 ダイハツ秋葉原ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "平日ランチ11:30〜14:30・ディナー17:00〜23:00 / 土11:30〜23:00 / 日祝11:30〜22:00"
+    "hours": "平日ランチ11:30〜14:30・ディナー17:00〜23:00 / 土11:30〜23:00 / 日祝11:30〜22:00",
+    "image": {
+      "src": "/images/spots/kojikura-kandasakumacho.jpg",
+      "alt": "麹蔵の料理と店内",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/00/74/P048830074/P048830074_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 494,
@@ -9681,7 +10705,14 @@
     "address": "東京都千代田区外神田1-15-18 奥山ビルB1F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜22:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "image": {
+      "src": "/images/spots/gyukatsu-motomura-sotokanda.jpg",
+      "alt": "牛かつ もと村の牛かつとご飯",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36631522.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 497,
@@ -9699,7 +10730,14 @@
     ],
     "address": "東京都千代田区外神田1-15-1",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（毎日）"
+    "hours": "11:00〜23:00（毎日）",
+    "image": {
+      "src": "/images/spots/pepper-lunch-sotokanda2.jpg",
+      "alt": "Pepper Lunchのビーフカレーライス",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/29393776.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 498,
@@ -9735,7 +10773,14 @@
     ],
     "address": "東京都千代田区外神田1-15-18 奥山ビル6F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木・土日16:00〜翌1:00（L.O.0:00、ドリンクL.O.0:30）/ 金16:00〜翌5:00（L.O.4:00、ドリンクL.O.4:30）"
+    "hours": "月〜木・土日16:00〜翌1:00（L.O.0:00、ドリンクL.O.0:30）/ 金16:00〜翌5:00（L.O.4:00、ドリンクL.O.4:30）",
+    "image": {
+      "src": "/images/spots/koronagi-sotokanda.jpg",
+      "alt": "呼炉凪来のおでんと炉端焼き",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/32489452.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 500,
@@ -9861,7 +10906,14 @@
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 8F",
     "addressSource": "gsi-reverse",
     "hours": "平日17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）/ 土日祝15:00〜23:30",
-    "closed": "無休"
+    "closed": "無休",
+    "image": {
+      "src": "/images/spots/jibundoki-sotokanda.png",
+      "alt": "じぶんどきの個室座席",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001515032/archive/3017283-60795363e9d23.png",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 506,
@@ -9876,7 +10928,14 @@
     "osmId": "node/11194950515",
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 6F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（年中無休）"
+    "hours": "11:00〜23:00（年中無休）",
+    "image": {
+      "src": "/images/spots/kamadoka-sotokanda.jpg",
+      "alt": "かまどかの釜飯とからあげ定食",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33259054.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 508,
@@ -9892,7 +10951,14 @@
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 3F",
     "addressSource": "gsi-reverse",
     "hours": "平日ランチ11:30〜15:00（L.O.14:30）・ディナー17:00〜23:00（最終入店21:30）/ 土日祝11:30〜23:00（最終入店21:30）",
-    "closed": "ビルに準ずる"
+    "closed": "ビルに準ずる",
+    "image": {
+      "src": "/images/spots/nikuya-yokocho-sotokanda.jpg",
+      "alt": "肉屋横丁の和牛盛り合わせ",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001561116/archive/4193721-6a759a8aa0344.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 509,
@@ -9925,7 +10991,14 @@
     "address": "東京都千代田区外神田1-18-19 秋葉原プロジェクトビル5F",
     "addressSource": "gsi-reverse",
     "hours": "月〜木ランチ11:30〜14:00・ディナー16:00〜23:30 / 金ランチ11:30〜14:00・ディナー16:00〜24:00 / 土日祝11:30〜23:30",
-    "closed": "なし"
+    "closed": "なし",
+    "image": {
+      "src": "/images/spots/tokyo-kushiyaki-club-sotokanda.jpg",
+      "alt": "東京串焼倶楽部の串焼き盛り合わせ",
+      "sourceLabel": "ホットペッパーグルメ 掲載写真",
+      "sourceUrl": "https://imgfp.hotp.jp/IMGH/30/84/P039383084/P039383084_480.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 511,
@@ -9940,7 +11013,13 @@
     "osmId": "node/11194950525",
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 5F",
     "addressSource": "gsi-reverse",
-    "hours": "ランチ11:30〜15:00（L.O.14:30）/ ディナー17:00〜22:30（L.O.22:00）"
+    "hours": "ランチ11:30〜15:00（L.O.14:30）/ ディナー17:00〜22:30（L.O.22:00）",
+    "image": {
+      "src": "/images/spots/matsuo-jingisukan-sotokanda.jpg",
+      "alt": "松尾ジンギスカンの店内",
+      "sourceLabel": "松尾ジンギスカン 公式サイト",
+      "sourceUrl": "https://www.matsuo1956.jp/shop/akihabara/img/visual01.jpg"
+    }
   },
   {
     "id": 513,
@@ -9995,7 +11074,14 @@
     ],
     "address": "東京都千代田区外神田1-15-1 半田ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜21:00"
+    "hours": "10:00〜21:00",
+    "image": {
+      "src": "/images/spots/yokohama-kurikoan-sotokanda.jpg",
+      "alt": "横浜くりこ庵の店舗外観",
+      "sourceLabel": "GDM 掲載写真",
+      "sourceUrl": "https://www.gdm.or.jp/wp-content/uploads/2023/09/27/kurikoan_open_01-620x466.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 516,

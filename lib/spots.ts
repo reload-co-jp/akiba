@@ -51,6 +51,8 @@ export type Spot = {
     height?: number
     sourceLabel?: string
     sourceUrl?: string
+    /** true = 第三者投稿写真・メディア記事等、権利関係が明確でないソース。要差し替え検討。 */
+    copyrightRisk?: boolean
   }
   en?: SpotLocalizedContent
   tags?: string[]
