@@ -4,10 +4,24 @@ import type { SpotCategory } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 
+const categoryOrder: SpotCategory[] = [
+  "電気街・PCパーツ",
+  "アニメ・マンガ・同人",
+  "ゲーム・フィギュア",
+  "フィギュア・模型",
+  "グルメ・カフェ",
+  "ショッピング",
+]
+
+const spotCount = getDetailPageSpots().length
+const categoryCount = categoryOrder.filter((c) =>
+  getAllSpotCategories().includes(c)
+).length
+const description = `秋葉原の観光スポットを${spotCount}件、電気街・アニメ・ゲーム・グルメなど${categoryCount}カテゴリ別に紹介します。`
+
 export const metadata = {
   title: "観光スポット",
-  description:
-    "秋葉原の観光スポット一覧。電気街・アニメ・ゲーム・グルメなどカテゴリ別に紹介します。",
+  description,
   keywords: [
     "秋葉原",
     "アキバ",
@@ -24,8 +38,7 @@ export const metadata = {
   alternates: { canonical: "/spots/" },
   openGraph: {
     title: "観光スポット | アキバLive",
-    description:
-      "秋葉原の観光スポット一覧。電気街・アニメ・ゲーム・グルメなどカテゴリ別に紹介します。",
+    description,
     url: "/spots/",
     type: "website",
     images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
@@ -33,19 +46,10 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "観光スポット | アキバLive",
-    description: "秋葉原の観光スポット一覧。電気街・アニメ・ゲーム・グルメなどカテゴリ別に紹介します。",
+    description,
     images: ["/images/hero.jpg"],
   },
 }
-
-const categoryOrder: SpotCategory[] = [
-  "電気街・PCパーツ",
-  "アニメ・マンガ・同人",
-  "ゲーム・フィギュア",
-  "フィギュア・模型",
-  "グルメ・カフェ",
-  "ショッピング",
-]
 
 const Page = () => {
   const spots = getDetailPageSpots()
@@ -95,6 +99,20 @@ const Page = () => {
       <section
         style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}
       >
+        <nav aria-label="パンくずリスト" className="breadcrumb">
+          <ol className="breadcrumb__list">
+            <li className="breadcrumb__item">
+              <Link href="/">ホーム</Link>
+            </li>
+            <li
+              className="breadcrumb__item breadcrumb__item--current"
+              aria-current="page"
+            >
+              観光スポット
+            </li>
+          </ol>
+        </nav>
+
         <div className="home-articles__header">
           <p className="home-articles__kicker">Spot guide</p>
           <h1 className="home-articles__title">観光スポット</h1>
