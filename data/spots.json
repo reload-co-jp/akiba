@@ -3489,7 +3489,6 @@
     "description": "秋葉原エリアのラーメン店",
     "lat": 35.697877,
     "lng": 139.772457,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/1915001551",
     "address": "東京都千代田区外神田1-15-11 秋葉原西川ビル B1F",
@@ -6458,7 +6457,6 @@
     "description": "秋葉原エリアの麺類店",
     "lat": 35.700735,
     "lng": 139.770967,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5009315597",
     "cuisine": [
@@ -6626,7 +6624,6 @@
     "description": "秋葉原エリアのラーメン店",
     "lat": 35.702086,
     "lng": 139.771421,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/5019797157",
     "cuisine": [
@@ -12544,7 +12541,6 @@
     "slug": "menya-noroshi",
     "category": "グルメ・カフェ",
     "description": "東京で函館味噌ラーメンを味わえるラーメン店。つけ麺や居酒屋メニューも扱う。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.69949,
     "lng": 139.77948,
@@ -12631,7 +12627,6 @@
     "slug": "gottsu-akihabara",
     "category": "グルメ・カフェ",
     "description": "背脂を使った超ごってり系ラーメン・つけ麺を提供する店舗。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.700535,
     "lng": 139.775192,
@@ -12676,7 +12671,6 @@
     "slug": "saikyo-aburasoba-kasugatei-akihabara",
     "category": "グルメ・カフェ",
     "description": "油そば専門店。秋葉原駅昭和通り口から徒歩2分ほどの立地。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.69836,
     "lng": 139.775803,
@@ -12735,7 +12729,6 @@
     "slug": "umi-no-chikara",
     "category": "グルメ・カフェ",
     "description": "魚介をテーマにしたラーメン・つけ麺と海鮮丼を提供。真鯛などを使った魚介系ラーメンが特徴。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.702404,
     "lng": 139.777267,
@@ -12751,7 +12744,11 @@
       "魚介系",
       "つけ麺"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "editorComment": {
+      "text": "海鮮丼が安くて美味しい",
+      "authorId": 2
+    }
   },
   {
     "id": 609,
@@ -12805,7 +12802,6 @@
     "slug": "shinpukusaikan-akihabara",
     "category": "グルメ・カフェ",
     "description": "京都発祥の老舗ラーメン店。濃い色の醤油スープの中華そばと焼きめしが名物。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.699192,
     "lng": 139.77597,
@@ -12911,7 +12907,6 @@
     "slug": "tokyo-style-noodle-hotate-biyori",
     "category": "グルメ・カフェ",
     "description": "ほたてなど魚介の旨味を生かしたつけ麺・ラーメンの人気店。ラーメンTOKYO百名店2025選出。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.698009,
     "lng": 139.776367,
@@ -12934,7 +12929,6 @@
     "slug": "ramen-ninja",
     "category": "グルメ・カフェ",
     "description": "秋葉原駅近くのラーメン・つけ麺店。デカ盛り系のメニューでも知られる。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.700043,
     "lng": 139.775024,
@@ -12999,7 +12993,6 @@
     "slug": "tsujita-akihabara",
     "category": "グルメ・カフェ",
     "description": "濃厚な豚骨魚介系のつけ麺・ラーメンで知られる「つじ田」の秋葉原店。",
-    "tier": "B",
     "dataSource": "tabelog",
     "lat": 35.699032,
     "lng": 139.770081,
