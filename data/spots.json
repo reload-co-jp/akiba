@@ -4603,7 +4603,15 @@
     "addressSource": "gsi-reverse",
     "hours": "11:00〜翌2:00（日・祝は〜20:40 L.O.）",
     "closed": "無休",
-    "website": "https://fu-ryu.net/"
+    "website": "https://fu-ryu.net/",
+    "image": {
+      "src": "/images/spots/osm-node-2458242030.png",
+      "alt": "とんこつラーメン 博多風龍 秋葉原2号店の関連ビジュアル",
+      "sourceLabel": "博多風龍 公式サイト",
+      "sourceUrl": "https://fu-ryu.net/",
+      "width": 1200,
+      "height": 900
+    }
   },
   {
     "id": 190,
@@ -12704,7 +12712,15 @@
       "ラーメン",
       "家系"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "image": {
+      "src": "/images/spots/ikkakuya-akihabara-higashiguchi.jpg",
+      "alt": "壱角家 秋葉原東口店の関連ビジュアル",
+      "sourceLabel": "株式会社ガーデン 公式サイト",
+      "sourceUrl": "https://gardengroup.co.jp/brand/ichikakuya/",
+      "width": 1200,
+      "height": 630
+    }
   },
   {
     "id": 607,
@@ -12797,7 +12813,15 @@
       "中華そば",
       "京都"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "image": {
+      "src": "/images/spots/shinpukusaikan-akihabara.jpg",
+      "alt": "新福菜館 秋葉原店の関連ビジュアル",
+      "sourceLabel": "新福菜館 公式サイト",
+      "sourceUrl": "https://shinpukusaikan.net/",
+      "width": 960,
+      "height": 504
+    }
   },
   {
     "id": 612,
@@ -12864,7 +12888,15 @@
       "白菜",
       "チェーン"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "image": {
+      "src": "/images/spots/doutonbori-kamukura-yodobashi-akiba.jpg",
+      "alt": "どうとんぼり神座 ヨドバシAkiba店の関連ビジュアル",
+      "sourceLabel": "どうとんぼり神座 公式サイト",
+      "sourceUrl": "https://kamukura.co.jp/",
+      "width": 1200,
+      "height": 630
+    }
   },
   {
     "id": 616,
@@ -12974,7 +13006,15 @@
       "つけ麺",
       "豚骨魚介"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "image": {
+      "src": "/images/spots/tsujita-akihabara.jpg",
+      "alt": "つじ田 秋葉原店の関連ビジュアル",
+      "sourceLabel": "つじ田 公式サイト",
+      "sourceUrl": "https://tsukemen-tsujita.com/",
+      "width": 2386,
+      "height": 1701
+    }
   },
   {
     "id": 621,
