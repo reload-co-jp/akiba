@@ -53,10 +53,37 @@ const detailsFor = (type, item, tagsById) => {
     summary: item.description ?? "",
     category: item.category ?? "",
     address: item.address ?? "",
+    access: item.access ?? "",
     hours: item.hours ?? "",
+    closed: item.closed ?? "",
+    admission: item.admission ?? "",
+    website: item.website ?? "",
+    lat: item.lat ?? null,
+    lng: item.lng ?? null,
+    tags: item.tags ?? [],
+    aliases: item.aliases ?? [],
+    cuisine: item.cuisine ?? [],
+    priceRange: item.priceRange ?? "",
+    tier: item.tier ?? "",
     image,
   }
 }
+
+const SPOT_CATEGORIES = [
+  "電気街・PCパーツ",
+  "アニメ・マンガ・同人",
+  "ゲーム・フィギュア",
+  "グルメ・カフェ",
+  "ショッピング",
+  "フィギュア・模型",
+  "イベント・ライブ",
+]
+
+const toArray = (s) =>
+  String(s ?? "")
+    .split(",")
+    .map((v) => v.trim())
+    .filter(Boolean)
 
 const sendJson = (res, status, body) => {
   res.writeHead(status, { "Content-Type": "application/json; charset=utf-8" })
@@ -85,6 +112,7 @@ const HTML = `<!doctype html>
   main { display: flex; height: calc(100vh - 44px); }
   .pane-list { width: 340px; border-right: 1px solid #eadfce; display: flex; flex-direction: column; }
   .pane-list input[type="search"] { margin: .5rem; padding: .4rem .5rem; border: 1px solid #ccc; border-radius: 6px; }
+  .pane-list #categoryFilter, .pane-list #tierFilter, .pane-list #cuisineFilter { margin: 0 .5rem .5rem; padding: .4rem .5rem; border: 1px solid #ccc; border-radius: 6px; font: inherit; width: calc(100% - 1rem); }
   .tabs { display: flex; gap: .25rem; padding: 0 .5rem; }
   .tabs button { flex: 1; padding: .4rem; border: 1px solid #eadfce; background: #fff; border-radius: 6px; cursor: pointer; }
   .tabs button[aria-selected="true"] { background: #b94a3a; color: #fff; border-color: #b94a3a; }
@@ -92,12 +120,18 @@ const HTML = `<!doctype html>
   li button { width: 100%; text-align: left; padding: .5rem .75rem; border: none; background: none; cursor: pointer; border-bottom: 1px solid #f1e9dd; font-size: .8125rem; }
   li button:hover { background: #fff7ec; }
   li button.has-comment::after { content: " 💬"; }
+  .tier-badge { display: inline-block; font-size: .625rem; font-weight: bold; line-height: 1.4; padding: 0 .35rem; border-radius: 4px; margin-right: .35rem; }
+  .tier-badge.tier-a { background: #dff0e6; color: #2f6b4f; }
+  .tier-badge.tier-b { background: #eee; color: #888; }
   li button[aria-current="true"] { background: #fff0e0; font-weight: bold; }
   .pane-edit { flex: 1; padding: 1rem 1.5rem; overflow-y: auto; }
   .pane-edit h2 { font-size: 1.125rem; margin-top: 0; }
-  .pane-edit textarea { width: 100%; min-height: 200px; box-sizing: border-box; padding: .6rem; border: 1px solid #ccc; border-radius: 6px; font: inherit; }
+  .pane-edit textarea { width: 100%; min-height: 120px; box-sizing: border-box; padding: .6rem; border: 1px solid #ccc; border-radius: 6px; font: inherit; }
+  .pane-edit textarea#f-description { min-height: 100px; }
+  .pane-edit textarea#comment { min-height: 100px; }
   .pane-edit label { display: block; margin: .75rem 0 .25rem; font-size: .8125rem; color: #8a6f63; }
   .pane-edit select { padding: .4rem .5rem; border: 1px solid #ccc; border-radius: 6px; font: inherit; }
+  .pane-edit input { width: 100%; box-sizing: border-box; padding: .4rem .5rem; border: 1px solid #ccc; border-radius: 6px; font: inherit; }
   .detail-box { background: #fff; border: 1px solid #eadfce; border-radius: 8px; padding: .75rem 1rem; margin-bottom: 1rem; font-size: .8125rem; }
   .detail-box dl { display: grid; grid-template-columns: auto 1fr; gap: .25rem .75rem; margin: 0; }
   .detail-box dt { color: #8a6f63; }
@@ -117,6 +151,9 @@ const HTML = `<!doctype html>
       <button data-type="spots" aria-selected="false">スポット</button>
     </div>
     <input type="search" id="q" placeholder="タイトル・スラッグで検索" />
+    <select id="categoryFilter" style="display:none;"></select>
+    <select id="tierFilter" style="display:none;"></select>
+    <select id="cuisineFilter" style="display:none;"></select>
     <ul id="list"></ul>
   </div>
   <div class="pane-edit" id="edit">
@@ -124,6 +161,33 @@ const HTML = `<!doctype html>
   </div>
 </main>
 <script>
+  const SPOT_CATEGORIES = [
+    "電気街・PCパーツ", "アニメ・マンガ・同人", "ゲーム・フィギュア",
+    "グルメ・カフェ", "ショッピング", "フィギュア・模型", "イベント・ライブ",
+  ]
+
+  // lib/spots.ts の cuisineLabels と同期させること
+  const CUISINE_LABELS = {
+    maid_cafe: "メイドカフェ", collab_cafe: "コラボカフェ", cat_cafe: "猫カフェ",
+    cafe: "カフェ", izakaya: "居酒屋", bar: "バー", ramen: "ラーメン店",
+    noodle: "麺類店", soba: "そば店", udon: "うどん店", sushi: "寿司店",
+    japanese: "和食店", chinese: "中華料理店", curry: "カレー店",
+    italian: "イタリアン", french: "フレンチ", korean: "韓国料理店",
+    indian: "インド料理店", thai: "タイ料理店", vietnamese: "ベトナム料理店",
+    mexican: "メキシコ料理店", spanish: "スペイン料理店", american: "アメリカン料理店",
+    asian: "アジア料理店", international: "各国料理店", regional: "郷土料理店",
+    yakiniku: "焼肉店", tonkatsu: "とんかつ店", chicken: "鶏料理店",
+    takoyaki: "たこ焼き店", fried_food: "揚げ物店", western: "洋食店",
+    tempura: "天ぷら店", steak: "ステーキ店", seafood: "海鮮料理店",
+    fish: "魚料理店", unagi: "うなぎ店", donburi: "丼もの店", beef_bowl: "牛丼店",
+    gyoza: "餃子店", okonomiyaki: "お好み焼き店", yakisoba: "焼きそば店",
+    shabu_shabu: "しゃぶしゃぶ店", sukiyaki: "すき焼き店", teppanyaki: "鉄板焼き店",
+    hot_pot: "鍋料理店", oden: "おでん店", pizza: "ピザ店", burger: "ハンバーガー店",
+    sandwich: "サンドイッチ店", kebab: "ケバブ店", sweets: "スイーツ店",
+    crepe: "クレープ店", bubble_tea: "タピオカ店",
+  }
+  const cuisineLabel = (key) => CUISINE_LABELS[key] ?? key
+
   let type = "articles"
   let items = []
   let authors = []
@@ -132,6 +196,9 @@ const HTML = `<!doctype html>
   const listEl = document.getElementById("list")
   const editEl = document.getElementById("edit")
   const qEl = document.getElementById("q")
+  const categoryFilterEl = document.getElementById("categoryFilter")
+  const tierFilterEl = document.getElementById("tierFilter")
+  const cuisineFilterEl = document.getElementById("cuisineFilter")
 
   const loadAuthors = async () => {
     if (authors.length > 0) return
@@ -142,19 +209,44 @@ const HTML = `<!doctype html>
   const loadList = async () => {
     const res = await fetch("/api/list?type=" + type)
     items = await res.json()
+    if (type === "spots") {
+      const prevCuisine = cuisineFilterEl.value
+      const cuisines = new Set()
+      for (const it of items) (it.details?.cuisine || []).forEach((c) => cuisines.add(c))
+      cuisineFilterEl.innerHTML =
+        '<option value="">料理ジャンル: すべて</option>' +
+        [...cuisines]
+          .sort((a, b) => cuisineLabel(a).localeCompare(cuisineLabel(b), "ja"))
+          .map((c) => '<option value="' + c + '">' + escapeHtml(cuisineLabel(c)) + "</option>")
+          .join("")
+      // 再構築で選択がリセットされるので、保存前のジャンルがまだ存在するなら戻す
+      if (cuisines.has(prevCuisine)) cuisineFilterEl.value = prevCuisine
+    }
     renderList()
   }
 
   const renderList = () => {
     const q = qEl.value.trim().toLowerCase()
-    const filtered = items.filter((it) =>
-      (it.title + " " + it.slug).toLowerCase().includes(q)
+    const category = categoryFilterEl.value
+    const tier = tierFilterEl.value
+    const cuisine = cuisineFilterEl.value
+    const filtered = items.filter(
+      (it) =>
+        (it.title + " " + it.slug).toLowerCase().includes(q) &&
+        (!category || it.details?.category === category) &&
+        (!tier || (it.details?.tier === "B" ? "B" : "A") === tier) &&
+        (!cuisine || (it.details?.cuisine || []).includes(cuisine))
     )
     listEl.innerHTML = ""
     for (const it of filtered) {
       const li = document.createElement("li")
       const btn = document.createElement("button")
-      btn.textContent = it.title
+      const tierBadge =
+        type === "spots"
+          ? '<span class="tier-badge tier-' + (it.details?.tier === "B" ? "b" : "a") + '">' +
+            (it.details?.tier === "B" ? "B" : "A") + "</span>"
+          : ""
+      btn.innerHTML = tierBadge + escapeHtml(it.title)
       btn.className = it.editorComment?.text ? "has-comment" : ""
       btn.setAttribute("aria-current", String(it.id === currentId))
       btn.onclick = () => selectItem(it.id)
@@ -186,6 +278,18 @@ const HTML = `<!doctype html>
       .join("")
   }
 
+  const field = (id, label, value, opts) => {
+    opts = opts || {}
+    const required = opts.required ? " required" : ""
+    // input は value 属性、textarea は中身に値を入れる
+    const html = opts.textarea
+      ? '<textarea id="' + id + '"' + required + ">" + escapeHtml(value ?? "") + "</textarea>"
+      : '<input id="' + id + '" type="' + (opts.type || "text") + '"' +
+        (opts.step ? ' step="' + opts.step + '"' : "") +
+        ' value="' + escapeHtml(value ?? "") + '"' + required + " />"
+    return '<label for="' + id + '">' + escapeHtml(label) + "</label>" + html
+  }
+
   const selectItem = async (id) => {
     currentId = id
     await loadAuthors()
@@ -194,18 +298,65 @@ const HTML = `<!doctype html>
     const authorOptions = authors
       .map((a) => '<option value="' + a.id + '">' + a.name + "</option>")
       .join("")
-    const summary = it.details?.summary || ""
-    const image = it.details?.image
+
+    if (type === "articles") {
+      const summary = it.details?.summary || ""
+      const image = it.details?.image
+      const imageHtml = image
+        ? '<img src="' + escapeHtml(image.src) + '" alt="' + escapeHtml(image.alt) + '" />'
+        : ""
+      editEl.innerHTML =
+        '<h2></h2><p style="color:#8a6f63;font-size:.8125rem"></p>' +
+        '<div class="detail-box">' +
+        imageHtml +
+        '<dl>' + detailRows(it) + '</dl>' +
+        (summary ? '<p style="margin:.5rem 0 0">' + escapeHtml(summary) + '</p>' : '') +
+        '</div>' +
+        '<textarea id="comment" placeholder="編集部コメント（空欄で非表示）"></textarea>' +
+        '<label for="author">担当者</label>' +
+        '<select id="author"><option value="">未設定</option>' + authorOptions + '</select><br />' +
+        '<button class="save">保存</button><span class="status" id="status"></span>'
+      editEl.querySelector("h2").textContent = it.title
+      editEl.querySelector("p").textContent = "slug: " + it.slug
+      editEl.querySelector("#comment").value = it.editorComment?.text || ""
+      editEl.querySelector("#author").value = it.editorComment?.authorId ?? ""
+      editEl.querySelector(".save").onclick = () => saveComment(id)
+      return
+    }
+
+    // スポット: 詳細フィールドをまとめて編集
+    const d = it.details || {}
+    const image = d.image
     const imageHtml = image
       ? '<img src="' + escapeHtml(image.src) + '" alt="' + escapeHtml(image.alt) + '" />'
       : ""
+    const categoryOptions = SPOT_CATEGORIES
+      .map((c) => '<option value="' + c + '"' + (c === d.category ? " selected" : "") + ">" + c + "</option>")
+      .join("")
+
     editEl.innerHTML =
       '<h2></h2><p style="color:#8a6f63;font-size:.8125rem"></p>' +
-      '<div class="detail-box">' +
-      imageHtml +
-      '<dl>' + detailRows(it) + '</dl>' +
-      (summary ? '<p style="margin:.5rem 0 0">' + escapeHtml(summary) + '</p>' : '') +
-      '</div>' +
+      (imageHtml ? '<div class="detail-box">' + imageHtml + '</div>' : '') +
+      field("f-name", "名称", d.name ?? it.title, { required: true }) +
+      '<label for="f-category">カテゴリ</label><select id="f-category">' + categoryOptions + '</select>' +
+      field("f-description", "説明", d.summary, { textarea: true, required: true }) +
+      field("f-address", "住所", d.address) +
+      field("f-access", "アクセス", d.access) +
+      field("f-hours", "営業時間", d.hours) +
+      field("f-closed", "定休日", d.closed) +
+      field("f-admission", "料金", d.admission) +
+      field("f-website", "公式サイト", d.website, { type: "url" }) +
+      field("f-lat", "緯度", d.lat, { type: "number", step: "0.000001" }) +
+      field("f-lng", "経度", d.lng, { type: "number", step: "0.000001" }) +
+      field("f-tags", "タグ（カンマ区切り）", (d.tags || []).join(", ")) +
+      field("f-aliases", "別名（カンマ区切り）", (d.aliases || []).join(", ")) +
+      field("f-cuisine", "料理ジャンル（カンマ区切り）", (d.cuisine || []).join(", ")) +
+      field("f-priceRange", "価格帯", d.priceRange) +
+      '<label for="f-tier">掲載レベル</label><select id="f-tier">' +
+      '<option value=""' + (d.tier !== "B" ? " selected" : "") + '>A（詳細ページあり）</option>' +
+      '<option value="B"' + (d.tier === "B" ? " selected" : "") + '>B（一覧のみ）</option>' +
+      '</select>' +
+      '<label for="comment">編集部コメント</label>' +
       '<textarea id="comment" placeholder="編集部コメント（空欄で非表示）"></textarea>' +
       '<label for="author">担当者</label>' +
       '<select id="author"><option value="">未設定</option>' + authorOptions + '</select><br />' +
@@ -214,7 +365,48 @@ const HTML = `<!doctype html>
     editEl.querySelector("p").textContent = "slug: " + it.slug
     editEl.querySelector("#comment").value = it.editorComment?.text || ""
     editEl.querySelector("#author").value = it.editorComment?.authorId ?? ""
-    editEl.querySelector(".save").onclick = () => saveComment(id)
+    editEl.querySelector(".save").onclick = () => saveSpot(id)
+  }
+
+  const saveSpot = async (id) => {
+    const val = (sel) => editEl.querySelector(sel).value
+    const statusEl = editEl.querySelector("#status")
+    const authorIdRaw = val("#author")
+    const body = {
+      id,
+      name: val("#f-name"),
+      category: val("#f-category"),
+      description: val("#f-description"),
+      address: val("#f-address"),
+      access: val("#f-access"),
+      hours: val("#f-hours"),
+      closed: val("#f-closed"),
+      admission: val("#f-admission"),
+      website: val("#f-website"),
+      lat: val("#f-lat"),
+      lng: val("#f-lng"),
+      tags: val("#f-tags"),
+      aliases: val("#f-aliases"),
+      cuisine: val("#f-cuisine"),
+      priceRange: val("#f-priceRange"),
+      tier: val("#f-tier"),
+      editorComment: {
+        text: val("#comment"),
+        authorId: authorIdRaw ? Number(authorIdRaw) : undefined,
+      },
+    }
+    statusEl.textContent = "保存中…"
+    const res = await fetch("/api/spot", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    })
+    if (res.ok) {
+      statusEl.textContent = "保存しました"
+      await loadList()
+    } else {
+      statusEl.textContent = "保存失敗: " + (await res.text())
+    }
   }
 
   const saveComment = async (id) => {
@@ -238,6 +430,14 @@ const HTML = `<!doctype html>
     }
   }
 
+  categoryFilterEl.innerHTML =
+    '<option value="">カテゴリ: すべて</option>' +
+    SPOT_CATEGORIES.map((c) => '<option value="' + c + '">' + c + "</option>").join("")
+  tierFilterEl.innerHTML =
+    '<option value="">掲載レベル: すべて</option>' +
+    '<option value="A">A（詳細ページあり）</option>' +
+    '<option value="B">B（一覧のみ）</option>'
+
   document.querySelectorAll(".tabs button").forEach((btn) => {
     btn.onclick = () => {
       document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", "false"))
@@ -245,10 +445,19 @@ const HTML = `<!doctype html>
       type = btn.dataset.type
       currentId = null
       editEl.innerHTML = '<p class="empty">左のリストから選択してください</p>'
+      categoryFilterEl.value = ""
+      categoryFilterEl.style.display = type === "spots" ? "" : "none"
+      tierFilterEl.value = ""
+      tierFilterEl.style.display = type === "spots" ? "" : "none"
+      cuisineFilterEl.value = ""
+      cuisineFilterEl.style.display = type === "spots" ? "" : "none"
       loadList()
     }
   })
   qEl.oninput = renderList
+  categoryFilterEl.onchange = renderList
+  tierFilterEl.onchange = renderList
+  cuisineFilterEl.onchange = renderList
   loadList()
 </script>
 </body>
@@ -325,6 +534,65 @@ const server = createServer(async (req, res) => {
         delete item.editorComment
       }
       await writeJson(type, data)
+      sendJson(res, 200, { ok: true })
+      return
+    }
+
+    if (req.method === "POST" && url.pathname === "/api/spot") {
+      const body = JSON.parse(await readBody(req))
+      const { id, name, category, description, address, access, hours, closed,
+        admission, website, lat, lng, tags, aliases, cuisine, priceRange, tier,
+        editorComment } = body
+      if (typeof id !== "number") return sendJson(res, 400, { error: "invalid id" })
+      if (!name || !description) return sendJson(res, 400, { error: "name/description required" })
+      if (!SPOT_CATEGORIES.includes(category)) return sendJson(res, 400, { error: "invalid category" })
+
+      const data = await readJson("spots")
+      const item = data.find((i) => i.id === id)
+      if (!item) return sendJson(res, 404, { error: "not found" })
+
+      item.name = name
+      item.category = category
+      item.description = description
+
+      const setOrDelete = (key, value) => {
+        if (value === "" || value == null) delete item[key]
+        else item[key] = value
+      }
+      setOrDelete("address", address)
+      setOrDelete("access", access)
+      setOrDelete("hours", hours)
+      setOrDelete("closed", closed)
+      setOrDelete("admission", admission)
+      setOrDelete("website", website)
+      setOrDelete("priceRange", priceRange)
+      setOrDelete("tier", tier === "B" ? "B" : "")
+
+      const latNum = lat === "" || lat == null ? null : Number(lat)
+      const lngNum = lng === "" || lng == null ? null : Number(lng)
+      setOrDelete("lat", Number.isFinite(latNum) ? latNum : null)
+      setOrDelete("lng", Number.isFinite(lngNum) ? lngNum : null)
+
+      const tagsArr = toArray(tags)
+      const aliasesArr = toArray(aliases)
+      const cuisineArr = toArray(cuisine)
+      if (tagsArr.length) item.tags = tagsArr
+      else delete item.tags
+      if (aliasesArr.length) item.aliases = aliasesArr
+      else delete item.aliases
+      if (cuisineArr.length) item.cuisine = cuisineArr
+      else delete item.cuisine
+
+      if (editorComment?.text && editorComment.text.trim()) {
+        item.editorComment = {
+          text: editorComment.text,
+          ...(editorComment.authorId != null && { authorId: editorComment.authorId }),
+        }
+      } else {
+        delete item.editorComment
+      }
+
+      await writeJson("spots", data)
       sendJson(res, 200, { ok: true })
       return
     }

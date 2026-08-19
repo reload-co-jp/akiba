@@ -2526,7 +2526,9 @@
     "slug": "kenelebunshitsu",
     "category": "イベント・ライブ",
     "description": "御茶ノ水エリアのイベント・ポップアップスペース。アパレル・グッズ系ブランドのポップアップショップ会場として利用される。",
-    "address": "東京都千代田区駿河台2-6 エキュートエディション御茶ノ水構内2F",
+    "address": "東京都千代田区神田駿河台2-6 エキュートエディション御茶ノ水構内2F",
+    "lat": 35.699821,
+    "lng": 139.76416,
     "access": "JR御茶ノ水駅構内",
     "hours": "店頭・公式情報要確認",
     "closed": "店頭・公式情報要確認",
@@ -3528,14 +3530,14 @@
     "name": "VAPE STAND CAFE",
     "slug": "osm-node-1915112162",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "VAPEのカフェ",
     "lat": 35.698067,
     "lng": 139.771649,
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/1915112162",
     "cuisine": [
-      "ramen"
+      "cafe"
     ],
     "address": "東京都千代田区外神田1-15-5 秋葉原DTビル 1F・B1F",
     "addressSource": "gsi-reverse",
@@ -3706,7 +3708,11 @@
       "width": 750,
       "height": 750
     },
-    "lastVerified": "2026-08-04"
+    "lastVerified": "2026-08-04",
+    "editorComment": {
+      "text": "いつも行列ができています。",
+      "authorId": 2
+    }
   },
   {
     "id": 141,
@@ -4284,10 +4290,9 @@
     "name": "ばんから",
     "slug": "osm-node-2263796314",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "濃厚な味の豚骨醤油ラーメンとクリーミーな味のとんこつラーメン「東京豚骨拉麺ばんから」をはじめ多くのラーメンを提供。",
     "lat": 35.701267,
     "lng": 139.772154,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/2263796314",
     "cuisine": [
@@ -4295,7 +4300,11 @@
     ],
     "address": "東京都千代田区外神田4-4-7 MTビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "平日10:30〜24:30 / 金土10:30〜25:30 / 日祝10:30〜24:30"
+    "hours": "平日10:30〜24:30 / 金土10:30〜25:30 / 日祝10:30〜24:30",
+    "editorComment": {
+      "text": "コラボ等をよくやっています",
+      "authorId": 2
+    }
   },
   {
     "id": 172,
@@ -4568,23 +4577,23 @@
   },
   {
     "id": 189,
-    "name": "とんこつらーめん博多風龍",
+    "name": "とんこつラーメン 博多風龍 秋葉原2号店",
     "slug": "osm-node-2458242030",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの麺類店",
+    "description": "東京都内中心に大阪、神奈川、埼玉で店舗を展開中！当店の替え玉は2玉まで無料！",
     "lat": 35.701867,
     "lng": 139.771399,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/2458242030",
     "cuisine": [
       "noodle",
       "ramen"
     ],
-    "address": "東京都千代田区外神田3-15-6",
+    "address": "東京都千代田区外神田4-3-11",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜翌2:00（日・祝は〜20:40 L.O.）",
-    "closed": "無休"
+    "closed": "無休",
+    "website": "https://fu-ryu.net/"
   },
   {
     "id": 190,
@@ -4944,19 +4953,18 @@
   },
   {
     "id": 207,
-    "name": "博多風龍",
+    "name": "とんこつラーメン 博多風龍 秋葉原総本店",
     "slug": "osm-node-3364718765",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
-    "lat": 35.698394,
-    "lng": 139.775227,
-    "tier": "B",
+    "description": "東京都内中心に大阪、神奈川、埼玉で店舗を展開中！当店の替え玉は2玉まで無料！",
+    "lat": 35.70186,
+    "lng": 139.771401,
     "dataSource": "osm",
     "osmId": "node/3364718765",
     "cuisine": [
       "ramen"
     ],
-    "address": "東京都千代田区神田佐久間町一丁目",
+    "address": "東京都千代田区外神田３丁目１５−６",
     "addressSource": "gsi-reverse",
     "image": {
       "src": "/images/spots/hakata-furyu-sotokanda.jpg",
@@ -4964,7 +4972,13 @@
       "sourceLabel": "miil 投稿写真",
       "sourceUrl": "https://images.miil.me/j/c09c7af8-24ba-11ef-b74c-0a5243633487.orig.jpg",
       "copyrightRisk": true
-    }
+    },
+    "website": "https://fu-ryu.net/",
+    "editorComment": {
+      "text": "深夜まで営業しているありがたいお店。",
+      "authorId": 2
+    },
+    "hours": "11:00〜翌2:00（日・祝は〜20:40 L.O.）"
   },
   {
     "id": 208,
@@ -5504,10 +5518,9 @@
     "name": "秋葉原ラーメン わいず",
     "slug": "osm-node-4069462002",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "こだわり抜いた濃厚豚骨スープに太くコシのあるわいず特製麺、国産赤身肉の希少部位を使用したチャーシューと店主渡邊のこだわりが全て凝縮された自慢の家系ラーメン",
     "lat": 35.702833,
     "lng": 139.770544,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/4069462002",
     "cuisine": [
@@ -5516,7 +5529,12 @@
     "address": "東京都千代田区外神田3-7-8",
     "addressSource": "gsi-reverse",
     "hours": "10:30〜22:10",
-    "closed": "月曜"
+    "closed": "月曜",
+    "website": "https://kandaramen-waizu.jp/",
+    "editorComment": {
+      "text": "神田の本店はいつも深夜まで行列ですが、こちらは入りやすいです。",
+      "authorId": 2
+    }
   },
   {
     "id": 235,
@@ -5812,10 +5830,9 @@
     "name": "百年本舗",
     "slug": "osm-node-4890833054",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "中毒者続出の令和のニラソバと リピーターがハマる肉汁中華ソバ ",
     "lat": 35.702809,
     "lng": 139.770918,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/4890833054",
     "address": "東京都千代田区外神田三丁目8-9",
@@ -5830,6 +5847,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001294830/archive/2157147-5fdc1ad946180.jpeg",
       "copyrightRisk": true
+    },
+    "editorComment": {
+      "text": "ニラそばおすすめです！",
+      "authorId": 2
     }
   },
   {
@@ -9351,10 +9372,9 @@
     "name": "家系らーめん 武将家",
     "slug": "osm-node-9103711351",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "新中野武蔵家を源流とする濃厚でマイルドな豚骨醤油スープと、無料・おかわり自由のライスが評判の人気家系ラーメン店です",
     "lat": 35.700004,
     "lng": 139.771981,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9103711351",
     "address": "東京都千代田区外神田四丁目2-7",
@@ -12141,10 +12161,9 @@
     "name": "TOKYO豚骨BASE",
     "slug": "osm-node-13390443982",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "「どんなひとでもどれか好き。いろいろ選べるとんこつラーメンバラエティ」 \n秋葉原エリアのラーメン店",
     "lat": 35.698757,
     "lng": 139.772831,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "node/13390443982",
     "cuisine": [
@@ -12152,7 +12171,8 @@
     ],
     "address": "東京都千代田区外神田1-17-6",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金10:00〜22:30 / 土日祝10:00〜22:00"
+    "hours": "月〜金10:00〜22:30 / 土日祝10:00〜22:00",
+    "website": "https://www.jr-cross.co.jp/cr/tokyobase-made-by.html"
   },
   {
     "id": 578,
@@ -12398,17 +12418,20 @@
     "name": "いせ源",
     "slug": "osm-way-150624609",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの和食店",
+    "description": "東京神田にある、都内唯一のあんこう料理専門店。伝統の調理法で美味しいあんこう料理をご提供します。",
     "lat": 35.696578,
     "lng": 139.769166,
-    "tier": "B",
     "dataSource": "osm",
     "osmId": "way/150624609",
     "cuisine": [
       "japanese"
     ],
     "address": "東京都千代田区神田須田町1-11-1",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "editorComment": {
+      "text": "座敷あり",
+      "authorId": 2
+    }
   },
   {
     "id": 595,
