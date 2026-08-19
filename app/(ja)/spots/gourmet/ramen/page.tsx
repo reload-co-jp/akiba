@@ -19,9 +19,10 @@ import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
-const title = "秋葉原ラーメン店29選｜家系・豚骨・鶏白湯まで"
-const description =
-  "秋葉原駅周辺のラーメン店を29件まとめて紹介。家系・豚骨・鶏白湯・油そばなど、電気街を歩きながら寄れる店を地図と距離つきで探せます。"
+const spotCount = sortGourmetSpots(getSpotsByCuisine("ramen")).length
+
+const title = `秋葉原ラーメン店${spotCount}選｜家系・豚骨・鶏白湯まで`
+const description = `秋葉原駅周辺のラーメン店を${spotCount}件まとめて紹介。家系・豚骨・鶏白湯・油そばなど、電気街を歩きながら寄れる店を地図と距離つきで探せます。`
 
 export const metadata = {
   title,
