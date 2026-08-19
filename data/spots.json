@@ -12130,7 +12130,11 @@
       "chinese"
     ],
     "address": "東京都千代田区神田佐久間町1-21 Chiyoda Terrace B1",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "editorComment": {
+      "text": "本場の中国料理が楽しめます。\n週替りのメニューが味わえるランチもおすすめ。",
+      "authorId": 2
+    }
   },
   {
     "id": 577,

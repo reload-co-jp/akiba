@@ -1,4 +1,5 @@
 import spotsData from "../data/spots.json"
+import type { EditorComment } from "./editor-comment"
 
 export type SpotCategory = "電気街・PCパーツ" | "アニメ・マンガ・同人" | "ゲーム・フィギュア" | "グルメ・カフェ" | "ショッピング" | "フィギュア・模型" | "イベント・ライブ"
 
@@ -73,6 +74,8 @@ export type Spot = {
   addressSource?: SpotDataSource
   /** ISO date the details were last checked against a source. */
   lastVerified?: string
+  /** 編集部コメント。設定時のみスポット詳細ページに表示。 */
+  editorComment?: EditorComment
 }
 
 export const placeholderSpotImage = {

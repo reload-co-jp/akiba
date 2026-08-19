@@ -13,6 +13,7 @@ import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import { ArticleVenueMap } from "components/article-venue-map"
+import { EditorCommentBlock } from "components/editor-comment"
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -345,6 +346,9 @@ const Page = async ({ params }: Props) => {
         <div className="article-content">
           <p>{spot.description}</p>
         </div>
+
+        {spot.editorComment && <EditorCommentBlock comment={spot.editorComment} />}
+
         <AdsenseFluidAd />
 
         {relatedArticles.length > 0 && (

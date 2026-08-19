@@ -4,6 +4,7 @@ import AdsenseFluidAd from "components/adsense-fluid-ad"
 import { marked } from "marked"
 import { ArticleImagePreview } from "components/article-image-preview"
 import { ArticleVenueMap } from "components/article-venue-map"
+import { EditorCommentBlock } from "components/editor-comment"
 import { WantToGoButton } from "components/want-to-go-button"
 import {
   formatDate,
@@ -537,6 +538,8 @@ const Page = async ({ params }: Props) => {
           className="article-content"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
+
+        {article.editorComment && <EditorCommentBlock comment={article.editorComment} />}
 
         {venuePoint && article.event && (
           <div style={{ marginBottom: "1.5rem" }}>

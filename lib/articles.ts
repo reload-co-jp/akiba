@@ -1,20 +1,11 @@
 import articlesData from "../data/articles.json"
-import authorsData from "../data/authors.json"
 import tagsData from "../data/tags.json"
+import type { EditorComment } from "./editor-comment"
+
+export * from "./authors"
+export type { EditorComment } from "./editor-comment"
 
 export type Lang = "ja" | "en"
-
-export type Author = {
-  id: number
-  name: string
-  description?: string
-  schemaType?: "Person" | "Organization"
-}
-
-export const getAllAuthors = (): Author[] => authorsData as Author[]
-
-export const getAuthorById = (id: number): Author | undefined =>
-  (authorsData as Author[]).find((a) => a.id === id)
 
 export type Tag = {
   id: number
@@ -66,6 +57,8 @@ export type Article = {
     performer?: string
   }
   authorId?: number
+  /** 編集部コメント。設定時のみ記事詳細ページに表示。 */
+  editorComment?: EditorComment
 }
 
 export const getArticleTagNames = (article: Article): string[] =>
