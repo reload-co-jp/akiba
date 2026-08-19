@@ -85,6 +85,38 @@ const toArray = (s) =>
     .map((v) => v.trim())
     .filter(Boolean)
 
+// scripts/geocode-spots.py と同じ設定・境界（秋葉原周辺のバウンディングボックス）
+const GEOCODE_ENDPOINT = "https://msearch.gsi.go.jp/address-search/AddressSearch"
+const GEOCODE_USER_AGENT = "akiba-live-spots/1.0 (https://akiba.reload.co.jp)"
+const GEOCODE_LAT_RANGE = [35.69, 35.71]
+const GEOCODE_LNG_RANGE = [139.765, 139.785]
+
+const geocodeAddress = async (address) => {
+  const url = `${GEOCODE_ENDPOINT}?q=${encodeURIComponent(address)}`
+  let results
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": GEOCODE_USER_AGENT } })
+    results = await res.json()
+  } catch (err) {
+    return { error: `request failed: ${err}` }
+  }
+  if (!Array.isArray(results) || results.length === 0) return { error: "no match" }
+
+  const best = results[0]
+  const [lng, lat] = best.geometry.coordinates
+  const title = best.properties?.title ?? ""
+  const inBox =
+    lat >= GEOCODE_LAT_RANGE[0] && lat <= GEOCODE_LAT_RANGE[1] &&
+    lng >= GEOCODE_LNG_RANGE[0] && lng <= GEOCODE_LNG_RANGE[1]
+
+  return {
+    lat: Math.round(lat * 1e6) / 1e6,
+    lng: Math.round(lng * 1e6) / 1e6,
+    title,
+    inBox,
+  }
+}
+
 const sendJson = (res, status, body) => {
   res.writeHead(status, { "Content-Type": "application/json; charset=utf-8" })
   res.end(JSON.stringify(body))
@@ -138,6 +170,7 @@ const HTML = `<!doctype html>
   .detail-box dd { margin: 0; color: #24312f; }
   .detail-box img { max-width: 240px; max-height: 160px; object-fit: cover; border-radius: 6px; display: block; margin-bottom: .5rem; }
   .pane-edit button.save { margin-top: .75rem; padding: .5rem 1.25rem; background: #b94a3a; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
+  .pane-edit button.geocode { padding: .35rem .75rem; background: #fff; color: #b94a3a; border: 1px solid #b94a3a; border-radius: 6px; cursor: pointer; font-size: .8125rem; }
   .status { margin-left: .75rem; font-size: .8125rem; color: #3f5851; }
   .empty { padding: 2rem; color: #8a6f63; }
 </style>
@@ -346,6 +379,8 @@ const HTML = `<!doctype html>
       field("f-closed", "定休日", d.closed) +
       field("f-admission", "料金", d.admission) +
       field("f-website", "公式サイト", d.website, { type: "url" }) +
+      '<button type="button" class="geocode" style="margin-top:.5rem">住所から緯度経度を取得</button>' +
+      '<span class="status" id="geocodeStatus"></span>' +
       field("f-lat", "緯度", d.lat, { type: "number", step: "0.000001" }) +
       field("f-lng", "経度", d.lng, { type: "number", step: "0.000001" }) +
       field("f-tags", "タグ（カンマ区切り）", (d.tags || []).join(", ")) +
@@ -366,6 +401,36 @@ const HTML = `<!doctype html>
     editEl.querySelector("#comment").value = it.editorComment?.text || ""
     editEl.querySelector("#author").value = it.editorComment?.authorId ?? ""
     editEl.querySelector(".save").onclick = () => saveSpot(id)
+    editEl.querySelector(".geocode").onclick = () => geocodeSpot()
+  }
+
+  const geocodeSpot = async () => {
+    const address = editEl.querySelector("#f-address").value.trim()
+    const statusEl = editEl.querySelector("#geocodeStatus")
+    if (!address) {
+      statusEl.textContent = "住所を入力してください"
+      return
+    }
+    statusEl.textContent = "検索中…"
+    const res = await fetch("/api/geocode", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ address }),
+    })
+    const result = await res.json()
+    if (!res.ok) {
+      statusEl.textContent = "取得失敗: " + (result.error || res.status)
+      return
+    }
+    if (!result.inBox) {
+      statusEl.textContent =
+        "秋葉原周辺の範囲外: " + result.lat + "," + result.lng +
+        "（" + result.title + "）— 未反映。手動で確認のうえ必要なら入力してください"
+      return
+    }
+    editEl.querySelector("#f-lat").value = result.lat
+    editEl.querySelector("#f-lng").value = result.lng
+    statusEl.textContent = "反映しました: " + result.lat + "," + result.lng + "（" + result.title + "）"
   }
 
   const saveSpot = async (id) => {
@@ -535,6 +600,14 @@ const server = createServer(async (req, res) => {
       }
       await writeJson(type, data)
       sendJson(res, 200, { ok: true })
+      return
+    }
+
+    if (req.method === "POST" && url.pathname === "/api/geocode") {
+      const { address } = JSON.parse(await readBody(req))
+      if (!address || !address.trim()) return sendJson(res, 400, { error: "address required" })
+      const result = await geocodeAddress(address)
+      sendJson(res, result.error ? 502 : 200, result)
       return
     }
 
