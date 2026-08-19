@@ -7440,31 +7440,6 @@
     }
   },
   {
-    "id": 325,
-    "name": "とんこつらーめん博多風龍",
-    "slug": "osm-node-5181116188",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
-    "lat": 35.700372,
-    "lng": 139.772015,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5181116188",
-    "cuisine": [
-      "ramen"
-    ],
-    "address": "東京都千代田区外神田4-3-11",
-    "addressSource": "gsi-reverse",
-    "hours": "11:00〜翌2:00（日は11:00〜20:00）",
-    "image": {
-      "src": "/images/spots/tonkotsu-hakatafuryu-sotokanda2.jpg",
-      "alt": "とんこつらーめん博多風龍のラーメン",
-      "sourceLabel": "Retty 投稿写真",
-      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37800806.jpg",
-      "copyrightRisk": true
-    }
-  },
-  {
     "id": 326,
     "name": "oerlrer man",
     "slug": "osm-node-5181116190",
