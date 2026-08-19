@@ -22,7 +22,7 @@ import AdsenseFluidAd from "components/adsense-fluid-ad"
 const spotCount = sortGourmetSpots(getSpotsByCuisine("ramen")).length
 
 const title = `秋葉原ラーメン店${spotCount}選｜家系・豚骨・鶏白湯まで`
-const description = `秋葉原駅周辺のラーメン店を${spotCount}件まとめて紹介。家系・豚骨・鶏白湯・油そばなど、電気街を歩きながら寄れる店を地図と距離つきで探せます。`
+const description = `秋葉原駅周辺のラーメン店${spotCount}件を徒歩圏内でまとめて紹介。家系・豚骨・鶏白湯・油そば・つけ麺まで、深夜営業や駅近の店も地図と距離つきで探せます。`
 
 export const metadata = {
   title,
@@ -68,6 +68,7 @@ const Page = () => {
       item: {
         "@type": "Restaurant",
         name: spot.name,
+        ...(spot.image?.src ? { image: absoluteUrl(spot.image.src) } : {}),
         ...(spot.cuisine?.length ? { servesCuisine: spot.cuisine } : {}),
         ...(spot.address
           ? {
