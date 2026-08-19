@@ -1496,12 +1496,13 @@
     "slug": "ikkakuya-akihabara",
     "category": "グルメ・カフェ",
     "description": "横浜発の家系ラーメンチェーン・壱角家の秋葉原店。濃厚豚骨醤油スープと極太麺の家系ラーメンを提供し、深夜まで営業しているためイベント帰りの来客にも重宝される。油そば専門ブランドとのコラボ・リニューアルも行われるなど、店舗展開の動きを追いやすいスポット。",
-    "address": "東京都千代田区外神田1-5-3",
+    "address": "東京都千代田区外神田1-10-9 TY2ビル1F",
     "access": "JR秋葉原駅 電気街口 徒歩1分",
-    "hours": "11:00〜翌2:00",
+    "hours": "月〜金 10:30〜23:00、土・日・祝 10:00〜23:00",
     "closed": "年中無休",
-    "lat": 35.6983,
-    "lng": 139.7729,
+    "lat": 35.698757,
+    "lng": 139.771103,
+    "lastVerified": "2026-08-19",
     "aliases": [
       "壱角家秋葉原",
       "壱角家 秋葉原"
@@ -3603,10 +3604,10 @@
   },
   {
     "id": 137,
-    "name": "壱角屋",
+    "name": "壱角家 秋葉原店",
     "slug": "osm-node-1915234620",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "横浜家系ラーメンを提供するチェーン店「壱角家」の秋葉原店。",
     "lat": 35.698944,
     "lng": 139.770468,
     "tier": "B",
@@ -3617,14 +3618,23 @@
     ],
     "address": "東京都千代田区外神田1-9-8 秋葉原ダイヤモンドビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金 11:00〜翌3:30 / 土 10:00〜翌3:30 / 日・祝 10:00〜23:00",
+    "hours": "月〜金 10:30〜23:00、土日 10:00〜23:00",
     "image": {
       "src": "/images/spots/ikkakuya2-sotokanda.jpg",
       "alt": "壱角屋の家系ラーメン",
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37145260.jpg",
       "copyrightRisk": true
-    }
+    },
+    "website": "https://gardengroup.co.jp/brand/ichikakuya/",
+    "tags": [
+      "ラーメン",
+      "家系"
+    ],
+    "aliases": [
+      "壱角屋"
+    ],
+    "lastVerified": "2026-08-19"
   },
   {
     "id": 138,
@@ -5723,10 +5733,10 @@
   },
   {
     "id": 244,
-    "name": "幸楽苑",
+    "name": "幸楽苑 秋葉原駅前店",
     "slug": "osm-node-4524764575",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
+    "description": "秋葉原駅昭和通り口から徒歩1分。リーズナブルな中華そばや味噌・塩ラーメンなどを提供。",
     "lat": 35.698139,
     "lng": 139.775792,
     "tier": "B",
@@ -5737,7 +5747,14 @@
     ],
     "address": "東京都千代田区神田平河町4",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜翌3:00"
+    "hours": "10:00〜翌3:00",
+    "website": "https://www.kourakuen.co.jp/",
+    "tags": [
+      "ラーメン",
+      "中華そば",
+      "チェーン"
+    ],
+    "lastVerified": "2026-08-19"
   },
   {
     "id": 246,
@@ -12158,10 +12175,10 @@
   },
   {
     "id": 577,
-    "name": "TOKYO豚骨BASE",
+    "name": "TOKYO 豚骨 BASE MADE by 一風堂 秋葉原店",
     "slug": "osm-node-13390443982",
     "category": "グルメ・カフェ",
-    "description": "「どんなひとでもどれか好き。いろいろ選べるとんこつラーメンバラエティ」 \n秋葉原エリアのラーメン店",
+    "description": "一風堂が手掛ける豚骨ラーメン店。秋葉原駅から約95mの駅近店舗。「どんなひとでもどれか好き。いろいろ選べるとんこつラーメンバラエティ」",
     "lat": 35.698757,
     "lng": 139.772831,
     "dataSource": "osm",
@@ -12172,7 +12189,13 @@
     "address": "東京都千代田区外神田1-17-6",
     "addressSource": "gsi-reverse",
     "hours": "月〜金10:00〜22:30 / 土日祝10:00〜22:00",
-    "website": "https://www.jr-cross.co.jp/cr/tokyobase-made-by.html"
+    "website": "https://www.jr-cross.co.jp/brand/tokyotonkotsubase/",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "一風堂"
+    ],
+    "lastVerified": "2026-08-19"
   },
   {
     "id": 578,
@@ -12484,5 +12507,516 @@
       "height": 450
     },
     "lastVerified": "2026-08-05"
+  },
+  {
+    "id": 597,
+    "name": "陳家私菜 秋葉原店",
+    "slug": "chinke-shisai-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "四川料理を中心とした中華料理店。名物の頂天石焼麻婆豆腐などで知られる。食べログではラーメン店としても掲載。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.699192,
+    "lng": 139.77597,
+    "address": "東京都千代田区神田和泉町1-1-12 ミツバビル B1F",
+    "hours": "月〜金 11:30〜15:00 / 17:30〜23:00、土日祝 11:30〜15:00 / 17:30〜21:30",
+    "website": "https://chin-z.com/秋葉原店/",
+    "cuisine": [
+      "chinese"
+    ],
+    "tags": [
+      "中華",
+      "四川料理",
+      "麻婆豆腐"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 598,
+    "name": "麺屋のろし",
+    "slug": "menya-noroshi",
+    "category": "グルメ・カフェ",
+    "description": "東京で函館味噌ラーメンを味わえるラーメン店。つけ麺や居酒屋メニューも扱う。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.69949,
+    "lng": 139.77948,
+    "address": "東京都千代田区神田和泉町2-8 須永ビル1F",
+    "hours": "月〜金 11:00〜15:00 / 17:00〜21:00、土日祝 11:00〜21:00",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "味噌ラーメン",
+      "函館"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 599,
+    "name": "秋葉原製麺センター",
+    "slug": "akihabara-seimen-center",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅近くのラーメン店。油そばなども提供している。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.69836,
+    "lng": 139.775803,
+    "address": "東京都千代田区神田平河町4-1",
+    "hours": "24時間営業",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "油そば",
+      "24時間営業"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 600,
+    "name": "麺屋 武一 秋葉原店",
+    "slug": "menya-buichi-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "鶏を主体とした濃厚系ラーメン・つけ麺を扱う店舗。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.701275,
+    "lng": 139.770493,
+    "address": "東京都千代田区外神田3丁目",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "鶏"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 601,
+    "name": "生駒軒",
+    "slug": "ikomaken",
+    "category": "グルメ・カフェ",
+    "description": "昔ながらの町中華として親しまれている店舗。ラーメンや餃子などを提供。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.699192,
+    "lng": 139.77597,
+    "address": "東京都千代田区神田和泉町1-2-30",
+    "hours": "月〜金 11:00〜15:00",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "町中華",
+      "ラーメン",
+      "餃子"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 602,
+    "name": "ごっつ 秋葉原店",
+    "slug": "gottsu-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "背脂を使った超ごってり系ラーメン・つけ麺を提供する店舗。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.700535,
+    "lng": 139.775192,
+    "address": "東京都千代田区神田松永町18-1",
+    "hours": "11:00〜翌4:00",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "背脂",
+      "つけ麺"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 603,
+    "name": "青島食堂 秋葉原店",
+    "slug": "aoshima-shokudo-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "生姜醤油を特徴とする長岡系ラーメンの人気店。生姜の風味とチャーシューが特徴。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.697334,
+    "lng": 139.778488,
+    "address": "東京都千代田区神田佐久間町3-20-1",
+    "hours": "月・水〜日 11:00〜17:00",
+    "closed": "火曜定休",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "長岡系",
+      "生姜醤油"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 604,
+    "name": "最強油そば 春日亭 秋葉原昭和通り口店",
+    "slug": "saikyo-aburasoba-kasugatei-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "油そば専門店。秋葉原駅昭和通り口から徒歩2分ほどの立地。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.69836,
+    "lng": 139.775803,
+    "address": "東京都千代田区神田平河町4-8 平河町山崎ビル1F",
+    "hours": "11:00〜23:00",
+    "website": "https://www.kasugatei.com/",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "油そば"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 605,
+    "name": "壱角家 秋葉原東口店",
+    "slug": "ikkakuya-akihabara-higashiguchi",
+    "category": "グルメ・カフェ",
+    "description": "横浜家系ラーメンを提供するチェーン店「壱角家」の秋葉原駅東口店。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.698475,
+    "lng": 139.775192,
+    "address": "東京都千代田区神田佐久間町1-27 石鍋ビル",
+    "hours": "月〜金 10:00〜翌3:00、土日 10:00〜23:00",
+    "website": "https://gardengroup.co.jp/brand/ichikakuya/",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "家系"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 607,
+    "name": "ウミのチカラ",
+    "slug": "umi-no-chikara",
+    "category": "グルメ・カフェ",
+    "description": "魚介をテーマにしたラーメン・つけ麺と海鮮丼を提供。真鯛などを使った魚介系ラーメンが特徴。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.702404,
+    "lng": 139.777267,
+    "address": "東京都台東区台東1-32-6",
+    "hours": "月〜土・祝 11:00〜16:00 / 17:00〜21:00",
+    "closed": "日曜定休",
+    "website": "https://x.com/umi_no_chikara",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "魚介系",
+      "つけ麺"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 609,
+    "name": "だるまのめ 秋葉原店",
+    "slug": "darumanome-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原にある豚骨ラーメン店。替え玉なども楽しめる。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.69894,
+    "lng": 139.770508,
+    "address": "東京都千代田区外神田1-9-8 1F",
+    "hours": "月〜土 10:30〜23:00、日 10:30〜22:00",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "替え玉"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 610,
+    "name": "麺処 ほん田 秋葉原本店",
+    "slug": "menjo-honda-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅から非常に近い人気ラーメン店。醤油ラーメンやつけ麺などを提供。ラーメンTOKYO百名店2025選出。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.698639,
+    "lng": 139.774612,
+    "address": "東京都千代田区神田花岡町1-19",
+    "hours": "月・火・木〜日 11:30〜15:00 / 18:00〜21:00",
+    "closed": "水曜定休",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "醤油ラーメン",
+      "つけ麺",
+      "百名店"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 611,
+    "name": "新福菜館 秋葉原店",
+    "slug": "shinpukusaikan-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "京都発祥の老舗ラーメン店。濃い色の醤油スープの中華そばと焼きめしが名物。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.699192,
+    "lng": 139.77597,
+    "address": "東京都千代田区神田和泉町1-3-17",
+    "hours": "11:00〜15:00 / 17:30〜23:00",
+    "website": "https://shinpukusaikan.net/",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "中華そば",
+      "京都"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 612,
+    "name": "餃子の王将 エクスプレス アトレ秋葉原店",
+    "slug": "gyoza-no-ohsho-express-atre-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅構内にある餃子の王将の立ち食い・短時間利用型店舗。ラーメンや餃子を提供。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.698345,
+    "lng": 139.772522,
+    "address": "東京都千代田区外神田1-17-6 アトレ秋葉原",
+    "website": "https://www.ohsho.co.jp/",
+    "cuisine": [
+      "chinese"
+    ],
+    "tags": [
+      "中華",
+      "ラーメン",
+      "餃子"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 614,
+    "name": "万豚記 ヨドバシAkiba店",
+    "slug": "mantonki-yodobashi-akiba",
+    "category": "グルメ・カフェ",
+    "description": "中華料理・飲茶を中心に、担々麺などの麺料理も提供するヨドバシAkiba内の店舗。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.698639,
+    "lng": 139.774612,
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba 8F",
+    "hours": "11:00〜23:00（L.O.22:00）",
+    "cuisine": [
+      "chinese"
+    ],
+    "tags": [
+      "中華",
+      "飲茶",
+      "担々麺"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 615,
+    "name": "どうとんぼり神座 ヨドバシAkiba店",
+    "slug": "doutonbori-kamukura-yodobashi-akiba",
+    "category": "グルメ・カフェ",
+    "description": "大阪・道頓堀発祥のラーメンチェーン。白菜を使った独自のスープが特徴。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.698639,
+    "lng": 139.774612,
+    "address": "東京都千代田区神田花岡町1-1",
+    "hours": "11:00〜23:00",
+    "website": "https://kamukura.co.jp/",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "白菜",
+      "チェーン"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 616,
+    "name": "Tokyo Style Noodle ほたて日和",
+    "slug": "tokyo-style-noodle-hotate-biyori",
+    "category": "グルメ・カフェ",
+    "description": "ほたてなど魚介の旨味を生かしたつけ麺・ラーメンの人気店。ラーメンTOKYO百名店2025選出。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.698009,
+    "lng": 139.776367,
+    "address": "東京都千代田区神田佐久間町2丁目 梅屋ビル",
+    "hours": "月〜金 11:00〜14:30 / 17:30〜20:00、土日 11:00〜15:30 / 17:00〜18:30",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "魚介系",
+      "百名店"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 617,
+    "name": "らーめん 忍者",
+    "slug": "ramen-ninja",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅近くのラーメン・つけ麺店。デカ盛り系のメニューでも知られる。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.700043,
+    "lng": 139.775024,
+    "address": "東京都千代田区神田松永町17-3",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "デカ盛り"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 618,
+    "name": "豚骨らーめん 福の軒 秋葉原店",
+    "slug": "tonkotsu-ramen-fukunoken-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅近くで豚骨ラーメンを提供する店舗。比較的リーズナブルな価格帯が特徴。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.697784,
+    "lng": 139.775192,
+    "address": "東京都千代田区神田佐久間町1-19",
+    "hours": "11:00〜23:00",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "豚骨"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 619,
+    "name": "日高屋 秋葉原駅前店",
+    "slug": "hidakaya-akihabara-ekimae",
+    "category": "グルメ・カフェ",
+    "description": "中華料理チェーン。ラーメンをはじめ、餃子・チャーハンなどをリーズナブルに提供。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.699543,
+    "lng": 139.774841,
+    "address": "東京都千代田区神田松永町4-7",
+    "hours": "10:00〜翌4:00など ※曜日により異なる",
+    "website": "https://hidakaya.hiday.co.jp/",
+    "cuisine": [
+      "chinese"
+    ],
+    "tags": [
+      "中華",
+      "ラーメン",
+      "チェーン"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 620,
+    "name": "つじ田 秋葉原店",
+    "slug": "tsujita-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "濃厚な豚骨魚介系のつけ麺・ラーメンで知られる「つじ田」の秋葉原店。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.699032,
+    "lng": 139.770081,
+    "address": "東京都千代田区外神田1-9-5 第一ナガシマビル1F",
+    "hours": "11:00〜21:30",
+    "website": "https://tsukemen-tsujita.com/",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "つけ麺",
+      "豚骨魚介"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 621,
+    "name": "T'sたんたん エキュート秋葉原店",
+    "slug": "ts-tantan-ecute-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "植物性食材を中心としたヴィーガン担々麺を提供する店舗。秋葉原駅構内にある。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.698345,
+    "lng": 139.772522,
+    "address": "東京都千代田区外神田1-17-6 JR秋葉原駅構内",
+    "hours": "月〜土 8:00〜22:00、日 8:00〜21:00",
+    "website": "https://ts-tantan.com/",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "担々麺",
+      "ヴィーガン"
+    ],
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 622,
+    "name": "ラーメン パ郎",
+    "slug": "ramen-paro",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅昭和通り口から徒歩1分。極太麺を使ったボリュームのあるラーメンが特徴。",
+    "tier": "B",
+    "dataSource": "tabelog",
+    "lat": 35.697803,
+    "lng": 139.776352,
+    "address": "東京都千代田区神田佐久間町2-10",
+    "website": "https://www.ramen-paro.com/",
+    "cuisine": [
+      "ramen"
+    ],
+    "tags": [
+      "ラーメン",
+      "極太麺"
+    ],
+    "lastVerified": "2026-08-19"
   }
 ]
