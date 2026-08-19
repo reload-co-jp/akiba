@@ -3945,7 +3945,15 @@
     "cuisine": [
       "ramen"
     ],
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "image": {
+      "src": "/images/spots/susumu-akihabara.png",
+      "alt": "肉汁麺ススムの関連ビジュアル",
+      "sourceLabel": "肉汁麺ススム 公式サイト",
+      "sourceUrl": "http://susumu.me/map/",
+      "width": 800,
+      "height": 550
+    }
   },
   {
     "id": 153,
@@ -5552,6 +5560,14 @@
     "editorComment": {
       "text": "神田の本店はいつも深夜まで行列ですが、こちらは入りやすいです。",
       "authorId": 2
+    },
+    "image": {
+      "src": "/images/spots/kandaramen-waizu.jpg",
+      "alt": "秋葉原ラーメン わいずの関連ビジュアル",
+      "sourceLabel": "秋葉原ラーメン わいず 公式サイト",
+      "sourceUrl": "https://kandaramen-waizu.jp/",
+      "width": 1500,
+      "height": 600
     }
   },
   {
@@ -5762,7 +5778,15 @@
       "中華そば",
       "チェーン"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "image": {
+      "src": "/images/spots/kourakuen-akihabara.jpg",
+      "alt": "幸楽苑 秋葉原駅前店の関連ビジュアル",
+      "sourceLabel": "幸楽苑 公式サイト",
+      "sourceUrl": "https://www.kourakuen.co.jp/",
+      "width": 1081,
+      "height": 1080
+    }
   },
   {
     "id": 246,
@@ -12690,7 +12714,15 @@
     "tags": [
       "油そば"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "image": {
+      "src": "/images/spots/kasugatei-showadori-akihabara.jpg",
+      "alt": "最強油そば 春日亭 秋葉原昭和通り口店の関連ビジュアル",
+      "sourceLabel": "春日亭 公式サイト",
+      "sourceUrl": "https://www.kasugatei.com/",
+      "width": 910,
+      "height": 420
+    }
   },
   {
     "id": 605,
