@@ -21,6 +21,7 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
+          claude_args: "--dangerously-skip-permissions"
           prompt: |
             Read the file:
             .claude/skills/akiba-article-harvester/SKILL.md
