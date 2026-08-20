@@ -21,11 +21,11 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-	    Read the file:
-	    .claude/skills/akiba-article-harvester/SKILL.md
-	    Execute all instructions in that skill.
-	    Do not merely explain what the skill says.
-	    Actually perform the work described by the skill.
+            Read the file:
+            .claude/skills/akiba-article-harvester/SKILL.md
+            Execute all instructions in that skill.
+            Do not merely explain what the skill says.
+            Actually perform the work described by the skill.
 
       - name: Commit and push data
         run: |
@@ -38,4 +38,3 @@ jobs:
             git commit -m "Update article $(date +%Y-%m-%dT%H)"
             git push
           fi
-
