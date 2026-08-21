@@ -6,6 +6,7 @@ on:
 permissions:
   contents: write
   id-token: write
+  actions: write
 
 jobs:
   skill:
@@ -32,6 +33,7 @@ jobs:
             Actually perform the work described by the skill.
 
       - name: Commit and push data
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -39,7 +41,15 @@ jobs:
           git add .
           if git diff --cached --quiet; then
             echo "No changes detected, skipping push"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Update article $(date +%Y-%m-%dT%H)"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Trigger deploy workflow
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
