@@ -241,3 +241,25 @@
 {"url": "https://fcch.co.jp/news/6373", "reason": "low_value", "note": "FCチャンネルショー、秋葉原UDX開催だがFC加盟業者向けB2B商談イベントで一般読者向け価値薄い", "checked": "2026-08-22"}
 {"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95TEpTM3hQMmNZYUhIVS1UTHJQVjBlRWhhMVR1Y0piVHVTcVFWc19ZWGNlQ1dzZ05VdnY1d0lwcXZEV3p3UVdPNjlzel9NYnNJbzlmenJGY0kzZkl0V0V0YXBrTzREZ1UxN0E", "reason": "insufficient_facts", "note": "BAG MATERIAL COLLECTION 2026 秋葉原UDX、一次情報源が検索で見つからず", "checked": "2026-08-22"}
 {"url": "https://newsdigest.jp/news/8dcf5145-e9b8-41e4-949d-6eebdaff6d76", "reason": "insufficient_facts", "note": "秋葉原駅近く(台東区台東)ビル火災3人けが8/20、閉鎖・通行規制等の公共影響が未確認", "checked": "2026-08-22"}
+{"url": "https://www.shosen.co.jp/event/36977/", "reason": "low_value", "note": "書泉イベントページ掲載に関するお知らせ、実イベントではなくサイト運営告知", "checked": "2026-08-23"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000179.000009289.html", "reason": "event_ended", "note": "P@RADE in アキハバラ vol.2 写真展、8/8-8/16開催で基準日8/23時点で終了済み", "checked": "2026-08-23"}
+{"url": "https://toyokeizai.net/articles/-/955389", "reason": "insufficient_facts", "note": "KiGi秋葉原 木造混構造ビル記事、東洋経済有料会員限定で開業日等の具体的イベント情報未確認", "checked": "2026-08-23"}
+{"url": "https://www.shosen.co.jp/event/45086/", "reason": "out_of_scope_venue", "note": "熱愛プリンス青月まどかWEBサイン会、書泉オンライン扱い・実体は書泉グランデ(神保町)", "checked": "2026-08-23"}
+{"url": "https://www.shosen.co.jp/event/43965/", "reason": "out_of_scope_venue", "note": "推しとは恋に落ちません三浦ひらくサイン本抽選、書泉グランデ(神保町)経由", "checked": "2026-08-23"}
+{"url": "https://www.shosen.co.jp/event/45027/", "reason": "out_of_scope_venue", "note": "addict先生WEBサイン会、書泉グランデ(神保町)経由の完全オンライン販売", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116017", "reason": "insufficient_facts", "note": "文豪ストレイドッグス十周年施策、アニメイト全国店舗対象で秋葉原店限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116010", "reason": "insufficient_facts", "note": "SideMリメンバーショットフェア第4弾、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116019", "reason": "insufficient_facts", "note": "神椿市建設中。がわこフェア、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115835", "reason": "insufficient_facts", "note": "まどマギ劇場版バルーンフェア、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115834", "reason": "insufficient_facts", "note": "ホロライブART JAMフェア、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115443", "reason": "insufficient_facts", "note": "ペルソナ30周年記念フェア、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115353", "reason": "insufficient_facts", "note": "薬屋のひとりごとアニメイトフェア、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116158", "reason": "insufficient_facts", "note": "好いも甘いもPOP UP SHOP、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116069", "reason": "insufficient_facts", "note": "入間くん50巻発売記念フェア、全国店舗対象で秋葉原限定要素未確認", "checked": "2026-08-23"}
+{"url": "https://www.enjoytokyo.jp/event/2070813/", "reason": "insufficient_facts", "note": "ポケピースPOP UP STORE、秋葉原会場の具体的開催期間・住所未記載", "checked": "2026-08-23"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7633", "reason": "insufficient_facts", "note": "アズールレーンサマーフェア2026、秋葉原店開催が実店舗かオンラインショップ限定か記述が矛盾し未確定", "checked": "2026-08-23"}
+{"url": "https://nijimen.kusuguru.co.jp/topics/631579", "reason": "not_akihabara_specific", "note": "ŹOOĻ Gothic Tea House、アニメイトカフェ池袋2号店・大阪日本橋開催、秋葉原会場なし", "checked": "2026-08-23"}
+{"url": "https://thetv.jp/news/detail/1434271/", "reason": "not_akihabara_specific", "note": "AKB48好きish握手祭、新宿住友ビル開催、秋葉原会場なし", "checked": "2026-08-23"}
+{"url": "https://dengekionline.com/article/202608/85155", "reason": "insufficient_facts", "note": "ガンダムアーセナルコマンダーロケテスト、8/28秋葉原が最速開催地の一つだが具体的店舗名未確認", "checked": "2026-08-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2133679.html", "reason": "insufficient_facts", "note": "ブルーアーカイブ×ふもコレ、ふもショールーム秋葉原は6/30閉店・8月再開予定で店頭展示状況が記事と矛盾し未確定", "checked": "2026-08-23"}
+{"url": "https://nijimen.kusuguru.co.jp/topics/631368", "reason": "not_akihabara_specific", "note": "WIND BREAKERまねきねこコラボ、全国57店舗中の1店舗として秋葉原電気街口店が参加するのみでAkihabara固有の切り口なし", "checked": "2026-08-23"}
