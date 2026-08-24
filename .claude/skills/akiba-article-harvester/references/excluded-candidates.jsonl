@@ -263,3 +263,9 @@
 {"url": "https://dengekionline.com/article/202608/85155", "reason": "insufficient_facts", "note": "ガンダムアーセナルコマンダーロケテスト、8/28秋葉原が最速開催地の一つだが具体的店舗名未確認", "checked": "2026-08-23"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2133679.html", "reason": "insufficient_facts", "note": "ブルーアーカイブ×ふもコレ、ふもショールーム秋葉原は6/30閉店・8月再開予定で店頭展示状況が記事と矛盾し未確定", "checked": "2026-08-23"}
 {"url": "https://nijimen.kusuguru.co.jp/topics/631368", "reason": "not_akihabara_specific", "note": "WIND BREAKERまねきねこコラボ、全国57店舗中の1店舗として秋葉原電気街口店が参加するのみでAkihabara固有の切り口なし", "checked": "2026-08-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2134316.html", "reason": "not_akihabara_specific", "note": "TOKYO KEYBOARD EXPO 2026、開催地が東京流通センター(大田区平和島)に移転、秋葉原開催ではない", "checked": "2026-08-24"}
+{"url": "https://www.enjoytokyo.jp/event/2077469/", "reason": "not_akihabara_specific", "note": "東京カレー万博2026、会場は新宿区立大久保公園", "checked": "2026-08-24"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2134854.html", "reason": "insufficient_facts", "note": "アキバ三滝館SBIマネープラザ跡地内装工事(用途不明)・東京電気ビル用途変更工事(2027年6月完了予定、詳細未確定)。シンソク6号店部分は既存記事shinsoku-akihabara-6-sanko-ato-open-2026にsource追加でマージ", "checked": "2026-08-24"}
+{"url": "https://club-mogra.jp/2026/08/25/9821/", "reason": "insufficient_facts", "note": "PURE IBIZA ver.203、8月25日開催だがページ本文はDJプロフィールのみで開催時間・料金が取得できず", "checked": "2026-08-24"}
+{"url": "https://club-mogra.jp/2026/08/31/9879/", "reason": "insufficient_facts", "note": "VOCALOID DJ BAR 39、初音ミク誕生日記念8/31開催だが本文詳細取得できず", "checked": "2026-08-24"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1289/", "reason": "out_of_scope_venue", "note": "本棚珈琲×ウドラコラボカフェ2026夏、会場は本棚珈琲ノルテ店(立川)で秋葉原対象外（既存ログ再確認）", "checked": "2026-08-24"}
