@@ -269,3 +269,4 @@
 {"url": "https://club-mogra.jp/2026/08/25/9821/", "reason": "insufficient_facts", "note": "PURE IBIZA ver.203、8月25日開催だがページ本文はDJプロフィールのみで開催時間・料金が取得できず", "checked": "2026-08-24"}
 {"url": "https://club-mogra.jp/2026/08/31/9879/", "reason": "insufficient_facts", "note": "VOCALOID DJ BAR 39、初音ミク誕生日記念8/31開催だが本文詳細取得できず", "checked": "2026-08-24"}
 {"url": "https://www.kotobukiya.co.jp/event/detail/1289/", "reason": "out_of_scope_venue", "note": "本棚珈琲×ウドラコラボカフェ2026夏、会場は本棚珈琲ノルテ店(立川)で秋葉原対象外（既存ログ再確認）", "checked": "2026-08-24"}
+{"url": "https://www.atre.co.jp/akihabara/news/5680/", "reason": "insufficient_facts", "note": "ハイキューTOUCH THE DREAM POP UP、2025年開催の記録のみ確認、2026年版の公式告知未発見", "checked": "2026-08-25"}
