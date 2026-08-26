@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { getOngoingEvents, getUpcomingThisWeekEvents, getArticleImage } from "lib/articles"
+import { getWeekendEvents, getNextWeekendRange, getArticleImage } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
@@ -7,25 +7,26 @@ import { EventSection } from "components/event-section"
 import { CalListItem } from "components/cal-list-item"
 
 export const metadata = {
-  title: "秋葉原のイベント情報【今週開催】アニメ・ゲーム・コラボカフェまとめ",
+  title: "秋葉原のイベント情報【今週末開催】アニメ・ゲーム・コラボカフェまとめ",
   description:
-    "今週開催される秋葉原のイベントを一覧で紹介。開催中のイベントと今週スタート予定のイベントを会場・期間付きで確認できます。",
-  alternates: { canonical: "/events/this-week/" },
+    "今週末（土日）に秋葉原で開催されるイベントを一覧で紹介。開催中・開催予定のイベントを会場・期間付きで確認できます。",
+  alternates: { canonical: "/events/this-weekend/" },
   openGraph: {
-    title: "秋葉原のイベント情報【今週開催】アニメ・ゲーム・コラボカフェまとめ",
+    title: "秋葉原のイベント情報【今週末開催】アニメ・ゲーム・コラボカフェまとめ",
     description:
-      "今週開催される秋葉原のイベントを一覧で紹介。開催中のイベントと今週スタート予定のイベントを会場・期間付きで確認できます。",
-    url: "/events/this-week/",
+      "今週末（土日）に秋葉原で開催されるイベントを一覧で紹介。開催中・開催予定のイベントを会場・期間付きで確認できます。",
+    url: "/events/this-weekend/",
     type: "website",
   },
 }
 
 const Page = () => {
   const today = new Date().toISOString().slice(0, 10)
-  const ongoingEvents = getOngoingEvents(today)
-  const upcomingEvents = getUpcomingThisWeekEvents(today, 7)
+  const { start, end } = getNextWeekendRange(today)
+  const weekendEvents = getWeekendEvents(today)
+  const weekendLabel = `${fmtRange(start, end)}（土・日）`
 
-  const pageUrl = absoluteUrl("/events/this-week/")
+  const pageUrl = absoluteUrl("/events/this-weekend/")
 
   const jsonLd = [
     {
@@ -34,16 +35,16 @@ const Page = () => {
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
         { "@type": "ListItem", position: 2, name: "イベント", item: absoluteUrl("/events/") },
-        { "@type": "ListItem", position: 3, name: "今週のイベント", item: pageUrl },
+        { "@type": "ListItem", position: 3, name: "今週末のイベント", item: pageUrl },
       ],
     },
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       url: pageUrl,
-      name: "秋葉原のイベント情報【今週開催】",
+      name: "秋葉原のイベント情報【今週末開催】",
       description:
-        "今週開催される秋葉原のイベントを一覧で紹介。開催中のイベントと今週スタート予定のイベントを会場・期間付きで確認できます。",
+        "今週末（土日）に秋葉原で開催されるイベントを一覧で紹介。開催中・開催予定のイベントを会場・期間付きで確認できます。",
       inLanguage: "ja",
     },
   ]
@@ -59,55 +60,32 @@ const Page = () => {
           items={[
             { label: "ホーム", href: "/" },
             { label: "イベント", href: "/events/" },
-            { label: "今週のイベント" },
+            { label: "今週末のイベント" },
           ]}
         />
 
         <header className="events-page__header">
-          <p className="events-page__kicker">This Week in Akihabara</p>
-          <h1 className="events-page__title">秋葉原のイベント情報【今週開催】</h1>
+          <p className="events-page__kicker">This Weekend in Akihabara</p>
+          <h1 className="events-page__title">秋葉原のイベント情報【今週末開催】</h1>
+          <p className="events-page__lead">{weekendLabel}に秋葉原で開催されるイベントまとめ</p>
         </header>
 
         <EventSection
-          id="ongoing-heading"
-          kicker="Ongoing"
-          title={`開催中のイベント（${ongoingEvents.length}件）`}
+          id="weekend-heading"
+          kicker="This Weekend"
+          title={`今週末開催のイベント（${weekendEvents.length}件）`}
         >
-          {ongoingEvents.length === 0 ? (
-            <p className="events-page__empty">現在開催中のイベントはありません。</p>
+          {weekendEvents.length === 0 ? (
+            <p className="events-page__empty">今週末開催予定のイベントはありません。</p>
           ) : (
             <ul className="cal__list">
-              {ongoingEvents.map((a) => (
+              {weekendEvents.map((a) => (
                 <CalListItem
                   key={a.id}
                   href={`/articles/${a.slug}/`}
                   image={getArticleImage(a)}
                   dateTime={a.event!.startDate}
                   dateLabel={fmtRange(a.event!.startDate, a.event!.endDate)}
-                  title={a.title}
-                  venue={a.event!.venue}
-                />
-              ))}
-            </ul>
-          )}
-        </EventSection>
-
-        <EventSection
-          id="upcoming-heading"
-          kicker="Coming This Week"
-          title={`今週開始予定のイベント（${upcomingEvents.length}件）`}
-        >
-          {upcomingEvents.length === 0 ? (
-            <p className="events-page__empty">今週開始予定のイベントはありません。</p>
-          ) : (
-            <ul className="cal__list">
-              {upcomingEvents.map((a) => (
-                <CalListItem
-                  key={a.id}
-                  href={`/articles/${a.slug}/`}
-                  image={getArticleImage(a)}
-                  dateTime={a.event!.startDate}
-                  dateLabel={`${a.event!.startDate.slice(5).replace("-", "/")} 〜`}
                   title={a.title}
                   venue={a.event!.venue}
                 />
@@ -124,8 +102,8 @@ const Page = () => {
               </Link>
             </li>
             <li>
-              <Link href="/events/this-weekend/" className="today-related__link">
-                今週末のイベント →
+              <Link href="/events/this-week/" className="today-related__link">
+                今週のイベント →
               </Link>
             </li>
             <li>

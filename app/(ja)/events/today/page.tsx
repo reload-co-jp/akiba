@@ -350,6 +350,11 @@ const Page = () => {
               </Link>
             </li>
             <li>
+              <Link href="/events/this-weekend/" className="today-related__link">
+                今週末の秋葉原イベント →
+              </Link>
+            </li>
+            <li>
               <Link href="/events/monthly/" className="today-related__link">
                 月別イベントカレンダー →
               </Link>

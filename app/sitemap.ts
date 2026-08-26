@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/events/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.7 },
     { url: absoluteUrl("/events/today/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/events/this-week/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.8 },
+    { url: absoluteUrl("/events/this-weekend/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.8 },
     { url: absoluteUrl("/events/monthly/"), lastModified: latestDate, changeFrequency: "weekly", priority: 0.7 },
     { url: absoluteUrl("/events/collab-cafe/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/events/popup/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },

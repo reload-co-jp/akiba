@@ -88,6 +88,7 @@ const Page = () => {
           </h1>
           <div className="cal__subtitle-row">
             <Link href="/events/today/" className="cal__today-btn">今日のイベントを見る →</Link>
+            <Link href="/events/this-weekend/" className="cal__subtitle-link">今週末のイベントを見る</Link>
             <Link href="/events/calendar/" className="cal__subtitle-link">イベントカレンダーで見る</Link>
           </div>
         </div>

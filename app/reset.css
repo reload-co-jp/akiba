@@ -1095,6 +1095,12 @@ body {
   margin: 0;
 }
 
+.events-page__lead {
+  color: #5c6a67;
+  font-size: 0.9375rem;
+  margin: 0.75rem 0 0;
+}
+
 .events-page__empty {
   color: #8a6f63;
 }

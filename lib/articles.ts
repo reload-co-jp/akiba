@@ -347,6 +347,24 @@ export const getEndingSoonEvents = (today: string, days = 3): Article[] => {
   )
 }
 
+export const getNextWeekendRange = (today: string): { start: string; end: string } => {
+  const d = new Date(today)
+  const day = d.getUTCDay() // 0=日,6=土
+  const satOffset = day === 6 ? 0 : day === 0 ? -1 : 6 - day
+  const sat = new Date(d)
+  sat.setUTCDate(sat.getUTCDate() + satOffset)
+  const sun = new Date(sat)
+  sun.setUTCDate(sun.getUTCDate() + 1)
+  return { start: sat.toISOString().slice(0, 10), end: sun.toISOString().slice(0, 10) }
+}
+
+export const getWeekendEvents = (today: string): Article[] => {
+  const { start, end } = getNextWeekendRange(today)
+  return getAllArticles().filter(
+    (a) => a.event && a.event.startDate <= end && a.event.endDate >= start,
+  )
+}
+
 export const getUpcomingThisWeekEvents = (today: string, days = 7): Article[] => {
   const limit = new Date(today)
   limit.setDate(limit.getDate() + days)
