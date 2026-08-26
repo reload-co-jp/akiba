@@ -95,7 +95,7 @@ const Page = () => {
         {events.length === 0 ? (
           <p className="events-page__empty">No ongoing events at this time.</p>
         ) : (
-          <ul className="events-list">
+          <ul className="events-list events-list--grid">
             {events.map((article) => (
               <EventCard
                 key={article.id}
@@ -111,6 +111,7 @@ const Page = () => {
                 })}
                 headingAs="h2"
                 labels={EN_LABELS}
+                layout="grid"
               />
             ))}
           </ul>

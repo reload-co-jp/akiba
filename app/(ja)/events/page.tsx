@@ -98,7 +98,7 @@ const Page = () => {
         ) : (
           <div className="events-page__grid">
             <EventsMap events={events} />
-            <ul className="events-list">
+            <ul className="events-list events-list--grid">
               {events.map((article) => (
                 <EventCard
                   key={article.id}
@@ -113,6 +113,7 @@ const Page = () => {
                     return t ? [t.name] : []
                   })}
                   headingAs="h2"
+                  layout="grid"
                 />
               ))}
             </ul>

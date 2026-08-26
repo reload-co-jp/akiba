@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { fmtRange } from "lib/format"
-import { CalListItem } from "components/cal-list-item"
+import { EventCard } from "components/event-card"
 
 export type CategoryFilterEvent = {
   id: number
@@ -81,16 +81,16 @@ export const TodayCategoryFilter = ({ groups, hrefPrefix, locale }: Props) => {
       {visible.map((group) => (
         <div key={group.id} className="today-category">
           <h3 className="today-category__title">{group.name}</h3>
-          <ul className="cal__list">
+          <ul className="events-list events-list--grid">
             {group.events.map((a) => (
-              <CalListItem
+              <EventCard
                 key={a.id}
                 href={`${hrefPrefix}${a.slug}/`}
                 image={a.image}
-                dateTime={a.event.startDate}
-                dateLabel={fmtRange(a.event.startDate, a.event.endDate, L.dateSep)}
                 title={a.title}
                 venue={a.event.venue}
+                dateRange={fmtRange(a.event.startDate, a.event.endDate, L.dateSep)}
+                layout="grid"
               />
             ))}
           </ul>

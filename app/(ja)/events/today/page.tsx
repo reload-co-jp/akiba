@@ -8,9 +8,10 @@ import {
   getArticleImage,
 } from "lib/articles"
 import { absoluteUrl, siteName } from "lib/site"
+import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
-import { CalListItem } from "components/cal-list-item"
+import { EventCard } from "components/event-card"
 import { TodayVenueFilter } from "components/today-venue-filter"
 import { TodayCategoryFilter } from "components/today-category-filter"
 
@@ -285,16 +286,16 @@ const Page = () => {
           {endingSoonEvents.length === 0 ? (
             <p className="events-page__empty">3日以内に終了するイベントはありません。</p>
           ) : (
-            <ul className="cal__list">
+            <ul className="events-list events-list--grid">
               {endingSoonEvents.map((a) => (
-                <CalListItem
+                <EventCard
                   key={a.id}
                   href={`/articles/${a.slug}/`}
                   image={getArticleImage(a)}
-                  dateTime={a.event!.endDate}
-                  dateLabel={`〜${a.event!.endDate.slice(5).replace("-", "/")}`}
                   title={a.title}
                   venue={a.event!.venue}
+                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate)}
+                  layout="grid"
                 />
               ))}
             </ul>
@@ -305,16 +306,16 @@ const Page = () => {
           {upcomingEvents.length === 0 ? (
             <p className="events-page__empty">今週開始予定のイベントはありません。</p>
           ) : (
-            <ul className="cal__list">
+            <ul className="events-list events-list--grid">
               {upcomingEvents.map((a) => (
-                <CalListItem
+                <EventCard
                   key={a.id}
                   href={`/articles/${a.slug}/`}
                   image={getArticleImage(a)}
-                  dateTime={a.event!.startDate}
-                  dateLabel={`${a.event!.startDate.slice(5).replace("-", "/")} 〜`}
                   title={a.title}
                   venue={a.event!.venue}
+                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate)}
+                  layout="grid"
                 />
               ))}
             </ul>

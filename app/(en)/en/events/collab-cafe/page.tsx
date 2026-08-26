@@ -4,7 +4,6 @@ import { absoluteUrl } from "lib/site"
 import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
-import { CalListItem } from "components/cal-list-item"
 import { EventCard } from "components/event-card"
 import { EventsMap } from "components/events-map"
 
@@ -175,16 +174,17 @@ const Page = () => {
           {upcoming.length === 0 ? (
             <p className="events-page__empty">No upcoming collab cafes.</p>
           ) : (
-            <ul className="cal__list cal__list--large">
+            <ul className="events-list events-list--grid">
               {upcoming.map((a) => (
-                <CalListItem
+                <EventCard
                   key={a.id}
                   href={`/en/articles/${a.slug}/`}
                   image={getArticleImage(a)}
-                  dateTime={a.event!.startDate}
-                  dateLabel={`from ${a.event!.startDate.slice(5).replace("-", "/")}`}
                   title={a.en!.title}
                   venue={getEnglishEventVenue(a) ?? a.event!.venue}
+                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate, "–")}
+                  labels={EN_LABELS}
+                  layout="grid"
                 />
               ))}
             </ul>

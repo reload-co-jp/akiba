@@ -85,7 +85,7 @@ export const TodayVenueFilter = ({ events, hrefPrefix, locale }: Props) => {
           </div>
         </div>
       )}
-      <ul className="events-list">
+      <ul className="events-list events-list--grid">
         {visible.map((ev) => (
           <EventCard
             key={ev.id}
@@ -99,6 +99,7 @@ export const TodayVenueFilter = ({ events, hrefPrefix, locale }: Props) => {
             sourceUrl={ev.sourceUrl}
             sourceLabel={ev.sourceLabel}
             labels={L.cardLabels}
+            layout="grid"
           />
         ))}
       </ul>

@@ -4,7 +4,7 @@ import { absoluteUrl } from "lib/site"
 import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
-import { CalListItem } from "components/cal-list-item"
+import { EventCard } from "components/event-card"
 
 export const metadata = {
   title: "秋葉原のイベント情報【今週開催】アニメ・ゲーム・コラボカフェまとめ",
@@ -76,16 +76,16 @@ const Page = () => {
           {ongoingEvents.length === 0 ? (
             <p className="events-page__empty">現在開催中のイベントはありません。</p>
           ) : (
-            <ul className="cal__list">
+            <ul className="events-list events-list--grid">
               {ongoingEvents.map((a) => (
-                <CalListItem
+                <EventCard
                   key={a.id}
                   href={`/articles/${a.slug}/`}
                   image={getArticleImage(a)}
-                  dateTime={a.event!.startDate}
-                  dateLabel={fmtRange(a.event!.startDate, a.event!.endDate)}
                   title={a.title}
                   venue={a.event!.venue}
+                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate)}
+                  layout="grid"
                 />
               ))}
             </ul>
@@ -100,16 +100,16 @@ const Page = () => {
           {upcomingEvents.length === 0 ? (
             <p className="events-page__empty">今週開始予定のイベントはありません。</p>
           ) : (
-            <ul className="cal__list">
+            <ul className="events-list events-list--grid">
               {upcomingEvents.map((a) => (
-                <CalListItem
+                <EventCard
                   key={a.id}
                   href={`/articles/${a.slug}/`}
                   image={getArticleImage(a)}
-                  dateTime={a.event!.startDate}
-                  dateLabel={`${a.event!.startDate.slice(5).replace("-", "/")} 〜`}
                   title={a.title}
                   venue={a.event!.venue}
+                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate)}
+                  layout="grid"
                 />
               ))}
             </ul>
