@@ -270,3 +270,6 @@
 {"url": "https://club-mogra.jp/2026/08/31/9879/", "reason": "insufficient_facts", "note": "VOCALOID DJ BAR 39、初音ミク誕生日記念8/31開催だが本文詳細取得できず", "checked": "2026-08-24"}
 {"url": "https://www.kotobukiya.co.jp/event/detail/1289/", "reason": "out_of_scope_venue", "note": "本棚珈琲×ウドラコラボカフェ2026夏、会場は本棚珈琲ノルテ店(立川)で秋葉原対象外（既存ログ再確認）", "checked": "2026-08-24"}
 {"url": "https://www.atre.co.jp/akihabara/news/5680/", "reason": "insufficient_facts", "note": "ハイキューTOUCH THE DREAM POP UP、2025年開催の記録のみ確認、2026年版の公式告知未発見", "checked": "2026-08-25"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2135418.html", "reason": "low_value", "note": "バブルンHey2来訪・HOT TOYS Fortniteグッズ先行販売・メロンブックス108時間営業の複数小ネタ集約記事、単独記事化できる十分な事実がない", "checked": "2026-08-26"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2135194.html", "reason": "insufficient_facts", "note": "カラオケの鉄人跡地の居酒屋4店・パセラBBQ・台湾101汁なし担々麺などの飲食小ネタ集約記事、単一の明確な開始日が確認できない。パセラBBQは既存の通常サービスの可能性が高い", "checked": "2026-08-26"}
+{"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15Nmc2ZlhIaGowWldnS0d2TUl2Tm1UdHNvYTlVVWNrcDJkS0pYbGJiajExMVgwVTZLZk1lWEFVZUQ4TEhVUm5zODRGYzZiaGctRDY3WVVVbWlidlRITGhmVF80RnFxQ05VMEA", "reason": "insufficient_facts", "note": "黒猫と魔女の教室POP UP SHOP、Google Newsリダイレクト解決不可・ボークス秋葉原ホビー天国2の公式ブログでも該当告知未確認", "checked": "2026-08-26"}
