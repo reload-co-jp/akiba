@@ -5144,7 +5144,7 @@
     "name": "ねぎま三ぞう",
     "slug": "osm-node-3364729757",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "秋葉原駅徒歩1分。名物「ねぎま」をはじめ、焼き鳥や煮込みなどをリーズナブルに楽しめる居酒屋。",
     "lat": 35.699646,
     "lng": 139.774532,
     "tier": "B",
@@ -5164,7 +5164,8 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001503455/archive/1860000-5f617cb082b01.jpg",
       "copyrightRisk": true
-    }
+    },
+    "lastVerified": "2026-08-27"
   },
   {
     "id": 215,
@@ -8553,7 +8554,7 @@
     "name": "すし酒場 きんのだし",
     "slug": "osm-node-6241716985",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの寿司店",
+    "description": "全席扉付き完全個室。本格板前和食と生本マグロなどの寿司を楽しめる寿司酒場。",
     "lat": 35.698812,
     "lng": 139.771538,
     "tier": "B",
@@ -8562,16 +8563,16 @@
     "cuisine": [
       "sushi"
     ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse",
-    "hours": "月〜金16:00〜23:00 / 土日祝14:00〜23:00",
+    "address": "東京都千代田区外神田1-13-1 AKIBA1131ビルディング7F",
+    "hours": "15:00〜24:00（L.O.料理23:00、ドリンク23:30）※12:00〜15:00は事前予約制",
     "image": {
       "src": "/images/spots/sushi-sakaba-kinnodashi-sotokanda.jpg",
       "alt": "すし酒場きんのだしの寿司盛り合わせ",
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/02/08/P048720208/P048720208_368.jpg",
       "copyrightRisk": true
-    }
+    },
+    "lastVerified": "2026-08-27"
   },
   {
     "id": 384,
@@ -8629,7 +8630,7 @@
     "name": "虎連坊",
     "slug": "osm-node-6243154793",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "秋葉原駅電気街口から徒歩1分。日本酒と旨い肴、原始焼きを売りにする居酒屋。",
     "lat": 35.698814,
     "lng": 139.772271,
     "tier": "B",
@@ -8640,7 +8641,9 @@
     ],
     "address": "東京都千代田区外神田1-18-18 秋葉原駅前プラザビル9F",
     "addressSource": "gsi-reverse",
-    "hours": "平日ランチ11:30〜14:30（L.O.14:00）/ 平日・土曜ディナー17:00〜22:00（L.O.21:00）/ 金・祝前日17:00〜23:00（L.O.22:00）"
+    "hours": "平日ランチ11:30〜14:30（L.O.14:00）/ 平日・土曜ディナー17:00〜22:00（L.O.21:00）/ 金・祝前日17:00〜23:00（L.O.22:00）",
+    "access": "JR秋葉原駅 電気街口 徒歩1分",
+    "lastVerified": "2026-08-27"
   },
   {
     "id": 387,
@@ -9531,7 +9534,7 @@
     "name": "十勝石狩函館",
     "slug": "osm-node-9103735465",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "秋葉原駅昭和通り口徒歩1分。北海道料理を中心に、海鮮やジンギスカンなどを楽しめる個室居酒屋。",
     "lat": 35.697898,
     "lng": 139.774594,
     "tier": "B",
@@ -9549,7 +9552,8 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/03/80/P041880380/P041880380_238.jpg",
       "copyrightRisk": true
-    }
+    },
+    "lastVerified": "2026-08-27"
   },
   {
     "id": 440,
@@ -9581,7 +9585,7 @@
     "name": "ウメ子の家",
     "slug": "osm-node-9103735468",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "秋葉原駅徒歩1分。全席個室で、創作料理と厳選梅酒を楽しめる居酒屋。",
     "lat": 35.69799,
     "lng": 139.774587,
     "tier": "B",
@@ -9599,7 +9603,8 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/11/69/P048171169/P048171169_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "lastVerified": "2026-08-27"
   },
   {
     "id": 442,
@@ -10938,7 +10943,7 @@
     "name": "じぶんどき",
     "slug": "osm-node-11194950514",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
+    "description": "秋葉原電気街口すぐ。全席完全個室で、創作京料理を中心とした和食を楽しめる居酒屋。",
     "lat": 35.698712,
     "lng": 139.771889,
     "tier": "B",
@@ -10954,7 +10959,9 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001515032/archive/3017283-60795363e9d23.png",
       "copyrightRisk": true
-    }
+    },
+    "website": "https://jibundoki.dkdining.com/akihabara/",
+    "lastVerified": "2026-08-27"
   },
   {
     "id": 506,
@@ -13058,5 +13065,686 @@
       "極太麺"
     ],
     "lastVerified": "2026-08-19"
+  },
+  {
+    "id": 623,
+    "name": "完全個室 牛の達人 秋葉原店",
+    "slug": "gyutatsu-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩3分。全席完全個室で、A5ランク鹿児島黒牛を楽しめる焼肉・居酒屋。",
+    "address": "東京都千代田区外神田4-4-3 SILビル4F",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "11:30〜23:00",
+    "website": "https://shop.gyro.holdings/detail/gyutatsu005/",
+    "lat": 35.701344,
+    "lng": 139.771774,
+    "tags": [
+      "焼肉",
+      "個室",
+      "黒毛和牛"
+    ],
+    "cuisine": [
+      "yakiniku",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 624,
+    "name": "個室と和食 和ノ音 秋葉原店",
+    "slug": "wanone-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。完全個室を備え、四季折々の料理を楽しめる和食居酒屋。",
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル10F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "月〜土・祝前日 16:00〜24:00、日・祝日 16:00〜23:00",
+    "website": "https://wanone.owst.jp/",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "個室",
+      "和食"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 625,
+    "name": "ぼたん",
+    "slug": "botan-kanda",
+    "category": "グルメ・カフェ",
+    "description": "明治30年創業の老舗。備長炭と鉄鍋を使った伝統の鳥すきやきを提供。",
+    "address": "東京都千代田区神田須田町1-15",
+    "hours": "月〜金 11:30〜14:30、17:00〜21:00／土 11:30〜22:00または21:00（季節により変動）",
+    "website": "https://www.sukiyaki-botan.co.jp/",
+    "lat": 35.696365,
+    "lng": 139.768738,
+    "tags": [
+      "老舗",
+      "鳥すきやき"
+    ],
+    "cuisine": [
+      "sukiyaki",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 626,
+    "name": "すし土風炉 秋葉原店",
+    "slug": "tofuro-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "本格江戸前寿司と和食を気軽に楽しめる秋葉原のすし居酒屋。個室や大人数向けの宴会席も用意。",
+    "address": "東京都千代田区神田佐久間町3-37",
+    "hours": "月〜木 11:30〜14:30、16:30〜23:00／金・祝前日 11:30〜14:30、16:30〜23:30／土日祝 12:00〜22:00",
+    "website": "https://tofuro-shop.com/akihabara",
+    "lat": 35.698345,
+    "lng": 139.777634,
+    "tags": [
+      "寿司",
+      "個室",
+      "宴会"
+    ],
+    "cuisine": [
+      "sushi",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 627,
+    "name": "酒兵衛 秋葉原店",
+    "slug": "sakabee-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。扉付きの完全個室で京風和食と地酒を楽しめ、食べ飲み放題にも対応。",
+    "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル6F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "16:00〜24:00",
+    "lat": 35.698475,
+    "lng": 139.775192,
+    "tags": [
+      "個室",
+      "京風和食",
+      "飲み放題"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 628,
+    "name": "龍の屋 秋葉原店",
+    "slug": "tatsunoya-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。刺身や鮪料理などを提供し、3時間飲み放題付きコースや個室利用に対応。",
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル7F",
+    "access": "JR秋葉原駅 徒歩1〜2分",
+    "hours": "月〜金 15:00〜翌0:00（L.O.料理23:00、ドリンク23:30）／土日 12:00〜翌0:00（L.O.料理23:00、ドリンク23:30）",
+    "closed": "無休",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "個室",
+      "鮮魚",
+      "飲み放題"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 629,
+    "name": "47都道府県の日本酒勢揃い 完全個室 藁焼き稲荷商店 秋葉原店",
+    "slug": "warayaki-inari-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。全席扉付き完全個室で、鮮魚・和牛・地鶏などの藁焼きと日本酒を楽しめる居酒屋。",
+    "address": "東京都千代田区外神田1-13-1 AKIBA1131ビルディング7F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "15:00〜24:00",
+    "lat": 35.698811,
+    "lng": 139.7715,
+    "tags": [
+      "個室",
+      "日本酒",
+      "藁焼き"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 630,
+    "name": "完全個室 名古屋コーチン 本格鳥料理 秋月 秋葉原店",
+    "slug": "akitsuki-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "全席扉付き個室。名古屋コーチンなどの地鶏料理、焼き鳥、秋田県産純穂豚の野菜巻き串などを提供。",
+    "address": "東京都千代田区外神田1-13-1 AKIBA1131ビルディング6F",
+    "hours": "15:00〜24:00",
+    "website": "https://akitsuki.owst.jp/",
+    "lat": 35.698811,
+    "lng": 139.7715,
+    "tags": [
+      "個室",
+      "地鶏",
+      "焼き鳥"
+    ],
+    "cuisine": [
+      "yakitori",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 631,
+    "name": "旬昧 みやび 秋葉原店",
+    "slug": "miyabi-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。旬魚の炉端焼きと炊きたて土鍋ご飯を中心とした和食居酒屋。完全個室あり。",
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル4F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "12:00〜24:00（L.O.23:30）",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "個室",
+      "炉端焼き",
+      "土鍋ご飯"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 632,
+    "name": "I Love Gyoza アキバの竜王 秋葉原総本店",
+    "slug": "ilovegyoza-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "手作り餃子や本格中華が中心。餃子を含む食べ放題と生ビール付き飲み放題の宴会プランも提供。",
+    "address": "東京都千代田区神田佐久間町3-37 MK佐久間町ビル1F",
+    "hours": "月〜木 16:00〜23:30／金・祝前日 16:00〜翌3:00／土 14:00〜23:30／日祝 14:00〜23:00",
+    "lat": 35.698345,
+    "lng": 139.777634,
+    "tags": [
+      "餃子",
+      "中華",
+      "食べ放題"
+    ],
+    "cuisine": [
+      "chinese",
+      "gyoza"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 633,
+    "name": "寿司とおでん モナリザ 秋葉原店",
+    "slug": "monalisa-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅から徒歩1分。職人が握る寿司、創作あて巻き、鮮魚、おでんなどを楽しめる寿司酒場。",
+    "address": "東京都千代田区神田佐久間町1-19 山中ビルB1F",
+    "access": "秋葉原駅 徒歩1分",
+    "hours": "17:00〜23:30（L.O.料理22:30、ドリンク23:00）",
+    "lat": 35.697784,
+    "lng": 139.775192,
+    "tags": [
+      "寿司",
+      "おでん"
+    ],
+    "cuisine": [
+      "sushi",
+      "oden",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 634,
+    "name": "全席個室 鮨と酒日和 ととうお 秋葉原駅前店",
+    "slug": "totouo-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。全席完全個室で、寿司・海鮮料理と酒を楽しめる居酒屋。",
+    "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル5F",
+    "access": "秋葉原駅昭和通り口 徒歩1分",
+    "hours": "17:00〜23:30（L.O.料理22:30、ドリンク23:00）",
+    "website": "https://totouo.dkdining.com/akihabara/",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "個室",
+      "寿司",
+      "海鮮"
+    ],
+    "cuisine": [
+      "sushi",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 635,
+    "name": "魚と日本酒 どまん中 はなれ 秋葉原店",
+    "slug": "domannaka-hanare-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "のどぐろ、生雲丹、活いか、かわはぎなどの海鮮と日本酒を中心とした大人向けの海鮮居酒屋。",
+    "address": "東京都千代田区神田佐久間町3-28 E&TビルB1F",
+    "hours": "月〜土 15:00〜23:00（L.O.22:30）",
+    "lat": 35.698578,
+    "lng": 139.778412,
+    "tags": [
+      "海鮮",
+      "日本酒"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 636,
+    "name": "のどぐろ専門店 八仙 秋葉原",
+    "slug": "hassen-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "のどぐろを専門とする個室和食居酒屋。秋葉原駅から徒歩4分。",
+    "address": "東京都千代田区神田佐久間町3-28 星野ビル1F",
+    "access": "秋葉原駅 徒歩4分",
+    "hours": "月〜金 17:00〜24:00／土・祝日 17:00〜23:00",
+    "closed": "日曜定休",
+    "lat": 35.698578,
+    "lng": 139.778412,
+    "tags": [
+      "個室",
+      "のどぐろ",
+      "和食"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 637,
+    "name": "魚匠屋 神田須田町店",
+    "slug": "gyoshoya-kanda-suda",
+    "category": "グルメ・カフェ",
+    "description": "漁師直送の鮮魚と日本酒をリーズナブルに楽しめる海鮮居酒屋。立ち飲みにも対応。",
+    "address": "東京都千代田区神田須田町1-14 A-1ビル1F",
+    "hours": "月〜金・祝前日・祝後日 11:30〜14:00、17:00〜23:00",
+    "closed": "土日祝定休",
+    "lat": 35.695595,
+    "lng": 139.769958,
+    "tags": [
+      "鮮魚",
+      "立ち飲み"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 638,
+    "name": "京出汁おでん 炉端焼 ほたる 秋葉原店",
+    "slug": "hotaru-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。京出汁おでん、炉端焼き、天麩羅、鮮魚などを提供する全席個室の居酒屋。",
+    "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル4F 401",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "13:00〜24:00（L.O.料理23:00、ドリンク23:30）",
+    "lat": 35.698475,
+    "lng": 139.775192,
+    "tags": [
+      "個室",
+      "おでん",
+      "炉端焼き"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 639,
+    "name": "肉問屋直営 国産和牛焼肉 牛若丸 秋葉原店",
+    "slug": "ushiwakamaru-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "国産和牛を中心とした焼肉店。焼肉・ホルモンに加えて居酒屋としても掲載。",
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル6F",
+    "hours": "12:00〜24:00",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "焼肉",
+      "和牛",
+      "ホルモン"
+    ],
+    "cuisine": [
+      "yakiniku"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 640,
+    "name": "焼肉酒場 秋葉牧場",
+    "slug": "akiba-bokujo",
+    "category": "グルメ・カフェ",
+    "description": "A5ランク和牛などを扱う焼肉酒場。深夜まで営業しており、食べ放題・飲み放題にも対応。",
+    "address": "東京都千代田区神田佐久間町2-14-7 EIWAビル2F",
+    "hours": "月〜金・祝日 17:00〜翌5:00／土日 12:00〜翌5:00",
+    "lat": 35.698326,
+    "lng": 139.776428,
+    "tags": [
+      "焼肉",
+      "深夜営業",
+      "食べ放題"
+    ],
+    "cuisine": [
+      "yakiniku"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 641,
+    "name": "炭火肉酒場 肉ごこち",
+    "slug": "nikugokochi-kanda",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩5分・神田駅徒歩3分。備長炭で焼き上げる黒毛和牛、岩中豚、鶏、サルシッチャなどの肉料理を楽しめる居酒屋。",
+    "address": "東京都千代田区神田須田町1-7-15 1F",
+    "access": "秋葉原駅 徒歩5分・神田駅 徒歩3分",
+    "hours": "11:00〜15:00、17:00〜24:00（L.O.料理23:30）",
+    "website": "https://snpgroup.co.jp/bluesky/",
+    "lat": 35.696049,
+    "lng": 139.770859,
+    "tags": [
+      "炭火焼",
+      "黒毛和牛"
+    ],
+    "cuisine": [
+      "yakiniku",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 642,
+    "name": "仙台牛タンと野菜巻き串 完全個室居酒屋 はなこま 秋葉原店",
+    "slug": "hanakoma-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。全席個室で、牛タン料理や野菜巻き串、鮮魚・マグロ・炉端焼きなどを楽しめる居酒屋。",
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル6F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "15:00〜24:00（L.O. 23:00）",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "個室",
+      "牛タン",
+      "炉端焼き"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 643,
+    "name": "政宗 秋葉原店",
+    "slug": "masamune-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。自家製おでんや厳選牛の肉寿司を提供し、少人数個室や大人数の宴会にも対応。",
+    "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル5F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "12:00〜24:00（L.O.料理23:00、ドリンク23:30）",
+    "lat": 35.698475,
+    "lng": 139.775192,
+    "tags": [
+      "おでん",
+      "肉寿司",
+      "個室"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 644,
+    "name": "完全個室居酒屋 炉ばた 一心 秋葉原店",
+    "slug": "isshin-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。100席を備えた大型の完全個室居酒屋で、炉端焼きや焼き鳥を中心に提供。",
+    "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル3F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "12:00〜24:00",
+    "lat": 35.698475,
+    "lng": 139.775192,
+    "tags": [
+      "個室",
+      "炉端焼き",
+      "焼き鳥"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 645,
+    "name": "秋葉原旨い魚と焼酎.地酒 美味研鑽 TETSU",
+    "slug": "tetsu-kandaizumicho",
+    "category": "グルメ・カフェ",
+    "description": "天然素材を使った本格海鮮和食が特徴。海鮮料理のコース・セットメニューを中心に提供。",
+    "address": "東京都千代田区神田和泉町1-2-22 中尾ビルB1F",
+    "hours": "月〜金 11:30〜14:30、17:00〜23:00（L.O.14:00／21:30）",
+    "lat": 35.699192,
+    "lng": 139.77597,
+    "tags": [
+      "海鮮",
+      "地酒"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 646,
+    "name": "あたらよ 秋葉原店",
+    "slug": "atarayo-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。全席完全個室で、旬の和食と京風創作料理を楽しめる居酒屋。",
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル4F",
+    "access": "秋葉原駅から徒歩1分",
+    "hours": "11:30〜翌0:00（L.O.料理23:00、ドリンク23:30）",
+    "closed": "なし",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "個室",
+      "京風創作料理",
+      "和食"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 647,
+    "name": "コドマ",
+    "slug": "kodoma-kandasakumacho",
+    "category": "グルメ・カフェ",
+    "description": "裏秋葉原の路地にある大人向けの酒場。創作料理に加え、自然派ワインやクラフトビールなどを楽しめる。",
+    "address": "東京都千代田区神田佐久間町3-28 E&Tビル1F",
+    "hours": "月〜土 16:00〜23:00／日・祝 15:00〜22:00",
+    "lat": 35.698578,
+    "lng": 139.778412,
+    "tags": [
+      "自然派ワイン",
+      "クラフトビール",
+      "創作料理"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 648,
+    "name": "厳選黒毛和牛と極上焼肉の店 Yakiushi 秋葉原",
+    "slug": "yakiushi-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "黒毛和牛を一頭買いし、希少部位まで提供する焼肉店。秋葉原駅徒歩1分で、夜景を楽しめる店内が特徴。",
+    "address": "東京都千代田区神田佐久間町1-21-1 Chiyoda Terrace 8F E2",
+    "access": "秋葉原駅 徒歩1分",
+    "hours": "16:00〜23:30（L.O.料理22:30、ドリンク23:00）",
+    "lat": 35.697784,
+    "lng": 139.775192,
+    "tags": [
+      "焼肉",
+      "黒毛和牛",
+      "夜景"
+    ],
+    "cuisine": [
+      "yakiniku"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 649,
+    "name": "全席完全個室 青森郷土料理 ねぶた屋 秋葉原店",
+    "slug": "nebutaya-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "全席扉付き完全個室。青森郷土料理、地魚、炭火焼きなどを提供し、地酒の飲み放題にも対応。",
+    "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル4F 403",
+    "hours": "13:00〜24:00（L.O.料理23:00、ドリンク23:30）",
+    "lat": 35.698475,
+    "lng": 139.775192,
+    "tags": [
+      "個室",
+      "青森郷土料理",
+      "炭火焼き"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 650,
+    "name": "全席個室 日本酒と魚 魚縁 秋葉原店",
+    "slug": "gyoen-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。扉付き個室で、漁港直送の海鮮と黒毛和牛を使った北海和食を楽しめる。",
+    "address": "東京都千代田区神田佐久間町1-24 ガトー秋葉原ビル6F",
+    "access": "秋葉原駅 徒歩1分",
+    "hours": "月〜木・土日祝 16:00〜24:00／金 16:00〜翌4:00",
+    "lat": 35.698475,
+    "lng": 139.775192,
+    "tags": [
+      "個室",
+      "海鮮",
+      "北海道"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 651,
+    "name": "やきとん 元気",
+    "slug": "genki-yakiton-kandasakumacho",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原・岩本町エリアの人気やきとん店。焼きとん、もつ焼き、焼き鳥などを気軽に楽しめる酒場。",
+    "address": "東京都千代田区神田佐久間町3-37-30 轟ビル1F",
+    "hours": "月〜土 17:00〜23:30（L.O.23:00）／日・祝 15:00〜22:00（L.O.21:30）",
+    "lat": 35.698345,
+    "lng": 139.777634,
+    "tags": [
+      "やきとん",
+      "もつ焼き",
+      "焼き鳥"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 652,
+    "name": "鮪と炭火焼き 俺の割烹 うお炭 秋葉原店",
+    "slug": "uotan-kandasakumacho",
+    "category": "グルメ・カフェ",
+    "description": "本鮪、創作料理、炭火焼魚串などを提供。「俺の」シリーズの割烹業態で、上質な和食を楽しめる。",
+    "address": "東京都千代田区神田佐久間町2-11 JD秋葉原ビル1F",
+    "hours": "月〜金 17:00〜23:00／土日祝 12:00〜23:00",
+    "lat": 35.697803,
+    "lng": 139.776352,
+    "tags": [
+      "本鮪",
+      "炭火焼き",
+      "割烹"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 653,
+    "name": "鮪ノ司 秋葉原駅前店",
+    "slug": "maguronotsukasa-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "2025年7月オープン。全席個室の本鮪専門店で、本鮪を中心とした板前和食と日本酒を提供。",
+    "address": "東京都千代田区神田佐久間町1-16 大橋ビル3F 301",
+    "hours": "15:00〜24:00（L.O.料理23:00、ドリンク23:30）",
+    "lat": 35.6978,
+    "lng": 139.774399,
+    "tags": [
+      "個室",
+      "本鮪専門",
+      "日本酒"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-27"
   }
 ]
