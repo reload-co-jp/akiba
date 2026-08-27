@@ -273,3 +273,20 @@
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2135418.html", "reason": "low_value", "note": "バブルンHey2来訪・HOT TOYS Fortniteグッズ先行販売・メロンブックス108時間営業の複数小ネタ集約記事、単独記事化できる十分な事実がない", "checked": "2026-08-26"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2135194.html", "reason": "insufficient_facts", "note": "カラオケの鉄人跡地の居酒屋4店・パセラBBQ・台湾101汁なし担々麺などの飲食小ネタ集約記事、単一の明確な開始日が確認できない。パセラBBQは既存の通常サービスの可能性が高い", "checked": "2026-08-26"}
 {"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15Nmc2ZlhIaGowWldnS0d2TUl2Tm1UdHNvYTlVVWNrcDJkS0pYbGJiajExMVgwVTZLZk1lWEFVZUQ4TEhVUm5zODRGYzZiaGctRDY3WVVVbWlidlRITGhmVF80RnFxQ05VMEA", "reason": "insufficient_facts", "note": "黒猫と魔女の教室POP UP SHOP、Google Newsリダイレクト解決不可・ボークス秋葉原ホビー天国2の公式ブログでも該当告知未確認", "checked": "2026-08-26"}
+{"url": "https://collabo-cafe.com/events/collabo/tenkanshifuku-scene-table-ginza-cafe-2026/", "reason": "not_akihabara_specific", "note": "銀座会場、秋葉原無関係(検索時に誤って拾った可能性、実際は無視)", "checked": "2026-08-27"}
+{"url": "https://vket.com/lp/2026Summer_real/", "reason": "event_ended", "note": "VketReal 2026 Summer 秋葉原連動企画は7/25-26開催ですでに終了", "checked": "2026-08-27"}
+{"url": "https://www.holdings.toppan.com/ja/news/2026/07/newsrelease260703_1.html", "reason": "event_ended", "note": "TOPPA!!!BASE AKIBA 東京リベンジャーズ×寺田てらコラボ 7/18-8/5ですでに終了", "checked": "2026-08-27"}
+{"url": "https://shin-ei-animation.jp/2026/06/goods_260616/", "reason": "event_ended", "note": "TOPPA!!!BASE AKIBA シンエイ動画50周年コラボ 6/30-7/16ですでに終了", "checked": "2026-08-27"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000058.000056249.html", "reason": "low_value", "note": "HOTEL EN-YO秋葉原・神田開業 2026年5月開業ですでに3ヶ月以上経過、ニュース価値低下", "checked": "2026-08-27"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7843", "reason": "not_akihabara_specific", "note": "前橋ウィッチーズ2周年記念イベント、会場は前橋(けやきウォーク前橋)で秋葉原ではない", "checked": "2026-08-27"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7570", "reason": "event_ended", "note": "劇場版ゾンビランドサガPOP UP SHOP 7/25-8/9ですでに終了", "checked": "2026-08-27"}
+{"url": "https://www.shosen.co.jp/event/44901/", "reason": "event_ended", "note": "高山千先生WEBサイン会 応募期間終了済み", "checked": "2026-08-27"}
+{"url": "https://club.goodman2020.com/events/40149", "reason": "event_ended", "note": "face to ace浴衣祭2026 8/23開催ですでに終了", "checked": "2026-08-27"}
+{"url": "https://club.goodman2020.com/events/40151", "reason": "event_ended", "note": "MUSIC BATTER Vol.16 8/25開催ですでに終了", "checked": "2026-08-27"}
+{"url": "https://club.goodman2020.com/events/40148", "reason": "event_ended", "note": "tetote 13th anniversary LIVE 8/22開催ですでに終了", "checked": "2026-08-27"}
+{"url": "https://blog.piapro.net/2026/06/f2606241-1.html", "reason": "event_ended", "note": "初音ミク秋葉原フェスティバル2026 7/3-26開催ですでに終了", "checked": "2026-08-27"}
+{"url": "https://x.com/anthemakiba/status/2021258675248070934", "reason": "insufficient_facts", "note": "ANTHEM AKIBAライブハウス開業、Xツイート内容未検証・2026年4月の情報で古く裏付け取れず", "checked": "2026-08-27"}
+{"url": "https://x.com/pokecen_akiba/status/2050168352627122504", "reason": "insufficient_facts", "note": "ポケットセンター秋葉原「本日閉店」、ツイート内容未検証・恒常的閉店か通常休業か不明", "checked": "2026-08-27"}
+{"url": "https://club-mogra.jp/", "reason": "insufficient_facts", "note": "MOGRA 17th ANNIVERSARY PARTY DAY2、トップページのFACTSに開催日の一次情報明記なし(チケット抽選情報のみ)、日付確証取れず", "checked": "2026-08-27"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000812.000060459.html", "reason": "insufficient_facts", "note": "REAL AKIBA BOYZ「あきば31」会場は東京体育館で秋葉原外、秋葉原70店舗ジャックの2026年版詳細は公式ページ403で確認不可", "checked": "2026-08-27"}
+{"url": "https://www.shosen.co.jp/event/45265/", "reason": "not_akihabara_specific", "note": "ラカ先生WEBサイン会、書泉オンラインショップでの郵送抽選のみで秋葉原店舗への来店要素なし", "checked": "2026-08-27"}
