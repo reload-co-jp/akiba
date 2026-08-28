@@ -290,3 +290,7 @@
 {"url": "https://club-mogra.jp/", "reason": "insufficient_facts", "note": "MOGRA 17th ANNIVERSARY PARTY DAY2、トップページのFACTSに開催日の一次情報明記なし(チケット抽選情報のみ)、日付確証取れず", "checked": "2026-08-27"}
 {"url": "https://prtimes.jp/main/html/rd/p/000000812.000060459.html", "reason": "insufficient_facts", "note": "REAL AKIBA BOYZ「あきば31」会場は東京体育館で秋葉原外、秋葉原70店舗ジャックの2026年版詳細は公式ページ403で確認不可", "checked": "2026-08-27"}
 {"url": "https://www.shosen.co.jp/event/45265/", "reason": "not_akihabara_specific", "note": "ラカ先生WEBサイン会、書泉オンラインショップでの郵送抽選のみで秋葉原店舗への来店要素なし", "checked": "2026-08-27"}
+{"url": "https://www.enjoytokyo.jp/event/2077469/", "reason": "not_akihabara_specific", "note": "東京カレー万博2026、開催地は新宿区立大久保公園、秋葉原ではない", "checked": "2026-08-28"}
+{"url": "https://x.com/search?q=黒猫と魔女の教室", "reason": "insufficient_facts", "note": "黒猫と魔女の教室POP UP@秋葉原ボークス1F、公式ソース(PR TIMES等)未発見、日付・価格不明", "checked": "2026-08-28"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&category=0&keyword=AKIHABARA", "reason": "insufficient_facts", "note": "魔法科高校の劣等生POP UP@ゲーマーズ本店(8/29-9/13報告)、Gamers公式イベント一覧に該当ページ見つからず", "checked": "2026-08-28"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7886", "reason": "low_value", "note": "ときのそらCHECK1日店長イベント、応募当選者限定・会場非公開・OGP画像なし、一般来場価値低い", "checked": "2026-08-28"}
