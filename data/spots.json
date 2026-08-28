@@ -10687,7 +10687,7 @@
     "name": "麹蔵",
     "slug": "osm-node-10968697005",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
+    "description": "奄美・鹿児島・沖縄料理と本格焼酎を楽しめる居酒屋。しゃぶしゃぶなどの料理も提供。",
     "lat": 35.697372,
     "lng": 139.773842,
     "tier": "B",
@@ -10702,7 +10702,13 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/00/74/P048830074/P048830074_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "cuisine": [
+      "izakaya",
+      "regional",
+      "shabu_shabu"
+    ],
+    "lastVerified": "2026-08-28"
   },
   {
     "id": 494,
@@ -13573,7 +13579,8 @@
       "izakaya"
     ],
     "tier": "A",
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-28",
+    "website": "https://akihabara-tetsu.com/"
   },
   {
     "id": 646,
@@ -13746,5 +13753,195 @@
     ],
     "tier": "A",
     "lastVerified": "2026-08-27"
+  },
+  {
+    "id": 655,
+    "name": "三ぞう 岩本町店",
+    "slug": "sanzou-iwamotocho",
+    "category": "グルメ・カフェ",
+    "description": "「ねぎま」を看板メニューとする大衆居酒屋。焼き鳥・海鮮料理などをリーズナブルに提供。",
+    "address": "東京都千代田区神田岩本町1-1",
+    "tags": [
+      "大衆居酒屋",
+      "焼き鳥",
+      "ねぎま"
+    ],
+    "cuisine": [
+      "izakaya",
+      "yakitori",
+      "seafood"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.69606,
+    "lng": 139.774963
+  },
+  {
+    "id": 656,
+    "name": "葡萄屋はなれ にかい",
+    "slug": "budouya-hanare-kandasakumacho",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅近くにある大人向けの居酒屋。海鮮料理と日本酒を中心に、落ち着いた空間で食事を楽しめる。個室・半個室あり。",
+    "address": "東京都千代田区神田佐久間町2-18",
+    "tags": [
+      "海鮮",
+      "日本酒",
+      "個室"
+    ],
+    "cuisine": [
+      "izakaya",
+      "seafood",
+      "japanese"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.698647,
+    "lng": 139.776443
+  },
+  {
+    "id": 659,
+    "name": "やきとり やきとん元気 清美通り店",
+    "slug": "genki-yakiton-seibidori",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原の人気やきとん店「元気」の2号店。やきとん、焼き鳥などの大衆酒場料理をリーズナブルに楽しめる。",
+    "address": "東京都千代田区神田佐久間町2-14-7",
+    "tags": [
+      "大衆酒場",
+      "やきとん",
+      "焼き鳥"
+    ],
+    "cuisine": [
+      "izakaya",
+      "yakitori"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.698326,
+    "lng": 139.776428
+  },
+  {
+    "id": 660,
+    "name": "酒とめし ひまり倶楽部 秋葉原",
+    "slug": "himari-club-kandasakumacho",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。9種類のつくねや創作料理を提供する、個室を備えた和食居酒屋。",
+    "address": "東京都千代田区神田佐久間町1-15 川初ビル5F",
+    "hours": "16:00〜24:00",
+    "tags": [
+      "つくね",
+      "個室",
+      "創作料理"
+    ],
+    "cuisine": [
+      "izakaya",
+      "japanese"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.6978,
+    "lng": 139.774399
+  },
+  {
+    "id": 661,
+    "name": "金子屋 電気街口店",
+    "slug": "kaneko-ya-denkigaiguchi",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩3分。もつ焼きや海鮮料理を提供する居酒屋。平日19時までハッピーアワー、飲み放題付き宴会コースにも対応。",
+    "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 1F",
+    "tags": [
+      "もつ焼き",
+      "海鮮",
+      "ハッピーアワー"
+    ],
+    "cuisine": [
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.698715,
+    "lng": 139.771988
+  },
+  {
+    "id": 662,
+    "name": "焼き鳥･やきとん･餃子 つる福 ヨドバシAkiba店",
+    "slug": "tsurufuku-yodobashi-akiba",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅直結、ヨドバシAkiba8階。餃子、九州カゴ焼き、手羽先揚げなどを提供する大衆酒場。",
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba 8F",
+    "tags": [
+      "焼き鳥",
+      "やきとん",
+      "餃子"
+    ],
+    "cuisine": [
+      "izakaya",
+      "yakitori",
+      "gyoza"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.698639,
+    "lng": 139.774612
+  },
+  {
+    "id": 663,
+    "name": "胡椒饅頭PAOPAO",
+    "slug": "kosho-manju-paopao",
+    "category": "グルメ・カフェ",
+    "description": "胡椒料理を専門とする中華料理店。中華料理・ラーメンに加えて居酒屋としても掲載。",
+    "address": "東京都千代田区岩本町3-1-5 スミトー神田岩本町ビル1F",
+    "tags": [
+      "中華",
+      "胡椒料理"
+    ],
+    "cuisine": [
+      "chinese",
+      "izakaya"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.694763,
+    "lng": 139.775833
+  },
+  {
+    "id": 664,
+    "name": "美味しいお肉の店 やまの",
+    "slug": "yamano-kandasakumacho",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。厚切り特上タンやA5和牛などを扱う焼肉店。個室2室を備え、食事会や仕事仲間との利用にも向く。",
+    "address": "東京都千代田区神田佐久間町1-21 2F",
+    "tags": [
+      "焼肉",
+      "個室",
+      "A5和牛"
+    ],
+    "cuisine": [
+      "yakiniku"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.697784,
+    "lng": 139.775192
+  },
+  {
+    "id": 665,
+    "name": "縁や 秋葉原駅前店",
+    "slug": "enya-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅徒歩1分。個室で夜景を楽しめる居酒屋。焼き鳥や野菜巻きが看板料理。",
+    "address": "東京都千代田区神田佐久間町1-15",
+    "tags": [
+      "個室",
+      "焼き鳥",
+      "野菜巻き"
+    ],
+    "cuisine": [
+      "izakaya",
+      "yakitori"
+    ],
+    "tier": "A",
+    "lastVerified": "2026-08-28",
+    "lat": 35.6978,
+    "lng": 139.774399
   }
 ]
