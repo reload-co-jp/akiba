@@ -294,3 +294,5 @@
 {"url": "https://x.com/search?q=黒猫と魔女の教室", "reason": "insufficient_facts", "note": "黒猫と魔女の教室POP UP@秋葉原ボークス1F、公式ソース(PR TIMES等)未発見、日付・価格不明", "checked": "2026-08-28"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&category=0&keyword=AKIHABARA", "reason": "insufficient_facts", "note": "魔法科高校の劣等生POP UP@ゲーマーズ本店(8/29-9/13報告)、Gamers公式イベント一覧に該当ページ見つからず", "checked": "2026-08-28"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7886", "reason": "low_value", "note": "ときのそらCHECK1日店長イベント、応募当選者限定・会場非公開・OGP画像なし、一般来場価値低い", "checked": "2026-08-28"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2136684.html", "reason": "insufficient_facts", "note": "GALLERIA×STREET FIGHTER6コラボPC実機展示、秋葉原内の具体店舗・展示期間が公式ページにも記載なし", "checked": "2026-08-29"}
+{"url": "https://ak-link-fes.com/", "reason": "insufficient_facts", "note": "Akiba Link Festa 2026 SUMMER、公式サイトが画像埋め込みのみでテキストの日程・会場情報取得不可", "checked": "2026-08-29"}
