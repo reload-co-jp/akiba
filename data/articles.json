@@ -29300,6 +29300,10 @@
       {
         "label": "Collabo Cafe 記事",
         "url": "https://collabo-cafe.com/events/collabo/revuestarlight-charapopstore-2026/"
+      },
+      {
+        "label": "アトレ秋葉原 公式ニュース",
+        "url": "https://www.atre.co.jp/akihabara/news/7540"
       }
     ],
     "event": {
@@ -29394,6 +29398,52 @@
       39,
       164,
       207
+    ]
+  },
+  {
+    "id": 752,
+    "title": "アニメ制作技術の総合イベント「あにつく 2026」が秋葉原UDXで開催",
+    "slug": "anitsuku-2026-udx-akihabara",
+    "summary": "アニメ・CG制作の最新技術やクリエイターの知見を紹介する無料イベント「あにつく 2026」が、2026年10月3日に秋葉原UDX 4Fギャラリーで開催。事前のWeb登録制で、業界を目指す学生やクリエイターにも公開される。",
+    "content": "## 概要\n\nアニメ・CGプロダクション各社が集結し、最新の制作技術や現場のリアルな知見を共有する総合イベント「あにつく 2026」が、秋葉原UDXで開催される。完成作品だけでなく、その裏側にある試行錯誤や現場のリアルを伝えることで、アニメづくりへの興味を後押しする内容となっている。\n\n## 内容\n\n第一線で活躍するクリエイターによるトークセッションや技術解説が中心となる、業界関係者・志望者向けの技術リサーチイベント。\n\n- バーチャルプロダクション（VP）の最新事例など、CG・アニメ制作技術に関するセッションを多数開催\n- MAPPA『ドロヘドロ Season2』を題材にした若手クリエイターによるトークセッションも実施\n- 各社ブースによる会場展示\n- イベント終了後には有料のアフターパーティーも開催\n\n> アニメの最新制作技術が見られる無料イベント。業界の技術リサーチにも最適です。\n> — 公式サイトより\n\n## 開催情報\n\n- **日時**: 2026年10月3日（土）11:30〜20:30（受付11:00〜）\n- **会場**: 秋葉原UDX 4F GALLERY / GALLERY NEXT（東京都千代田区外神田4-14-1）\n- **料金**: 本編は入場無料（アフターパーティーは一般2,000円・学生1,000円）\n- **予約**: 事前のWeb登録制、定員に達し次第受付終了\n\n## こんな人におすすめ\n\n- アニメ・CG業界を目指す学生やクリエイター\n- 制作現場のリアルな話を聞きたい人\n- 最新のバーチャルプロダクション技術に関心がある人",
+    "publishedAt": "2026-08-30",
+    "en": {
+      "title": "Anime Production Technology Event \"Anitsuku 2026\" at Akihabara UDX",
+      "summary": "\"Anitsuku 2026,\" a free event showcasing the latest anime and CG production technology and creator insights, is held October 3, 2026 at Akihabara UDX 4F Gallery. Advance web registration is required, and it's open to students and aspiring creators as well as industry professionals.",
+      "content": "## Overview\n\nAnime and CG production companies gather for \"Anitsuku 2026,\" a comprehensive event sharing the latest production technology and real behind-the-scenes insights, held at Akihabara UDX. Rather than just showing finished work, the event highlights the trial-and-error and realities of the production floor to spark interest in anime-making.\n\n## Highlights\n\nThe event centers on talks and technical breakdowns by leading creators, aimed at industry professionals and those aspiring to join the field.\n\n- Multiple sessions on CG/anime production technology, including the latest virtual production (VP) case studies\n- A talk session by young creators featuring MAPPA's \"Dorohedoro Season 2\" as a case study\n- Booth exhibits from participating companies\n- A paid after-party held following the main event\n\n> A free event where you can see the latest anime production technology — also great for industry technical research.\n> — From the official site\n\n## Event Details\n\n- **Date**: October 3, 2026 (Sat), 11:30–20:30 (reception from 11:00)\n- **Venue**: Akihabara UDX 4F GALLERY / GALLERY NEXT (4-14-1 Soto-Kanda, Chiyoda-ku, Tokyo)\n- **Price**: Free for the main program (after-party: ¥2,000 general / ¥1,000 students)\n- **Reservation**: Advance web registration required; closes once capacity is reached\n\n## Recommended For\n\n- Students and creators aiming for the anime/CG industry\n- Anyone wanting to hear real stories from the production floor\n- Those interested in the latest virtual production technology"
+    },
+    "image": {
+      "src": "/images/articles/anitsuku-2026-udx-akihabara.png",
+      "alt": "「あにつく 2026」の告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000365.000004669.html"
+    },
+    "sources": [
+      {
+        "label": "公式サイト",
+        "url": "https://www.too.com/atsuc/y2026/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000365.000004669.html"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原UDX 4Fギャラリー",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-03",
+      "price": "無料（アフターパーティーは有料）",
+      "reservation": true
+    },
+    "authorId": 1,
+    "tagIds": [
+      47,
+      50,
+      109,
+      177,
+      198,
+      207,
+      211
     ]
   }
 ]
