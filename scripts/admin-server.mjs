@@ -7,9 +7,12 @@
 // アクセス: http://127.0.0.1:4310/
 /* global process, console, URL */
 import { createServer } from "node:http"
-import { readFile, writeFile } from "node:fs/promises"
+import { readFile, writeFile, mkdir } from "node:fs/promises"
+import { execFileSync } from "node:child_process"
 import { fileURLToPath } from "node:url"
 import path from "node:path"
+import dns from "node:dns/promises"
+import net from "node:net"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, "..", "data")
@@ -39,7 +42,14 @@ const writeJson = async (type, data) =>
 const labelFor = (type, item) => (type === "articles" ? item.title : item.name)
 
 const detailsFor = (type, item, tagsById) => {
-  const image = item.image ? { src: item.image.src, alt: item.image.alt ?? "" } : null
+  const image = item.image
+    ? {
+        src: item.image.src,
+        alt: item.image.alt ?? "",
+        sourceLabel: item.image.sourceLabel ?? "",
+        sourceUrl: item.image.sourceUrl ?? "",
+      }
+    : null
   if (type === "articles") {
     return {
       summary: item.summary ?? "",
@@ -115,6 +125,120 @@ const geocodeAddress = async (address) => {
     title,
     inBox,
   }
+}
+
+// public/ 配下の画像ファイルの実寸を取得する（scripts/update-image-dimensions.mjs と同じ手法）
+const getImageDimensions = (filePath) => {
+  try {
+    const out = execFileSync("file", [filePath], { encoding: "utf8" })
+    const m = out.match(/(\d+)\s*x\s*(\d+)/)
+    if (!m) return null
+    return { width: parseInt(m[1], 10), height: parseInt(m[2], 10) }
+  } catch {
+    return null
+  }
+}
+
+const MAX_IMAGE_BYTES = 8 * 1024 * 1024 // 8MB
+
+// svg は除外(取得画像をそのまま配信すると保存型XSSになりうるため)
+const CONTENT_TYPE_TO_EXT = {
+  "image/jpeg": ".jpg",
+  "image/png": ".png",
+  "image/webp": ".webp",
+  "image/gif": ".gif",
+}
+const extFromContentType = (contentType) =>
+  CONTENT_TYPE_TO_EXT[String(contentType).split(";")[0].trim().toLowerCase()] ?? null
+const extFromUrl = (imageUrl) => {
+  try {
+    const ext = path.extname(new URL(imageUrl).pathname).toLowerCase()
+    return IMAGE_CONTENT_TYPES[ext] ? ext : null
+  } catch {
+    return null
+  }
+}
+
+// SSRF対策: ループバック/リンクローカル/プライベートレンジ宛のリクエストを拒否する
+const isPrivateIp = (ip) => {
+  const type = net.isIP(ip)
+  if (type === 4) {
+    const [a, b] = ip.split(".").map(Number)
+    if (a === 10 || a === 127 || a === 0) return true
+    if (a === 169 && b === 254) return true
+    if (a === 172 && b >= 16 && b <= 31) return true
+    if (a === 192 && b === 168) return true
+    if (a >= 224) return true // マルチキャスト・予約域
+    return false
+  }
+  if (type === 6) {
+    const lower = ip.toLowerCase()
+    if (lower === "::1" || lower === "::") return true
+    if (lower.startsWith("fe80:") || lower.startsWith("fc") || lower.startsWith("fd")) return true
+    if (lower.startsWith("::ffff:")) {
+      const v4 = lower.slice(7)
+      if (net.isIPv4(v4)) return isPrivateIp(v4)
+    }
+    return false
+  }
+  return true // IPと判定できない値は安全側に倒して拒否
+}
+
+const MAX_REDIRECTS = 3
+
+// og:image の宛先はページ運営者が完全に制御できる値なので、社内/クラウドメタデータ等への
+// SSRFを避けるため、DNS解決先を毎ホップ検証し、リダイレクトは手動で追跡する。
+// 注: DNS応答は事前チェック後に変わりうる(DNS rebinding)。完全な対策には fetch の
+// dispatcher に解決済みIPを直接渡す実装が要るが、ローカル専用ツールのため簡易対策に留める。
+const safeFetch = async (targetUrl) => {
+  let currentUrl = targetUrl
+  for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {
+    const parsed = new URL(currentUrl)
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      throw new Error(`unsupported protocol: ${parsed.protocol}`)
+    }
+    let lookups
+    try {
+      lookups = await dns.lookup(parsed.hostname, { all: true })
+    } catch (err) {
+      throw new Error(`dns resolution failed: ${err}`)
+    }
+    if (lookups.length === 0 || lookups.some(({ address }) => isPrivateIp(address))) {
+      throw new Error("blocked: target resolves to a private/internal address")
+    }
+    const res = await fetch(currentUrl, {
+      headers: { "User-Agent": GEOCODE_USER_AGENT },
+      redirect: "manual",
+    })
+    if ([301, 302, 303, 307, 308].includes(res.status)) {
+      const location = res.headers.get("location")
+      if (!location) throw new Error("redirect without location")
+      currentUrl = new URL(location, currentUrl).toString()
+      continue
+    }
+    return res
+  }
+  throw new Error("too many redirects")
+}
+
+// html から og:image（無ければ twitter:image）の絶対URLを抜き出す
+const extractOgImage = (html, pageUrl) => {
+  const patterns = [
+    /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image(?::secure_url)?["']/i,
+    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i,
+  ]
+  for (const re of patterns) {
+    const m = html.match(re)
+    if (!m) continue
+    try {
+      return new URL(m[1], pageUrl).toString()
+    } catch {
+      // 不正なURLは無視して次のパターンを試す
+    }
+  }
+  return null
 }
 
 const sendJson = (res, status, body) => {
@@ -225,6 +349,7 @@ const HTML = `<!doctype html>
   let items = []
   let authors = []
   let currentId = null
+  let fetchedImage = null // 公式サイトから取得したog:image（{filename, dataBase64, sourceUrl}）
 
   const listEl = document.getElementById("list")
   const editEl = document.getElementById("edit")
@@ -362,14 +487,26 @@ const HTML = `<!doctype html>
     const image = d.image
     const imageHtml = image
       ? '<img src="' + escapeHtml(image.src) + '" alt="' + escapeHtml(image.alt) + '" />'
-      : ""
+      : "<p style=\"margin:0;color:#8a6f63;font-size:.8125rem\">画像未設定</p>"
     const categoryOptions = SPOT_CATEGORIES
       .map((c) => '<option value="' + c + '"' + (c === d.category ? " selected" : "") + ">" + c + "</option>")
       .join("")
 
     editEl.innerHTML =
       '<h2></h2><p style="color:#8a6f63;font-size:.8125rem"></p>' +
-      (imageHtml ? '<div class="detail-box">' + imageHtml + '</div>' : '') +
+      '<div class="detail-box">' +
+      '<div id="imagePreview">' + imageHtml + '</div>' +
+      '<label for="f-image-file">画像ファイル</label>' +
+      '<input id="f-image-file" type="file" accept="image/*" />' +
+      (d.website
+        ? '<button type="button" class="fetch-og-image" style="margin-top:.5rem">公式サイトから画像取得</button>'
+        : '<p style="margin:.5rem 0 0;color:#8a6f63;font-size:.75rem">公式サイト未設定のため自動取得不可</p>') +
+      field("f-image-alt", "代替テキスト（alt）", image?.alt) +
+      field("f-image-sourceLabel", "出典表記", image?.sourceLabel) +
+      field("f-image-sourceUrl", "出典URL", image?.sourceUrl, { type: "url" }) +
+      '<button type="button" class="upload-image" style="margin-top:.5rem">画像をアップロード</button>' +
+      '<span class="status" id="imageStatus"></span>' +
+      '</div>' +
       field("f-name", "名称", d.name ?? it.title, { required: true }) +
       '<label for="f-category">カテゴリ</label><select id="f-category">' + categoryOptions + '</select>' +
       field("f-description", "説明", d.summary, { textarea: true, required: true }) +
@@ -402,6 +539,92 @@ const HTML = `<!doctype html>
     editEl.querySelector("#author").value = it.editorComment?.authorId ?? ""
     editEl.querySelector(".save").onclick = () => saveSpot(id)
     editEl.querySelector(".geocode").onclick = () => geocodeSpot()
+    editEl.querySelector(".upload-image").onclick = () => uploadSpotImage(id)
+    editEl.querySelector(".fetch-og-image")?.addEventListener("click", () => fetchOgImage(id))
+    fetchedImage = null
+  }
+
+  const fileToBase64 = (file) =>
+    new Promise((resolve, reject) => {
+      const reader = new FileReader()
+      reader.onload = () => resolve(String(reader.result).split(",")[1])
+      reader.onerror = () => reject(reader.error)
+      reader.readAsDataURL(file)
+    })
+
+  const fetchOgImage = async (id) => {
+    const statusEl = editEl.querySelector("#imageStatus")
+    statusEl.textContent = "公式サイトから取得中…"
+    const res = await fetch("/api/spot-image-fetch", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id }),
+    })
+    const result = await res.json().catch(() => null)
+    if (!res.ok || !result?.ok) {
+      statusEl.textContent = "取得失敗: " + (result?.error || res.status)
+      return
+    }
+    fetchedImage = { filename: result.filename, dataBase64: result.dataBase64 }
+    editEl.querySelector("#f-image-file").value = ""
+    const altEl = editEl.querySelector("#f-image-alt")
+    if (!altEl.value.trim()) altEl.value = items.find((i) => i.id === id)?.title ?? ""
+    editEl.querySelector("#f-image-sourceUrl").value = result.sourceUrl
+    const previewEl = editEl.querySelector("#imagePreview")
+    previewEl.innerHTML =
+      '<img src="data:image/*;base64,' + result.dataBase64 + '" alt="" />'
+    statusEl.textContent = "取得しました（未保存。内容確認のうえ「画像をアップロード」を押してください）"
+  }
+
+  const uploadSpotImage = async (id) => {
+    const fileInput = editEl.querySelector("#f-image-file")
+    const statusEl = editEl.querySelector("#imageStatus")
+    const file = fileInput.files[0]
+    if (!file && !fetchedImage) {
+      statusEl.textContent = "ファイルを選択するか、公式サイトから画像を取得してください"
+      return
+    }
+    const alt = editEl.querySelector("#f-image-alt").value.trim()
+    if (!alt) {
+      statusEl.textContent = "代替テキスト（alt）を入力してください"
+      return
+    }
+    const sourceLabel = editEl.querySelector("#f-image-sourceLabel").value.trim()
+    const sourceUrl = editEl.querySelector("#f-image-sourceUrl").value.trim()
+    statusEl.textContent = "アップロード中…"
+    let filename, dataBase64
+    if (file) {
+      filename = file.name
+      try {
+        dataBase64 = await fileToBase64(file)
+      } catch {
+        statusEl.textContent = "ファイル読み込み失敗"
+        return
+      }
+    } else {
+      filename = fetchedImage.filename
+      dataBase64 = fetchedImage.dataBase64
+    }
+    const res = await fetch("/api/spot-image", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, filename, dataBase64, alt, sourceLabel, sourceUrl }),
+    })
+    if (res.ok) {
+      const result = await res.json()
+      const it = items.find((i) => i.id === id)
+      if (it) it.details.image = result.image
+      fetchedImage = null
+      fileInput.value = ""
+      statusEl.textContent = "アップロードしました"
+      const previewEl = editEl.querySelector("#imagePreview")
+      previewEl.innerHTML =
+        '<img src="' + escapeHtml(result.image.src) + "?t=" + Date.now() +
+        '" alt="' + escapeHtml(result.image.alt) + '" />'
+      renderList()
+    } else {
+      statusEl.textContent = "アップロード失敗: " + (await res.text())
+    }
   }
 
   const geocodeSpot = async () => {
@@ -667,6 +890,94 @@ const server = createServer(async (req, res) => {
 
       await writeJson("spots", data)
       sendJson(res, 200, { ok: true })
+      return
+    }
+
+    if (req.method === "POST" && url.pathname === "/api/spot-image-fetch") {
+      const body = JSON.parse(await readBody(req))
+      const { id } = body
+      if (typeof id !== "number") return sendJson(res, 400, { error: "invalid id" })
+
+      const data = await readJson("spots")
+      const item = data.find((i) => i.id === id)
+      if (!item) return sendJson(res, 404, { error: "not found" })
+      if (!item.website) return sendJson(res, 400, { error: "website not set" })
+
+      let html
+      try {
+        const pageRes = await safeFetch(item.website)
+        if (!pageRes.ok) return sendJson(res, 502, { error: `page fetch failed: ${pageRes.status}` })
+        html = await pageRes.text()
+      } catch (err) {
+        return sendJson(res, 502, { error: `page fetch failed: ${err}` })
+      }
+
+      const ogImageUrl = extractOgImage(html, item.website)
+      if (!ogImageUrl) return sendJson(res, 404, { error: "og:image not found" })
+
+      let imgRes
+      try {
+        imgRes = await safeFetch(ogImageUrl)
+        if (!imgRes.ok) return sendJson(res, 502, { error: `image fetch failed: ${imgRes.status}` })
+      } catch (err) {
+        return sendJson(res, 502, { error: `image fetch failed: ${err}` })
+      }
+
+      const ext = extFromContentType(imgRes.headers.get("content-type")) ?? extFromUrl(ogImageUrl)
+      if (!ext || ext === ".svg") return sendJson(res, 400, { error: "unsupported image type" })
+
+      const buffer = Buffer.from(await imgRes.arrayBuffer())
+      if (buffer.length === 0) return sendJson(res, 502, { error: "empty image" })
+      if (buffer.length > MAX_IMAGE_BYTES) return sendJson(res, 400, { error: "file too large" })
+
+      sendJson(res, 200, {
+        ok: true,
+        filename: `og${ext}`,
+        dataBase64: buffer.toString("base64"),
+        sourceUrl: ogImageUrl,
+      })
+      return
+    }
+
+    if (req.method === "POST" && url.pathname === "/api/spot-image") {
+      const body = JSON.parse(await readBody(req))
+      const { id, filename, dataBase64, alt, sourceLabel, sourceUrl } = body
+      if (typeof id !== "number") return sendJson(res, 400, { error: "invalid id" })
+      if (!filename || !dataBase64) return sendJson(res, 400, { error: "file required" })
+      if (!alt || !alt.trim()) return sendJson(res, 400, { error: "alt required" })
+
+      const ext = path.extname(filename).toLowerCase()
+      // svg は除外(保存後そのまま配信されると保存型XSSになりうるため)
+      if (!IMAGE_CONTENT_TYPES[ext] || ext === ".svg") {
+        return sendJson(res, 400, { error: "unsupported image type" })
+      }
+
+      const buffer = Buffer.from(dataBase64, "base64")
+      if (buffer.length === 0) return sendJson(res, 400, { error: "empty file" })
+      if (buffer.length > MAX_IMAGE_BYTES) return sendJson(res, 400, { error: "file too large" })
+
+      const data = await readJson("spots")
+      const item = data.find((i) => i.id === id)
+      if (!item) return sendJson(res, 404, { error: "not found" })
+
+      const spotsDir = path.join(PUBLIC_DIR, "images", "spots")
+      await mkdir(spotsDir, { recursive: true })
+      // 既存拡張子と異なる場合、旧ファイルは残るので手動整理が必要
+      const destFilename = `${item.slug}${ext}`
+      const destPath = path.join(spotsDir, destFilename)
+      await writeFile(destPath, buffer)
+
+      const dims = getImageDimensions(destPath)
+      item.image = {
+        src: `/images/spots/${destFilename}`,
+        alt,
+        ...(dims ?? {}),
+        ...(sourceLabel && sourceLabel.trim() ? { sourceLabel } : {}),
+        ...(sourceUrl && sourceUrl.trim() ? { sourceUrl } : {}),
+      }
+
+      await writeJson("spots", data)
+      sendJson(res, 200, { ok: true, image: item.image })
       return
     }
 
