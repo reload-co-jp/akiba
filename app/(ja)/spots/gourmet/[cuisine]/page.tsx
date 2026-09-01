@@ -17,11 +17,14 @@ type Props = {
   params: Promise<{ cuisine: string }>
 }
 
-// "ramen" has its own hand-built LP at /spots/gourmet/ramen/ instead of this
-// generic template — excluded here so the two routes don't collide.
+// "ramen" and "izakaya" have their own hand-built LPs at /spots/gourmet/ramen/
+// and /spots/gourmet/izakaya/ instead of this generic template — excluded
+// here so the routes don't collide.
+const HAND_BUILT_CUISINES = ["ramen", "izakaya"]
+
 export const generateStaticParams = () =>
   getPagedCuisines()
-    .filter((cuisine) => cuisine !== "ramen")
+    .filter((cuisine) => !HAND_BUILT_CUISINES.includes(cuisine))
     .map((cuisine) => ({ cuisine }))
 
 const buildTitle = (cuisine: string) => `秋葉原の${getCuisineLabel(cuisine)}一覧`
