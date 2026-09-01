@@ -301,3 +301,5 @@
 {"url": "https://akihabara-bc.jp/event-list-202608#mdl", "reason": "insufficient_facts", "note": "MDL秋葉原店オープン先着1000名配布、ソースページ403 Forbiddenで詳細取得不可", "checked": "2026-08-31"}
 {"url": "https://dengekionline.com/article/202608/85835", "reason": "insufficient_facts", "note": "ガンダムアーセナルコマンダー秋葉原Heyロケテスト、具体的開催日程が記事から確認できず", "checked": "2026-08-31"}
 {"url": "https://www.walkerplus.com/event/ar0313e514755/", "reason": "insufficient_facts", "note": "AKIBAフェス楽しい学びのアキバ夏、FACTSの開催期間が2024年8月30-31日表記で年度不整合、2026年開催の裏付け取れず", "checked": "2026-08-31"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000012.000076939.html", "reason": "low_value", "note": "サガスG DOCK秋葉原ショールームは要予約・平日9-18時のみのBtoB向けAI複合機体験施設、一般来訪者向けvisitor-facing価値薄いため見送り", "checked": "2026-09-01"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2137115.html", "reason": "out_of_scope_venue", "note": "記事内クリスプサラダワークスは御茶ノ水ワテラス店で秋葉原外、タリーズ&バブルボブル部分は既存記事(atre-akihabara-new-renewal-2026-08 / bubblebobble-40th-taito-station-akihabara-2026)へsource追加でマージ", "checked": "2026-09-01"}

@@ -23117,6 +23117,10 @@
       {
         "label": "PR TIMES プレスリリース（スペシャルイベント詳細発表）",
         "url": "https://prtimes.jp/main/html/rd/p/000000815.000041970.html"
+      },
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2137115.html"
       }
     ],
     "event": {
@@ -29113,6 +29117,10 @@
       {
         "label": "アトレ秋葉原 公式サイト",
         "url": "https://www.atre.co.jp/akihabara/news/7537"
+      },
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2137115.html"
       }
     ],
     "event": {
@@ -29535,5 +29543,87 @@
       126,
       144
     ]
+  },
+  {
+    "id": 755,
+    "title": "「駿河屋秋葉原ゲーム館」が9月25日に移転リニューアル",
+    "slug": "surugaya-akihabara-game-relocation-renewal-2026",
+    "summary": "駿河屋の「秋葉原ゲーム館」が現店舗（外神田3-9-8 東洋ビル1階）から近隣の「秋葉原トレカ・ボードゲーム館」跡地（外神田3-15-4 2階）へ移転し、2026年9月25日にリニューアルオープンする。売場規模を拡大し、ゲームCDや関連書籍、amiiboカード、ゲーム系フィギュア・雑貨の取扱いを強化する。",
+    "content": "## 概要\n\n駿河屋の「秋葉原ゲーム館」が、2026年9月25日に移転リニューアルオープンする。現在の店舗（東京都千代田区外神田3-9-8 東洋ビル1階）は8月30日をもって営業を終了し、近隣の「秋葉原トレカ・ボードゲーム館」跡地（外神田3-15-4 2階）へ移転する。\n\n## 内容\n\n移転を機に売場規模を拡大し、取扱商材の幅を広げる。\n\n- ゲームソフトの取扱いを強化\n- ゲームCD、ゲーム関連書籍・雑誌の取扱いを拡充\n- amiiboカードの取扱いを新規追加\n- ゲーム系フィギュア、雑貨・ぬいぐるみの取扱いを拡充\n\n## 開催情報\n\n- **日時**: 2026年9月25日（金）リニューアルオープン\n- **会場**: 駿河屋 秋葉原ゲーム館（東京都千代田区外神田3-15-4 2階）\n- **料金**: 入場無料\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- 中古ゲームソフトを探している方\n- ゲーム関連フィギュア・グッズを集めている方\n- 秋葉原でリユースショップ巡りをしたい方",
+    "publishedAt": "2026-08-26",
+    "tagIds": [
+      207,
+      217,
+      144,
+      74,
+      145
+    ],
+    "en": {
+      "title": "Suruga-ya's Akihabara Game Store Relocates and Reopens",
+      "summary": "Suruga-ya's \"Akihabara Game Kan\" is relocating from its current store (Toyo Building 1F, Sotokanda 3-9-8) to the former Akihabara Trading Card & Board Game Kan site (Sotokanda 3-15-4, 2F), reopening on September 25, 2026 with an expanded sales floor covering game CDs, related books, amiibo cards, and game-themed figures and goods.",
+      "content": "## Overview\n\nSuruga-ya's \"Akihabara Game Kan\" store is relocating and reopening on September 25, 2026. The current location (Toyo Building 1F, 3-9-8 Sotokanda, Chiyoda Ward) closes on August 30, with the store moving to the former Akihabara Trading Card & Board Game Kan site (3-15-4 Sotokanda, 2F).\n\n## Highlights\n\nThe relocation brings an expanded sales floor and a wider range of merchandise.\n\n- Expanded game software selection\n- Wider range of game CDs and related books/magazines\n- New amiibo card selection\n- Expanded game-themed figures, goods, and plushies\n\n## Event Details\n\n- **Dates**: September 25, 2026 (Fri) — Reopening\n- **Venue**: Suruga-ya Akihabara Game Kan (3-15-4 Sotokanda, Chiyoda Ward, Tokyo, 2F)\n- **Price**: Free admission\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone looking for used game software\n- Collectors of game-themed figures and goods\n- Readers touring Akihabara's reuse shops"
+    },
+    "sources": [
+      {
+        "label": "駿河屋 公式サイト",
+        "url": "https://www.suruga-ya.co.jp/ja/node/2478"
+      },
+      {
+        "label": "エルミタージュ秋葉原 記事",
+        "url": "https://www.gdm.or.jp/crew/2026/0826/649574"
+      }
+    ],
+    "authorId": 1,
+    "event": {
+      "venue": "駿河屋 秋葉原ゲーム館",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "price": "入場無料",
+      "reservation": false
+    }
+  },
+  {
+    "id": 756,
+    "title": "ブシロードクリエイティブ10周年イベントがベルサール秋葉原で開催",
+    "slug": "bushiroad-creative-10th-high-10sion-school-bellesalle-akihabara-2026",
+    "summary": "ブシロードクリエイティブが設立10周年を記念した過去最大規模のイベント「ブシロードクリエイティブ -High!! 10sion School-」を2026年10月10日にベルサール秋葉原で開催する。「10周年×ハイテンション×学校」をテーマに、10のブースと10のステージで10年間の歩みを紹介する。",
+    "content": "## 概要\n\nブシロードグループのクリエイティブ企業「ブシロードクリエイティブ」が、設立10周年を記念した過去最大規模のイベント「ブシロードクリエイティブ -High!! 10sion School-」を2026年10月10日にベルサール秋葉原で開催する。「10周年×ハイテンション×学校」をテーマに、10のブースと10のステージを通じてこれまでの歩みを振り返る。\n\n## 内容\n\n会場を学校になぞらえ、ブース（部活動）とステージ（授業）を通じて同社が手がけてきたブランド・作品を紹介する構成。\n\n- 10のブース（部活動）による展示・物販企画\n- 10のステージ（授業）による豪華ゲスト出演企画\n- グッズ販売、グリーティング企画\n- 一部有料のワークショップ企画\n\n先行企画として、ポップアップショップ「10周年 THANKS SHOP」が9月19日から23日まで新宿マルイ アネックス2階で開催される。\n\n## 開催情報\n\n- **日時**: 2026年10月10日（土）\n- **会場**: ベルサール秋葉原（東京都千代田区外神田3-12-8 住友不動産秋葉原ビル）\n- **料金**: 入場無料（一部ワークショップ等有料）\n- **予約**: 詳細は公式サイトを確認\n\n## こんな人におすすめ\n\n- ブシロード関連作品のファン\n- 声優・タレントのステージイベントを楽しみたい方\n- 秋葉原で周年記念イベントを見に行きたい方",
+    "publishedAt": "2026-09-01",
+    "tagIds": [
+      207,
+      124,
+      116,
+      164,
+      50
+    ],
+    "en": {
+      "title": "Bushiroad Creative's 10th Anniversary Event Comes to Bellesalle Akihabara",
+      "summary": "Bushiroad Creative marks its 10th anniversary with its largest-ever event, \"Bushiroad Creative -High!! 10sion School-,\" at Bellesalle Akihabara on October 10, 2026. Built around a \"10th anniversary x high tension x school\" theme, it features 10 booths and 10 stages tracing the company's decade of work.",
+      "content": "## Overview\n\nBushiroad Creative, a creative company within the Bushiroad group, is marking its 10th anniversary with its largest-ever event, \"Bushiroad Creative -High!! 10sion School-,\" at Bellesalle Akihabara on October 10, 2026. Built around a \"10th anniversary x high tension x school\" theme, the event uses 10 booths and 10 stages to look back on the company's decade of work.\n\n## Highlights\n\nThe venue is styled as a school, with booths (\"clubs\") and stages (\"classes\") introducing the brands and titles the company has worked on.\n\n- 10 booths (\"clubs\") with exhibits and merchandise sales\n- 10 stages (\"classes\") featuring guest appearances\n- Merchandise sales and greeting sessions\n- Some workshop sessions with a paid fee\n\nAs a lead-in, the pop-up shop \"10th Anniversary THANKS SHOP\" runs September 19-23 at Shinjuku Marui Annex, 2F.\n\n## Event Details\n\n- **Dates**: October 10, 2026 (Sat)\n- **Venue**: Bellesalle Akihabara (Sumitomo Fudosan Akihabara Building, 3-12-8 Sotokanda, Chiyoda Ward, Tokyo)\n- **Price**: Free admission (some workshops paid)\n- **Reservation**: Check the official site for details\n\n## Recommended For\n\n- Fans of Bushiroad-related titles\n- Anyone who enjoys stage events with voice actors and talent\n- Readers looking for anniversary events in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/bushiroad-creative-10th-high-10sion-school-bellesalle-akihabara-2026.jpg",
+      "alt": "ブシロードクリエイティブ10周年イベント「High!! 10sion School」告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009488.000014827.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000009488.000014827.html"
+      },
+      {
+        "label": "ブシロードクリエイティブ 10周年公式サイト",
+        "url": "https://bcr10th.bushiroad-creative.com/"
+      }
+    ],
+    "authorId": 1,
+    "event": {
+      "venue": "ベルサール秋葉原",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "price": "入場無料（一部有料）",
+      "reservation": false
+    }
   }
 ]
