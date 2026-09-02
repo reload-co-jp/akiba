@@ -303,3 +303,14 @@
 {"url": "https://www.walkerplus.com/event/ar0313e514755/", "reason": "insufficient_facts", "note": "AKIBAフェス楽しい学びのアキバ夏、FACTSの開催期間が2024年8月30-31日表記で年度不整合、2026年開催の裏付け取れず", "checked": "2026-08-31"}
 {"url": "https://prtimes.jp/main/html/rd/p/000000012.000076939.html", "reason": "low_value", "note": "サガスG DOCK秋葉原ショールームは要予約・平日9-18時のみのBtoB向けAI複合機体験施設、一般来訪者向けvisitor-facing価値薄いため見送り", "checked": "2026-09-01"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2137115.html", "reason": "out_of_scope_venue", "note": "記事内クリスプサラダワークスは御茶ノ水ワテラス店で秋葉原外、タリーズ&バブルボブル部分は既存記事(atre-akihabara-new-renewal-2026-08 / bubblebobble-40th-taito-station-akihabara-2026)へsource追加でマージ", "checked": "2026-09-01"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1351/", "reason": "insufficient_facts", "note": "銀河英雄伝説2周年POP UP、403で詳細・画像取得不可", "checked": "2026-09-02"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1332/", "reason": "insufficient_facts", "note": "ひきこまり吸血姫POP UP CORNER、403で詳細・画像取得不可", "checked": "2026-09-02"}
+{"url": "https://toaru-project.com/railgun_t/news/index00230000.html", "reason": "insufficient_facts", "note": "とある科学の超電磁砲T秋葉原ストア9/12開催、正しいURL特定できず(旧2019年ページのみヒット)", "checked": "2026-09-02"}
+{"url": "https://collabo-cafe.com/events/collabo/lovelive-card-game-magical-girl-style-outfit-akiba2026/", "reason": "insufficient_facts", "note": "ラブライブPOP UP STORE Royal Holiday秋葉原9/11開催、会場(ブシロードクリエイティブストア秋葉原本店)判明も価格・公式URL未確認", "checked": "2026-09-02"}
+{"url": "youzitsu-summer-resort-store-akihabara-2026-09", "reason": "insufficient_facts", "note": "よう実サマーリゾートver.ストアin秋葉原9/5開催、gnews由来だが正しいURL・詳細未発見", "checked": "2026-09-02"}
+{"url": "oshinoko-donutpoptime-store-akihabara-2026-09", "reason": "insufficient_facts", "note": "推しの子Donut Pop Timeストア、会場GiGO秋葉原5号館5階Akib@ko・9/12-27判明も公式URL・価格未確認", "checked": "2026-09-02"}
+{"url": "gdock-akihabara-showroom-2026-09", "reason": "insufficient_facts", "note": "G DOCK秋葉原体験ショールーム9/1オープン、gnews由来だが正しいURL・詳細未発見", "checked": "2026-09-02"}
+{"url": "real-akiba-boyz-akihabara-70-shops-jack-2026-09", "reason": "insufficient_facts", "note": "REAL AKIBA BOYZ秋葉原70店舗ジャック(あきば3150キャンペーン)9/19、公式URL未確認", "checked": "2026-09-02"}
+{"url": "horinkoen-natsuryo-taikai-akihabara-2026", "reason": "event_ended", "note": "芳林公園納涼大会、例年8月下旬開催で2026年正確日程未確認、既に終了の可能性大", "checked": "2026-09-02"}
+{"url": "raku-spa-kanda-hololive-collab-2026-09", "reason": "insufficient_facts", "note": "RAKU SPA1010神田×ホロライブコラボ(全国37店舗キャンペーンの一環)、後半8/27-9/29進行中だが価格・特典等facts不足", "checked": "2026-09-02"}
+{"url": "https://www.automation-news.jp/2026/08/107375/", "reason": "insufficient_facts", "note": "UR協働ロボットフェア2026秋葉原10/8-9、facts確認済みだが画像なし(公式サイトにOGP画像なし)", "checked": "2026-09-02"}
