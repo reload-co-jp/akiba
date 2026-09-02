@@ -7290,7 +7290,14 @@
     "addressSource": "gsi-reverse",
     "hours": "月〜木 17:00〜23:30 / 金・祝前日 17:00〜翌4:30 / 土 12:00〜翌4:30 / 日祝 12:00〜23:30",
     "website": "https://chibachan-akihabara.owst.jp/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "image": {
+      "src": "/images/spots/osm-node-5068098449.jpg",
+      "alt": "大衆酒場ちばチャン 秋葉原中央通り店",
+      "width": 129,
+      "height": 129,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/f6dmazeq/42267690/vtyc.jpg"
+    }
   },
   {
     "id": 317,
@@ -10550,7 +10557,14 @@
     "addressSource": "gsi-reverse",
     "hours": "月〜木17:00〜翌2:00 / 金17:00〜翌4:00 / 土12:00〜翌4:00 / 日祝12:00〜翌2:00",
     "website": "https://shop.monteroza.co.jp/detail/802537/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "image": {
+      "src": "/images/spots/osm-node-10284195658.jpg",
+      "alt": "魚民 秋葉原中央通り店",
+      "width": 1200,
+      "height": 630,
+      "sourceUrl": "https://meocloud-image.can-ly.com/images/cms/managed/companies/478/20250507135628ogp-1200-630.jpg"
+    }
   },
   {
     "id": 485,
@@ -11064,7 +11078,14 @@
     "addressSource": "gsi-reverse",
     "hours": "月〜木 17:00〜23:30 / 金・祝前日 17:00〜翌4:30 / 土 16:00〜翌4:30 / 日・祝 16:00〜23:30",
     "website": "https://chibachan-akihabara2.owst.jp/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "image": {
+      "src": "/images/spots/osm-node-11194950521.jpg",
+      "alt": "大衆酒場 ちばチャン 秋葉原電気街口店",
+      "width": 129,
+      "height": 129,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/qfniojik/42269876/2up8.jpg"
+    }
   },
   {
     "id": 510,
@@ -13141,7 +13162,14 @@
       "izakaya"
     ],
     "tier": "A",
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-27",
+    "image": {
+      "src": "/images/spots/gyutatsu-akihabara.jpg",
+      "alt": "完全個室 牛の達人 秋葉原店",
+      "width": 1,
+      "height": 1,
+      "sourceUrl": "https://meocloud-image.can-ly.com/images/cms/managed/companies/900/20231030212936OG%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B7%E3%82%991200%C3%97630.jpg"
+    }
   },
   {
     "id": 624,
@@ -13163,7 +13191,14 @@
       "izakaya"
     ],
     "tier": "A",
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-27",
+    "image": {
+      "src": "/images/spots/wanone-akihabara.jpg",
+      "alt": "個室と和食 和ノ音 秋葉原店",
+      "width": 72,
+      "height": 72,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mgdc2bpt/31222541/fu13.jpg"
+    }
   },
   {
     "id": 625,
@@ -13208,7 +13243,14 @@
       "izakaya"
     ],
     "tier": "A",
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-27",
+    "image": {
+      "src": "/images/spots/tofuro-akihabara.jpg",
+      "alt": "すし土風炉 秋葉原店",
+      "width": 1200,
+      "height": 630,
+      "sourceUrl": "https://tofuro-shop.com/prd/wordpress/wp-content/uploads/2023/07/OGP_%E3%81%99%E3%81%97%E5%9C%9F%E9%A2%A8%E7%82%89.jpg"
+    }
   },
   {
     "id": 627,
@@ -13298,7 +13340,14 @@
       "izakaya"
     ],
     "tier": "A",
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-27",
+    "image": {
+      "src": "/images/spots/akitsuki-akihabara.jpg",
+      "alt": "完全個室 名古屋コーチン 本格鳥料理 秋月 秋葉原店",
+      "width": 72,
+      "height": 72,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/pdzwjpkg/67096895/lg2b.jpg"
+    }
   },
   {
     "id": 631,
@@ -13389,7 +13438,14 @@
       "izakaya"
     ],
     "tier": "A",
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-27",
+    "image": {
+      "src": "/images/spots/totouo-akihabara.jpg",
+      "alt": "全席個室 鮨と酒日和 ととうお 秋葉原駅前店",
+      "width": 350,
+      "height": 350,
+      "sourceUrl": "https://totouo.dkdining.com/akihabara/wp-content/uploads/sites/9/2023/10/4000%E3%82%B3%E3%83%BC%E3%82%B9.jpg"
+    }
   },
   {
     "id": 635,
@@ -13624,7 +13680,12 @@
     ],
     "tier": "A",
     "lastVerified": "2026-08-28",
-    "website": "https://akihabara-tetsu.com/"
+    "website": "https://akihabara-tetsu.com/",
+    "image": {
+      "src": "/images/spots/tetsu-kandaizumicho.png",
+      "alt": "秋葉原旨い魚と焼酎.地酒 美味研鑽 TETSU",
+      "sourceUrl": "https://xn--eckwd4c7c.com/img/ogp.png"
+    }
   },
   {
     "id": 646,
@@ -13755,7 +13816,14 @@
     ],
     "tier": "A",
     "lastVerified": "2026-09-02",
-    "website": "https://yakitonngennki.owst.jp/"
+    "website": "https://yakitonngennki.owst.jp/",
+    "image": {
+      "src": "/images/spots/genki-yakiton-kandasakumacho.jpg",
+      "alt": "やきとん 元気",
+      "width": 72,
+      "height": 72,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/ar6k40j9/61352828/vr0p.jpg"
+    }
   },
   {
     "id": 652,
@@ -13989,7 +14057,14 @@
     "lastVerified": "2026-09-02",
     "lat": 35.6978,
     "lng": 139.774399,
-    "website": "https://enya-akihabara.owst.jp/"
+    "website": "https://enya-akihabara.owst.jp/",
+    "image": {
+      "src": "/images/spots/enya-akihabara.jpg",
+      "alt": "縁や 秋葉原駅前店",
+      "width": 100,
+      "height": 100,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mc2wr371/64849272/46c4.jpg"
+    }
   },
   {
     "id": 666,
@@ -14086,7 +14161,14 @@
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/kuroshio-akihabara.jpg",
+      "alt": "黒潮 秋葉原店",
+      "width": 96,
+      "height": 96,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/syiaohc0/79634188/gp0f.jpg"
+    }
   },
   {
     "id": 672,
@@ -14119,7 +14201,14 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/sumibi-yakitori-otonarisan-akihabara.jpg",
+      "alt": "炭火焼鳥 居酒屋 お鳥なりさん 秋葉原店",
+      "width": 72,
+      "height": 72,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/u7otgvsz/35754012/zysn.jpg"
+    }
   },
   {
     "id": 674,
@@ -14152,7 +14241,14 @@
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/kaisen-izakaya-fujitaya.png",
+      "alt": "海鮮酒場 藤田屋",
+      "width": 1200,
+      "height": 630,
+      "sourceUrl": "https://static.wixstatic.com/media/939c2a_2fa8be2e18274a658882fc015c2a5c63%7Emv2.png/v1/fit/w_2500,h_1330,al_c/939c2a_2fa8be2e18274a658882fc015c2a5c63%7Emv2.png"
+    }
   },
   {
     "id": 676,
@@ -14168,7 +14264,14 @@
     "website": "https://kaneko-akihabara.foodre.jp/",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/taishu-izakaya-kaneko-akihabara.jpg",
+      "alt": "大衆酒場 かね子 秋葉原店",
+      "width": 1,
+      "height": 1,
+      "sourceUrl": "https://img.retty.me/img_ebisu/restaurant/100001783131/archive/4105581-6a30eb93a2816.jpg"
+    }
   },
   {
     "id": 677,
@@ -14235,7 +14338,14 @@
       "seafood",
       "izakaya",
       "regional"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/hokkaido-akiba-denkigai-kitaguchi.png",
+      "alt": "北の味紀行と地酒 北海道 秋葉原電気街北口店",
+      "width": 180,
+      "height": 180,
+      "sourceUrl": "https://meocloud-image.can-ly.com/images/cms/managed/companies/1369/20250526140334apple-touch-icon-180x180%20%281%29.png"
+    }
   },
   {
     "id": 681,
@@ -14252,7 +14362,14 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/kaiburi-akihabara.jpg",
+      "alt": "焼鳥居酒屋 代表鳥締役 かいかぶり 秋葉原店",
+      "width": 72,
+      "height": 72,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/9itrifvt/73151313/mkgt.jpg"
+    }
   },
   {
     "id": 682,
@@ -14314,7 +14431,14 @@
     "cuisine": [
       "gyoza",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/dandadan-akihabara.jpg",
+      "alt": "肉汁餃子のダンダダン 秋葉原店",
+      "width": 2000,
+      "height": 1125,
+      "sourceUrl": "https://www.dandadan.jp/backyard/wp-content/themes/dandadan/assets/images/common/og.jpg"
+    }
   },
   {
     "id": 686,
@@ -14603,7 +14727,14 @@
     "website": "https://restaurant.kushi-tanaka.com/detail/1150/",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/kushikatsu-tanaka-akihabara-showadori.png",
+      "alt": "串カツ田中 秋葉原昭和通り店",
+      "width": 1200,
+      "height": 630,
+      "sourceUrl": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/49/20260508114939OGP%E7%94%BB%E5%83%8F.png"
+    }
   },
   {
     "id": 704,
@@ -14620,7 +14751,14 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/shinjidai44-akihabara-2.jpg",
+      "alt": "新時代44 秋葉原2号店",
+      "width": 96,
+      "height": 96,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mur68i1c/42397863/xw37.jpg"
+    }
   },
   {
     "id": 705,
@@ -14653,7 +14791,14 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/shinjidai-akihabara-denkigai.jpg",
+      "alt": "新時代 秋葉原電気街口店",
+      "width": 96,
+      "height": 96,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mg5hrbgs/42398768/yjoc.jpg"
+    }
   },
   {
     "id": 707,
@@ -14850,7 +14995,14 @@
     "cuisine": [
       "japanese",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/kichiri-akihabara.png",
+      "alt": "KICHIRI 秋葉原",
+      "width": 1200,
+      "height": 630,
+      "sourceUrl": "https://www.kichiri.co.jp/common/images/ogp_btoc.png"
+    }
   },
   {
     "id": 719,
@@ -14983,7 +15135,14 @@
       "gyoza",
       "chinese",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/gyoza-sakaba-akihabara.jpg",
+      "alt": "24時間 餃子酒場 秋葉原店",
+      "width": 72,
+      "height": 72,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/a20ouso3/54184155/wydg.jpg"
+    }
   },
   {
     "id": 727,
@@ -15132,7 +15291,14 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/himari-akihabara.jpg",
+      "alt": "大衆串酒場 陽葵",
+      "width": 1,
+      "height": 1,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/yq5pt101/60094448/zidp.jpg"
+    }
   },
   {
     "id": 736,
@@ -15165,7 +15331,14 @@
     "cuisine": [
       "izakaya",
       "takoyaki"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/gindaco-highball-yokocho-akihabara.png",
+      "alt": "銀だこハイボール横丁 秋葉原店",
+      "width": 1200,
+      "height": 630,
+      "sourceUrl": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/7/20251114102942ogp.png"
+    }
   },
   {
     "id": 738,
@@ -15286,7 +15459,6 @@
     "category": "グルメ・カフェ",
     "description": "新鮮な魚介類を中心とした海鮮居酒屋。ランチでは海鮮丼なども提供し、夜は刺身や魚料理を楽しめる。",
     "address": "東京都千代田区神田松永町17-5 アイザワビル1F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 11:30〜13:15、17:00〜22:30 / 土 11:30〜13:15、17:00〜21:30",
@@ -15294,7 +15466,9 @@
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "lat": 35.700043,
+    "lng": 139.775024
   },
   {
     "id": 746,
@@ -15303,7 +15477,6 @@
     "category": "グルメ・カフェ",
     "description": "炭火焼き鳥と漁港直送鮮魚を看板とする個室居酒屋。秋葉原駅徒歩1分で、宴会向けの飲み放題コースも提供。",
     "address": "東京都千代田区神田佐久間町1-15 川初ビル7F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 15:00〜翌0:00 / 土日 12:00〜翌0:00",
@@ -15312,7 +15485,16 @@
       "yakitori",
       "seafood",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/sanzo-akihabara.jpg",
+      "alt": "三蔵 秋葉原店",
+      "width": 150,
+      "height": 150,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/34dmkims/77341777/60jd.jpg"
+    },
+    "lat": 35.6978,
+    "lng": 139.774399
   },
   {
     "id": 747,
@@ -15321,7 +15503,6 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原らしいコスプレ・コンセプト系居酒屋。オリジナル衣装のスタッフによる接客と、料理・酒を楽しめる店舗。",
     "address": "東京都千代田区外神田3-10-5 イサミヤ第3ビル3F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月・水・木 18:00〜23:00 / 金・土・祝前日 18:00〜翌5:00 / 日・祝日最終日 17:00〜22:00",
@@ -15329,7 +15510,9 @@
     "website": "https://littlebsd.com/",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.701408,
+    "lng": 139.77063
   },
   {
     "id": 748,
@@ -15338,14 +15521,15 @@
     "category": "グルメ・カフェ",
     "description": "厳選した牛たんを専門に提供する牛たん料理店。塩焼きや秘伝ダレ焼きのほか、牛たんシチューなども楽しめる。",
     "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba 8F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "11:00〜23:00（L.O.ドリンク22:30）",
     "website": "https://tannosuke.com/shops/tannosuke-yodobashiakiba/",
     "cuisine": [
       "japanese"
-    ]
+    ],
+    "lat": 35.698639,
+    "lng": 139.774612
   },
   {
     "id": 749,
@@ -15354,7 +15538,6 @@
     "category": "グルメ・カフェ",
     "description": "焼き鳥を中心とした大手居酒屋チェーン。秋葉原駅昭和通り口から徒歩1分で、深夜まで営業している。",
     "address": "東京都千代田区神田佐久間町1-21-1 Chiyoda Terrace 9F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 16:00〜翌4:00（L.O.3:30）/ 土日祝 15:00〜翌4:00（L.O.3:30）",
@@ -15362,7 +15545,16 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/torikizoku-akihabara-showadori.png",
+      "alt": "鳥貴族 秋葉原昭和通り店",
+      "width": 1200,
+      "height": 630,
+      "sourceUrl": "https://torikizoku.co.jp/assets/uploads/2023/05/ogp.png"
+    },
+    "lat": 35.697784,
+    "lng": 139.775192
   },
   {
     "id": 750,
@@ -15371,7 +15563,6 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原昭和通り口から徒歩圏内の日本料理・居酒屋。日本酒や焼酎を扱い、落ち着いた雰囲気で一品料理を楽しめる。",
     "address": "東京都千代田区神田佐久間町3-33 古田土ビル1F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "火〜土 17:00〜22:30（L.O.料理21:30）",
@@ -15379,7 +15570,9 @@
     "cuisine": [
       "japanese",
       "izakaya"
-    ]
+    ],
+    "lat": 35.698578,
+    "lng": 139.778412
   },
   {
     "id": 751,
@@ -15388,12 +15581,13 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅昭和通り口から徒歩2分ほどの肉料理・居酒屋。日本酒にも力を入れている隠れ家的な店舗。",
     "address": "東京都千代田区神田佐久間町2-12-11 西尾ビル",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.776642
   },
   {
     "id": 752,
@@ -15402,13 +15596,14 @@
     "category": "グルメ・カフェ",
     "description": "淡路町駅から徒歩2分ほどの昭和レトロな雰囲気の居酒屋。日本料理を中心に、昔ながらの居酒屋料理を楽しめる。",
     "address": "東京都千代田区神田須田町1丁目付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "japanese",
       "izakaya"
-    ]
+    ],
+    "lat": 35.696224,
+    "lng": 139.769836
   },
   {
     "id": 753,
@@ -15417,7 +15612,6 @@
     "category": "グルメ・カフェ",
     "description": "世界一周を経験したオーナーによる、多国籍・無国籍料理のダイニング。世界1165食を食べ歩いた経験をもとにした「旅食」を楽しめる。",
     "address": "東京都台東区台東1-13-9 BRIDD秋葉原1F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 11:45〜14:30、18:00〜22:30 / 土 18:00〜22:00",
@@ -15426,7 +15620,16 @@
     "cuisine": [
       "international",
       "izakaya"
-    ]
+    ],
+    "lat": 35.701187,
+    "lng": 139.777328,
+    "image": {
+      "src": "/images/spots/journey-x-journey-akihabara.jpg",
+      "alt": "秋葉原旅食ダイニングJourney×Journey",
+      "width": 1,
+      "height": 1,
+      "sourceUrl": "https://journeyxjourney.world/wp-content/uploads/2025/08/2025%E5%B9%B4%E6%9C%AC%E5%BA%97%E3%83%A9%E3%83%B3%E3%83%81%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC-1024x724.jpg"
+    }
   },
   {
     "id": 754,
@@ -15435,12 +15638,13 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から徒歩すぐの個室居酒屋。肉寿司や蟹料理などを中心とした料理を提供している。",
     "address": "東京都千代田区神田佐久間町1丁目付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.697979,
+    "lng": 139.774216
   },
   {
     "id": 755,
@@ -15449,14 +15653,15 @@
     "category": "グルメ・カフェ",
     "description": "昼は定食・弁当、夜は大衆酒場として利用できる秋葉原の老舗的な店舗。日本酒・焼酎・ワインなども扱う。",
     "address": "東京都千代田区神田佐久間町3-21 横島ビル1F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 11:00〜14:30、17:00〜22:30 / 土 11:00〜13:30",
     "closed": "日祝定休",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.697689,
+    "lng": 139.778488
   },
   {
     "id": 756,
@@ -15465,7 +15670,6 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から徒歩圏内の焼き鳥・居酒屋。カウンターとテーブル席を備え、焼き鳥や居酒屋料理を楽しめる。",
     "address": "東京都千代田区神田和泉町1-2-9",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 17:00〜22:00",
@@ -15473,7 +15677,9 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.699192,
+    "lng": 139.77597
   },
   {
     "id": 757,
@@ -15482,14 +15688,15 @@
     "category": "グルメ・カフェ",
     "description": "神田・淡路町エリアで長く営業するカレー専門店。インドカレーや欧風カレーに加えて、居酒屋としても掲載されている。",
     "address": "東京都千代田区神田須田町1-11 竹内ビル1F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 11:00〜15:30、17:30〜22:30 / 土日祝 11:30〜18:00",
     "cuisine": [
       "curry",
       "izakaya"
-    ]
+    ],
+    "lat": 35.696434,
+    "lng": 139.76918
   },
   {
     "id": 758,
@@ -15498,12 +15705,13 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原・淡路町エリアの小規模な居酒屋。手作り感のある料理とアットホームな雰囲気が特徴。",
     "address": "東京都千代田区神田須田町1丁目付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.696224,
+    "lng": 139.769836
   },
   {
     "id": 759,
@@ -15512,7 +15720,6 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から徒歩2分の居酒屋。洋食や海鮮料理など幅広い料理を提供し、80席を備える店舗。",
     "address": "東京都千代田区神田佐久間町2-20 翔和秋葉原ビルB1F",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜木 16:00〜24:00 / 金土日祝・祝前日 12:00〜翌4:00",
@@ -15520,7 +15727,9 @@
       "izakaya",
       "seafood",
       "western"
-    ]
+    ],
+    "lat": 35.698647,
+    "lng": 139.776443
   },
   {
     "id": 760,
@@ -15529,12 +15738,13 @@
     "category": "グルメ・カフェ",
     "description": "岩本町駅近くにある季節料理を中心とした居酒屋。ポテトサラダや肉じゃがなど、家庭的な料理を楽しめる。",
     "address": "東京都千代田区神田須田町2丁目付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.695816,
+    "lng": 139.773056
   },
   {
     "id": 761,
@@ -15543,13 +15753,14 @@
     "category": "グルメ・カフェ",
     "description": "鰯を中心とした青魚料理で知られる神田エリアの居酒屋。立ち飲みスタイルでも利用でき、鰯・鯵・コハダ・鯖などの魚料理を楽しめる。",
     "address": "東京都千代田区神田須田町2丁目付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "lat": 35.695816,
+    "lng": 139.773056
   },
   {
     "id": 762,
@@ -15558,14 +15769,15 @@
     "category": "グルメ・カフェ",
     "description": "焼き鳥・もつ焼きを中心とした大衆居酒屋。秋葉原駅昭和通り口から徒歩3分で、仕事帰りの飲み会などに利用しやすい。",
     "address": "東京都千代田区神田佐久間町3-37-9",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜金 15:00〜23:00（L.O.22:30）/ 土日祝 14:00〜22:30（L.O.22:00）",
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.698345,
+    "lng": 139.777634
   },
   {
     "id": 763,
@@ -15574,7 +15786,6 @@
     "category": "グルメ・カフェ",
     "description": "Ome Farmが運営する、農場の野菜を使ったオーガニック系のキッチン。野菜料理と選りすぐりのお酒を楽しめる。",
     "address": "東京都千代田区神田須田町2-8-19 パレドール神田101",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "11:30〜15:00、18:00〜21:00",
@@ -15583,7 +15794,16 @@
     "cuisine": [
       "cafe",
       "izakaya"
-    ]
+    ],
+    "lat": 35.695427,
+    "lng": 139.774185,
+    "image": {
+      "src": "/images/spots/ome-farm-kitchen-kanda-suda.jpg",
+      "alt": "Ome Farm Kitchen",
+      "width": 3353,
+      "height": 3353,
+      "sourceUrl": "https://static.wixstatic.com/media/e1bf07_fde8a1440e8a4294bf23beaff138ae58~mv2_d_3353_3353_s_4_2.jpg/v1/fill/w_3353,h_3353,al_c/e1bf07_fde8a1440e8a4294bf23beaff138ae58~mv2_d_3353_3353_s_4_2.jpg"
+    }
   },
   {
     "id": 764,
@@ -15592,12 +15812,13 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から徒歩圏内にある炭火焼きを中心とした居酒屋。",
     "address": "東京都千代田区神田佐久間町1丁目付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.697979,
+    "lng": 139.774216
   },
   {
     "id": 765,
@@ -15606,14 +15827,22 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から徒歩約3分の小規模な居酒屋。地鶏料理や刺身、一品料理などと酒を楽しめ、深夜まで営業している。",
     "address": "東京都千代田区神田佐久間町3-21 MOMビル地下1階",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜日 18:00〜翌5:00",
     "website": "https://goenakihabara.owst.jp/",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.697689,
+    "lng": 139.778488,
+    "image": {
+      "src": "/images/spots/rakushakaya-goen-akihabara.jpg",
+      "alt": "楽酒屋 ごえん",
+      "width": 129,
+      "height": 129,
+      "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/eycehohq/54362284/pimv.jpg"
+    }
   },
   {
     "id": 766,
@@ -15622,13 +15851,14 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から徒歩1分の居酒屋。100席を備え、日本酒・焼酎などを楽しめる店舗。",
     "address": "東京都千代田区神田佐久間町1-13",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "11:30〜14:30、16:00〜23:00",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.774399
   },
   {
     "id": 767,
@@ -15637,12 +15867,13 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から約277mの場所にある居酒屋。",
     "address": "東京都千代田区神田和泉町1-2-6",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.699192,
+    "lng": 139.77597
   },
   {
     "id": 768,
@@ -15651,13 +15882,14 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から徒歩1分の居酒屋。ランチ営業も行っており、夜は23時まで営業。",
     "address": "東京都千代田区神田佐久間町1丁目付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "11:30〜15:00、17:00〜23:00（L.O.22:30）",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.697979,
+    "lng": 139.774216
   },
   {
     "id": 769,
@@ -15666,12 +15898,13 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅から約200mの場所にある居酒屋。34席を備えた店舗。",
     "address": "東京都千代田区神田佐久間町付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.697979,
+    "lng": 139.774216
   },
   {
     "id": 770,
@@ -15680,7 +15913,6 @@
     "category": "グルメ・カフェ",
     "description": "秋葉原駅・岩本町駅から徒歩圏内の居酒屋。ランチ営業も行っており、夜は遅い時間まで営業。焼き鳥や一品料理などを楽しめる店舗。",
     "address": "東京都千代田区神田佐久間町付近",
-    "tier": "A",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
     "hours": "月〜木 11:30〜14:00、17:30〜24:00 / 金土 17:30〜24:00",
@@ -15688,6 +15920,8 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.697979,
+    "lng": 139.774216
   }
 ]

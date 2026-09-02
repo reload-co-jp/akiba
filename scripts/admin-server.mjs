@@ -487,7 +487,7 @@ const HTML = `<!doctype html>
     const image = d.image
     const imageHtml = image
       ? '<img src="' + escapeHtml(image.src) + '" alt="' + escapeHtml(image.alt) + '" />'
-      : "<p style=\"margin:0;color:#8a6f63;font-size:.8125rem\">画像未設定</p>"
+      : '<p style="margin:0;color:#8a6f63;font-size:.8125rem">画像未設定</p>'
     const categoryOptions = SPOT_CATEGORIES
       .map((c) => '<option value="' + c + '"' + (c === d.category ? " selected" : "") + ">" + c + "</option>")
       .join("")
