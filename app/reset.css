@@ -762,6 +762,7 @@ body {
 .article-hero-image__button img {
   display: block;
   max-height: 520px;
+  min-height: 320px;
   object-fit: contain;
   width: 100%;
 }
