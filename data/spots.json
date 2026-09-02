@@ -13528,7 +13528,9 @@
       "izakaya"
     ],
     "tier": "A",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 639,
@@ -14079,7 +14081,9 @@
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.6964,
+    "lng": 139.7692
   },
   {
     "id": 667,
@@ -14095,7 +14099,9 @@
     "cuisine": [
       "bar",
       "western"
-    ]
+    ],
+    "lat": 35.6992,
+    "lng": 139.776
   },
   {
     "id": 668,
@@ -14111,7 +14117,9 @@
     "cuisine": [
       "izakaya"
     ],
-    "closed": "土日祝定休"
+    "closed": "土日祝定休",
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 669,
@@ -14128,7 +14136,9 @@
       "sukiyaki",
       "shabu_shabu",
       "japanese"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 670,
@@ -14144,7 +14154,9 @@
     "website": "https://sankouen.owst.jp/",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "lat": 35.6947,
+    "lng": 139.7708
   },
   {
     "id": 671,
@@ -14168,7 +14180,9 @@
       "width": 96,
       "height": 96,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/syiaohc0/79634188/gp0f.jpg"
-    }
+    },
+    "lat": 35.6983,
+    "lng": 139.7764
   },
   {
     "id": 672,
@@ -14184,7 +14198,9 @@
     "cuisine": [
       "japanese",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6974,
+    "lng": 139.7762
   },
   {
     "id": 673,
@@ -14208,7 +14224,9 @@
       "width": 72,
       "height": 72,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/u7otgvsz/35754012/zysn.jpg"
-    }
+    },
+    "lat": 35.6983,
+    "lng": 139.7764
   },
   {
     "id": 674,
@@ -14224,7 +14242,9 @@
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6986,
+    "lng": 139.7764
   },
   {
     "id": 675,
@@ -14248,7 +14268,9 @@
       "width": 1200,
       "height": 630,
       "sourceUrl": "https://static.wixstatic.com/media/939c2a_2fa8be2e18274a658882fc015c2a5c63%7Emv2.png/v1/fit/w_2500,h_1330,al_c/939c2a_2fa8be2e18274a658882fc015c2a5c63%7Emv2.png"
-    }
+    },
+    "lat": 35.6978,
+    "lng": 139.7764
   },
   {
     "id": 676,
@@ -14271,7 +14293,9 @@
       "width": 1,
       "height": 1,
       "sourceUrl": "https://img.retty.me/img_ebisu/restaurant/100001783131/archive/4105581-6a30eb93a2816.jpg"
-    }
+    },
+    "lat": 35.6978,
+    "lng": 139.7764
   },
   {
     "id": 677,
@@ -14288,7 +14312,9 @@
       "seafood",
       "izakaya",
       "regional"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 678,
@@ -14303,7 +14329,9 @@
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.7011,
+    "lng": 139.7769
   },
   {
     "id": 679,
@@ -14320,7 +14348,9 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6952,
+    "lng": 139.7725
   },
   {
     "id": 680,
@@ -14345,7 +14375,9 @@
       "width": 180,
       "height": 180,
       "sourceUrl": "https://meocloud-image.can-ly.com/images/cms/managed/companies/1369/20250526140334apple-touch-icon-180x180%20%281%29.png"
-    }
+    },
+    "lat": 35.6987,
+    "lng": 139.772
   },
   {
     "id": 681,
@@ -14369,7 +14401,9 @@
       "width": 72,
       "height": 72,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/9itrifvt/73151313/mkgt.jpg"
-    }
+    },
+    "lat": 35.698,
+    "lng": 139.7779
   },
   {
     "id": 682,
@@ -14384,7 +14418,9 @@
     "cuisine": [
       "chinese",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6987,
+    "lng": 139.772
   },
   {
     "id": 683,
@@ -14399,7 +14435,9 @@
     "cuisine": [
       "western",
       "bar"
-    ]
+    ],
+    "lat": 35.696,
+    "lng": 139.7718
   },
   {
     "id": 684,
@@ -14414,7 +14452,9 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 685,
@@ -14438,7 +14478,9 @@
       "width": 2000,
       "height": 1125,
       "sourceUrl": "https://www.dandadan.jp/backyard/wp-content/themes/dandadan/assets/images/common/og.jpg"
-    }
+    },
+    "lat": 35.6998,
+    "lng": 139.7703
   },
   {
     "id": 686,
@@ -14454,7 +14496,9 @@
       "izakaya",
       "seafood",
       "bar"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 687,
@@ -14469,7 +14513,9 @@
     "cuisine": [
       "regional",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6974,
+    "lng": 139.7774
   },
   {
     "id": 688,
@@ -14484,7 +14530,9 @@
     "cuisine": [
       "izakaya",
       "yakiniku"
-    ]
+    ],
+    "lat": 35.698,
+    "lng": 139.7779
   },
   {
     "id": 689,
@@ -14501,7 +14549,9 @@
       "oden",
       "hot_pot",
       "izakaya"
-    ]
+    ],
+    "lat": 35.696,
+    "lng": 139.7693
   },
   {
     "id": 690,
@@ -14517,7 +14567,9 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7733
   },
   {
     "id": 691,
@@ -14533,7 +14585,9 @@
     "closed": "日・月・祝",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "lat": 35.6952,
+    "lng": 139.7725
   },
   {
     "id": 692,
@@ -14549,7 +14603,9 @@
     "cuisine": [
       "izakaya",
       "bar"
-    ]
+    ],
+    "lat": 35.6977,
+    "lng": 139.7785
   },
   {
     "id": 693,
@@ -14565,7 +14621,9 @@
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7764
   },
   {
     "id": 694,
@@ -14580,7 +14638,9 @@
     "hours": "月〜金・祝前日・祝後日 11:30〜23:00 / 土日祝 11:30〜22:00",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7764
   },
   {
     "id": 695,
@@ -14597,7 +14657,9 @@
       "yakitori",
       "izakaya",
       "regional"
-    ]
+    ],
+    "lat": 35.6992,
+    "lng": 139.776
   },
   {
     "id": 696,
@@ -14613,7 +14675,9 @@
     "cuisine": [
       "izakaya",
       "chinese"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7764
   },
   {
     "id": 697,
@@ -14629,7 +14693,9 @@
     "website": "https://satomifooding.owst.jp/",
     "cuisine": [
       "italian"
-    ]
+    ],
+    "lat": 35.6992,
+    "lng": 139.776
   },
   {
     "id": 698,
@@ -14646,7 +14712,9 @@
     "cuisine": [
       "izakaya",
       "seafood"
-    ]
+    ],
+    "lat": 35.6959,
+    "lng": 139.7745
   },
   {
     "id": 699,
@@ -14663,7 +14731,9 @@
     "website": "https://furonsaikan-chinese.com/",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "lat": 35.6956,
+    "lng": 139.7711
   },
   {
     "id": 700,
@@ -14679,7 +14749,9 @@
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6983,
+    "lng": 139.7776
   },
   {
     "id": 701,
@@ -14696,7 +14768,9 @@
     "cuisine": [
       "regional",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7758
   },
   {
     "id": 702,
@@ -14711,7 +14785,9 @@
     "hours": "13:00〜23:00",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7771
   },
   {
     "id": 703,
@@ -14734,7 +14810,9 @@
       "width": 1200,
       "height": 630,
       "sourceUrl": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/49/20260508114939OGP%E7%94%BB%E5%83%8F.png"
-    }
+    },
+    "lat": 35.6984,
+    "lng": 139.7758
   },
   {
     "id": 704,
@@ -14758,7 +14836,9 @@
       "width": 96,
       "height": 96,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mur68i1c/42397863/xw37.jpg"
-    }
+    },
+    "lat": 35.6983,
+    "lng": 139.7776
   },
   {
     "id": 705,
@@ -14774,7 +14854,9 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7764
   },
   {
     "id": 706,
@@ -14798,7 +14880,9 @@
       "width": 96,
       "height": 96,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mg5hrbgs/42398768/yjoc.jpg"
-    }
+    },
+    "lat": 35.6974,
+    "lng": 139.7726
   },
   {
     "id": 707,
@@ -14815,7 +14899,9 @@
     "cuisine": [
       "cafe",
       "bar"
-    ]
+    ],
+    "lat": 35.6993,
+    "lng": 139.7747
   },
   {
     "id": 708,
@@ -14833,7 +14919,9 @@
     "cuisine": [
       "international",
       "izakaya"
-    ]
+    ],
+    "lat": 35.702,
+    "lng": 139.7751
   },
   {
     "id": 709,
@@ -14847,7 +14935,9 @@
     "lastVerified": "2026-09-02",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "lat": 35.6974,
+    "lng": 139.7699
   },
   {
     "id": 710,
@@ -14863,7 +14953,9 @@
     "cuisine": [
       "bar",
       "cafe"
-    ]
+    ],
+    "lat": 35.7007,
+    "lng": 139.774
   },
   {
     "id": 711,
@@ -14879,7 +14971,9 @@
     "cuisine": [
       "seafood",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6985,
+    "lng": 139.7752
   },
   {
     "id": 712,
@@ -14895,7 +14989,9 @@
     "website": "https://www.sengoku.pro/",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "lat": 35.7012,
+    "lng": 139.7718
   },
   {
     "id": 713,
@@ -14910,7 +15006,9 @@
     "cuisine": [
       "indian",
       "bar"
-    ]
+    ],
+    "lat": 35.7013,
+    "lng": 139.7705
   },
   {
     "id": 714,
@@ -14927,7 +15025,9 @@
     "cuisine": [
       "bar",
       "western"
-    ]
+    ],
+    "lat": 35.6947,
+    "lng": 139.7708
   },
   {
     "id": 715,
@@ -14944,7 +15044,9 @@
     "cuisine": [
       "spanish",
       "bar"
-    ]
+    ],
+    "lat": 35.6992,
+    "lng": 139.776
   },
   {
     "id": 716,
@@ -14962,7 +15064,9 @@
       "japanese",
       "sukiyaki",
       "shabu_shabu"
-    ]
+    ],
+    "lat": 35.6986,
+    "lng": 139.7746
   },
   {
     "id": 717,
@@ -14979,7 +15083,9 @@
     "cuisine": [
       "soba",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6992,
+    "lng": 139.776
   },
   {
     "id": 718,
@@ -15002,7 +15108,9 @@
       "width": 1200,
       "height": 630,
       "sourceUrl": "https://www.kichiri.co.jp/common/images/ogp_btoc.png"
-    }
+    },
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 719,
@@ -15017,7 +15125,9 @@
     "cuisine": [
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6956,
+    "lng": 139.7769
   },
   {
     "id": 720,
@@ -15034,7 +15144,9 @@
     "cuisine": [
       "japanese",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6983,
+    "lng": 139.7764
   },
   {
     "id": 721,
@@ -15049,7 +15161,9 @@
     "cuisine": [
       "yakiniku",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6985,
+    "lng": 139.7752
   },
   {
     "id": 722,
@@ -15066,7 +15180,9 @@
     "cuisine": [
       "western",
       "bar"
-    ]
+    ],
+    "lat": 35.7017,
+    "lng": 139.7714
   },
   {
     "id": 723,
@@ -15083,7 +15199,9 @@
     "website": "https://izakaya-wagaya-akihabara.com/",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.6961,
+    "lng": 139.775
   },
   {
     "id": 724,
@@ -15101,7 +15219,9 @@
       "gyoza",
       "chinese",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6986,
+    "lng": 139.7764
   },
   {
     "id": 725,
@@ -15117,7 +15237,9 @@
     "website": "https://www.bagus-99.com/shops/b_akihabara/",
     "cuisine": [
       "bar"
-    ]
+    ],
+    "lat": 35.7015,
+    "lng": 139.771
   },
   {
     "id": 726,
@@ -15142,7 +15264,9 @@
       "width": 72,
       "height": 72,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/a20ouso3/54184155/wydg.jpg"
-    }
+    },
+    "lat": 35.6992,
+    "lng": 139.7752
   },
   {
     "id": 727,
@@ -15159,7 +15283,9 @@
     "cuisine": [
       "shabu_shabu",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6987,
+    "lng": 139.772
   },
   {
     "id": 728,
@@ -15177,7 +15303,9 @@
     "cuisine": [
       "soba",
       "izakaya"
-    ]
+    ],
+    "lat": 35.694,
+    "lng": 139.7722
   },
   {
     "id": 729,
@@ -15193,7 +15321,9 @@
     "cuisine": [
       "chinese",
       "gyoza"
-    ]
+    ],
+    "lat": 35.6959,
+    "lng": 139.7745
   },
   {
     "id": 730,
@@ -15211,7 +15341,9 @@
     "cuisine": [
       "seafood",
       "bar"
-    ]
+    ],
+    "lat": 35.7006,
+    "lng": 139.7733
   },
   {
     "id": 731,
@@ -15229,7 +15361,9 @@
     "cuisine": [
       "gyoza",
       "chinese"
-    ]
+    ],
+    "lat": 35.6945,
+    "lng": 139.7758
   },
   {
     "id": 732,
@@ -15243,7 +15377,9 @@
     "lastVerified": "2026-09-02",
     "cuisine": [
       "yakiniku"
-    ]
+    ],
+    "lat": 35.6986,
+    "lng": 139.7746
   },
   {
     "id": 733,
@@ -15259,7 +15395,9 @@
     "closed": "土日祝定休",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7758
   },
   {
     "id": 734,
@@ -15273,7 +15411,9 @@
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.6958,
+    "lng": 139.7731
   },
   {
     "id": 735,
@@ -15298,7 +15438,9 @@
       "width": 1,
       "height": 1,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/yq5pt101/60094448/zidp.jpg"
-    }
+    },
+    "lat": 35.6992,
+    "lng": 139.776
   },
   {
     "id": 736,
@@ -15314,7 +15456,9 @@
     "cuisine": [
       "izakaya",
       "hot_pot"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 737,
@@ -15338,7 +15482,9 @@
       "width": 1200,
       "height": 630,
       "sourceUrl": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/7/20251114102942ogp.png"
-    }
+    },
+    "lat": 35.6987,
+    "lng": 139.772
   },
   {
     "id": 738,
@@ -15355,7 +15501,9 @@
     "cuisine": [
       "soba",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6953,
+    "lng": 139.7706
   },
   {
     "id": 739,
@@ -15372,7 +15520,9 @@
     "cuisine": [
       "chinese",
       "cafe"
-    ]
+    ],
+    "lat": 35.6986,
+    "lng": 139.7746
   },
   {
     "id": 740,
@@ -15386,7 +15536,9 @@
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.6983,
+    "lng": 139.7776
   },
   {
     "id": 741,
@@ -15400,7 +15552,9 @@
     "lastVerified": "2026-09-02",
     "cuisine": [
       "izakaya"
-    ]
+    ],
+    "lat": 35.7013,
+    "lng": 139.7705
   },
   {
     "id": 742,
@@ -15417,7 +15571,9 @@
       "hot_pot",
       "yakitori",
       "izakaya"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7744
   },
   {
     "id": 743,
@@ -15433,7 +15589,9 @@
     "closed": "月曜定休",
     "cuisine": [
       "chinese"
-    ]
+    ],
+    "lat": 35.6978,
+    "lng": 139.7752
   },
   {
     "id": 744,
@@ -15450,7 +15608,9 @@
     "cuisine": [
       "western",
       "bar"
-    ]
+    ],
+    "lat": 35.6983,
+    "lng": 139.7764
   },
   {
     "id": 745,
