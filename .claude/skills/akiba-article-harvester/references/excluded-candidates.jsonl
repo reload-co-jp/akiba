@@ -316,3 +316,51 @@
 {"url": "https://www.automation-news.jp/2026/08/107375/", "reason": "insufficient_facts", "note": "UR協働ロボットフェア2026秋葉原10/8-9、facts確認済みだが画像なし(公式サイトにOGP画像なし)", "checked": "2026-09-02"}
 {"url": "https://collabo-cafe.com/events/collabo/eupho-hibike-yufoniamu-chaya-cafe-2026/", "reason": "insufficient_facts", "note": "響け!ユーフォニアムゆーふぉにあむ茶屋、東京会場の具体的施設名・住所が公開情報で未確認(京都・大阪会場のみ判明)、秋葉原特定不可のため見送り", "checked": "2026-09-03"}
 {"url": "https://club-mogra.jp/2026/09/02/9935/", "reason": "event_ended", "note": "VGM 4 GIGS 9月回は9/2開催済み。7月回は記事あり(vgm-4-gigs-mogra-2026)", "checked": "2026-09-04"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=180", "reason": "low_value", "note": "gamers archived id<1000, stale campaign", "checked": "2026-09-05"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=219", "reason": "low_value", "note": "gamers archived id<1000", "checked": "2026-09-05"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=246", "reason": "low_value", "note": "gamers archived id<1000", "checked": "2026-09-05"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7359", "reason": "low_value", "note": "generic store pickup campaign, no event angle", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/psyren-thechara-cafe-stand-tokyo-dome-city-2026/", "reason": "out_of_scope_venue", "note": "Tokyo Dome City, not Akihabara", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/ensemble-stars-fortune-latte-cross-store-2026/", "reason": "out_of_scope_venue", "note": "Osaka Umeda / Hakata legs, not Akihabara", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/chainsaw-man-reze-pop-up-shop-marui2026/", "reason": "out_of_scope_venue", "note": "Marui Tokyo/Osaka, not confirmed Akihabara", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/lycoris-recoil-pop-up-shop-marui-poncho-style2026/", "reason": "out_of_scope_venue", "note": "Shinjuku Marui", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/tokyo-ghoul-pop-up-shop-shinjuku-marui-men2026/", "reason": "out_of_scope_venue", "note": "Shinjuku Marui Men", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/renji-murata-exhibition-edition88-tokyo-2026/", "reason": "out_of_scope_venue", "note": "Gotanda EDITION88", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/jujutsuten-shinjuku-2026/", "reason": "out_of_scope_venue", "note": "Shinjuku final venue", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/hokuto-no-ken-gengaten-returns-kichijoji-2026/", "reason": "out_of_scope_venue", "note": "Kichijoji", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/conan-anime-30th-anniversary-program-youtube-2026/", "reason": "not_akihabara_specific", "note": "YouTube streaming special, no physical venue", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/conanten-anime-30th-anniversary-exhibition-matsuyama2026/", "reason": "out_of_scope_venue", "note": "Matsuyama", "checked": "2026-09-05"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1261/", "reason": "out_of_scope_venue", "note": "AK-GARDEN29 at Tokyo Ryutsu Center Hamamatsucho, not Akihabara", "checked": "2026-09-05"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1297/", "reason": "out_of_scope_venue", "note": "San Diego Comic-Con, overseas", "checked": "2026-09-05"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1239/", "reason": "out_of_scope_venue", "note": "Anime Expo overseas", "checked": "2026-09-05"}
+{"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EU1ROaUtvY2xiYXczWVFPclIwVW44b0M2M0hsTzl6SWdxN1BXU1FGTU1KMGllWW1Eam94M3pmb0tpV0hmUS1hb091WkNlN0RYQ0RLYS1RNVZpc0hsNUc2MlhvUmdVUmZ3a1BPbFpRUm1OUQ", "reason": "insufficient_facts", "note": "クリスプサラダワークス秋葉原オープン、開業日等の具体的事実確認できず", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000008769.000016756.html", "reason": "low_value", "note": "既存2記事(animate-akihabara-renewal-expansion-2026等)で重複", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000001178.000082978.html", "reason": "low_value", "note": "既存ts-tantan-ecute-akihabara-open-2026と重複", "checked": "2026-09-05"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130547.html", "reason": "low_value", "note": "既存mdl-akihabara-store-open-2026と重複", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000061.000082671.html", "reason": "low_value", "note": "既存janpara-akihabara3-relocation-2026と重複", "checked": "2026-09-05"}
+{"url": "https://www.gdm.or.jp/crew/2026/0826/649574", "reason": "low_value", "note": "既存surugaya-akihabara-game-relocation-renewal-2026と重複", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000022.000143737.html", "reason": "low_value", "note": "既存gyutan-no-lemon-akihabara-opening-2026と重複", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000812.000041970.html", "reason": "low_value", "note": "既存hey2-akihabara-taito-grand-open-2026と重複", "checked": "2026-09-05"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2136836.html", "reason": "low_value", "note": "既存rashinban-shinkan-1f-renewal-akihabara-2026と重複", "checked": "2026-09-05"}
+{"url": "https://www.gdm.or.jp/crew/2026/0901/650468", "reason": "low_value", "note": "既存adachi-izakaya-akihabara-close-2026と重複(タイトル一致検出漏れ注意)", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000425.000111905.html", "reason": "low_value", "note": "既存thanko-akihabara-main-store-close-2026と重複", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000025.000089778.html", "reason": "low_value", "note": "既存first-cabin-akihabara-reopen-2026と重複", "checked": "2026-09-05"}
+{"url": "https://udx.jp/en/akibaichi_rn/", "reason": "low_value", "note": "既存akiba-ichi-renovation-close-2026と重複", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/bunnygarden2-popup-shop-akiba-2026/", "reason": "low_value", "note": "既存bunnygarden2-popup-akiba-culture-zone-2026と重複", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/toaru-railgun-t-popup-store-gamers-2026/", "reason": "low_value", "note": "既存railgun-t-pop-up-gamers-akihabara-2026と重複(タイトル一致検出漏れ注意)", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/watatabe-popup-store-gamers-2026/", "reason": "low_value", "note": "既存watatabe-popup-store-gamers-akihabara-2026と重複", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/lovelive-ocg-popup-store-royal-holiday-2026/", "reason": "low_value", "note": "既存lovelive-ocg-popup-store-royal-holiday-bushiroad-akihabara-2026と重複", "checked": "2026-09-05"}
+{"url": "https://collabo-cafe.com/events/collabo/mobpsycho100-collabocafe-honpo-2026/", "reason": "low_value", "note": "既存mobpsycho100-3-cafe-akihabara-osaka-2026と重複(タイトル一致検出漏れ注意)", "checked": "2026-09-05"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1295/", "reason": "low_value", "note": "既存highschool-dxd-hero-popup-kotobukiya-akihabara-2026と重複", "checked": "2026-09-05"}
+{"url": "https://www.4gamer.net/games/617/G061733/20260902034/", "reason": "low_value", "note": "既存live-a-live-32nd-popup-shosen-booktower-2026と重複(タイトル一致検出漏れ注意)", "checked": "2026-09-05"}
+{"url": "https://www.as-web.jp/bike/1344972", "reason": "low_value", "note": "既存motogp-in-tokyo-2026-bellesalle-akihabara と重複(タイトル一致検出漏れ注意)", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000603.000015279.html", "reason": "low_value", "note": "既存2k540-aki-oka-artisan-15th-atsurae-2026と重複", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000815.000041970.html", "reason": "low_value", "note": "既存bubblebobble-40th-taito-station-akihabara-2026と重複", "checked": "2026-09-05"}
+{"url": "https://www.nohgahotel.com/akihabara/experience/detail/002227.html", "reason": "low_value", "note": "既存noh-ryo-noga-hotel-akihabara-6th-anniversary-2026等と重複(タイトル一致検出漏れ注意)", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000008.000150262.html", "reason": "low_value", "note": "既存akiba-subculture-summit-kanda-myojin-2026と重複", "checked": "2026-09-05"}
+{"url": "https://www.4gamer.net/games/983/G098313/20260814035/", "reason": "low_value", "note": "既存hottoys-summer-2026-showcase-bellesalle-akihabaraと重複(タイトル一致検出漏れ注意)", "checked": "2026-09-05"}
+{"url": "https://bikeday.jama.or.jp/event/", "reason": "low_value", "note": "既存bikeday-2026-akihabara-udxに開催結果を追記マージ済み", "checked": "2026-09-05"}
+{"url": "https://vket.com/lp/2026Summer_real/", "reason": "event_ended", "note": "既存vketreal-2026-summer-bellesalle-akihabaraと重複、開催済み", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000249.000046985.html", "reason": "low_value", "note": "既存steins-gate-reboot-akiba-jack-campaign-2026と重複", "checked": "2026-09-05"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000002.000152622.html", "reason": "low_value", "note": "既存akihabara-denkigai-matsuri-summer-2026と重複", "checked": "2026-09-05"}
+{"url": "https://abstreem.co.jp/RAB/", "reason": "low_value", "note": "既存real-akiba-boyz-akiba3150-2026に街ジャック/テーマソング情報を追記マージ済み", "checked": "2026-09-05"}
