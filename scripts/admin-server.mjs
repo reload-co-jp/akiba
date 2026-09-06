@@ -13,6 +13,7 @@ import { fileURLToPath } from "node:url"
 import path from "node:path"
 import dns from "node:dns/promises"
 import net from "node:net"
+import { Buffer } from "node:buffer"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, "..", "data")
@@ -201,7 +202,7 @@ const safeFetch = async (targetUrl) => {
     try {
       lookups = await dns.lookup(parsed.hostname, { all: true })
     } catch (err) {
-      throw new Error(`dns resolution failed: ${err}`)
+      throw new Error(`dns resolution failed: ${err}`, { cause: err })
     }
     if (lookups.length === 0 || lookups.some(({ address }) => isPrivateIp(address))) {
       throw new Error("blocked: target resolves to a private/internal address")
