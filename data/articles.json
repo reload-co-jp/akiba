@@ -7115,6 +7115,10 @@
       {
         "label": "Webikeプラス",
         "url": "https://news.webike.net/raceinfo/532802/"
+      },
+      {
+        "label": "参考記事（バイクのニュース）",
+        "url": "https://www.as-web.jp/bike/1344972"
       }
     ],
     "event": {
@@ -23594,6 +23598,10 @@
       {
         "label": "鉄道チャンネル 記事",
         "url": "https://tetsudo-ch.com/13034165.html"
+      },
+      {
+        "label": "AKIBA PC Hotline! 記事",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132132.html"
       }
     ],
     "event": {
@@ -25397,6 +25405,14 @@
       {
         "label": "ASCII.jp 記事",
         "url": "https://ascii.jp/elem/000/004/424/4424807/"
+      },
+      {
+        "label": "GDM 記事",
+        "url": "https://www.gdm.or.jp/crew/2026/0807/647322"
+      },
+      {
+        "label": "AKIBA PC Hotline! 記事（続報）",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2131788.html"
       }
     ],
     "authorId": 1,
@@ -26837,17 +26853,19 @@
       "content": "## Overview\n\nA pop-up store themed around \"Opera Seria,\" a unit from THE iDOLM@STER Million Live!, is being held at Kotobukiya Akihabara from Friday, September 11 to Sunday, September 27, 2026.\n\n## Highlights\n\nThe venue features merchandise using newly drawn illustrations of the unit.\n\n- Merchandise featuring newly drawn \"Opera Seria\" illustrations\n- Held on the 5th floor of Kotobukiya Akihabara\n\n## Event Details\n\n- **Dates**: Friday, September 11 – Sunday, September 27, 2026\n- **Venue**: Kotobukiya Akihabara, 5F\n\n## Recommended For\n\n- Fans of THE iDOLM@STER Million Live!\n- Those looking for new \"Opera Seria\" merchandise"
     },
     "image": {
-      "src": "/images/articles/opera-seria-popup-kotobukiya-akihabara-2026.jpg",
-      "alt": "「オペラセリア」ポップアップストア告知ビジュアル",
-      "sourceLabel": "Collabo Cafe 記事",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/opera-seria-popup-shop-akihabara-2026/",
-      "width": 1,
-      "height": 1
+      "src": "/images/articles/opera-seria-popup-kotobukiya-akihabara-2026.webp",
+      "alt": "「オペラセリア」ポップアップストアのキービジュアル",
+      "sourceLabel": "コトブキヤ公式サイト",
+      "sourceUrl": "https://www.kotobukiya.co.jp/event/detail/1333/"
     },
     "sources": [
       {
         "label": "Collabo Cafe 記事",
         "url": "https://collabo-cafe.com/events/collabo/opera-seria-popup-shop-akihabara-2026/"
+      },
+      {
+        "label": "コトブキヤ公式サイト",
+        "url": "https://www.kotobukiya.co.jp/event/detail/1333/"
       }
     ],
     "event": {
@@ -27049,6 +27067,10 @@
       {
         "label": "PR TIMES プレスリリース",
         "url": "https://prtimes.jp/main/html/rd/p/000008769.000016756.html"
+      },
+      {
+        "label": "アニメイト公式ニュース",
+        "url": "https://www.animate.co.jp/news/details.php?id=9383"
       }
     ],
     "event": {
@@ -27278,65 +27300,6 @@
     }
   },
   {
-    "id": 688,
-    "title": "ゲーミングPC専門店「MDL秋葉原店」が内田ビルにオープン",
-    "slug": "mdl-akihabara-open-2026",
-    "summary": "鹿児島発のゲーミングPCブランド「MDL」が、東京初の実店舗「MDL秋葉原店」を外神田1-9-9 内田ビル2Fに2026年8月8日オープン。先着1,000名にゲーミングキーボード・マウスを配布するオープニングキャンペーンを実施した。",
-    "content": "## 概要\n\nコストパフォーマンス重視のBTOゲーミングPCブランド「MDL」を運営する株式会社モダンデザイン（鹿児島県）は、2026年8月8日、東京初の実店舗となる「MDL秋葉原店」を東京都千代田区外神田1-9-9 内田ビル2Fにオープンした。地方発のゲーミングPCブランドが秋葉原に旗艦店を構える形となる。\n\n## 内容\n\nオープン初日はオープニングキャンペーン目当ての来場者が殺到し、想定を超える人出となった。\n\n- 先着1,000名にゲーミングキーボード「MDL Aurora」（900個）とマウス「MDL Lumina」（100個）を無料配布\n- 新規会員登録で1万円引きクーポンを配布\n- コストパフォーマンス重視のBTOゲーミングPCを販売\n\n## 開催情報\n\n- **日時**: 2026年8月8日（土）11:00 オープン\n- **会場**: MDL秋葉原店（東京都千代田区外神田1-9-9 内田ビル2F）\n- **料金**: 入店無料\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- コストパフォーマンス重視のゲーミングPCを探している方\n- 秋葉原で新しいPCショップを見てみたい方\n- BTOパソコンの実機を店頭で確認したい方",
-    "publishedAt": "2026-08-08",
-    "tags": [
-      "秋葉原",
-      "オープン",
-      "新店舗",
-      "ゲーミングデバイス"
-    ],
-    "tagIds": [
-      207,
-      56,
-      187,
-      73
-    ],
-    "en": {
-      "title": "Gaming PC Specialty Shop \"MDL Akihabara\" Opens in Uchida Building",
-      "summary": "Kagoshima-based gaming PC brand \"MDL\" opened its first physical store in Tokyo, \"MDL Akihabara,\" at Uchida Building 2F, 1-9-9 Sotokanda, on August 8, 2026, with an opening campaign giving away gaming keyboards and mice to the first 1,000 visitors.",
-      "content": "## Overview\n\nModern Design Inc., a Kagoshima-based company behind the value-focused build-to-order gaming PC brand \"MDL,\" opened its first physical store in Tokyo — \"MDL Akihabara\" — at Uchida Building 2F, 1-9-9 Sotokanda, Chiyoda-ku, Tokyo, on August 8, 2026. It marks a regional gaming PC brand establishing a flagship store in Akihabara.\n\n## Highlights\n\nOn opening day, the store drew a larger-than-expected crowd of visitors drawn by the opening campaign.\n\n- Free gaming keyboards (\"MDL Aurora,\" 900 units) and mice (\"MDL Lumina,\" 100 units) for the first 1,000 visitors\n- ¥10,000 discount coupon for new members\n- Sells value-focused build-to-order gaming PCs\n\n## Event Details\n\n- **Dates**: August 8, 2026, opened 11:00\n- **Venue**: MDL Akihabara (Uchida Building 2F, 1-9-9 Sotokanda, Chiyoda-ku, Tokyo)\n- **Price**: Free entry\n- **Reservation**: Not required\n\n## Recommended For\n\n- Shoppers looking for value-focused gaming PCs\n- Anyone curious to check out a new PC shop in Akihabara\n- Those who want to see build-to-order PCs in person"
-    },
-    "image": {
-      "src": "/images/articles/mdl-akihabara-open-2026.jpg",
-      "alt": "MDL秋葉原店の店頭ビジュアル",
-      "sourceLabel": "AKIBA PC Hotline!",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130547.html",
-      "width": 1,
-      "height": 1
-    },
-    "sources": [
-      {
-        "label": "AKIBA PC Hotline!",
-        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2130547.html"
-      },
-      {
-        "label": "エルミタージュ秋葉原",
-        "url": "https://www.gdm.or.jp/crew/2026/0807/647322"
-      },
-      {
-        "label": "MDL 公式X",
-        "url": "https://x.com/mdl_make"
-      },
-      {
-        "label": "AKIBA PC Hotline! 記事（開店当日レポート）",
-        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2131788.html"
-      }
-    ],
-    "authorId": 1,
-    "event": {
-      "venue": "MDL秋葉原店",
-      "startDate": "2026-08-08",
-      "endDate": "2026-08-08",
-      "price": "入店無料",
-      "reservation": false
-    }
-  },
-  {
     "id": 689,
     "title": "ラジオデパートの老舗電子部品店「門田無線電機」が5月閉店",
     "slug": "kadota-musen-denki-close-2026",
@@ -27484,52 +27447,6 @@
       "startDate": "2026-07-31",
       "endDate": "2026-07-31",
       "price": "店舗利用に準ずる",
-      "reservation": false
-    }
-  },
-  {
-    "id": 692,
-    "title": "アニメイト秋葉原がリニューアルオープン",
-    "slug": "animate-akihabara-renewal-2026",
-    "summary": "アニメイト秋葉原が2026年8月8日にリニューアルオープン。キャラクターグッズフロアを増床し、カプセルトイ専門フロアと期間限定催事フロアを新設した。",
-    "content": "## 概要\n\nアニメイト秋葉原が2026年8月8日、売場を拡大してリニューアルオープンした。キャラクターグッズを扱うフロアを増床したほか、カプセルトイに特化したフロアと期間限定の催事フロアを新設し、来店客がより多くの商品と企画を楽しめる店舗へと生まれ変わった。\n\n## 内容\n\nリニューアルにより、フロア構成を大きく見直した売場展開が特徴。\n\n- キャラクターグッズフロアを増床\n- カプセルトイ専門フロアを新設\n- 期間限定催事フロアを新設\n\n## 開催情報\n\n- **日時**: 2026年8月8日（土）リニューアルオープン\n- **会場**: アニメイト秋葉原\n- **料金**: 入場無料\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- アニメ・ゲームキャラクターグッズを探している方\n- カプセルトイ好きの方\n- 秋葉原でアニメショップ巡りをしたい方",
-    "publishedAt": "2026-08-10",
-    "tagIds": [
-      207,
-      48,
-      144,
-      56,
-      50
-    ],
-    "en": {
-      "title": "Animate Akihabara Reopens After Renewal",
-      "summary": "Animate Akihabara reopened on August 8, 2026 after a renewal that expanded its character goods floor and added dedicated capsule toy and limited-time event floors.",
-      "content": "## Overview\n\nAnimate Akihabara reopened on August 8, 2026 with an expanded sales floor. The character goods floor was enlarged, and new floors dedicated to capsule toys and limited-time events were added, giving visitors more products and campaigns to enjoy.\n\n## Highlights\n\nThe renewal brought a major rework of the store's floor layout.\n\n- Expanded character goods floor\n- New floor dedicated to capsule toys\n- New floor for limited-time events\n\n## Event Details\n\n- **Dates**: August 8, 2026 (Sat) — Reopening\n- **Venue**: Animate Akihabara\n- **Price**: Free admission\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of anime and game character goods\n- Capsule toy enthusiasts\n- Anyone touring Akihabara's anime shops"
-    },
-    "image": {
-      "src": "/images/articles/animate-akihabara-renewal-2026.jpg",
-      "alt": "アニメイト秋葉原のリニューアル後の店内",
-      "sourceLabel": "PR TIMES プレスリリース",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000008769.000016756.html",
-      "width": 1,
-      "height": 1
-    },
-    "sources": [
-      {
-        "label": "PR TIMES プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000008769.000016756.html"
-      },
-      {
-        "label": "アニメイト公式",
-        "url": "https://www.animate.co.jp/news/details.php?id=9383"
-      }
-    ],
-    "authorId": 1,
-    "event": {
-      "venue": "アニメイト秋葉原",
-      "startDate": "2026-08-08",
-      "endDate": "2026-08-08",
-      "price": "入場無料",
       "reservation": false
     }
   },
@@ -27886,41 +27803,6 @@
       {
         "label": "AKIBA PC Hotline! 記事",
         "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132163.html"
-      }
-    ],
-    "authorId": 1
-  },
-  {
-    "id": 705,
-    "title": "ヴィーガンラーメン「T'sたんたん」がエキュート秋葉原にオープン",
-    "slug": "tstantan-ecute-akihabara-open-2026",
-    "summary": "動物性食材を使用しないヴィーガンラーメン専門店「T'sたんたん」が、エキュート秋葉原の電気街改札そば「XR BASE」跡地に2026年8月7日オープンした。",
-    "content": "## 概要\n\n動物性食材を使用しないヴィーガンラーメンを提供する「T'sたんたん」が、エキュート秋葉原にオープンした。\n\n## 内容\n\n- 電気街改札を出てすぐの「XR BASE」跡地に出店\n- T'sたんたんは上野駅や東京駅などJRの駅を中心に複数店舗を展開するヴィーガンラーメンチェーン\n\n## 開催情報\n\n- **オープン日**: 2026年8月7日（金）\n- **場所**: エキュート秋葉原（電気街改札そば、「XR BASE」跡地）\n\n## こんな人におすすめ\n\n- ヴィーガン・ベジタリアン対応の食事を探している方\n- 秋葉原駅構内でラーメンを楽しみたい方",
-    "publishedAt": "2026-08-15",
-    "tagIds": [
-      207,
-      257,
-      70,
-      56,
-      187
-    ],
-    "en": {
-      "title": "Vegan Ramen Shop \"T's Tantan\" Opens at ecute Akihabara",
-      "summary": "T's Tantan, a vegan ramen shop that uses no animal-derived ingredients, opened on August 7, 2026 at ecute Akihabara, on the site of the former \"XR BASE\" near the Denki Gai (Electric Town) exit.",
-      "content": "## Overview\n\nT's Tantan, a ramen shop serving vegan ramen made without any animal-derived ingredients, has opened at ecute Akihabara.\n\n## Highlights\n\n- Located on the former site of \"XR BASE,\" right outside the Denki Gai (Electric Town) exit\n- T's Tantan is a vegan ramen chain with multiple locations, mainly at JR stations such as Ueno and Tokyo\n\n## Details\n\n- **Opening Date**: Friday, August 7, 2026\n- **Location**: ecute Akihabara (near the Denki Gai exit, former \"XR BASE\" site)\n\n## Recommended For\n\n- Those looking for vegan- or vegetarian-friendly dining\n- Anyone wanting to enjoy ramen inside Akihabara Station"
-    },
-    "image": {
-      "src": "/images/articles/tstantan-ecute-akihabara-open-2026.jpg",
-      "alt": "T'sたんたん エキュート秋葉原 店頭写真",
-      "sourceLabel": "AKIBA PC Hotline! 記事",
-      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132132.html",
-      "width": 960,
-      "height": 640
-    },
-    "sources": [
-      {
-        "label": "AKIBA PC Hotline! 記事",
-        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2132132.html"
       }
     ],
     "authorId": 1
@@ -29262,6 +29144,10 @@
       {
         "label": "駿河屋 公式サイト",
         "url": "https://www.suruga-ya.co.jp/ja/node/2478"
+      },
+      {
+        "label": "GDM 記事",
+        "url": "https://www.gdm.or.jp/crew/2026/0826/649574"
       }
     ],
     "event": {
@@ -29271,7 +29157,13 @@
       "price": "商品購入は店頭価格による",
       "reservation": false
     },
-    "authorId": 1
+    "authorId": 1,
+    "image": {
+      "src": "/images/articles/suruga-ya-akihabara-game-kan-relocation-2026.webp",
+      "alt": "駿河屋秋葉原ゲーム館 移転リニューアルの告知ビジュアル",
+      "sourceLabel": "駿河屋公式サイト",
+      "sourceUrl": "https://www.suruga-ya.co.jp/ja/node/2478"
+    }
   },
   {
     "id": 739,
@@ -29973,44 +29865,6 @@
     ]
   },
   {
-    "id": 755,
-    "title": "「駿河屋秋葉原ゲーム館」が9月25日に移転リニューアル",
-    "slug": "surugaya-akihabara-game-relocation-renewal-2026",
-    "summary": "駿河屋の「秋葉原ゲーム館」が現店舗（外神田3-9-8 東洋ビル1階）から近隣の「秋葉原トレカ・ボードゲーム館」跡地（外神田3-15-4 2階）へ移転し、2026年9月25日にリニューアルオープンする。売場規模を拡大し、ゲームCDや関連書籍、amiiboカード、ゲーム系フィギュア・雑貨の取扱いを強化する。",
-    "content": "## 概要\n\n駿河屋の「秋葉原ゲーム館」が、2026年9月25日に移転リニューアルオープンする。現在の店舗（東京都千代田区外神田3-9-8 東洋ビル1階）は8月30日をもって営業を終了し、近隣の「秋葉原トレカ・ボードゲーム館」跡地（外神田3-15-4 2階）へ移転する。\n\n## 内容\n\n移転を機に売場規模を拡大し、取扱商材の幅を広げる。\n\n- ゲームソフトの取扱いを強化\n- ゲームCD、ゲーム関連書籍・雑誌の取扱いを拡充\n- amiiboカードの取扱いを新規追加\n- ゲーム系フィギュア、雑貨・ぬいぐるみの取扱いを拡充\n\n## 開催情報\n\n- **日時**: 2026年9月25日（金）リニューアルオープン\n- **会場**: 駿河屋 秋葉原ゲーム館（東京都千代田区外神田3-15-4 2階）\n- **料金**: 入場無料\n- **予約**: 予約不要\n\n## こんな人におすすめ\n\n- 中古ゲームソフトを探している方\n- ゲーム関連フィギュア・グッズを集めている方\n- 秋葉原でリユースショップ巡りをしたい方",
-    "publishedAt": "2026-08-26",
-    "tagIds": [
-      207,
-      217,
-      144,
-      74,
-      145
-    ],
-    "en": {
-      "title": "Suruga-ya's Akihabara Game Store Relocates and Reopens",
-      "summary": "Suruga-ya's \"Akihabara Game Kan\" is relocating from its current store (Toyo Building 1F, Sotokanda 3-9-8) to the former Akihabara Trading Card & Board Game Kan site (Sotokanda 3-15-4, 2F), reopening on September 25, 2026 with an expanded sales floor covering game CDs, related books, amiibo cards, and game-themed figures and goods.",
-      "content": "## Overview\n\nSuruga-ya's \"Akihabara Game Kan\" store is relocating and reopening on September 25, 2026. The current location (Toyo Building 1F, 3-9-8 Sotokanda, Chiyoda Ward) closes on August 30, with the store moving to the former Akihabara Trading Card & Board Game Kan site (3-15-4 Sotokanda, 2F).\n\n## Highlights\n\nThe relocation brings an expanded sales floor and a wider range of merchandise.\n\n- Expanded game software selection\n- Wider range of game CDs and related books/magazines\n- New amiibo card selection\n- Expanded game-themed figures, goods, and plushies\n\n## Event Details\n\n- **Dates**: September 25, 2026 (Fri) — Reopening\n- **Venue**: Suruga-ya Akihabara Game Kan (3-15-4 Sotokanda, Chiyoda Ward, Tokyo, 2F)\n- **Price**: Free admission\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone looking for used game software\n- Collectors of game-themed figures and goods\n- Readers touring Akihabara's reuse shops"
-    },
-    "sources": [
-      {
-        "label": "駿河屋 公式サイト",
-        "url": "https://www.suruga-ya.co.jp/ja/node/2478"
-      },
-      {
-        "label": "エルミタージュ秋葉原 記事",
-        "url": "https://www.gdm.or.jp/crew/2026/0826/649574"
-      }
-    ],
-    "authorId": 1,
-    "event": {
-      "venue": "駿河屋 秋葉原ゲーム館",
-      "startDate": "2026-09-25",
-      "endDate": "2026-09-25",
-      "price": "入場無料",
-      "reservation": false
-    }
-  },
-  {
     "id": 756,
     "title": "ブシロードクリエイティブ10周年イベントがベルサール秋葉原で開催",
     "slug": "bushiroad-creative-10th-high-10sion-school-bellesalle-akihabara-2026",
@@ -30461,6 +30315,10 @@
       {
         "label": "Gamer.ne.jp 紹介記事",
         "url": "https://www.gamer.ne.jp/news/202609020027/"
+      },
+      {
+        "label": "4Gamer.net 記事",
+        "url": "https://www.4gamer.net/games/617/G061733/20260902034/"
       }
     ],
     "event": {
@@ -30822,6 +30680,45 @@
       "startDate": "2026-08-20",
       "endDate": "2026-09-23",
       "price": "8GB+128GBモデル 88,000円",
+      "reservation": false
+    },
+    "authorId": 1
+  },
+  {
+    "id": 778,
+    "title": "MOOMIN POPUP STOREがJR秋葉原駅で開催",
+    "slug": "moomin-popup-store-jr-akihabara-2026",
+    "summary": "ムーミン一族をテーマにしたポップアップストアが、2026年9月9日から22日までJR秋葉原駅エキュート秋葉原の改札内イベントスペース「Akiba Link」で開催。限定グッズを販売し、購入特典も用意される。",
+    "content": "## 概要\n\nムーミン一族をテーマにした期間限定ポップアップストアが、JR秋葉原駅エキュート秋葉原の改札内イベントスペース「Akiba Link」に登場する。駅利用者が気軽に立ち寄れる立地で、限定グッズの販売や購入特典が用意されている。\n\n## 内容\n\n会場では限定デザインのグッズが多数販売されるほか、購入金額に応じたノベルティ配布も行われる。\n\n- タオル（¥1,540）、Tシャツ（¥3,300）、コインケース（¥2,750）、トートバッグ（¥2,310）などの限定グッズ販売\n- 購入金額に応じたエコバッグ・傘マーカーなどの特典配布\n\n## 開催情報\n\n- **日時**: 2026年9月9日（水）〜9月22日（火・祝）\n- **会場**: エキュート秋葉原 改札内イベントスペース「Akiba Link」\n- **営業時間**: 平日・土曜10:00〜21:00、日祝10:00〜20:00（最終日は20:00まで）\n- **料金**: 入場無料（商品は有料）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- ムーミンファン\n- 秋葉原駅利用のついでに立ち寄りたい人",
+    "publishedAt": "2026-09-06",
+    "tagIds": [
+      129,
+      196,
+      207,
+      61
+    ],
+    "en": {
+      "title": "MOOMIN POPUP STORE Opens at JR Akihabara Station",
+      "summary": "A pop-up store themed around the Moomin family runs September 9–22, 2026 at the \"Akiba Link\" event space inside the ticket gates of Ecute Akihabara, JR Akihabara Station, selling limited-edition goods with purchase bonuses.",
+      "content": "## Overview\n\nA limited-time pop-up store themed around the Moomin family has opened at \"Akiba Link,\" the event space inside the ticket gates of Ecute Akihabara at JR Akihabara Station. Its location makes it an easy stop for train passengers, offering limited-edition goods and purchase bonuses.\n\n## Highlights\n\nThe store sells a range of exclusively designed goods, with novelty items given out based on purchase amount.\n\n- Exclusive goods including towels (¥1,540), T-shirts (¥3,300), coin cases (¥2,750), and tote bags (¥2,310)\n- Bonus items such as eco bags and umbrella markers based on purchase amount\n\n## Event Details\n\n- **Dates**: September 9–22, 2026\n- **Venue**: \"Akiba Link\" event space inside the ticket gates, Ecute Akihabara\n- **Hours**: Weekdays/Saturday 10:00–21:00, Sundays/holidays 10:00–20:00 (last day until 20:00)\n- **Price**: Free admission (merchandise sold separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Moomin fans\n- Anyone passing through Akihabara Station"
+    },
+    "image": {
+      "src": "/images/articles/moomin-popup-store-jr-akihabara-2026.jpg",
+      "alt": "MOOMIN POPUP STOREの告知ビジュアル",
+      "sourceLabel": "ムーミン公式サイト",
+      "sourceUrl": "https://www.moomin.co.jp/news/events/6a9579424096d"
+    },
+    "sources": [
+      {
+        "label": "ムーミン公式サイト",
+        "url": "https://www.moomin.co.jp/news/events/6a9579424096d"
+      }
+    ],
+    "event": {
+      "venue": "エキュート秋葉原 改札内イベントスペース「Akiba Link」",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-22",
+      "price": "入場無料（商品販売あり）",
       "reservation": false
     },
     "authorId": 1
