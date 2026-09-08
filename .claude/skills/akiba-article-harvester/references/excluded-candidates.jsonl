@@ -426,3 +426,14 @@
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7576", "reason": "event_ended", "note": "開催期間終了済み", "checked": "2026-09-07"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7773", "reason": "event_ended", "note": "開催期間終了済み", "checked": "2026-09-07"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7815", "reason": "event_ended", "note": "開催期間終了済み", "checked": "2026-09-07"}
+{"url": "https://www.dailyshincho.jp/article/2026/09060803/?all=1", "reason": "low_value", "note": "秋葉原オタク文化コラム特集記事、具体的event/venueなし", "checked": "2026-09-08"}
+{"url": "https://www.tokyo-sports.co.jp/articles/-/401977", "reason": "low_value", "note": "アイドルインタビュー記事、event性なし", "checked": "2026-09-08"}
+{"url": "https://www.itmedia.co.jp/pcuser/articles/2609/05/news014.html", "reason": "low_value", "note": "GPU価格傾向解説記事、電化製品stock系でevent性なし", "checked": "2026-09-08"}
+{"url": "https://www.chugoku-np.co.jp/articles/-/889942", "reason": "low_value", "note": "メイドカフェ文化特集コラム(前編)、具体的event無し", "checked": "2026-09-08"}
+{"url": "https://www.shosen.co.jp/event/45432/", "reason": "low_value", "note": "オンラインwebサイン会のみ、来店不要で地域来訪価値なし", "checked": "2026-09-08"}
+{"url": "https://www.gamers.co.jp/contents/event_fair//contents/event_fair/detail.php?id=7886", "reason": "insufficient_facts", "note": "detailページ404、確認不能", "checked": "2026-09-08"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2125028.html", "reason": "event_ended", "note": "Thermal Camp 2026は7月11日開催済み", "checked": "2026-09-08"}
+{"url": "https://hobby.watch.impress.co.jp/docs/news/2138761.html", "reason": "low_value", "note": "S.H.Figuarts抽選販売告知のみ、コラボ/イベント性なし", "checked": "2026-09-08"}
+{"url": "https://hobby.dengeki.com/news/3151025/", "reason": "insufficient_facts", "note": "フィギュア展示のみ、開催期間不明", "checked": "2026-09-08"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2138921.html", "reason": "low_value", "note": "キュアメイド×ラブライブは既存記事minami-kotori-birthday-curemaid-2026でカバー済み、他トピック情報薄い", "checked": "2026-09-08"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2138650.html", "reason": "low_value", "note": "駿河屋秋葉原ゲーム館移転は既存記事でカバー済み、他トピック情報薄い", "checked": "2026-09-08"}
