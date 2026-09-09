@@ -1263,5 +1263,25 @@
     "id": 265,
     "name": "カレー",
     "nameEn": "Curry"
+  },
+  {
+    "id": 266,
+    "name": "秋葉原ラジオ会館",
+    "nameEn": "Akihabara Radio Kaikan"
+  },
+  {
+    "id": 267,
+    "name": "STEINS;GATE",
+    "nameEn": "STEINS;GATE"
+  },
+  {
+    "id": 268,
+    "name": "ブルーアーカイブ",
+    "nameEn": "Blue Archive"
+  },
+  {
+    "id": 269,
+    "name": "Wizardry",
+    "nameEn": "Wizardry"
   }
 ]
