@@ -457,3 +457,8 @@
 {"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116320", "reason": "not_akihabara_specific", "note": "アニメイト全国共通フェア、秋葉原限定特典なし(サンプル確認3件で判明、同一パターンと判断)", "checked": "2026-09-09"}
 {"url": "https://collabo-cafe.com/events/collabo/kagura-mea-bakudanyaki-honpo-2026/", "reason": "not_akihabara_specific", "note": "神楽めあ×ばくだん焼本舗コラボ、開催店舗は池袋本店/東京ドームシティ/OCTOPUS HOLD/盛岡渋民イオン、秋葉原店なし", "checked": "2026-09-09"}
 {"url": "https://akihabara-radiokaikan.co.jp/summer_2026/", "reason": "event_ended", "note": "秋葉原ラジオ会館夏フェス2026、公式サイト確認で開催期間7/20-8/31と判明、9/9時点で終了済み(AKIBA PC Hotline記事の実施中表記は8/29-30特別イベント部分のみ指す可能性)", "checked": "2026-09-09"}
+{"url": "https://hobby.dengeki.com/news/3151025", "reason": "low_value", "note": "モンハンワイルズCFBフィギュア展示のみ、購入不可・コラボ性薄い", "checked": "2026-09-09"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000188.000162890.html", "reason": "event_ended", "note": "FCチャンネルショーin秋葉原、9月5日開催済み", "checked": "2026-09-09"}
+{"url": "https://www.phileweb.com/news/audio/202609/07/28081.html", "reason": "out_of_scope_venue", "note": "テレオンsound110は台東区蔵前、秋葉原外", "checked": "2026-09-09"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2139290.html", "reason": "insufficient_facts", "note": "ラジオ会館夏フェス2026/ベルサール秋葉原STEINS;GATEイベント、複数トピック混在で個別詳細不足(ブルーアーカイブ部分は既存記事でカバー済み)", "checked": "2026-09-09"}
+{"url": "https://www.moomin.co.jp/news/events/68ba780980769", "reason": "event_ended", "note": "2025年9月10日〜10月5日開催の過去イベント記事(2025.09.08付)、gnewsが誤って2026年扱いで表示。既存2026年版はmoomin-popup-store-jr-akihabara-2026(id778)で別会期・別ニュースIDのため無関係", "checked": "2026-09-09"}

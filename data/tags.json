@@ -1283,5 +1283,15 @@
     "id": 269,
     "name": "Wizardry",
     "nameEn": "Wizardry"
+  },
+  {
+    "id": 270,
+    "name": "銀河英雄伝説",
+    "nameEn": "Legend of the Galactic Heroes"
+  },
+  {
+    "id": 271,
+    "name": "Myethos",
+    "nameEn": "Myethos"
   }
 ]
