@@ -9,6 +9,20 @@ in the fixes found the hard way so each harvest run doesn't re-derive them.
 
 Usage:
   python3 harvest.py list <source|all>      # candidate (title, url) pairs
+                                             # auto-skips rows whose URL already
+                                             # matches an existing article's
+                                             # sources[]/image.sourceUrl, or a
+                                             # previously-logged excluded URL —
+                                             # counts show up in the header, e.g.
+                                             # "(12 shown / 40 total, 20
+                                             # already-in-articles.json skipped,
+                                             # 8 previously-excluded skipped)".
+                                             # Pass --all to disable this and see
+                                             # every raw row (gnews/ceek URLs wrap
+                                             # a fresh Google News redirect token
+                                             # per crawl, so this filter rarely
+                                             # catches anything there — see
+                                             # SKILL.md's gnews redirect note).
   python3 harvest.py detail <url>           # TITLE/OGIMG/OGDESC/FACTS for one page
   python3 harvest.py dedup "<kw1>" "<kw2>"   # check candidates against existing data + excluded log
   python3 harvest.py exclude "<url>" "<reason>" "<note>"
@@ -344,25 +358,50 @@ def strip_fragment(url):
     return url.split("#")[0]
 
 
-def print_items(name, rows, limit):
+def print_items(name, rows, limit, skip_known=True):
     """rows: iterable of (extra_or_None, title, url). Applies noise filtering
     (see noise_reason) and duplicate-title grouping (see normalize_news_title)
     before printing, so callers reading the redirected output file don't pay
     for reading past dozens of reposts of the same story or routine PC-parts
-    sale posts that SKILL.md excludes anyway."""
+    sale posts that SKILL.md excludes anyway.
+
+    When skip_known is True (the default), also drops any row whose URL
+    (normalized) exactly matches an existing article's sources[].url/
+    image.sourceUrl, or a previously-logged excluded-candidates.jsonl entry.
+    This is a repeat-pass optimization: primary/aggregator sources
+    (collabocafe, kotobukiya, gamers, atre, shosen, animate, ...) reuse the
+    same stable URL for an event page across harvest runs, so once an item
+    has been written or explicitly held/rejected, re-listing it every pass
+    was pure waste. gnews/ceek URLs wrap a fresh Google News redirect token
+    per crawl and so rarely match here — pass --all to see everything
+    unfiltered (e.g. when checking whether this filter itself is hiding
+    something it shouldn't)."""
     noise_counts = {}
     seen_keys = {}
     kept = []
+    known_skipped = 0
+    excluded_skipped = 0
+    existing_urls = load_existing_source_urls() if skip_known else set()
+    excluded = load_excluded() if skip_known else {}
     for extra, title, url in rows:
         reason = noise_reason(title)
         if reason:
             noise_counts[reason] = noise_counts.get(reason, 0) + 1
             continue
+        clean_url = strip_fragment(url)
+        if skip_known:
+            norm = normalize_source_url(clean_url)
+            if norm in existing_urls:
+                known_skipped += 1
+                continue
+            if norm in excluded:
+                excluded_skipped += 1
+                continue
         key = normalize_news_title(title)
         if key in seen_keys:
             seen_keys[key][0] += 1
             continue
-        entry = [1, extra, title, strip_fragment(url)]
+        entry = [1, extra, title, clean_url]
         seen_keys[key] = entry
         kept.append(entry)
 
@@ -371,6 +410,10 @@ def print_items(name, rows, limit):
         suffix += f", {noise_counts['crime']} crime-noise filtered"
     if noise_counts.get("stock"):
         suffix += f", {noise_counts['stock']} stock-noise filtered"
+    if known_skipped:
+        suffix += f", {known_skipped} already-in-articles.json skipped"
+    if excluded_skipped:
+        suffix += f", {excluded_skipped} previously-excluded skipped"
     print(f"\n=== {name} ({len(kept)} shown / {len(rows)} total{suffix}) ===")
     for count, extra, title, url in kept[:limit]:
         dup = f" (x{count})" if count > 1 else ""
@@ -378,7 +421,7 @@ def print_items(name, rows, limit):
         print(f"{prefix}{trunc(title, 70)}{dup} | {url}")
 
 
-def list_source(name, limit=80):
+def list_source(name, limit=80, skip_known=True):
     if name == "gnews":
         text = fetch(
             "https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja"
@@ -391,7 +434,7 @@ def list_source(name, limit=80):
             pub = re.search(r"<pubDate>(.*?)</pubDate>", it, re.S)
             pub = pub.group(1)[:16] if pub else ""
             rows.append((pub, title, link))
-        print_items("gnews", rows, limit)
+        print_items("gnews", rows, limit, skip_known=skip_known)
         return
     if name == "ceek":
         items = extract(
@@ -399,24 +442,26 @@ def list_source(name, limit=80):
             lambda h: h and h.startswith("http") and "ceek.jp" not in h,
         )
         rows = [(None, t, href) for t, href in items]
-        print_items("ceek", rows, limit)
+        print_items("ceek", rows, limit, skip_known=skip_known)
         return
     cfg = SOURCES[name]
     items = extract(cfg["url"], cfg["href_filter"], cfg["base"])
     rows = [(None, t, href) for t, href in items]
-    print_items(name, rows, limit)
+    print_items(name, rows, limit, skip_known=skip_known)
 
 
 def cmd_list(args):
+    skip_known = "--all" not in args
+    args = [a for a in args if a != "--all"]
     target = args[0] if args else "all"
     if target == "all":
         for name in list(SOURCES) + ["gnews", "ceek"]:
             try:
-                list_source(name)
+                list_source(name, skip_known=skip_known)
             except Exception as e:
                 print(f"\n=== {name} ERROR: {e}")
     else:
-        list_source(target, limit=200)
+        list_source(target, limit=200, skip_known=skip_known)
 
 
 def cmd_detail(args):
@@ -499,6 +544,30 @@ def normalize_source_url(url):
         query_items.append((key_l, value))
     query = urllib.parse.urlencode(sorted(query_items))
     return urllib.parse.urlunsplit((scheme, netloc, path, query, ""))
+
+
+def load_existing_source_urls():
+    """Normalized set of every sources[].url and image.sourceUrl already in
+    articles.json. Used by list_source to auto-skip candidates that were
+    already harvested under this exact URL, so a repeat pass over the same
+    primary/aggregator sources doesn't re-surface hundreds of already-written
+    items (collabocafe/kotobukiya/gamers/atre/etc. reuse stable URLs across
+    passes; gnews/ceek do NOT because they wrap a fresh Google News redirect
+    token each crawl, so this optimization mainly helps the non-news sources)."""
+    if not ARTICLES_JSON.exists():
+        return set()
+    articles = json.loads(ARTICLES_JSON.read_text(encoding="utf-8"))
+    urls = set()
+    for a in articles:
+        for src in a.get("sources", []) or []:
+            norm = normalize_source_url(src.get("url", ""))
+            if norm:
+                urls.add(norm)
+        img = a.get("image") or {}
+        norm = normalize_source_url(img.get("sourceUrl", ""))
+        if norm:
+            urls.add(norm)
+    return urls
 
 
 def cmd_dedup(candidates):
