@@ -2,6 +2,7 @@ import Link from "next/link"
 import Script from "next/script"
 import { absoluteUrl, siteDescription, siteName, siteUrl } from "lib/site"
 import { LanguageProvider } from "components/language-provider"
+import { AdsenseVignetteCleanup } from "components/adsense-vignette-cleanup"
 import "../reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
@@ -99,6 +100,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
       </head>
       <body>
         <LanguageProvider>
+          <AdsenseVignetteCleanup />
           <Script
             src="https://news.google.com/swg/js/v1/swg-basic.js"
             strategy="afterInteractive"
