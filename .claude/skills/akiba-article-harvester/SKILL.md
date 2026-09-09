@@ -14,188 +14,181 @@ metadata:
 
 # Akiba Article Harvester
 
-Find new Akihabara article candidates from a fixed set of sources, avoid duplicates, then create as many verified article entries as practical using the repo's article format. Candidates include events and non-event "秋葉原で起こった出来事" such as shop openings, renewals, closures, campaigns, notable product/store launches, area changes, local services, incidents, public notices, announcements, and culture/news items tied clearly to Akihabara.
+Find new Akihabara article candidates from a fixed set of sources, dedupe, then create verified article entries. Candidates include events and non-event "秋葉原で起こった出来事": shop openings, renewals, closures, campaigns, notable product/store launches, area changes, local services, incidents, public notices, culture/news tied to Akihabara.
 
-Use this skill before `$event-article-writer` when the user asks to "秋葉原の記事を作成", "秋葉原で起こった出来事を拾う", "秋葉原ニュースを拾う", "イベントを拾う", "新規記事候補を探す", "巡回して追加", or provides one of the source-list pages instead of a specific event page.
+Use before `$event-article-writer` when asked "秋葉原の記事を作成", "秋葉原で起こった出来事を拾う", "秋葉原ニュースを拾う", "イベントを拾う", "新規記事候補を探す", "巡回して追加", or given a source-list page instead of a specific event page.
 
 ## Quick Start
 
 1. Read [references/source-list.md](references/source-list.md).
-2. Browse sources by delegating to the `web-scraper` agent (see [Scraping Delegation](#scraping-delegation)), which runs `scripts/harvest.py` (see [Harvest Script](#harvest-script) below), not WebFetch — WebFetch in this environment gets redirected/throttled by the context-mode MCP plugin and burns several tool calls before failing. `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all` covers every primary/aggregator source in one pass. Still run X.com live search and news/discovery sources separately (the script doesn't cover those) for broad harvesting.
-3. Build a candidate queue before writing. Aim for as many solid candidates as possible; do not cap the batch at 5-10 when more verified candidates are available. Stop only when sources are exhausted or verification is blocked.
-4. Extract candidate items that clearly relate to Akihabara, nearby Kanda/Ochanomizu/Iwamotocho when relevant, or venues already covered by the site. Include both event items and non-event local happenings / "秋葉原で起こった出来事".
-5. Deduplicate the whole queue with `python3 scripts/harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) before drafting new articles — do this BEFORE deep fact-checking, since most rejections happen here. Always include the source URL used for discovery/confirmation so the dedup check can compare against existing `sources[].url`.
-6. For each remaining candidate, confirm facts by delegating the `harvest.py detail "<url>"` fetches to the `web-scraper` agent (batch all remaining URLs into one delegation): date or announcement timing, location, operator/organizer, price or user impact when applicable, reservation/ticket rules when applicable, and image. Keep every source page used to find or confirm the candidate.
-7. Add all verified non-duplicate articles in one edit batch following `$event-article-writer` rules. Include official/reference links in `sources` so the article detail page can render them. Set `authorId` to `1` on every new article, then run `pnpm run validate:articles` for a fast structural check and fix anything it reports, then verify once with `pnpm build`.
+2. Delegate to `web-scraper` agent (see [Scraping Delegation](#scraping-delegation)): run `scripts/harvest.py` (see [Harvest Script](#harvest-script)), not WebFetch — WebFetch here gets redirected/throttled by context-mode and burns tool calls before failing. `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all` covers every primary/aggregator source in one pass. Run X.com live search and news/discovery sources separately — the script doesn't cover those.
+3. Build a candidate queue. Maximize verified candidates; don't cap at 5-10. Stop only when sources are exhausted or verification is blocked.
+4. Extract candidates clearly tied to Akihabara, adjacent Kanda/Ochanomizu/Iwamotocho, or venues the site already covers. Include both events and non-event local happenings.
+5. Dedupe the whole queue with `harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) BEFORE deep fact-checking — most rejections happen here. Always include the discovery/confirmation source URL so dedup can compare against `sources[].url`.
+6. For each remaining candidate, delegate `harvest.py detail "<url>"` fetches to `web-scraper` (batch all URLs into one delegation): date/announcement timing, location, operator/organizer, price/user impact, reservation/ticket rules, image. Keep every source page used.
+7. Add all verified non-duplicate articles in one edit batch per `$event-article-writer`. Include official/reference links in `sources`. Set `authorId: 1` on every new article. Run `pnpm run validate:articles`, fix anything reported, then `pnpm build` once.
 
 ## Scraping Delegation
 
-Fetching and extraction run on the cheap `web-scraper` agent (Haiku), not in the main context. Raw listing/detail output never enters the main conversation — only the structured candidate JSON the agent returns.
+Fetching/extraction run on the cheap `web-scraper` agent (Haiku) — raw listing/detail output never enters the main conversation, only structured candidate JSON.
 
-Delegate these:
+Delegate:
+- **Listing sweep** (step 2): one `Agent` call, `subagent_type: "web-scraper"`, `harvest.py list all` + X.com/news sources, returning each candidate as `{source_url, title, date_text}`.
+- **Detail confirmation** (step 6): one `Agent` call with all remaining candidate URLs, returning date/venue/price/official URL/image URL/summary per URL.
 
-- **Listing sweep** (step 2): one `Agent` call, `subagent_type: "web-scraper"`, asking for `harvest.py list all` plus any X.com / news sources, returning every candidate as `{source_url, title, date_text}`.
-- **Detail confirmation** (step 6): one `Agent` call with all remaining candidate URLs, returning the full default schema (date, venue, price, official URL, image URL, summary) per URL.
+Keep in main context (editorial/state-changing, not scraping): dedup + hold/reject decisions, `harvest.py exclude` logging, all `data/articles.json` edits, image placement, `validate:articles`, `pnpm build`.
 
-Keep in the main context (these are editorial/state-changing, not scraping):
-
-- Dedup (`harvest.py dedup`) and the hold/reject decision.
-- `harvest.py exclude` logging.
-- All `data/articles.json` edits, image placement, `validate:articles`, `pnpm build`.
-
-Give the agent explicit URLs and the exact fields wanted. It does not judge scope, duplicates, or article-worthiness — that stays here.
+Give the agent explicit URLs and exact fields wanted — it doesn't judge scope, duplicates, or article-worthiness.
 
 ### Avoiding the ls-noise hook
 
-A PreToolUse hook in this environment prepends a full directory listing to raw Bash stdout, which burns context fast across many harvest calls. Always redirect script output to a temp file and read it back with the Read tool instead of letting it print directly:
+A PreToolUse hook here prepends a full directory listing to raw Bash stdout, burning context across harvest calls. Redirect script output to a temp file and Read it back instead of letting it print directly:
 
 ```
 python3 .claude/skills/akiba-article-harvester/scripts/harvest.py list all > /tmp/harvest_out.txt 2>&1
 ```
-Then `Read` `/tmp/harvest_out.txt`. This applies to every `harvest.py` invocation below.
+Then `Read` `/tmp/harvest_out.txt`. Applies to every `harvest.py` call below.
 
 ### DNS / Network Failures
 
-Article sources often fail inside agent sandboxes with temporary DNS or network errors. The harvest script retries transient failures automatically (3 attempts with backoff). When output contains `FETCH FAILED after retries` or DNS messages such as `Temporary failure in name resolution`, rerun the exact same `harvest.py` command with escalated network permissions instead of switching to manual one-off fetching.
+Sources often fail in agent sandboxes with transient DNS/network errors. The script retries automatically (3 attempts, backoff). On `FETCH FAILED after retries` or DNS errors like `Temporary failure in name resolution`, rerun the same `harvest.py` command with escalated network permissions rather than switching to manual fetching.
 
-Use the same rule for images: prefer `curl -L --retry 3 --retry-delay 2 --connect-timeout 10 "<image-url>" -o public/images/articles/<slug>.<ext>`. If `curl` fails with DNS/network sandbox errors, rerun the exact command with escalated network permissions.
+Same for images: prefer `curl -L --retry 3 --retry-delay 2 --connect-timeout 10 "<image-url>" -o public/images/articles/<slug>.<ext>`; on DNS/sandbox failure, rerun with escalated network permissions.
 
 ## Harvest Script
 
-`scripts/harvest.py` bakes in the source-specific parsing fixes found in past runs (wrong href shapes, titles hidden in `title=""` attributes instead of link text, stale archived listings, etc — see comments in the script). Four subcommands:
+`scripts/harvest.py` bakes in source-specific parsing fixes from past runs (wrong href shapes, titles hidden in `title=""` attrs, stale archived listings — see script comments). Four subcommands:
 
-- `list <source|all>` — candidate `(title, url)` pairs for one source name from `references/source-list.md` (`atre`, `shosen`, `prtimes`, `walkerplus`, `collabocafe`, `gamers`, `enjoytokyo`, `akibapc_info`, `akibapc_event`, `animate`, `amiami_realstore`, `kotobukiya`, `mogra`, `akihabara_zest`, `akihabara_galaxy`, `club_goodman`, `gnews`, `ceek`), or `all`. Every source collapses syndicated title duplicates (same story, multiple outlets — common on gnews/ceek) to one row with an `(xN)` count, and drops rows that are obviously out of scope per this file's Candidate Rules (crime/incident stories with no local-impact angle, routine used-electronics price posts with no event/opening/closing/collab angle) — the header line reports `(N shown / M total, K crime-noise filtered, K stock-noise filtered)` so you know what was dropped. This is a heuristic on title text only; if a harvesting pass seems to be missing something, rerun `list <source>` directly and check the total count against what got filtered.
-- `detail <url>...` — fetches one or more detail pages and prints `TITLE` / `OGIMG` / `OGDESC` / `FACTS` (date, venue, price, reservation lines). Use this for step 6 instead of WebFetch. Prints a warning if the page mentions 神保町/グランデ (the shosen Jimbocho store — out of Akihabara scope).
-- `dedup <candidate>...` — see Duplicate Check below. Also checks each candidate against `references/excluded-candidates.jsonl` (see [Excluded Candidates Log](#excluded-candidates-log)) and prints `PREVIOUSLY EXCLUDED (<reason>, checked <date>)` when a match is found, so a held/rejected URL from an earlier session doesn't get re-researched.
+- `list <source|all>` — candidate `(title, url)` pairs for one source (`atre`, `shosen`, `prtimes`, `walkerplus`, `collabocafe`, `gamers`, `enjoytokyo`, `akibapc_info`, `akibapc_event`, `animate`, `amiami_realstore`, `kotobukiya`, `mogra`, `akihabara_zest`, `akihabara_galaxy`, `club_goodman`, `gnews`, `ceek`) or `all`. Collapses syndicated title duplicates (same story, multiple outlets — common on gnews/ceek) to one row with `(xN)`, and drops out-of-scope rows per [Candidate Rules](#candidate-rules) (crime/incident with no local-impact angle, routine stock/restock posts with no event/opening/closing/collab angle). Header reports `(N shown / M total, K crime-noise filtered, K stock-noise filtered)`. Heuristic on title text only — if a pass seems to miss something, rerun `list <source>` and check total vs filtered.
+- `detail <url>...` — fetches detail page(s), prints `TITLE`/`OGIMG`/`OGDESC`/`FACTS` (date, venue, price, reservation lines). Use for step 6 instead of WebFetch. Warns if page mentions 神保町/グランデ (shosen Jimbocho store — out of scope).
+- `dedup <candidate>...` — see [Duplicate Check](#duplicate-check). Also checks `references/excluded-candidates.jsonl` and prints `PREVIOUSLY EXCLUDED (<reason>, checked <date>)` so a held/rejected URL isn't re-researched.
 - `exclude "<url>" "<reason>" "<note>"` — append one held/rejected candidate to `references/excluded-candidates.jsonl`. See [Excluded Candidates Log](#excluded-candidates-log).
 
-If a source's HTML structure changes and extraction breaks, fix the relevant entry in `SOURCES` (or the `gnews`/`ceek` branches) in the script directly rather than reverting to ad-hoc regex in the conversation — keeping the fix in the script means the next run benefits too.
+If a source's HTML structure changes and extraction breaks, fix the relevant `SOURCES` entry (or `gnews`/`ceek` branch) in the script directly — keeps the fix for future runs.
 
 ## Excluded Candidates Log
 
-`references/excluded-candidates.jsonl` records every candidate URL that was researched and then held or rejected — not because it duplicates an existing article (that's what `sources[].url` in `data/articles.json` already covers), but because it was out of scope, already ended, or otherwise not worth an article. Without this log, the same low-value URL gets re-fetched and re-evaluated every harvesting pass.
+`references/excluded-candidates.jsonl` records every researched candidate URL that was held/rejected — not a duplicate (that's `sources[].url` in `data/articles.json`), but out of scope, ended, or not worth an article. Without it, the same low-value URL gets re-fetched and re-evaluated every pass.
 
-- One JSON object per line: `{"url": "...", "reason": "...", "note": "...", "checked": "YYYY-MM-DD"}`.
-- `reason` is a short machine-friendly tag. Use one of: `out_of_scope_venue` (e.g. shosen Jimbocho/Grande, not Akihabara), `event_ended` (dated event whose period is already over), `not_akihabara_specific` (real event/campaign but tied to a non-Akihabara location or a generic national campaign), `insufficient_facts` (source page lacked confirmable core facts), `low_value` (in-scope but judged not worth an article — ordinary stock/restock news, etc).
-- `dedup` automatically checks candidate URLs (and `keyword|url` pairs) against this log via normalized-URL match and prints `PREVIOUSLY EXCLUDED` — treat that the same as a duplicate signal: skip deep fact-checking unless something material changed (e.g. an `insufficient_facts` entry where a follow-up source now has the missing facts, or an `event_ended` entry that turns out to be a new run of a recurring event at a new venue/date).
-- After deciding to hold or reject a candidate during a harvesting pass, log it immediately: `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py exclude "<url>" "<reason>" "<short note>"`. Do this for every `保留` item, not just a summary at the end — logging happens per-candidate as you triage the queue.
-- Do not log a candidate here if it turned out to be a duplicate of an existing article — that case is already covered by `sources[].url` in `data/articles.json`, and `dedup`'s `SOURCE URL MATCH` / slug-token checks already catch it on the next pass.
+- One JSON object/line: `{"url": "...", "reason": "...", "note": "...", "checked": "YYYY-MM-DD"}`.
+- `reason` values: `out_of_scope_venue` (e.g. shosen Jimbocho/Grande), `event_ended` (period already over), `not_akihabara_specific` (real event tied to non-Akihabara location or generic national campaign), `insufficient_facts` (source lacked confirmable core facts), `low_value` (in-scope but not worth an article).
+- `dedup` auto-checks candidate URLs (and `keyword|url`) against this log and prints `PREVIOUSLY EXCLUDED` — treat as a duplicate signal: skip deep fact-checking unless something material changed (e.g. `insufficient_facts` with a new source now confirming facts, or `event_ended` that's actually a new run at a new venue/date).
+- Log immediately after holding/rejecting during a pass: `python3 .claude/skills/akiba-article-harvester/scripts/harvest.py exclude "<url>" "<reason>" "<short note>"`. Do this per-candidate, not just a summary at the end.
+- Don't log a candidate that turned out to be a duplicate of an existing article — `sources[].url` already covers that; `dedup`'s `SOURCE URL MATCH`/slug-token checks catch it next pass.
 
 ## X.com Discovery
 
-- Include X.com live search in every broad harvesting pass, using the source-list URL and keyword variants such as `秋葉原 イベント`, `秋葉原 コラボ`, `秋葉原 ポップアップ`, `秋葉原 オープン`, `秋葉原 閉店`, `秋葉原 ニュース`, `秋葉原 出来事`, `秋葉原 話題`, `アキバ イベント`, `AKIHABARA POP UP`, and venue names.
-- Treat X.com as discovery or supporting evidence only. Do not create an article from an unverified tweet alone.
-- Prefer posts from official venue, shop, organizer, publisher, label, or brand accounts. Drop posts from fan accounts, repost aggregators, or anonymous accounts unless they link to an official page.
-- When X reveals a candidate, search the exact event title, account name, venue, date, and linked domain to find a primary source. Write only after confirming date, venue, price or admission, reservation or ticket rules, and usable image from official/primary sources.
-- Record an X.com source only when the official account post confirms a fact that is not fully covered elsewhere, or when it is the discovery source and the article also has a primary confirmation source.
-- If X.com blocks browsing or login is unavailable, fall back to web search queries targeting `x.com` and official sites, then report X.com as blocked only if no usable view or search result is available.
+- Include X.com live search in every broad pass: source-list URL plus keyword variants (`秋葉原 イベント`, `秋葉原 コラボ`, `秋葉原 ポップアップ`, `秋葉原 オープン`, `秋葉原 閉店`, `秋葉原 ニュース`, `秋葉原 出来事`, `秋葉原 話題`, `アキバ イベント`, `AKIHABARA POP UP`) and venue names.
+- X.com is discovery/supporting evidence only — never write an article from an unverified tweet alone.
+- Prefer official venue/shop/organizer/publisher/label/brand accounts. Drop fan accounts, repost aggregators, anonymous accounts unless linking to an official page.
+- When X reveals a candidate, search the exact title/account/venue/date/domain for a primary source. Write only after confirming date, venue, price/admission, reservation/ticket rules, and usable image from official/primary sources.
+- Record an X.com source only when the official post confirms a fact not covered elsewhere, or as the discovery source alongside a primary confirmation source.
+- If X.com blocks browsing/login, fall back to web search targeting `x.com` and official sites; report X.com blocked only if no usable result is found.
 
 ## Bulk Harvesting Bias
 
-- Default behavior is "maximize safe additions": add every candidate that is in scope, non-duplicate, and fact-confirmed. When many candidates are available, process them all in one pass — do not defer to a later run.
-- Do not ask the user to pick from candidates unless there are too many low-confidence options or the sources conflict.
-- Favor candidates with complete facts and usable images. Skip uncertain candidates rather than slowing the batch.
-- When time or source quality forces a limit, prioritize near-future events, official/primary sources, clear Akihabara venues, and distinct article variety.
-- Make one JSON edit batch for all selected candidates, save all images, then run one build.
+- Default: maximize safe additions — add every in-scope, non-duplicate, fact-confirmed candidate, all in one pass.
+- Don't ask the user to pick unless too many low-confidence options or conflicting sources.
+- Favor complete facts and usable images; skip uncertain candidates rather than slowing the batch.
+- Under time/quality pressure, prioritize near-future events, official/primary sources, clear Akihabara venues, distinct article variety.
+- One JSON edit batch for all selected candidates, save all images, one build.
 
 ## Candidate Rules
 
 Include:
 - Events, fairs, pop-ups, collaborations, campaigns, exhibits, performances, signings, workshops, and other scheduled visitor-facing activities.
-- Non-event Akihabara happenings / 秋葉原で起こった出来事: store openings, reopenings, renewals, relocations, closures, service launches, notable local product launches, local campaigns, building or area changes, facility updates, public notices, incidents with clear public impact, culture/news items, and other local changes with clear reader value.
-- Items happening in or materially affecting Akihabara proper, around Akihabara Station, Suehirocho, Kanda, Awajicho/Ochanomizu, Iwamotocho, or Akihabara-adjacent venues used by existing articles.
-- Online reservation, ticket, preorder, or application pages only when the physical venue, store, pickup point, or local action is in scope.
+- Non-event happenings: store openings/reopenings/renewals/relocations/closures, service launches, notable local product launches, local campaigns, building/area changes, facility updates, public notices, incidents with clear public impact, culture/news with clear reader value.
+- Items in or materially affecting Akihabara proper, around Akihabara Station, Suehirocho, Kanda, Awajicho/Ochanomizu, Iwamotocho, or venues already used by existing articles.
+- Reservation/ticket/preorder/application pages only when the physical venue/store/pickup point/local action is in scope.
 
 Exclude:
-- Ordinary PC/electronics stock arrivals, restocks, or sales (入荷・販売情報) with no collaboration or event angle — e.g. GPU/CPU restocks, parts sales, junk lots, price drops at PC shops. Include only when tied to a collaboration, event, store opening/closure, or other notable local happening.
+- Ordinary PC/electronics stock arrivals, restocks, sales (入荷・販売情報) with no collab/event angle — e.g. GPU/CPU restocks, parts sales, junk lots, price drops. Include only when tied to a collab, event, opening/closure, or other notable local happening.
 - Generic national campaigns with no specific Akihabara venue.
-- Pure press releases with no local action, local venue/store, local impact, or Akihabara-specific reader value.
-- Crime, accident, or emergency items whose only value is sensational detail; include only when there is clear local public impact such as closures, access restrictions, safety notices, or major service changes.
-- Items already covered in `data/articles.json`.
-- Items with missing core facts when no reliable source can confirm them. For events, date and venue are required. For non-events, announcement/opening/effective date, location or affected Akihabara entity, and concrete user impact are required.
+- Pure press releases with no local action/venue/impact/Akihabara-specific reader value.
+- Crime/accident/emergency items whose only value is sensational detail; include only with clear local public impact (closures, access restrictions, safety notices, major service changes).
+- Items already in `data/articles.json`.
+- Items with missing core facts no reliable source can confirm. Events need date + venue. Non-events need announcement/effective date, location/affected entity, and concrete user impact.
 
 ## Duplicate Check
 
-**Title-keyword search alone under-detects duplicates.** This repo's articles are usually titled formally/officially (e.g. `「オタクに優しいギャルはいない!?」POP UP SHOPがボークス秋葉原ホビー天国2で開催`), while aggregators use colloquial nicknames (e.g. collabocafe's `オタギャル`). A plain `rg` for the colloquial keyword finds nothing even though the event was already added last run. Discovering this cost most of a harvesting session once — don't re-learn it.
+**Title-keyword search alone under-detects duplicates.** Articles here are usually titled formally/officially (e.g. `「オタクに優しいギャルはいない!?」POP UP SHOPがボークス秋葉原ホビー天国2で開催`) while aggregators use colloquial nicknames (e.g. collabocafe's `オタギャル`) — a plain `rg` for the colloquial keyword finds nothing even if already added. Don't re-learn this the expensive way.
 
-Before writing, for every candidate in the queue, run one batched check (not one `rg` call per keyword):
+Before writing, for every candidate, run one batched check:
 
 ```
 python3 .claude/skills/akiba-article-harvester/scripts/harvest.py dedup \
   "<keyword1>|<source-url-1>" "<keyword2>|<source-url-2>" ... > /tmp/dedup_out.txt 2>&1
 ```
 
-Then `Read` `/tmp/dedup_out.txt`. This checks three things at once per candidate:
-1. Japanese keyword as a substring of existing `title`/`summary`/`content`.
-2. Romanized tokens pulled from the candidate's own source URL (aggregator URLs already carry an English slug hint, e.g. `.../otagal-animal-butler-and-maid-popup-store-akihabara2026/`) against existing article `slug`s.
-3. The same tokens against filenames already saved under `public/images/articles/` — images can exist for an article you haven't otherwise matched yet.
+Then `Read` `/tmp/dedup_out.txt`. Checks per candidate:
+1. Japanese keyword as substring of existing `title`/`summary`/`content`.
+2. Romanized tokens from the candidate's own source URL (aggregator URLs carry an English slug, e.g. `.../otagal-animal-butler-and-maid-popup-store-akihabara2026/`) against existing article `slug`s.
+3. Same tokens against filenames under `public/images/articles/`.
 
-A match is a heuristic signal, not proof — open the existing article and compare dates/venue before concluding it's a true duplicate (multi-run franchises legitimately get a new pop-up every few months at the same venue).
+A match is a heuristic signal, not proof — open the existing article and compare dates/venue before concluding it's a true duplicate (multi-run franchises legitimately get a new pop-up periodically at the same venue).
 
 Additional checks:
-- Compare source URLs and event IDs such as WalkerPlus `/event/ar0313e.../`, LivePocket `/e/...`, Atre `/news/...`.
-- Treat `SOURCE URL MATCH` from `harvest.py dedup` as an existing article unless the source page clearly changed to a different event. Do not create a new article.
-- If the source URL does not match but the same event/news item already exists by title, slug/image token, venue/date, performer, campaign name, product name, or official event ID, do not create another article.
-- When a duplicate exists, merge into the existing article: add any newly found source URL to `sources`, add newly confirmed facts to `summary`/`content`/`event` when useful, keep or replace the image only if the new one is better, and preserve the existing slug unless the user explicitly asks to rename.
-- Deduplicate sources by normalized URL before saving. Normalize by removing fragments, common tracking parameters (`utm_*`, `fbclid`, `gclid`, etc.), trailing slashes, and obvious mobile/desktop variants.
-- Report merged duplicates under `重複`/`マージ`, including the existing slug. Do not report them as skipped when you added source/content to the existing article.
-- When harvesting many items, maintain a temporary duplicate ledger: `new`, `duplicate`, `hold`. Only `new` candidates are written as articles.
-- Run the dedup batch a second time right before final edits with the full selected list, to catch late duplicates revealed mid-session.
-- Every `hold`/rejected candidate (out-of-scope venue, event already ended, not Akihabara-specific, insufficient facts, judged low-value) must be logged to `references/excluded-candidates.jsonl` via `harvest.py exclude` — see [Excluded Candidates Log](#excluded-candidates-log). This is what makes the next harvesting pass skip re-researching the same rejected URL.
+- Compare source URLs/event IDs (WalkerPlus `/event/ar0313e.../`, LivePocket `/e/...`, Atre `/news/...`).
+- Treat `SOURCE URL MATCH` as an existing article unless the source page clearly changed to a different event — don't create a new article.
+- If the source URL doesn't match but the same item exists by title, slug/image token, venue/date, performer, campaign/product name, or official event ID, don't create another article.
+- On a duplicate, merge into the existing article: add any new source URL to `sources`, add newly confirmed facts to `summary`/`content`/`event` when useful, keep/replace the image only if better, preserve the existing slug unless the user asks to rename.
+- Dedupe `sources` by normalized URL: strip fragments, tracking params (`utm_*`, `fbclid`, `gclid`, etc.), trailing slashes, mobile/desktop variants.
+- Report merged duplicates under `重複`/`マージ` with the existing slug — not as skipped when source/content was added.
+- When harvesting many items, maintain a temporary ledger: `new`/`duplicate`/`hold`. Only `new` gets written.
+- Rerun the dedup batch once more right before final edits with the full selected list, to catch late duplicates.
+- Every `hold`/rejected candidate must be logged to `references/excluded-candidates.jsonl` via `harvest.py exclude` — see [Excluded Candidates Log](#excluded-candidates-log). This is what makes the next pass skip re-researching it.
 
 ## Source Recording
 
-- Every article created through this skill must keep discovery and confirmation sources in `sources`.
-- Save all source pages actually used: source-list/discovery page, aggregator page, primary/official page, ticket page, venue page, press release, and official SNS page when it confirms facts.
-- If an official URL, reference URL, ticket URL, venue URL, or official SNS URL exists, add it to `sources`; the site renders these as article links under `公式URL・参考URL`.
-- Always try to find a primary/official URL when the candidate comes from an aggregator. Do not rely on aggregator-only sources unless no official page can be found after searching the exact event title, venue, organizer, and date.
-- When `image.sourceUrl` points to an official/reference page that is not already in `sources`, add the same URL to `sources` too.
-- Prefer putting primary/official sources first, then ticket/venue pages, then aggregators/discovery pages.
-- When the same event is found from multiple sources, keep multiple entries in `sources`; do not replace the earlier source.
-- Deduplicate sources by normalized URL. Ignore trailing slashes, tracking parameters, and obvious mobile/desktop variants.
-- Use clear labels such as `公式サイト`, `公式ニュース`, `TIGET イベントページ`, `アトレ秋葉原 公式ニュース`, `店舗公式ブログ`, `PR TIMES プレスリリース`, or `Collabo Cafe 記事`.
+- Every article keeps discovery/confirmation sources in `sources`.
+- Save all source pages actually used: source-list/discovery page, aggregator page, primary/official page, ticket page, venue page, press release, official SNS page when it confirms facts.
+- Add official/reference/ticket/venue/SNS URLs to `sources` when they exist — the site renders these under `公式URL・参考URL`.
+- Always try to find a primary/official URL when the candidate comes from an aggregator. Rely on aggregator-only sources only when no official page is found after searching the exact title, venue, organizer, date.
+- When `image.sourceUrl` points to an official/reference page not already in `sources`, add it too.
+- Order: primary/official first, then ticket/venue, then aggregators/discovery.
+- Keep multiple `sources` entries when the same event has multiple sources — don't replace the earlier one.
+- Dedupe sources by normalized URL (ignore trailing slashes, tracking params, mobile/desktop variants).
+- Use clear labels: `公式サイト`, `公式ニュース`, `TIGET イベントページ`, `アトレ秋葉原 公式ニュース`, `店舗公式ブログ`, `PR TIMES プレスリリース`, `Collabo Cafe 記事`, etc.
 
 ## Source Priority
 
-Prefer primary or official sources over aggregators:
+1. Official event/campaign/venue/shop/ticket page, official store/company announcement, public notice.
+2. Official SNS or press release.
+3. Aggregators (WalkerPlus, Enjoy Tokyo, Collabo Cafe, PR TIMES) only when they clearly attribute details.
 
-1. Official event/campaign page, venue page, shop page, ticket page, official store/company announcement, or public notice.
-2. Official SNS or official press release.
-3. Aggregators such as WalkerPlus, Enjoy Tokyo, Collabo Cafe, PR TIMES, only when they clearly attribute details.
+When an aggregator reveals an event but not enough facts, search the exact title/venue for a primary source.
 
-When an aggregator reveals an event but not enough facts, search the exact event title and venue to find a primary source.
+### Per-source gotchas (already baked into `scripts/harvest.py`, matters when reading its output)
 
-### Per-source gotchas (already baked into `scripts/harvest.py`, but matters when reading its output)
-
-- **shosen**: the `/event/` listing mixes 書泉ブックタワー (Akihabara, in scope) and 書泉グランデ (Jimbocho, out of scope) — the listing page doesn't say which. Always run `harvest.py detail` on the event URL and check for the 神保町/グランデ warning before writing.
-- **gamers**: `event_fair/list.php` mixes current fairs (detail `id` roughly 7000+) with years-old archived ones (`id` in the low hundreds). Always confirm the actual 開催期間 on the detail page is current/future before treating it as a candidate.
-- **collabocafe**: the `/events/tag/akihabara/` page includes non-Akihabara legs of multi-city tours (Osaka, Nagoya, Shinjuku, Ikebukuro, etc). Confirm the Akihabara venue explicitly in the detail page's `OGDESC`/`FACTS` before writing — don't assume every item tagged "akihabara" is actually there.
-- **walkerplus / enjoytokyo**: area-filtered listings are noisy — many results are Tokyo-wide, not Akihabara-specific. Treat as low-precision; verify venue text explicitly before including.
-- **AKIBA PC Hotline!**: high-value discovery but often aggregates several small items in one article. Split into separate articles only when each item has enough facts and clear reader value; otherwise use as a supporting discovery/source.
-- **live house schedules**: include normal live events too, not only anime/game-adjacent ones, as long as the venue is in scope and date, price, performers, and visitor-facing details are clear.
+- **shosen**: `/event/` listing mixes 書泉ブックタワー (Akihabara, in scope) and 書泉グランデ (Jimbocho, out of scope) without saying which. Always run `harvest.py detail` on the event URL and check for the 神保町/グランデ warning before writing.
+- **gamers**: `event_fair/list.php` mixes current fairs (detail `id` ~7000+) with years-old archived ones (`id` in the low hundreds). Confirm the actual 開催期間 on the detail page is current/future before treating as a candidate.
+- **collabocafe**: `/events/tag/akihabara/` includes non-Akihabara legs of multi-city tours (Osaka, Nagoya, Shinjuku, Ikebukuro, etc). Confirm the Akihabara venue explicitly in the detail page's `OGDESC`/`FACTS` — don't assume every "akihabara"-tagged item is actually there.
+- **walkerplus / enjoytokyo**: area-filtered listings are noisy — many results are Tokyo-wide, not Akihabara-specific. Low-precision; verify venue text explicitly.
+- **AKIBA PC Hotline!**: high-value discovery but often aggregates several small items in one article. Split into separate articles only when each has enough facts and clear reader value; otherwise use as supporting discovery/source.
+- **live house schedules**: include normal live events too, not only anime/game-adjacent, as long as venue is in scope and date/price/performers/visitor-facing details are clear.
 
 ## Output When Harvesting
 
-If the user asks to add articles, implement them directly.
+If asked to add articles, implement directly.
 
-If many candidates are found, keep the response compact:
+Keep the response compact:
 - `追加`: slugs created
 - `重複`: existing slugs or titles
-- `保留`: reason, such as missing source, unclear venue, or no image (each one should already be logged to `references/excluded-candidates.jsonl` per [Excluded Candidates Log](#excluded-candidates-log))
+- `保留`: reason (missing source, unclear venue, no image — each already logged to `references/excluded-candidates.jsonl`)
 - `確認`: `pnpm run validate:articles` and `pnpm build` result
 
-Do not list every discovered candidate when many were rejected. Report only useful outcomes: added, duplicate, held, and verification.
+Don't list every rejected candidate — report only added, duplicate, held, and verification.
 
 ## Writing Handoff
 
 For each selected candidate, follow `$event-article-writer`:
 - Use `data/articles.json` schema.
-- Save article images under `public/images/articles/`.
+- Save images under `public/images/articles/`.
 - Use placeholder handling only when no usable image exists.
 - Add official/reference source URLs in `sources`.
-- Include `en` field with English translations of `title`, `summary`, and `content`.
+- Include `en` field with English translations of `title`, `summary`, `content`.
 - Set `authorId: 1` on every new article.
-- Add `event` data only when the article is a dated event, campaign, opening, closure, or other item that should appear on `/events`. For ordinary news without a useful event-style date/location, omit `event`.
-- Update map coordinates in `components/events-map.tsx` when the venue/location should appear on `/events`.
-- Run `pnpm run validate:articles` after edits (fast structural check); fix anything it reports.
+- Add `event` data only for dated events/campaigns/openings/closures that should appear on `/events`; omit for ordinary news without a useful event-style date/location.
+- Update map coordinates in `components/events-map.tsx` when the venue should appear on `/events`.
+- Run `pnpm run validate:articles` after edits; fix anything reported.
 - Run `pnpm build` once after the whole batch is written and validated.
