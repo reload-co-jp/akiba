@@ -1164,6 +1164,7 @@ body {
 .events-map__pins {
   inset: 0;
   position: absolute;
+  z-index: 1000;
 }
 
 .events-map__pin {
@@ -2184,6 +2185,7 @@ body {
 .gourmet-map__pins {
   inset: 0;
   position: absolute;
+  z-index: 1000;
 }
 
 .gourmet-map__pin {
