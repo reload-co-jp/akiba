@@ -1,15 +1,17 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import dynamic from "next/dynamic"
 import Link from "next/link"
 import "leaflet/dist/leaflet.css"
+import type { DivIcon } from "leaflet"
 import { mapBounds } from "lib/venue-points"
 import { getCuisineLabel, hasDetailPage, type Spot } from "lib/spots"
 
 const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
   ssr: false,
 })
+const Marker = dynamic(() => import("react-leaflet").then((m) => m.Marker), { ssr: false })
 const GsiTileLayer = dynamic(
   () => import("components/gsi-tile-layer").then((m) => m.GsiTileLayer),
   { ssr: false },
@@ -19,10 +21,8 @@ type Props = {
   spots: Spot[]
 }
 
-const getPinPosition = (spot: Spot) => ({
-  left: `${((spot.lng! - mapBounds.west) / (mapBounds.east - mapBounds.west)) * 100}%`,
-  top: `${((mapBounds.north - spot.lat!) / (mapBounds.north - mapBounds.south)) * 100}%`,
-})
+const PIN_SIZE = 16
+const PIN_SIZE_ACTIVE = 20
 
 /**
  * Pins every gourmet spot on the map — with 500+ bulk-imported entries,
@@ -37,6 +37,33 @@ export const GourmetSpotMap = ({ spots }: Props) => {
 
   const [selectedId, setSelectedId] = useState(pinned[0]?.id)
   const selected = pinned.find((s) => s.id === selectedId) ?? pinned[0]
+
+  // 緯度経度→ピクセル位置の変換はLeafletに任せる(独自CSS計算はWebメルカトル図法の
+  // 歪みを考慮できずズレるため)。leafletはwindow参照を含みSSR不可なのでクライアントでのみロード
+  const [icons, setIcons] = useState<{ normal: DivIcon; active: DivIcon }>()
+  useEffect(() => {
+    let cancelled = false
+    import("leaflet").then((L) => {
+      if (cancelled) return
+      setIcons({
+        normal: new L.DivIcon({
+          className: "gourmet-map__pin-icon",
+          html: '<span class="gourmet-map__pin"></span>',
+          iconSize: [PIN_SIZE, PIN_SIZE],
+          iconAnchor: [PIN_SIZE / 2, PIN_SIZE],
+        }),
+        active: new L.DivIcon({
+          className: "gourmet-map__pin-icon",
+          html: '<span class="gourmet-map__pin gourmet-map__pin--active"></span>',
+          iconSize: [PIN_SIZE_ACTIVE, PIN_SIZE_ACTIVE],
+          iconAnchor: [PIN_SIZE_ACTIVE / 2, PIN_SIZE_ACTIVE],
+        }),
+      })
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   if (!selected) {
     return null
@@ -64,23 +91,17 @@ export const GourmetSpotMap = ({ spots }: Props) => {
           aria-label="秋葉原グルメスポットの地図"
         >
           <GsiTileLayer />
+          {icons &&
+            pinned.map((spot) => (
+              <Marker
+                key={spot.id}
+                position={[spot.lat!, spot.lng!]}
+                icon={spot.id === selected.id ? icons.active : icons.normal}
+                eventHandlers={{ click: () => setSelectedId(spot.id) }}
+                alt={`${spot.name}を表示`}
+              />
+            ))}
         </MapContainer>
-        <div className="gourmet-map__pins" aria-label="詳細ページがある店舗のピン">
-          {pinned.map((spot) => (
-            <button
-              key={spot.id}
-              type="button"
-              className={
-                spot.id === selected.id
-                  ? "gourmet-map__pin gourmet-map__pin--active"
-                  : "gourmet-map__pin"
-              }
-              style={getPinPosition(spot)}
-              onClick={() => setSelectedId(spot.id)}
-              aria-label={`${spot.name}を表示`}
-            />
-          ))}
-        </div>
       </div>
       <div className="gourmet-map__selected">
         <strong>{selected.name}</strong>

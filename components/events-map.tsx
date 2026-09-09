@@ -1,14 +1,16 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import dynamic from "next/dynamic"
 import "leaflet/dist/leaflet.css"
+import type { DivIcon } from "leaflet"
 import type { Article } from "lib/articles"
 import { mapBounds, getVenuePoint, type VenuePoint } from "lib/venue-points"
 
 const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
   ssr: false,
 })
+const Marker = dynamic(() => import("react-leaflet").then((m) => m.Marker), { ssr: false })
 const GsiTileLayer = dynamic(
   () => import("components/gsi-tile-layer").then((m) => m.GsiTileLayer),
   { ssr: false },
@@ -32,10 +34,8 @@ const extractAddress = (content: string): string | undefined => {
   return addressLine?.[1]?.trim()
 }
 
-const getPinPosition = ({ lat, lng }: VenuePoint) => ({
-  left: `${((lng - mapBounds.west) / (mapBounds.east - mapBounds.west)) * 100}%`,
-  top: `${((mapBounds.north - lat) / (mapBounds.north - mapBounds.south)) * 100}%`,
-})
+const PIN_SIZE = 28
+const PIN_SIZE_ACTIVE = 32
 
 export const EventsMap = ({ events }: Props) => {
   const locations = useMemo(() => {
@@ -76,6 +76,30 @@ export const EventsMap = ({ events }: Props) => {
   const [selectedKey, setSelectedKey] = useState(locations[0]?.key)
   const selected = locations.find((location) => location.key === selectedKey) ?? locations[0]
 
+  // 緯度経度→ピクセル位置の変換はLeafletに任せる(独自CSS計算はWebメルカトル図法の
+  // 歪みを考慮できずズレるため)。leafletはwindow参照を含みSSR不可なのでクライアントでのみロード
+  const [L, setL] = useState<typeof import("leaflet")>()
+  useEffect(() => {
+    let cancelled = false
+    import("leaflet").then((mod) => {
+      if (!cancelled) setL(mod)
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  const makeIcon = (index: number, active: boolean): DivIcon | undefined => {
+    if (!L) return undefined
+    const size = active ? PIN_SIZE_ACTIVE : PIN_SIZE
+    return new L.DivIcon({
+      className: "events-map__pin-icon",
+      html: `<span class="events-map__pin${active ? " events-map__pin--active" : ""}"><span>${index + 1}</span></span>`,
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size],
+    })
+  }
+
   if (!selected) {
     return null
   }
@@ -104,25 +128,17 @@ export const EventsMap = ({ events }: Props) => {
           aria-label="開催中イベントの地図"
         >
           <GsiTileLayer />
+          {L &&
+            locations.map((location, index) => (
+              <Marker
+                key={location.key}
+                position={[location.lat, location.lng]}
+                icon={makeIcon(index, location.key === selected.key)}
+                eventHandlers={{ click: () => setSelectedKey(location.key) }}
+                alt={`${location.venue}のイベントを表示`}
+              />
+            ))}
         </MapContainer>
-        <div className="events-map__pins" aria-label="開催中イベントのピン">
-          {locations.map((location, index) => (
-            <button
-              key={location.key}
-              type="button"
-              className={
-                location.key === selected.key
-                  ? "events-map__pin events-map__pin--active"
-                  : "events-map__pin"
-              }
-              style={getPinPosition(location)}
-              onClick={() => setSelectedKey(location.key)}
-              aria-label={`${location.venue}のイベントを表示`}
-            >
-              <span>{index + 1}</span>
-            </button>
-          ))}
-        </div>
       </div>
       <div className="events-map__selected">
         <strong>{selected.venue}</strong>
