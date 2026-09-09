@@ -1,9 +1,19 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import dynamic from "next/dynamic"
 import Link from "next/link"
+import "leaflet/dist/leaflet.css"
 import { mapBounds } from "lib/venue-points"
 import { getCuisineLabel, hasDetailPage, type Spot } from "lib/spots"
+
+const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
+  ssr: false,
+})
+const GsiTileLayer = dynamic(
+  () => import("components/gsi-tile-layer").then((m) => m.GsiTileLayer),
+  { ssr: false },
+)
 
 type Props = {
   spots: Spot[]
@@ -32,8 +42,6 @@ export const GourmetSpotMap = ({ spots }: Props) => {
     return null
   }
 
-  const mapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${mapBounds.west}%2C${mapBounds.south}%2C${mapBounds.east}%2C${mapBounds.north}&layer=mapnik`
-
   return (
     <section className="gourmet-map" aria-labelledby="gourmet-map-title">
       <div className="gourmet-map__header">
@@ -41,13 +49,22 @@ export const GourmetSpotMap = ({ spots }: Props) => {
         <h2 id="gourmet-map-title">お店の場所</h2>
       </div>
       <div className="gourmet-map__frame">
-        <iframe
-          title="秋葉原グルメスポットの地図"
-          src={mapUrl}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          tabIndex={-1}
-        />
+        <MapContainer
+          bounds={[
+            [mapBounds.south, mapBounds.west],
+            [mapBounds.north, mapBounds.east],
+          ]}
+          dragging={false}
+          zoomControl={false}
+          scrollWheelZoom={false}
+          doubleClickZoom={false}
+          boxZoom={false}
+          keyboard={false}
+          touchZoom={false}
+          aria-label="秋葉原グルメスポットの地図"
+        >
+          <GsiTileLayer />
+        </MapContainer>
         <div className="gourmet-map__pins" aria-label="詳細ページがある店舗のピン">
           {pinned.map((spot) => (
             <button

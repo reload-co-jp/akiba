@@ -1129,7 +1129,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.article-venue-map iframe {
+.article-venue-map .leaflet-container {
   aspect-ratio: 16 / 10;
   border: 1px solid rgba(96, 120, 111, 0.14);
   border-radius: 8px;
@@ -1153,7 +1153,7 @@ body {
   position: relative;
 }
 
-.events-map__frame iframe {
+.events-map__frame .leaflet-container {
   border: 0;
   display: block;
   height: 100%;
@@ -2173,7 +2173,7 @@ body {
   position: relative;
 }
 
-.gourmet-map__frame iframe {
+.gourmet-map__frame .leaflet-container {
   border: 0;
   display: block;
   height: 100%;

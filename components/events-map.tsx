@@ -1,8 +1,18 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import dynamic from "next/dynamic"
+import "leaflet/dist/leaflet.css"
 import type { Article } from "lib/articles"
 import { mapBounds, getVenuePoint, type VenuePoint } from "lib/venue-points"
+
+const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
+  ssr: false,
+})
+const GsiTileLayer = dynamic(
+  () => import("components/gsi-tile-layer").then((m) => m.GsiTileLayer),
+  { ssr: false },
+)
 
 type Props = {
   events: Article[]
@@ -70,7 +80,6 @@ export const EventsMap = ({ events }: Props) => {
     return null
   }
 
-  const mapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${mapBounds.west}%2C${mapBounds.south}%2C${mapBounds.east}%2C${mapBounds.north}&layer=mapnik`
   const externalMapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selected.query)}`
 
   return (
@@ -80,13 +89,22 @@ export const EventsMap = ({ events }: Props) => {
         <h2 id="events-map-title">開催場所</h2>
       </div>
       <div className="events-map__frame">
-        <iframe
-          title="開催中イベントの地図"
-          src={mapUrl}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          tabIndex={-1}
-        />
+        <MapContainer
+          bounds={[
+            [mapBounds.south, mapBounds.west],
+            [mapBounds.north, mapBounds.east],
+          ]}
+          dragging={false}
+          zoomControl={false}
+          scrollWheelZoom={false}
+          doubleClickZoom={false}
+          boxZoom={false}
+          keyboard={false}
+          touchZoom={false}
+          aria-label="開催中イベントの地図"
+        >
+          <GsiTileLayer />
+        </MapContainer>
         <div className="events-map__pins" aria-label="開催中イベントのピン">
           {locations.map((location, index) => (
             <button

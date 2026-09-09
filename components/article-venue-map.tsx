@@ -1,3 +1,18 @@
+"use client"
+
+import { useEffect, useState } from "react"
+import dynamic from "next/dynamic"
+import "leaflet/dist/leaflet.css"
+import type { Icon } from "leaflet"
+
+const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
+  ssr: false,
+})
+const Marker = dynamic(() => import("react-leaflet").then((m) => m.Marker), { ssr: false })
+const GsiTileLayer = dynamic(() => import("./gsi-tile-layer").then((m) => m.GsiTileLayer), {
+  ssr: false,
+})
+
 type Props = {
   venue: string
   lat: number
@@ -6,22 +21,44 @@ type Props = {
   mapLabel?: string
 }
 
-const LAT_SPAN = 0.0025
-const LNG_SPAN = 0.0035
-
 export const ArticleVenueMap = ({ venue, lat, lng, query, mapLabel }: Props) => {
-  const bbox = [lng - LNG_SPAN, lat - LAT_SPAN, lng + LNG_SPAN, lat + LAT_SPAN].join("%2C")
-  const mapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${lat}%2C${lng}`
   const externalMapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query ?? venue)}`
+
+  // webpack経由だとLeafletデフォルトアイコンのパス解決が壊れるため、public配信の画像を明示指定
+  // (leafletはwindow参照を含むためクライアント側でのみ動的にロードする)
+  const [icon, setIcon] = useState<Icon>()
+  useEffect(() => {
+    let cancelled = false
+    import("leaflet").then((L) => {
+      if (cancelled) return
+      setIcon(
+        new L.Icon({
+          iconUrl: "/leaflet/marker-icon.png",
+          iconRetinaUrl: "/leaflet/marker-icon-2x.png",
+          shadowUrl: "/leaflet/marker-shadow.png",
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41],
+        }),
+      )
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   return (
     <div className="article-venue-map">
-      <iframe
-        title={`${venue}の地図`}
-        src={mapUrl}
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      />
+      <MapContainer
+        center={[lat, lng]}
+        zoom={16}
+        scrollWheelZoom={false}
+        aria-label={`${venue}の地図`}
+      >
+        <GsiTileLayer />
+        {icon && <Marker position={[lat, lng]} icon={icon} />}
+      </MapContainer>
       <a href={externalMapUrl} target="_blank" rel="noopener noreferrer">
         {mapLabel ?? "Google Mapsで開く"}
       </a>
