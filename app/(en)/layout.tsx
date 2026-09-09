@@ -2,7 +2,6 @@ import Link from "next/link"
 import Script from "next/script"
 import { absoluteUrl, siteDescriptionEn, siteNameEn, siteUrl } from "lib/site"
 import { LanguageProvider } from "components/language-provider"
-import { AdsenseRouteNotifier } from "components/adsense-route-notifier"
 import "../reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
@@ -74,7 +73,6 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
       </head>
       <body>
         <LanguageProvider>
-          <AdsenseRouteNotifier />
           {isProduction && (
             <>
               <Script
