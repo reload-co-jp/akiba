@@ -1293,5 +1293,25 @@
     "id": 271,
     "name": "Myethos",
     "nameEn": "Myethos"
+  },
+  {
+    "id": 272,
+    "name": "アイドルマスター シャイニーカラーズ",
+    "nameEn": "THE iDOLM@STER: Shiny Colors"
+  },
+  {
+    "id": 273,
+    "name": "ギャラクシーエンジェル",
+    "nameEn": "Galaxy Angel"
+  },
+  {
+    "id": 274,
+    "name": "無職転生",
+    "nameEn": "Mushoku Tensei"
+  },
+  {
+    "id": 275,
+    "name": "ペルソナ",
+    "nameEn": "Persona"
   }
 ]
