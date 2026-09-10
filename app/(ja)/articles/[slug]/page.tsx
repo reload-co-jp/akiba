@@ -530,6 +530,10 @@ const Page = async ({ params }: Props) => {
               <Link href="/events/today/" style={{ color: "#3f5851" }}>
                 → 今日開催の秋葉原イベント一覧を見る
               </Link>
+              {" ／ "}
+              <Link href="/events/popup/" style={{ color: "#3f5851" }}>
+                → POPUPストア特集を見る
+              </Link>
             </p>
           </div>
         )}

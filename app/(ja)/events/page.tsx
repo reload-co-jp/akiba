@@ -3,6 +3,7 @@ import { EventsMap } from "components/events-map"
 import { getArticleImage, getOngoingEvents, getTagById } from "lib/articles"
 import { fmtRange } from "lib/format"
 import { EventCard } from "components/event-card"
+import { EventSection } from "components/event-section"
 import { absoluteUrl, siteName } from "lib/site"
 
 export const metadata = {
@@ -119,6 +120,31 @@ const Page = () => {
             </ul>
           </div>
         )}
+
+        <EventSection id="related-heading" kicker="Related" title="関連リンク">
+          <ul className="today-related">
+            <li>
+              <Link href="/events/popup/" className="today-related__link">
+                POPUPストア特集 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/collab-cafe/" className="today-related__link">
+                コラボカフェ特集 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/this-week/" className="today-related__link">
+                今週の秋葉原イベント →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/monthly/" className="today-related__link">
+                月別イベントカレンダー →
+              </Link>
+            </li>
+          </ul>
+        </EventSection>
       </section>
     </>
   )

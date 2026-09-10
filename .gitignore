@@ -51,3 +51,7 @@ data/raw/
 # Python bytecode
 __pycache__/
 *.pyc
+
+# tmp
+
+tmp/
