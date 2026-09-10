@@ -118,13 +118,7 @@ export const EventsMap = ({ events }: Props) => {
             [mapBounds.south, mapBounds.west],
             [mapBounds.north, mapBounds.east],
           ]}
-          dragging={false}
-          zoomControl={false}
           scrollWheelZoom={false}
-          doubleClickZoom={false}
-          boxZoom={false}
-          keyboard={false}
-          touchZoom={false}
           aria-label="開催中イベントの地図"
         >
           <GsiTileLayer />

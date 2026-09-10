@@ -81,13 +81,7 @@ export const GourmetSpotMap = ({ spots }: Props) => {
             [mapBounds.south, mapBounds.west],
             [mapBounds.north, mapBounds.east],
           ]}
-          dragging={false}
-          zoomControl={false}
           scrollWheelZoom={false}
-          doubleClickZoom={false}
-          boxZoom={false}
-          keyboard={false}
-          touchZoom={false}
           aria-label="秋葉原グルメスポットの地図"
         >
           <GsiTileLayer />

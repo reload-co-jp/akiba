@@ -1160,11 +1160,6 @@ body {
   width: 100%;
 }
 
-.events-map__frame .leaflet-tile-pane,
-.events-map__frame .leaflet-control-container {
-  pointer-events: none;
-}
-
 .events-map__pin-icon {
   background: transparent;
   border: none;
@@ -2176,11 +2171,6 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-}
-
-.gourmet-map__frame .leaflet-tile-pane,
-.gourmet-map__frame .leaflet-control-container {
-  pointer-events: none;
 }
 
 .gourmet-map__pin-icon {
