@@ -12,6 +12,7 @@ import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
 import { EventSection } from "components/event-section"
 import { EventCard } from "components/event-card"
+import { EventsMap } from "components/events-map"
 import { TodayVenueFilter } from "components/today-venue-filter"
 import { TodayCategoryFilter } from "components/today-category-filter"
 
@@ -271,6 +272,11 @@ const Page = () => {
             events={venueFilterEvents}
             hrefPrefix="/articles/"
             locale="ja"
+            mapSlot={
+              <div className="events-page__bottom-map">
+                <EventsMap events={ongoingEvents} />
+              </div>
+            }
           />
         </EventSection>
 
