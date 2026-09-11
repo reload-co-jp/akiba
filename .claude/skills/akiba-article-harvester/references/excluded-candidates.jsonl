@@ -462,3 +462,7 @@
 {"url": "https://www.phileweb.com/news/audio/202609/07/28081.html", "reason": "out_of_scope_venue", "note": "テレオンsound110は台東区蔵前、秋葉原外", "checked": "2026-09-09"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2139290.html", "reason": "insufficient_facts", "note": "ラジオ会館夏フェス2026/ベルサール秋葉原STEINS;GATEイベント、複数トピック混在で個別詳細不足(ブルーアーカイブ部分は既存記事でカバー済み)", "checked": "2026-09-09"}
 {"url": "https://www.moomin.co.jp/news/events/68ba780980769", "reason": "event_ended", "note": "2025年9月10日〜10月5日開催の過去イベント記事(2025.09.08付)、gnewsが誤って2026年扱いで表示。既存2026年版はmoomin-popup-store-jr-akihabara-2026(id778)で別会期・別ニュースIDのため無関係", "checked": "2026-09-09"}
+{"url": "https://tech.nikkeibp.co.jp/atcl/nxt/mag/na/18/00007/090300302/", "reason": "low_value", "note": "KiGi秋葉原は木造混構造オフィスビル(2026年5月完成予定)。小売・訪問者向け設備なし、記事価値なし", "checked": "2026-09-11"}
+{"url": "https://charadri.com/shops/", "reason": "insufficient_facts", "note": "超かぐや姫×きゃらドリ秋葉原店コラボ、期間一致せず。9/17-10/1はObey Me!コラボが実際。超かぐや姫別会場でのコラボのみ確認", "checked": "2026-09-11"}
+{"url": "https://gineiden-anime.com/special-shop.html", "reason": "insufficient_facts", "note": "銀河英雄伝説、秋葉原はソフマップ/ヨドバシが特典取扱店扱いのみでポップアップストアでない。開催日程未確定", "checked": "2026-09-11"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7935", "reason": "insufficient_facts", "note": "ゲーマーズ30周年記念CDスペシャルトークイベント、10/18開催以外の詳細(出演者・整理券方式・会場詳細)がページから確認できず。CD発売記念予約キャンペーンの一部としての性質が強く記事化に足る具体性なし", "checked": "2026-09-11"}
