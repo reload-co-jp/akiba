@@ -16,16 +16,23 @@ import { EventsMap } from "components/events-map"
 import { TodayVenueFilter } from "components/today-venue-filter"
 import { TodayCategoryFilter } from "components/today-category-filter"
 
-
 const CATEGORY_GROUPS: Array<{ id: string; name: string; tagIds: number[] }> = [
   { id: "anime", name: "アニメ・漫画", tagIds: [47, 49, 78, 79, 203] },
   { id: "game", name: "ゲーム・トレカ", tagIds: [74, 75, 100, 104] },
   { id: "collab-cafe", name: "コラボカフェ", tagIds: [81, 57, 131, 82] },
-  { id: "popup", name: "ポップアップ・限定ショップ", tagIds: [17, 128, 129, 196, 54] },
+  {
+    id: "popup",
+    name: "ポップアップ・限定ショップ",
+    tagIds: [17, 128, 129, 196, 54],
+  },
   { id: "hobby", name: "ホビー・フィギュア", tagIds: [126, 113, 119, 127] },
   { id: "voice-idol", name: "声優・アイドル", tagIds: [167, 168, 42, 146] },
   { id: "exhibition", name: "展示・アート", tagIds: [177, 178, 179, 130, 200] },
-  { id: "conference", name: "テクノロジー・カンファレンス", tagIds: [60, 109, 122, 201] },
+  {
+    id: "conference",
+    name: "テクノロジー・カンファレンス",
+    tagIds: [60, 109, 122, 201],
+  },
 ]
 
 const FAQ_ITEMS = [
@@ -75,7 +82,6 @@ const FAQ_ITEMS = [
   },
 ]
 
-
 export const generateMetadata = () => {
   const today = new Date().toISOString().slice(0, 10)
   const [, month, day] = today.split("-")
@@ -105,10 +111,9 @@ const Page = () => {
   const endingSoonEvents = getEndingSoonEvents(today, 3)
   const upcomingEvents = getUpcomingThisWeekEvents(today, 7)
   const topVenues = getTopVenues(15)
-  const tagMap = Object.fromEntries(getAllTagsData().map((t) => [t.id, t.name])) as Record<
-    number,
-    string
-  >
+  const tagMap = Object.fromEntries(
+    getAllTagsData().map((t) => [t.id, t.name])
+  ) as Record<number, string>
 
   const venueFilterEvents = ongoingEvents.map((a) => ({
     id: a.id,
@@ -151,13 +156,30 @@ const Page = () => {
     "@type": "BreadcrumbList",
     "@id": `${pageUrl}#breadcrumb`,
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: "イベント", item: absoluteUrl("/events/") },
-      { "@type": "ListItem", position: 3, name: "今日のイベント", item: pageUrl },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "イベント",
+        item: absoluteUrl("/events/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "今日のイベント",
+        item: pageUrl,
+      },
     ],
   }
 
-  const firstImage = ongoingEvents[0] ? absoluteUrl(getArticleImage(ongoingEvents[0]).src) : undefined
+  const firstImage = ongoingEvents[0]
+    ? absoluteUrl(getArticleImage(ongoingEvents[0]).src)
+    : undefined
 
   const collectionPageJsonLd = {
     "@context": "https://schema.org",
@@ -170,7 +192,11 @@ const Page = () => {
     dateModified: today,
     inLanguage: "ja",
     breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
-    publisher: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+    publisher: {
+      "@type": "Organization",
+      name: siteName,
+      url: absoluteUrl("/"),
+    },
     ...(firstImage ? { image: firstImage } : {}),
     about: {
       "@type": "Place",
@@ -210,7 +236,11 @@ const Page = () => {
         addressCountry: "JP",
       },
     },
-    organizer: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+    organizer: {
+      "@type": "Organization",
+      name: siteName,
+      url: absoluteUrl("/"),
+    },
     performer: a.event!.performer
       ? { "@type": "PerformingGroup", name: a.event!.performer }
       : { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
@@ -253,21 +283,30 @@ const Page = () => {
         />
 
         <header className="events-page__header">
-          <p className="events-page__kicker">Today&apos;s Events in Akihabara</p>
-          <h1 className="events-page__title">秋葉原のイベント情報【今日開催】</h1>
+          <p className="events-page__kicker">
+            Today&apos;s Events in Akihabara
+          </p>
+          <h1 className="events-page__title">
+            秋葉原のイベント情報【今日開催】
+          </h1>
           <p className="today-updated">
             {todayLabel} 現在 · {ongoingEvents.length}件開催中
           </p>
         </header>
 
         <p className="today-lead">
-          今日のアニメイベントを探している方へ。秋葉原では毎日、アニメ・漫画、ゲーム・トレカ、コラボカフェ、ポップアップストア、声優・アイドルイベント、ホビー・フィギュアの展示販売など多彩なイベントが開催されています。
-          このページでは{todayLabel}に開催中のイベントを会場・カテゴリ別にまとめています。
-          AKIHABARAゲーマーズ本店・書泉ブックタワー・アニメイト秋葉原・ベルサール秋葉原・アトレ秋葉原など主要会場別に絞り込み可能。
-          公式リンクと開催期間を確認して、おでかけの参考にしてください。
+          今日のアニメイベントを探している方へ。
+          秋葉原では毎日、アニメ・漫画、ゲーム・トレカ、コラボカフェ、ポップアップストア、声優・アイドルイベント、ホビー・フィギュアの展示販売など多彩なイベントが開催されています。
+          このページでは{todayLabel}
+          に開催中のイベントを会場・カテゴリ別にまとめています。
+          おでかけの参考にしてください。
         </p>
 
-        <EventSection id="today-events-heading" kicker="Ongoing Today" title="今日開催の秋葉原イベント一覧">
+        <EventSection
+          id="today-events-heading"
+          kicker="Ongoing Today"
+          title="今日開催の秋葉原イベント一覧"
+        >
           <TodayVenueFilter
             events={venueFilterEvents}
             hrefPrefix="/articles/"
@@ -280,7 +319,11 @@ const Page = () => {
           />
         </EventSection>
 
-        <EventSection id="category-heading" kicker="By Category" title="カテゴリ別イベント">
+        <EventSection
+          id="category-heading"
+          kicker="By Category"
+          title="カテゴリ別イベント"
+        >
           <TodayCategoryFilter
             groups={categorized}
             hrefPrefix="/articles/"
@@ -288,9 +331,15 @@ const Page = () => {
           />
         </EventSection>
 
-        <EventSection id="ending-soon-heading" kicker="Ending Soon" title="終了間近のイベント">
+        <EventSection
+          id="ending-soon-heading"
+          kicker="Ending Soon"
+          title="終了間近のイベント"
+        >
           {endingSoonEvents.length === 0 ? (
-            <p className="events-page__empty">3日以内に終了するイベントはありません。</p>
+            <p className="events-page__empty">
+              3日以内に終了するイベントはありません。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {endingSoonEvents.map((a) => (
@@ -308,9 +357,15 @@ const Page = () => {
           )}
         </EventSection>
 
-        <EventSection id="upcoming-heading" kicker="Coming This Week" title="今週開催予定のイベント">
+        <EventSection
+          id="upcoming-heading"
+          kicker="Coming This Week"
+          title="今週開催予定のイベント"
+        >
           {upcomingEvents.length === 0 ? (
-            <p className="events-page__empty">今週開始予定のイベントはありません。</p>
+            <p className="events-page__empty">
+              今週開始予定のイベントはありません。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {upcomingEvents.map((a) => (
@@ -328,8 +383,15 @@ const Page = () => {
           )}
         </EventSection>
 
-        <EventSection id="venues-heading" kicker="Popular Venues" title="よく使われる会場一覧">
-          <ul className="today-venues-grid" aria-label="秋葉原のイベント会場一覧">
+        <EventSection
+          id="venues-heading"
+          kicker="Popular Venues"
+          title="よく使われる会場一覧"
+        >
+          <ul
+            className="today-venues-grid"
+            aria-label="秋葉原のイベント会場一覧"
+          >
             {topVenues.map(({ venue }) => (
               <li key={venue} className="today-venues-grid__item">
                 {venue}
@@ -357,7 +419,10 @@ const Page = () => {
               </Link>
             </li>
             <li>
-              <Link href="/events/this-weekend/" className="today-related__link">
+              <Link
+                href="/events/this-weekend/"
+                className="today-related__link"
+              >
                 今週末の秋葉原イベント →
               </Link>
             </li>

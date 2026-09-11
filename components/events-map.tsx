@@ -5,6 +5,7 @@ import dynamic from "next/dynamic"
 import "leaflet/dist/leaflet.css"
 import type { DivIcon } from "leaflet"
 import type { Article } from "lib/articles"
+import { getArticleImage } from "lib/articles"
 import { mapBounds, getVenuePoint, type VenuePoint } from "lib/venue-points"
 
 const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
@@ -34,8 +35,8 @@ const extractAddress = (content: string): string | undefined => {
   return addressLine?.[1]?.trim()
 }
 
-const PIN_SIZE = 28
-const PIN_SIZE_ACTIVE = 32
+const PIN_SIZE = 44
+const PIN_SIZE_ACTIVE = 56
 
 export const EventsMap = ({ events }: Props) => {
   const locations = useMemo(() => {
@@ -76,6 +77,23 @@ export const EventsMap = ({ events }: Props) => {
   const [selectedKey, setSelectedKey] = useState(locations[0]?.key)
   const selected = locations.find((location) => location.key === selectedKey) ?? locations[0]
 
+  // 全マーカーがギリギリ収まるズームにするため、開催中の会場座標からboundsを算出
+  // (固定の秋葉原全域boundsだと開催数が少ない日にズームアウトしすぎる)
+  const fitBounds = useMemo((): [[number, number], [number, number]] => {
+    if (locations.length === 0) {
+      return [
+        [mapBounds.south, mapBounds.west],
+        [mapBounds.north, mapBounds.east],
+      ]
+    }
+    const lats = locations.map((location) => location.lat)
+    const lngs = locations.map((location) => location.lng)
+    return [
+      [Math.min(...lats), Math.min(...lngs)],
+      [Math.max(...lats), Math.max(...lngs)],
+    ]
+  }, [locations])
+
   // 緯度経度→ピクセル位置の変換はLeafletに任せる(独自CSS計算はWebメルカトル図法の
   // 歪みを考慮できずズレるため)。leafletはwindow参照を含みSSR不可なのでクライアントでのみロード
   const [L, setL] = useState<typeof import("leaflet")>()
@@ -89,12 +107,12 @@ export const EventsMap = ({ events }: Props) => {
     }
   }, [])
 
-  const makeIcon = (index: number, active: boolean): DivIcon | undefined => {
+  const makeIcon = (index: number, active: boolean, imageSrc: string): DivIcon | undefined => {
     if (!L) return undefined
     const size = active ? PIN_SIZE_ACTIVE : PIN_SIZE
     return new L.DivIcon({
       className: "events-map__pin-icon",
-      html: `<span class="events-map__pin${active ? " events-map__pin--active" : ""}"><span>${index + 1}</span></span>`,
+      html: `<span class="events-map__pin${active ? " events-map__pin--active" : ""}"><img src="${imageSrc}" alt="" /><span>${index + 1}</span></span>`,
       iconSize: [size, size],
       iconAnchor: [size / 2, size],
     })
@@ -114,10 +132,8 @@ export const EventsMap = ({ events }: Props) => {
       </div>
       <div className="events-map__frame">
         <MapContainer
-          bounds={[
-            [mapBounds.south, mapBounds.west],
-            [mapBounds.north, mapBounds.east],
-          ]}
+          bounds={fitBounds}
+          boundsOptions={{ padding: [16, 16] }}
           scrollWheelZoom={false}
           aria-label="開催中イベントの地図"
         >
@@ -127,7 +143,11 @@ export const EventsMap = ({ events }: Props) => {
               <Marker
                 key={location.key}
                 position={[location.lat, location.lng]}
-                icon={makeIcon(index, location.key === selected.key)}
+                icon={makeIcon(
+                  index,
+                  location.key === selected.key,
+                  getArticleImage(location.articles[0]).src,
+                )}
                 eventHandlers={{ click: () => setSelectedKey(location.key) }}
                 alt={`${location.venue}のイベントを表示`}
               />
@@ -135,32 +155,23 @@ export const EventsMap = ({ events }: Props) => {
         </MapContainer>
       </div>
       <div className="events-map__selected">
-        <strong>{selected.venue}</strong>
-        <span>{selected.articles.length}件のイベント開催中</span>
-        <ul>
-          {selected.articles.map((article) => (
-            <li key={article.id}>{article.title}</li>
-          ))}
-        </ul>
-        <a href={externalMapUrl} target="_blank" rel="noopener noreferrer">
-          Google Mapsで開く
-        </a>
-      </div>
-      <div className="events-map__buttons" aria-label="地図に表示する会場">
-        {locations.map((location, index) => (
-          <button
-            key={location.key}
-            type="button"
-            className={
-              location.key === selected.key
-                ? "events-map__button events-map__button--active"
-                : "events-map__button"
-            }
-            onClick={() => setSelectedKey(location.key)}
-          >
-            <span>{index + 1}. {location.venue}</span>
-          </button>
-        ))}
+        <img
+          className="events-map__selected-image"
+          src={getArticleImage(selected.articles[0]).src}
+          alt=""
+        />
+        <div className="events-map__selected-body">
+          <strong>{selected.venue}</strong>
+          <span>{selected.articles.length}件のイベント開催中</span>
+          <ul>
+            {selected.articles.map((article) => (
+              <li key={article.id}>{article.title}</li>
+            ))}
+          </ul>
+          <a href={externalMapUrl} target="_blank" rel="noopener noreferrer">
+            Google Mapsで開く
+          </a>
+        </div>
       </div>
     </section>
   )
