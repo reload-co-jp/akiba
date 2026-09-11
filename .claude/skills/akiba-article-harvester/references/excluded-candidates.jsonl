@@ -466,3 +466,13 @@
 {"url": "https://charadri.com/shops/", "reason": "insufficient_facts", "note": "超かぐや姫×きゃらドリ秋葉原店コラボ、期間一致せず。9/17-10/1はObey Me!コラボが実際。超かぐや姫別会場でのコラボのみ確認", "checked": "2026-09-11"}
 {"url": "https://gineiden-anime.com/special-shop.html", "reason": "insufficient_facts", "note": "銀河英雄伝説、秋葉原はソフマップ/ヨドバシが特典取扱店扱いのみでポップアップストアでない。開催日程未確定", "checked": "2026-09-11"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7935", "reason": "insufficient_facts", "note": "ゲーマーズ30周年記念CDスペシャルトークイベント、10/18開催以外の詳細(出演者・整理券方式・会場詳細)がページから確認できず。CD発売記念予約キャンペーンの一部としての性質が強く記事化に足る具体性なし", "checked": "2026-09-11"}
+{"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GOXZQb2Q0cEgyOW8tMlM5aV84SUlPamQ0YkZuSGRsOHNWWGpjbHlPMXdfbXVZRXFpNW1xX0FMVEw0OUw0VmVuNG8xMklqZTJTckNJSEdYcXhqNnJENnFuZHNMTzJULThKMUFEMHZfc3pYQQ", "reason": "duplicate", "note": "シンソク秋葉原6号店/アキバ三滝館内装工事の話は既存記事shinsoku-akihabara-6-sanko-ato-open-2026と重複、アキバ三滝館部分のみ要別途確認", "checked": "2026-09-12"}
+{"url": "https://gineiden-anime.com/special-shop.html", "reason": "insufficient_facts", "note": "既存記事gineiden-neuesaga-2nd-anniversary-popup-kotobukiya-akihabara-2026(10/9-10/25 コトブキヤ秋葉原館2F)と同一イベントの可能性高い、重複扱い", "checked": "2026-09-12"}
+{"url": "https://collabo-cafe.com/events/collabo/myakumyaku-studio-toppa-base-akiba-2026/", "reason": "duplicate", "note": "既存記事myakumyaku-expo2025-toppa-base-akiba-2026(id798)と同一イベント", "checked": "2026-09-12"}
+{"url": "https://collabo-cafe.com/events/collabo/bluearchive-popupstore-kotobukiya-2026/", "reason": "duplicate", "note": "既存記事bluearchive-summer-uniform-popup-kotobukiya-akihabara-2026(id795)と同一イベント", "checked": "2026-09-12"}
+{"url": "https://collabo-cafe.com/events/collabo/lovelive-ocg-cafe-gigo-2026-vol4/", "reason": "duplicate", "note": "既存記事lovelive-official-cardgame-gigo-akihabara-2026(id608)に全弾日程含まれ重複", "checked": "2026-09-12"}
+{"url": "https://idolmaster-official.jp/news/01_19792", "reason": "duplicate", "note": "既存記事shinycolors-parallel-kairo-udx-2026(id791)と同一イベント", "checked": "2026-09-12"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000786.000041970.html", "reason": "duplicate", "note": "既存記事bubblebobble-40th-taito-station-akihabara-2026(id591)と同一イベント", "checked": "2026-09-12"}
+{"url": "https://www.phileweb.com/news/audio/202609/07/28081.html", "reason": "duplicate", "note": "既存記事triode-jbl-4369-listening-event-akihabara-teleon-2026(id797)と同一イベント", "checked": "2026-09-12"}
+{"url": "https://www.gdm.or.jp/crew/2026/0908/651490", "reason": "duplicate", "note": "既存記事kyushu-jangara-akihabara-honten-renewal-close-2026(id784)と同一イベント", "checked": "2026-09-12"}
+{"url": "https://figsoku.net/blog-entry-522796.html", "reason": "duplicate", "note": "既存記事myethos-popup-store-animate-akihabara-2026(id788)と同一イベント", "checked": "2026-09-12"}
