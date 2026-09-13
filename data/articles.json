@@ -31280,21 +31280,29 @@
     },
     "image": {
       "src": "/images/articles/galaxy-angel-gamers-popup-2026.jpg",
-      "alt": "「ギャラクシーエンジェル」ストア in ゲーマーズの告知ビジュアル",
-      "sourceLabel": "Collabo Cafe 記事",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/galaxy-angel-gamers-pop-up-store-2026/"
+      "alt": "ゲーマーズ30周年記念「ギャラクシーエンジェル」ポップアップストアの告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000008861.000016756.html"
     },
     "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000008861.000016756.html"
+      },
+      {
+        "label": "ゲーマーズ公式X",
+        "url": "https://x.com/gamers_no_gema/status/2095708446372872228"
+      },
       {
         "label": "Collabo Cafe 記事",
         "url": "https://collabo-cafe.com/events/collabo/galaxy-angel-gamers-pop-up-store-2026/"
       }
     ],
     "event": {
-      "venue": "AKIHABARAゲーマーズ本店",
+      "venue": "AKIHABARAゲーマーズ本店 7F",
       "startDate": "2026-09-19",
       "endDate": "2026-10-04",
-      "price": "2,200円毎に特典あり",
+      "price": "2,200円(税込)毎に特典ブロマイド、3,300円(税込)毎に直筆色紙抽選",
       "reservation": false
     },
     "authorId": 1
@@ -31660,5 +31668,165 @@
       "price": "入場無料（商品購入は別途）",
       "reservation": false
     }
+  },
+  {
+    "id": 802,
+    "title": "GLEN CLYDE SOCKCLUB TOKYOが2k540でリニューアル",
+    "slug": "glen-clyde-sockclub-tokyo-2k540-renewal-2026",
+    "summary": "ソックス専門店「GLEN CLYDE SOCKCLUB TOKYO」が、2026年9月10日にものづくりの街「2k540 AKI-OKA ARTISAN」でJ-2区画へ移転しリニューアルオープン。9月からは施設開業15周年記念の創業祭「あつらえ」も開催されている。",
+    "content": "## 概要\n\nソックス専門メーカーの株式会社グレン・クライドが運営する直営店「GLEN CLYDE SOCKCLUB TOKYO 2k540店」が、JR秋葉原駅と御徒町駅間の高架下商業施設「2k540 AKI-OKA ARTISAN」内でJ-2区画へ移転し、2026年9月10日にリニューアルオープンした。“日本のものづくり”をテーマにした施設内で、こだわりのソックスを扱う専門店として営業を続けている。\n\n## 内容\n\n移転リニューアルに合わせ、店舗の売場構成が一新された。\n\n- ソックス専門メーカー直営店として国内外のこだわりソックスを展開\n- 2k540は開業15周年の節目を迎え、9月より施設全体で創業祭「あつらえ」および「ART ARCADE TOKYO」を開催中\n- 一部飲食店舗を除き営業時間は11:00〜19:00\n\n## 開催情報\n\n- **日時**: 2026年9月10日（木）11時 リニューアルオープン（以降通常営業）\n- **会場**: 2k540 AKI-OKA ARTISAN J-2区画（東京都台東区上野5-9-23）\n- **営業時間**: 11:00〜19:00（水曜定休）\n- **料金**: 入店無料\n\n## こんな人におすすめ\n\n- こだわりのソックスを探している人\n- 2k540のものづくりショップ巡りが好きな人",
+    "publishedAt": "2026-09-13",
+    "tagIds": [
+      207,
+      56,
+      2,
+      144
+    ],
+    "en": {
+      "title": "Glen Clyde Sockclub Tokyo Renews at 2k540",
+      "summary": "Sock specialty shop \"GLEN CLYDE SOCKCLUB TOKYO\" reopened on September 10, 2026 after relocating to unit J-2 inside the \"2k540 AKI-OKA ARTISAN\" craft complex. The complex itself is also marking its 15th anniversary with a \"Atsurae\" founding festival running through September.",
+      "content": "## Overview\n\nGlen Clyde Sockclub Tokyo, the directly-run sock specialty store operated by Glen Clyde Co., Ltd., reopened on September 10, 2026 after relocating to unit J-2 inside \"2k540 AKI-OKA ARTISAN,\" the craft-themed shopping complex under the elevated railway between JR Akihabara and Okachimachi stations. The shop continues to specialize in carefully selected socks within the \"Japanese craftsmanship\" themed complex.\n\n## Highlights\n\nThe relocation reopening comes with a refreshed store layout.\n\n- Directly-run specialty store offering carefully selected socks from Japan and abroad\n- 2k540 marks its 15th anniversary, holding a complex-wide founding festival \"Atsurae\" and \"ART ARCADE TOKYO\" from September\n- Business hours are 11:00–19:00, except at some food and drink shops\n\n## Event Details\n\n- **Dates**: September 10, 2026 (Thu), 11:00 reopening, ongoing thereafter as regular business\n- **Venue**: 2k540 AKI-OKA ARTISAN, unit J-2 (5-9-23 Ueno, Taito-ku, Tokyo)\n- **Hours**: 11:00–19:00 (closed Wednesdays)\n- **Price**: Free entry\n\n## Recommended For\n\n- Anyone looking for carefully made socks\n- Fans of browsing craft shops at 2k540"
+    },
+    "image": {
+      "src": "/images/articles/glen-clyde-sockclub-tokyo-2k540-renewal-2026.jpg",
+      "alt": "「GLEN CLYDE SOCKCLUB TOKYO」2k540店のリニューアル告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000610.000015279.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000610.000015279.html"
+      }
+    ],
+    "event": {
+      "venue": "2k540 AKI-OKA ARTISAN",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-10",
+      "price": "入店無料",
+      "reservation": false
+    },
+    "authorId": 1
+  },
+  {
+    "id": 803,
+    "title": "ルイーダの酒場「Autumn Fair」が秋葉原で開催",
+    "slug": "luidas-bar-autumn-fair-akihabara-2026",
+    "summary": "「ドラゴンクエストX オンライン」コラボの「LUIDA'S BAR(ルイーダの酒場)」秋葉原店で、2026年9月15日から11月10日まで秋の季節イベント「Autumn Fair」を開催。前後半で入れ替わる2種のパフェを含む全5品の期間限定メニューが登場する。",
+    "content": "## 概要\n\n「ドラゴンクエストX オンライン」の世界観を再現したバー「LUIDA'S BAR(ルイーダの酒場)」秋葉原店で、2026年9月15日から11月10日まで秋の季節イベント「Autumn Fair」が開催される。ゲーム内の秋イベント「神の月の感謝祭」と「ハロウィン」をモチーフにした限定メニューが楽しめる。\n\n## 内容\n\n前半・後半でテーマが入れ替わる2種のパフェを中心に、全5品の期間限定メニューを提供する。\n\n- 9月15日〜10月15日は前半メニュー「パフェ ツキワタリの儀」を提供\n- 10月16日〜11月10日は後半メニュー「ヤミスライムのグルメパフェ」を提供\n- 対象メニュー注文で、ゲーム内キャラクターをデザインした限定ノベルティをプレゼント\n- イベント期間中も休まず営業\n\n## 開催情報\n\n- **日時**: 2026年9月15日（火）〜11月10日（火）\n- **会場**: LUIDA'S BAR(ルイーダの酒場) 秋葉原店（Pasela Resorts AKIBA 1F、東京都千代田区外神田1-1-10）\n- **料金**: メニュー注文に準ずる（入店無料）\n- **予約**: 特記なし\n\n## こんな人におすすめ\n\n- 「ドラゴンクエストX」ファン\n- 季節限定コラボメニューを楽しみたい人",
+    "publishedAt": "2026-09-13",
+    "tagIds": [
+      207,
+      50,
+      104,
+      147
+    ],
+    "en": {
+      "title": "Luida's Bar Autumn Fair at Akihabara",
+      "summary": "\"LUIDA'S BAR,\" the Dragon Quest X Online-themed bar in Akihabara, holds its seasonal \"Autumn Fair\" from September 15 to November 10, 2026, featuring two rotating parfaits among five limited-time menu items.",
+      "content": "## Overview\n\nLUIDA'S BAR, a bar recreating the world of \"Dragon Quest X Online\" in Akihabara, holds its seasonal \"Autumn Fair\" from September 15 to November 10, 2026. The limited menu is themed around the in-game autumn events \"Feast of the Moon God\" and \"Halloween.\"\n\n## Highlights\n\nThe fair centers on two rotating parfaits, offered across a five-item limited menu.\n\n- First half (Sep 15–Oct 15): \"Parfait: Rite of the Moon's Crossing\"\n- Second half (Oct 16–Nov 10): \"Dark Slime Gourmet Parfait\"\n- A limited novelty featuring an in-game character is given with qualifying menu orders\n- Open every day during the event period\n\n## Event Details\n\n- **Dates**: September 15 (Tue) – November 10 (Tue), 2026\n- **Venue**: LUIDA'S BAR Akihabara (Pasela Resorts AKIBA 1F, 1-1-10 Sotokanda, Chiyoda-ku, Tokyo)\n- **Price**: Per menu item (free entry)\n- **Reservation**: None specified\n\n## Recommended For\n\n- Dragon Quest X fans\n- Anyone who enjoys seasonal collaboration menus"
+    },
+    "image": {
+      "src": "/images/articles/luidas-bar-autumn-fair-akihabara-2026.jpg",
+      "alt": "LUIDA'S BAR「Autumn Fair」の告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000204.000119643.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000204.000119643.html"
+      }
+    ],
+    "event": {
+      "venue": "LUIDA'S BAR(ルイーダの酒場) 秋葉原店",
+      "startDate": "2026-09-15",
+      "endDate": "2026-11-10",
+      "price": "メニュー注文に準ずる（入店無料）",
+      "reservation": false
+    },
+    "authorId": 1
+  },
+  {
+    "id": 804,
+    "title": "「ラブライブ！虹ヶ咲」POP UP STOREがボークス秋葉原で開催",
+    "slug": "lovelive-nijigaku-popup-volks-akihabara-2026",
+    "summary": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』のPOP UP STOREが、2026年9月18日から10月4日までボークス秋葉原ホビー天国2で開催。「花の女神たち」をテーマにした新規描き下ろしグッズ全13種が販売される。",
+    "content": "## 概要\n\n『ラブライブ！虹ヶ咲学園スクールアイドル同好会』のPOP UP STOREが、2026年9月18日から10月4日までボークス秋葉原ホビー天国2 6Fイベントスペースで開催される。「花の女神たち」と題した新規描き下ろしイラストを使用したグッズが展開される。\n\n## 内容\n\nスクールアイドルたちが花をあしらった衣装で描かれた新規イラストを使用したグッズ全13種が販売される。\n\n- トレーディングハート缶バッジ、アクリルスタンド、B2半裁タペストリーなど全13種展開\n- 対象商品3,000円(税込)購入ごとにポストカード(全13種)をランダムで1枚プレゼント\n- 大阪会場(ボークス大阪ショールーム)では10月10日から10月25日まで開催\n\n## 開催情報\n\n- **日時**: 2026年9月18日（金）〜10月4日（日）\n- **会場**: ボークス秋葉原 ホビー天国2 6Fイベントスペース\n- **料金**: 商品購入制\n- **予約**: 特記なし\n\n## こんな人におすすめ\n\n- 『ラブライブ！虹ヶ咲学園スクールアイドル同好会』ファン\n- 描き下ろしグッズを集めているコレクター",
+    "publishedAt": "2026-09-13",
+    "tagIds": [
+      207,
+      141,
+      127,
+      129
+    ],
+    "en": {
+      "title": "Love Live! Nijigasaki POP UP STORE at Volks Akihabara",
+      "summary": "A \"Love Live! Nijigasaki High School Idol Club\" POP UP STORE runs September 18 to October 4, 2026 at Volks Akihabara Hobby Tengoku 2, offering 13 types of newly illustrated goods themed \"Goddesses of Flowers.\"",
+      "content": "## Overview\n\nA \"Love Live! Nijigasaki High School Idol Club\" POP UP STORE will be held from September 18 to October 4, 2026 on the 6th floor event space of Volks Akihabara Hobby Tengoku 2, featuring goods with newly drawn illustrations themed \"Goddesses of Flowers.\"\n\n## Highlights\n\nThe new illustrations depict the school idols in flower-adorned outfits, spanning 13 types of goods.\n\n- 13 types of goods including trading heart can badges, acrylic stands, and half-cut B2 tapestries\n- One random postcard (13 types total) with every purchase of ¥3,000 (tax included) or more\n- The Osaka venue (Volks Osaka Showroom) runs October 10–25\n\n## Event Details\n\n- **Dates**: September 18 (Fri) – October 4 (Sun), 2026\n- **Venue**: Volks Akihabara Hobby Tengoku 2, 6th floor event space\n- **Price**: Goods purchase required\n- **Reservation**: None specified\n\n## Recommended For\n\n- Love Live! Nijigasaki High School Idol Club fans\n- Collectors gathering the newly illustrated goods"
+    },
+    "image": {
+      "src": "/images/articles/lovelive-nijigaku-popup-volks-akihabara-2026.jpg",
+      "alt": "「ラブライブ！虹ヶ咲」POP UP STOREの告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/lovelive-nijigaku-popup-volks-2026/"
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/lovelive-nijigaku-popup-volks-2026/"
+      }
+    ],
+    "event": {
+      "venue": "ボークス秋葉原ホビー天国2",
+      "startDate": "2026-09-18",
+      "endDate": "2026-10-04",
+      "price": "商品購入制（3,000円(税込)ごとに購入特典）",
+      "reservation": false
+    },
+    "authorId": 1
+  },
+  {
+    "id": 805,
+    "title": "映画『超かぐや姫！』POP-UP STOREがゲーマーズで開催",
+    "slug": "super-kaguyahime-gamers-popup-akihabara-2026",
+    "summary": "映画『超かぐや姫！』のゲーマーズPOP-UP STOREが、2026年9月12日から10月4日までAKIHABARAゲーマーズ本店5Fほか全国7店舗で開催。購入特典としてブロマイドカードや限定グッズが用意される。",
+    "content": "## 概要\n\n映画『超かぐや姫！』のグッズを展開するゲーマーズPOP-UP STOREが、2026年9月12日から10月4日までAKIHABARAゲーマーズ本店5Fをはじめ全国7店舗で開催される。ゲーマーズオンラインショップでも同時に通信販売が行われる。\n\n## 内容\n\n映画関連グッズの販売に加え、購入額に応じた特典も用意される。\n\n- トレーディングカード、色紙、缶バッジ、Tシャツ、アクリルスタンドなど関連商品を販売\n- 対象商品2,200円(税込)購入ごとに特典ブロマイドカード(全8種)をランダムで1枚プレゼント\n- 8,000円(税込)以上購入で「ライブチケット風クリアカード」をプレゼント\n\n## 開催情報\n\n- **日時**: 2026年9月12日（土）〜10月4日（日）\n- **会場**: AKIHABARAゲーマーズ本店 5F\n- **料金**: 商品購入制\n- **予約**: 特記なし\n\n## こんな人におすすめ\n\n- 映画『超かぐや姫！』ファン\n- ゲーマーズのPOP-UPイベントを定期的にチェックしている人",
+    "publishedAt": "2026-09-13",
+    "tagIds": [
+      207,
+      226,
+      72,
+      129
+    ],
+    "en": {
+      "title": "\"Super Kaguya-hime\" Movie POP-UP STORE at Gamers",
+      "summary": "A Gamers POP-UP STORE for the movie \"Super Kaguya-hime\" runs September 12 to October 4, 2026 at AKIHABARA Gamers Main Store 5F and six other stores nationwide, with bonus bromide cards and other goods for qualifying purchases.",
+      "content": "## Overview\n\nA Gamers POP-UP STORE featuring goods for the movie \"Super Kaguya-hime\" runs from September 12 to October 4, 2026 at AKIHABARA Gamers Main Store 5F and six other stores nationwide. Mail order is also available simultaneously through the Gamers online shop.\n\n## Highlights\n\nAlongside movie-themed merchandise, tiered purchase bonuses are also available.\n\n- Trading cards, shikishi boards, can badges, T-shirts, acrylic stands, and other goods on sale\n- One random bonus bromide card (8 types total) with every purchase of ¥2,200 (tax included) or more\n- A \"live-ticket style\" clear card with purchases of ¥8,000 (tax included) or more\n\n## Event Details\n\n- **Dates**: September 12 (Sat) – October 4 (Sun), 2026\n- **Venue**: AKIHABARA Gamers Main Store, 5th floor\n- **Price**: Goods purchase required\n- **Reservation**: None specified\n\n## Recommended For\n\n- Fans of the movie \"Super Kaguya-hime\"\n- Anyone who regularly checks Gamers pop-up events"
+    },
+    "image": {
+      "src": "/images/articles/super-kaguyahime-gamers-popup-akihabara-2026.jpg",
+      "alt": "映画『超かぐや姫！』ゲーマーズPOP-UP STOREの告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000008826.000016756.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000008826.000016756.html"
+      },
+      {
+        "label": "ゲーマーズ イベントページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7870"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店 5F",
+      "startDate": "2026-09-12",
+      "endDate": "2026-10-04",
+      "price": "商品購入制（2,200円(税込)ごとに特典）",
+      "reservation": false
+    },
+    "authorId": 1
   }
 ]

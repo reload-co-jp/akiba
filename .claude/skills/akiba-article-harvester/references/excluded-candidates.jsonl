@@ -478,3 +478,9 @@
 {"url": "https://figsoku.net/blog-entry-522796.html", "reason": "duplicate", "note": "既存記事myethos-popup-store-animate-akihabara-2026(id788)と同一イベント", "checked": "2026-09-12"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2136836.html", "reason": "duplicate", "note": "既存記事 rashinban-shinkan-1f-renewal-akihabara-2026 と同一(source URL一致)", "checked": "2026-09-12"}
 {"url": "https://www.taito.co.jp/event/001629/00001703", "reason": "not_akihabara_specific", "note": "全国タイトーステーション共通企画。秋葉原限定要素(EXBAR TOKYO plus秋葉原 9/20特別イベント等)未確認・公式ページに店舗別詳細なし", "checked": "2026-09-12"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000016.000171754.html", "reason": "low_value", "note": "株式会社FIT本社移転(秋葉原) visitor impactなし単純プレスリリース", "checked": "2026-09-13"}
+{"url": "https://collabo-cafe.com/events/collabo/persona-30th-animate-fair-onlyshop-2026/", "reason": "not_akihabara_specific", "note": "ペルソナ30周年オンリーショップは池袋アニメイト、秋葉原店参加未確認", "checked": "2026-09-13"}
+{"url": "https://www.enjoytokyo.jp/event/2082852/", "reason": "event_ended", "note": "NIKKE×KAKAO FRIENDSコラボ あみあみ秋葉原、9/13(本日)で終了", "checked": "2026-09-13"}
+{"url": "https://x.com/GiGO_Akiba_3/status/2022210750555832717", "reason": "event_ended", "note": "学園アイドルマスター×GiGOキャンペーンは2026年2/14-4/5開催の過去投稿", "checked": "2026-09-13"}
+{"url": "https://www.shosen.co.jp/event/45755/", "reason": "out_of_scope_venue", "note": "ハルモト紺サイン本抽選販売は書泉グランデ(神保町)、秋葉原ブックタワーでない", "checked": "2026-09-13"}
+{"url": "https://www.animate.co.jp/", "reason": "insufficient_facts", "note": "アニメイト秋葉原本店プーさんカフェスペース、詳細ページ・日程・料金確認できず", "checked": "2026-09-13"}
