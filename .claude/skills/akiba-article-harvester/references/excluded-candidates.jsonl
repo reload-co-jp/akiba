@@ -484,3 +484,5 @@
 {"url": "https://x.com/GiGO_Akiba_3/status/2022210750555832717", "reason": "event_ended", "note": "学園アイドルマスター×GiGOキャンペーンは2026年2/14-4/5開催の過去投稿", "checked": "2026-09-13"}
 {"url": "https://www.shosen.co.jp/event/45755/", "reason": "out_of_scope_venue", "note": "ハルモト紺サイン本抽選販売は書泉グランデ(神保町)、秋葉原ブックタワーでない", "checked": "2026-09-13"}
 {"url": "https://www.animate.co.jp/", "reason": "insufficient_facts", "note": "アニメイト秋葉原本店プーさんカフェスペース、詳細ページ・日程・料金確認できず", "checked": "2026-09-13"}
+{"url": "https://www.moomin.co.jp/news/events/68ba780980769", "reason": "event_ended", "note": "MOOMIN POPUP STORE@JR秋葉原駅、実際は2025年9月10日-10月5日開催(1年以上前の過去イベント、gnews発行日と実開催年が不一致)", "checked": "2026-09-13"}
+{"url": "gnews:秋葉原ラジオ会館夏フェス2026-ブルーアーカイブ5.5周年-ベルサール秋葉原", "reason": "insufficient_facts", "note": "gnews記事タイトルのみ判明、リダイレクトURL解決不可・WebSearchでも実記事特定できず(9/9-10頃のAKIBA PC Hotline!系まとめ記事と推定)", "checked": "2026-09-13"}
