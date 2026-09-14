@@ -736,3 +736,8 @@
 {"url": "https://www.animatetimes.com/news/details.php?id=1787731839", "reason": "out_of_scope_venue", "note": "マンガメイドインアビス展、会場は西武池袋本店で秋葉原外", "checked": "2026-09-14"}
 {"url": "https://www.animatetimes.com/news/details.php?id=1788918727", "reason": "not_akihabara_specific", "note": "ペルソナ30周年オンリーショップ、池袋本店中心+全国展開で秋葉原固有会場記載なし", "checked": "2026-09-14"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2139755.html", "reason": "event_ended", "note": "自作パソコンミーティング、8月末開催で終了済み", "checked": "2026-09-14"}
+{"url": "https://www.shosen.co.jp/event/45450/", "reason": "out_of_scope_venue", "note": "やしきさくらサイン本お渡し会は書泉グランデ(神保町)開催、秋葉原の書泉ブックタワーではない", "checked": "2026-09-15"}
+{"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSDdxOWp3VzM5U29Ud2NsQ1ZNZWt1b0JmZ1pKNmxNTnFOQjltbTR0RW9QVmw0WGRiejJiUG5UU0dqSHRiRFJvcGkyV1ZBSWJkSlJzdnln?oc=5", "reason": "insufficient_facts", "note": "ONE PIECEカードゲーム メラメラの実争奪戦、JR秋葉原駅9/14開催の一次ソース確認できず。検索では10/3-4幕張メッセ開催分のみ確認", "checked": "2026-09-15"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2136836.html", "reason": "insufficient_facts", "note": "らしんばん秋葉原新館リニューアル/トレカチェイスオープン/秋月電子、正確な開業日・営業再開日確認できず", "checked": "2026-09-15"}
+{"url": "https://club-mogra.jp/2026/09/15/9932/", "reason": "low_value", "note": "AKIBA-POP CLUB 9/15開催分。既存記事akiba-pop-club-mogra-akihabara-2026-09(9/1開催分)と同一定期イベントシリーズの反復開催、個別記事化の価値薄い", "checked": "2026-09-15"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000792.000025694.html", "reason": "event_ended", "note": "ノーガホテル秋葉原「開業5周年」記念、プレスリリース日付は2025年8月27日、2025年9月開催分で既に1年以上前のニュース", "checked": "2026-09-15"}
