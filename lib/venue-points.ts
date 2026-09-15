@@ -44,6 +44,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "書泉ブックタワー": { lat: 35.6976, lng: 139.7745 },
   "Clove Lounge Cafe &Bar 秋葉原": { lat: 35.6978, lng: 139.7747 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },
+  "テレオンsound 110 5F試聴室": { lat: 35.7, lng: 139.773 },
   "eSports Studio AKIBA": { lat: 35.7005, lng: 139.7716 },
   "ラオックス秋葉原本店": { lat: 35.7002, lng: 139.7718 },
   "ドン・キホーテ秋葉原": { lat: 35.700825, lng: 139.771852 },
