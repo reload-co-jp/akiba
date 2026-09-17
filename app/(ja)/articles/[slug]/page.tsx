@@ -17,6 +17,7 @@ import {
   getArticleTagNames,
   getAuthorById,
   getTagById,
+  getTagColorClass,
   placeholderImage,
   addAkihabaraSeoTitle,
   getSeoTitle,
@@ -373,7 +374,11 @@ const Page = async ({ params }: Props) => {
           {article.tagIds.map((tid) => {
             const t = getTagById(tid)
             return t ? (
-              <Link key={tid} href={`/tags/${tid}/`} className="article-tag">
+              <Link
+                key={tid}
+                href={`/tags/${tid}/`}
+                className={`article-tag ${getTagColorClass(t.name)}`}
+              >
                 {t.name}
               </Link>
             ) : null
@@ -669,7 +674,7 @@ const Page = async ({ params }: Props) => {
                 <Link
                   key={tid}
                   href={`/tags/${tid}/`}
-                  className="article-tags-nav__item"
+                  className={`article-tags-nav__item ${getTagColorClass(t.name)}`}
                 >
                   {t.name}
                 </Link>
@@ -710,7 +715,10 @@ const Page = async ({ params }: Props) => {
                         {relatedArticle.tagIds.map((tid) => {
                           const t = getTagById(tid)
                           return t ? (
-                            <span key={tid} className="article-card__tag">
+                            <span
+                              key={tid}
+                              className={`article-card__tag ${getTagColorClass(t.name)}`}
+                            >
                               {t.name}
                             </span>
                           ) : null

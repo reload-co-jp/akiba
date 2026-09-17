@@ -20,6 +20,15 @@ export const getTagById = (id: number): Tag | undefined =>
 
 export const getTagEnName = (tag: Tag): string => tag.nameEn ?? tag.name
 
+const SPECIAL_TAG_COLOR_CLASSES: Record<string, string> = {
+  "アニメ": "tag--anime",
+  "アイドル": "tag--idol",
+  "コラボ": "tag--collab",
+}
+
+export const getTagColorClass = (name: string): string =>
+  SPECIAL_TAG_COLOR_CLASSES[name] ?? ""
+
 export type LocaleContent = {
   title: string
   summary: string

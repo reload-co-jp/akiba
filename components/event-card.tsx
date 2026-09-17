@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { getTagColorClass } from "lib/articles"
 
 const PLACEHOLDER = {
   src: "/images/placeholder.jpg",
@@ -67,7 +68,10 @@ export const EventCard = ({
             {tags && tags.length > 0 && (
               <div className="events-card__tags">
                 {tags.map((tag) => (
-                  <span key={tag} className="events-card__tag">
+                  <span
+                    key={tag}
+                    className={`events-card__tag ${getTagColorClass(tag)}`}
+                  >
                     {tag}
                   </span>
                 ))}

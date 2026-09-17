@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
-import { formatDate, getArticleImage, getArticleTagNames, getTagById } from "lib/articles"
+import { formatDate, getArticleImage, getArticleTagNames, getTagById, getTagColorClass } from "lib/articles"
 
 export function SearchResults({ articles }: { articles: Article[] }) {
   const searchParams = useSearchParams()
@@ -47,7 +47,7 @@ export function SearchResults({ articles }: { articles: Article[] }) {
                   <div className="article-card__tags">
                     {article.tagIds.map((tid) => {
                       const t = getTagById(tid)
-                      return t ? <span key={tid} className="article-card__tag">{t.name}</span> : null
+                      return t ? <span key={tid} className={`article-card__tag ${getTagColorClass(t.name)}`}>{t.name}</span> : null
                     })}
                   </div>
                   <h2 className="article-card__title">{article.title}</h2>

@@ -7,6 +7,7 @@ import {
   getArticleImage,
   getLocalizedContent,
   getTagById,
+  getTagColorClass,
 } from "lib/articles"
 import { useLang } from "./language-provider"
 import AdsenseFluidAd from "./adsense-fluid-ad"
@@ -71,7 +72,10 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
                     {article.tagIds.map((tid) => {
                       const t = getTagById(tid)
                       return t ? (
-                        <span key={tid} className="article-card__tag">
+                        <span
+                          key={tid}
+                          className={`article-card__tag ${getTagColorClass(t.name)}`}
+                        >
                           {t.name}
                         </span>
                       ) : null

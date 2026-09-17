@@ -9,6 +9,7 @@ import {
   getArticlePublishedDate,
   getAuthorById,
   getTagById,
+  getTagColorClass,
 } from "lib/articles"
 
 type Props = {
@@ -135,7 +136,10 @@ const Page = async ({ params }: Props) => {
                       {article.tagIds.map((tid) => {
                         const t = getTagById(tid)
                         return t ? (
-                          <span key={tid} className="article-card__tag">
+                          <span
+                            key={tid}
+                            className={`article-card__tag ${getTagColorClass(t.name)}`}
+                          >
                             {t.name}
                           </span>
                         ) : null

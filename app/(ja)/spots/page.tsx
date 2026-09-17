@@ -3,6 +3,7 @@ import { getDetailPageSpots, getAllSpotCategories, getSpotImage } from "lib/spot
 import type { SpotCategory } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
+import { getTagColorClass } from "lib/articles"
 
 const categoryOrder: SpotCategory[] = [
   "電気街・PCパーツ",
@@ -165,7 +166,10 @@ const Page = () => {
                           />
                           <div className="article-card__tags">
                             {spot.tags?.map((tag) => (
-                              <span key={tag} className="article-card__tag">
+                              <span
+                                key={tag}
+                                className={`article-card__tag ${getTagColorClass(tag)}`}
+                              >
                                 {tag}
                               </span>
                             ))}

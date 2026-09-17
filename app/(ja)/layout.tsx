@@ -147,52 +147,113 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                 <img
                   src="/images/logo.png"
                   alt="アキバLive"
-                  width="195"
-                  height="48"
+                  width="300"
+                  height="100"
                 />
               </Link>
+              <div className="site-header__tagline">
+                <p className="site-header__kicker">Akihabara journal</p>
+                今日出会えるエンタメの気配を集めて配信！
+              </div>
+              <form action="/articles" className="site-header__search">
+                <input
+                  type="search"
+                  name="q"
+                  className="site-header__search-input"
+                  placeholder="キーワードで検索（例：新店舗、イベント、ゲーム）"
+                  aria-label="記事を検索"
+                />
+                <button type="submit" className="site-header__search-button">
+                  検索
+                </button>
+              </form>
               <nav className="site-header__nav" aria-label="主要ナビゲーション">
+                <Link href="/events/">イベント</Link>
+                <Link href="/spots/">スポット</Link>
                 <Link href="/articles/">新着</Link>
-                <Link href="/akiba-today/">今日</Link>
-                <Link href="/events/">開催中</Link>
               </nav>
             </div>
           </header>
-          <main className="site-main">{children}</main>
-          <footer className="site-footer">
-            <div className="site-footer__inner">
-              <p>
-                &copy; アキバLive /{" "}
-                <a
-                  href="https://reload.co.jp"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  運営会社
-                </a>
-                {" / "}
-                <Link href="/akiba-today/">今日の秋葉原</Link>
-                {" / "}
-                <Link href="/events/today/">今日のイベント</Link>
-                {" / "}
-                <Link href="/events/popup/">POPUPストア</Link>
-                {" / "}
-                <Link href="/events/collab-cafe/">コラボカフェ</Link>
-                {" / "}
-                <Link href="/articles/month/">月別</Link>
-                {" / "}
-                <Link href="/about/">このサイトについて</Link>
-                {" / "}
-                <Link href="/spots/">観光スポット</Link>
-                {" / "}
-                <Link href="/spots/gourmet/">秋葉原グルメ</Link>
-                {" / "}
-                <Link href="/terms/">利用規約</Link>
-                {" / "}
-                <Link href="/privacy/">プライバシーポリシー</Link>
-              </p>
+          <div className="site-shell">
+            <nav className="site-sidebar" aria-label="カテゴリナビゲーション">
+              <Link href="/" className="site-sidebar__link">
+                ホーム
+              </Link>
+              <Link href="/events/today/" className="site-sidebar__link">
+                今日のイベント
+              </Link>
+              <Link href="/events/this-week/" className="site-sidebar__link">
+                今週のイベント
+              </Link>
+              <Link href="/events/this-weekend/" className="site-sidebar__link">
+                今週末のイベント
+              </Link>
+              <Link href="/events/collab-cafe/" className="site-sidebar__link">
+                コラボカフェ
+              </Link>
+              <Link href="/events/popup/" className="site-sidebar__link">
+                POPUPストア
+              </Link>
+              <Link href="/events/calendar/" className="site-sidebar__link">
+                イベントカレンダー
+              </Link>
+              <Link href="/articles/" className="site-sidebar__link">
+                新着記事
+              </Link>
+              <Link href="/akiba-today/" className="site-sidebar__link">
+                今日の秋葉原
+              </Link>
+              <Link href="/spots/gourmet/" className="site-sidebar__link">
+                秋葉原グルメ
+              </Link>
+              <Link href="/spots/" className="site-sidebar__link">
+                観光スポット
+              </Link>
+              <Link href="/articles/month/" className="site-sidebar__link">
+                月別アーカイブ
+              </Link>
+              <Link href="/about/" className="site-sidebar__link">
+                このサイトについて
+              </Link>
+            </nav>
+            <div className="site-shell__main">
+              <main className="site-main">{children}</main>
+              <footer className="site-footer">
+                <div className="site-footer__inner">
+                  <p>
+                    &copy; アキバLive /{" "}
+                    <a
+                      href="https://reload.co.jp"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      運営会社
+                    </a>
+                    {" / "}
+                    <Link href="/akiba-today/">今日の秋葉原</Link>
+                    {" / "}
+                    <Link href="/events/today/">今日のイベント</Link>
+                    {" / "}
+                    <Link href="/events/popup/">POPUPストア</Link>
+                    {" / "}
+                    <Link href="/events/collab-cafe/">コラボカフェ</Link>
+                    {" / "}
+                    <Link href="/articles/month/">月別</Link>
+                    {" / "}
+                    <Link href="/about/">このサイトについて</Link>
+                    {" / "}
+                    <Link href="/spots/">観光スポット</Link>
+                    {" / "}
+                    <Link href="/spots/gourmet/">秋葉原グルメ</Link>
+                    {" / "}
+                    <Link href="/terms/">利用規約</Link>
+                    {" / "}
+                    <Link href="/privacy/">プライバシーポリシー</Link>
+                  </p>
+                </div>
+              </footer>
             </div>
-          </footer>
+          </div>
         </LanguageProvider>
       </body>
     </html>

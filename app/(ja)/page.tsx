@@ -1,6 +1,16 @@
 import Link from "next/link"
 import { HomeArticlesFilter } from "components/home-articles-filter"
-import { getAllArticles } from "lib/articles"
+import { HomeNewsCarousel } from "components/home-news-carousel"
+import {
+  getAllArticles,
+  getArticleImage,
+  getOngoingEvents,
+  getTagById,
+  getUpcomingThisWeekEvents,
+} from "lib/articles"
+import { fmtRange } from "lib/format"
+import { EventSection } from "components/event-section"
+import { EventCard } from "components/event-card"
 import { CalendarView } from "./events/calendar/calendar-view"
 import { absoluteUrl } from "lib/site"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
@@ -27,8 +37,11 @@ export const metadata = {
   },
 }
 
+const RECENT_KEYWORD_WINDOW = 60
+
 const Page = () => {
   const articles = getAllArticles()
+  const today = new Date().toISOString().slice(0, 10)
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -44,47 +57,132 @@ const Page = () => {
     })),
   }
 
+  const thisWeekEvents = getUpcomingThisWeekEvents(today).slice(0, 4)
+  const ongoingEventsAll = getOngoingEvents(today)
+  const ongoingEvents = ongoingEventsAll.slice(0, 3)
+  const carouselArticles = [...ongoingEventsAll, ...getUpcomingThisWeekEvents(today, 7)]
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, 8)
+
+  const recentArticles = articles.slice(0, RECENT_KEYWORD_WINDOW)
+  const keywordCounts = recentArticles.reduce<Record<number, number>>(
+    (counts, article) => {
+      for (const id of article.tagIds) {
+        counts[id] = (counts[id] ?? 0) + 1
+      }
+      return counts
+    },
+    {}
+  )
+  const keywords = Object.keys(keywordCounts)
+    .map(Number)
+    .sort((a, b) => keywordCounts[b] - keywordCounts[a])
+    .map((id) => getTagById(id))
+    .filter((t): t is NonNullable<typeof t> => t != null)
+    .slice(0, 12)
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="home-hero">
-        <div className="home-hero__content">
-          <p className="home-hero__kicker">Akihabara journal</p>
-          <h1 className="home-hero__title">アキバLive</h1>
-          <p className="home-hero__lead">
-            懐かしさと熱気が交差する街で、今日出会えるエンタメの気配を集めます。
-          </p>
-          <form action="/articles" className="home-hero__search">
-            <input
-              type="search"
-              name="q"
-              className="home-hero__search-input"
-              placeholder="記事を検索..."
-              aria-label="記事を検索"
-            />
+      <h1 className="sr-only">アキバLive｜秋葉原の最新イベント・コラボ・ニュース</h1>
 
-            <button className="home-hero__link">最新記事を読む</button>
-          </form>
+      <HomeNewsCarousel articles={carouselArticles} />
 
-          <nav className="home-tags" aria-label="人気コンテンツ">
-            <Link href="/spots/gourmet/" className="home-tags__item">
-              秋葉原グルメ
-            </Link>
-            <Link href="/spots/gourmet/ramen/" className="home-tags__item">
-              秋葉原ラーメン
-            </Link>
-            <Link href="/events/today/" className="home-tags__item">
-              今日のイベント
-            </Link>
-          </nav>
+      <div className="home-layout">
+        <div className="home-layout__main">
+          <EventSection
+            id="this-week-events"
+            kicker="This Week"
+            title="今週のイベント"
+          >
+            {thisWeekEvents.length === 0 ? (
+              <p className="events-page__empty">
+                今週開催予定のイベントはまだありません。
+              </p>
+            ) : (
+              <ul className="events-list events-list--grid">
+                {thisWeekEvents.map((a) => (
+                  <EventCard
+                    key={a.id}
+                    href={`/articles/${a.slug}/`}
+                    image={getArticleImage(a)}
+                    title={a.title}
+                    venue={a.event!.venue}
+                    dateRange={fmtRange(a.event!.startDate, a.event!.endDate)}
+                    layout="grid"
+                  />
+                ))}
+              </ul>
+            )}
+          </EventSection>
         </div>
-      </section>
+
+        <aside className="home-sidebar" aria-label="サイドコンテンツ">
+          <AdsenseFluidAd />
+
+          <section className="home-widget" aria-labelledby="home-widget-events">
+            <div className="home-widget__header">
+              <h2 id="home-widget-events" className="home-widget__title">
+                本日の注目イベント
+              </h2>
+              <Link href="/events/today/" className="home-widget__more">
+                もっと見る
+              </Link>
+            </div>
+            <ul className="home-widget-events">
+              {ongoingEvents.length === 0 ? (
+                <li className="home-widget-events__empty">
+                  本日開催中のイベントはありません。
+                </li>
+              ) : (
+                ongoingEvents.map((a) => (
+                  <li key={a.id}>
+                    <Link
+                      href={`/articles/${a.slug}/`}
+                      className="home-widget-events__link"
+                    >
+                      <span className="home-widget-events__range">
+                        {fmtRange(a.event!.startDate, a.event!.endDate)}
+                      </span>
+                      <span className="home-widget-events__title">
+                        {a.title}
+                      </span>
+                      <span className="home-widget-events__venue">
+                        {a.event!.venue}
+                      </span>
+                    </Link>
+                  </li>
+                ))
+              )}
+            </ul>
+          </section>
+
+          <section
+            className="home-widget"
+            aria-labelledby="home-widget-keywords"
+          >
+            <h2 id="home-widget-keywords" className="home-widget__title">
+              人気のキーワード
+            </h2>
+            <div className="home-keyword-list">
+              {keywords.map((tag) => (
+                <Link
+                  key={tag.id}
+                  href={`/tags/${tag.id}/`}
+                  className="home-keyword-list__item"
+                >
+                  {tag.name}
+                </Link>
+              ))}
+            </div>
+          </section>
+        </aside>
+      </div>
 
       <HomeArticlesFilter articles={articles} />
-      <AdsenseFluidAd />
 
       <CalendarView
         events={articles.filter((a) => a.event != null)}
