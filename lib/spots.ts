@@ -260,6 +260,16 @@ export const getPagedCuisines = (): string[] =>
     )
     .sort((a, b) => getSpotsByCuisine(b).length - getSpotsByCuisine(a).length)
 
+/** Gourmet spots tagged with the given sub-area — the source for /spots/gourmet/area/[area]/. */
+export const getGourmetSpotsByArea = (area: string): Spot[] =>
+  getGourmetSpots().filter((s) => s.tags?.includes(area))
+
+/** Sub-areas that have at least one gourmet spot, most populous first. */
+export const getPagedGourmetAreas = (): SpotArea[] =>
+  spotAreas
+    .filter((area) => getGourmetSpotsByArea(area).length > 0)
+    .sort((a, b) => getGourmetSpotsByArea(b).length - getGourmetSpotsByArea(a).length)
+
 /** JR Akihabara Station, Electric Town exit. */
 export const AKIHABARA_STATION = { lat: 35.698383, lng: 139.773071 }
 

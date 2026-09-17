@@ -1,14 +1,12 @@
 import Link from "next/link"
+import { notFound } from "next/navigation"
 import {
   areaSlugs,
-  getGourmetSpots,
+  getAreaBySlug,
   getGourmetSpotsByArea,
-  getPagedCuisines,
   getPagedGourmetAreas,
-  getSpotsByCuisine,
-  getCuisineLabel,
-  sortGourmetSpots,
   hasDetailPage,
+  sortGourmetSpots,
 } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
@@ -16,35 +14,58 @@ import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
-const title = "秋葉原のグルメ・飲食店一覧"
-const description =
-  "秋葉原エリアの飲食店をジャンル別にまとめた一覧。ラーメン・カレー・カフェ・居酒屋・メイドカフェなど、電気街周辺で食事ができる店を探せます。"
-
-export const metadata = {
-  title,
-  description,
-  alternates: { canonical: "/spots/gourmet/" },
-  openGraph: {
-    title: `${title} | アキバLive`,
-    description,
-    url: "/spots/gourmet/",
-    type: "website",
-    images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${title} | アキバLive`,
-    description,
-    images: ["/images/hero.jpg"],
-  },
+type Props = {
+  params: Promise<{ area: string }>
 }
 
-const Page = () => {
-  const spots = sortGourmetSpots(getGourmetSpots())
-  const cuisines = getPagedCuisines()
-  const areas = getPagedGourmetAreas()
+export const generateStaticParams = () =>
+  getPagedGourmetAreas().map((area) => ({ area: areaSlugs[area] }))
 
-  const pageUrl = absoluteUrl("/spots/gourmet/")
+const buildTitle = (area: string) => `秋葉原${area}エリアの飲食店一覧`
+
+const buildDescription = (area: string, count: number) =>
+  `秋葉原「${area}」エリアの飲食店を${count}件掲載。住所・営業時間つきで、周辺で食事や休憩ができる店を探せます。`
+
+export const generateMetadata = async ({ params }: Props) => {
+  const { area: slug } = await params
+  const area = getAreaBySlug(slug)
+  if (!area) return {}
+
+  const spots = getGourmetSpotsByArea(area)
+  const title = buildTitle(area)
+  const description = buildDescription(area, spots.length)
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/spots/gourmet/area/${slug}/` },
+    openGraph: {
+      title: `${title} | アキバLive`,
+      description,
+      url: `/spots/gourmet/area/${slug}/`,
+      type: "website",
+      images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | アキバLive`,
+      description,
+      images: ["/images/hero.jpg"],
+    },
+  }
+}
+
+const Page = async ({ params }: Props) => {
+  const { area: slug } = await params
+  const area = getAreaBySlug(slug)
+  if (!area) notFound()
+
+  const spots = sortGourmetSpots(getGourmetSpotsByArea(area))
+  const title = buildTitle(area)
+  const description = buildDescription(area, spots.length)
+  const pageUrl = absoluteUrl(`/spots/gourmet/area/${slug}/`)
+
+  const otherAreas = getPagedGourmetAreas().filter((a) => a !== area)
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -98,7 +119,13 @@ const Page = () => {
         name: "観光スポット",
         item: absoluteUrl("/spots/"),
       },
-      { "@type": "ListItem", position: 3, name: "グルメ", item: pageUrl },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "グルメ",
+        item: absoluteUrl("/spots/gourmet/"),
+      },
+      { "@type": "ListItem", position: 4, name: area, item: pageUrl },
     ],
   }
 
@@ -117,11 +144,14 @@ const Page = () => {
             <li className="breadcrumb__item">
               <Link href="/spots/">観光スポット</Link>
             </li>
+            <li className="breadcrumb__item">
+              <Link href="/spots/gourmet/">グルメ</Link>
+            </li>
             <li
               className="breadcrumb__item breadcrumb__item--current"
               aria-current="page"
             >
-              グルメ
+              {area}
             </li>
           </ol>
         </nav>
@@ -132,44 +162,28 @@ const Page = () => {
         </div>
 
         <p className="gourmet-lead">
-          秋葉原エリアで食事ができる店を{spots.length}件、
+          秋葉原「{area}」エリアの飲食店を{spots.length}件、
           秋葉原駅から近い順に掲載しています。
-          ジャンルから絞り込むか、下の一覧から探してください。
         </p>
-
-        <nav aria-label="ジャンル" className="gourmet-cuisine-nav">
-          {cuisines.map((cuisine) => (
-            <Link
-              key={cuisine}
-              href={`/spots/gourmet/${cuisine}/`}
-              className="gourmet-cuisine-nav__link"
-            >
-              {getCuisineLabel(cuisine)}
-              <span className="gourmet-cuisine-nav__count">
-                {getSpotsByCuisine(cuisine).length}
-              </span>
-            </Link>
-          ))}
-        </nav>
-
-        <nav aria-label="エリア" className="gourmet-cuisine-nav">
-          {areas.map((area) => (
-            <Link
-              key={area}
-              href={`/spots/gourmet/area/${areaSlugs[area]}/`}
-              className="gourmet-cuisine-nav__link"
-            >
-              {area}
-              <span className="gourmet-cuisine-nav__count">
-                {getGourmetSpotsByArea(area).length}
-              </span>
-            </Link>
-          ))}
-        </nav>
 
         <GourmetSpotMap spots={spots} />
 
         <GourmetSpotList spots={spots} />
+
+        <nav aria-label="ほかのエリア" className="gourmet-cuisine-nav">
+          {otherAreas.map((other) => (
+            <Link
+              key={other}
+              href={`/spots/gourmet/area/${areaSlugs[other]}/`}
+              className="gourmet-cuisine-nav__link"
+            >
+              {other}
+              <span className="gourmet-cuisine-nav__count">
+                {getGourmetSpotsByArea(other).length}
+              </span>
+            </Link>
+          ))}
+        </nav>
 
         <OsmAttribution />
 
