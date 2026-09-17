@@ -3,6 +3,7 @@ import Script from "next/script"
 import { absoluteUrl, siteDescription, siteName, siteUrl } from "lib/site"
 import { LanguageProvider } from "components/language-provider"
 import { AdsenseVignetteCleanup } from "components/adsense-vignette-cleanup"
+import { notoSansJP } from "lib/fonts"
 import "../reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
@@ -73,7 +74,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
   ]
 
   return (
-    <html lang="ja">
+    <html lang="ja" className={notoSansJP.variable}>
       <head>
         <link
           href="/rss.xml"
