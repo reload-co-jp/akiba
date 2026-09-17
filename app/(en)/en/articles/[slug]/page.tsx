@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { marked } from "marked"
 import { ArticleImagePreview } from "components/article-image-preview"
 import { ArticleVenueMap } from "components/article-venue-map"
@@ -557,6 +558,7 @@ const Page = async ({ params }: Props) => {
           </section>
         )}
         <AdsenseFluidAd />
+        <AdsenseDisplayAd />
       </article>
     </>
   )
