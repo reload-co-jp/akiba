@@ -301,6 +301,43 @@ export const sortGourmetSpots = (spots: Spot[]): Spot[] =>
     return a.name.localeCompare(b.name, "ja")
   })
 
+/** Named sub-areas within Akihabara that a spot's `tags` may include. */
+export const spotAreas = [
+  "電気街",
+  "中央口",
+  "昭和通り",
+  "岩本町",
+  "末広町",
+  "パーツ街・ジャンク街",
+  "UDX",
+] as const
+
+export type SpotArea = (typeof spotAreas)[number]
+
+/** URL-safe slug for each area, used by /spots/area/[area]/. */
+export const areaSlugs: Record<SpotArea, string> = {
+  電気街: "electric-town",
+  中央口: "chuo-guchi",
+  昭和通り: "showa-dori",
+  岩本町: "iwamotocho",
+  末広町: "suehirocho",
+  "パーツ街・ジャンク街": "parts-junk-district",
+  UDX: "udx",
+}
+
+export const getAreaBySlug = (slug: string): SpotArea | undefined =>
+  spotAreas.find((area) => areaSlugs[area] === slug)
+
+/** Spots of every tier tagged with the given area — mirrors getGourmetSpots. */
+export const getSpotsByArea = (area: string): Spot[] =>
+  getAllSpots().filter((s) => s.tags?.includes(area))
+
+/** Areas that have at least one tagged spot, most populous first. */
+export const getPagedAreas = (): SpotArea[] =>
+  spotAreas
+    .filter((area) => getSpotsByArea(area).length > 0)
+    .sort((a, b) => getSpotsByArea(b).length - getSpotsByArea(a).length)
+
 export const getSpotByVenueName = (venue: string): Spot | undefined => {
   // Only tier A: an article linking to a tier B spot would 404.
   return getDetailPageSpots().find(

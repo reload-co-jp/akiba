@@ -31,7 +31,8 @@
     "tags": [
       "家電",
       "PCパーツ",
-      "自作PC"
+      "自作PC",
+      "中央口"
     ]
   },
   {
@@ -66,7 +67,8 @@
     "tags": [
       "アニメ",
       "マンガ",
-      "グッズ"
+      "グッズ",
+      "電気街"
     ]
   },
   {
@@ -101,7 +103,8 @@
     "tags": [
       "アニメ",
       "ゲーム",
-      "声優"
+      "声優",
+      "電気街"
     ],
     "aliases": [
       "AKIHABARAゲーマーズ本店"
@@ -139,7 +142,8 @@
     "tags": [
       "フィギュア",
       "同人誌",
-      "トレカ"
+      "トレカ",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -175,7 +179,8 @@
     "tags": [
       "レトロゲーム",
       "中古ゲーム",
-      "ファミコン"
+      "ファミコン",
+      "電気街"
     ]
   },
   {
@@ -210,7 +215,8 @@
     "tags": [
       "フィギュア",
       "トレカ",
-      "中古"
+      "中古",
+      "電気街"
     ]
   },
   {
@@ -255,7 +261,8 @@
       "メイドカフェ",
       "コンカフェ",
       "カフェ",
-      "体験"
+      "体験",
+      "電気街"
     ],
     "cuisine": [
       "maid_cafe",
@@ -294,7 +301,8 @@
     "tags": [
       "複合施設",
       "イベント",
-      "レストラン"
+      "レストラン",
+      "UDX"
     ],
     "aliases": [
       "AKIBA_SQUARE",
@@ -336,7 +344,8 @@
     "tags": [
       "メイドカフェ",
       "カフェ",
-      "体験"
+      "体験",
+      "電気街"
     ],
     "aliases": [
       "めいどりーみん 秋葉原",
@@ -380,7 +389,8 @@
     "tags": [
       "とんかつ",
       "老舗",
-      "ランチ"
+      "ランチ",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "tonkatsu"
@@ -418,7 +428,8 @@
     "tags": [
       "焼肉",
       "和牛",
-      "ランチ"
+      "ランチ",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "yakiniku"
@@ -456,7 +467,8 @@
     "tags": [
       "電子部品",
       "自作",
-      "工具"
+      "工具",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -491,7 +503,8 @@
     "tags": [
       "電子部品",
       "キット",
-      "Arduino"
+      "Arduino",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -527,7 +540,8 @@
     "tags": [
       "メイドカフェ",
       "カフェ",
-      "体験"
+      "体験",
+      "電気街"
     ],
     "cuisine": [
       "maid_cafe",
@@ -573,7 +587,8 @@
     "tags": [
       "メイドカフェ",
       "バー",
-      "カフェ"
+      "カフェ",
+      "電気街"
     ],
     "cuisine": [
       "maid_cafe",
@@ -613,7 +628,8 @@
     "tags": [
       "メイドカフェ",
       "老舗",
-      "カフェ"
+      "カフェ",
+      "パーツ街・ジャンク街"
     ],
     "aliases": [
       "キュアメイドカフェ"
@@ -690,7 +706,8 @@
     "tags": [
       "歴史的建物",
       "レストラン",
-      "ショッピング"
+      "ショッピング",
+      "電気街"
     ]
   },
   {
@@ -725,7 +742,8 @@
     "tags": [
       "同人誌",
       "フィギュア",
-      "中古"
+      "中古",
+      "電気街"
     ]
   },
   {
@@ -760,7 +778,8 @@
     "tags": [
       "複合施設",
       "アニメ",
-      "ライブ"
+      "ライブ",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -796,7 +815,8 @@
     "tags": [
       "ガチャポン",
       "カプセルトイ",
-      "コレクション"
+      "コレクション",
+      "電気街"
     ]
   },
   {
@@ -835,7 +855,8 @@
     "tags": [
       "フィギュア",
       "プラモデル",
-      "限定品"
+      "限定品",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -870,7 +891,8 @@
     "tags": [
       "アニメ",
       "ゲーム",
-      "中古"
+      "中古",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -905,7 +927,8 @@
     "tags": [
       "フィギュア",
       "グッズ",
-      "中古"
+      "中古",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -940,7 +963,8 @@
     "tags": [
       "フィギュア",
       "海洋堂",
-      "ガチャガチャ"
+      "ガチャガチャ",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -1014,7 +1038,8 @@
     "tags": [
       "メイドカフェ",
       "カフェ",
-      "老舗"
+      "老舗",
+      "電気街"
     ],
     "cuisine": [
       "maid_cafe",
@@ -1046,7 +1071,10 @@
       "sourceUrl": "https://www.atre.co.jp/akihabara/news/6847/",
       "width": 96,
       "height": 96
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 29,
@@ -1067,7 +1095,10 @@
       "sourceUrl": "https://www.luluttolilly.com/news/detail.php?id=23592",
       "width": 96,
       "height": 96
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 30,
@@ -1089,7 +1120,10 @@
       "width": 512,
       "height": 640,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 31,
@@ -1131,7 +1165,10 @@
       "alt": "ものづくり館 by YKKの公式ビジュアル",
       "sourceLabel": "ものづくり館 by YKK 公式サイト",
       "sourceUrl": "https://monozukuri.ykkfastening.com/"
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 33,
@@ -1152,7 +1189,10 @@
       "sourceUrl": "https://analogaudio-fair.com/",
       "width": 72,
       "height": 72
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 34,
@@ -1174,7 +1214,10 @@
       "sourceUrl": "https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 35,
@@ -1194,7 +1237,10 @@
       "alt": "神田明神ホールの公式ビジュアル",
       "sourceLabel": "神田明神ホール公式サイト",
       "sourceUrl": "https://myoujin-hall.jp/"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 36,
@@ -1215,7 +1261,10 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000006.000174847.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": [
+      "末広町"
+    ]
   },
   {
     "id": 37,
@@ -1245,7 +1294,8 @@
     "tags": [
       "書店",
       "サイン会",
-      "コラボPOPUP"
+      "コラボPOPUP",
+      "昭和通り"
     ]
   },
   {
@@ -1272,6 +1322,9 @@
     "cuisine": [
       "cafe",
       "bar"
+    ],
+    "tags": [
+      "電気街"
     ]
   },
   {
@@ -1294,7 +1347,10 @@
       "width": 1,
       "height": 1,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 40,
@@ -1316,7 +1372,10 @@
       "width": 1,
       "height": 1,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 41,
@@ -1338,7 +1397,10 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000064.000152399.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 42,
@@ -1366,7 +1428,8 @@
     "tags": [
       "トレーディングカード",
       "TCG",
-      "対戦スペース"
+      "対戦スペース",
+      "電気街"
     ]
   },
   {
@@ -1390,7 +1453,10 @@
       "width": 1200,
       "height": 630,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 44,
@@ -1410,7 +1476,10 @@
       "alt": "秋葉原 SEEKBASEの公式ビジュアル",
       "sourceLabel": "SEEKBASE公式サイト",
       "sourceUrl": "https://www.jrtk.jp/seekbase/"
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 45,
@@ -1440,7 +1509,10 @@
       "sourceUrl": "https://hobby.volks.co.jp/shop/hobbytengoku2/",
       "width": 960,
       "height": 480
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 46,
@@ -1466,7 +1538,10 @@
       "collab_cafe",
       "cafe"
     ],
-    "website": "https://collabocafe-honpo.co.jp/"
+    "website": "https://collabocafe-honpo.co.jp/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 47,
@@ -1488,7 +1563,10 @@
       "width": 600,
       "height": 600,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 48,
@@ -1518,7 +1596,8 @@
     "tags": [
       "グルメ",
       "ラーメン",
-      "家系"
+      "家系",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "ramen"
@@ -1543,7 +1622,10 @@
       "sourceLabel": "ペットショップCoo&RIKU",
       "sourceUrl": "https://www.pet-coo.com/news/67%EF%BC%88%E6%97%A5%EF%BC%89%E7%A7%8B%E8%91%89%E5%8E%9F%E5%BA%97%E9%96%89%E5%BA%97%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 50,
@@ -1568,6 +1650,9 @@
     "cuisine": [
       "cafe",
       "sweets"
+    ],
+    "tags": [
+      "電気街"
     ]
   },
   {
@@ -1594,7 +1679,10 @@
       "steak",
       "bar"
     ],
-    "website": "https://meatwinery.owst.jp/"
+    "website": "https://meatwinery.owst.jp/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 52,
@@ -1618,6 +1706,9 @@
     "cuisine": [
       "pizza",
       "bar"
+    ],
+    "tags": [
+      "電気街"
     ]
   },
   {
@@ -1644,7 +1735,10 @@
     "cuisine": [
       "korean"
     ],
-    "website": "https://www.arclandservice.co.jp/nakayama-tofu/"
+    "website": "https://www.arclandservice.co.jp/nakayama-tofu/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 54,
@@ -1664,7 +1758,10 @@
       "sourceLabel": "ASCII.jp",
       "sourceUrl": "https://ascii.jp/elem/000/004/409/4409558/",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 55,
@@ -1713,7 +1810,10 @@
       "width": 300,
       "height": 300,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 57,
@@ -1733,7 +1833,10 @@
       "sourceLabel": "TIGET",
       "sourceUrl": "https://tiget.net/events/488099",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 58,
@@ -1755,7 +1858,10 @@
       "width": 72,
       "height": 72,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 59,
@@ -1777,7 +1883,10 @@
       "width": 72,
       "height": 72,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 60,
@@ -1822,7 +1931,10 @@
       "sourceUrl": "https://www.theia-live.com/",
       "width": 2500,
       "height": 1768
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 62,
@@ -1867,7 +1979,10 @@
       "width": 1,
       "height": 1,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 64,
@@ -1886,7 +2001,10 @@
       "alt": "アキバCOギャラリーの関連ビジュアル",
       "sourceLabel": "PR TIMES プレスリリース",
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001022.000042572.html"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 65,
@@ -1907,7 +2025,10 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009529.000014827.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 66,
@@ -1926,7 +2047,10 @@
       "alt": "TOPPA!!! BASE AKIBAの関連ビジュアル",
       "sourceLabel": "BEYBLADE X タカラトミー商品ページ",
       "sourceUrl": "https://beyblade.takaratomy.co.jp/beyblade-x/news/news260603.html"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 67,
@@ -1953,7 +2077,10 @@
       "width": 900,
       "height": 1000,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 68,
@@ -1975,7 +2102,10 @@
       "width": 1200,
       "height": 675,
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 69,
@@ -1997,7 +2127,10 @@
       "sourceUrl": "https://anthemakiba.com/",
       "width": 0,
       "height": 0
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 70,
@@ -2018,7 +2151,10 @@
       "sourceUrl": "https://www.3331.jp/schedule2/019924.html",
       "width": 1280,
       "height": 1804
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 71,
@@ -2097,7 +2233,8 @@
     "tags": [
       "レトロゲーム",
       "レトロPC",
-      "アーケード基板"
+      "アーケード基板",
+      "岩本町"
     ]
   },
   {
@@ -2124,7 +2261,10 @@
     "cuisine": [
       "sushi"
     ],
-    "website": "https://www.akindo-sushiro.co.jp/shop/detail.php?id=2773"
+    "website": "https://www.akindo-sushiro.co.jp/shop/detail.php?id=2773",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 75,
@@ -2145,7 +2285,10 @@
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000957.000060459.html",
       "width": 1,
       "height": 1
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 76,
@@ -2182,7 +2325,8 @@
     "tags": [
       "グルメ",
       "焼肉",
-      "牛たん"
+      "牛たん",
+      "昭和通り"
     ],
     "cuisine": [
       "yakiniku"
@@ -2224,7 +2368,8 @@
     "tags": [
       "ホビーショップ",
       "ファンシーグッズ",
-      "ショッピング"
+      "ショッピング",
+      "電気街"
     ],
     "lat": 35.702847,
     "lng": 139.770721
@@ -2266,7 +2411,8 @@
     "tags": [
       "トレーディングカード",
       "TCG",
-      "ポケモンカード"
+      "ポケモンカード",
+      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -2306,7 +2452,8 @@
     "tags": [
       "カフェ",
       "作業",
-      "チェーン店"
+      "チェーン店",
+      "岩本町"
     ],
     "cuisine": [
       "cafe"
@@ -2371,7 +2518,8 @@
     "tags": [
       "アミューズメント",
       "コラボカフェ",
-      "カードゲーム"
+      "カードゲーム",
+      "電気街"
     ],
     "lat": 35.699192,
     "lng": 139.770889
@@ -2401,7 +2549,8 @@
     "tags": [
       "イベントスペース",
       "神田明神",
-      "文化交流"
+      "文化交流",
+      "電気街"
     ],
     "lat": 35.70145,
     "lng": 139.767517
@@ -2430,7 +2579,8 @@
     },
     "tags": [
       "自作PC",
-      "PCパーツ"
+      "PCパーツ",
+      "電気街"
     ],
     "lat": 35.700481,
     "lng": 139.77092
@@ -2486,7 +2636,8 @@
     },
     "tags": [
       "カラオケ",
-      "コラボカフェ"
+      "コラボカフェ",
+      "電気街"
     ],
     "lat": 35.701344,
     "lng": 139.771774
@@ -2511,7 +2662,8 @@
     },
     "tags": [
       "コラボ酒場",
-      "モンスターハンター"
+      "モンスターハンター",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "collab_cafe",
@@ -2566,7 +2718,8 @@
     },
     "tags": [
       "ホテル",
-      "宿泊"
+      "宿泊",
+      "昭和通り"
     ],
     "lat": 35.697689,
     "lng": 139.778488
@@ -2591,7 +2744,8 @@
     },
     "tags": [
       "コラボ酒場",
-      "ドラゴンクエスト"
+      "ドラゴンクエスト",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "collab_cafe",
@@ -2623,7 +2777,8 @@
     "tags": [
       "グルメ",
       "寿司",
-      "回転寿司"
+      "回転寿司",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "sushi"
@@ -2652,7 +2807,8 @@
     "tags": [
       "グルメ",
       "寿司",
-      "食べ放題"
+      "食べ放題",
+      "昭和通り"
     ],
     "cuisine": [
       "sushi"
@@ -2681,7 +2837,8 @@
     },
     "tags": [
       "トレーディングカード",
-      "TCG"
+      "TCG",
+      "電気街"
     ],
     "lat": 35.702644,
     "lng": 139.771912
@@ -2706,7 +2863,8 @@
     },
     "tags": [
       "ホテル",
-      "カプセルホテル"
+      "カプセルホテル",
+      "昭和通り"
     ],
     "lat": 35.697765,
     "lng": 139.777145
@@ -2731,7 +2889,8 @@
     },
     "tags": [
       "イベントスペース",
-      "物販イベント"
+      "物販イベント",
+      "電気街"
     ],
     "lat": 35.700264,
     "lng": 139.770081
@@ -2756,7 +2915,8 @@
     },
     "tags": [
       "パーソナルジム",
-      "フィットネス"
+      "フィットネス",
+      "昭和通り"
     ],
     "lat": 35.697388,
     "lng": 139.77739
@@ -2786,7 +2946,8 @@
     "tags": [
       "アイドル",
       "劇場",
-      "AKB48"
+      "AKB48",
+      "電気街"
     ],
     "lat": 35.700665,
     "lng": 139.771698
@@ -2811,7 +2972,8 @@
     },
     "tags": [
       "トレーディングカード",
-      "TCG"
+      "TCG",
+      "パーツ街・ジャンク街"
     ],
     "lat": 35.69799,
     "lng": 139.770676
@@ -2837,7 +2999,8 @@
     },
     "tags": [
       "中古ホビー",
-      "フィギュア"
+      "フィギュア",
+      "電気街"
     ],
     "lat": 35.701992,
     "lng": 139.771851
@@ -2865,7 +3028,8 @@
     },
     "tags": [
       "VTuberグッズ",
-      "ポップアップ"
+      "ポップアップ",
+      "電気街"
     ],
     "lat": 35.699532,
     "lng": 139.77066
@@ -2894,7 +3058,8 @@
     },
     "tags": [
       "コラボグッズ",
-      "刀剣乱舞"
+      "刀剣乱舞",
+      "電気街"
     ],
     "lat": 35.700405,
     "lng": 139.771667
@@ -2924,7 +3089,8 @@
     "tags": [
       "アニメ",
       "ポップアップ",
-      "展示"
+      "展示",
+      "UDX"
     ],
     "lat": 35.699703,
     "lng": 139.772049
@@ -2953,7 +3119,8 @@
     },
     "tags": [
       "コラボカフェ",
-      "ソフマップ"
+      "ソフマップ",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "collab_cafe",
@@ -2985,7 +3152,8 @@
     },
     "tags": [
       "コスプレ",
-      "キャラクターグッズ"
+      "キャラクターグッズ",
+      "電気街"
     ],
     "lat": 35.701893,
     "lng": 139.771317
@@ -3013,7 +3181,8 @@
     "tags": [
       "フィギュア",
       "トレカ",
-      "中古"
+      "中古",
+      "パーツ街・ジャンク街"
     ],
     "lat": 35.698616,
     "lng": 139.770493
@@ -3039,7 +3208,8 @@
     },
     "tags": [
       "ギャラリー",
-      "展示"
+      "展示",
+      "末広町"
     ],
     "lat": 35.703754,
     "lng": 139.771622
@@ -3065,7 +3235,8 @@
     },
     "tags": [
       "イベントホール",
-      "貸し会議室"
+      "貸し会議室",
+      "岩本町"
     ],
     "lat": 35.699333,
     "lng": 139.774689
@@ -3096,7 +3267,8 @@
     "tags": [
       "イベントスペース",
       "ライブハウス",
-      "VTuber"
+      "VTuber",
+      "パーツ街・ジャンク街"
     ],
     "lat": 35.698345,
     "lng": 139.771072
@@ -3126,7 +3298,8 @@
     },
     "tags": [
       "クラフトビール",
-      "ゲームバー"
+      "ゲームバー",
+      "昭和通り"
     ],
     "cuisine": [
       "bar"
@@ -3155,7 +3328,8 @@
     },
     "tags": [
       "ホテル",
-      "宿泊"
+      "宿泊",
+      "昭和通り"
     ],
     "lat": 35.697304,
     "lng": 139.773041
@@ -3185,7 +3359,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/212835/640x640_rect_f77bc04eb80bc2df595c74c26e7f8b73.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 112,
@@ -3205,7 +3382,10 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩2分",
     "hours": "15:00〜翌0:00",
-    "website": "https://nijyumaru-akihabara.owst.jp/"
+    "website": "https://nijyumaru-akihabara.owst.jp/",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 113,
@@ -3225,7 +3405,10 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口（南側） 徒歩2分",
     "hours": "月〜木 16:00〜24:00 / 金 16:00〜翌5:00 / 土 15:00〜翌5:00 / 日・祝 15:00〜24:00",
-    "website": "https://map.reins.co.jp/amataro"
+    "website": "https://map.reins.co.jp/amataro",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 114,
@@ -3245,7 +3428,10 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩2分",
     "hours": "16:00〜23:00",
-    "website": "https://g747607.gorp.jp/"
+    "website": "https://g747607.gorp.jp/",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 115,
@@ -3265,7 +3451,10 @@
       "udon"
     ],
     "closed": "無休",
-    "website": "https://www.hanamaruudon.com/"
+    "website": "https://www.hanamaruudon.com/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 116,
@@ -3288,7 +3477,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/104488/640x640_rect_104488344.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 118,
@@ -3308,7 +3500,10 @@
     "addressSource": "gsi-reverse",
     "hours": "10:00〜23:00",
     "closed": "土曜・日曜・祝日（イベント時は営業）",
-    "website": "http://www.80scafe.com/"
+    "website": "http://www.80scafe.com/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 120,
@@ -3327,7 +3522,10 @@
     "address": "東京都千代田区外神田1-18 秋葉原ダイビル 1・2F",
     "addressSource": "gsi-reverse",
     "hours": "平日7:30〜21:00 / 土曜8:00〜21:00 / 日祝8:00〜21:00",
-    "website": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000150"
+    "website": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000150",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 121,
@@ -3345,7 +3543,10 @@
       "sushi"
     ],
     "address": "東京都千代田区外神田1-17-6 JR秋葉原駅電気街口改札外 JR高架下",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 122,
@@ -3368,7 +3569,10 @@
       "sourceLabel": "4travel 投稿写真",
       "sourceUrl": "https://cdn.4travel.jp/img/tcs/t/tips/pict/src/169/952/src_16995259.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 123,
@@ -3393,7 +3597,10 @@
       "alt": "BECK'S COFFEE SHOP秋葉原店のコーヒー",
       "sourceLabel": "BECK'S COFFEE SHOP 公式サイト(エキュート秋葉原)",
       "sourceUrl": "https://www.ecute.jp/akihabara/shop/5637"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 124,
@@ -3413,7 +3620,10 @@
     "address": "東京都千代田区外神田1-15-9 AKビルディング7F",
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩1分",
-    "website": "https://domadoma-taiyouent.com/akihabara/"
+    "website": "https://domadoma-taiyouent.com/akihabara/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 125,
@@ -3433,7 +3643,10 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩0分",
     "hours": "月〜金・祝前日 16:00〜23:00 / 土日祝 11:30〜23:00",
-    "website": "https://gyukaku-akiba-denkigaiguchi.owst.jp/"
+    "website": "https://gyukaku-akiba-denkigaiguchi.owst.jp/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 126,
@@ -3453,7 +3666,10 @@
     ],
     "address": "東京都千代田区外神田1-8-10 バウハウス2F",
     "addressSource": "gsi-reverse",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 127,
@@ -3479,7 +3695,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37615146.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 128,
@@ -3503,7 +3722,10 @@
       "alt": "つけ麺屋やすべえのつけ麺",
       "sourceLabel": "つけ麺屋やすべえ 公式サイト",
       "sourceUrl": "http://www.yasubee.com/"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 131,
@@ -3523,7 +3745,10 @@
     "address": "東京都千代田区外神田1-14-1",
     "addressSource": "gsi-reverse",
     "closed": "年中無休",
-    "website": "https://fujisoba.co.jp/shop/"
+    "website": "https://fujisoba.co.jp/shop/",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 132,
@@ -3543,7 +3768,10 @@
     "addressSource": "gsi-reverse",
     "hours": "9:00〜22:00",
     "closed": "なし",
-    "website": "http://vapestand.jp/"
+    "website": "http://vapestand.jp/",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 134,
@@ -3560,7 +3788,10 @@
     "cuisine": [
       "fried_food"
     ],
-    "website": "https://shop.arclandservice.co.jp/ae-shop/spot/detail?code=786"
+    "website": "https://shop.arclandservice.co.jp/ae-shop/spot/detail?code=786",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 135,
@@ -3580,7 +3811,10 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口（北側） 徒歩2分",
     "hours": "10:00〜22:00",
-    "website": "https://search.kfc.co.jp/map/4197"
+    "website": "https://search.kfc.co.jp/map/4197",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 136,
@@ -3599,7 +3833,10 @@
     ],
     "address": "東京都千代田区外神田1-9-8",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金・祝前日 11:00〜23:00 / 土 10:00〜23:00 / 日 10:00〜22:00 / 祝 11:00〜22:00"
+    "hours": "月〜金・祝前日 11:00〜23:00 / 土 10:00〜23:00 / 日 10:00〜22:00 / 祝 11:00〜22:00",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 137,
@@ -3628,7 +3865,8 @@
     "website": "https://gardengroup.co.jp/brand/ichikakuya/",
     "tags": [
       "ラーメン",
-      "家系"
+      "家系",
+      "パーツ街・ジャンク街"
     ],
     "aliases": [
       "壱角屋"
@@ -3658,7 +3896,10 @@
       "alt": "赤津加の鶏もつ煮込み定食",
       "sourceLabel": "赤津加 公式サイト",
       "sourceUrl": "https://sr-s-shotaro.jp/"
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 139,
@@ -3684,7 +3925,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/20104485.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 140,
@@ -3707,7 +3951,8 @@
     "tags": [
       "ラーメン",
       "とんこつ",
-      "老舗"
+      "老舗",
+      "電気街"
     ],
     "image": {
       "src": "/images/spots/kyushu-jangara-akihabara.jpg",
@@ -3740,7 +3985,10 @@
     "address": "東京都千代田区外神田3-10-12 蔵田ビル1・2F",
     "addressSource": "gsi-reverse",
     "hours": "日〜木 11:00〜22:00 / 金・土 11:00〜23:00",
-    "website": "https://sutadonya.com/shop/shop16/"
+    "website": "https://sutadonya.com/shop/shop16/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 143,
@@ -3760,7 +4008,10 @@
     "address": "東京都千代田区外神田3-10-5 イサミヤ第3ビル4F",
     "addressSource": "gsi-reverse",
     "hours": "火〜金 18:00〜23:00 / 土・祝 16:00〜23:00 / 日 12:00〜23:00",
-    "closed": "月曜"
+    "closed": "月曜",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 145,
@@ -3785,7 +4036,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/204709/640x640_rect_1e648058cf74c1348aafdd1ecea63518.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 146,
@@ -3805,7 +4059,10 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩2分",
     "hours": "24時間営業",
-    "website": "https://www.moseskebab.shop/"
+    "website": "https://www.moseskebab.shop/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 147,
@@ -3823,7 +4080,10 @@
       "toshomen"
     ],
     "address": "東京都千代田区外神田3-8-17 渡辺ビル1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 148,
@@ -3849,7 +4109,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/26660199.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 149,
@@ -3875,7 +4138,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38366066.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 150,
@@ -3899,7 +4165,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/56377/640x640_rect_56377463.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 151,
@@ -3925,7 +4194,10 @@
       "alt": "HoneyHoney秋葉原店の店内",
       "sourceLabel": "HoneyHoney 公式サイト",
       "sourceUrl": "https://www.honey2.jp/"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 152,
@@ -3952,7 +4224,10 @@
       "sourceUrl": "http://susumu.me/map/",
       "width": 800,
       "height": 550
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 153,
@@ -3970,7 +4245,10 @@
     "cuisine": [
       "ramen"
     ],
-    "hours": "11:00〜21:00"
+    "hours": "11:00〜21:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 154,
@@ -3989,7 +4267,10 @@
       "sandwich"
     ],
     "address": "東京都千代田区外神田4-14-2 東京タイムズタワー1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 155,
@@ -4008,7 +4289,10 @@
     "cuisine": [
       "cafe"
     ],
-    "closed": "不定休"
+    "closed": "不定休",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 156,
@@ -4027,7 +4311,10 @@
     "cuisine": [
       "cafe"
     ],
-    "closed": "不定休"
+    "closed": "不定休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 157,
@@ -4046,7 +4333,10 @@
     "address": "東京都千代田区神田練塀町3-3 大東ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金 7:00〜17:29・17:30〜23:00 / 土 10:00〜17:29・17:30〜22:00 / 日 10:00〜18:00",
-    "website": "https://shop.pronto.co.jp/detail/198/"
+    "website": "https://shop.pronto.co.jp/detail/198/",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 158,
@@ -4065,7 +4355,10 @@
     "address": "東京都千代田区外神田4-14-1 秋葉原UDXビル2F",
     "addressSource": "gsi-reverse",
     "hours": "8:00〜23:00（L.O.22:00）",
-    "website": "https://shop.pronto.co.jp/detail/9503/"
+    "website": "https://shop.pronto.co.jp/detail/9503/",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 159,
@@ -4083,7 +4376,10 @@
       "burger"
     ],
     "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 160,
@@ -4101,7 +4397,10 @@
       "burger"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 161,
@@ -4120,7 +4419,10 @@
     ],
     "address": "東京都千代田区外神田3-15-1 秋葉原プレイス1F",
     "addressSource": "gsi-reverse",
-    "website": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000142"
+    "website": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000142",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 162,
@@ -4140,7 +4442,10 @@
     ],
     "hours": "6:30〜23:00",
     "closed": "年中無休",
-    "website": "https://shop.dennys.jp/map/21897/"
+    "website": "https://shop.dennys.jp/map/21897/",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 163,
@@ -4158,6 +4463,9 @@
     "website": "https://shop.doutor.co.jp/doutor/spot/detail?code=1010198",
     "cuisine": [
       "cafe"
+    ],
+    "tags": [
+      "岩本町"
     ]
   },
   {
@@ -4176,6 +4484,9 @@
     "website": "https://shop.doutor.co.jp/doutor/spot/detail?code=1010269",
     "cuisine": [
       "cafe"
+    ],
+    "tags": [
+      "電気街"
     ]
   },
   {
@@ -4204,7 +4515,10 @@
       "sourceLabel": "ミライザカ 公式サイト",
       "sourceUrl": "https://miraizaka.com/akihabaraekimae/"
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 166,
@@ -4230,7 +4544,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33123781.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 168,
@@ -4257,7 +4574,10 @@
       "sourceLabel": "ぐるなび 投稿写真",
       "sourceUrl": "https://rimage.gnst.jp/rest/img/51fp8bn70000/t_0oja.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 169,
@@ -4283,7 +4603,10 @@
       "sourceUrl": "https://rimage.gnst.jp/rest/img/4vkf9yhm0000/t_0qjv.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 170,
@@ -4302,7 +4625,10 @@
     "address": "東京都千代田区外神田1-11-6 小暮ビル4F",
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口 徒歩4分",
-    "hours": "平日15:00〜23:00 / 土日祝11:00〜23:00"
+    "hours": "平日15:00〜23:00 / 土日祝11:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 171,
@@ -4323,7 +4649,10 @@
     "editorComment": {
       "text": "コラボ等をよくやっています",
       "authorId": 2
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 172,
@@ -4341,7 +4670,10 @@
     ],
     "address": "東京都千代田区外神田四丁目",
     "addressSource": "gsi-reverse",
-    "hours": "平日11:30〜23:00 / 土日祝10:30〜23:00"
+    "hours": "平日11:30〜23:00 / 土日祝10:30〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 173,
@@ -4359,7 +4691,10 @@
       "beef_bowl"
     ],
     "address": "東京都千代田区外神田4-5-8",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 174,
@@ -4376,7 +4711,10 @@
     "cuisine": [
       "cafe"
     ],
-    "hours": "平日18:00〜23:00 / 土日祝12:00〜23:00"
+    "hours": "平日18:00〜23:00 / 土日祝12:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 176,
@@ -4395,7 +4733,10 @@
     "address": "東京都千代田区外神田3-4-16 竹本ビル2F",
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 徒歩6分",
-    "website": "https://bcats.jp/"
+    "website": "https://bcats.jp/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 177,
@@ -4412,7 +4753,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 179,
@@ -4430,7 +4774,10 @@
     ],
     "address": "東京都千代田区外神田3-1-15 著勝ビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "15:00〜24:00"
+    "hours": "15:00〜24:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 180,
@@ -4450,7 +4797,10 @@
     "addressSource": "gsi-reverse",
     "hours": "月〜木 17:00〜23:00 / 金 17:00〜翌5:00 / 土 12:00〜翌5:00 / 日・祝 12:00〜23:00",
     "closed": "無休",
-    "website": "https://grand-pirates.com/"
+    "website": "https://grand-pirates.com/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 181,
@@ -4468,7 +4818,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 182,
@@ -4488,7 +4841,10 @@
     "addressSource": "gsi-reverse",
     "hours": "月〜木 17:00〜23:00 / 金・祝前日 17:00〜23:30 / 土 14:00〜23:30 / 日・祝 14:00〜23:00",
     "website": "https://shop.tsukadanojo.jp/detail/169/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 183,
@@ -4505,7 +4861,10 @@
     "cuisine": [
       "izakaya"
     ],
-    "hours": "月〜土・祝前日 14:00〜23:00 / 日・祝 14:00〜22:00"
+    "hours": "月〜土・祝前日 14:00〜23:00 / 日・祝 14:00〜22:00",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 184,
@@ -4524,7 +4883,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-15 川初ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "7:00〜23:30"
+    "hours": "7:00〜23:30",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 185,
@@ -4542,7 +4904,10 @@
     ],
     "address": "東京都千代田区岩本町3-10-7 東自機ビル",
     "addressSource": "gsi-reverse",
-    "hours": "月〜土・祝前日 17:00〜23:30 / 日・祝 17:00〜23:00"
+    "hours": "月〜土・祝前日 17:00〜23:30 / 日・祝 17:00〜23:00",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 186,
@@ -4560,7 +4925,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-15 川初ビル",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木・土日祝 10:00〜23:30 / 金 10:00〜翌3:30"
+    "hours": "月〜木・土日祝 10:00〜23:30 / 金 10:00〜翌3:30",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 187,
@@ -4576,6 +4944,9 @@
     "address": "東京都千代田区神田佐久間町1-8-4",
     "cuisine": [
       "bar"
+    ],
+    "tags": [
+      "昭和通り"
     ]
   },
   {
@@ -4594,6 +4965,9 @@
     "website": "https://ssl.mos.jp/shop/detail/02232/",
     "cuisine": [
       "burger"
+    ],
+    "tags": [
+      "電気街"
     ]
   },
   {
@@ -4622,7 +4996,10 @@
       "sourceUrl": "https://fu-ryu.net/",
       "width": 1200,
       "height": 900
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 190,
@@ -4639,7 +5016,10 @@
       "french"
     ],
     "address": "東京都千代田区神田須田町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 191,
@@ -4657,7 +5037,10 @@
       "spanish"
     ],
     "address": "東京都千代田区神田佐久間町1-6-5",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 192,
@@ -4677,7 +5060,10 @@
     "address": "東京都千代田区神田練塀町8-2",
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 電気街口（北側） 徒歩2分",
-    "hours": "11:00〜20:00（19:30 L.O.）"
+    "hours": "11:00〜20:00（19:30 L.O.）",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 193,
@@ -4697,7 +5083,10 @@
     "address": "東京都千代田区神田練塀町8-2 CHABARA内",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜20:00",
-    "closed": "1/1、6月・11月の第1水曜"
+    "closed": "1/1、6月・11月の第1水曜",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 194,
@@ -4714,7 +5103,10 @@
       "japanese"
     ],
     "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 195,
@@ -4732,7 +5124,10 @@
       "italian"
     ],
     "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 196,
@@ -4752,7 +5147,10 @@
     "address": "東京都千代田区外神田3-2-13 山口ビルB1F",
     "addressSource": "gsi-reverse",
     "hours": "11:30〜22:00",
-    "closed": "不定休"
+    "closed": "不定休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 197,
@@ -4778,7 +5176,10 @@
       "sourceLabel": "miil 投稿写真",
       "sourceUrl": "https://images.miil.me/j/7738a89c-569e-11f1-a87b-067c0dd1ffa9.orig.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 198,
@@ -4803,7 +5204,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/13222569.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 199,
@@ -4829,7 +5233,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/15033617.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 200,
@@ -4846,7 +5253,10 @@
     "address": "東京都千代田区外神田1-9-5 第一ナカジマビル1F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜20:00",
-    "closed": "不定休"
+    "closed": "不定休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 201,
@@ -4870,7 +5280,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38956458.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 202,
@@ -4889,7 +5302,10 @@
     "cuisine": [
       "cafe"
     ],
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 203,
@@ -4903,7 +5319,10 @@
     "dataSource": "osm",
     "osmId": "node/3345148204",
     "address": "東京都千代田区外神田4-14-1 秋葉原UDX 1〜3F",
-    "hours": "11:00〜23:00（日曜・祝日は〜22:00）"
+    "hours": "11:00〜23:00（日曜・祝日は〜22:00）",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 204,
@@ -4928,7 +5347,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39294452.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 205,
@@ -4952,7 +5374,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/doc/brand_store/images/89/gstr00389_main_360.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 206,
@@ -4978,7 +5403,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/22160150.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 207,
@@ -5007,7 +5435,10 @@
       "text": "深夜まで営業しているありがたいお店。",
       "authorId": 2
     },
-    "hours": "11:00〜翌2:00（日・祝は〜20:40 L.O.）"
+    "hours": "11:00〜翌2:00（日・祝は〜20:40 L.O.）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 208,
@@ -5033,7 +5464,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s524x524/q80/das/-/retty/img_ebisu/restaurant/100000078932/archive/1681673-5e3d17e3a3ea4-t.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 209,
@@ -5052,7 +5486,10 @@
     "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル7F",
     "addressSource": "gsi-reverse",
     "access": "東京メトロ日比谷線 秋葉原駅2出口 徒歩0分 / JR秋葉原駅 昭和通り口 徒歩0分",
-    "hours": "月〜金 16:00〜23:00 / 土日祝 15:00〜23:00"
+    "hours": "月〜金 16:00〜23:00 / 土日祝 15:00〜23:00",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 210,
@@ -5071,7 +5508,10 @@
     "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル6F",
     "addressSource": "gsi-reverse",
     "hours": "17:00〜翌5:00",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 211,
@@ -5097,7 +5537,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/16/27/P045401627/P045401627_69.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 212,
@@ -5123,7 +5566,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/125238/150x150_square_125238371.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 213,
@@ -5141,7 +5587,10 @@
     ],
     "address": "東京都千代田区神田松永町7 ヤマリビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "7:00〜23:30（L.O.23:00）"
+    "hours": "7:00〜23:30（L.O.23:00）",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 214,
@@ -5169,7 +5618,10 @@
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001503455/archive/1860000-5f617cb082b01.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-27",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 215,
@@ -5188,7 +5640,10 @@
     "address": "東京都千代田区神田松永町10",
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅 徒歩3分",
-    "hours": "5:00〜翌2:00"
+    "hours": "5:00〜翌2:00",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 216,
@@ -5212,7 +5667,10 @@
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/5390/150x150_square_5390711.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 217,
@@ -5236,7 +5694,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36541319.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 218,
@@ -5261,7 +5722,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/31053020.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 219,
@@ -5287,7 +5751,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37647702.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 220,
@@ -5306,7 +5773,10 @@
       "cafe"
     ],
     "address": "東京都千代田区神田岩本町1 山上ビル",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 222,
@@ -5325,7 +5795,10 @@
     ],
     "address": "東京都千代田区神田松永町104 TSKビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "毎日7:00〜23:00"
+    "hours": "毎日7:00〜23:00",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 223,
@@ -5350,7 +5823,8 @@
     "tags": [
       "猫カフェ",
       "老舗",
-      "体験"
+      "体験",
+      "電気街"
     ],
     "image": {
       "src": "/images/spots/neko-jalala.jpg",
@@ -5385,7 +5859,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38499340.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 225,
@@ -5409,7 +5886,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001257432/archive/3234111-65b1cc637a87e.jpeg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 226,
@@ -5426,7 +5906,10 @@
     "cuisine": [
       "japanese"
     ],
-    "hours": "7:00〜23:15"
+    "hours": "7:00〜23:15",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 227,
@@ -5450,7 +5933,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/35186947.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 229,
@@ -5468,7 +5954,10 @@
     ],
     "address": "東京都千代田区神田松永町1 秋葉原ファーストビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "24時間営業"
+    "hours": "24時間営業",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 230,
@@ -5487,7 +5976,10 @@
       "burger"
     ],
     "address": "東京都千代田区神田佐久間町1-21",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 231,
@@ -5505,6 +5997,9 @@
     "website": "https://www.saizeriya.co.jp/restaurant/shop_detail.php?cd=0943",
     "cuisine": [
       "italian"
+    ],
+    "tags": [
+      "電気街"
     ]
   },
   {
@@ -5525,7 +6020,10 @@
     "addressSource": "gsi-reverse",
     "hours": "火水木18:00〜23:00 / 金土18:00〜翌5:00 / 日18:00〜23:00",
     "closed": "月曜",
-    "website": "http://newtype.ms/"
+    "website": "http://newtype.ms/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 233,
@@ -5542,7 +6040,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 234,
@@ -5573,7 +6074,10 @@
       "sourceUrl": "https://kandaramen-waizu.jp/",
       "width": 1500,
       "height": 600
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 235,
@@ -5599,7 +6103,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/373818/640x640_rect_35e7995817964109d269515ccd734d7f.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 237,
@@ -5626,7 +6133,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/312844/640x640_rect_cf625db30b23eeacf8c573fbee8db812.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 238,
@@ -5643,7 +6153,10 @@
       "izakaya"
     ],
     "address": "東京都千代田区神田須田町二丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 239,
@@ -5669,7 +6182,10 @@
       "sourceLabel": "ヒトサラ 投稿写真",
       "sourceUrl": "https://img.hitosara.com/images/user-photos/674c27b7-e72d-45f0-8337-8515ad8c2efc/0000421108-01676063525.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 240,
@@ -5691,7 +6207,10 @@
       "alt": "めいどりーみん外神田店の店内",
       "sourceLabel": "めいどりーみん 公式サイト",
       "sourceUrl": "https://maidreamin.com/assets/images/shop/1/img-shop-detail-gallery-1.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 241,
@@ -5716,7 +6235,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/30513336.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 242,
@@ -5732,7 +6254,10 @@
     "address": "東京都千代田区神田須田町1-25-4 マーチエキュート神田万世橋N1区画",
     "addressSource": "gsi-reverse",
     "hours": "月〜土11:00〜23:00（L.O.22:30）/ 日祝11:00〜21:00（L.O.20:30）",
-    "website": "https://hitachino.cc"
+    "website": "https://hitachino.cc",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 243,
@@ -5758,7 +6283,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/20344023.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 244,
@@ -5781,7 +6309,8 @@
     "tags": [
       "ラーメン",
       "中華そば",
-      "チェーン"
+      "チェーン",
+      "岩本町"
     ],
     "lastVerified": "2026-08-19",
     "image": {
@@ -5812,7 +6341,10 @@
       "sourceLabel": "4travel 投稿写真",
       "sourceUrl": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/19/27/03/650x450_19270386.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 247,
@@ -5830,7 +6362,10 @@
     ],
     "address": "東京都千代田区外神田三丁目",
     "addressSource": "gsi-reverse",
-    "hours": "ランチ11:00〜15:00 / ディナー17:00〜21:00"
+    "hours": "ランチ11:00〜15:00 / ディナー17:00〜21:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 249,
@@ -5851,7 +6386,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=1980x10000:format=jpg/path/s789695bc2b43cf56/image/i7a0d5583b34a7453/version/1544528294/%E5%94%90%E6%8F%9A%E3%81%92.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 250,
@@ -5877,7 +6415,10 @@
       "sourceLabel": "あそびゅー 投稿写真",
       "sourceUrl": "https://image.asoview-media.com/image/production/asorepo/review0002080103-001--0e65e9e9-71d2-4f08-b19c-2c0d377f56dd.jpeg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 251,
@@ -5905,7 +6446,10 @@
     "editorComment": {
       "text": "ニラそばおすすめです！",
       "authorId": 2
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 252,
@@ -5923,7 +6467,10 @@
       "indian"
     ],
     "hours": "11:00〜22:30（L.O.22:00）",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 253,
@@ -5948,7 +6495,10 @@
       "sourceLabel": "ヒトサラ 投稿写真",
       "sourceUrl": "https://img.hitosara.com/images/user-photos/bb32d081-3e5c-4637-accf-b81c15f6e229/0000421108-31736376526.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 254,
@@ -5966,7 +6516,10 @@
     ],
     "address": "東京都千代田区外神田4-6-1 シューマンビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "平日14:00〜翌5:00"
+    "hours": "平日14:00〜翌5:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 255,
@@ -5983,7 +6536,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 256,
@@ -6008,7 +6564,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/355479/640x640_rect_31e735ce9f85a45ba29cc325dbffa5a7.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 257,
@@ -6033,7 +6592,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37126442.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 258,
@@ -6078,7 +6640,10 @@
     "address": "東京都千代田区外神田3-6-17 フェニックスビル1F",
     "addressSource": "gsi-reverse",
     "hours": "平日18:00〜23:00 / 土日祝13:00〜19:00",
-    "closed": "火曜日"
+    "closed": "火曜日",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 260,
@@ -6097,7 +6662,10 @@
     ],
     "address": "東京都千代田区外神田3-6-1 丸山ビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木17:00〜23:00 / 金・祝前日17:00〜翌5:00 / 土12:00〜翌5:00 / 日祝12:00〜23:00"
+    "hours": "月〜木17:00〜23:00 / 金・祝前日17:00〜翌5:00 / 土12:00〜翌5:00 / 日祝12:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 261,
@@ -6114,7 +6682,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田3-6-17 菊池ビル1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 262,
@@ -6134,7 +6705,10 @@
       "noodle"
     ],
     "hours": "平日11:00〜21:30 / 土日祝11:00〜21:00",
-    "closed": "元旦"
+    "closed": "元旦",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 263,
@@ -6156,7 +6730,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/359463/150x150_square_f8dcdd5ed24d67aac20ea1887779a7cd.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 264,
@@ -6179,7 +6756,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39114134.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 265,
@@ -6203,7 +6783,10 @@
       "alt": "THE 1/3のコワーキングスペース",
       "sourceLabel": "THE 1/3 公式サイト",
       "sourceUrl": "https://static.wixstatic.com/media/6a633f_54f5ade89995479f86b3c1fab0d05e01~mv2.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 266,
@@ -6223,7 +6806,10 @@
     ],
     "address": "東京都千代田区外神田4-5-4",
     "addressSource": "gsi-reverse",
-    "hours": "9:00〜23:30（毎日）"
+    "hours": "9:00〜23:30（毎日）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 267,
@@ -6241,7 +6827,10 @@
     ],
     "address": "東京都千代田区外神田4-6-2 いすゞビル5F-B",
     "addressSource": "gsi-reverse",
-    "hours": "平日18:00〜22:00 / 土日祝15:00〜22:00"
+    "hours": "平日18:00〜22:00 / 土日祝15:00〜22:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 268,
@@ -6267,7 +6856,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/226771/640x640_rect_cc9d51b741f98c686d49e65b1b6dd72e.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 269,
@@ -6292,7 +6884,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/17927655.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 270,
@@ -6318,7 +6913,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/254475/640x640_rect_830d12a694d2ce067b4988958ceb53a5.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 271,
@@ -6337,7 +6935,10 @@
     ],
     "address": "東京都千代田区神田平河町",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜24:00（L.O.23:30）"
+    "hours": "10:00〜24:00（L.O.23:30）",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 272,
@@ -6364,7 +6965,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/34295327.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 273,
@@ -6392,7 +6996,10 @@
       "copyrightRisk": true
     },
     "website": "https://uokingroup.jp/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 274,
@@ -6412,7 +7019,10 @@
     "address": "東京都千代田区外神田4-8-3 セゾン秋葉原",
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅 徒歩7分",
-    "hours": "12:00〜21:00"
+    "hours": "12:00〜21:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 275,
@@ -6437,7 +7047,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/55/24/P022845524/P022845524_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 276,
@@ -6455,7 +7068,10 @@
     ],
     "address": "東京都千代田区外神田3-16-13 1F",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜22:00"
+    "hours": "10:00〜22:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 277,
@@ -6480,7 +7096,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38650941.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 278,
@@ -6507,7 +7126,10 @@
       "alt": "日乃屋カレー秋葉原店の外観",
       "sourceLabel": "日乃屋カレー 公式サイト",
       "sourceUrl": "https://hinoya.jp/wp-content/uploads/2016/03/Cd1k8P8UAAEYOKe-1.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 279,
@@ -6531,7 +7153,10 @@
       "alt": "Akibaスモーカーズのシーシャ店内",
       "sourceLabel": "Akibaスモーカーズ 公式サイト",
       "sourceUrl": "https://akiba-smokers.com/wp-content/uploads/2016/03/お店について1.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 280,
@@ -6549,7 +7174,10 @@
     ],
     "address": "東京都千代田区外神田3-8-13 田口ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "平日17:00〜23:00 / 土日祝15:00〜23:00"
+    "hours": "平日17:00〜23:00 / 土日祝15:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 281,
@@ -6568,7 +7196,10 @@
     "address": "東京都千代田区外神田三丁目",
     "addressSource": "gsi-reverse",
     "hours": "火〜金13:00〜翌5:00 / 土12:00〜翌5:00 / 日12:00〜22:00",
-    "closed": "月曜"
+    "closed": "月曜",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 282,
@@ -6585,7 +7216,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 283,
@@ -6605,7 +7239,10 @@
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅 徒歩5分 / 末広町駅 徒歩2分",
     "hours": "日・祝16:00〜22:00（L.O.21:30）/ 月〜金17:00〜23:00（L.O.22:30）",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 284,
@@ -6622,7 +7259,10 @@
       "italian"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 285,
@@ -6644,7 +7284,10 @@
       "alt": "天下一品秋葉原店の外観",
       "sourceLabel": "天下一品 公式サイト",
       "sourceUrl": "https://www.tenkaippin.co.jp/wp-content/uploads/2022/03/秋葉原.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 286,
@@ -6668,7 +7311,10 @@
       "sourceLabel": "ぐるなび 投稿写真",
       "sourceUrl": "https://rimage.gnst.jp/rest/img/rmruv00w0000/s_006c.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 287,
@@ -6687,7 +7333,10 @@
     "address": "東京都千代田区外神田3-8-3 第4針谷ビル2F",
     "addressSource": "gsi-reverse",
     "hours": "17:00〜翌5:00",
-    "closed": "月曜"
+    "closed": "月曜",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 288,
@@ -6714,7 +7363,10 @@
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/27755351.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 289,
@@ -6738,7 +7390,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/125656/640x640_rect_125656636.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 290,
@@ -6755,7 +7410,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田2-10-8",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 291,
@@ -6780,7 +7438,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007674/archive/1442793-5e3beb3b4873a.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 292,
@@ -6806,7 +7467,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36756724.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 293,
@@ -6830,7 +7494,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/149061/640x640_rect_149061969.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 294,
@@ -6854,7 +7521,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/26874894.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 295,
@@ -6872,7 +7542,10 @@
     ],
     "address": "東京都千代田区外神田1-6-7 秋葉原センタービル2F",
     "addressSource": "gsi-reverse",
-    "access": "秋葉原駅 電気街口（北側） 徒歩4分"
+    "access": "秋葉原駅 電気街口（北側） 徒歩4分",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 296,
@@ -6898,7 +7571,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/48532/640x640_rect_9f762fe3119f10725aa23884a9fb91cc.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 297,
@@ -6923,7 +7599,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/28694510.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 298,
@@ -6948,7 +7627,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/191890/640x640_rect_62c646b7767c0fe2f7027f01a3d9b8bb.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 299,
@@ -6965,7 +7647,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 300,
@@ -6982,7 +7667,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 301,
@@ -7000,7 +7688,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 302,
@@ -7020,7 +7711,10 @@
     "addressSource": "gsi-reverse",
     "access": "JR秋葉原駅 徒歩1分 / 東京メトロ秋葉原駅A1出口 徒歩1分 / TX秋葉原駅 直結",
     "hours": "ランチ11:00〜15:00（L.O.14:30）/ 平日ディナー17:00〜23:00（L.O.22:30）/ 土日祝15:00〜23:00（L.O.22:30）",
-    "closed": "施設に準じる"
+    "closed": "施設に準じる",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 303,
@@ -7038,7 +7732,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-6-5 Akiba Tolim 5F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜24:00（毎日）"
+    "hours": "11:00〜24:00（毎日）",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 304,
@@ -7056,7 +7753,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-6-5 アキバトリム2F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜21:30"
+    "hours": "11:00〜21:30",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 305,
@@ -7073,7 +7773,10 @@
       "thai"
     ],
     "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 306,
@@ -7092,7 +7795,10 @@
     ],
     "address": "東京都千代田区神田松永町1 宮沢ビル中2F",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜23:00"
+    "hours": "10:00〜23:00",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 307,
@@ -7110,7 +7816,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-27 石鍋ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金10:00〜翌3:00 / 土日祝10:00〜23:00"
+    "hours": "月〜金10:00〜翌3:00 / 土日祝10:00〜23:00",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 308,
@@ -7128,7 +7837,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-25 KTビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜22:00"
+    "hours": "11:00〜22:00",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 309,
@@ -7146,7 +7858,10 @@
     ],
     "address": "東京都千代田区神田佐久間町2-18",
     "addressSource": "gsi-reverse",
-    "access": "JR山手線秋葉原駅 徒歩4分"
+    "access": "JR山手線秋葉原駅 徒歩4分",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 310,
@@ -7171,7 +7886,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/86/01/P026918601/P026918601_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 311,
@@ -7197,7 +7915,10 @@
       "sourceLabel": "ぐるなび 投稿写真",
       "sourceUrl": "https://c-mr.gnst.jp/cont/menu_image/9d/b4/2586164_l.jpeg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 312,
@@ -7216,7 +7937,10 @@
     "address": "東京都千代田区神田練塀町66",
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅A3出口 徒歩2分",
-    "hours": "月〜木17:00〜23:00 / 金17:00〜23:30 / 土16:00〜22:30 / 日祝16:00〜22:00"
+    "hours": "月〜木17:00〜23:00 / 金17:00〜23:30 / 土16:00〜22:30 / 日祝16:00〜22:00",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 313,
@@ -7234,7 +7958,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 314,
@@ -7252,7 +7979,10 @@
     ],
     "address": "東京都千代田区外神田4-4-3 小木曽ビル5F",
     "addressSource": "gsi-reverse",
-    "hours": "日〜木12:00〜21:00 / 金土祝前日12:00〜22:00"
+    "hours": "日〜木12:00〜21:00 / 金土祝前日12:00〜22:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 315,
@@ -7270,7 +8000,10 @@
     ],
     "address": "東京都千代田区外神田4-4-3 小木曽ビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "平日11:30〜23:00"
+    "hours": "平日11:30〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 316,
@@ -7297,7 +8030,10 @@
       "width": 129,
       "height": 129,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/f6dmazeq/42267690/vtyc.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 317,
@@ -7322,7 +8058,10 @@
       "alt": "Cat Cafe Mochaの店内と猫たち",
       "sourceLabel": "Cat Cafe Mocha 公式サイト",
       "sourceUrl": "https://catmocha.jp/assets/img/shop/akihabara2/slide-shop01.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 318,
@@ -7341,7 +8080,10 @@
     "address": "東京都千代田区神田佐久間町1-19 山中ビル2F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜23:00",
-    "closed": "不定休"
+    "closed": "不定休",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 319,
@@ -7360,7 +8102,10 @@
     "address": "東京都千代田区外神田1-2-3 土屋ビル2F〜4F",
     "addressSource": "gsi-reverse",
     "hours": "平日16:00〜22:00 / 土日13:00〜22:00",
-    "closed": "月曜"
+    "closed": "月曜",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 320,
@@ -7384,7 +8129,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://d1y99f3h50q0h9.cloudfront.net/public/conca/shop/img_main_path/b1cc9159f4a7b72b54b5135279d623542c6df9c8A535.jpeg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 321,
@@ -7410,7 +8158,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33282516.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 322,
@@ -7428,7 +8179,10 @@
     ],
     "address": "東京都千代田区外神田3-8-17 渡辺ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "16:00〜翌4:00"
+    "hours": "16:00〜翌4:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 323,
@@ -7453,7 +8207,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/42132/640x640_rect_42132720.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 326,
@@ -7478,7 +8235,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/340772/150x150_square_693a85792ad8d108b4fb20b3e04b8d6d.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 328,
@@ -7503,7 +8263,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/25580019.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 329,
@@ -7528,7 +8291,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/55/73/P039045573/P039045573_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 330,
@@ -7553,7 +8319,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38054031.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 331,
@@ -7578,7 +8347,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39424159.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 332,
@@ -7604,7 +8376,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37021410.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 333,
@@ -7622,7 +8397,10 @@
     ],
     "address": "東京都千代田区外神田2-9-9 glan+Akihabara B1",
     "addressSource": "gsi-reverse",
-    "hours": "月〜水・金〜日・祝20:00〜翌1:00（L.O.翌0:30、ドリンクL.O.翌0:45）"
+    "hours": "月〜水・金〜日・祝20:00〜翌1:00（L.O.翌0:30、ドリンクL.O.翌0:45）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 334,
@@ -7639,7 +8417,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田3-2-14",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 335,
@@ -7657,7 +8438,10 @@
     ],
     "address": "東京都千代田区外神田3-15-6 秋葉原M2ビル6F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木17:00〜23:00 / 金17:00〜翌4:00 / 土16:00〜翌4:00 / 日16:00〜23:00"
+    "hours": "月〜木17:00〜23:00 / 金17:00〜翌4:00 / 土16:00〜翌4:00 / 日16:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 336,
@@ -7674,7 +8458,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 337,
@@ -7691,7 +8478,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 338,
@@ -7709,7 +8499,10 @@
     ],
     "address": "東京都千代田区神田佐久間町2-11 秋葉原ビル2F・3F・4F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木11:30〜25:00 / 金11:30〜29:00 / 土12:00〜24:00 / 日12:00〜14:00・15:00〜24:00 / 祝11:30〜14:00・15:00〜24:00"
+    "hours": "月〜木11:30〜25:00 / 金11:30〜29:00 / 土12:00〜24:00 / 日12:00〜14:00・15:00〜24:00 / 祝11:30〜14:00・15:00〜24:00",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 339,
@@ -7728,7 +8521,10 @@
     "address": "東京都千代田区神田佐久間町2-1",
     "addressSource": "gsi-reverse",
     "hours": "月〜土 11:00〜15:00、17:00〜23:00 / 日祝 12:00〜20:00",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 340,
@@ -7746,7 +8542,10 @@
     ],
     "address": "東京都千代田区外神田4-7-7 MTビル10F",
     "addressSource": "gsi-reverse",
-    "access": "JR秋葉原駅 電気街口 徒歩3分"
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 341,
@@ -7769,7 +8568,10 @@
       "sourceLabel": "ぐるなび 投稿写真",
       "sourceUrl": "https://c-mr.gnst.jp/cont/menu_image/e4/82/2000030565_l.jpeg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 342,
@@ -7787,7 +8589,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 343,
@@ -7810,7 +8615,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/25870585.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 344,
@@ -7832,7 +8640,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/39/21/P039573921/P039573921_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 345,
@@ -7857,7 +8668,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/166797/640x640_rect_959f10112142e352df77347a6014c857.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 346,
@@ -7876,7 +8690,10 @@
     "address": "東京都千代田区外神田3-16-13 FTビル9F",
     "addressSource": "gsi-reverse",
     "hours": "17:00〜翌5:00",
-    "closed": "なし"
+    "closed": "なし",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 347,
@@ -7893,7 +8710,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田3-16-13 FTビル4F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 349,
@@ -7912,7 +8732,10 @@
     "address": "東京都千代田区外神田4-6-10 リバティ9号館7F",
     "addressSource": "gsi-reverse",
     "hours": "15:00〜翌5:00（土日祝12:00開店 / 火〜木23:00閉店 / 祝前日翌5:00閉店）",
-    "closed": "なし"
+    "closed": "なし",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 350,
@@ -7932,7 +8755,10 @@
     "address": "東京都千代田区神田松永町4-7 EIWA秋葉原ビル",
     "addressSource": "gsi-reverse",
     "hours": "月〜水10:00〜翌4:00 / 木〜土24時間営業 / 日〜23:00",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 351,
@@ -7958,7 +8784,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39500594.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 352,
@@ -7976,7 +8805,10 @@
     ],
     "address": "東京都千代田区外神田1-5-7 宝ビル5F",
     "addressSource": "gsi-reverse",
-    "access": "秋葉原駅 徒歩5分"
+    "access": "秋葉原駅 徒歩5分",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 353,
@@ -7994,7 +8826,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田1-6-1 1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 355,
@@ -8013,7 +8848,10 @@
     "address": "東京都千代田区外神田3-13-5 松井ビル2F",
     "addressSource": "gsi-reverse",
     "hours": "13:00〜LAST",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 356,
@@ -8032,7 +8870,10 @@
     "address": "東京都千代田区外神田3-1-3 秋葉原パークビル7F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金15:00〜close / 土日祝12:00〜close",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 357,
@@ -8051,7 +8892,10 @@
     ],
     "address": "東京都千代田区外神田3-1-3 秋葉原パークビル6F",
     "addressSource": "gsi-reverse",
-    "closed": "水曜（祝日の場合は翌木曜）"
+    "closed": "水曜（祝日の場合は翌木曜）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 358,
@@ -8070,7 +8914,10 @@
     "address": "東京都千代田区外神田3-1-3 秋葉原パークビル4F",
     "addressSource": "gsi-reverse",
     "hours": "全日17:00〜翌5:00",
-    "closed": "なし"
+    "closed": "なし",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 359,
@@ -8089,7 +8936,10 @@
     "address": "東京都千代田区外神田3-1-3 秋葉原パークビル3F",
     "addressSource": "gsi-reverse",
     "hours": "18:00〜23:00",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 360,
@@ -8106,7 +8956,10 @@
       "cafe"
     ],
     "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 361,
@@ -8133,7 +8986,10 @@
       "sourceLabel": "ぐるなび 投稿写真",
       "sourceUrl": "https://rimage.gnst.jp/rest/img/54hxkfn20000/s_0n5d.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 362,
@@ -8154,7 +9010,10 @@
     "address": "東京都千代田区外神田1-15-18 奥山ビル1・2F",
     "addressSource": "gsi-reverse",
     "closed": "年中無休",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 363,
@@ -8271,7 +9130,10 @@
       "sourceLabel": "ぐるなび 投稿写真",
       "sourceUrl": "https://rimage.gnst.jp/rest/img/1bpfzn7w0000/s_0nei.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 368,
@@ -8321,7 +9183,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/resize/640x640c/restaurant/images/Rvw/367822/f2f949bfeb78848cd0960666f2c12604.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 370,
@@ -8346,7 +9211,10 @@
       "sourceLabel": "ボードゲーム関連メディア 掲載写真",
       "sourceUrl": "https://image-bodoge.cdn-hoobby.net/space_a49bb21e-9e54-4aaf-82c4-76c73aa09173.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 371,
@@ -8363,7 +9231,10 @@
       "izakaya"
     ],
     "address": "東京都千代田区外神田二丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 372,
@@ -8377,7 +9248,10 @@
     "dataSource": "osm",
     "osmId": "node/6056089196",
     "address": "東京都千代田区神田松永町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 373,
@@ -8402,7 +9276,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/resize/640x640c/restaurant/images/Rvw/329881/2df4810fc677f40411e64ce241a47232.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 374,
@@ -8421,7 +9298,10 @@
       "japanese"
     ],
     "address": "東京都千代田区神田松永町16 内尾松永ビル1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 375,
@@ -8443,7 +9323,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/34644137.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 376,
@@ -8461,7 +9344,10 @@
     ],
     "address": "東京都千代田区外神田三丁目",
     "addressSource": "gsi-reverse",
-    "hours": "平日17:00〜23:00 / 土日祝13:00〜23:00"
+    "hours": "平日17:00〜23:00 / 土日祝13:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 377,
@@ -8484,7 +9370,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/89/02/P047328902/P047328902_368.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 378,
@@ -8503,7 +9392,10 @@
       "japanese"
     ],
     "address": "東京都千代田区外神田1-18-18 秋葉原駅前プラザ4F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 379,
@@ -8521,7 +9413,10 @@
     ],
     "address": "東京都千代田区外神田1-18-18 BiTO AKIBA PLAZA 3F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金11:00〜23:00 / 土日祝10:00〜23:00"
+    "hours": "月〜金11:00〜23:00 / 土日祝10:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 380,
@@ -8547,7 +9442,10 @@
       "sourceLabel": "CafeRun 掲載写真",
       "sourceUrl": "https://img.caferun.jp/shop_data/00000005956/shop/vip/original/1564732196_8099.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 382,
@@ -8566,7 +9464,10 @@
     "address": "東京都千代田区外神田4-4-9 松井ビル3F",
     "addressSource": "gsi-reverse",
     "hours": "平日16:00〜23:00 / 土日12:00〜23:00",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 383,
@@ -8591,7 +9492,10 @@
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/02/08/P048720208/P048720208_368.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-08-27"
+    "lastVerified": "2026-08-27",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 384,
@@ -8617,7 +9521,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/24521117.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 385,
@@ -8644,7 +9551,10 @@
       "copyrightRisk": true
     },
     "website": "https://www.akakara.jp/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 386,
@@ -8665,7 +9575,10 @@
     "hours": "平日ランチ11:30〜14:30（L.O.14:00）/ 平日・土曜ディナー17:00〜22:00（L.O.21:00）/ 金・祝前日17:00〜23:00（L.O.22:00）",
     "access": "JR秋葉原駅 電気街口 徒歩1分",
     "lastVerified": "2026-09-02",
-    "website": "https://www.dynacjapan.com/brands/torarenbou/shops/akihabara/"
+    "website": "https://www.dynacjapan.com/brands/torarenbou/shops/akihabara/",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 387,
@@ -8684,7 +9597,10 @@
     ],
     "address": "東京都千代田区外神田1-18-18 BiTO AKIBA PLAZA 8F",
     "addressSource": "gsi-reverse",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 389,
@@ -8729,7 +9645,10 @@
     "address": "東京都千代田区外神田4-3-12",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜21:00",
-    "closed": "月曜（祝日の場合は翌日）"
+    "closed": "月曜（祝日の場合は翌日）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 391,
@@ -8746,7 +9665,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 392,
@@ -8772,7 +9694,10 @@
       "sourceLabel": "ヒトサラ 投稿写真",
       "sourceUrl": "https://img.hitosara.com/images/user-photos/fd63480e-eb89-46d3-b084-1d684bb5f13e/0000832403-01716859104.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 393,
@@ -8791,7 +9716,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田3-1-15 箸勝ビル2F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 394,
@@ -8810,7 +9738,10 @@
     "address": "東京都千代田区外神田1-6-3 アキバあそび館ビル3F",
     "addressSource": "gsi-reverse",
     "access": "秋葉原駅 電気街口（北側） 徒歩4分",
-    "hours": "18:00〜25:00"
+    "hours": "18:00〜25:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 395,
@@ -8828,7 +9759,10 @@
     ],
     "address": "東京都千代田区外神田1-6-3 アキバあそび館4F",
     "addressSource": "gsi-reverse",
-    "hours": "平日17:00〜23:00 / 土日祝15:00〜23:00"
+    "hours": "平日17:00〜23:00 / 土日祝15:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 396,
@@ -8846,7 +9780,10 @@
     ],
     "address": "東京都千代田区外神田1-6-3 アキバあそび館5F",
     "addressSource": "gsi-reverse",
-    "hours": "火〜金14:00〜22:00 / 土日祝13:00〜22:00"
+    "hours": "火〜金14:00〜22:00 / 土日祝13:00〜22:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 397,
@@ -8863,7 +9800,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 398,
@@ -8880,7 +9820,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田1-6-3 アキバあそび館ビル7F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 399,
@@ -8905,7 +9848,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/371065/640x640_rect_25b3c21d0a3b9ec2a9de775822cf57ab.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 400,
@@ -8930,7 +9876,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/320316/640x640_rect_a4ab829fb3b9afb488cc1998fe69378e.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 401,
@@ -8956,7 +9905,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/337063/640x640_rect_2704a9b488659701fd25a9f5faa4e22b.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 402,
@@ -8975,7 +9927,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田6-14-2 サカイ末広ビル2F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "末広町"
+    ]
   },
   {
     "id": 403,
@@ -8994,7 +9949,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田3-1-15 箸勝ビル2F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 404,
@@ -9020,7 +9978,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/371818/150x150_square_e10d345f8c4ae655f8d1f23ec7bdc827.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 405,
@@ -9037,7 +9998,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 406,
@@ -9063,7 +10027,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/271032/640x640_rect_30a0c093d024a15a34552b92c8c37d93.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 407,
@@ -9087,7 +10054,10 @@
       "sourceLabel": "ぐるなび 投稿写真",
       "sourceUrl": "https://rimage.gnst.jp/rest/img/cuy1j5wf0000/t_0o6x.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 408,
@@ -9113,7 +10083,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/257452/640x640_rect_acda1b15861a1b9f781c1a84fbc8262a.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 411,
@@ -9136,7 +10109,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37012225.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 412,
@@ -9161,7 +10137,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/01/04/P023820104/P023820104_368.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 413,
@@ -9180,7 +10159,10 @@
     "address": "東京都千代田区神田佐久間町1-6-5 アキバトリム2F",
     "addressSource": "gsi-reverse",
     "hours": "7:00〜21:00（L.O.20:00）",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 414,
@@ -9194,7 +10176,10 @@
     "dataSource": "osm",
     "osmId": "node/8933745572",
     "address": "東京都千代田区外神田一丁目15-16 秋葉原ラジオ会館",
-    "hours": "月〜金12:00〜22:30（L.O.22:00）/ 土11:30〜22:30（L.O.22:00）/ 日祝11:30〜21:30（L.O.21:00）"
+    "hours": "月〜金12:00〜22:30（L.O.22:00）/ 土11:30〜22:30（L.O.22:00）/ 日祝11:30〜21:30（L.O.21:00）",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 415,
@@ -9236,7 +10221,10 @@
     ],
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA B1F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金11:00〜23:00 / 土日祝10:30〜23:00"
+    "hours": "月〜金11:00〜23:00 / 土日祝10:30〜23:00",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 417,
@@ -9254,7 +10242,10 @@
     ],
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 4F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00"
+    "hours": "11:00〜23:00",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 418,
@@ -9280,7 +10271,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/34561674.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 419,
@@ -9306,7 +10300,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/180457/640x640_rect_34a0cdca57defdad284e3f32d64f8588.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 421,
@@ -9324,7 +10321,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田1-8-4 銭谷ビル4F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 422,
@@ -9342,7 +10342,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田1-8-4 銭谷ビル2F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 423,
@@ -9361,7 +10364,10 @@
     "address": "東京都千代田区外神田3-1-10 オーク秋葉原5F",
     "addressSource": "gsi-reverse",
     "hours": "月〜木・日祝17:00〜0:00 / 金土祝前日17:00〜5:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 424,
@@ -9379,7 +10385,10 @@
     ],
     "address": "東京都千代田区外神田1-8-3 野水ビル4F",
     "addressSource": "gsi-reverse",
-    "hours": "月16:00〜23:00 / 火水木11:00〜23:00 / 金土祝前日11:00〜翌5:00 / 日祝11:00〜23:00"
+    "hours": "月16:00〜23:00 / 火水木11:00〜23:00 / 金土祝前日11:00〜翌5:00 / 日祝11:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 425,
@@ -9397,7 +10406,10 @@
     ],
     "address": "東京都千代田区外神田3-7-12 AKIHABARA CROSS",
     "addressSource": "gsi-reverse",
-    "hours": "平日17:00〜22:00 / 土15:00〜22:00 / 日13:00〜21:00"
+    "hours": "平日17:00〜22:00 / 土15:00〜22:00 / 日13:00〜21:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 426,
@@ -9414,7 +10426,10 @@
       "curry"
     ],
     "address": "東京都千代田区外神田3-5-3",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 427,
@@ -9431,7 +10446,10 @@
     "cuisine": [
       "ramen"
     ],
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 430,
@@ -9449,7 +10467,10 @@
     ],
     "address": "東京都千代田区外神田4-4-7 MTビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "15:00〜last"
+    "hours": "15:00〜last",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 433,
@@ -9467,7 +10488,10 @@
     ],
     "address": "東京都千代田区外神田4-4-8 A-FRONT 5F",
     "addressSource": "gsi-reverse",
-    "hours": "平日18:00〜23:00 / 土日祝13:00〜23:00"
+    "hours": "平日18:00〜23:00 / 土日祝13:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 434,
@@ -9484,7 +10508,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 435,
@@ -9498,7 +10525,10 @@
     "dataSource": "osm",
     "osmId": "node/9103735021",
     "address": "東京都千代田区外神田4-4-8",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 436,
@@ -9516,7 +10546,10 @@
     ],
     "address": "東京都千代田区外神田4-4-8 A-FRONT 1F",
     "addressSource": "gsi-reverse",
-    "hours": "〜21:00"
+    "hours": "〜21:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 437,
@@ -9534,7 +10567,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-16 KDX秋葉原ビル5F",
     "addressSource": "gsi-reverse",
-    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）"
+    "hours": "17:00〜23:30（L.O.22:30、ドリンクL.O.23:00）",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 438,
@@ -9552,7 +10588,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-16 ダイニングスクエア秋葉原ビル5F",
     "addressSource": "gsi-reverse",
-    "hours": "17:00〜23:30"
+    "hours": "17:00〜23:30",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 439,
@@ -9579,7 +10618,10 @@
       "copyrightRisk": true
     },
     "lastVerified": "2026-09-02",
-    "website": "https://tokachiishikarihakodate.dkdining.com/akihabara/"
+    "website": "https://tokachiishikarihakodate.dkdining.com/akihabara/",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 440,
@@ -9604,7 +10646,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/20/38/P041872038/P041872038_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 441,
@@ -9631,7 +10676,10 @@
       "copyrightRisk": true
     },
     "lastVerified": "2026-09-02",
-    "website": "https://umeko.dkdining.com/akihabara/"
+    "website": "https://umeko.dkdining.com/akihabara/",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 442,
@@ -9650,7 +10698,10 @@
     "address": "東京都千代田区神田佐久間町1-15-3 TC第1秋葉原昭和通り口ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "平日17:00〜L.O.22:30 / 土15:00〜L.O.21:30 / 日15:00〜L.O.20:30",
-    "closed": "なし"
+    "closed": "なし",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 443,
@@ -9674,7 +10725,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/56/95/P047495695/P047495695_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 444,
@@ -9700,7 +10754,10 @@
       "copyrightRisk": true
     },
     "hours": "月〜木 15:00〜翌0:30 / 金・祝前日 15:00〜翌1:30 / 土日祝 15:00〜23:30",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 445,
@@ -9718,7 +10775,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原6F",
     "addressSource": "gsi-reverse",
-    "hours": "平日13:00〜21:00 / 土日祝11:00〜21:00"
+    "hours": "平日13:00〜21:00 / 土日祝11:00〜21:00",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 446,
@@ -9744,7 +10804,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/52/40/P035675240/P035675240_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 447,
@@ -9766,7 +10829,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000040859/archive/3862723-69436c47c4ebc.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 448,
@@ -9791,7 +10857,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/83/45/P050898345/P050898345_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 449,
@@ -9817,7 +10886,10 @@
       "sourceLabel": "ホットペッパーグルメ 掲載写真",
       "sourceUrl": "https://imgfp.hotp.jp/IMGH/15/89/P033991589/P033991589_480.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 450,
@@ -9843,7 +10915,10 @@
       "sourceLabel": "磯丸水産 公式サイト",
       "sourceUrl": "https://isomaru.jp/1417/wp-content/uploads/2022/12/isomaru_gaikan-1.jpg"
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 451,
@@ -9869,7 +10944,10 @@
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/18149447.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 452,
@@ -9895,7 +10973,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/35839726.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 453,
@@ -9921,7 +11002,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38362269.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 454,
@@ -9945,7 +11029,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/257276/640x640_rect_dbfa937f010ae984e6bd8a91847222c2.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 455,
@@ -9964,7 +11051,10 @@
     ],
     "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1店1F",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜21:30（L.O.21:00）"
+    "hours": "10:00〜21:30（L.O.21:00）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 456,
@@ -9982,7 +11072,10 @@
     ],
     "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1-1F",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜22:30（L.O.22:00）"
+    "hours": "10:00〜22:30（L.O.22:00）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 457,
@@ -10006,7 +11099,10 @@
       "alt": "越後屋平次の目鯛西京漬けランチ",
       "sourceLabel": "あきばる 掲載写真",
       "sourceUrl": "https://akibaru.jp/wp-content/uploads/2023/03/echigoya-heiji-medai08.jpg"
-    }
+    },
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 458,
@@ -10029,7 +11125,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/31867293.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 459,
@@ -10046,7 +11145,10 @@
     "cuisine": [
       "takoyaki"
     ],
-    "hours": "10:30〜21:00（毎日）"
+    "hours": "10:30〜21:00（毎日）",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 460,
@@ -10069,7 +11171,10 @@
       "alt": "汁なし担々麺ピリリの担々麺",
       "sourceLabel": "あきばる 掲載写真",
       "sourceUrl": "https://akibaru.jp/wp-content/uploads/2022/02/piriri06.jpeg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 461,
@@ -10087,7 +11192,10 @@
     ],
     "address": "東京都千代田区外神田3-7-8 DB末広町2F",
     "addressSource": "gsi-reverse",
-    "hours": "平日14:00〜28:30 / 土日12:00〜28:30"
+    "hours": "平日14:00〜28:30 / 土日12:00〜28:30",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 462,
@@ -10110,7 +11218,10 @@
       "alt": "秋葉原集会所のボードゲームスペース店内",
       "sourceLabel": "秋葉原集会所 公式サイト",
       "sourceUrl": "https://shukaijo.com/img/store01.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 463,
@@ -10127,7 +11238,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 464,
@@ -10144,7 +11258,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 465,
@@ -10168,7 +11285,10 @@
       "sourceLabel": "コンカフェナビ 掲載写真",
       "sourceUrl": "https://concafenavi.com/data/conversion/webp.php/?f=ef34c73aeb3185c9da20f7596f193203.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 466,
@@ -10185,7 +11305,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 467,
@@ -10202,7 +11325,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 468,
@@ -10219,7 +11345,10 @@
       "cafe"
     ],
     "address": "東京都千代田区神田佐久間町一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 469,
@@ -10234,7 +11363,10 @@
     "osmId": "node/9654182669",
     "hours": "14:00〜23:00",
     "address": "東京都千代田区外神田1-9-11 神タワービル4F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 470,
@@ -10252,7 +11384,10 @@
       "burger"
     ],
     "address": "東京都千代田区神田佐久間町1-21",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 471,
@@ -10278,7 +11413,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38070094.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 472,
@@ -10300,7 +11438,8 @@
     ],
     "tags": [
       "ラーメン",
-      "鶏白湯"
+      "鶏白湯",
+      "パーツ街・ジャンク街"
     ],
     "image": {
       "src": "/images/spots/toriou-keisuke-akihabara.webp",
@@ -10328,7 +11467,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田1-9-1 住友不動産秋葉原ファーストビル・テラス1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 475,
@@ -10345,7 +11487,10 @@
       "izakaya"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 476,
@@ -10369,7 +11514,8 @@
     "tags": [
       "コラボカフェ",
       "グランブルーファンタジー",
-      "常設"
+      "常設",
+      "パーツ街・ジャンク街"
     ],
     "image": {
       "src": "/images/spots/grandcypher-kitchen.webp",
@@ -10396,7 +11542,10 @@
       "cafe"
     ],
     "address": "東京都千代田区神田松永町17-12",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 478,
@@ -10414,7 +11563,10 @@
     ],
     "address": "東京都千代田区神田練塀町45 ライオンズマンション秋葉原B1",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金・祝前日16:00〜22:15（L.O.21:15）/ 土祝15:30〜22:00"
+    "hours": "月〜金・祝前日16:00〜22:15（L.O.21:15）/ 土祝15:30〜22:00",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 479,
@@ -10439,7 +11591,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/31792014.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 480,
@@ -10462,7 +11617,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/37610939.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 481,
@@ -10486,7 +11644,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/135195/640x640_rect_135195954.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 482,
@@ -10508,7 +11669,8 @@
     ],
     "tags": [
       "ラーメン",
-      "つけ麺"
+      "つけ麺",
+      "パーツ街・ジャンク街"
     ],
     "image": {
       "src": "/images/spots/menya-musashi-iwatora.jpg",
@@ -10537,7 +11699,10 @@
     "address": "東京都千代田区外神田1-13-3 ヒューリック秋葉原中央通りビル8F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金 17:00〜23:00 / 土日 16:00〜23:00",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 484,
@@ -10564,7 +11729,10 @@
       "width": 1200,
       "height": 630,
       "sourceUrl": "https://meocloud-image.can-ly.com/images/cms/managed/companies/478/20250507135628ogp-1200-630.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 485,
@@ -10589,7 +11757,10 @@
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/161307/640x640_rect_161307293.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 486,
@@ -10607,7 +11778,10 @@
     ],
     "address": "東京都千代田区外神田1-6-3 アキバあそび館1F",
     "addressSource": "gsi-reverse",
-    "hours": "15:00〜24:00"
+    "hours": "15:00〜24:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 487,
@@ -10624,7 +11798,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 488,
@@ -10642,7 +11819,10 @@
     ],
     "address": "東京都千代田区外神田1-11-7",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜21:30（毎日）"
+    "hours": "11:00〜21:30（毎日）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 489,
@@ -10668,7 +11848,10 @@
       "sourceLabel": "コンカフェ.jp 掲載写真",
       "sourceUrl": "https://img.con-cafe.jp/upload/2023/01/lycottage_bg-3.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 490,
@@ -10686,7 +11869,10 @@
     ],
     "address": "東京都千代田区外神田4-4-2 共益外神田ビル",
     "addressSource": "gsi-reverse",
-    "hours": "平日15:00〜22:00 / 土日祝12:00〜22:00"
+    "hours": "平日15:00〜22:00 / 土日祝12:00〜22:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 491,
@@ -10704,7 +11890,10 @@
       "buffet"
     ],
     "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2 4F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 492,
@@ -10722,7 +11911,10 @@
     ],
     "address": "東京都千代田区外神田3-14-5 久郷ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金17:00〜23:00 / 土日15:00〜23:00"
+    "hours": "月〜金17:00〜23:00 / 土日15:00〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 493,
@@ -10751,7 +11943,10 @@
       "shabu_shabu"
     ],
     "lastVerified": "2026-09-02",
-    "website": "https://xn--8mr310gi6g60ae74g.com/"
+    "website": "https://xn--8mr310gi6g60ae74g.com/",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 494,
@@ -10766,7 +11961,10 @@
     "osmId": "node/10991114503",
     "address": "東京都千代田区外神田3-13-5 松井ビルB1F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金10:30〜22:00（L.O.21:30）/ 土日祝10:30〜21:00（L.O.20:30）"
+    "hours": "月〜金10:30〜22:00（L.O.21:30）/ 土日祝10:30〜21:00（L.O.20:30）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 495,
@@ -10784,7 +11982,10 @@
     ],
     "address": "東京都千代田区外神田1-15-18 奥山ビル7F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金17:00〜24:00 / 土日祝16:00〜24:00"
+    "hours": "月〜金17:00〜24:00 / 土日祝16:00〜24:00",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 496,
@@ -10807,7 +12008,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/36631522.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 497,
@@ -10832,7 +12036,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/29393776.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 498,
@@ -10850,7 +12057,10 @@
     ],
     "address": "東京都千代田区外神田1-15-18 奥山ビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木17:00〜23:50 / 金17:00〜翌4:00 / 土13:00〜翌4:00 / 日祝13:00〜23:30"
+    "hours": "月〜木17:00〜23:50 / 金17:00〜翌4:00 / 土13:00〜翌4:00 / 日祝13:00〜23:30",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 499,
@@ -10875,7 +12085,10 @@
       "sourceLabel": "Retty 投稿写真",
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/32489452.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 500,
@@ -10899,7 +12112,8 @@
     "tags": [
       "メイドカフェ",
       "コンカフェ",
-      "体験"
+      "体験",
+      "パーツ街・ジャンク街"
     ],
     "image": {
       "src": "/images/spots/china-maid-cafe-ronron.jpg",
@@ -10929,7 +12143,10 @@
     ],
     "address": "東京都千代田区外神田4-2-7 TIT秋葉原3F",
     "addressSource": "gsi-reverse",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 502,
@@ -10947,7 +12164,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 503,
@@ -10967,7 +12187,10 @@
     ],
     "address": "東京都千代田区神田須田町2-25-12 ホテルリソル秋葉原2F",
     "addressSource": "gsi-reverse",
-    "closed": "月曜"
+    "closed": "月曜",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 504,
@@ -10985,7 +12208,10 @@
     ],
     "address": "東京都千代田区神田須田町二丁目",
     "addressSource": "gsi-reverse",
-    "hours": "月〜木18:00〜3:00 / 金・祝前日18:00〜5:00 / 土17:00〜5:00 / 日祝17:00〜3:00"
+    "hours": "月〜木18:00〜3:00 / 金・祝前日18:00〜5:00 / 土17:00〜5:00 / 日祝17:00〜3:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 505,
@@ -11010,7 +12236,10 @@
       "copyrightRisk": true
     },
     "website": "https://jibundoki.dkdining.com/akihabara/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 506,
@@ -11033,7 +12262,10 @@
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33259054.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 508,
@@ -11058,7 +12290,10 @@
       "copyrightRisk": true
     },
     "lastVerified": "2026-09-02",
-    "website": "https://nikuyayokocho.jp/shoplist/akihabara/"
+    "website": "https://nikuyayokocho.jp/shoplist/akihabara/",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 509,
@@ -11085,7 +12320,10 @@
       "width": 129,
       "height": 129,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/qfniojik/42269876/2up8.jpg"
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 510,
@@ -11110,7 +12348,10 @@
       "copyrightRisk": true
     },
     "website": "https://tokyokushiyakiclub-akb.owst.jp/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 511,
@@ -11131,7 +12372,10 @@
       "alt": "松尾ジンギスカンの店内",
       "sourceLabel": "松尾ジンギスカン 公式サイト",
       "sourceUrl": "https://www.matsuo1956.jp/shop/akihabara/img/visual01.jpg"
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 513,
@@ -11149,7 +12393,10 @@
     ],
     "address": "東京都千代田区外神田1-18-19 Bito AKIBA 4F",
     "addressSource": "gsi-reverse",
-    "hours": "平日17:00〜23:00 / 土15:00〜23:00 / 日祝15:00〜22:00"
+    "hours": "平日17:00〜23:00 / 土15:00〜23:00 / 日祝15:00〜22:00",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 514,
@@ -11168,7 +12415,10 @@
     ],
     "address": "東京都千代田区外神田一丁目",
     "addressSource": "gsi-reverse",
-    "hours": "6:30〜23:30"
+    "hours": "6:30〜23:30",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 515,
@@ -11193,7 +12443,10 @@
       "sourceLabel": "GDM 掲載写真",
       "sourceUrl": "https://www.gdm.or.jp/wp-content/uploads/2023/09/27/kurikoan_open_01-620x466.jpg",
       "copyrightRisk": true
-    }
+    },
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 516,
@@ -11212,7 +12465,10 @@
     "address": "東京都千代田区外神田3-7-9 サンビュー外神田201号",
     "addressSource": "gsi-reverse",
     "hours": "月〜金18:00〜22:00 / 土日祝10:00〜22:00",
-    "closed": "不定休"
+    "closed": "不定休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 517,
@@ -11226,7 +12482,10 @@
     "dataSource": "osm",
     "osmId": "node/11276600257",
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 518,
@@ -11244,7 +12503,10 @@
     ],
     "address": "東京都千代田区外神田4-14-1 秋葉原UDX2F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（日曜〜22:00）"
+    "hours": "11:00〜23:00（日曜〜22:00）",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 519,
@@ -11262,7 +12524,10 @@
     "hours": "11:00〜22:00（L.O.）",
     "closed": "不定休（秋葉原UDXに準ずる）",
     "website": "https://genchan.jp/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 520,
@@ -11280,7 +12545,10 @@
     ],
     "address": "東京都千代田区外神田4-14-1 秋葉原UDXビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜21:30 L.O.（QRコード）・22:00 L.O.（券売機）/ 日祝〜20:30 L.O.・21:00 L.O."
+    "hours": "11:00〜21:30 L.O.（QRコード）・22:00 L.O.（券売機）/ 日祝〜20:30 L.O.・21:00 L.O.",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 521,
@@ -11295,7 +12563,10 @@
     "osmId": "node/11276600262",
     "address": "東京都千代田区外神田4-14-1 秋葉原UDX2F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（ランチ11:00〜16:00）"
+    "hours": "11:00〜23:00（ランチ11:00〜16:00）",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 522,
@@ -11310,7 +12581,10 @@
     "osmId": "node/11276600263",
     "address": "東京都千代田区外神田4-14-1 秋葉原UDXビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜22:00（毎日）"
+    "hours": "11:00〜22:00（毎日）",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 523,
@@ -11329,7 +12603,10 @@
     "address": "東京都千代田区外神田4-14-1 秋葉原UDXビル2F",
     "addressSource": "gsi-reverse",
     "hours": "平日ランチ11:00〜15:00（L.O.14:45）・ディナー17:00〜22:00（L.O.21:00）/ 土日11:00〜22:00",
-    "closed": "不定休（秋葉原UDXに準ずる）"
+    "closed": "不定休（秋葉原UDXに準ずる）",
+    "tags": [
+      "UDX"
+    ]
   },
   {
     "id": 524,
@@ -11347,7 +12624,10 @@
     ],
     "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1",
     "addressSource": "gsi-reverse",
-    "hours": "7:00〜22:30"
+    "hours": "7:00〜22:30",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 525,
@@ -11365,7 +12645,10 @@
     "cuisine": [
       "sweets"
     ],
-    "hours": "11:00〜22:00"
+    "hours": "11:00〜22:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 526,
@@ -11384,7 +12667,10 @@
     "address": "東京都千代田区神田平河町4-8-5",
     "addressSource": "gsi-reverse",
     "hours": "3:45〜翌3:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 527,
@@ -11403,7 +12689,10 @@
     "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2店2F",
     "addressSource": "gsi-reverse",
     "hours": "7:00〜23:00",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 528,
@@ -11421,7 +12710,10 @@
     ],
     "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金7:00〜21:00 / 土日8:00〜21:00"
+    "hours": "月〜金7:00〜21:00 / 土日8:00〜21:00",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 529,
@@ -11438,7 +12730,10 @@
       "japanese"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 530,
@@ -11455,7 +12750,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 531,
@@ -11474,7 +12772,10 @@
     "address": "東京都千代田区外神田4-6-7 カンダエイトビル1F",
     "addressSource": "gsi-reverse",
     "hours": "平日11:00〜22:00（L.O.21:45）/ 土日祝10:00〜22:00（L.O.21:45）",
-    "closed": "無し"
+    "closed": "無し",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 532,
@@ -11492,7 +12793,10 @@
     ],
     "address": "東京都千代田区外神田3-16-13 1F",
     "addressSource": "gsi-reverse",
-    "hours": "ランチ11:30〜15:00 / 夜18:00〜20:00"
+    "hours": "ランチ11:30〜15:00 / 夜18:00〜20:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 533,
@@ -11512,7 +12816,10 @@
     "addressSource": "gsi-reverse",
     "hours": "平日11:30〜15:00・17:00〜23:30 / 土日11:30〜15:00",
     "closed": "不定休",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 534,
@@ -11530,7 +12837,10 @@
       "ramen"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 535,
@@ -11545,7 +12855,10 @@
     "osmId": "node/11782064312",
     "address": "東京都千代田区外神田1-10-9 TY2ビル2・3F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金10:30〜23:00（L.O.22:45）/ 土日祝9:00〜23:00（L.O.22:45）"
+    "hours": "月〜金10:30〜23:00（L.O.22:45）/ 土日祝9:00〜23:00（L.O.22:45）",
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 536,
@@ -11565,7 +12878,10 @@
     "address": "東京都千代田区外神田3-7-9 サンビュー外神田1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金12:00〜16:00・18:00〜21:00 / 土12:00〜16:00・18:00〜20:00 / 祝12:00〜19:00",
-    "closed": "日曜"
+    "closed": "日曜",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 537,
@@ -11583,7 +12899,10 @@
     ],
     "address": "東京都千代田区外神田4-5-4",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜21:30（日曜〜20:00）"
+    "hours": "11:00〜21:30（日曜〜20:00）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 538,
@@ -11600,7 +12919,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 539,
@@ -11617,7 +12939,10 @@
       "sushi"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 540,
@@ -11635,7 +12960,10 @@
     ],
     "address": "東京都千代田区外神田3-5-1 エトランゼ18秋葉原9F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜日18:00〜28:00"
+    "hours": "月〜日18:00〜28:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 541,
@@ -11654,7 +12982,10 @@
     "address": "東京都千代田区外神田3-16-13 FTビル6F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金16:00〜23:00 / 土日祝13:00〜23:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 542,
@@ -11672,7 +13003,10 @@
     ],
     "address": "東京都千代田区外神田3-16-13 FTビル7F",
     "addressSource": "gsi-reverse",
-    "hours": "全日20:00〜5:00"
+    "hours": "全日20:00〜5:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 543,
@@ -11689,7 +13023,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 544,
@@ -11708,7 +13045,10 @@
     "address": "東京都千代田区外神田3-2-12 Box'R AKIBAビル2F",
     "addressSource": "gsi-reverse",
     "hours": "火〜日祝12:00〜23:00",
-    "closed": "月曜"
+    "closed": "月曜",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 545,
@@ -11733,7 +13073,10 @@
       "alt": "すし酒場 フジヤマ 秋葉原本店の寿司盛り合わせ",
       "sourceLabel": "すし酒場 フジヤマ 秋葉原本店 公式サイト",
       "sourceUrl": "https://fujiyama-akihabara.owst.jp"
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 546,
@@ -11750,7 +13093,10 @@
     "cuisine": [
       "beef_bowl"
     ],
-    "hours": "24時間営業"
+    "hours": "24時間営業",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 547,
@@ -11768,7 +13114,10 @@
     ],
     "address": "東京都千代田区外神田3-10-5 T&K AKIBAビル3F",
     "addressSource": "gsi-reverse",
-    "closed": "月曜（祝日の際は営業）"
+    "closed": "月曜（祝日の際は営業）",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 548,
@@ -11787,7 +13136,10 @@
     "address": "東京都千代田区神田松永町1 河本ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "月〜土11:00〜23:00（L.O.22:00）",
-    "closed": "日曜・祝日"
+    "closed": "日曜・祝日",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 549,
@@ -11806,7 +13158,10 @@
     ],
     "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜21:00"
+    "hours": "11:00〜21:00",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 550,
@@ -11826,7 +13181,10 @@
     "addressSource": "gsi-reverse",
     "hours": "月〜金16:00〜23:00 / 土日祝11:30〜23:00",
     "website": "https://onyasai-akihabarashouwadoori.owst.jp/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 551,
@@ -11843,7 +13201,10 @@
       "pizza"
     ],
     "address": "東京都千代田区外神田3-10-11",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 552,
@@ -11858,7 +13219,10 @@
     "osmId": "node/12050828869",
     "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:00〜23:00（L.O.22:30）"
+    "hours": "11:00〜23:00（L.O.22:30）",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 553,
@@ -11874,7 +13238,10 @@
     "address": "東京都千代田区外神田3-15-1 アキバプレイス3F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜21:30（L.O.）",
-    "closed": "なし"
+    "closed": "なし",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 554,
@@ -11893,7 +13260,10 @@
     "address": "東京都千代田区神田佐久間町1-6-4 だん家秋葉原ビル9F",
     "addressSource": "gsi-reverse",
     "hours": "月〜金11:30〜14:00・17:00〜23:00 / 土17:00〜23:00",
-    "closed": "日曜・祝日"
+    "closed": "日曜・祝日",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 555,
@@ -11912,7 +13282,10 @@
     "address": "東京都千代田区神田佐久間町1-6-13 JR高架下",
     "addressSource": "gsi-reverse",
     "hours": "月〜土 11:00〜23:00（L.O.22:30）/ 日祝 11:00〜22:30（L.O.22:00）",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 556,
@@ -11931,7 +13304,10 @@
     "address": "東京都千代田区神田須田町1-5 翔和須田町ビル1F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜23:00（毎日）",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 557,
@@ -11949,7 +13325,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田三丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 558,
@@ -11968,7 +13347,10 @@
     "address": "東京都千代田区外神田3-4-16",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜21:00",
-    "closed": "無休"
+    "closed": "無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 559,
@@ -11983,7 +13365,10 @@
     "osmId": "node/12410888899",
     "address": "東京都千代田区外神田3-10-5",
     "addressSource": "gsi-reverse",
-    "hours": "9:30〜23:00"
+    "hours": "9:30〜23:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 560,
@@ -12001,7 +13386,10 @@
       "cafe"
     ],
     "address": "東京都千代田区神田須田町1-14-1 Aフロント神田須田町ビルB1F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 561,
@@ -12018,7 +13406,10 @@
       "sushi"
     ],
     "address": "東京都千代田区神田花岡町",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 562,
@@ -12037,7 +13428,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-16-1 大橋ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "9:55〜21:55（年中無休）"
+    "hours": "9:55〜21:55（年中無休）",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 563,
@@ -12054,7 +13448,10 @@
       "bar"
     ],
     "address": "東京都千代田区外神田1-3-4 第3ナガシマビル2F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 564,
@@ -12073,7 +13470,10 @@
     "address": "東京都千代田区外神田1-6-2 AKB162ビル2F",
     "addressSource": "gsi-reverse",
     "hours": "19:00〜25:00",
-    "closed": "祝日"
+    "closed": "祝日",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 565,
@@ -12092,7 +13492,10 @@
     "address": "東京都千代田区外神田3-2-11 遠藤ビルB1F",
     "addressSource": "gsi-reverse",
     "hours": "17:00〜25:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 566,
@@ -12110,7 +13513,10 @@
     ],
     "address": "東京都千代田区外神田1-6-2 AKB162ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "平日19:00〜25:00 / 土日祝18:00〜25:00"
+    "hours": "平日19:00〜25:00 / 土日祝18:00〜25:00",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 569,
@@ -12128,7 +13534,10 @@
     "hours": "月〜金11:30〜15:00・17:00〜22:30",
     "closed": "土曜・日曜・祝日",
     "website": "https://akiba-zaki.com/",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 570,
@@ -12145,7 +13554,10 @@
       "chinese"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 571,
@@ -12162,7 +13574,10 @@
       "cafe"
     ],
     "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 572,
@@ -12179,7 +13594,10 @@
       "cafe"
     ],
     "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba4F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 573,
@@ -12197,7 +13615,10 @@
     ],
     "address": "東京都千代田区神田佐久間町1-8 ニュー千代田ビルB1F",
     "addressSource": "gsi-reverse",
-    "hours": "11:30〜14:30（ランチのみ）"
+    "hours": "11:30〜14:30（ランチのみ）",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 574,
@@ -12214,7 +13635,10 @@
       "japanese"
     ],
     "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 575,
@@ -12232,7 +13656,10 @@
     ],
     "address": "東京都千代田区外神田4-13-7 鈴木ビル1F",
     "addressSource": "gsi-reverse",
-    "hours": "平日15:00開店 / 土日祝14:00開店"
+    "hours": "平日15:00開店 / 土日祝14:00開店",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 576,
@@ -12255,7 +13682,10 @@
       "text": "本場の中国料理が楽しめます。\n週替りのメニューが味わえるランチもおすすめ。",
       "authorId": 2
     },
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 577,
@@ -12277,7 +13707,8 @@
     "tags": [
       "ラーメン",
       "豚骨",
-      "一風堂"
+      "一風堂",
+      "電気街"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12295,7 +13726,10 @@
     "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba8F",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜23:00（L.O.22:00）",
-    "closed": "なし"
+    "closed": "なし",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 579,
@@ -12313,7 +13747,10 @@
       "japanese"
     ],
     "address": "東京都千代田区神田佐久間町1-6-5 アキバ・トリム6F",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 580,
@@ -12330,7 +13767,10 @@
       "soba"
     ],
     "address": "東京都千代田区神田和泉町1-2",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 581,
@@ -12349,7 +13789,10 @@
     "address": "東京都千代田区神田和泉町1 YKKビル1F",
     "addressSource": "gsi-reverse",
     "hours": "毎日8:00〜19:00",
-    "closed": "土曜・日曜・祝日"
+    "closed": "土曜・日曜・祝日",
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 582,
@@ -12367,7 +13810,10 @@
     ],
     "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2店5F",
     "addressSource": "gsi-reverse",
-    "hours": "10:00〜23:00（毎日）"
+    "hours": "10:00〜23:00（毎日）",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 583,
@@ -12385,7 +13831,10 @@
     ],
     "address": "東京都千代田区神田花岡町1-9 アトレ秋葉原2・3F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金ランチ11:30〜14:30（L.O.14:00）/ 月〜木ディナー17:00〜22:30（L.O.21:30）/ 金土17:00〜23:00（L.O.22:00）/ 日16:00〜22:00（L.O.21:00）"
+    "hours": "月〜金ランチ11:30〜14:30（L.O.14:00）/ 月〜木ディナー17:00〜22:30（L.O.21:30）/ 金土17:00〜23:00（L.O.22:00）/ 日16:00〜22:00（L.O.21:00）",
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 585,
@@ -12404,7 +13853,10 @@
     "address": "東京都千代田区外神田3-3-1 Nビル1F",
     "addressSource": "gsi-reverse",
     "hours": "9:00〜21:00",
-    "closed": "年中無休"
+    "closed": "年中無休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 586,
@@ -12419,7 +13871,10 @@
     "osmId": "node/13730065901",
     "address": "東京都千代田区神田岩本町1-13 秋葉原清新ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜土11:00〜15:30・17:00〜21:30 / 日11:00〜15:30・17:00〜20:30"
+    "hours": "月〜土11:00〜15:30・17:00〜21:30 / 日11:00〜15:30・17:00〜20:30",
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 587,
@@ -12438,7 +13893,10 @@
     "address": "東京都千代田区外神田3-5-6 SIMAWA BLDG.1F",
     "addressSource": "gsi-reverse",
     "hours": "8:30〜17:00（L.O.16:30）",
-    "closed": "日曜・祝日・年末年始"
+    "closed": "日曜・祝日・年末年始",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 589,
@@ -12457,7 +13915,10 @@
     "address": "東京都千代田区外神田3-10-7",
     "addressSource": "gsi-reverse",
     "hours": "11:00〜21:00",
-    "closed": "不定休"
+    "closed": "不定休",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 590,
@@ -12475,7 +13936,10 @@
     ],
     "address": "東京都千代田区外神田3-1-11",
     "addressSource": "gsi-reverse",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 592,
@@ -12493,7 +13957,10 @@
       "japanese"
     ],
     "address": "東京都千代田区外神田3-6-8",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 593,
@@ -12519,7 +13986,10 @@
       "alt": "お肉の店 やまのの肉料理",
       "sourceLabel": "お肉の店 やまの 公式サイト",
       "sourceUrl": "http://www.yamano29.com/"
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 594,
@@ -12539,7 +14009,10 @@
     "editorComment": {
       "text": "座敷あり",
       "authorId": 2
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 595,
@@ -12557,7 +14030,10 @@
       "chanko"
     ],
     "address": "東京都千代田区外神田2-13-4",
-    "addressSource": "gsi-reverse"
+    "addressSource": "gsi-reverse",
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 596,
@@ -12581,7 +14057,8 @@
     "tags": [
       "魚料理",
       "イタリアン",
-      "マーチエキュート"
+      "マーチエキュート",
+      "電気街"
     ],
     "image": {
       "src": "/images/spots/platinum-fish-manseibashi.jpg",
@@ -12612,7 +14089,8 @@
     "tags": [
       "中華",
       "四川料理",
-      "麻婆豆腐"
+      "麻婆豆腐",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12633,7 +14111,8 @@
     "tags": [
       "ラーメン",
       "味噌ラーメン",
-      "函館"
+      "函館",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12655,7 +14134,8 @@
     "tags": [
       "ラーメン",
       "油そば",
-      "24時間営業"
+      "24時間営業",
+      "岩本町"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12676,7 +14156,8 @@
     "tags": [
       "ラーメン",
       "つけ麺",
-      "鶏"
+      "鶏",
+      "電気街"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12698,7 +14179,8 @@
     "tags": [
       "町中華",
       "ラーメン",
-      "餃子"
+      "餃子",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12719,7 +14201,8 @@
     "tags": [
       "ラーメン",
       "背脂",
-      "つけ麺"
+      "つけ麺",
+      "岩本町"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12742,7 +14225,8 @@
     "tags": [
       "ラーメン",
       "長岡系",
-      "生姜醤油"
+      "生姜醤油",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12762,7 +14246,8 @@
       "ramen"
     ],
     "tags": [
-      "油そば"
+      "油そば",
+      "岩本町"
     ],
     "lastVerified": "2026-08-19",
     "image": {
@@ -12792,7 +14277,8 @@
     ],
     "tags": [
       "ラーメン",
-      "家系"
+      "家系",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19",
     "image": {
@@ -12849,7 +14335,8 @@
     "tags": [
       "ラーメン",
       "豚骨",
-      "替え玉"
+      "替え玉",
+      "パーツ街・ジャンク街"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12873,7 +14360,8 @@
       "ラーメン",
       "醤油ラーメン",
       "つけ麺",
-      "百名店"
+      "百名店",
+      "中央口"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12895,7 +14383,8 @@
     "tags": [
       "ラーメン",
       "中華そば",
-      "京都"
+      "京都",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19",
     "image": {
@@ -12925,7 +14414,8 @@
     "tags": [
       "中華",
       "ラーメン",
-      "餃子"
+      "餃子",
+      "電気街"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12947,7 +14437,8 @@
     "tags": [
       "中華",
       "飲茶",
-      "担々麺"
+      "担々麺",
+      "中央口"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -12970,7 +14461,8 @@
     "tags": [
       "ラーメン",
       "白菜",
-      "チェーン"
+      "チェーン",
+      "中央口"
     ],
     "lastVerified": "2026-08-19",
     "image": {
@@ -13000,7 +14492,8 @@
       "ラーメン",
       "つけ麺",
       "魚介系",
-      "百名店"
+      "百名店",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -13020,7 +14513,8 @@
     "tags": [
       "ラーメン",
       "つけ麺",
-      "デカ盛り"
+      "デカ盛り",
+      "岩本町"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -13041,7 +14535,8 @@
     ],
     "tags": [
       "ラーメン",
-      "豚骨"
+      "豚骨",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -13064,7 +14559,8 @@
     "tags": [
       "中華",
       "ラーメン",
-      "チェーン"
+      "チェーン",
+      "岩本町"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -13085,7 +14581,8 @@
     ],
     "tags": [
       "つけ麺",
-      "豚骨魚介"
+      "豚骨魚介",
+      "電気街"
     ],
     "lastVerified": "2026-08-19",
     "image": {
@@ -13115,7 +14612,8 @@
     ],
     "tags": [
       "担々麺",
-      "ヴィーガン"
+      "ヴィーガン",
+      "電気街"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -13136,7 +14634,8 @@
     ],
     "tags": [
       "ラーメン",
-      "極太麺"
+      "極太麺",
+      "昭和通り"
     ],
     "lastVerified": "2026-08-19"
   },
@@ -13155,7 +14654,8 @@
     "tags": [
       "焼肉",
       "個室",
-      "黒毛和牛"
+      "黒毛和牛",
+      "電気街"
     ],
     "cuisine": [
       "yakiniku",
@@ -13185,7 +14685,8 @@
     "lng": 139.774399,
     "tags": [
       "個室",
-      "和食"
+      "和食",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13213,7 +14714,8 @@
     "lng": 139.768738,
     "tags": [
       "老舗",
-      "鳥すきやき"
+      "鳥すきやき",
+      "電気街"
     ],
     "cuisine": [
       "sukiyaki",
@@ -13236,7 +14738,8 @@
     "tags": [
       "寿司",
       "個室",
-      "宴会"
+      "宴会",
+      "昭和通り"
     ],
     "cuisine": [
       "sushi",
@@ -13266,7 +14769,8 @@
     "tags": [
       "個室",
       "京風和食",
-      "飲み放題"
+      "飲み放題",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13289,7 +14793,8 @@
     "tags": [
       "個室",
       "鮮魚",
-      "飲み放題"
+      "飲み放題",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13311,7 +14816,8 @@
     "tags": [
       "個室",
       "日本酒",
-      "藁焼き"
+      "藁焼き",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "izakaya"
@@ -13333,7 +14839,8 @@
     "tags": [
       "個室",
       "地鶏",
-      "焼き鳥"
+      "焼き鳥",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "yakitori",
@@ -13363,7 +14870,8 @@
     "tags": [
       "個室",
       "炉端焼き",
-      "土鍋ご飯"
+      "土鍋ご飯",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13384,7 +14892,8 @@
     "tags": [
       "餃子",
       "中華",
-      "食べ放題"
+      "食べ放題",
+      "昭和通り"
     ],
     "cuisine": [
       "chinese",
@@ -13406,7 +14915,8 @@
     "lng": 139.775192,
     "tags": [
       "寿司",
-      "おでん"
+      "おでん",
+      "昭和通り"
     ],
     "cuisine": [
       "sushi",
@@ -13431,7 +14941,8 @@
     "tags": [
       "個室",
       "寿司",
-      "海鮮"
+      "海鮮",
+      "昭和通り"
     ],
     "cuisine": [
       "sushi",
@@ -13459,7 +14970,8 @@
     "lng": 139.778412,
     "tags": [
       "海鮮",
-      "日本酒"
+      "日本酒",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13482,7 +14994,8 @@
     "tags": [
       "個室",
       "のどぐろ",
-      "和食"
+      "和食",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13503,7 +15016,8 @@
     "lng": 139.769958,
     "tags": [
       "鮮魚",
-      "立ち飲み"
+      "立ち飲み",
+      "電気街"
     ],
     "cuisine": [
       "izakaya"
@@ -13522,7 +15036,8 @@
     "tags": [
       "個室",
       "おでん",
-      "炉端焼き"
+      "炉端焼き",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13545,7 +15060,8 @@
     "tags": [
       "焼肉",
       "和牛",
-      "ホルモン"
+      "ホルモン",
+      "昭和通り"
     ],
     "cuisine": [
       "yakiniku"
@@ -13566,7 +15082,8 @@
     "tags": [
       "焼肉",
       "深夜営業",
-      "食べ放題"
+      "食べ放題",
+      "昭和通り"
     ],
     "cuisine": [
       "yakiniku"
@@ -13588,7 +15105,8 @@
     "lng": 139.770859,
     "tags": [
       "炭火焼",
-      "黒毛和牛"
+      "黒毛和牛",
+      "電気街"
     ],
     "cuisine": [
       "yakiniku",
@@ -13611,7 +15129,8 @@
     "tags": [
       "個室",
       "牛タン",
-      "炉端焼き"
+      "炉端焼き",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13633,7 +15152,8 @@
     "tags": [
       "おでん",
       "肉寿司",
-      "個室"
+      "個室",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13655,7 +15175,8 @@
     "tags": [
       "個室",
       "炉端焼き",
-      "焼き鳥"
+      "焼き鳥",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13675,7 +15196,8 @@
     "lng": 139.77597,
     "tags": [
       "海鮮",
-      "地酒"
+      "地酒",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13704,7 +15226,8 @@
     "tags": [
       "個室",
       "京風創作料理",
-      "和食"
+      "和食",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13725,7 +15248,8 @@
     "tags": [
       "自然派ワイン",
       "クラフトビール",
-      "創作料理"
+      "創作料理",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13747,7 +15271,8 @@
     "tags": [
       "焼肉",
       "黒毛和牛",
-      "夜景"
+      "夜景",
+      "昭和通り"
     ],
     "cuisine": [
       "yakiniku"
@@ -13768,7 +15293,8 @@
     "tags": [
       "個室",
       "青森郷土料理",
-      "炭火焼き"
+      "炭火焼き",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13790,7 +15316,8 @@
     "tags": [
       "個室",
       "海鮮",
-      "北海道"
+      "北海道",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13811,7 +15338,8 @@
     "tags": [
       "やきとん",
       "もつ焼き",
-      "焼き鳥"
+      "焼き鳥",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13840,7 +15368,8 @@
     "tags": [
       "本鮪",
       "炭火焼き",
-      "割烹"
+      "割烹",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13861,7 +15390,8 @@
     "tags": [
       "個室",
       "本鮪専門",
-      "日本酒"
+      "日本酒",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya"
@@ -13879,7 +15409,8 @@
     "tags": [
       "大衆居酒屋",
       "焼き鳥",
-      "ねぎま"
+      "ねぎま",
+      "岩本町"
     ],
     "cuisine": [
       "izakaya",
@@ -13901,7 +15432,8 @@
     "tags": [
       "海鮮",
       "日本酒",
-      "個室"
+      "個室",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya",
@@ -13924,7 +15456,8 @@
     "tags": [
       "大衆酒場",
       "やきとん",
-      "焼き鳥"
+      "焼き鳥",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya",
@@ -13946,7 +15479,8 @@
     "tags": [
       "つくね",
       "個室",
-      "創作料理"
+      "創作料理",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya",
@@ -13967,7 +15501,8 @@
     "tags": [
       "もつ焼き",
       "海鮮",
-      "ハッピーアワー"
+      "ハッピーアワー",
+      "パーツ街・ジャンク街"
     ],
     "cuisine": [
       "izakaya"
@@ -13987,7 +15522,8 @@
     "tags": [
       "焼き鳥",
       "やきとん",
-      "餃子"
+      "餃子",
+      "中央口"
     ],
     "cuisine": [
       "izakaya",
@@ -14008,7 +15544,8 @@
     "address": "東京都千代田区岩本町3-1-5 スミトー神田岩本町ビル1F",
     "tags": [
       "中華",
-      "胡椒料理"
+      "胡椒料理",
+      "岩本町"
     ],
     "cuisine": [
       "chinese",
@@ -14029,7 +15566,8 @@
     "tags": [
       "焼肉",
       "個室",
-      "A5和牛"
+      "A5和牛",
+      "昭和通り"
     ],
     "cuisine": [
       "yakiniku"
@@ -14049,7 +15587,8 @@
     "tags": [
       "個室",
       "焼き鳥",
-      "野菜巻き"
+      "野菜巻き",
+      "昭和通り"
     ],
     "cuisine": [
       "izakaya",
@@ -14083,7 +15622,10 @@
       "izakaya"
     ],
     "lat": 35.6964,
-    "lng": 139.7692
+    "lng": 139.7692,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 667,
@@ -14101,7 +15643,10 @@
       "western"
     ],
     "lat": 35.6992,
-    "lng": 139.776
+    "lng": 139.776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 668,
@@ -14119,7 +15664,10 @@
     ],
     "closed": "土日祝定休",
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 669,
@@ -14138,7 +15686,10 @@
       "japanese"
     ],
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 670,
@@ -14156,7 +15707,10 @@
       "yakiniku"
     ],
     "lat": 35.6947,
-    "lng": 139.7708
+    "lng": 139.7708,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 671,
@@ -14182,7 +15736,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/syiaohc0/79634188/gp0f.jpg"
     },
     "lat": 35.6983,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 672,
@@ -14200,7 +15757,10 @@
       "izakaya"
     ],
     "lat": 35.6974,
-    "lng": 139.7762
+    "lng": 139.7762,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 673,
@@ -14226,7 +15786,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/u7otgvsz/35754012/zysn.jpg"
     },
     "lat": 35.6983,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 674,
@@ -14244,7 +15807,10 @@
       "izakaya"
     ],
     "lat": 35.6986,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 675,
@@ -14270,7 +15836,10 @@
       "sourceUrl": "https://static.wixstatic.com/media/939c2a_2fa8be2e18274a658882fc015c2a5c63%7Emv2.png/v1/fit/w_2500,h_1330,al_c/939c2a_2fa8be2e18274a658882fc015c2a5c63%7Emv2.png"
     },
     "lat": 35.6978,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 676,
@@ -14295,7 +15864,10 @@
       "sourceUrl": "https://img.retty.me/img_ebisu/restaurant/100001783131/archive/4105581-6a30eb93a2816.jpg"
     },
     "lat": 35.6978,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 677,
@@ -14314,7 +15886,10 @@
       "regional"
     ],
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 678,
@@ -14350,7 +15925,10 @@
       "izakaya"
     ],
     "lat": 35.6952,
-    "lng": 139.7725
+    "lng": 139.7725,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 680,
@@ -14377,7 +15955,10 @@
       "sourceUrl": "https://meocloud-image.can-ly.com/images/cms/managed/companies/1369/20250526140334apple-touch-icon-180x180%20%281%29.png"
     },
     "lat": 35.6987,
-    "lng": 139.772
+    "lng": 139.772,
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 681,
@@ -14403,7 +15984,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/9itrifvt/73151313/mkgt.jpg"
     },
     "lat": 35.698,
-    "lng": 139.7779
+    "lng": 139.7779,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 682,
@@ -14420,7 +16004,10 @@
       "izakaya"
     ],
     "lat": 35.6987,
-    "lng": 139.772
+    "lng": 139.772,
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 683,
@@ -14437,7 +16024,10 @@
       "bar"
     ],
     "lat": 35.696,
-    "lng": 139.7718
+    "lng": 139.7718,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 684,
@@ -14454,7 +16044,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 685,
@@ -14480,7 +16073,10 @@
       "sourceUrl": "https://www.dandadan.jp/backyard/wp-content/themes/dandadan/assets/images/common/og.jpg"
     },
     "lat": 35.6998,
-    "lng": 139.7703
+    "lng": 139.7703,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 686,
@@ -14498,7 +16094,10 @@
       "bar"
     ],
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 687,
@@ -14515,7 +16114,10 @@
       "izakaya"
     ],
     "lat": 35.6974,
-    "lng": 139.7774
+    "lng": 139.7774,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 688,
@@ -14532,7 +16134,10 @@
       "yakiniku"
     ],
     "lat": 35.698,
-    "lng": 139.7779
+    "lng": 139.7779,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 689,
@@ -14551,7 +16156,10 @@
       "izakaya"
     ],
     "lat": 35.696,
-    "lng": 139.7693
+    "lng": 139.7693,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 690,
@@ -14569,7 +16177,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.7733
+    "lng": 139.7733,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 691,
@@ -14587,7 +16198,10 @@
       "yakiniku"
     ],
     "lat": 35.6952,
-    "lng": 139.7725
+    "lng": 139.7725,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 692,
@@ -14605,7 +16219,10 @@
       "bar"
     ],
     "lat": 35.6977,
-    "lng": 139.7785
+    "lng": 139.7785,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 693,
@@ -14623,7 +16240,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 694,
@@ -14640,7 +16260,10 @@
       "yakiniku"
     ],
     "lat": 35.6978,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 695,
@@ -14659,7 +16282,10 @@
       "regional"
     ],
     "lat": 35.6992,
-    "lng": 139.776
+    "lng": 139.776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 696,
@@ -14677,7 +16303,10 @@
       "chinese"
     ],
     "lat": 35.6978,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 697,
@@ -14695,7 +16324,10 @@
       "italian"
     ],
     "lat": 35.6992,
-    "lng": 139.776
+    "lng": 139.776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 698,
@@ -14714,7 +16346,10 @@
       "seafood"
     ],
     "lat": 35.6959,
-    "lng": 139.7745
+    "lng": 139.7745,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 699,
@@ -14733,7 +16368,10 @@
       "chinese"
     ],
     "lat": 35.6956,
-    "lng": 139.7711
+    "lng": 139.7711,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 700,
@@ -14751,7 +16389,10 @@
       "izakaya"
     ],
     "lat": 35.6983,
-    "lng": 139.7776
+    "lng": 139.7776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 701,
@@ -14770,7 +16411,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.7758
+    "lng": 139.7758,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 702,
@@ -14787,7 +16431,10 @@
       "bar"
     ],
     "lat": 35.6978,
-    "lng": 139.7771
+    "lng": 139.7771,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 703,
@@ -14812,7 +16459,10 @@
       "sourceUrl": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/49/20260508114939OGP%E7%94%BB%E5%83%8F.png"
     },
     "lat": 35.6984,
-    "lng": 139.7758
+    "lng": 139.7758,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 704,
@@ -14838,7 +16488,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mur68i1c/42397863/xw37.jpg"
     },
     "lat": 35.6983,
-    "lng": 139.7776
+    "lng": 139.7776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 705,
@@ -14856,7 +16509,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 706,
@@ -14882,7 +16538,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mg5hrbgs/42398768/yjoc.jpg"
     },
     "lat": 35.6974,
-    "lng": 139.7726
+    "lng": 139.7726,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 707,
@@ -14901,7 +16560,10 @@
       "bar"
     ],
     "lat": 35.6993,
-    "lng": 139.7747
+    "lng": 139.7747,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 708,
@@ -14937,7 +16599,10 @@
       "bar"
     ],
     "lat": 35.6974,
-    "lng": 139.7699
+    "lng": 139.7699,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 710,
@@ -14955,7 +16620,10 @@
       "cafe"
     ],
     "lat": 35.7007,
-    "lng": 139.774
+    "lng": 139.774,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 711,
@@ -14973,7 +16641,10 @@
       "izakaya"
     ],
     "lat": 35.6985,
-    "lng": 139.7752
+    "lng": 139.7752,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 712,
@@ -14991,7 +16662,10 @@
       "bar"
     ],
     "lat": 35.7012,
-    "lng": 139.7718
+    "lng": 139.7718,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 713,
@@ -15008,7 +16682,10 @@
       "bar"
     ],
     "lat": 35.7013,
-    "lng": 139.7705
+    "lng": 139.7705,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 714,
@@ -15027,7 +16704,10 @@
       "western"
     ],
     "lat": 35.6947,
-    "lng": 139.7708
+    "lng": 139.7708,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 715,
@@ -15046,7 +16726,10 @@
       "bar"
     ],
     "lat": 35.6992,
-    "lng": 139.776
+    "lng": 139.776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 716,
@@ -15066,7 +16749,10 @@
       "shabu_shabu"
     ],
     "lat": 35.6986,
-    "lng": 139.7746
+    "lng": 139.7746,
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 717,
@@ -15085,7 +16771,10 @@
       "izakaya"
     ],
     "lat": 35.6992,
-    "lng": 139.776
+    "lng": 139.776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 718,
@@ -15110,7 +16799,10 @@
       "sourceUrl": "https://www.kichiri.co.jp/common/images/ogp_btoc.png"
     },
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 719,
@@ -15127,7 +16819,10 @@
       "izakaya"
     ],
     "lat": 35.6956,
-    "lng": 139.7769
+    "lng": 139.7769,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 720,
@@ -15146,7 +16841,10 @@
       "izakaya"
     ],
     "lat": 35.6983,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 721,
@@ -15163,7 +16861,10 @@
       "izakaya"
     ],
     "lat": 35.6985,
-    "lng": 139.7752
+    "lng": 139.7752,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 722,
@@ -15182,7 +16883,10 @@
       "bar"
     ],
     "lat": 35.7017,
-    "lng": 139.7714
+    "lng": 139.7714,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 723,
@@ -15201,7 +16905,10 @@
       "izakaya"
     ],
     "lat": 35.6961,
-    "lng": 139.775
+    "lng": 139.775,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 724,
@@ -15221,7 +16928,10 @@
       "izakaya"
     ],
     "lat": 35.6986,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 725,
@@ -15239,7 +16949,10 @@
       "bar"
     ],
     "lat": 35.7015,
-    "lng": 139.771
+    "lng": 139.771,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 726,
@@ -15266,7 +16979,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/a20ouso3/54184155/wydg.jpg"
     },
     "lat": 35.6992,
-    "lng": 139.7752
+    "lng": 139.7752,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 727,
@@ -15285,7 +17001,10 @@
       "izakaya"
     ],
     "lat": 35.6987,
-    "lng": 139.772
+    "lng": 139.772,
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 728,
@@ -15323,7 +17042,10 @@
       "gyoza"
     ],
     "lat": 35.6959,
-    "lng": 139.7745
+    "lng": 139.7745,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 730,
@@ -15343,7 +17065,10 @@
       "bar"
     ],
     "lat": 35.7006,
-    "lng": 139.7733
+    "lng": 139.7733,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 731,
@@ -15363,7 +17088,10 @@
       "chinese"
     ],
     "lat": 35.6945,
-    "lng": 139.7758
+    "lng": 139.7758,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 732,
@@ -15379,7 +17107,10 @@
       "yakiniku"
     ],
     "lat": 35.6986,
-    "lng": 139.7746
+    "lng": 139.7746,
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 733,
@@ -15397,7 +17128,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.7758
+    "lng": 139.7758,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 734,
@@ -15413,7 +17147,10 @@
       "izakaya"
     ],
     "lat": 35.6958,
-    "lng": 139.7731
+    "lng": 139.7731,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 735,
@@ -15440,7 +17177,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/yq5pt101/60094448/zidp.jpg"
     },
     "lat": 35.6992,
-    "lng": 139.776
+    "lng": 139.776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 736,
@@ -15458,7 +17198,10 @@
       "hot_pot"
     ],
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 737,
@@ -15484,7 +17227,10 @@
       "sourceUrl": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/7/20251114102942ogp.png"
     },
     "lat": 35.6987,
-    "lng": 139.772
+    "lng": 139.772,
+    "tags": [
+      "パーツ街・ジャンク街"
+    ]
   },
   {
     "id": 738,
@@ -15503,7 +17249,10 @@
       "izakaya"
     ],
     "lat": 35.6953,
-    "lng": 139.7706
+    "lng": 139.7706,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 739,
@@ -15522,7 +17271,10 @@
       "cafe"
     ],
     "lat": 35.6986,
-    "lng": 139.7746
+    "lng": 139.7746,
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 740,
@@ -15538,7 +17290,10 @@
       "izakaya"
     ],
     "lat": 35.6983,
-    "lng": 139.7776
+    "lng": 139.7776,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 741,
@@ -15554,7 +17309,10 @@
       "izakaya"
     ],
     "lat": 35.7013,
-    "lng": 139.7705
+    "lng": 139.7705,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 742,
@@ -15573,7 +17331,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.7744
+    "lng": 139.7744,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 743,
@@ -15591,7 +17352,10 @@
       "chinese"
     ],
     "lat": 35.6978,
-    "lng": 139.7752
+    "lng": 139.7752,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 744,
@@ -15610,7 +17374,10 @@
       "bar"
     ],
     "lat": 35.6983,
-    "lng": 139.7764
+    "lng": 139.7764,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 745,
@@ -15628,7 +17395,10 @@
       "izakaya"
     ],
     "lat": 35.700043,
-    "lng": 139.775024
+    "lng": 139.775024,
+    "tags": [
+      "岩本町"
+    ]
   },
   {
     "id": 746,
@@ -15654,7 +17424,10 @@
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/34dmkims/77341777/60jd.jpg"
     },
     "lat": 35.6978,
-    "lng": 139.774399
+    "lng": 139.774399,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 747,
@@ -15672,7 +17445,10 @@
       "izakaya"
     ],
     "lat": 35.701408,
-    "lng": 139.77063
+    "lng": 139.77063,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 748,
@@ -15689,7 +17465,10 @@
       "japanese"
     ],
     "lat": 35.698639,
-    "lng": 139.774612
+    "lng": 139.774612,
+    "tags": [
+      "中央口"
+    ]
   },
   {
     "id": 749,
@@ -15714,7 +17493,10 @@
       "sourceUrl": "https://torikizoku.co.jp/assets/uploads/2023/05/ogp.png"
     },
     "lat": 35.697784,
-    "lng": 139.775192
+    "lng": 139.775192,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 750,
@@ -15732,7 +17514,10 @@
       "izakaya"
     ],
     "lat": 35.698578,
-    "lng": 139.778412
+    "lng": 139.778412,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 751,
@@ -15747,7 +17532,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.776642
+    "lng": 139.776642,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 752,
@@ -15763,7 +17551,10 @@
       "izakaya"
     ],
     "lat": 35.696224,
-    "lng": 139.769836
+    "lng": 139.769836,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 753,
@@ -15804,7 +17595,10 @@
       "izakaya"
     ],
     "lat": 35.697979,
-    "lng": 139.774216
+    "lng": 139.774216,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 755,
@@ -15821,7 +17615,10 @@
       "izakaya"
     ],
     "lat": 35.697689,
-    "lng": 139.778488
+    "lng": 139.778488,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 756,
@@ -15839,7 +17636,10 @@
       "izakaya"
     ],
     "lat": 35.699192,
-    "lng": 139.77597
+    "lng": 139.77597,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 757,
@@ -15856,7 +17656,10 @@
       "izakaya"
     ],
     "lat": 35.696434,
-    "lng": 139.76918
+    "lng": 139.76918,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 758,
@@ -15871,7 +17674,10 @@
       "izakaya"
     ],
     "lat": 35.696224,
-    "lng": 139.769836
+    "lng": 139.769836,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 759,
@@ -15889,7 +17695,10 @@
       "western"
     ],
     "lat": 35.698647,
-    "lng": 139.776443
+    "lng": 139.776443,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 760,
@@ -15904,7 +17713,10 @@
       "izakaya"
     ],
     "lat": 35.695816,
-    "lng": 139.773056
+    "lng": 139.773056,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 761,
@@ -15920,7 +17732,10 @@
       "izakaya"
     ],
     "lat": 35.695816,
-    "lng": 139.773056
+    "lng": 139.773056,
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 762,
@@ -15937,7 +17752,10 @@
       "izakaya"
     ],
     "lat": 35.698345,
-    "lng": 139.777634
+    "lng": 139.777634,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 763,
@@ -15963,7 +17781,10 @@
       "width": 3353,
       "height": 3353,
       "sourceUrl": "https://static.wixstatic.com/media/e1bf07_fde8a1440e8a4294bf23beaff138ae58~mv2_d_3353_3353_s_4_2.jpg/v1/fill/w_3353,h_3353,al_c/e1bf07_fde8a1440e8a4294bf23beaff138ae58~mv2_d_3353_3353_s_4_2.jpg"
-    }
+    },
+    "tags": [
+      "電気街"
+    ]
   },
   {
     "id": 764,
@@ -15978,7 +17799,10 @@
       "izakaya"
     ],
     "lat": 35.697979,
-    "lng": 139.774216
+    "lng": 139.774216,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 765,
@@ -16002,7 +17826,10 @@
       "width": 129,
       "height": 129,
       "sourceUrl": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/eycehohq/54362284/pimv.jpg"
-    }
+    },
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 766,
@@ -16018,7 +17845,10 @@
       "izakaya"
     ],
     "lat": 35.6978,
-    "lng": 139.774399
+    "lng": 139.774399,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 767,
@@ -16033,7 +17863,10 @@
       "izakaya"
     ],
     "lat": 35.699192,
-    "lng": 139.77597
+    "lng": 139.77597,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 768,
@@ -16049,7 +17882,10 @@
       "izakaya"
     ],
     "lat": 35.697979,
-    "lng": 139.774216
+    "lng": 139.774216,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 769,
@@ -16064,7 +17900,10 @@
       "izakaya"
     ],
     "lat": 35.697979,
-    "lng": 139.774216
+    "lng": 139.774216,
+    "tags": [
+      "昭和通り"
+    ]
   },
   {
     "id": 770,
@@ -16082,6 +17921,9 @@
       "izakaya"
     ],
     "lat": 35.697979,
-    "lng": 139.774216
+    "lng": 139.774216,
+    "tags": [
+      "昭和通り"
+    ]
   }
 ]

@@ -1,5 +1,12 @@
 import Link from "next/link"
-import { getDetailPageSpots, getAllSpotCategories, getSpotImage } from "lib/spots"
+import {
+  getDetailPageSpots,
+  getAllSpotCategories,
+  getSpotImage,
+  getPagedAreas,
+  getSpotsByArea,
+  areaSlugs,
+} from "lib/spots"
 import type { SpotCategory } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
@@ -57,6 +64,7 @@ const Page = () => {
   const categories = categoryOrder.filter((c) =>
     getAllSpotCategories().includes(c)
   )
+  const areas = getPagedAreas()
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -123,6 +131,21 @@ const Page = () => {
           <Link href="/spots/gourmet/" className="gourmet-cuisine-nav__link">
             秋葉原のグルメ・飲食店一覧
           </Link>
+        </nav>
+
+        <nav aria-label="エリア別一覧" className="gourmet-cuisine-nav">
+          {areas.map((area) => (
+            <Link
+              key={area}
+              href={`/spots/area/${areaSlugs[area]}/`}
+              className="gourmet-cuisine-nav__link"
+            >
+              {area}
+              <span className="gourmet-cuisine-nav__count">
+                {getSpotsByArea(area).length}
+              </span>
+            </Link>
+          ))}
         </nav>
 
         {categories.map((category) => {
