@@ -749,3 +749,8 @@
 {"url": "https://s.mxtv.jp/event/minamoto/", "reason": "insufficient_facts", "note": "舞台『源』上映会&トークショー11/8秋葉原UDXシアター、詳細ソース見つからず", "checked": "2026-09-16"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141076.html", "reason": "not_akihabara_specific", "note": "Intel Japan50周年キャンペーン、全国チェーン店共通の一般キャンペーンで秋葉原固有性薄い", "checked": "2026-09-16"}
 {"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DY2llc1J2S0VZLWJROHlKTjVQMVVYZ1JZZi1PaklHYmo3X3V2REp2RTBibU5NdWdRS1lsaTBpanNCbW5OcVJfOGl6bi1waUtOb2d5OTVqUE1WSVlSb3BVOFBRWHV4VVpnN09VaQ", "reason": "insufficient_facts", "note": "ビックカメラ秋葉原 中古レコード店開業(9/19) 日経記事paywall、公式PRなし、代替ソース検索も不発", "checked": "2026-09-16"}
+{"url": "https://www.enjoytokyo.jp/event/2084022/", "reason": "not_akihabara_specific", "note": "御徒町開催、秋葉原ではない", "checked": "2026-09-18"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000155.000102050.html", "reason": "low_value", "note": "税理士法人オフィス開設、来訪者向け価値なし", "checked": "2026-09-18"}
+{"url": "https://www.shosen.co.jp/event/44171/", "reason": "out_of_scope_venue", "note": "書泉グランデ神保町、秋葉原外", "checked": "2026-09-18"}
+{"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11aG9CNFZPdmtSZE1oMTFJZ05kemZZcE1xRnNmeWtNTGdhSkprVnFTOG9tMURsZ01pRXFiSm9WbWZIM2NLV195dVVRNlM1T3VOa2RlTHkzZlNXbnByeUR4MVV0U0lDcWxzVWc?oc=5", "reason": "low_value", "note": "季節メニュー追加のみ、価格等詳細不明、来訪価値低い", "checked": "2026-09-18"}
+{"url": "https://www.movic.jp/shop/pages/bluearchive_atre2026.aspx", "reason": "insufficient_facts", "note": "ページ空、再検索で無関係な過去イベント(2月)しか出ず確認不可", "checked": "2026-09-18"}
