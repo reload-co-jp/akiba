@@ -256,7 +256,7 @@ SOURCES = {
     "gamers": dict(
         url="https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&category=0&keyword=AKIHABARA",
         href_filter=lambda h: "event_fair" in (h or "") and "detail.php" in (h or ""),
-        base="https://www.gamers.co.jp/contents/event_fair/",
+        base="https://www.gamers.co.jp",
     ),
     "enjoytokyo": dict(
         url="https://www.enjoytokyo.jp/event/list/area1319/",
@@ -276,7 +276,7 @@ SOURCES = {
     "animate": dict(
         url="https://www.animate-onlineshop.jp/contents/fair_event/",
         href_filter=lambda h: "detail.php?id=" in (h or ""),
-        base="https://www.animate-onlineshop.jp/contents/fair_event/",
+        base="https://www.animate-onlineshop.jp",
     ),
     "amiami_realstore": dict(
         url="https://realstore.amiami.jp/event/",

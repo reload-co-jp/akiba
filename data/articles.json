@@ -20010,6 +20010,10 @@
       {
         "label": "コトブキヤ公式（出展・開催概要）",
         "url": "https://www.kotobukiya.co.jp/event/detail/1318/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000921.000005808.html"
       }
     ],
     "authorId": 1,
@@ -30659,6 +30663,14 @@
       {
         "label": "Collabo Cafe 記事",
         "url": "https://collabo-cafe.com/events/collabo/hapidanbui-munyugurumi-patio-ecute-akihabara2026/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000327.000092073.html"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/hapidanbui-munyugurumi-patio-popup-akihabara-2026/"
       }
     ],
     "event": {
@@ -32285,6 +32297,10 @@
       {
         "label": "PR TIMES プレスリリース",
         "url": "https://prtimes.jp/main/html/rd/p/000009742.000014827.html"
+      },
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/bang-dream-atre-akihabara-popupstore-2026/"
       }
     ],
     "event": {
@@ -32623,6 +32639,14 @@
       {
         "label": "日本経済新聞",
         "url": "https://www.nikkei.com/article/DGXZQOUC166NS0W6A910C2000000/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000073.000054349.html"
+      },
+      {
+        "label": "AV Watch",
+        "url": "https://av.watch.impress.co.jp/docs/news/2141801.html"
       }
     ],
     "en": {
@@ -32961,5 +32985,385 @@
     },
     "authorId": 1,
     "id": 835
+  },
+  {
+    "title": "TOPPA!!! BASE AKIBAで「群馬クレインサンダーズ」コラボ開催",
+    "slug": "toppa-base-akiba-gunma-crane-thunders-collab-2026",
+    "summary": "TOPPANのコンテンツ発信ショップ「TOPPA!!! BASE AKIBA」で、プロバスケットボールチーム「群馬クレインサンダーズ」とのコラボレーションが2026年9月29日から10月12日までエキュート秋葉原改札内で開催される。",
+    "content": "## 概要\n\nTOPPANのコンテンツ発信ショップ「TOPPA!!! BASE AKIBA」で、プロバスケットボールチーム「群馬クレインサンダーズ」とのコラボレーションが開催される。エキュート秋葉原改札内という好立地で、バスケットボールファンとアキバカルチャーが交わる企画となる。\n\n## 内容\n\nTOPPA!!! BASE AKIBAはコンテンツIPとのコラボを継続的に展開しているショップで、今回は「群馬クレインサンダーズ」とのコラボを実施する。\n\n- プロバスケットボールチーム「群馬クレインサンダーズ」とのコラボ企画を実施\n- 会場はエキュート秋葉原改札内のTOPPA!!! BASE AKIBA\n\n## 開催情報\n\n- **日時**: 2026年9月29日（火）〜10月12日（月）\n- **会場**: TOPPA!!! BASE AKIBA（エキュート秋葉原改札内）\n- **料金**: 無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 群馬クレインサンダーズのファン\n- エキュート秋葉原でコラボ企画を巡っている方",
+    "tagIds": [
+      207,
+      80,
+      91
+    ],
+    "en": {
+      "title": "Gunma Crane Thunders Collab at TOPPA!!! BASE AKIBA",
+      "summary": "TOPPAN's content shop \"TOPPA!!! BASE AKIBA\" hosts a collaboration with pro basketball team the Gunma Crane Thunders from September 29 to October 12, 2026, inside the ecute Akihabara ticket gates.",
+      "content": "## Overview\n\nTOPPAN's content shop \"TOPPA!!! BASE AKIBA\" is holding a collaboration with pro basketball team the Gunma Crane Thunders. Located inside the ecute Akihabara ticket gates, the shop regularly partners with different IPs, and this run brings basketball fandom into the Akihabara mix.\n\n## Highlights\n\nTOPPA!!! BASE AKIBA continuously rotates collaborations with different content IPs, and this time partners with the Gunma Crane Thunders.\n\n- Collaboration campaign with pro basketball team the Gunma Crane Thunders\n- Held at TOPPA!!! BASE AKIBA inside the ecute Akihabara ticket gates\n\n## Event Details\n\n- **Dates**: September 29–October 12, 2026\n- **Venue**: TOPPA!!! BASE AKIBA (inside ecute Akihabara ticket gates)\n- **Price**: Free\n- **Reservation**: Not required\n\n## Recommended For\n\n- Gunma Crane Thunders fans\n- Anyone browsing collab shops at ecute Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/toppa-base-akiba-gunma-crane-thunders-collab-2026.jpg",
+      "alt": "TOPPA!!! BASE AKIBA×群馬クレインサンダーズ コラボ告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001976.000033034.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000001976.000033034.html"
+      }
+    ],
+    "event": {
+      "venue": "TOPPA!!! BASE AKIBA（エキュート秋葉原改札内）",
+      "startDate": "2026-09-29",
+      "endDate": "2026-10-12",
+      "price": "無料",
+      "reservation": false
+    },
+    "id": 836,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "「ドールズフロントライン2」POPUP SHOPがあみあみ秋葉原で開催",
+    "slug": "dolls-frontline2-yogoods-amiami-popup-2026",
+    "summary": "『ドールズフロントライン2：エクシリウム』の「協戦補給」シリーズをテーマにしたYogoods×あみあみのPOPUP SHOPが、2026年9月20日から10月4日まであみあみ秋葉原ラジオ会館店で開催される。",
+    "content": "## 概要\n\n『ドールズフロントライン2：エクシリウム』の「協戦補給」シリーズをテーマにした、Yogoodsとあみあみのコラボレーションによるポップアップショップが開催される。あみあみ秋葉原ラジオ会館店を会場に、新商品の販売を展開する。\n\n## 内容\n\n会場では新商品の販売を中心に、キャラクターグッズが展開される。\n\n- Yogoods×あみあみによる『ドールズフロントライン2：エクシリウム』「協戦補給」シリーズの新商品を販売\n\n## 開催情報\n\n- **日時**: 2026年9月20日（日）〜10月4日（日）\n- **会場**: あみあみ秋葉原ラジオ会館店\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『ドールズフロントライン2：エクシリウム』のファン\n- あみあみ秋葉原ラジオ会館店のポップアップを巡っている方",
+    "tagIds": [
+      207,
+      33,
+      266,
+      129
+    ],
+    "en": {
+      "title": "\"Girls' Frontline 2\" POPUP SHOP at Amiami Akihabara",
+      "summary": "A Yogoods x Amiami popup shop themed around \"Girls' Frontline 2: Exilium\"'s support-supply merch line runs from September 20 to October 4, 2026, at Amiami Akihabara Radio Kaikan.",
+      "content": "## Overview\n\nA collaboration popup shop between Yogoods and Amiami, themed around \"Girls' Frontline 2: Exilium\"'s support-supply merchandise line, is being held at Amiami Akihabara Radio Kaikan, offering new merchandise for sale.\n\n## Highlights\n\nThe shop centers on new merchandise sales tied to the game's characters.\n\n- New \"Girls' Frontline 2: Exilium\" support-supply series merchandise from the Yogoods x Amiami collaboration goes on sale\n\n## Event Details\n\n- **Dates**: September 20–October 4, 2026\n- **Venue**: Amiami Akihabara Radio Kaikan\n- **Reservation**: Not required\n\n## Recommended For\n\n- \"Girls' Frontline 2: Exilium\" fans\n- Anyone browsing popups at Amiami Akihabara Radio Kaikan"
+    },
+    "image": {
+      "src": "/images/articles/dolls-frontline2-yogoods-amiami-popup-2026.jpg",
+      "alt": "『ドールズフロントライン2』Yogoods×あみあみ POPUP SHOP告知ビジュアル",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000003825.000025615.html"
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000003825.000025615.html"
+      }
+    ],
+    "event": {
+      "venue": "あみあみ秋葉原ラジオ会館店",
+      "startDate": "2026-09-20",
+      "endDate": "2026-10-04",
+      "price": "要確認",
+      "reservation": false
+    },
+    "id": 837,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "「ハイキュー!! FLY HIGH」POP UP SHOPがアトレ秋葉原で開催",
+    "slug": "haikyu-fly-high-popup-atre-akihabara-2026",
+    "summary": "『ハイキュー!!』をテーマにした「ハイキュー!! FLY HIGH POP UP SHOP」が、2026年9月9日から9月30日までアトレ秋葉原で開催される。",
+    "content": "## 概要\n\n『ハイキュー!!』をテーマにしたポップアップショップ「ハイキュー!! FLY HIGH POP UP SHOP」が、アトレ秋葉原で開催される。人気バレーボールアニメの世界観をグッズで楽しめる企画。\n\n## 内容\n\n会場では『ハイキュー!!』関連のグッズ販売が行われる。\n\n- 『ハイキュー!!』をテーマにしたグッズ販売\n\n## 開催情報\n\n- **日時**: 2026年9月9日（水）〜9月30日（水）\n- **会場**: アトレ秋葉原\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『ハイキュー!!』のファン\n- アトレ秋葉原のポップアップショップを巡っている方",
+    "tagIds": [
+      207,
+      46,
+      129
+    ],
+    "en": {
+      "title": "\"Haikyu!! FLY HIGH\" Pop-Up Shop at Atre Akihabara",
+      "summary": "A \"Haikyu!! FLY HIGH\" pop-up shop themed around the volleyball anime runs from September 9 to September 30, 2026, at Atre Akihabara.",
+      "content": "## Overview\n\nA pop-up shop themed around \"Haikyu!!,\" called \"Haikyu!! FLY HIGH POP UP SHOP,\" is being held at Atre Akihabara, letting fans of the popular volleyball anime shop for themed merchandise.\n\n## Highlights\n\nThe shop offers merchandise themed around \"Haikyu!!.\"\n\n- \"Haikyu!!\"-themed merchandise on sale\n\n## Event Details\n\n- **Dates**: September 9–September 30, 2026\n- **Venue**: Atre Akihabara\n- **Reservation**: Not required\n\n## Recommended For\n\n- \"Haikyu!!\" fans\n- Anyone browsing pop-up shops at Atre Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/haikyu-fly-high-popup-atre-akihabara-2026.jpg",
+      "alt": "「ハイキュー!! FLY HIGH POP UP SHOP」告知ビジュアル",
+      "sourceLabel": "アトレ秋葉原 公式ニュース",
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7639"
+    },
+    "sources": [
+      {
+        "label": "アトレ秋葉原 公式ニュース",
+        "url": "https://www.atre.co.jp/akihabara/news/7639"
+      }
+    ],
+    "event": {
+      "venue": "アトレ秋葉原",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-30",
+      "price": "要確認",
+      "reservation": false
+    },
+    "id": 838,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "「ハイスクールD×D HERO」ポップアップストアがゲーマーズで開催",
+    "slug": "highschool-dxd-hero-gamers-popup-2026",
+    "summary": "『ハイスクールD×D HERO』のポップアップストアが、2026年10月3日から10月18日までAKIHABARAゲーマーズ本店7Fほかゲーマーズ各店・オンラインショップで開催される。3,000円ごとの購入で抽選特典もある。",
+    "content": "## 概要\n\n『ハイスクールD×D HERO』のポップアップストアが、AKIHABARAゲーマーズ本店をはじめとするゲーマーズ各店とオンラインショップで開催される。会期中は購入金額に応じた抽選特典も用意される。\n\n## 内容\n\n会場ではキャラクターグッズの販売に加え、購入特典企画が実施される。\n\n- 3,000円（税込）ごとの購入で抽選への参加が可能\n- AKIHABARAゲーマーズ本店7Fのほか、他店舗・オンラインショップでも同時開催\n\n## 開催情報\n\n- **日時**: 2026年10月3日（土）〜10月18日（日）\n- **会場**: AKIHABARAゲーマーズ本店7F（ほかゲーマーズ各店・オンラインショップ）\n- **料金**: 3,000円（税込）ごとに抽選特典\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『ハイスクールD×D』シリーズのファン\n- AKIHABARAゲーマーズ本店のポップアップストアを巡っている方",
+    "tagIds": [
+      207,
+      72,
+      129,
+      184
+    ],
+    "en": {
+      "title": "\"High School DxD HERO\" Pop-Up Store at Gamers",
+      "summary": "A \"High School DxD HERO\" pop-up store runs from October 3 to October 18, 2026, at AKIHABARA Gamers Main Store (7F) and other Gamers locations and the online shop, with a lottery bonus for every ¥3,000 purchase.",
+      "content": "## Overview\n\nA pop-up store themed around \"High School DxD HERO\" is being held at AKIHABARA Gamers Main Store and other Gamers locations plus the online shop. A purchase-triggered lottery bonus runs throughout the event.\n\n## Highlights\n\nAlongside character merchandise sales, a purchase bonus lottery campaign is offered.\n\n- Every ¥3,000 (tax included) purchase earns entry into a lottery for bonus items\n- Held simultaneously at AKIHABARA Gamers Main Store (7F), other Gamers stores, and the online shop\n\n## Event Details\n\n- **Dates**: October 3–October 18, 2026\n- **Venue**: AKIHABARA Gamers Main Store, 7F (also other Gamers stores and online shop)\n- **Price**: Lottery bonus per ¥3,000 (tax included) purchase\n- **Reservation**: Not required\n\n## Recommended For\n\n- \"High School DxD\" series fans\n- Anyone browsing pop-up stores at AKIHABARA Gamers Main Store"
+    },
+    "image": {
+      "src": "/images/articles/highschool-dxd-hero-gamers-popup-2026.jpg",
+      "alt": "「ハイスクールD×D HERO」ポップアップストア告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/highschool-dxd-hero-gamers-popup-2026/"
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/highschool-dxd-hero-gamers-popup-2026/"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店7F",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-18",
+      "price": "3,000円（税込）ごとに抽選特典",
+      "reservation": false
+    },
+    "id": 839,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "「アキバたん」ランダム缶バッジキャンペーンがビックカメラAKIBAで開催",
+    "slug": "akibatan-random-badge-biccamera-akiba-2026",
+    "summary": "ビックカメラAKIBAのオリジナルキャラクター「アキバたん」のすーぱー☆ランダム缶バッジがもらえるキャンペーンが、2026年9月19日からビックカメラAKIBAで実施される。1,000円以上の購入で先着配布。",
+    "content": "## 概要\n\nビックカメラAKIBAで、オリジナルキャラクター「アキバたん」のすーぱー☆ランダム缶バッジがもらえるキャンペーンが実施される。買い物のついでにもらえる、来店特典企画。\n\n## 内容\n\n対象金額の買い物で、先着順に缶バッジが配布される。\n\n- 1,000円（税込）以上購入で「アキバたん すーぱー☆ランダム缶バッジ」を先着配布\n\n## 開催情報\n\n- **日時**: 2026年9月19日（土）〜（なくなり次第終了）\n- **会場**: ビックカメラAKIBA\n- **料金**: 1,000円（税込）以上購入\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- ビックカメラAKIBAで買い物予定の方\n- 「アキバたん」グッズを集めている方",
+    "tagIds": [
+      207,
+      63
+    ],
+    "en": {
+      "title": "\"Akiba-tan\" Random Pin Badge Campaign at Bic Camera AKIBA",
+      "summary": "A campaign giving out random \"Akiba-tan\" (Bic Camera AKIBA's original character) pin badges starts September 19, 2026, at Bic Camera AKIBA, for purchases of ¥1,000 or more while supplies last.",
+      "content": "## Overview\n\nBic Camera AKIBA is running a campaign that gives out random pin badges featuring its original character \"Akiba-tan\" as a shopping bonus.\n\n## Highlights\n\nBadges are given out on a first-come, first-served basis for qualifying purchases.\n\n- Purchases of ¥1,000 (tax included) or more receive a random \"Akiba-tan Super Random Pin Badge\" while supplies last\n\n## Event Details\n\n- **Dates**: From September 19, 2026 (while supplies last)\n- **Venue**: Bic Camera AKIBA\n- **Price**: Purchase of ¥1,000 (tax included) or more\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone shopping at Bic Camera AKIBA\n- Collectors of \"Akiba-tan\" merchandise"
+    },
+    "image": {
+      "src": "/images/articles/akibatan-random-badge-biccamera-akiba-2026.jpg",
+      "alt": "「アキバたん すーぱー☆ランダム缶バッジ」告知ビジュアル",
+      "sourceLabel": "AKIBA PC Hotline!",
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141567.html"
+    },
+    "sources": [
+      {
+        "label": "AKIBA PC Hotline!",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141567.html"
+      }
+    ],
+    "event": {
+      "venue": "ビックカメラ AKIBA",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "price": "1,000円（税込）以上購入",
+      "reservation": false
+    },
+    "id": 840,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "じゃんぱら秋葉原3号店が移転、オープンセールを開催",
+    "slug": "janpara-akihabara-3goten-relocation-sale-2026",
+    "summary": "中古販売店「じゃんぱら」秋葉原3号店が移転し、2026年9月18日から20日まで移転オープンセールを実施。AirPods Pro 3の未使用品が29,800円、第7世代iPad miniの中古品が69,800円など目玉商品が並ぶ。",
+    "content": "## 概要\n\n中古販売店「じゃんぱら」秋葉原3号店が移転し、移転オープンセールを実施する。目玉商品を交えたセールで、移転を記念した特別価格が並ぶ。\n\n## 内容\n\nセールでは中古・未使用のスマートフォンやタブレットなどが特別価格で販売される。\n\n- AirPods Pro 3の未使用品が29,800円\n- 第7世代iPad miniの中古品が69,800円\n- そのほか複数の目玉商品を特別価格で販売\n\n## 開催情報\n\n- **日時**: 2026年9月18日（金）〜9月20日（日）\n- **会場**: じゃんぱら秋葉原3号店\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 中古・未使用のスマートフォン・タブレットをお得に探している方\n- じゃんぱら秋葉原3号店の移転先をチェックしたい方",
+    "tagIds": [
+      207,
+      217
+    ],
+    "en": {
+      "title": "Janpara Akihabara 3rd Store Relocates, Holds Opening Sale",
+      "summary": "Used-electronics retailer Janpara's Akihabara 3rd store has relocated and runs a relocation opening sale from September 18 to 20, 2026, with deals including unused AirPods Pro 3 at ¥29,800 and a used 7th-gen iPad mini at ¥69,800.",
+      "content": "## Overview\n\nUsed-electronics retailer Janpara's Akihabara 3rd store has relocated and is holding a relocation opening sale, with special pricing to mark the move.\n\n## Highlights\n\nThe sale features used and unused smartphones and tablets at special prices.\n\n- Unused AirPods Pro 3 at ¥29,800\n- Used 7th-generation iPad mini at ¥69,800\n- Additional featured items at special sale prices\n\n## Event Details\n\n- **Dates**: September 18–September 20, 2026\n- **Venue**: Janpara Akihabara 3rd Store\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone looking for deals on used or unused smartphones and tablets\n- Shoppers wanting to check out Janpara Akihabara 3rd Store's new location"
+    },
+    "image": {
+      "src": "/images/articles/janpara-akihabara-3goten-relocation-sale-2026.jpg",
+      "alt": "じゃんぱら秋葉原3号店 移転オープンセールの様子",
+      "sourceLabel": "AKIBA PC Hotline!",
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141570.html"
+    },
+    "sources": [
+      {
+        "label": "AKIBA PC Hotline!",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141570.html"
+      }
+    ],
+    "event": {
+      "venue": "じゃんぱら秋葉原3号店",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-20",
+      "price": "要確認",
+      "reservation": false
+    },
+    "id": 841,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "ガンプラ「MGSD クシャトリヤ」抽選販売があみあみ秋葉原で実施",
+    "slug": "amiami-akihabara-gunpla-mgsd-kshatriya-lottery-2026",
+    "summary": "ガンプラ「MGSD クシャトリヤ」「30MS シグマシスターズパラドクス2」の抽選販売が、あみあみ秋葉原ラジオ会館店で実施される。応募期間は9月16日12時から9月20日23時59分まで、当選発表は9月23日、店頭受け取りは9月26日。",
+    "content": "## 概要\n\nあみあみ秋葉原ラジオ会館店で、ガンプラ「MGSD クシャトリヤ」および「30MS シグマシスターズパラドクス2」の抽選販売が実施される。人気アイテムをLivePocketアプリ経由の抽選エントリーで手に入れるチャンス。\n\n## 内容\n\n抽選エントリーから当選発表、店頭受け取りまでの流れが定められている。\n\n- 対象商品はガンプラ「MGSD クシャトリヤ」「30MS シグマシスターズパラドクス2」\n- LivePocketアプリ経由で抽選エントリー\n- 当選者には店頭で指定日時に受け取り\n\n## 開催情報\n\n- **応募期間**: 2026年9月16日（水）12:00〜9月20日（日）23:59\n- **当選発表**: 2026年9月23日（水）\n- **受け取り日時**: 2026年9月26日（土）11:00〜20:00\n- **会場**: あみあみ秋葉原ラジオ会館店\n- **予約**: 要事前抽選エントリー（LivePocketアプリ）\n\n## こんな人におすすめ\n\n- ガンプラ「MGSD クシャトリヤ」「30MS シグマシスターズパラドクス2」が欲しい方\n- あみあみ秋葉原ラジオ会館店の抽選販売を利用している方",
+    "tagIds": [
+      207,
+      33,
+      266,
+      184
+    ],
+    "en": {
+      "title": "\"MGSD Kshatriya\" Gunpla Lottery Sale at Amiami Akihabara",
+      "summary": "A lottery sale for the \"MGSD Kshatriya\" and \"30MS Sigma Sisters Paradox 2\" Gunpla kits runs at Amiami Akihabara Radio Kaikan, with entries open September 16 12:00 to September 20 23:59, winners announced September 23, and pickup on September 26.",
+      "content": "## Overview\n\nAmiami Akihabara Radio Kaikan is holding a lottery sale for the \"MGSD Kshatriya\" and \"30MS Sigma Sisters Paradox 2\" Gunpla model kits, giving fans a chance at popular items through a LivePocket app lottery entry.\n\n## Highlights\n\nThe process runs from lottery entry through winner announcement to in-store pickup.\n\n- Featured items: \"MGSD Kshatriya\" and \"30MS Sigma Sisters Paradox 2\" Gunpla kits\n- Lottery entry via the LivePocket app\n- Winners pick up their item in-store at a designated date and time\n\n## Event Details\n\n- **Entry Period**: September 16, 2026, 12:00 – September 20, 2026, 23:59\n- **Winner Announcement**: September 23, 2026\n- **Pickup**: September 26, 2026, 11:00–20:00\n- **Venue**: Amiami Akihabara Radio Kaikan\n- **Reservation**: Lottery entry required in advance (via LivePocket app)\n\n## Recommended For\n\n- Anyone wanting the \"MGSD Kshatriya\" or \"30MS Sigma Sisters Paradox 2\" kits\n- Regular users of Amiami Akihabara Radio Kaikan's lottery sales"
+    },
+    "image": {
+      "src": "/images/articles/amiami-akihabara-gunpla-mgsd-kshatriya-lottery-2026.jpg",
+      "alt": "ガンプラ「MGSD クシャトリヤ」抽選販売告知ビジュアル",
+      "sourceLabel": "HOBBY Watch",
+      "sourceUrl": "https://hobby.watch.impress.co.jp/docs/news/2141369.html"
+    },
+    "sources": [
+      {
+        "label": "HOBBY Watch",
+        "url": "https://hobby.watch.impress.co.jp/docs/news/2141369.html"
+      }
+    ],
+    "event": {
+      "venue": "あみあみ秋葉原ラジオ会館店",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-26",
+      "price": "要確認",
+      "reservation": true
+    },
+    "id": 842,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "「エビテン」リアル店舗がアニメイト秋葉原ANNEXにオープン",
+    "slug": "ebten-akihabara-annex-store-open-2026",
+    "summary": "ゲームグッズ通販「エビテン［ebten］」のリアル店舗が、2026年9月12日にアニメイト秋葉原ANNEX4階（中央通り）にオープン。『龍が如く』『イナイレ』『ペルソナ』などのグッズ実物を見て購入できる。",
+    "content": "## 概要\n\nゲームグッズ通販「エビテン［ebten］」のリアル店舗が、アニメイト秋葉原ANNEX4階にオープンした。通販サイトで扱う人気タイトルのグッズを、実店舗で直接手に取って購入できる常設店。\n\n## 内容\n\n店舗では通販サイトでもおなじみの人気タイトルのグッズが展開される。\n\n- 『龍が如く』『イナイレ』『ペルソナ』などのグッズ実物を展示・販売\n- 開店記念のクーポンキャンペーンを実施（2026年10月18日23:59まで）\n\n## 開催情報\n\n- **オープン日**: 2026年9月12日（土）\n- **会場**: アニメイト秋葉原ANNEX4階（中央通り）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『龍が如く』『イナイレ』『ペルソナ』などのグッズを実物で確認して買いたい方\n- エビテンの通販をよく利用している方",
+    "tagIds": [
+      207,
+      48,
+      56,
+      187
+    ],
+    "en": {
+      "title": "\"Ebten\" Opens Real Store at Animate Akihabara ANNEX",
+      "summary": "Game merchandise retailer \"Ebten\" opened a real store on September 12, 2026, on the 4th floor of Animate Akihabara ANNEX (Chuo-dori), letting shoppers see and buy \"Like a Dragon,\" \"Inazuma Eleven,\" and \"Persona\" merchandise in person.",
+      "content": "## Overview\n\nGame merchandise retailer \"Ebten\" has opened a permanent real store on the 4th floor of Animate Akihabara ANNEX, letting shoppers directly browse and buy merchandise from popular titles usually only available online.\n\n## Highlights\n\nThe store carries merchandise from titles familiar from the Ebten online shop.\n\n- \"Like a Dragon,\" \"Inazuma Eleven,\" \"Persona,\" and other titles' merchandise on display and for sale\n- An opening commemorative coupon campaign runs through October 18, 2026, 23:59\n\n## Event Details\n\n- **Opening Date**: September 12, 2026\n- **Venue**: Animate Akihabara ANNEX, 4F (Chuo-dori)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone who wants to see \"Like a Dragon,\" \"Inazuma Eleven,\" or \"Persona\" merchandise in person before buying\n- Regular users of the Ebten online shop"
+    },
+    "image": {
+      "src": "/images/articles/ebten-akihabara-annex-store-open-2026.jpg",
+      "alt": "エビテン［ebten］アニメイト秋葉原ANNEX店の店内",
+      "sourceLabel": "電撃オンライン",
+      "sourceUrl": "https://dengekionline.com/article/202609/87994"
+    },
+    "sources": [
+      {
+        "label": "電撃オンライン",
+        "url": "https://dengekionline.com/article/202609/87994"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原ANNEX4階",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-12",
+      "price": "要確認",
+      "reservation": false
+    },
+    "id": 843,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "トミックス50周年記念イベントが秋葉原ショールームで開催",
+    "slug": "tomix-showroom-akihabara-50th-anniversary-2026",
+    "summary": "鉄道模型ブランド「トミックス」の50周年記念イベントが、2026年9月26日と27日にトミックスショールーム東京秋葉原で開催。上野駅イベントのヘッドマーク展示やアーカイブ展示、記念グッズ販売、レールプレゼントなどを実施する。",
+    "content": "## 概要\n\n鉄道模型ブランド「トミックス」の50周年を記念したイベントが、トミックスショールーム東京秋葉原で開催される。ブランドの歴史を振り返る展示や記念グッズ販売、来場者向けプレゼント企画などを実施する。\n\n## 内容\n\n会場ではブランド史を振り返る展示に加え、来場者向けの記念企画が用意される。\n\n- 上野駅イベントのヘッドマーク展示\n- トミックスアーカイブ展示\n- 記念グッズ販売\n- 小学生〜高校生にレールプレゼント（なくなり次第終了）\n- 合言葉の申告で50周年ロゴシールをプレゼント\n\n## 開催情報\n\n- **日時**: 2026年9月26日（土）〜9月27日（日）\n- **会場**: トミックスショールーム東京秋葉原\n- **料金**: 無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- トミックス・鉄道模型ファン\n- 小学生〜高校生のお子様連れファミリー",
+    "tagIds": [
+      207,
+      50,
+      164
+    ],
+    "en": {
+      "title": "TOMIX 50th Anniversary Event at Akihabara Showroom",
+      "summary": "A 50th anniversary event for railway model brand TOMIX is held September 26–27, 2026, at the TOMIX Showroom Tokyo Akihabara, featuring a headmark display from the Ueno Station event, archive exhibits, commemorative merchandise, and rail giveaways.",
+      "content": "## Overview\n\nAn event marking railway model brand TOMIX's 50th anniversary is being held at the TOMIX Showroom Tokyo Akihabara, featuring exhibits looking back at the brand's history plus commemorative merchandise sales and giveaways for visitors.\n\n## Highlights\n\nAlongside exhibits tracing the brand's history, commemorative giveaways are offered to visitors.\n\n- Headmark display from the Ueno Station event\n- TOMIX archive exhibit\n- Commemorative merchandise for sale\n- Free rail giveaway for elementary through high school students (while supplies last)\n- 50th anniversary logo sticker given to visitors who say the event's keyword\n\n## Event Details\n\n- **Dates**: September 26–September 27, 2026\n- **Venue**: TOMIX Showroom Tokyo Akihabara\n- **Price**: Free\n- **Reservation**: Not required\n\n## Recommended For\n\n- TOMIX and railway model fans\n- Families with elementary to high school-age children"
+    },
+    "sources": [
+      {
+        "label": "鉄道コム",
+        "url": "https://www.tetsudo.com/event/61618/"
+      }
+    ],
+    "event": {
+      "venue": "トミックスショールーム東京秋葉原",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-27",
+      "price": "無料",
+      "reservation": false
+    },
+    "id": 844,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
+  },
+  {
+    "title": "「アズールレーン」9周年記念スタンプラリーが秋葉原で開催",
+    "slug": "azurlane-9th-anniversary-akihabara-stamp-rally-2026",
+    "summary": "『アズールレーン』9周年を記念したデジタルスタンプラリーが、2026年9月1日から10月4日まで秋葉原の17店舗を対象に開催される。",
+    "content": "## 概要\n\n『アズールレーン』サービス9周年を記念したデジタルスタンプラリーが、秋葉原の対象店舗を巡る形で開催される。秋葉原17店舗を対象に、周年を祝う周遊企画となっている。\n\n## 内容\n\n秋葉原の対象店舗を回ってスタンプを集める企画で、購入特典も用意されている。\n\n- 秋葉原17店舗を対象にしたデジタルスタンプラリーを実施\n- 550円（税込）ごとの購入で特典を提供\n\n## 開催情報\n\n- **日時**: 2026年9月1日（火）〜10月4日（日）\n- **会場**: 秋葉原17店舗\n- **料金**: 550円（税込）ごとに特典\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『アズールレーン』のファン\n- 秋葉原の店舗巡りが好きな方",
+    "tagIds": [
+      207,
+      246,
+      164
+    ],
+    "en": {
+      "title": "\"Azur Lane\" 9th Anniversary Stamp Rally in Akihabara",
+      "summary": "A digital stamp rally marking \"Azur Lane\"'s 9th anniversary runs from September 1 to October 4, 2026, across 17 participating shops in Akihabara.",
+      "content": "## Overview\n\nA digital stamp rally celebrating \"Azur Lane\"'s 9th service anniversary is being held across participating shops in Akihabara, with 17 shops taking part in this anniversary-themed shop-hopping campaign.\n\n## Highlights\n\nParticipants visit the participating Akihabara shops to collect stamps, with purchase bonuses also on offer.\n\n- Digital stamp rally across 17 participating shops in Akihabara\n- Bonus offered for every ¥550 (tax included) purchase\n\n## Event Details\n\n- **Dates**: September 1–October 4, 2026\n- **Venue**: 17 shops across Akihabara\n- **Price**: Bonus per ¥550 (tax included) purchase\n- **Reservation**: Not required\n\n## Recommended For\n\n- \"Azur Lane\" fans\n- Anyone who enjoys shop-hopping around Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/azurlane-9th-anniversary-akihabara-stamp-rally-2026.jpg",
+      "alt": "『アズールレーン』9周年記念デジタルスタンプラリー告知ビジュアル",
+      "sourceLabel": "AKIBA PC Hotline!",
+      "sourceUrl": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141214.html"
+    },
+    "sources": [
+      {
+        "label": "AKIBA PC Hotline!",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141214.html"
+      },
+      {
+        "label": "アズールレーン公式X",
+        "url": "https://x.com/azurlane_staff"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原17店舗",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-04",
+      "price": "550円（税込）ごとに特典",
+      "reservation": false
+    },
+    "id": 845,
+    "publishedAt": "2026-09-19",
+    "authorId": 1
   }
 ]

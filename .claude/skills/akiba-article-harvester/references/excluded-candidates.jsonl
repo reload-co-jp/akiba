@@ -754,3 +754,13 @@
 {"url": "https://www.shosen.co.jp/event/44171/", "reason": "out_of_scope_venue", "note": "書泉グランデ神保町、秋葉原外", "checked": "2026-09-18"}
 {"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11aG9CNFZPdmtSZE1oMTFJZ05kemZZcE1xRnNmeWtNTGdhSkprVnFTOG9tMURsZ01pRXFiSm9WbWZIM2NLV195dVVRNlM1T3VOa2RlTHkzZlNXbnByeUR4MVV0U0lDcWxzVWc?oc=5", "reason": "low_value", "note": "季節メニュー追加のみ、価格等詳細不明、来訪価値低い", "checked": "2026-09-18"}
 {"url": "https://www.movic.jp/shop/pages/bluearchive_atre2026.aspx", "reason": "insufficient_facts", "note": "ページ空、再検索で無関係な過去イベント(2月)しか出ず確認不可", "checked": "2026-09-18"}
+{"url": "https://hobby.dengeki.com/news/3167751/", "reason": "out_of_scope_venue", "note": "ホビーラウンド35は大田区TRC東京流通センター開催、秋葉原は予約店舗のみ", "checked": "2026-09-19"}
+{"url": "https://www.shosen.co.jp/event/44290/", "reason": "event_ended", "note": "LIVE A LIVE 32周年POPUP、書泉ブックタワー、9/13終了済み", "checked": "2026-09-19"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7773", "reason": "event_ended", "note": "魔法少女にあこがれてPOPUP、8/30終了済み", "checked": "2026-09-19"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7815", "reason": "event_ended", "note": "小林愛香ミニライブ、9/5終了済み", "checked": "2026-09-19"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7740", "reason": "event_ended", "note": "幼女戦記Ⅱミュージアム、9/13終了済み", "checked": "2026-09-19"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7570", "reason": "event_ended", "note": "ゾンビランドサガ劇場版POPUP、8/9終了済み", "checked": "2026-09-19"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7565", "reason": "event_ended", "note": "実力至上主義ミュージアム、8/16終了済み", "checked": "2026-09-19"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7576", "reason": "event_ended", "note": "2.5次元の誘惑POPUP、7/20終了済み", "checked": "2026-09-19"}
+{"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7459", "reason": "event_ended", "note": "プリンセスラバーミュージアム、6/14終了済み", "checked": "2026-09-19"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2140859.html", "reason": "low_value", "note": "飲食店まとめ記事(月見メニュー/大﨑家1周年/うなぎポテサラ)、個別記事価値薄い", "checked": "2026-09-19"}
