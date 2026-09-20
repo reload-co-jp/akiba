@@ -33641,5 +33641,52 @@
       "reservation": false,
       "category": "gourmet"
     }
+  },
+  {
+    "id": 852,
+    "title": "合同出張編集者マンガ持ち込み会「DAYS NEO REAL 2026」が11月28日に秋葉原UDXで開催",
+    "slug": "days-neo-real-2026-manga-akihabara-udx",
+    "summary": "17社31編集部から80名以上の編集者が集結する合同出張編集者マンガ持ち込み会「DAYS NEO REAL 2026」が、2026年11月28日に秋葉原UDXのUDXギャラリーで開催される。参加無料、事前申込制。",
+    "content": "## 概要\n\n合同出張編集者マンガ持ち込み会「DAYS NEO REAL 2026」が、2026年11月28日（土）に秋葉原UDX UDXギャラリーで開催される。17社31編集部から80名以上の編集者が参加し、プロ・アマ問わずマンガの持ち込みができるイベント。\n\n## 内容\n\n参加編集者のプロフィールが事前に公開され、投稿者は指名して持ち込みを申し込むことができる。同日、編集部横断のイベント「The CREATORS 7」も併催される。\n\n- 17社31編集部から80名以上の編集者が参加\n- 編集者プロフィール事前公開、指名投稿可能\n- 「The CREATORS 7」を同日併催\n\n## 開催情報\n\n- **会場**: 秋葉原UDX UDXギャラリー\n- **開催日**: 2026年11月28日（土）\n- **料金**: 参加無料\n- **申込**: 事前申込制（2026年9月14日〜10月2日、プロ・アマ問わず応募可）\n\n## こんな人におすすめ\n\n- マンガ家志望で持ち込み先を探している方\n- 複数の出版社編集部に一度に作品を見てもらいたい方",
+    "publishedAt": "2026-09-21",
+    "image": {
+      "src": "/images/articles/days-neo-real-2026-manga-akihabara-udx.jpg",
+      "alt": "合同出張編集者マンガ持ち込み会「DAYS NEO REAL 2026」告知ビジュアル",
+      "sourceLabel": "コルクラボマンガ専科 / DAYS NEO 公式",
+      "sourceUrl": "https://creatorslab.kodansha.co.jp/topics/5250/",
+      "width": 600,
+      "height": 400
+    },
+    "sources": [
+      {
+        "label": "DAYS NEO 公式告知",
+        "url": "https://creatorslab.kodansha.co.jp/topics/5250/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      207,
+      50,
+      78,
+      211
+    ],
+    "en": {
+      "title": "Joint Editor Manga Submission Event \"DAYS NEO REAL 2026\" to Be Held at Akihabara UDX on November 28",
+      "summary": "\"DAYS NEO REAL 2026,\" a joint manga submission event bringing together over 80 editors from 31 editorial departments at 17 publishers, will be held on November 28, 2026 at UDX Gallery in Akihabara UDX. Free to attend, advance application required.",
+      "content": "## Overview\n\n\"DAYS NEO REAL 2026,\" a joint manga submission event, will be held on Saturday, November 28, 2026 at UDX Gallery in Akihabara UDX. Over 80 editors from 31 editorial departments across 17 publishers will participate, open to both professional and amateur manga creators for direct submissions.\n\n## Highlights\n\nParticipating editors' profiles are published in advance, allowing submitters to apply for a specific editor of their choice. \"The CREATORS 7,\" a cross-publisher event, will also be held the same day.\n\n- Over 80 editors from 31 editorial departments at 17 publishers\n- Editor profiles published in advance, name-your-editor submissions available\n- \"The CREATORS 7\" held on the same day\n\n## Event Details\n\n- **Venue**: UDX Gallery, Akihabara UDX\n- **Date**: Saturday, November 28, 2026\n- **Price**: Free\n- **Application**: Advance application required (September 14 - October 2, 2026, open to both professionals and amateurs)\n\n## Recommended For\n\n- Aspiring manga creators looking for editorial contacts\n- Anyone wanting to pitch work to multiple publishers' editorial departments at once",
+      "tags": [
+        "Akihabara",
+        "Event",
+        "Comics"
+      ]
+    },
+    "event": {
+      "venue": "秋葉原UDX UDXギャラリー",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-28",
+      "price": "参加無料",
+      "reservation": true,
+      "category": "event"
+    }
   }
 ]
