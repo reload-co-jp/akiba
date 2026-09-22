@@ -57,7 +57,14 @@ const Page = () => {
     })),
   }
 
-  const thisWeekEvents = getUpcomingThisWeekEvents(today).slice(0, 4)
+  const thisWeekEvents = getUpcomingThisWeekEvents(today)
+    .slice()
+    .sort((a, b) => {
+      const scoreOf = (article: (typeof a)) =>
+        (article.image ? 1000 : 0) + article.content.length
+      return scoreOf(b) - scoreOf(a)
+    })
+    .slice(0, 4)
   const ongoingEventsAll = getOngoingEvents(today)
   const ongoingEvents = ongoingEventsAll.slice(0, 3)
   const carouselArticles = [...ongoingEventsAll, ...getUpcomingThisWeekEvents(today, 7)]
