@@ -866,3 +866,18 @@
 {"url": "https://prtimes.jp/main/html/rd/p/000009752.000014827.html", "reason": "low_value", "note": "黄泉のツガイPOP UP、既存yomi-no-tsugai-popup-backshot-animate-akihabara-2026と重複", "checked": "2026-09-21"}
 {"url": "https://prtimes.jp/main/html/rd/p/000000061.000082671.html", "reason": "low_value", "note": "じゃんぱら秋葉原3号店移転、既存janpara-akihabara-3goten-relocation-sale-2026と重複", "checked": "2026-09-21"}
 {"url": "https://www.tetsudo.com/event/61618/", "reason": "low_value", "note": "トミックス50周年、既存tomix-showroom-akihabara-50th-anniversary-2026と重複", "checked": "2026-09-21"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2142529.html", "reason": "insufficient_facts", "note": "アトレ秋葉原クリア眼科オープン予定(10/5)は雑多ニュース内の1行のみで詳細不明、単独記事化には情報不足", "checked": "2026-09-22"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000218.000070091.html", "reason": "event_ended", "note": "ホットトイズ ベルサール秋葉原イベント、8/15-9/13で既に終了", "checked": "2026-09-22"}
+{"url": "https://collabo-cafe.com/events/collabo/black-lagoon-25th-anniversary-exhibition-2026/", "reason": "not_akihabara_specific", "note": "会場は池袋、秋葉原外", "checked": "2026-09-22"}
+{"url": "https://collabo-cafe.com/events/collabo/abunai-deka-40th-popup-shop-yokohama-2026/", "reason": "not_akihabara_specific", "note": "会場は横浜赤レンガ倉庫、秋葉原外", "checked": "2026-09-22"}
+{"url": "https://collabo-cafe.com/events/collabo/gomachan-share-cafe-shinjuku-2026-add-info-detail/", "reason": "not_akihabara_specific", "note": "会場は新宿、秋葉原外", "checked": "2026-09-22"}
+{"url": "https://collabo-cafe.com/events/collabo/rurinohouseki-reproduction-apparel-akros-anime-store-goods2026/", "reason": "low_value", "note": "通販グッズ発売告知のみ、秋葉原店舗visitor-facing要素なし", "checked": "2026-09-22"}
+{"url": "https://collabo-cafe.com/events/collabo/shiboyugi-c108-curtain-damashii-anime-store-goods2026/", "reason": "low_value", "note": "通販グッズ発売告知のみ、秋葉原店舗visitor-facing要素なし", "checked": "2026-09-22"}
+{"url": "https://collabo-cafe.com/events/collabo/ramparts-of-ice-kurumitapinui-tapioca-anime-store-goods2026/", "reason": "low_value", "note": "通販グッズ発売告知のみ、秋葉原店舗visitor-facing要素なし", "checked": "2026-09-22"}
+{"url": "https://collabo-cafe.com/events/collabo/milky-subway-muzzle-tsuyatto-pukkuri-marker-2026/", "reason": "low_value", "note": "通販グッズ発売告知のみ、秋葉原店舗visitor-facing要素なし", "checked": "2026-09-22"}
+{"url": "https://www.enjoytokyo.jp/event/2084039/", "reason": "not_akihabara_specific", "note": "ちいかわパーク秋の限定企画、会場は東京都内広域(サンシャインシティ系施設の可能性)、秋葉原と無関係", "checked": "2026-09-22"}
+{"url": "https://www.enjoytokyo.jp/event/1516654/", "reason": "not_akihabara_specific", "note": "北海道まるごとフェアinサンシャインシティ、会場は池袋サンシャインシティ、秋葉原外", "checked": "2026-09-22"}
+{"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090312", "reason": "low_value", "note": "不登校支援イベント、会場は秋葉原UDXだがサイトのテーマ(オタク文化・店舗ニュース)から外れる社会福祉イベント", "checked": "2026-09-22"}
+{"url": "https://hobby.watch.impress.co.jp/docs/news/2141369.html", "reason": "event_ended", "note": "あみあみ秋葉原ガンプラ抽選販売、応募期間9/16-20で既に終了", "checked": "2026-09-22"}
+{"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115830", "reason": "insufficient_facts", "note": "ハレルヤベイビー9巻フェア、対象店舗が秋葉原と明記されず通販ページの可能性", "checked": "2026-09-22"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141214.html", "reason": "low_value", "note": "アズールレーン/LIVE A LIVE/レヴュースタァライト複合企画、大部分の期間が既に終了済み", "checked": "2026-09-22"}
