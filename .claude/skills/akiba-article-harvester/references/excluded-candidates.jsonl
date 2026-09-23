@@ -918,3 +918,6 @@
 {"url": "https://www.enjoytokyo.jp/event/2007697/", "reason": "not_akihabara_specific", "note": "スカイツリータウン", "checked": "2026-09-24"}
 {"url": "https://www.enjoytokyo.jp/event/2084070/", "reason": "not_akihabara_specific", "note": "秋葉原外のイベント", "checked": "2026-09-24"}
 {"url": "https://club.goodman2020.com/events/40163", "reason": "low_value", "note": "PRIVATE RENTAL 貸切", "checked": "2026-09-24"}
+{"url": "https://www.kotobukiya.co.jp/event/detail/1199/", "reason": "event_ended", "note": "東方Project POP UP コトブキヤ秋葉原館 3/28-4/5 終了済み", "checked": "2026-09-24"}
+{"url": "https://cp.onepiece-cardgame.com/flame-flame-fruit", "reason": "out_of_scope_venue", "note": "メラメラの実争奪戦は幕張メッセ開催、秋葉原は駅広告のみ", "checked": "2026-09-24"}
+{"url": "https://www.walkerplus.com/event/ar0313e607065/", "reason": "low_value", "note": "神田カレー街スタンプラリーは既存記事kanda-curry-street-stamp-rally-2026で掲載済み", "checked": "2026-09-24"}

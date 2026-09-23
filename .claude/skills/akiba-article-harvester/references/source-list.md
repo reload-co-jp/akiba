@@ -28,11 +28,11 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
 
 - あみあみ実店舗イベント
   - URL: https://realstore.amiami.jp/event/
-  - Notes: primary source for あみあみ秋葉原ラジオ会館店 and あみあみ秋葉原フィギュアタワー店 events. May block scripted access; if blocked, use aggregator discovery and confirm with searchable official detail pages.
+  - Notes: primary source for あみあみ秋葉原ラジオ会館店 and あみあみ秋葉原フィギュアタワー店 events. Behind Cloudflare — `harvest.py list amiami_realstore` usually gets 403 (any UA). On 403, WebSearch `site:realstore.amiami.jp event` / `あみあみ 秋葉原 イベント` and confirm with official detail pages.
 
 - コトブキヤ イベント一覧
   - URL: https://www.kotobukiya.co.jp/event/
-  - Notes: source for Kotobukiya shop events, hobby exhibitions, campaigns, and limited sales. Filter for コトブキヤ秋葉原館 or Akihabara-related venue text.
+  - Notes: source for Kotobukiya shop events, hobby exhibitions, campaigns, and limited sales. Filter for コトブキヤ秋葉原館 or Akihabara-related venue text. Behind Cloudflare — plain HTTP often 403s (intermittent). On 403, WebSearch `コトブキヤ秋葉原館 POP UP` / `site:kotobukiya.co.jp event 秋葉原館`; collabocafe also covers most 秋葉原館 pop-ups.
 
 - MOGRA 秋葉原
   - URL: https://club-mogra.jp/
@@ -72,8 +72,8 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
   - URL: https://collabo-cafe.com/events/tag/akihabara/
   - Notes: anime/game collaboration discovery. Prefer linked official store/campaign source.
 
-- WalkerPlus Akihabara event list
-  - URL: https://www.walkerplus.com/event_list/ar0313/sc309922d/
+- WalkerPlus Tokyo event list (Akihabara-filtered)
+  - URL: https://www.walkerplus.com/event_list/ar0313/ (station-area filter `sc309922d` 404s since 2026-09; `harvest.py list walkerplus` pages through the Tokyo list and keeps cards mentioning 秋葉原/神田/御茶ノ水/岩本町/末広町/UDX etc.)
   - Notes: useful for workshops and local events. Individual pages may be enough when source attribution is clear; still search official/ticket page.
 
 - AKIBA PC Hotline! 秋葉原情報

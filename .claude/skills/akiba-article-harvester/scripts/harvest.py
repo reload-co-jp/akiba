@@ -101,6 +101,10 @@ def cmd_exclude(args):
 
 
 def is_transient_network_error(exc):
+    # HTTPError subclasses URLError: retry rate-limit/server errors only. 404s
+    # and Cloudflare 403s (kotobukiya, amiami) never recover on retry.
+    if isinstance(exc, urllib.error.HTTPError):
+        return exc.code == 429 or exc.code >= 500
     if isinstance(exc, (socket.gaierror, TimeoutError, urllib.error.URLError)):
         return True
     msg = str(exc).lower()
@@ -223,9 +227,14 @@ def extract(url, href_filter, base=""):
 #   - collabocafe's "/events/tag/akihabara/" page includes non-Akihabara legs of
 #     multi-city tours (Osaka, Nagoya, Shinjuku, etc). Confirm the Akihabara venue
 #     in the detail page's og:description before writing an article.
-#   - walkerplus / enjoytokyo area listings are noisy: many results are
-#     Tokyo-wide, not Akihabara-specific, despite the area filter. Treat as
-#     low-precision; verify venue text explicitly.
+#   - walkerplus dropped its station-area filter (event_list/ar0313/sc309922d/ and
+#     top/ar0313/sc309922d/ both 404 as of 2026-09). list_source("walkerplus")
+#     now pages through the Tokyo-wide list and keeps rows whose card text
+#     (title/区/venue) mentions an Akihabara-area keyword — see WALKER_AREA_RE.
+#   - enjoytokyo area listings are noisy: many results are Tokyo-wide, not
+#     Akihabara-specific, despite the area filter. Verify venue text explicitly.
+#   - kotobukiya and amiami_realstore sit behind Cloudflare bot protection and
+#     usually 403 plain HTTP clients (any UA). Use WebSearch fallback when they do.
 
 SOURCES = {
     "atre": dict(
@@ -242,11 +251,6 @@ SOURCES = {
         url="https://prtimes.jp/topics/keywords/%E7%A7%8B%E8%91%89%E5%8E%9F",
         href_filter=lambda h: bool(re.match(r"^/main/html/rd/p/", h or "")),
         base="https://prtimes.jp",
-    ),
-    "walkerplus": dict(
-        url="https://www.walkerplus.com/event_list/ar0313/sc309922d/",
-        href_filter=lambda h: bool(re.match(r"^/event/[a-z0-9]+/$", h or "")),
-        base="https://www.walkerplus.com",
     ),
     "collabocafe": dict(
         url="https://collabo-cafe.com/events/tag/akihabara/",
@@ -421,6 +425,44 @@ def print_items(name, rows, limit, skip_known=True):
         print(f"{prefix}{trunc(title, 70)}{dup} | {url}")
 
 
+WALKER_AREA_RE = re.compile(
+    r"秋葉原|アキバ|AKIBA|Akihabara|外神田|神田|お茶の水|御茶ノ水|淡路町|岩本町|末広町|UDX"
+)
+
+
+def list_walkerplus(max_pages=15):
+    """Tokyo-wide WalkerPlus list, filtered to Akihabara-area cards.
+
+    Each card spans several <a href="/event/ar0313eNNN/"> anchors (image, title,
+    ...), so text is merged per URL before matching. Card text is
+    title | status | dates | catch | 東京都 | 区 | venue | genre."""
+    cards = {}
+    for page in range(1, max_pages + 1):
+        url = "https://www.walkerplus.com/event_list/ar0313/" + ("" if page == 1 else f"{page}.html")
+        try:
+            text = fetch(url)
+        except Exception:
+            if page == 1:
+                raise
+            break
+        segs = re.split(r'(?=<a[^>]+href="/event/ar0313e\d+/")', text)[1:]
+        if not segs:
+            break
+        for seg in segs:
+            href = re.match(r'<a[^>]+href="(/event/ar0313e\d+/)"', seg).group(1)
+            parts = [dec(t.strip()) for t in re.sub(r"<[^>]+>", "\n", seg).split("\n") if t.strip()]
+            cards.setdefault(href, []).extend(p for p in parts[:15] if "googletag" not in p)
+    rows = []
+    for href, parts in cards.items():
+        if not parts or not WALKER_AREA_RE.search(" ".join(parts)):
+            continue
+        date = next((p for p in parts if re.search(r"\d{4}年\d{1,2}月", p)), "")
+        ward = next((i for i, p in enumerate(parts) if p.endswith("区")), None)
+        venue = parts[ward + 1] if ward is not None and ward + 1 < len(parts) else ""
+        rows.append((date, f"{parts[0]} @ {venue}" if venue else parts[0], "https://www.walkerplus.com" + href))
+    return rows
+
+
 def list_source(name, limit=80, skip_known=True):
     if name == "gnews":
         text = fetch(
@@ -444,6 +486,10 @@ def list_source(name, limit=80, skip_known=True):
         rows = [(None, t, href) for t, href in items]
         print_items("ceek", rows, limit, skip_known=skip_known)
         return
+    if name == "walkerplus":
+        rows = list_walkerplus()
+        print_items("walkerplus", rows, limit, skip_known=skip_known)
+        return
     cfg = SOURCES[name]
     items = extract(cfg["url"], cfg["href_filter"], cfg["base"])
     rows = [(None, t, href) for t, href in items]
@@ -455,7 +501,7 @@ def cmd_list(args):
     args = [a for a in args if a != "--all"]
     target = args[0] if args else "all"
     if target == "all":
-        for name in list(SOURCES) + ["gnews", "ceek"]:
+        for name in list(SOURCES) + ["walkerplus", "gnews", "ceek"]:
             try:
                 list_source(name, skip_known=skip_known)
             except Exception as e:
