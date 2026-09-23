@@ -881,3 +881,23 @@
 {"url": "https://hobby.watch.impress.co.jp/docs/news/2141369.html", "reason": "event_ended", "note": "あみあみ秋葉原ガンプラ抽選販売、応募期間9/16-20で既に終了", "checked": "2026-09-22"}
 {"url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=115830", "reason": "insufficient_facts", "note": "ハレルヤベイビー9巻フェア、対象店舗が秋葉原と明記されず通販ページの可能性", "checked": "2026-09-22"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2141214.html", "reason": "low_value", "note": "アズールレーン/LIVE A LIVE/レヴュースタァライト複合企画、大部分の期間が既に終了済み", "checked": "2026-09-22"}
+{"url": "https://www.enjoytokyo.jp/event/2080901/", "reason": "not_akihabara_specific", "note": "TOKYO MEAT FOODFES会場は東京タワー南側駐車場(港区)、秋葉原無関係", "checked": "2026-09-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2142585.html", "reason": "insufficient_facts", "note": "RED GATE(東大生向けバー)開店日・住所・価格・公式リンク一切不明、記事化に情報不足", "checked": "2026-09-23"}
+{"url": "https://news.bikebros.co.jp/event/news20260826-03/", "reason": "duplicate_existing", "note": "motogp-in-tokyo-2026-bellesalle-akihabara と重複", "checked": "2026-09-23"}
+{"url": "https://www.eva-info.jp/25133", "reason": "event_ended", "note": "EVANGELION×アトレ秋葉原は2025年10月開催分", "checked": "2026-09-23"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000017.000175748.html", "reason": "low_value", "note": "ALLPAIR ヨドバシAkiba 美容家電販促", "checked": "2026-09-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2142585.html", "reason": "insufficient_facts", "note": "RED GATE 所在地不明/会員制、水樹奈々たい焼きは既存GiGO記事範囲", "checked": "2026-09-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2142623.html", "reason": "event_ended", "note": "ミネラルマルシェ開催済み報告、Wizardry×仕事猫は既存", "checked": "2026-09-23"}
+{"url": "https://ascii.jp/elem/000/004/436/4436470/", "reason": "event_ended", "note": "葉月ゆめ 書泉イベント9/6終了", "checked": "2026-09-23"}
+{"url": "https://www.enjoytokyo.jp/event/2080631/", "reason": "not_akihabara_specific", "note": "郷土の森 府中", "checked": "2026-09-23"}
+{"url": "https://club.goodman2020.com/events/40162", "reason": "low_value", "note": "PRIVATE RENTAL", "checked": "2026-09-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2142449.html", "reason": "low_value", "note": "SSD入荷", "checked": "2026-09-23"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2142406.html", "reason": "low_value", "note": "中古iPad入荷", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/kirimi-chan-popup-store-tokyo-station-2026/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/5hanayome-special-event-tokyo-garden-theater-2027/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/watanare-heisei-gal-ver-curtain-damashii-anime-store-goods2026/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/danganronpa-kemocube-armabianca-anime-store-goods2026/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/xxxholic-tapi-nyanko-tapioca-anime-store-goods2026/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/deltaforce-popup-amnibus-store-blue-2026/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/yugioh-gx-popup-eeo-store-ikebukuro-2026/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
+{"url": "https://collabo-cafe.com/events/collabo/natsuno-hiroko-exhibition-yurakucho-2026/", "reason": "not_akihabara_specific", "note": "秋葉原会場なし/通販グッズ", "checked": "2026-09-23"}
