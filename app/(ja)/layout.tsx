@@ -206,9 +206,21 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </header>
           <div
-            style={{ display: "flex", margin: "0 auto", maxWidth: "1280px" }}
+            style={{
+              display: "flex",
+              margin: "0 auto",
+              maxWidth: "1280px",
+            }}
           >
             <nav className="site-sidebar" aria-label="カテゴリナビゲーション">
+              <figure>
+                <img
+                  src="/images/brand.png"
+                  alt="アキバLive"
+                  width="200"
+                  height="120"
+                />
+              </figure>
               <Link href="/" className="site-sidebar__link">
                 ホーム
               </Link>
