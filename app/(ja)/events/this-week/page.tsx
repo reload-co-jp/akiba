@@ -1,5 +1,9 @@
 import Link from "next/link"
-import { getOngoingEvents, getUpcomingThisWeekEvents, getArticleImage } from "lib/articles"
+import {
+  getOngoingEvents,
+  getUpcomingThisWeekEvents,
+  getArticleImage,
+} from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
@@ -32,9 +36,24 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "イベント", item: absoluteUrl("/events/") },
-        { "@type": "ListItem", position: 3, name: "今週のイベント", item: pageUrl },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "ホーム",
+          item: absoluteUrl("/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "イベント",
+          item: absoluteUrl("/events/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "今週のイベント",
+          item: pageUrl,
+        },
       ],
     },
     {
@@ -54,7 +73,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="events-page">
+      <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           items={[
             { label: "ホーム", href: "/" },
@@ -63,9 +82,25 @@ const Page = () => {
           ]}
         />
 
-        <header className="events-page__header">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">This Week in Akihabara</p>
-          <h1 className="events-page__title">秋葉原のイベント情報【今週開催】</h1>
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            秋葉原のイベント情報【今週開催】
+          </h1>
         </header>
 
         <EventSection
@@ -74,7 +109,9 @@ const Page = () => {
           title={`開催中のイベント（${ongoingEvents.length}件）`}
         >
           {ongoingEvents.length === 0 ? (
-            <p className="events-page__empty">現在開催中のイベントはありません。</p>
+            <p className="events-page__empty">
+              現在開催中のイベントはありません。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {ongoingEvents.map((a) => (
@@ -98,7 +135,9 @@ const Page = () => {
           title={`今週開始予定のイベント（${upcomingEvents.length}件）`}
         >
           {upcomingEvents.length === 0 ? (
-            <p className="events-page__empty">今週開始予定のイベントはありません。</p>
+            <p className="events-page__empty">
+              今週開始予定のイベントはありません。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {upcomingEvents.map((a) => (
@@ -117,14 +156,26 @@ const Page = () => {
         </EventSection>
 
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
-          <ul className="today-related">
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
               <Link href="/events/today/" className="today-related__link">
                 今日のイベント →
               </Link>
             </li>
             <li>
-              <Link href="/events/this-weekend/" className="today-related__link">
+              <Link
+                href="/events/this-weekend/"
+                className="today-related__link"
+              >
                 今週末のイベント →
               </Link>
             </li>

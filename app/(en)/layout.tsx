@@ -99,7 +99,15 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
               />
             </>
           )}
-          <header className="site-header">
+          <header
+            style={{
+              background: "rgba(255, 255, 255, 0.94)",
+              borderBottom: "1px solid rgba(34, 37, 43, 0.1)",
+              position: "sticky",
+              top: "0",
+              zIndex: "10",
+            }}
+          >
             <div className="site-header__inner">
               <Link href="/" className="site-header__brand">
                 <img
@@ -114,9 +122,17 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
               </nav>
             </div>
           </header>
-          <main className="site-main">{children}</main>
+          <main
+            style={{
+              background: "transparent",
+              minHeight: "calc(100dvh - 8.5rem)",
+              padding: "1rem 1rem 4rem",
+            }}
+          >
+            {children}
+          </main>
           <footer className="site-footer">
-            <div className="site-footer__inner">
+            <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
               <p>
                 &copy; Akiba Live /{" "}
                 <a

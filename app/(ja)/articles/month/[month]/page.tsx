@@ -64,14 +64,17 @@ const Page = async ({ params }: Props) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="home-articles" aria-labelledby="articles-page-title">
+      <section
+        style={{ margin: "0 auto", maxWidth: "1080px" }}
+        aria-labelledby="articles-page-title"
+      >
         <div className="home-articles__header">
           <p className="home-articles__kicker">News diary</p>
           <h1 id="articles-page-title" className="home-articles__title">
             {label}の記事
           </h1>
         </div>
-        <div className="article-month-nav">
+        <div style={{ margin: "0 0 1.5rem" }}>
           <Link href="/articles/" className="article-month-nav__back">
             ← 月別一覧へ
           </Link>

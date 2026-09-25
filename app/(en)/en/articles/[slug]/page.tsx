@@ -109,10 +109,16 @@ const Page = async ({ params }: Props) => {
   const seoKeywords = getEnglishSeoKeywords(article)
   const seoVenue = getEnglishEventVenue(article)
   const seoPrice = getEnglishEventPrice(article)
-  const relatedSpot = article.event ? getSpotByVenueName(article.event.venue) : undefined
+  const relatedSpot = article.event
+    ? getSpotByVenueName(article.event.venue)
+    : undefined
   const spotPoint =
-    relatedSpot?.lat && relatedSpot.lng ? { lat: relatedSpot.lat, lng: relatedSpot.lng } : undefined
-  const venuePoint = article.event ? (spotPoint ?? getVenuePoint(article.event.venue)) : undefined
+    relatedSpot?.lat && relatedSpot.lng
+      ? { lat: relatedSpot.lat, lng: relatedSpot.lng }
+      : undefined
+  const venuePoint = article.event
+    ? (spotPoint ?? getVenuePoint(article.event.venue))
+    : undefined
   const articleLinkSources = getArticleLinkSources(article, "Image source")
   const sourceUrls = articleLinkSources
     .map((source) => source.url)
@@ -214,7 +220,11 @@ const Page = async ({ params }: Props) => {
         },
         performer: article.event.performer
           ? { "@type": "PerformingGroup", name: article.event.performer }
-          : { "@type": "Organization", name: "Akiba Live", url: absoluteUrl("/") },
+          : {
+              "@type": "Organization",
+              name: "Akiba Live",
+              url: absoluteUrl("/"),
+            },
       }
     : null
 
@@ -252,7 +262,15 @@ const Page = async ({ params }: Props) => {
         style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}
       >
         <nav aria-label="Breadcrumb" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">Home</Link>
             </li>
@@ -393,7 +411,11 @@ const Page = async ({ params }: Props) => {
               venue={seoVenue}
               lat={venuePoint.lat}
               lng={venuePoint.lng}
-              query={relatedSpot?.address ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} Akihabara`}
+              query={
+                relatedSpot?.address
+                  ? `${article.event.venue} ${relatedSpot.address}`
+                  : `${article.event.venue} Akihabara`
+              }
               mapLabel="Open in Google Maps"
             />
           </div>
@@ -456,7 +478,7 @@ const Page = async ({ params }: Props) => {
           aria-labelledby="article-tags-title"
         >
           <h2 id="article-tags-title">Tags</h2>
-          <div className="article-tags-nav__list">
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
             {article.tagIds.map((tid) => {
               const t = getTagById(tid)
               return t ? (

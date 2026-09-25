@@ -54,7 +54,12 @@ const LABELS = {
 
 const INITIAL_LIMIT = 20
 
-export const TodayVenueFilter = ({ events, hrefPrefix, locale, mapSlot }: Props) => {
+export const TodayVenueFilter = ({
+  events,
+  hrefPrefix,
+  locale,
+  mapSlot,
+}: Props) => {
   const [selectedVenue, setSelectedVenue] = useState<string | null>(null)
   const [showAll, setShowAll] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -81,8 +86,11 @@ export const TodayVenueFilter = ({ events, hrefPrefix, locale, mapSlot }: Props)
   }
 
   const venues = Array.from(new Set(events.map((e) => e.event.venue)))
-  const filtered = selectedVenue ? events.filter((e) => e.event.venue === selectedVenue) : events
-  const visible = showAll || selectedVenue ? filtered : filtered.slice(0, INITIAL_LIMIT)
+  const filtered = selectedVenue
+    ? events.filter((e) => e.event.venue === selectedVenue)
+    : events
+  const visible =
+    showAll || selectedVenue ? filtered : filtered.slice(0, INITIAL_LIMIT)
   const hasMore = !showAll && !selectedVenue && filtered.length > INITIAL_LIMIT
 
   const selectVenue = (venue: string | null) => {
@@ -94,41 +102,108 @@ export const TodayVenueFilter = ({ events, hrefPrefix, locale, mapSlot }: Props)
     <>
       {venues.length > 1 && (
         <div className="today-venue-filter">
-          <p className="today-venue-filter__label">{L.filterLabel}</p>
+          <p
+            style={{
+              color: "#5f6f69",
+              display: "block",
+              fontSize: "0.75rem",
+              fontWeight: "700",
+              marginBottom: "0.5rem",
+            }}
+          >
+            {L.filterLabel}
+          </p>
           <button
             type="button"
             className="today-venue-filter__trigger"
             onClick={() => setIsModalOpen(true)}
             aria-haspopup="dialog"
           >
-            {selectedVenue ? L.filterButtonSelected(selectedVenue) : L.filterButtonAll}
+            {selectedVenue
+              ? L.filterButtonSelected(selectedVenue)
+              : L.filterButtonAll}
           </button>
 
           {isModalOpen && (
             <div
-              className="today-venue-filter__modal"
+              style={{
+                alignItems: "center",
+                background: "rgba(15, 23, 42, 0.5)",
+                display: "flex",
+                inset: "0",
+                justifyContent: "center",
+                padding: "1.5rem",
+                position: "fixed",
+                zIndex: "1200",
+              }}
               role="dialog"
               aria-modal="true"
               aria-label={L.filterLabel}
             >
               <button
                 type="button"
-                className="today-venue-filter__modal-backdrop"
+                style={{
+                  background: "transparent",
+                  border: "0",
+                  inset: "0",
+                  padding: "0",
+                  position: "absolute",
+                }}
                 onClick={() => setIsModalOpen(false)}
                 aria-label={L.closeLabel}
               />
-              <div className="today-venue-filter__modal-panel">
-                <div className="today-venue-filter__modal-header">
-                  <p className="today-venue-filter__modal-title">{L.filterLabel}</p>
+              <div
+                style={{
+                  background: "#fffdf8",
+                  borderRadius: "12px",
+                  boxShadow: "0 24px 80px rgba(0, 0, 0, 0.3)",
+                  maxHeight: "calc(100vh - 3rem)",
+                  maxWidth: "480px",
+                  overflowY: "auto",
+                  padding: "1.25rem",
+                  position: "relative",
+                  width: "100%",
+                  zIndex: "1",
+                }}
+              >
+                <div
+                  style={{
+                    alignItems: "center",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    marginBottom: "0.75rem",
+                  }}
+                >
+                  <p
+                    style={{
+                      color: "#24312f",
+                      fontSize: "0.9375rem",
+                      fontWeight: "700",
+                      margin: "0",
+                    }}
+                  >
+                    {L.filterLabel}
+                  </p>
                   <button
                     type="button"
-                    className="today-venue-filter__modal-close"
+                    style={{
+                      background: "none",
+                      border: "0",
+                      color: "#5f6f69",
+                      cursor: "pointer",
+                      font: "inherit",
+                      fontSize: "0.8125rem",
+                      fontWeight: "700",
+                      padding: "0.25rem 0.5rem",
+                    }}
                     onClick={() => setIsModalOpen(false)}
                   >
                     {L.closeLabel}
                   </button>
                 </div>
-                <div className="today-venue-filter__list">
+                <div
+                  style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}
+                >
                   <button
                     className={`events-map__button${selectedVenue === null ? " events-map__button--active" : ""}`}
                     onClick={() => selectVenue(null)}
@@ -139,7 +214,9 @@ export const TodayVenueFilter = ({ events, hrefPrefix, locale, mapSlot }: Props)
                     <button
                       key={venue}
                       className={`events-map__button${selectedVenue === venue ? " events-map__button--active" : ""}`}
-                      onClick={() => selectVenue(selectedVenue === venue ? null : venue)}
+                      onClick={() =>
+                        selectVenue(selectedVenue === venue ? null : venue)
+                      }
                     >
                       {venue}
                     </button>
@@ -159,7 +236,11 @@ export const TodayVenueFilter = ({ events, hrefPrefix, locale, mapSlot }: Props)
             image={ev.image}
             title={ev.title}
             venue={ev.event.venue}
-            dateRange={fmtRange(ev.event.startDate, ev.event.endDate, L.dateSep)}
+            dateRange={fmtRange(
+              ev.event.startDate,
+              ev.event.endDate,
+              L.dateSep
+            )}
             price={ev.event.price}
             tags={ev.tags}
             sourceUrl={ev.sourceUrl}

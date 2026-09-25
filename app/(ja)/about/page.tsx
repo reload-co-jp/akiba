@@ -14,10 +14,28 @@ export const metadata = {
 
 const Page = () => {
   return (
-    <article className="about-page">
-      <header className="about-page__header">
+    <article
+      style={{ margin: "0 auto", maxWidth: "820px", padding: "3rem 0 0" }}
+    >
+      <header
+        style={{
+          borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+          marginBottom: "2rem",
+          paddingBottom: "1.5rem",
+        }}
+      >
         <p className="about-page__kicker">About Akiba Live</p>
-        <h1 className="about-page__title">このサイトについて</h1>
+        <h1
+          style={{
+            color: "#24312f",
+            fontSize: "2rem",
+            fontWeight: "800",
+            lineHeight: "1.25",
+            margin: "0 0 1rem",
+          }}
+        >
+          このサイトについて
+        </h1>
         <p className="about-page__lead">
           秋葉原の「情報になっていない情報」を拾い上げ、見て、調べて、記録するメディアです。
         </p>

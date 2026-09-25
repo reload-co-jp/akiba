@@ -19,7 +19,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "記事一覧 | アキバLive",
-    description: "アキバLiveの記事一覧です。秋葉原のエンタメ情報をお届けします。",
+    description:
+      "アキバLiveの記事一覧です。秋葉原のエンタメ情報をお届けします。",
     images: ["/images/hero.jpg"],
   },
 }
@@ -47,7 +48,10 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="home-articles" aria-labelledby="articles-page-title">
+      <section
+        style={{ margin: "0 auto", maxWidth: "1080px" }}
+        aria-labelledby="articles-page-title"
+      >
         <div className="home-articles__header">
           <p className="home-articles__kicker">News diary</p>
           <h1 id="articles-page-title" className="home-articles__title">

@@ -19,10 +19,20 @@ export function HomeNewsCarousel({ articles }: { articles: Article[] }) {
   if (articles.length === 0) return null
 
   return (
-    <section className="home-carousel" aria-label="新着記事">
+    <section
+      style={{
+        alignItems: "center",
+        display: "flex",
+        gap: "0.5rem",
+        margin: "0 0 2.5rem",
+        position: "relative",
+      }}
+      aria-label="新着記事"
+    >
       <button
         type="button"
-        className="home-carousel__nav home-carousel__nav--prev"
+        className="home-carousel__nav"
+        style={{ left: "1rem" }}
         onClick={() => scrollByCard(-1)}
         aria-label="前の記事"
       >
@@ -32,21 +42,58 @@ export function HomeNewsCarousel({ articles }: { articles: Article[] }) {
         {articles.map((article) => {
           const image = getArticleImage(article)
           return (
-            <li key={article.id} className="home-carousel__item">
+            <li
+              key={article.id}
+              style={{
+                flex: "0 0 auto",
+                scrollSnapAlign: "start",
+                width: "min(90vw, 720px)",
+              }}
+            >
               <Link
                 href={`/articles/${article.slug}/`}
-                className="home-carousel__link"
+                style={{
+                  borderRadius: "10px",
+                  boxShadow: "0 10px 28px rgba(68, 83, 77, 0.14)",
+                  display: "block",
+                  overflow: "hidden",
+                  position: "relative",
+                  textDecoration: "none",
+                }}
               >
                 <img
                   src={image.src}
                   alt={image.alt}
                   width={image.width}
                   height={image.height}
-                  className="home-carousel__image"
+                  style={{
+                    aspectRatio: "16 / 9",
+                    display: "block",
+                    height: "auto",
+                    objectFit: "cover",
+                    width: "100%",
+                  }}
                   loading="eager"
                   decoding="async"
                 />
-                <span className="home-carousel__title">{article.title}</span>
+                <span
+                  style={{
+                    background:
+                      "linear-gradient(0deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0) 70%)",
+                    bottom: "0",
+                    color: "#fff",
+                    display: "block",
+                    fontSize: "min(2rem, 4vw)",
+                    fontWeight: "800",
+                    left: "0",
+                    lineHeight: "1.4",
+                    padding: "5rem 1rem 1rem",
+                    position: "absolute",
+                    right: "0",
+                  }}
+                >
+                  {article.title}
+                </span>
               </Link>
             </li>
           )
@@ -54,7 +101,8 @@ export function HomeNewsCarousel({ articles }: { articles: Article[] }) {
       </ul>
       <button
         type="button"
-        className="home-carousel__nav home-carousel__nav--next"
+        className="home-carousel__nav"
+        style={{ right: "1rem" }}
         onClick={() => scrollByCard(1)}
         aria-label="次の記事"
       >

@@ -1,5 +1,9 @@
 import Link from "next/link"
-import { getWeekendEvents, getNextWeekendRange, getArticleImage } from "lib/articles"
+import {
+  getWeekendEvents,
+  getNextWeekendRange,
+  getArticleImage,
+} from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
@@ -12,7 +16,8 @@ export const metadata = {
     "今週末（土日）に秋葉原で開催されるイベントを一覧で紹介。開催中・開催予定のイベントを会場・期間付きで確認できます。",
   alternates: { canonical: "/events/this-weekend/" },
   openGraph: {
-    title: "秋葉原のイベント情報【今週末開催】アニメ・ゲーム・コラボカフェまとめ",
+    title:
+      "秋葉原のイベント情報【今週末開催】アニメ・ゲーム・コラボカフェまとめ",
     description:
       "今週末（土日）に秋葉原で開催されるイベントを一覧で紹介。開催中・開催予定のイベントを会場・期間付きで確認できます。",
     url: "/events/this-weekend/",
@@ -33,9 +38,24 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "イベント", item: absoluteUrl("/events/") },
-        { "@type": "ListItem", position: 3, name: "今週末のイベント", item: pageUrl },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "ホーム",
+          item: absoluteUrl("/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "イベント",
+          item: absoluteUrl("/events/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "今週末のイベント",
+          item: pageUrl,
+        },
       ],
     },
     {
@@ -55,7 +75,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="events-page">
+      <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           items={[
             { label: "ホーム", href: "/" },
@@ -64,10 +84,34 @@ const Page = () => {
           ]}
         />
 
-        <header className="events-page__header">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">This Weekend in Akihabara</p>
-          <h1 className="events-page__title">秋葉原のイベント情報【今週末開催】</h1>
-          <p className="events-page__lead">{weekendLabel}に秋葉原で開催されるイベントまとめ</p>
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            秋葉原のイベント情報【今週末開催】
+          </h1>
+          <p
+            style={{
+              color: "#5c6a67",
+              fontSize: "0.9375rem",
+              margin: "0.75rem 0 0",
+            }}
+          >
+            {weekendLabel}に秋葉原で開催されるイベントまとめ
+          </p>
         </header>
 
         <EventSection
@@ -76,7 +120,9 @@ const Page = () => {
           title={`今週末開催のイベント（${weekendEvents.length}件）`}
         >
           {weekendEvents.length === 0 ? (
-            <p className="events-page__empty">今週末開催予定のイベントはありません。</p>
+            <p className="events-page__empty">
+              今週末開催予定のイベントはありません。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {weekendEvents.map((a) => (
@@ -95,7 +141,16 @@ const Page = () => {
         </EventSection>
 
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
-          <ul className="today-related">
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
               <Link href="/events/today/" className="today-related__link">
                 今日のイベント →

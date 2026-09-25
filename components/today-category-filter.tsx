@@ -53,13 +53,25 @@ export const TodayCategoryFilter = ({ groups, hrefPrefix, locale }: Props) => {
     return <p className="events-page__empty">{L.emptyMessage}</p>
   }
 
-  const visible = selectedId ? groups.filter((g) => g.id === selectedId) : groups
+  const visible = selectedId
+    ? groups.filter((g) => g.id === selectedId)
+    : groups
 
   return (
     <>
       <div className="today-venue-filter">
-        <p className="today-venue-filter__label">{L.filterLabel}</p>
-        <div className="today-venue-filter__list">
+        <p
+          style={{
+            color: "#5f6f69",
+            display: "block",
+            fontSize: "0.75rem",
+            fontWeight: "700",
+            marginBottom: "0.5rem",
+          }}
+        >
+          {L.filterLabel}
+        </p>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
           <button
             className={`events-map__button${selectedId === null ? " events-map__button--active" : ""}`}
             onClick={() => setSelectedId(null)}
@@ -79,8 +91,17 @@ export const TodayCategoryFilter = ({ groups, hrefPrefix, locale }: Props) => {
       </div>
 
       {visible.map((group) => (
-        <div key={group.id} className="today-category">
-          <h3 className="today-category__title">{group.name}</h3>
+        <div key={group.id} style={{ marginBottom: "1.5rem" }}>
+          <h3
+            style={{
+              color: "#3f5851",
+              fontSize: "0.875rem",
+              fontWeight: "700",
+              margin: "0 0 0.5rem",
+            }}
+          >
+            {group.name}
+          </h3>
           <ul className="events-list events-list--grid">
             {group.events.map((a) => (
               <EventCard
@@ -89,7 +110,11 @@ export const TodayCategoryFilter = ({ groups, hrefPrefix, locale }: Props) => {
                 image={a.image}
                 title={a.title}
                 venue={a.event.venue}
-                dateRange={fmtRange(a.event.startDate, a.event.endDate, L.dateSep)}
+                dateRange={fmtRange(
+                  a.event.startDate,
+                  a.event.endDate,
+                  L.dateSep
+                )}
                 layout="grid"
               />
             ))}

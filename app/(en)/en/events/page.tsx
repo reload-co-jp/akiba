@@ -49,7 +49,12 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/en/") },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: absoluteUrl("/en/"),
+        },
         { "@type": "ListItem", position: 2, name: "Events", item: pageUrl },
       ],
     },
@@ -70,23 +75,51 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="events-page">
+      <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           ariaLabel="Breadcrumb"
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Events" },
-          ]}
+          items={[{ label: "Home", href: "/" }, { label: "Events" }]}
         />
 
-        <div className="events-page__header">
+        <div
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">Ongoing events</p>
-          <h1 className="events-page__title">Ongoing Events in Akihabara</h1>
-          <div className="cal__subtitle-row">
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            Ongoing Events in Akihabara
+          </h1>
+          <div
+            style={{
+              alignItems: "center",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.75rem",
+              marginTop: "0.75rem",
+            }}
+          >
             <Link href="/en/events/today/" className="cal__today-btn">
               Today&apos;s events →
             </Link>
-            <Link href="/en/events/this-week/" className="cal__subtitle-link">
+            <Link
+              href="/en/events/this-week/"
+              style={{
+                color: "#3f5851",
+                fontSize: "0.8125rem",
+                textDecoration: "underline",
+              }}
+            >
               This week&apos;s events
             </Link>
           </div>
@@ -103,7 +136,11 @@ const Page = () => {
                 image={getArticleImage(article)}
                 title={article.en!.title}
                 venue={getEnglishEventVenue(article) ?? article.event!.venue}
-                dateRange={fmtRange(article.event!.startDate, article.event!.endDate, "–")}
+                dateRange={fmtRange(
+                  article.event!.startDate,
+                  article.event!.endDate,
+                  "–"
+                )}
                 price={getEnglishEventPrice(article) ?? article.event!.price}
                 tags={article.tagIds.flatMap((tid) => {
                   const t = getTagById(tid)

@@ -60,14 +60,17 @@ const Page = () => {
   const thisWeekEvents = getUpcomingThisWeekEvents(today)
     .slice()
     .sort((a, b) => {
-      const scoreOf = (article: (typeof a)) =>
+      const scoreOf = (article: typeof a) =>
         (article.image ? 1000 : 0) + article.content.length
       return scoreOf(b) - scoreOf(a)
     })
     .slice(0, 4)
   const ongoingEventsAll = getOngoingEvents(today)
   const ongoingEvents = ongoingEventsAll.slice(0, 3)
-  const carouselArticles = [...ongoingEventsAll, ...getUpcomingThisWeekEvents(today, 7)]
+  const carouselArticles = [
+    ...ongoingEventsAll,
+    ...getUpcomingThisWeekEvents(today, 7),
+  ]
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
     .slice(0, 8)
 
@@ -94,12 +97,26 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <h1 className="sr-only">アキバLive｜秋葉原の最新イベント・コラボ・ニュース</h1>
+      <h1
+        style={{
+          border: "0",
+          clip: "rect(0, 0, 0, 0)",
+          height: "1px",
+          margin: "-1px",
+          overflow: "hidden",
+          padding: "0",
+          position: "absolute",
+          whiteSpace: "nowrap",
+          width: "1px",
+        }}
+      >
+        アキバLive｜秋葉原の最新イベント・コラボ・ニュース
+      </h1>
 
       <HomeNewsCarousel articles={carouselArticles} />
 
       <div className="home-layout">
-        <div className="home-layout__main">
+        <div style={{ minWidth: "0" }}>
           <EventSection
             id="this-week-events"
             kicker="This Week"
@@ -127,7 +144,10 @@ const Page = () => {
           </EventSection>
         </div>
 
-        <aside className="home-sidebar" aria-label="サイドコンテンツ">
+        <aside
+          style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}
+          aria-label="サイドコンテンツ"
+        >
           <AdsenseFluidAd />
 
           <section className="home-widget" aria-labelledby="home-widget-events">
@@ -154,7 +174,7 @@ const Page = () => {
                       <span className="home-widget-events__range">
                         {fmtRange(a.event!.startDate, a.event!.endDate)}
                       </span>
-                      <span className="home-widget-events__title">
+                      <span style={{ fontSize: "0.875rem", fontWeight: "700" }}>
                         {a.title}
                       </span>
                       <span className="home-widget-events__venue">
@@ -174,7 +194,7 @@ const Page = () => {
             <h2 id="home-widget-keywords" className="home-widget__title">
               人気のキーワード
             </h2>
-            <div className="home-keyword-list">
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               {keywords.map((tag) => (
                 <Link
                   key={tag.id}

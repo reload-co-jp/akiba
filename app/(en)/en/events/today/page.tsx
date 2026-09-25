@@ -23,13 +23,28 @@ const CATEGORY_GROUPS: Array<{ id: string; name: string; tagIds: number[] }> = [
   { id: "anime", name: "Anime & Manga", tagIds: [47, 49, 78, 79, 203] },
   { id: "game", name: "Games & Cards", tagIds: [74, 75, 100, 104] },
   { id: "collab-cafe", name: "Collab Cafe", tagIds: [81, 57, 131, 82] },
-  { id: "popup", name: "Popup & Limited Shops", tagIds: [17, 128, 129, 196, 54] },
+  {
+    id: "popup",
+    name: "Popup & Limited Shops",
+    tagIds: [17, 128, 129, 196, 54],
+  },
   { id: "hobby", name: "Hobby & Figures", tagIds: [126, 113, 119, 127] },
-  { id: "voice-idol", name: "Voice Actors & Idols", tagIds: [167, 168, 42, 146] },
-  { id: "exhibition", name: "Exhibition & Art", tagIds: [177, 178, 179, 130, 200] },
-  { id: "conference", name: "Technology & Conference", tagIds: [60, 109, 122, 201] },
+  {
+    id: "voice-idol",
+    name: "Voice Actors & Idols",
+    tagIds: [167, 168, 42, 146],
+  },
+  {
+    id: "exhibition",
+    name: "Exhibition & Art",
+    tagIds: [177, 178, 179, 130, 200],
+  },
+  {
+    id: "conference",
+    name: "Technology & Conference",
+    tagIds: [60, 109, 122, 201],
+  },
 ]
-
 
 export const generateMetadata = () => {
   const today = new Date().toISOString().slice(0, 10)
@@ -116,13 +131,30 @@ const Page = () => {
     "@type": "BreadcrumbList",
     "@id": `${pageUrl}#breadcrumb`,
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/en/") },
-      { "@type": "ListItem", position: 2, name: "Events", item: absoluteUrl("/en/events/") },
-      { "@type": "ListItem", position: 3, name: "Today's Events", item: pageUrl },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: absoluteUrl("/en/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Events",
+        item: absoluteUrl("/en/events/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Today's Events",
+        item: pageUrl,
+      },
     ],
   }
 
-  const firstImage = ongoingEvents[0] ? absoluteUrl(getArticleImage(ongoingEvents[0]).src) : undefined
+  const firstImage = ongoingEvents[0]
+    ? absoluteUrl(getArticleImage(ongoingEvents[0]).src)
+    : undefined
 
   const collectionPageJsonLd = {
     "@context": "https://schema.org",
@@ -135,7 +167,11 @@ const Page = () => {
     dateModified: today,
     inLanguage: "en",
     breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
-    publisher: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+    publisher: {
+      "@type": "Organization",
+      name: siteName,
+      url: absoluteUrl("/"),
+    },
     ...(firstImage ? { image: firstImage } : {}),
   }
 
@@ -162,7 +198,11 @@ const Page = () => {
         addressCountry: "JP",
       },
     },
-    organizer: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+    organizer: {
+      "@type": "Organization",
+      name: siteName,
+      url: absoluteUrl("/"),
+    },
     performer: a.event!.performer
       ? { "@type": "PerformingGroup", name: a.event!.performer }
       : { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
@@ -173,11 +213,15 @@ const Page = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([breadcrumbJsonLd, collectionPageJsonLd, ...eventJsonLds]),
+          __html: JSON.stringify([
+            breadcrumbJsonLd,
+            collectionPageJsonLd,
+            ...eventJsonLds,
+          ]),
         }}
       />
 
-      <div className="events-page">
+      <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           ariaLabel="Breadcrumb"
           items={[
@@ -187,22 +231,51 @@ const Page = () => {
           ]}
         />
 
-        <header className="events-page__header">
-          <p className="events-page__kicker">Today&apos;s Events in Akihabara</p>
-          <h1 className="events-page__title">Akihabara Events Today</h1>
-          <p className="today-updated">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
+          <p className="events-page__kicker">
+            Today&apos;s Events in Akihabara
+          </p>
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            Akihabara Events Today
+          </h1>
+          <p
+            style={{
+              color: "#8a6f63",
+              fontSize: "0.75rem",
+              marginTop: "0.5rem",
+            }}
+          >
             {todayLabel} · {ongoingEvents.length} events ongoing
           </p>
         </header>
 
         <p className="today-lead">
-          Every day in Akihabara, a wide variety of events are held — anime and manga, games and
-          trading cards, collab cafes, popup stores, voice actor and idol events, and hobby and
-          figure exhibitions. This page lists all events ongoing on {todayLabel}, organized by venue
-          and category.
+          Every day in Akihabara, a wide variety of events are held — anime and
+          manga, games and trading cards, collab cafes, popup stores, voice
+          actor and idol events, and hobby and figure exhibitions. This page
+          lists all events ongoing on {todayLabel}, organized by venue and
+          category.
         </p>
 
-        <EventSection id="today-events-heading" kicker="Ongoing Today" title="Events in Akihabara Today">
+        <EventSection
+          id="today-events-heading"
+          kicker="Ongoing Today"
+          title="Events in Akihabara Today"
+        >
           <TodayVenueFilter
             events={venueFilterEvents}
             hrefPrefix="/en/articles/"
@@ -215,7 +288,11 @@ const Page = () => {
           />
         </EventSection>
 
-        <EventSection id="category-heading" kicker="By Category" title="Events by Category">
+        <EventSection
+          id="category-heading"
+          kicker="By Category"
+          title="Events by Category"
+        >
           <TodayCategoryFilter
             groups={categorized}
             hrefPrefix="/en/articles/"
@@ -223,9 +300,15 @@ const Page = () => {
           />
         </EventSection>
 
-        <EventSection id="ending-soon-heading" kicker="Ending Soon" title="Ending Soon">
+        <EventSection
+          id="ending-soon-heading"
+          kicker="Ending Soon"
+          title="Ending Soon"
+        >
           {endingSoonEvents.length === 0 ? (
-            <p className="events-page__empty">No events ending within 3 days.</p>
+            <p className="events-page__empty">
+              No events ending within 3 days.
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {endingSoonEvents.map((a) => (
@@ -235,7 +318,11 @@ const Page = () => {
                   image={getArticleImage(a)}
                   title={a.en!.title}
                   venue={getEnglishEventVenue(a) ?? a.event!.venue}
-                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate, "–")}
+                  dateRange={fmtRange(
+                    a.event!.startDate,
+                    a.event!.endDate,
+                    "–"
+                  )}
                   layout="grid"
                 />
               ))}
@@ -243,7 +330,11 @@ const Page = () => {
           )}
         </EventSection>
 
-        <EventSection id="upcoming-heading" kicker="Coming This Week" title="Starting This Week">
+        <EventSection
+          id="upcoming-heading"
+          kicker="Coming This Week"
+          title="Starting This Week"
+        >
           {upcomingEvents.length === 0 ? (
             <p className="events-page__empty">No events starting this week.</p>
           ) : (
@@ -255,7 +346,11 @@ const Page = () => {
                   image={getArticleImage(a)}
                   title={a.en!.title}
                   venue={getEnglishEventVenue(a) ?? a.event!.venue}
-                  dateRange={fmtRange(a.event!.startDate, a.event!.endDate, "–")}
+                  dateRange={fmtRange(
+                    a.event!.startDate,
+                    a.event!.endDate,
+                    "–"
+                  )}
                   layout="grid"
                 />
               ))}
@@ -263,20 +358,60 @@ const Page = () => {
           )}
         </EventSection>
 
-        <EventSection id="venues-heading" kicker="Popular Venues" title="Popular Venues in Akihabara">
-          <ul className="today-venues-grid" aria-label="Event venues in Akihabara">
+        <EventSection
+          id="venues-heading"
+          kicker="Popular Venues"
+          title="Popular Venues in Akihabara"
+        >
+          <ul
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+            aria-label="Event venues in Akihabara"
+          >
             {topVenues.map(({ venue }) => (
-              <li key={venue} className="today-venues-grid__item">
+              <li
+                key={venue}
+                style={{
+                  background: "#fffdf8",
+                  border: "1px solid rgba(96, 120, 111, 0.14)",
+                  borderRadius: "999px",
+                  color: "#3f5851",
+                  fontSize: "0.8125rem",
+                  padding: "0.375rem 0.875rem",
+                }}
+              >
                 {venue}
               </li>
             ))}
           </ul>
         </EventSection>
 
-        <EventSection id="related-heading" kicker="Related" title="Related Pages">
-          <ul className="today-related">
+        <EventSection
+          id="related-heading"
+          kicker="Related"
+          title="Related Pages"
+        >
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
-              <Link href="/en/events/this-week/" className="today-related__link">
+              <Link
+                href="/en/events/this-week/"
+                className="today-related__link"
+              >
                 This week&apos;s events →
               </Link>
             </li>
@@ -286,7 +421,10 @@ const Page = () => {
               </Link>
             </li>
             <li>
-              <Link href="/en/events/collab-cafe/" className="today-related__link">
+              <Link
+                href="/en/events/collab-cafe/"
+                className="today-related__link"
+              >
                 Collab cafe guide →
               </Link>
             </li>

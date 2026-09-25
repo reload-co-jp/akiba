@@ -14,7 +14,14 @@ import {
  * boxes. Spots that have their own page link to it; the rest are plain text.
  */
 export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
-  <ul className="gourmet-list">
+  <ul
+    style={{
+      borderTop: "1px solid rgba(96, 120, 111, 0.14)",
+      listStyle: "none",
+      margin: "0 0 2rem",
+      padding: "0",
+    }}
+  >
     {spots.map((spot) => {
       // Most bulk-imported entries have neither an address nor opening hours,
       // so distance from the station is often the only concrete thing we can
@@ -29,19 +36,40 @@ export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
       const cuisines = (spot.cuisine ?? []).map(getCuisineLabel)
 
       return (
-        <li key={spot.id} className="gourmet-list__item">
+        <li
+          key={spot.id}
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.14)",
+            display: "flex",
+            gap: "0.75rem",
+            padding: "0.75rem 0.25rem",
+          }}
+        >
           {spot.image && (
             <img
               src={spot.image.src}
               alt={spot.image.alt}
-              className="gourmet-list__thumb"
+              style={{
+                borderRadius: "6px",
+                flexShrink: "0",
+                height: "64px",
+                objectFit: "cover",
+                width: "64px",
+              }}
               loading="lazy"
               width={96}
               height={96}
             />
           )}
-          <div className="gourmet-list__body">
-            <div className="gourmet-list__head">
+          <div style={{ flex: "1", minWidth: "0" }}>
+            <div
+              style={{
+                alignItems: "baseline",
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "0.5rem",
+              }}
+            >
               {hasDetailPage(spot) ? (
                 <Link
                   href={`/spots/${spot.slug}/`}
@@ -53,9 +81,24 @@ export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
                 <span className="gourmet-list__name">{spot.name}</span>
               )}
               {cuisines.length > 0 && (
-                <span className="gourmet-list__cuisines">
+                <span
+                  style={{
+                    display: "inline-flex",
+                    flexWrap: "wrap",
+                    gap: "0.25rem",
+                  }}
+                >
                   {cuisines.map((label) => (
-                    <span key={label} className="gourmet-list__cuisine">
+                    <span
+                      key={label}
+                      style={{
+                        background: "rgba(185, 74, 58, 0.08)",
+                        borderRadius: "4px",
+                        color: "#8a6f63",
+                        fontSize: "0.6875rem",
+                        padding: "0.125rem 0.375rem",
+                      }}
+                    >
                       {label}
                     </span>
                   ))}
@@ -63,7 +106,16 @@ export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
               )}
             </div>
             {details.length > 0 && (
-              <p className="gourmet-list__meta">{details.join("／")}</p>
+              <p
+                style={{
+                  color: "#8a6f63",
+                  fontSize: "0.75rem",
+                  lineHeight: "1.6",
+                  margin: "0.25rem 0 0",
+                }}
+              >
+                {details.join("／")}
+              </p>
             )}
           </div>
         </li>

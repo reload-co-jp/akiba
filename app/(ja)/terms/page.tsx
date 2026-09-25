@@ -14,10 +14,28 @@ export const metadata = {
 
 const Page = () => {
   return (
-    <article className="about-page">
-      <header className="about-page__header">
+    <article
+      style={{ margin: "0 auto", maxWidth: "820px", padding: "3rem 0 0" }}
+    >
+      <header
+        style={{
+          borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+          marginBottom: "2rem",
+          paddingBottom: "1.5rem",
+        }}
+      >
         <p className="about-page__kicker">Terms of Service</p>
-        <h1 className="about-page__title">利用規約</h1>
+        <h1
+          style={{
+            color: "#24312f",
+            fontSize: "2rem",
+            fontWeight: "800",
+            lineHeight: "1.25",
+            margin: "0 0 1rem",
+          }}
+        >
+          利用規約
+        </h1>
       </header>
 
       <section className="about-section">
@@ -36,11 +54,16 @@ const Page = () => {
         </p>
       </section>
 
-      <section className="about-section" aria-labelledby="terms-prohibited-title">
+      <section
+        className="about-section"
+        aria-labelledby="terms-prohibited-title"
+      >
         <h2 id="terms-prohibited-title">禁止事項</h2>
         <p>本サービスの利用にあたり、以下の行為を禁じます。</p>
         <ul>
-          <li>当社または第三者の著作権・肖像権・名誉・プライバシーを侵害する行為</li>
+          <li>
+            当社または第三者の著作権・肖像権・名誉・プライバシーを侵害する行為
+          </li>
           <li>本サービスのコンテンツを無断で複製・転載・商業利用する行為</li>
           <li>本サービスの運営を妨害する行為</li>
           <li>法令または公序良俗に反する行為</li>
@@ -57,7 +80,10 @@ const Page = () => {
         </p>
       </section>
 
-      <section className="about-section" aria-labelledby="terms-disclaimer-title">
+      <section
+        className="about-section"
+        aria-labelledby="terms-disclaimer-title"
+      >
         <h2 id="terms-disclaimer-title">免責事項</h2>
         <p>
           本サービスに掲載する情報は正確性を期していますが、内容の完全性・最新性・有用性を保証するものではありません。掲載情報に基づいて生じた損害について、当社は責任を負いません。
@@ -77,14 +103,22 @@ const Page = () => {
       <section className="about-section" aria-labelledby="terms-operator-title">
         <h2 id="terms-operator-title">運営者</h2>
         <p>
-          株式会社リロード<br />
-          <a href="https://reload.co.jp" rel="noopener noreferrer" target="_blank">
+          株式会社リロード
+          <br />
+          <a
+            href="https://reload.co.jp"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             https://reload.co.jp
           </a>
         </p>
       </section>
 
-      <nav aria-label="関連ページ" style={{ marginTop: "2rem", fontSize: ".875rem" }}>
+      <nav
+        aria-label="関連ページ"
+        style={{ marginTop: "2rem", fontSize: ".875rem" }}
+      >
         <Link href="/privacy/">プライバシーポリシー</Link>
         {" / "}
         <Link href="/about/">このサイトについて</Link>

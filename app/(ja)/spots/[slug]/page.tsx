@@ -8,7 +8,11 @@ import {
   getSpotHeadline,
   getSpotsByCategory,
 } from "lib/spots"
-import { getArticlesBySpotName, formatDate, getArticleImage } from "lib/articles"
+import {
+  getArticlesBySpotName,
+  formatDate,
+  getArticleImage,
+} from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
@@ -57,7 +61,10 @@ const Page = async ({ params }: Props) => {
 
   const spotUrl = absoluteUrl(`/spots/${slug}/`)
   const spotImage = getSpotImage(spot)
-  const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(0, 10)
+  const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(
+    0,
+    10
+  )
   const spotKeywords = getSpotSeoKeywords(spot)
   const otherCategorySpots = getSpotsByCategory(spot.category)
     .filter((s) => s.slug !== spot.slug)
@@ -98,7 +105,11 @@ const Page = async ({ params }: Props) => {
     publicAccess: true,
     isAccessibleForFree: spot.admission === "無料" || spot.admission == null,
     amenityFeature: [
-      { "@type": "LocationFeatureSpecification", name: spot.category, value: true },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: spot.category,
+        value: true,
+      },
       ...(spot.tags ?? []).map((tag) => ({
         "@type": "LocationFeatureSpecification",
         name: tag,
@@ -173,7 +184,9 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript([jsonLd, relatedEventsLd]) }}
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript([jsonLd, relatedEventsLd]),
+        }}
       />
       <script
         type="application/ld+json"
@@ -183,7 +196,15 @@ const Page = async ({ params }: Props) => {
         style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}
       >
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
@@ -338,7 +359,11 @@ const Page = async ({ params }: Props) => {
               venue={spot.name}
               lat={spot.lat}
               lng={spot.lng}
-              query={spot.address ? `${spot.name} ${spot.address}` : `${spot.name} 秋葉原`}
+              query={
+                spot.address
+                  ? `${spot.name} ${spot.address}`
+                  : `${spot.name} 秋葉原`
+              }
             />
           </div>
         )}
@@ -347,12 +372,17 @@ const Page = async ({ params }: Props) => {
           <p>{spot.description}</p>
         </div>
 
-        {spot.editorComment && <EditorCommentBlock comment={spot.editorComment} />}
+        {spot.editorComment && (
+          <EditorCommentBlock comment={spot.editorComment} />
+        )}
 
         <AdsenseFluidAd />
 
         {relatedArticles.length > 0 && (
-          <section aria-labelledby="spot-events-title" style={{ marginTop: "2rem" }}>
+          <section
+            aria-labelledby="spot-events-title"
+            style={{ marginTop: "2rem" }}
+          >
             <h2
               id="spot-events-title"
               style={{
@@ -391,7 +421,9 @@ const Page = async ({ params }: Props) => {
                         <h3 className="article-card__title">{article.title}</h3>
                         <time
                           className="article-card__date"
-                          dateTime={article.event?.startDate ?? article.publishedAt}
+                          dateTime={
+                            article.event?.startDate ?? article.publishedAt
+                          }
                         >
                           {article.event
                             ? `${formatDate(article.event.startDate)}〜${formatDate(article.event.endDate)}`
@@ -407,7 +439,10 @@ const Page = async ({ params }: Props) => {
         )}
 
         {otherCategorySpots.length > 0 && (
-          <section aria-labelledby="spot-nearby-title" style={{ marginTop: "2rem" }}>
+          <section
+            aria-labelledby="spot-nearby-title"
+            style={{ marginTop: "2rem" }}
+          >
             <h2
               id="spot-nearby-title"
               style={{

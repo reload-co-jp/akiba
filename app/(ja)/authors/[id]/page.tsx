@@ -56,7 +56,8 @@ const Page = async ({ params }: Props) => {
 
   const profileLd = {
     "@context": "https://schema.org",
-    "@type": author.schemaType === "Organization" ? "Organization" : "ProfilePage",
+    "@type":
+      author.schemaType === "Organization" ? "Organization" : "ProfilePage",
     "@id": authorUrl,
     name: author.name,
     url: authorUrl,
@@ -82,8 +83,18 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: `${author.name}の記事`, item: authorUrl },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: `${author.name}の記事`,
+        item: authorUrl,
+      },
     ],
   }
 
@@ -97,13 +108,24 @@ const Page = async ({ params }: Props) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
-      <section className="home-articles">
+      <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
-            <li className="breadcrumb__item breadcrumb__item--current" aria-current="page">
+            <li
+              className="breadcrumb__item breadcrumb__item--current"
+              aria-current="page"
+            >
               {author.name}
             </li>
           </ol>
@@ -112,7 +134,13 @@ const Page = async ({ params }: Props) => {
           <p className="home-articles__kicker">Author</p>
           <h1 className="home-articles__title">{author.name}</h1>
           {author.description && (
-            <p style={{ color: "#8a6f63", fontSize: ".875rem", marginTop: ".5rem" }}>
+            <p
+              style={{
+                color: "#8a6f63",
+                fontSize: ".875rem",
+                marginTop: ".5rem",
+              }}
+            >
               {author.description}
             </p>
           )}
@@ -122,7 +150,10 @@ const Page = async ({ params }: Props) => {
             const image = getArticleImage(article)
             return (
               <li key={article.id}>
-                <Link href={`/articles/${article.slug}/`} className="article-card-link">
+                <Link
+                  href={`/articles/${article.slug}/`}
+                  className="article-card-link"
+                >
                   <article className="article-card">
                     <img
                       src={image.src}
@@ -151,7 +182,9 @@ const Page = async ({ params }: Props) => {
                       <p className="article-card__summary">{article.summary}</p>
                       <time
                         className="article-card__date"
-                        dateTime={getArticlePublishedDate(article).toISOString()}
+                        dateTime={getArticlePublishedDate(
+                          article
+                        ).toISOString()}
                       >
                         {formatDate(article.publishedAt)}
                       </time>

@@ -103,13 +103,23 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript([jsonLd, breadcrumbLd]) }}
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript([jsonLd, breadcrumbLd]),
+        }}
       />
       <section
         style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}
       >
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
@@ -127,13 +137,29 @@ const Page = () => {
           <h1 className="home-articles__title">観光スポット</h1>
         </div>
 
-        <nav aria-label="関連一覧" className="gourmet-cuisine-nav">
+        <nav
+          aria-label="関連一覧"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.5rem",
+            margin: "0 0 2rem",
+          }}
+        >
           <Link href="/spots/gourmet/" className="gourmet-cuisine-nav__link">
             秋葉原のグルメ・飲食店一覧
           </Link>
         </nav>
 
-        <nav aria-label="エリア別一覧" className="gourmet-cuisine-nav">
+        <nav
+          aria-label="エリア別一覧"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.5rem",
+            margin: "0 0 2rem",
+          }}
+        >
           {areas.map((area) => (
             <Link
               key={area}

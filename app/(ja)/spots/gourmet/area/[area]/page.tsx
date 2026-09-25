@@ -112,7 +112,12 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
       {
         "@type": "ListItem",
         position: 2,
@@ -133,11 +138,23 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript([jsonLd, breadcrumbLd]) }}
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript([jsonLd, breadcrumbLd]),
+        }}
       />
-      <section style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}>
+      <section
+        style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}
+      >
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
@@ -170,7 +187,15 @@ const Page = async ({ params }: Props) => {
 
         <GourmetSpotList spots={spots} />
 
-        <nav aria-label="ほかのエリア" className="gourmet-cuisine-nav">
+        <nav
+          aria-label="ほかのエリア"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.5rem",
+            margin: "0 0 2rem",
+          }}
+        >
           {otherAreas.map((other) => (
             <Link
               key={other}

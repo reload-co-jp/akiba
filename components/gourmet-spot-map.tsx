@@ -8,13 +8,18 @@ import type { DivIcon } from "leaflet"
 import { mapBounds } from "lib/venue-points"
 import { getCuisineLabel, hasDetailPage, type Spot } from "lib/spots"
 
-const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
+const MapContainer = dynamic(
+  () => import("react-leaflet").then((m) => m.MapContainer),
+  {
+    ssr: false,
+  }
+)
+const Marker = dynamic(() => import("react-leaflet").then((m) => m.Marker), {
   ssr: false,
 })
-const Marker = dynamic(() => import("react-leaflet").then((m) => m.Marker), { ssr: false })
 const GsiTileLayer = dynamic(
   () => import("components/gsi-tile-layer").then((m) => m.GsiTileLayer),
-  { ssr: false },
+  { ssr: false }
 )
 
 type Props = {
@@ -31,8 +36,9 @@ const PIN_SIZE_ACTIVE = 20
  */
 export const GourmetSpotMap = ({ spots }: Props) => {
   const pinned = useMemo(
-    () => spots.filter((s) => hasDetailPage(s) && s.lat != null && s.lng != null),
-    [spots],
+    () =>
+      spots.filter((s) => hasDetailPage(s) && s.lat != null && s.lng != null),
+    [spots]
   )
 
   const [selectedId, setSelectedId] = useState(pinned[0]?.id)
@@ -70,9 +76,22 @@ export const GourmetSpotMap = ({ spots }: Props) => {
   }
 
   return (
-    <section className="gourmet-map" aria-labelledby="gourmet-map-title">
+    <section
+      style={{ margin: "1rem 0 1.5rem" }}
+      aria-labelledby="gourmet-map-title"
+    >
       <div className="gourmet-map__header">
-        <p className="gourmet-map__kicker">Gourmet map</p>
+        <p
+          style={{
+            color: "#b94a3a",
+            fontSize: "0.75rem",
+            fontWeight: "700",
+            margin: "0 0 0.5rem",
+            textTransform: "uppercase",
+          }}
+        >
+          Gourmet map
+        </p>
         <h2 id="gourmet-map-title">お店の場所</h2>
       </div>
       <div className="gourmet-map__frame">

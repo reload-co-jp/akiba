@@ -43,13 +43,16 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
 
   const monthEvents = events
     .filter(
-      (a) => a.event && a.event.startDate <= monthEnd && a.event.endDate >= monthStart,
+      (a) =>
+        a.event &&
+        a.event.startDate <= monthEnd &&
+        a.event.endDate >= monthStart
     )
     .sort((a, b) => b.event!.startDate.localeCompare(a.event!.startDate))
 
   function getEventsForDay(dayStr: string) {
     return monthEvents.filter(
-      (a) => a.event!.startDate <= dayStr && dayStr <= a.event!.endDate,
+      (a) => a.event!.startDate <= dayStr && dayStr <= a.event!.endDate
     )
   }
 
@@ -84,38 +87,100 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
   ]
   while (cells.length % 7 !== 0) cells.push(null)
 
-  const filteredEvents = selectedDate ? getEventsForDay(selectedDate) : monthEvents
-  const listedEvents = maxEvents ? filteredEvents.slice(0, maxEvents) : filteredEvents
+  const filteredEvents = selectedDate
+    ? getEventsForDay(selectedDate)
+    : monthEvents
+  const listedEvents = maxEvents
+    ? filteredEvents.slice(0, maxEvents)
+    : filteredEvents
   const hasMore = maxEvents != null && filteredEvents.length > maxEvents
   const listHeading = selectedDate
     ? `${selectedDate.slice(5).replace("-", "/")} のイベント`
     : `${year}年${month + 1}月のイベント一覧`
 
   return (
-    <section className="events-page">
-      <div className="events-page__header">
+    <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
+      <div
+        style={{
+          borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+          margin: "0 0 1.5rem",
+          padding: "2.5rem 0 0.875rem",
+        }}
+      >
         <p className="events-page__kicker">Event Calendar</p>
-        <h1 className="events-page__title">イベントカレンダー</h1>
-        <div className="cal__subtitle-row">
-          <Link href="/events/today/" className="cal__today-btn">今日のイベントを見る →</Link>
-          <Link href="/events/" className="cal__subtitle-link">開催中のイベント一覧</Link>
+        <h1
+          style={{
+            color: "#24312f",
+            fontSize: "1.5rem",
+            fontWeight: "700",
+            lineHeight: "1.4",
+            margin: "0",
+          }}
+        >
+          イベントカレンダー
+        </h1>
+        <div
+          style={{
+            alignItems: "center",
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.75rem",
+            marginTop: "0.75rem",
+          }}
+        >
+          <Link href="/events/today/" className="cal__today-btn">
+            今日のイベントを見る →
+          </Link>
+          <Link
+            href="/events/"
+            style={{
+              color: "#3f5851",
+              fontSize: "0.8125rem",
+              textDecoration: "underline",
+            }}
+          >
+            開催中のイベント一覧
+          </Link>
         </div>
       </div>
 
-      <div className="cal">
-        <div className="cal__nav">
-          <button onClick={prevMonth} className="cal__nav-btn" aria-label="前の月">
+      <div style={{ maxWidth: "860px" }}>
+        <div
+          style={{
+            alignItems: "center",
+            display: "flex",
+            gap: "1rem",
+            marginBottom: "0.75rem",
+          }}
+        >
+          <button
+            onClick={prevMonth}
+            className="cal__nav-btn"
+            aria-label="前の月"
+          >
             ‹
           </button>
           <span className="cal__month-label">
             {year}年{month + 1}月
           </span>
-          <button onClick={nextMonth} className="cal__nav-btn" aria-label="次の月">
+          <button
+            onClick={nextMonth}
+            className="cal__nav-btn"
+            aria-label="次の月"
+          >
             ›
           </button>
         </div>
 
-        <div className="cal__grid">
+        <div
+          style={{
+            borderLeft: "1px solid rgba(96, 120, 111, 0.16)",
+            borderTop: "1px solid rgba(96, 120, 111, 0.16)",
+            display: "grid",
+            gridTemplateColumns: "repeat(7, 1fr)",
+            marginBottom: "2rem",
+          }}
+        >
           {WEEKDAYS.map((d, i) => (
             <div
               key={d}
@@ -126,7 +191,13 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
           ))}
           {cells.map((day, i) => {
             if (!day) {
-              return <div key={`empty-${i}`} className="cal__cell cal__cell--empty" />
+              return (
+                <div
+                  key={`empty-${i}`}
+                  className="cal__cell"
+                  style={{ background: "rgba(96, 120, 111, 0.03)" }}
+                />
+              )
             }
             const ds = toDateStr(year, month, day)
             const dayEvents = getEventsForDay(ds)
@@ -149,7 +220,10 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
               >
                 <button
                   className="cal__day-num"
-                  onClick={(e) => { e.stopPropagation(); toggleDate(ds, dayEvents.length > 0) }}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    toggleDate(ds, dayEvents.length > 0)
+                  }}
                   aria-pressed={isSelected || undefined}
                 >
                   {day}
@@ -157,24 +231,54 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
                 {dayEvents.length > 0 && (
                   <>
                     <span className="cal__day-count">{dayEvents.length}</span>
-                    <ul className="cal__day-events" aria-label={`${day}日のイベント`}>
+                    <ul
+                      className="cal__day-events"
+                      aria-label={`${day}日のイベント`}
+                    >
                       {dayEvents.slice(0, 5).map((e) => (
                         <li key={e.id} className="cal__day-event">
                           <span>{e.title}</span>
                         </li>
                       ))}
                       {dayEvents.length > 5 && (
-                        <li className="cal__day-more">+{dayEvents.length - 5}</li>
+                        <li className="cal__day-more">
+                          +{dayEvents.length - 5}
+                        </li>
                       )}
                     </ul>
-                    <div className="cal__overlay" role="presentation" onClick={(e) => e.stopPropagation()} onKeyDown={(e) => e.stopPropagation()}>
-                      <p className="cal__overlay-date">
-                        {month + 1}/{day}（{["月","火","水","木","金","土","日"][colIndex]}）
+                    <div
+                      className="cal__overlay"
+                      role="presentation"
+                      onClick={(e) => e.stopPropagation()}
+                      onKeyDown={(e) => e.stopPropagation()}
+                    >
+                      <p
+                        style={{
+                          color: "#5f7a70",
+                          fontSize: "0.6875rem",
+                          fontWeight: "700",
+                          marginBottom: "0.375rem",
+                        }}
+                      >
+                        {month + 1}/{day}（
+                        {["月", "火", "水", "木", "金", "土", "日"][colIndex]}）
                       </p>
-                      <ul className="cal__overlay-list">
+                      <ul
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          gap: "0.125rem",
+                          listStyle: "none",
+                          margin: "0",
+                          padding: "0",
+                        }}
+                      >
                         {dayEvents.map((e) => (
                           <li key={e.id}>
-                            <Link href={`/articles/${e.slug}/`} className="cal__overlay-item">
+                            <Link
+                              href={`/articles/${e.slug}/`}
+                              className="cal__overlay-item"
+                            >
                               {e.title}
                             </Link>
                           </li>
@@ -188,11 +292,35 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
           })}
         </div>
 
-        <div className="cal__list-section">
-          <div className="cal__list-header">
-            <h2 className="cal__list-heading">{listHeading}</h2>
+        <div
+          style={{
+            borderTop: "1px solid rgba(96, 120, 111, 0.16)",
+            paddingTop: "1.5rem",
+          }}
+        >
+          <div
+            style={{
+              alignItems: "center",
+              display: "flex",
+              gap: "1rem",
+              marginBottom: "1rem",
+            }}
+          >
+            <h2
+              style={{
+                color: "#24312f",
+                fontSize: "1rem",
+                fontWeight: "700",
+                margin: "0",
+              }}
+            >
+              {listHeading}
+            </h2>
             {selectedDate && (
-              <button className="cal__clear-btn" onClick={() => setSelectedDate(null)}>
+              <button
+                className="cal__clear-btn"
+                onClick={() => setSelectedDate(null)}
+              >
                 全て表示
               </button>
             )}
@@ -200,12 +328,23 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
           {listedEvents.length === 0 ? (
             <p className="events-page__empty">この日のイベントはありません。</p>
           ) : (
-            <ul className="cal__list">
+            <ul
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "0.5rem",
+                listStyle: "none",
+                padding: "0",
+              }}
+            >
               {listedEvents.map((a) => {
                 const image = getArticleImage(a)
                 return (
                   <li key={a.id}>
-                    <Link href={`/articles/${a.slug}/`} className="cal__list-item">
+                    <Link
+                      href={`/articles/${a.slug}/`}
+                      className="cal__list-item"
+                    >
                       <img
                         className="cal__list-image"
                         src={image.src}
@@ -215,7 +354,10 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
                         loading="lazy"
                         decoding="async"
                       />
-                      <time className="cal__list-date" dateTime={a.event!.startDate}>
+                      <time
+                        className="cal__list-date"
+                        dateTime={a.event!.startDate}
+                      >
                         {formatRange(a.event!.startDate, a.event!.endDate)}
                       </time>
                       <span className="cal__list-title">{a.title}</span>

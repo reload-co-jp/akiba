@@ -101,7 +101,12 @@ const Page = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
       {
         "@type": "ListItem",
         position: 2,
@@ -122,11 +127,23 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript([jsonLd, breadcrumbLd]) }}
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript([jsonLd, breadcrumbLd]),
+        }}
       />
-      <section style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}>
+      <section
+        style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}
+      >
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
@@ -145,35 +162,108 @@ const Page = () => {
           </ol>
         </nav>
 
-        <div className="ramen-lp-hero">
+        <div
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.14)",
+            margin: "0 0 1.5rem",
+            paddingBottom: "1.5rem",
+          }}
+        >
           <p className="home-articles__kicker">Akihabara izakaya</p>
-          <h1 className="ramen-lp-hero__title">秋葉原居酒屋ガイド</h1>
-          <p className="ramen-lp-hero__lead">
-            秋葉原駅周辺で営業する居酒屋を{spots.length}件、駅から近い順にまとめました。
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.75rem",
+              fontWeight: "800",
+              lineHeight: "1.3",
+              margin: "0.25rem 0 0.75rem",
+            }}
+          >
+            秋葉原居酒屋ガイド
+          </h1>
+          <p
+            style={{
+              color: "#5c5148",
+              fontSize: "0.9375rem",
+              lineHeight: "1.7",
+              margin: "0",
+            }}
+          >
+            秋葉原駅周辺で営業する居酒屋を{spots.length}
+            件、駅から近い順にまとめました。
             駅近・個室あり・飲み放題プランなど、電気街めぐりのあとに寄れる店を地図と距離つきで探せます。
           </p>
         </div>
 
         {pickSpots.length > 0 && (
           <>
-            <h2 className="ramen-lp-section-title">まず押さえたい注目店</h2>
-            <ul className="ramen-pick-grid">
+            <h2
+              style={{
+                color: "#24312f",
+                fontSize: "1.125rem",
+                fontWeight: "700",
+                margin: "2rem 0 1rem",
+              }}
+            >
+              まず押さえたい注目店
+            </h2>
+            <ul
+              style={{
+                display: "grid",
+                gap: "1rem",
+                gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+                listStyle: "none",
+                margin: "0 0 1rem",
+                padding: "0",
+              }}
+            >
               {pickSpots.map((spot) => (
                 <li key={spot.id}>
-                  <Link href={`/spots/${spot.slug}/`} className="ramen-pick-card">
+                  <Link
+                    href={`/spots/${spot.slug}/`}
+                    className="ramen-pick-card"
+                  >
                     {spot.image && (
                       <img
                         src={spot.image.src}
                         alt={spot.image.alt}
-                        className="ramen-pick-card__image"
+                        style={{
+                          aspectRatio: "4 / 3",
+                          display: "block",
+                          height: "auto",
+                          objectFit: "cover",
+                          width: "100%",
+                        }}
                         loading="lazy"
                         width={spot.image.width}
                         height={spot.image.height}
                       />
                     )}
-                    <div className="ramen-pick-card__body">
-                      <h3 className="ramen-pick-card__name">{spot.name}</h3>
-                      <p className="ramen-pick-card__desc">{spot.description}</p>
+                    <div style={{ padding: "0.75rem" }}>
+                      <h3
+                        style={{
+                          color: "#24312f",
+                          fontSize: "0.9375rem",
+                          fontWeight: "700",
+                          margin: "0 0 0.375rem",
+                        }}
+                      >
+                        {spot.name}
+                      </h3>
+                      <p
+                        style={{
+                          color: "#8a6f63",
+                          fontSize: "0.8125rem",
+                          lineHeight: "1.6",
+                          margin: "0",
+                          display: "-webkit-box",
+                          WebkitLineClamp: "3",
+                          WebkitBoxOrient: "vertical",
+                          overflow: "hidden",
+                        }}
+                      >
+                        {spot.description}
+                      </p>
                     </div>
                   </Link>
                 </li>
@@ -182,21 +272,51 @@ const Page = () => {
           </>
         )}
 
-        <h2 className="ramen-lp-section-title">地図で見る</h2>
+        <h2
+          style={{
+            color: "#24312f",
+            fontSize: "1.125rem",
+            fontWeight: "700",
+            margin: "2rem 0 1rem",
+          }}
+        >
+          地図で見る
+        </h2>
         <GourmetSpotMap spots={spots} />
 
-        <h2 className="ramen-lp-section-title">秋葉原の居酒屋一覧（{spots.length}件）</h2>
+        <h2
+          style={{
+            color: "#24312f",
+            fontSize: "1.125rem",
+            fontWeight: "700",
+            margin: "2rem 0 1rem",
+          }}
+        >
+          秋葉原の居酒屋一覧（{spots.length}件）
+        </h2>
         <GourmetSpotList spots={spots} />
 
         {relatedArticles.length > 0 && (
           <>
-            <h2 className="ramen-lp-section-title">居酒屋関連の新着ニュース</h2>
+            <h2
+              style={{
+                color: "#24312f",
+                fontSize: "1.125rem",
+                fontWeight: "700",
+                margin: "2rem 0 1rem",
+              }}
+            >
+              居酒屋関連の新着ニュース
+            </h2>
             <ul className="article-list">
               {relatedArticles.map((article) => {
                 const image = getArticleImage(article)
                 return (
                   <li key={article.id}>
-                    <Link href={`/articles/${article.slug}/`} className="article-card-link">
+                    <Link
+                      href={`/articles/${article.slug}/`}
+                      className="article-card-link"
+                    >
                       <article className="article-card">
                         <img
                           src={image.src}
@@ -208,11 +328,17 @@ const Page = () => {
                           decoding="async"
                         />
                         <div className="article-card__body">
-                          <h3 className="article-card__title">{article.title}</h3>
-                          <p className="article-card__summary">{article.summary}</p>
+                          <h3 className="article-card__title">
+                            {article.title}
+                          </h3>
+                          <p className="article-card__summary">
+                            {article.summary}
+                          </p>
                           <time
                             className="article-card__date"
-                            dateTime={getArticlePublishedDate(article).toISOString()}
+                            dateTime={getArticlePublishedDate(
+                              article
+                            ).toISOString()}
                           >
                             {formatDate(article.publishedAt)}
                           </time>
@@ -226,8 +352,25 @@ const Page = () => {
           </>
         )}
 
-        <h2 className="ramen-lp-section-title">ほかのジャンルも見る</h2>
-        <nav aria-label="ほかのジャンル" className="gourmet-cuisine-nav">
+        <h2
+          style={{
+            color: "#24312f",
+            fontSize: "1.125rem",
+            fontWeight: "700",
+            margin: "2rem 0 1rem",
+          }}
+        >
+          ほかのジャンルも見る
+        </h2>
+        <nav
+          aria-label="ほかのジャンル"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.5rem",
+            margin: "0 0 2rem",
+          }}
+        >
           {otherCuisines.map((other) => (
             <Link
               key={other}

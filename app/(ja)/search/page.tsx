@@ -13,7 +13,7 @@ const Page = () => {
   const articles = getAllArticles()
 
   return (
-    <section className="home-articles">
+    <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
       <div className="home-articles__header">
         <p className="home-articles__kicker">Search</p>
         <h1 className="home-articles__title">記事を検索</h1>

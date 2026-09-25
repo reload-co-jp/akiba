@@ -71,8 +71,18 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/en/") },
-      { "@type": "ListItem", position: 2, name: `${enName} articles`, item: tagUrl },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: absoluteUrl("/en/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: `${enName} articles`,
+        item: tagUrl,
+      },
     ],
   }
 
@@ -101,13 +111,24 @@ const Page = async ({ params }: Props) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
       />
-      <section className="home-articles">
+      <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <nav aria-label="Breadcrumb" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">Home</Link>
             </li>
-            <li className="breadcrumb__item breadcrumb__item--current" aria-current="page">
+            <li
+              className="breadcrumb__item breadcrumb__item--current"
+              aria-current="page"
+            >
               {enName}
             </li>
           </ol>
@@ -121,7 +142,10 @@ const Page = async ({ params }: Props) => {
             const image = getArticleImage(article)
             return (
               <li key={article.id}>
-                <Link href={`/en/articles/${article.slug}/`} className="article-card-link">
+                <Link
+                  href={`/en/articles/${article.slug}/`}
+                  className="article-card-link"
+                >
                   <article className="article-card">
                     <img
                       src={image.src}
@@ -143,11 +167,17 @@ const Page = async ({ params }: Props) => {
                           ) : null
                         })}
                       </div>
-                      <h2 className="article-card__title">{article.en!.title}</h2>
-                      <p className="article-card__summary">{article.en!.summary}</p>
+                      <h2 className="article-card__title">
+                        {article.en!.title}
+                      </h2>
+                      <p className="article-card__summary">
+                        {article.en!.summary}
+                      </p>
                       <time
                         className="article-card__date"
-                        dateTime={getArticlePublishedDate(article).toISOString()}
+                        dateTime={getArticlePublishedDate(
+                          article
+                        ).toISOString()}
                       >
                         {formatDate(article.publishedAt)}
                       </time>

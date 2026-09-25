@@ -141,7 +141,15 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
               />
             </>
           )}
-          <header className="site-header">
+          <header
+            style={{
+              background: "rgba(255, 255, 255, 0.94)",
+              borderBottom: "1px solid rgba(34, 37, 43, 0.1)",
+              position: "sticky",
+              top: "0",
+              zIndex: "10",
+            }}
+          >
             <div className="site-header__inner">
               <Link href="/" className="site-header__brand">
                 <img
@@ -152,7 +160,17 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                 />
               </Link>
               <div className="site-header__tagline">
-                <p className="site-header__kicker">Akihabara journal</p>
+                <p
+                  style={{
+                    color: "var(--color-pink)",
+                    fontSize: "1rem",
+                    fontWeight: "700",
+                    marginRight: "0.625rem",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  Akihabara journal
+                </p>
                 今日出会えるエンタメの気配を集めて配信！
               </div>
               <form action="/articles" className="site-header__search">
@@ -163,7 +181,20 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                   placeholder="キーワードで検索（例：新店舗、イベント、ゲーム）"
                   aria-label="記事を検索"
                 />
-                <button type="submit" className="site-header__search-button">
+                <button
+                  type="submit"
+                  style={{
+                    background: "var(--color-cyan)",
+                    border: "none",
+                    borderRadius: "8px",
+                    color: "#fff",
+                    cursor: "pointer",
+                    flex: "0 0 auto",
+                    fontSize: "0.8125rem",
+                    fontWeight: "700",
+                    padding: "0.5rem 1rem",
+                  }}
+                >
                   検索
                 </button>
               </form>
@@ -174,7 +205,9 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
               </nav>
             </div>
           </header>
-          <div className="site-shell">
+          <div
+            style={{ display: "flex", margin: "0 auto", maxWidth: "1280px" }}
+          >
             <nav className="site-sidebar" aria-label="カテゴリナビゲーション">
               <Link href="/" className="site-sidebar__link">
                 ホーム
@@ -216,10 +249,18 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                 このサイトについて
               </Link>
             </nav>
-            <div className="site-shell__main">
-              <main className="site-main">{children}</main>
+            <div style={{ flex: "1 1 auto", minWidth: "0" }}>
+              <main
+                style={{
+                  background: "transparent",
+                  minHeight: "calc(100dvh - 8.5rem)",
+                  padding: "1rem 1rem 4rem",
+                }}
+              >
+                {children}
+              </main>
               <footer className="site-footer">
-                <div className="site-footer__inner">
+                <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
                   <p>
                     &copy; アキバLive /{" "}
                     <a

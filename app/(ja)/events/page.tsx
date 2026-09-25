@@ -8,11 +8,13 @@ import { absoluteUrl, siteName } from "lib/site"
 
 export const metadata = {
   title: "秋葉原の開催中イベント一覧｜アニメ・ゲーム・コラボカフェ・POPUP",
-  description: "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
+  description:
+    "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
   alternates: { canonical: "/events/" },
   openGraph: {
     title: "秋葉原の開催中イベント一覧｜アニメ・ゲーム・コラボカフェ・POPUP",
-    description: "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
+    description:
+      "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
     url: "/events/",
     type: "website",
   },
@@ -33,7 +35,11 @@ const Page = () => {
         "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなどを会場・期間付きで確認できます。",
       inLanguage: "ja",
       dateModified: today,
-      publisher: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+      publisher: {
+        "@type": "Organization",
+        name: siteName,
+        url: absoluteUrl("/"),
+      },
       about: [
         { "@type": "Place", name: "秋葉原" },
         { "@type": "Place", name: "神田" },
@@ -69,7 +75,11 @@ const Page = () => {
               addressCountry: "JP",
             },
           },
-          organizer: { "@type": "Organization", name: siteName, url: absoluteUrl("/") },
+          organizer: {
+            "@type": "Organization",
+            name: siteName,
+            url: absoluteUrl("/"),
+          },
         },
       })),
     },
@@ -81,21 +91,65 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="events-page">
-        <div className="events-page__header">
+      <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
+        <div
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">Ongoing events</p>
-          <h1 className="events-page__title">
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
             開催中のイベント
           </h1>
-          <div className="cal__subtitle-row">
-            <Link href="/events/today/" className="cal__today-btn">今日のイベントを見る →</Link>
-            <Link href="/events/this-weekend/" className="cal__subtitle-link">今週末のイベントを見る</Link>
-            <Link href="/events/calendar/" className="cal__subtitle-link">イベントカレンダーで見る</Link>
+          <div
+            style={{
+              alignItems: "center",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.75rem",
+              marginTop: "0.75rem",
+            }}
+          >
+            <Link href="/events/today/" className="cal__today-btn">
+              今日のイベントを見る →
+            </Link>
+            <Link
+              href="/events/this-weekend/"
+              style={{
+                color: "#3f5851",
+                fontSize: "0.8125rem",
+                textDecoration: "underline",
+              }}
+            >
+              今週末のイベントを見る
+            </Link>
+            <Link
+              href="/events/calendar/"
+              style={{
+                color: "#3f5851",
+                fontSize: "0.8125rem",
+                textDecoration: "underline",
+              }}
+            >
+              イベントカレンダーで見る
+            </Link>
           </div>
         </div>
 
         {events.length === 0 ? (
-          <p className="events-page__empty">現在開催中のイベントはありません。</p>
+          <p className="events-page__empty">
+            現在開催中のイベントはありません。
+          </p>
         ) : (
           <div className="events-page__grid">
             <EventsMap events={events} />
@@ -107,7 +161,10 @@ const Page = () => {
                   image={getArticleImage(article)}
                   title={article.title}
                   venue={article.event!.venue}
-                  dateRange={fmtRange(article.event!.startDate, article.event!.endDate)}
+                  dateRange={fmtRange(
+                    article.event!.startDate,
+                    article.event!.endDate
+                  )}
                   price={article.event!.price}
                   tags={article.tagIds.flatMap((tid) => {
                     const t = getTagById(tid)
@@ -122,7 +179,16 @@ const Page = () => {
         )}
 
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
-          <ul className="today-related">
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
               <Link href="/events/popup/" className="today-related__link">
                 POPUPストア特集 →

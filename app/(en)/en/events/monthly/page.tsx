@@ -1,5 +1,9 @@
 import Link from "next/link"
-import { getAllArticles, getArticleImage, getEnglishEventVenue } from "lib/articles"
+import {
+  getAllArticles,
+  getArticleImage,
+  getEnglishEventVenue,
+} from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { fmtRange } from "lib/format"
 import { Breadcrumb } from "components/breadcrumb"
@@ -51,7 +55,9 @@ const Page = () => {
     }
   }
 
-  const months = Array.from(monthMap.entries()).sort((a, b) => a[0].localeCompare(b[0]))
+  const months = Array.from(monthMap.entries()).sort((a, b) =>
+    a[0].localeCompare(b[0])
+  )
 
   const pageUrl = absoluteUrl("/en/events/monthly/")
 
@@ -60,9 +66,24 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/en/") },
-        { "@type": "ListItem", position: 2, name: "Events", item: absoluteUrl("/en/events/") },
-        { "@type": "ListItem", position: 3, name: "Monthly Calendar", item: pageUrl },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: absoluteUrl("/en/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Events",
+          item: absoluteUrl("/en/events/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Monthly Calendar",
+          item: pageUrl,
+        },
       ],
     },
     {
@@ -82,7 +103,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="events-page">
+      <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           ariaLabel="Breadcrumb"
           items={[
@@ -92,9 +113,25 @@ const Page = () => {
           ]}
         />
 
-        <header className="events-page__header">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">Monthly Event Calendar</p>
-          <h1 className="events-page__title">Akihabara Event Calendar by Month</h1>
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            Akihabara Event Calendar by Month
+          </h1>
         </header>
 
         {months.length === 0 ? (
@@ -107,7 +144,17 @@ const Page = () => {
               title={
                 <>
                   {fmtMonthLabel(ym)}
-                  <span className="today-month-count"> ({events.length})</span>
+                  <span
+                    style={{
+                      color: "#8a6f63",
+                      fontSize: "0.875rem",
+                      fontWeight: "400",
+                      marginLeft: "0.375rem",
+                    }}
+                  >
+                    {" "}
+                    ({events.length})
+                  </span>
                 </>
               }
             >
@@ -119,7 +166,11 @@ const Page = () => {
                     image={getArticleImage(a)}
                     title={a.en!.title}
                     venue={getEnglishEventVenue(a) ?? a.event!.venue}
-                    dateRange={fmtRange(a.event!.startDate, a.event!.endDate, "–")}
+                    dateRange={fmtRange(
+                      a.event!.startDate,
+                      a.event!.endDate,
+                      "–"
+                    )}
                     layout="grid"
                   />
                 ))}
@@ -128,20 +179,39 @@ const Page = () => {
           ))
         )}
 
-        <EventSection id="related-heading" kicker="Related" title="Related Pages">
-          <ul className="today-related">
+        <EventSection
+          id="related-heading"
+          kicker="Related"
+          title="Related Pages"
+        >
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
               <Link href="/en/events/today/" className="today-related__link">
                 Today&apos;s events →
               </Link>
             </li>
             <li>
-              <Link href="/en/events/this-week/" className="today-related__link">
+              <Link
+                href="/en/events/this-week/"
+                className="today-related__link"
+              >
                 This week&apos;s events →
               </Link>
             </li>
             <li>
-              <Link href="/en/events/collab-cafe/" className="today-related__link">
+              <Link
+                href="/en/events/collab-cafe/"
+                className="today-related__link"
+              >
                 Collab cafe guide →
               </Link>
             </li>

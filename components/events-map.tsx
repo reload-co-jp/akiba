@@ -8,13 +8,18 @@ import type { Article } from "lib/articles"
 import { getArticleImage } from "lib/articles"
 import { mapBounds, getVenuePoint, type VenuePoint } from "lib/venue-points"
 
-const MapContainer = dynamic(() => import("react-leaflet").then((m) => m.MapContainer), {
+const MapContainer = dynamic(
+  () => import("react-leaflet").then((m) => m.MapContainer),
+  {
+    ssr: false,
+  }
+)
+const Marker = dynamic(() => import("react-leaflet").then((m) => m.Marker), {
   ssr: false,
 })
-const Marker = dynamic(() => import("react-leaflet").then((m) => m.Marker), { ssr: false })
 const GsiTileLayer = dynamic(
   () => import("components/gsi-tile-layer").then((m) => m.GsiTileLayer),
-  { ssr: false },
+  { ssr: false }
 )
 
 type Props = {
@@ -75,7 +80,8 @@ export const EventsMap = ({ events }: Props) => {
   }, [events])
 
   const [selectedKey, setSelectedKey] = useState(locations[0]?.key)
-  const selected = locations.find((location) => location.key === selectedKey) ?? locations[0]
+  const selected =
+    locations.find((location) => location.key === selectedKey) ?? locations[0]
 
   // 全マーカーがギリギリ収まるズームにするため、開催中の会場座標からboundsを算出
   // (固定の秋葉原全域boundsだと開催数が少ない日にズームアウトしすぎる)
@@ -107,7 +113,11 @@ export const EventsMap = ({ events }: Props) => {
     }
   }, [])
 
-  const makeIcon = (index: number, active: boolean, imageSrc: string): DivIcon | undefined => {
+  const makeIcon = (
+    index: number,
+    active: boolean,
+    imageSrc: string
+  ): DivIcon | undefined => {
     if (!L) return undefined
     const size = active ? PIN_SIZE_ACTIVE : PIN_SIZE
     return new L.DivIcon({
@@ -146,7 +156,7 @@ export const EventsMap = ({ events }: Props) => {
                 icon={makeIcon(
                   index,
                   location.key === selected.key,
-                  getArticleImage(location.articles[0]).src,
+                  getArticleImage(location.articles[0]).src
                 )}
                 eventHandlers={{ click: () => setSelectedKey(location.key) }}
                 alt={`${location.venue}のイベントを表示`}
@@ -160,7 +170,7 @@ export const EventsMap = ({ events }: Props) => {
           src={getArticleImage(selected.articles[0]).src}
           alt=""
         />
-        <div className="events-map__selected-body">
+        <div style={{ display: "grid", gap: "0.375rem" }}>
           <strong>{selected.venue}</strong>
           <span>{selected.articles.length}件のイベント開催中</span>
           <ul>

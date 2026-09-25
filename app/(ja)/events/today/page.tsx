@@ -273,7 +273,7 @@ const Page = () => {
         }}
       />
 
-      <div className="events-page">
+      <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           items={[
             { label: "ホーム", href: "/" },
@@ -282,14 +282,34 @@ const Page = () => {
           ]}
         />
 
-        <header className="events-page__header">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">
             Today&apos;s Events in Akihabara
           </p>
-          <h1 className="events-page__title">
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
             秋葉原のイベント情報【今日開催】
           </h1>
-          <p className="today-updated">
+          <p
+            style={{
+              color: "#8a6f63",
+              fontSize: "0.75rem",
+              marginTop: "0.5rem",
+            }}
+          >
             {todayLabel} 現在 · {ongoingEvents.length}件開催中
           </p>
         </header>
@@ -389,11 +409,28 @@ const Page = () => {
           title="よく使われる会場一覧"
         >
           <ul
-            className="today-venues-grid"
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
             aria-label="秋葉原のイベント会場一覧"
           >
             {topVenues.map(({ venue }) => (
-              <li key={venue} className="today-venues-grid__item">
+              <li
+                key={venue}
+                style={{
+                  background: "#fffdf8",
+                  border: "1px solid rgba(96, 120, 111, 0.14)",
+                  borderRadius: "999px",
+                  color: "#3f5851",
+                  fontSize: "0.8125rem",
+                  padding: "0.375rem 0.875rem",
+                }}
+              >
                 {venue}
               </li>
             ))}
@@ -401,18 +438,62 @@ const Page = () => {
         </EventSection>
 
         <EventSection id="faq-heading" kicker="FAQ" title="よくある質問">
-          <ul className="today-faq">
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.75rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             {FAQ_ITEMS.map(({ q, a }) => (
-              <li key={q} className="today-faq__item">
-                <p className="today-faq__question">Q. {q}</p>
-                <p className="today-faq__answer">A. {a}</p>
+              <li
+                key={q}
+                style={{
+                  background: "#fffdf8",
+                  border: "1px solid rgba(96, 120, 111, 0.14)",
+                  borderRadius: "8px",
+                  padding: "1rem 1.25rem",
+                }}
+              >
+                <p
+                  style={{
+                    color: "#24312f",
+                    fontSize: "0.9375rem",
+                    fontWeight: "700",
+                    margin: "0 0 0.375rem",
+                  }}
+                >
+                  Q. {q}
+                </p>
+                <p
+                  style={{
+                    color: "#3f5851",
+                    fontSize: "0.875rem",
+                    lineHeight: "1.7",
+                    margin: "0",
+                  }}
+                >
+                  A. {a}
+                </p>
               </li>
             ))}
           </ul>
         </EventSection>
 
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
-          <ul className="today-related">
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
               <Link href="/events/this-week/" className="today-related__link">
                 今週の秋葉原イベント →

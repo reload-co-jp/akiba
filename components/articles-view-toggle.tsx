@@ -56,7 +56,10 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
 
   return (
     <>
-      <form className="search-form" onSubmit={(e) => e.preventDefault()}>
+      <form
+        style={{ marginBottom: "1.5rem" }}
+        onSubmit={(e) => e.preventDefault()}
+      >
         <input
           type="search"
           className="search-form__input"
@@ -64,7 +67,10 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
           value={searchQuery}
           onChange={(e) => {
             setSearchQuery(e.target.value)
-            setPagination({ filterKey: `${e.target.value.trim()}\u0000${selectedTag ?? ""}`, page: 1 })
+            setPagination({
+              filterKey: `${e.target.value.trim()}\u0000${selectedTag ?? ""}`,
+              page: 1,
+            })
           }}
           aria-label="記事を検索"
         />

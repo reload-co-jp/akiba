@@ -40,7 +40,9 @@ const Page = () => {
     }
   }
 
-  const months = Array.from(monthMap.entries()).sort((a, b) => a[0].localeCompare(b[0]))
+  const months = Array.from(monthMap.entries()).sort((a, b) =>
+    a[0].localeCompare(b[0])
+  )
 
   const pageUrl = absoluteUrl("/events/monthly/")
 
@@ -49,9 +51,24 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "イベント", item: absoluteUrl("/events/") },
-        { "@type": "ListItem", position: 3, name: "月別イベント", item: pageUrl },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "ホーム",
+          item: absoluteUrl("/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "イベント",
+          item: absoluteUrl("/events/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "月別イベント",
+          item: pageUrl,
+        },
       ],
     },
     {
@@ -71,7 +88,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="events-page">
+      <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           items={[
             { label: "ホーム", href: "/" },
@@ -80,9 +97,25 @@ const Page = () => {
           ]}
         />
 
-        <header className="events-page__header">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">Monthly Event Calendar</p>
-          <h1 className="events-page__title">秋葉原イベントカレンダー【月別】</h1>
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            秋葉原イベントカレンダー【月別】
+          </h1>
           <p className="cal__subtitle">
             <Link href="/events/calendar/">カレンダー形式で見る</Link>
           </p>
@@ -98,7 +131,16 @@ const Page = () => {
               title={
                 <>
                   {fmtMonthLabel(ym)}
-                  <span className="today-month-count">（{events.length}件）</span>
+                  <span
+                    style={{
+                      color: "#8a6f63",
+                      fontSize: "0.875rem",
+                      fontWeight: "400",
+                      marginLeft: "0.375rem",
+                    }}
+                  >
+                    （{events.length}件）
+                  </span>
                 </>
               }
             >
@@ -120,7 +162,16 @@ const Page = () => {
         )}
 
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
-          <ul className="today-related">
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
               <Link href="/events/today/" className="today-related__link">
                 今日のイベント →
@@ -132,7 +183,10 @@ const Page = () => {
               </Link>
             </li>
             <li>
-              <Link href="/events/this-weekend/" className="today-related__link">
+              <Link
+                href="/events/this-weekend/"
+                className="today-related__link"
+              >
                 今週末のイベント →
               </Link>
             </li>

@@ -27,11 +27,11 @@ const Page = () => {
   const today = new Date().toISOString().slice(0, 10)
 
   const allPopup = getAllArticles().filter(
-    (a) => a.event && a.tagIds.some((tid) => POPUP_TAG_IDS.includes(tid)),
+    (a) => a.event && a.tagIds.some((tid) => POPUP_TAG_IDS.includes(tid))
   )
 
   const ongoing = allPopup.filter(
-    (a) => a.event!.startDate <= today && a.event!.endDate >= today,
+    (a) => a.event!.startDate <= today && a.event!.endDate >= today
   )
   const upcoming = allPopup.filter((a) => a.event!.startDate > today)
 
@@ -42,9 +42,24 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "イベント", item: absoluteUrl("/events/") },
-        { "@type": "ListItem", position: 3, name: "POPUPストア特集", item: pageUrl },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "ホーム",
+          item: absoluteUrl("/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "イベント",
+          item: absoluteUrl("/events/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "POPUPストア特集",
+          item: pageUrl,
+        },
       ],
     },
     {
@@ -90,10 +105,18 @@ const Page = () => {
           addressCountry: "JP",
         },
       },
-      organizer: { "@type": "Organization", name: "アキバLive", url: absoluteUrl("/") },
+      organizer: {
+        "@type": "Organization",
+        name: "アキバLive",
+        url: absoluteUrl("/"),
+      },
       performer: a.event!.performer
         ? { "@type": "PerformingGroup", name: a.event!.performer }
-        : { "@type": "Organization", name: "アキバLive", url: absoluteUrl("/") },
+        : {
+            "@type": "Organization",
+            name: "アキバLive",
+            url: absoluteUrl("/"),
+          },
     })),
   ]
 
@@ -103,7 +126,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="events-page">
+      <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb
           items={[
             { label: "ホーム", href: "/" },
@@ -112,9 +135,25 @@ const Page = () => {
           ]}
         />
 
-        <header className="events-page__header">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">Popup Store in Akihabara</p>
-          <h1 className="events-page__title">秋葉原ポップアップストア一覧【開催中・予定】</h1>
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            秋葉原ポップアップストア一覧【開催中・予定】
+          </h1>
         </header>
 
         <p className="today-lead">
@@ -129,7 +168,9 @@ const Page = () => {
           title={`開催中のポップアップストア（${ongoing.length}件）`}
         >
           {ongoing.length === 0 ? (
-            <p className="events-page__empty">今開催中のポップアップストアはないみたい。</p>
+            <p className="events-page__empty">
+              今開催中のポップアップストアはないみたい。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {ongoing.map((a) => (
@@ -156,7 +197,9 @@ const Page = () => {
           title={`開催予定のポップアップストア（${upcoming.length}件）`}
         >
           {upcoming.length === 0 ? (
-            <p className="events-page__empty">今のところ開催予定のポップアップストアはなし。</p>
+            <p className="events-page__empty">
+              今のところ開催予定のポップアップストアはなし。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {upcoming.map((a) => (
@@ -183,7 +226,16 @@ const Page = () => {
         )}
 
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
-          <ul className="today-related">
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              listStyle: "none",
+              margin: "0",
+              padding: "0",
+            }}
+          >
             <li>
               <Link href="/events/today/" className="today-related__link">
                 今日のイベント →

@@ -17,19 +17,42 @@ const Page = () => {
   const months = getAllMonths()
 
   return (
-    <section className="home-articles" aria-labelledby="articles-page-title">
+    <section
+      style={{ margin: "0 auto", maxWidth: "1080px" }}
+      aria-labelledby="articles-page-title"
+    >
       <div className="home-articles__header">
         <p className="home-articles__kicker">News diary</p>
         <h1 id="articles-page-title" className="home-articles__title">
           月別記事一覧
         </h1>
       </div>
-      <ul className="article-month-list">
+      <ul
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "0.5rem",
+          listStyle: "none",
+          margin: "0",
+          padding: "0",
+        }}
+      >
         {months.map(({ month, label, count }) => (
           <li key={month}>
-            <Link href={`/articles/month/${month}/`} className="article-month-list__link">
+            <Link
+              href={`/articles/month/${month}/`}
+              className="article-month-list__link"
+            >
               <span className="article-month-list__label">{label}</span>
-              <span className="article-month-list__count">{count}件</span>
+              <span
+                style={{
+                  color: "#6b7f7a",
+                  fontSize: "0.875rem",
+                  fontWeight: "400",
+                }}
+              >
+                {count}件
+              </span>
             </Link>
           </li>
         ))}

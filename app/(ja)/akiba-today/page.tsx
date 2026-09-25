@@ -51,8 +51,18 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "今日の秋葉原", item: pageUrl },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "ホーム",
+          item: absoluteUrl("/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "今日の秋葉原",
+          item: pageUrl,
+        },
       ],
     },
     {
@@ -74,18 +84,43 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="events-page akiba-today-page">
-        <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "今日の秋葉原" }]} />
+      <div
+        className="akiba-today-page"
+        style={{ margin: "0 auto", maxWidth: "1080px" }}
+      >
+        <Breadcrumb
+          items={[{ label: "ホーム", href: "/" }, { label: "今日の秋葉原" }]}
+        />
 
-        <header className="events-page__header">
+        <header
+          style={{
+            borderBottom: "1px solid rgba(96, 120, 111, 0.16)",
+            margin: "0 0 1.5rem",
+            padding: "2.5rem 0 0.875rem",
+          }}
+        >
           <p className="events-page__kicker">Akiba Today</p>
-          <h1 className="events-page__title">今日の秋葉原まとめ</h1>
+          <h1
+            style={{
+              color: "#24312f",
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              lineHeight: "1.4",
+              margin: "0",
+            }}
+          >
+            今日の秋葉原まとめ
+          </h1>
           <p className="today-lead">
-            {todayLabel}時点の開催中イベント、新着ニュース、今週の予定をまとめて確認。
+            {todayLabel}
+            時点の開催中イベント、新着ニュース、今週の予定をまとめて確認。
           </p>
         </header>
 
-        <nav className="akiba-today-links" aria-label="今日の秋葉原ショートカット">
+        <nav
+          className="akiba-today-links"
+          aria-label="今日の秋葉原ショートカット"
+        >
           <Link href="/events/today/">今日開催イベント</Link>
           <Link href="/events/this-week/">今週のイベント</Link>
           <Link href="/articles/">新着記事</Link>
@@ -98,7 +133,9 @@ const Page = () => {
           title={`今日開催中のイベント（${ongoingEvents.length}件）`}
         >
           {ongoingEvents.length === 0 ? (
-            <p className="events-page__empty">今日開催中のイベントはありません。</p>
+            <p className="events-page__empty">
+              今日開催中のイベントはありません。
+            </p>
           ) : (
             <>
               <ul className="events-list events-list--grid">
@@ -127,7 +164,9 @@ const Page = () => {
           title={`終了間近のイベント（${endingSoonEvents.length}件）`}
         >
           {endingSoonEvents.length === 0 ? (
-            <p className="events-page__empty">3日以内に終了するイベントはありません。</p>
+            <p className="events-page__empty">
+              3日以内に終了するイベントはありません。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {endingSoonEvents.slice(0, 6).map((a) => (
@@ -151,7 +190,9 @@ const Page = () => {
           title={`今週始まるイベント（${upcomingEvents.length}件）`}
         >
           {upcomingEvents.length === 0 ? (
-            <p className="events-page__empty">今週開始予定のイベントはありません。</p>
+            <p className="events-page__empty">
+              今週開始予定のイベントはありません。
+            </p>
           ) : (
             <ul className="events-list events-list--grid">
               {upcomingEvents.slice(0, 6).map((a) => (
@@ -169,13 +210,20 @@ const Page = () => {
           )}
         </EventSection>
 
-        <EventSection id="latest-news-heading" kicker="Latest" title="秋葉原の新着ニュース">
+        <EventSection
+          id="latest-news-heading"
+          kicker="Latest"
+          title="秋葉原の新着ニュース"
+        >
           <ul className="article-list">
             {latestArticles.map((article) => {
               const image = getArticleImage(article)
               return (
                 <li key={article.id}>
-                  <Link href={`/articles/${article.slug}/`} className="article-card-link">
+                  <Link
+                    href={`/articles/${article.slug}/`}
+                    className="article-card-link"
+                  >
                     <article className="article-card">
                       <img
                         src={image.src}
@@ -187,7 +235,10 @@ const Page = () => {
                         decoding="async"
                       />
                       <h3 className="article-card__title">{article.title}</h3>
-                      <time className="article-card__date" dateTime={article.publishedAt}>
+                      <time
+                        className="article-card__date"
+                        dateTime={article.publishedAt}
+                      >
                         {formatDate(article.publishedAt)}
                       </time>
                     </article>

@@ -55,7 +55,14 @@ export function ArticleImagePreview({ src, alt, width, height }: Props) {
         >
           <button
             type="button"
-            className="article-image-preview__backdrop"
+            style={{
+              background: "transparent",
+              border: "0",
+              cursor: "zoom-out",
+              inset: "0",
+              padding: "0",
+              position: "absolute",
+            }}
             onClick={() => setIsOpen(false)}
             aria-label="画像プレビューを閉じる"
           />
@@ -67,11 +74,7 @@ export function ArticleImagePreview({ src, alt, width, height }: Props) {
           >
             閉じる
           </button>
-          <img
-            src={src}
-            alt={alt}
-            className="article-image-preview__image"
-          />
+          <img src={src} alt={alt} className="article-image-preview__image" />
         </div>
       )}
     </>

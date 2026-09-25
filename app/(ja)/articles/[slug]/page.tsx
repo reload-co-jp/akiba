@@ -99,8 +99,12 @@ const Page = async ({ params }: Props) => {
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const relatedSpot = getSpotForArticle(article)
   const spotPoint =
-    relatedSpot?.lat && relatedSpot.lng ? { lat: relatedSpot.lat, lng: relatedSpot.lng } : undefined
-  const venuePoint = article.event ? (spotPoint ?? getVenuePoint(article.event.venue)) : undefined
+    relatedSpot?.lat && relatedSpot.lng
+      ? { lat: relatedSpot.lat, lng: relatedSpot.lng }
+      : undefined
+  const venuePoint = article.event
+    ? (spotPoint ?? getVenuePoint(article.event.venue))
+    : undefined
   const primaryTag = article.tagIds.map((tid) => getTagById(tid)).find(Boolean)
   const nextLinks = [
     article.event
@@ -138,7 +142,10 @@ const Page = async ({ params }: Props) => {
           label: "月別アーカイブ",
           description: "過去の秋葉原ニュースを月ごとに探す",
         },
-  ].filter((link): link is { href: string; label: string; description: string } => link != null)
+  ].filter(
+    (link): link is { href: string; label: string; description: string } =>
+      link != null
+  )
   // Inline CTA (right after the body) reuses the same link set as the
   // end-of-article "next steps" section, just trimmed and without the
   // description — avoids showing two different-looking link lists for the
@@ -172,7 +179,9 @@ const Page = async ({ params }: Props) => {
     ? {
         "@type": "Place",
         name: article.event.venue,
-        ...(relatedSpot ? { url: absoluteUrl(`/spots/${relatedSpot.slug}/`) } : {}),
+        ...(relatedSpot
+          ? { url: absoluteUrl(`/spots/${relatedSpot.slug}/`) }
+          : {}),
         ...(relatedSpot?.website ? { sameAs: relatedSpot.website } : {}),
         address: {
           "@type": "PostalAddress",
@@ -268,7 +277,13 @@ const Page = async ({ params }: Props) => {
           availability: "https://schema.org/InStock",
           ...(article.event.price === "無料"
             ? { price: "0", priceCurrency: "JPY" }
-            : { priceSpecification: { "@type": "PriceSpecification", priceCurrency: "JPY", description: article.event.price } }),
+            : {
+                priceSpecification: {
+                  "@type": "PriceSpecification",
+                  priceCurrency: "JPY",
+                  description: article.event.price,
+                },
+              }),
         },
         organizer: {
           "@type": "Organization",
@@ -277,7 +292,11 @@ const Page = async ({ params }: Props) => {
         },
         performer: article.event.performer
           ? { "@type": "PerformingGroup", name: article.event.performer }
-          : { "@type": "Organization", name: "アキバLive", url: absoluteUrl("/") },
+          : {
+              "@type": "Organization",
+              name: "アキバLive",
+              url: absoluteUrl("/"),
+            },
       }
     : null
 
@@ -320,7 +339,15 @@ const Page = async ({ params }: Props) => {
         style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}
       >
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
@@ -393,7 +420,7 @@ const Page = async ({ params }: Props) => {
           {formatDateTime(article)}
         </time>
 
-        <div className="article-save-row">
+        <div style={{ display: "flex", margin: "0 0 1.25rem" }}>
           <WantToGoButton
             article={{
               id: article.id,
@@ -481,7 +508,10 @@ const Page = async ({ params }: Props) => {
               <dt style={{ color: "#8a6f63" }}>会場</dt>
               <dd style={{ color: "#24312f", margin: 0 }}>
                 {relatedSpot ? (
-                  <Link href={`/spots/${relatedSpot.slug}/`} style={{ color: "#b94a3a" }}>
+                  <Link
+                    href={`/spots/${relatedSpot.slug}/`}
+                    style={{ color: "#b94a3a" }}
+                  >
                     {article.event.venue}
                   </Link>
                 ) : (
@@ -518,7 +548,9 @@ const Page = async ({ params }: Props) => {
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
 
-        {article.editorComment && <EditorCommentBlock comment={article.editorComment} />}
+        {article.editorComment && (
+          <EditorCommentBlock comment={article.editorComment} />
+        )}
 
         {venuePoint && article.event && (
           <div style={{ marginBottom: "1.5rem" }}>
@@ -526,12 +558,19 @@ const Page = async ({ params }: Props) => {
               venue={article.event.venue}
               lat={venuePoint.lat}
               lng={venuePoint.lng}
-              query={relatedSpot?.address ? `${article.event.venue} ${relatedSpot.address}` : `${article.event.venue} 秋葉原`}
+              query={
+                relatedSpot?.address
+                  ? `${article.event.venue} ${relatedSpot.address}`
+                  : `${article.event.venue} 秋葉原`
+              }
             />
           </div>
         )}
 
-        <aside className="article-inline-cta" aria-labelledby="article-inline-cta-title">
+        <aside
+          className="article-inline-cta"
+          aria-labelledby="article-inline-cta-title"
+        >
           <div>
             <p className="home-articles__kicker">Next Action</p>
             <h2 id="article-inline-cta-title">次に行く場所を探す</h2>
@@ -617,14 +656,27 @@ const Page = async ({ params }: Props) => {
         )}
         <AdsenseFluidAd />
 
-        <section className="article-next-steps" aria-labelledby="article-next-steps-title">
+        <section
+          className="article-next-steps"
+          aria-labelledby="article-next-steps-title"
+        >
           <div>
             <p className="home-articles__kicker">Next</p>
             <h2 id="article-next-steps-title">次に見る</h2>
           </div>
-          <div className="article-next-steps__grid">
+          <div
+            style={{
+              display: "grid",
+              gap: "0.75rem",
+              gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+            }}
+          >
             {nextLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="article-next-steps__item">
+              <Link
+                key={link.href}
+                href={link.href}
+                className="article-next-steps__item"
+              >
                 <span>{link.label}</span>
                 <small>{link.description}</small>
               </Link>
@@ -637,7 +689,7 @@ const Page = async ({ params }: Props) => {
           aria-labelledby="article-tags-title"
         >
           <h2 id="article-tags-title">タグ</h2>
-          <div className="article-tags-nav__list">
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
             {article.tagIds.map((tid) => {
               const t = getTagById(tid)
               return t ? (

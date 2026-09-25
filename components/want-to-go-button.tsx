@@ -38,7 +38,10 @@ const writeSavedArticles = (articles: WantedArticle[]) => {
   memorySavedArticles = articles.slice(0, 100)
   try {
     if (typeof window.localStorage !== "undefined") {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(memorySavedArticles))
+      window.localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify(memorySavedArticles)
+      )
     }
   } catch {
     // localStorage may be blocked in previews; keep the in-memory state.
@@ -59,7 +62,7 @@ export const WantToGoButton = ({ article }: Props) => {
   const isSaved = useSyncExternalStore(
     subscribe,
     () => readSavedArticles().some((saved) => saved.slug === article.slug),
-    () => false,
+    () => false
   )
 
   const toggleSaved = () => {
@@ -81,7 +84,19 @@ export const WantToGoButton = ({ article }: Props) => {
       aria-pressed={isSaved}
       onClick={toggleSaved}
     >
-      <span className="want-to-go-button__icon" aria-hidden="true">
+      <span
+        style={{
+          alignItems: "center",
+          border: "1px solid currentColor",
+          borderRadius: "999px",
+          display: "inline-flex",
+          height: "1.25rem",
+          justifyContent: "center",
+          lineHeight: "1",
+          width: "1.25rem",
+        }}
+        aria-hidden="true"
+      >
         {isSaved ? "✓" : "+"}
       </span>
       <span>{isSaved ? "行きたい保存済み" : "行きたいに保存"}</span>

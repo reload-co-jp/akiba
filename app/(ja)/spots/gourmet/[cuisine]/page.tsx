@@ -27,7 +27,8 @@ export const generateStaticParams = () =>
     .filter((cuisine) => !HAND_BUILT_CUISINES.includes(cuisine))
     .map((cuisine) => ({ cuisine }))
 
-const buildTitle = (cuisine: string) => `秋葉原の${getCuisineLabel(cuisine)}一覧`
+const buildTitle = (cuisine: string) =>
+  `秋葉原の${getCuisineLabel(cuisine)}一覧`
 
 const buildDescription = (cuisine: string, count: number) =>
   `秋葉原エリアの${getCuisineLabel(cuisine)}を${count}件掲載。住所・営業時間つきで、電気街周辺で食事や休憩ができる店を探せます。`
@@ -117,7 +118,12 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
       {
         "@type": "ListItem",
         position: 2,
@@ -138,11 +144,23 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript([jsonLd, breadcrumbLd]) }}
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript([jsonLd, breadcrumbLd]),
+        }}
       />
-      <section style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}>
+      <section
+        style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem 0" }}
+      >
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
@@ -175,7 +193,15 @@ const Page = async ({ params }: Props) => {
 
         <GourmetSpotList spots={spots} />
 
-        <nav aria-label="ほかのジャンル" className="gourmet-cuisine-nav">
+        <nav
+          aria-label="ほかのジャンル"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.5rem",
+            margin: "0 0 2rem",
+          }}
+        >
           {otherCuisines.map((other) => (
             <Link
               key={other}

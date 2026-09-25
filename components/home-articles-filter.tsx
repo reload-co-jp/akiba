@@ -44,7 +44,10 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
   const visibleArticles = articles.slice(0, 12)
 
   return (
-    <section className="home-articles" aria-labelledby="home-articles-title">
+    <section
+      style={{ margin: "0 auto", maxWidth: "1080px" }}
+      aria-labelledby="home-articles-title"
+    >
       <div className="home-articles__header">
         <p className="home-articles__kicker">News diary</p>
         <h2 id="home-articles-title" className="home-articles__title">
@@ -59,7 +62,7 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
           return (
             <Fragment key={article.id}>
               {index === IN_LIST_AD_AFTER && (
-                <li className="article-list__ad" aria-label="広告">
+                <li style={{ gridColumn: "1 / -1" }} aria-label="広告">
                   <AdsenseInArticleAd />
                 </li>
               )}
@@ -117,7 +120,15 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
 
       <AdsenseFluidAd />
 
-      <section className="home-tags" aria-label="記事カテゴリ">
+      <section
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "0.75rem",
+          margin: "2.5rem 0 0",
+        }}
+        aria-label="記事カテゴリ"
+      >
         {tags.map(({ id, tag }) => (
           <Link key={id} href={`/tags/${id}/`} className="home-tags__item">
             {tag.name}

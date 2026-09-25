@@ -103,8 +103,18 @@ const Page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: `「${tag.name}」の記事`, item: tagUrl },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: `「${tag.name}」の記事`,
+        item: tagUrl,
+      },
     ],
   }
 
@@ -132,13 +142,24 @@ const Page = async ({ params }: Props) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
       />
-      <section className="home-articles">
+      <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <nav aria-label="パンくずリスト" className="breadcrumb">
-          <ol className="breadcrumb__list">
+          <ol
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "0.25rem",
+              listStyle: "none",
+              padding: "0",
+            }}
+          >
             <li className="breadcrumb__item">
               <Link href="/">ホーム</Link>
             </li>
-            <li className="breadcrumb__item breadcrumb__item--current" aria-current="page">
+            <li
+              className="breadcrumb__item breadcrumb__item--current"
+              aria-current="page"
+            >
               「{tag.name}」の記事
             </li>
           </ol>
@@ -150,7 +171,9 @@ const Page = async ({ params }: Props) => {
         {cuisine && (
           <p className="gourmet-lead">
             秋葉原で{tag.name}のお店を探すなら、
-            <Link href={`/spots/gourmet/${cuisine}/`}>秋葉原の{tag.name}一覧</Link>
+            <Link href={`/spots/gourmet/${cuisine}/`}>
+              秋葉原の{tag.name}一覧
+            </Link>
             もあわせてチェック。
           </p>
         )}
@@ -159,7 +182,10 @@ const Page = async ({ params }: Props) => {
             const image = getArticleImage(article)
             return (
               <li key={article.id}>
-                <Link href={`/articles/${article.slug}/`} className="article-card-link">
+                <Link
+                  href={`/articles/${article.slug}/`}
+                  className="article-card-link"
+                >
                   <article className="article-card">
                     <img
                       src={image.src}
@@ -174,14 +200,23 @@ const Page = async ({ params }: Props) => {
                       <div className="article-card__tags">
                         {article.tagIds.map((tid) => {
                           const t = getTagById(tid)
-                          return t ? <span key={tid} className={`article-card__tag ${getTagColorClass(t.name)}`}>{t.name}</span> : null
+                          return t ? (
+                            <span
+                              key={tid}
+                              className={`article-card__tag ${getTagColorClass(t.name)}`}
+                            >
+                              {t.name}
+                            </span>
+                          ) : null
                         })}
                       </div>
                       <h2 className="article-card__title">{article.title}</h2>
                       <p className="article-card__summary">{article.summary}</p>
                       <time
                         className="article-card__date"
-                        dateTime={getArticlePublishedDate(article).toISOString()}
+                        dateTime={getArticlePublishedDate(
+                          article
+                        ).toISOString()}
                       >
                         {formatDate(article.publishedAt)}
                       </time>

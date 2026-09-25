@@ -12,7 +12,15 @@ type Props = {
 
 export const Breadcrumb = ({ items, ariaLabel = "パンくずリスト" }: Props) => (
   <nav className="breadcrumb" aria-label={ariaLabel}>
-    <ol className="breadcrumb__list">
+    <ol
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        gap: "0.25rem",
+        listStyle: "none",
+        padding: "0",
+      }}
+    >
       {items.map((item, i) =>
         item.href ? (
           <li key={i} className="breadcrumb__item">
@@ -22,7 +30,7 @@ export const Breadcrumb = ({ items, ariaLabel = "パンくずリスト" }: Props
           <li key={i} className="breadcrumb__item breadcrumb__item--current">
             {item.label}
           </li>
-        ),
+        )
       )}
     </ol>
   </nav>
