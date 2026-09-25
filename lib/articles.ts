@@ -1,6 +1,7 @@
 import articlesData from "../data/articles.json"
 import tagsData from "../data/tags.json"
 import type { EditorComment } from "./editor-comment"
+import { unique } from "./format"
 
 export * from "./authors"
 export type { EditorComment } from "./editor-comment"
@@ -74,15 +75,6 @@ export const getArticleTagNames = (article: Article): string[] =>
   article.tagIds.map((id) => getTagById(id)?.name ?? "").filter(Boolean)
 
 export const addAkihabaraSeoTitle = (title: string) => `【秋葉原】${title}`
-
-const unique = (items: Array<string | undefined>) =>
-  Array.from(
-    new Set(
-      items
-        .map((item) => item?.trim())
-        .filter((item): item is string => Boolean(item)),
-    ),
-  )
 
 export const getJapaneseSeoKeywords = (article: Article): string[] => {
   const tagNames = getArticleTagNames(article)
@@ -238,14 +230,6 @@ export const getArticleBySlug = (slug: string): Article | undefined => {
 
 export const formatDate = (date: string): string => date.replace(/-/g, ".")
 
-export const getArticlePublishedDate = (article: Article) => {
-  if (/^\d{4}-\d{2}-\d{2}$/.test(article.publishedAt)) {
-    return new Date(`${article.publishedAt}T00:00:00+09:00`)
-  }
-
-  return new Date(article.publishedAt)
-}
-
 export const getArticlePublishedIso = (article: Article) => {
   if (/^\d{4}-\d{2}-\d{2}$/.test(article.publishedAt)) {
     return `${article.publishedAt}T00:00:00+09:00`
@@ -253,6 +237,9 @@ export const getArticlePublishedIso = (article: Article) => {
 
   return article.publishedAt
 }
+
+export const getArticlePublishedDate = (article: Article) =>
+  new Date(getArticlePublishedIso(article))
 
 export const formatDateTime = (article: Article): string => {
   const date = getArticlePublishedDate(article)
@@ -290,6 +277,39 @@ export const getAllTags = (): Tag[] => {
     .map((id) => getTagById(id)!)
     .filter(Boolean)
     .sort((a, b) => a.name.localeCompare(b.name, "ja"))
+}
+
+/** Articles sharing the most tags with `article`, newest first on ties. */
+export const getRelatedArticles = (article: Article, lang: Lang, limit = 9): Article[] =>
+  getAllArticles()
+    .filter((candidate) => candidate.slug !== article.slug && (lang === "ja" || candidate.en))
+    .map((candidate) => ({
+      article: candidate,
+      matchingTagCount: candidate.tagIds.filter((id) => article.tagIds.includes(id)).length,
+    }))
+    .filter((candidate) => candidate.matchingTagCount > 0)
+    .sort(
+      (a, b) =>
+        b.matchingTagCount - a.matchingTagCount ||
+        new Date(b.article.publishedAt).getTime() - new Date(a.article.publishedAt).getTime(),
+    )
+    .slice(0, limit)
+    .map((candidate) => candidate.article)
+
+/** Article sources plus the image credit link, de-duplicated by URL. */
+export const getArticleLinkSources = (article: Article, imageSourceLabel: string) => {
+  const links = [
+    ...(article.sources ?? []),
+    ...(article.image?.sourceUrl
+      ? [{ label: article.image.sourceLabel ?? imageSourceLabel, url: article.image.sourceUrl }]
+      : []),
+  ]
+
+  return links.filter(
+    (source, index, sources) =>
+      source.url == null ||
+      sources.findIndex((candidate) => candidate.url === source.url) === index,
+  )
 }
 
 export const getArticlesByTagId = (id: number): Article[] => {
@@ -332,10 +352,7 @@ export const getAllMonths = (): ArticleMonth[] => {
   }
   return Array.from(map.entries())
     .sort((a, b) => b[0].localeCompare(a[0]))
-    .map(([month, count]) => {
-      const [year, m] = month.split("-")
-      return { month, label: `${year}年${parseInt(m)}月`, count }
-    })
+    .map(([month, count]) => ({ month, label: formatMonth(month), count }))
 }
 
 export const getArticlesByMonth = (month: string): Article[] => {
@@ -347,10 +364,14 @@ export const formatMonth = (month: string): string => {
   return `${year}年${parseInt(m)}月`
 }
 
+const addDays = (date: string, days: number): string => {
+  const d = new Date(date)
+  d.setDate(d.getDate() + days)
+  return d.toISOString().slice(0, 10)
+}
+
 export const getEndingSoonEvents = (today: string, days = 3): Article[] => {
-  const limit = new Date(today)
-  limit.setDate(limit.getDate() + days)
-  const limitStr = limit.toISOString().slice(0, 10)
+  const limitStr = addDays(today, days)
   return getAllArticles().filter(
     (a) => a.event && a.event.startDate <= today && a.event.endDate >= today && a.event.endDate <= limitStr,
   )
@@ -359,7 +380,7 @@ export const getEndingSoonEvents = (today: string, days = 3): Article[] => {
 export const getNextWeekendRange = (today: string): { start: string; end: string } => {
   const d = new Date(today)
   const day = d.getUTCDay() // 0=日,6=土
-  const satOffset = day === 6 ? 0 : day === 0 ? -1 : 6 - day
+  const satOffset = day === 0 ? -1 : 6 - day
   const sat = new Date(d)
   sat.setUTCDate(sat.getUTCDate() + satOffset)
   const sun = new Date(sat)
@@ -375,9 +396,7 @@ export const getWeekendEvents = (today: string): Article[] => {
 }
 
 export const getUpcomingThisWeekEvents = (today: string, days = 7): Article[] => {
-  const limit = new Date(today)
-  limit.setDate(limit.getDate() + days)
-  const limitStr = limit.toISOString().slice(0, 10)
+  const limitStr = addDays(today, days)
   return getAllArticles().filter(
     (a) => a.event && a.event.startDate > today && a.event.startDate <= limitStr,
   )

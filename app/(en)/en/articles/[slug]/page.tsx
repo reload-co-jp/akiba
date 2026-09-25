@@ -8,7 +8,8 @@ import { ArticleVenueMap } from "components/article-venue-map"
 import {
   formatDate,
   formatDateTime,
-  getAllArticles,
+  getArticleLinkSources,
+  getRelatedArticles,
   getEnglishSlugs,
   getArticleBySlug,
   getArticleImage,
@@ -29,21 +30,6 @@ import { getVenuePoint } from "lib/venue-points"
 
 type Props = {
   params: Promise<{ slug: string }>
-}
-
-const getArticleLinkSources = (article: NonNullable<ReturnType<typeof getArticleBySlug>>) => {
-  const links = [
-    ...(article.sources ?? []),
-    ...(article.image?.sourceUrl
-      ? [{ label: article.image.sourceLabel ?? "Image source", url: article.image.sourceUrl }]
-      : []),
-  ]
-
-  return links.filter(
-    (source, index, sources) =>
-      source.url == null ||
-      sources.findIndex((candidate) => candidate.url === source.url) === index,
-  )
 }
 
 export const generateStaticParams = () => {
@@ -111,22 +97,7 @@ const Page = async ({ params }: Props) => {
 
   const en = article.en
   const contentHtml = await marked(en.content)
-  const relatedArticles = getAllArticles()
-    .filter((candidate) => candidate.slug !== article.slug && candidate.en)
-    .map((candidate) => ({
-      article: candidate,
-      matchingTagCount: candidate.tagIds.filter((id) =>
-        article.tagIds.includes(id)
-      ).length,
-    }))
-    .filter((candidate) => candidate.matchingTagCount > 0)
-    .sort(
-      (a, b) =>
-        b.matchingTagCount - a.matchingTagCount ||
-        new Date(b.article.publishedAt).getTime() -
-          new Date(a.article.publishedAt).getTime()
-    )
-    .slice(0, 9)
+  const relatedArticles = getRelatedArticles(article, "en")
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const articleUrl = absoluteUrl(`/en/articles/${slug}/`)
@@ -139,12 +110,10 @@ const Page = async ({ params }: Props) => {
   const seoVenue = getEnglishEventVenue(article)
   const seoPrice = getEnglishEventPrice(article)
   const relatedSpot = article.event ? getSpotByVenueName(article.event.venue) : undefined
-  const venuePoint = article.event
-    ? relatedSpot?.lat && relatedSpot.lng
-      ? { lat: relatedSpot.lat, lng: relatedSpot.lng }
-      : getVenuePoint(article.event.venue)
-    : undefined
-  const articleLinkSources = getArticleLinkSources(article)
+  const spotPoint =
+    relatedSpot?.lat && relatedSpot.lng ? { lat: relatedSpot.lat, lng: relatedSpot.lng } : undefined
+  const venuePoint = article.event ? (spotPoint ?? getVenuePoint(article.event.venue)) : undefined
+  const articleLinkSources = getArticleLinkSources(article, "Image source")
   const sourceUrls = articleLinkSources
     .map((source) => source.url)
     .filter((url): url is string => Boolean(url))
@@ -515,45 +484,48 @@ const Page = async ({ params }: Props) => {
               </h2>
             </div>
             <ul className="article-list related-articles__list">
-              {relatedArticles.map(({ article: relatedArticle }) => (
-                <li key={relatedArticle.id}>
-                  <Link
-                    href={`/en/articles/${relatedArticle.slug}/`}
-                    className="article-card-link"
-                  >
-                    <article className="article-card">
-                      <img
-                        src={getArticleImage(relatedArticle).src}
-                        alt={getArticleImage(relatedArticle).alt}
-                        width={getArticleImage(relatedArticle).width}
-                        height={getArticleImage(relatedArticle).height}
-                        className="article-card__image"
-                        loading="lazy"
-                        decoding="async"
-                      />
-                      <div className="article-card__tags">
-                        {relatedArticle.tagIds.map((tid) => {
-                          const t = getTagById(tid)
-                          return t ? (
-                            <span key={tid} className="article-card__tag">
-                              {getTagEnName(t)}
-                            </span>
-                          ) : null
-                        })}
-                      </div>
-                      <h3 className="article-card__title">
-                        {relatedArticle.en!.title}
-                      </h3>
-                      <time
-                        className="article-card__date"
-                        dateTime={relatedArticle.publishedAt}
-                      >
-                        {formatDate(relatedArticle.publishedAt)}
-                      </time>
-                    </article>
-                  </Link>
-                </li>
-              ))}
+              {relatedArticles.map((relatedArticle) => {
+                const image = getArticleImage(relatedArticle)
+                return (
+                  <li key={relatedArticle.id}>
+                    <Link
+                      href={`/en/articles/${relatedArticle.slug}/`}
+                      className="article-card-link"
+                    >
+                      <article className="article-card">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          width={image.width}
+                          height={image.height}
+                          className="article-card__image"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                        <div className="article-card__tags">
+                          {relatedArticle.tagIds.map((tid) => {
+                            const t = getTagById(tid)
+                            return t ? (
+                              <span key={tid} className="article-card__tag">
+                                {getTagEnName(t)}
+                              </span>
+                            ) : null
+                          })}
+                        </div>
+                        <h3 className="article-card__title">
+                          {relatedArticle.en!.title}
+                        </h3>
+                        <time
+                          className="article-card__date"
+                          dateTime={relatedArticle.publishedAt}
+                        >
+                          {formatDate(relatedArticle.publishedAt)}
+                        </time>
+                      </article>
+                    </Link>
+                  </li>
+                )
+              })}
             </ul>
           </section>
         )}

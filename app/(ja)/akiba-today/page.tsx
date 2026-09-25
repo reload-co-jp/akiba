@@ -171,27 +171,30 @@ const Page = () => {
 
         <EventSection id="latest-news-heading" kicker="Latest" title="秋葉原の新着ニュース">
           <ul className="article-list">
-            {latestArticles.map((article) => (
-              <li key={article.id}>
-                <Link href={`/articles/${article.slug}/`} className="article-card-link">
-                  <article className="article-card">
-                    <img
-                      src={getArticleImage(article).src}
-                      alt={getArticleImage(article).alt}
-                      width={getArticleImage(article).width}
-                      height={getArticleImage(article).height}
-                      className="article-card__image"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <h3 className="article-card__title">{article.title}</h3>
-                    <time className="article-card__date" dateTime={article.publishedAt}>
-                      {formatDate(article.publishedAt)}
-                    </time>
-                  </article>
-                </Link>
-              </li>
-            ))}
+            {latestArticles.map((article) => {
+              const image = getArticleImage(article)
+              return (
+                <li key={article.id}>
+                  <Link href={`/articles/${article.slug}/`} className="article-card-link">
+                    <article className="article-card">
+                      <img
+                        src={image.src}
+                        alt={image.alt}
+                        width={image.width}
+                        height={image.height}
+                        className="article-card__image"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <h3 className="article-card__title">{article.title}</h3>
+                      <time className="article-card__date" dateTime={article.publishedAt}>
+                        {formatDate(article.publishedAt)}
+                      </time>
+                    </article>
+                  </Link>
+                </li>
+              )
+            })}
           </ul>
           <Link href="/articles/" className="akiba-today-more">
             新着記事をもっと見る →

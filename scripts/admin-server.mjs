@@ -32,9 +32,9 @@ const IMAGE_CONTENT_TYPES = {
 const FILES = {
   articles: path.join(DATA_DIR, "articles.json"),
   spots: path.join(DATA_DIR, "spots.json"),
+  authors: path.join(DATA_DIR, "authors.json"),
+  tags: path.join(DATA_DIR, "tags.json"),
 }
-const AUTHORS_FILE = path.join(DATA_DIR, "authors.json")
-const TAGS_FILE = path.join(DATA_DIR, "tags.json")
 
 const readJson = async (type) => JSON.parse(await readFile(FILES[type], "utf8"))
 const writeJson = async (type, data) =>
@@ -781,7 +781,7 @@ const server = createServer(async (req, res) => {
     }
 
     if (req.method === "GET" && url.pathname === "/api/authors") {
-      const authors = JSON.parse(await readFile(AUTHORS_FILE, "utf8"))
+      const authors = await readJson("authors")
       sendJson(res, 200, authors)
       return
     }
@@ -790,7 +790,7 @@ const server = createServer(async (req, res) => {
       const type = url.searchParams.get("type")
       if (type !== "articles" && type !== "spots") return sendJson(res, 400, { error: "invalid type" })
       const data = await readJson(type)
-      const tags = JSON.parse(await readFile(TAGS_FILE, "utf8"))
+      const tags = await readJson("tags")
       const tagsById = new Map(tags.map((t) => [t.id, t.name]))
       sendJson(
         res,

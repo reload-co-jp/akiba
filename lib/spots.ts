@@ -1,5 +1,6 @@
 import spotsData from "../data/spots.json"
 import type { EditorComment } from "./editor-comment"
+import { unique } from "./format"
 
 export type SpotCategory = "電気街・PCパーツ" | "アニメ・マンガ・同人" | "ゲーム・フィギュア" | "グルメ・カフェ" | "ショッピング" | "フィギュア・模型" | "イベント・ライブ"
 
@@ -86,15 +87,6 @@ export const placeholderSpotImage = {
 }
 
 export const getSpotImage = (spot: Spot) => spot.image ?? placeholderSpotImage
-
-const unique = (items: Array<string | undefined>) =>
-  Array.from(
-    new Set(
-      items
-        .map((item) => item?.trim())
-        .filter((item): item is string => Boolean(item)),
-    ),
-  )
 
 export const getSpotSeoKeywords = (spot: Spot): string[] => {
   const features = [spot.category, ...(spot.tags ?? [])]
@@ -379,16 +371,4 @@ export const getSpotForArticle = (article: {
     const names = [spot.name, ...(spot.aliases ?? [])]
     return names.some((name) => name.length >= 3 && text.includes(name))
   })
-}
-
-export const getLocalizedSpotContent = (spot: Spot, lang: "ja" | "en"): SpotLocalizedContent => {
-  if (lang === "en" && spot.en) return spot.en
-  return {
-    name: spot.name,
-    description: spot.description,
-    access: spot.access,
-    hours: spot.hours,
-    closed: spot.closed,
-    admission: spot.admission,
-  }
 }

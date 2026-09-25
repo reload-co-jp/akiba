@@ -192,33 +192,36 @@ const Page = () => {
           <>
             <h2 className="ramen-lp-section-title">ラーメン関連の新着ニュース</h2>
             <ul className="article-list">
-              {relatedArticles.map((article) => (
-                <li key={article.id}>
-                  <Link href={`/articles/${article.slug}/`} className="article-card-link">
-                    <article className="article-card">
-                      <img
-                        src={getArticleImage(article).src}
-                        alt={getArticleImage(article).alt}
-                        width={getArticleImage(article).width}
-                        height={getArticleImage(article).height}
-                        className="article-card__image"
-                        loading="lazy"
-                        decoding="async"
-                      />
-                      <div className="article-card__body">
-                        <h3 className="article-card__title">{article.title}</h3>
-                        <p className="article-card__summary">{article.summary}</p>
-                        <time
-                          className="article-card__date"
-                          dateTime={getArticlePublishedDate(article).toISOString()}
-                        >
-                          {formatDate(article.publishedAt)}
-                        </time>
-                      </div>
-                    </article>
-                  </Link>
-                </li>
-              ))}
+              {relatedArticles.map((article) => {
+                const image = getArticleImage(article)
+                return (
+                  <li key={article.id}>
+                    <Link href={`/articles/${article.slug}/`} className="article-card-link">
+                      <article className="article-card">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          width={image.width}
+                          height={image.height}
+                          className="article-card__image"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                        <div className="article-card__body">
+                          <h3 className="article-card__title">{article.title}</h3>
+                          <p className="article-card__summary">{article.summary}</p>
+                          <time
+                            className="article-card__date"
+                            dateTime={getArticlePublishedDate(article).toISOString()}
+                          >
+                            {formatDate(article.publishedAt)}
+                          </time>
+                        </div>
+                      </article>
+                    </Link>
+                  </li>
+                )
+              })}
             </ul>
           </>
         )}

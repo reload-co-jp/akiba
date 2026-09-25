@@ -29,25 +29,28 @@ export function HomeNewsCarousel({ articles }: { articles: Article[] }) {
         ‹
       </button>
       <ul className="home-carousel__track" ref={trackRef}>
-        {articles.map((article) => (
-          <li key={article.id} className="home-carousel__item">
-            <Link
-              href={`/articles/${article.slug}/`}
-              className="home-carousel__link"
-            >
-              <img
-                src={getArticleImage(article).src}
-                alt={getArticleImage(article).alt}
-                width={getArticleImage(article).width}
-                height={getArticleImage(article).height}
-                className="home-carousel__image"
-                loading="eager"
-                decoding="async"
-              />
-              <span className="home-carousel__title">{article.title}</span>
-            </Link>
-          </li>
-        ))}
+        {articles.map((article) => {
+          const image = getArticleImage(article)
+          return (
+            <li key={article.id} className="home-carousel__item">
+              <Link
+                href={`/articles/${article.slug}/`}
+                className="home-carousel__link"
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  width={image.width}
+                  height={image.height}
+                  className="home-carousel__image"
+                  loading="eager"
+                  decoding="async"
+                />
+                <span className="home-carousel__title">{article.title}</span>
+              </Link>
+            </li>
+          )
+        })}
       </ul>
       <button
         type="button"

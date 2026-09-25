@@ -117,43 +117,46 @@ const Page = async ({ params }: Props) => {
           <h1 className="home-articles__title">{enName}</h1>
         </div>
         <ul className="article-list">
-          {articles.map((article) => (
-            <li key={article.id}>
-              <Link href={`/en/articles/${article.slug}/`} className="article-card-link">
-                <article className="article-card">
-                  <img
-                    src={getArticleImage(article).src}
-                    alt={getArticleImage(article).alt}
-                    width={getArticleImage(article).width}
-                    height={getArticleImage(article).height}
-                    className="article-card__image"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  <div className="article-card__body">
-                    <div className="article-card__tags">
-                      {article.tagIds.map((tid) => {
-                        const t = getTagById(tid)
-                        return t ? (
-                          <span key={tid} className="article-card__tag">
-                            {getTagEnName(t)}
-                          </span>
-                        ) : null
-                      })}
+          {articles.map((article) => {
+            const image = getArticleImage(article)
+            return (
+              <li key={article.id}>
+                <Link href={`/en/articles/${article.slug}/`} className="article-card-link">
+                  <article className="article-card">
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      width={image.width}
+                      height={image.height}
+                      className="article-card__image"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <div className="article-card__body">
+                      <div className="article-card__tags">
+                        {article.tagIds.map((tid) => {
+                          const t = getTagById(tid)
+                          return t ? (
+                            <span key={tid} className="article-card__tag">
+                              {getTagEnName(t)}
+                            </span>
+                          ) : null
+                        })}
+                      </div>
+                      <h2 className="article-card__title">{article.en!.title}</h2>
+                      <p className="article-card__summary">{article.en!.summary}</p>
+                      <time
+                        className="article-card__date"
+                        dateTime={getArticlePublishedDate(article).toISOString()}
+                      >
+                        {formatDate(article.publishedAt)}
+                      </time>
                     </div>
-                    <h2 className="article-card__title">{article.en!.title}</h2>
-                    <p className="article-card__summary">{article.en!.summary}</p>
-                    <time
-                      className="article-card__date"
-                      dateTime={getArticlePublishedDate(article).toISOString()}
-                    >
-                      {formatDate(article.publishedAt)}
-                    </time>
-                  </div>
-                </article>
-              </Link>
-            </li>
-          ))}
+                  </article>
+                </Link>
+              </li>
+            )
+          })}
         </ul>
       </section>
     </>

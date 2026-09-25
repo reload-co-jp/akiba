@@ -130,6 +130,7 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
       >
         {pagedArticles.map((article, i) => {
           const localized = getLocalizedContent(article, lang)
+          const image = getArticleImage(article)
           return (
             <Fragment key={article.id}>
               <li>
@@ -139,10 +140,10 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
                 >
                   <article className="article-card">
                     <img
-                      src={getArticleImage(article).src}
-                      alt={getArticleImage(article).alt}
-                      width={getArticleImage(article).width}
-                      height={getArticleImage(article).height}
+                      src={image.src}
+                      alt={image.alt}
+                      width={image.width}
+                      height={image.height}
                       className="article-card__image"
                       loading="lazy"
                       decoding="async"

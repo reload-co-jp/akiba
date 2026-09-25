@@ -201,26 +201,29 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
             <p className="events-page__empty">この日のイベントはありません。</p>
           ) : (
             <ul className="cal__list">
-              {listedEvents.map((a) => (
-                <li key={a.id}>
-                  <Link href={`/articles/${a.slug}/`} className="cal__list-item">
-                    <img
-                      className="cal__list-image"
-                      src={getArticleImage(a).src}
-                      alt={getArticleImage(a).alt}
-                      width={getArticleImage(a).width}
-                      height={getArticleImage(a).height}
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <time className="cal__list-date" dateTime={a.event!.startDate}>
-                      {formatRange(a.event!.startDate, a.event!.endDate)}
-                    </time>
-                    <span className="cal__list-title">{a.title}</span>
-                    <span className="cal__list-venue">{a.event!.venue}</span>
-                  </Link>
-                </li>
-              ))}
+              {listedEvents.map((a) => {
+                const image = getArticleImage(a)
+                return (
+                  <li key={a.id}>
+                    <Link href={`/articles/${a.slug}/`} className="cal__list-item">
+                      <img
+                        className="cal__list-image"
+                        src={image.src}
+                        alt={image.alt}
+                        width={image.width}
+                        height={image.height}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <time className="cal__list-date" dateTime={a.event!.startDate}>
+                        {formatRange(a.event!.startDate, a.event!.endDate)}
+                      </time>
+                      <span className="cal__list-title">{a.title}</span>
+                      <span className="cal__list-venue">{a.event!.venue}</span>
+                    </Link>
+                  </li>
+                )
+              })}
             </ul>
           )}
           {hasMore && (

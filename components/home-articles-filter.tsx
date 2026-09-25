@@ -55,6 +55,7 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
       <ul className="article-list">
         {visibleArticles.map((article, index) => {
           const localized = getLocalizedContent(article, lang)
+          const image = getArticleImage(article)
           return (
             <Fragment key={article.id}>
               {index === IN_LIST_AD_AFTER && (
@@ -69,10 +70,10 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
                 >
                   <article className="article-card">
                     <img
-                      src={getArticleImage(article).src}
-                      alt={getArticleImage(article).alt}
-                      width={getArticleImage(article).width}
-                      height={getArticleImage(article).height}
+                      src={image.src}
+                      alt={image.alt}
+                      width={image.width}
+                      height={image.height}
                       className="article-card__image"
                       loading="lazy"
                       decoding="async"
