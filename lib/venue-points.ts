@@ -136,6 +136,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "ノーガホテル 秋葉原 東京": { lat: 35.6978, lng: 139.7714 },
   "Hey2（秋葉原）": { lat: 35.6989, lng: 139.7724 },
   "ソフマップAKIBA U-SHOP": { lat: 35.7015, lng: 139.7716 },
+  "ソフマップAKIBA パソコン・デジタル館": { lat: 35.7009, lng: 139.7711 },
   "KOSHA KOSHA AKIHABARA": { lat: 35.694, lng: 139.778 },
   "ブシロードクリエイティブストア秋葉原本店": { lat: 35.7001, lng: 139.7714 },
   "カラオケまねきねこ秋葉原電気街口店": { lat: 35.6986, lng: 139.7726 },

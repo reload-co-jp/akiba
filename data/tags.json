@@ -1313,5 +1313,30 @@
     "id": 275,
     "name": "ペルソナ",
     "nameEn": "Persona"
+  },
+  {
+    "id": 276,
+    "name": "ファイナルファンタジー",
+    "nameEn": "Final Fantasy"
+  },
+  {
+    "id": 277,
+    "name": "リコリス・リコイル",
+    "nameEn": "Lycoris Recoil"
+  },
+  {
+    "id": 278,
+    "name": "電撃文庫",
+    "nameEn": "Dengeki Bunko"
+  },
+  {
+    "id": 279,
+    "name": "ロジクール",
+    "nameEn": "Logicool"
+  },
+  {
+    "id": 280,
+    "name": "ソフマップ",
+    "nameEn": "Sofmap"
   }
 ]
