@@ -611,6 +611,10 @@ body {
   padding: 0;
 }
 
+.article-list__ad {
+  grid-column: 1 / -1;
+}
+
 .article-card-link {
   display: block;
   text-decoration: none;
