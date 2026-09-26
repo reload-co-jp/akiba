@@ -9,6 +9,7 @@ import {
 import {
   getCuisineLabel,
   getPagedCuisines,
+  getSpotImage,
   getSpotsByCuisine,
   hasDetailPage,
   sortGourmetSpots,
@@ -223,22 +224,20 @@ const Page = () => {
                     href={`/spots/${spot.slug}/`}
                     className="ramen-pick-card"
                   >
-                    {spot.image && (
-                      <img
-                        src={spot.image.src}
-                        alt={spot.image.alt}
-                        style={{
-                          aspectRatio: "4 / 3",
-                          display: "block",
-                          height: "auto",
-                          objectFit: "cover",
-                          width: "100%",
-                        }}
-                        loading="lazy"
-                        width={spot.image.width}
-                        height={spot.image.height}
-                      />
-                    )}
+                    <img
+                      src={getSpotImage(spot).src}
+                      alt={getSpotImage(spot).alt}
+                      style={{
+                        aspectRatio: "4 / 3",
+                        display: "block",
+                        height: "auto",
+                        objectFit: "cover",
+                        width: "100%",
+                      }}
+                      loading="lazy"
+                      width={getSpotImage(spot).width}
+                      height={getSpotImage(spot).height}
+                    />
                     <div style={{ padding: "0.75rem" }}>
                       <h3
                         style={{
