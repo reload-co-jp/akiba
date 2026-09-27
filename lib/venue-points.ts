@@ -23,6 +23,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "アキバプラザ": { lat: 35.7, lng: 139.7724 },
   "バンダイナムコ Cross Store アトレ秋葉原店": { lat: 35.6984, lng: 139.7731 },
   "秋葉原ダイビル": { lat: 35.6999, lng: 139.7729 },
+  "パセラAKIBAマルチエンターテインメント": { lat: 35.6978, lng: 139.7699 },
   "マーチエキュート神田万世橋": { lat: 35.6968, lng: 139.7705 },
   "ワテラス": { lat: 35.6977, lng: 139.7679 },
   "WATERRAS（ワテラス）": { lat: 35.6977, lng: 139.7679 },
