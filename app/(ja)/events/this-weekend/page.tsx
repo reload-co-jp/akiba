@@ -26,7 +26,9 @@ export const metadata = {
 }
 
 const Page = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const { start, end } = getNextWeekendRange(today)
   const weekendEvents = getWeekendEvents(today)
   const weekendLabel = `${fmtRange(start, end)}（土・日）`

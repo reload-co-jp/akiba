@@ -310,9 +310,19 @@ const Page = async ({ params }: Props) => {
         name: "ホーム",
         item: absoluteUrl("/"),
       },
+      ...(article.event
+        ? [
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "秋葉原イベント",
+              item: absoluteUrl("/events/"),
+            },
+          ]
+        : []),
       {
         "@type": "ListItem",
-        position: 2,
+        position: article.event ? 3 : 2,
         name: addAkihabaraSeoTitle(article.title),
         item: articleUrl,
       },

@@ -7,21 +7,24 @@ import { EventSection } from "components/event-section"
 import { absoluteUrl, siteName } from "lib/site"
 
 export const metadata = {
-  title: "秋葉原の開催中イベント一覧｜アニメ・ゲーム・コラボカフェ・POPUP",
+  title: "秋葉原イベント情報【開催中一覧】アニメ・ゲーム・コラボカフェ・POPUP",
   description:
-    "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
+    "秋葉原のイベント情報を毎日更新。今開催中のアニメ・ゲーム・コラボカフェ・POPUPストアを会場・期間・料金付きで一覧掲載。今日・今週末のイベントも探せます。",
   alternates: { canonical: "/events/" },
   openGraph: {
-    title: "秋葉原の開催中イベント一覧｜アニメ・ゲーム・コラボカフェ・POPUP",
+    title:
+      "秋葉原イベント情報【開催中一覧】アニメ・ゲーム・コラボカフェ・POPUP",
     description:
-      "秋葉原で現在開催中のイベントを一覧で紹介。アニメ・ゲーム・コラボカフェ・POPUPストアなど、今すぐ行けるイベントを会場・期間付きで掲載。",
+      "秋葉原のイベント情報を毎日更新。今開催中のアニメ・ゲーム・コラボカフェ・POPUPストアを会場・期間・料金付きで一覧掲載。今日・今週末のイベントも探せます。",
     url: "/events/",
     type: "website",
   },
 }
 
 const Page = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const events = getOngoingEvents(today)
   const pageUrl = absoluteUrl("/events/")
   const jsonLd = [
@@ -109,8 +112,13 @@ const Page = () => {
               margin: "0",
             }}
           >
-            開催中のイベント
+            秋葉原のイベント（開催中）
           </h1>
+          <p className="events-page__lead">
+            秋葉原・神田エリアで{today.replace(/-/g, "/")}時点で開催中のイベント
+            {events.length}
+            件を掲載。アニメ・ゲームのコラボカフェ、POPUPストア、展示会などを会場・期間付きで毎日更新しています。
+          </p>
           <div
             style={{
               alignItems: "center",

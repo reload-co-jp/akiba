@@ -36,7 +36,9 @@ export const metadata = {
 }
 
 const Page = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const ongoingEvents = getOngoingEvents(today).filter((a) => a.en)
   const upcomingEvents = getUpcomingThisWeekEvents(today, 7).filter((a) => a.en)
 

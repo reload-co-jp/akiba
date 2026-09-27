@@ -83,7 +83,9 @@ const FAQ_ITEMS = [
 ]
 
 export const generateMetadata = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const [, month, day] = today.split("-")
   const dateLabel = `${parseInt(month)}月${parseInt(day)}日`
   const ongoingCount = getOngoingEvents(today).length
@@ -103,7 +105,9 @@ export const generateMetadata = () => {
 }
 
 const Page = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const [year, month, day] = today.split("-")
   const todayLabel = `${year}年${parseInt(month)}月${parseInt(day)}日`
 

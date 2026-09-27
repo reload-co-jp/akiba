@@ -41,7 +41,9 @@ const RECENT_KEYWORD_WINDOW = 60
 
 const Page = () => {
   const articles = getAllArticles()
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
 
   const jsonLd = {
     "@context": "https://schema.org",

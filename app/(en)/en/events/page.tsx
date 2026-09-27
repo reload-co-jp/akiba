@@ -39,7 +39,9 @@ export const metadata = {
 }
 
 const Page = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const events = getOngoingEvents(today).filter((a) => a.en)
 
   const pageUrl = absoluteUrl("/en/events/")

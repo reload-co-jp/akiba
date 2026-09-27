@@ -47,7 +47,9 @@ const CATEGORY_GROUPS: Array<{ id: string; name: string; tagIds: number[] }> = [
 ]
 
 export const generateMetadata = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const [, month, day] = today.split("-")
   const dateLabel = `${parseInt(month)}/${parseInt(day)}`
   const ongoingCount = getOngoingEvents(today).filter((a) => a.en).length
@@ -77,7 +79,9 @@ export const generateMetadata = () => {
 }
 
 const Page = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const [year, month, day] = today.split("-")
   const todayLabel = `${year}/${parseInt(month)}/${parseInt(day)}`
 

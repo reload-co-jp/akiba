@@ -41,7 +41,9 @@ const fmtMonthLabel = (ym: string) => {
 }
 
 const Page = () => {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = new Date().toLocaleDateString("sv-SE", {
+    timeZone: "Asia/Tokyo",
+  })
   const currentMonth = today.slice(0, 7)
 
   const allEvents = getAllArticles().filter((a) => a.event != null && a.en)
