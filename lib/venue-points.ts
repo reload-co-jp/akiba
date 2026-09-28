@@ -149,6 +149,8 @@ export const venuePoints: Record<string, VenuePoint> = {
   "牛たんの檸檬 秋葉原店": { lat: 35.7013, lng: 139.7773 },
   "秋葉原集会所": { lat: 35.702, lng: 139.7716 },
   "レストラン1899お茶の水": { lat: 35.6977, lng: 139.7668 },
+  "GiGOのたい焼き秋葉原5号館": { lat: 35.6991, lng: 139.7719 },
+  "ビッグエコー秋葉原昭和通り口駅前店": { lat: 35.6986, lng: 139.7747 },
 }
 
 export const getVenuePoint = (venue: string): VenuePoint | undefined => {

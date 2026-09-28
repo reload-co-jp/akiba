@@ -1338,5 +1338,15 @@
     "id": 280,
     "name": "ソフマップ",
     "nameEn": "Sofmap"
+  },
+  {
+    "id": 281,
+    "name": "アオのハコ",
+    "nameEn": "Blue Box"
+  },
+  {
+    "id": 282,
+    "name": "ビッグエコー",
+    "nameEn": "Big Echo"
   }
 ]
