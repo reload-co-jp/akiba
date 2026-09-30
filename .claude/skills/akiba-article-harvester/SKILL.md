@@ -25,8 +25,8 @@ Use before `$event-article-writer` when asked "秋葉原の記事を作成", "�
 3. Build a candidate queue. Maximize verified candidates; don't cap at 5-10. Stop only when sources are exhausted or verification is blocked.
 4. Extract candidates clearly tied to Akihabara, adjacent Kanda/Ochanomizu/Iwamotocho, or venues the site already covers. Include both events and non-event local happenings.
 5. Dedupe the whole queue with `harvest.py dedup "<keyword|url>" ...` (see [Duplicate Check](#duplicate-check)) BEFORE deep fact-checking — most rejections happen here. Always include the discovery/confirmation source URL so dedup can compare against `sources[].url`.
-6. For each remaining candidate, delegate `harvest.py detail "<url>"` fetches to `web-scraper` (batch all URLs into one delegation): date/announcement timing, location, operator/organizer, price/user impact, reservation/ticket rules, image. Keep every source page used.
-7. Add all verified non-duplicate articles in one edit batch per `$event-article-writer`. Include official/reference links in `sources`. Set `authorId: 1` on every new article. Run `pnpm run validate:articles`, fix anything reported, then `pnpm build` once.
+6. For each remaining candidate, delegate `harvest.py detail "<url>"` fetches to `web-scraper` (batch all URLs into one delegation): date/announcement timing, location, operator/organizer, price/user impact, reservation/ticket rules, image. Keep every source page used. **Include confirmed duplicates in the same delegation as merge-checks** (see [Merge-Check Duplicates](#merge-check-duplicates)) — a duplicate is not done until its newer source has been compared against the existing article.
+7. Add all verified non-duplicate articles and all duplicate merges in one edit batch per `$event-article-writer`. Include official/reference links in `sources`. Set `authorId: 1` on every new article. Run `pnpm run validate:articles`, fix anything reported, then `pnpm build` once.
 
 ## Scraping Delegation
 
@@ -34,7 +34,7 @@ Fetching/extraction run on the cheap `web-scraper` agent (Haiku) — raw listing
 
 Delegate:
 - **Listing sweep** (step 2): one `Agent` call, `subagent_type: "web-scraper"`, `harvest.py list all` + X.com/news sources, returning each candidate as `{source_url, title, date_text}`.
-- **Detail confirmation** (step 6): one `Agent` call with all remaining candidate URLs, returning date/venue/price/official URL/image URL/summary per URL.
+- **Detail confirmation** (step 6): one `Agent` call with all remaining candidate URLs, returning date/venue/price/official URL/image URL/summary per URL. For duplicate merge-checks, pass the existing slug + newer source URL/title and ask for only NEW or CONFLICTING facts vs the existing article (the agent can read `data/articles.json` itself).
 
 Keep in main context (editorial/state-changing, not scraping): dedup + hold/reject decisions, `harvest.py exclude` logging, all `data/articles.json` edits, image placement, `validate:articles`, `pnpm build`.
 
@@ -131,10 +131,24 @@ Additional checks:
 - Compare source URLs/event IDs (WalkerPlus `/event/ar0313e.../`, LivePocket `/e/...`, Atre `/news/...`).
 - Treat `SOURCE URL MATCH` as an existing article unless the source page clearly changed to a different event — don't create a new article.
 - If the source URL doesn't match but the same item exists by title, slug/image token, venue/date, performer, campaign/product name, or official event ID, don't create another article.
-- On a duplicate, merge into the existing article: add any new source URL to `sources`, add newly confirmed facts to `summary`/`content`/`event` when useful, keep/replace the image only if better, preserve the existing slug unless the user asks to rename.
+- On a duplicate, always merge-check (see [Merge-Check Duplicates](#merge-check-duplicates)), then merge into the existing article: add any new source URL to `sources`, add newly confirmed facts to `summary`/`content`/`event` when useful, keep/replace the image only if better, preserve the existing slug unless the user asks to rename.
 - Dedupe `sources` by normalized URL: strip fragments, tracking params (`utm_*`, `fbclid`, `gclid`, etc.), trailing slashes, mobile/desktop variants.
 - Report merged duplicates under `重複`/`マージ` with the existing slug — not as skipped when source/content was added.
-- When harvesting many items, maintain a temporary ledger: `new`/`duplicate`/`hold`. Only `new` gets written.
+- When harvesting many items, maintain a temporary ledger: `new`/`merge`/`duplicate`/`hold`. `new` gets a new article; `merge` updates the existing article; `duplicate` = merge-checked with nothing new.
+- Keyword-only `TEXT MATCH` on a franchise/series name (e.g. `刀猫`, `ヒロアカ`) often hits a *different* past event of the same IP. Compare venue + dates; a different venue or run = `new`, not duplicate.
+- If dedup reveals two existing articles about the same event (same venue + dates), consolidate: keep the older slug, merge sources/facts from the newer one into it, delete the newer article and its image (`git rm`), and report it under `統合`.
+
+## Merge-Check Duplicates
+
+Duplicate candidates frequently carry newer info than the existing article (announcement first, details later): goods lineup/prices, menus, bonuses, added performers, ticket/reservation rules, hours, date/venue changes, official URLs. Every duplicate must be merge-checked before it is dropped.
+
+- Send every duplicate's newer source (URL, or exact title for gnews/ceek redirect rows) to `web-scraper` in the step 6 batch, with the existing slug.
+- Spot-check the agent's merge facts against the page text before writing (`harvest.py detail` or a keyword grep of the page) — agents have mixed up goods lists between two similar pop-ups in the same batch. Never add names/facts the page doesn't state.
+- Merge only facts confirmed by the source: update `summary`, `content`, `en.summary`/`en.content` in parallel, `event` (`price`, `performer`, dates, `reservation`), and replace placeholders like 「後日発表」/"To be announced" with the confirmed values.
+- If dates/venue changed, update `event` and state the change in content. If the newer source is a clearly different run (new dates/venue), treat as `new`.
+- Add the newer source to `sources` (dedupe by normalized URL; official first). Skip gnews/ceek redirect URLs — record the resolved article URL instead.
+- Don't bump `publishedAt`; don't rename the slug.
+- Nothing new → leave the article untouched and list it under `重複`.
 - Rerun the dedup batch once more right before final edits with the full selected list, to catch late duplicates.
 - Every `hold`/rejected candidate must be logged to `references/excluded-candidates.jsonl` via `harvest.py exclude` — see [Excluded Candidates Log](#excluded-candidates-log). This is what makes the next pass skip re-researching it.
 
@@ -173,7 +187,9 @@ If asked to add articles, implement directly.
 
 Keep the response compact:
 - `追加`: slugs created
-- `重複`: existing slugs or titles
+- `マージ`: existing slugs updated with newer info (what was added)
+- `統合`: duplicate existing articles consolidated (kept slug ← removed slug)
+- `重複`: existing slugs merge-checked with no new info
 - `保留`: reason (missing source, unclear venue, no image — each already logged to `references/excluded-candidates.jsonl`)
 - `確認`: `pnpm run validate:articles` and `pnpm build` result
 
