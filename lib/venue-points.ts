@@ -52,6 +52,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "ドン・キホーテ秋葉原": { lat: 35.700825, lng: 139.771852 },
   "トレカラウンジ": { lat: 35.7014, lng: 139.7712 },
   "AKIBAカルチャーズZONE 4階 カルポップ": { lat: 35.6995, lng: 139.7716 },
+  "AKIBAカルチャーズZONE": { lat: 35.6995, lng: 139.7716 },
   "あみあみ秋葉原ラジオ会館店": { lat: 35.6987, lng: 139.7715 },
   "秋葉原ラジオ会館": { lat: 35.6987, lng: 139.7715 },
   "STELLAMAP Cafe": { lat: 35.7005, lng: 139.7716 },
