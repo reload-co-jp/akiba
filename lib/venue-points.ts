@@ -76,6 +76,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "AKIHABARAゲーマーズ本店": { lat: 35.699, lng: 139.7714 },
   "ONKYO DIRECT ANIME STORE（音アニ1号店）": { lat: 35.7003, lng: 139.7716 },
   "壱角家 秋葉原東口店 / 秋葉原総本店": { lat: 35.6983, lng: 139.7729 },
+  "壱角家 秋葉原総本店": { lat: 35.6983, lng: 139.7729 },
   "ペットショップCoo&RIKU秋葉原店": { lat: 35.7011, lng: 139.7719 },
   "サンコー秋葉原総本店": { lat: 35.7018, lng: 139.7715 },
   "ダイドーリミテッドビル": { lat: 35.7013, lng: 139.7701 },

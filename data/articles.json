@@ -32109,6 +32109,10 @@
       {
         "label": "ASCII.jp",
         "url": "https://ascii.jp/elem/000/004/432/4432869/"
+      },
+      {
+        "label": "ASCII.jp（アキバクエストウォーク告知）",
+        "url": "https://ascii.jp/elem/000/004/439/4439254/"
       }
     ],
     "event": {
@@ -36925,5 +36929,264 @@
       144,
       74
     ]
+  },
+  {
+    "id": 930,
+    "title": "無料謎解き「アキバクエストウォーク」が10月10日に秋葉原で開催、GPS 9と同日",
+    "slug": "akibaquest-walk-gps9-akihabara-2026",
+    "summary": "秋葉原のPCパーツショップを巡ってキーワードを集める無料謎解きイベント「アキバクエストウォーク」が、2026年10月10日に開催。「TOKYO Gaming-PC STREET 9」の関連企画で、正解者にはイベント限定オリジナルタオルを配布する。",
+    "content": "## 概要\n\n秋葉原のPCパーツショップを巡る謎解きイベント「謎解き アキバクエストウォーク」が、2026年10月10日(土)に開催される。ASCIIが同日にLIFORK AKIHABARA IIで実施する「TOKYO Gaming-PC STREET 9（GPS 9）」の関連企画で、7月の「GPS 8」に続く開催。参加は無料。\n\n## 内容\n\nLIFORK AKIHABARA II内の受付で配布されるリーフレットに沿って、秋葉原の参加店舗に掲示されたポスターの謎を解き、キーワードを導き出す街歩き型イベント。正解者にはイベント限定のオリジナルタオルがプレゼントされる（なくなり次第終了）。各店舗のQRコードからヒントも確認できる。\n\n- 参加店舗: パソコン工房 秋葉原パーツ館、TSUKUMO eX.、ソフマップAKIBA パソコン・デジタル館、ドスパラ秋葉原本店、パソコンSHOPアークほか\n- 受付時間は2026年10月10日 13:00〜17:00\n- プレゼント交換場所はLIFORK AKIHABARA II内 受付\n\n## 開催情報\n\n- **日時**: 2026年10月10日(土) 13:00〜17:30予定\n- **会場**: LIFORK AKIHABARA II（東京都千代田区外神田3-13-2 秋葉原TMOビル）および秋葉原の参加PCショップ\n- **料金**: 参加無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 秋葉原のPCパーツショップを巡りたい方\n- 「TOKYO Gaming-PC STREET 9」とあわせて秋葉原を楽しみたい方\n- 家族で参加できる無料イベントを探している方",
+    "publishedAt": "2026-10-03",
+    "en": {
+      "title": "[Akihabara] Free Mystery Walk Akiba Quest Walk Returns on October 10 Alongside GPS 9",
+      "summary": "Akiba Quest Walk, a free mystery-solving event touring Akihabara PC parts shops, will be held on October 10, 2026, as part of TOKYO Gaming-PC STREET 9. Participants who solve the puzzle receive an event-limited original towel.",
+      "content": "## Overview\n\nAkiba Quest Walk, a mystery-solving event touring PC parts shops in Akihabara, will be held on Saturday, October 10, 2026. It is a related program of ASCII's TOKYO Gaming-PC STREET 9 (GPS 9), held the same day at LIFORK AKIHABARA II, following the July edition at GPS 8. Participation is free.\n\n## Highlights\n\nParticipants pick up a leaflet at the reception inside LIFORK AKIHABARA II, solve puzzles on posters displayed at participating Akihabara shops, and work out the keyword. Those who answer correctly receive an event-limited original towel while supplies last. Hints are available via QR codes at each shop.\n\n- Participating shops include Pasocon Kobo Akihabara Parts-kan, TSUKUMO eX., Sofmap AKIBA PC & Digital-kan, Dospara Akihabara Main Store, and PC SHOP Ark\n- Reception open 13:00-17:00 on October 10, 2026\n- Prizes are exchanged at the reception inside LIFORK AKIHABARA II\n\n## Event Details\n\n- **Date**: Saturday, October 10, 2026, 13:00-17:30 planned\n- **Venue**: LIFORK AKIHABARA II (Akihabara TMO Bldg., 3-13-2 Sotokanda, Chiyoda-ku, Tokyo) and participating PC shops in Akihabara\n- **Price**: Free\n- **Reservation**: Not required\n\n## Recommended For\n\n- Visitors who want to tour Akihabara PC parts shops\n- Those attending TOKYO Gaming-PC STREET 9\n- Families looking for a free weekend event"
+    },
+    "image": {
+      "src": "/images/articles/akibaquest-walk-gps9-akihabara-2026.png",
+      "alt": "「アキバクエストウォーク」の告知ビジュアル",
+      "sourceLabel": "ASCII.jp",
+      "sourceUrl": "https://ascii.jp/elem/000/004/439/4439254/",
+      "width": 1200,
+      "height": 800
+    },
+    "sources": [
+      {
+        "label": "ASCII.jp",
+        "url": "https://ascii.jp/elem/000/004/439/4439254/"
+      },
+      {
+        "label": "Ceek.jp News",
+        "url": "https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      74,
+      198,
+      207
+    ],
+    "event": {
+      "venue": "LIFORK AKIHABARA II",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "price": "参加無料",
+      "reservation": false
+    }
+  },
+  {
+    "id": 931,
+    "title": "「地球防衛軍5 for Nintendo Switch 2」発売記念 岡島信幸Pサイン会がヨドバシAkibaで10月8日開催",
+    "slug": "edf5-switch2-okajima-signing-yodobashi-akiba-2026",
+    "summary": "「地球防衛軍5 for Nintendo Switch 2」と「いいじゃん」プロデュースの関連グッズ発売を記念し、シリーズ総合プロデューサー・岡島信幸氏のサイン会が2026年10月8日にヨドバシカメラマルチメディアAkiba 6Fで開催される。",
+    "content": "## 概要\n\nディースリー・パブリッシャーは、Nintendo Switch 2用ソフト「地球防衛軍5 for Nintendo Switch 2」と、「いいじゃん」プロデュースの地球防衛軍関連グッズが2026年10月8日に発売されることを記念し、同日に「地球防衛軍」シリーズ総合プロデューサー・岡島信幸氏のサイン会をヨドバシカメラマルチメディアAkibaで開催する。\n\n## 参加方法\n\nヨドバシカメラマルチメディアAkibaで「地球防衛軍5 for Nintendo Switch 2」ソフト、または「いいじゃん」地球防衛軍関連グッズを3,000円（税込）以上購入した人に参加整理券を配布する。\n\n- ソフト価格: 8,778円（税込）\n- 「いいじゃん」プロデュースの関連グッズも10月8日から各店舗で販売開始\n\n## 開催情報\n\n- **日時**: 2026年10月8日(木) 19:00〜21:00\n- **会場**: ヨドバシカメラマルチメディアAkiba 6F ホビー イベントスペース\n- **参加条件**: 同店で対象ソフトまたは対象グッズ3,000円（税込）以上購入で整理券配布\n- **予約**: 不要（購入者への整理券制）\n\n## こんな人におすすめ\n\n- 「地球防衛軍」シリーズのファン\n- Switch 2版を発売日に購入予定の方",
+    "publishedAt": "2026-10-03",
+    "en": {
+      "title": "[Akihabara] Earth Defense Force 5 for Nintendo Switch 2 Producer Nobuyuki Okajima Signing at Yodobashi Akiba on October 8",
+      "summary": "To celebrate the release of Earth Defense Force 5 for Nintendo Switch 2 and related goods produced by Iijan, series general producer Nobuyuki Okajima will hold a signing event at Yodobashi Camera Multimedia Akiba 6F on October 8, 2026.",
+      "content": "## Overview\n\nD3 Publisher will hold a signing event with Earth Defense Force series general producer Nobuyuki Okajima at Yodobashi Camera Multimedia Akiba on October 8, 2026, the release day of Earth Defense Force 5 for Nintendo Switch 2 and related goods produced by Iijan.\n\n## How to Participate\n\nNumbered tickets are distributed to customers who purchase Earth Defense Force 5 for Nintendo Switch 2, or 3,000 yen (tax included) or more of Iijan Earth Defense Force goods, at Yodobashi Camera Multimedia Akiba.\n\n- Software price: 8,778 yen (tax included)\n- Iijan-produced goods also go on sale at stores from October 8\n\n## Event Details\n\n- **Date**: Thursday, October 8, 2026, 19:00-21:00\n- **Venue**: Yodobashi Camera Multimedia Akiba 6F Hobby Event Space\n- **Eligibility**: Numbered ticket with purchase of the target software or 3,000 yen+ of target goods at the store\n- **Reservation**: Not required (ticketed by purchase)\n\n## Recommended For\n\n- Fans of the Earth Defense Force series\n- Players buying the Switch 2 version on release day"
+    },
+    "image": {
+      "src": "/images/articles/edf5-switch2-okajima-signing-yodobashi-akiba-2026.jpg",
+      "alt": "「地球防衛軍5 for Nintendo Switch 2」関連ビジュアル",
+      "sourceLabel": "Gamer",
+      "sourceUrl": "https://www.gamer.ne.jp/news/202610020040/",
+      "width": 800,
+      "height": 533
+    },
+    "sources": [
+      {
+        "label": "Gamer ニュース",
+        "url": "https://www.gamer.ne.jp/news/202610020040/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      74,
+      86,
+      138,
+      207
+    ],
+    "event": {
+      "venue": "ヨドバシカメラ マルチメディアAkiba 6F ホビー イベントスペース",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-08",
+      "price": "対象商品購入で整理券配布",
+      "reservation": false
+    }
+  },
+  {
+    "id": 932,
+    "title": "『異世界旅行手帳 POP UP SHOP in あみあみ』があみあみ秋葉原フィギュアタワー店で10月18日まで開催",
+    "slug": "isekai-ryokou-techou-popup-amiami-akihabara-2026",
+    "summary": "『異世界旅行手帳 POP UP SHOP in あみあみ』が、あみあみ秋葉原フィギュアタワー店 8F イベントスペースで2026年10月2日から18日まで開催。一部商品の先行販売と、購入金額に応じたプラキット特典配布を実施する。",
+    "content": "## 概要\n\n大網株式会社は、『異世界旅行手帳 POP UP SHOP in あみあみ』を、あみあみ秋葉原フィギュアタワー店 8F イベントスペースで2026年10月2日(金)から10月18日(日)まで開催している。関連グッズの販売に加え、一部商品の先行販売を行う。\n\n## 購入特典\n\n- 対象商品を5,000円（税込）以上購入で「プラキット<カップ>」を1つプレゼント\n- 対象商品を10,000円（税込）以上購入で「プラキット<石剣>」を1つプレゼント\n\n## 開催情報\n\n- **期間**: 2026年10月2日(金)〜10月18日(日)\n- **会場**: あみあみ秋葉原フィギュアタワー店 8F イベントスペース\n- **料金**: 入場無料（商品は有料）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『異世界旅行手帳』のファン\n- 先行販売アイテムをいち早く手に入れたい方",
+    "publishedAt": "2026-10-03",
+    "en": {
+      "title": "[Akihabara] Isekai Ryokou Techou POP UP SHOP at AmiAmi Akihabara Figure Tower Through October 18",
+      "summary": "The Isekai Ryokou Techou POP UP SHOP in AmiAmi is being held at the 8F event space of AmiAmi Akihabara Figure Tower from October 2 to 18, 2026, with early sales of some items and plastic kit bonuses based on purchase amount.",
+      "content": "## Overview\n\nAmiami Co., Ltd. is holding the Isekai Ryokou Techou POP UP SHOP in AmiAmi at the 8F event space of AmiAmi Akihabara Figure Tower from Friday, October 2 to Sunday, October 18, 2026. In addition to related goods, some items are available ahead of general release.\n\n## Purchase Bonuses\n\n- Spend 5,000 yen (tax included) or more on eligible items to receive a \"Plastic Kit <Cup>\"\n- Spend 10,000 yen (tax included) or more to receive a \"Plastic Kit <Stone Sword>\"\n\n## Event Details\n\n- **Dates**: Friday, October 2 - Sunday, October 18, 2026\n- **Venue**: AmiAmi Akihabara Figure Tower 8F Event Space\n- **Price**: Free entry (goods sold separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of Isekai Ryokou Techou\n- Shoppers who want early-release items"
+    },
+    "image": {
+      "src": "/images/articles/isekai-ryokou-techou-popup-amiami-akihabara-2026.jpg",
+      "alt": "『異世界旅行手帳 POP UP SHOP in あみあみ』の告知ビジュアル",
+      "sourceLabel": "PR TIMES",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000003853.000025615.html",
+      "width": 1500,
+      "height": 2114
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000003853.000025615.html"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      33,
+      126,
+      129,
+      203,
+      207
+    ],
+    "event": {
+      "venue": "あみあみ秋葉原フィギュアタワー店 8F イベントスペース",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-18",
+      "price": "入場無料",
+      "reservation": false
+    }
+  },
+  {
+    "id": 933,
+    "title": "「ガールズ&パンツァー もっとらぶらぶ作戦です!」×HUBコラボがHUB秋葉原店ほかで10月16日から開催",
+    "slug": "girls-und-panzer-hub-akihabara-collabo-2026",
+    "summary": "「ガールズ&パンツァー もっとらぶらぶ作戦です!」と英国風パブHUBのコラボが、HUB秋葉原店を含む全国4店舗で2026年10月16日から11月3日まで開催。バーテンダー姿の描き下ろしイラストを使ったコラボメニュー9品とグッズが登場する。",
+    "content": "## 概要\n\n「ガールズ&パンツァー もっとらぶらぶ作戦です!」と英国風パブHUBのコラボが、2026年10月16日(金)から11月3日(火・祝)まで開催される。実施店舗はHUB秋葉原店、HUB西武新宿駅前店、HUB道頓堀中座くいだおれビル店、HUB名駅四丁目店の4店舗。\n\n## 内容\n\nバーテンダー姿の描き下ろしイラストを使ったコラボメニュー9品とコラボグッズが登場。メニュー1品の注文ごとにコースターが1枚もらえる。\n\n- 予約受付は2026年10月5日(月) 14:00から\n- 各回90分の完全入れ替え制\n- HUB秋葉原店では、コラボ会場以外のエリアではコラボメニューを販売しない。グッズもコラボ会場内での販売\n- 20歳未満も入店可能\n\n## 開催情報\n\n- **期間**: 2026年10月16日(金)〜11月3日(火・祝)\n- **会場**: HUB秋葉原店ほか全国4店舗\n- **料金**: コラボメニュー 910円（税込）〜\n- **予約**: 10月5日 14:00から受付（各回90分入れ替え制）\n\n## こんな人におすすめ\n\n- 『ガールズ&パンツァー』ファン\n- 秋葉原でコラボメニューを楽しみたい方",
+    "publishedAt": "2026-10-03",
+    "en": {
+      "title": "[Akihabara] Girls und Panzer Motto Love Love Sakusen Desu! x HUB Collab at HUB Akihabara and More from October 16",
+      "summary": "A collaboration between Girls und Panzer Motto Love Love Sakusen Desu! and British-style pub HUB runs from October 16 to November 3, 2026 at four stores including HUB Akihabara, featuring nine collab menu items and goods with new bartender illustrations.",
+      "content": "## Overview\n\nA collaboration between Girls und Panzer Motto Love Love Sakusen Desu! and the British-style pub HUB runs from Friday, October 16 to Tuesday, November 3 (holiday), 2026. Participating stores are HUB Akihabara, HUB Seibu Shinjuku Ekimae, HUB Dotonbori Nakaza Kuidaore Building, and HUB Meieki 4-chome.\n\n## Highlights\n\nNine collab menu items and collab goods featuring newly drawn bartender illustrations are offered. Each menu item ordered comes with one coaster.\n\n- Reservations open Monday, October 5, 2026 at 14:00\n- 90-minute seating slots with full replacement\n- At HUB Akihabara, collab menu items and goods are sold only within the collab area\n- Guests under 20 may enter\n\n## Event Details\n\n- **Dates**: Friday, October 16 - Tuesday, November 3, 2026\n- **Venue**: HUB Akihabara and three other stores nationwide\n- **Price**: Collab menu from 910 yen (tax included)\n- **Reservation**: Opens October 5 at 14:00 (90-minute slots)\n\n## Recommended For\n\n- Girls und Panzer fans\n- Visitors who want to enjoy a collab menu in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/girls-und-panzer-hub-akihabara-collabo-2026.jpg",
+      "alt": "「ガールズ&パンツァー」×HUBコラボの特典ビジュアル",
+      "sourceLabel": "Collabo Cafe",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/girls-und-panzer-motto-love-love-hub-collabo2026/",
+      "width": 1920,
+      "height": 1080
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/girls-und-panzer-motto-love-love-hub-collabo2026/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      47,
+      80,
+      57,
+      207
+    ],
+    "event": {
+      "venue": "HUB秋葉原店",
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-03",
+      "price": "コラボメニュー 910円（税込）〜",
+      "reservation": true
+    }
+  },
+  {
+    "id": 934,
+    "title": "TVアニメ「らんま1/2」×壱角家コラボが秋葉原総本店ほか10店舗で10月16日から開催",
+    "slug": "ranma-ichikakuya-akihabara-collabo-2026",
+    "summary": "TVアニメ「らんま1/2」と横浜家系ラーメン壱角家のコラボキャンペーンが、壱角家 秋葉原総本店を含む10店舗で2026年10月16日から11月23日まで開催。コラボラーメン4種とカルピスジュース4種が登場し、1品注文ごとにコースターがもらえる。",
+    "content": "## 概要\n\nTVアニメ「らんま1/2」と横浜家系ラーメン壱角家のコラボキャンペーンが、2026年10月16日(金)から11月23日(月)まで開催される。実施店舗は東京・埼玉・千葉・神奈川の全10店舗で、秋葉原では壱角家 秋葉原総本店が対象。\n\n## 内容\n\n- キャラクターをイメージしたコラボラーメン全4種（各1,380円・税込）とカルピスジュース4種が登場\n- コラボメニュー1品の注文ごとに全16種のコースターを1枚プレゼント\n- コラボグッズ3,000円（税込）購入ごとに全16種のクリアカードを1枚プレゼント\n- コラボメニュー・グッズの提供時間は10:00〜23:00（「乱馬&らんまのピリ辛挽肉の中華そば」のみ時間外も注文可）\n\n## 開催情報\n\n- **期間**: 2026年10月16日(金)〜11月23日(月)\n- **会場**: 壱角家 秋葉原総本店（東京都千代田区外神田1-10-9 TY2ビル1F）ほか全10店舗\n- **料金**: コラボラーメン 各1,380円（税込）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 「らんま1/2」ファン\n- 秋葉原でコラボラーメンを味わいたい方",
+    "publishedAt": "2026-10-03",
+    "en": {
+      "title": "[Akihabara] Ranma 1/2 x Ichikakuya Collab at Akihabara Main Store and 9 Others from October 16",
+      "summary": "A collaboration between TV anime Ranma 1/2 and Yokohama-style ramen chain Ichikakuya runs at 10 stores including Ichikakuya Akihabara Main Store from October 16 to November 23, 2026, with four collab ramen bowls, four Calpis drinks, and coaster bonuses.",
+      "content": "## Overview\n\nA collaboration campaign between TV anime Ranma 1/2 and Yokohama-style ramen chain Ichikakuya runs from Friday, October 16 to Monday, November 23, 2026. It takes place at 10 stores in Tokyo, Saitama, Chiba, and Kanagawa, including Ichikakuya Akihabara Main Store.\n\n## Highlights\n\n- Four character-inspired collab ramen bowls (1,380 yen each, tax included) and four Calpis drinks\n- One of 16 coasters with each collab menu item ordered\n- One of 16 clear cards with every 3,000 yen (tax included) of collab goods purchased\n- Collab menu and goods available 10:00-23:00 (only the spicy minced-meat chuka soba can be ordered outside these hours)\n\n## Event Details\n\n- **Dates**: Friday, October 16 - Monday, November 23, 2026\n- **Venue**: Ichikakuya Akihabara Main Store (TY2 Bldg. 1F, 1-10-9 Sotokanda, Chiyoda-ku, Tokyo) and 9 other stores\n- **Price**: Collab ramen 1,380 yen each (tax included)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Ranma 1/2 fans\n- Visitors who want collab ramen in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/ranma-ichikakuya-akihabara-collabo-2026.jpg",
+      "alt": "「らんま1/2」×壱角家コラボのビジュアル",
+      "sourceLabel": "Collabo Cafe",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/ranma-ichikakuya-collabo2026/",
+      "width": 2000,
+      "height": 1333
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/ranma-ichikakuya-collabo2026/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      47,
+      80,
+      70,
+      257,
+      207
+    ],
+    "event": {
+      "venue": "壱角家 秋葉原総本店",
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-23",
+      "price": "コラボラーメン 各1,380円（税込）",
+      "reservation": false
+    }
+  },
+  {
+    "id": 935,
+    "title": "FUJIYAMA TOKYO 秋葉原本店で高級寿司50種食べ放題3,900円、10月の月〜木限定で実施",
+    "slug": "fujiyama-tokyo-akihabara-sushi-tabehoudai-2026-10",
+    "summary": "FUJIYAMA TOKYO 秋葉原本店・新宿東口店で、大とろ・いくら・ウニなど高級寿司を含む50種類が3,900円で食べ放題になる「サンキュー食べ放題プラン」を2026年10月1日から31日の月曜〜木曜限定で販売。ネット予約限定・1日先着5組。",
+    "content": "## 概要\n\nFUJIYAMA TOKYOの秋葉原本店と新宿東口店で、2026年10月1日から31日までの月曜〜木曜限定で「サンキュー食べ放題プラン」を販売している。大とろ・いくら・ウニなど高級寿司を含む50種類が3,900円（税込）で食べ放題になる。5月に続く実施で、不定期開催のため毎回予約開始とともに完売するという。\n\n## 予約・注意事項\n\n- 1日先着5組限定\n- キャンペーン価格はネット予約限定（電話予約は不可）\n- 予約受付時間は14:00〜23:00\n\n## 開催情報\n\n- **期間**: 2026年10月1日〜10月31日の月曜〜木曜\n- **会場**: FUJIYAMA TOKYO 秋葉原本店（ほか新宿東口店）\n- **営業時間（秋葉原本店）**: 月〜金・祝 16:00〜23:00（L.O. 22:30）\n- **料金**: 3,900円（税込）\n- **予約**: 必要（ネット予約限定）\n\n## こんな人におすすめ\n\n- 高級寿司をお得に食べ放題で楽しみたい方\n- 平日夜に秋葉原で食事をしたい方",
+    "publishedAt": "2026-10-03",
+    "en": {
+      "title": "[Akihabara] FUJIYAMA TOKYO Akihabara Offers 50-Item Premium Sushi All-You-Can-Eat for 3,900 Yen, Mon-Thu in October",
+      "summary": "FUJIYAMA TOKYO Akihabara Main Store and Shinjuku Higashiguchi Store offer the Thank-You All-You-Can-Eat Plan, with 50 items including otoro, ikura, and uni for 3,900 yen, Monday to Thursday from October 1 to 31, 2026. Online reservations only, limited to the first five groups per day.",
+      "content": "## Overview\n\nFUJIYAMA TOKYO's Akihabara Main Store and Shinjuku Higashiguchi Store are offering the Thank-You All-You-Can-Eat Plan on Mondays through Thursdays from October 1 to 31, 2026. Fifty items including premium sushi such as otoro, ikura, and uni are all-you-can-eat for 3,900 yen (tax included). Following the May run, the irregular campaign reportedly sells out as soon as reservations open.\n\n## Reservations and Notes\n\n- Limited to the first five groups per day\n- Campaign price available only via online reservation (no phone reservations)\n- Reservations accepted 14:00-23:00\n\n## Event Details\n\n- **Dates**: Mondays-Thursdays, October 1-31, 2026\n- **Venue**: FUJIYAMA TOKYO Akihabara Main Store (also Shinjuku Higashiguchi Store)\n- **Hours (Akihabara)**: Mon-Fri & holidays 16:00-23:00 (L.O. 22:30)\n- **Price**: 3,900 yen (tax included)\n- **Reservation**: Required (online only)\n\n## Recommended For\n\n- Diners who want premium all-you-can-eat sushi at a good price\n- Visitors looking for a weekday dinner in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/fujiyama-tokyo-akihabara-sushi-tabehoudai-2026-10.jpg",
+      "alt": "FUJIYAMA TOKYOの高級寿司食べ放題",
+      "sourceLabel": "東京バーゲンマニア",
+      "sourceUrl": "https://bg-mania.jp/2026/10/02703439.html",
+      "width": 1200,
+      "height": 675
+    },
+    "sources": [
+      {
+        "label": "FUJIYAMA TOKYO 公式サイト",
+        "url": "https://jblm2024.wixsite.com/fujiyama-tokyo"
+      },
+      {
+        "label": "食べログ 秋葉原本店 予約ページ",
+        "url": "https://tabelog.com/tokyo/A1310/A131001/13134270/party/284912385"
+      },
+      {
+        "label": "東京バーゲンマニア",
+        "url": "https://bg-mania.jp/2026/10/02703439.html"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      70,
+      234,
+      260,
+      207
+    ],
+    "event": {
+      "venue": "FUJIYAMA TOKYO 秋葉原本店",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "price": "3,900円（税込）",
+      "reservation": true
+    }
   }
 ]
