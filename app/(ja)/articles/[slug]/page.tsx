@@ -26,6 +26,7 @@ import {
   getJapaneseSeoKeywords,
 } from "lib/articles"
 import { getSpotForArticle } from "lib/spots"
+import { hasVenueLanding, hasWorkLanding } from "lib/event-landings"
 import { absoluteUrl } from "lib/site"
 import { getVenuePoint } from "lib/venue-points"
 
@@ -98,6 +99,15 @@ const Page = async ({ params }: Props) => {
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
   const relatedSpot = getSpotForArticle(article)
+  // 会場別・作品別イベントページへの内部リンク
+  const eventLandingLinks = [
+    ...(relatedSpot && hasVenueLanding(relatedSpot.slug)
+      ? [{ href: `/events/venue/${relatedSpot.slug}/`, label: `${relatedSpot.name}のイベント` }]
+      : []),
+    ...article.tagIds
+      .filter(hasWorkLanding)
+      .map((tid) => ({ href: `/events/work/${tid}/`, label: `${getTagById(tid)!.name}のイベント` })),
+  ]
   const spotPoint =
     relatedSpot?.lat && relatedSpot.lng
       ? { lat: relatedSpot.lat, lng: relatedSpot.lng }
@@ -532,6 +542,18 @@ const Page = async ({ params }: Props) => {
               <dd style={{ color: "#24312f", margin: 0 }}>
                 {article.event.startDate} 〜 {article.event.endDate}
               </dd>
+              {eventLandingLinks.length > 0 && (
+                <>
+                  <dt style={{ color: "#8a6f63" }}>関連</dt>
+                  <dd style={{ margin: 0, display: "flex", flexWrap: "wrap", gap: ".25rem .75rem" }}>
+                    {eventLandingLinks.map((l) => (
+                      <Link key={l.href} href={l.href} style={{ color: "#b94a3a" }}>
+                        {l.label}一覧
+                      </Link>
+                    ))}
+                  </dd>
+                </>
+              )}
               <dt style={{ color: "#8a6f63" }}>料金</dt>
               <dd style={{ color: "#24312f", margin: 0 }}>
                 {article.event.price}

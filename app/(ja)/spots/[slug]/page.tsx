@@ -15,6 +15,7 @@ import {
 } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
+import { hasVenueLanding } from "lib/event-landings"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import { ArticleVenueMap } from "components/article-venue-map"
 import { EditorCommentBlock } from "components/editor-comment"
@@ -396,6 +397,13 @@ const Page = async ({ params }: Props) => {
                 ? "この店舗の関連ニュース"
                 : "この会場のイベント"}
             </h2>
+            {hasVenueLanding(spot.slug) && (
+              <p style={{ margin: "0 0 .75rem" }}>
+                <Link href={`/events/venue/${spot.slug}/`} className="today-related__link">
+                  {spot.name}のイベント情報（開催中・開催予定）→
+                </Link>
+              </p>
+            )}
             <ul
               className="article-list"
               style={{ listStyle: "none", padding: 0, margin: 0 }}

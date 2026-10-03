@@ -12,6 +12,8 @@ export type Tag = {
   id: number
   name: string
   nameEn?: string
+  /** "work" = 作品・IP・アーティスト。/events/work/[id]/ の対象。 */
+  kind?: "work"
 }
 
 export const getAllTagsData = (): Tag[] => tagsData as Tag[]

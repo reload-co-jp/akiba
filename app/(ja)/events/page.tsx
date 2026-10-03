@@ -213,6 +213,16 @@ const Page = () => {
               </Link>
             </li>
             <li>
+              <Link href="/events/venue/" className="today-related__link">
+                会場別イベント一覧 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/work/" className="today-related__link">
+                作品別イベント一覧 →
+              </Link>
+            </li>
+            <li>
               <Link href="/events/monthly/" className="today-related__link">
                 月別イベントカレンダー →
               </Link>

@@ -2,7 +2,8 @@
   {
     "id": 1,
     "name": "1年A組のモンスター",
-    "nameEn": "Monster of Class 1-A"
+    "nameEn": "Monster of Class 1-A",
+    "kind": "work"
   },
   {
     "id": 2,
@@ -52,7 +53,8 @@
   {
     "id": 11,
     "name": "Fate/Grand Order",
-    "nameEn": "Fate/Grand Order"
+    "nameEn": "Fate/Grand Order",
+    "kind": "work"
   },
   {
     "id": 12,
@@ -82,7 +84,8 @@
   {
     "id": 19,
     "name": "REAL AKIBA BOYZ",
-    "nameEn": "REAL AKIBA BOYZ"
+    "nameEn": "REAL AKIBA BOYZ",
+    "kind": "work"
   },
   {
     "id": 20,
@@ -92,7 +95,8 @@
   {
     "id": 21,
     "name": "SAO",
-    "nameEn": "SAO"
+    "nameEn": "SAO",
+    "kind": "work"
   },
   {
     "id": 22,
@@ -112,7 +116,8 @@
   {
     "id": 25,
     "name": "STU48",
-    "nameEn": "STU48"
+    "nameEn": "STU48",
+    "kind": "work"
   },
   {
     "id": 26,
@@ -147,7 +152,8 @@
   {
     "id": 32,
     "name": "pop'n music",
-    "nameEn": "pop'n music"
+    "nameEn": "pop'n music",
+    "kind": "work"
   },
   {
     "id": 33,
@@ -157,7 +163,8 @@
   {
     "id": 34,
     "name": "お隣の天使様",
-    "nameEn": "The Angel Next Door Spoils Me Rotten"
+    "nameEn": "The Angel Next Door Spoils Me Rotten",
+    "kind": "work"
   },
   {
     "id": 35,
@@ -167,12 +174,14 @@
   {
     "id": 36,
     "name": "ご注文はうさぎですか？",
-    "nameEn": "Is the Order a Rabbit?"
+    "nameEn": "Is the Order a Rabbit?",
+    "kind": "work"
   },
   {
     "id": 37,
     "name": "とある科学の超電磁砲T",
-    "nameEn": "A Certain Scientific Railgun T"
+    "nameEn": "A Certain Scientific Railgun T",
+    "kind": "work"
   },
   {
     "id": 38,
@@ -192,7 +201,8 @@
   {
     "id": 41,
     "name": "ゆゆ式",
-    "nameEn": "Yuyushiki"
+    "nameEn": "Yuyushiki",
+    "kind": "work"
   },
   {
     "id": 42,
@@ -247,7 +257,8 @@
   {
     "id": 52,
     "name": "オタクに優しいギャルはいない!?",
-    "nameEn": "There's No Way a Gal Would Be Friendly to Otaku!?"
+    "nameEn": "There's No Way a Gal Would Be Friendly to Otaku!?",
+    "kind": "work"
   },
   {
     "id": 53,
@@ -312,7 +323,8 @@
   {
     "id": 65,
     "name": "クイーンズブレイド",
-    "nameEn": "Queen's Blade"
+    "nameEn": "Queen's Blade",
+    "kind": "work"
   },
   {
     "id": 66,
@@ -322,7 +334,8 @@
   {
     "id": 67,
     "name": "グノーシア",
-    "nameEn": "Gnosia"
+    "nameEn": "Gnosia",
+    "kind": "work"
   },
   {
     "id": 68,
@@ -332,7 +345,8 @@
   {
     "id": 69,
     "name": "グリッドマン",
-    "nameEn": "GRIDMAN"
+    "nameEn": "GRIDMAN",
+    "kind": "work"
   },
   {
     "id": 70,
@@ -402,7 +416,8 @@
   {
     "id": 85,
     "name": "サイレント・ウィッチ",
-    "nameEn": "Silent Witch"
+    "nameEn": "Silent Witch",
+    "kind": "work"
   },
   {
     "id": 86,
@@ -437,7 +452,8 @@
   {
     "id": 92,
     "name": "ゾンビランドサガ",
-    "nameEn": "Zombie Land Saga"
+    "nameEn": "Zombie Land Saga",
+    "kind": "work"
   },
   {
     "id": 93,
@@ -457,17 +473,20 @@
   {
     "id": 96,
     "name": "デジモン",
-    "nameEn": "Digimon"
+    "nameEn": "Digimon",
+    "kind": "work"
   },
   {
     "id": 98,
     "name": "デート・ア・ライブ",
-    "nameEn": "Date A Live"
+    "nameEn": "Date A Live",
+    "kind": "work"
   },
   {
     "id": 99,
     "name": "トリッカル",
-    "nameEn": "Trickle"
+    "nameEn": "Trickle",
+    "kind": "work"
   },
   {
     "id": 100,
@@ -487,7 +506,8 @@
   {
     "id": 104,
     "name": "ドラゴンクエスト",
-    "nameEn": "Dragon Quest"
+    "nameEn": "Dragon Quest",
+    "kind": "work"
   },
   {
     "id": 105,
@@ -497,7 +517,8 @@
   {
     "id": 106,
     "name": "ネコぱら",
-    "nameEn": "Nekopara"
+    "nameEn": "Nekopara",
+    "kind": "work"
   },
   {
     "id": 107,
@@ -507,7 +528,8 @@
   {
     "id": 108,
     "name": "バンドリ！",
-    "nameEn": "BanG Dream!"
+    "nameEn": "BanG Dream!",
+    "kind": "work"
   },
   {
     "id": 109,
@@ -552,12 +574,14 @@
   {
     "id": 117,
     "name": "ブラウンダスト2",
-    "nameEn": "Brown Dust 2"
+    "nameEn": "Brown Dust 2",
+    "kind": "work"
   },
   {
     "id": 118,
     "name": "ブルーロック",
-    "nameEn": "Blue Lock"
+    "nameEn": "Blue Lock",
+    "kind": "work"
   },
   {
     "id": 119,
@@ -567,12 +591,14 @@
   {
     "id": 120,
     "name": "プリズマ☆イリヤ",
-    "nameEn": "Prisma☆Illya"
+    "nameEn": "Prisma☆Illya",
+    "kind": "work"
   },
   {
     "id": 121,
     "name": "プリンセスラバー！",
-    "nameEn": "Princess Lover!"
+    "nameEn": "Princess Lover!",
+    "kind": "work"
   },
   {
     "id": 122,
@@ -627,12 +653,14 @@
   {
     "id": 133,
     "name": "メダリスト",
-    "nameEn": "Medalist"
+    "nameEn": "Medalist",
+    "kind": "work"
   },
   {
     "id": 134,
     "name": "モンスターハンター",
-    "nameEn": "Monster Hunter"
+    "nameEn": "Monster Hunter",
+    "kind": "work"
   },
   {
     "id": 135,
@@ -667,17 +695,20 @@
   {
     "id": 141,
     "name": "ラブライブ！",
-    "nameEn": "Love Live!"
+    "nameEn": "Love Live!",
+    "kind": "work"
   },
   {
     "id": 142,
     "name": "リィンカーネーションの花弁",
-    "nameEn": "Reincarnation no Kaben"
+    "nameEn": "Reincarnation no Kaben",
+    "kind": "work"
   },
   {
     "id": 143,
     "name": "リゼロ",
-    "nameEn": "Re:Zero"
+    "nameEn": "Re:Zero",
+    "kind": "work"
   },
   {
     "id": 144,
@@ -717,7 +748,8 @@
   {
     "id": 151,
     "name": "一式さんは恋を知りたい。",
-    "nameEn": "Isshiki-san Wants to Know Love."
+    "nameEn": "Isshiki-san Wants to Know Love.",
+    "kind": "work"
   },
   {
     "id": 152,
@@ -727,17 +759,20 @@
   {
     "id": 153,
     "name": "上伊那ぼたん",
-    "nameEn": "Kamiina Botan"
+    "nameEn": "Kamiina Botan",
+    "kind": "work"
   },
   {
     "id": 154,
     "name": "五等分の花嫁",
-    "nameEn": "The Quintessential Quintuplets"
+    "nameEn": "The Quintessential Quintuplets",
+    "kind": "work"
   },
   {
     "id": 155,
     "name": "伊藤彩沙",
-    "nameEn": "Ito Ayasa"
+    "nameEn": "Ito Ayasa",
+    "kind": "work"
   },
   {
     "id": 156,
@@ -757,7 +792,8 @@
   {
     "id": 159,
     "name": "俺だけレベルアップな件",
-    "nameEn": "Solo Leveling"
+    "nameEn": "Solo Leveling",
+    "kind": "work"
   },
   {
     "id": 160,
@@ -777,7 +813,8 @@
   {
     "id": 163,
     "name": "初音ミク",
-    "nameEn": "Hatsune Miku"
+    "nameEn": "Hatsune Miku",
+    "kind": "work"
   },
   {
     "id": 164,
@@ -787,7 +824,8 @@
   {
     "id": 165,
     "name": "呪術廻戦",
-    "nameEn": "Jujutsu Kaisen"
+    "nameEn": "Jujutsu Kaisen",
+    "kind": "work"
   },
   {
     "id": 166,
@@ -807,12 +845,14 @@
   {
     "id": 169,
     "name": "夢限大みゅーたいぷ",
-    "nameEn": "Mugendai Myu-type"
+    "nameEn": "Mugendai Myu-type",
+    "kind": "work"
   },
   {
     "id": 170,
     "name": "大暮維人",
-    "nameEn": "Ogure Ito"
+    "nameEn": "Ogure Ito",
+    "kind": "work"
   },
   {
     "id": 171,
@@ -827,22 +867,26 @@
   {
     "id": 173,
     "name": "学園の姫攻略始めたら修羅場になってた件",
-    "nameEn": "Gakuen no Hime Kouryaku"
+    "nameEn": "Gakuen no Hime Kouryaku",
+    "kind": "work"
   },
   {
     "id": 174,
     "name": "安彦良和",
-    "nameEn": "Yoshikazu Yasuhiko"
+    "nameEn": "Yoshikazu Yasuhiko",
+    "kind": "work"
   },
   {
     "id": 175,
     "name": "小倉唯",
-    "nameEn": "Ogura Yui"
+    "nameEn": "Ogura Yui",
+    "kind": "work"
   },
   {
     "id": 176,
     "name": "小山百代",
-    "nameEn": "Koyama Momoyo"
+    "nameEn": "Koyama Momoyo",
+    "kind": "work"
   },
   {
     "id": 177,
@@ -857,7 +901,8 @@
   {
     "id": 181,
     "name": "幽☆遊☆白書",
-    "nameEn": "Yu Yu Hakusho"
+    "nameEn": "Yu Yu Hakusho",
+    "kind": "work"
   },
   {
     "id": 182,
@@ -867,7 +912,8 @@
   {
     "id": 183,
     "name": "戦姫絶唱シンフォギア",
-    "nameEn": "Senki Zessho Symphogear"
+    "nameEn": "Senki Zessho Symphogear",
+    "kind": "work"
   },
   {
     "id": 184,
@@ -902,7 +948,8 @@
   {
     "id": 190,
     "name": "旧友と不倫してみた",
-    "nameEn": "Affair with an Old Friend"
+    "nameEn": "Affair with an Old Friend",
+    "kind": "work"
   },
   {
     "id": 191,
@@ -922,7 +969,8 @@
   {
     "id": 195,
     "name": "最遊記",
-    "nameEn": "Saiyuki"
+    "nameEn": "Saiyuki",
+    "kind": "work"
   },
   {
     "id": 196,
@@ -932,7 +980,8 @@
   {
     "id": 197,
     "name": "涼宮ハルヒ",
-    "nameEn": "Haruhi Suzumiya"
+    "nameEn": "Haruhi Suzumiya",
+    "kind": "work"
   },
   {
     "id": 198,
@@ -977,7 +1026,8 @@
   {
     "id": 206,
     "name": "私に天使が舞い降りた！",
-    "nameEn": "Wataten!: an Angel Flew Down to Me"
+    "nameEn": "Wataten!: an Angel Flew Down to Me",
+    "kind": "work"
   },
   {
     "id": 207,
@@ -1032,12 +1082,14 @@
   {
     "id": 218,
     "name": "立花日菜",
-    "nameEn": "Tachibana Hina"
+    "nameEn": "Tachibana Hina",
+    "kind": "work"
   },
   {
     "id": 219,
     "name": "蓮ノ空女学院スクールアイドルクラブ",
-    "nameEn": "Hasunosora Girls' High School Idol Club"
+    "nameEn": "Hasunosora Girls' High School Idol Club",
+    "kind": "work"
   },
   {
     "id": 220,
@@ -1067,22 +1119,26 @@
   {
     "id": 225,
     "name": "貴族転生",
-    "nameEn": "Aristocrat Reincarnation"
+    "nameEn": "Aristocrat Reincarnation",
+    "kind": "work"
   },
   {
     "id": 226,
     "name": "超かぐや姫",
-    "nameEn": "Super Kaguya-hime"
+    "nameEn": "Super Kaguya-hime",
+    "kind": "work"
   },
   {
     "id": 227,
     "name": "週に一度クラスメイトを買う話",
-    "nameEn": "The Story of Buying a Classmate Once a Week"
+    "nameEn": "The Story of Buying a Classmate Once a Week",
+    "kind": "work"
   },
   {
     "id": 228,
     "name": "銀魂",
-    "nameEn": "Gintama"
+    "nameEn": "Gintama",
+    "kind": "work"
   },
   {
     "id": 229,
@@ -1107,7 +1163,8 @@
   {
     "id": 233,
     "name": "青ブタ",
-    "nameEn": "Rascal Does Not Dream"
+    "nameEn": "Rascal Does Not Dream",
+    "kind": "work"
   },
   {
     "id": 234,
@@ -1117,17 +1174,20 @@
   {
     "id": 235,
     "name": "魔入りました！入間くん",
-    "nameEn": "Welcome to Demon School! Iruma-kun"
+    "nameEn": "Welcome to Demon School! Iruma-kun",
+    "kind": "work"
   },
   {
     "id": 236,
     "name": "魔法少女にあこがれて",
-    "nameEn": "Gushing over Magical Girls"
+    "nameEn": "Gushing over Magical Girls",
+    "kind": "work"
   },
   {
     "id": 237,
     "name": "魔法少女ノ因習村",
-    "nameEn": "Magical Girl's Inquisition Village"
+    "nameEn": "Magical Girl's Inquisition Village",
+    "kind": "work"
   },
   {
     "id": 238,
@@ -1167,12 +1227,14 @@
   {
     "id": 246,
     "name": "アズールレーン",
-    "nameEn": "Azur Lane"
+    "nameEn": "Azur Lane",
+    "kind": "work"
   },
   {
     "id": 247,
     "name": "幼女戦記",
-    "nameEn": "Saga of Tanya the Evil"
+    "nameEn": "Saga of Tanya the Evil",
+    "kind": "work"
   },
   {
     "id": 248,
@@ -1197,17 +1259,20 @@
   {
     "id": 252,
     "name": "ホロライブ",
-    "nameEn": "hololive"
+    "nameEn": "hololive",
+    "kind": "work"
   },
   {
     "id": 253,
     "name": "Fate/strange Fake",
-    "nameEn": "Fate/strange Fake"
+    "nameEn": "Fate/strange Fake",
+    "kind": "work"
   },
   {
     "id": 254,
     "name": "アイドルマスター",
-    "nameEn": "THE iDOLM@STER"
+    "nameEn": "THE iDOLM@STER",
+    "kind": "work"
   },
   {
     "id": 255,
@@ -1217,7 +1282,8 @@
   {
     "id": 256,
     "name": "ポケモンカード",
-    "nameEn": "Pokémon Card Game"
+    "nameEn": "Pokémon Card Game",
+    "kind": "work"
   },
   {
     "id": 257,
@@ -1272,22 +1338,26 @@
   {
     "id": 267,
     "name": "STEINS;GATE",
-    "nameEn": "STEINS;GATE"
+    "nameEn": "STEINS;GATE",
+    "kind": "work"
   },
   {
     "id": 268,
     "name": "ブルーアーカイブ",
-    "nameEn": "Blue Archive"
+    "nameEn": "Blue Archive",
+    "kind": "work"
   },
   {
     "id": 269,
     "name": "Wizardry",
-    "nameEn": "Wizardry"
+    "nameEn": "Wizardry",
+    "kind": "work"
   },
   {
     "id": 270,
     "name": "銀河英雄伝説",
-    "nameEn": "Legend of the Galactic Heroes"
+    "nameEn": "Legend of the Galactic Heroes",
+    "kind": "work"
   },
   {
     "id": 271,
@@ -1297,32 +1367,38 @@
   {
     "id": 272,
     "name": "アイドルマスター シャイニーカラーズ",
-    "nameEn": "THE iDOLM@STER: Shiny Colors"
+    "nameEn": "THE iDOLM@STER: Shiny Colors",
+    "kind": "work"
   },
   {
     "id": 273,
     "name": "ギャラクシーエンジェル",
-    "nameEn": "Galaxy Angel"
+    "nameEn": "Galaxy Angel",
+    "kind": "work"
   },
   {
     "id": 274,
     "name": "無職転生",
-    "nameEn": "Mushoku Tensei"
+    "nameEn": "Mushoku Tensei",
+    "kind": "work"
   },
   {
     "id": 275,
     "name": "ペルソナ",
-    "nameEn": "Persona"
+    "nameEn": "Persona",
+    "kind": "work"
   },
   {
     "id": 276,
     "name": "ファイナルファンタジー",
-    "nameEn": "Final Fantasy"
+    "nameEn": "Final Fantasy",
+    "kind": "work"
   },
   {
     "id": 277,
     "name": "リコリス・リコイル",
-    "nameEn": "Lycoris Recoil"
+    "nameEn": "Lycoris Recoil",
+    "kind": "work"
   },
   {
     "id": 278,
@@ -1342,7 +1418,8 @@
   {
     "id": 281,
     "name": "アオのハコ",
-    "nameEn": "Blue Box"
+    "nameEn": "Blue Box",
+    "kind": "work"
   },
   {
     "id": 282,

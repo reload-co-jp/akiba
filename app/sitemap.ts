@@ -12,6 +12,7 @@ import {
 } from "lib/articles"
 import { getDetailPageSpots, getPagedCuisines } from "lib/spots"
 import { absoluteUrl } from "lib/site"
+import { getVenueLandingSpots, getWorkLandingTags } from "lib/event-landings"
 
 export const dynamic = "force-static"
 
@@ -99,6 +100,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: absoluteUrl(`/spots/${spot.slug}/`),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    })),
+    { url: absoluteUrl("/events/venue/"), lastModified: latestDate, changeFrequency: "weekly", priority: 0.7 },
+    { url: absoluteUrl("/events/work/"), lastModified: latestDate, changeFrequency: "weekly", priority: 0.7 },
+    ...getVenueLandingSpots().map((spot) => ({
+      url: absoluteUrl(`/events/venue/${spot.slug}/`),
+      lastModified: latestDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+    ...getWorkLandingTags().map((tag) => ({
+      url: absoluteUrl(`/events/work/${tag.id}/`),
+      lastModified: latestDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
     })),
     ...cuisines.map((cuisine) => ({
       url: absoluteUrl(`/spots/gourmet/${cuisine}/`),

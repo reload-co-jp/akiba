@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { absoluteUrl } from "lib/site"
+import { hasWorkLanding } from "lib/event-landings"
 import {
   formatDate,
   getAllTags,
@@ -42,9 +43,12 @@ export const generateMetadata = async ({ params }: Props) => {
   const tag = getTagById(Number(id))
   if (!tag) return {}
   const cuisine = gourmetTagCuisine[tag.name]
+  // イベント情報は /events/work/[id]/ に寄せ、タグページは記事一覧として差別化
   const title = cuisine
     ? `秋葉原の${tag.name}情報一覧｜新店舗・ニュース`
-    : `秋葉原の${tag.name}イベント一覧｜開催中・予定`
+    : hasWorkLanding(tag.id)
+      ? `「${tag.name}」の記事・ニュース一覧｜秋葉原`
+      : `秋葉原の${tag.name}イベント一覧｜開催中・予定`
   const description = cuisine
     ? `秋葉原エリアの${tag.name}に関する最新ニュース・新店舗情報をまとめて紹介。実際に行けるお店一覧もあわせて確認できます。`
     : `秋葉原の${tag.name}関連イベント・ニュース一覧。開催中、開催予定、ポップアップ、フェア、展示情報をまとめて確認できます。`
@@ -175,6 +179,15 @@ const Page = async ({ params }: Props) => {
               秋葉原の{tag.name}一覧
             </Link>
             もあわせてチェック。
+          </p>
+        )}
+        {hasWorkLanding(tag.id) && (
+          <p className="gourmet-lead">
+            開催中・開催予定のイベントは
+            <Link href={`/events/work/${tag.id}/`}>
+              秋葉原の{tag.name}イベント情報
+            </Link>
+            にまとめています。
           </p>
         )}
         <ul className="article-list">
