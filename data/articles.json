@@ -37241,5 +37241,47 @@
       46,
       207
     ]
+  },
+  {
+    "id": 937,
+    "title": "美少女ゲームソング×クラブミュージックの「FLAG'S Vol.28」が10月10日に秋葉原MOGRAで開催",
+    "slug": "flags-vol28-mogra-2026",
+    "summary": "美少女ゲームソングとクラブミュージックをコンセプトにした定期DJイベント「FLAG'S Vol.28」が、2026年10月10日（土）23:00から秋葉原MOGRAで開催。ゲストDJはたちゅー（のーです！/4 Frontier）。料金は2,500円＋1ドリンク700円で、20歳未満は入場不可。",
+    "content": "## 概要\n\n秋葉原MOGRAで定期開催されている、美少女ゲームソング×クラブミュージックをコンセプトとしたDJイベント「FLAG'S」のVol.28が、2026年10月10日（土）23:00から開催される。\n\nゲストDJには、美少女ゲームソングDJイベント「4 Frontier」のオーガナイズも務めるたちゅー（のーです！/4 Frontier）が出演する。\n\n## 出演者\n\n- **GUEST DJ**: たちゅー（のーです！/4 Frontier）\n- **DJ**: OREO、Epsilon、14、Fujieda、Exocet、Reverie、ゆーきっと、やょ、Nero Chroco、Aspara、Sana Logic\n- **VJ**: ZUMA、宮人、KANI-Pan\n\n出演時間は後日公開のタイムテーブルで案内される。\n\n## 開催情報\n\n- **日時**: 2026年10月10日（土） 23:00〜（OPEN & START）\n- **会場**: 秋葉原MOGRA\n- **料金**: 2,500円＋1ドリンク700円\n- **注意**: 20歳未満は入場不可。入場時に顔写真付き公的身分証の提示が必要\n\n## こんな人におすすめ\n\n- 美少女ゲームソングやアニクラが好きな方\n- 秋葉原MOGRAのオールナイトイベントに参加したい方",
+    "publishedAt": "2026-10-04",
+    "en": {
+      "title": "\"FLAG'S Vol.28,\" a Bishoujo Game Song x Club Music Night, at MOGRA Akihabara on October 10",
+      "summary": "\"FLAG'S Vol.28,\" a recurring DJ event built around bishoujo (visual novel) game songs and club music, starts at 23:00 on Saturday, October 10, 2026 at MOGRA Akihabara. The guest DJ is Tachu (No-desu! / 4 Frontier). Admission is 2,500 yen plus a 700 yen drink; no entry under 20.",
+      "content": "## Overview\n\nVol.28 of \"FLAG'S,\" a DJ event held regularly at MOGRA Akihabara with the concept of bishoujo game songs x club music, will take place from 23:00 on Saturday, October 10, 2026.\n\nThe guest DJ is Tachu (No-desu! / 4 Frontier), who also organizes the bishoujo game song DJ event \"4 Frontier.\"\n\n## Performers\n\n- **Guest DJ**: Tachu (No-desu! / 4 Frontier)\n- **DJs**: OREO, Epsilon, 14, Fujieda, Exocet, Reverie, Yukitto, Yayo, Nero Chroco, Aspara, Sana Logic\n- **VJs**: ZUMA, Miyato, KANI-Pan\n\nSet times will be announced in a timetable at a later date.\n\n## Event Information\n\n- **Date**: Sat, October 10, 2026, from 23:00 (open & start)\n- **Venue**: MOGRA Akihabara\n- **Price**: 2,500 yen plus a 700 yen drink\n- **Note**: No entry under 20. Photo ID required at entry\n\n## Recommended For\n\n- Fans of bishoujo game songs and anime club events\n- Anyone looking for an all-night event at MOGRA Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/flags-vol28-mogra-2026.png",
+      "alt": "「FLAG'S Vol.28」のイベントフライヤー",
+      "sourceLabel": "MOGRA 公式イベントページ",
+      "sourceUrl": "https://club-mogra.jp/2026/10/10/10102/",
+      "width": 700,
+      "height": 1035
+    },
+    "sources": [
+      {
+        "label": "MOGRA 公式イベントページ",
+        "url": "https://club-mogra.jp/2026/10/10/10102/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      140,
+      207,
+      47
+    ],
+    "event": {
+      "venue": "秋葉原MOGRA",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "price": "2,500円（+1ドリンク700円）",
+      "reservation": false,
+      "performer": "たちゅー、OREO、Epsilon ほか",
+      "category": "music"
+    }
   }
 ]
