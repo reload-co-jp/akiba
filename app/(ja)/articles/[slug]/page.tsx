@@ -738,6 +738,7 @@ const Page = async ({ params }: Props) => {
           </div>
         </section>
 
+        <RakutenWidget />
         {relatedArticles.length > 0 && (
           <section
             className="related-articles"
@@ -800,7 +801,6 @@ const Page = async ({ params }: Props) => {
         )}
         <AdsenseFluidAd />
         <AdsenseDisplayAd />
-        <RakutenWidget />
       </article>
     </>
   )
