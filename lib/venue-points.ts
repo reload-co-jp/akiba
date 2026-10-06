@@ -108,6 +108,8 @@ export const venuePoints: Record<string, VenuePoint> = {
   "コトブキヤ秋葉原店 5F": { lat: 35.6994, lng: 139.7711 },
   "コトブキヤ秋葉原館": { lat: 35.6994, lng: 139.7711 },
   "コトブキヤ秋葉原館2階": { lat: 35.6994, lng: 139.7711 },
+  "コトブキヤ秋葉原館1階": { lat: 35.6994, lng: 139.7711 },
+  "WAND（KiGi AKIHABARA 1F）": { lat: 35.6961, lng: 139.7797 },
   "GiGO秋葉原5号館 Akib@ko": { lat: 35.6991, lng: 139.7719 },
   "GiGO秋葉原5号館": { lat: 35.6991, lng: 139.7719 },
   "日本百貨店しょくひんかん": { lat: 35.6996, lng: 139.7742 },
