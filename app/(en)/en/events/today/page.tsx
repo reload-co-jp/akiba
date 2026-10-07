@@ -1,4 +1,5 @@
 import Link from "next/link"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import {
   getOngoingEvents,
   getEndingSoonEvents,
@@ -292,6 +293,8 @@ const Page = () => {
           />
         </EventSection>
 
+        <AdsenseDisplayAd />
+
         <EventSection
           id="category-heading"
           kicker="By Category"
@@ -303,6 +306,8 @@ const Page = () => {
             locale="en"
           />
         </EventSection>
+
+        <AdsenseDisplayAd />
 
         <EventSection
           id="ending-soon-heading"
@@ -362,6 +367,8 @@ const Page = () => {
           )}
         </EventSection>
 
+        <AdsenseDisplayAd />
+
         <EventSection
           id="venues-heading"
           kicker="Popular Venues"
@@ -395,6 +402,8 @@ const Page = () => {
             ))}
           </ul>
         </EventSection>
+
+        <AdsenseDisplayAd />
 
         <EventSection
           id="related-heading"

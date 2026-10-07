@@ -1,4 +1,5 @@
 import Link from "next/link"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { EventsMap } from "components/events-map"
 import { getArticleImage, getOngoingEvents, getTagById } from "lib/articles"
 import { fmtRange } from "lib/format"
@@ -186,6 +187,8 @@ const Page = () => {
           </div>
         )}
 
+        <AdsenseDisplayAd />
+
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
           <ul
             style={{
@@ -229,6 +232,8 @@ const Page = () => {
             </li>
           </ul>
         </EventSection>
+
+        <AdsenseDisplayAd />
       </section>
     </>
   )

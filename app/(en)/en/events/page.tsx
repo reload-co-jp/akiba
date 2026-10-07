@@ -1,4 +1,5 @@
 import Link from "next/link"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import {
   getOngoingEvents,
   getArticleImage,
@@ -155,6 +156,8 @@ const Page = () => {
             ))}
           </ul>
         )}
+
+        <AdsenseDisplayAd />
       </section>
     </>
   )
