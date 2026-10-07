@@ -9,7 +9,6 @@ import {
 import {
   getCuisineLabel,
   getPagedCuisines,
-  getSpotImage,
   getSpotsByCuisine,
   hasDetailPage,
   sortGourmetSpots,
@@ -19,6 +18,7 @@ import { jsonLdScript } from "lib/json-ld"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
 import { GourmetGuide } from "components/gourmet-guide"
+import { GourmetPickCarousel } from "components/gourmet-pick-carousel"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 const spotCount = sortGourmetSpots(getSpotsByCuisine("izakaya")).length
@@ -98,7 +98,7 @@ const guideStyles = [
 
 const Page = () => {
   const spots = sortGourmetSpots(getSpotsByCuisine("izakaya"))
-  const pickSpots = spots.filter(hasDetailPage)
+  const pickSpots = spots.filter((s) => hasDetailPage(s) && s.image)
   const otherCuisines = getPagedCuisines().filter((c) => c !== "izakaya")
 
   const izakayaTag = getAllTags().find((t) => t.name === "居酒屋")
@@ -260,66 +260,7 @@ const Page = () => {
             >
               まず押さえたい注目店
             </h2>
-            <ul
-              style={{
-                display: "grid",
-                gap: "1rem",
-                gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-                listStyle: "none",
-                margin: "0 0 1rem",
-                padding: "0",
-              }}
-            >
-              {pickSpots.map((spot) => (
-                <li key={spot.id}>
-                  <Link
-                    href={`/spots/${spot.slug}/`}
-                    className="ramen-pick-card"
-                  >
-                    <img
-                      src={getSpotImage(spot).src}
-                      alt={getSpotImage(spot).alt}
-                      style={{
-                        aspectRatio: "4 / 3",
-                        display: "block",
-                        height: "auto",
-                        objectFit: "cover",
-                        width: "100%",
-                      }}
-                      loading="lazy"
-                      width={getSpotImage(spot).width}
-                      height={getSpotImage(spot).height}
-                    />
-                    <div style={{ padding: "0.75rem" }}>
-                      <h3
-                        style={{
-                          color: "#24312f",
-                          fontSize: "0.9375rem",
-                          fontWeight: "700",
-                          margin: "0 0 0.375rem",
-                        }}
-                      >
-                        {spot.name}
-                      </h3>
-                      <p
-                        style={{
-                          color: "#8a6f63",
-                          fontSize: "0.8125rem",
-                          lineHeight: "1.6",
-                          margin: "0",
-                          display: "-webkit-box",
-                          WebkitLineClamp: "3",
-                          WebkitBoxOrient: "vertical",
-                          overflow: "hidden",
-                        }}
-                      >
-                        {spot.description}
-                      </p>
-                    </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <GourmetPickCarousel spots={pickSpots} />
           </>
         )}
 

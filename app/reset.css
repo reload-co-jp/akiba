@@ -2096,20 +2096,176 @@ body {
   font-size: 0.6875rem;
 }
 
-.gourmet-list__name {
-  color: #24312f;
-  font-size: 0.9375rem;
-  font-weight: 700;
-  line-height: 1.4;
+.gourmet-feature {
+  --gf-ink: #24312f;
+  --gf-muted: #8a6f63;
+  --gf-accent: #b94a3a;
+  --gf-line: rgba(96, 120, 111, 0.16);
+  --gf-serif: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", serif;
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
 }
 
-.gourmet-list__name--link {
-  color: #b94a3a;
+.gourmet-feature__item {
+  border-top: 1px solid var(--gf-line);
+  display: grid;
+  gap: 1rem 1.5rem;
+  padding: 2rem 0;
+}
+
+.gourmet-feature__item:last-child {
+  border-bottom: 1px solid var(--gf-line);
+}
+
+@media (min-width: 640px) {
+  .gourmet-feature__item {
+    align-items: start;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  }
+}
+
+.gourmet-feature__media {
+  border-radius: 4px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.gourmet-feature__media img {
+  aspect-ratio: 4 / 3;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  width: 100%;
+}
+
+.gourmet-feature__item:hover .gourmet-feature__media img {
+  transform: scale(1.03);
+}
+
+.gourmet-feature__body {
+  min-width: 0;
+}
+
+.gourmet-feature__kicker {
+  align-items: baseline;
+  color: var(--gf-accent);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+  font-weight: 700;
+  gap: 0.25rem 0.625rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.375rem;
+}
+
+.gourmet-feature__num {
+  color: var(--gf-ink);
+  font-family: var(--gf-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.gourmet-feature__name {
+  color: var(--gf-ink);
+  font-family: var(--gf-serif);
+  font-size: 1.4375rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 0 0 0.625rem;
+}
+
+.gourmet-feature__name a {
+  color: inherit;
+  font-family: inherit;
   text-decoration: none;
 }
 
-.gourmet-list__name--link:hover {
-  text-decoration: underline;
+.gourmet-feature__name a:hover {
+  color: var(--gf-accent);
+}
+
+.gourmet-feature__desc {
+  color: #4a413a;
+  font-size: 0.9375rem;
+  line-height: 1.9;
+  margin: 0 0 0.875rem;
+}
+
+.gourmet-feature__comment {
+  border-left: 3px solid var(--gf-accent);
+  color: #4a413a;
+  font-family: var(--gf-serif);
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  margin: 0 0 0.875rem;
+  padding: 0.125rem 0 0.125rem 0.875rem;
+}
+
+.gourmet-feature__comment::before {
+  color: var(--gf-muted);
+  content: "編集部より　";
+  font-family: var(--font-noto-sans-jp), sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.gourmet-feature__meta {
+  border-top: 1px dashed var(--gf-line);
+  display: grid;
+  font-size: 0.8125rem;
+  gap: 0.25rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+  padding-top: 0.625rem;
+}
+
+.gourmet-feature__meta div {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 4.5em minmax(0, 1fr);
+}
+
+.gourmet-feature__meta dt {
+  color: var(--gf-muted);
+  font-weight: 700;
+}
+
+.gourmet-feature__meta dd {
+  color: var(--gf-ink);
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.gourmet-feature__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  list-style: none;
+  margin: 0 0 0.75rem;
+  padding: 0;
+}
+
+.gourmet-feature__tags li {
+  color: var(--gf-muted);
+  font-size: 0.75rem;
+}
+
+.gourmet-feature__more {
+  border-bottom: 1px solid currentColor;
+  color: var(--gf-accent);
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding-bottom: 0.125rem;
+  text-decoration: none;
+}
+
+.gourmet-feature__more:hover {
+  opacity: 0.75;
 }
 
 .gourmet-attribution {
@@ -2125,9 +2281,21 @@ body {
   color: #b94a3a;
 }
 
-.ramen-pick-card {
-  border: 1px solid rgba(96, 120, 111, 0.18);
+.gourmet-pick {
+  margin: 0 0 1rem;
+  position: relative;
+}
+
+.gourmet-pick__item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: min(72vw, 260px);
+}
+
+.gourmet-pick__card {
+  background: #fff;
   border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(68, 83, 77, 0.1);
   color: inherit;
   display: block;
   height: 100%;
@@ -2135,6 +2303,51 @@ body {
   text-decoration: none;
 }
 
-.ramen-pick-card:hover {
-  border-color: #b94a3a;
+.gourmet-pick__card img {
+  aspect-ratio: 4 / 3;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  width: 100%;
+}
+
+.gourmet-pick__card:hover img {
+  transform: scale(1.04);
+}
+
+.gourmet-pick__body {
+  display: block;
+  padding: 0.75rem 0.875rem 1rem;
+}
+
+.gourmet-pick__name {
+  color: #24312f;
+  display: block;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", serif;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 0 0 0.375rem;
+}
+
+.gourmet-pick__desc {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  color: #5c5148;
+  display: -webkit-box;
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  overflow: hidden;
+}
+
+.gourmet-pick__nav {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+@media (hover: none) {
+  .gourmet-pick__nav {
+    display: none;
+  }
 }

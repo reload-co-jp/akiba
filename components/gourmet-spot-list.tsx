@@ -3,125 +3,109 @@ import {
   distanceFromStation,
   getCuisineLabel,
   hasDetailPage,
+  spotAreas,
   type Spot,
 } from "lib/spots"
 
 /**
- * Renders gourmet spots as a compact directory row rather than a card.
+ * Renders gourmet spots as a magazine-style feature list: numbered entries
+ * with a kicker, a serif shop name and a short spec sheet.
  *
- * Most entries here are tier B — imported in bulk, with no image and often no
- * more than a name and a location — so a card grid would be mostly empty
- * boxes. Spots that have their own page link to it; the rest are plain text.
+ * Most entries are tier B — bulk imports with no image and only a generic
+ * description — so imageless shops get a shared placeholder (decorative, empty
+ * alt) and boilerplate descriptions are dropped rather than repeated.
  */
-export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
-  <ul
-    style={{
-      borderTop: "1px solid rgba(96, 120, 111, 0.14)",
-      listStyle: "none",
-      margin: "0 0 2rem",
-      padding: "0",
-    }}
-  >
-    {spots.map((spot) => {
-      // Most bulk-imported entries have neither an address nor opening hours,
-      // so distance from the station is often the only concrete thing we can
-      // tell the reader about them.
-      const distance = distanceFromStation(spot)
-      const details = [
-        distance != null ? `秋葉原駅から約${distance}m` : undefined,
-        spot.address,
-        spot.hours,
-      ].filter(Boolean) as string[]
+const PLACEHOLDER_IMAGE = {
+  src: "/images/gourmet-placeholder.jpeg",
+  alt: "",
+  width: 1365,
+  height: 768,
+}
+export const GENERIC_DESCRIPTION = /^秋葉原エリアの\S+$/
+const HIDDEN_TAGS = new Set<string>([...spotAreas, "グルメ"])
+const MAX_TAGS = 4
 
+export const GourmetSpotList = ({ spots }: { spots: Spot[] }) => (
+  <ol className="gourmet-feature">
+    {spots.map((spot, i) => {
+      const distance = distanceFromStation(spot)
       const cuisines = (spot.cuisine ?? []).map(getCuisineLabel)
+      const kicker = [
+        cuisines.join("・"),
+        distance != null ? `駅から約${distance}m` : undefined,
+      ].filter(Boolean)
+      const description =
+        spot.description && !GENERIC_DESCRIPTION.test(spot.description)
+          ? spot.description
+          : undefined
+      const meta = [
+        ["住所", spot.address],
+        ["営業時間", spot.hours],
+        ["定休日", spot.closed],
+      ].filter(([, value]) => value) as [string, string][]
+      const tags = (spot.tags ?? [])
+        .filter((t) => !HIDDEN_TAGS.has(t) && !cuisines.includes(t))
+        .slice(0, MAX_TAGS)
+      const href = hasDetailPage(spot) ? `/spots/${spot.slug}/` : undefined
+      const image = spot.image ?? PLACEHOLDER_IMAGE
 
       return (
-        <li
-          key={spot.id}
-          style={{
-            borderBottom: "1px solid rgba(96, 120, 111, 0.14)",
-            display: "flex",
-            gap: "0.75rem",
-            padding: "0.75rem 0.25rem",
-          }}
-        >
-          {spot.image && (
+        <li key={spot.id} className="gourmet-feature__item">
+          <figure className="gourmet-feature__media">
             <img
-              src={spot.image.src}
-              alt={spot.image.alt}
-              style={{
-                borderRadius: "6px",
-                flexShrink: "0",
-                height: "64px",
-                objectFit: "cover",
-                width: "64px",
-              }}
+              src={image.src}
+              alt={image.alt}
               loading="lazy"
-              width={96}
-              height={96}
+              decoding="async"
+              width={image.width ?? 800}
+              height={image.height ?? 600}
             />
-          )}
-          <div style={{ flex: "1", minWidth: "0" }}>
-            <div
-              style={{
-                alignItems: "baseline",
-                display: "flex",
-                flexWrap: "wrap",
-                gap: "0.5rem",
-              }}
-            >
-              {hasDetailPage(spot) ? (
-                <Link
-                  href={`/spots/${spot.slug}/`}
-                  className="gourmet-list__name gourmet-list__name--link"
-                >
-                  {spot.name}
-                </Link>
-              ) : (
-                <span className="gourmet-list__name">{spot.name}</span>
-              )}
-              {cuisines.length > 0 && (
-                <span
-                  style={{
-                    display: "inline-flex",
-                    flexWrap: "wrap",
-                    gap: "0.25rem",
-                  }}
-                >
-                  {cuisines.map((label) => (
-                    <span
-                      key={label}
-                      style={{
-                        background: "rgba(185, 74, 58, 0.08)",
-                        borderRadius: "4px",
-                        color: "#8a6f63",
-                        fontSize: "0.6875rem",
-                        padding: "0.125rem 0.375rem",
-                      }}
-                    >
-                      {label}
-                    </span>
-                  ))}
-                </span>
-              )}
-            </div>
-            {details.length > 0 && (
-              <p
-                style={{
-                  color: "#8a6f63",
-                  fontSize: "0.75rem",
-                  lineHeight: "1.6",
-                  margin: "0.25rem 0 0",
-                }}
-              >
-                {details.join("／")}
-              </p>
+          </figure>
+          <div className="gourmet-feature__body">
+            <p className="gourmet-feature__kicker">
+              <span className="gourmet-feature__num">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              {kicker.join(" ／ ")}
+            </p>
+            <h3 className="gourmet-feature__name">
+              {href ? <Link href={href}>{spot.name}</Link> : spot.name}
+            </h3>
+            {description && (
+              <p className="gourmet-feature__desc">{description}</p>
+            )}
+            {spot.editorComment && (
+              <blockquote className="gourmet-feature__comment">
+                {spot.editorComment.text}
+              </blockquote>
+            )}
+            {meta.length > 0 && (
+              <dl className="gourmet-feature__meta">
+                {meta.map(([label, value]) => (
+                  <div key={label}>
+                    <dt>{label}</dt>
+                    <dd>{value}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
+            {tags.length > 0 && (
+              <ul className="gourmet-feature__tags">
+                {tags.map((t) => (
+                  <li key={t}>#{t}</li>
+                ))}
+              </ul>
+            )}
+            {href && (
+              <Link href={href} className="gourmet-feature__more">
+                店舗の詳細を見る →
+              </Link>
             )}
           </div>
         </li>
       )
     })}
-  </ul>
+  </ol>
 )
 
 /**
