@@ -2,6 +2,7 @@ import Link from "next/link"
 import Script from "next/script"
 import { absoluteUrl, siteDescriptionEn, siteNameEn, siteUrl } from "lib/site"
 import { LanguageProvider } from "components/language-provider"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { AdsenseVignetteCleanup } from "components/adsense-vignette-cleanup"
 import { notoSansJP } from "lib/fonts"
 import "../reset.css"
@@ -130,6 +131,7 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
             }}
           >
             {children}
+            <AdsenseDisplayAd />
           </main>
           <footer className="site-footer">
             <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
