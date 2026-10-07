@@ -18,6 +18,7 @@ import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
+import { GourmetGuide } from "components/gourmet-guide"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 const spotCount = sortGourmetSpots(getSpotsByCuisine("izakaya")).length
@@ -43,6 +44,57 @@ export const metadata = {
     images: ["/images/hero.jpg"],
   },
 }
+
+const guideIntro = [
+  "秋葉原の居酒屋は、オフィスが集まる昭和通り口側に特に多く集まっています。仕事帰りの一杯や会社の宴会に使える大型チェーンから、焼き鳥・海鮮・郷土料理の専門店までそろっています。",
+  "電気街口側にはイベント帰りやオフ会の打ち上げに使いやすい店が点在。個室や飲み放題プランのある店もあるので、人数や予算に合わせて選べます。",
+]
+
+const guideAreaNotes = {
+  昭和通り:
+    "掲載店が多いエリア。オフィス街に近く、会社帰りの飲み会や宴会向けの店が集中しています。",
+  電気街:
+    "電気街口〜中央通り周辺。イベント帰りやオフ会の打ち上げに使いやすい立地です。",
+  岩本町:
+    "岩本町・神田方面。駅から少し離れるぶん、落ち着いて飲める店を探すときに。",
+  "パーツ街・ジャンク街":
+    "末広町寄りの裏通り。買い物のあとに軽く一杯飲みたいときに。",
+  末広町: "東京メトロ銀座線・末広町駅寄りのエリアです。",
+  中央口: "秋葉原駅中央改札口の周辺。待ち合わせしやすい立地です。",
+}
+
+const guideStyles = [
+  {
+    label: "個室あり",
+    keys: ["個室"],
+    text: "接待や会社の飲み会、周りを気にせず話したいときに。人数によっては予約が必要です。",
+  },
+  {
+    label: "飲み放題",
+    keys: ["飲み放題"],
+    text: "飲み放題付きの宴会コースやプランがある店。歓送迎会やオフ会など人数の多い集まりで予算を決めやすくなります。",
+  },
+  {
+    label: "焼き鳥",
+    keys: ["焼き鳥", "yakitori"],
+    text: "串焼きを中心にした店。カウンターで一人飲みしやすい店もあります。",
+  },
+  {
+    label: "海鮮",
+    keys: ["海鮮", "seafood"],
+    text: "刺身や魚料理が中心の店。日本酒と合わせて楽しめます。",
+  },
+  {
+    label: "炉端焼き",
+    keys: ["炉端焼き"],
+    text: "目の前で魚介や野菜を焼き上げる炉端焼きのスタイルです。",
+  },
+  {
+    label: "日本酒",
+    keys: ["日本酒"],
+    text: "地酒や日本酒のラインナップに力を入れている店です。",
+  },
+]
 
 const Page = () => {
   const spots = sortGourmetSpots(getSpotsByCuisine("izakaya"))
@@ -294,6 +346,14 @@ const Page = () => {
           秋葉原の居酒屋一覧（{spots.length}件）
         </h2>
         <GourmetSpotList spots={spots} />
+
+        <GourmetGuide
+          label="居酒屋"
+          spots={spots}
+          intro={guideIntro}
+          areaNotes={guideAreaNotes}
+          styles={guideStyles}
+        />
 
         {relatedArticles.length > 0 && (
           <>

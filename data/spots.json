@@ -1602,7 +1602,8 @@
     "cuisine": [
       "ramen"
     ],
-    "website": "https://gardengroup.co.jp/brand/ichikakuya/"
+    "website": "https://gardengroup.co.jp/brand/ichikakuya/",
+    "osmId": "node/11782064311"
   },
   {
     "id": 49,
@@ -3817,28 +3818,6 @@
     ]
   },
   {
-    "id": 136,
-    "name": "だるまのめ",
-    "slug": "osm-node-1915227174",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
-    "lat": 35.698882,
-    "lng": 139.770458,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/1915227174",
-    "website": "http://usingroup.jp/darumanome/",
-    "cuisine": [
-      "ramen"
-    ],
-    "address": "東京都千代田区外神田1-9-8",
-    "addressSource": "gsi-reverse",
-    "hours": "月〜金・祝前日 11:00〜23:00 / 土 10:00〜23:00 / 日 10:00〜22:00 / 祝 11:00〜22:00",
-    "tags": [
-      "パーツ街・ジャンク街"
-    ]
-  },
-  {
     "id": 137,
     "name": "壱角家 秋葉原店",
     "slug": "osm-node-1915234620",
@@ -5239,26 +5218,6 @@
     ]
   },
   {
-    "id": 200,
-    "name": "つじ田",
-    "slug": "osm-node-3263272304",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
-    "lat": 35.699003,
-    "lng": 139.770131,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/3263272304",
-    "website": "https://www.toeimusen.co.jp/",
-    "address": "東京都千代田区外神田1-9-5 第一ナカジマビル1F",
-    "addressSource": "gsi-reverse",
-    "hours": "11:00〜20:00",
-    "closed": "不定休",
-    "tags": [
-      "電気街"
-    ]
-  },
-  {
     "id": 201,
     "name": "てんや",
     "slug": "osm-node-3263298104",
@@ -6076,6 +6035,7 @@
       "height": 600
     },
     "tags": [
+      "家系",
       "電気街"
     ]
   },
@@ -7801,27 +7761,6 @@
     ]
   },
   {
-    "id": 307,
-    "name": "壱角家",
-    "slug": "osm-node-5061599640",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの麺類店",
-    "lat": 35.698892,
-    "lng": 139.775236,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5061599640",
-    "cuisine": [
-      "noodle"
-    ],
-    "address": "東京都千代田区神田佐久間町1-27 石鍋ビル1F",
-    "addressSource": "gsi-reverse",
-    "hours": "月〜金10:00〜翌3:00 / 土日祝10:00〜23:00",
-    "tags": [
-      "昭和通り"
-    ]
-  },
-  {
     "id": 308,
     "name": "スパゲッティーのパンチョ",
     "slug": "osm-node-5061599643",
@@ -8325,34 +8264,6 @@
     ]
   },
   {
-    "id": 331,
-    "name": "超ごってり麺 ごっつ",
-    "slug": "osm-node-5210427665",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの麺類店",
-    "lat": 35.70056,
-    "lng": 139.775275,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5210427665",
-    "cuisine": [
-      "noodle"
-    ],
-    "address": "東京都千代田区神田松永町18-1 ビオレ秋葉原1F",
-    "addressSource": "gsi-reverse",
-    "hours": "11:00〜翌4:00（毎日）",
-    "image": {
-      "src": "/images/spots/gottari-men-gottsu-kandamatsunagacho.jpg",
-      "alt": "超ごってり麺 ごっつの豚骨ラーメン",
-      "sourceLabel": "Retty 投稿写真",
-      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39424159.jpg",
-      "copyrightRisk": true
-    },
-    "tags": [
-      "岩本町"
-    ]
-  },
-  {
     "id": 332,
     "name": "高しな",
     "slug": "osm-node-5210427675",
@@ -8735,29 +8646,6 @@
     "closed": "なし",
     "tags": [
       "電気街"
-    ]
-  },
-  {
-    "id": 350,
-    "name": "日高屋",
-    "slug": "osm-node-5371455198",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの中華料理店",
-    "lat": 35.69954,
-    "lng": 139.774973,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5371455198",
-    "cuisine": [
-      "chinese",
-      "noodle"
-    ],
-    "address": "東京都千代田区神田松永町4-7 EIWA秋葉原ビル",
-    "addressSource": "gsi-reverse",
-    "hours": "月〜水10:00〜翌4:00 / 木〜土24時間営業 / 日〜23:00",
-    "closed": "無休",
-    "tags": [
-      "岩本町"
     ]
   },
   {
@@ -10448,6 +10336,7 @@
     ],
     "closed": "無休",
     "tags": [
+      "家系",
       "電気街"
     ]
   },
@@ -11731,6 +11620,7 @@
       "sourceUrl": "https://meocloud-image.can-ly.com/images/cms/managed/companies/478/20250507135628ogp-1200-630.jpg"
     },
     "tags": [
+      "飲み放題",
       "電気街"
     ]
   },
@@ -12819,27 +12709,6 @@
     "lastVerified": "2026-09-02",
     "tags": [
       "電気街"
-    ]
-  },
-  {
-    "id": 534,
-    "name": "壱角家",
-    "slug": "osm-node-11782064311",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのラーメン店",
-    "lat": 35.698807,
-    "lng": 139.771078,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/11782064311",
-    "hours": "10:30-23:00",
-    "cuisine": [
-      "ramen"
-    ],
-    "address": "東京都千代田区外神田一丁目",
-    "addressSource": "gsi-reverse",
-    "tags": [
-      "パーツ街・ジャンク街"
     ]
   },
   {
@@ -13963,35 +13832,6 @@
     ]
   },
   {
-    "id": 593,
-    "name": "お肉の店 やまの",
-    "slug": "osm-way-98454515",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの焼肉店",
-    "lat": 35.697666,
-    "lng": 139.775234,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "way/98454515",
-    "website": "http://www.yamano29.com/",
-    "cuisine": [
-      "yakiniku"
-    ],
-    "address": "東京都千代田区神田佐久間町1-21 あつみ薬品ビル2F",
-    "addressSource": "gsi-reverse",
-    "hours": "平日11:30〜14:00・17:00〜22:30（L.O.22:00）/ 土日祝11:30〜14:00・17:00〜22:00（L.O.21:30）",
-    "closed": "不定休",
-    "image": {
-      "src": "/images/spots/yamano-nikuya-akihabara.jpg",
-      "alt": "お肉の店 やまのの肉料理",
-      "sourceLabel": "お肉の店 やまの 公式サイト",
-      "sourceUrl": "http://www.yamano29.com/"
-    },
-    "tags": [
-      "昭和通り"
-    ]
-  },
-  {
     "id": 594,
     "name": "いせ源",
     "slug": "osm-way-150624609",
@@ -14204,7 +14044,18 @@
       "つけ麺",
       "岩本町"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "osmId": "node/5210427665",
+    "image": {
+      "src": "/images/spots/gottari-men-gottsu-kandamatsunagacho.jpg",
+      "alt": "超ごってり麺 ごっつの豚骨ラーメン",
+      "sourceLabel": "Retty 投稿写真",
+      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39424159.jpg",
+      "copyrightRisk": true
+    },
+    "aliases": [
+      "超ごってり麺 ごっつ"
+    ]
   },
   {
     "id": 603,
@@ -14288,7 +14139,8 @@
       "sourceUrl": "https://gardengroup.co.jp/brand/ichikakuya/",
       "width": 1200,
       "height": 630
-    }
+    },
+    "osmId": "node/5061599640"
   },
   {
     "id": 607,
@@ -14338,7 +14190,9 @@
       "替え玉",
       "パーツ街・ジャンク街"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "osmId": "node/1915227174",
+    "website": "http://usingroup.jp/darumanome/"
   },
   {
     "id": 610,
@@ -14562,7 +14416,9 @@
       "チェーン",
       "岩本町"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "osmId": "node/5371455198",
+    "closed": "無休"
   },
   {
     "id": 620,
@@ -14592,7 +14448,9 @@
       "sourceUrl": "https://tsukemen-tsujita.com/",
       "width": 2386,
       "height": 1701
-    }
+    },
+    "osmId": "node/3263272304",
+    "closed": "不定休"
   },
   {
     "id": 621,
@@ -15291,6 +15149,7 @@
     "lat": 35.698475,
     "lng": 139.775192,
     "tags": [
+      "飲み放題",
       "個室",
       "青森郷土料理",
       "炭火焼き",
@@ -15499,6 +15358,7 @@
     "description": "秋葉原駅徒歩3分。もつ焼きや海鮮料理を提供する居酒屋。平日19時までハッピーアワー、飲み放題付き宴会コースにも対応。",
     "address": "東京都千代田区外神田1-18-19 BiTO AKIBA 1F",
     "tags": [
+      "飲み放題",
       "もつ焼き",
       "海鮮",
       "ハッピーアワー",
@@ -15575,7 +15435,20 @@
     "tier": "A",
     "lastVerified": "2026-08-28",
     "lat": 35.697784,
-    "lng": 139.775192
+    "lng": 139.775192,
+    "osmId": "way/98454515",
+    "website": "http://www.yamano29.com/",
+    "hours": "平日11:30〜14:00・17:00〜22:30（L.O.22:00）/ 土日祝11:30〜14:00・17:00〜22:00（L.O.21:30）",
+    "closed": "不定休",
+    "image": {
+      "src": "/images/spots/yamano-nikuya-akihabara.jpg",
+      "alt": "お肉の店 やまのの肉料理",
+      "sourceLabel": "お肉の店 やまの 公式サイト",
+      "sourceUrl": "http://www.yamano29.com/"
+    },
+    "aliases": [
+      "お肉の店 やまの"
+    ]
   },
   {
     "id": 665,
@@ -15788,6 +15661,7 @@
     "lat": 35.6983,
     "lng": 139.7764,
     "tags": [
+      "飲み放題",
       "昭和通り"
     ]
   },
@@ -15927,6 +15801,7 @@
     "lat": 35.6952,
     "lng": 139.7725,
     "tags": [
+      "飲み放題",
       "電気街"
     ]
   },
@@ -15986,6 +15861,7 @@
     "lat": 35.698,
     "lng": 139.7779,
     "tags": [
+      "飲み放題",
       "昭和通り"
     ]
   },
@@ -16046,6 +15922,7 @@
     "lat": 35.6978,
     "lng": 139.7744,
     "tags": [
+      "飲み放題",
       "昭和通り"
     ]
   },
@@ -16221,6 +16098,7 @@
     "lat": 35.6977,
     "lng": 139.7785,
     "tags": [
+      "飲み放題",
       "昭和通り"
     ]
   },
@@ -16907,6 +16785,7 @@
     "lat": 35.6961,
     "lng": 139.775,
     "tags": [
+      "飲み放題",
       "岩本町"
     ]
   },
@@ -16981,6 +16860,7 @@
     "lat": 35.6992,
     "lng": 139.7752,
     "tags": [
+      "飲み放題",
       "岩本町"
     ]
   },
@@ -17003,6 +16883,7 @@
     "lat": 35.6987,
     "lng": 139.772,
     "tags": [
+      "飲み放題",
       "パーツ街・ジャンク街"
     ]
   },
@@ -17333,6 +17214,7 @@
     "lat": 35.6978,
     "lng": 139.7744,
     "tags": [
+      "飲み放題",
       "昭和通り"
     ]
   },
@@ -17426,6 +17308,7 @@
     "lat": 35.6978,
     "lng": 139.774399,
     "tags": [
+      "飲み放題",
       "昭和通り"
     ]
   },

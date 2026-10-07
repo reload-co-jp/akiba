@@ -7,6 +7,8 @@ import {
   getSpotSeoKeywords,
   getSpotHeadline,
   getSpotsByCategory,
+  getCuisineLabel,
+  getPagedCuisines,
 } from "lib/spots"
 import {
   getArticlesBySpotName,
@@ -61,6 +63,15 @@ const Page = async ({ params }: Props) => {
   if (!spot) notFound()
 
   const spotUrl = absoluteUrl(`/spots/${slug}/`)
+  // Link shop pages up to their genre LP (e.g. /spots/gourmet/ramen/)
+  const pagedCuisines = getPagedCuisines()
+  const cuisine = spot.cuisine?.find((c) => pagedCuisines.includes(c))
+  const crumbs = cuisine
+    ? [
+        { name: "グルメ", path: "/spots/gourmet/" },
+        { name: getCuisineLabel(cuisine), path: `/spots/gourmet/${cuisine}/` },
+      ]
+    : []
   const spotImage = getSpotImage(spot)
   const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(
     0,
@@ -177,7 +188,18 @@ const Page = async ({ params }: Props) => {
         name: "観光スポット",
         item: absoluteUrl("/spots/"),
       },
-      { "@type": "ListItem", position: 3, name: spot.name, item: spotUrl },
+      ...crumbs.map((c, i) => ({
+        "@type": "ListItem",
+        position: 3 + i,
+        name: c.name,
+        item: absoluteUrl(c.path),
+      })),
+      {
+        "@type": "ListItem",
+        position: 3 + crumbs.length,
+        name: spot.name,
+        item: spotUrl,
+      },
     ],
   }
 
@@ -212,6 +234,11 @@ const Page = async ({ params }: Props) => {
             <li className="breadcrumb__item">
               <Link href="/spots/">観光スポット</Link>
             </li>
+            {crumbs.map((c) => (
+              <li key={c.path} className="breadcrumb__item">
+                <Link href={c.path}>{c.name}</Link>
+              </li>
+            ))}
             <li
               className="breadcrumb__item breadcrumb__item--current"
               aria-current="page"
@@ -399,7 +426,10 @@ const Page = async ({ params }: Props) => {
             </h2>
             {hasVenueLanding(spot.slug) && (
               <p style={{ margin: "0 0 .75rem" }}>
-                <Link href={`/events/venue/${spot.slug}/`} className="today-related__link">
+                <Link
+                  href={`/events/venue/${spot.slug}/`}
+                  className="today-related__link"
+                >
                   {spot.name}のイベント情報（開催中・開催予定）→
                 </Link>
               </p>

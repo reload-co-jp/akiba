@@ -18,6 +18,7 @@ import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
+import { GourmetGuide } from "components/gourmet-guide"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 const spotCount = sortGourmetSpots(getSpotsByCuisine("ramen")).length
@@ -43,6 +44,56 @@ export const metadata = {
     images: ["/images/hero.jpg"],
   },
 }
+
+const guideIntro = [
+  "秋葉原は電気街やパーツ街をめぐる買い物客と、周辺オフィスで働く人の両方が行き交う街。短時間でさっと食べられるラーメン店が、電気街口側と昭和通り口側の両方に集まっています。",
+  "横浜家系・豚骨・つけ麺・中華そばとジャンルの幅が広く、チェーン店と個人店が混在しているのが特徴。電気街口側はショップめぐりの合間に、昭和通り口・岩本町側は平日ランチや仕事帰りに使いやすい立地です。",
+]
+
+const guideAreaNotes = {
+  電気街: "中央通りや電気街口周辺。ショップめぐりの合間に寄りやすい立地です。",
+  昭和通り:
+    "昭和通り口側はオフィスが多く、平日ランチや仕事帰りに使いやすい店が中心です。",
+  岩本町:
+    "岩本町・神田寄りのエリア。電気街のにぎわいから少し離れて食べたいときに。",
+  "パーツ街・ジャンク街":
+    "末広町寄りの裏通り。PCパーツ店めぐりの途中に立ち寄れます。",
+  末広町: "東京メトロ銀座線・末広町駅寄りのエリアです。",
+  中央口: "秋葉原駅中央改札口の周辺。乗り換え前後にも寄りやすい立地です。",
+}
+
+const guideStyles = [
+  {
+    label: "家系",
+    keys: ["家系"],
+    text: "豚骨醤油スープに太麺、海苔・ほうれん草が定番の横浜家系。ライス無料の店も多く、しっかり食べたいときに。",
+  },
+  {
+    label: "豚骨",
+    keys: ["豚骨"],
+    text: "濃厚な豚骨スープの店。替え玉に対応する博多系もあります。",
+  },
+  {
+    label: "つけ麺",
+    keys: ["つけ麺"],
+    text: "濃いめのつけ汁と太麺を楽しむつけ麺。最後にスープ割りで締められる店もあります。",
+  },
+  {
+    label: "中華そば・醤油",
+    keys: ["中華そば", "醤油"],
+    text: "あっさりした醤油系の中華そば。重すぎない一杯を探すときに。",
+  },
+  {
+    label: "油そば・まぜそば",
+    keys: ["油そば", "まぜそば"],
+    text: "スープのない汁なし麺。タレと麺をよく混ぜて食べるスタイルです。",
+  },
+  {
+    label: "鶏白湯",
+    keys: ["鶏白湯"],
+    text: "鶏ガラを炊き出したクリーミーなスープ。豚骨より軽めの濃厚系です。",
+  },
+]
 
 const Page = () => {
   const spots = sortGourmetSpots(getSpotsByCuisine("ramen"))
@@ -294,6 +345,14 @@ const Page = () => {
           秋葉原のラーメン店一覧（{spots.length}件）
         </h2>
         <GourmetSpotList spots={spots} />
+
+        <GourmetGuide
+          label="ラーメン店"
+          spots={spots}
+          intro={guideIntro}
+          areaNotes={guideAreaNotes}
+          styles={guideStyles}
+        />
 
         {relatedArticles.length > 0 && (
           <>

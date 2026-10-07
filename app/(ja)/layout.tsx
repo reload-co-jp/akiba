@@ -251,6 +251,15 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/spots/gourmet/" className="site-sidebar__link">
                 秋葉原グルメ
               </Link>
+              <Link href="/spots/gourmet/ramen/" className="site-sidebar__link">
+                秋葉原ラーメン
+              </Link>
+              <Link
+                href="/spots/gourmet/izakaya/"
+                className="site-sidebar__link"
+              >
+                秋葉原居酒屋
+              </Link>
               <Link href="/spots/" className="site-sidebar__link">
                 観光スポット
               </Link>
@@ -298,6 +307,10 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                     <Link href="/spots/">観光スポット</Link>
                     {" / "}
                     <Link href="/spots/gourmet/">秋葉原グルメ</Link>
+                    {" / "}
+                    <Link href="/spots/gourmet/ramen/">秋葉原ラーメン</Link>
+                    {" / "}
+                    <Link href="/spots/gourmet/izakaya/">秋葉原居酒屋</Link>
                     {" / "}
                     <Link href="/terms/">利用規約</Link>
                     {" / "}
