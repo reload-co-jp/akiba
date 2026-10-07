@@ -1,8 +1,9 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { Fragment, useEffect, useState } from "react"
 import { fmtRange } from "lib/format"
 import { EventCard } from "components/event-card"
+import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 export type VenueFilterEvent = {
   id: number
@@ -229,25 +230,31 @@ export const TodayVenueFilter = ({
       )}
       {mapSlot}
       <ul className="events-list events-list--grid">
-        {visible.map((ev) => (
-          <EventCard
-            key={ev.id}
-            href={`${hrefPrefix}${ev.slug}/`}
-            image={ev.image}
-            title={ev.title}
-            venue={ev.event.venue}
-            dateRange={fmtRange(
-              ev.event.startDate,
-              ev.event.endDate,
-              L.dateSep
+        {visible.map((ev, i) => (
+          <Fragment key={ev.id}>
+            <EventCard
+              href={`${hrefPrefix}${ev.slug}/`}
+              image={ev.image}
+              title={ev.title}
+              venue={ev.event.venue}
+              dateRange={fmtRange(
+                ev.event.startDate,
+                ev.event.endDate,
+                L.dateSep
+              )}
+              price={ev.event.price}
+              tags={ev.tags}
+              sourceUrl={ev.sourceUrl}
+              sourceLabel={ev.sourceLabel}
+              labels={L.cardLabels}
+              layout="grid"
+            />
+            {i % 6 === 5 && (
+              <li style={{ gridColumn: "1 / -1" }}>
+                <AdsenseFluidAd />
+              </li>
             )}
-            price={ev.event.price}
-            tags={ev.tags}
-            sourceUrl={ev.sourceUrl}
-            sourceLabel={ev.sourceLabel}
-            labels={L.cardLabels}
-            layout="grid"
-          />
+          </Fragment>
         ))}
       </ul>
       {hasMore && (
