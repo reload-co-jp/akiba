@@ -122,6 +122,7 @@ const Page = () => {
           aria-label="今日の秋葉原ショートカット"
         >
           <Link href="/events/today/">今日開催イベント</Link>
+          <Link href="/events/tomorrow/">明日のイベント</Link>
           <Link href="/events/this-week/">今週のイベント</Link>
           <Link href="/articles/">新着記事</Link>
           <Link href="/events/calendar/">カレンダー</Link>

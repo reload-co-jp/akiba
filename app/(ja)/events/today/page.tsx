@@ -508,6 +508,11 @@ const Page = () => {
             }}
           >
             <li>
+              <Link href="/events/tomorrow/" className="today-related__link">
+                明日の秋葉原イベント →
+              </Link>
+            </li>
+            <li>
               <Link href="/events/this-week/" className="today-related__link">
                 今週の秋葉原イベント →
               </Link>

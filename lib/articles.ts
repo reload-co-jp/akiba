@@ -366,7 +366,7 @@ export const formatMonth = (month: string): string => {
   return `${year}年${parseInt(m)}月`
 }
 
-const addDays = (date: string, days: number): string => {
+export const addDays = (date: string, days: number): string => {
   const d = new Date(date)
   d.setDate(d.getDate() + days)
   return d.toISOString().slice(0, 10)

@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/akiba-today/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.95 },
     { url: absoluteUrl("/events/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.7 },
     { url: absoluteUrl("/events/today/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
+    { url: absoluteUrl("/events/tomorrow/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.85 },
     { url: absoluteUrl("/events/this-week/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.8 },
     { url: absoluteUrl("/events/this-weekend/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.8 },
     { url: absoluteUrl("/events/monthly/"), lastModified: latestDate, changeFrequency: "weekly", priority: 0.7 },
