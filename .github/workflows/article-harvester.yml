@@ -19,6 +19,20 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Setup pnpm
+        run: corepack enable
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Scan sources (list, dedup, detail)
+        run: pnpm harvest scan
+
       - name: Run Claude Skill akiba-article-harvester
         uses: anthropics/claude-code-action@v1
         with:
@@ -31,6 +45,11 @@ jobs:
             Execute all instructions in that skill.
             Do not merely explain what the skill says.
             Actually perform the work described by the skill.
+            `pnpm harvest scan` has already run: start from tmp/harvest-queue.json
+            and do not rerun scan.
+
+      - name: Validate articles
+        run: pnpm run validate:articles
 
       - name: Commit and push data
         id: commit

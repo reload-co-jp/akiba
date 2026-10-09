@@ -1,5 +1,543 @@
 [
   {
+    "id": 961,
+    "title": "「日本ファルコム創立45周年展」が秋葉原グランエンタスで10月17日から開催",
+    "slug": "falcom-45th-exhibition-granentas-akihabara-2026",
+    "summary": "2026年3月に創立45周年を迎えた日本ファルコムの記念展が、10月17日から11月1日まで秋葉原オノデンビル1Fのグランエンタスで開催。入場無料で、展示企画や関連商品の販売、購入特典のステッカー配布を行う。",
+    "content": "## 概要\n\n2026年3月に創立45周年を迎えた日本ファルコムを祝う「日本ファルコム創立45周年展」が、2026年10月17日（土）から11月1日（日）まで秋葉原オノデンビル1Fのグランエンタスで開催される。主催はタブリエ・マーケティング。\n\n秋葉原会場を皮切りに、ジーストア仙台・大阪・名古屋・小倉へ巡回する。\n\n## 内容\n\n会場では日本ファルコム作品の魅力を紹介する展示・企画のほか、関連商品を販売する。\n\n- 関連商品を3,300円（税込）購入・予約ごとに「A：ロゴステッカー（全5種）」または「B：キャラクターステッカー（全5種）」からランダムで1セットをプレゼント（A/Bは会場で選択）\n- 主な商品例: ADOL CHRISTIN 3,080円、軌跡20周年豆皿BOX 6,600円、イース ロゴ 薄手ドライパーカー 6,380円（いずれも税込）\n\n## 開催情報\n\n- **会場**: グランエンタス（秋葉原オノデンビル1F）\n- **期間**: 2026年10月17日（土）〜11月1日（日）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n- **巡回**: ジーストア仙台 11月7日〜15日、ジーストア大阪 12月5日〜13日、ジーストア名古屋 2027年1月9日〜17日、ジーストア小倉 2027年1月23日〜31日\n\n## こんな人におすすめ\n\n- 『イース』『軌跡』シリーズなど日本ファルコム作品のファン\n- 45周年記念グッズや購入特典ステッカーを狙う方\n- 秋葉原でゲームメーカーの記念展示を見たい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Nihon Falcom 45th Anniversary Exhibition at Granentas from October 17",
+      "summary": "An exhibition celebrating Nihon Falcom's 45th anniversary runs at Granentas on the 1F of the Akihabara Onoden Building from October 17 to November 1, 2026. Admission is free, with exhibits, merchandise sales, and sticker purchase bonuses.",
+      "content": "## Overview\n\nThe Nihon Falcom 45th Anniversary Exhibition, celebrating the company's 45th anniversary in March 2026, runs from Saturday, October 17 to Sunday, November 1, 2026 at Granentas on the 1F of the Akihabara Onoden Building. It is organized by Tablier Marketing.\n\nAfter Akihabara, the exhibition tours G-Store locations in Sendai, Osaka, Nagoya, and Kokura.\n\n## Highlights\n\nThe venue introduces Nihon Falcom's titles through exhibits and special features, along with merchandise sales.\n\n- For every ¥3,300 (tax incl.) spent on or reserved for related goods, receive one random set from either \"A: Logo Stickers (5 types)\" or \"B: Character Stickers (5 types)\" (choose A/B at the venue)\n- Example items: ADOL CHRISTIN ¥3,080, Kiseki 20th Anniversary Small Plate BOX ¥6,600, Ys Logo Thin Dry Hoodie ¥6,380 (all tax incl.)\n\n## Event Details\n\n- **Venue**: Granentas (Akihabara Onoden Building 1F)\n- **Dates**: Saturday, October 17 – Sunday, November 1, 2026\n- **Admission**: Free (merchandise purchased separately)\n- **Reservation**: Not required\n- **Tour**: G-Store Sendai Nov 7–15, G-Store Osaka Dec 5–13, G-Store Nagoya Jan 9–17, 2027, G-Store Kokura Jan 23–31, 2027\n\n## Recommended For\n\n- Fans of Nihon Falcom titles such as Ys and the Trails (Kiseki) series\n- Collectors after 45th anniversary goods and sticker bonuses\n- Visitors who want to see a game maker's anniversary exhibition in Akihabara"
+    },
+    "image": {
+      "src": "/images/articles/falcom-45th-exhibition-granentas-akihabara-2026.jpg",
+      "alt": "日本ファルコム創立45周年展の告知ビジュアル",
+      "sourceLabel": "Gamer",
+      "sourceUrl": "https://www.gamer.ne.jp/news/202610090063/",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "Gamer 記事",
+        "url": "https://www.gamer.ne.jp/news/202610090063/"
+      }
+    ],
+    "event": {
+      "venue": "秋葉原 グランエンタス（オノデン1F）",
+      "startDate": "2026-10-17",
+      "endDate": "2026-11-01",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false,
+      "category": "exhibition"
+    },
+    "authorId": 1,
+    "tagIds": [
+      68,
+      177,
+      164,
+      74
+    ]
+  },
+  {
+    "id": 962,
+    "title": "劇場版『ゾンビランドサガ ゆめぎんがパラダイス』公開1周年記念POP UPがAKIHABARAゲーマーズ本店で10月24日から開催",
+    "slug": "zombieland-saga-yumeginga-1st-anniversary-popup-gamers-akihabara-2026",
+    "summary": "劇場版『ゾンビランドサガ ゆめぎんがパラダイス』の公開1周年を記念したポップアップストアが、2026年10月24日から11月8日までAKIHABARAゲーマーズ本店で開催。佐賀LIVE衣装の新規描き下ろしフランシュシュのグッズが登場する。",
+    "content": "## 概要\n\n劇場版『ゾンビランドサガ ゆめぎんがパラダイス』の公開1周年を記念したポップアップストアが、AKIHABARAゲーマーズ本店で2026年10月24日から11月8日まで開催される。店舗・通販同時開催で、その後ゆめタウン佐賀などにも巡回する。\n\n## 内容\n\n佐賀LIVE衣装を着た新規描き下ろしのフランシュシュが、さまざまなグッズになって登場する。\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店\n- **期間**: 2026年10月24日〜11月8日\n- **営業時間**: 平日11:00〜21:00、土日祝10:00〜21:00\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n- **巡回**: ゆめタウン佐賀 11月20日〜29日ほか\n\n## こんな人におすすめ\n\n- 『ゾンビランドサガ』フランシュシュのファン\n- 佐賀LIVE衣装の描き下ろしグッズを集めたい方\n- AKIHABARAゲーマーズ本店のポップアップを巡りたい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Zombie Land Saga: Yumeginga Paradise 1st Anniversary Pop-Up at AKIHABARA Gamers from October 24",
+      "summary": "A pop-up store celebrating the first anniversary of the film Zombie Land Saga: Yumeginga Paradise runs at AKIHABARA Gamers Main Store from October 24 to November 8, 2026, featuring new art of Franchouchou in Saga LIVE outfits.",
+      "content": "## Overview\n\nA pop-up store celebrating the first anniversary of the film *Zombie Land Saga: Yumeginga Paradise* runs at AKIHABARA Gamers Main Store from October 24 to November 8, 2026. It runs simultaneously in store and online, and later tours locations including Youme Town Saga.\n\n## Highlights\n\nNewly drawn art of Franchouchou in their Saga LIVE outfits appears on a range of goods.\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers Main Store\n- **Dates**: October 24 – November 8, 2026\n- **Hours**: Weekdays 11:00–21:00, weekends/holidays 10:00–21:00\n- **Admission**: Free (merchandise purchased separately)\n- **Reservation**: Not required\n- **Tour**: Youme Town Saga Nov 20–29 and more\n\n## Recommended For\n\n- Fans of Zombie Land Saga's Franchouchou\n- Collectors of the new Saga LIVE outfit goods\n- Visitors touring pop-ups at AKIHABARA Gamers Main Store"
+    },
+    "image": {
+      "src": "/images/articles/zombieland-saga-yumeginga-1st-anniversary-popup-gamers-akihabara-2026.jpg",
+      "alt": "劇場版ゾンビランドサガ ゆめぎんがパラダイス 公開1周年記念ポップアップストアの告知画像",
+      "sourceLabel": "ゲーマーズ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=8005",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式フェア・イベントページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=8005"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-10-24",
+      "endDate": "2026-11-08",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false,
+      "category": "popup"
+    },
+    "authorId": 1,
+    "tagIds": [
+      72,
+      92,
+      129
+    ]
+  },
+  {
+    "id": 963,
+    "title": "『転生したらスライムだった件』伏瀬先生＆みっつばー先生サイン会がAKIHABARAゲーマーズ本店で11月3日開催",
+    "slug": "tensura-fuse-mitz-vah-signing-gamers-akihabara-2026",
+    "summary": "GCノベルズ12周年記念ポップアップの開催を記念し、『転生したらスライムだった件』の伏瀬先生とみっつばー先生のサイン会が2026年11月3日にAKIHABARAゲーマーズ本店6Fで開催。対象商品2,000円（税込）購入ごとの応募券による抽選制。",
+    "content": "## 概要\n\nGCノベルズ12周年記念ポップアップの開催を記念して、『転生したらスライムだった件』の原作・伏瀬先生とイラスト・みっつばー先生のサイン会が、2026年11月3日（火・祝）にAKIHABARAゲーマーズ本店6Fイベントスペースで開催される。\n\n## 参加方法\n\n- ゲーマーズ対象店舗で対象商品を1会計2,000円（税込）購入ごとに応募券（シリアルコード付き）を1枚配布\n- 応募券配布期間（店舗）: 2026年8月24日（月）〜10月18日（日）各店閉店時まで\n- 応募にはゲーマーズ会員登録（無料）が必要。抽選で当選者を招待\n- 当日は顔写真付き身分証による本人確認あり。本人以外の入場不可\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店 6Fイベントスペース\n- **日時**: 2026年11月3日（火・祝）第1部 13:00開演／第2部 14:30開演\n- **料金**: 対象商品購入に準ずる\n- **予約**: 応募券による抽選制\n\n## こんな人におすすめ\n\n- 『転スラ』原作小説のファン\n- 伏瀬先生・みっつばー先生のサインを手に入れたい方\n- 応募券の配布期限（10月18日）に間に合わせたい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] That Time I Got Reincarnated as a Slime Signing by Fuse and Mitz Vah at AKIHABARA Gamers on November 3",
+      "summary": "To mark the GC Novels 12th anniversary pop-up, a signing with Fuse and Mitz Vah of That Time I Got Reincarnated as a Slime takes place on November 3, 2026 at AKIHABARA Gamers Main Store 6F. Entry is by lottery using tickets given for every ¥2,000 spent on eligible items.",
+      "content": "## Overview\n\nTo celebrate the GC Novels 12th anniversary pop-up, a signing session with author Fuse and illustrator Mitz Vah of *That Time I Got Reincarnated as a Slime* will be held on Tuesday, November 3, 2026 (holiday) in the 6F event space of AKIHABARA Gamers Main Store.\n\n## How to Participate\n\n- One entry ticket (with serial code) for every ¥2,000 (tax incl.) spent on eligible items in a single purchase at participating Gamers stores\n- Ticket distribution (stores): August 24 – October 18, 2026, until closing\n- Free Gamers membership is required to apply; winners are invited by lottery\n- Photo ID is checked on the day; only the winner may enter\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers Main Store 6F event space\n- **Date**: Tuesday, November 3, 2026 (holiday); Part 1 starts 13:00 / Part 2 starts 14:30\n- **Admission**: Based on eligible purchases\n- **Reservation**: Lottery via entry tickets\n\n## Recommended For\n\n- Fans of the *Slime* light novels\n- Fans hoping to get Fuse's and Mitz Vah's autographs\n- Readers aiming to get entry tickets before the October 18 deadline"
+    },
+    "image": {
+      "src": "/images/articles/tensura-fuse-mitz-vah-signing-gamers-akihabara-2026.jpg",
+      "alt": "転生したらスライムだった件 伏瀬先生＆みっつばー先生サイン会の告知画像",
+      "sourceLabel": "ゲーマーズ",
+      "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7784",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "ゲーマーズ 公式フェア・イベントページ",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7784"
+      }
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店 6Fイベントスペース",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
+      "price": "対象商品購入に準ずる（抽選制）",
+      "reservation": true,
+      "category": "release-event"
+    },
+    "authorId": 1,
+    "tagIds": [
+      72,
+      86,
+      194,
+      203
+    ]
+  },
+  {
+    "id": 964,
+    "title": "『ファイナルファンタジー レゾナンス』×グラッテがアニメイト秋葉原ANNEXなど12店舗で10月17日から開催",
+    "slug": "ff-resonance-gratte-animate-akihabara-annex-2026",
+    "summary": "10月22日発売の『ファイナルファンタジー レゾナンス』とアニメイトカフェGratteのコラボが、2026年10月17日から11月15日までアニメイト秋葉原ANNEXなど12店舗で開催。グラッテ全8種とアイシングクッキー全3種を販売する。",
+    "content": "## 概要\n\n2026年10月22日発売のゲーム『ファイナルファンタジー レゾナンス』の発売を記念し、アニメイトカフェのGratte（グラッテ）とのコラボが2026年10月17日（土）から11月15日（日）まで全国のアニメイトグラッテ12店舗で開催される。秋葉原ではアニメイト秋葉原ANNEXが対象。\n\n## 内容\n\n- キャラクターの絵柄を選べるグラッテ全8種（648円〜660円・税込）\n- モーグリ・チョコボ・サボテンダーのアイシングクッキー全3種（594円〜605円・税込）\n- 対象商品1,500円（税込）購入ごとに、ステータス画面風キャラクターカードを1枚プレゼント\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原ANNEX（アニメイトグラッテ）\n- **期間**: 2026年10月17日（土）〜11月15日（日）\n- **料金**: 入場無料（商品・メニュー購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『ファイナルファンタジー レゾナンス』のプレイを楽しみにしている方\n- キャラクター絵柄のグラッテやクッキーを楽しみたい方\n- ステータス画面風キャラクターカードを集めたい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Final Fantasy Resonance x Gratte at Animate Akihabara ANNEX and 11 Other Stores from October 17",
+      "summary": "A collaboration between Final Fantasy Resonance, releasing October 22, and Animate Cafe Gratte runs at 12 stores including Animate Akihabara ANNEX from October 17 to November 15, 2026, with 8 Gratte lattes and 3 icing cookies.",
+      "content": "## Overview\n\nTo mark the October 22, 2026 release of *Final Fantasy Resonance*, a collaboration with Animate Cafe Gratte runs from Saturday, October 17 to Sunday, November 15, 2026 at 12 Animate Gratte locations nationwide. In Akihabara, Animate Akihabara ANNEX participates.\n\n## Highlights\n\n- 8 Gratte lattes with selectable character designs (¥648–¥660 tax incl.)\n- 3 icing cookies featuring a Moogle, Chocobo, and Cactuar (¥594–¥605 tax incl.)\n- One status-screen style character card for every ¥1,500 (tax incl.) spent on eligible items\n\n## Event Details\n\n- **Venue**: Animate Akihabara ANNEX\n- **Dates**: Saturday, October 17 – Sunday, November 15, 2026\n- **Admission**: Free (merchandise and menu items purchased separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Players looking forward to *Final Fantasy Resonance*\n- Fans who want character-design lattes and cookies\n- Collectors of the status-screen character cards"
+    },
+    "image": {
+      "src": "/images/articles/ff-resonance-gratte-animate-akihabara-annex-2026.jpg",
+      "alt": "ファイナルファンタジー レゾナンス×グラッテのキービジュアル",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/final-fantasy-resonance-gratte-2026/",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/final-fantasy-resonance-gratte-2026/"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原ANNEX",
+      "startDate": "2026-10-17",
+      "endDate": "2026-11-15",
+      "price": "入場無料（商品・メニュー購入は別途）",
+      "reservation": false,
+      "category": "fair"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      276,
+      80,
+      57
+    ]
+  },
+  {
+    "id": 965,
+    "title": "ミュージカル「ヘタリア～World☆Starts～」×グラッテがアニメイト秋葉原ANNEXなど12店舗で10月23日から開催",
+    "slug": "hetalia-musical-gratte-animate-akihabara-annex-2026",
+    "summary": "10th Anniversary ミュージカル「ヘタリア～World☆Starts～」とGratteのコラボが、2026年10月23日から11月25日までアニメイト秋葉原ANNEXなど12店舗で開催。出演キャスト11名の絵柄から選べるラテ・クッキーが登場する。",
+    "content": "## 概要\n\n10th Anniversary ミュージカル「ヘタリア～World☆Starts～」とアニメイトカフェGratteのコラボが、2026年10月23日（金）から11月25日（水）まで全国のアニメイトグラッテ12店舗で開催される（ラシック福岡天神は10月24日から）。秋葉原ではアニメイト秋葉原ANNEXが対象。\n\n## 内容\n\n- 出演キャスト11名の絵柄から選べるグラフィックラテ・アイシングクッキー（各全11種、594円〜750円・税込）\n- グラフィックアイスはアニメイト通り店・渋谷・吉祥寺パルコ・仙台・梅田・ラシック福岡天神の6店舗のみで販売\n- コラボメニュー2,000円（税込）購入ごとにブロマイド（全11種）をランダムで1枚プレゼント\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原ANNEX（アニメイトグラッテ）\n- **期間**: 2026年10月23日（金）〜11月25日（水）\n- **料金**: 入場無料（商品・メニュー購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- ミュージカル「ヘタリア」のファン\n- 推しキャストの絵柄ラテを楽しみたい方\n- ブロマイド特典を集めたい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Hetalia Musical x Gratte at Animate Akihabara ANNEX and 11 Other Stores from October 23",
+      "summary": "A collaboration between the 10th Anniversary musical Hetalia ~World☆Starts~ and Gratte runs at 12 stores including Animate Akihabara ANNEX from October 23 to November 25, 2026, with lattes and cookies featuring 11 cast members.",
+      "content": "## Overview\n\nA collaboration between the 10th Anniversary musical *Hetalia ~World☆Starts~* and Animate Cafe Gratte runs from Friday, October 23 to Wednesday, November 25, 2026 at 12 Animate Gratte locations nationwide (LaChic Fukuoka Tenjin from October 24). In Akihabara, Animate Akihabara ANNEX participates.\n\n## Highlights\n\n- Graphic lattes and icing cookies with designs of 11 cast members (11 types each, ¥594–¥750 tax incl.)\n- Graphic ice cream is sold only at 6 stores: Animate-dori, Shibuya, Kichijoji PARCO, Sendai, Umeda, and LaChic Fukuoka Tenjin\n- One random bromide (11 types) for every ¥2,000 (tax incl.) spent on collaboration menu items\n\n## Event Details\n\n- **Venue**: Animate Akihabara ANNEX\n- **Dates**: Friday, October 23 – Wednesday, November 25, 2026\n- **Admission**: Free (merchandise and menu items purchased separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of the Hetalia musical\n- Fans who want lattes featuring their favorite cast member\n- Collectors of the bromide bonuses"
+    },
+    "image": {
+      "src": "/images/articles/hetalia-musical-gratte-animate-akihabara-annex-2026.jpg",
+      "alt": "ミュージカル ヘタリア×グラッテのキービジュアル",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/hetalia-musical-ws-gratte-2026/",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/hetalia-musical-ws-gratte-2026/"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原ANNEX",
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-25",
+      "price": "入場無料（商品・メニュー購入は別途）",
+      "reservation": false,
+      "category": "fair"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      80,
+      57
+    ]
+  },
+  {
+    "id": 966,
+    "title": "「デジモンテイマーズ」25周年記念アニメイトフェアがアニメイト秋葉原など8店舗で11月14日から開催",
+    "slug": "digimon-tamers-25th-animate-fair-akihabara-2026",
+    "summary": "「デジモンテイマーズ」25周年記念アニメイトフェアが、2026年11月14日から29日までアニメイト秋葉原店など全国8店舗で開催。バルーンがコンセプトの新規描き下ろしグッズを先行販売し、購入特典のポストカードを配布する。",
+    "content": "## 概要\n\n東映アニメーションの「デジモンシリーズ」第3作「デジモンテイマーズ」の25周年を記念した「デジモンテイマーズ 25周年記念 アニメイトフェア」が、2026年11月14日（土）から29日（日）までアニメイト池袋本店をはじめとする全国8店舗で開催される。秋葉原ではアニメイト秋葉原店が対象。\n\n## 内容\n\n- バルーンをコンセプトにした新規描き下ろしイラストの新商品を先行販売\n- 期間中、「デジモンテイマーズ」関連キャラクターグッズを1,100円（税込）購入ごとに「ポストカード（全10種）」を1枚プレゼント（事前に店舗予約した商品の引き取りも対象、なくなり次第終了）\n- トレーディンググリッター缶バッジの1BOX購入特典も用意\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原店\n- **期間**: 2026年11月14日（土）〜11月29日（日）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 「デジモンテイマーズ」のファン\n- 25周年記念の描き下ろしグッズを先行で手に入れたい方\n- ポストカード特典を集めたい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Digimon Tamers 25th Anniversary Animate Fair at Animate Akihabara and 7 Other Stores from November 14",
+      "summary": "The Digimon Tamers 25th Anniversary Animate Fair runs at 8 stores including Animate Akihabara from November 14 to 29, 2026, with early sales of new balloon-themed goods and postcard purchase bonuses.",
+      "content": "## Overview\n\nThe Digimon Tamers 25th Anniversary Animate Fair, celebrating 25 years of the third Digimon series by Toei Animation, runs from Saturday, November 14 to Sunday, November 29, 2026 at 8 stores nationwide including Animate Ikebukuro Main Store. In Akihabara, Animate Akihabara participates.\n\n## Highlights\n\n- Early sales of new goods with newly drawn balloon-themed art\n- One postcard (10 types) for every ¥1,100 (tax incl.) spent on Digimon Tamers character goods (including pickup of in-store reservations; while supplies last)\n- A bonus for purchasing a full box of trading glitter can badges\n\n## Event Details\n\n- **Venue**: Animate Akihabara\n- **Dates**: Saturday, November 14 – Sunday, November 29, 2026\n- **Admission**: Free (merchandise purchased separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Digimon Tamers fans\n- Fans wanting early access to 25th anniversary goods\n- Collectors of the postcard bonuses"
+    },
+    "image": {
+      "src": "/images/articles/digimon-tamers-25th-animate-fair-akihabara-2026.jpg",
+      "alt": "デジモンテイマーズ25周年記念アニメイトフェアの告知画像",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/digimon-tamers-animate-fair-2026/",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/digimon-tamers-animate-fair-2026/"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原店",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-29",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false,
+      "category": "fair"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      96,
+      114,
+      164
+    ]
+  },
+  {
+    "id": 967,
+    "title": "TVアニメ『神椿市建設中。』×がわこ アニメイトフェアがアニメイト秋葉原など6店舗で11月14日から開催",
+    "slug": "kamitsubaki-city-gawako-animate-fair-akihabara-2026",
+    "summary": "TVアニメ『神椿市建設中。』とイラストレーター・がわこ先生によるアニメイトフェアが、2026年11月14日から29日までアニメイト秋葉原店など6店舗と通販で開催。「ブラックコーデ」の描き起こしグッズを先行販売する。",
+    "content": "## 概要\n\nTVアニメ「神椿市建設中。」とイラストレーター・がわこ先生による「TVアニメ『神椿市建設中。』×がわこ アニメイトフェア」が、2026年11月14日（土）から29日（日）まで開催される。会場はアニメイト池袋本店・札幌店・名古屋店・秋葉原店・ラシック福岡天神店・大阪日本橋店とアニメイト通販。\n\n## 内容\n\n- がわこ先生が「ブラックコーデ」をコンセプトに描き起こした新規イラストの新商品を先行販売\n- 関連キャラクターグッズを1,100円（税込）購入ごとに「フィルム風イラストカード（全10種）」を1枚プレゼント（絵柄は選べず、なくなり次第終了）\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原店\n- **期間**: 2026年11月14日（土）〜11月29日（日）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- TVアニメ『神椿市建設中。』のファン\n- がわこ先生の描き起こしイラストグッズを集めたい方\n- フィルム風イラストカード特典を狙う方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Kamitsubaki City Under Construction x gawako Animate Fair at Animate Akihabara from November 14",
+      "summary": "An Animate fair for the TV anime Kamitsubaki City Under Construction and illustrator gawako runs at 6 stores including Animate Akihabara and online from November 14 to 29, 2026, with early sales of new \"Black Coordinate\" goods.",
+      "content": "## Overview\n\nThe TV anime *Kamitsubaki City Under Construction* x gawako Animate Fair runs from Saturday, November 14 to Sunday, November 29, 2026 at Animate Ikebukuro Main Store, Sapporo, Nagoya, Akihabara, LaChic Fukuoka Tenjin, Osaka Nipponbashi, and Animate online.\n\n## Highlights\n\n- Early sales of new goods with gawako's newly drawn \"Black Coordinate\" themed art\n- One film-style illustration card (10 types) for every ¥1,100 (tax incl.) spent on related character goods (random design, while supplies last)\n\n## Event Details\n\n- **Venue**: Animate Akihabara\n- **Dates**: Saturday, November 14 – Sunday, November 29, 2026\n- **Admission**: Free (merchandise purchased separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of the TV anime *Kamitsubaki City Under Construction*\n- Collectors of gawako's new illustrations\n- Fans hoping to get the film-style card bonuses"
+    },
+    "image": {
+      "src": "/images/articles/kamitsubaki-city-gawako-animate-fair-akihabara-2026.jpg",
+      "alt": "神椿市建設中。×がわこ アニメイトフェアの告知画像",
+      "sourceLabel": "コラボカフェ",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/kamitsubaki-gawako-animate-fair-2026/",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/kamitsubaki-gawako-animate-fair-2026/"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原店",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-29",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false,
+      "category": "fair"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      114,
+      47
+    ]
+  },
+  {
+    "id": 968,
+    "title": "『メタファー：リファンタジオ』2周年記念フェア・グラッテがアニメイト秋葉原・秋葉原ANNEXで10月10日から開催",
+    "slug": "metaphor-refantazio-2nd-anniversary-fair-animate-akihabara-2026",
+    "summary": "セガ×アニメイトのグローバル横断プロジェクト第5弾として、『メタファー：リファンタジオ』発売2周年記念フェアが2026年10月10日から11月1日まで開催。アニメイト秋葉原と秋葉原ANNEXも対象で、グラッテも展開する。",
+    "content": "## 概要\n\nアニメイトとセガが1年間にわたって展開する「セガ×アニメイトのグローバル横断プロジェクト」の第5弾として、発売2周年を迎える『メタファー：リファンタジオ』の「2周年記念フェア in アニメイト」が2026年10月10日（土）から11月1日（日）まで国内外の店舗と通販で開催される。秋葉原ではアニメイト秋葉原と、グラッテを展開するアニメイト秋葉原ANNEXが対象。\n\n## 内容\n\n- 関連グッズの購入・予約内金1,100円（税込）ごと、書籍・オーディオビジュアル商品・ゲームの購入・予約1点ごと、グラッテ飲食物の購入1点ごとに「特典ビジュアルカード（全9種）」を1枚プレゼント\n- グラッテ開催店舗では、キャラクターをプリントしたグラフィックラテ、アイシングクッキー、グラフィックアイスを販売（フェア対象商品）\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原、アニメイト秋葉原ANNEX（グラッテ）\n- **期間**: 2026年10月10日（土）〜11月1日（日）\n- **料金**: 入場無料（商品・メニュー購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『メタファー：リファンタジオ』のファン\n- セガ×アニメイトのコラボ企画を追っている方\n- 特典ビジュアルカードを集めたい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Metaphor: ReFantazio 2nd Anniversary Fair and Gratte at Animate Akihabara and ANNEX from October 10",
+      "summary": "As the fifth part of the SEGA x Animate global project, the Metaphor: ReFantazio 2nd anniversary fair runs from October 10 to November 1, 2026, including Animate Akihabara and Akihabara ANNEX with Gratte drinks.",
+      "content": "## Overview\n\nAs the fifth installment of the year-long \"SEGA x Animate Global Cross Project,\" the *Metaphor: ReFantazio* 2nd Anniversary Fair in Animate runs from Saturday, October 10 to Sunday, November 1, 2026 at stores in Japan and overseas and online. In Akihabara, Animate Akihabara and Animate Akihabara ANNEX (with Gratte) participate.\n\n## Highlights\n\n- One bonus visual card (9 types) for every ¥1,100 (tax incl.) spent on or deposited for related goods, per book/AV product/game purchased or reserved, or per Gratte food/drink item\n- Gratte locations sell graphic lattes, icing cookies, and graphic ice cream printed with characters (eligible for the fair)\n\n## Event Details\n\n- **Venue**: Animate Akihabara, Animate Akihabara ANNEX (Gratte)\n- **Dates**: Saturday, October 10 – Sunday, November 1, 2026\n- **Admission**: Free (merchandise and menu items purchased separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- *Metaphor: ReFantazio* fans\n- Fans following the SEGA x Animate collaboration project\n- Collectors of the bonus visual cards"
+    },
+    "image": {
+      "src": "/images/articles/metaphor-refantazio-2nd-anniversary-fair-animate-akihabara-2026.jpg",
+      "alt": "メタファー：リファンタジオ 2周年記念フェア・グラッテの告知画像",
+      "sourceLabel": "アニメイトタイムズ",
+      "sourceUrl": "https://www.animatetimes.com/news/details.php?id=1791436590",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "アニメイトタイムズ 記事",
+        "url": "https://www.animatetimes.com/news/details.php?id=1791436590"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原ANNEX",
+      "startDate": "2026-10-10",
+      "endDate": "2026-11-01",
+      "price": "入場無料（商品・メニュー購入は別途）",
+      "reservation": false,
+      "category": "fair"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      114,
+      74,
+      57
+    ]
+  },
+  {
+    "id": 969,
+    "title": "『楽園追放 心のレゾナンス』公開記念フェアがアニメイト秋葉原などで11月14日から開催",
+    "slug": "rakuen-tsuiho-kokoro-no-resonance-fair-animate-akihabara-2026",
+    "summary": "映画『楽園追放 心のレゾナンス』の公開を記念したアニメイトフェアが、2026年11月14日から12月6日までアニメイト秋葉原店など全国10店舗と通販で開催。関連グッズ1,100円（税込）購入ごとに特典を配布する。",
+    "content": "## 概要\n\n『楽園追放 心のレゾナンス』の公開を記念したアニメイトフェアが、2026年11月14日（土）から12月6日（日）まで開催される。会場は池袋本店、札幌店、渋谷店、名古屋店、秋葉原店、三宮店、ラシック福岡天神店、大阪日本橋店、横浜ビブレ店、梅田店とアニメイト通販。\n\n## 内容\n\n- 期間中、『楽園追放』関連グッズの購入・予約内金1,100円（税込）ごとに特典を1枚プレゼント\n- 特典は期間中でもなくなり次第終了\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原店\n- **期間**: 2026年11月14日（土）〜12月6日（日）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『楽園追放』シリーズのファン\n- 新作映画の公開に合わせてグッズを揃えたい方\n- アニメイト秋葉原店のフェア特典を集めている方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Expelled from Paradise: Resonance of Hearts Release Fair at Animate Akihabara from November 14",
+      "summary": "An Animate fair celebrating the release of Expelled from Paradise: Resonance of Hearts runs from November 14 to December 6, 2026 at 10 stores including Animate Akihabara and online, with a bonus for every ¥1,100 spent on related goods.",
+      "content": "## Overview\n\nAn Animate fair celebrating the release of *Expelled from Paradise: Resonance of Hearts* runs from Saturday, November 14 to Sunday, December 6, 2026. Participating locations are Ikebukuro Main Store, Sapporo, Shibuya, Nagoya, Akihabara, Sannomiya, LaChic Fukuoka Tenjin, Osaka Nipponbashi, Yokohama VIVRE, Umeda, and Animate online.\n\n## Highlights\n\n- One bonus item for every ¥1,100 (tax incl.) spent on or deposited for *Expelled from Paradise* goods\n- Bonuses end when supplies run out, even during the fair period\n\n## Event Details\n\n- **Venue**: Animate Akihabara\n- **Dates**: Saturday, November 14 – Sunday, December 6, 2026\n- **Admission**: Free (merchandise purchased separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of the *Expelled from Paradise* series\n- Fans collecting goods for the new film\n- Collectors of Animate Akihabara fair bonuses"
+    },
+    "image": {
+      "src": "/images/articles/rakuen-tsuiho-kokoro-no-resonance-fair-animate-akihabara-2026.jpg",
+      "alt": "楽園追放 心のレゾナンス 公開記念フェアの告知画像",
+      "sourceLabel": "アニメイト",
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116360",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "アニメイト フェアページ",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116360"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原店",
+      "startDate": "2026-11-14",
+      "endDate": "2026-12-06",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false,
+      "category": "fair"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      114,
+      47
+    ]
+  },
+  {
+    "id": 970,
+    "title": "TVアニメ「ヒカルの碁」ひつじver.フェアがアニメイト秋葉原などで12月4日から開催",
+    "slug": "hikaru-no-go-hitsuji-fair-animate-akihabara-2026",
+    "summary": "TVアニメ「ヒカルの碁」のひつじver.フェアが、2026年12月4日から20日までアニメイト秋葉原店など全国11店舗と通販で開催。関連グッズ1,100円（税込）購入ごとに特典を配布する。",
+    "content": "## 概要\n\nTVアニメ「ヒカルの碁」のフェア「ひつじver. in アニメイト」が、2026年12月4日（金）から20日（日）まで開催される。会場は池袋本店、札幌店、渋谷店、名古屋店、秋葉原店、ラシック福岡天神店、大阪日本橋店、横浜ビブレ店、梅田店、新宿店とアニメイト通販。\n\n## 内容\n\n- 期間中、TVアニメ『ヒカルの碁』関連グッズを1,100円（税込）購入ごとに特典を1枚プレゼント\n- 特典は期間中でもなくなり次第終了\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原店\n- **期間**: 2026年12月4日（金）〜12月20日（日）\n- **料金**: 入場無料（商品購入は別途）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『ヒカルの碁』のファン\n- ひつじモチーフの新作グッズを手に入れたい方\n- 年末の秋葉原でアニメイトフェアを巡りたい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Hikaru no Go Sheep Version Fair at Animate Akihabara from December 4",
+      "summary": "The TV anime Hikaru no Go sheep version fair runs from December 4 to 20, 2026 at stores including Animate Akihabara and online, with a bonus for every ¥1,100 spent on related goods.",
+      "content": "## Overview\n\nThe TV anime *Hikaru no Go* fair \"Sheep Version in Animate\" runs from Friday, December 4 to Sunday, December 20, 2026. Participating locations are Ikebukuro Main Store, Sapporo, Shibuya, Nagoya, Akihabara, LaChic Fukuoka Tenjin, Osaka Nipponbashi, Yokohama VIVRE, Umeda, Shinjuku, and Animate online.\n\n## Highlights\n\n- One bonus item for every ¥1,100 (tax incl.) spent on *Hikaru no Go* TV anime goods\n- Bonuses end when supplies run out, even during the fair period\n\n## Event Details\n\n- **Venue**: Animate Akihabara\n- **Dates**: Friday, December 4 – Sunday, December 20, 2026\n- **Admission**: Free (merchandise purchased separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- *Hikaru no Go* fans\n- Fans wanting the new sheep-themed goods\n- Visitors touring Animate fairs in Akihabara at year end"
+    },
+    "image": {
+      "src": "/images/articles/hikaru-no-go-hitsuji-fair-animate-akihabara-2026.jpg",
+      "alt": "TVアニメ ヒカルの碁 ひつじver. in アニメイトの告知画像",
+      "sourceLabel": "アニメイト",
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116470",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "アニメイト フェアページ",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116470"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原店",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-20",
+      "price": "入場無料（商品購入は別途）",
+      "reservation": false,
+      "category": "fair"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      114,
+      47
+    ]
+  },
+  {
+    "id": 971,
+    "title": "「青春ブタ野郎はディアフレンドの夢を見ない」公開記念Blu-ray＆DVDフェアがアニメイト秋葉原などで10月16日から開催",
+    "slug": "aobuta-dear-friend-bluray-fair-animate-akihabara-2026",
+    "summary": "劇場作品「青春ブタ野郎はディアフレンドの夢を見ない」の公開を記念し、アニメイト秋葉原店など全国9店舗と通販で青ブタシリーズBlu-ray＆DVDフェアを2026年10月16日から実施。対象商品購入で桜島麻衣のB2ポスターを配布する。",
+    "content": "## 概要\n\n「青春ブタ野郎はディアフレンドの夢を見ない」の公開を記念して、「青春ブタ野郎シリーズ」Blu-ray＆DVDのフェアが2026年10月16日（金）から実施される。会場は池袋本店、仙台店、町田店、名古屋店、秋葉原店、広島店、藤沢店、大阪日本橋店、横浜ビブレ店と通販。\n\n## 内容\n\n- 対象店舗で対象商品を1点以上購入すると「桜島麻衣 メモリアルビジュアル B2サイズポスター」を1枚プレゼント\n- 対象商品: TVシリーズ「青春ブタ野郎はバニーガール先輩の夢を見ない」1〜5巻、「青春ブタ野郎はサンタクロースの夢をみない」1〜4巻の完全生産限定版Blu-ray＆DVD\n- 特典はなくなり次第配布終了\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原店\n- **期間**: 2026年10月16日（金）〜（特典がなくなり次第終了）\n- **料金**: 対象商品購入に準ずる\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 「青ブタ」シリーズのファン\n- 新作劇場作品の公開に合わせて映像ソフトを揃えたい方\n- 桜島麻衣のB2ポスター特典を狙う方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] Rascal Does Not Dream of a Dear Friend Release Blu-ray & DVD Fair at Animate Akihabara from October 16",
+      "summary": "To celebrate the release of Rascal Does Not Dream of a Dear Friend, a Rascal series Blu-ray & DVD fair starts October 16, 2026 at 9 stores including Animate Akihabara and online, with a Mai Sakurajima B2 poster for purchasers.",
+      "content": "## Overview\n\nTo celebrate the release of *Rascal Does Not Dream of a Dear Friend*, a Blu-ray & DVD fair for the *Rascal* series starts Friday, October 16, 2026. Participating locations are Ikebukuro Main Store, Sendai, Machida, Nagoya, Akihabara, Hiroshima, Fujisawa, Osaka Nipponbashi, Yokohama VIVRE, and online.\n\n## Highlights\n\n- Buy at least one eligible item at a participating store to receive a \"Mai Sakurajima Memorial Visual B2 Poster\"\n- Eligible items: fully limited editions of the TV series *Rascal Does Not Dream of Bunny Girl Senpai* Vol. 1–5 and *Rascal Does Not Dream of Santa Claus* Vol. 1–4 on Blu-ray & DVD\n- Distribution ends when supplies run out\n\n## Event Details\n\n- **Venue**: Animate Akihabara\n- **Dates**: From Friday, October 16, 2026 (while supplies last)\n- **Admission**: Based on eligible purchases\n- **Reservation**: Not required\n\n## Recommended For\n\n- Fans of the *Rascal* series\n- Fans picking up the Blu-ray/DVD releases with the new film\n- Fans hoping to get the Mai Sakurajima B2 poster"
+    },
+    "image": {
+      "src": "/images/articles/aobuta-dear-friend-bluray-fair-animate-akihabara-2026.jpg",
+      "alt": "青春ブタ野郎はディアフレンドの夢を見ない 公開記念フェアの告知画像",
+      "sourceLabel": "アニメイト",
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116585",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "アニメイト フェアページ",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116585"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原店",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "price": "対象商品購入に準ずる",
+      "reservation": false,
+      "category": "campaign"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      114,
+      233
+    ]
+  },
+  {
+    "id": 972,
+    "title": "『I.ADORE』スタンディ＆サイン色紙・ポスター展示がアニメイト秋葉原で10月17日から実施",
+    "slug": "i-adore-standee-display-animate-akihabara-2026",
+    "summary": "『I.ADORE』のスタンディとサイン色紙・ポスターの展示が2026年10月17日から31日まで全国のアニメイトで実施。アニメイト秋葉原店では詠見野メクル役・三橋かおるさんのサイン色紙を展示し、展示記念のXハッシュタグキャンペーンも行う。",
+    "content": "## 概要\n\n『I.ADORE』のスタンディ＆サイン色紙・ポスター展示が、2026年10月17日（土）から31日（土）までアニメイト各店で実施される。アニメイト秋葉原店では、詠見野メクル役・三橋かおるさんのスタンディとサイン色紙を展示する。\n\n## 内容\n\n- 店舗ごとに異なるキャラクターのスタンディとキャストのサイン色紙を展示（梅田店は生月学斗役・福西勝也さん、仙台店は干二支合九役・宇田川かいとさんなど）\n- 展示を記念したXハッシュタグキャンペーンを2026年10月17日（土）から11月9日（月）23:59まで開催。当選発表は11月中旬頃予定\n\n## 開催情報\n\n- **会場**: アニメイト秋葉原店\n- **期間**: 2026年10月17日（土）〜10月31日（土）\n- **料金**: 入場無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『I.ADORE』のファン\n- 三橋かおるさんのサイン色紙を見たい方\n- Xハッシュタグキャンペーンに参加したい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Akihabara] I.ADORE Standee and Signed Board Display at Animate Akihabara from October 17",
+      "summary": "A standee and signed board/poster display for I.ADORE runs at Animate stores from October 17 to 31, 2026. Animate Akihabara displays the signed board of Kaoru Mitsuhashi, voice of Mekuru Yomino, alongside an X hashtag campaign.",
+      "content": "## Overview\n\nA standee, signed board, and poster display for *I.ADORE* runs at Animate stores from Saturday, October 17 to Saturday, October 31, 2026. Animate Akihabara displays the standee and signed board of Kaoru Mitsuhashi, who voices Mekuru Yomino.\n\n## Highlights\n\n- Each store displays a different character standee and cast signed board (e.g. Umeda: 福西勝也; Sendai: 宇田川かいと)\n- An X hashtag campaign marking the display runs from October 17 to November 9, 2026, 23:59. Winners are expected to be announced in mid-November\n\n## Event Details\n\n- **Venue**: Animate Akihabara\n- **Dates**: Saturday, October 17 – Saturday, October 31, 2026\n- **Admission**: Free\n- **Reservation**: Not required\n\n## Recommended For\n\n- *I.ADORE* fans\n- Fans who want to see Kaoru Mitsuhashi's signed board\n- Fans joining the X hashtag campaign"
+    },
+    "image": {
+      "src": "/images/articles/i-adore-standee-display-animate-akihabara-2026.jpg",
+      "alt": "I.ADORE スタンディ＆サイン色紙・ポスター展示の告知画像",
+      "sourceLabel": "アニメイト",
+      "sourceUrl": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116543",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "アニメイト フェアページ",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116543"
+      }
+    ],
+    "event": {
+      "venue": "アニメイト秋葉原店",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-31",
+      "price": "入場無料",
+      "reservation": false,
+      "category": "exhibition"
+    },
+    "authorId": 1,
+    "tagIds": [
+      48,
+      177,
+      63,
+      167
+    ]
+  },
+  {
+    "id": 973,
+    "title": "「HUAWEI公式サービスセンター」が神田須田町にプレオープン、10月23日グランドオープン",
+    "slug": "huawei-service-center-kanda-sudacho-2026",
+    "summary": "ファーウェイ・ジャパンが千代田区神田須田町の須田町ビル1Fに「HUAWEI公式サービスセンター」をプレオープンした。グランドオープンは10月23日。JR秋葉原駅電気街口から徒歩7分。",
+    "content": "## 概要\n\nファーウェイ・ジャパンは2026年10月2日、東京都千代田区神田須田町に「HUAWEI公式サービスセンター」をプレオープンした。グランドオープンは10月23日。\n\n秋葉原・神田エリアに、ファーウェイ製品のサポート拠点が新たに加わる。\n\n## 店舗情報\n\n- **所在地**: 東京都千代田区神田須田町1-3-1 須田町ビル1F\n- **アクセス**: 都営新宿線小川町駅A3出口から徒歩3分、JR秋葉原駅電気街口から徒歩7分\n- **定休日**: 木曜日\n- **プレオープン**: 2026年10月2日\n- **グランドオープン**: 2026年10月23日\n\n営業時間は公式案内を確認のこと。\n\n## こんな人におすすめ\n\n- ファーウェイ製品を使っている方\n- 秋葉原・神田周辺でメーカー公式のサポート窓口を探している方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "[Kanda] HUAWEI Official Service Center Pre-Opens in Kanda Sudacho, Grand Opening October 23",
+      "summary": "Huawei Japan has pre-opened the HUAWEI Official Service Center on the 1F of the Sudacho Building in Kanda Sudacho, Chiyoda-ku. The grand opening is October 23. It is a 7-minute walk from JR Akihabara Station's Electric Town exit.",
+      "content": "## Overview\n\nOn October 2, 2026, Huawei Japan pre-opened the HUAWEI Official Service Center in Kanda Sudacho, Chiyoda-ku, Tokyo. The grand opening is October 23.\n\nThe Akihabara/Kanda area gains a new official support location for Huawei products.\n\n## Store Information\n\n- **Address**: Sudacho Building 1F, 1-3-1 Kanda Sudacho, Chiyoda-ku, Tokyo\n- **Access**: 3-minute walk from Exit A3 of Ogawamachi Station (Toei Shinjuku Line), 7-minute walk from the Electric Town exit of JR Akihabara Station\n- **Closed**: Thursdays\n- **Pre-opening**: October 2, 2026\n- **Grand opening**: October 23, 2026\n\nCheck the official information for business hours.\n\n## Recommended For\n\n- Huawei product users\n- People looking for an official manufacturer support counter around Akihabara and Kanda"
+    },
+    "image": {
+      "src": "/images/articles/huawei-service-center-kanda-sudacho-2026.jpg",
+      "alt": "HUAWEI公式サービスセンター開設を伝える記事画像",
+      "sourceLabel": "ケータイ Watch",
+      "sourceUrl": "https://k-tai.watch.impress.co.jp/docs/news/2146400.html",
+      "width": 1,
+      "height": 1
+    },
+    "sources": [
+      {
+        "label": "ケータイ Watch 記事",
+        "url": "https://k-tai.watch.impress.co.jp/docs/news/2146400.html"
+      }
+    ],
+    "event": {
+      "venue": "HUAWEI公式サービスセンター（須田町ビル1F）",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "price": "サービス内容に準ずる",
+      "reservation": false,
+      "category": "shop"
+    },
+    "authorId": 1,
+    "tagIds": [
+      187,
+      56
+    ]
+  },
+  {
     "id": 557,
     "title": "『中村明日美子 25th Anniversary Café』がSTELLAMAP Cafeで開催",
     "slug": "nakamura-asumiko-25th-cafe-stellamap-2026",
@@ -3932,12 +4470,12 @@
     "title": "「ファミ通40周年フェス」がベルサール秋葉原で11月開催決定",
     "slug": "famitsu-40th-fes-bellesalle-akihabara-2026",
     "summary": "ゲーム総合誌『週刊ファミ通』の創刊40周年を記念したリアルイベント「ファミ通40周年フェス」が、2026年11月7日にベルサール秋葉原で入場無料で開催。試遊に『ペルソナ４ リバイバル』が追加され、ステージ・サイン会の抽選申込が始まった。",
-    "content": "## 概要\n\nゲーム総合誌『週刊ファミ通』の創刊40周年を記念したリアルイベント「ファミ通40周年フェス」が、2026年11月7日にベルサール秋葉原で開催されることが発表されました。\n\n『週刊ファミ通』は1986年創刊で、2026年6月6日に40周年を迎える。6月の記念号展開や特別配信に続く、秋葉原での大型記念イベント。\n\n## 内容\n\n発表では、ファミ通に縁のあるゲストを迎えたステージ企画や、限定グッズ販売などを予定していると案内されている。詳細は今後、『週刊ファミ通』やファミ通.comで順次発表される予定。\n\n6月4日発売の『週刊ファミ通』2026年6月18日号は、創刊40周年を記念した400ページ超の特大号として刊行。6月中は4号連続の記念号や、ファミ通TUBEでの特別生放送も展開される。\n\n## 追加発表（9月30日）\n\n最新ゲーム試遊、ファミ通編集部の仕事を体験できるワークショップ、40年の歴史を振り返る展示、フォトスポット、物販、ステージイベント、サイン会を実施。試遊タイトルに『ペルソナ４ リバイバル』が追加された。\n\n- ステージ観覧は事前抽選の当選者のみで、各回最大204名\n- 試遊・物販コーナーは事前抽選制（詳細は10月9日発表予定）\n- ファミ通名物“ガバス”に埋もれた気分を味わえるフォトスポットを設置\n- 来場者特典として“ガバス”風カードを配布。会場アンケート回答者には“なんでも『週刊ファミ通』の表紙になるクリアファイル”\n- サイン会は高橋きの先生、山本さほ先生、柴田亜美先生の回を実施（事前抽選制）。高橋先生・山本先生の回は週刊ファミ通2026年11月19日号（11月5日発売、電子版可）、柴田先生の回は11月4日発売予定の新刊を持参\n\n## 遠征支援プラン（10月6日発表）\n\n株式会社クールジャパントラベルが宿泊企画「『ファミ通40周年フェス』遠征支援プラン feat.ルパン小島&村下小粒」を10月7日から販売。元週刊ファミ通編集者のルパン小島氏とレトロゲームアイドル・村下小粒氏といっしょに会場を巡る観覧ツアーが目玉。\n\n- 前日泊プラン（11/6金曜チェックイン、11/7土曜チェックアウト）: 33,000円（税込）\n- 当日泊プラン（11/7土曜チェックイン、11/8日曜チェックアウト）: 44,000円（税込）\n- 参加者限定特典: ルパン氏が焙煎するオリジナル珈琲「ルパン珈琲オリジナルブレンド」、ルパン氏・村下氏との3ショットチェキ撮影\n\n## 開催情報\n\n- **会場**: ベルサール秋葉原\n- **住所**: 東京都千代田区外神田3-12-8 住友不動産秋葉原ビル\n- **開催日**: 2026年11月7日（土）10:00～18:00\n- **内容**: ファミ通40周年記念リアルイベント、ステージ企画、限定グッズ販売予定\n- **料金**: 入場無料（一部コーナーは事前抽選制）\n- **予約**: ステージ・サイン会は9月30日から抽選申込受付中。試遊・物販の事前抽選詳細は10月9日にファミ通.comなどで発表予定\n\n## こんな人におすすめ\n\n- ファミ通40周年企画を現地で楽しみたい方\n- ゲームメディアやゲーム業界の記念イベントに関心がある方\n- ベルサール秋葉原の大型ゲーム系イベントを早めに押さえたい方",
+    "content": "## 概要\n\nゲーム総合誌『週刊ファミ通』の創刊40周年を記念したリアルイベント「ファミ通40周年フェス」が、2026年11月7日にベルサール秋葉原で開催されることが発表されました。\n\n『週刊ファミ通』は1986年創刊で、2026年6月6日に40周年を迎える。6月の記念号展開や特別配信に続く、秋葉原での大型記念イベント。\n\n## 内容\n\n発表では、ファミ通に縁のあるゲストを迎えたステージ企画や、限定グッズ販売などを予定していると案内されている。詳細は今後、『週刊ファミ通』やファミ通.comで順次発表される予定。\n\n6月4日発売の『週刊ファミ通』2026年6月18日号は、創刊40周年を記念した400ページ超の特大号として刊行。6月中は4号連続の記念号や、ファミ通TUBEでの特別生放送も展開される。\n\n## 追加発表（9月30日）\n\n最新ゲーム試遊、ファミ通編集部の仕事を体験できるワークショップ、40年の歴史を振り返る展示、フォトスポット、物販、ステージイベント、サイン会を実施。試遊タイトルに『ペルソナ４ リバイバル』が追加された。\n\n- ステージ観覧は事前抽選の当選者のみで、各回最大204名\n- 試遊・物販コーナーは事前抽選制（詳細は10月9日発表予定）\n- ファミ通名物“ガバス”に埋もれた気分を味わえるフォトスポットを設置\n- 来場者特典として“ガバス”風カードを配布。会場アンケート回答者には“なんでも『週刊ファミ通』の表紙になるクリアファイル”\n- サイン会は高橋きの先生、山本さほ先生、柴田亜美先生の回を実施（事前抽選制）。高橋先生・山本先生の回は週刊ファミ通2026年11月19日号（11月5日発売、電子版可）、柴田先生の回は11月4日発売予定の新刊を持参\n\n## 遠征支援プラン（10月6日発表）\n\n株式会社クールジャパントラベルが宿泊企画「『ファミ通40周年フェス』遠征支援プラン feat.ルパン小島&村下小粒」を10月7日から販売。元週刊ファミ通編集者のルパン小島氏とレトロゲームアイドル・村下小粒氏といっしょに会場を巡る観覧ツアーが目玉。\n\n- 前日泊プラン（11/6金曜チェックイン、11/7土曜チェックアウト）: 33,000円（税込）\n- 当日泊プラン（11/7土曜チェックイン、11/8日曜チェックアウト）: 44,000円（税込）\n- 参加者限定特典: ルパン氏が焙煎するオリジナル珈琲「ルパン珈琲オリジナルブレンド」、ルパン氏・村下氏との3ショットチェキ撮影\n\n## 試遊・物販・ステージ続報（10月9日発表）\n\n試遊できる全タイトルが公開され、試遊・物販の事前抽選申込が始まった。試遊後には各タイトルのノベルティを進呈する。\n\n- 試遊タイトル例: 『モンスターハンターワイルズ：アセンダンス』『ロックマン: デュアル オーバーライド』『ペルソナ４ リバイバル』『ファイナルファンタジーVII リベレーション』など\n- 試遊の抽選申込締切: 2026年10月13日（火）23:59\n- 物販: 35社を超えるゲームメーカーの貴重なイラストを使用したグッズを全150種以上販売。抽選申込締切は10月18日（日）23:59\n- 『スーパーダンガンロンパ2×2』ステージに緒方恵美さん、榊原昌平さん、小高和剛さんが出演（観覧抽選の締切は10月13日23:59）\n- 主催: 株式会社KADOKAWA Game Linkage\n\n## 開催情報\n\n- **会場**: ベルサール秋葉原\n- **住所**: 東京都千代田区外神田3-12-8 住友不動産秋葉原ビル\n- **開催日**: 2026年11月7日（土）10:00～18:00\n- **内容**: ファミ通40周年記念リアルイベント、ステージ企画、限定グッズ販売予定\n- **料金**: 入場無料（一部コーナーは事前抽選制）\n- **予約**: ステージ・サイン会・試遊は10月13日23:59、物販は10月18日23:59まで抽選申込受付\n\n## こんな人におすすめ\n\n- ファミ通40周年企画を現地で楽しみたい方\n- ゲームメディアやゲーム業界の記念イベントに関心がある方\n- ベルサール秋葉原の大型ゲーム系イベントを早めに押さえたい方",
     "publishedAt": "2026-06-11",
     "en": {
       "title": "[Akihabara] Famitsu 40th Anniversary Fes Announced for Bellesalle Akihabara",
       "summary": "Famitsu 40th Anniversary Fes, celebrating Weekly Famitsu's 40th anniversary, will be held free of charge at Bellesalle Akihabara on November 7, 2026. Persona 4 Revival has been added to the play-testing lineup, and lottery applications for stage events and signings have opened.",
-      "content": "## Overview\n\nFamitsu 40th Anniversary Fes, a real-world event celebrating the 40th anniversary of the game magazine Weekly Famitsu, has been announced for Bellesalle Akihabara on November 7, 2026.\n\nWeekly Famitsu launched in 1986 and marks its 40th anniversary on June 6, 2026. The Akihabara event follows anniversary magazine issues and special broadcasts in June.\n\n## Highlights\n\nThe announcement says the event will include stage programs featuring guests connected to Famitsu and sales of limited merchandise. Further details are scheduled to be announced through Weekly Famitsu and Famitsu.com.\n\nThe June 18, 2026 issue of Weekly Famitsu, released on June 4, is a more-than-400-page special anniversary issue. Four consecutive anniversary issues and special Famitsu TUBE broadcasts are also planned during June.\n\n## Additional Announcement (September 30)\n\nThe event will include play-testing of new games, a workshop to experience the Famitsu editorial department, an exhibition looking back on 40 years, photo spots, merchandise, stage events, and signings. Persona 4 Revival has been added to the play-testing lineup.\n\n- Stage viewing is limited to advance lottery winners, up to 204 people per session\n- Play-testing and merchandise areas use an advance lottery (details on October 9)\n- A photo spot lets visitors feel buried in Famitsu's famous Gabas currency\n- Visitors receive a Gabas-style card, and survey respondents get a clear file that turns anything into a Weekly Famitsu cover\n- Signing sessions with Kino Takahashi, Saho Yamamoto and Ami Shibata (pre-event lottery). For Takahashi and Yamamoto, bring Weekly Famitsu's November 19, 2026 issue (on sale November 5; digital OK); for Shibata, bring her new book due November 4\n\n## Travel Support Plan (Announced October 6)\n\nCool Japan Travel Inc. began selling the accommodation package \"Famitsu 40th Anniversary Fes Travel Support Plan feat. Lupin Kojima & Kotsubu Murashita\" on October 7. Its highlight is a guided tour of the venue with former Weekly Famitsu editor Lupin Kojima and retro game idol Kotsubu Murashita.\n\n- Night-before plan (check in Fri Nov 6, check out Sat Nov 7): ¥33,000 (tax included)\n- Same-day plan (check in Sat Nov 7, check out Sun Nov 8): ¥44,000 (tax included)\n- Participant-only bonuses: \"Lupin Coffee Original Blend\" roasted by Kojima himself, and a three-shot instant photo with Kojima and Murashita\n\n## Event Details\n\n- **Venue**: Bellesalle Akihabara\n- **Address**: Sumitomo Fudosan Akihabara Building, 3-12-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: Saturday, November 7, 2026, 10:00-18:00\n- **Contents**: Famitsu 40th anniversary real-world event, stage programs, limited merchandise sales planned\n- **Admission**: Free (some areas require advance lottery)\n- **Reservation**: Lottery applications for stage events and signings opened September 30. Details of the lottery for play-testing and merchandise will be announced on October 9 via Famitsu.com and other channels\n\n## Recommended For\n\n- Readers who want to enjoy Famitsu 40th anniversary activities in person\n- Visitors interested in game media and game industry anniversary events\n- People who want to track major game-related events at Bellesalle Akihabara early"
+      "content": "## Overview\n\nFamitsu 40th Anniversary Fes, a real-world event celebrating the 40th anniversary of the game magazine Weekly Famitsu, has been announced for Bellesalle Akihabara on November 7, 2026.\n\nWeekly Famitsu launched in 1986 and marks its 40th anniversary on June 6, 2026. The Akihabara event follows anniversary magazine issues and special broadcasts in June.\n\n## Highlights\n\nThe announcement says the event will include stage programs featuring guests connected to Famitsu and sales of limited merchandise. Further details are scheduled to be announced through Weekly Famitsu and Famitsu.com.\n\nThe June 18, 2026 issue of Weekly Famitsu, released on June 4, is a more-than-400-page special anniversary issue. Four consecutive anniversary issues and special Famitsu TUBE broadcasts are also planned during June.\n\n## Additional Announcement (September 30)\n\nThe event will include play-testing of new games, a workshop to experience the Famitsu editorial department, an exhibition looking back on 40 years, photo spots, merchandise, stage events, and signings. Persona 4 Revival has been added to the play-testing lineup.\n\n- Stage viewing is limited to advance lottery winners, up to 204 people per session\n- Play-testing and merchandise areas use an advance lottery (details on October 9)\n- A photo spot lets visitors feel buried in Famitsu's famous Gabas currency\n- Visitors receive a Gabas-style card, and survey respondents get a clear file that turns anything into a Weekly Famitsu cover\n- Signing sessions with Kino Takahashi, Saho Yamamoto and Ami Shibata (pre-event lottery). For Takahashi and Yamamoto, bring Weekly Famitsu's November 19, 2026 issue (on sale November 5; digital OK); for Shibata, bring her new book due November 4\n\n## Travel Support Plan (Announced October 6)\n\nCool Japan Travel Inc. began selling the accommodation package \"Famitsu 40th Anniversary Fes Travel Support Plan feat. Lupin Kojima & Kotsubu Murashita\" on October 7. Its highlight is a guided tour of the venue with former Weekly Famitsu editor Lupin Kojima and retro game idol Kotsubu Murashita.\n\n- Night-before plan (check in Fri Nov 6, check out Sat Nov 7): ¥33,000 (tax included)\n- Same-day plan (check in Sat Nov 7, check out Sun Nov 8): ¥44,000 (tax included)\n- Participant-only bonuses: \"Lupin Coffee Original Blend\" roasted by Kojima himself, and a three-shot instant photo with Kojima and Murashita\n\n## Play-Test, Merchandise, and Stage Update (Announced October 9)\n\nAll playable titles were revealed and advance lottery applications for play-testing and merchandise opened. Players receive a novelty item for each title after playing.\n\n- Example titles: *Monster Hunter Wilds: Ascendance*, *Mega Man: Dual Override*, *Persona 4 Revival*, *Final Fantasy VII Liberation*, and more\n- Play-test lottery deadline: Tuesday, October 13, 2026, 23:59\n- Merchandise: over 150 items using rare artwork from more than 35 game makers; lottery deadline Sunday, October 18, 23:59\n- The *Super Danganronpa 2x2* stage features Megumi Ogata, 榊原昌平, and Kazutaka Kodaka (viewing lottery deadline October 13, 23:59)\n- Organizer: KADOKAWA Game Linkage Inc.\n\n## Event Details\n\n- **Venue**: Bellesalle Akihabara\n- **Address**: Sumitomo Fudosan Akihabara Building, 3-12-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Date**: Saturday, November 7, 2026, 10:00-18:00\n- **Contents**: Famitsu 40th anniversary real-world event, stage programs, limited merchandise sales planned\n- **Admission**: Free (some areas require advance lottery)\n- **Reservation**: Lottery applications for stage events, signings, and play-testing close October 13, 23:59; merchandise closes October 18, 23:59\n\n## Recommended For\n\n- Readers who want to enjoy Famitsu 40th anniversary activities in person\n- Visitors interested in game media and game industry anniversary events\n- People who want to track major game-related events at Bellesalle Akihabara early"
     },
     "image": {
       "src": "/images/articles/famitsu-40th-fes-bellesalle-akihabara-2026.jpg",
@@ -3948,6 +4486,10 @@
       "height": 1
     },
     "sources": [
+      {
+        "label": "PR TIMES プレスリリース（10月9日 試遊・物販続報）",
+        "url": "https://prtimes.jp/main/html/rd/p/000020351.000007006.html"
+      },
       {
         "label": "PR TIMES プレスリリース（9月30日追加発表）",
         "url": "https://prtimes.jp/main/html/rd/p/000020262.000007006.html"
@@ -3971,6 +4513,18 @@
       {
         "label": "ファミ通.com 記事（遠征支援プラン）",
         "url": "https://www.famitsu.com/article/202610/90130"
+      },
+      {
+        "label": "ファミ通.com 記事（試遊タイトル）",
+        "url": "https://www.famitsu.com/article/202610/89516"
+      },
+      {
+        "label": "ファミ通.com 記事（物販情報）",
+        "url": "https://www.famitsu.com/article/202610/89520"
+      },
+      {
+        "label": "ファミ通.com 記事（ダンガンロンパステージ）",
+        "url": "https://www.famitsu.com/article/202610/89877"
       }
     ],
     "authorId": 1,
@@ -33983,7 +34537,7 @@
     "title": "『ルミナスウィッチーズ』ミュージアムがAKIHABARAゲーマーズ本店で10月23日から開催",
     "slug": "luminous-witches-museum-gamers-akihabara-2026",
     "summary": "『ルミナスウィッチーズ』ミュージアムが2026年10月23日（金）〜11月15日（日）にAKIHABARAゲーマーズ本店で開催。描き下ろしミニキャラの新作グッズ販売やパネル展示、2,000円ごとに参加できる抽選会、購入者対象のミニイベントを実施する。",
-    "content": "## 概要\n\nAKIHABARAゲーマーズ本店で『ルミナスウィッチーズ』ミュージアムが開催される。描き下ろしのミニキャラクターイラストを使用した新作グッズの販売や、ここでしか手に入らない景品が当たる抽選会、商品購入者を対象としたミニイベントが予定されている。\n\n## 内容\n\n- パネル展示\n- 『ルミナスウィッチーズ』関連商品の販売（描き下ろしミニキャラ新作グッズ）\n- 抽選会：期間中、TVアニメ「ルミナスウィッチーズ」シリーズ関連商品（書籍、CD、Blu-ray/DVD、グッズ）の購入・予約内金2,000円（税込）ごとに1回参加可能（A賞の引き渡しは11月16日以降）\n- 店舗で対象商品を5,500円（税込）以上購入・予約した先着の客を対象に、2026年12月6日（日）にAKIHABARAゲーマーズ本店6Fイベントスペースでミニイベントを開催\n\n## 開催情報\n\n- **期間**: 2026年10月23日（金）〜11月15日（日）\n- **会場**: AKIHABARAゲーマーズ本店\n- **営業時間**: 平日11:00〜21:00、土日祝10:00〜21:00\n- **オンライン**: ゲーマーズオンラインショップでは11月16日（月）〜12月6日（日）に開催\n\n## こんな人におすすめ\n\n- 『ルミナスウィッチーズ』のファン\n- 描き下ろしミニキャラグッズを集めたい方\n- ミニイベントへの参加を狙いたい方",
+    "content": "## 概要\n\nAKIHABARAゲーマーズ本店で『ルミナスウィッチーズ』ミュージアムが開催される。描き下ろしのミニキャラクターイラストを使用した新作グッズの販売や、ここでしか手に入らない景品が当たる抽選会、商品購入者を対象としたミニイベントが予定されている。\n\n## 内容\n\n- パネル展示\n- 『ルミナスウィッチーズ』関連商品の販売（描き下ろしミニキャラ新作グッズ）\n- 抽選会：期間中、TVアニメ「ルミナスウィッチーズ」シリーズ関連商品（書籍、CD、Blu-ray/DVD、グッズ）の購入・予約内金2,000円（税込）ごとに1回参加可能（A賞の引き渡しは11月16日以降）\n- 店舗で対象商品を5,500円（税込）以上購入・予約した先着の客を対象に、2026年12月6日（日）にAKIHABARAゲーマーズ本店6Fイベントスペースでミニイベントを開催\n\n## ミニトークショー＆お渡し会\n\n2026年12月6日（日）にAKIHABARAゲーマーズ本店6Fイベントスペースで開催。\n\n- 第1部: 開場12:30／開演13:00（鳴海まいさん、細川美菜子さん、吉北梨乃さん）\n- 第2部: 開場15:30／開演16:00（藍本あみさん、真宮涼さん、古仲可奈さん、結木美咲さん）\n- 参加方法: 10月23日からミュージアム期間中、AKIHABARAゲーマーズ本店で対象商品を5,500円（税込）以上購入・予約（全額内金）すると先着で参加券を配布。参加券1枚につき第1部か第2部を選択、各部3枚まで（16,500円以上で最大枚数）\n\n## 開催情報\n\n- **期間**: 2026年10月23日（金）〜11月15日（日）\n- **会場**: AKIHABARAゲーマーズ本店\n- **営業時間**: 平日11:00〜21:00、土日祝10:00〜21:00\n- **オンライン**: ゲーマーズオンラインショップでは11月16日（月）〜12月6日（日）に開催\n\n## こんな人におすすめ\n\n- 『ルミナスウィッチーズ』のファン\n- 描き下ろしミニキャラグッズを集めたい方\n- ミニイベントへの参加を狙いたい方",
     "publishedAt": "2026-09-25",
     "image": {
       "src": "/images/articles/luminous-witches-museum-gamers-akihabara-2026.jpg",
@@ -33997,6 +34551,10 @@
       {
         "label": "ゲーマーズ 公式フェア・イベントページ",
         "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7941"
+      },
+      {
+        "label": "ゲーマーズ 公式イベントページ（ミニトークショー＆お渡し会）",
+        "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=8000"
       }
     ],
     "authorId": 1,
@@ -34008,7 +34566,7 @@
     "en": {
       "title": "\"Luminous Witches\" Museum Opens October 23 at AKIHABARA Gamers Main Store",
       "summary": "The \"Luminous Witches\" Museum runs from Friday, October 23 to Sunday, November 15, 2026 at AKIHABARA Gamers Main Store, with new chibi-art goods, panel displays, a lottery for every ¥2,000 spent and a mini event for qualifying purchasers.",
-      "content": "## Overview\n\nThe \"Luminous Witches\" Museum comes to AKIHABARA Gamers Main Store, featuring new goods with newly drawn chibi illustrations, a lottery with exclusive prizes, and a mini event for customers who buy merchandise.\n\n## Highlights\n\n- Panel displays\n- Sales of Luminous Witches merchandise, including new chibi-art goods\n- Lottery: one entry for every ¥2,000 (tax incl.) spent on or deposited for Luminous Witches TV anime series products (books, CDs, Blu-ray/DVD, goods); A-prize handover from November 16\n- A mini event on Sunday, December 6, 2026 in the 6F event space for first-come customers who spend ¥5,500 (tax incl.) or more on eligible items in store\n\n## Event Details\n\n- **Dates**: Friday, October 23 - Sunday, November 15, 2026\n- **Venue**: AKIHABARA Gamers Main Store\n- **Hours**: Weekdays 11:00-21:00, weekends/holidays 10:00-21:00\n- **Online**: Gamers Online Shop from Monday, November 16 to Sunday, December 6\n\n## Recommended For\n\n- Luminous Witches fans\n- Collectors of chibi-art goods\n- Fans hoping to join the mini event"
+      "content": "## Overview\n\nThe \"Luminous Witches\" Museum comes to AKIHABARA Gamers Main Store, featuring new goods with newly drawn chibi illustrations, a lottery with exclusive prizes, and a mini event for customers who buy merchandise.\n\n## Highlights\n\n- Panel displays\n- Sales of Luminous Witches merchandise, including new chibi-art goods\n- Lottery: one entry for every ¥2,000 (tax incl.) spent on or deposited for Luminous Witches TV anime series products (books, CDs, Blu-ray/DVD, goods); A-prize handover from November 16\n- A mini event on Sunday, December 6, 2026 in the 6F event space for first-come customers who spend ¥5,500 (tax incl.) or more on eligible items in store\n\n## Mini Talk Show & Handover Event\n\nHeld on Sunday, December 6, 2026 in the 6F event space of AKIHABARA Gamers Main Store.\n\n- Part 1: doors 12:30 / start 13:00 (鳴海まい, 細川美菜子, 吉北梨乃)\n- Part 2: doors 15:30 / start 16:00 (藍本あみ, 真宮涼, 古仲可奈, 結木美咲)\n- How to join: from October 23 during the museum, spend ¥5,500 (tax incl.) or more on eligible items (or full-deposit reservations) at AKIHABARA Gamers Main Store to receive a first-come participation ticket. Each ticket is for Part 1 or Part 2, up to 3 per part (maximum with ¥16,500 or more)\n\n## Event Details\n\n- **Dates**: Friday, October 23 - Sunday, November 15, 2026\n- **Venue**: AKIHABARA Gamers Main Store\n- **Hours**: Weekdays 11:00-21:00, weekends/holidays 10:00-21:00\n- **Online**: Gamers Online Shop from Monday, November 16 to Sunday, December 6\n\n## Recommended For\n\n- Luminous Witches fans\n- Collectors of chibi-art goods\n- Fans hoping to join the mini event"
     },
     "event": {
       "venue": "AKIHABARAゲーマーズ本店",

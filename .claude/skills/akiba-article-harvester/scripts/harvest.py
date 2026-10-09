@@ -23,6 +23,11 @@ Usage:
                                              # per crawl, so this filter rarely
                                              # catches anything there — see
                                              # SKILL.md's gnews redirect note).
+  python3 harvest.py scan [out.json]         # list all -> dedup -> detail for NEW,
+                                             # writes tmp/harvest-queue.json
+  python3 harvest.py image "<img-url>" "<slug>"
+                                             # save to public/images/articles/<slug>.<ext>;
+                                             # refuses if slug/image already exists
   python3 harvest.py detail <url>           # TITLE/OGIMG/OGDESC/FACTS for one page
   python3 harvest.py dedup "<kw1>" "<kw2>"   # check candidates against existing data + excluded log
   python3 harvest.py exclude "<url>" "<reason>" "<note>"
@@ -46,6 +51,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -380,6 +386,17 @@ def print_items(name, rows, limit, skip_known=True):
     per crawl and so rarely match here — pass --all to see everything
     unfiltered (e.g. when checking whether this filter itself is hiding
     something it shouldn't)."""
+    kept, total, suffix = filter_rows(rows, skip_known)
+    print(f"\n=== {name} ({len(kept)} shown / {total} total{suffix}) ===")
+    for count, extra, title, url in kept[:limit]:
+        dup = f" (x{count})" if count > 1 else ""
+        prefix = f"{extra} | " if extra else ""
+        print(f"{prefix}{trunc(title, 70)}{dup} | {url}")
+
+
+def filter_rows(rows, skip_known=True):
+    """Shared by print_items and scan: returns (kept [count, extra, title, url]
+    entries, total row count, header suffix describing what was dropped)."""
     noise_counts = {}
     seen_keys = {}
     kept = []
@@ -418,11 +435,7 @@ def print_items(name, rows, limit, skip_known=True):
         suffix += f", {known_skipped} already-in-articles.json skipped"
     if excluded_skipped:
         suffix += f", {excluded_skipped} previously-excluded skipped"
-    print(f"\n=== {name} ({len(kept)} shown / {len(rows)} total{suffix}) ===")
-    for count, extra, title, url in kept[:limit]:
-        dup = f" (x{count})" if count > 1 else ""
-        prefix = f"{extra} | " if extra else ""
-        print(f"{prefix}{trunc(title, 70)}{dup} | {url}")
+    return kept, len(rows), suffix
 
 
 WALKER_AREA_RE = re.compile(
@@ -464,6 +477,11 @@ def list_walkerplus(max_pages=15):
 
 
 def list_source(name, limit=80, skip_known=True):
+    print_items(name, source_rows(name), limit, skip_known=skip_known)
+
+
+def source_rows(name):
+    """Raw (extra_or_None, title, url) rows for one source, unfiltered."""
     if name == "gnews":
         text = fetch(
             "https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja"
@@ -476,24 +494,20 @@ def list_source(name, limit=80, skip_known=True):
             pub = re.search(r"<pubDate>(.*?)</pubDate>", it, re.S)
             pub = pub.group(1)[:16] if pub else ""
             rows.append((pub, title, link))
-        print_items("gnews", rows, limit, skip_known=skip_known)
-        return
+        return rows
     if name == "ceek":
         items = extract(
             "https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1",
             lambda h: h and h.startswith("http") and "ceek.jp" not in h,
         )
         rows = [(None, t, href) for t, href in items]
-        print_items("ceek", rows, limit, skip_known=skip_known)
-        return
+        return rows
     if name == "walkerplus":
         rows = list_walkerplus()
-        print_items("walkerplus", rows, limit, skip_known=skip_known)
-        return
+        return rows
     cfg = SOURCES[name]
     items = extract(cfg["url"], cfg["href_filter"], cfg["base"])
-    rows = [(None, t, href) for t, href in items]
-    print_items(name, rows, limit, skip_known=skip_known)
+    return [(None, t, href) for t, href in items]
 
 
 def cmd_list(args):
@@ -515,28 +529,42 @@ def cmd_detail(args):
     writing any article to confirm venue, dates, price, reservation rules."""
     for url in args:
         try:
-            text = fetch(url)
+            d = detail_facts(url)
             print(f"\n=== {url} ===")
-            title = re.search(r"<title>(.*?)</title>", text, re.S)
-            print("TITLE:", dec(title.group(1)).strip() if title else "")
-            ogimg = re.search(r'<meta property="og:image" content="([^"]+)"', text)
-            print("OGIMG:", ogimg.group(1) if ogimg else "")
-            ogdesc = re.search(r'<meta property="og:description" content="([^"]+)"', text)
-            print("OGDESC:", dec(ogdesc.group(1))[:300] if ogdesc else "")
-            body = re.sub(r"<script[\s\S]*?</script>", " ", text)
-            body = re.sub(r"<style[\s\S]*?</style>", " ", body)
-            plain = dec(re.sub(r"<[^>]+>", "\n", body))
-            lines = [l.strip() for l in plain.split("\n") if l.strip()]
-            keep = [
-                l
-                for l in lines
-                if re.search(r"\d{1,2}月\d{1,2}日|\d{4}年|期間|会場|住所|店舗|価格|円|予約|無料|有料|時間|開催|神保町|グランデ", l)
-            ]
-            print("FACTS:", " | ".join(keep[:30]))
-            if any("神保町" in l or "グランデ" in l for l in keep):
-                print("WARNING: page mentions 神保町/グランデ — confirm this is NOT the Jimbocho store before writing.")
+            print("TITLE:", d["title"])
+            print("OGIMG:", d["ogimg"])
+            print("OGDESC:", d["ogdesc"])
+            print("FACTS:", " | ".join(d["facts"]))
+            if d["warning"]:
+                print("WARNING:", d["warning"])
         except Exception as e:
             print(f"\n=== {url} ERROR: {e}")
+
+
+def detail_facts(url):
+    text = fetch(url)
+    title = re.search(r"<title>(.*?)</title>", text, re.S)
+    ogimg = re.search(r'<meta property="og:image" content="([^"]+)"', text)
+    ogdesc = re.search(r'<meta property="og:description" content="([^"]+)"', text)
+    body = re.sub(r"<script[\s\S]*?</script>", " ", text)
+    body = re.sub(r"<style[\s\S]*?</style>", " ", body)
+    plain = dec(re.sub(r"<[^>]+>", "\n", body))
+    lines = [l.strip() for l in plain.split("\n") if l.strip()]
+    keep = [
+        l
+        for l in lines
+        if re.search(r"\d{1,2}月\d{1,2}日|\d{4}年|期間|会場|住所|店舗|価格|円|予約|無料|有料|時間|開催|神保町|グランデ", l)
+    ]
+    warning = ""
+    if any("神保町" in l or "グランデ" in l for l in keep):
+        warning = "page mentions 神保町/グランデ — confirm this is NOT the Jimbocho store before writing."
+    return {
+        "title": dec(title.group(1)).strip() if title else "",
+        "ogimg": ogimg.group(1) if ogimg else "",
+        "ogdesc": dec(ogdesc.group(1))[:300] if ogdesc else "",
+        "facts": keep[:30],
+        "warning": warning,
+    }
 
 
 GENERIC_SLUG_TOKENS = {
@@ -616,8 +644,8 @@ def load_existing_source_urls():
     return urls
 
 
-def cmd_dedup(candidates):
-    """Check candidates against existing articles. Each candidate is either:
+def dedup_index():
+    """Lookup tables for dedup_check. Candidates are checked against existing articles. Each candidate is either:
       - a Japanese keyword/title fragment -> substring-matched against
         title/summary/content (works when the aggregator's wording matches
         this repo's wording — often does NOT, since this repo tends to use
@@ -649,64 +677,178 @@ def cmd_dedup(candidates):
             source_url_index.setdefault(norm, {})[a["slug"]] = a
 
     excluded = load_excluded()
+    return articles, existing_slugs, image_stems, slug_to_article, source_url_index, excluded
 
+
+KEYWORD_RE = re.compile(r"[「『【](.{2,30}?)[」』】]|([A-Za-z][A-Za-z0-9'&.\- ]{3,}[A-Za-z0-9])|([ァ-ヴー・]{4,})")
+
+
+def title_keywords(title):
+    """Short proper-noun-ish fragments of a long title: bracketed names,
+    latin words, katakana runs. Full aggregator titles almost never substring-
+    match this repo's reworded titles (the gnews blindspot), but their
+    store/IP names do."""
+    kws = []
+    for m in KEYWORD_RE.finditer(title):
+        k = next(g for g in m.groups() if g).strip()
+        if k not in kws:
+            kws.append(k)
+    return kws
+
+
+def keyword_hits(title, articles, max_hits=5, max_body_hits=15):
+    """Keywords that hit 1..max_hits article titles/slugs. A word that also
+    shows up in many article bodies is generic (スタート, システム, ...) and
+    is dropped as noise."""
+    if len(title) < 15:
+        return []
+    out = []
+    for k in title_keywords(title):
+        kl = k.lower()
+        if sum(kl in a.get("content", "").lower() for a in articles) > max_body_hits:
+            continue
+        hits = [a for a in articles if kl in a.get("title", "").lower() or kl in a.get("slug", "")]
+        if 0 < len(hits) <= max_hits:
+            out.append(f"  KEYWORD MATCH ({k}):")
+            out += [f"    {a['slug']} | {a['title']} | {a['publishedAt']}" for a in hits]
+    return out
+
+
+def dedup_check(cand, idx):
+    """Return match lines for one candidate; empty list = NEW."""
+    articles, existing_slugs, image_stems, slug_to_article, source_url_index, excluded = idx
+    out = []
+    kw, _, url = cand.partition("|")
+
+    excluded_target = url or (kw if kw.startswith("http") else "")
+    if excluded_target:
+        rec = excluded.get(normalize_source_url(excluded_target))
+        if rec:
+            out.append(f"  PREVIOUSLY EXCLUDED ({rec.get('reason', '?')}, checked {rec.get('checked', '?')}):")
+            if rec.get("note"):
+                out.append(f"    {rec['note']}")
+
+    if kw and not kw.startswith("http"):
+        text_hits = [
+            (a["slug"], a["title"], a["publishedAt"])
+            for a in articles
+            if kw in a.get("title", "") or kw in a.get("summary", "") or kw in a.get("content", "")
+        ]
+        if text_hits:
+            out.append(f"  TEXT MATCH ({len(text_hits)}):")
+            for slug, title, pub in text_hits[:5]:
+                out.append(f"    {slug} | {title} | {pub}")
+        out += keyword_hits(kw, articles)
+    elif kw.startswith("http"):
+        url = kw  # only one arg given and it's a URL
+
+    target_url = url or (kw if kw.startswith("http") else "")
+    if target_url:
+        norm_target = normalize_source_url(target_url)
+        source_hits = list(source_url_index.get(norm_target, {}).values())
+        if source_hits:
+            out.append(f"  SOURCE URL MATCH ({norm_target}):")
+            for a in source_hits[:5]:
+                out.append(f"    {a['slug']} | {a['title']} | {a['publishedAt']}")
+
+        toks = slug_tokens(target_url)
+        hits = set()
+        for slug in existing_slugs + image_stems:
+            slug_l = slug.lower()
+            matched = [t for t in toks if t in slug_l]
+            if matched:
+                hits.add(slug)
+        if hits:
+            out.append(f"  SLUG/IMAGE TOKEN MATCH (tokens={toks}):")
+            for slug in sorted(hits)[:5]:
+                a = slug_to_article.get(slug)
+                if a:
+                    out.append(f"    {slug} | {a['title']} | {a['publishedAt']}")
+                else:
+                    out.append(f"    {slug} (image file only, no matching article slug — check manually)")
+
+    return out
+
+
+def cmd_dedup(candidates):
+    idx = dedup_index()
     for cand in candidates:
-        kw, _, url = cand.partition("|")
         print(f"\n=== {cand} ===")
-        found_any = False
+        print("\n".join(dedup_check(cand, idx)) or "  NEW (no match found — still confirm facts before writing)")
 
-        excluded_target = url or (kw if kw.startswith("http") else "")
-        if excluded_target:
-            rec = excluded.get(normalize_source_url(excluded_target))
-            if rec:
-                found_any = True
-                print(f"  PREVIOUSLY EXCLUDED ({rec.get('reason', '?')}, checked {rec.get('checked', '?')}):")
-                if rec.get("note"):
-                    print(f"    {rec['note']}")
 
-        if kw and not kw.startswith("http"):
-            text_hits = [
-                (a["slug"], a["title"], a["publishedAt"])
-                for a in articles
-                if kw in a.get("title", "") or kw in a.get("summary", "") or kw in a.get("content", "")
-            ]
-            if text_hits:
-                found_any = True
-                print(f"  TEXT MATCH ({len(text_hits)}):")
-                for slug, title, pub in text_hits[:5]:
-                    print(f"    {slug} | {title} | {pub}")
-        elif kw.startswith("http"):
-            url = kw  # only one arg given and it's a URL
+def safe_detail(url):
+    try:
+        return detail_facts(url)
+    except Exception as e:
+        return {"error": str(e)}
 
-        target_url = url or (kw if kw.startswith("http") else "")
-        if target_url:
-            norm_target = normalize_source_url(target_url)
-            source_hits = list(source_url_index.get(norm_target, {}).values())
-            if source_hits:
-                found_any = True
-                print(f"  SOURCE URL MATCH ({norm_target}):")
-                for a in source_hits[:5]:
-                    print(f"    {a['slug']} | {a['title']} | {a['publishedAt']}")
 
-            toks = slug_tokens(target_url)
-            hits = set()
-            for slug in existing_slugs + image_stems:
-                slug_l = slug.lower()
-                matched = [t for t in toks if t in slug_l]
-                if matched:
-                    hits.add(slug)
-            if hits:
-                found_any = True
-                print(f"  SLUG/IMAGE TOKEN MATCH (tokens={toks}):")
-                for slug in sorted(hits)[:5]:
-                    a = slug_to_article.get(slug)
-                    if a:
-                        print(f"    {slug} | {a['title']} | {a['publishedAt']}")
-                    else:
-                        print(f"    {slug} (image file only, no matching article slug — check manually)")
+def cmd_scan(args):
+    """Mechanical part of a harvest pass in one go: list every source, dedup
+    every kept row, fetch detail for NEW ones, write a JSON queue. Editorial
+    calls (scope, merge, writing) stay with the human/agent reading the queue.
+    gnews rows are left as needs_resolve: their redirect URLs can't be fetched
+    and their dedup is unreliable (see SKILL.md gnews note)."""
+    out_path = Path(args[0]) if args else REPO_ROOT / "tmp" / "harvest-queue.json"
+    idx = dedup_index()
+    names = list(SOURCES) + ["walkerplus", "gnews", "ceek"]
+    queue, errors = [], {}
+    with ThreadPoolExecutor(8) as ex:
+        futs = {name: ex.submit(source_rows, name) for name in names}
+    for name, fut in futs.items():
+        try:
+            rows = fut.result()
+        except Exception as e:
+            errors[name] = str(e)
+            continue
+        for count, extra, title, url in filter_rows(rows)[0]:
+            hits = [h.strip() for h in dedup_check(f"{title}|{url}", idx)]
+            status = "maybe_dup" if hits else ("needs_resolve" if name == "gnews" else "new")
+            queue.append({
+                "source": name, "status": status, "title": title, "url": url,
+                "date": extra or "", "syndicated": count, "matches": hits,
+            })
+    new = [c for c in queue if c["status"] == "new"]
+    with ThreadPoolExecutor(8) as ex:
+        for c, d in zip(new, ex.map(safe_detail, [c["url"] for c in new])):
+            c["detail"] = d
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(
+        json.dumps({"errors": errors, "candidates": queue}, ensure_ascii=False, indent=1),
+        encoding="utf-8",
+    )
+    counts = {}
+    for c in queue:
+        counts[c["status"]] = counts.get(c["status"], 0) + 1
+    print(f"wrote {out_path}: {counts}, source errors: {list(errors) or 'none'}")
 
-        if not found_any:
-            print("  NEW (no match found — still confirm facts before writing)")
+
+IMAGE_EXTS = {"image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif"}
+
+
+def cmd_image(args):
+    """Download an article image to public/images/articles/<slug>.<ext>,
+    refusing if the slug already exists as an article or image file — the
+    overwrite accident that recurred across gnews passes."""
+    if len(args) < 2:
+        print('Usage: python3 harvest.py image "<image-url>" "<slug>"')
+        sys.exit(1)
+    url, slug = args[:2]
+    clash = [p.name for p in IMAGES_DIR.glob(f"{slug}.*")]
+    if slug in dedup_index()[3]:
+        clash.append(f"articles.json slug {slug}")
+    if clash:
+        sys.exit(f"REFUSED: {clash} already exist — likely a duplicate article; re-check dedup or pick another slug")
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
+        data, ctype = r.read(), r.headers.get_content_type()
+    ext = IMAGE_EXTS.get(ctype)
+    if not ext:
+        sys.exit(f"REFUSED: {url} is {ctype}, not an image")
+    dest = IMAGES_DIR / f"{slug}.{ext}"
+    with dest.open("xb") as f:  # "x" = never overwrite
+        f.write(data)
+    print(f"saved {dest.relative_to(REPO_ROOT)} ({len(data)} bytes)")
 
 
 def main():
@@ -722,6 +864,10 @@ def main():
         cmd_dedup(args)
     elif cmd == "exclude":
         cmd_exclude(args)
+    elif cmd == "scan":
+        cmd_scan(args)
+    elif cmd == "image":
+        cmd_image(args)
     else:
         print(__doc__)
 
