@@ -1,5 +1,52 @@
 [
   {
+    "id": 974,
+    "title": "愛野可奈ハロウィン主催『あの世のパレード』が10月30日に秋葉原CLUB GOODMANで開催",
+    "slug": "aino-kana-halloween-anoyo-parade-goodman-2026",
+    "summary": "愛野可奈のハロウィン主催イベント『あの世のパレード』が2026年10月30日（金）に秋葉原CLUB GOODMANで開催。茉白彩聖、有栖川かがみ、赤城はるか、うさぎみく、倉坂くるるら13組が出演する。料金は前売3,000円、当日3,500円（別途1ドリンク600円）で、3,000円の配信チケットもある。",
+    "content": "## 概要\n\n愛野可奈のハロウィン主催イベント『あの世のパレード』が、2026年10月30日（金）に秋葉原CLUB GOODMANで開催される。ハロウィン直前の夜に、愛野可奈をはじめとするライブアイドル・アーティストが出演する。\n\n## 出演者\n\n愛野可奈、茉白彩聖、有栖川かがみ、赤城はるか、うさぎみく、倉坂くるる、nem仔、蒼井めるだ、桜かれん、小鳥遊める、もっち、春日理緒、江口いちご\n\n## 開催情報\n\n- **日時**: 2026年10月30日（金） OPEN 17:15 / START 17:55\n- **会場**: 秋葉原CLUB GOODMAN\n- **住所**: 東京都千代田区神田佐久間町1-55 A.Sビルディング B1F\n- **料金**: 前売3,000円 / 当日3,500円（別途1ドリンク600円）、DD予約+1,000円、配信3,000円\n- **予約**: 入場チケットはTIGETで予約。配信チケットでは入場不可、アーカイブは11月13日23:59まで\n\n## こんな人におすすめ\n\n- 愛野可奈のファン\n- 秋葉原でハロウィン気分のライブアイドルイベントを楽しみたい方\n- 会場に行けず配信で見たい方",
+    "publishedAt": "2026-10-10",
+    "en": {
+      "title": "Kana Aino's Halloween Event \"Anoyo no Parade\" at Akihabara CLUB GOODMAN on October 30",
+      "summary": "\"Anoyo no Parade,\" a Halloween event hosted by Kana Aino, takes place on Friday, October 30, 2026 at Akihabara CLUB GOODMAN, featuring 13 performers including Kagami Arisugawa, Haruka Akagi, Miku Usagi and Kururu Kurasaka. Tickets are 3,000 yen in advance and 3,500 yen at the door (plus a 600 yen drink), with a 3,000 yen streaming ticket also available.",
+      "content": "## Overview\n\n\"Anoyo no Parade,\" a Halloween event hosted by Kana Aino, will be held on Friday, October 30, 2026 at Akihabara CLUB GOODMAN. On the eve of Halloween, Kana Aino and other live idols and artists take the stage.\n\n## Performers\n\nKana Aino, 茉白彩聖, Kagami Arisugawa, Haruka Akagi, Miku Usagi, Kururu Kurasaka, nem仔, Meruda Aoi, 桜かれん, Meru Takanashi, もっち, Rio Kasuga, Ichigo Eguchi\n\n## Event Information\n\n- **Date**: Fri, October 30, 2026, doors 17:15 / start 17:55\n- **Venue**: Akihabara CLUB GOODMAN\n- **Address**: A.S Building B1F, 1-55 Kanda Sakumacho, Chiyoda-ku, Tokyo\n- **Price**: 3,000 yen advance / 3,500 yen at the door (plus 600 yen drink), DD reservation +1,000 yen, streaming 3,000 yen\n- **Reservation**: Reserve entry tickets via TIGET. Streaming tickets do not include venue entry; the archive is available until 23:59 on November 13\n\n## Recommended For\n\n- Fans of Kana Aino\n- Anyone wanting a Halloween-themed live idol night in Akihabara\n- Fans who prefer to watch via streaming"
+    },
+    "image": {
+      "src": "/images/articles/aino-kana-halloween-anoyo-parade-goodman-2026.jpg",
+      "alt": "『あの世のパレード』の告知画像",
+      "sourceLabel": "秋葉原CLUB GOODMAN 公式サイト",
+      "sourceUrl": "https://club.goodman2020.com/events/45291",
+      "width": 2730,
+      "height": 1536
+    },
+    "sources": [
+      {
+        "label": "秋葉原CLUB GOODMAN 公式スケジュール",
+        "url": "https://club.goodman2020.com/events/45291"
+      },
+      {
+        "label": "TIGET 予約ページ",
+        "url": "https://tiget.net/events/529786"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      207,
+      208,
+      139,
+      140,
+      42
+    ],
+    "event": {
+      "venue": "秋葉原CLUB GOODMAN",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
+      "price": "前売3,000円/当日3,500円（別途1ドリンク600円）、配信3,000円",
+      "reservation": true,
+      "performer": "愛野可奈、茉白彩聖、有栖川かがみ、赤城はるか、うさぎみく、倉坂くるる ほか"
+    }
+  },
+  {
     "id": 961,
     "title": "「日本ファルコム創立45周年展」が秋葉原グランエンタスで10月17日から開催",
     "slug": "falcom-45th-exhibition-granentas-akihabara-2026",
