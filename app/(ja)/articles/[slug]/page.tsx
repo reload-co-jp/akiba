@@ -2,6 +2,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import AdsenseDisplayAd from "components/adsense-display-ad"
+import AdsenseInArticleAd from "components/adsense-in-article-ad"
 import RakutenWidget from "components/rakuten-widget"
 import { marked } from "marked"
 import { ArticleImagePreview } from "components/article-image-preview"
@@ -574,6 +575,15 @@ const Page = async ({ params }: Props) => {
               </Link>
             </p>
           </div>
+        )}
+
+        {article.event && (
+          <aside
+            aria-label="広告"
+            style={{ maxWidth: "480px", margin: "0 auto 1.5rem" }}
+          >
+            <AdsenseInArticleAd />
+          </aside>
         )}
 
         <div
