@@ -1190,6 +1190,11 @@ body {
   margin-bottom: 1rem;
 }
 
+/* Leaflet panes use z-index 400+; contain them below the sticky header */
+.leaflet-container {
+  isolation: isolate;
+}
+
 .article-venue-map .leaflet-container {
   aspect-ratio: 16 / 10;
   border: 1px solid rgba(96, 120, 111, 0.14);
