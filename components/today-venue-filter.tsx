@@ -250,7 +250,7 @@ export const TodayVenueFilter = ({
               layout="grid"
             />
             {i % 6 === 5 && (
-              <li style={{ gridColumn: "1 / -1" }}>
+              <li>
                 <AdsenseFluidAd />
               </li>
             )}

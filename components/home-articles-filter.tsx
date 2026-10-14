@@ -62,7 +62,7 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
           return (
             <Fragment key={article.id}>
               {index === IN_LIST_AD_AFTER && (
-                <li style={{ gridColumn: "1 / -1" }} aria-label="広告">
+                <li aria-label="広告">
                   <AdsenseInArticleAd />
                 </li>
               )}
