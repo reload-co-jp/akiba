@@ -14,6 +14,7 @@ import { EventCard } from "components/event-card"
 import { CalendarView } from "./events/calendar/calendar-view"
 import { absoluteUrl } from "lib/site"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
+import AdsenseInArticleAd from "components/adsense-in-article-ad"
 
 export const metadata = {
   title: "アキバLive｜秋葉原の最新イベント・コラボ・ニュース",
@@ -116,6 +117,10 @@ const Page = () => {
       </h1>
 
       <HomeNewsCarousel articles={carouselArticles} />
+
+      <div style={{ maxWidth: "480px", margin: "0 auto" }} aria-label="広告">
+        <AdsenseInArticleAd />
+      </div>
 
       <div className="home-layout">
         <div style={{ minWidth: "0" }}>
