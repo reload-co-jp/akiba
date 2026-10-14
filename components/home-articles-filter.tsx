@@ -15,7 +15,7 @@ import AdsenseFluidAd from "./adsense-fluid-ad"
 import AdsenseInArticleAd from "./adsense-in-article-ad"
 
 const RECENT_TAG_WINDOW = 60
-const IN_LIST_AD_AFTER = 6
+const IN_LIST_AD_EVERY = 3
 
 export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
   const { lang } = useLang()
@@ -61,7 +61,7 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
           const image = getArticleImage(article)
           return (
             <Fragment key={article.id}>
-              {index === IN_LIST_AD_AFTER && (
+              {index > 0 && index % IN_LIST_AD_EVERY === 0 && (
                 <li aria-label="広告">
                   <AdsenseInArticleAd />
                 </li>

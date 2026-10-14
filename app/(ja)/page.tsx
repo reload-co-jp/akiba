@@ -15,6 +15,7 @@ import { CalendarView } from "./events/calendar/calendar-view"
 import { absoluteUrl } from "lib/site"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import AdsenseInArticleAd from "components/adsense-in-article-ad"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 
 export const metadata = {
   title: "アキバLive｜秋葉原の最新イベント・コラボ・ニュース",
@@ -213,6 +214,10 @@ const Page = () => {
               ))}
             </div>
           </section>
+
+          <div aria-label="広告">
+            <AdsenseDisplayAd small />
+          </div>
         </aside>
       </div>
 
