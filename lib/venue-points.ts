@@ -63,6 +63,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "ジーストア・アキバ": { lat: 35.7006, lng: 139.7707 },
   "つくばエクスプレス秋葉原駅": { lat: 35.6981, lng: 139.7727 },
   "秋葉原 SEEKBASE": { lat: 35.7011, lng: 139.7767 },
+  "SHOSEN BASE LAB": { lat: 35.7011, lng: 139.7767 },
   "2k540 AKI-OKA ARTISAN": { lat: 35.7054, lng: 139.7737 },
   "2k540 AKI-OKA ARTISAN イベントスペースC": { lat: 35.7054, lng: 139.7737 },
   "2k540 AKI-OKA ARTISAN イベントスペースC・D": { lat: 35.7054, lng: 139.7737 },
