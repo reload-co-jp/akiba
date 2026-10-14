@@ -8,7 +8,7 @@ declare global {
   }
 }
 
-const AdsenseDisplayAd = () => {
+const AdsenseDisplayAd = ({ small = false }: { small?: boolean }) => {
   useEffect(() => {
     try {
       ;(window.adsbygoogle = window.adsbygoogle || []).push({})
@@ -23,8 +23,8 @@ const AdsenseDisplayAd = () => {
       style={{ display: "block" }}
       data-ad-client="ca-pub-6542845006087970"
       data-ad-slot="4829146611"
-      data-ad-format="auto"
-      data-full-width-responsive="true"
+      data-ad-format={small ? "horizontal" : "auto"}
+      data-full-width-responsive={small ? "false" : "true"}
     />
   )
 }

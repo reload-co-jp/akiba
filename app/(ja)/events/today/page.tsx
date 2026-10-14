@@ -327,6 +327,8 @@ const Page = () => {
           おでかけの参考にしてください。
         </p>
 
+        <AdsenseDisplayAd small />
+
         <EventSection
           id="today-events-heading"
           kicker="Ongoing Today"
