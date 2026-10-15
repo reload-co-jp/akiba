@@ -3980,29 +3980,6 @@
     ]
   },
   {
-    "id": 143,
-    "name": "鉄道居酒屋 Little TGV",
-    "slug": "osm-node-1916524089",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
-    "lat": 35.701322,
-    "lng": 139.770594,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/1916524089",
-    "website": "https://littletgv.com/",
-    "cuisine": [
-      "izakaya"
-    ],
-    "address": "東京都千代田区外神田3-10-5 イサミヤ第3ビル4F",
-    "addressSource": "gsi-reverse",
-    "hours": "火〜金 18:00〜23:00 / 土・祝 16:00〜23:00 / 日 12:00〜23:00",
-    "closed": "月曜",
-    "tags": [
-      "電気街"
-    ]
-  },
-  {
     "id": 145,
     "name": "牛かつ 壱弐参",
     "slug": "osm-node-1916530503",
@@ -4886,10 +4863,10 @@
   },
   {
     "id": 185,
-    "name": "世界の山ちゃん",
+    "name": "世界の山ちゃん 秋葉原昭和通り店",
     "slug": "osm-node-2292250493",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "名古屋名物「幻の手羽先」で知られる居酒屋チェーンの秋葉原昭和通り店。テーブル・カウンター・個室・掘りごたつの計149席を備え、店内は全面禁煙。",
     "lat": 35.69642,
     "lng": 139.775953,
     "tier": "B",
@@ -4902,8 +4879,17 @@
     "addressSource": "gsi-reverse",
     "hours": "月〜土・祝前日 17:00〜23:30 / 日・祝 17:00〜23:00",
     "tags": [
+      "手羽先",
+      "チェーン",
+      "個室",
+      "禁煙",
       "岩本町"
-    ]
+    ],
+    "aliases": [
+      "世界の山ちゃん"
+    ],
+    "access": "都営新宿線岩本町駅 A4出口 徒歩1分 / JR秋葉原駅 昭和通り口 徒歩5分",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 186,
@@ -5652,6 +5638,10 @@
     "lastVerified": "2026-09-02",
     "tags": [
       "岩本町"
+    ],
+    "cuisine": [
+      "soba",
+      "izakaya"
     ]
   },
   {
@@ -6934,7 +6924,7 @@
     "name": "秋葉原魚金",
     "slug": "osm-node-4987968720",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "新鮮な魚介をボリュームたっぷり、手頃な価格で出す「魚金」グループの秋葉原店。看板の刺身盛り合わせは、注文した点数より多く盛られて出てくることで知られる。市場から仕入れた鮮魚の煮魚・焼き魚・フライもそろい、ランチ営業もある。",
     "lat": 35.70136,
     "lng": 139.774666,
     "tier": "A",
@@ -6955,10 +6945,14 @@
       "copyrightRisk": true
     },
     "website": "https://uokingroup.jp/",
-    "lastVerified": "2026-09-02",
+    "lastVerified": "2026-10-16",
     "tags": [
+      "海鮮",
+      "刺身",
+      "ランチ",
       "岩本町"
-    ]
+    ],
+    "aliases": []
   },
   {
     "id": 274,
@@ -7194,7 +7188,7 @@
     "name": "誠酒屋",
     "slug": "osm-node-5019147298",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "新選組をイメージした幕末の男装スタッフが接客する和風カフェ&バー。茶屋風の店内でお茶やお酒を楽しめる。",
     "lat": 35.701349,
     "lng": 139.770667,
     "tier": "B",
@@ -7209,8 +7203,12 @@
     "hours": "日・祝16:00〜22:00（L.O.21:30）/ 月〜金17:00〜23:00（L.O.22:30）",
     "closed": "無休",
     "tags": [
+      "男装",
+      "コンセプトカフェ",
       "電気街"
-    ]
+    ],
+    "aliases": [],
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 284,
@@ -7312,10 +7310,10 @@
   },
   {
     "id": 288,
-    "name": "炭の魂",
+    "name": "炭火串焼き専門店 炭の魂 秋葉原店",
     "slug": "osm-node-5026492027",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "炭火串焼きの専門店。焼きトンのおまかせ盛り合わせや自家製つくね、厳選馬刺しが人気。総席数35席で、10〜14名向けの個室があり貸切にも対応する。",
     "lat": 35.700128,
     "lng": 139.769373,
     "tier": "A",
@@ -7335,9 +7333,15 @@
       "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/27755351.jpg",
       "copyrightRisk": true
     },
-    "lastVerified": "2026-09-02",
+    "lastVerified": "2026-10-16",
     "tags": [
+      "串焼き",
+      "やきとん",
+      "個室",
       "電気街"
+    ],
+    "aliases": [
+      "炭の魂"
     ]
   },
   {
@@ -7700,7 +7704,7 @@
     "name": "82 Ale House",
     "slug": "osm-node-5057770998",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "英国風パブ「HUB」の大人向けブランド「82 Ale House」の秋葉原店。アキバ・トリム5階にあり、オリジナルエールやウイスキーと、フィッシュ&チップスなどのパブフードを楽しめる。英語対応スタッフもいる。",
     "lat": 35.69792,
     "lng": 139.773702,
     "tier": "B",
@@ -7713,8 +7717,13 @@
     "addressSource": "gsi-reverse",
     "hours": "11:00〜24:00（毎日）",
     "tags": [
+      "パブ",
+      "ビール",
+      "ウイスキー",
       "昭和通り"
-    ]
+    ],
+    "aliases": [],
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 304,
@@ -7880,10 +7889,10 @@
   },
   {
     "id": 312,
-    "name": "Bistro Teriyaki",
+    "name": "ビストロ TERIYAKI 秋葉原店",
     "slug": "osm-node-5061648218",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "ワインと一緒に楽しむビストロ料理の店。黒毛和牛のグリルや濃厚ビスクソースのパスタが看板で、1階はカウンター4席とテーブル16席、2階はテーブル36席。飲み放題付きのパーティーコースもある。",
     "lat": 35.700823,
     "lng": 139.774699,
     "tier": "B",
@@ -7894,11 +7903,18 @@
     ],
     "address": "東京都千代田区神田練塀町66",
     "addressSource": "gsi-reverse",
-    "access": "秋葉原駅A3出口 徒歩2分",
+    "access": "JR秋葉原駅 中央改札 徒歩3分",
     "hours": "月〜木17:00〜23:00 / 金17:00〜23:30 / 土16:00〜22:30 / 日祝16:00〜22:00",
     "tags": [
+      "ビストロ",
+      "ワイン",
+      "宴会",
       "岩本町"
-    ]
+    ],
+    "aliases": [
+      "Bistro Teriyaki"
+    ],
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 313,
@@ -8192,34 +8208,6 @@
       "alt": "oerlrer manのオムライス",
       "sourceLabel": "食べログ 投稿写真",
       "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/340772/150x150_square_693a85792ad8d108b4fb20b3e04b8d6d.jpg",
-      "copyrightRisk": true
-    },
-    "tags": [
-      "電気街"
-    ]
-  },
-  {
-    "id": 328,
-    "name": "マグロ専門居酒屋AKIBA",
-    "slug": "osm-node-5181116193",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
-    "lat": 35.700215,
-    "lng": 139.771978,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5181116193",
-    "cuisine": [
-      "izakaya"
-    ],
-    "address": "東京都千代田区外神田4-2-6 AKIBA426ビル2F",
-    "addressSource": "gsi-reverse",
-    "hours": "月〜金ランチ11:30〜13:30 / 月〜土・祝ディナー15:30〜23:00（L.O.22:30、ドリンクL.O.22:00）/ 土・祝ランチ12:00〜13:30",
-    "image": {
-      "src": "/images/spots/maguro-senmon-izakaya-akiba.jpg",
-      "alt": "マグロ専門居酒屋AKIBAのマグロといくらの海鮮丼",
-      "sourceLabel": "Retty 投稿写真",
-      "sourceUrl": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/25580019.jpg",
       "copyrightRisk": true
     },
     "tags": [
@@ -9018,7 +9006,7 @@
     "name": "秋葉原とら八",
     "slug": "osm-node-5702452120",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "朝挽きの豚もつを串打ちし、炭火で焼くやきとんが看板の酒場。夕方から営業し、平均予算は2,800円ほど。",
     "lat": 35.698412,
     "lng": 139.775978,
     "tier": "B",
@@ -9039,8 +9027,13 @@
       "copyrightRisk": true
     },
     "tags": [
+      "やきとん",
+      "串焼き",
       "昭和通り"
-    ]
+    ],
+    "aliases": [],
+    "access": "JR秋葉原駅 徒歩1分 / 東京メトロ日比谷線秋葉原駅 徒歩1分 / 都営新宿線岩本町駅 徒歩3分",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 368,
@@ -9582,7 +9575,7 @@
     "name": "とり庄",
     "slug": "osm-node-6275748670",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "UDX近くの路地で40年続く、昭和レトロな雰囲気の焼き鳥店。カウンター9席と座敷18席。大ぶりのネタと塩加減の良い焼き鳥が評判。支払いは現金のみ。",
     "lat": 35.700322,
     "lng": 139.771959,
     "tier": "B",
@@ -9603,8 +9596,14 @@
       "copyrightRisk": true
     },
     "tags": [
+      "焼き鳥",
+      "老舗",
+      "現金のみ",
       "電気街"
-    ]
+    ],
+    "aliases": [],
+    "access": "JR秋葉原駅 徒歩5分",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 393,
@@ -10540,10 +10539,10 @@
   },
   {
     "id": 440,
-    "name": "楽蔵",
+    "name": "楽蔵 秋葉原駅前店",
     "slug": "osm-node-9103735466",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "全席個室の和食居酒屋。お造りや焼き魚、焼き鳥など料理の幅が広く、掘りごたつ席もある。注文はタッチパネル式。昭和通り口すぐのビル3階にある。",
     "lat": 35.69797,
     "lng": 139.774568,
     "tier": "B",
@@ -10563,8 +10562,16 @@
       "copyrightRisk": true
     },
     "tags": [
+      "個室",
+      "和食",
+      "宴会",
       "昭和通り"
-    ]
+    ],
+    "aliases": [
+      "楽蔵"
+    ],
+    "website": "https://rakuzo.dkdining.com/akihabara/",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 441,
@@ -10678,22 +10685,24 @@
     "id": 445,
     "name": "Clove Base",
     "slug": "osm-node-9103752887",
-    "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ。チョムチョム秋葉原6階にあり、69席のデュエルスペースを備える。店頭での買取にも対応。",
     "lat": 35.6978,
     "lng": 139.774192,
     "tier": "B",
     "dataSource": "osm",
     "osmId": "node/9103752887",
-    "cuisine": [
-      "izakaya"
-    ],
     "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原6F",
     "addressSource": "gsi-reverse",
     "hours": "平日13:00〜21:00 / 土日祝11:00〜21:00",
     "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
       "昭和通り"
-    ]
+    ],
+    "closed": "不定休",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 446,
@@ -11975,10 +11984,10 @@
   },
   {
     "id": 499,
-    "name": "呼炉凪来",
+    "name": "炉端とおでん 呼炉凪来 秋葉原店",
     "slug": "osm-node-11017003644",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの居酒屋",
+    "description": "新宿に本店を構える「炉端とおでん 呼炉凪来」の秋葉原店。2023年5月、JR秋葉原駅前の奥山ビル6階に開店した。店内中央のカウンターで、お通しのおでんをワンコインで食べ放題にできるのが名物。炉端焼きも楽しめ、個室もある。",
     "lat": 35.697754,
     "lng": 139.771552,
     "tier": "B",
@@ -11998,8 +12007,16 @@
       "copyrightRisk": true
     },
     "tags": [
+      "炉端焼き",
+      "おでん",
+      "個室",
       "パーツ街・ジャンク街"
-    ]
+    ],
+    "aliases": [
+      "呼炉凪来"
+    ],
+    "access": "JR秋葉原駅 電気街口 徒歩2分",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 500,
@@ -12150,6 +12167,9 @@
     "lastVerified": "2026-09-02",
     "tags": [
       "パーツ街・ジャンク街"
+    ],
+    "cuisine": [
+      "izakaya"
     ]
   },
   {
@@ -12176,6 +12196,9 @@
     "lastVerified": "2026-09-02",
     "tags": [
       "電気街"
+    ],
+    "cuisine": [
+      "izakaya"
     ]
   },
   {
