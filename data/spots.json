@@ -12501,7 +12501,15 @@
     "lastVerified": "2026-09-02",
     "tags": [
       "UDX"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-11276600259.jpg",
+      "alt": "築地食堂 源ちゃん AKIBA_ICHI店の関連ビジュアル",
+      "width": 1200,
+      "height": 630,
+      "sourceLabel": "築地食堂 源ちゃん AKIBA_ICHI店 公式サイト",
+      "sourceUrl": "https://genchan.jp/"
+    }
   },
   {
     "id": 520,
@@ -13140,7 +13148,15 @@
     "lastVerified": "2026-09-02",
     "tags": [
       "昭和通り"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-11936246093.jpg",
+      "alt": "しゃぶしゃぶ温野菜 秋葉原昭和通り口店の関連ビジュアル",
+      "width": 1000,
+      "height": 1000,
+      "sourceLabel": "しゃぶしゃぶ温野菜 秋葉原昭和通り口店 公式サイト",
+      "sourceUrl": "https://onyasai-akihabarashouwadoori.owst.jp/"
+    }
   },
   {
     "id": 551,
@@ -15636,7 +15652,15 @@
     "lng": 139.7708,
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/tottori-wagyu-sankouen.jpg",
+      "alt": "鳥取和牛オレイン55一頭買い専門店 炭火焼肉 さんこう苑の関連ビジュアル",
+      "width": 1200,
+      "height": 900,
+      "sourceLabel": "鳥取和牛オレイン55一頭買い専門店 炭火焼肉 さんこう苑 公式サイト",
+      "sourceUrl": "https://sankouen.owst.jp/"
+    }
   },
   {
     "id": 671,
@@ -16638,7 +16662,15 @@
     "lng": 139.7708,
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/yonayona-beer-works-kanda.jpg",
+      "alt": "YONA YONA BEER WORKS 神田店の関連ビジュアル",
+      "width": 1600,
+      "height": 900,
+      "sourceLabel": "YONA YONA BEER WORKS 神田店 公式サイト",
+      "sourceUrl": "https://yonayonabeerworks.com/pages/shop-kanda"
+    }
   },
   {
     "id": 715,
@@ -16683,7 +16715,15 @@
     "lng": 139.7746,
     "tags": [
       "中央口"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/tatsumiya-yodobashi-akiba.jpg",
+      "alt": "たつみ屋 ヨドバシAKIBAの関連ビジュアル",
+      "width": 1000,
+      "height": 625,
+      "sourceLabel": "たつみ屋 ヨドバシAKIBA 公式サイト",
+      "sourceUrl": "https://kiwa-group.co.jp/tatsumi_akihabara/"
+    }
   },
   {
     "id": 717,
@@ -17404,7 +17444,15 @@
     "lng": 139.774612,
     "tags": [
       "中央口"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/tannosuke-yodobashi-akiba.jpg",
+      "alt": "肉匠の牛たん たん之助 ヨドバシAkiba店の関連ビジュアル",
+      "width": 1200,
+      "height": 630,
+      "sourceLabel": "肉匠の牛たん たん之助 ヨドバシAkiba店 公式サイト",
+      "sourceUrl": "https://tannosuke.com/shops/tannosuke-yodobashiakiba/"
+    }
   },
   {
     "id": 749,
@@ -18123,7 +18171,15 @@
       "カードラボ 秋葉原"
     ],
     "lat": 35.697674,
-    "lng": 139.771881
+    "lng": 139.771881,
+    "image": {
+      "src": "/images/spots/cardlabo-akihabara-radio-kaikan.jpg",
+      "alt": "カードラボ 秋葉原ラジオ会館本店の関連ビジュアル",
+      "width": 750,
+      "height": 1098,
+      "sourceLabel": "カードラボ 秋葉原ラジオ会館本店 公式サイト",
+      "sourceUrl": "https://www.c-labo.jp/shop/radiohonten/"
+    }
   },
   {
     "id": 781,
@@ -18542,7 +18598,15 @@
       "シンソク 秋葉原本店"
     ],
     "lat": 35.702404,
-    "lng": 139.771484
+    "lng": 139.771484,
+    "image": {
+      "src": "/images/spots/shinsoku-akihabara-honten.jpg",
+      "alt": "シンソク秋葉原本店の関連ビジュアル",
+      "width": 1181,
+      "height": 628,
+      "sourceLabel": "シンソク秋葉原本店 公式サイト",
+      "sourceUrl": "https://www.cardshop-shinsoku.jp/"
+    }
   },
   {
     "id": 798,
