@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
@@ -53,7 +54,7 @@ export const generateMetadata = async ({ params }: Props) => {
     alternates: {
       canonical: `/en/articles/${slug}/`,
       languages: {
-        "x-default": `/en/articles/${slug}/`,
+        "x-default": `/articles/${slug}/`,
         ja: `/articles/${slug}/`,
         "ja-JP": `/articles/${slug}/`,
         en: `/en/articles/${slug}/`,
@@ -247,17 +248,17 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       {eventLd && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(eventLd) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdScript(eventLd) }}
         />
       )}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumbLd) }}
       />
       <article
         style={{ maxWidth: "800px", margin: "0 auto", padding: "1rem 0" }}

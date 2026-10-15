@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import Script from "next/script"
 import { absoluteUrl, siteDescription, siteName, siteUrl } from "lib/site"
@@ -97,7 +98,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdScript(siteJsonLd) }}
         />
       </head>
       <body>

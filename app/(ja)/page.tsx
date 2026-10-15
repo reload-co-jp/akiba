@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import { HomeArticlesFilter } from "components/home-articles-filter"
 import { HomeNewsCarousel } from "components/home-news-carousel"
@@ -99,7 +100,7 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       <h1
         style={{

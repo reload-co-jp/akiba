@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import { Suspense } from "react"
 import { getAllArticles } from "lib/articles"
 import { ArticlesViewToggle } from "components/articles-view-toggle"
@@ -46,7 +47,7 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       <section
         style={{ margin: "0 auto", maxWidth: "1080px" }}

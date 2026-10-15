@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import { Suspense } from "react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
@@ -62,7 +63,7 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       <section
         style={{ margin: "0 auto", maxWidth: "1080px" }}

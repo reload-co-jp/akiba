@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import { getAllArticles } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { Breadcrumb } from "components/breadcrumb"
@@ -35,7 +36,7 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       <Breadcrumb
         items={[

@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import {
   getAllArticles,
@@ -145,7 +146,7 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       <div style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <Breadcrumb

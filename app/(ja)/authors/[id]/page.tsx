@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { absoluteUrl, siteName } from "lib/site"
@@ -102,11 +103,11 @@ const Page = async ({ params }: Props) => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(profileLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(profileLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumbLd) }}
       />
       <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <nav aria-label="パンくずリスト" className="breadcrumb">

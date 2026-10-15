@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import AdsenseDisplayAd from "components/adsense-display-ad"
 import { EventsMap } from "components/events-map"
@@ -93,7 +94,7 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }}
       />
       <section style={{ margin: "0 auto", maxWidth: "1080px" }}>
         <div

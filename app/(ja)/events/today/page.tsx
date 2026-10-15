@@ -1,3 +1,4 @@
+import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import AdsenseDisplayAd from "components/adsense-display-ad"
 import {
@@ -269,7 +270,7 @@ const Page = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
+          __html: jsonLdScript([
             breadcrumbJsonLd,
             collectionPageJsonLd,
             faqJsonLd,
