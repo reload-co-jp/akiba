@@ -132,7 +132,7 @@ def fetch(url, timeout=20, retries=3, retry_delay=2):
     for attempt in range(1, retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.read().decode("utf-8", errors="ignore")
+                return r.read().decode(r.headers.get_content_charset() or "utf-8", errors="ignore")
         except Exception as exc:
             last_error = exc
             if attempt >= retries or not is_transient_network_error(exc):
@@ -235,7 +235,7 @@ def extract(url, href_filter, base=""):
 #     in the detail page's og:description before writing an article.
 #   - walkerplus dropped its station-area filter (event_list/ar0313/sc309922d/ and
 #     top/ar0313/sc309922d/ both 404 as of 2026-09). list_source("walkerplus")
-#     now pages through the Tokyo-wide list and keeps rows whose card text
+#     now pages through the 千代田区 list (event_list/ar0313101/chiyoda/) and keeps rows whose card text
 #     (title/区/venue) mentions an Akihabara-area keyword — see WALKER_AREA_RE.
 #   - enjoytokyo area listings are noisy: many results are Tokyo-wide, not
 #     Akihabara-specific, despite the area filter. Verify venue text explicitly.
@@ -327,6 +327,27 @@ SOURCES = {
         url="https://club.goodman2020.com/events",
         href_filter=lambda h: bool(re.search(r"^/events/\d+$", h or "")),
         base="https://club.goodman2020.com",
+    ),
+    "maach": dict(
+        url="https://www.ecute.jp/maach/",
+        href_filter=lambda h: bool(re.search(r"^/maach/event/\d+$", h or "")),
+        base="https://www.ecute.jp",
+    ),
+    "2k540": dict(
+        url="https://www.jrtk.jp/2k540/",
+        href_filter=lambda h: bool(re.search(r"^/2k540/info/detail_\d+/$", h or "")),
+        base="https://www.jrtk.jp",
+    ),
+    # 千代田区観光協会: whole ward (丸の内/日比谷 too) — check venue is Akiba/神田 area.
+    "visit_chiyoda": dict(
+        url="https://visit-chiyoda.tokyo/app/event/",
+        href_filter=lambda h: "/app/event/detail/" in (h or ""),
+        base="",
+    ),
+    "akiba_or_jp": dict(
+        url="https://akiba.or.jp/",
+        href_filter=lambda h: bool(re.search(r"akiba\.or\.jp/\d+/?$", h or "")),
+        base="",
     ),
 }
 
@@ -444,14 +465,14 @@ WALKER_AREA_RE = re.compile(
 
 
 def list_walkerplus(max_pages=15):
-    """Tokyo-wide WalkerPlus list, filtered to Akihabara-area cards.
+    """千代田区 WalkerPlus list (Tokyo-wide list had ~2 Akiba hits per 225 cards), filtered to Akihabara-area cards.
 
     Each card spans several <a href="/event/ar0313eNNN/"> anchors (image, title,
     ...), so text is merged per URL before matching. Card text is
     title | status | dates | catch | 東京都 | 区 | venue | genre."""
     cards = {}
     for page in range(1, max_pages + 1):
-        url = "https://www.walkerplus.com/event_list/ar0313/" + ("" if page == 1 else f"{page}.html")
+        url = "https://www.walkerplus.com/event_list/ar0313101/chiyoda/" + ("" if page == 1 else f"{page}.html")
         try:
             text = fetch(url)
         except Exception:

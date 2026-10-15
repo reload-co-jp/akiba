@@ -24,7 +24,7 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
 
 - アニメイト フェア・イベント
   - URL: https://www.animate-onlineshop.jp/contents/fair_event/
-  - Notes: strong source for アニメイト秋葉原 fairs, only shops, reservation rules, and purchase bonuses. Filter for 秋葉原 / AKIHABARA in detail pages.
+  - Notes: as of 2026-10 plain HTTP gets 302 to a queue-it waiting room — `harvest.py list animate` errors. Use WebSearch `site:animate-onlineshop.jp fair_event 秋葉原` instead. Strong source for アニメイト秋葉原 fairs, only shops, reservation rules, and purchase bonuses. Filter for 秋葉原 / AKIHABARA in detail pages.
 
 - あみあみ実店舗イベント
   - URL: https://realstore.amiami.jp/event/
@@ -50,6 +50,22 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
   - URL: https://club.goodman2020.com/events (old goodman2020.com/schedule/ 404s — schedule moved to the `club.` subdomain)
   - Notes: live house schedule. Include normal live events when details are complete. Works well via `harvest.py list club_goodman`.
 
+- マーチエキュート神田万世橋 event
+  - URL: https://www.ecute.jp/maach/
+  - Notes: フェア・謎解き・ポップアップ. Skip JRE POINT 常設キャンペーン. `harvest.py list maach`.
+
+- 2k540 AKI-OKA ARTISAN info
+  - URL: https://www.jrtk.jp/2k540/
+  - Notes: 御徒町〜秋葉原高架下. 展示・創業祭・ショップ開店. `harvest.py list 2k540`.
+
+- 千代田区観光協会 イベント
+  - URL: https://visit-chiyoda.tokyo/app/event/
+  - Notes: ward-wide (丸の内/日比谷 mixed in) — keep only 秋葉原/神田/御茶ノ水 venues. Card text includes date range. `harvest.py list visit_chiyoda`.
+
+- 秋葉原電気街振興会 (akiba.or.jp)
+  - URL: https://akiba.or.jp/
+  - Notes: 【地域のイベント情報】【電気街からのお知らせ】— local festivals, 歩行者天国/社会実験, おもてなしフェア etc. Only a few posts per month. `harvest.py list akiba_or_jp`.
+
 ## Aggregator / Discovery Sources
 
 - PR TIMES Akihabara search
@@ -73,7 +89,7 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
   - Notes: anime/game collaboration discovery. Prefer linked official store/campaign source.
 
 - WalkerPlus Tokyo event list (Akihabara-filtered)
-  - URL: https://www.walkerplus.com/event_list/ar0313/ (station-area filter `sc309922d` 404s since 2026-09; `harvest.py list walkerplus` pages through the Tokyo list and keeps cards mentioning 秋葉原/神田/御茶ノ水/岩本町/末広町/UDX etc.)
+  - URL: https://www.walkerplus.com/event_list/ar0313101/chiyoda/ (千代田区 list; Tokyo-wide list gave only ~2 Akiba hits. `harvest.py list walkerplus` pages through it and keeps cards mentioning 秋葉原/神田/御茶ノ水/UDX etc.)
   - Notes: useful for workshops and local events. Individual pages may be enough when source attribution is clear; still search official/ticket page.
 
 - AKIBA PC Hotline! 秋葉原情報
@@ -87,6 +103,16 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
 - X.com (Twitter) Akihabara search
   - URL: https://x.com/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F+%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88&f=live
   - Notes: broad harvestingでは必ず巡回。リアルタイム発見に強い。公式アカウント投稿・速報イベント告知・秋葉原で起こった出来事の一次発見源として使う。ツイート単体は信頼性低いので、公式サイト・公式SNSアカウントへの裏付け必須。`f=live` で新着順。キーワード例: `秋葉原 コラボ`、`秋葉原 ポップアップ`、`秋葉原 オープン`、`秋葉原 閉店`、`秋葉原 ニュース`、`秋葉原 出来事`、`秋葉原 話題`、`アキバ イベント`、`AKIHABARA POP UP`、`ベルサール秋葉原`、`AKIHABARAゲーマーズ本店`、`ボークス秋葉原ホビー天国2`、`書泉ブックタワー`、`アトレ秋葉原`。
+
+## Checked and Not Added (2026-10)
+
+- アキバ経済新聞: headlines stopped in 2023 (verified 2026-10).
+- 神田明神 news: newest exhibition post is 2025-10 — rarely updated.
+- アキバBlog (akibablog.blog.jp): fetchable but mostly 新刊/同人 release posts — too noisy.
+- ラジオ会館 店舗ニュース: Python SSL fails (incomplete cert chain); content is mostly 入荷 news (out of scope).
+- メロンブックス店舗イベント / とらのあなNEWS: fetchable but chain-wide 新刊フェア — too noisy.
+- 秋葉原UDX topics (udx.jp/feed/): reachable via curl only (Python SSL error), rarely updated.
+- Peatix search: JS-rendered, 0 links. ベルサール/ボークス/とらのあな/メロンブックス event URLs 404.
 
 ## Quick Search Patterns
 
