@@ -1,3 +1,4 @@
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { jsonLdScript } from "lib/json-ld"
 import { getAllArticles } from "lib/articles"
 import { absoluteUrl } from "lib/site"
@@ -46,6 +47,7 @@ const Page = () => {
         ]}
       />
       <CalendarView events={events} />
+      <AdsenseDisplayAd />
     </>
   )
 }

@@ -1,3 +1,4 @@
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { getAllArticles } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
@@ -58,6 +59,7 @@ const Page = () => {
         </header>
         <p className="today-lead">{DESCRIPTION}</p>
         <LandingLinks items={items} />
+        <AdsenseDisplayAd />
       </div>
     </>
   )

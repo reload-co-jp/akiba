@@ -1,5 +1,6 @@
 import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { Breadcrumb } from "components/breadcrumb"
 import { EventCard } from "components/event-card"
 import { EventSection } from "components/event-section"
@@ -160,6 +161,8 @@ const Page = () => {
           )}
         </EventSection>
 
+        <AdsenseDisplayAd />
+
         <EventSection
           id="ending-soon-heading"
           kicker="Last Chance"
@@ -185,6 +188,8 @@ const Page = () => {
             </ul>
           )}
         </EventSection>
+
+        <AdsenseDisplayAd />
 
         <EventSection
           id="this-week-heading"

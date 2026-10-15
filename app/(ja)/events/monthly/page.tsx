@@ -1,5 +1,6 @@
 import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { getAllArticles, getArticleImage } from "lib/articles"
 import { absoluteUrl } from "lib/site"
 import { fmtRange } from "lib/format"
@@ -163,6 +164,8 @@ const Page = () => {
             </EventSection>
           ))
         )}
+
+        <AdsenseDisplayAd />
 
         <EventSection id="related-heading" kicker="Related" title="関連リンク">
           <ul

@@ -1,3 +1,4 @@
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { notFound } from "next/navigation"
 import { getSpotBySlug } from "lib/spots"
 import {
@@ -83,6 +84,8 @@ const Page = async ({ params }: Props) => {
         { href: "/events/venue/", label: "会場別イベント一覧" },
       ]}
     >
+      <AdsenseDisplayAd />
+
       {workLinks.length > 0 && (
         <EventSection id="works-heading" kicker="Titles" title={`${spot.name}でイベントを開催した作品`}>
           <LandingLinks items={workLinks} />

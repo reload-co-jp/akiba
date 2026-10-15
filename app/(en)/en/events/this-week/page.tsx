@@ -1,5 +1,6 @@
 import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import {
   getOngoingEvents,
   getUpcomingThisWeekEvents,
@@ -143,6 +144,8 @@ const Page = () => {
           )}
         </EventSection>
 
+        <AdsenseDisplayAd />
+
         <EventSection
           id="upcoming-heading"
           kicker="Coming This Week"
@@ -170,6 +173,8 @@ const Page = () => {
             </ul>
           )}
         </EventSection>
+
+        <AdsenseDisplayAd />
 
         <EventSection
           id="related-heading"

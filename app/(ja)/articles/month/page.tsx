@@ -1,3 +1,4 @@
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import Link from "next/link"
 import { getAllMonths } from "lib/articles"
 
@@ -57,6 +58,7 @@ const Page = () => {
           </li>
         ))}
       </ul>
+      <AdsenseDisplayAd />
     </section>
   )
 }

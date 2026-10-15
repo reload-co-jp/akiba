@@ -1,5 +1,6 @@
 import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { notFound } from "next/navigation"
 import { absoluteUrl } from "lib/site"
 import {
@@ -138,6 +139,8 @@ const Page = async ({ params }: Props) => {
           <p className="home-articles__kicker">Tag</p>
           <h1 className="home-articles__title">{enName}</h1>
         </div>
+        <AdsenseDisplayAd />
+
         <ul className="article-list">
           {articles.map((article) => {
             const image = getArticleImage(article)

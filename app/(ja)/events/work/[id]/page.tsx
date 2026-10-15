@@ -1,3 +1,4 @@
+import AdsenseDisplayAd from "components/adsense-display-ad"
 import { notFound } from "next/navigation"
 import { getTagById } from "lib/articles"
 import {
@@ -66,6 +67,8 @@ const Page = async ({ params }: Props) => {
       ]}
       showMap
     >
+      <AdsenseDisplayAd />
+
       {venueLinks.length > 0 && (
         <EventSection id="venues-heading" kicker="Venues" title={`${tag.name}のイベント開催会場`}>
           <LandingLinks items={venueLinks} />
