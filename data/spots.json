@@ -594,11 +594,13 @@
       "メイドカフェ",
       "バー",
       "カフェ",
-      "電気街"
+      "電気街",
+      "コンカフェ"
     ],
     "cuisine": [
       "maid_cafe",
-      "bar"
+      "bar",
+      "concept_cafe"
     ]
   },
   {
@@ -4756,34 +4758,46 @@
     "dataSource": "osm",
     "osmId": "node/2276456273",
     "cuisine": [
-      "bar"
+      "bar",
+      "girls_bar"
     ],
     "address": "東京都千代田区外神田三丁目",
     "addressSource": "gsi-reverse",
     "tags": [
-      "電気街"
+      "電気街",
+      "ガールズバー"
     ]
   },
   {
     "id": 179,
-    "name": "MOCO",
+    "name": "MOCO 秋葉原店",
     "slug": "osm-node-2276977430",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.699403,
-    "lng": 139.771562,
-    "tier": "B",
+    "description": "中央通り近くの千住ビル5階にあるガールズバー。",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/2276977430",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "girls_bar",
+      "bar"
     ],
-    "address": "東京都千代田区外神田3-1-15 著勝ビル3F",
-    "addressSource": "gsi-reverse",
+    "address": "東京都千代田区外神田3-14-6 千住ビル5F",
+    "addressSource": "manual",
     "hours": "15:00〜24:00",
     "tags": [
+      "ガールズバー",
       "電気街"
-    ]
+    ],
+    "access": "JR秋葉原駅 徒歩5分",
+    "closed": "年中無休",
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "MOCO",
+      "MOCO(モコ)秋葉原店"
+    ],
+    "lat": 35.701385,
+    "lng": 139.771255
   },
   {
     "id": 180,
@@ -6654,20 +6668,28 @@
     "name": "高まり研究所",
     "slug": "osm-node-4937999265",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのバー",
-    "lat": 35.702081,
-    "lng": 139.769726,
-    "tier": "B",
+    "description": "アニソン・ボカロ・アイドル曲を中心に盛り上がれるアニソンカラオケバー。広いステージがあり、席でもステージでも歌える。",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/4937999265",
     "cuisine": [
-      "bar"
+      "bar",
+      "concept_cafe"
     ],
-    "address": "東京都千代田区外神田3-6-17 菊池ビル1F",
-    "addressSource": "gsi-reverse",
+    "address": "東京都千代田区外神田3-6-17 菊地ビル1F",
+    "addressSource": "manual",
     "tags": [
+      "アニソンバー",
+      "カラオケ",
+      "コンカフェ",
       "電気街"
-    ]
+    ],
+    "access": "東京メトロ銀座線末広町駅 徒歩3分 / JR秋葉原駅 電気街口 徒歩7分",
+    "hours": "18:00〜23:00（金土・祝前日は〜翌5:00）",
+    "closed": "元日",
+    "lastVerified": "2026-10-16",
+    "lat": 35.702061,
+    "lng": 139.769791
   },
   {
     "id": 262,
@@ -7228,7 +7250,8 @@
     "dataSource": "osm",
     "osmId": "node/5019147298",
     "cuisine": [
-      "izakaya"
+      "izakaya",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田3-10-5 T&K AKIBA 5F",
     "addressSource": "gsi-reverse",
@@ -7238,7 +7261,8 @@
     "tags": [
       "男装",
       "コンセプトカフェ",
-      "電気街"
+      "電気街",
+      "コンカフェ"
     ],
     "aliases": [],
     "lastVerified": "2026-10-16"
@@ -7321,24 +7345,32 @@
   },
   {
     "id": 287,
-    "name": "Akiba Sanatorium",
+    "name": "プレミアムメイドカフェ秋葉原",
     "slug": "osm-node-5026492026",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのバー",
+    "description": "ティファニーブルーで統一したロココ調の店内が特徴のメイドカフェ。クラシカルな白黒のメイド服にティファニーブルーのリボンをあしらっている。深夜1時まで営業。1階は「田中そば店」のビル。",
     "lat": 35.700133,
     "lng": 139.76936,
-    "tier": "B",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/5026492026",
     "cuisine": [
-      "bar"
+      "maid_cafe",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田3-8-3 第4針谷ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "17:00〜翌5:00",
-    "closed": "月曜",
+    "hours": "平日 15:00〜翌1:00 / 土日祝 12:00〜翌1:00",
+    "closed": "年中無休",
     "tags": [
+      "メイドカフェ",
+      "コンカフェ",
       "電気街"
+    ],
+    "access": "東京メトロ銀座線末広町駅 徒歩3分 / JR秋葉原駅 電気街口 徒歩8分",
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "The Premium Maid Cafe Akihabara"
     ]
   },
   {
@@ -8094,25 +8126,33 @@
   },
   {
     "id": 319,
-    "name": "Shinobazu",
+    "name": "忍者喫茶 不忍カフェ 秋葉原万世城",
     "slug": "osm-node-5071693013",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.699347,
-    "lng": 139.769426,
-    "tier": "B",
-    "dataSource": "osm",
-    "osmId": "node/5071693013",
-    "cuisine": [
-      "cafe"
-    ],
+    "description": "秋葉原で唯一をうたう忍者カフェ。江戸時代のお城をイメージした和風の店内で、忍者装束のキャストによるパフォーマンスや体験を楽しめる。",
     "address": "東京都千代田区外神田1-2-3 土屋ビル2F〜4F",
-    "addressSource": "gsi-reverse",
-    "hours": "平日16:00〜22:00 / 土日13:00〜22:00",
+    "access": "JR秋葉原駅 電気街口 徒歩2分",
+    "hours": "平日 16:00〜22:00 / 土日 13:00〜22:00",
     "closed": "月曜",
+    "tier": "A",
+    "dataSource": "osm",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
     "tags": [
-      "電気街"
-    ]
+      "コンカフェ",
+      "忍者",
+      "和風",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "不忍カフェ",
+      "Shinobazu"
+    ],
+    "lat": 35.698383,
+    "lng": 139.770554,
+    "osmId": "node/5071693013"
   },
   {
     "id": 320,
@@ -8182,13 +8222,15 @@
     "dataSource": "osm",
     "osmId": "node/5180290825",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田3-8-17 渡辺ビル2F",
     "addressSource": "gsi-reverse",
     "hours": "16:00〜翌4:00",
     "tags": [
-      "電気街"
+      "電気街",
+      "コンカフェ"
     ]
   },
   {
@@ -8678,14 +8720,16 @@
     "dataSource": "osm",
     "osmId": "node/5355683412",
     "cuisine": [
-      "bar"
+      "bar",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田4-6-10 リバティ9号館7F",
     "addressSource": "gsi-reverse",
     "hours": "15:00〜翌5:00（土日祝12:00開店 / 火〜木23:00閉店 / 祝前日翌5:00閉店）",
     "closed": "なし",
     "tags": [
-      "電気街"
+      "電気街",
+      "コンカフェ"
     ]
   },
   {
@@ -9353,22 +9397,24 @@
   },
   {
     "id": 380,
-    "name": "WANTED",
+    "name": "cafe & bar WANTED",
     "slug": "osm-node-6235535018",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのバー",
+    "description": "カウガールとカウボーイがテーマのコンセプトカフェ＆バー。西部劇の酒場を思わせるウッド調の店内に、壁一面のお酒が並ぶバーカウンターがある。早朝5時まで営業。",
     "lat": 35.700199,
     "lng": 139.771964,
-    "tier": "B",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/6235535018",
     "cuisine": [
-      "bar"
+      "bar",
+      "concept_cafe",
+      "girls_bar"
     ],
     "address": "東京都千代田区外神田4-2-6 AKIBA426ビル5F",
     "addressSource": "gsi-reverse",
-    "access": "JR秋葉原駅 電気街口 徒歩2分",
-    "hours": "通常18:00〜29:00（貸切予約時11:00〜29:00）",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "17:00〜翌5:00",
     "image": {
       "src": "/images/spots/wanted-sotokanda.jpg",
       "alt": "WANTEDのフルーツカクテル",
@@ -9377,29 +9423,48 @@
       "copyrightRisk": true
     },
     "tags": [
+      "コンカフェ",
+      "ガールズバー",
+      "深夜営業",
       "電気街"
+    ],
+    "closed": "年中無休",
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "WANTED",
+      "WANTED!!!",
+      "WANTED!!!(ウォンテッド)"
     ]
   },
   {
     "id": 382,
-    "name": "ナチュラリア",
+    "name": "ナチュラリア 秋葉原店",
     "slug": "osm-node-6235888562",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
+    "description": "全国展開する「すっぴんカフェバー」。派手な装いではなくナチュラルなスタイルのキャストが接客する。ウッディな内装の落ち着いた店内で、客席の間をBGMで仕切りプライベートな時間を過ごせる。",
     "lat": 35.701084,
     "lng": 139.772041,
-    "tier": "B",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/6235888562",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "concept_cafe",
+      "bar"
     ],
     "address": "東京都千代田区外神田4-4-9 松井ビル3F",
     "addressSource": "gsi-reverse",
-    "hours": "平日16:00〜23:00 / 土日12:00〜23:00",
-    "closed": "無休",
+    "hours": "平日 16:00〜23:00 / 土日祝 12:00〜23:00",
+    "closed": "年中無休",
     "tags": [
+      "コンカフェ",
+      "カフェバー",
       "電気街"
+    ],
+    "access": "東京メトロ銀座線末広町駅 徒歩3分 / JR秋葉原駅 徒歩5分",
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "ナチュラリア"
     ]
   },
   {
@@ -9652,12 +9717,14 @@
     "hours": "〜21:00（アルコール〜20:00）",
     "website": "https://akibazettai.com",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田3-1-15 箸勝ビル2F",
     "addressSource": "gsi-reverse",
     "tags": [
-      "電気街"
+      "電気街",
+      "コンカフェ"
     ]
   },
   {
@@ -9892,12 +9959,14 @@
     "hours": "〜22:00",
     "website": "https://akibazettai.com",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田3-1-15 箸勝ビル2F",
     "addressSource": "gsi-reverse",
     "tags": [
-      "電気街"
+      "電気街",
+      "コンカフェ"
     ]
   },
   {
@@ -10295,25 +10364,35 @@
   },
   {
     "id": 423,
-    "name": "Bunny's Guild",
+    "name": "Bunny's Guild バニーズギルド",
     "slug": "osm-node-9043566648",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのバー",
-    "lat": 35.699334,
-    "lng": 139.769797,
-    "tier": "B",
+    "description": "バニーガール姿のキャストと会話しながら、お酒やシーシャを楽しめるコンセプトカフェ。2024年12月に移転リニューアルした。",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/9043566648",
     "cuisine": [
-      "bar"
+      "bar",
+      "concept_cafe"
     ],
-    "address": "東京都千代田区外神田3-1-10 オーク秋葉原5F",
-    "addressSource": "gsi-reverse",
-    "hours": "月〜木・日祝17:00〜0:00 / 金土祝前日17:00〜5:00",
-    "closed": "年中無休",
+    "address": "東京都千代田区外神田3-1-10 OAK akihabara 5F",
+    "addressSource": "manual",
+    "hours": "日〜木 17:00〜24:00 / 金土・祝前日 17:00〜翌5:00",
+    "closed": "不定休",
     "tags": [
+      "コンカフェ",
+      "バニー",
+      "シーシャ",
       "電気街"
-    ]
+    ],
+    "access": "JR秋葉原駅 徒歩5分 / 東京メトロ銀座線末広町駅 徒歩6分",
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "Bunny's Guild",
+      "バニーズギルド"
+    ],
+    "lat": 35.700176,
+    "lng": 139.770386
   },
   {
     "id": 424,
@@ -11442,12 +11521,14 @@
     "dataSource": "osm",
     "osmId": "node/10183608085",
     "cuisine": [
-      "izakaya"
+      "izakaya",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田一丁目",
     "addressSource": "gsi-reverse",
     "tags": [
-      "パーツ街・ジャンク街"
+      "パーツ街・ジャンク街",
+      "コンカフェ"
     ]
   },
   {
@@ -11845,21 +11926,27 @@
     "name": "アキバわんわん帝国",
     "slug": "osm-node-10832019058",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
+    "description": "犬×メイドがコンセプトのカフェ。白とピンクを基調にした店内はカウンター席が中心。",
     "lat": 35.701366,
     "lng": 139.77105,
-    "tier": "B",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/10832019058",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田3-14-5 久郷ビル2F",
     "addressSource": "gsi-reverse",
-    "hours": "月〜金17:00〜23:00 / 土日15:00〜23:00",
+    "hours": "平日 17:00〜23:00 / 土日祝 15:00〜23:00",
     "tags": [
+      "コンカフェ",
+      "メイドカフェ",
       "電気街"
-    ]
+    ],
+    "access": "JR秋葉原駅 徒歩5分 / 東京メトロ銀座線末広町駅 徒歩4分",
+    "closed": "年中無休",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 493,
@@ -12067,7 +12154,8 @@
     "website": "https://www.akiba-maidcafe.co.jp/ronron/",
     "cuisine": [
       "maid_cafe",
-      "cafe"
+      "cafe",
+      "concept_cafe"
     ],
     "access": "JR秋葉原駅 電気街口 徒歩3分",
     "closed": "年中無休",
@@ -12092,44 +12180,59 @@
     "name": "マジカルロリポップ",
     "slug": "osm-node-11042181489",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
+    "description": "「魔女見習い」がコンセプトのメイドカフェ。秋葉原に系列店舗を展開するグループの店で、コラボ衣装を含む多数のメイド服を用意している。お絵描きオムライスやオリジナルカクテルなどを提供する。",
     "lat": 35.700039,
     "lng": 139.771998,
-    "tier": "B",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/11042181489",
-    "hours": "Mo-Fr 17:00-23:00; Sa-Su,PH 15:00-23:00",
+    "hours": "平日 17:00〜23:00 / 土日祝 15:00〜23:00",
     "website": "https://www.akiba-maidcafe.co.jp/magical-lollipop/",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "maid_cafe",
+      "concept_cafe"
     ],
     "address": "東京都千代田区外神田4-2-7 TIT秋葉原3F",
     "addressSource": "gsi-reverse",
-    "closed": "年中無休",
+    "closed": "不定休",
     "tags": [
+      "メイドカフェ",
+      "コンカフェ",
       "電気街"
-    ]
+    ],
+    "access": "JR秋葉原駅 徒歩3分 / 東京メトロ銀座線末広町駅 徒歩5分",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 502,
     "name": "Like a Doll",
     "slug": "osm-node-11042181490",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアのカフェ",
-    "lat": 35.700075,
-    "lng": 139.771983,
-    "tier": "B",
+    "description": "「お人形」の世界観をテーマにしたメイドカフェ。マジカルロリポップの姉妹店で、モノクロを基調にした店内が特徴。",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/11042181490",
-    "hours": "Mo-Fr 17:00-23:00; Sa-Su,PH 15:00-23:00",
+    "hours": "平日 17:00〜23:00 / 土日祝 15:00〜23:00",
     "cuisine": [
-      "cafe"
+      "cafe",
+      "maid_cafe",
+      "concept_cafe"
     ],
-    "address": "東京都千代田区外神田四丁目",
-    "addressSource": "gsi-reverse",
+    "address": "東京都千代田区外神田4-2-7 B1F",
+    "addressSource": "manual",
     "tags": [
+      "メイドカフェ",
+      "コンカフェ",
       "電気街"
-    ]
+    ],
+    "access": "JR秋葉原駅 徒歩3分",
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "ライクアドール"
+    ],
+    "lat": 35.700077,
+    "lng": 139.772034
   },
   {
     "id": 503,
@@ -17418,12 +17521,14 @@
     "closed": "火曜定休",
     "website": "https://littlebsd.com/",
     "cuisine": [
-      "izakaya"
+      "izakaya",
+      "concept_cafe"
     ],
     "lat": 35.701408,
     "lng": 139.77063,
     "tags": [
-      "電気街"
+      "電気街",
+      "コンカフェ"
     ]
   },
   {
@@ -19153,5 +19258,551 @@
     ],
     "lat": 35.697674,
     "lng": 139.771881
+  },
+  {
+    "id": 820,
+    "name": "RABBIT CASTLE",
+    "slug": "rabbit-castle-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "うさぎがコンセプトのメイドカフェ。マジカルロリポップの姉妹店で、アイドルステージを備えた店内が特徴。",
+    "address": "東京都千代田区外神田4-4-8 A-Front 8F",
+    "access": "JR秋葉原駅 徒歩5分 / 東京メトロ銀座線末広町駅 徒歩3分",
+    "closed": "不定休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "maid_cafe",
+      "concept_cafe"
+    ],
+    "tags": [
+      "メイドカフェ",
+      "コンカフェ",
+      "電気街"
+    ],
+    "aliases": [
+      "ラビットキャッスル"
+    ],
+    "lat": 35.701077,
+    "lng": 139.772141
+  },
+  {
+    "id": 821,
+    "name": "Cafe＆Bar RevLimit",
+    "slug": "revlimit-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "エメラルドグリーンと白を基調にした店内のコンセプトカフェ＆バー。カウンター席でキャストと近い距離で会話を楽しめる。衣装はオリジナルデザイン。",
+    "address": "東京都千代田区外神田3-8-3 第一針谷ビル3F",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "12:00〜23:00",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "電気街"
+    ],
+    "aliases": [
+      "RevLimit"
+    ],
+    "lat": 35.702335,
+    "lng": 139.770615
+  },
+  {
+    "id": 822,
+    "name": "カジノクエスト",
+    "slug": "casino-quest-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "ポーカーやブラックジャック、バカラなどのアミューズメントカジノを楽しめるコンセプトカフェ。キャストがルールを教えてくれ、来店を重ねるとレベルアップするRPG風のシステムがある。",
+    "address": "東京都千代田区外神田3-14-9 第26東ビル7F",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "月〜金 17:00〜23:00 / 土 13:00〜23:00 / 日 13:00〜22:30",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "アミューズメントカジノ",
+      "コンカフェ",
+      "電気街"
+    ],
+    "lat": 35.701061,
+    "lng": 139.771332
+  },
+  {
+    "id": 823,
+    "name": "ウィッチズガーデン",
+    "slug": "witches-garden-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "魔女たちの箱庭をテーマにしたファンタジー系コンセプトカフェ。魔法の修行をする森をイメージしたウッド調の店内が特徴。",
+    "address": "東京都千代田区外神田3-1-10 OAK akihabara 4F",
+    "access": "JR秋葉原駅 徒歩5分 / 東京メトロ銀座線末広町駅 徒歩6分",
+    "hours": "月〜金 17:00〜翌5:00 / 土 13:00〜翌5:00 / 日 〜22:00",
+    "closed": "不定休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "ファンタジー",
+      "電気街"
+    ],
+    "lat": 35.700176,
+    "lng": 139.770386
+  },
+  {
+    "id": 824,
+    "name": "懺悔の時間です",
+    "slug": "zange-no-jikan-desu",
+    "category": "グルメ・カフェ",
+    "description": "シスターたちが迎える「あいあま教会」がコンセプトのカフェ。白いレンガ調の壁とシャンデリアの店内に、カウンター席とソファ席がある。昭和通り沿い、1階は「らーめん 忍者」のビル。",
+    "address": "東京都千代田区神田松永町17-3 秋葉原妙見屋ビル2F",
+    "access": "JR秋葉原駅 昭和通り口 徒歩2分",
+    "hours": "17:00〜翌1:00",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "シスター",
+      "岩本町"
+    ],
+    "lat": 35.700043,
+    "lng": 139.775024
+  },
+  {
+    "id": 825,
+    "name": "厨二病喫茶PIERROT",
+    "slug": "chunibyo-kissa-pierrot",
+    "category": "グルメ・カフェ",
+    "description": "厨二病とゴシックがコンセプトのカフェ。白黒の格子フロアに黒い壁とインテリア、薔薇とガラスのシャンデリアで世界観を演出している。",
+    "address": "東京都千代田区外神田3-1-15 箸勝ビル5F",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "14:00〜23:00",
+    "closed": "月曜",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "ゴシック",
+      "電気街"
+    ],
+    "aliases": [
+      "厨二病喫茶ピエロ"
+    ],
+    "lat": 35.699863,
+    "lng": 139.769943
+  },
+  {
+    "id": 826,
+    "name": "マーメイド 秋葉原",
+    "slug": "mermaid-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "海の中・深海がコンセプトのカフェ。青を基調に魚やサンゴを描いた壁、天井のクラゲ、貝殻のようなソファなどで海中の世界を表現している。",
+    "address": "東京都千代田区外神田4-4-7 MTビル9F",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "16:00〜翌1:00",
+    "closed": "年中無休",
+    "website": "https://akiba-mermaid.com/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "マーメイド",
+      "電気街"
+    ],
+    "lat": 35.701199,
+    "lng": 139.772141
+  },
+  {
+    "id": 828,
+    "name": "幽遊屋敷～霊女編～",
+    "slug": "yuyu-yashiki-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "お化け屋敷がコンセプトのカフェ。畳敷きの和室に血のりの付いた障子、提灯や赤い鳥居などで世界観を作り込んでいる。",
+    "address": "東京都千代田区外神田4-4-7 MTビル B1F",
+    "access": "JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "16:00〜翌1:00",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "ホラー",
+      "和風",
+      "電気街"
+    ],
+    "aliases": [
+      "幽遊屋敷"
+    ],
+    "lat": 35.701199,
+    "lng": 139.772141
+  },
+  {
+    "id": 829,
+    "name": "キミの彼女になりたい！",
+    "slug": "kimikano-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "秋葉原駅電気街口すぐのビルにあるコンセプトカフェ。略称は「キミカノ」。",
+    "address": "東京都千代田区神田佐久間町1-16-1 大橋ビル4F",
+    "access": "JR秋葉原駅 電気街口 徒歩1分",
+    "hours": "17:00〜翌1:00",
+    "closed": "なし",
+    "website": "https://kimikano.tokyo/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "昭和通り"
+    ],
+    "aliases": [
+      "キミカノ"
+    ],
+    "lat": 35.6978,
+    "lng": 139.774399
+  },
+  {
+    "id": 830,
+    "name": "RE:FIRST",
+    "slug": "refirst-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "「あざとい小悪魔」がコンセプトのカフェ＆バー。インテリアにこだわった店内で、ソファ席やVIP席がある。",
+    "address": "東京都千代田区神田佐久間町1-16-1 大橋ビル802",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "16:00〜翌1:00",
+    "closed": "不定休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "昭和通り"
+    ],
+    "aliases": [
+      "RE:FIRST（リファースト）",
+      "Cafe&Bar RE:FIRST"
+    ],
+    "lat": 35.6978,
+    "lng": 139.774399
+  },
+  {
+    "id": 831,
+    "name": "みけねこカフェ 2nd stage",
+    "slug": "mikeneko-cafe-2nd-stage",
+    "category": "グルメ・カフェ",
+    "description": "歌や踊りが好きな猫たちが集う館がコンセプトの「みけねこコンカフェ」秋葉原2号店。ステージと音響・照明を備え、ステージパフォーマンスが見どころ。",
+    "address": "東京都千代田区外神田3-8-17 渡辺ビル3F",
+    "access": "東京メトロ銀座線末広町駅 徒歩3分 / JR秋葉原駅 徒歩7分",
+    "hours": "18:00〜翌1:00",
+    "closed": "木曜",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "ステージ",
+      "電気街"
+    ],
+    "lat": 35.702,
+    "lng": 139.770721
+  },
+  {
+    "id": 832,
+    "name": "ArtemisChuchu",
+    "slug": "artemis-chuchu-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "ギリシア神話の女神アルテミスにちなむ「女神メイド」がコンセプトのカフェ。白とグレーを基調にした落ち着いた店内で、制服はオリジナルデザイン。",
+    "address": "東京都千代田区外神田3-14-5 久郷ビル4F",
+    "access": "東京メトロ銀座線末広町駅 徒歩5分 / JR秋葉原駅 徒歩7分",
+    "hours": "12:00〜23:30",
+    "closed": "不定休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "maid_cafe",
+      "concept_cafe"
+    ],
+    "tags": [
+      "メイドカフェ",
+      "コンカフェ",
+      "電気街"
+    ],
+    "aliases": [
+      "アルテミス チュチュ"
+    ],
+    "lat": 35.701393,
+    "lng": 139.771072
+  },
+  {
+    "id": 833,
+    "name": "にゃんたーXにゃんたー",
+    "slug": "nyanter-x-nyanter",
+    "category": "グルメ・カフェ",
+    "description": "2024年10月15日にオープンした猫耳メイドのコンセプトカフェ。エメラルドグリーンと白を基調にした25席の店内で、メイド服はオリジナル。",
+    "address": "東京都千代田区神田佐久間町1-16-1 大橋ビル804",
+    "access": "JR秋葉原駅 徒歩3分",
+    "hours": "12:00〜23:00",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "maid_cafe",
+      "concept_cafe"
+    ],
+    "tags": [
+      "メイドカフェ",
+      "コンカフェ",
+      "昭和通り"
+    ],
+    "lat": 35.6978,
+    "lng": 139.774399
+  },
+  {
+    "id": 834,
+    "name": "私立輝羅星学院アイドル部",
+    "slug": "kirabosi-gakuin-idol-bu",
+    "category": "グルメ・カフェ",
+    "description": "アイドルや俳優、声優を目指すキャストが運営するコンセプトカフェ。メイド服やナース服、チャイナ服など多彩な衣装でお給仕する。昼から夕方までの営業。",
+    "address": "東京都千代田区外神田3-1-3 秋葉原パークビル2F",
+    "access": "JR秋葉原駅 徒歩4分",
+    "hours": "12:00〜18:00",
+    "closed": "不定休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "アイドル",
+      "電気街"
+    ],
+    "lat": 35.700237,
+    "lng": 139.769363
+  },
+  {
+    "id": 835,
+    "name": "メルシャルム",
+    "slug": "mercharme-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "「小悪魔」がコンセプトのカフェ。ピンクとベージュの明るい店内にカウンター10席。「ゆるダーク」をテーマにしたオリジナルのメイド服が特徴。",
+    "address": "東京都千代田区外神田3-2-13 橋爪ビル4F",
+    "access": "JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "平日 18:00〜23:00 / 土日祝 16:00〜23:00",
+    "closed": "不定休（主に月曜）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "小悪魔",
+      "電気街"
+    ],
+    "lat": 35.700352,
+    "lng": 139.769974
+  },
+  {
+    "id": 836,
+    "name": "清楚な子猫ちゃんのcafe&barみゃおみゃお",
+    "slug": "myaomyao-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "悪魔の魔法で子猫の姿になった少女たちが、一流の子猫メイドを目指してお給仕するというストーリーのコンセプトカフェ＆バー。",
+    "address": "東京都千代田区神田佐久間町1-16-1 大橋ビル6F",
+    "access": "JR秋葉原駅 徒歩1分 / 都営新宿線岩本町駅 徒歩3分",
+    "hours": "月〜金 16:00〜24:00 / 土日 14:00〜24:00",
+    "closed": "なし",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "猫耳",
+      "昭和通り"
+    ],
+    "aliases": [
+      "みゃおみゃお"
+    ],
+    "lat": 35.6978,
+    "lng": 139.774399
+  },
+  {
+    "id": 837,
+    "name": "Classy Princess",
+    "slug": "classy-princess-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "お城の秘密のパーティー会場で、プリンセスたちがもてなすという世界観のコンセプトカフェ。ピンクと水色を基調にした店内に、テーブル席・カウンター席とVIP席がある。",
+    "address": "東京都千代田区外神田4-4-7 MTビル5F",
+    "access": "JR秋葉原駅 徒歩5分",
+    "hours": "16:00〜翌1:00",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "プリンセス",
+      "電気街"
+    ],
+    "aliases": [
+      "クラッシープリンセス"
+    ],
+    "lat": 35.701199,
+    "lng": 139.772141
+  },
+  {
+    "id": 838,
+    "name": "使い魔メイドカフェ イービルリリス",
+    "slug": "evil-lilith-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "エクソシストと協力して呪力を集める小悪魔メイドがコンセプトのカフェ。お城をイメージしたゴシック調の店内に、10種類の小悪魔衣装をそろえる。",
+    "address": "東京都千代田区外神田4-6-10 ワンサードレジデンス4F",
+    "access": "東京メトロ銀座線末広町駅 徒歩2分 / JR秋葉原駅 徒歩5分",
+    "hours": "平日 14:00〜24:00 / 土日祝 12:00〜24:00",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "maid_cafe",
+      "concept_cafe"
+    ],
+    "tags": [
+      "メイドカフェ",
+      "コンカフェ",
+      "ゴシック",
+      "電気街"
+    ],
+    "aliases": [
+      "イービルリリス"
+    ],
+    "lat": 35.701935,
+    "lng": 139.772003
+  },
+  {
+    "id": 839,
+    "name": "苺司令部",
+    "slug": "ichigo-shireibu",
+    "category": "グルメ・カフェ",
+    "description": "ROCK＆IDOL＆LIVEがテーマの音楽カフェ＆バー。ダイナー風の店内にカウンター席・テーブル席・中二階席があり、ミラーボールが非日常感を演出する。",
+    "address": "東京都千代田区神田須田町1-14 栄華ビル3F",
+    "access": "JR秋葉原駅 徒歩4分",
+    "hours": "火〜金 18:00〜23:00 / 土日祝 17:00〜23:00",
+    "closed": "月曜",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe",
+      "bar"
+    ],
+    "tags": [
+      "コンカフェ",
+      "音楽",
+      "電気街"
+    ],
+    "lat": 35.695595,
+    "lng": 139.769958
+  },
+  {
+    "id": 840,
+    "name": "Shangrila-シャングリラ-",
+    "slug": "shangrila-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "厨二病喫茶PIERROTと同じ箸勝ビルの4階にあるメイドカフェ。",
+    "address": "東京都千代田区外神田3-1-15 箸勝ビル4F",
+    "access": "JR秋葉原駅 電気街口 徒歩3分",
+    "hours": "平日 18:00〜23:00 / 土日 12:00〜23:00",
+    "closed": "第1月曜",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "maid_cafe",
+      "concept_cafe"
+    ],
+    "tags": [
+      "メイドカフェ",
+      "コンカフェ",
+      "電気街"
+    ],
+    "aliases": [
+      "シャングリラ"
+    ],
+    "lat": 35.699863,
+    "lng": 139.769943
+  },
+  {
+    "id": 841,
+    "name": "コンカフェランド（キミドキ／ワタオシ）",
+    "slug": "concafe-land-akihabara",
+    "category": "グルメ・カフェ",
+    "description": "複数のコンセプトを一つのフロアで楽しめる、テーマパーク型のコンセプトカフェ。秋葉原駅から徒歩1分。",
+    "address": "東京都千代田区外神田1-15-13 秋葉原B&Vビル7F",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "17:00〜翌1:00",
+    "closed": "年中無休",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "cuisine": [
+      "concept_cafe"
+    ],
+    "tags": [
+      "コンカフェ",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "コンカフェランド"
+    ],
+    "lat": 35.697674,
+    "lng": 139.772354
   }
 ]

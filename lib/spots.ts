@@ -147,6 +147,8 @@ export const getAllSpotCategories = (): SpotCategory[] =>
  */
 export const cuisineLabels: Record<string, string> = {
   maid_cafe: "メイドカフェ",
+  concept_cafe: "コンセプトカフェ",
+  girls_bar: "ガールズバー",
   collab_cafe: "コラボカフェ",
   cat_cafe: "猫カフェ",
   cafe: "カフェ",
