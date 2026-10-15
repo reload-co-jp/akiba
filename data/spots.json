@@ -40,10 +40,10 @@
     "name": "アニメイト秋葉原",
     "slug": "animate-akihabara",
     "category": "アニメ・マンガ・同人",
-    "description": "全国展開するアニメ・マンガグッズ専門店の秋葉原店。アニメ・マンガ・ゲーム関連グッズ、CD、DVD、コミックスなどを幅広く取り扱う。新作タイトルの発売に合わせたキャンペーンやイベントも頻繁に開催。",
-    "address": "東京都千代田区外神田4-3-2",
+    "description": "国内最大級のアニメ・マンガ・ゲーム関連グッズ専門チェーン「アニメイト」の秋葉原店。1号館・2号館・ANNEXの3棟構成で、2026年8月8日に売場を拡大してリニューアルした。ANNEXのB1・1Fはカプセルトイ専門フロア「POP @P CAPSULE」、2・3Fはゲーム作品のキャラクターグッズ、4〜7Fはオフィシャルショップや期間限定の催事フロア。カフェ「アニメイトカフェグラッテ＋」も併設する。",
+    "address": "東京都千代田区外神田4-3-1",
     "access": "JR秋葉原駅 徒歩5分",
-    "hours": "10:00〜21:00",
+    "hours": "1号館・2号館 10:00〜21:00 / ANNEX 平日 10:00〜21:00・土日祝 10:00〜20:00",
     "closed": "不定休",
     "admission": "無料",
     "website": "https://www.animate.co.jp/shop/akihabara/",
@@ -69,6 +69,12 @@
       "マンガ",
       "グッズ",
       "電気街"
+    ],
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "アニメイト秋葉原1号館",
+      "アニメイト秋葉原2号館",
+      "アニメイト秋葉原ANNEX"
     ]
   },
   {
@@ -893,6 +899,9 @@
       "ゲーム",
       "中古",
       "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "アニメガ×ソフマップ AKIBAアミューズメント館"
     ]
   },
   {
@@ -929,6 +938,9 @@
       "グッズ",
       "中古",
       "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "らしんばん秋葉原店新館（AKIBAカルチャーズZONE内）"
     ]
   },
   {
@@ -1456,6 +1468,10 @@
     },
     "tags": [
       "電気街"
+    ],
+    "aliases": [
+      "あみあみ秋葉原フィギュアタワー店 8F イベントスペース",
+      "あみあみ秋葉原フィギュアタワー店 8Fイベントスペース"
     ]
   },
   {
@@ -1500,7 +1516,8 @@
       "ボークス秋葉原ホビー天国2 6F",
       "ボークス秋葉原ホビー天国2 6Fイベントスペース",
       "ボークス秋葉原ホビー天国2 6Fイベントフロア",
-      "ボークス秋葉原ホビー天国2 7Fイベントスペース"
+      "ボークス秋葉原ホビー天国2 7Fイベントスペース",
+      "ボークス秋葉原ホビー天国2 7F"
     ],
     "image": {
       "src": "/images/spots/volks-akihabara-hobby-tengoku-2.jpg",
@@ -2029,6 +2046,9 @@
     },
     "tags": [
       "電気街"
+    ],
+    "aliases": [
+      "ブシロードクリエイティブストア秋葉原本店"
     ]
   },
   {
@@ -2068,7 +2088,8 @@
     "lng": 139.7719,
     "aliases": [
       "GiGO秋葉原5号館",
-      "GiGOのたい焼き秋葉原5号館"
+      "GiGOのたい焼き秋葉原5号館",
+      "GiGO秋葉原5号館 1階"
     ],
     "image": {
       "src": "/images/spots/gigo-akihabara-5-akibako.jpg",
@@ -2373,14 +2394,15 @@
       "電気街"
     ],
     "lat": 35.702847,
-    "lng": 139.770721
+    "lng": 139.770721,
+    "website": "https://x.com/fancy_tokyo_"
   },
   {
     "id": 78,
     "name": "トレカモール秋葉原1号店",
     "slug": "torecamall-akihabara",
     "category": "ゲーム・フィギュア",
-    "description": "国内初のトレーディングカード専門モールとして、ラオックス秋葉原本店のB1F・5Fに複数のトレカ専門店が集結する形態で展開。ポケモンカードやワンピースカードなど各種TCGの売買・在庫をまとめてチェックできる。",
+    "description": "ラオックス秋葉原本店に複数のトレカ専門店が集まるトレーディングカード専門モール。B1階に続き、2026年3月14日に5階（約111坪）が開業し、計約190坪の規模になった。5階にはクレーンゲーム中心のゲームコーナー「HAO秋葉原」も併設している。",
     "address": "東京都千代田区外神田1-2-9 ラオックス秋葉原本店 B1F・5F",
     "access": "JR秋葉原駅 電気街口 徒歩1分",
     "hours": "店頭・公式情報要確認",
@@ -2391,7 +2413,8 @@
     "aliases": [
       "トレカモーール秋葉原1号店",
       "トレカモール",
-      "トレカモーール"
+      "トレカモーール",
+      "トレカモーール5F"
     ],
     "image": {
       "src": "/images/spots/torecamall-akihabara.webp",
@@ -2414,7 +2437,8 @@
       "TCG",
       "ポケモンカード",
       "パーツ街・ジャンク街"
-    ]
+    ],
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 79,
@@ -2823,11 +2847,11 @@
     "name": "TCG GATE",
     "slug": "tcg-gate-akihabara",
     "category": "ゲーム・フィギュア",
-    "description": "トレーディングカードゲーム専門店。カードの売買・対戦スペースを提供し、秋葉原のTCGショップの一角を担う。",
+    "description": "PSA鑑定カードや未開封BOXを中心に扱うトレーディングカード専門店。2026年4月18日、末広町駅近くの虎ビル2階にグランドオープンした。日本のトレカ文化を発信する体験型店舗をうたう。",
     "address": "東京都千代田区外神田4-7-3 虎ビル2階",
-    "access": "JR秋葉原駅 徒歩6分",
-    "hours": "店頭・公式情報要確認",
-    "closed": "店頭・公式情報要確認",
+    "access": "東京メトロ銀座線末広町駅 徒歩1分 / JR秋葉原駅 電気街口 徒歩5分",
+    "hours": "12:00〜20:00",
+    "closed": "不定休",
     "image": {
       "src": "/images/spots/tcg-gate-akihabara.jpg",
       "alt": "TCG GATEの関連ビジュアル",
@@ -2839,10 +2863,13 @@
     "tags": [
       "トレーディングカード",
       "TCG",
-      "電気街"
+      "電気街",
+      "PSA鑑定カード"
     ],
     "lat": 35.702644,
-    "lng": 139.771912
+    "lng": 139.771912,
+    "website": "https://lit.link/tcg_gate",
+    "lastVerified": "2026-10-16"
   },
   {
     "id": 93,
@@ -2958,11 +2985,10 @@
     "name": "晴れる屋2 秋葉原タワー店",
     "slug": "hareruya2-akihabara-tower",
     "category": "ゲーム・フィギュア",
-    "description": "トレーディングカードゲーム専門店「晴れる屋2」の秋葉原タワー店。カードの売買・対戦環境を提供する。",
+    "description": "地下1階から6階まで、ビル1棟まるごとポケモンカード専門の「晴れる屋2」最大店舗。2026年2月1日オープン。152名が同時に対戦できるプレイスペースと販売・買取フロアを備え、オンラインで注文して店頭で受け取ることもできる。",
     "address": "東京都千代田区外神田1-2-13 石丸3号館ビル",
     "access": "JR秋葉原駅 電気街口 徒歩3分",
-    "hours": "店頭・公式情報要確認",
-    "closed": "店頭・公式情報要確認",
+    "hours": "10:00〜22:00",
     "image": {
       "src": "/images/spots/hareruya2-akihabara-tower.jpg",
       "alt": "晴れる屋2 秋葉原タワー店の関連ビジュアル",
@@ -2974,10 +3000,17 @@
     "tags": [
       "トレーディングカード",
       "TCG",
-      "パーツ街・ジャンク街"
+      "パーツ街・ジャンク街",
+      "ポケモンカード",
+      "対戦スペース"
     ],
     "lat": 35.69799,
-    "lng": 139.770676
+    "lng": 139.770676,
+    "website": "https://www.hareruya2.com/pages/store_tower",
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "ハレツータワー"
+    ]
   },
   {
     "id": 98,
@@ -10689,7 +10722,7 @@
     "description": "トレーディングカードショップ。チョムチョム秋葉原6階にあり、69席のデュエルスペースを備える。店頭での買取にも対応。",
     "lat": 35.6978,
     "lng": 139.774192,
-    "tier": "B",
+    "tier": "A",
     "dataSource": "osm",
     "osmId": "node/9103752887",
     "address": "東京都千代田区神田佐久間町1-13 チョムチョム秋葉原6F",
@@ -10702,7 +10735,8 @@
       "昭和通り"
     ],
     "closed": "不定休",
-    "lastVerified": "2026-10-16"
+    "lastVerified": "2026-10-16",
+    "access": "JR秋葉原駅 昭和通り口すぐ（チョムチョム秋葉原6F）"
   },
   {
     "id": 446,
@@ -14013,7 +14047,10 @@
       "岩本町",
       "うどん"
     ],
-    "lastVerified": "2026-10-16"
+    "lastVerified": "2026-10-16",
+    "aliases": [
+      "秋葉原製麺センター（秋葉原）"
+    ]
   },
   {
     "id": 601,
@@ -18062,5 +18099,995 @@
     ],
     "lat": 35.697803,
     "lng": 139.776352
+  },
+  {
+    "id": 780,
+    "name": "カードラボ 秋葉原ラジオ会館本店",
+    "slug": "cardlabo-akihabara-radio-kaikan",
+    "category": "ゲーム・フィギュア",
+    "description": "全国展開するトレーディングカードショップ「カードラボ」の秋葉原本店。秋葉原ラジオ会館9階にある。",
+    "address": "東京都千代田区外神田1-15-16 秋葉原ラジオ会館 9F",
+    "access": "JR秋葉原駅 電気街口 徒歩2分（秋葉原ラジオ会館）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "hours": "10:00〜20:00",
+    "closed": "不定休",
+    "website": "https://www.c-labo.jp/shop/radiohonten/",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "カードラボ 秋葉原"
+    ],
+    "lat": 35.697674,
+    "lng": 139.771881
+  },
+  {
+    "id": 781,
+    "name": "BIGMAGIC 秋葉原店",
+    "slug": "bigmagic-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「BIGMAGIC」の秋葉原店。秋葉原ラジオ会館9階にあり、23席のデュエルスペースを備える。店頭とオンラインの両方で買取に対応している。",
+    "address": "東京都千代田区外神田1-15-16 秋葉原ラジオ会館 9F",
+    "access": "JR秋葉原駅 電気街口 徒歩2分（秋葉原ラジオ会館）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "hours": "10:00〜20:00",
+    "closed": "不定休",
+    "website": "https://mtg.bigweb.co.jp/shop/akihabara",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "BIG MAGIC 秋葉原店",
+      "ビッグマジック 秋葉原店"
+    ],
+    "lat": 35.697674,
+    "lng": 139.771881
+  },
+  {
+    "id": 782,
+    "name": "イエローサブマリン 秋葉原本店★ミント",
+    "slug": "yellow-submarine-akihabara-mint",
+    "category": "ゲーム・フィギュア",
+    "description": "ホビーショップ「イエローサブマリン」のトレーディングカード専門店。秋葉原ラジオ会館6階にある。",
+    "address": "東京都千代田区外神田1-15-16 秋葉原ラジオ会館 6F",
+    "access": "JR秋葉原駅 電気街口 徒歩2分（秋葉原ラジオ会館）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "hours": "10:00〜20:00",
+    "closed": "無休",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "イエローサブマリン 秋葉原本店ミント",
+      "イエサブ 秋葉原"
+    ],
+    "lat": 35.697674,
+    "lng": 139.771881
+  },
+  {
+    "id": 783,
+    "name": "ドラゴンスター 秋葉原駅前店",
+    "slug": "dragonstar-akihabara-ekimae",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「ドラゴンスター」の秋葉原駅前店。電気街口すぐのビル6階にあり、76席のデュエルスペースを備える。",
+    "address": "東京都千代田区外神田1-18-18 BiTO AKIBA PLAZA 6F",
+    "access": "JR秋葉原駅 電気街口すぐ（BiTO AKIBA PLAZA）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "hours": "月〜金 13:00〜21:00 / 土 10:00〜21:00 / 日祝 10:00〜20:00",
+    "closed": "不定休",
+    "website": "https://x.com/ds_akiba_ekimae",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "電気街"
+    ],
+    "aliases": [
+      "ドラスタ 秋葉原駅前店"
+    ],
+    "lat": 35.698704,
+    "lng": 139.772141
+  },
+  {
+    "id": 784,
+    "name": "ドラゴンスター 秋葉原店",
+    "slug": "dragonstar-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「ドラゴンスター」の秋葉原店。アキバスタービル2階にある販売・買取の店舗で、デュエルスペースはない。",
+    "address": "東京都千代田区外神田1-8-11 アキバスタービル 2F",
+    "access": "JR秋葉原駅 電気街口から中央通り方面",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "hours": "月〜金 12:00〜20:00 / 土 10:30〜20:30 / 日祝 10:30〜20:00",
+    "closed": "不定休",
+    "website": "https://x.com/ds_akiba",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "ドラスタ 秋葉原店"
+    ],
+    "lat": 35.699085,
+    "lng": 139.770279
+  },
+  {
+    "id": 785,
+    "name": "竜星のPAO 秋葉原ロケット無線店",
+    "slug": "ryusei-pao-akihabara-rocket",
+    "category": "ゲーム・フィギュア",
+    "description": "JR総武線高架下のロケットアマチュア無線本館ビル1〜3階に、2026年2月16日オープンしたトレーディングカード専門店。ポケモンカードやワンピースカード、遊戯王などの販売・買取に加え、地域最大級の128席のデュエルスペースを併設する。",
+    "address": "東京都千代田区外神田1-4-6 ロケットアマチュア無線本館ビル1〜3F",
+    "access": "JR秋葉原駅近くの総武線高架下",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "hours": "月〜金 13:00〜20:00 / 土日祝 10:00〜20:00",
+    "website": "https://pao-toreka.com/index.html",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "竜星のPAO",
+      "竜星のPAO秋葉原ロケット無線店"
+    ],
+    "lat": 35.698658,
+    "lng": 139.769974
+  },
+  {
+    "id": 786,
+    "name": "シンソク秋葉原6号店",
+    "slug": "shinsoku-akihabara-6",
+    "category": "ゲーム・フィギュア",
+    "description": "秋葉原で店舗を広げるトレーディングカード専門店「シンソク」の6号店。2026年8月10日、旧「サンコーレアモノショップ秋葉原総本店」の跡地に1F・2Fの2フロアでオープンした。ポケモンカードやワンピースカードなどの販売・買取を行う。",
+    "address": "東京都千代田区外神田3-14-8 新末広ビル1F・2F",
+    "access": "中央通り沿い（旧サンコーレアモノショップ秋葉原総本店跡地）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "hours": "12:00〜20:00",
+    "website": "https://shinsoku-tcg.com/",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "ポケモンカード",
+      "電気街"
+    ],
+    "aliases": [
+      "シンソク 秋葉原6号店"
+    ],
+    "lat": 35.701191,
+    "lng": 139.771347
+  },
+  {
+    "id": 787,
+    "name": "あみあみ秋葉原ラジオ会館店",
+    "slug": "amiami-akihabara-radio-kaikan",
+    "category": "フィギュア・模型",
+    "description": "ホビー通販「あみあみ」の実店舗。秋葉原ラジオ会館内にあり、新作スケールフィギュアのサンプル展示や、メーカーとのコラボ企画なども行われる。",
+    "address": "東京都千代田区外神田1-15-16 秋葉原ラジオ会館",
+    "access": "JR秋葉原駅 電気街口 徒歩2分（秋葉原ラジオ会館）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "フィギュア",
+      "ホビーショップ",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "あみあみ ラジオ会館店"
+    ],
+    "lat": 35.697674,
+    "lng": 139.771881
+  },
+  {
+    "id": 788,
+    "name": "FIGURE HOBBY MARURU 6号店",
+    "slug": "figure-hobby-maruru-6",
+    "category": "フィギュア・模型",
+    "description": "JR秋葉原駅前の秋葉原電波会館1階、旧タイガー無線跡地にオープンしたフィギュアなどを扱うホビーショップ。電子部品・無線系のイメージが強かった駅前の建物に入ったホビー系店舗。",
+    "address": "東京都千代田区外神田1-14-3 秋葉原電波会館1F",
+    "access": "JR秋葉原駅 電気街口すぐ（秋葉原電波会館1F）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "フィギュア",
+      "ホビーショップ",
+      "電気街"
+    ],
+    "aliases": [
+      "MARURU 6号店"
+    ],
+    "lat": 35.698578,
+    "lng": 139.771545
+  },
+  {
+    "id": 789,
+    "name": "駿河屋 秋葉原ゲーム館",
+    "slug": "surugaya-akihabara-game",
+    "category": "ゲーム・フィギュア",
+    "description": "中古・新品ゲームの「駿河屋」の秋葉原ゲーム館。2026年9月25日、旧「秋葉原トレカ・ボードゲーム館」の場所に移転して売場を拡大した。レトロゲームや現行ゲーム、アーケード基板、攻略本・ゲーム雑誌、レトロPCゲームに加え、ゲームCDやamiiboカード、ゲーム系フィギュア・雑貨・ぬいぐるみも扱う。",
+    "address": "東京都千代田区外神田3-15-4 2F",
+    "access": "東京メトロ銀座線末広町駅 徒歩2分 / JR秋葉原駅 徒歩7分",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "website": "https://www.suruga-ya.jp/feature/realstore/akihabara_game/index.html",
+    "tags": [
+      "レトロゲーム",
+      "中古ゲーム",
+      "フィギュア",
+      "電気街"
+    ],
+    "aliases": [
+      "駿河屋秋葉原ゲーム館"
+    ],
+    "lat": 35.701904,
+    "lng": 139.771133,
+    "hours": "平日 11:00〜21:00 / 土日祝 10:00〜21:00"
+  },
+  {
+    "id": 790,
+    "name": "カードラッシュ 秋葉原0号店TC",
+    "slug": "cardrush-akihabara-0-tc",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「カードラッシュ」の秋葉原0号店。電気街口すぐのビル7階にあり、92席のデュエルスペースを備える。",
+    "address": "東京都千代田区外神田1-18-18 BiTO AKIBA PLAZA 7F",
+    "access": "JR秋葉原駅 電気街口すぐ（BiTO AKIBA PLAZA）",
+    "hours": "月〜金 13:00〜21:00 / 土日祝 11:00〜21:00",
+    "website": "https://www.cardrush.jp/page/57",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "電気街"
+    ],
+    "aliases": [
+      "カードラッシュ秋葉原0号店TC"
+    ],
+    "lat": 35.698704,
+    "lng": 139.772141
+  },
+  {
+    "id": 791,
+    "name": "カードラッシュ 秋葉原2号店",
+    "slug": "cardrush-akihabara-2",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「カードラッシュ」の秋葉原2号店。大森ビルの1・2階にある販売・買取の店舗。",
+    "address": "東京都千代田区外神田1-3-13 大森ビル1F・2F",
+    "access": "JR秋葉原駅 電気街口から中央通り方面（大森ビル）",
+    "hours": "月〜金 13:00〜21:00 / 土日祝 11:00〜21:00",
+    "website": "https://www.cardrush.jp/page/57",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "カードラッシュ 秋葉原 2号店"
+    ],
+    "lat": 35.698429,
+    "lng": 139.76976
+  },
+  {
+    "id": 792,
+    "name": "ホビーステーション 秋葉原本店",
+    "slug": "hobby-station-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードやホビー商品を扱う「ホビーステーション」の秋葉原本店。32席のデュエルスペースがある。秋葉原ではラジオ会館内にも店舗を構える。",
+    "address": "東京都千代田区外神田1-10-11 2F",
+    "access": "JR秋葉原駅 電気街口から中央通り方面",
+    "hours": "11:00〜20:00",
+    "website": "https://www.hbst.net/shop/19/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "ホビステ 秋葉原本店"
+    ],
+    "lat": 35.698681,
+    "lng": 139.770859
+  },
+  {
+    "id": 793,
+    "name": "カードキングダム 秋葉原駅前店",
+    "slug": "card-kingdom-akihabara-ekimae",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「カードキングダム」の秋葉原駅前店。秋葉原野村ビルの1・3・4・5階に売場があり、14席のデュエルスペースを備える。",
+    "address": "東京都千代田区外神田1-14-7 秋葉原野村ビル1F・3F〜5F",
+    "access": "JR秋葉原駅 電気街口すぐ（秋葉原野村ビル）",
+    "hours": "月〜金 12:00〜21:00 / 土日祝 10:00〜21:00",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "電気街"
+    ],
+    "aliases": [
+      "カードキングダム 秋葉原"
+    ],
+    "lat": 35.698284,
+    "lng": 139.771698
+  },
+  {
+    "id": 794,
+    "name": "晴れる屋 秋葉原店",
+    "slug": "hareruya-mtg-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "マジック：ザ・ギャザリング専門店「晴れる屋」の秋葉原店。宝田中央通りビル8階にあり、84席のデュエルスペースを備え、夜23時まで営業している。",
+    "address": "東京都千代田区外神田1-14-1 宝田中央通りビル 8F",
+    "access": "JR秋葉原駅 電気街口から中央通り方面（宝田中央通りビル）",
+    "hours": "10:00〜23:00",
+    "website": "https://www.hareruyamtg.com/ja/user_data/shop_akihabara?shop=8",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "MTG",
+      "対戦スペース",
+      "電気街"
+    ],
+    "aliases": [
+      "晴れる屋 秋葉原",
+      "【MTG専門店】晴れる屋 秋葉原店"
+    ],
+    "lat": 35.698368,
+    "lng": 139.771439
+  },
+  {
+    "id": 795,
+    "name": "カードショップmagi 秋葉原店",
+    "slug": "magi-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレカ通販・フリマ「magi」の実店舗。第26東ビル5階にあり、秋葉原ラジオ会館内にも店舗がある。",
+    "address": "東京都千代田区外神田3-14-9 第26東ビル 5F",
+    "access": "中央通り沿いエリア（第26東ビル）",
+    "hours": "14:00〜20:00",
+    "website": "https://cardshopmagi.com/shop/magi-akiba/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "電気街"
+    ],
+    "aliases": [
+      "magi秋葉原店"
+    ],
+    "lat": 35.701061,
+    "lng": 139.771332
+  },
+  {
+    "id": 796,
+    "name": "フルコンプ 秋葉原店",
+    "slug": "fullcomp-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「フルコンプ」の秋葉原店。中央通り近くの千住ビル4階にある。秋葉原ラジオ会館にも店舗がある。",
+    "address": "東京都千代田区外神田3-14-6 千住ビル 4F",
+    "access": "中央通り沿いエリア（千住ビル）",
+    "hours": "月〜金 13:00〜21:00 / 土日 11:00〜21:00",
+    "website": "https://www.fullcomp.jp/akihabara/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "電気街"
+    ],
+    "lat": 35.701385,
+    "lng": 139.771255
+  },
+  {
+    "id": 797,
+    "name": "シンソク秋葉原本店",
+    "slug": "shinsoku-akihabara-honten",
+    "category": "ゲーム・フィギュア",
+    "description": "秋葉原を中心に店舗を広げるトレーディングカード専門店「シンソク」の本店。ワンピースカードやポケモンカードを中心に扱う。",
+    "address": "東京都千代田区外神田3-16-13 ACN秋葉原Garden 3F",
+    "access": "東京メトロ銀座線末広町駅寄り（ACN秋葉原Garden）",
+    "hours": "12:30〜21:00",
+    "website": "https://www.cardshop-shinsoku.jp/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "ポケモンカード",
+      "ワンピースカード",
+      "電気街"
+    ],
+    "aliases": [
+      "シンソク 秋葉原本店"
+    ],
+    "lat": 35.702404,
+    "lng": 139.771484
+  },
+  {
+    "id": 798,
+    "name": "福福トレカ 秋葉原店",
+    "slug": "fukufuku-toreca-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「福福トレカ」の秋葉原店。2〜4階の3フロアで、84席のデュエルスペースを備える。秋葉原ではコレクションカード専門店なども展開している。",
+    "address": "東京都千代田区外神田1-9-8 2F〜4F",
+    "access": "JR秋葉原駅 電気街口から中央通り方面",
+    "hours": "月〜金 13:00〜20:45 / 土日 10:00〜20:45 / 祝 10:00〜20:30",
+    "website": "https://fukufukutoreka.com/description_detail_akihabara",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "福福トレカ秋葉原店"
+    ],
+    "lat": 35.69894,
+    "lng": 139.770508
+  },
+  {
+    "id": 799,
+    "name": "TOYGER TCG",
+    "slug": "toyger-tcg",
+    "category": "ゲーム・フィギュア",
+    "description": "中央通りの「げっちゅ屋」跡地にオープンしたトレーディングカードショップ。24席のデュエルスペースがあり、深夜0時まで営業している。",
+    "address": "東京都千代田区外神田3-14-6 3F",
+    "access": "中央通り沿い（旧げっちゅ屋跡地）",
+    "hours": "月〜金 15:00〜00:00 / 土日祝 10:00〜00:00",
+    "website": "https://toygertcg.com/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "深夜営業",
+      "電気街"
+    ],
+    "lat": 35.701385,
+    "lng": 139.771255
+  },
+  {
+    "id": 800,
+    "name": "アメニティードリーム 秋葉原店",
+    "slug": "amenity-dream-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "トレーディングカードショップ「アメニティードリーム」の秋葉原店。小暮ビルの5〜7階にあり、デュエルスペースを備える。",
+    "address": "東京都千代田区外神田1-11-6 小暮ビル5F〜7F",
+    "access": "JR秋葉原駅 電気街口から中央通り方面（小暮ビル）",
+    "hours": "月〜金 12:00〜21:00 / 土日祝 11:00〜20:00",
+    "website": "http://amenitydream.co.jp/akihabara/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "アメドリ 秋葉原店"
+    ],
+    "lat": 35.699596,
+    "lng": 139.771042
+  },
+  {
+    "id": 801,
+    "name": "おたちゅう。秋葉原5号店 GO!GO!トレカ",
+    "slug": "otachu-akihabara-5-gogo-toreca",
+    "category": "ゲーム・フィギュア",
+    "description": "中古ホビーショップ「おたちゅう。」のトレカ専門店。末広ビル地下1階にあり、32席のデュエルスペースを備える。",
+    "address": "東京都千代田区外神田3-9-2 末広ビル B1F",
+    "access": "東京メトロ銀座線末広町駅寄り（末広ビル）",
+    "hours": "11:00〜20:00",
+    "website": "https://otachu-akiba.com/1gocard/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "トレーディングカード",
+      "TCG",
+      "対戦スペース",
+      "電気街"
+    ],
+    "aliases": [
+      "おたちゅう。秋葉原5号店GO!GO!トレカ"
+    ],
+    "lat": 35.701672,
+    "lng": 139.770584
+  },
+  {
+    "id": 802,
+    "name": "おたちゅう。秋葉原1号店",
+    "slug": "otachu-akihabara-1",
+    "category": "フィギュア・模型",
+    "description": "アニメフィギュア専門の中古ホビーショップ「おたちゅう。」の秋葉原1号店。大矢ビル2階にある。秋葉原ではトレカ専門店など複数の店舗を展開している。",
+    "address": "東京都千代田区外神田3-2-9 大矢ビル 2F",
+    "access": "JR秋葉原駅 電気街口から中央通り方面（大矢ビル）",
+    "hours": "11:00〜20:00",
+    "website": "https://otachu-akiba.com/1go/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "フィギュア",
+      "中古ホビー",
+      "電気街"
+    ],
+    "lat": 35.700512,
+    "lng": 139.770386
+  },
+  {
+    "id": 803,
+    "name": "三省堂書店 アトレ秋葉原1",
+    "slug": "sanseido-atre-akihabara",
+    "category": "ショッピング",
+    "description": "JR秋葉原駅の電気街改札に直結する駅ビル「アトレ秋葉原1」2階の総合書店。文芸書・文庫・新書・雑誌・コミック・学習参考書・文具をそろえ、秋葉原では数少ない洋書の取り扱いもある。",
+    "address": "東京都千代田区外神田1-17-6 アトレ秋葉原1 2F",
+    "access": "JR秋葉原駅 電気街改札直結",
+    "hours": "10:00〜21:00",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "書店",
+      "洋書",
+      "電気街"
+    ],
+    "aliases": [
+      "三省堂書店 アトレ秋葉原"
+    ],
+    "lat": 35.698345,
+    "lng": 139.772522
+  },
+  {
+    "id": 804,
+    "name": "BOOKOFF 秋葉原駅前店",
+    "slug": "bookoff-akihabara-ekimae",
+    "category": "ショッピング",
+    "description": "秋葉原駅から徒歩約1分、複数フロアの中古書店。コミックの在庫が多く、ゲームソフトやCD・DVD、家電・ホビー、トレーディングカードの買取も受け付ける（ジャンルにより受付時間が異なる）。22時まで営業。",
+    "address": "東京都千代田区神田佐久間町1-6-4",
+    "access": "JR秋葉原駅 徒歩1分",
+    "hours": "10:00〜22:00",
+    "website": "https://www.bookoff.co.jp/shop/shop20396.html",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "書店",
+      "古本",
+      "中古ゲーム",
+      "昭和通り"
+    ],
+    "aliases": [
+      "ブックオフ 秋葉原駅前店"
+    ],
+    "lat": 35.697826,
+    "lng": 139.773346
+  },
+  {
+    "id": 805,
+    "name": "COMIC ZIN 秋葉原店",
+    "slug": "comic-zin-akihabara",
+    "category": "アニメ・マンガ・同人",
+    "description": "コミックスと同人誌・同人ソフト・同人グッズを扱う3フロアの専門店。書店員の推しが見える棚とポップづくりで知られる。平日は2階が11時、3階が12時から。",
+    "address": "東京都千代田区外神田1-11-7 高和秋葉原ビル",
+    "access": "JR秋葉原駅 電気街口から中央通り方面",
+    "hours": "10:00〜22:00（平日の2Fは11:00〜、3Fは12:00〜）",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "書店",
+      "コミック",
+      "同人誌",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "コミックZIN 秋葉原店"
+    ],
+    "lat": 35.699543,
+    "lng": 139.771133
+  },
+  {
+    "id": 806,
+    "name": "K-BOOKS 秋葉原本館",
+    "slug": "k-books-akihabara",
+    "category": "アニメ・マンガ・同人",
+    "description": "秋葉原ラジオ会館3階のキャラクターグッズ・同人系の専門店。アニメ・ゲーム・キャラクターや女性声優系のグッズ、フィギュア、アパレルなどを扱い、同じフロアにMEN'S館もある。旧「秋葉原新館」は2017年に本館へ統合された。",
+    "address": "東京都千代田区外神田1-15-16 秋葉原ラジオ会館 3F",
+    "access": "JR秋葉原駅 電気街口 徒歩1分",
+    "hours": "平日 12:00〜20:00 / 土日祝 11:30〜20:00",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "キャラクターグッズ",
+      "同人誌",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "K-BOOKS 秋葉原",
+      "ケイブックス 秋葉原本館"
+    ],
+    "lat": 35.697674,
+    "lng": 139.771881
+  },
+  {
+    "id": 807,
+    "name": "らしんばん AKIBA DEEP BASE",
+    "slug": "lashinbang-akiba-deep-base",
+    "category": "アニメ・マンガ・同人",
+    "description": "地域最大級の在庫をうたう中古同人誌を中心に、同人ROM・同人グッズ、美少女ゲームソフトやゲームグッズ、フィギュア、タペストリーなどを扱う「らしんばん」の秋葉原3店舗目。2026年6月26日、中央通り沿いの秋葉原SILビル3階にオープンした。買取受付は18時まで。",
+    "address": "東京都千代田区外神田4-4-3 秋葉原SILビル 3F",
+    "access": "中央通り沿い（1階はカールスジュニア秋葉原店）",
+    "hours": "11:00〜21:00",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "同人誌",
+      "中古",
+      "フィギュア",
+      "電気街"
+    ],
+    "aliases": [
+      "らしんばんAKIBA DEEP BASE"
+    ],
+    "lat": 35.701344,
+    "lng": 139.771774
+  },
+  {
+    "id": 808,
+    "name": "レトロげーむキャンプ 秋葉原店",
+    "slug": "retro-game-camp-akihabara",
+    "category": "ゲーム・フィギュア",
+    "description": "ファミコンやスーパーファミコン、ゲームボーイなどを扱うレトロゲーム・中古ゲーム専門店。通販も行っている。",
+    "address": "東京都千代田区外神田3-14-7 新末広ビルC",
+    "access": "中央通り沿いエリア（新末広ビル）",
+    "hours": "11:00〜20:00",
+    "website": "https://retrogamecamp.com/",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "レトロゲーム",
+      "中古ゲーム",
+      "電気街"
+    ],
+    "aliases": [
+      "レトロげーむキャンプ"
+    ],
+    "lat": 35.701321,
+    "lng": 139.771362
+  },
+  {
+    "id": 809,
+    "name": "駿河屋 秋葉原本館",
+    "slug": "surugaya-akihabara-honkan",
+    "category": "ゲーム・フィギュア",
+    "description": "中古・新品の「駿河屋」が秋葉原で旗艦店とする店舗。2026年9月14日、1階をポケモンカードを中心としたトレーディングカード専門フロアにリニューアルし、閉店した「秋葉原トレカ・ボードゲーム館」の機能を引き継いだ。",
+    "address": "東京都千代田区外神田3-11-3",
+    "access": "JR秋葉原駅 電気街口から蔵前橋通り方面",
+    "hours": "平日 11:00〜21:00 / 土日祝 10:00〜21:00",
+    "website": "https://www.suruga-ya.jp/feature/realstore/akihabara_main/index.html",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "中古ゲーム",
+      "トレーディングカード",
+      "フィギュア",
+      "電気街"
+    ],
+    "aliases": [
+      "駿河屋秋葉原本館"
+    ],
+    "lat": 35.700626,
+    "lng": 139.770523
+  },
+  {
+    "id": 810,
+    "name": "ツクモパソコン本店",
+    "slug": "tsukumo-pc-honten",
+    "category": "電気街・PCパーツ",
+    "description": "秋葉原のツクモを代表する総合PCショップ。隣接する「本店II」とあわせて計8フロアで、各社のWindowsパソコン本体、CPU・マザーボード・グラフィックボード・メモリ・SSD・HDDなどのPCパーツ、周辺機器、ゲーミングデバイス、VR機器までそろう。",
+    "address": "東京都千代田区外神田1-9-7",
+    "access": "JR秋葉原駅 電気街口から中央通り方面",
+    "hours": "10:00〜20:00",
+    "closed": "元日",
+    "website": "https://tenpo.tsukumo.co.jp/stores/view/honten",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "PCパーツ",
+      "パソコン",
+      "ゲーミングデバイス",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "ツクモ パソコン本店",
+      "ツクモパソコン本店II"
+    ],
+    "lat": 35.699009,
+    "lng": 139.770416
+  },
+  {
+    "id": 811,
+    "name": "TSUKUMO eX.",
+    "slug": "tsukumo-ex",
+    "category": "電気街・PCパーツ",
+    "description": "中央通りの黒いビルが目印の、業界最大級をうたうPCパーツ専門店。自作PC向けパーツの品ぞろえと在庫量が多く、オリジナルPC「eX.computer」「G-GEAR」も販売する。地下1階にはRazer専門ショップ「RAZERSTORE」がある。",
+    "address": "東京都千代田区外神田4-4-1",
+    "access": "中央通り沿い",
+    "hours": "11:00〜21:00",
+    "closed": "元日",
+    "website": "https://tenpo.tsukumo.co.jp/stores/view/ex",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "PCパーツ",
+      "自作PC",
+      "Razer",
+      "電気街"
+    ],
+    "aliases": [
+      "ツクモ eX.",
+      "ツクモeX.",
+      "TSUKUMOeX."
+    ],
+    "lat": 35.701084,
+    "lng": 139.771744
+  },
+  {
+    "id": 812,
+    "name": "ツクモパソコン本店リユース館",
+    "slug": "tsukumo-reuse",
+    "category": "電気街・PCパーツ",
+    "description": "秋葉原のツクモで唯一の中古品専門店。1階はビジネス向けからゲーミングモデルまでの中古パソコンと中古iPhone、2階はCPU・マザーボード・メモリ・グラフィックカードなどの中古パーツやジャンク品を扱う。",
+    "address": "東京都千代田区外神田1-11-2",
+    "access": "JR秋葉原駅 電気街口から中央通り方面",
+    "hours": "11:00〜19:30",
+    "closed": "元日",
+    "website": "https://tenpo.tsukumo.co.jp/stores/view/dosv",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "中古PC",
+      "中古パーツ",
+      "ジャンク",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "ツクモ リユース館"
+    ],
+    "lat": 35.699394,
+    "lng": 139.770645
+  },
+  {
+    "id": 813,
+    "name": "ドスパラ秋葉原本店",
+    "slug": "dospara-akihabara",
+    "category": "電気街・PCパーツ",
+    "description": "ゲーミングPC「GALLERIA」で知られるドスパラの秋葉原本店。1階はパソコン・モニター、2階はPCパーツ、3階はゲーミングデバイスなどの周辺機器、5階は中古販売・買取・修理受付。買取受付は19時30分まで。",
+    "address": "東京都千代田区外神田3-11-2 ロック2ビル 1F〜3F・5F",
+    "access": "JR秋葉原駅 徒歩5分 / 東京メトロ銀座線末広町駅 徒歩4分",
+    "hours": "11:00〜20:00",
+    "website": "https://www.dospara.co.jp/shop/akihabara.html",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "PCパーツ",
+      "ゲーミングPC",
+      "中古PC",
+      "電気街"
+    ],
+    "aliases": [
+      "ドスパラ 秋葉原本店"
+    ],
+    "lat": 35.700493,
+    "lng": 139.770508
+  },
+  {
+    "id": 814,
+    "name": "パソコン工房 秋葉原本店",
+    "slug": "pc-koubou-akihabara",
+    "category": "電気街・PCパーツ",
+    "description": "全国展開するパソコン専門店「パソコン工房」の秋葉原本店。新品・中古パソコンの販売を専門とし、PCパーツは近くの「秋葉原パーツ館」、買取は「秋葉原買取センター」が担当する。",
+    "address": "東京都千代田区外神田3-14-10 秋葉原HFビル 1F",
+    "access": "中央通りから上野方面へ、マツモトキヨシの角を入ってすぐ",
+    "hours": "11:00〜20:00",
+    "closed": "年中無休",
+    "website": "https://www.pc-koubou.jp/shopinfo/map/buymore_akihabara.php",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "パソコン",
+      "中古PC",
+      "電気街"
+    ],
+    "aliases": [
+      "パソコン工房 秋葉原BUYMORE店",
+      "パソコン工房 BUYMORE秋葉原店"
+    ],
+    "lat": 35.700932,
+    "lng": 139.771317
+  },
+  {
+    "id": 815,
+    "name": "パソコンSHOPアーク 秋葉原店",
+    "slug": "ark-akihabara",
+    "category": "電気街・PCパーツ",
+    "description": "自作PC向けのPCパーツやBTOパソコンを扱うパソコンショップ「アーク」の秋葉原店。",
+    "address": "東京都千代田区外神田3-16-18 通運会館 1F",
+    "access": "東京メトロ銀座線末広町駅寄り",
+    "hours": "平日 11:30〜20:00 / 土日祝 11:00〜19:30",
+    "closed": "1月1日・2日",
+    "website": "https://www.ark-pc.co.jp/info/shopguide.html",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "PCパーツ",
+      "自作PC",
+      "BTOパソコン",
+      "電気街"
+    ],
+    "aliases": [
+      "アーク 秋葉原",
+      "ark 秋葉原"
+    ],
+    "lat": 35.701973,
+    "lng": 139.771164
+  },
+  {
+    "id": 816,
+    "name": "ソフマップAKIBA パソコン・デジタル館",
+    "slug": "sofmap-akiba-pc-digital",
+    "category": "電気街・PCパーツ",
+    "description": "旧AKIBA②号店（パソコン総合館）と③号店（Mac Collection）を統合して2021年にリニューアルしたソフマップのパソコン・デジタル総合店。ゲーミングコーナーやApple製品の専門フロアを備える。",
+    "address": "東京都千代田区外神田3-13-12 IMYビル",
+    "access": "中央通り沿いエリア",
+    "website": "https://www.sofmap.com/tenpo/contents/?id=shops&sid=akiba_pc",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "パソコン",
+      "Apple",
+      "ゲーミング",
+      "電気街"
+    ],
+    "aliases": [
+      "ソフマップ AKIBA パソコン・デジタル館",
+      "ソフマップAKIBA パソコン・デジタル館 6階 ロジクール G アリーナ"
+    ],
+    "lat": 35.700275,
+    "lng": 139.770996
+  },
+  {
+    "id": 817,
+    "name": "ビックカメラ AKIBA",
+    "slug": "biccamera-akiba",
+    "category": "電気街・PCパーツ",
+    "description": "2017年に秋葉原にオープンした家電量販店「ビックカメラ」の店舗。家電やパソコンのほか、3階では音楽CD・映像ソフトなどを扱う「BIC RECORDS」の売場があり、インストアイベントも行われる。",
+    "address": "東京都千代田区外神田4-1-1",
+    "access": "中央通り沿い",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "家電量販店",
+      "パソコン",
+      "CD",
+      "電気街"
+    ],
+    "aliases": [
+      "ビックカメラAKIBA",
+      "ビックカメラ AKIBA 3階",
+      "ビックカメラ AKIBA 3階 BIC RECORDS"
+    ],
+    "lat": 35.699734,
+    "lng": 139.771606
+  },
+  {
+    "id": 818,
+    "name": "東京ラジオデパート",
+    "slug": "tokyo-radio-department",
+    "category": "電気街・PCパーツ",
+    "description": "1950年に誕生した、日本初とされる電子部品の専門デパート。電子部品や真空管、無線機器などの小さな専門店が各フロアに入り、今も30軒以上が営業している。営業時間・定休日は店舗ごとに異なる。",
+    "address": "東京都千代田区外神田1-10-11",
+    "access": "JR秋葉原駅 電気街口から中央通り方面",
+    "hours": "各テナントによる",
+    "closed": "各テナントによる",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "電子部品",
+      "真空管",
+      "無線",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "ラジオデパート",
+      "東京ラジオデパート3F"
+    ],
+    "lat": 35.698681,
+    "lng": 139.770859
+  },
+  {
+    "id": 819,
+    "name": "らしんばん 秋葉原ラジオ会館店",
+    "slug": "lashinbang-akihabara-radio-kaikan",
+    "category": "アニメ・マンガ・同人",
+    "description": "\"売って買えちゃう、萌えのコンビニ\"を掲げる中古ショップ「らしんばん」の秋葉原ラジオ会館店。2024年8月8日、ラジオ会館5階にオープンした。コミック、アニメBlu-ray・DVD・CD、グッズ、同人誌、ゲームソフト、コスプレ衣装などを幅広く扱う。",
+    "address": "東京都千代田区外神田1-15-16 秋葉原ラジオ会館 5F",
+    "access": "JR秋葉原駅 電気街口 徒歩1分",
+    "tier": "A",
+    "dataSource": "manual",
+    "lastVerified": "2026-10-16",
+    "tags": [
+      "中古",
+      "グッズ",
+      "同人誌",
+      "パーツ街・ジャンク街"
+    ],
+    "aliases": [
+      "らしんばん秋葉原ラジオ会館店"
+    ],
+    "lat": 35.697674,
+    "lng": 139.771881
   }
 ]
