@@ -1481,3 +1481,17 @@
 {"url": "https://animeanime.jp/article/2026/10/11/103691.html", "reason": "low_value", "note": "このすば配信情報 展示は既存記事", "checked": "2026-10-16"}
 {"url": "https://nlab.itmedia.co.jp/research/articles/4034136/", "reason": "not_akihabara_specific", "note": "栃木ランキング", "checked": "2026-10-16"}
 {"url": "https://www.zakzak.co.jp/article/20261011-YEQMPQ4MXFBS7OUOIVXZ2A3DGQ/", "reason": "low_value", "note": "芸能ゴシップ", "checked": "2026-10-16"}
+{"url": "https://www.shosen.co.jp/event/46612/", "reason": "out_of_scope_venue", "note": "書泉グランデ(神保町)のwebサイン会", "checked": "2026-10-16"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000194.000009289.html", "reason": "event_ended", "note": "万世橋地域安全運動のつどい 10/8開催済の報告", "checked": "2026-10-16"}
+{"url": "https://www.tokyo-np.co.jp/article/519751", "reason": "low_value", "note": "鳥つね自然洞 グルメコラム、新規性なし", "checked": "2026-10-16"}
+{"url": "https://www.walkerplus.com/event/ar0313e613408/", "reason": "insufficient_facts", "note": "Fine祭り2026 会場・時間・申込未確認", "checked": "2026-10-16"}
+{"url": "https://ascii.jp/elem/000/004/443/4443345/", "reason": "insufficient_facts", "note": "グリム・ガーディアンズ店頭体験会10/24 秋葉原の店舗名未記載", "checked": "2026-10-16"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/price/monthly_repo/2148207.html", "reason": "low_value", "note": "メモリ価格動向、コラボ性なし", "checked": "2026-10-16"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/price/monthly_repo/2147850.html", "reason": "low_value", "note": "HDD価格動向、コラボ性なし", "checked": "2026-10-16"}
+{"url": "https://news.yahoo.co.jp/expert/articles/4d50ce677fc8f01c95d3c2697aaec534f4a3bd15", "reason": "not_akihabara_specific", "note": "死刑囚表現展コラム", "checked": "2026-10-16"}
+{"url": "https://www.fukuishimbun.co.jp/articles/-/2723584", "reason": "not_akihabara_specific", "note": "JACK IN THE DONUTS富山出店", "checked": "2026-10-16"}
+{"url": "https://collabo-cafe.com/events/collabo/sankyu-pitch-hyper-inflation-popup-shop-2026/", "reason": "not_akihabara_specific", "note": "秋葉原以外の会場", "checked": "2026-10-16"}
+{"url": "https://collabo-cafe.com/events/collabo/sugoinu-popup-shibuya-modi-2026/", "reason": "not_akihabara_specific", "note": "秋葉原以外の会場", "checked": "2026-10-16"}
+{"url": "https://collabo-cafe.com/events/collabo/edf-popup-shop-bandainamco-cross-store-tokyo-2026/", "reason": "not_akihabara_specific", "note": "秋葉原以外の会場", "checked": "2026-10-16"}
+{"url": "https://collabo-cafe.com/events/collabo/horimiya-15th-popup-shop-marui-parco-2026/", "reason": "not_akihabara_specific", "note": "秋葉原以外の会場", "checked": "2026-10-16"}
+{"url": "https://collabo-cafe.com/events/collabo/gangsta-amnibus-store-green-2026/", "reason": "not_akihabara_specific", "note": "秋葉原以外の会場", "checked": "2026-10-16"}
