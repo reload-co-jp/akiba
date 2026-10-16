@@ -6,7 +6,8 @@ import {
   getSpotImage,
   getSpotSeoKeywords,
   getSpotHeadline,
-  getSpotsByCategory,
+  getSpotAccess,
+  getNearbySpots,
   getCuisineLabel,
   getPagedCuisines,
 } from "lib/spots"
@@ -78,9 +79,7 @@ const Page = async ({ params }: Props) => {
     10
   )
   const spotKeywords = getSpotSeoKeywords(spot)
-  const otherCategorySpots = getSpotsByCategory(spot.category)
-    .filter((s) => s.slug !== spot.slug)
-    .slice(0, 8)
+  const otherCategorySpots = getNearbySpots(spot)
 
   // Restaurant is a subtype of LocalBusiness, so eating places get the richer
   // type (servesCuisine / priceRange) without losing the generic properties.
@@ -337,10 +336,12 @@ const Page = async ({ params }: Props) => {
                 <dd style={{ color: "#24312f", margin: 0 }}>{spot.address}</dd>
               </>
             )}
-            {spot.access && (
+            {getSpotAccess(spot) && (
               <>
                 <dt style={{ color: "#8a6f63" }}>アクセス</dt>
-                <dd style={{ color: "#24312f", margin: 0 }}>{spot.access}</dd>
+                <dd style={{ color: "#24312f", margin: 0 }}>
+                  {getSpotAccess(spot)}
+                </dd>
               </>
             )}
             {spot.hours && (
@@ -490,7 +491,7 @@ const Page = async ({ params }: Props) => {
                 marginBottom: ".75rem",
               }}
             >
-              {spot.category}のほかのスポット
+              近くの{spot.category}スポット
             </h2>
             <ul
               style={{

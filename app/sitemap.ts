@@ -99,6 +99,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })),
     ...spots.map((spot) => ({
       url: absoluteUrl(`/spots/${spot.slug}/`),
+      ...(spot.lastVerified ? { lastModified: spot.lastVerified } : {}),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),

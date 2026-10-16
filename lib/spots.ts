@@ -220,18 +220,47 @@ export const getCuisineLabel = (cuisine: string): string =>
  * shop an イベント会場 is simply wrong.
  */
 export const getSpotHeadline = (spot: Spot) => {
+  // Each page's own facts go into the snippet: a shared template description
+  // makes every spot a near-duplicate in search results.
+  const facts = [
+    getSpotAccess(spot),
+    spot.hours && `営業時間${spot.hours}`,
+    spot.closed && `定休日${spot.closed}`,
+  ]
+    .filter(Boolean)
+    .join("、")
+  const description = [spot.description, facts && `${facts}。`]
+    .filter(Boolean)
+    .join(" ")
+    .slice(0, 160)
   if (spot.category === "グルメ・カフェ") {
+    // Searchers type the genre ("秋葉原 ラーメン"), not "グルメ".
+    const genre =
+      spot.cuisine?.map((c) => cuisineLabels[c]).find(Boolean) ?? "グルメ"
     return {
-      heading: `${spot.name}｜秋葉原のグルメ・アクセス`,
-      title: `${spot.name}｜秋葉原のグルメ・アクセス・営業時間`,
-      description: `${spot.name}のアクセス、営業時間、住所を紹介。秋葉原で食事や休憩ができる店を探すときに。`,
+      heading: `${spot.name}｜秋葉原の${genre}・アクセス`,
+      title: `${spot.name}（秋葉原の${genre}）営業時間・アクセス`,
+      description,
     }
   }
+  // Shops (ヨドバシ etc.) aren't event venues; name their actual category.
+  const kind =
+    spot.category === "イベント・ライブ" ? "イベント会場" : spot.category
   return {
-    heading: `${spot.name}｜秋葉原のイベント会場・アクセス`,
-    title: `${spot.name}｜秋葉原のイベント会場・アクセス・営業時間`,
-    description: `${spot.name}のアクセス、営業時間、住所、関連イベントを紹介。秋葉原で開催中・開催予定のイベント確認にも使えます。`,
+    heading: `${spot.name}｜秋葉原の${kind}・アクセス`,
+    title: `${spot.name}｜秋葉原の${kind}・アクセス・営業時間`,
+    description,
   }
+}
+
+/**
+ * Hand-written access text, else the straight-line distance from the station
+ * so bulk-imported spots still answer "◯◯ アクセス".
+ */
+export const getSpotAccess = (spot: Spot): string | undefined => {
+  if (spot.access) return spot.access
+  const d = distanceFromStation(spot)
+  return d == null ? undefined : `秋葉原駅から直線約${d}m`
 }
 
 /**
@@ -282,15 +311,34 @@ export const AKIHABARA_STATION = { lat: 35.698383, lng: 139.773071 }
  * "徒歩◯分" is road distance at 80m/min, and quoting a straight-line figure
  * that way would understate every entry. Pages label this as 直線距離.
  */
-export const distanceFromStation = (spot: Spot): number | undefined => {
-  if (spot.lat == null || spot.lng == null) return undefined
-  const meanLat = ((spot.lat + AKIHABARA_STATION.lat) / 2) * (Math.PI / 180)
-  const x =
-    (spot.lng - AKIHABARA_STATION.lng) * (Math.PI / 180) * Math.cos(meanLat)
-  const y = (spot.lat - AKIHABARA_STATION.lat) * (Math.PI / 180)
+export const distanceFromStation = (spot: Spot): number | undefined =>
+  distanceBetween(spot, AKIHABARA_STATION)
+
+export const distanceBetween = (
+  a: { lat?: number; lng?: number },
+  b: { lat?: number; lng?: number }
+): number | undefined => {
+  if (a.lat == null || a.lng == null || b.lat == null || b.lng == null)
+    return undefined
+  const meanLat = ((a.lat + b.lat) / 2) * (Math.PI / 180)
+  const x = (a.lng - b.lng) * (Math.PI / 180) * Math.cos(meanLat)
+  const y = (a.lat - b.lat) * (Math.PI / 180)
   const metres = Math.hypot(x, y) * 6371000
   return Math.round(metres / 10) * 10
 }
+
+/**
+ * Detail-page spots of the same category, nearest first — "近くの◯◯" links
+ * are what a visitor on a shop page actually wants, and they spread internal
+ * links across the directory instead of always pointing at the first 8.
+ */
+export const getNearbySpots = (spot: Spot, limit = 8): Spot[] =>
+  getDetailPageSpots()
+    .filter((s) => s.slug !== spot.slug && s.category === spot.category)
+    .map((s) => ({ s, d: distanceBetween(spot, s) ?? Infinity }))
+    .sort((a, b) => a.d - b.d)
+    .slice(0, limit)
+    .map(({ s }) => s)
 
 /**
  * Spots with their own page lead — they are the ones with an image, a written
