@@ -241,6 +241,12 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/events/popup/" className="site-sidebar__link">
                 POPUPストア
               </Link>
+              <Link href="/events/free/" className="site-sidebar__link">
+                無料イベント
+              </Link>
+              <Link href="/events/live/" className="site-sidebar__link">
+                ライブスケジュール
+              </Link>
               <Link href="/events/calendar/" className="site-sidebar__link">
                 イベントカレンダー
               </Link>

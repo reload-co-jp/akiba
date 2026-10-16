@@ -207,6 +207,16 @@ const Page = () => {
               </Link>
             </li>
             <li>
+              <Link href="/events/free/" className="today-related__link">
+                無料イベント特集 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/live/" className="today-related__link">
+                ライブスケジュール →
+              </Link>
+            </li>
+            <li>
               <Link href="/events/collab-cafe/" className="today-related__link">
                 コラボカフェ特集 →
               </Link>

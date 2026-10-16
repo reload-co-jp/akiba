@@ -38,6 +38,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/events/monthly/"), lastModified: latestDate, changeFrequency: "weekly", priority: 0.7 },
     { url: absoluteUrl("/events/collab-cafe/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/events/popup/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
+    { url: absoluteUrl("/events/free/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
+    { url: absoluteUrl("/events/live/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/events/calendar/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.7 },
     { url: absoluteUrl("/en/events/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.6 },
     { url: absoluteUrl("/en/events/today/"), lastModified: latestDate, changeFrequency: "daily", priority: 0.7 },
