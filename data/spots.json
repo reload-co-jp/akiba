@@ -6689,7 +6689,15 @@
     "closed": "元日",
     "lastVerified": "2026-10-16",
     "lat": 35.702061,
-    "lng": 139.769791
+    "lng": 139.769791,
+    "image": {
+      "src": "/images/spots/takamariken-x-header.jpg",
+      "alt": "高まり研究所の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "高まり研究所 公式X",
+      "sourceUrl": "https://x.com/takamariken"
+    }
   },
   {
     "id": 262,
@@ -7265,7 +7273,15 @@
       "コンカフェ"
     ],
     "aliases": [],
-    "lastVerified": "2026-10-16"
+    "lastVerified": "2026-10-16",
+    "image": {
+      "src": "/images/spots/makotozakaya-x-header.jpg",
+      "alt": "誠酒屋の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "誠酒屋 公式X",
+      "sourceUrl": "https://x.com/makotozakaya"
+    }
   },
   {
     "id": 284,
@@ -8585,7 +8601,15 @@
     "addressSource": "gsi-reverse",
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/pastel_maid-x-header.jpg",
+      "alt": "パステルメイドの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "パステルメイド 公式X",
+      "sourceUrl": "https://x.com/pastel_maid"
+    }
   },
   {
     "id": 343,
@@ -9465,7 +9489,15 @@
     "lastVerified": "2026-10-16",
     "aliases": [
       "ナチュラリア"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/natuba_akiba-x-header.jpg",
+      "alt": "ナチュラリア 秋葉原店の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "ナチュラリア 秋葉原店 公式X",
+      "sourceUrl": "https://x.com/natuba_akiba"
+    }
   },
   {
     "id": 383,
@@ -10355,7 +10387,15 @@
     "addressSource": "gsi-reverse",
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/anima_ru0425-x-header.jpg",
+      "alt": "どうぶつメイド あにま〜るの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "どうぶつメイド あにま〜る 公式X",
+      "sourceUrl": "https://x.com/anima_ru0425"
+    }
   },
   {
     "id": 422,
@@ -10408,7 +10448,15 @@
       "バニーズギルド"
     ],
     "lat": 35.700176,
-    "lng": 139.770386
+    "lng": 139.770386,
+    "image": {
+      "src": "/images/spots/casino_cafe-x-header.jpg",
+      "alt": "Bunny's Guild バニーズギルドの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "Bunny's Guild バニーズギルド 公式X",
+      "sourceUrl": "https://x.com/casino_cafe"
+    }
   },
   {
     "id": 424,
@@ -11419,7 +11467,15 @@
     "addressSource": "gsi-reverse",
     "tags": [
       "パーツ街・ジャンク街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/sora_mica0708-x-header.jpg",
+      "alt": "妹メイドカフェ ソラミカの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "妹メイドカフェ ソラミカ 公式X",
+      "sourceUrl": "https://x.com/sora_mica0708"
+    }
   },
   {
     "id": 470,
@@ -11914,7 +11970,15 @@
     "hours": "平日15:00〜22:00 / 土日祝12:00〜22:00",
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/myfirstmaid-x-header.jpg",
+      "alt": "マイファーストメイドの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "マイファーストメイド 公式X",
+      "sourceUrl": "https://x.com/MyFirstMaid"
+    }
   },
   {
     "id": 491,
@@ -11962,7 +12026,15 @@
     ],
     "access": "JR秋葉原駅 徒歩5分 / 東京メトロ銀座線末広町駅 徒歩4分",
     "closed": "年中無休",
-    "lastVerified": "2026-10-16"
+    "lastVerified": "2026-10-16",
+    "image": {
+      "src": "/images/spots/wan_wan_teikoku-x-header.jpg",
+      "alt": "アキバわんわん帝国の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "アキバわんわん帝国 公式X",
+      "sourceUrl": "https://x.com/wan_wan_teikoku"
+    }
   },
   {
     "id": 493,
@@ -12256,7 +12328,15 @@
       "ライクアドール"
     ],
     "lat": 35.700077,
-    "lng": 139.772034
+    "lng": 139.772034,
+    "image": {
+      "src": "/images/spots/like_a_doll_akb-x-header.jpg",
+      "alt": "Like a Dollの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "Like a Doll 公式X",
+      "sourceUrl": "https://x.com/Like_a_Doll_akb"
+    }
   },
   {
     "id": 503,
@@ -19308,7 +19388,15 @@
       "ラビットキャッスル"
     ],
     "lat": 35.701077,
-    "lng": 139.772141
+    "lng": 139.772141,
+    "image": {
+      "src": "/images/spots/rabbitcastle-x-header.jpg",
+      "alt": "RABBIT CASTLEの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "RABBIT CASTLE 公式X",
+      "sourceUrl": "https://x.com/RABBITCASTLE_"
+    }
   },
   {
     "id": 821,
@@ -19334,7 +19422,15 @@
       "RevLimit"
     ],
     "lat": 35.702335,
-    "lng": 139.770615
+    "lng": 139.770615,
+    "image": {
+      "src": "/images/spots/revlimit__akb-x-header.jpg",
+      "alt": "Cafe＆Bar RevLimitの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "Cafe＆Bar RevLimit 公式X",
+      "sourceUrl": "https://x.com/RevLimit__AKB"
+    }
   },
   {
     "id": 822,
@@ -19358,7 +19454,15 @@
       "電気街"
     ],
     "lat": 35.701061,
-    "lng": 139.771332
+    "lng": 139.771332,
+    "image": {
+      "src": "/images/spots/casique_cp-x-header.jpg",
+      "alt": "カジノクエストの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "カジノクエスト 公式X",
+      "sourceUrl": "https://x.com/casique_cp"
+    }
   },
   {
     "id": 823,
@@ -19382,7 +19486,15 @@
       "電気街"
     ],
     "lat": 35.700176,
-    "lng": 139.770386
+    "lng": 139.770386,
+    "image": {
+      "src": "/images/spots/witchesgarden31-x-header.jpg",
+      "alt": "ウィッチズガーデンの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "ウィッチズガーデン 公式X",
+      "sourceUrl": "https://x.com/witchesgarden31"
+    }
   },
   {
     "id": 824,
@@ -19406,7 +19518,15 @@
       "岩本町"
     ],
     "lat": 35.700043,
-    "lng": 139.775024
+    "lng": 139.775024,
+    "image": {
+      "src": "/images/spots/zange_akb-x-header.jpg",
+      "alt": "懺悔の時間ですの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "懺悔の時間です 公式X",
+      "sourceUrl": "https://x.com/zange_akb"
+    }
   },
   {
     "id": 825,
@@ -19433,7 +19553,15 @@
       "厨二病喫茶ピエロ"
     ],
     "lat": 35.699863,
-    "lng": 139.769943
+    "lng": 139.769943,
+    "image": {
+      "src": "/images/spots/pierrotakiba-x-header.jpg",
+      "alt": "厨二病喫茶PIERROTの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "厨二病喫茶PIERROT 公式X",
+      "sourceUrl": "https://x.com/pierrotakiba"
+    }
   },
   {
     "id": 826,
@@ -19458,7 +19586,15 @@
       "電気街"
     ],
     "lat": 35.701199,
-    "lng": 139.772141
+    "lng": 139.772141,
+    "image": {
+      "src": "/images/spots/mermaid_concafe-x-header.jpg",
+      "alt": "マーメイド 秋葉原の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "マーメイド 秋葉原 公式X",
+      "sourceUrl": "https://x.com/mermaid_concafe"
+    }
   },
   {
     "id": 828,
@@ -19486,7 +19622,15 @@
       "幽遊屋敷"
     ],
     "lat": 35.701199,
-    "lng": 139.772141
+    "lng": 139.772141,
+    "image": {
+      "src": "/images/spots/uuyashiki_girl-x-header.jpg",
+      "alt": "幽遊屋敷～霊女編～の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "幽遊屋敷～霊女編～ 公式X",
+      "sourceUrl": "https://x.com/uuyashiki_girl"
+    }
   },
   {
     "id": 829,
@@ -19548,7 +19692,15 @@
       "Cafe&Bar RE:FIRST"
     ],
     "lat": 35.6978,
-    "lng": 139.774399
+    "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/refirst_akb-x-header.jpg",
+      "alt": "RE:FIRSTの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "RE:FIRST 公式X",
+      "sourceUrl": "https://x.com/reFirst_akb"
+    }
   },
   {
     "id": 831,
@@ -19649,7 +19801,15 @@
       "電気街"
     ],
     "lat": 35.700237,
-    "lng": 139.769363
+    "lng": 139.769363,
+    "image": {
+      "src": "/images/spots/kiraboshigakuin-x-header.jpg",
+      "alt": "私立輝羅星学院アイドル部の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "私立輝羅星学院アイドル部 公式X",
+      "sourceUrl": "https://x.com/kiraboshigakuin"
+    }
   },
   {
     "id": 835,
@@ -19727,7 +19887,15 @@
       "クラッシープリンセス"
     ],
     "lat": 35.701199,
-    "lng": 139.772141
+    "lng": 139.772141,
+    "image": {
+      "src": "/images/spots/cp_akb-x-header.jpg",
+      "alt": "Classy Princessの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "Classy Princess 公式X",
+      "sourceUrl": "https://x.com/cp_akb"
+    }
   },
   {
     "id": 838,
@@ -19756,7 +19924,15 @@
       "イービルリリス"
     ],
     "lat": 35.701935,
-    "lng": 139.772003
+    "lng": 139.772003,
+    "image": {
+      "src": "/images/spots/evil_lilith666-x-header.jpg",
+      "alt": "使い魔メイドカフェ イービルリリスの関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "使い魔メイドカフェ イービルリリス 公式X",
+      "sourceUrl": "https://x.com/evil_lilith666"
+    }
   },
   {
     "id": 839,
@@ -19781,7 +19957,15 @@
       "電気街"
     ],
     "lat": 35.695595,
-    "lng": 139.769958
+    "lng": 139.769958,
+    "image": {
+      "src": "/images/spots/15402_shireibu-x-header.jpg",
+      "alt": "苺司令部の関連ビジュアル",
+      "width": 1500,
+      "height": 500,
+      "sourceLabel": "苺司令部 公式X",
+      "sourceUrl": "https://x.com/15402_shireibu"
+    }
   },
   {
     "id": 840,
