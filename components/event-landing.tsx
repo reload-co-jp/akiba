@@ -17,8 +17,8 @@ type Props = {
   title: string
   kicker: string
   breadcrumbLabel: string
-  /** パンくず3階層目（会場別/作品別の一覧）。 */
-  section: { label: string; href: string }
+  /** パンくず3階層目（会場別/作品別の一覧）。テーマ別LPは省略。 */
+  section?: { label: string; href: string }
   description: string
   /** CollectionPage.about に入れる対象（Place / CreativeWork 等）。 */
   about: Record<string, unknown>
@@ -26,6 +26,8 @@ type Props = {
   events: Events
   related: { href: string; label: string }[]
   showMap?: boolean
+  /** 過去の開催の表示上限（件数が多いテーマ別LP用）。 */
+  pastLimit?: number
   /** 相互リンク等、関連リンクの前に差し込む節。 */
   children?: ReactNode
 }
@@ -66,10 +68,13 @@ export const EventLanding = ({
   events,
   related,
   showMap,
+  pastLimit,
   children,
 }: Props) => {
   const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Tokyo" })
-  const { ongoing, upcoming, past } = splitByStatus(events, today)
+  const status = splitByStatus(events, today)
+  const { ongoing, upcoming } = status
+  const past = status.past.slice(0, pastLimit)
   const pageUrl = absoluteUrl(path)
   const listed = [...ongoing, ...upcoming, ...past]
 
@@ -78,11 +83,11 @@ export const EventLanding = ({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "イベント", item: absoluteUrl("/events/") },
-        { "@type": "ListItem", position: 3, name: section.label, item: absoluteUrl(section.href) },
-        { "@type": "ListItem", position: 4, name: breadcrumbLabel, item: pageUrl },
-      ],
+        { label: "ホーム", href: absoluteUrl("/") },
+        { label: "イベント", href: absoluteUrl("/events/") },
+        ...(section ? [{ label: section.label, href: absoluteUrl(section.href) }] : []),
+        { label: breadcrumbLabel, href: pageUrl },
+      ].map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.label, item: c.href })),
     },
     {
       "@context": "https://schema.org",
@@ -120,7 +125,7 @@ export const EventLanding = ({
           items={[
             { label: "ホーム", href: "/" },
             { label: "イベント", href: "/events/" },
-            section,
+            ...(section ? [section] : []),
             { label: breadcrumbLabel },
           ]}
         />

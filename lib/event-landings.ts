@@ -27,6 +27,10 @@ export const getEventsAtSpot = (spot: Spot) => {
     )
 }
 
+/** 任意条件のイベント（テーマ別LP用）。 */
+export const getEventsMatching = (match: (a: Article) => boolean) =>
+  getAllArticles().filter(isEvent).filter(match)
+
 export const getEventsForWork = (tag: Tag) => getArticlesByTagId(tag.id).filter(isEvent)
 
 export const getVenueLandingSpots = (): Spot[] =>
