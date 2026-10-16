@@ -9725,7 +9725,15 @@
     "tags": [
       "電気街",
       "コンカフェ"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/akibazettai-official.jpg",
+      "alt": "アキバ絶対領域 +eの関連ビジュアル",
+      "width": 1600,
+      "height": 700,
+      "sourceLabel": "アキバ絶対領域 公式サイト",
+      "sourceUrl": "https://akibazettai.com/"
+    }
   },
   {
     "id": 394,
@@ -9967,7 +9975,15 @@
     "tags": [
       "電気街",
       "コンカフェ"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/akibazettai-official.jpg",
+      "alt": "アキバ絶対領域 A.D.1912の関連ビジュアル",
+      "width": 1600,
+      "height": 700,
+      "sourceLabel": "アキバ絶対領域 公式サイト",
+      "sourceUrl": "https://akibazettai.com/"
+    }
   },
   {
     "id": 404,
@@ -12202,7 +12218,15 @@
       "電気街"
     ],
     "access": "JR秋葉原駅 徒歩3分 / 東京メトロ銀座線末広町駅 徒歩5分",
-    "lastVerified": "2026-10-16"
+    "lastVerified": "2026-10-16",
+    "image": {
+      "src": "/images/spots/magical-lollipop-akihabara.jpg",
+      "alt": "マジカルロリポップの関連ビジュアル",
+      "width": 1076,
+      "height": 1521,
+      "sourceLabel": "マジカルロリポップ 公式サイト",
+      "sourceUrl": "https://www.akiba-maidcafe.co.jp/magical-lollipop/"
+    }
   },
   {
     "id": 502,
@@ -19489,7 +19513,15 @@
       "キミカノ"
     ],
     "lat": 35.6978,
-    "lng": 139.774399
+    "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/kimikano-akihabara.jpg",
+      "alt": "キミの彼女になりたい！の関連ビジュアル",
+      "width": 600,
+      "height": 210,
+      "sourceLabel": "キミの彼女になりたい！ 公式サイト",
+      "sourceUrl": "https://kimikano.tokyo/"
+    }
   },
   {
     "id": 830,
@@ -19803,6 +19835,14 @@
       "コンカフェランド"
     ],
     "lat": 35.697674,
-    "lng": 139.772354
+    "lng": 139.772354,
+    "image": {
+      "src": "/images/spots/concafeland-akihabara.jpg",
+      "alt": "コンカフェランドの関連ビジュアル",
+      "width": 600,
+      "height": 210,
+      "sourceLabel": "キミカノグループ 公式サイト",
+      "sourceUrl": "https://kimikano.tokyo/"
+    }
   }
 ]
