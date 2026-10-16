@@ -207,6 +207,31 @@ const Page = () => {
               </Link>
             </li>
             <li>
+              <Link href="/events/vtuber/" className="today-related__link">
+                VTuberイベント特集 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/signing/" className="today-related__link">
+                サイン会特集 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/anime/" className="today-related__link">
+                アニメイベント特集 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/game/" className="today-related__link">
+                ゲームイベント特集 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/events/exhibition/" className="today-related__link">
+                展示・原画展特集 →
+              </Link>
+            </li>
+            <li>
               <Link href="/events/free/" className="today-related__link">
                 無料イベント特集 →
               </Link>
