@@ -5,11 +5,17 @@ import { absoluteUrl, siteDescriptionEn, siteNameEn, siteUrl } from "lib/site"
 import { LanguageProvider } from "components/language-provider"
 import AdsenseDisplayAd from "components/adsense-display-ad"
 import { AdsenseVignetteCleanup } from "components/adsense-vignette-cleanup"
+import { RouteAdModal } from "components/route-ad-modal"
+import { getAllArticles } from "lib/articles"
 import { notoSansJP } from "lib/fonts"
 import "../reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
 const isProduction = process.env.NODE_ENV === "production"
+const recommendedLinks = getAllArticles()
+  .filter((a) => a.en)
+  .slice(0, 5)
+  .map((a) => ({ href: `/en/articles/${a.slug}/`, title: a.en!.title }))
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -78,6 +84,7 @@ const EnLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <LanguageProvider>
           <AdsenseVignetteCleanup />
+          <RouteAdModal links={recommendedLinks} heading="Recommended" />
           {isProduction && (
             <>
               <Script

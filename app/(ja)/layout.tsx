@@ -5,11 +5,16 @@ import { absoluteUrl, siteDescription, siteName, siteUrl } from "lib/site"
 import { LanguageProvider } from "components/language-provider"
 import AdsenseDisplayAd from "components/adsense-display-ad"
 import { AdsenseVignetteCleanup } from "components/adsense-vignette-cleanup"
+import { RouteAdModal } from "components/route-ad-modal"
+import { getAllArticles } from "lib/articles"
 import { notoSansJP } from "lib/fonts"
 import "../reset.css"
 
 const googleAnalyticsId = "G-ZJM8E54KXG"
 const isProduction = process.env.NODE_ENV === "production"
+const recommendedLinks = getAllArticles()
+  .slice(0, 5)
+  .map((a) => ({ href: `/articles/${a.slug}/`, title: a.title }))
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -104,6 +109,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <LanguageProvider>
           <AdsenseVignetteCleanup />
+          <RouteAdModal links={recommendedLinks} heading="おすすめ記事" />
           <Script
             src="https://news.google.com/swg/js/v1/swg-basic.js"
             strategy="afterInteractive"
