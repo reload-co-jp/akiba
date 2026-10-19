@@ -1102,6 +1102,7 @@
     "closed": "不定休",
     "lat": 35.6984,
     "lng": 139.7731,
+    "website": "https://bandainamco-am.co.jp/crossstore/store/akihabara-atre/",
     "image": {
       "src": "/images/spots/bandai-namco-cross-store-akihabara.jpg",
       "alt": "バンダイナムコ Cross Store アトレ秋葉原店の関連ビジュアル",
@@ -1126,6 +1127,7 @@
     "closed": "テナントにより異なる",
     "lat": 35.6999,
     "lng": 139.7729,
+    "website": "https://www.daibiru.co.jp/properties/office/akihabara/",
     "image": {
       "src": "/images/spots/akihabara-daibiru.webp",
       "alt": "秋葉原ダイビルの関連ビジュアル",
@@ -1196,6 +1198,7 @@
     "closed": "不定休",
     "lat": 35.6969,
     "lng": 139.7685,
+    "website": "https://www.sonpo-k.co.jp/",
     "image": {
       "src": "/images/spots/akihabara-sonpo-kaikan.jpg",
       "alt": "秋葉原・損保会館で開催されたアナログオーディオフェアの会場風景",
@@ -1324,6 +1327,7 @@
     "closed": "不定休",
     "lat": 35.6978,
     "lng": 139.7747,
+    "website": "https://clovecafe.jp/",
     "image": {
       "src": "/images/spots/clove-lounge-akihabara.jpg",
       "alt": "Clove Lounge Cafe &Bar 秋葉原の関連ビジュアル",
@@ -1353,6 +1357,7 @@
     "closed": "不定休",
     "lat": 35.6988,
     "lng": 139.7716,
+    "website": "https://akiba-fancube.tokyo/",
     "image": {
       "src": "/images/spots/akiba-fan-cube.jpeg",
       "alt": "AKIBA FAN CUBEの関連ビジュアル",
@@ -1378,6 +1383,7 @@
     "closed": "不定休",
     "lat": 35.7005,
     "lng": 139.7716,
+    "website": "https://www.sofmap.com/pages/?id=esports_studio_akiba",
     "image": {
       "src": "/images/spots/esports-studio-akiba.jpg",
       "alt": "eSports Studio AKIBAの関連ビジュアル",
@@ -1428,6 +1434,7 @@
     "closed": "不定休",
     "lat": 35.7014,
     "lng": 139.7712,
+    "website": "https://multiple.ltd/akihabara/",
     "aliases": [
       "トレカラウンジ秋葉原"
     ],
@@ -1574,6 +1581,7 @@
     "closed": "不定休",
     "lat": 35.7003,
     "lng": 139.7716,
+    "website": "https://onkyoanime.com/",
     "image": {
       "src": "/images/spots/onkyo-direct-anime-store.jpg",
       "alt": "ONKYO DIRECT ANIME STORE（音アニ1号店）の関連ビジュアル",
@@ -1636,6 +1644,7 @@
     "closed": "不定休",
     "lat": 35.7011,
     "lng": 139.7719,
+    "website": "https://www.pet-coo.com/",
     "image": {
       "src": "/images/spots/coo-riku-akihabara.png",
       "alt": "ペットショップCoo&RIKU秋葉原店の関連ビジュアル",
@@ -1659,6 +1668,7 @@
     "closed": "不定休",
     "lat": 35.7013,
     "lng": 139.7715,
+    "website": "https://akiba-maidcafe.co.jp/sweetcat/",
     "image": {
       "src": "/images/spots/sweet-cat-akihabara.jpg",
       "alt": "すい〜ときゃっとの関連ビジュアル",
@@ -1772,6 +1782,7 @@
     "closed": "不定休",
     "lat": 35.6984,
     "lng": 139.7728,
+    "website": "https://www.tanaka-denki.co.jp/",
     "image": {
       "src": "/images/spots/tanaka-denki-seminar-space.png",
       "alt": "田中電気株式会社 セミナースペースの関連ビジュアル",
@@ -1847,6 +1858,7 @@
     "closed": "不定休",
     "lat": 35.701,
     "lng": 139.7716,
+    "website": "https://galaxy-group.jp/venus_akihabara/",
     "image": {
       "src": "/images/spots/akihabara-venus.png",
       "alt": "秋葉原Venusの関連ビジュアル",
@@ -1870,6 +1882,7 @@
     "closed": "不定休",
     "lat": 35.7021,
     "lng": 139.7715,
+    "website": "https://cosmiclab.jp/",
     "image": {
       "src": "/images/spots/akihabara-cosmiclab.jpg",
       "alt": "秋葉原COSMICLABの関連ビジュアル",
@@ -1895,6 +1908,7 @@
     "closed": "不定休",
     "lat": 35.7007,
     "lng": 139.7706,
+    "website": "https://akihabarazest.com/",
     "image": {
       "src": "/images/spots/akihabara-zest.jpg",
       "alt": "秋葉原ZESTの関連ビジュアル",
@@ -1991,6 +2005,7 @@
     "closed": "不定休",
     "lat": 35.702,
     "lng": 139.7714,
+    "website": "https://galaxy-group.jp/akihabara/",
     "image": {
       "src": "/images/spots/akihabara-galaxy.jpg",
       "alt": "秋葉原Galaxyの外観",
@@ -2038,6 +2053,7 @@
     "closed": "不定休",
     "lat": 35.7001,
     "lng": 139.7714,
+    "website": "https://bushiroad-store.com/",
     "image": {
       "src": "/images/spots/bushiroad-creative-store-akihabara.jpg",
       "alt": "ブシロードクリエイティブストア 秋葉原本店の関連ビジュアル",
@@ -2610,7 +2626,8 @@
       "電気街"
     ],
     "lat": 35.700481,
-    "lng": 139.77092
+    "lng": 139.77092,
+    "website": "https://lifork.jp/"
   },
   {
     "id": 84,
@@ -2749,7 +2766,8 @@
       "昭和通り"
     ],
     "lat": 35.697689,
-    "lng": 139.778488
+    "lng": 139.778488,
+    "website": "https://en-hotel.com/ja/"
   },
   {
     "id": 89,
@@ -2897,7 +2915,8 @@
       "昭和通り"
     ],
     "lat": 35.697765,
-    "lng": 139.777145
+    "lng": 139.777145,
+    "website": "https://first-cabin.jp/"
   },
   {
     "id": 94,
@@ -2980,7 +2999,8 @@
       "電気街"
     ],
     "lat": 35.700665,
-    "lng": 139.771698
+    "lng": 139.771698,
+    "website": "https://www.akb48.co.jp/"
   },
   {
     "id": 97,
@@ -4646,6 +4666,16 @@
     "description": "濃厚な味の豚骨醤油ラーメンとクリーミーな味のとんこつラーメン「東京豚骨拉麺ばんから」をはじめ多くのラーメンを提供。",
     "lat": 35.701267,
     "lng": 139.772154,
+    "website": "https://hanaken.co.jp/ramen-bankara/",
+    "image": {
+      "src": "/images/spots/osm-node-2263796314.jpg",
+      "alt": "ばんからの店舗写真",
+      "width": 640,
+      "height": 359,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/113063/640x640_rect_113063113.jpg",
+      "copyrightRisk": true
+    },
     "dataSource": "osm",
     "osmId": "node/2263796314",
     "cuisine": [
@@ -4851,6 +4881,15 @@
     "description": "北海道の地鶏や郷土料理、ジンギスカンなどを楽しめる塚田農場。秋葉原駅電気街口から徒歩5分。",
     "lat": 35.697269,
     "lng": 139.771469,
+    "image": {
+      "src": "/images/spots/osm-node-2292245570.jpg",
+      "alt": "北海道シントク町 塚田農場 秋葉原万世橋店の店舗写真",
+      "width": 640,
+      "height": 400,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/224804/640x640_rect_84661dbe6a68b5d959d08ac382f09f47.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "manual",
     "osmId": "node/2292245570",
@@ -8521,6 +8560,16 @@
     "description": "鶏の溶岩焼き、自家製蕎麦などを提供する和食居酒屋。日本酒・焼酎も充実。",
     "lat": 35.697353,
     "lng": 139.775828,
+    "website": "http://www.tori-tetsu.com/shop/1046p/",
+    "image": {
+      "src": "/images/spots/osm-node-5295097943.jpg",
+      "alt": "かぐらや 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/96610/320x320_rect_96610225.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/5295097943",
@@ -8995,6 +9044,15 @@
     "description": "秋葉原エリアの寿司店",
     "lat": 35.697687,
     "lng": 139.771612,
+    "image": {
+      "src": "/images/spots/osm-node-5588956024.jpg",
+      "alt": "きづなすしの店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/83585/640x640_rect_83585481.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/5588956024",
@@ -9618,6 +9676,16 @@
     "description": "秋葉原駅すぐの焼肉店。焼肉食べ放題プランを中心に、伝統建築をイメージした落ち着いた空間で食事を楽しめる。",
     "lat": 35.698776,
     "lng": 139.77226,
+    "website": "https://fukuju-akihabara.com",
+    "image": {
+      "src": "/images/spots/osm-node-6243154795.jpg",
+      "alt": "福寿 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/332973/640x640_rect_34879ddd027de2dde46234f088ddee5c.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/6243154795",
@@ -10865,6 +10933,7 @@
     "description": "トレーディングカードショップ。チョムチョム秋葉原6階にあり、69席のデュエルスペースを備える。店頭での買取にも対応。",
     "lat": 35.6978,
     "lng": 139.774192,
+    "website": "https://clovecafe.jp/",
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/9103752887",
@@ -11000,6 +11069,7 @@
     "description": "秋葉原エリアの海鮮料理店",
     "lat": 35.697389,
     "lng": 139.772607,
+    "website": "https://isomaru.jp/",
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/9107698618",
@@ -11787,6 +11857,16 @@
     "description": "宮崎県日南市の地鶏料理を中心に、郷土料理や鍋料理などを提供する居酒屋。",
     "lat": 35.699189,
     "lng": 139.77163,
+    "website": "https://www.tsukadanojo.jp/shop_detail/0067",
+    "image": {
+      "src": "/images/spots/osm-node-10284195657.jpg",
+      "alt": "宮崎県日南市 塚田農場 秋葉原中央通り店の店舗写真",
+      "width": 640,
+      "height": 359,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/385696/640x640_rect_a26704daae5874632b9e94fadf2212d7.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/10284195657",
@@ -13452,6 +13532,16 @@
     "description": "ビアホール・洋風居酒屋。ビールや洋食系料理を中心に、気軽な飲み会から食事まで利用できる。",
     "lat": 35.697386,
     "lng": 139.773123,
+    "website": "http://www.danke-bros.co.jp/",
+    "image": {
+      "src": "/images/spots/osm-node-12131327479.jpg",
+      "alt": "だん家 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/386784/640x640_rect_cb5c398839045214d752a9ae1363738c.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/12131327479",
@@ -13689,6 +13779,15 @@
     "description": "高級銘柄豚「林SPFポーク」を中心とした料理を楽しめる、静かな隠れ家的な豚肉ビストロ。",
     "lat": 35.700571,
     "lng": 139.775063,
+    "image": {
+      "src": "/images/spots/osm-node-12908845946.jpg",
+      "alt": "Bistro ZAKIの店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/191966/640x640_rect_3a837ddb91da6ffee7c3c438acbeae30.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/12908845946",
@@ -13832,6 +13931,16 @@
     "description": "秋葉原エリアの中華料理店",
     "lat": 35.697921,
     "lng": 139.775239,
+    "website": "https://www.ajibo.tokyo/",
+    "image": {
+      "src": "/images/spots/osm-node-13364005451.jpg",
+      "alt": "香福味坊の店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/251601/640x640_rect_7d9dd9c87d4d9fc88b8a5359b09efe91.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "node/13364005451",
@@ -14091,6 +14200,15 @@
     "description": "秋葉原のジャンク通り沿いで長く営業する炉ばた焼き店。刺身、焼き魚、天ぷらなどを楽しめる昔ながらの居酒屋。",
     "lat": 35.700041,
     "lng": 139.770305,
+    "image": {
+      "src": "/images/spots/osm-way-88999560.jpg",
+      "alt": "秋葉原 炉ばた 石くらの店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/360274/640x640_rect_ea2159e7a306e170874a57ffb6b93050.jpg",
+      "copyrightRisk": true
+    },
     "tier": "A",
     "dataSource": "osm",
     "osmId": "way/88999560",
@@ -14425,6 +14543,15 @@
     "dataSource": "tabelog",
     "lat": 35.702404,
     "lng": 139.777267,
+    "image": {
+      "src": "/images/spots/umi-no-chikara.jpg",
+      "alt": "ウミのチカラの店舗写真",
+      "width": 480,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/371203/640x640_rect_89e68637682755e88a21cb215b4a9896.jpg",
+      "copyrightRisk": true
+    },
     "address": "東京都台東区台東1-32-6",
     "hours": "月〜土・祝 11:00〜16:00 / 17:00〜21:00",
     "closed": "日曜定休",
@@ -14611,6 +14738,15 @@
     "dataSource": "tabelog",
     "lat": 35.698009,
     "lng": 139.776367,
+    "image": {
+      "src": "/images/spots/tokyo-style-noodle-hotate-biyori.jpg",
+      "alt": "Tokyo Style Noodle ほたて日和の店舗写真",
+      "width": 640,
+      "height": 481,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/255946/640x640_rect_d2475269e0b24ade852cc988bab2cb01.jpg",
+      "copyrightRisk": true
+    },
     "address": "東京都千代田区神田佐久間町2丁目 梅屋ビル",
     "hours": "月〜金 11:00〜14:30 / 17:30〜20:00、土日 11:00〜15:30 / 17:00〜18:30",
     "cuisine": [
@@ -14634,6 +14770,15 @@
     "dataSource": "tabelog",
     "lat": 35.700043,
     "lng": 139.775024,
+    "image": {
+      "src": "/images/spots/ramen-ninja.jpg",
+      "alt": "らーめん 忍者の店舗写真",
+      "width": 640,
+      "height": 425,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/50211/640x640_rect_50211508.jpg",
+      "copyrightRisk": true
+    },
     "address": "東京都千代田区神田松永町17-3",
     "cuisine": [
       "ramen"
@@ -14898,6 +15043,15 @@
     "hours": "16:00〜24:00",
     "lat": 35.698475,
     "lng": 139.775192,
+    "image": {
+      "src": "/images/spots/sakabee-akihabara.jpg",
+      "alt": "酒兵衛 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/270287/320x320_rect_951fe4c7afda873209f73bd2d0f2646c.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "京風和食",
@@ -14922,6 +15076,15 @@
     "closed": "無休",
     "lat": 35.6978,
     "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/tatsunoya-akihabara.jpg",
+      "alt": "龍の屋 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/280779/640x640_rect_7db605db7bbd6bfead9a144c9bfb6bdf.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "鮮魚",
@@ -14945,6 +15108,15 @@
     "hours": "15:00〜24:00",
     "lat": 35.698811,
     "lng": 139.7715,
+    "image": {
+      "src": "/images/spots/warayaki-inari-akihabara.jpg",
+      "alt": "47都道府県の日本酒勢揃い 完全個室 藁焼き稲荷商店 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/327330/320x320_rect_4d749f3bac413ca8292d7de7f1da9d33.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "日本酒",
@@ -14999,6 +15171,15 @@
     "hours": "12:00〜24:00（L.O.23:30）",
     "lat": 35.6978,
     "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/miyabi-akihabara.jpg",
+      "alt": "旬昧 みやび 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 637,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/370755/640x640_rect_b1e277675d639c5aa66d657c3404e4ff.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "炉端焼き",
@@ -15021,6 +15202,15 @@
     "hours": "月〜木 16:00〜23:30／金・祝前日 16:00〜翌3:00／土 14:00〜23:30／日祝 14:00〜23:00",
     "lat": 35.698345,
     "lng": 139.777634,
+    "image": {
+      "src": "/images/spots/ilovegyoza-akihabara.jpg",
+      "alt": "I Love Gyoza アキバの竜王 秋葉原総本店の店舗写真",
+      "width": 640,
+      "height": 359,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/356103/640x640_rect_43c1b2e018fe85a53e6adc2df698426c.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "餃子",
       "中華",
@@ -15045,6 +15235,15 @@
     "hours": "17:00〜23:30（L.O.料理22:30、ドリンク23:00）",
     "lat": 35.697784,
     "lng": 139.775192,
+    "image": {
+      "src": "/images/spots/monalisa-akihabara.jpg",
+      "alt": "寿司とおでん モナリザ 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/305102/320x320_rect_af6731afcdc6757ce4ab4649a0ee0b2d.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "寿司",
       "おでん",
@@ -15100,6 +15299,15 @@
     "hours": "月〜土 15:00〜23:00（L.O.22:30）",
     "lat": 35.698578,
     "lng": 139.778412,
+    "image": {
+      "src": "/images/spots/domannaka-hanare-akihabara.jpg",
+      "alt": "魚と日本酒 どまん中 はなれ 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/129895/640x640_rect_129895656.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "海鮮",
       "日本酒",
@@ -15123,6 +15331,16 @@
     "closed": "日曜定休",
     "lat": 35.698578,
     "lng": 139.778412,
+    "website": "https://nakamata-nodoguro.com/",
+    "image": {
+      "src": "/images/spots/hassen-akihabara.jpg",
+      "alt": "のどぐろ専門店 八仙 秋葉原の店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/178945/640x640_rect_edeca3d590cad980cbdb4807a3656054.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "のどぐろ",
@@ -15189,6 +15407,15 @@
     "hours": "12:00〜24:00",
     "lat": 35.6978,
     "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/ushiwakamaru-akihabara.jpg",
+      "alt": "肉問屋直営 国産和牛焼肉 牛若丸 秋葉原店の店舗写真",
+      "width": 639,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/207712/640x640_rect_6d568fc295b83a7445feb06a7956bf5d.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "焼肉",
       "和牛",
@@ -15211,6 +15438,15 @@
     "hours": "月〜金・祝日 17:00〜翌5:00／土日 12:00〜翌5:00",
     "lat": 35.698326,
     "lng": 139.776428,
+    "image": {
+      "src": "/images/spots/akiba-bokujo.jpg",
+      "alt": "焼肉酒場 秋葉牧場の店舗写真",
+      "width": 640,
+      "height": 360,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/311536/640x640_rect_b1cc3b70eeabe6e03d2134ffe0debc84.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "焼肉",
       "深夜営業",
@@ -15258,6 +15494,15 @@
     "hours": "15:00〜24:00（L.O. 23:00）",
     "lat": 35.6978,
     "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/hanakoma-akihabara.jpg",
+      "alt": "仙台牛タンと野菜巻き串 完全個室居酒屋 はなこま 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/384350/640x640_rect_61a1666c720ff99e659be6177b7508fb.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "牛タン",
@@ -15281,6 +15526,15 @@
     "hours": "12:00〜24:00（L.O.料理23:00、ドリンク23:30）",
     "lat": 35.698475,
     "lng": 139.775192,
+    "image": {
+      "src": "/images/spots/masamune-akihabara.jpg",
+      "alt": "政宗 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 180,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/387159/320x320_rect_378a212e582ed580516996e8a41f73ed.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "おでん",
       "肉寿司",
@@ -15356,6 +15610,7 @@
     "closed": "なし",
     "lat": 35.6978,
     "lng": 139.774399,
+    "website": "https://atarayo-jp.com/",
     "tags": [
       "個室",
       "京風創作料理",
@@ -15378,6 +15633,15 @@
     "hours": "月〜土 16:00〜23:00／日・祝 15:00〜22:00",
     "lat": 35.698578,
     "lng": 139.778412,
+    "image": {
+      "src": "/images/spots/kodoma-kandasakumacho.jpg",
+      "alt": "コドマの店舗写真",
+      "width": 640,
+      "height": 426,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/302032/640x640_rect_3832bbefd7be5b1939db747a80f7a9fc.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "自然派ワイン",
       "クラフトビール",
@@ -15401,6 +15665,15 @@
     "hours": "16:00〜23:30（L.O.料理22:30、ドリンク23:00）",
     "lat": 35.697784,
     "lng": 139.775192,
+    "image": {
+      "src": "/images/spots/yakiushi-akihabara.jpg",
+      "alt": "厳選黒毛和牛と極上焼肉の店 Yakiushi 秋葉原の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/289192/640x640_rect_b3b428257cec5d47dcf5d24f18d3ef6a.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "焼肉",
       "黒毛和牛",
@@ -15423,6 +15696,15 @@
     "hours": "13:00〜24:00（L.O.料理23:00、ドリンク23:30）",
     "lat": 35.698475,
     "lng": 139.775192,
+    "image": {
+      "src": "/images/spots/nebutaya-akihabara.jpg",
+      "alt": "全席完全個室 青森郷土料理 ねぶた屋 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/384385/320x320_rect_419d4b2863f0d0c17480ff26b5c8b02d.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "飲み放題",
       "個室",
@@ -15447,6 +15729,15 @@
     "hours": "月〜木・土日祝 16:00〜24:00／金 16:00〜翌4:00",
     "lat": 35.698475,
     "lng": 139.775192,
+    "image": {
+      "src": "/images/spots/gyoen-akihabara.jpg",
+      "alt": "全席個室 日本酒と魚 魚縁 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/359394/640x640_rect_487d3bff5132bae8ffc9c1095b3c25f8.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "海鮮",
@@ -15500,6 +15791,16 @@
     "hours": "月〜金 17:00〜23:00／土日祝 12:00〜23:00",
     "lat": 35.697803,
     "lng": 139.776352,
+    "website": "https://uozumi-akihabara.com/",
+    "image": {
+      "src": "/images/spots/uotan-kandasakumacho.jpg",
+      "alt": "鮪と炭火焼き 俺の割烹 うお炭 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 360,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/326036/640x640_rect_c4ab9714bb1948aaabadfb4d6a699e2e.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "本鮪",
       "炭火焼き",
@@ -15522,6 +15823,15 @@
     "hours": "15:00〜24:00（L.O.料理23:00、ドリンク23:30）",
     "lat": 35.6978,
     "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/maguronotsukasa-akihabara.jpg",
+      "alt": "鮪ノ司 秋葉原駅前店の店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/329080/640x640_rect_0f41878149de1c07665f41c0277c09e5.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "個室",
       "本鮪専門",
@@ -15555,7 +15865,16 @@
     "tier": "A",
     "lastVerified": "2026-08-28",
     "lat": 35.69606,
-    "lng": 139.774963
+    "lng": 139.774963,
+    "image": {
+      "src": "/images/spots/sanzou-iwamotocho.jpg",
+      "alt": "三ぞう 岩本町店の店舗写真",
+      "width": 640,
+      "height": 359,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/248378/640x640_rect_2f7383097e2ee8a37268bfe1259a1104.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 656,
@@ -15579,6 +15898,15 @@
     "lastVerified": "2026-09-02",
     "lat": 35.698647,
     "lng": 139.776443,
+    "image": {
+      "src": "/images/spots/budouya-hanare-kandasakumacho.jpg",
+      "alt": "葡萄屋はなれ にかいの店舗写真",
+      "width": 640,
+      "height": 426,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/235600/640x640_rect_a1edb23605650731afde95f4f376ae88.jpg",
+      "copyrightRisk": true
+    },
     "website": "https://budouyahanare-nikai-akihabara.com/"
   },
   {
@@ -15601,7 +15929,16 @@
     "tier": "A",
     "lastVerified": "2026-08-28",
     "lat": 35.698326,
-    "lng": 139.776428
+    "lng": 139.776428,
+    "image": {
+      "src": "/images/spots/genki-yakiton-seibidori.jpg",
+      "alt": "やきとり やきとん元気 清美通り店の店舗写真",
+      "width": 640,
+      "height": 359,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/304768/640x640_rect_7bb3485ce3707b4c280ca7330c167e4b.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 660,
@@ -15624,7 +15961,16 @@
     "tier": "A",
     "lastVerified": "2026-08-28",
     "lat": 35.6978,
-    "lng": 139.774399
+    "lng": 139.774399,
+    "image": {
+      "src": "/images/spots/himari-club-kandasakumacho.jpg",
+      "alt": "酒とめし ひまり倶楽部 秋葉原の店舗写真",
+      "width": 640,
+      "height": 360,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/363055/640x640_rect_b811fca39e6e23b7f46bb03206f42350.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 661,
@@ -15690,7 +16036,16 @@
     "tier": "A",
     "lastVerified": "2026-08-28",
     "lat": 35.694763,
-    "lng": 139.775833
+    "lng": 139.775833,
+    "image": {
+      "src": "/images/spots/kosho-manju-paopao.jpg",
+      "alt": "胡椒饅頭PAOPAOの店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/45088/640x640_rect_45088233.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 664,
@@ -15793,6 +16148,15 @@
     ],
     "lat": 35.6992,
     "lng": 139.776,
+    "image": {
+      "src": "/images/spots/grill-bar-akihabara.jpg",
+      "alt": "グリルバル 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/273177/640x640_rect_dc2cfc9da6ed936b2a1a88bdf5ca7601.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -15814,6 +16178,15 @@
     "closed": "土日祝定休",
     "lat": 35.6978,
     "lng": 139.7744,
+    "image": {
+      "src": "/images/spots/nomidokoro-waraiyoshi.jpg",
+      "alt": "笑よしの店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/186021/640x640_rect_d818e48bf9ef5fd1fbae1557916585a2.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -15836,6 +16209,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7744,
+    "image": {
+      "src": "/images/spots/akihabara-wagyu-sukiyaki-gyogetsu.jpg",
+      "alt": "秋葉原 和牛すき焼き 暁月の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/346163/640x640_rect_5034ced2c3b1ff77864a49b96bfb3e12.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -15966,6 +16348,15 @@
     ],
     "lat": 35.6986,
     "lng": 139.7764,
+    "image": {
+      "src": "/images/spots/domannaka-akihabara-bettei.jpg",
+      "alt": "どまんなか 秋葉原別邸の店舗写真",
+      "width": 640,
+      "height": 512,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/183245/640x640_rect_3bab8719acda15d32260ab689ac6ab15.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16045,6 +16436,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7744,
+    "image": {
+      "src": "/images/spots/takumi-akihabara.jpg",
+      "alt": "たくみ 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/373913/640x640_rect_3a22011c1b6c658d67d2f7739a3d63b6.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16084,6 +16484,15 @@
     ],
     "lat": 35.6952,
     "lng": 139.7725,
+    "image": {
+      "src": "/images/spots/akihabara-kushigin-3.jpg",
+      "alt": "秋葉原 串吟 3号店の店舗写真",
+      "width": 640,
+      "height": 426,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/93534/640x640_rect_93534686.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "飲み放題",
       "電気街"
@@ -16165,6 +16574,7 @@
     ],
     "lat": 35.6987,
     "lng": 139.772,
+    "website": "http://shinsouen.jp/",
     "tags": [
       "パーツ街・ジャンク街"
     ]
@@ -16205,6 +16615,7 @@
     ],
     "lat": 35.6978,
     "lng": 139.7744,
+    "website": "https://syoku-sai.jp/",
     "tags": [
       "飲み放題",
       "昭和通り"
@@ -16339,6 +16750,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7733,
+    "image": {
+      "src": "/images/spots/torimitsukuni-akihabara.jpg",
+      "alt": "鳥光國 秋葉原アキバトリム店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/114353/320x320_rect_114353474.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16360,6 +16780,15 @@
     ],
     "lat": 35.6952,
     "lng": 139.7725,
+    "image": {
+      "src": "/images/spots/hormone-yakiniku-umauma.jpg",
+      "alt": "ホルモン焼肉 うまうまの店舗写真",
+      "width": 640,
+      "height": 512,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/131668/640x640_rect_131668226.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "電気街"
     ]
@@ -16381,6 +16810,15 @@
     ],
     "lat": 35.6977,
     "lng": 139.7785,
+    "image": {
+      "src": "/images/spots/robata-bar-samada.jpg",
+      "alt": "炉端バル さま田の店舗写真",
+      "width": 640,
+      "height": 431,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/135426/640x640_rect_135426006.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "飲み放題",
       "昭和通り"
@@ -16403,6 +16841,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7764,
+    "image": {
+      "src": "/images/spots/osakana-izakaya-obire-sebire.jpg",
+      "alt": "おさかな居酒屋 おびれせびれの店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/204860/640x640_rect_71555fd49b6b36d091ad49c5d837f758.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16423,6 +16870,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7764,
+    "image": {
+      "src": "/images/spots/yakiniku-emi-kandasakumacho.jpg",
+      "alt": "焼肉 笑の店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/120570/640x640_rect_120570746.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16445,6 +16901,15 @@
     ],
     "lat": 35.6992,
     "lng": 139.776,
+    "image": {
+      "src": "/images/spots/saga-fumoto-akadori-takashina-akihabara.jpg",
+      "alt": "佐賀ふもと赤鶏 酒場髙しな 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 512,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/110742/640x640_rect_110742100.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16466,6 +16931,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7764,
+    "image": {
+      "src": "/images/spots/taishu-hanten-kaneko-kandasakumacho.jpg",
+      "alt": "大衆飯店かね子の店舗写真",
+      "width": 640,
+      "height": 426,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/141735/640x640_rect_141735023.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16487,6 +16961,15 @@
     ],
     "lat": 35.6992,
     "lng": 139.776,
+    "image": {
+      "src": "/images/spots/satomi-fooding-akihabara.jpg",
+      "alt": "trattoria イタリアン SATOMI fooding 秋葉原1号店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/125883/640x640_rect_125883735.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16509,6 +16992,15 @@
     ],
     "lat": 35.6959,
     "lng": 139.7745,
+    "image": {
+      "src": "/images/spots/izakaya-kater-kanda-suda.jpg",
+      "alt": "居酒屋 KATERの店舗写真",
+      "width": 640,
+      "height": 359,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/338945/640x640_rect_fc4e8c488f563232a3abbc01fb08611d.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "電気街"
     ]
@@ -16552,6 +17044,15 @@
     ],
     "lat": 35.6983,
     "lng": 139.7776,
+    "image": {
+      "src": "/images/spots/domannaka-akihabara.jpg",
+      "alt": "どまん中 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 512,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/54475/640x640_rect_54475985.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16574,6 +17075,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7758,
+    "image": {
+      "src": "/images/spots/suginoakari-kandahirakawacho.jpg",
+      "alt": "杉のあかりの店舗写真",
+      "width": 640,
+      "height": 425,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/58193/640x640_rect_58193620.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "岩本町"
     ]
@@ -16594,6 +17104,16 @@
     ],
     "lat": 35.6978,
     "lng": 139.7771,
+    "website": "https://craftbeerbar-ibrew.com/",
+    "image": {
+      "src": "/images/spots/ibrew-craft-beer-akihabara.jpg",
+      "alt": "CRAFT BEER BAR IBREW AKIHABARAの店舗写真",
+      "width": 640,
+      "height": 359,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/104349/640x640_rect_104349755.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16672,6 +17192,16 @@
     ],
     "lat": 35.6978,
     "lng": 139.7764,
+    "website": "https://www.phads.jp/shop/",
+    "image": {
+      "src": "/images/spots/shinjidai-akihabara-honten.jpg",
+      "alt": "新時代 秋葉原本店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/354584/320x320_rect_dbc54b22ef07dd0568d032c0c8a12345.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16723,6 +17253,15 @@
     ],
     "lat": 35.6993,
     "lng": 139.7747,
+    "image": {
+      "src": "/images/spots/pronto-akihabara-kitaguchi.jpg",
+      "alt": "プロント 秋葉原駅北口店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/384314/640x640_rect_28f1c291aec09c5b4a5afa78eefd2bbb.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "岩本町"
     ]
@@ -16745,7 +17284,16 @@
       "izakaya"
     ],
     "lat": 35.702,
-    "lng": 139.7751
+    "lng": 139.7751,
+    "image": {
+      "src": "/images/spots/pushup-akihabara.jpg",
+      "alt": "世界一周 旅ダイニング居酒屋PUSHUP 秋葉原駅店の店舗写真",
+      "width": 640,
+      "height": 426,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/73986/640x640_rect_73986270.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 709,
@@ -16762,6 +17310,16 @@
     ],
     "lat": 35.6974,
     "lng": 139.7699,
+    "website": "https://kiuchibrewery.co.jp/shop/brewing_kanda/",
+    "image": {
+      "src": "/images/spots/hitachino-brewing-lab-manseibashi.jpg",
+      "alt": "常陸野ブルーイング・ラボ マーチエキュート神田万世橋店の店舗写真",
+      "width": 320,
+      "height": 202,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/82481/320x320_rect_82481543.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "電気街"
     ]
@@ -16897,6 +17455,15 @@
     ],
     "lat": 35.6992,
     "lng": 139.776,
+    "image": {
+      "src": "/images/spots/borracho-akihabara.jpg",
+      "alt": "Borracho 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/121365/320x320_rect_121365471.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16950,6 +17517,15 @@
     ],
     "lat": 35.6992,
     "lng": 139.776,
+    "image": {
+      "src": "/images/spots/tsunagian-akihabara.jpg",
+      "alt": "つなぎ庵 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 291,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/196807/640x640_rect_d81396751c281123352365882868fc30.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -16998,6 +17574,7 @@
     ],
     "lat": 35.6956,
     "lng": 139.7769,
+    "website": "http://www.hoso-foods.co.jp/",
     "tags": [
       "岩本町"
     ]
@@ -17020,6 +17597,15 @@
     ],
     "lat": 35.6983,
     "lng": 139.7764,
+    "image": {
+      "src": "/images/spots/tauchi-kandasakumacho.jpg",
+      "alt": "田うちの店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/140019/640x640_rect_140019121.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17062,6 +17648,15 @@
     ],
     "lat": 35.7017,
     "lng": 139.7714,
+    "image": {
+      "src": "/images/spots/beef-kitchen-stand-akihabara-denkigai.jpg",
+      "alt": "BEEF KITCHEN STAND 秋葉原電気街口店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/276271/640x640_rect_e3ee2d3853454deac3606d35b995c920.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "電気街"
     ]
@@ -17084,6 +17679,15 @@
     ],
     "lat": 35.6961,
     "lng": 139.775,
+    "image": {
+      "src": "/images/spots/izakaya-wagaya-akihabara.jpg",
+      "alt": "居酒屋 和が家 秋葉原店の店舗写真",
+      "width": 320,
+      "height": 320,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/201442/320x320_rect_b6a1984dd5a710a60831c77f1a14ae9a.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "飲み放題",
       "岩本町"
@@ -17108,6 +17712,15 @@
     ],
     "lat": 35.6986,
     "lng": 139.7764,
+    "image": {
+      "src": "/images/spots/gyoza-sakaba-akihabara-2.jpg",
+      "alt": "24時間 餃子酒場 秋葉原2号店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/260797/640x640_rect_f05f2cd22e06a1052277bb8c4e7a48cc.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17182,6 +17795,15 @@
     ],
     "lat": 35.6987,
     "lng": 139.772,
+    "image": {
+      "src": "/images/spots/nikuyayokocho-akihabara-shabushabu.jpg",
+      "alt": "和牛放題の殿堂 秋葉原 肉屋横丁 しゃぶしゃぶの店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/283351/640x640_rect_d21a98797cedfb09257d6403f73310cd.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "飲み放題",
       "パーツ街・ジャンク街"
@@ -17205,7 +17827,16 @@
       "izakaya"
     ],
     "lat": 35.694,
-    "lng": 139.7722
+    "lng": 139.7722,
+    "image": {
+      "src": "/images/spots/wabisuke-kanda.jpg",
+      "alt": "神田 つけ蕎麦 わびすけの店舗写真",
+      "width": 640,
+      "height": 510,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/73651/640x640_rect_73651899.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 729,
@@ -17224,6 +17855,16 @@
     ],
     "lat": 35.6959,
     "lng": 139.7745,
+    "website": "https://www.osaka-ohsho.com/",
+    "image": {
+      "src": "/images/spots/osaka-osho-iwamotocho.jpg",
+      "alt": "大阪王将 岩本町店の店舗写真",
+      "width": 640,
+      "height": 425,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/374128/640x640_rect_431972a1a421475a369d9d514aaad287.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "電気街"
     ]
@@ -17247,6 +17888,15 @@
     ],
     "lat": 35.7006,
     "lng": 139.7733,
+    "image": {
+      "src": "/images/spots/surugaya-kahei-akihabara-chabara.jpg",
+      "alt": "駿河屋賀兵衛 秋葉原ちゃばら店の店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/294488/640x640_rect_3ba707fb9c8e48ee8357a4f0452bd20e.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "岩本町"
     ]
@@ -17310,6 +17960,16 @@
     ],
     "lat": 35.6978,
     "lng": 139.7758,
+    "website": "https://akiba-yamashiroya.com/guide/",
+    "image": {
+      "src": "/images/spots/yamashiroya-kandahirakawacho.jpg",
+      "alt": "山城屋の店舗写真",
+      "width": 480,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/277067/640x640_rect_48b498282ed1894bf3e55e7d422d8f24.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "岩本町"
     ]
@@ -17329,6 +17989,15 @@
     ],
     "lat": 35.6958,
     "lng": 139.7731,
+    "image": {
+      "src": "/images/spots/monkey-pod-kanda-suda.jpg",
+      "alt": "モンキーポッドの店舗写真",
+      "width": 360,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/361988/640x640_rect_5c837b7e29ecc30458209b330cb176cc.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "電気街"
     ]
@@ -17453,6 +18122,15 @@
     ],
     "lat": 35.6986,
     "lng": 139.7746,
+    "image": {
+      "src": "/images/spots/shaoyanchun-yodobashi-akiba.jpg",
+      "alt": "小陽春 ヨドバシ秋葉原店の店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/382082/640x640_rect_30f71a1078e0fe63de3262155b8b4c7a.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "中央口"
     ]
@@ -17472,6 +18150,15 @@
     ],
     "lat": 35.6983,
     "lng": 139.7776,
+    "image": {
+      "src": "/images/spots/suzunoki-kandasakumacho.jpg",
+      "alt": "すずの木の店舗写真",
+      "width": 480,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/105106/640x640_rect_105106377.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17513,6 +18200,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7744,
+    "image": {
+      "src": "/images/spots/satsumabiyori-akihabara.jpg",
+      "alt": "個室鍋処 薩摩日和 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/172353/640x640_rect_f8ce5edd0a186d7f9ddafc182102e19a.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "飲み放題",
       "昭和通り"
@@ -17535,6 +18231,15 @@
     ],
     "lat": 35.6978,
     "lng": 139.7752,
+    "image": {
+      "src": "/images/spots/gofuku-akihabara.jpg",
+      "alt": "五福 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 426,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/206831/640x640_rect_849c6ba188cf5b7ca0f0bae6c73defd1.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17557,6 +18262,15 @@
     ],
     "lat": 35.6983,
     "lng": 139.7764,
+    "image": {
+      "src": "/images/spots/beef-kitchen-stand-apahotel-akihabara.jpg",
+      "alt": "ビーフキッチンスタンド アパホテル秋葉原店の店舗写真",
+      "width": 640,
+      "height": 427,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/381085/640x640_rect_dd78569ed3c8996f57a47c9683dd7918.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17578,6 +18292,15 @@
     ],
     "lat": 35.700043,
     "lng": 139.775024,
+    "image": {
+      "src": "/images/spots/akihabara-gyoko-kaikai.jpg",
+      "alt": "秋葉原漁港 快海の店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/385391/640x640_rect_5963616932a4b963a426c89f4b003929.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "岩本町"
     ]
@@ -17708,6 +18431,15 @@
     ],
     "lat": 35.698578,
     "lng": 139.778412,
+    "image": {
+      "src": "/images/spots/sakatsubo-kandasakumacho.jpg",
+      "alt": "さかつぼの店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/115283/640x640_rect_115283184.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17809,6 +18541,15 @@
     ],
     "lat": 35.697689,
     "lng": 139.778488,
+    "image": {
+      "src": "/images/spots/tontontei-kandasakumacho.jpg",
+      "alt": "とんとん亭の店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/376708/640x640_rect_4975b60833f0e8e1a5cae57ab40d9c84.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17830,6 +18571,15 @@
     ],
     "lat": 35.699192,
     "lng": 139.77597,
+    "image": {
+      "src": "/images/spots/torizen-kandaizumicho.jpg",
+      "alt": "とり善の店舗写真",
+      "width": 480,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/286717/640x640_rect_41625830e104e80a91fa8d1bca3d47cb.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17889,6 +18639,15 @@
     ],
     "lat": 35.698647,
     "lng": 139.776443,
+    "image": {
+      "src": "/images/spots/goemon-kandasakumacho.jpg",
+      "alt": "GOEMONの店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/125897/640x640_rect_125897259.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -17946,6 +18705,16 @@
     ],
     "lat": 35.698345,
     "lng": 139.777634,
+    "website": "http://www.danke-bros.co.jp/",
+    "image": {
+      "src": "/images/spots/kajiya-bunzo-akihabara.jpg",
+      "alt": "鍛冶屋 文蔵 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/379613/640x640_rect_cff48d72e5c2e1a4f2885598c3a2b6d1.jpg",
+      "copyrightRisk": true
+    },
     "tags": [
       "昭和通り"
     ]
@@ -18221,7 +18990,16 @@
       "ラーメンモンタナ"
     ],
     "lat": 35.69915,
-    "lng": 139.775208
+    "lng": 139.775208,
+    "image": {
+      "src": "/images/spots/ramen-montana-akihabara.jpg",
+      "alt": "ラーメンモンタナ 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/381067/640x640_rect_1c36e2b0ff17d05cc0319c3df16ff0fd.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 775,
@@ -18306,7 +19084,16 @@
       "しゃかりき"
     ],
     "lat": 35.697803,
-    "lng": 139.776352
+    "lng": 139.776352,
+    "image": {
+      "src": "/images/spots/shakariki-akihabara.jpg",
+      "alt": "全国銘酒 しゃかりき 秋葉原店の店舗写真",
+      "width": 640,
+      "height": 358,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/384621/640x640_rect_c63f19c4bdd8b1ca984ab1c8df013bd2.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 778,
@@ -18328,7 +19115,16 @@
       "昭和通り"
     ],
     "lat": 35.697388,
-    "lng": 139.77739
+    "lng": 139.77739,
+    "image": {
+      "src": "/images/spots/rojinooku-pot.jpg",
+      "alt": "路地ノ奥 POTの店舗写真",
+      "width": 640,
+      "height": 426,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/341996/640x640_rect_7c7185743bb81a0682aa96056b73da8d.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 779,
@@ -18355,7 +19151,16 @@
       "焼肉 金子苑"
     ],
     "lat": 35.697803,
-    "lng": 139.776352
+    "lng": 139.776352,
+    "image": {
+      "src": "/images/spots/kanekoen-akihabara.jpg",
+      "alt": "金子苑の店舗写真",
+      "width": 640,
+      "height": 640,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/367674/640x640_rect_cb6b060eab734cf3348245cbd166e4b8.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 780,
@@ -18415,7 +19220,15 @@
       "ビッグマジック 秋葉原店"
     ],
     "lat": 35.697674,
-    "lng": 139.771881
+    "lng": 139.771881,
+    "image": {
+      "src": "/images/spots/bigmagic-akihabara.jpg",
+      "alt": "秋葉原ラジオ会館（BIGMAGIC 秋葉原店が所在するビル）の外観",
+      "width": 1280,
+      "height": 960,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan,_2010-03-06.jpg"
+    }
   },
   {
     "id": 782,
@@ -18440,7 +19253,15 @@
       "イエサブ 秋葉原"
     ],
     "lat": 35.697674,
-    "lng": 139.771881
+    "lng": 139.771881,
+    "image": {
+      "src": "/images/spots/yellow-submarine-akihabara-mint.jpg",
+      "alt": "秋葉原ラジオ会館（イエローサブマリン 秋葉原本店ミントが所在するビル）の外観",
+      "width": 1280,
+      "height": 960,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan,_2010-03-06.jpg"
+    }
   },
   {
     "id": 783,
@@ -18564,7 +19385,15 @@
       "あみあみ ラジオ会館店"
     ],
     "lat": 35.697674,
-    "lng": 139.771881
+    "lng": 139.771881,
+    "image": {
+      "src": "/images/spots/amiami-akihabara-radio-kaikan.jpg",
+      "alt": "秋葉原ラジオ会館（あみあみ秋葉原ラジオ会館店が所在するビル）の外観",
+      "width": 1280,
+      "height": 960,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan,_2010-03-06.jpg"
+    }
   },
   {
     "id": 788,
@@ -18586,7 +19415,8 @@
       "MARURU 6号店"
     ],
     "lat": 35.698578,
-    "lng": 139.771545
+    "lng": 139.771545,
+    "website": "https://figure-online.net/"
   },
   {
     "id": 789,
@@ -18685,7 +19515,15 @@
       "ホビステ 秋葉原本店"
     ],
     "lat": 35.698681,
-    "lng": 139.770859
+    "lng": 139.770859,
+    "image": {
+      "src": "/images/spots/hobby-station-akihabara.jpg",
+      "alt": "東京ラジオデパートビル2階「ホビーステーション 秋葉原本店」の外観",
+      "width": 856,
+      "height": 1280,
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Radio_Department_Store,_Akihabara,_Oct_2005.jpg"
+    }
   },
   {
     "id": 793,
@@ -18709,7 +19547,15 @@
       "カードキングダム 秋葉原"
     ],
     "lat": 35.698284,
-    "lng": 139.771698
+    "lng": 139.771698,
+    "image": {
+      "src": "/images/spots/card-kingdom-akihabara-ekimae.jpg",
+      "alt": "カードキングダム 秋葉原駅前店の関連ビジュアル",
+      "width": 1280,
+      "height": 1920,
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_scenery_IMG_5991.jpg"
+    }
   },
   {
     "id": 794,
@@ -18957,7 +19803,16 @@
       "三省堂書店 アトレ秋葉原"
     ],
     "lat": 35.698345,
-    "lng": 139.772522
+    "lng": 139.772522,
+    "website": "https://www.books-sanseido.co.jp/shop/atre_akihabara1/",
+    "image": {
+      "src": "/images/spots/sanseido-atre-akihabara.jpg",
+      "alt": "三省堂書店 アトレ秋葉原1の関連ビジュアル",
+      "width": 1280,
+      "height": 720,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanseido_Bookstore_2016_(30743421065).jpg"
+    }
   },
   {
     "id": 804,
@@ -19006,7 +19861,15 @@
       "コミックZIN 秋葉原店"
     ],
     "lat": 35.699543,
-    "lng": 139.771133
+    "lng": 139.771133,
+    "image": {
+      "src": "/images/spots/comic-zin-akihabara.jpg",
+      "alt": "COMIC ZIN 秋葉原店の関連ビジュアル",
+      "width": 1280,
+      "height": 960,
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:COMIC_ZIN_Akihabara.JPG"
+    }
   },
   {
     "id": 806,
@@ -19030,7 +19893,16 @@
       "ケイブックス 秋葉原本館"
     ],
     "lat": 35.697674,
-    "lng": 139.771881
+    "lng": 139.771881,
+    "website": "https://k-books.co.jp/",
+    "image": {
+      "src": "/images/spots/k-books-akihabara.jpg",
+      "alt": "秋葉原ラジオ会館（K-BOOKS 秋葉原本館が所在するビル）の外観",
+      "width": 1280,
+      "height": 960,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan,_2010-03-06.jpg"
+    }
   },
   {
     "id": 807,
@@ -19054,7 +19926,8 @@
       "らしんばんAKIBA DEEP BASE"
     ],
     "lat": 35.701344,
-    "lng": 139.771774
+    "lng": 139.771774,
+    "website": "https://www.rashinban.jp/"
   },
   {
     "id": 808,
@@ -19078,7 +19951,15 @@
       "レトロげーむキャンプ"
     ],
     "lat": 35.701321,
-    "lng": 139.771362
+    "lng": 139.771362,
+    "image": {
+      "src": "/images/spots/retro-game-camp-akihabara.jpg",
+      "alt": "レトロげーむキャンプ 秋葉原店の関連ビジュアル",
+      "width": 1280,
+      "height": 960,
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Retro_Game_display_case.jpg"
+    }
   },
   {
     "id": 809,
@@ -19158,7 +20039,15 @@
       "TSUKUMOeX."
     ],
     "lat": 35.701084,
-    "lng": 139.771744
+    "lng": 139.771744,
+    "image": {
+      "src": "/images/spots/tsukumo-ex.jpg",
+      "alt": "TSUKUMO eX.の関連ビジュアル",
+      "width": 1280,
+      "height": 1707,
+      "sourceLabel": "Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TSUKUMO_eX._PC_building.JPG"
+    }
   },
   {
     "id": 812,
@@ -19312,7 +20201,17 @@
       "ビックカメラ AKIBA 3階 BIC RECORDS"
     ],
     "lat": 35.699734,
-    "lng": 139.771606
+    "lng": 139.771606,
+    "website": "https://www.biccamera.com/",
+    "image": {
+      "src": "/images/spots/biccamera-akiba.jpg",
+      "alt": "ビックカメラ AKIBAの店舗写真",
+      "width": 640,
+      "height": 480,
+      "sourceLabel": "食べログ 投稿写真",
+      "sourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/353880/640x640_rect_10df9a8d02239e7c091922ac66422b8c.jpg",
+      "copyrightRisk": true
+    }
   },
   {
     "id": 818,
@@ -19338,7 +20237,15 @@
       "東京ラジオデパート3F"
     ],
     "lat": 35.698681,
-    "lng": 139.770859
+    "lng": 139.770859,
+    "image": {
+      "src": "/images/spots/tokyo-radio-department.jpg",
+      "alt": "東京ラジオデパート（ホビーステーション等のテナントが並ぶ商業ビル）の外観",
+      "width": 856,
+      "height": 1280,
+      "sourceLabel": "Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Radio_Department_Store,_Akihabara,_Oct_2005.jpg"
+    }
   },
   {
     "id": 819,
@@ -19361,7 +20268,16 @@
       "らしんばん秋葉原ラジオ会館店"
     ],
     "lat": 35.697674,
-    "lng": 139.771881
+    "lng": 139.771881,
+    "website": "https://www.rashinban.jp/",
+    "image": {
+      "src": "/images/spots/lashinbang-akihabara-radio-kaikan.jpg",
+      "alt": "秋葉原ラジオ会館（らしんばん 秋葉原ラジオ会館店が所在するビル）の外観",
+      "width": 1280,
+      "height": 960,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan,_2010-03-06.jpg"
+    }
   },
   {
     "id": 820,
