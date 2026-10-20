@@ -318,9 +318,14 @@ export const getArticlesByTagId = (id: number): Article[] => {
   return getAllArticles().filter((a) => a.tagIds.includes(id))
 }
 
-export const getArticlesBySpotName = (spotName: string, aliases: string[] = []): Article[] => {
+export const getArticlesBySpotName = (
+  spotName: string,
+  aliases: string[] = [],
+  tagId?: number,
+): Article[] => {
   const names = [spotName, ...aliases]
   return getAllArticles().filter((a) => {
+    if (tagId !== undefined && a.tagIds.includes(tagId)) return true
     if (
       a.event &&
       names.some(

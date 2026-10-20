@@ -13,6 +13,7 @@ import {
 } from "lib/spots"
 import {
   getArticlesBySpotName,
+  getAllTagsData,
   formatDate,
   getArticleImage,
 } from "lib/articles"
@@ -74,10 +75,13 @@ const Page = async ({ params }: Props) => {
       ]
     : []
   const spotImage = getSpotImage(spot)
-  const relatedArticles = getArticlesBySpotName(spot.name, spot.aliases).slice(
-    0,
-    10
-  )
+  const spotNames = [spot.name, ...(spot.aliases ?? [])]
+  const sameNameTag = getAllTagsData().find((t) => spotNames.includes(t.name))
+  const relatedArticles = getArticlesBySpotName(
+    spot.name,
+    spot.aliases,
+    sameNameTag?.id
+  ).slice(0, 10)
   const spotKeywords = getSpotSeoKeywords(spot)
   const otherCategorySpots = getNearbySpots(spot)
 

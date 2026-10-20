@@ -131,6 +131,12 @@ export const getDetailPageSpots = (): Spot[] =>
 export const getSpotBySlug = (slug: string): Spot | undefined =>
   (spotsData as Spot[]).find((s) => s.slug === slug)
 
+/** Detail-page spot whose name or alias equals `name` (e.g. a same-name tag). */
+export const getSpotByName = (name: string): Spot | undefined =>
+  getDetailPageSpots().find(
+    (s) => s.name === name || (s.aliases ?? []).includes(name)
+  )
+
 export const getAllSpotSlugs = (): string[] =>
   getDetailPageSpots().map((s) => s.slug)
 

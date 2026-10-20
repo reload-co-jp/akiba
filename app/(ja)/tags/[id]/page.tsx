@@ -4,6 +4,7 @@ import AdsenseDisplayAd from "components/adsense-display-ad"
 import { notFound } from "next/navigation"
 import { absoluteUrl } from "lib/site"
 import { hasWorkLanding } from "lib/event-landings"
+import { getSpotByName } from "lib/spots"
 import {
   formatDate,
   getAllTags,
@@ -45,6 +46,8 @@ export const generateMetadata = async ({ params }: Props) => {
   const tag = getTagById(Number(id))
   if (!tag) return {}
   const cuisine = gourmetTagCuisine[tag.name]
+  // 同名スポットがあればスポットページを正規URLにしてカニバリを避ける
+  const spot = getSpotByName(tag.name)
   // イベント情報は /events/work/[id]/ に寄せ、タグページは記事一覧として差別化
   const title = cuisine
     ? `秋葉原の${tag.name}情報一覧｜新店舗・ニュース`
@@ -79,7 +82,9 @@ export const generateMetadata = async ({ params }: Props) => {
     title,
     description,
     keywords,
-    alternates: { canonical: `/tags/${id}/` },
+    alternates: {
+      canonical: spot ? `/spots/${spot.slug}/` : `/tags/${id}/`,
+    },
     openGraph: {
       title: `${title} | アキバLive`,
       description,
@@ -104,6 +109,7 @@ const Page = async ({ params }: Props) => {
   const articles = getArticlesByTagId(tag.id)
   const tagUrl = absoluteUrl(`/tags/${id}/`)
   const cuisine = gourmetTagCuisine[tag.name]
+  const spot = getSpotByName(tag.name)
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -181,6 +187,13 @@ const Page = async ({ params }: Props) => {
               秋葉原の{tag.name}一覧
             </Link>
             もあわせてチェック。
+          </p>
+        )}
+        {spot && (
+          <p className="gourmet-lead">
+            アクセスや開催イベントは
+            <Link href={`/spots/${spot.slug}/`}>{spot.name}のスポット情報</Link>
+            をチェック。
           </p>
         )}
         {hasWorkLanding(tag.id) && (
