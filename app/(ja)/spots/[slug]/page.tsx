@@ -114,7 +114,7 @@ const Page = async ({ params }: Props) => {
     ],
     ...(spot.hours ? { openingHours: spot.hours } : {}),
     ...(isEatery && spot.cuisine?.length
-      ? { servesCuisine: spot.cuisine }
+      ? { servesCuisine: spot.cuisine.map(getCuisineLabel) }
       : {}),
     ...(spot.priceRange ? { priceRange: spot.priceRange } : {}),
     publicAccess: true,
