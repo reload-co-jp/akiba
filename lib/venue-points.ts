@@ -45,6 +45,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "神田明神文化交流館 EDOCCO STUDIO": { lat: 35.7017, lng: 139.7677 },
   "リズムキャンバス": { lat: 35.7027, lng: 139.7694 },
   "書泉ブックタワー": { lat: 35.6976, lng: 139.7745 },
+  "御茶ノ水ソラシティ": { lat: 35.6995, lng: 139.7651 },
   "Clove Lounge Cafe &Bar 秋葉原": { lat: 35.6978, lng: 139.7747 },
   "AKIBA FAN CUBE": { lat: 35.6988, lng: 139.7716 },
   "テレオンsound 110 5F試聴室": { lat: 35.7, lng: 139.773 },

@@ -1523,3 +1523,27 @@
 {"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BajZoUU52WmI5N0x2YjNkYXN1d3pyMDlEcmdyZFdNNUpsYU10Y0Eyd0JPcXMxTUNLN3NfVXhyR3RxM3Fka2gzaVdoRUwtSXdXaVZmTW5aYWJHYTA?oc=5", "reason": "insufficient_facts", "note": "ロンネフェルト trick or tea エキュート秋葉原、一次ソース未発見", "checked": "2026-10-21"}
 {"url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PV2tOT3dUb2Fub3NyTTAzSlk3QklQZkU4VUpnMVZla3lneUNpTWpSY1JPUUx0UFZoMTE2VVhhY2VkUlNrYXZmTEJGU3EzYWRCNldkdV8xQQ?oc=5", "reason": "insufficient_facts", "note": "学マス POP UP アニメイト秋葉原1号館、一次ソース未発見", "checked": "2026-10-21"}
 {"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2149000.html", "reason": "event_ended", "note": "週末まとめ: ブシロードクリエイティブ10周年(10/10終了)ほか日付不明の小ネタ", "checked": "2026-10-21"}
+{"url": "https://www.shosen.co.jp/event/46226/", "reason": "out_of_scope_venue", "note": "書泉オンラインWEBサイン会（グランデ扱い）", "checked": "2026-10-23"}
+{"url": "https://www.shosen.co.jp/event/46545/", "reason": "out_of_scope_venue", "note": "書泉オンラインWEBサイン会（グランデ扱い）", "checked": "2026-10-23"}
+{"url": "https://collabo-cafe.com/events/collabo/hellokitty-egoist-cecilmcbee-donki-setup-2026/", "reason": "not_akihabara_specific", "note": "ドンキ全国販売", "checked": "2026-10-23"}
+{"url": "https://collabo-cafe.com/events/collabo/kyoiku-tv-drugstore-popup-ikebukuro-parco-2026/", "reason": "not_akihabara_specific", "note": "池袋PARCO", "checked": "2026-10-23"}
+{"url": "https://collabo-cafe.com/events/collabo/conan-diner-popup-shop-shibuya-stream-2026/", "reason": "not_akihabara_specific", "note": "渋谷", "checked": "2026-10-23"}
+{"url": "https://collabo-cafe.com/events/collabo/hikarugashinda-gengaten-tenjikai-tokyo-2027/", "reason": "not_akihabara_specific", "note": "東京・会場未定", "checked": "2026-10-23"}
+{"url": "https://www.enjoytokyo.jp/event/2000823/", "reason": "not_akihabara_specific", "note": "スカイツリー", "checked": "2026-10-23"}
+{"url": "https://www.enjoytokyo.jp/event/2044306/", "reason": "not_akihabara_specific", "note": "上野", "checked": "2026-10-23"}
+{"url": "https://www.enjoytokyo.jp/event/478596/", "reason": "not_akihabara_specific", "note": "よみうりランド", "checked": "2026-10-23"}
+{"url": "https://visit-chiyoda.tokyo/app/event/detail/961", "reason": "insufficient_facts", "note": "神田錦町謎解き 画像・主催ページなし", "checked": "2026-10-23"}
+{"url": "https://news.mynavi.jp/article/20261021-5168256/", "reason": "event_ended", "note": "スピルバン上映 UDXシアター 9/5終了", "checked": "2026-10-23"}
+{"url": "https://mainichi.jp/articles/20261022/k00/00m/040/122000c", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://unnan.keizai.biz/headline/457/", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://izu.keizai.biz/headline/2594/", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://www.lisani.jp/0000320589/", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://www.fnn.jp/articles/-/1138149", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://finance.logmi.jp/385944", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://nijimen.kusuguru.co.jp/topics/641560", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://dengekionline.com/article/202610/91612", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "http://www.gamespark.jp/article/2026/10/21/173880.html", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://news.yahoo.co.jp/expert/articles/195bd31dc371d0876fa1d4eeb7948379b1b1bd28", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://www.nikkan-gendai.com/articles/view/geinox/394398", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://www.jmd.co.jp/article.php?no=319468", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
+{"url": "https://nijimen.kusuguru.co.jp/topics/640873", "reason": "not_akihabara_specific", "note": "秋葉原言及のみ", "checked": "2026-10-23"}
