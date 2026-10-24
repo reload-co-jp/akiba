@@ -1,5 +1,6 @@
+import SensitiveImg from "components/sensitive-img"
 import Link from "next/link"
-import { getTagColorClass } from "lib/articles"
+import { getTagColorClass, type SensitiveImage } from "lib/articles"
 
 const PLACEHOLDER = {
   src: "/images/placeholder.jpg",
@@ -10,7 +11,7 @@ const PLACEHOLDER = {
 
 type Props = {
   href: string
-  image?: { src: string; alt: string; width?: number; height?: number }
+  image?: { src: string; alt: string; width?: number; height?: number; sensitive?: SensitiveImage }
   title: string
   venue: string
   dateRange: string
@@ -51,7 +52,8 @@ export const EventCard = ({
               : "events-card events-card--with-image"
           }
         >
-          <img
+          <SensitiveImg
+              sensitive={image?.sensitive}
             className={
               isGrid
                 ? "events-card__image events-card__image--grid"

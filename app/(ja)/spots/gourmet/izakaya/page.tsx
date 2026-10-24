@@ -1,3 +1,4 @@
+import SensitiveImg from "components/sensitive-img"
 import Link from "next/link"
 import {
   getAllTags,
@@ -318,7 +319,8 @@ const Page = () => {
                       className="article-card-link"
                     >
                       <article className="article-card">
-                        <img
+                        <SensitiveImg
+              sensitive={image.sensitive}
                           src={image.src}
                           alt={image.alt}
                           width={image.width}

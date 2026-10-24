@@ -1,5 +1,6 @@
 "use client"
 
+import SensitiveImg from "components/sensitive-img"
 import { useState, Fragment } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
@@ -145,7 +146,8 @@ export function ArticlesViewToggle({ articles }: { articles: Article[] }) {
                   className="article-card-link"
                 >
                   <article className="article-card">
-                    <img
+                    <SensitiveImg
+              sensitive={image.sensitive}
                       src={image.src}
                       alt={image.alt}
                       width={image.width}

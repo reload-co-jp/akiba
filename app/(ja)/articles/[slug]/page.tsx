@@ -1,3 +1,4 @@
+import SensitiveImg from "components/sensitive-img"
 import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -465,7 +466,8 @@ const Page = async ({ params }: Props) => {
 
         <figure className="article-hero-image">
           {isPlaceholderImage ? (
-            <img
+            <SensitiveImg
+              sensitive={articleImage.sensitive}
               src={articleImage.src}
               alt={articleImage.alt}
               width={articleImage.width}
@@ -771,7 +773,8 @@ const Page = async ({ params }: Props) => {
                       className="article-card-link"
                     >
                       <article className="article-card">
-                        <img
+                        <SensitiveImg
+              sensitive={image.sensitive}
                           src={image.src}
                           alt={image.alt}
                           width={image.width}

@@ -1,3 +1,4 @@
+import SensitiveImg from "components/sensitive-img"
 import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import AdsenseDisplayAd from "components/adsense-display-ad"
@@ -217,7 +218,8 @@ const Page = async ({ params }: Props) => {
                   className="article-card-link"
                 >
                   <article className="article-card">
-                    <img
+                    <SensitiveImg
+              sensitive={image.sensitive}
                       src={image.src}
                       alt={image.alt}
                       width={image.width}

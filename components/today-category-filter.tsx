@@ -1,5 +1,6 @@
 "use client"
 
+import type { SensitiveImage } from "lib/articles"
 import { useState } from "react"
 import { fmtRange } from "lib/format"
 import { EventCard } from "components/event-card"
@@ -8,7 +9,7 @@ export type CategoryFilterEvent = {
   id: number
   slug: string
   title: string
-  image?: { src: string; alt: string }
+  image?: { src: string; alt: string; sensitive?: SensitiveImage }
   event: {
     venue: string
     startDate: string

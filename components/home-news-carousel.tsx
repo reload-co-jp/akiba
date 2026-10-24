@@ -1,5 +1,6 @@
 "use client"
 
+import SensitiveImg from "components/sensitive-img"
 import { useRef } from "react"
 import Link from "next/link"
 import type { Article } from "lib/articles"
@@ -61,7 +62,8 @@ export function HomeNewsCarousel({ articles }: { articles: Article[] }) {
                   textDecoration: "none",
                 }}
               >
-                <img
+                <SensitiveImg
+              sensitive={image.sensitive}
                   src={image.src}
                   alt={image.alt}
                   width={image.width}

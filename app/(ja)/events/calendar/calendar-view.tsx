@@ -1,5 +1,6 @@
 "use client"
 
+import SensitiveImg from "components/sensitive-img"
 import { useState } from "react"
 import Link from "next/link"
 import { getArticleImage } from "lib/articles"
@@ -345,7 +346,8 @@ export const CalendarView = ({ events, maxEvents }: Props) => {
                       href={`/articles/${a.slug}/`}
                       className="cal__list-item"
                     >
-                      <img
+                      <SensitiveImg
+              sensitive={image.sensitive}
                         className="cal__list-image"
                         src={image.src}
                         alt={image.alt}

@@ -1,5 +1,6 @@
 "use client"
 
+import SensitiveImg from "components/sensitive-img"
 import { Fragment } from "react"
 import Link from "next/link"
 import type { Article } from "lib/articles"
@@ -72,7 +73,8 @@ export function HomeArticlesFilter({ articles }: { articles: Article[] }) {
                   className="article-card-link"
                 >
                   <article className="article-card">
-                    <img
+                    <SensitiveImg
+              sensitive={image.sensitive}
                       src={image.src}
                       alt={image.alt}
                       width={image.width}

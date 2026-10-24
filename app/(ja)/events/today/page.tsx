@@ -125,7 +125,7 @@ const Page = () => {
     id: a.id,
     slug: a.slug,
     title: a.title,
-    image: a.image,
+    image: getArticleImage(a),
     tags: a.tagIds.flatMap((tid) => (tagMap[tid] ? [tagMap[tid]] : [])),
     event: {
       venue: a.event!.venue,
@@ -146,7 +146,7 @@ const Page = () => {
         id: a.id,
         slug: a.slug,
         title: a.title,
-        image: a.image,
+        image: getArticleImage(a),
         event: {
           venue: a.event!.venue,
           startDate: a.event!.startDate,

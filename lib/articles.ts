@@ -55,6 +55,8 @@ export type Article = {
     height?: number
     sourceLabel?: string
     sourceUrl?: string
+    /** AdSenseでアダルト判定された画像。クリックするまでカバー表示する。 */
+    sensitive?: boolean
   }
   sources?: {
     label: string
@@ -216,8 +218,24 @@ export const placeholderImage = {
   height: 683,
 }
 
-export const getArticleImage = (article: Article) =>
-  article.image ?? placeholderImage
+export type SensitiveImage = {
+  src: string
+  alt: string
+  width?: number
+  height?: number
+}
+
+// sensitive画像はHTML/OGP/フィードに実URLを出さず、クリック時のみ `sensitive` から表示する
+export const getArticleImage = (
+  article: Article,
+): SensitiveImage & { sensitive?: SensitiveImage } => {
+  const image = article.image
+  if (!image) return placeholderImage
+  const { src, alt, width, height, sensitive } = image
+  if (sensitive)
+    return { ...placeholderImage, sensitive: { src, alt, width, height } }
+  return { src, alt, width, height }
+}
 
 export const getAllArticles = (): Article[] => {
   return [...articlesData].sort(

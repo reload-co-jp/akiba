@@ -1,5 +1,6 @@
 "use client"
 
+import SensitiveImg from "components/sensitive-img"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import type { Article } from "lib/articles"
@@ -36,7 +37,8 @@ export function SearchResults({ articles }: { articles: Article[] }) {
             <li key={article.id}>
               <Link href={`/articles/${article.slug}/`} className="article-card-link">
                 <article className="article-card">
-                  <img
+                  <SensitiveImg
+              sensitive={image.sensitive}
                     src={image.src}
                     alt={image.alt}
                     width={image.width}

@@ -3730,7 +3730,8 @@
       "sourceLabel": "Gamer",
       "sourceUrl": "https://www.gamer.ne.jp/news/202607100004/",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "sensitive": true
     },
     "sources": [
       {
@@ -7059,7 +7060,8 @@
       "sourceLabel": "LivePocketイベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/7o9aw",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -7250,7 +7252,8 @@
       "sourceLabel": "LivePocketイベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/073q2",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -7297,7 +7300,8 @@
       "sourceLabel": "LivePocketイベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/17jpu",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -7344,7 +7348,8 @@
       "sourceLabel": "LivePocketイベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/mwrw8",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -7391,7 +7396,8 @@
       "sourceLabel": "LivePocketイベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/8ljys",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -11543,7 +11549,8 @@
       "sourceLabel": "LivePocket イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/56vu-",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -12963,7 +12970,8 @@
       "sourceLabel": "LivePocket",
       "sourceUrl": "https://t.livepocket.jp/e/1i4-h",
       "width": 600,
-      "height": 600
+      "height": 600,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15208,7 +15216,8 @@
       "sourceLabel": "ゲーマーズ 公式ページ",
       "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7491",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15550,7 +15559,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/zh_lk",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15590,7 +15600,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/i1hzt",
       "width": 300,
-      "height": 300
+      "height": 300,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15630,7 +15641,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/aag78",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15671,7 +15683,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/adktn",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15711,7 +15724,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/cudct",
       "width": 600,
-      "height": 600
+      "height": 600,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15751,7 +15765,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/5o5ig",
       "width": 200,
-      "height": 200
+      "height": 200,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15791,7 +15806,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/0_lrn",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15831,7 +15847,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/vnybo",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -15871,7 +15888,8 @@
       "sourceLabel": "ライブポケット イベントページ",
       "sourceUrl": "https://t.livepocket.jp/e/jxdx-",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -17382,7 +17400,8 @@
       "sourceLabel": "LivePocket",
       "sourceUrl": "https://t.livepocket.jp/e/kvrrf",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "sensitive": true
     },
     "sources": [
       {
@@ -17462,7 +17481,8 @@
       "sourceLabel": "LivePocket",
       "sourceUrl": "https://t.livepocket.jp/e/u-rmq",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -17502,7 +17522,8 @@
       "sourceLabel": "LivePocket",
       "sourceUrl": "https://t.livepocket.jp/e/d2u79",
       "width": 1709,
-      "height": 2388
+      "height": 2388,
+      "sensitive": true
     },
     "sources": [
       {
@@ -17582,7 +17603,8 @@
       "sourceLabel": "LivePocket",
       "sourceUrl": "https://t.livepocket.jp/e/rrqj7",
       "width": 1709,
-      "height": 2386
+      "height": 2386,
+      "sensitive": true
     },
     "sources": [
       {
@@ -17700,7 +17722,8 @@
       "sourceLabel": "LivePocket",
       "sourceUrl": "https://t.livepocket.jp/e/b5q3m",
       "width": 1333,
-      "height": 2000
+      "height": 2000,
+      "sensitive": true
     },
     "sources": [
       {
@@ -18997,7 +19020,8 @@
       "sourceLabel": "ゲーマーズ イベント・フェア",
       "sourceUrl": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7365",
       "width": 1,
-      "height": 1
+      "height": 1,
+      "sensitive": true
     },
     "sources": [
       {
@@ -19721,7 +19745,8 @@
       "sourceLabel": "LivePocket",
       "sourceUrl": "https://t.livepocket.jp/e/2_8tn",
       "width": 96,
-      "height": 96
+      "height": 96,
+      "sensitive": true
     },
     "sources": [
       {
@@ -28902,7 +28927,8 @@
       "sourceLabel": "Clove Lounge 公式特設ページ",
       "sourceUrl": "https://clovecafe.jp/dolphinwave-cafe2026",
       "width": 100,
-      "height": 100
+      "height": 100,
+      "sensitive": true
     },
     "sources": [
       {
@@ -41649,7 +41675,8 @@
       "src": "/images/articles/azurlane-mahou-shoujo-22curry-akihabara-2026.jpg",
       "alt": "「アズールレーン」魔法少女計画シリーズ×22カレーの告知ビジュアル",
       "sourceLabel": "Collabo Cafe",
-      "sourceUrl": "https://collabo-cafe.com/events/collabo/azurlane-cafe-22curry-akihabara-2026/"
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/azurlane-cafe-22curry-akihabara-2026/",
+      "sensitive": true
     },
     "sources": [
       {

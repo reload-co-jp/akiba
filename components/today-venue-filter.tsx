@@ -1,5 +1,6 @@
 "use client"
 
+import type { SensitiveImage } from "lib/articles"
 import { Fragment, useEffect, useState } from "react"
 import { fmtRange } from "lib/format"
 import { EventCard } from "components/event-card"
@@ -9,7 +10,7 @@ export type VenueFilterEvent = {
   id: number
   slug: string
   title: string
-  image?: { src: string; alt: string }
+  image?: { src: string; alt: string; sensitive?: SensitiveImage }
   tags: string[]
   event: {
     venue: string
