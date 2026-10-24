@@ -1746,7 +1746,7 @@
     "name": "スンドゥブ 中山豆腐店 秋葉原",
     "slug": "sundubu-nakayama-akihabara",
     "category": "グルメ・カフェ",
-    "description": "韓国料理・スンドゥブ（豆腐チゲ）専門店。秋葉原エリアの韓国グルメスポットとして知られる。",
+    "description": "韓国料理・スンドゥブ（豆腐チゲ）専門店。秋葉原エリアの韓国グルメスポットとして知られる、東京都千代田区外神田4-2-6 AKIBA426ビル1Fに位置する、JR秋葉原駅 電気街口 徒歩4分。",
     "address": "東京都千代田区外神田4-2-6 AKIBA426ビル1F",
     "access": "JR秋葉原駅 電気街口 徒歩4分",
     "hours": "11:00〜22:00",
@@ -3814,7 +3814,15 @@
     "website": "https://fujisoba.co.jp/shop/",
     "tags": [
       "パーツ街・ジャンク街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-1915112160.jpg",
+      "alt": "富士そばの外観",
+      "width": 1024,
+      "height": 613,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanuki_udon,_Nadai_Fuji-soba,_Akihabara_Station_front_shop_(%E3%81%9F%E3%81%AC%E3%81%8D%E3%81%86%E3%81%A9%E3%82%93_-_%E5%86%85%E8%87%93%E3%83%90%E3%82%B0%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E6%B5%81%E5%8B%95%E9%A3%9F%E3%81%9F%E3%81%B9%E3%82%8B,_%E5%90%8D%E4%BB%A3_%E5%AF%8C%E5%A3%AB%E3%81%9D%E3%81%B0_%E7%A7%8B%E8%91%89%E5%8E%9F%E9%A7%85%E5%89%8D%E5%BA%97)_(2011-04-25_20.21.38_by_yuiseki_aoba).jpg"
+    }
   },
   {
     "id": 132,
@@ -4032,7 +4040,15 @@
     "website": "https://sutadonya.com/shop/shop16/",
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-1916509737.jpg",
+      "alt": "伝説のすた丼屋の外観",
+      "width": 1536,
+      "height": 2048,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%9D%E8%AA%AC%E3%81%AE%E3%81%99%E3%81%9F%E4%B8%BC%E5%B1%8B_(Densetsu_no_Sta-don-ya),_Akihabara_(2010-05-03_16.23.33).jpg"
+    }
   },
   {
     "id": 145,
@@ -4104,7 +4120,15 @@
     "addressSource": "gsi-reverse",
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-1916530507.jpg",
+      "alt": "刀削麺荘 唐家の外観",
+      "width": 3648,
+      "height": 2736,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%BA%BB%E8%BE%A3%E5%88%80%E5%89%8A%E9%BA%BA_@_%E5%88%80%E5%89%8A%E9%BA%BA%E8%8D%98_%E5%94%90%E5%AE%B6,_%E7%A7%8B%E8%91%89%E5%8E%9F_(M%C4%81l%C4%81_T%C5%8Dsh%C5%8Dmen_@_T%C5%8Dsh%C5%8Dmen-s%C5%8D_Karaya,_Akihabara)_(2013-10-18_17.08.23_by_Guilhem_Vellut).jpg"
+    }
   },
   {
     "id": 148,
@@ -5353,7 +5377,15 @@
     "closed": "無休",
     "tags": [
       "UDX"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-3263334938.jpg",
+      "alt": "タリーズコーヒーの外観",
+      "width": 613,
+      "height": 1024,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sotokanda_4_street_viewed_from_Tullys_Coffee_Akihabara_UDX_shop_(%E5%A4%96%E5%AF%92%E3%81%84%E3%81%86%E3%81%B2,_%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%BA%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC_%E7%A7%8B%E8%91%89%E5%8E%9FUDX%E5%BA%97,_%E5%A4%96%E7%A5%9E%E7%94%B04)_(2011-06-07_19.00.43_by_yuiseki_aoba).jpg"
+    }
   },
   {
     "id": 203,
@@ -5370,7 +5402,15 @@
     "hours": "11:00〜23:00（日曜・祝日は〜22:00）",
     "tags": [
       "UDX"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-3345148204.jpg",
+      "alt": "Akiba ICHIの外観",
+      "width": 3008,
+      "height": 2000,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winter_@_Akiba_Crossfield.jpg"
+    }
   },
   {
     "id": 204,
@@ -12086,7 +12126,7 @@
     "name": "アキバわんわん帝国",
     "slug": "osm-node-10832019058",
     "category": "グルメ・カフェ",
-    "description": "犬×メイドがコンセプトのカフェ。白とピンクを基調にした店内はカウンター席が中心。",
+    "description": "犬×メイドがコンセプトのカフェ。白とピンクを基調にした店内はカウンター席が中心、東京都千代田区外神田3-14-5 久郷ビル2Fに位置する、JR秋葉原駅 徒歩5分 / 東京メトロ銀座線末広町駅 徒歩4分。",
     "lat": 35.701366,
     "lng": 139.77105,
     "tier": "A",
@@ -12121,7 +12161,7 @@
     "name": "麹蔵 秋葉原店",
     "slug": "osm-node-10968697005",
     "category": "グルメ・カフェ",
-    "description": "奄美・鹿児島・沖縄料理と本格焼酎を楽しめる居酒屋。しゃぶしゃぶなどの料理も提供。",
+    "description": "奄美・鹿児島・沖縄料理と本格焼酎を楽しめる居酒屋。しゃぶしゃぶなどの料理も提供、東京都千代田区神田佐久間町1-8-3 ダイハツ秋葉原ビル2Fに位置する。",
     "lat": 35.697372,
     "lng": 139.773842,
     "tier": "A",
@@ -12774,7 +12814,7 @@
     "name": "築地食堂 源ちゃん AKIBA_ICHI店",
     "slug": "osm-node-11276600259",
     "category": "グルメ・カフェ",
-    "description": "秋葉原エリアの飲食店",
+    "description": "秋葉原UDX 2Fにある築地食堂 源ちゃん AKIBA_ICHI店。11:00〜22:00まで営業し、不定休（秋葉原UDXに準ずる）。",
     "lat": 35.700651,
     "lng": 139.772828,
     "tier": "A",
@@ -13075,7 +13115,7 @@
     "name": "ごはん処 あだち",
     "slug": "osm-node-11779681419",
     "category": "グルメ・カフェ",
-    "description": "秋葉原・末広町エリアの食堂兼居酒屋。ボリュームのある食事を提供することで知られる店舗。",
+    "description": "秋葉原・末広町エリアの食堂兼居酒屋。ボリュームのある食事を提供することで知られる店舗、東京都千代田区外神田3-11-6に位置する。",
     "lat": 35.700778,
     "lng": 139.770717,
     "tier": "A",
@@ -13091,7 +13131,15 @@
     "lastVerified": "2026-09-02",
     "tags": [
       "電気街"
-    ]
+    ],
+    "image": {
+      "src": "/images/spots/osm-node-11779681419.jpg",
+      "alt": "ごはん処 あだちの外観",
+      "width": 6000,
+      "height": 4000,
+      "sourceLabel": "Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%94%E3%81%AF%E3%82%93%E5%87%A6%E3%81%82%E3%81%A0%E3%81%A1_(Gohan-dokoro_Adachi)_%26_%E4%B9%9D%E5%B7%9E%E3%81%98%E3%82%83%E3%82%93%E3%81%8C%E3%82%89_(Ky%C5%ABsh%C5%AB_Jangara)_-_Sotokanda_3,_Chiyoda,_Tokyo_(2022-01-15_14.13.29_by_Dick_Thomas_Johnson).jpg"
+    }
   },
   {
     "id": 535,
@@ -13529,7 +13577,7 @@
     "name": "だん家 秋葉原店",
     "slug": "osm-node-12131327479",
     "category": "グルメ・カフェ",
-    "description": "ビアホール・洋風居酒屋。ビールや洋食系料理を中心に、気軽な飲み会から食事まで利用できる。",
+    "description": "ビアホール・洋風居酒屋。ビールや洋食系料理を中心に、気軽な飲み会から食事まで利用できる、東京都千代田区神田佐久間町1-6-13 JR高架下に位置する。",
     "lat": 35.697386,
     "lng": 139.773123,
     "website": "http://www.danke-bros.co.jp/",
@@ -13776,7 +13824,7 @@
     "name": "Bistro ZAKI",
     "slug": "osm-node-12908845946",
     "category": "グルメ・カフェ",
-    "description": "高級銘柄豚「林SPFポーク」を中心とした料理を楽しめる、静かな隠れ家的な豚肉ビストロ。",
+    "description": "高級銘柄豚「林SPFポーク」を中心とした料理を楽しめる、静かな隠れ家的な豚肉ビストロ、東京都千代田区神田松永町18 ビオレ秋葉原1Fに位置する。",
     "lat": 35.700571,
     "lng": 139.775063,
     "image": {
@@ -14539,7 +14587,7 @@
     "name": "ウミのチカラ",
     "slug": "umi-no-chikara",
     "category": "グルメ・カフェ",
-    "description": "魚介をテーマにしたラーメン・つけ麺と海鮮丼を提供。真鯛などを使った魚介系ラーメンが特徴。",
+    "description": "魚介をテーマにしたラーメン・つけ麺と海鮮丼を提供。真鯛などを使った魚介系ラーメンが特徴、東京都台東区台東1-32-6に位置する。",
     "dataSource": "tabelog",
     "lat": 35.702404,
     "lng": 139.777267,
@@ -15006,7 +15054,7 @@
     "name": "すし土風炉 秋葉原店",
     "slug": "tofuro-akihabara",
     "category": "グルメ・カフェ",
-    "description": "本格江戸前寿司と和食を気軽に楽しめる秋葉原のすし居酒屋。個室や大人数向けの宴会席も用意。",
+    "description": "本格江戸前寿司と和食を気軽に楽しめる秋葉原のすし居酒屋。個室や大人数向けの宴会席も用意、東京都千代田区神田佐久間町3-37に位置する。",
     "address": "東京都千代田区神田佐久間町3-37",
     "hours": "月〜木 11:30〜14:30、16:30〜23:00／金・祝前日 11:30〜14:30、16:30〜23:30／土日祝 12:00〜22:00",
     "website": "https://tofuro-shop.com/akihabara",
@@ -15197,7 +15245,7 @@
     "name": "I Love Gyoza アキバの竜王 秋葉原総本店",
     "slug": "ilovegyoza-akihabara",
     "category": "グルメ・カフェ",
-    "description": "手作り餃子や本格中華が中心。餃子を含む食べ放題と生ビール付き飲み放題の宴会プランも提供。",
+    "description": "手作り餃子や本格中華が中心。餃子を含む食べ放題と生ビール付き飲み放題の宴会プランも提供、東京都千代田区神田佐久間町3-37 MK佐久間町ビル1Fに位置する。",
     "address": "東京都千代田区神田佐久間町3-37 MK佐久間町ビル1F",
     "hours": "月〜木 16:00〜23:30／金・祝前日 16:00〜翌3:00／土 14:00〜23:30／日祝 14:00〜23:00",
     "lat": 35.698345,
@@ -15294,7 +15342,7 @@
     "name": "魚と日本酒 どまん中 はなれ 秋葉原店",
     "slug": "domannaka-hanare-akihabara",
     "category": "グルメ・カフェ",
-    "description": "のどぐろ、生雲丹、活いか、かわはぎなどの海鮮と日本酒を中心とした大人向けの海鮮居酒屋。",
+    "description": "のどぐろ、生雲丹、活いか、かわはぎなどの海鮮と日本酒を中心とした大人向けの海鮮居酒屋、東京都千代田区神田佐久間町3-28 E&TビルB1Fに位置する。",
     "address": "東京都千代田区神田佐久間町3-28 E&TビルB1F",
     "hours": "月〜土 15:00〜23:00（L.O.22:30）",
     "lat": 35.698578,
@@ -15433,7 +15481,7 @@
     "name": "焼肉酒場 秋葉牧場",
     "slug": "akiba-bokujo",
     "category": "グルメ・カフェ",
-    "description": "A5ランク和牛などを扱う焼肉酒場。深夜まで営業しており、食べ放題・飲み放題にも対応。",
+    "description": "A5ランク和牛などを扱う焼肉酒場。深夜まで営業しており、食べ放題・飲み放題にも対応、東京都千代田区神田佐久間町2-14-7 EIWAビル2Fに位置する。",
     "address": "東京都千代田区神田佐久間町2-14-7 EIWAビル2F",
     "hours": "月〜金・祝日 17:00〜翌5:00／土日 12:00〜翌5:00",
     "lat": 35.698326,
@@ -15576,7 +15624,7 @@
     "name": "秋葉原旨い魚と焼酎.地酒 美味研鑽 TETSU",
     "slug": "tetsu-kandaizumicho",
     "category": "グルメ・カフェ",
-    "description": "天然素材を使った本格海鮮和食が特徴。海鮮料理のコース・セットメニューを中心に提供。",
+    "description": "天然素材を使った本格海鮮和食が特徴。海鮮料理のコース・セットメニューを中心に提供、東京都千代田区神田和泉町1-2-22 中尾ビルB1Fに位置する。",
     "address": "東京都千代田区神田和泉町1-2-22 中尾ビルB1F",
     "hours": "月〜金 11:30〜14:30、17:00〜23:00（L.O.14:00／21:30）",
     "lat": 35.699192,
@@ -15691,7 +15739,7 @@
     "name": "全席完全個室 青森郷土料理 ねぶた屋 秋葉原店",
     "slug": "nebutaya-akihabara",
     "category": "グルメ・カフェ",
-    "description": "全席扉付き完全個室。青森郷土料理、地魚、炭火焼きなどを提供し、地酒の飲み放題にも対応。",
+    "description": "全席扉付き完全個室。青森郷土料理、地魚、炭火焼きなどを提供し、地酒の飲み放題にも対応、東京都千代田区神田佐久間町1-24 GATO秋葉原ビル4F 403に位置する。",
     "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原ビル4F 403",
     "hours": "13:00〜24:00（L.O.料理23:00、ドリンク23:30）",
     "lat": 35.698475,
@@ -15818,7 +15866,7 @@
     "name": "鮪ノ司 秋葉原駅前店",
     "slug": "maguronotsukasa-akihabara",
     "category": "グルメ・カフェ",
-    "description": "2025年7月オープン。全席個室の本鮪専門店で、本鮪を中心とした板前和食と日本酒を提供。",
+    "description": "2025年7月オープン。全席個室の本鮪専門店で、本鮪を中心とした板前和食と日本酒を提供、東京都千代田区神田佐久間町1-16 大橋ビル3F 301に位置する。",
     "address": "東京都千代田区神田佐久間町1-16 大橋ビル3F 301",
     "hours": "15:00〜24:00（L.O.料理23:00、ドリンク23:30）",
     "lat": 35.6978,
@@ -15849,7 +15897,7 @@
     "name": "三ぞう 岩本町店",
     "slug": "sanzou-iwamotocho",
     "category": "グルメ・カフェ",
-    "description": "「ねぎま」を看板メニューとする大衆居酒屋。焼き鳥・海鮮料理などをリーズナブルに提供。",
+    "description": "「ねぎま」を看板メニューとする大衆居酒屋。焼き鳥・海鮮料理などをリーズナブルに提供、東京都千代田区神田岩本町1-1に位置する。",
     "address": "東京都千代田区神田岩本町1-1",
     "tags": [
       "大衆居酒屋",
@@ -16471,7 +16519,7 @@
     "name": "秋葉原 串吟 3号店",
     "slug": "akihabara-kushigin-3",
     "category": "グルメ・カフェ",
-    "description": "信玄鶏の焼き鳥や和牛モツ鍋などを名物とする居酒屋。日本酒や飲み放題付き宴会コースも提供。",
+    "description": "信玄鶏の焼き鳥や和牛モツ鍋などを名物とする居酒屋。日本酒や飲み放題付き宴会コースも提供、東京都千代田区神田須田町2-12-5 第6古川ビル1F・2Fに位置する。",
     "address": "東京都千代田区神田須田町2-12-5 第6古川ビル1F・2F",
     "hours": "月〜土・祝前日 17:00〜23:00（料理L.O.22:00、ドリンクL.O.22:30）",
     "tier": "A",
@@ -16798,7 +16846,7 @@
     "name": "炉端バル さま田",
     "slug": "robata-bar-samada",
     "category": "グルメ・カフェ",
-    "description": "ハラミステーキなどの肉料理と炉端料理を楽しめるバル。飲み放題付き宴会コースも用意。",
+    "description": "ハラミステーキなどの肉料理と炉端料理を楽しめるバル。飲み放題付き宴会コースも用意、東京都千代田区神田佐久間町3-21-6 第1ヤマコビル1Fに位置する。",
     "address": "東京都千代田区神田佐久間町3-21-6 第1ヤマコビル1F",
     "tier": "A",
     "dataSource": "manual",
@@ -16829,7 +16877,7 @@
     "name": "おさかな居酒屋 おびれせびれ",
     "slug": "osakana-izakaya-obire-sebire",
     "category": "グルメ・カフェ",
-    "description": "豊洲直送の鮮魚を中心とした海鮮居酒屋。完全個室やテラス席を備え、宴会や貸切利用にも対応。",
+    "description": "豊洲直送の鮮魚を中心とした海鮮居酒屋。完全個室やテラス席を備え、宴会や貸切利用にも対応、東京都千代田区神田佐久間町2-10 飯島ビル1Fに位置する。",
     "address": "東京都千代田区神田佐久間町2-10 飯島ビル1F",
     "tier": "A",
     "dataSource": "manual",
@@ -17392,7 +17440,7 @@
     "name": "ZEERA 秋葉原店",
     "slug": "zeera-akihabara",
     "category": "グルメ・カフェ",
-    "description": "本格インド料理と創作タパスを提供するダイニングバー。スパイスを使った料理と酒を楽しめる。",
+    "description": "本格インド料理と創作タパスを提供するダイニングバー。スパイスを使った料理と酒を楽しめる、東京都千代田区外神田3丁目付近に位置する。",
     "address": "東京都千代田区外神田3丁目付近",
     "tier": "A",
     "dataSource": "manual",
@@ -17442,7 +17490,7 @@
     "name": "Borracho 秋葉原店",
     "slug": "borracho-akihabara",
     "category": "グルメ・カフェ",
-    "description": "秋葉原の隠れ家的なスペイン料理店。魚介のパエリアやピンチョス、ワインなどを楽しめるバル。",
+    "description": "秋葉原の隠れ家的なスペイン料理店。魚介のパエリアやピンチョス、ワインなどを楽しめるバル、東京都千代田区神田和泉町1-11-15 グランデュオ秋葉原101に位置する。",
     "address": "東京都千代田区神田和泉町1-11-15 グランデュオ秋葉原101",
     "tier": "A",
     "dataSource": "manual",
@@ -17504,7 +17552,7 @@
     "name": "つなぎ庵 秋葉原店",
     "slug": "tsunagian-akihabara",
     "category": "グルメ・カフェ",
-    "description": "幻の富倉そばを味わえる蕎麦居酒屋。刺身、天ぷら、日本酒などの一品料理も充実している。",
+    "description": "幻の富倉そばを味わえる蕎麦居酒屋。刺身、天ぷら、日本酒などの一品料理も充実している、東京都千代田区神田和泉町1-7-10 1Fに位置する。",
     "address": "東京都千代田区神田和泉町1-7-10 1F",
     "tier": "A",
     "dataSource": "manual",
@@ -18249,7 +18297,7 @@
     "name": "ビーフキッチンスタンド アパホテル秋葉原店",
     "slug": "beef-kitchen-stand-apahotel-akihabara",
     "category": "グルメ・カフェ",
-    "description": "ステーキやハンバーグ、煮込みなどの肉料理を小皿でリーズナブルに楽しめる肉バル・大衆酒場。",
+    "description": "ステーキやハンバーグ、煮込みなどの肉料理を小皿でリーズナブルに楽しめる肉バル・大衆酒場、東京都千代田区神田佐久間町2-13-20 アパホテル1Fに位置する。",
     "address": "東京都千代田区神田佐久間町2-13-20 アパホテル1F",
     "tier": "A",
     "dataSource": "manual",
@@ -18609,7 +18657,7 @@
     "name": "居酒屋 古田土",
     "slug": "izakaya-kodota-kanda-suda",
     "category": "グルメ・カフェ",
-    "description": "秋葉原・淡路町エリアの小規模な居酒屋。手作り感のある料理とアットホームな雰囲気が特徴。",
+    "description": "秋葉原・淡路町エリアの小規模な居酒屋。手作り感のある料理とアットホームな雰囲気が特徴、東京都千代田区神田須田町1丁目付近に位置する。",
     "address": "東京都千代田区神田須田町1丁目付近",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
@@ -18817,7 +18865,7 @@
     "name": "いちえ",
     "slug": "ichie-kandaizumicho",
     "category": "グルメ・カフェ",
-    "description": "秋葉原駅から約277mの場所にある居酒屋。",
+    "description": "秋葉原駅から約277mの場所にある居酒屋。東京都千代田区神田和泉町1-2-6に位置する。",
     "address": "東京都千代田区神田和泉町1-2-6",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
@@ -18854,7 +18902,7 @@
     "name": "白河屋",
     "slug": "shirakawaya-kandasakumacho",
     "category": "グルメ・カフェ",
-    "description": "秋葉原駅から約200mの場所にある居酒屋。34席を備えた店舗。",
+    "description": "秋葉原駅から約200mの場所にある居酒屋。34席を備えた店舗。東京都千代田区神田佐久間町付近に位置する。",
     "address": "東京都千代田区神田佐久間町付近",
     "dataSource": "manual",
     "lastVerified": "2026-09-02",
@@ -19131,7 +19179,7 @@
     "name": "金子苑",
     "slug": "kanekoen-akihabara",
     "category": "グルメ・カフェ",
-    "description": "2025年5月、昭和通り方面に開店した焼肉店。個室があり、最大18名まで利用できる。",
+    "description": "2025年5月、昭和通り方面に開店した焼肉店。個室があり、最大18名まで利用できる、東京都千代田区神田佐久間町2-10-2 2Fに位置する、東京メトロ日比谷線秋葉原駅 1番出口 徒歩2分。",
     "address": "東京都千代田区神田佐久間町2-10-2 2F",
     "tier": "A",
     "dataSource": "manual",
@@ -20131,7 +20179,7 @@
     "name": "パソコンSHOPアーク 秋葉原店",
     "slug": "ark-akihabara",
     "category": "電気街・PCパーツ",
-    "description": "自作PC向けのPCパーツやBTOパソコンを扱うパソコンショップ「アーク」の秋葉原店。",
+    "description": "自作PC向けのPCパーツやBTOパソコンを扱うパソコンショップ「アーク」の秋葉原店、東京都千代田区外神田3-16-18 通運会館 1Fに位置する、東京メトロ銀座線末広町駅寄り。",
     "address": "東京都千代田区外神田3-16-18 通運会館 1F",
     "access": "東京メトロ銀座線末広町駅寄り",
     "hours": "平日 11:30〜20:00 / 土日祝 11:00〜19:30",
