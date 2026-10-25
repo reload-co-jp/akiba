@@ -1,5 +1,83 @@
 [
   {
+    "id": 1043,
+    "title": "「GODZILLA SHOP in AmiAmi」があみあみ秋葉原ラジオ会館店で10月31日から開催、限定カラーのMSSソフビ4種を数量限定販売",
+    "slug": "godzilla-shop-amiami-radio-kaikan-2026",
+    "summary": "あみあみ秋葉原ラジオ会館店のイベントスペースで、2026年10月31日から11月15日まで「GODZILLA SHOP in AmiAmi」が開催される。CCPJAPANの「MSS（ミドルサイズシリーズ）」から、ゴジラ（2001）、ゴジラ（1999）、メカゴジラ（1974）、スペースゴジラの限定カラーソフビ4種が数量限定で販売される。",
+    "content": "## 概要\n\nホビーショップ「あみあみ」の秋葉原ラジオ会館店で、2026年10月31日（土）から11月15日（日）までイベント「GODZILLA SHOP in AmiAmi」が開催される。\n\n## 内容\n\n会場では、フィギュアメーカーCCPJAPANの人気シリーズ「MSS（ミドルサイズシリーズ）」から、限定カラーのソフビアイテム4種が数量限定で販売される。ラインナップはゴジラ（2001）、ゴジラ（1999）、メカゴジラ（1974）、スペースゴジラの4種で、価格は4,620円〜5,720円（税込）。いずれも10月31日（土）発売予定。\n\n## 開催情報\n\n- **イベント名**: GODZILLA SHOP in AmiAmi\n- **期間**: 2026年10月31日（土）〜11月15日（日）\n- **会場**: あみあみ秋葉原ラジオ会館店（イベントスペース）\n- **住所**: 東京都千代田区外神田1-15-16 秋葉原ラジオ会館4F\n- **営業時間**: 11:00〜20:00\n- **販売商品**: MSS 限定カラーソフビ4種（数量限定）\n- **価格**: 4,620円〜5,720円（税込）\n\n## こんな人におすすめ\n\n- 『ゴジラ』シリーズのファン\n- ソフビフィギュアを集めている方\n- 秋葉原ラジオ会館でホビーショップを巡りたい方",
+    "publishedAt": "2026-10-25",
+    "tagIds": [
+      33,
+      126,
+      129,
+      207,
+      266
+    ],
+    "en": {
+      "title": "[Akihabara] \"GODZILLA SHOP in AmiAmi\" Opens October 31 at AmiAmi Akihabara Radio Kaikan, Selling Four Limited-Color MSS Soft Vinyl Figures",
+      "summary": "\"GODZILLA SHOP in AmiAmi\" runs from October 31 to November 15, 2026 in the event space of AmiAmi Akihabara Radio Kaikan. Four limited-color soft vinyl figures from CCPJAPAN's MSS (Middle Size Series) — Godzilla (2001), Godzilla (1999), Mechagodzilla (1974), and SpaceGodzilla — will be sold in limited quantities.",
+      "content": "## Overview\n\nThe event \"GODZILLA SHOP in AmiAmi\" will be held at hobby shop AmiAmi's Akihabara Radio Kaikan store from Saturday, October 31 to Sunday, November 15, 2026.\n\n## Highlights\n\nFour limited-color soft vinyl items from figure maker CCPJAPAN's popular MSS (Middle Size Series) will be sold in limited quantities: Godzilla (2001), Godzilla (1999), Mechagodzilla (1974), and SpaceGodzilla. Prices range from 4,620 to 5,720 yen (tax included), with all items scheduled for release on Saturday, October 31.\n\n## Event Details\n\n- **Event**: GODZILLA SHOP in AmiAmi\n- **Dates**: Saturday, October 31 to Sunday, November 15, 2026\n- **Venue**: AmiAmi Akihabara Radio Kaikan (event space)\n- **Address**: Akihabara Radio Kaikan 4F, 1-15-16 Sotokanda, Chiyoda-ku, Tokyo\n- **Hours**: 11:00-20:00\n- **Items**: Four limited-color MSS soft vinyl figures (limited quantities)\n- **Price**: 4,620-5,720 yen (tax included)\n\n## Recommended For\n\n- Fans of the Godzilla series\n- Soft vinyl figure collectors\n- Anyone browsing hobby shops in Akihabara Radio Kaikan"
+    },
+    "image": {
+      "src": "/images/articles/godzilla-shop-amiami-radio-kaikan-2026.jpg",
+      "alt": "限定カラーのMSSゴジラソフビ4種",
+      "sourceLabel": "電撃ホビーウェブ 記事",
+      "sourceUrl": "https://hobby.dengeki.com/news/3206111",
+      "width": 1200,
+      "height": 630
+    },
+    "sources": [
+      {
+        "label": "電撃ホビーウェブ 記事",
+        "url": "https://hobby.dengeki.com/news/3206111"
+      },
+      {
+        "label": "財経新聞 プレスリリース",
+        "url": "https://www.zaikei.co.jp/releases/3678636/"
+      }
+    ],
+    "event": {
+      "venue": "あみあみ秋葉原ラジオ会館店（ラジオ会館4F）",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-15",
+      "price": "商品により異なる（4,620円〜5,720円）",
+      "reservation": false
+    },
+    "authorId": 1
+  },
+  {
+    "id": 1042,
+    "title": "秋葉原観光推進協会公認キャラ「ちぃたん☆」と須崎市「しんじょう君」の訴訟が最高裁へ、知財高裁は1887万円の賠償命令",
+    "slug": "chiitan-shinjokun-lawsuit-supreme-court-2026",
+    "summary": "秋葉原観光推進協会の公認キャラクター「ちぃたん☆」と高知県須崎市の「しんじょう君」をめぐる訴訟で、知財高裁は2026年10月7日、須崎市側に1審より増額した1887万円の賠償を命じた。須崎市はこれを不服として10月21日に上告し、舞台は最高裁に移る。",
+    "content": "## 概要\n\n秋葉原観光推進協会の公認キャラクター「ちぃたん☆」と、高知県須崎市のマスコットキャラクター「しんじょう君」をめぐる訴訟が、最高裁に持ち込まれることになった。FNNプライムオンラインが2026年10月25日に報じた。\n\n## 経緯\n\n2013年に誕生した「しんじょう君」は2016年の「ゆるキャラグランプリ」で優勝。一方「ちぃたん☆」は2017年に誕生し、秋葉原観光推進協会の公認キャラクターとして活動している。\n\n2019年、須崎市は「しんじょう君」への著作権侵害などを理由に、「ちぃたん☆」の運営会社に着ぐるみの使用禁止などを求めて提訴。これに対し「ちぃたん☆」側は2021年、須崎市の指摘で損害を受けたとして4300万円の損害賠償を請求した。\n\n東京地裁は2025年に須崎市へ786万円の賠償を命じ、須崎市が控訴。2026年10月7日、知財高裁は1審より増額した1887万円の賠償を須崎市側に命じた。須崎市はこの判決を不服とし、10月21日に上告した。\n\n## ポイント\n\n- **当事者**: 「ちぃたん☆」の運営会社 / 高知県須崎市\n- **1審（東京地裁、2025年）**: 須崎市に786万円の賠償命令\n- **2審（知財高裁、2026年10月7日）**: 須崎市に1887万円の賠償命令\n- **上告**: 2026年10月21日、須崎市が上告\n\n## こんな人におすすめ\n\n- 秋葉原のご当地キャラクターの動向が気になる方\n- ゆるキャラや地域PRに関心がある方",
+    "publishedAt": "2026-10-25",
+    "tagIds": [
+      61,
+      207
+    ],
+    "en": {
+      "title": "Lawsuit Between Akihabara Tourism Mascot \"Chiitan☆\" and Susaki City's \"Shinjo-kun\" Heads to Supreme Court After IP High Court Orders 18.87 Million Yen in Damages",
+      "summary": "In the lawsuit over \"Chiitan☆,\" the official character of the Akihabara Tourism Promotion Association, and \"Shinjo-kun\" of Susaki City, Kochi, the IP High Court on October 7, 2026 ordered Susaki City to pay 18.87 million yen, more than the first-instance ruling. Susaki City appealed to the Supreme Court on October 21.",
+      "content": "## Overview\n\nThe lawsuit involving \"Chiitan☆,\" the official character of the Akihabara Tourism Promotion Association, and \"Shinjo-kun,\" the mascot of Susaki City in Kochi Prefecture, is headed to the Supreme Court, FNN Prime Online reported on October 25, 2026.\n\n## Background\n\nShinjo-kun was created in 2013 and won the Yuru-Chara Grand Prix in 2016. Chiitan☆ was created in 2017 and serves as an official character of the Akihabara Tourism Promotion Association.\n\nIn 2019, Susaki City sued Chiitan☆'s operating company, alleging copyright infringement of Shinjo-kun and seeking a ban on the use of the costume. In 2021, the Chiitan☆ side countersued for 43 million yen, claiming damages from Susaki City's allegations.\n\nIn 2025, the Tokyo District Court ordered Susaki City to pay 7.86 million yen, and the city appealed. On October 7, 2026, the IP High Court increased the damages to 18.87 million yen. Susaki City, dissatisfied with the ruling, appealed to the Supreme Court on October 21.\n\n## Key Points\n\n- **Parties**: Chiitan☆'s operating company / Susaki City, Kochi\n- **First instance (Tokyo District Court, 2025)**: 7.86 million yen in damages ordered against Susaki City\n- **Second instance (IP High Court, October 7, 2026)**: 18.87 million yen in damages ordered against Susaki City\n- **Appeal**: Susaki City appealed to the Supreme Court on October 21, 2026\n\n## Recommended For\n\n- People following Akihabara's local mascot characters\n- Anyone interested in mascots and regional promotion"
+    },
+    "image": {
+      "src": "/images/articles/chiitan-shinjokun-lawsuit-supreme-court-2026.jpg",
+      "alt": "「ちぃたん☆」と「しんじょう君」の訴訟を伝える記事画像",
+      "sourceLabel": "FNNプライムオンライン",
+      "sourceUrl": "https://www.fnn.jp/articles/-/1138433",
+      "width": 600,
+      "height": 337
+    },
+    "sources": [
+      {
+        "label": "FNNプライムオンライン 記事",
+        "url": "https://www.fnn.jp/articles/-/1138433"
+      }
+    ],
+    "authorId": 1
+  },
+  {
     "id": 1040,
     "title": "YouTubeチャンネル「NI-WORK」のトークショーが10月30日に書泉ブックタワーで開催、『仕事が変わる Geminiの最適解』発売記念",
     "slug": "ni-work-gemini-release-event-shosen-booktower-2026",
@@ -34082,8 +34160,8 @@
     "id": 784,
     "title": "「九州じゃんがら 秋葉原本店」が9月30日からリニューアル工事で一時休業",
     "slug": "kyushu-jangara-akihabara-honten-renewal-close-2026",
-    "summary": "とんこつラーメン店「九州じゃんがら 秋葉原本店」が2026年9月30日からリニューアル工事のため一時休業する。再開時期は未定で、系列店は原宿、銀座、赤坂、芝大門にある。",
-    "content": "## 概要\n\n秋葉原の老舗とんこつラーメン店「九州じゃんがら 秋葉原本店」が、2026年9月30日(水)からリニューアル工事のため一時休業する。\n\n## 内容\n\n休業は店舗のリニューアル工事に伴うもので、再開日は現時点で発表されていない。同店は秋葉原の飲食店として長年親しまれてきたが、休業中は原宿、銀座、赤坂、芝大門にある系列店舗の利用が案内されている。\n\n## 休業情報\n\n- **店舗**: 九州じゃんがら 秋葉原本店\n- **休業開始日**: 2026年9月30日(水)\n- **理由**: リニューアル工事\n- **再開時期**: 未定\n- **系列店**: 原宿店、銀座店、赤坂店、芝大門店\n\n## こんな人におすすめ\n\n- 九州じゃんがらのファン\n- 秋葉原の飲食店の動向に関心がある方",
+    "summary": "とんこつラーメン店「九州じゃんがら 秋葉原本店」が2026年9月30日からリニューアル工事のため一時休業している。エルミタージュ秋葉原によると、隣接する旧「ごはん処 あだち」跡地へ拡張する見込みで、リニューアルオープンは11月下旬の予定。",
+    "content": "## 概要\n\n秋葉原の老舗とんこつラーメン店「九州じゃんがら 秋葉原本店」が、2026年9月30日(水)からリニューアル工事のため一時休業する。\n\n## 内容\n\n休業は店舗のリニューアル工事に伴うもので、再開日は現時点で発表されていない。同店は秋葉原の飲食店として長年親しまれてきたが、休業中は原宿、銀座、赤坂、芝大門にある系列店舗の利用が案内されている。\n\n## 続報：旧「あだち」跡地へ拡張、11月下旬リニューアル予定\n\nエルミタージュ秋葉原の2026年10月16日の記事によると、店舗は隣接する旧「ごはん処 あだち」跡地まで拡張される見込みで、リニューアルオープンは11月下旬の予定。店頭の工事掲示の期間は11月22日（日）まで。正式な再開日は公式Instagramで告知予定とされている。\n\n## 休業情報\n\n- **店舗**: 九州じゃんがら 秋葉原本店\n- **休業開始日**: 2026年9月30日(水)\n- **理由**: リニューアル工事\n- **再開時期**: 11月下旬予定（正式日は公式Instagramで告知予定）\n- **系列店**: 原宿店、銀座店、赤坂店、芝大門店\n\n## こんな人におすすめ\n\n- 九州じゃんがらのファン\n- 秋葉原の飲食店の動向に関心がある方",
     "publishedAt": "2026-09-09",
     "tagIds": [
       207,
@@ -34093,8 +34171,8 @@
     ],
     "en": {
       "title": "Kyushu Jangara Akihabara Main Store to Close Temporarily for Renovation from September 30",
-      "summary": "The long-running tonkotsu ramen shop Kyushu Jangara Akihabara Main Store will temporarily close for renovation work starting September 30, 2026. The reopening date has not been announced; sister locations are in Harajuku, Ginza, Akasaka, and Shibadaimon.",
-      "content": "## Overview\n\nKyushu Jangara Akihabara Main Store, a long-running tonkotsu ramen shop in Akihabara, will temporarily close from September 30 (Wed), 2026 for renovation work.\n\n## Details\n\nThe closure is due to store renovation work, and no reopening date has been announced yet. The shop has long been a favorite dining spot in Akihabara; during the closure, customers are directed to sister locations in Harajuku, Ginza, Akasaka, and Shibadaimon.\n\n## Closure Details\n\n- **Shop**: Kyushu Jangara Akihabara Main Store\n- **Closure start date**: September 30 (Wed), 2026\n- **Reason**: Renovation work\n- **Reopening**: Not yet announced\n- **Sister locations**: Harajuku, Ginza, Akasaka, Shibadaimon\n\n## Recommended For\n\n- Fans of Kyushu Jangara\n- Anyone following restaurant changes in Akihabara"
+      "summary": "The long-running tonkotsu ramen shop Kyushu Jangara Akihabara Main Store has been temporarily closed for renovation since September 30, 2026. According to Elmitage Akihabara, the shop is expected to expand into the neighboring former \"Gohandokoro Adachi\" space, with a reopening planned for late November.",
+      "content": "## Overview\n\nKyushu Jangara Akihabara Main Store, a long-running tonkotsu ramen shop in Akihabara, will temporarily close from September 30 (Wed), 2026 for renovation work.\n\n## Details\n\nThe closure is due to store renovation work, and no reopening date has been announced yet. The shop has long been a favorite dining spot in Akihabara; during the closure, customers are directed to sister locations in Harajuku, Ginza, Akasaka, and Shibadaimon.\n\n## Update: Expanding Into Former Adachi Space, Reopening Planned for Late November\n\nAccording to an Elmitage Akihabara article dated October 16, 2026, the shop is expected to expand into the neighboring former \"Gohandokoro Adachi\" space, with a renewal opening planned for late November. The construction notice at the storefront runs through Sunday, November 22. The official reopening date is to be announced on the shop's official Instagram.\n\n## Closure Details\n\n- **Shop**: Kyushu Jangara Akihabara Main Store\n- **Closure start date**: September 30 (Wed), 2026\n- **Reason**: Renovation work\n- **Reopening**: Planned for late November (official date to be announced on Instagram)\n- **Sister locations**: Harajuku, Ginza, Akasaka, Shibadaimon\n\n## Recommended For\n\n- Fans of Kyushu Jangara\n- Anyone following restaurant changes in Akihabara"
     },
     "image": {
       "src": "/images/articles/kyushu-jangara-akihabara-honten-renewal-close-2026.jpg",
@@ -34108,6 +34186,10 @@
       {
         "label": "AKIBA PC Hotline! 記事",
         "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2139232.html"
+      },
+      {
+        "label": "エルミタージュ秋葉原 記事",
+        "url": "https://www.gdm.or.jp/crew/2026/1016/656504"
       }
     ],
     "event": {
