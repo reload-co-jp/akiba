@@ -14030,7 +14030,15 @@
       "一風堂",
       "電気街"
     ],
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-19",
+    "image": {
+      "src": "/images/spots/osm-node-13390443982.jpg",
+      "alt": "TOKYO 豚骨 BASE MADE by 一風堂 秋葉原店の外観",
+      "width": 640,
+      "height": 360,
+      "sourceLabel": "ecute 秋葉原",
+      "sourceUrl": "https://www.ecute.jp/akihabara/shop/5636"
+    }
   },
   {
     "id": 578,
