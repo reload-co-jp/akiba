@@ -11,7 +11,8 @@
    node scripts/fetch-spot-images.mjs --write      # 実際に取得・書き込み
    node scripts/fetch-spot-images.mjs --write --tier A --limit 20
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs"
+/* global process, console, setTimeout, Buffer */
+import { readFileSync, writeFileSync, mkdirSync } from "fs"
 import { join, dirname } from "path"
 import { fileURLToPath } from "url"
 
@@ -151,7 +152,7 @@ const STOP_WORDS = new Set([
 
 function contentKeywords(name) {
   return name
-    .split(/[\s・･\-–—\/\[\]()（）]+/)
+    .split(/[\s・･\-–—/[\]()（）]+/)
     .flatMap((w) => {
       const wk = w.replace(/[\s]+/g, "")
       if (!wk || STOP_WORDS.has(wk)) return []
@@ -167,10 +168,6 @@ function isRelevant(spot, candidate) {
   // 説明文に店名が紛れ込むだけの街並み写真などを除外する。
   const title = candidate.title.toLowerCase()
   return keywords.some((k) => title.includes(k.toLowerCase()))
-}
-
-function stripHtml(str) {
-  return String(str ?? "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim()
 }
 
 async function main() {
