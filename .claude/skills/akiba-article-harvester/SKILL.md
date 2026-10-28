@@ -147,7 +147,7 @@ Duplicate candidates frequently carry newer info than the existing article (anno
 
 - Send every duplicate's newer source (URL, or exact title for gnews/ceek redirect rows) to `web-scraper` in the step 6 batch, with the existing slug.
 - Spot-check the agent's merge facts against the page text before writing (`harvest.py detail` or a keyword grep of the page) — agents have mixed up goods lists between two similar pop-ups in the same batch. Never add names/facts the page doesn't state.
-- Merge only facts confirmed by the source: update `summary`, `content`, `en.summary`/`en.content` in parallel, `event` (`price`, `performer`, dates, `reservation`), and replace placeholders like 「後日発表」/"To be announced" with the confirmed values.
+- Merge only facts confirmed by the source: update `summary`, `content`, `en.summary`/`en.content` (and `zh.*` if present) in parallel, `event` (`price`, `performer`, dates, `reservation`), and replace placeholders like 「後日発表」/"To be announced" with the confirmed values.
 - If dates/venue changed, update `event` and state the change in content. If the newer source is a clearly different run (new dates/venue), treat as `new`.
 - Add the newer source to `sources` (dedupe by normalized URL; official first). Skip gnews/ceek redirect URLs — record the resolved article URL instead.
 - Don't bump `publishedAt`; don't rename the slug.
@@ -206,6 +206,7 @@ For each selected candidate, follow `$event-article-writer`:
 - Use placeholder handling only when no usable image exists.
 - Add official/reference source URLs in `sources`.
 - Include `en` field with English translations of `title`, `summary`, `content`.
+- Include `zh` field (Simplified Chinese `title`, `summary`, `content`) for articles with `event` data. Rules: `event-article-writer` skill `references/article-format.md`.
 - Set `authorId: 1` on every new article.
 - Add `event` data only for dated events/campaigns/openings/closures that should appear on `/events`; omit for ordinary news without a useful event-style date/location.
 - Update map coordinates in `components/events-map.tsx` when the venue should appear on `/events`.

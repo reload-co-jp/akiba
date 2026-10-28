@@ -6,7 +6,8 @@ import { unique } from "./format"
 export * from "./authors"
 export type { EditorComment } from "./editor-comment"
 
-export type Lang = "ja" | "en"
+export type Lang = "ja" | "en" | "zh"
+export type TranslatedLang = Exclude<Lang, "ja">
 
 export type Tag = {
   id: number
@@ -48,6 +49,8 @@ export type Article = {
   publishedAt: string
   tagIds: number[]
   en?: LocaleContent
+  /** 簡体字中国語。 */
+  zh?: LocaleContent
   image?: {
     src: string
     alt: string
@@ -117,7 +120,7 @@ export const getSeoTitle = (article: Article) =>
   addAkihabaraSeoTitle(article.seoTitle ?? article.title)
 
 export const getLocalizedContent = (article: Article, lang: Lang): LocaleContent => {
-  if (lang === "en" && article.en) return article.en
+  if (lang !== "ja" && article[lang]) return article[lang]
   return { title: article.title, summary: article.summary, content: article.content }
 }
 
@@ -154,12 +157,19 @@ const titleCase = (s: string) =>
     .trim()
     .replace(/\b[a-z]/g, (c) => c.toUpperCase())
 
-const getEnglishContentDetail = (article: Article, label: string) => {
-  const match = article.en?.content.match(
+const getTranslatedContentDetail = (
+  article: Article,
+  lang: TranslatedLang,
+  label: string,
+) => {
+  const match = article[lang]?.content.match(
     new RegExp(`^- \\*\\*${label}\\*\\*: (.+)$`, "im"),
   )
   return match?.[1]?.trim()
 }
+
+const getEnglishContentDetail = (article: Article, label: string) =>
+  getTranslatedContentDetail(article, "en", label)
 
 export const getEnglishEventVenue = (article: Article) =>
   getEnglishContentDetail(article, "Venue") ?? article.event?.venue
@@ -169,6 +179,36 @@ export const getEnglishEventPrice = (article: Article) =>
   getEnglishContentDetail(article, "Prices") ??
   getEnglishContentDetail(article, "Price") ??
   article.event?.price
+
+export const getChineseEventVenue = (article: Article) =>
+  getTranslatedContentDetail(article, "zh", "会场") ?? article.event?.venue
+
+export const getChineseEventPrice = (article: Article) =>
+  getTranslatedContentDetail(article, "zh", "价格") ??
+  getTranslatedContentDetail(article, "zh", "费用") ??
+  article.event?.price
+
+export const getChineseSeoTitle = (article: Article) => {
+  const title = article.zh?.title ?? article.title
+  return title.includes("秋叶原") ? title : `【秋叶原】${title}`
+}
+
+export const getChineseSeoDescription = (article: Article) =>
+  article.zh?.summary ?? article.summary
+
+export const getChineseSeoKeywords = (article: Article) => {
+  const venue = getChineseEventVenue(article)
+  return unique([
+    "秋叶原",
+    "东京",
+    "日本",
+    "秋叶原活动",
+    "秋叶原旅游",
+    "东京动漫",
+    article.event ? "秋叶原活动指南" : undefined,
+    venue,
+  ])
+}
 
 export const getEnglishSeoTitle = (article: Article) => {
   const title = article.en?.title ?? article.title
@@ -284,6 +324,9 @@ export const getEnglishSlugs = (): string[] => {
   return articlesData.filter((a) => a.en).map((a) => a.slug)
 }
 
+export const getTranslatedSlugs = (lang: TranslatedLang): string[] =>
+  (articlesData as Article[]).filter((a) => a[lang]).map((a) => a.slug)
+
 export const getOngoingEvents = (today: string): Article[] => {
   return getAllArticles().filter(
     (a) => a.event && a.event.startDate <= today && today <= a.event.endDate,
@@ -302,7 +345,7 @@ export const getAllTags = (): Tag[] => {
 /** Articles sharing the most tags with `article`, newest first on ties. */
 export const getRelatedArticles = (article: Article, lang: Lang, limit = 9): Article[] =>
   getAllArticles()
-    .filter((candidate) => candidate.slug !== article.slug && (lang === "ja" || candidate.en))
+    .filter((candidate) => candidate.slug !== article.slug && (lang === "ja" || candidate[lang]))
     .map((candidate) => ({
       article: candidate,
       matchingTagCount: candidate.tagIds.filter((id) => article.tagIds.includes(id)).length,

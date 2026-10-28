@@ -78,3 +78,22 @@ Translation rules:
 - Dates in `## Event Details` use English month names (e.g. `May 29–31, 2026`).
 - `en.title` should NOT include the `[Akihabara]` prefix. If `en.title` does not already mention "Akihabara" or "Tokyo", `getEnglishSeoTitle()` appends "in Akihabara, Tokyo" automatically at render time — do not duplicate it manually.
 - Do not translate `tags`, `event.*`, `image.alt`, or `sources`.
+
+## Simplified Chinese Translation (`zh` field)
+
+Every article with `event` data (and not yet ended) must also include a `zh` field with Simplified Chinese translations of `title`, `summary`, and `content`. Place it right after `en`. Rendered at `/zh/articles/[slug]/`.
+
+Section heading mapping:
+
+- `## 概要` → `## 概要`
+- `## 内容` → `## 活动内容`
+- `## 開催情報` → `## 活动信息`
+- `## こんな人におすすめ` → `## 推荐给`
+
+Translation rules:
+
+- Translate from the Japanese source; keep bullet structure and every fact.
+- Use labels `**会场**`, `**日期**`, `**价格**` or `**费用**` (these are parsed for the Event Info box), `**预约**`.
+- Yen amounts as `X,XXX日元（含税）`; dates as `2026年11月7日（周六）`.
+- Use official Chinese titles for works when well known (e.g. 《入间同学入魔了！》); otherwise keep the Japanese title. Keep Japanese store/brand names when no established Chinese name exists.
+- `zh.title` should NOT include a `【秋叶原】` prefix; `getChineseSeoTitle()` adds it when 秋叶原 is missing.

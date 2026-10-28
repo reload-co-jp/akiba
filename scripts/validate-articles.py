@@ -129,15 +129,17 @@ def main():
         if author_id is not None and author_ids and author_id not in author_ids:
             fail(errors, f"{label}: authorId {author_id} not found in authors.json")
 
-        en = a.get("en")
-        if en is not None:
-            if not isinstance(en, dict):
-                fail(errors, f"{label}: en must be an object")
+        for lang in ["en", "zh"]:
+            loc = a.get(lang)
+            if loc is None:
+                continue
+            if not isinstance(loc, dict):
+                fail(errors, f"{label}: {lang} must be an object")
             else:
                 for field in ["title", "summary", "content"]:
-                    val = en.get(field)
+                    val = loc.get(field)
                     if not isinstance(val, str) or not val.strip():
-                        fail(errors, f"{label}: en.{field} missing or empty")
+                        fail(errors, f"{label}: {lang}.{field} missing or empty")
 
         image = a.get("image")
         if image is not None:

@@ -56,11 +56,12 @@ export const generateMetadata = async ({ params }: Props) => {
     keywords,
     alternates: {
       canonical: `/articles/${slug}/`,
-      ...(article.en && {
+      ...((article.en || article.zh) && {
         languages: {
           "x-default": `/articles/${slug}/`,
           ja: `/articles/${slug}/`,
-          en: `/en/articles/${slug}/`,
+          ...(article.en && { en: `/en/articles/${slug}/` }),
+          ...(article.zh && { "zh-Hans": `/zh/articles/${slug}/` }),
         },
       }),
     },
@@ -406,17 +407,25 @@ const Page = async ({ params }: Props) => {
           })}
         </div>
 
-        {article.en && (
+        {(article.en || article.zh) && (
           <div
             style={{
               display: "flex",
+              gap: ".5rem",
               justifyContent: "flex-end",
               marginBottom: ".75rem",
             }}
           >
-            <Link href={`/en/articles/${slug}/`} className="language-toggle">
-              Read in English
-            </Link>
+            {article.en && (
+              <Link href={`/en/articles/${slug}/`} className="language-toggle">
+                Read in English
+              </Link>
+            )}
+            {article.zh && (
+              <Link href={`/zh/articles/${slug}/`} className="language-toggle">
+                阅读简体中文版
+              </Link>
+            )}
           </div>
         )}
 

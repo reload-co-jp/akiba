@@ -9,12 +9,20 @@ import {
   getArticlesByAuthorId,
   getArticlesByMonth,
   getArticlesByTagId,
+  type Article,
 } from "lib/articles"
 import { getDetailPageSpots, getPagedCuisines } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { getVenueLandingSpots, getWorkLandingTags } from "lib/event-landings"
 
 export const dynamic = "force-static"
+
+const articleAlternates = (article: Article) => ({
+  ja: absoluteUrl(`/articles/${article.slug}/`),
+  ...(article.en && { en: absoluteUrl(`/en/articles/${article.slug}/`) }),
+  ...(article.zh && { "zh-Hans": absoluteUrl(`/zh/articles/${article.slug}/`) }),
+  "x-default": absoluteUrl(`/articles/${article.slug}/`),
+})
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles()
@@ -76,34 +84,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.8,
       images: [absoluteUrl(getArticleImage(article).src)],
-      ...(article.en
-        ? {
-            alternates: {
-              languages: {
-                ja: absoluteUrl(`/articles/${article.slug}/`),
-                en: absoluteUrl(`/en/articles/${article.slug}/`),
-                "x-default": absoluteUrl(`/articles/${article.slug}/`),
-              },
-            },
-          }
+      ...(article.en || article.zh
+        ? { alternates: { languages: articleAlternates(article) } }
         : {}),
     })),
-    ...articles
-      .filter((a) => a.en)
-      .map((article) => ({
-        url: absoluteUrl(`/en/articles/${article.slug}/`),
-        lastModified: getArticlePublishedDate(article),
-        changeFrequency: "weekly" as const,
-        priority: 0.8,
-        images: [absoluteUrl(getArticleImage(article).src)],
-        alternates: {
-          languages: {
-            ja: absoluteUrl(`/articles/${article.slug}/`),
-            en: absoluteUrl(`/en/articles/${article.slug}/`),
-            "x-default": absoluteUrl(`/articles/${article.slug}/`),
-          },
-        },
-      })),
+    ...(["en", "zh"] as const).flatMap((lang) =>
+      articles
+        .filter((a) => a[lang])
+        .map((article) => ({
+          url: absoluteUrl(`/${lang}/articles/${article.slug}/`),
+          lastModified: getArticlePublishedDate(article),
+          changeFrequency: "weekly" as const,
+          priority: 0.8,
+          images: [absoluteUrl(getArticleImage(article).src)],
+          alternates: { languages: articleAlternates(article) },
+        })),
+    ),
     ...spots.map((spot) => ({
       url: absoluteUrl(`/spots/${spot.slug}/`),
       ...(spot.lastVerified ? { lastModified: spot.lastVerified } : {}),

@@ -18,7 +18,7 @@ Delegate the fetching steps (2 and 5) to the `web-scraper` agent — it runs on 
 3. Before drafting, check `data/articles.json` for duplicates using source URLs and event identity (see [Duplicate Handling](#duplicate-handling)).
 4. If a duplicate exists, merge the new source/facts into the existing article instead of creating another entry.
 5. Download a usable thumbnail image when available — `web-scraper` may fetch it to a path you specify.
-6. Add or update the article entry in `data/articles.json`, including the `en` translation field.
+6. Add or update the article entry in `data/articles.json`, including the `en` translation field (and `zh` for event articles).
 7. Run `pnpm run validate:articles` for a fast structural check (see [Verification](#verification)); fix anything it reports.
 8. Verify the article route and metadata with `pnpm build` once the batch is done.
 
@@ -68,7 +68,7 @@ Delegate the fetching steps (2 and 5) to the `web-scraper` agent — it runs on 
 
 ## Translation Rules
 
-Every new article must include an `en` field. See the section heading mapping and rules in [references/article-format.md](references/article-format.md).
+Every new article must include an `en` field. Event articles must also include a `zh` (Simplified Chinese) field. See the section heading mapping and rules in [references/article-format.md](references/article-format.md).
 
 - Translate all facts accurately; do not omit or invent details.
 - Keep bullet structure and formatting consistent with the Japanese `content`.
@@ -90,6 +90,7 @@ Every new article must include an `en` field. See the section heading mapping an
 - Keep `tags` short and scannable.
 - Set `event.reservation` to `true` only when reservation, ticket purchase, or advance registration is actually required or strongly indicated.
 - Include `en` field with translated `title`, `summary`, and `content`.
+- Include `zh` field (Simplified Chinese) for articles with `event` data.
 - Include `authorId: 1`.
 
 ## Verification
