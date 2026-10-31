@@ -1609,3 +1609,17 @@
 {"url": "https://news.denfaminicogamer.jp/news/261024n", "reason": "not_akihabara_specific", "note": "ラブライブ×ヤマト3199 ビジュアルのみ 現地施策なし", "checked": "2026-10-30"}
 {"url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=8042", "reason": "insufficient_facts", "note": "ゲーマーズ30周年応援隊お渡し会 10/30 会場記載不完全・当日", "checked": "2026-10-30"}
 {"url": "https://digigame-expo.org/", "reason": "insufficient_facts", "note": "デジゲー博2026 11/8 UDX 入場料・画像未確認 要再調査", "checked": "2026-10-30"}
+{"url": "https://collabo-cafe.com/events/collabo/browndust2-kemomimi-police-popup-shop-cocollabo-2026/", "reason": "insufficient_facts", "note": "AKIBA FAN CUBE 11/4開始だが秋葉原会場の終了日・時間未記載", "checked": "2026-10-31"}
+{"url": "https://collabo-cafe.com/events/collabo/pokemon-pokepeace-flowering-popup-2026/", "reason": "not_akihabara_specific", "note": "9会場に秋葉原なし", "checked": "2026-10-31"}
+{"url": "https://collabo-cafe.com/events/collabo/umamusume-cinderellagray-gengaten-tokyo-2026-add-info-ticket/", "reason": "not_akihabara_specific", "note": "池袋サンシャインシティ開催", "checked": "2026-10-31"}
+{"url": "https://www.inside-games.jp/article/2026/10/29/190050.html", "reason": "event_ended", "note": "ブシロードクリエイティブ10周年 10/10ベルサール秋葉原 終了済レポート", "checked": "2026-10-31"}
+{"url": "https://prtimes.jp/main/html/rd/p/000000001.000193442.html", "reason": "low_value", "note": "ELECTRIC TOWN MUSIC レーベル始動、ショーケースは秋葉原外", "checked": "2026-10-31"}
+{"url": "https://www.shosen.co.jp/event/46765/", "reason": "out_of_scope_venue", "note": "書泉グランデ WEBサイン会", "checked": "2026-10-31"}
+{"url": "https://collabo-cafe.com/events/collabo/zonfriends-cafe-the-guest-cafe-parco-2026/", "reason": "not_akihabara_specific", "note": "渋谷PARCOほか", "checked": "2026-10-31"}
+{"url": "https://collabo-cafe.com/events/collabo/koitoki-cafe-brunchpark-takeout-2026/", "reason": "not_akihabara_specific", "note": "赤坂", "checked": "2026-10-31"}
+{"url": "https://collabo-cafe.com/events/collabo/fnaf-infolens-popup-solamachi-ikebukuro-2026/", "reason": "not_akihabara_specific", "note": "押上・池袋", "checked": "2026-10-31"}
+{"url": "https://collabo-cafe.com/events/collabo/limbuscompany-event-exhibition-fukuoka-2026/", "reason": "not_akihabara_specific", "note": "福岡", "checked": "2026-10-31"}
+{"url": "https://www.jrtk.jp/2k540/info/detail_00547/", "reason": "not_akihabara_specific", "note": "JR大宮駅 2k540 POP UP", "checked": "2026-10-31"}
+{"url": "https://www.kensetsunews.com/archives/1300798", "reason": "low_value", "note": "土木学会 豪雨災害調査速報会 TKP秋葉原", "checked": "2026-10-31"}
+{"url": "https://brasilnippou.com/ja/articles/261028-22colonia", "reason": "not_akihabara_specific", "note": "全国の免税制度変更", "checked": "2026-10-31"}
+{"url": "https://collabo-cafe.com/events/collabo/hatsune-miku-hokusai-rella-popup-animate-fukuoka-annex-2026/", "reason": "not_akihabara_specific", "note": "アニメイト福岡", "checked": "2026-10-31"}
