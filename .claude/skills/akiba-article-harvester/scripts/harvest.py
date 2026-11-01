@@ -861,6 +861,8 @@ def cmd_image(args):
         clash.append(f"articles.json slug {slug}")
     if clash:
         sys.exit(f"REFUSED: {clash} already exist — likely a duplicate article; re-check dedup or pick another slug")
+    # MOGRA og:image filenames are often raw Japanese; urllib can't send non-ASCII.
+    url = urllib.parse.quote(url, safe=":/?&=%#~+@,;")
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
         data, ctype = r.read(), r.headers.get_content_type()
     ext = IMAGE_EXTS.get(ctype)
