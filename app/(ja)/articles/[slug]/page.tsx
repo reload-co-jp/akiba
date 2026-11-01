@@ -3,7 +3,6 @@ import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
-import AdsenseDisplayAd from "components/adsense-display-ad"
 import AdsenseInArticleAd from "components/adsense-in-article-ad"
 import RakutenWidget from "components/rakuten-widget"
 import { marked } from "marked"
@@ -100,6 +99,11 @@ const Page = async ({ params }: Props) => {
   if (!article) notFound()
 
   const contentHtml = await marked(article.content)
+  // 本文は必ず ## 始まり。2つ目の見出し直前に記事内広告を挟む
+  const splitAt = contentHtml.indexOf("<h2", 1)
+  const contentHead =
+    splitAt > 0 ? contentHtml.slice(0, splitAt) : contentHtml
+  const contentTail = splitAt > 0 ? contentHtml.slice(splitAt) : ""
   const relatedArticles = getRelatedArticles(article, "ja")
 
   const author = article.authorId ? getAuthorById(article.authorId) : undefined
@@ -589,19 +593,24 @@ const Page = async ({ params }: Props) => {
           </div>
         )}
 
-        {article.event && (
-          <aside
-            aria-label="広告"
-            style={{ maxWidth: "480px", margin: "0 auto 1.5rem" }}
-          >
-            <AdsenseInArticleAd />
-          </aside>
-        )}
-
         <div
           className="article-content"
-          dangerouslySetInnerHTML={{ __html: contentHtml }}
+          dangerouslySetInnerHTML={{ __html: contentHead }}
         />
+        {contentTail && (
+          <>
+            <aside
+              aria-label="広告"
+              style={{ maxWidth: "480px", margin: "1.5rem auto" }}
+            >
+              <AdsenseInArticleAd />
+            </aside>
+            <div
+              className="article-content"
+              dangerouslySetInnerHTML={{ __html: contentTail }}
+            />
+          </>
+        )}
 
         {article.editorComment && (
           <EditorCommentBlock comment={article.editorComment} />
@@ -823,7 +832,6 @@ const Page = async ({ params }: Props) => {
           </section>
         )}
         <AdsenseFluidAd />
-        <AdsenseDisplayAd />
       </article>
     </>
   )
