@@ -165,6 +165,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "HUAWEI公式サービスセンター（須田町ビル1F）": { lat: 35.6955, lng: 139.7692 },
   "LIVE SPACE Q": { lat: 35.7012, lng: 139.7713 },
   "カラオケの鉄人 コラボミックス 秋葉原電気街店": { lat: 35.7027, lng: 139.7709 },
+  "スニダントレカ秋葉原店別館": { lat: 35.6985, lng: 139.7714 },
 }
 
 export const getVenuePoint = (venue: string): VenuePoint | undefined => {
