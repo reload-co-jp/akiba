@@ -45210,5 +45210,294 @@
       "performer": "savage genius"
     },
     "authorId": 1
+  },
+  {
+    "id": 1111,
+    "title": "アトレ秋葉原で12月バーコード限定ポイントアップキャンペーンを実施",
+    "slug": "atre-akihabara-barcode-point-up-december-2026",
+    "summary": "アトレ秋葉原を含むアトレ・アトレヴィ各店で、2026年12月1日（火）から12月3日（木）までの3日間、JRE POINTバーコード利用で100円（税抜）ごとに2ポイントが貯まるポイントアップキャンペーンを実施する。",
+    "content": "## 概要\n\nアトレ秋葉原を含むアトレ・アトレヴィ各店で、2026年12月1日（火）～12月3日（木）の3日間、「バーコード限定ポイントアップキャンペーン」が実施される。\n\n## 内容\n\n期間中、対象店舗での支払い時にJRE POINTのバーコードを提示すると、通常より高い還元率でポイントが付与される。\n\n- 100円（税抜）ごとに2ポイント付与\n- JRE POINTのバーコード提示が条件\n\n毎月実施されているキャンペーンの12月分にあたる。年末の買い物に合わせて利用しやすい時期の開催となる。\n\n## 開催情報\n\n- **期間**: 2026年12月1日（火）～12月3日（木）\n- **会場**: アトレ秋葉原1・2（およびアトレ・アトレヴィ各店）\n- **料金**: 参加無料（JRE POINT会員向け）\n- **条件**: 支払い時にJRE POINTバーコードを提示\n\n## こんな人におすすめ\n\n- アトレ秋葉原で日常的に買い物をしている方\n- JRE POINTを効率よく貯めたい方\n- 年末のまとめ買いのタイミングを検討している方",
+    "publishedAt": "2026-11-04",
+    "tagIds": [
+      63,
+      46,
+      16,
+      207
+    ],
+    "en": {
+      "title": "Atre Akihabara Runs a Barcode-Only Point-Up Campaign in December",
+      "summary": "From Tuesday, December 1 to Thursday, December 3, 2026, Atre Akihabara and other Atre and Atrevie locations will award 2 JRE POINTs per ¥100 (pre-tax) when shoppers present their JRE POINT barcode.",
+      "content": "## Overview\n\nAtre and Atrevie stores, including Atre Akihabara, will run a \"Barcode-Only Point-Up Campaign\" for three days, from Tuesday, December 1 to Thursday, December 3, 2026.\n\n## Details\n\nDuring the period, showing a JRE POINT barcode at checkout earns points at a higher-than-usual rate.\n\n- 2 points per ¥100 (pre-tax)\n- Requires presenting the JRE POINT barcode\n\nThis is the December edition of a campaign run each month, timed conveniently for year-end shopping.\n\n## Event Details\n\n- **Period**: Tuesday, December 1 to Thursday, December 3, 2026\n- **Venue**: Atre Akihabara 1 and 2 (and other Atre / Atrevie stores)\n- **Cost**: Free to participate (for JRE POINT members)\n- **Condition**: Present the JRE POINT barcode at payment\n\n## Recommended For\n\n- Regular shoppers at Atre Akihabara\n- Anyone looking to accumulate JRE POINTs efficiently\n- Shoppers timing year-end purchases"
+    },
+    "zh": {
+      "title": "atre秋叶原将于12月举办条形码限定积分提升活动",
+      "summary": "包括atre秋叶原在内的atre・atrevie各店，将于2026年12月1日（周二）至12月3日（周四）的3天内举办积分提升活动，出示JRE POINT条形码消费，每100日元（不含税）可获得2积分。",
+      "content": "## 概要\n\n包括atre秋叶原在内的atre・atrevie各店，将于2026年12月1日（周二）至12月3日（周四）的3天内举办「条形码限定积分提升活动」。\n\n## 活动内容\n\n活动期间，在对象店铺结账时出示JRE POINT条形码，即可获得高于平时的积分。\n\n- 每100日元（不含税）获得2积分\n- 需出示JRE POINT条形码\n\n这是每月举办的活动的12月版，适合年末购物时利用。\n\n## 活动信息\n\n- **期间**: 2026年12月1日（周二）～12月3日（周四）\n- **会场**: atre秋叶原1・2（及atre・atrevie各店）\n- **费用**: 免费参加（面向JRE POINT会员）\n- **条件**: 结账时出示JRE POINT条形码"
+    },
+    "image": {
+      "src": "/images/articles/atre-akihabara-barcode-point-up-december-2026.jpg",
+      "alt": "アトレ秋葉原 12月バーコード限定ポイントアップキャンペーンの告知ビジュアル",
+      "sourceLabel": "アトレ秋葉原 公式ニュース",
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/6852",
+      "width": 560,
+      "height": 560
+    },
+    "sources": [
+      {
+        "label": "アトレ秋葉原 公式ニュース",
+        "url": "https://www.atre.co.jp/akihabara/news/6852"
+      }
+    ],
+    "event": {
+      "venue": "アトレ秋葉原",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-03",
+      "price": "参加無料（JRE POINT会員向け）",
+      "reservation": false,
+      "category": "campaign"
+    },
+    "authorId": 1
+  },
+  {
+    "id": 1112,
+    "title": "アトレ秋葉原で「みんなでteppay！20％ポイント還元キャンペーン」、12月25日まで",
+    "slug": "teppay-20-percent-point-campaign-atre-akihabara-2026",
+    "summary": "アトレ秋葉原の対象店舗で、2026年11月4日（水）から12月25日（金）まで「みんなでteppay！20％ポイント還元キャンペーン」を実施。事前エントリーの上、teppayのコード決済で500円（税込）以上支払うと、利用額の20％がteppayポイント（期間限定）で還元される。",
+    "content": "## 概要\n\nアトレ秋葉原で、コード決済サービス「teppay」を対象にした「みんなでteppay！20％ポイント還元キャンペーン」が2026年11月4日（水）から12月25日（金）まで実施されている。\n\n## 内容\n\n期間中にteppayのキャンペーンページから事前エントリーし、対象店舗で500円（税込）以上をteppayのコード決済で支払うと、利用額の20％がteppayポイント（期間限定）で還元される。\n\n- 還元率は利用額の20％\n- 還元はteppayポイント（期間限定）\n- teppayポイントは1ポイント＝1円としてteppay残高支払いに利用可能\n- 事前エントリーが必須\n\n対象店舗はアトレ秋葉原の公式ニュースで案内されている。\n\n## 開催情報\n\n- **期間**: 2026年11月4日（水）～12月25日（金）\n- **会場**: アトレ秋葉原（対象店舗）\n- **料金**: 参加無料（teppay利用者向け）\n- **条件**: 事前エントリーの上、500円（税込）以上をteppayコード決済\n\n## こんな人におすすめ\n\n- アトレ秋葉原でよく買い物をする方\n- teppayを使っている、または使い始めたい方\n- 年末の買い物でお得に還元を受けたい方",
+    "publishedAt": "2026-11-04",
+    "tagIds": [
+      63,
+      46,
+      207
+    ],
+    "en": {
+      "title": "Atre Akihabara Runs \"Everyone teppay! 20% Point Back Campaign\" Through December 25",
+      "summary": "From Wednesday, November 4 to Friday, December 25, 2026, participating stores at Atre Akihabara are running the \"Everyone teppay! 20% Point Back Campaign.\" After entering in advance, shoppers who pay ¥500 (tax included) or more via teppay code payment receive 20% back in limited-time teppay points.",
+      "content": "## Overview\n\nAtre Akihabara is running the \"Everyone teppay! 20% Point Back Campaign\" for the code payment service teppay from Wednesday, November 4 to Friday, December 25, 2026.\n\n## Details\n\nShoppers who enter via the teppay campaign page during the period and pay ¥500 (tax included) or more by teppay code payment at participating stores receive 20% of the amount back as limited-time teppay points.\n\n- 20% back on the amount spent\n- Rewarded as limited-time teppay points\n- teppay points can be used at 1 point = ¥1 for teppay balance payments\n- Advance entry required\n\nParticipating stores are listed in Atre Akihabara's official news post.\n\n## Event Details\n\n- **Period**: Wednesday, November 4 to Friday, December 25, 2026\n- **Venue**: Atre Akihabara (participating stores)\n- **Cost**: Free to participate (for teppay users)\n- **Condition**: Enter in advance and pay ¥500 (tax included) or more by teppay code payment\n\n## Recommended For\n\n- Regular shoppers at Atre Akihabara\n- teppay users, or anyone planning to start using it\n- Shoppers looking for rewards on year-end purchases"
+    },
+    "zh": {
+      "title": "atre秋叶原举办「大家一起用teppay！20%积分返还活动」，截至12月25日",
+      "summary": "atre秋叶原的对象店铺将于2026年11月4日（周三）至12月25日（周五）举办「大家一起用teppay！20%积分返还活动」。事先报名后，使用teppay扫码支付500日元（含税）以上，即可获得消费金额20%的teppay积分（限期）返还。",
+      "content": "## 概要\n\natre秋叶原正在举办以扫码支付服务「teppay」为对象的「大家一起用teppay！20%积分返还活动」，期间为2026年11月4日（周三）至12月25日（周五）。\n\n## 活动内容\n\n活动期间通过teppay活动页面事先报名，并在对象店铺使用teppay扫码支付500日元（含税）以上，即可获得消费金额20%的teppay积分（限期）返还。\n\n- 返还比例为消费金额的20%\n- 以teppay积分（限期）形式返还\n- teppay积分可按1积分＝1日元用于teppay余额支付\n- 需事先报名\n\n## 活动信息\n\n- **期间**: 2026年11月4日（周三）～12月25日（周五）\n- **会场**: atre秋叶原（对象店铺）\n- **费用**: 免费参加（面向teppay用户）\n- **条件**: 事先报名，并使用teppay扫码支付500日元（含税）以上"
+    },
+    "image": {
+      "src": "/images/articles/teppay-20-percent-point-campaign-atre-akihabara-2026.jpg",
+      "alt": "「みんなでteppay！20％ポイント還元キャンペーン」の告知ビジュアル",
+      "sourceLabel": "アトレ秋葉原 公式ニュース",
+      "sourceUrl": "https://www.atre.co.jp/akihabara/news/7836",
+      "width": 560,
+      "height": 560
+    },
+    "sources": [
+      {
+        "label": "アトレ秋葉原 公式ニュース",
+        "url": "https://www.atre.co.jp/akihabara/news/7836"
+      }
+    ],
+    "event": {
+      "venue": "アトレ秋葉原",
+      "startDate": "2026-11-04",
+      "endDate": "2026-12-25",
+      "price": "参加無料（teppay利用者向け）",
+      "reservation": false,
+      "category": "campaign"
+    },
+    "authorId": 1
+  },
+  {
+    "id": 1113,
+    "title": "VTuber「海月雲ろあ」コラボカフェ「ろあと海辺のお茶会」がキュアメイドカフェで11月20日から開催",
+    "slug": "kurageu-roa-umibe-ochakai-curemaid-akihabara-2026",
+    "summary": "VTuber・海月雲ろあのコラボカフェ「ろあと海辺のお茶会 in キュアメイドカフェ」が、2026年11月20日から12月6日まで秋葉原のキュアメイドカフェで開催。ろあ監修のオムライスやパフェ、コラボドリンク9種が登場し、注文ごとに限定カード（全5種）、グッズ2,200円購入ごとに限定ステッカー（全5種）がもらえる。",
+    "content": "## 概要\n\nVTuber・海月雲ろあとキュアメイドカフェのコラボカフェ「ろあと海辺のお茶会 in キュアメイドカフェ」が、2026年11月20日から12月6日まで秋葉原のキュアメイドカフェで開催される。\n\n## 内容\n\n海月雲ろあが監修したオムライスやパフェ、9種類のコラボドリンクが提供される。\n\n- ろあ監修のオムライス・パフェ\n- コラボドリンク全9種\n- コラボメニュー注文ごとに限定カード（全5種）\n- グッズ2,200円購入ごとに限定ステッカー（全5種）\n- 新規描き下ろしグッズの先行販売\n- 等身大パネルの展示、コメンタリー映像の放映\n\n## 開催情報\n\n- **期間**: 2026年11月20日～12月6日\n- **会場**: キュアメイドカフェ（秋葉原）\n- **料金**: 入店無料（メニュー・グッズは有料）\n\n## こんな人におすすめ\n\n- 海月雲ろあのファン\n- 秋葉原の老舗コンセプトカフェでコラボメニューを楽しみたい方\n- 限定カードやステッカーを集めたい方",
+    "publishedAt": "2026-11-04",
+    "tagIds": [
+      29,
+      64,
+      131,
+      80,
+      207
+    ],
+    "en": {
+      "title": "VTuber Kurageu Roa Collab Cafe \"Roa's Seaside Tea Party\" Opens at Cure Maid Cafe on November 20",
+      "summary": "The VTuber Kurageu Roa collab cafe \"Roa's Seaside Tea Party in Cure Maid Cafe\" runs at Cure Maid Cafe in Akihabara from November 20 to December 6, 2026. It features Roa-supervised omurice and parfaits plus nine collab drinks, with a limited card (5 designs) per order and a limited sticker (5 designs) per ¥2,200 of merchandise purchased.",
+      "content": "## Overview\n\nThe collab cafe \"Roa's Seaside Tea Party in Cure Maid Cafe\" between VTuber Kurageu Roa and Cure Maid Cafe runs at Cure Maid Cafe in Akihabara from November 20 to December 6, 2026.\n\n## Highlights\n\nThe cafe serves omurice and parfaits supervised by Kurageu Roa, along with nine collab drinks.\n\n- Roa-supervised omurice and parfaits\n- Nine collab drinks\n- One limited card (5 designs) per collab menu order\n- One limited sticker (5 designs) per ¥2,200 of merchandise purchased\n- Early sale of newly illustrated merchandise\n- Life-size panel display and commentary video screening\n\n## Event Details\n\n- **Dates**: November 20 - December 6, 2026\n- **Venue**: Cure Maid Cafe (Akihabara)\n- **Price**: Free entry (menu items and goods sold separately)\n\n## Recommended For\n\n- Fans of Kurageu Roa\n- Anyone wanting to enjoy a collab menu at a long-running Akihabara concept cafe\n- Collectors of limited cards and stickers"
+    },
+    "zh": {
+      "title": "VTuber「海月云萝亚」联名咖啡厅「萝亚与海边茶会」11月20日起在Cure Maid Cafe举办",
+      "summary": "VTuber海月云萝亚（海月雲ろあ）的联名咖啡厅「萝亚与海边茶会 in Cure Maid Cafe」将于2026年11月20日至12月6日在秋叶原的Cure Maid Cafe举办。推出由萝亚监修的蛋包饭和芭菲以及9种联名饮品，每次点餐赠送限定卡片（共5种），每购买2,200日元周边赠送限定贴纸（共5种）。",
+      "content": "## 概要\n\nVTuber海月云萝亚（海月雲ろあ）与Cure Maid Cafe的联名咖啡厅「萝亚与海边茶会 in Cure Maid Cafe」，将于2026年11月20日至12月6日在秋叶原的Cure Maid Cafe举办。\n\n## 活动内容\n\n- 由海月云萝亚监修的蛋包饭和芭菲\n- 联名饮品共9种\n- 每点一份联名菜单赠送限定卡片（共5种）\n- 每购买2,200日元周边赠送限定贴纸（共5种）\n- 全新绘制周边抢先发售\n- 展示等身大立牌，播放解说影像\n\n## 活动信息\n\n- **日期**: 2026年11月20日～12月6日\n- **会场**: Cure Maid Cafe（秋叶原）\n- **费用**: 免费入场（餐饮和周边需另付费）"
+    },
+    "image": {
+      "src": "/images/articles/kurageu-roa-umibe-ochakai-curemaid-akihabara-2026.jpg",
+      "alt": "「ろあと海辺のお茶会 in キュアメイドカフェ」の告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/kurageu-roa-cafe-curemaid-cafe-akihabara-2026/",
+      "width": 1920,
+      "height": 1080
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/kurageu-roa-cafe-curemaid-cafe-akihabara-2026/"
+      }
+    ],
+    "event": {
+      "venue": "キュアメイドカフェ",
+      "startDate": "2026-11-20",
+      "endDate": "2026-12-06",
+      "price": "入店無料（メニュー・グッズは有料）",
+      "reservation": false,
+      "category": "collab-cafe"
+    },
+    "authorId": 1
+  },
+  {
+    "id": 1114,
+    "title": "『Summer Pockets』ミリタリースタイルPOP UP SHOP第2弾がボークス秋葉原ホビー天国2で11月13日から開催",
+    "slug": "summer-pockets-military-style-popup-volks-akihabara-2026",
+    "summary": "「TVアニメ『Summer Pockets』 POP UP SHOP in ボークス秋葉原ホビー天国2 vol.Ⅱ」が2026年11月13日から29日までボークス秋葉原ホビー天国2 6Fで開催。「ミリタリースタイル」をテーマにした新規描き下ろしグッズを先行販売し、2,000円（税込）購入ごとにイラストカード（全9種）がもらえる。",
+    "content": "## 概要\n\nTVアニメ『Summer Pockets』のPOP UP SHOP第2弾「TVアニメ『Summer Pockets』 POP UP SHOP in ボークス秋葉原ホビー天国2 vol.Ⅱ」が、2026年11月13日から11月29日までボークス秋葉原ホビー天国2 6Fで開催される。\n\n## 内容\n\n「ミリタリースタイル」をコンセプトにした新規描き下ろしイラストのグッズが多数先行販売される。\n\n- ミリタリースタイルの新規描き下ろしグッズを先行販売\n- イベント関連商品2,000円（税込）購入ごとにイラストカード（全9種・ランダム）1枚\n- 対象の缶バッジを1BOX購入すると会場限定75mmグリッター缶バッジ（先着）\n\n特典は会場での購入が対象で、通販での購入は対象外。いずれもなくなり次第終了となる。\n\n## 開催情報\n\n- **期間**: 2026年11月13日～11月29日\n- **会場**: ボークス秋葉原ホビー天国2 6F\n- **料金**: 入場無料（グッズは有料）\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『Summer Pockets』のファン\n- 描き下ろしグッズをいち早く手に入れたい方\n- 会場限定の特典を集めたい方",
+    "publishedAt": "2026-11-04",
+    "tagIds": [
+      127,
+      129,
+      47,
+      207
+    ],
+    "en": {
+      "title": "Summer Pockets \"Military Style\" Pop-Up Shop Vol. II Opens at Volks Akihabara Hobby Heaven 2 on November 13",
+      "summary": "\"TV Anime Summer Pockets POP UP SHOP in Volks Akihabara Hobby Heaven 2 vol. II\" runs on the 6th floor of Volks Akihabara Hobby Heaven 2 from November 13 to 29, 2026. Newly illustrated \"Military Style\" merchandise goes on early sale, with an illustration card (9 designs) for every ¥2,000 (tax included) spent.",
+      "content": "## Overview\n\nThe second pop-up shop for the TV anime Summer Pockets, \"TV Anime Summer Pockets POP UP SHOP in Volks Akihabara Hobby Heaven 2 vol. II,\" runs on the 6th floor of Volks Akihabara Hobby Heaven 2 from November 13 to November 29, 2026.\n\n## Highlights\n\nA wide range of merchandise featuring new illustrations themed on a \"Military Style\" concept goes on early sale.\n\n- Early sale of newly illustrated Military Style merchandise\n- One random illustration card (9 designs) per ¥2,000 (tax included) of event merchandise\n- Venue-exclusive 75mm glitter can badge for buying a full box of the eligible can badges (first come, first served)\n\nBonuses apply only to purchases at the venue, not mail order, and end when supplies run out.\n\n## Event Details\n\n- **Dates**: November 13 - November 29, 2026\n- **Venue**: Volks Akihabara Hobby Heaven 2, 6F\n- **Price**: Free entry (merchandise sold separately)\n- **Reservation**: Not required\n\n## Recommended For\n\n- Summer Pockets fans\n- Anyone wanting the new illustrated goods early\n- Collectors of venue-exclusive bonuses"
+    },
+    "zh": {
+      "title": "《Summer Pockets》军装风格POP UP SHOP第2弹11月13日起在VOLKS秋叶原Hobby天国2举办",
+      "summary": "「TV动画《Summer Pockets》POP UP SHOP in VOLKS秋叶原Hobby天国2 vol.Ⅱ」将于2026年11月13日至29日在VOLKS秋叶原Hobby天国2 6F举办。抢先发售以「军装风格」为主题的全新绘制周边，每消费2,000日元（含税）赠送插画卡（共9种）。",
+      "content": "## 概要\n\nTV动画《Summer Pockets》的POP UP SHOP第2弹「TV动画《Summer Pockets》POP UP SHOP in VOLKS秋叶原Hobby天国2 vol.Ⅱ」，将于2026年11月13日至11月29日在VOLKS秋叶原Hobby天国2 6F举办。\n\n## 活动内容\n\n- 抢先发售以「军装风格」为概念的全新绘制周边\n- 每购买活动相关商品2,000日元（含税）随机赠送插画卡（共9种）1张\n- 购买对象徽章1整盒赠送会场限定75mm闪粉徽章（先到先得）\n\n特典仅限会场购买，网购不在对象范围内，送完即止。\n\n## 活动信息\n\n- **日期**: 2026年11月13日～11月29日\n- **会场**: VOLKS秋叶原Hobby天国2 6F\n- **费用**: 免费入场（周边需另付费）\n- **预约**: 无需预约"
+    },
+    "image": {
+      "src": "/images/articles/summer-pockets-military-style-popup-volks-akihabara-2026.jpg",
+      "alt": "『Summer Pockets』ミリタリースタイル POP UP SHOPの告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/summer-pockets-military-style-popup-volks-akihabara-2026/",
+      "width": 1140,
+      "height": 640
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/summer-pockets-military-style-popup-volks-akihabara-2026/"
+      }
+    ],
+    "event": {
+      "venue": "ボークス秋葉原ホビー天国2",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-29",
+      "price": "入場無料（グッズは有料）",
+      "reservation": false,
+      "category": "popup"
+    },
+    "authorId": 1
+  },
+  {
+    "id": 1115,
+    "title": "「東京リベンジャーズ」コラボカフェ「BloomFate in STELLAMAP Cafe」がソフマップAKIBAアミューズメント館で11月12日から開催",
+    "slug": "tokyo-revengers-bloomfate-stellamap-cafe-akihabara-2026",
+    "summary": "TVアニメ「東京リベンジャーズ」のコラボカフェ「BloomFate in STELLAMAP Cafe」が、2026年11月12日から30日までソフマップAKIBAアミューズメント館7Fのステラマップカフェで開催。描き下ろしイラストのグッズ販売とコラボメニューを展開し、事前予約者には来場特典イラストカード（全5種）が付く。",
+    "content": "## 概要\n\nTVアニメ「東京リベンジャーズ」のコラボカフェ『TVアニメ「東京リベンジャーズ」BloomFate in STELLAMAP Cafe』が、2026年11月12日（木）から11月30日（月）まで、秋葉原のステラマップカフェ（ソフマップAKIBAアミューズメント館7F）で開催される。\n\n## 内容\n\n描き下ろしイラストを使用したグッズの販売や、キャラクター・ストーリーをイメージしたコラボメニューが提供される。\n\n- 描き下ろしイラストのグッズを販売\n- キャラクターやストーリーをイメージしたコラボメニュー\n- 予約・来場特典としてイラストカード（全5種・ランダム）を1点\n- アキバ☆ソフマップ（オンラインショップ）でも11月12日10:00～11月30日23:59にグッズを受注\n\n来場特典は、コラボカフェを事前予約して利用した客が対象。事前予約には手数料500円が必要。\n\n## 開催情報\n\n- **期間**: 2026年11月12日（木）～11月30日（月）\n- **会場**: ステラマップカフェ（ソフマップAKIBAアミューズメント館7F）\n- **料金**: 事前予約手数料500円（メニュー・グッズは別途）\n- **予約**: 事前予約あり（予約者に来場特典）\n\n## こんな人におすすめ\n\n- 「東京リベンジャーズ」のファン\n- 描き下ろしグッズやコラボメニューを楽しみたい方\n- 秋葉原でアニメコラボカフェを巡っている方",
+    "publishedAt": "2026-11-04",
+    "tagIds": [
+      280,
+      57,
+      80,
+      47,
+      207
+    ],
+    "en": {
+      "title": "Tokyo Revengers Collab Cafe \"BloomFate in STELLAMAP Cafe\" Opens at Sofmap AKIBA Amusement Building on November 12",
+      "summary": "The TV anime Tokyo Revengers collab cafe \"BloomFate in STELLAMAP Cafe\" runs at STELLAMAP Cafe on the 7th floor of Sofmap AKIBA Amusement Building from November 12 to 30, 2026. It offers newly illustrated merchandise and a collab menu, with an illustration card (5 designs) for guests who reserve in advance.",
+      "content": "## Overview\n\nThe collab cafe \"TV Anime Tokyo Revengers BloomFate in STELLAMAP Cafe\" runs at STELLAMAP Cafe (Sofmap AKIBA Amusement Building 7F) in Akihabara from Thursday, November 12 to Monday, November 30, 2026.\n\n## Highlights\n\nThe cafe sells merchandise featuring new illustrations and serves a collab menu inspired by the characters and story.\n\n- Merchandise with new illustrations\n- Collab menu inspired by the characters and story\n- One random illustration card (5 designs) as a reservation/visit bonus\n- Merchandise orders also accepted on Aki☆Sofmap (online shop) from November 12, 10:00 to November 30, 23:59\n\nThe visit bonus is for guests who reserve the cafe in advance and visit. Advance reservations carry a ¥500 fee.\n\n## Event Details\n\n- **Dates**: Thursday, November 12 - Monday, November 30, 2026\n- **Venue**: STELLAMAP Cafe (Sofmap AKIBA Amusement Building 7F)\n- **Price**: ¥500 advance reservation fee (menu and goods separate)\n- **Reservation**: Advance reservations available (bonus for reserved guests)\n\n## Recommended For\n\n- Tokyo Revengers fans\n- Anyone wanting new illustrated goods and a collab menu\n- Visitors touring anime collab cafes in Akihabara"
+    },
+    "zh": {
+      "title": "「东京复仇者」联名咖啡厅「BloomFate in STELLAMAP Cafe」11月12日起在Sofmap AKIBA娱乐馆举办",
+      "summary": "TV动画「东京复仇者」联名咖啡厅「BloomFate in STELLAMAP Cafe」将于2026年11月12日至30日在Sofmap AKIBA娱乐馆7F的STELLAMAP Cafe举办。销售全新绘制周边并推出联名菜单，事先预约者可获得来店特典插画卡（共5种）。",
+      "content": "## 概要\n\nTV动画「东京复仇者」联名咖啡厅『TV动画「东京复仇者」BloomFate in STELLAMAP Cafe』，将于2026年11月12日（周四）至11月30日（周一）在秋叶原的STELLAMAP Cafe（Sofmap AKIBA娱乐馆7F）举办。\n\n## 活动内容\n\n- 销售使用全新绘制插画的周边\n- 以角色和故事为灵感的联名菜单\n- 预约・来店特典：插画卡（共5种・随机）1张\n- Aki☆Sofmap（网店）也于11月12日10:00至11月30日23:59接受周边订购\n\n来店特典面向事先预约并到店消费的顾客。事先预约需支付500日元手续费。\n\n## 活动信息\n\n- **日期**: 2026年11月12日（周四）～11月30日（周一）\n- **会场**: STELLAMAP Cafe（Sofmap AKIBA娱乐馆7F）\n- **费用**: 事先预约手续费500日元（餐饮和周边另计）\n- **预约**: 可事先预约（预约者有来店特典）"
+    },
+    "image": {
+      "src": "/images/articles/tokyo-revengers-bloomfate-stellamap-cafe-akihabara-2026.jpg",
+      "alt": "『TVアニメ「東京リベンジャーズ」BloomFate in STELLAMAP Cafe』の告知ビジュアル",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/sofmap-ce60dcex/",
+      "width": 1000,
+      "height": 563
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/sofmap-ce60dcex/"
+      }
+    ],
+    "event": {
+      "venue": "STELLAMAP Cafe（ソフマップAKIBAアミューズメント館7F）",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-30",
+      "price": "事前予約手数料500円（メニュー・グッズは別途）",
+      "reservation": true,
+      "category": "collab-cafe"
+    },
+    "authorId": 1
+  },
+  {
+    "id": 1116,
+    "title": "「勝利の女神：NIKKE」×GiGOキャンペーン「ホワイト・オータム」が11月14日から、GiGOのたい焼き秋葉原5号館で「NIKKE焼き」を販売",
+    "slug": "nikke-gigo-white-autumn-akihabara-2026",
+    "summary": "『勝利の女神：NIKKE』とGiGOのコラボ「ホワイト・オータム」が2026年11月14日から12月20日まで全国のGiGOグループ店舗とGiGO ONLINE CRANEで開催。秋葉原ではGiGOのたい焼き秋葉原5号館で「NIKKE焼き」（650円）を販売し、GiGO秋葉原3号館も対象店舗となる。",
+    "content": "## 概要\n\n株式会社GENDA GiGO Entertainmentは、『勝利の女神：NIKKE』とコラボした「勝利の女神：NIKKE×GiGOキャンペーン ホワイト・オータム」を、2026年11月14日（土）から12月20日（日）まで全国のGiGOグループ店舗とオンラインクレーンゲーム「GiGO ONLINE CRANE」で開催する。\n\n## 内容\n\n「ホワイト・オータム」をテーマにした限定プライズ全6種類が11月14日から順次登場し、一部景品は11月28日から順次登場する。\n\n- 限定プライズ全6種類\n- 対象景品のクレーンゲーム機に1,000円（GiGO ONLINE CRANEは有償1,000SP）投入で「オリジナルマウスパッド（全10種）」をランダムで1枚進呈\n- GiGOのたい焼き秋葉原5号館で「NIKKE焼き」を販売（650円・税込）\n- GiGO秋葉原3号館では500円（税込）のキャンペーン商品を設置\n\nNIKKE焼きの販売店舗はGiGOのたい焼き秋葉原5号館とGiGOのたい焼き大阪道頓堀本店の2店舗、500円商品の設置店舗はGiGO秋葉原3号館とGiGO大阪道頓堀本店の2店舗で、都内では秋葉原が展開拠点となる。\n\n開催を記念して、11月2日（月）から11月13日（金）までXでリポストキャンペーンも実施される。\n\n## 開催情報\n\n- **期間**: 2026年11月14日（土）～12月20日（日）\n- **会場**: GiGOのたい焼き秋葉原5号館、GiGO秋葉原3号館ほか全国のGiGOグループ店舗\n- **料金**: NIKKE焼き650円（税込）、クレーンゲームはプレイ料金に準ずる\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 『勝利の女神：NIKKE』のプレイヤー\n- 秋葉原でコラボたい焼きを食べたい方\n- 限定プライズやマウスパッドを集めたい方",
+    "publishedAt": "2026-11-04",
+    "tagIds": [
+      13,
+      90,
+      74,
+      80,
+      63,
+      207
+    ],
+    "en": {
+      "title": "GODDESS OF VICTORY: NIKKE x GiGO \"White Autumn\" Campaign Starts November 14, With \"NIKKE-yaki\" at GiGO Taiyaki Akihabara Building 5",
+      "summary": "The GODDESS OF VICTORY: NIKKE x GiGO collaboration \"White Autumn\" runs at GiGO group stores nationwide and on GiGO ONLINE CRANE from November 14 to December 20, 2026. In Akihabara, GiGO Taiyaki Akihabara Building 5 sells \"NIKKE-yaki\" (¥650), and GiGO Akihabara Building 3 is also a participating store.",
+      "content": "## Overview\n\nGENDA GiGO Entertainment is holding the \"GODDESS OF VICTORY: NIKKE x GiGO Campaign White Autumn\" at GiGO group stores nationwide and on the online crane game \"GiGO ONLINE CRANE\" from Saturday, November 14 to Sunday, December 20, 2026.\n\n## Highlights\n\nSix limited prizes themed on \"White Autumn\" roll out from November 14, with some prizes arriving from November 28.\n\n- Six limited prizes\n- Put ¥1,000 (1,000 paid SP on GiGO ONLINE CRANE) into an eligible crane game to receive one random \"Original Mouse Pad\" (10 designs)\n- \"NIKKE-yaki\" taiyaki sold at GiGO Taiyaki Akihabara Building 5 (¥650, tax included)\n- A ¥500 (tax included) campaign item at GiGO Akihabara Building 3\n\nNIKKE-yaki is sold at only two shops, GiGO Taiyaki Akihabara Building 5 and GiGO Taiyaki Osaka Dotonbori Main Store, and the ¥500 item is available at GiGO Akihabara Building 3 and GiGO Osaka Dotonbori Main Store, making Akihabara the Tokyo hub for these items.\n\nA repost campaign on X also runs from Monday, November 2 to Friday, November 13 to mark the collaboration.\n\n## Event Details\n\n- **Dates**: Saturday, November 14 - Sunday, December 20, 2026\n- **Venue**: GiGO Taiyaki Akihabara Building 5, GiGO Akihabara Building 3, and GiGO group stores nationwide\n- **Price**: NIKKE-yaki ¥650 (tax included); crane games at regular play prices\n- **Reservation**: Not required\n\n## Recommended For\n\n- GODDESS OF VICTORY: NIKKE players\n- Anyone wanting collab taiyaki in Akihabara\n- Collectors of limited prizes and mouse pads"
+    },
+    "zh": {
+      "title": "《胜利女神：NIKKE》×GiGO「White Autumn」活动11月14日开始，GiGO鲷鱼烧秋叶原5号馆销售「NIKKE烧」",
+      "summary": "《胜利女神：NIKKE》与GiGO的联名活动「White Autumn」将于2026年11月14日至12月20日在全国GiGO集团店铺及GiGO ONLINE CRANE举办。秋叶原的GiGO鲷鱼烧秋叶原5号馆销售「NIKKE烧」（650日元），GiGO秋叶原3号馆也是对象店铺。",
+      "content": "## 概要\n\nGENDA GiGO Entertainment将于2026年11月14日（周六）至12月20日（周日），在全国GiGO集团店铺及在线抓娃娃机「GiGO ONLINE CRANE」举办「胜利女神：NIKKE×GiGO活动 White Autumn」。\n\n## 活动内容\n\n- 以「White Autumn」为主题的限定奖品共6种，11月14日起陆续登场（部分奖品11月28日起登场）\n- 在对象抓娃娃机投入1,000日元（GiGO ONLINE CRANE为付费1,000SP），随机赠送「原创鼠标垫（共10种）」1张\n- GiGO鲷鱼烧秋叶原5号馆销售「NIKKE烧」（650日元・含税）\n- GiGO秋叶原3号馆设置500日元（含税）的活动商品\n\nNIKKE烧仅在GiGO鲷鱼烧秋叶原5号馆和GiGO鲷鱼烧大阪道顿堀本店2家店铺销售，500日元商品仅在GiGO秋叶原3号馆和GiGO大阪道顿堀本店2家店铺设置。\n\n## 活动信息\n\n- **期间**: 2026年11月14日（周六）～12月20日（周日）\n- **会场**: GiGO鲷鱼烧秋叶原5号馆、GiGO秋叶原3号馆及全国GiGO集团店铺\n- **费用**: NIKKE烧650日元（含税），抓娃娃机按游戏费用计\n- **预约**: 无需预约"
+    },
+    "image": {
+      "src": "/images/articles/nikke-gigo-white-autumn-akihabara-2026.jpg",
+      "alt": "「勝利の女神：NIKKE×GiGOキャンペーン ホワイト・オータム」の告知ビジュアル",
+      "sourceLabel": "Gamer 記事",
+      "sourceUrl": "https://www.gamer.ne.jp/news/202611020007/",
+      "width": 1200,
+      "height": 675
+    },
+    "sources": [
+      {
+        "label": "GiGOのたい焼き秋葉原5号館 店舗ページ",
+        "url": "https://www.gigo.co.jp/shops/taiyaki-akihabara5"
+      },
+      {
+        "label": "Gamer 記事",
+        "url": "https://www.gamer.ne.jp/news/202611020007/"
+      }
+    ],
+    "event": {
+      "venue": "GiGOのたい焼き秋葉原5号館",
+      "startDate": "2026-11-14",
+      "endDate": "2026-12-20",
+      "price": "NIKKE焼き650円（税込）",
+      "reservation": false,
+      "category": "campaign"
+    },
+    "authorId": 1
   }
 ]

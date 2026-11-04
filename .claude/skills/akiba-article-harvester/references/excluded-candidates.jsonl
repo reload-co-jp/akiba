@@ -1647,3 +1647,11 @@
 {"url": "https://collabo-cafe.com/events/collabo/nikke-shop-tieup-gigo-white-autumn-2026/", "reason": "insufficient_facts", "note": "GiGO全国キャンペーン、秋葉原の実施店舗不明", "checked": "2026-11-03"}
 {"url": "https://collabo-cafe.com/events/collabo/cf-vanguard-divinez-kanketsu-popup-animate-2026/", "reason": "insufficient_facts", "note": "アニメイト対象10店舗名不明、秋葉原開催未確認", "checked": "2026-11-03"}
 {"url": "https://otakuma.net/archives/2026110201.html", "reason": "not_akihabara_specific", "note": "REK常設アリーナ所在地は東京とのみ、秋葉原未確認", "checked": "2026-11-03"}
+{"url": "https://www.atre.co.jp/akihabara/news/7843", "reason": "insufficient_facts", "note": "JRE POINT新規登録: 期間表記が2通りで食い違い、付与ポイント不明", "checked": "2026-11-04"}
+{"url": "https://www.atre.co.jp/akihabara/news/7834", "reason": "low_value", "note": "旧アトレカード取扱い終了は2027年10月、現時点で読者影響小", "checked": "2026-11-04"}
+{"url": "https://www.atre.co.jp/akihabara/news/7813", "reason": "low_value", "note": "JRE CARD入会キャンペーン新期間、既存記事jre-card-atre-akihabara-campaign-2026と同種", "checked": "2026-11-04"}
+{"url": "https://collabo-cafe.com/events/collabo/vampire-knight-cafe-hakusensha-cafe-tokyo-osaka-2026/", "reason": "insufficient_facts", "note": "東京会場My Charaful Cafe（神田）住所未確認", "checked": "2026-11-04"}
+{"url": "https://www.walkerplus.com/event/ar0313e622258/", "reason": "insufficient_facts", "note": "会場・時間欄空、丸善お茶の水店確認不可", "checked": "2026-11-04"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2152862.html", "reason": "low_value", "note": "Razer×鳴潮 製品展示のみ", "checked": "2026-11-04"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2153313.html", "reason": "event_ended", "note": "超エレキ万博11/3終了・他項目は秋葉原外/終了/告知のみ", "checked": "2026-11-04"}
+{"url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2152932.html", "reason": "insufficient_facts", "note": "KUrasly 住所・開店日なし（他項目は既存記事）", "checked": "2026-11-04"}
