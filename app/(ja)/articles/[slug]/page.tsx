@@ -1,6 +1,7 @@
 import SensitiveImg from "components/sensitive-img"
 import { jsonLdScript } from "lib/json-ld"
 import Link from "next/link"
+import { Fragment } from "react"
 import { notFound } from "next/navigation"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import AdsenseInArticleAd from "components/adsense-in-article-ad"
@@ -101,8 +102,7 @@ const Page = async ({ params }: Props) => {
   const contentHtml = await marked(article.content)
   // 本文は必ず ## 始まり。2つ目の見出し直前に記事内広告を挟む
   const splitAt = contentHtml.indexOf("<h2", 1)
-  const contentHead =
-    splitAt > 0 ? contentHtml.slice(0, splitAt) : contentHtml
+  const contentHead = splitAt > 0 ? contentHtml.slice(0, splitAt) : contentHtml
   const contentTail = splitAt > 0 ? contentHtml.slice(splitAt) : ""
   const relatedArticles = getRelatedArticles(article, "ja")
 
@@ -111,11 +111,19 @@ const Page = async ({ params }: Props) => {
   // 会場別・作品別イベントページへの内部リンク
   const eventLandingLinks = [
     ...(relatedSpot && hasVenueLanding(relatedSpot.slug)
-      ? [{ href: `/events/venue/${relatedSpot.slug}/`, label: `${relatedSpot.name}のイベント` }]
+      ? [
+          {
+            href: `/events/venue/${relatedSpot.slug}/`,
+            label: `${relatedSpot.name}のイベント`,
+          },
+        ]
       : []),
     ...article.tagIds
       .filter(hasWorkLanding)
-      .map((tid) => ({ href: `/events/work/${tid}/`, label: `${getTagById(tid)!.name}のイベント` })),
+      .map((tid) => ({
+        href: `/events/work/${tid}/`,
+        label: `${getTagById(tid)!.name}のイベント`,
+      })),
   ]
   const spotPoint =
     relatedSpot?.lat && relatedSpot.lng
@@ -563,9 +571,20 @@ const Page = async ({ params }: Props) => {
               {eventLandingLinks.length > 0 && (
                 <>
                   <dt style={{ color: "#8a6f63" }}>関連</dt>
-                  <dd style={{ margin: 0, display: "flex", flexWrap: "wrap", gap: ".25rem .75rem" }}>
+                  <dd
+                    style={{
+                      margin: 0,
+                      display: "flex",
+                      flexWrap: "wrap",
+                      gap: ".25rem .75rem",
+                    }}
+                  >
                     {eventLandingLinks.map((l) => (
-                      <Link key={l.href} href={l.href} style={{ color: "#b94a3a" }}>
+                      <Link
+                        key={l.href}
+                        href={l.href}
+                        style={{ color: "#b94a3a" }}
+                      >
                         {l.label}一覧
                       </Link>
                     ))}
@@ -782,56 +801,63 @@ const Page = async ({ params }: Props) => {
               </h2>
             </div>
             <ul className="article-list related-articles__list">
-              {relatedArticles.map((relatedArticle) => {
+              {relatedArticles.map((relatedArticle, i) => {
                 const image = getArticleImage(relatedArticle)
                 return (
-                  <li key={relatedArticle.id}>
-                    <Link
-                      href={`/articles/${relatedArticle.slug}/`}
-                      className="article-card-link"
-                    >
-                      <article className="article-card">
-                        <SensitiveImg
-              sensitive={image.sensitive}
-                          src={image.src}
-                          alt={image.alt}
-                          width={image.width}
-                          height={image.height}
-                          className="article-card__image"
-                          loading="lazy"
-                          decoding="async"
-                        />
-                        <div className="article-card__tags">
-                          {relatedArticle.tagIds.map((tid) => {
-                            const t = getTagById(tid)
-                            return t ? (
-                              <span
-                                key={tid}
-                                className={`article-card__tag ${getTagColorClass(t.name)}`}
-                              >
-                                {t.name}
-                              </span>
-                            ) : null
-                          })}
-                        </div>
-                        <h3 className="article-card__title">
-                          {relatedArticle.title}
-                        </h3>
-                        <time
-                          className="article-card__date"
-                          dateTime={relatedArticle.publishedAt}
-                        >
-                          {formatDate(relatedArticle.publishedAt)}
-                        </time>
-                      </article>
-                    </Link>
-                  </li>
+                  <Fragment key={relatedArticle.id}>
+                    {/* インフィード広告はカード列に混ぜた方が単独配置よりクリックされやすい */}
+                    {i === Math.min(2, relatedArticles.length - 1) && (
+                      <li>
+                        <AdsenseFluidAd />
+                      </li>
+                    )}
+                    <li>
+                      <Link
+                        href={`/articles/${relatedArticle.slug}/`}
+                        className="article-card-link"
+                      >
+                        <article className="article-card">
+                          <SensitiveImg
+                            sensitive={image.sensitive}
+                            src={image.src}
+                            alt={image.alt}
+                            width={image.width}
+                            height={image.height}
+                            className="article-card__image"
+                            loading="lazy"
+                            decoding="async"
+                          />
+                          <div className="article-card__tags">
+                            {relatedArticle.tagIds.map((tid) => {
+                              const t = getTagById(tid)
+                              return t ? (
+                                <span
+                                  key={tid}
+                                  className={`article-card__tag ${getTagColorClass(t.name)}`}
+                                >
+                                  {t.name}
+                                </span>
+                              ) : null
+                            })}
+                          </div>
+                          <h3 className="article-card__title">
+                            {relatedArticle.title}
+                          </h3>
+                          <time
+                            className="article-card__date"
+                            dateTime={relatedArticle.publishedAt}
+                          >
+                            {formatDate(relatedArticle.publishedAt)}
+                          </time>
+                        </article>
+                      </Link>
+                    </li>
+                  </Fragment>
                 )
               })}
             </ul>
           </section>
         )}
-        <AdsenseFluidAd />
       </article>
     </>
   )
