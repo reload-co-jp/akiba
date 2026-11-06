@@ -45544,5 +45544,288 @@
       }
     ],
     "authorId": 1
+  },
+  {
+    "id": 1118,
+    "title": "千代田区が秋葉原中央通り・秋葉原駅周辺に「スマートごみ箱」10基を設置、11月上旬から運用開始",
+    "slug": "akihabara-smart-trash-bins-chiyoda-2026",
+    "summary": "千代田区は秋葉原のポイ捨て対策として、ソーラー発電・自動圧縮・クラウド通信機能を備えた「スマートごみ箱」を秋葉原中央通りと秋葉原駅周辺の10カ所に設置し、2026年11月上旬から運用を始める。東京新聞によると11月8日に設置記念イベントが開かれる。",
+    "content": "## 概要\n\n千代田区は、秋葉原地域におけるポイ捨て問題への対策として、秋葉原中央通りおよび秋葉原駅周辺に「スマートごみ箱」を設置する。区の案内では、運用開始は令和8年（2026年）11月上旬の予定。\n\n東京新聞は、主に外国人観光客によるごみのポイ捨て対策として区が設置するもので、11月8日に設置記念イベントを開くと報じている。\n\n## スマートごみ箱の機能\n\n- **ソーラー発電**: ごみ箱上部のソーラーパネルで発電\n- **自動圧縮**: ごみが溜まると自動で圧縮し、従来より多くのごみを収容（ペットボトル・かん・びん用は除く）\n- **クラウド通信**: ごみの蓄積状況をリアルタイムで管理・分析し、効率的に回収\n\n## 設置予定場所（10カ所）\n\n1. 外神田4-7-5先\n2. 外神田3-16-17先\n3. 外神田4-4-3先\n4. 外神田4-4-1先\n5. 外神田3-13-8先\n6. 外神田1-11-9先\n7. 外神田1-13-3先\n8. 神田松永町2先（ヨドバシAKIBA横）\n9. 外神田1-18-13先（UDX秋葉原へ続く歩道橋）\n10. 外神田1-17-6先（アトレ秋葉原1前）\n\n## 問い合わせ\n\n- **担当**: 千代田区 地域振興部安全生活課安全生活係\n- **電話**: 03-5211-4251\n\n## こんな人におすすめ\n\n- 秋葉原で食べ歩きや買い物をする方\n- 秋葉原のまちの美化やポイ捨て対策の動きを知りたい方",
+    "en": {
+      "title": "[Akihabara] Chiyoda City Installs 10 Smart Trash Bins Along Chuo-dori and Around Akihabara Station from Early November",
+      "summary": "To tackle littering in Akihabara, Chiyoda City is installing solar-powered, self-compacting, cloud-connected smart trash bins at 10 locations along Akihabara Chuo-dori and around Akihabara Station, with operation starting in early November 2026. The Tokyo Shimbun reports an installation commemoration event on November 8.",
+      "content": "## Overview\n\nChiyoda City is installing smart trash bins along Akihabara Chuo-dori and around Akihabara Station as a countermeasure against littering in the Akihabara area. According to the city, operation is scheduled to begin in early November 2026.\n\nThe Tokyo Shimbun reports that the bins mainly target littering by foreign tourists and that an installation commemoration event will be held on November 8.\n\n## Features\n\n- **Solar power**: a solar panel on top of the bin generates electricity\n- **Automatic compaction**: trash is compacted automatically, so each bin holds more than a conventional one (excluding PET bottle, can and bottle bins)\n- **Cloud monitoring**: fill levels are monitored and analyzed in real time for efficient collection\n\n## Planned Locations (10)\n\n1. Near 4-7-5 Sotokanda\n2. Near 3-16-17 Sotokanda\n3. Near 4-4-3 Sotokanda\n4. Near 4-4-1 Sotokanda\n5. Near 3-13-8 Sotokanda\n6. Near 1-11-9 Sotokanda\n7. Near 1-13-3 Sotokanda\n8. Near 2 Kanda Matsunagacho (beside Yodobashi AKIBA)\n9. Near 1-18-13 Sotokanda (pedestrian bridge to Akihabara UDX)\n10. Near 1-17-6 Sotokanda (in front of atre Akihabara 1)\n\n## Contact\n\n- **Department**: Chiyoda City Community Promotion Department, Safety and Living Section\n- **Phone**: 03-5211-4251\n\n## Recommended For\n\n- Visitors who eat on the go or shop in Akihabara\n- Anyone following efforts to keep Akihabara's streets clean"
+    },
+    "image": {
+      "src": "/images/articles/akihabara-smart-trash-bins-chiyoda-2026.jpg",
+      "alt": "スマートごみ箱のイメージ画像",
+      "sourceLabel": "東京新聞 記事",
+      "sourceUrl": "https://www.tokyo-np.co.jp/article/526350",
+      "width": 1200,
+      "height": 900
+    },
+    "sources": [
+      {
+        "label": "千代田区 公式ページ",
+        "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/sekatsu/jore/smart-gomibako.html"
+      },
+      {
+        "label": "東京新聞 記事",
+        "url": "https://www.tokyo-np.co.jp/article/526350"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      207
+    ],
+    "publishedAt": "2026-11-06"
+  },
+  {
+    "id": 1119,
+    "title": "「ポタフェス 2026冬 秋葉原」が12月12日・13日にベルサール秋葉原で開催、171ブランドが集結しウォークマン特設ブースも",
+    "slug": "potafes-2026-winter-akihabara",
+    "summary": "e☆イヤホン主催のポータブルオーディオイベント「ポタフェス 2026冬 秋葉原」が2026年12月12日・13日にベルサール秋葉原B1F・1F・2Fで開催。国内外171ブランドが出展し、1階にはソニーとの共同企画「ウォークマン」発売記念特設ブースが設置される。入場無料・事前登録不要。",
+    "content": "## 概要\n\nイヤホン・ヘッドホン専門店e☆イヤホン（株式会社タイムマシン）は、2026年12月12日（土）・13日（日）の2日間、ベルサール秋葉原B1F・1F・2Fで「ポタフェス 2026冬 秋葉原」を開催する。入場無料・事前登録不要。\n\n## 内容\n\n- イヤホン・ヘッドホン、ポータブルオーディオなどを手がける国内外171ブランドが出展（11月5日時点）\n- 各ブースで最新モデルや未発表の試作機を自由に試聴可能\n- 豪華賞品が当たるスタンプラリーを実施\n- 1階にソニーとe☆イヤホンの共同企画「ウォークマン」発売記念特設ブースを設置。1979年の初代ウォークマンから、11月27日発売予定の「NW-WM1ZM3」「NW-WM1AM3」「NW-ZX900」まで歴代モデルを展示\n- 前日12月11日（金）19:00から公式YouTubeチャンネルで「e☆イヤホンTV 拡大版！ポタフェス 2026冬 秋葉原 前夜祭2時間SP」を生配信\n- 開催に合わせてe☆イヤホン秋葉原店で新品・中古の特価セールも実施\n\n## 開催情報\n\n- **日程**: 2026年12月12日（土）・13日（日）\n- **会場**: ベルサール秋葉原 B1F・1F・2F\n- **住所**: 東京都千代田区外神田3-12-8 住友不動産秋葉原ビル\n- **料金**: 入場無料\n- **予約**: 不要\n\n## こんな人におすすめ\n\n- 年末に新しいイヤホン・ヘッドホンを試聴して選びたい方\n- ウォークマンの歴代モデルや新モデルに興味がある方\n- 未発表の試作機をいち早くチェックしたいオーディオファン",
+    "en": {
+      "title": "[Akihabara] Potafes 2026 Winter Akihabara at Bellesalle Akihabara on December 12-13 with 171 Brands and a Walkman Booth",
+      "summary": "e-earphone's portable audio festival Potafes 2026 Winter Akihabara takes place on December 12-13, 2026, on B1F, 1F and 2F of Bellesalle Akihabara. 171 brands exhibit, and 1F hosts a Walkman launch booth co-produced with Sony. Free admission, no registration needed.",
+      "content": "## Overview\n\nEarphone and headphone specialist e-earphone (Timemachine Inc.) holds Potafes 2026 Winter Akihabara on Saturday, December 12 and Sunday, December 13, 2026, on B1F, 1F and 2F of Bellesalle Akihabara. Admission is free and no advance registration is required.\n\n## Highlights\n\n- 171 domestic and international brands of earphones, headphones and portable audio (as of November 5)\n- Try the latest models and unreleased prototypes at each booth\n- A stamp rally with prizes\n- A Walkman launch booth co-produced by Sony and e-earphone on 1F, displaying models from the first 1979 Walkman to the NW-WM1ZM3, NW-WM1AM3 and NW-ZX900 due on November 27\n- A two-hour eve-of-event live stream on the official YouTube channel from 19:00 on Friday, December 11\n- Special sales of new and used items at e-earphone Akihabara during the event\n\n## Event Details\n\n- **Dates**: Saturday, December 12 - Sunday, December 13, 2026\n- **Venue**: Bellesalle Akihabara B1F, 1F, 2F\n- **Address**: Sumitomo Fudosan Akihabara Building, 3-12-8 Sotokanda, Chiyoda-ku, Tokyo\n- **Admission**: Free\n- **Reservation**: Not required\n\n## Recommended For\n\n- Anyone wanting to try new earphones or headphones before year-end\n- Fans of past and new Walkman models\n- Audio fans who want an early look at unreleased prototypes"
+    },
+    "zh": {
+      "title": "「Potafes 2026冬 秋叶原」12月12日・13日在贝尔萨尔秋叶原举办，171个品牌齐聚并设随身听特设展位",
+      "summary": "e☆イヤホン主办的便携音频活动「Potafes 2026冬 秋叶原」将于2026年12月12日・13日在贝尔萨尔秋叶原B1F・1F・2F举办。国内外171个品牌参展，1楼设有与索尼共同企划的「Walkman」发售纪念特设展位。免费入场，无需预约。",
+      "content": "## 概要\n\n耳机专卖店e☆イヤホン将于2026年12月12日（周六）・13日（周日）在贝尔萨尔秋叶原B1F・1F・2F举办「Potafes 2026冬 秋叶原」。免费入场，无需事先登记。\n\n## 活动内容\n\n- 国内外171个耳机、头戴式耳机及便携音频品牌参展（截至11月5日）\n- 可在各展位自由试听最新机型及未发表的试制机\n- 举办可赢取奖品的集章活动\n- 1楼设有索尼与e☆イヤホン共同企划的「Walkman」发售纪念特设展位，展示从1979年初代Walkman到11月27日预定发售的「NW-WM1ZM3」「NW-WM1AM3」「NW-ZX900」等历代机型\n- 前一天12月11日（周五）19:00起在官方YouTube频道直播前夜祭节目\n- 活动期间e☆イヤホン秋叶原店举办新品・二手特价促销\n\n## 活动信息\n\n- **日期**: 2026年12月12日（周六）・13日（周日）\n- **会场**: 贝尔萨尔秋叶原 B1F・1F・2F\n- **地址**: 东京都千代田区外神田3-12-8 住友不动产秋叶原大厦\n- **费用**: 免费入场\n- **预约**: 无需预约"
+    },
+    "image": {
+      "src": "/images/articles/potafes-2026-winter-akihabara.jpg",
+      "alt": "ポタフェス 2026冬 秋葉原 告知ビジュアル",
+      "sourceLabel": "エルミタージュ秋葉原 記事",
+      "sourceUrl": "https://www.gdm.or.jp/pressrelease/2026/1106/659383",
+      "width": 1024,
+      "height": 768
+    },
+    "sources": [
+      {
+        "label": "ポタフェス 公式サイト",
+        "url": "https://potafes.com/events"
+      },
+      {
+        "label": "エルミタージュ秋葉原 記事",
+        "url": "https://www.gdm.or.jp/pressrelease/2026/1106/659383"
+      },
+      {
+        "label": "PHILE WEB 記事",
+        "url": "https://www.phileweb.com/news/d-av/202611/06/66316.html"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      55,
+      124,
+      198,
+      207
+    ],
+    "event": {
+      "venue": "ベルサール秋葉原",
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-13",
+      "price": "入場無料",
+      "reservation": false
+    },
+    "publishedAt": "2026-11-06"
+  },
+  {
+    "id": 1120,
+    "title": "フィギュアの祭典「TAMASHII NATION 2026」が11月13日から秋葉原で開催、ベルサール1Fは初の全面物販エリアに",
+    "slug": "tamashii-nation-2026-akihabara",
+    "summary": "BANDAI SPIRITSのフィギュアイベント「TAMASHII NATION 2026」が2026年11月13日から15日まで、ベルサール秋葉原、秋葉原UDX 2F AKIBA_SQUARE、TAMASHII NATIONS STORE TOKYOで開催。入場無料。ベルサールB1Fは仮面ライダー55周年のワンフロア展示、1Fは初の全面物販エリアとなる。",
+    "content": "## 概要\n\n株式会社BANDAI SPIRITS コレクターズ事業部は、2026年11月13日（金）から15日（日）までの3日間、年に一度のフィギュアの祭典「TAMASHII NATION 2026」を秋葉原で開催する。今年のテーマは「集え」。「S.H.Figuarts」「METAL BUILD」「超合金」などTAMASHII NATIONSの完成品フィギュアが一堂に会する。\n\n## 各会場の見どころ\n\n- **ベルサール秋葉原 1F**: イベント初の試みとして会場全体を物販エリアとした「TAMASHII NATIONS STORE BELLESALLE AKIHABARA」を展開。STORE限定「聖闘士聖衣神話APPENDIX 青銅聖衣オブジェ」を新発売するほか、POSE＆TRYコーナーや1F限定展示も\n- **ベルサール秋葉原 B1F**: 放送開始55周年の「仮面ライダーシリーズ」がワンフロアに集結。「疾走」をテーマに初代から最新作までの歴代ライダー商品を展示し、「装着変身」シリーズから『仮面ライダークウガ』の新商品も登場。数量限定で「仮面ライダークウガ 記念アートカード」を配布\n- **秋葉原UDX 2F AKIBA_SQUARE**: 「ガンダムシリーズ」「聖闘士星矢シリーズ」「美少女戦士セーラームーンシリーズ」「ONE PIECEシリーズ」などの最新商品や、にじさんじ所属VTuber・加賀美ハヤトさんとのコラボ商品を展示\n\n## イベント期間中の抽選販売\n\n「S.H.Figuarts（真骨彫製法） 仮面ライダークウガ 仮面ライダー55th Anniversary Ver.」（マイティ・ドラゴン・ペガサス・タイタンフォーム）を特別抽選販売。\n\n- **応募期間**: 11月13日（金）10:00〜11月15日（日）23:00\n- **対象**: プレミアムバンダイ全会員／当日イベント会場付近（ベルサール秋葉原会場から半径約1km以内、位置情報で判定）まで来場した方\n- **販売方法**: 抽選・後日配送（会場での受け渡しなし、2026年12月発送予定）\n\n## 開催情報\n\n- **日程**: 2026年11月13日（金）〜15日（日）\n- **時間**: 10:00〜20:00（最終入場19:30）、15日のみ17:00閉場（最終入場16:30）\n- **会場**: ベルサール秋葉原 1F・B1F イベントホール、秋葉原UDX 2F AKIBA_SQUARE、TAMASHII NATIONS STORE TOKYO\n- **料金**: 入場無料\n- **予約**: 不要（状況により最終入場時間が早まる場合あり）\n\n## こんな人におすすめ\n\n- S.H.Figuartsや超合金などのコレクターズフィギュアのファン\n- 仮面ライダー55周年の展示を見たい方\n- 新商品の初解禁展示をいち早くチェックしたい方",
+    "en": {
+      "title": "[Akihabara] Figure Festival TAMASHII NATION 2026 Opens in Akihabara from November 13, with Bellesalle 1F as an All-Retail Floor for the First Time",
+      "summary": "BANDAI SPIRITS' figure event TAMASHII NATION 2026 runs November 13-15, 2026, at Bellesalle Akihabara, Akihabara UDX 2F AKIBA_SQUARE and TAMASHII NATIONS STORE TOKYO. Free admission. Bellesalle B1F hosts a Kamen Rider 55th anniversary floor, and 1F becomes an all-retail area for the first time.",
+      "content": "## Overview\n\nBANDAI SPIRITS Collectors Division holds its annual figure festival TAMASHII NATION 2026 in Akihabara from Friday, November 13 to Sunday, November 15, 2026. This year's theme is \"Gather.\" Finished figures from TAMASHII NATIONS lines such as S.H.Figuarts, METAL BUILD and Chogokin are shown together.\n\n## Venue Highlights\n\n- **Bellesalle Akihabara 1F**: for the first time, the entire floor becomes a retail area, \"TAMASHII NATIONS STORE BELLESALLE AKIHABARA,\" with the new store-exclusive Saint Cloth Myth APPENDIX Bronze Cloth object, a POSE & TRY corner and 1F-only displays\n- **Bellesalle Akihabara B1F**: a full floor for the Kamen Rider series' 55th anniversary, themed \"Sprint,\" showing riders from the original to the latest, plus new Kamen Rider Kuuga items from the Souchaku Henshin line. Limited Kamen Rider Kuuga art cards are handed out\n- **Akihabara UDX 2F AKIBA_SQUARE**: the latest Gundam, Saint Seiya, Sailor Moon and ONE PIECE items, plus collaboration items with Nijisanji VTuber Hayato Kagami\n\n## Lottery Sales During the Event\n\nS.H.Figuarts (Shinkocchou Seihou) Kamen Rider Kuuga 55th Anniversary Ver. (Mighty, Dragon, Pegasus and Titan Forms) are sold by special lottery.\n\n- **Application period**: November 13, 10:00 - November 15, 23:00\n- **Eligibility**: all Premium Bandai members / visitors near the venue (within about 1 km of Bellesalle Akihabara, verified by location)\n- **Method**: lottery with later delivery (no on-site handover; shipping planned for December 2026)\n\n## Event Details\n\n- **Dates**: Friday, November 13 - Sunday, November 15, 2026\n- **Hours**: 10:00-20:00 (last entry 19:30); closes at 17:00 on the 15th (last entry 16:30)\n- **Venues**: Bellesalle Akihabara 1F and B1F Event Hall, Akihabara UDX 2F AKIBA_SQUARE, TAMASHII NATIONS STORE TOKYO\n- **Admission**: Free\n- **Reservation**: Not required (last entry may be moved earlier depending on conditions)\n\n## Recommended For\n\n- Fans of collector figures such as S.H.Figuarts and Chogokin\n- Anyone wanting to see the Kamen Rider 55th anniversary display\n- Collectors who want to see newly revealed products first"
+    },
+    "zh": {
+      "title": "手办盛典「TAMASHII NATION 2026」11月13日起在秋叶原举办，贝尔萨尔1F首次全层设为物贩区",
+      "summary": "BANDAI SPIRITS的手办活动「TAMASHII NATION 2026」将于2026年11月13日至15日在贝尔萨尔秋叶原、秋叶原UDX 2F AKIBA_SQUARE及TAMASHII NATIONS STORE TOKYO举办。免费入场。贝尔萨尔B1F为假面骑士55周年整层展示，1F首次成为全层物贩区。",
+      "content": "## 概要\n\nBANDAI SPIRITS收藏品事业部将于2026年11月13日（周五）至15日（周日）在秋叶原举办一年一度的手办盛典「TAMASHII NATION 2026」，今年主题为「集结」。「S.H.Figuarts」「METAL BUILD」「超合金」等TAMASHII NATIONS成品手办齐聚一堂。\n\n## 各会场看点\n\n- **贝尔萨尔秋叶原 1F**: 首次将整个会场设为物贩区「TAMASHII NATIONS STORE BELLESALLE AKIHABARA」，新发售STORE限定「圣斗士圣衣神话APPENDIX 青铜圣衣摆件」，并设POSE＆TRY体验区\n- **贝尔萨尔秋叶原 B1F**: 迎来播出55周年的「假面骑士系列」整层展示，限量发放「假面骑士空我 纪念艺术卡」\n- **秋叶原UDX 2F AKIBA_SQUARE**: 展示「高达系列」「圣斗士星矢系列」「美少女战士水手月亮系列」「ONE PIECE系列」新品及与彩虹社VTuber加贺美隼人的联名商品\n\n## 活动信息\n\n- **日期**: 2026年11月13日（周五）～15日（周日）\n- **时间**: 10:00～20:00（最终入场19:30），15日17:00闭场（最终入场16:30）\n- **会场**: 贝尔萨尔秋叶原 1F・B1F 活动大厅、秋叶原UDX 2F AKIBA_SQUARE、TAMASHII NATIONS STORE TOKYO\n- **费用**: 免费入场\n- **预约**: 无需预约\n- **抽选销售**: 「S.H.Figuarts（真骨雕制法）假面骑士空我 55th Anniversary Ver.」11月13日10:00～15日23:00受理（会场不交货，2026年12月发货）"
+    },
+    "image": {
+      "src": "/images/articles/tamashii-nation-2026-akihabara.jpg",
+      "alt": "TAMASHII NATION 2026 キービジュアル",
+      "sourceLabel": "TAMASHII NATION 2026 公式サイト",
+      "sourceUrl": "https://tamashii-nation.tamashiiweb.com/",
+      "width": 1200,
+      "height": 630
+    },
+    "sources": [
+      {
+        "label": "TAMASHII NATION 2026 公式サイト",
+        "url": "https://tamashii-nation.tamashiiweb.com/"
+      },
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000123.000006847.html"
+      },
+      {
+        "label": "電撃ホビーウェブ 記事",
+        "url": "https://hobby.dengeki.com/news/3221009"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      113,
+      124,
+      211,
+      177,
+      198,
+      207
+    ],
+    "event": {
+      "venue": "ベルサール秋葉原",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-15",
+      "price": "入場無料",
+      "reservation": false
+    },
+    "publishedAt": "2026-11-06"
+  },
+  {
+    "id": 1121,
+    "title": "「無職転生Ⅲ」魔界大帝ボンテージver.のポップアップストアがAKIHABARAゲーマーズ本店で11月21日から開催",
+    "slug": "mushokutensei-makai-taitei-bondage-popup-gamers-akihabara-2026",
+    "summary": "TVアニメ『無職転生Ⅲ ～異世界行ったら本気だす～』のポップアップストアが、2026年11月21日から12月6日までAKIHABARAゲーマーズ本店7Fで開催。シルフィ・ロキシー・エリスの「魔界大帝ボンテージ ver.」新作グッズを販売し、3,000円ごとの抽選会とブロマイド特典も実施する。",
+    "content": "## 概要\n\n理不尽な孫の手先生のライトノベルを原作とするTVアニメ『無職転生Ⅲ ～異世界行ったら本気だす～』のポップアップストアが、2026年11月21日から12月6日までAKIHABARAゲーマーズ本店7Fで開催される。シルフィエット・グレイラット、ロキシー・ミグルディア・グレイラット、エリス・グレイラットの「魔界大帝ボンテージ ver.」を使った新作グッズが登場する。\n\n## グッズ・特典\n\n- **特大タペストリー**（全3種、各8,800円・税込）: 約H1700mm×W600mmのスエード素材。受注期間は11月21日〜12月6日で、2027年2月下旬発売予定\n- デカアクリルスタンドなどの新作グッズ（715円〜2,200円、コンプリートセット5,005円など）\n- 税込3,000円購入ごとに抽選会へ参加でき、購入特典としてブロマイド（全4種）を進呈\n- 開催と同時にゲーマーズオンラインショップでも受注販売を実施（オンライン限定の抽選会・購入特典あり）\n\n## 開催情報\n\n- **会場**: AKIHABARAゲーマーズ本店 7F\n- **住所**: 東京都千代田区外神田1-14-7 宝田ビル\n- **期間**: 2026年11月21日（土）〜12月6日（日）\n- **営業時間**: 平日11:00〜21:00、土日祝10:00〜21:00\n- **料金**: 入場無料（グッズは有料）\n\n## こんな人におすすめ\n\n- 『無職転生』のシルフィ・ロキシー・エリスのファン\n- 等身大クラスの特大タペストリーを手に入れたい方\n- 秋葉原でアニメのポップアップストアを巡りたい方",
+    "en": {
+      "title": "[Akihabara] Mushoku Tensei III \"Demon Emperor Bondage Ver.\" Pop-Up Store at AKIHABARA Gamers Main Store from November 21",
+      "summary": "A pop-up store for the TV anime Mushoku Tensei III: Jobless Reincarnation runs from November 21 to December 6, 2026, on 7F of AKIHABARA Gamers Main Store. New goods feature Sylphiette, Roxy and Eris in \"Demon Emperor Bondage ver.\" art, with a lottery and bromide bonus for every 3,000 yen spent.",
+      "content": "## Overview\n\nA pop-up store for the TV anime Mushoku Tensei III: Jobless Reincarnation, based on the light novels by Rifujin na Magonote, runs from November 21 to December 6, 2026, on 7F of AKIHABARA Gamers Main Store. New goods use \"Demon Emperor Bondage ver.\" art of Sylphiette Greyrat, Roxy Migurdia Greyrat and Eris Greyrat.\n\n## Goods and Bonuses\n\n- **Extra-large tapestries** (3 designs, 8,800 yen each incl. tax): about H1700mm x W600mm suede. Orders accepted November 21 - December 6; release planned for late February 2027\n- New goods including large acrylic stands (715-2,200 yen; complete set 5,005 yen, etc.)\n- Every 3,000 yen (incl. tax) spent earns a lottery entry and a bromide (4 designs)\n- Made-to-order sales on the Gamers Online Shop start at the same time (with online-only lottery and bonuses)\n\n## Event Details\n\n- **Venue**: AKIHABARA Gamers Main Store 7F\n- **Address**: Takarada Building, 1-14-7 Sotokanda, Chiyoda-ku, Tokyo\n- **Dates**: Saturday, November 21 - Sunday, December 6, 2026\n- **Hours**: Weekdays 11:00-21:00; weekends and holidays 10:00-21:00\n- **Admission**: Free (goods sold separately)\n\n## Recommended For\n\n- Fans of Sylphie, Roxy and Eris from Mushoku Tensei\n- Collectors looking for near life-size tapestries\n- Visitors touring anime pop-up stores in Akihabara"
+    },
+    "zh": {
+      "title": "「无职转生Ⅲ」魔界大帝束缚装ver.快闪店11月21日起在AKIHABARA Gamers本店举办",
+      "summary": "TV动画『无职转生Ⅲ ～到了异世界就拿出真本事～』快闪店将于2026年11月21日至12月6日在AKIHABARA Gamers本店7F举办，销售希露菲、洛琪希、艾莉丝「魔界大帝束缚装ver.」新品周边，每消费3,000日元可参加抽奖并获赠照片卡。",
+      "content": "## 概要\n\nTV动画『无职转生Ⅲ ～到了异世界就拿出真本事～』快闪店将于2026年11月21日至12月6日在AKIHABARA Gamers本店7F举办，推出使用希露菲叶特、洛琪希、艾莉丝「魔界大帝束缚装ver.」插图的新品周边。\n\n## 周边・特典\n\n- **超大挂毯**（共3种，各8,800日元・含税）：约H1700mm×W600mm麂皮材质，受理期间11月21日～12月6日，预计2027年2月下旬发售\n- 大型亚克力立牌等新品周边（715日元～2,200日元，全套5,005日元等）\n- 每消费3,000日元（含税）可参加抽奖并获赠照片卡（共4种）\n- Gamers网店同步接受预订\n\n## 活动信息\n\n- **会场**: AKIHABARA Gamers本店 7F\n- **地址**: 东京都千代田区外神田1-14-7 宝田大厦\n- **期间**: 2026年11月21日（周六）～12月6日（周日）\n- **营业时间**: 平日11:00～21:00，周末及节假日10:00～21:00\n- **费用**: 免费入场（周边需付费）"
+    },
+    "image": {
+      "src": "/images/articles/mushokutensei-makai-taitei-bondage-popup-gamers-akihabara-2026.jpg",
+      "alt": "無職転生 魔界大帝ボンテージ ストア in 秋葉原 告知画像",
+      "sourceLabel": "Collabo Cafe 記事",
+      "sourceUrl": "https://collabo-cafe.com/events/collabo/mushokutensei-makai-taitei-bondage-popup-gamers-akihabara-2026/",
+      "width": 810,
+      "height": 425
+    },
+    "sources": [
+      {
+        "label": "Collabo Cafe 記事",
+        "url": "https://collabo-cafe.com/events/collabo/mushokutensei-makai-taitei-bondage-popup-gamers-akihabara-2026/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      274,
+      129,
+      72,
+      47,
+      207
+    ],
+    "event": {
+      "venue": "AKIHABARAゲーマーズ本店",
+      "startDate": "2026-11-21",
+      "endDate": "2026-12-06",
+      "price": "入場無料（グッズは有料）",
+      "reservation": false
+    },
+    "publishedAt": "2026-11-06"
+  },
+  {
+    "id": 1122,
+    "title": "小石原焼・高取焼の陶器市「土と器の市」が2k540 AKI-OKA ARTISANで11月14日・15日に開催",
+    "slug": "tsuchi-to-utsuwa-no-ichi-2k540-2026",
+    "summary": "秋葉原・御徒町間の高架下ものづくり施設「2k540 AKI-OKA ARTISAN」のイベントスペースで、2026年11月14日・15日の2日間、小石原焼・高取焼の窯元・作家が集う陶器市「土と器の市」が開催される。時間は11:00〜19:00。",
+    "content": "## 概要\n\nJR秋葉原駅〜御徒町駅間の高架下にあるものづくり施設「2k540 AKI-OKA ARTISAN」で、2026年11月14日（土）・15日（日）の2日間限定の陶器市「土と器の市」が開催される。福岡県の小石原焼と高取焼、それぞれの伝統を受け継ぐ作り手が集まり、日々の暮らしを彩る器から作家の個性が光る作品までを販売する。\n\n## 出展窯元・作家\n\n- 高取焼宗家\n- 高取八仙窯\n- 鬼丸雪山窯元（2k540内に直営店あり）\n- 柳瀬本窯\n- 森喜窯\n- やままる窯\n- 早川窯\n\n2k540内に店舗を構える高取焼鬼丸雪山窯元は、福岡県東峰村で400年の歴史を持つ遠州七窯の伝統を守りながら、薪窯と天然釉薬にこだわった茶陶を制作している。\n\n## 開催情報\n\n- **会場**: 2k540 AKI-OKA ARTISAN 内イベントスペース\n- **住所**: 東京都台東区上野5-9\n- **日程**: 2026年11月14日（土）・15日（日）\n- **時間**: 11:00〜19:00\n- **料金**: 入場無料（商品は有料）\n\n※告知タイトルでは「小石川焼」と表記されているが、本文の説明に沿って小石原焼と表記した。\n\n## こんな人におすすめ\n\n- 普段使いの器や茶器を探している方\n- 窯元・作家から直接器を選びたい方\n- 秋葉原散策のついでにものづくりの街・御徒町方面にも足を延ばしたい方",
+    "en": {
+      "title": "[Akihabara] Koishiwara and Takatori Ware Pottery Market \"Tsuchi to Utsuwa no Ichi\" at 2k540 AKI-OKA ARTISAN on November 14-15",
+      "summary": "The pottery market \"Tsuchi to Utsuwa no Ichi,\" gathering Koishiwara-ware and Takatori-ware kilns and artists, takes place on November 14-15, 2026, from 11:00 to 19:00 at the event space of 2k540 AKI-OKA ARTISAN, the craft complex under the tracks between Akihabara and Okachimachi.",
+      "content": "## Overview\n\n2k540 AKI-OKA ARTISAN, the craft complex under the elevated tracks between JR Akihabara and Okachimachi stations, hosts the two-day pottery market \"Tsuchi to Utsuwa no Ichi\" on Saturday, November 14 and Sunday, November 15, 2026. Makers carrying on the traditions of Fukuoka's Koishiwara ware and Takatori ware sell everything from everyday tableware to distinctive artist pieces.\n\n## Participating Kilns and Artists\n\n- Takatori-yaki Soke\n- Takatori Hassen Kiln\n- Onimaru Sekizan Kiln (has a shop inside 2k540)\n- Yanase Hongama\n- Moriki Kiln\n- Yamamaru Kiln\n- Hayakawa Kiln\n\nOnimaru Sekizan Kiln, based in Tohomura, Fukuoka, makes tea ware using wood-fired kilns and natural glazes while preserving the 400-year tradition of the Enshu Seven Kilns.\n\n## Event Details\n\n- **Venue**: Event space, 2k540 AKI-OKA ARTISAN\n- **Address**: 5-9 Ueno, Taito-ku, Tokyo\n- **Dates**: Saturday, November 14 - Sunday, November 15, 2026\n- **Hours**: 11:00-19:00\n- **Admission**: Free (items sold separately)\n\nNote: the announcement title says \"Koishikawa ware,\" but this article follows the body text, which refers to Koishiwara ware.\n\n## Recommended For\n\n- Anyone looking for everyday tableware or tea ware\n- Visitors who want to choose pieces directly from kilns and artists\n- Those extending an Akihabara walk toward the craft area of Okachimachi"
+    },
+    "zh": {
+      "title": "小石原烧・高取烧陶器市「土与器之市」11月14日・15日在2k540 AKI-OKA ARTISAN举办",
+      "summary": "位于秋叶原与御徒町之间高架桥下的手工艺设施「2k540 AKI-OKA ARTISAN」活动空间，将于2026年11月14日・15日举办汇集小石原烧・高取烧窑元与作家的陶器市「土与器之市」，时间11:00～19:00。",
+      "content": "## 概要\n\nJR秋叶原站至御徒町站之间高架桥下的手工艺设施「2k540 AKI-OKA ARTISAN」将于2026年11月14日（周六）・15日（周日）限时举办陶器市「土与器之市」。传承福冈县小石原烧与高取烧传统的匠人齐聚，销售日常器皿及富有个性的作品。\n\n## 参展窑元・作家\n\n- 高取烧宗家\n- 高取八仙窑\n- 鬼丸雪山窑元（2k540内设直营店）\n- 柳濑本窑\n- 森喜窑\n- やままる窑\n- 早川窑\n\n## 活动信息\n\n- **会场**: 2k540 AKI-OKA ARTISAN 内活动空间\n- **地址**: 东京都台东区上野5-9\n- **日期**: 2026年11月14日（周六）・15日（周日）\n- **时间**: 11:00～19:00\n- **费用**: 免费入场（商品需付费）"
+    },
+    "image": {
+      "src": "/images/articles/tsuchi-to-utsuwa-no-ichi-2k540-2026.png",
+      "alt": "小石原焼・高取焼の器",
+      "sourceLabel": "2k540 AKI-OKA ARTISAN 公式インフォメーション",
+      "sourceUrl": "https://www.jrtk.jp/2k540/info/detail_00552/",
+      "width": 1000,
+      "height": 501
+    },
+    "sources": [
+      {
+        "label": "2k540 AKI-OKA ARTISAN 公式インフォメーション",
+        "url": "https://www.jrtk.jp/2k540/info/detail_00552/"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      2,
+      166,
+      207
+    ],
+    "event": {
+      "venue": "2k540 AKI-OKA ARTISAN",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "price": "入場無料（商品は有料）",
+      "reservation": false
+    },
+    "publishedAt": "2026-11-06"
+  },
+  {
+    "id": 1123,
+    "title": "あみあみの「着ぐるみ あみこちゃん」が11月8日の「秋葉原地区清掃活動」に参加、秋葉原ダイビル前で参加者をお出迎え",
+    "slug": "amiko-akihabara-cleanup-2026-11",
+    "summary": "あみあみの看板娘「着ぐるみ あみこちゃん」が、2026年11月8日（日）に秋葉原駅周辺で行われる「秋葉原地区清掃活動」に参加。JR秋葉原駅電気街北口の秋葉原ダイビル前で、企業キャラクターたちとともに清掃活動の参加者を出迎える。",
+    "content": "## 概要\n\nホビー通販「あみあみ」を運営する大網株式会社は、看板娘「着ぐるみ あみこちゃん」が2026年11月8日（日）に秋葉原駅周辺で行われる「秋葉原地区清掃活動」に参加すると発表した。\n\n## 内容\n\n- 清掃活動の参加者を、あみこちゃんをはじめとする企業キャラクターたちがお出迎え\n- 写真撮影も可能（清掃活動の円滑な進行への協力が呼びかけられている）\n\n## 開催情報\n\n- **日程**: 2026年11月8日（日）\n- **場所**: JR秋葉原駅電気街北口 秋葉原ダイビル前\n- **住所**: 東京都千代田区外神田1-18-13\n- **料金**: 記載なし\n\n開始時刻や清掃活動自体の参加方法はプレスリリースに記載されていない。\n\n## こんな人におすすめ\n\n- あみこちゃんに会いたいあみあみファン\n- 秋葉原のまちの美化活動に関心がある方",
+    "en": {
+      "title": "[Akihabara] AmiAmi's Costumed Mascot Amiko-chan Joins the Akihabara District Cleanup on November 8, Greeting Participants at Akihabara Dai Building",
+      "summary": "AmiAmi's mascot \"Kigurumi Amiko-chan\" takes part in the Akihabara District Cleanup around Akihabara Station on Sunday, November 8, 2026, greeting participants with other corporate characters in front of Akihabara Dai Building at the JR Akihabara Station Electric Town North Exit.",
+      "content": "## Overview\n\nAmiami Co., Ltd., operator of hobby retailer AmiAmi, announced that its costumed mascot \"Kigurumi Amiko-chan\" will join the Akihabara District Cleanup held around Akihabara Station on Sunday, November 8, 2026.\n\n## Highlights\n\n- Amiko-chan and other corporate characters greet cleanup participants\n- Photos are allowed (visitors are asked to help keep the cleanup running smoothly)\n\n## Event Details\n\n- **Date**: Sunday, November 8, 2026\n- **Location**: In front of Akihabara Dai Building, JR Akihabara Station Electric Town North Exit\n- **Address**: 1-18-13 Sotokanda, Chiyoda-ku, Tokyo\n- **Price**: Not stated\n\nThe press release does not state the start time or how to join the cleanup itself.\n\n## Recommended For\n\n- AmiAmi fans who want to meet Amiko-chan\n- Anyone interested in efforts to keep Akihabara clean"
+    },
+    "zh": {
+      "title": "amiami的「人偶装 Amiko酱」参加11月8日「秋叶原地区清扫活动」，在秋叶原大厦前迎接参与者",
+      "summary": "amiami的看板娘「人偶装 Amiko酱」将参加2026年11月8日（周日）在秋叶原站周边举行的「秋叶原地区清扫活动」，与企业角色们一起在JR秋叶原站电气街北口的秋叶原大厦前迎接清扫活动参与者。",
+      "content": "## 概要\n\n运营模型通贩「amiami」的大网株式会社宣布，看板娘「人偶装 Amiko酱」将参加2026年11月8日（周日）在秋叶原站周边举行的「秋叶原地区清扫活动」。\n\n## 活动内容\n\n- Amiko酱等企业角色迎接清扫活动参与者\n- 可以拍照（请配合清扫活动顺利进行）\n\n## 活动信息\n\n- **日期**: 2026年11月8日（周日）\n- **地点**: JR秋叶原站电气街北口 秋叶原大厦前\n- **地址**: 东京都千代田区外神田1-18-13\n- **费用**: 未注明\n\n新闻稿未注明开始时间及清扫活动本身的参加方式。"
+    },
+    "image": {
+      "src": "/images/articles/amiko-akihabara-cleanup-2026-11.jpg",
+      "alt": "着ぐるみ あみこちゃん",
+      "sourceLabel": "PR TIMES プレスリリース",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000003943.000025615.html",
+      "width": 1680,
+      "height": 1260
+    },
+    "sources": [
+      {
+        "label": "PR TIMES プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000003943.000025615.html"
+      }
+    ],
+    "authorId": 1,
+    "tagIds": [
+      33,
+      61,
+      166,
+      207
+    ],
+    "event": {
+      "venue": "秋葉原ダイビル",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "price": "記載なし",
+      "reservation": false
+    },
+    "publishedAt": "2026-11-06"
   }
 ]
