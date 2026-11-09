@@ -6,6 +6,7 @@ import { LanguageProvider } from "components/language-provider"
 import AdsenseDisplayAd from "components/adsense-display-ad"
 import { AdsenseVignetteCleanup } from "components/adsense-vignette-cleanup"
 import { RouteAdModal } from "components/route-ad-modal"
+import { SisterSitesNav } from "components/sister-sites-nav"
 import { getAllArticles, type TranslatedLang } from "lib/articles"
 import { notoSansJP } from "lib/fonts"
 
@@ -177,6 +178,7 @@ export const createTranslatedLayout = (lang: TranslatedLang) => {
                     {t.company}
                   </a>
                 </p>
+                <SisterSitesNav lang="en" />
               </div>
             </footer>
           </LanguageProvider>

@@ -6,6 +6,7 @@ import { LanguageProvider } from "components/language-provider"
 import AdsenseDisplayAd from "components/adsense-display-ad"
 import { AdsenseVignetteCleanup } from "components/adsense-vignette-cleanup"
 import { RouteAdModal } from "components/route-ad-modal"
+import { SisterSitesNav } from "components/sister-sites-nav"
 import { getAllArticles } from "lib/articles"
 import { notoSansJP } from "lib/fonts"
 import "../reset.css"
@@ -346,6 +347,7 @@ const JaLayout = ({ children }: { children: React.ReactNode }) => {
                     {" / "}
                     <Link href="/privacy/">プライバシーポリシー</Link>
                   </p>
+                  <SisterSitesNav lang="ja" />
                 </div>
               </footer>
             </div>
