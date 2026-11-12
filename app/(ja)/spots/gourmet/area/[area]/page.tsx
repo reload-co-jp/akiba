@@ -5,11 +5,11 @@ import {
   getAreaBySlug,
   getGourmetSpotsByArea,
   getPagedGourmetAreas,
-  hasDetailPage,
   sortGourmetSpots,
 } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
+import { gourmetItemListLd } from "lib/gourmet"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
@@ -67,46 +67,12 @@ const Page = async ({ params }: Props) => {
 
   const otherAreas = getPagedGourmetAreas().filter((a) => a !== area)
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+  const jsonLd = gourmetItemListLd({
     name: title,
     description,
     url: pageUrl,
-    numberOfItems: spots.length,
-    itemListElement: spots.map((spot, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      item: {
-        "@type": "Restaurant",
-        name: spot.name,
-        ...(spot.cuisine?.length ? { servesCuisine: spot.cuisine } : {}),
-        ...(spot.address
-          ? {
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: spot.address,
-                addressLocality: "千代田区",
-                addressRegion: "東京都",
-                addressCountry: "JP",
-              },
-            }
-          : {}),
-        ...(spot.lat && spot.lng
-          ? {
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: spot.lat,
-                longitude: spot.lng,
-              },
-            }
-          : {}),
-        ...(hasDetailPage(spot)
-          ? { url: absoluteUrl(`/spots/${spot.slug}/`) }
-          : {}),
-      },
-    })),
-  }
+    spots,
+  })
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
