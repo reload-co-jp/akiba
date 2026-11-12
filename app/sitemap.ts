@@ -11,7 +11,14 @@ import {
   getArticlesByTagId,
   type Article,
 } from "lib/articles"
-import { getDetailPageSpots, getPagedCuisines } from "lib/spots"
+import {
+  areaSlugs,
+  getDetailPageSpots,
+  getPagedAreas,
+  getPagedCuisines,
+  getPagedGourmetAreas,
+} from "lib/spots"
+import { getPagedScenes } from "lib/gourmet"
 import { absoluteUrl } from "lib/site"
 import { getVenueLandingSpots, getWorkLandingTags } from "lib/event-landings"
 
@@ -119,6 +126,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: latestDate,
       changeFrequency: "weekly" as const,
       priority: 0.8,
+    })),
+    ...getPagedScenes().map((scene) => ({
+      url: absoluteUrl(`/spots/gourmet/scene/${scene.slug}/`),
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    })),
+    ...getPagedGourmetAreas().map((area) => ({
+      url: absoluteUrl(`/spots/gourmet/area/${areaSlugs[area]}/`),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
+    ...getPagedAreas().map((area) => ({
+      url: absoluteUrl(`/spots/area/${areaSlugs[area]}/`),
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
     })),
     ...cuisines.map((cuisine) => ({
       url: absoluteUrl(`/spots/gourmet/${cuisine}/`),

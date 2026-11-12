@@ -8,17 +8,21 @@ import {
   getSpotsByCuisine,
   getCuisineLabel,
   sortGourmetSpots,
-  hasDetailPage,
 } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
+import {
+  getPagedScenes,
+  getSpotsByScene,
+  gourmetItemListLd,
+} from "lib/gourmet"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
-const title = "秋葉原のグルメ・飲食店一覧"
-const description =
-  "秋葉原エリアの飲食店をジャンル別にまとめた一覧。ラーメン・カレー・カフェ・居酒屋・メイドカフェなど、電気街周辺で食事ができる店を探せます。"
+const spotTotal = getGourmetSpots().length
+const title = `秋葉原のグルメ・飲食店${spotTotal}件｜ランチ・深夜・ジャンル別`
+const description = `秋葉原駅周辺の飲食店${spotTotal}件をジャンル・利用シーン・エリア別にまとめた一覧。ランチ、深夜営業、個室、ラーメン・カレー・居酒屋・メイドカフェまで、地図と営業時間つきで探せます。`
 
 export const metadata = {
   title,
@@ -46,46 +50,12 @@ const Page = () => {
 
   const pageUrl = absoluteUrl("/spots/gourmet/")
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+  const jsonLd = gourmetItemListLd({
     name: title,
     description,
     url: pageUrl,
-    numberOfItems: spots.length,
-    itemListElement: spots.map((spot, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      item: {
-        "@type": "Restaurant",
-        name: spot.name,
-        ...(spot.cuisine?.length ? { servesCuisine: spot.cuisine } : {}),
-        ...(spot.address
-          ? {
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: spot.address,
-                addressLocality: "千代田区",
-                addressRegion: "東京都",
-                addressCountry: "JP",
-              },
-            }
-          : {}),
-        ...(spot.lat && spot.lng
-          ? {
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: spot.lat,
-                longitude: spot.lng,
-              },
-            }
-          : {}),
-        ...(hasDetailPage(spot)
-          ? { url: absoluteUrl(`/spots/${spot.slug}/`) }
-          : {}),
-      },
-    })),
-  }
+    spots,
+  })
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -145,14 +115,37 @@ const Page = () => {
 
         <div className="home-articles__header">
           <p className="home-articles__kicker">Akihabara gourmet</p>
-          <h1 className="home-articles__title">{title}</h1>
+          <h1 className="home-articles__title">秋葉原のグルメ・飲食店一覧</h1>
         </div>
 
         <p className="gourmet-lead">
           秋葉原エリアで食事ができる店を{spots.length}件、
           秋葉原駅から近い順に掲載しています。
-          ジャンルから絞り込むか、下の一覧から探してください。
+          目的・ジャンル・エリアから絞り込むか、下の一覧から探してください。
         </p>
+
+        <nav
+          aria-label="目的・シーン"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.5rem",
+            margin: "0 0 1rem",
+          }}
+        >
+          {getPagedScenes().map((scene) => (
+            <Link
+              key={scene.slug}
+              href={`/spots/gourmet/scene/${scene.slug}/`}
+              className="gourmet-cuisine-nav__link"
+            >
+              {scene.label}
+              <span className="gourmet-cuisine-nav__count">
+                {getSpotsByScene(scene).length}
+              </span>
+            </Link>
+          ))}
+        </nav>
 
         <nav
           aria-label="ジャンル"

@@ -13,6 +13,8 @@ export type GourmetGuideStyle = {
   keys: string[]
   label: string
   text: string
+  /** Extra predicate, for groups that aren't a tag (e.g. lunch hours). */
+  match?: (spot: Spot) => boolean
 }
 
 type Props = {
@@ -103,8 +105,10 @@ export const GourmetGuide = ({
   const styleGroups = styles
     .map((style) => ({
       ...style,
-      spots: spots.filter((s) =>
-        style.keys.some((k) => s.tags?.includes(k) || s.cuisine?.includes(k))
+      spots: spots.filter(
+        (s) =>
+          style.match?.(s) ||
+          style.keys.some((k) => s.tags?.includes(k) || s.cuisine?.includes(k))
       ),
     }))
     .filter((g) => g.spots.length > 0)

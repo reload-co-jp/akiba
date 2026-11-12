@@ -9,8 +9,18 @@ import {
 } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
+import { gourmetItemListLd } from "lib/gourmet"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
+import { GourmetGuide, isLateNight } from "components/gourmet-guide"
+import { GourmetPickCarousel } from "components/gourmet-pick-carousel"
+import { GourmetNav } from "components/gourmet-nav"
+import {
+  cuisineIntros,
+  genericAreaNotes,
+  genericIntro,
+  genericStyles,
+} from "lib/gourmet-guides"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 type Props = {
@@ -27,19 +37,29 @@ export const generateStaticParams = () =>
     .filter((cuisine) => !HAND_BUILT_CUISINES.includes(cuisine))
     .map((cuisine) => ({ cuisine }))
 
-const buildTitle = (cuisine: string) =>
-  `秋葉原の${getCuisineLabel(cuisine)}一覧`
+// "◯件選" + the facets people refine by: matches how genre queries
+// ("秋葉原 焼肉") are phrased and gives the snippet a concrete number.
+const buildTitle = (cuisine: string, count: number) =>
+  `秋葉原の${getCuisineLabel(cuisine)}${count}選｜駅近・営業時間・地図`
 
-const buildDescription = (cuisine: string, count: number) =>
-  `秋葉原エリアの${getCuisineLabel(cuisine)}を${count}件掲載。住所・営業時間つきで、電気街周辺で食事や休憩ができる店を探せます。`
+const buildHeading = (cuisine: string) =>
+  `秋葉原の${getCuisineLabel(cuisine)}ガイド`
+
+const buildDescription = (cuisine: string) => {
+  const spots = getSpotsByCuisine(cuisine)
+  const late = spots.filter((s) => isLateNight(s.hours)).length
+  return `秋葉原駅周辺の${getCuisineLabel(cuisine)}${spots.length}件を駅から近い順に紹介。${
+    late > 0 ? `23時以降も営業する店${late}件を含め、` : ""
+  }住所・営業時間・地図つきで、電気街口・昭和通り口それぞれの店を探せます。`
+}
 
 export const generateMetadata = async ({ params }: Props) => {
   const { cuisine } = await params
   if (!getPagedCuisines().includes(cuisine)) return {}
 
   const spots = getSpotsByCuisine(cuisine)
-  const title = buildTitle(cuisine)
-  const description = buildDescription(cuisine, spots.length)
+  const title = buildTitle(cuisine, spots.length)
+  const description = buildDescription(cuisine)
 
   return {
     title,
@@ -61,58 +81,30 @@ export const generateMetadata = async ({ params }: Props) => {
   }
 }
 
+const h2Style = {
+  color: "#24312f",
+  fontSize: "1.125rem",
+  fontWeight: "700",
+  margin: "2rem 0 1rem",
+} as const
+
 const Page = async ({ params }: Props) => {
   const { cuisine } = await params
   if (!getPagedCuisines().includes(cuisine)) notFound()
 
   const spots = sortGourmetSpots(getSpotsByCuisine(cuisine))
   const label = getCuisineLabel(cuisine)
-  const title = buildTitle(cuisine)
-  const description = buildDescription(cuisine, spots.length)
+  const title = buildTitle(cuisine, spots.length)
+  const description = buildDescription(cuisine)
+  const pickSpots = spots.filter((s) => hasDetailPage(s) && s.image)
   const pageUrl = absoluteUrl(`/spots/gourmet/${cuisine}/`)
 
-  const otherCuisines = getPagedCuisines().filter((c) => c !== cuisine)
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+  const jsonLd = gourmetItemListLd({
     name: title,
     description,
     url: pageUrl,
-    numberOfItems: spots.length,
-    itemListElement: spots.map((spot, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      item: {
-        "@type": "Restaurant",
-        name: spot.name,
-        ...(spot.cuisine?.length ? { servesCuisine: spot.cuisine } : {}),
-        ...(spot.address
-          ? {
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: spot.address,
-                addressLocality: "千代田区",
-                addressRegion: "東京都",
-                addressCountry: "JP",
-              },
-            }
-          : {}),
-        ...(spot.lat && spot.lng
-          ? {
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: spot.lat,
-                longitude: spot.lng,
-              },
-            }
-          : {}),
-        ...(hasDetailPage(spot)
-          ? { url: absoluteUrl(`/spots/${spot.slug}/`) }
-          : {}),
-      },
-    })),
-  }
+    spots,
+  })
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -181,7 +173,7 @@ const Page = async ({ params }: Props) => {
 
         <div className="home-articles__header">
           <p className="home-articles__kicker">Akihabara gourmet</p>
-          <h1 className="home-articles__title">{title}</h1>
+          <h1 className="home-articles__title">{buildHeading(cuisine)}</h1>
         </div>
 
         <p className="gourmet-lead">
@@ -189,32 +181,30 @@ const Page = async ({ params }: Props) => {
           秋葉原駅から近い順に掲載しています。
         </p>
 
+        {pickSpots.length > 0 && (
+          <>
+            <h2 style={h2Style}>まず押さえたい注目店</h2>
+            <GourmetPickCarousel spots={pickSpots} />
+          </>
+        )}
+
+        <h2 style={h2Style}>地図で見る</h2>
         <GourmetSpotMap spots={spots} />
 
+        <h2 style={h2Style}>
+          秋葉原の{label}一覧（{spots.length}件）
+        </h2>
         <GourmetSpotList spots={spots} />
 
-        <nav
-          aria-label="ほかのジャンル"
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "0.5rem",
-            margin: "0 0 2rem",
-          }}
-        >
-          {otherCuisines.map((other) => (
-            <Link
-              key={other}
-              href={`/spots/gourmet/${other}/`}
-              className="gourmet-cuisine-nav__link"
-            >
-              {getCuisineLabel(other)}
-              <span className="gourmet-cuisine-nav__count">
-                {getSpotsByCuisine(other).length}
-              </span>
-            </Link>
-          ))}
-        </nav>
+        <GourmetGuide
+          label={label}
+          spots={spots}
+          intro={cuisineIntros[cuisine] ?? genericIntro(label)}
+          areaNotes={genericAreaNotes}
+          styles={genericStyles}
+        />
+
+        <GourmetNav currentCuisine={cuisine} />
 
         <OsmAttribution />
 

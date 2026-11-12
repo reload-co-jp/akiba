@@ -8,18 +8,18 @@ import {
   formatDate,
 } from "lib/articles"
 import {
-  getCuisineLabel,
-  getPagedCuisines,
   getSpotsByCuisine,
   hasDetailPage,
   sortGourmetSpots,
 } from "lib/spots"
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
+import { gourmetItemListLd } from "lib/gourmet"
 import { GourmetSpotList, OsmAttribution } from "components/gourmet-spot-list"
 import { GourmetSpotMap } from "components/gourmet-spot-map"
 import { GourmetGuide } from "components/gourmet-guide"
 import { GourmetPickCarousel } from "components/gourmet-pick-carousel"
+import { GourmetNav } from "components/gourmet-nav"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 
 const spotCount = sortGourmetSpots(getSpotsByCuisine("ramen")).length
@@ -99,7 +99,6 @@ const guideStyles = [
 const Page = () => {
   const spots = sortGourmetSpots(getSpotsByCuisine("ramen"))
   const pickSpots = spots.filter((s) => hasDetailPage(s) && s.image)
-  const otherCuisines = getPagedCuisines().filter((c) => c !== "ramen")
 
   const ramenTag = getAllTags().find((t) => t.name === "ラーメン")
   const relatedArticles = ramenTag
@@ -108,47 +107,12 @@ const Page = () => {
 
   const pageUrl = absoluteUrl("/spots/gourmet/ramen/")
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+  const jsonLd = gourmetItemListLd({
     name: title,
     description,
     url: pageUrl,
-    numberOfItems: spots.length,
-    itemListElement: spots.map((spot, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      item: {
-        "@type": "Restaurant",
-        name: spot.name,
-        ...(spot.image?.src ? { image: absoluteUrl(spot.image.src) } : {}),
-        ...(spot.cuisine?.length ? { servesCuisine: spot.cuisine } : {}),
-        ...(spot.address
-          ? {
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: spot.address,
-                addressLocality: "千代田区",
-                addressRegion: "東京都",
-                addressCountry: "JP",
-              },
-            }
-          : {}),
-        ...(spot.lat && spot.lng
-          ? {
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: spot.lat,
-                longitude: spot.lng,
-              },
-            }
-          : {}),
-        ...(hasDetailPage(spot)
-          ? { url: absoluteUrl(`/spots/${spot.slug}/`) }
-          : {}),
-      },
-    })),
-  }
+    spots,
+  })
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -353,38 +317,7 @@ const Page = () => {
           </>
         )}
 
-        <h2
-          style={{
-            color: "#24312f",
-            fontSize: "1.125rem",
-            fontWeight: "700",
-            margin: "2rem 0 1rem",
-          }}
-        >
-          ほかのジャンルも見る
-        </h2>
-        <nav
-          aria-label="ほかのジャンル"
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "0.5rem",
-            margin: "0 0 2rem",
-          }}
-        >
-          {otherCuisines.map((other) => (
-            <Link
-              key={other}
-              href={`/spots/gourmet/${other}/`}
-              className="gourmet-cuisine-nav__link"
-            >
-              {getCuisineLabel(other)}
-              <span className="gourmet-cuisine-nav__count">
-                {getSpotsByCuisine(other).length}
-              </span>
-            </Link>
-          ))}
-        </nav>
+        <GourmetNav currentCuisine="ramen" />
 
         <OsmAttribution />
 

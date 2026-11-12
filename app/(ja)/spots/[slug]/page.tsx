@@ -10,6 +10,9 @@ import {
   getNearbySpots,
   getCuisineLabel,
   getPagedCuisines,
+  distanceFromStation,
+  spotAreas,
+  type Spot,
 } from "lib/spots"
 import {
   getArticlesBySpotName,
@@ -20,6 +23,12 @@ import {
 import { absoluteUrl } from "lib/site"
 import { jsonLdScript } from "lib/json-ld"
 import { hasVenueLanding } from "lib/event-landings"
+import {
+  addressLocality,
+  getScenesForSpot,
+  parseHourRanges,
+  schemaOpeningHours,
+} from "lib/gourmet"
 import AdsenseFluidAd from "components/adsense-fluid-ad"
 import { ArticleVenueMap } from "components/article-venue-map"
 import { EditorCommentBlock } from "components/editor-comment"
@@ -59,6 +68,63 @@ export const generateMetadata = async ({ params }: Props) => {
   }
 }
 
+const formatMinutes = (m: number) => {
+  const h = Math.floor(m / 60)
+  const min = String(m % 60).padStart(2, "0")
+  return h >= 24 ? `翌${h - 24}:${min}` : `${h}:${min}`
+}
+
+/**
+ * A factual summary built only from fields we hold (genre, area, distance,
+ * hours). Gives thin bulk-imported pages a paragraph that answers the
+ * questions people search with — "どこ", "何時まで", "ランチある？" — without
+ * inventing anything about the food.
+ */
+const buildEateryOverview = (spot: Spot): string | undefined => {
+  const genres = (spot.cuisine ?? []).map(getCuisineLabel)
+  const area = spotAreas.find((a) => spot.tags?.includes(a))
+  const distance = distanceFromStation(spot)
+  const ranges = parseHourRanges(spot.hours)
+  const sentences: string[] = []
+
+  const where = [
+    area && `${area}エリア`,
+    distance != null && `秋葉原駅から直線約${distance}m`,
+  ]
+    .filter(Boolean)
+    .join("、")
+  if (where || genres.length) {
+    sentences.push(
+      `${spot.name}は${where ? `${where}にある` : "秋葉原の"}${
+        genres.length ? genres.join("・") : "飲食店"
+      }。`,
+    )
+  }
+  if (ranges.length) {
+    const open = Math.min(...ranges.map(([s]) => s))
+    const close = Math.max(...ranges.map(([, e]) => e))
+    const notes = [
+      ranges.some(([s, e]) => s <= 12 * 60 && e >= 13 * 60 + 30) &&
+        "昼の時間帯も営業",
+      close >= 24 * 60 && "日付が変わるまで営業する日あり",
+    ].filter(Boolean)
+    const span = `${formatMinutes(open)}〜${formatMinutes(close)}`
+    sentences.push(
+      `${
+        ranges.length === 1
+          ? `営業時間は${span}`
+          : `営業時間は曜日・時間帯により異なり、おおむね${span}の間`
+      }${notes.length ? `（${notes.join("、")}）` : ""}。`,
+    )
+  }
+  if (spot.closed) sentences.push(`定休日は${spot.closed}。`)
+  if (spot.tags?.includes("個室")) sentences.push("個室あり。")
+  if (spot.tags?.includes("飲み放題")) sentences.push("飲み放題プランあり。")
+  if (sentences.length < 2) return undefined
+  sentences.push("最新の営業時間・メニューは公式情報をご確認ください。")
+  return sentences.join("")
+}
+
 const Page = async ({ params }: Props) => {
   const { slug } = await params
   const spot = getSpotBySlug(slug)
@@ -88,6 +154,8 @@ const Page = async ({ params }: Props) => {
   // Restaurant is a subtype of LocalBusiness, so eating places get the richer
   // type (servesCuisine / priceRange) without losing the generic properties.
   const isEatery = spot.category === "グルメ・カフェ"
+  const scenes = isEatery ? getScenesForSpot(spot) : []
+  const overview = isEatery ? buildEateryOverview(spot) : undefined
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -103,7 +171,9 @@ const Page = async ({ params }: Props) => {
     address: {
       "@type": "PostalAddress",
       ...(spot.address ? { streetAddress: spot.address } : {}),
-      addressLocality: "千代田区",
+      ...(addressLocality(spot.address)
+        ? { addressLocality: addressLocality(spot.address) }
+        : {}),
       addressRegion: "東京都",
       addressCountry: "JP",
     },
@@ -112,7 +182,9 @@ const Page = async ({ params }: Props) => {
       { "@type": "Place", name: "神田" },
       { "@type": "Place", name: "末広町" },
     ],
-    ...(spot.hours ? { openingHours: spot.hours } : {}),
+    ...(schemaOpeningHours(spot.hours)
+      ? { openingHours: schemaOpeningHours(spot.hours) }
+      : {}),
     ...(isEatery && spot.cuisine?.length
       ? { servesCuisine: spot.cuisine.map(getCuisineLabel) }
       : {}),
@@ -404,6 +476,51 @@ const Page = async ({ params }: Props) => {
         <div className="article-content">
           <p>{spot.description}</p>
         </div>
+
+        {overview && (
+          <section aria-labelledby="spot-overview-title">
+            <h2
+              id="spot-overview-title"
+              style={{
+                fontSize: "1rem",
+                fontWeight: "bold",
+                color: "#b94a3a",
+                margin: "1.5rem 0 .75rem",
+              }}
+            >
+              {spot.name}の特徴
+            </h2>
+            <div className="article-content">
+              <p>{overview}</p>
+            </div>
+            {(cuisine || scenes.length > 0) && (
+              <p style={{ fontSize: ".875rem", margin: ".5rem 0 0" }}>
+                この店が載っている特集：
+                {[
+                  ...(cuisine
+                    ? [
+                        {
+                          href: `/spots/gourmet/${cuisine}/`,
+                          label: `秋葉原の${getCuisineLabel(cuisine)}`,
+                        },
+                      ]
+                    : []),
+                  ...scenes.map((s) => ({
+                    href: `/spots/gourmet/scene/${s.slug}/`,
+                    label: s.title,
+                  })),
+                ].map((link, i) => (
+                  <span key={link.href}>
+                    {i > 0 && "／"}
+                    <Link href={link.href} style={{ color: "#b94a3a" }}>
+                      {link.label}
+                    </Link>
+                  </span>
+                ))}
+              </p>
+            )}
+          </section>
+        )}
 
         {spot.editorComment && (
           <EditorCommentBlock comment={spot.editorComment} />
