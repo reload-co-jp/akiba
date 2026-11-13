@@ -224,9 +224,6 @@ def extract(url, href_filter, base=""):
 #   - shosen's visible title text is NOT inside the <a> ... it's the title="" attribute.
 #   - prtimes listing text is wrapped in nested spans; pull the <title> from each
 #     press-release page instead of the listing page.
-#   - gamers.co.jp's "fair list" mixes CURRENT fairs (detail id ~7000+) with
-#     YEARS-OLD archived ones (id < 300). Always check the actual 開催期間 on the
-#     detail page before treating a gamers item as a live candidate.
 #   - shosen events can be at 書泉ブックタワー (Akihabara) OR 書泉グランデ (Jimbocho).
 #     The listing page doesn't say which — check the detail page body for
 #     "神保町" / "グランデ" and exclude those.
@@ -239,8 +236,10 @@ def extract(url, href_filter, base=""):
 #     (title/区/venue) mentions an Akihabara-area keyword — see WALKER_AREA_RE.
 #   - enjoytokyo area listings are noisy: many results are Tokyo-wide, not
 #     Akihabara-specific, despite the area filter. Verify venue text explicitly.
-#   - kotobukiya and amiami_realstore sit behind Cloudflare bot protection and
-#     usually 403 plain HTTP clients (any UA). Use WebSearch fallback when they do.
+#   - gamers.co.jp, realstore.amiami.jp and kotobukiya.co.jp block this client
+#     (403 / Cloudflare challenge), so they are not in SOURCES. Their Akihabara
+#     stores are covered by the gnews_gamers / gnews_amiami / gnews_kotobukiya
+#     Google News queries (see GNEWS_QUERIES).
 
 SOURCES = {
     "atre": dict(
@@ -263,11 +262,6 @@ SOURCES = {
         href_filter=lambda h: "/events/collabo/" in (h or ""),
         base="",
     ),
-    "gamers": dict(
-        url="https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&category=0&keyword=AKIHABARA",
-        href_filter=lambda h: "event_fair" in (h or "") and "detail.php" in (h or ""),
-        base="https://www.gamers.co.jp",
-    ),
     "enjoytokyo": dict(
         url="https://www.enjoytokyo.jp/event/list/area1319/",
         href_filter=lambda h: bool(re.search(r"/event/\d{6,7}/$", h or "")),
@@ -283,20 +277,19 @@ SOURCES = {
         href_filter=lambda h: bool(re.search(r"/docs/news/news/\d+\.html$", h or "")),
         base="https://akiba-pc.watch.impress.co.jp",
     ),
-    "animate": dict(
-        url="https://www.animate-onlineshop.jp/contents/fair_event/",
-        href_filter=lambda h: "detail.php?id=" in (h or ""),
-        base="https://www.animate-onlineshop.jp",
+    # animate-onlineshop.jp (fair_event) answers this client with an
+    # "アクセス制限" 403 page. The official store-site lists on animate.co.jp,
+    # filtered to アニメイト秋葉原 (relation_shop:218), are reachable and carry
+    # the title in the card link's title="" attribute.
+    "animate_onlyshop": dict(
+        url="https://www.animate.co.jp/onlyshop/search/relation_shop:218/",
+        href_filter=lambda h: bool(re.search(r"/onlyshop/\d+/?$", h or "")),
+        base="https://www.animate.co.jp",
     ),
-    "amiami_realstore": dict(
-        url="https://realstore.amiami.jp/event/",
-        href_filter=lambda h: bool(re.search(r"/event/[^\"#]+\.html?$", h or "")),
-        base="https://realstore.amiami.jp",
-    ),
-    "kotobukiya": dict(
-        url="https://www.kotobukiya.co.jp/event/",
-        href_filter=lambda h: bool(re.search(r"/event/[^\"#]+/?$", h or "")) and h != "/event/",
-        base="https://www.kotobukiya.co.jp",
+    "animate_gratte": dict(
+        url="https://www.animate.co.jp/gratte/search/relation_shop:218/",
+        href_filter=lambda h: bool(re.search(r"/gratte/\d+/?$", h or "")),
+        base="https://www.animate.co.jp",
     ),
     "mogra": dict(
         url="https://club-mogra.jp/event/",
@@ -501,21 +494,39 @@ def list_source(name, limit=80, skip_known=True):
     print_items(name, source_rows(name), limit, skip_known=skip_known)
 
 
+# Google News RSS searches. "gnews" is the broad 秋葉原 sweep. The store-specific
+# ones stand in for official listings that block this client outright:
+# gamers.co.jp (403 for every page), realstore.amiami.jp and kotobukiya.co.jp
+# (Cloudflare challenge 403). Do not try to get past those blocks — use these
+# feeds (or collabocafe / WebSearch) instead. when:30d keeps old items out.
+GNEWS_QUERIES = {
+    "gnews": "秋葉原",
+    "gnews_gamers": '"AKIHABARAゲーマーズ" when:30d',
+    "gnews_amiami": '"あみあみ秋葉原" when:30d',
+    "gnews_kotobukiya": '"コトブキヤ秋葉原館" when:30d',
+}
+
+
+def gnews_rows(query):
+    text = fetch(
+        "https://news.google.com/rss/search?q="
+        + urllib.parse.quote(query)
+        + "&hl=ja&gl=JP&ceid=JP:ja"
+    )
+    rows = []
+    for it in re.findall(r"<item>(.*?)</item>", text, re.S):
+        title = dec(re.search(r"<title>(.*?)</title>", it, re.S).group(1))
+        link = re.search(r"<link>(.*?)</link>", it, re.S).group(1)
+        pub = re.search(r"<pubDate>(.*?)</pubDate>", it, re.S)
+        pub = pub.group(1)[:16] if pub else ""
+        rows.append((pub, title, link))
+    return rows
+
+
 def source_rows(name):
     """Raw (extra_or_None, title, url) rows for one source, unfiltered."""
-    if name == "gnews":
-        text = fetch(
-            "https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja"
-        )
-        items = re.findall(r"<item>(.*?)</item>", text, re.S)
-        rows = []
-        for it in items:
-            title = dec(re.search(r"<title>(.*?)</title>", it, re.S).group(1))
-            link = re.search(r"<link>(.*?)</link>", it, re.S).group(1)
-            pub = re.search(r"<pubDate>(.*?)</pubDate>", it, re.S)
-            pub = pub.group(1)[:16] if pub else ""
-            rows.append((pub, title, link))
-        return rows
+    if name in GNEWS_QUERIES:
+        return gnews_rows(GNEWS_QUERIES[name])
     if name == "ceek":
         items = extract(
             "https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1",
@@ -536,7 +547,7 @@ def cmd_list(args):
     args = [a for a in args if a != "--all"]
     target = args[0] if args else "all"
     if target == "all":
-        for name in list(SOURCES) + ["walkerplus", "gnews", "ceek"]:
+        for name in list(SOURCES) + ["walkerplus"] + list(GNEWS_QUERIES) + ["ceek"]:
             try:
                 list_source(name, skip_known=skip_known)
             except Exception as e:
@@ -813,7 +824,7 @@ def cmd_scan(args):
     and their dedup is unreliable (see SKILL.md gnews note)."""
     out_path = Path(args[0]) if args else REPO_ROOT / "tmp" / "harvest-queue.json"
     idx = dedup_index()
-    names = list(SOURCES) + ["walkerplus", "gnews", "ceek"]
+    names = list(SOURCES) + ["walkerplus"] + list(GNEWS_QUERIES) + ["ceek"]
     queue, errors = [], {}
     with ThreadPoolExecutor(8) as ex:
         futs = {name: ex.submit(source_rows, name) for name in names}
@@ -825,7 +836,7 @@ def cmd_scan(args):
             continue
         for count, extra, title, url in filter_rows(rows)[0]:
             hits = [h.strip() for h in dedup_check(f"{title}|{url}", idx)]
-            status = "maybe_dup" if hits else ("needs_resolve" if name == "gnews" else "new")
+            status = "maybe_dup" if hits else ("needs_resolve" if name in GNEWS_QUERIES else "new")
             queue.append({
                 "source": name, "status": status, "title": title, "url": url,
                 "date": extra or "", "syndicated": count, "matches": hits,

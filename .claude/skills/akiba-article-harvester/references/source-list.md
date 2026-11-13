@@ -20,19 +20,19 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
 
 - GAMERS event/fair search
   - URL: https://www.gamers.co.jp/contents/event_fair/list.php?lmode=fair&category=0&keyword=AKIHABARA
-  - Notes: strong source for AKIHABARAゲーマーズ本店 fairs and pop-up shops.
+  - Notes: strong source for AKIHABARAゲーマーズ本店 fairs and pop-up shops, but gamers.co.jp returns 403 to this environment for every page (as of 2026-11). `harvest.py` covers it with the `gnews_gamers` Google News query ("AKIHABARAゲーマーズ", last 30 days). Confirm facts on the PR TIMES release or another reachable page. Don't try to get past the block.
 
-- アニメイト フェア・イベント
-  - URL: https://www.animate-onlineshop.jp/contents/fair_event/
-  - Notes: as of 2026-10 plain HTTP gets 302 to a queue-it waiting room — `harvest.py list animate` errors. Use WebSearch `site:animate-onlineshop.jp fair_event 秋葉原` instead. Strong source for アニメイト秋葉原 fairs, only shops, reservation rules, and purchase bonuses. Filter for 秋葉原 / AKIHABARA in detail pages.
+- アニメイト オンリーショップ / グラッテ（アニメイト秋葉原）
+  - URL: https://www.animate.co.jp/onlyshop/search/relation_shop:218/ and https://www.animate.co.jp/gratte/search/relation_shop:218/
+  - Notes: official animate.co.jp lists filtered to アニメイト秋葉原 (`harvest.py list animate_onlyshop` / `animate_gratte`). Detail pages list the target stores and periods. Check that the Akihabara store (1号館/2号館/ANNEX) is among them. The old source, animate-onlineshop.jp/contents/fair_event/, returns an "アクセス制限" 403 page and was dropped.
 
 - あみあみ実店舗イベント
   - URL: https://realstore.amiami.jp/event/
-  - Notes: primary source for あみあみ秋葉原ラジオ会館店 and あみあみ秋葉原フィギュアタワー店 events. Behind Cloudflare — `harvest.py list amiami_realstore` usually gets 403 (any UA). On 403, WebSearch `site:realstore.amiami.jp event` / `あみあみ 秋葉原 イベント` and confirm with official detail pages.
+  - Notes: primary source for あみあみ秋葉原ラジオ会館店 and あみあみ秋葉原フィギュアタワー店 events. It sits behind a Cloudflare challenge that blocks this environment, so `harvest.py` uses the `gnews_amiami` Google News query ("あみあみ秋葉原", last 30 days) instead. Confirm with HOBBY Watch, PR TIMES or other reachable coverage.
 
 - コトブキヤ イベント一覧
   - URL: https://www.kotobukiya.co.jp/event/
-  - Notes: source for Kotobukiya shop events, hobby exhibitions, campaigns, and limited sales. Filter for コトブキヤ秋葉原館 or Akihabara-related venue text. Behind Cloudflare — plain HTTP often 403s (intermittent). On 403, WebSearch `コトブキヤ秋葉原館 POP UP` / `site:kotobukiya.co.jp event 秋葉原館`; collabocafe also covers most 秋葉原館 pop-ups.
+  - Notes: source for コトブキヤ秋葉原館 events, exhibitions, campaigns and limited sales. It sits behind a Cloudflare challenge that blocks this environment, so `harvest.py` uses the `gnews_kotobukiya` Google News query ("コトブキヤ秋葉原館", last 30 days). collabocafe also covers most 秋葉原館 pop-ups.
 
 - MOGRA 秋葉原
   - URL: https://club-mogra.jp/
