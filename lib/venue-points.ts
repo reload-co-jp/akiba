@@ -96,6 +96,7 @@ export const venuePoints: Record<string, VenuePoint> = {
   "秋葉原COSMICLAB": { lat: 35.7021, lng: 139.7715 },
   "秋葉原ZEST": { lat: 35.7007, lng: 139.7706 },
   "秋葉原CLUB GOODMAN": { lat: 35.6977, lng: 139.7738 },
+  "オリオスペック": { lat: 35.7002, lng: 139.7697 },
   "秋葉原ティア": { lat: 35.701, lng: 139.7716 },
   "SOUNDNOTE AKIHABARA": { lat: 35.7019, lng: 139.7783 },
   "秋葉原Galaxy": { lat: 35.702, lng: 139.7714 },

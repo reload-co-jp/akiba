@@ -1705,3 +1705,5 @@
 {"url": "https://www.animate.co.jp/onlyshop/44053/", "reason": "event_ended", "note": "アイカツ セピア・ラ・モード オンリーショップ: 9月13日で終了", "checked": "2026-11-14"}
 {"url": "https://hobby.dengeki.com/news/3232833/", "reason": "low_value", "note": "秋葉原ショップの週末フィギュア展示まとめ", "checked": "2026-11-14"}
 {"url": "https://www.animate.co.jp/onlyshop/51196/", "reason": "insufficient_facts", "note": "BEYBLADE X POP UP SHOP mini: 巡回、秋葉原の開催回が不明", "checked": "2026-11-14"}
+{"url": "https://www.shosen.co.jp/event/45208/", "reason": "out_of_scope_venue", "note": "星読みBOOK発売記念イベント、書泉グランデ（神保町）開催", "checked": "2026-11-16"}
+{"url": "https://club.goodman2020.com/events/45736", "reason": "low_value", "note": "PRIVATE RENTAL（貸切）、公開イベントではない", "checked": "2026-11-16"}
