@@ -1707,3 +1707,8 @@
 {"url": "https://www.animate.co.jp/onlyshop/51196/", "reason": "insufficient_facts", "note": "BEYBLADE X POP UP SHOP mini: 巡回、秋葉原の開催回が不明", "checked": "2026-11-14"}
 {"url": "https://www.shosen.co.jp/event/45208/", "reason": "out_of_scope_venue", "note": "星読みBOOK発売記念イベント、書泉グランデ（神保町）開催", "checked": "2026-11-16"}
 {"url": "https://club.goodman2020.com/events/45736", "reason": "low_value", "note": "PRIVATE RENTAL（貸切）、公開イベントではない", "checked": "2026-11-16"}
+{"url": "https://www.shosen.co.jp/event/47336/", "reason": "out_of_scope_venue", "note": "TL・女性向けコミックサイン本抽選、書泉グランデ（神保町）", "checked": "2026-11-19"}
+{"url": "https://www.shosen.co.jp/event/47378/", "reason": "out_of_scope_venue", "note": "映画パンフレットの文化史トークショー、書泉グランデ7階（神保町）", "checked": "2026-11-19"}
+{"url": "https://collabo-cafe.com/events/collabo/ryu-ga-gotoku-benitora-wanzhuji-2026/", "reason": "not_akihabara_specific", "note": "龍が如く×紅虎餃子房、期間限定店は渋谷宇田川町、他は全国店舗", "checked": "2026-11-19"}
+{"url": "https://www.walkerplus.com/event/ar0313e624347/", "reason": "insufficient_facts", "note": "御茶ノ水音楽飛行船Vol.1、出演者・時間・料金の詳細なし", "checked": "2026-11-19"}
+{"url": "https://www.aniplex.co.jp/news/detail/?id=71719", "reason": "low_value", "note": "風を継ぐもの JR秋葉原駅電気街口サイネージ広告（11/22まで）、広告掲出のみ", "checked": "2026-11-19"}
