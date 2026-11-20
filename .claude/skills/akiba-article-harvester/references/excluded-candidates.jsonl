@@ -1712,3 +1712,5 @@
 {"url": "https://collabo-cafe.com/events/collabo/ryu-ga-gotoku-benitora-wanzhuji-2026/", "reason": "not_akihabara_specific", "note": "龍が如く×紅虎餃子房、期間限定店は渋谷宇田川町、他は全国店舗", "checked": "2026-11-19"}
 {"url": "https://www.walkerplus.com/event/ar0313e624347/", "reason": "insufficient_facts", "note": "御茶ノ水音楽飛行船Vol.1、出演者・時間・料金の詳細なし", "checked": "2026-11-19"}
 {"url": "https://www.aniplex.co.jp/news/detail/?id=71719", "reason": "low_value", "note": "風を継ぐもの JR秋葉原駅電気街口サイネージ広告（11/22まで）、広告掲出のみ", "checked": "2026-11-19"}
+{"url": "https://www.shosen.co.jp/event/47327/", "reason": "out_of_scope_venue", "note": "水瀬はづきWEBサイン会、書泉オンライン開催", "checked": "2026-11-20"}
+{"url": "https://www.jiji.com/jc/article?k=000000059.000135389&g=prt", "reason": "not_akihabara_specific", "note": "秋葉原ドローンスクールのDJI Dock 3実演セミナー、会場はさいたま市の田中電気グランド", "checked": "2026-11-20"}
