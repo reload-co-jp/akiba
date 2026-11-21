@@ -18,7 +18,7 @@ Usage:
                                              # already-in-articles.json skipped,
                                              # 8 previously-excluded skipped)".
                                              # Pass --all to disable this and see
-                                             # every raw row (gnews/ceek URLs wrap
+                                             # every raw row (gnews URLs wrap
                                              # a fresh Google News redirect token
                                              # per crawl, so this filter rarely
                                              # catches anything there — see
@@ -296,24 +296,6 @@ SOURCES = {
         href_filter=lambda h: bool(re.search(r"/20\d{2}/\d{2}/\d{2}/", h or "")),
         base="https://club-mogra.jp",
     ),
-    # NOTE: akihabarazest.com (no hyphen; old "akihabara-zest.com" is dead/unresolvable)
-    # is a Next.js app that renders /schedule client-side via JS — plain HTTP fetch
-    # returns the page shell with no event links. list() will show 0 items here;
-    # use WebSearch/X.com fallback for this venue instead.
-    "akihabara_zest": dict(
-        url="https://akihabarazest.com/schedule",
-        href_filter=lambda h: bool(re.search(r"/schedule/[^\"#]+/?$", h or "")),
-        base="https://akihabarazest.com",
-    ),
-    # NOTE: akihabara-galaxy.com is dead/unresolvable; current site is
-    # galaxy-group.jp/akihabara. No plain static event-listing page was found
-    # (evt_booking is a JS/widget-driven booking page with no event links in
-    # the HTML) — list() will likely show 0 items. Use WebSearch/X.com fallback.
-    "akihabara_galaxy": dict(
-        url="https://galaxy-group.jp/akihabara/evt_booking",
-        href_filter=lambda h: bool(re.search(r"/akihabara/news/[^\"#]+/?$", h or "")),
-        base="https://galaxy-group.jp",
-    ),
     # NOTE: goodman2020.com/schedule/ 404s; the live schedule moved to the
     # club.goodman2020.com subdomain with numeric /events/{id} pages.
     "club_goodman": dict(
@@ -321,21 +303,24 @@ SOURCES = {
         href_filter=lambda h: bool(re.search(r"^/events/\d+$", h or "")),
         base="https://club.goodman2020.com",
     ),
+    # ボークス秋葉原ホビー天国2 store blog: primary source for its POP UP SHOP /
+    # event-floor announcements (titles carry a category prefix and the date).
+    "volks_akiba2": dict(
+        url="https://www.volks.co.jp/blog_sr/akiba2/",
+        href_filter=lambda h: bool(re.search(r"^/blog_sr/akiba2/20\d\d/\d\d/\d\d/\d+\.html$", h or "")),
+        base="https://www.volks.co.jp",
+    ),
     "maach": dict(
         url="https://www.ecute.jp/maach/",
         href_filter=lambda h: bool(re.search(r"^/maach/event/\d+$", h or "")),
         base="https://www.ecute.jp",
     ),
+    # jrtk.jp redirected every page to a maintenance notice image (notice.png,
+    # "サービス一時停止のお知らせ", 2026-11-20). Temporary — keep the source.
     "2k540": dict(
         url="https://www.jrtk.jp/2k540/",
         href_filter=lambda h: bool(re.search(r"^/2k540/info/detail_\d+/$", h or "")),
         base="https://www.jrtk.jp",
-    ),
-    # 千代田区観光協会: whole ward (丸の内/日比谷 too) — check venue is Akiba/神田 area.
-    "visit_chiyoda": dict(
-        url="https://visit-chiyoda.tokyo/app/event/",
-        href_filter=lambda h: "/app/event/detail/" in (h or ""),
-        base="",
     ),
     "akiba_or_jp": dict(
         url="https://akiba.or.jp/",
@@ -357,7 +342,7 @@ AKIBA_EVENT_KEYWORDS_RE = re.compile(
 def noise_reason(title):
     """Classify obviously-out-of-scope rows so they can be collapsed to a
     count instead of printed in full. Two big offenders drove /tmp/harvest_out.txt
-    past 500 lines in one pass: gnews/ceek syndicate the same story across dozens
+    past 500 lines in one pass: gnews syndicate the same story across dozens
     of outlets, and akibapc_info's routine used-electronics price posts are
     excluded by SKILL.md's candidate rules anyway. Keep this conservative —
     anything that also looks like an opening/closing/collab/event is never
@@ -371,7 +356,7 @@ def noise_reason(title):
 
 def normalize_news_title(title):
     """Collapse '<same story> - Outlet A' / '<same story> - Outlet B' into one
-    grouping key so syndicated reposts (common on gnews/ceek) count once."""
+    grouping key so syndicated reposts (common on gnews) count once."""
     t = re.sub(r"\s*[\|\-–—]\s*[^\|\-–—]{1,30}$", "", title).strip()
     t = re.sub(r"\s+", "", t)
     t = re.sub(r"[「」『』（）()]", "", t)
@@ -396,7 +381,7 @@ def print_items(name, rows, limit, skip_known=True):
     (collabocafe, kotobukiya, gamers, atre, shosen, animate, ...) reuse the
     same stable URL for an event page across harvest runs, so once an item
     has been written or explicitly held/rejected, re-listing it every pass
-    was pure waste. gnews/ceek URLs wrap a fresh Google News redirect token
+    was pure waste. gnews URLs wrap a fresh Google News redirect token
     per crawl and so rarely match here — pass --all to see everything
     unfiltered (e.g. when checking whether this filter itself is hiding
     something it shouldn't)."""
@@ -504,6 +489,12 @@ GNEWS_QUERIES = {
     "gnews_gamers": '"AKIHABARAゲーマーズ" when:30d',
     "gnews_amiami": '"あみあみ秋葉原" when:30d',
     "gnews_kotobukiya": '"コトブキヤ秋葉原館" when:30d',
+    # Venue queries: these big event venues have no usable static listing of
+    # their own (bellesalle.co.jp/event/ has no per-venue links, udx.jp lists
+    # almost nothing, gigo.co.jp redirects).
+    "gnews_bellesalle": '"ベルサール秋葉原" when:30d',
+    "gnews_udx": '"秋葉原UDX" when:30d',
+    "gnews_gigo": '"GiGO秋葉原" when:30d',
 }
 
 
@@ -527,13 +518,6 @@ def source_rows(name):
     """Raw (extra_or_None, title, url) rows for one source, unfiltered."""
     if name in GNEWS_QUERIES:
         return gnews_rows(GNEWS_QUERIES[name])
-    if name == "ceek":
-        items = extract(
-            "https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1",
-            lambda h: h and h.startswith("http") and "ceek.jp" not in h,
-        )
-        rows = [(None, t, href) for t, href in items]
-        return rows
     if name == "walkerplus":
         rows = list_walkerplus()
         return rows
@@ -547,7 +531,7 @@ def cmd_list(args):
     args = [a for a in args if a != "--all"]
     target = args[0] if args else "all"
     if target == "all":
-        for name in list(SOURCES) + ["walkerplus"] + list(GNEWS_QUERIES) + ["ceek"]:
+        for name in list(SOURCES) + ["walkerplus"] + list(GNEWS_QUERIES):
             try:
                 list_source(name, skip_known=skip_known)
             except Exception as e:
@@ -658,7 +642,7 @@ def load_existing_source_urls():
     already harvested under this exact URL, so a repeat pass over the same
     primary/aggregator sources doesn't re-surface hundreds of already-written
     items (collabocafe/kotobukiya/gamers/atre/etc. reuse stable URLs across
-    passes; gnews/ceek do NOT because they wrap a fresh Google News redirect
+    passes; gnews do NOT because they wrap a fresh Google News redirect
     token each crawl, so this optimization mainly helps the non-news sources)."""
     if not ARTICLES_JSON.exists():
         return set()
@@ -824,7 +808,7 @@ def cmd_scan(args):
     and their dedup is unreliable (see SKILL.md gnews note)."""
     out_path = Path(args[0]) if args else REPO_ROOT / "tmp" / "harvest-queue.json"
     idx = dedup_index()
-    names = list(SOURCES) + ["walkerplus"] + list(GNEWS_QUERIES) + ["ceek"]
+    names = list(SOURCES) + ["walkerplus"] + list(GNEWS_QUERIES)
     queue, errors = [], {}
     with ThreadPoolExecutor(8) as ex:
         futs = {name: ex.submit(source_rows, name) for name in names}

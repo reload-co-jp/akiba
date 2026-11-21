@@ -38,17 +38,13 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
   - URL: https://club-mogra.jp/
   - Notes: source for anime song, game music, Touhou, DJ, and club events at 秋葉原MOGRA. Include normal live/DJ events when date, venue, price, and visitor value are clear.
 
-- 秋葉原ZEST schedule
-  - URL: https://akihabarazest.com/schedule (no hyphen — the old hyphenated domain is dead/unresolvable)
-  - Notes: live house schedule. Include normal live events as well as idol, anime, game, and voice-actor adjacent events when details are complete. Site is a JS-rendered Next.js app — `harvest.py list akihabara_zest` returns 0 items (plain HTTP fetch can't see the client-rendered listing). Use WebSearch or X.com for discovery instead.
-
-- 秋葉原Galaxy schedule
-  - URL: https://galaxy-group.jp/akihabara/evt_booking (old akihabara-galaxy.com domain is dead/unresolvable)
-  - Notes: live house schedule. Include normal live events when date, venue, price, and performers are clear. No static event-listing page found — `harvest.py list akihabara_galaxy` returns 0 items. Use WebSearch or X.com for discovery instead.
-
 - 秋葉原CLUB GOODMAN schedule
   - URL: https://club.goodman2020.com/events (old goodman2020.com/schedule/ 404s — schedule moved to the `club.` subdomain)
   - Notes: live house schedule. Include normal live events when details are complete. Works well via `harvest.py list club_goodman`.
+
+- ボークス秋葉原ホビー天国2 店舗ブログ
+  - URL: https://www.volks.co.jp/blog_sr/akiba2/
+  - Notes: 一次情報源. POP UP SHOP and 6F/7F event-floor announcements (タイトルに「お知らせ」等のカテゴリと日付付き). Skip contest entry-showcase posts (ファレホペイントコンテスト作品紹介 etc.). `harvest.py list volks_akiba2`.
 
 - マーチエキュート神田万世橋 event
   - URL: https://www.ecute.jp/maach/
@@ -56,11 +52,7 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
 
 - 2k540 AKI-OKA ARTISAN info
   - URL: https://www.jrtk.jp/2k540/
-  - Notes: 御徒町〜秋葉原高架下. 展示・創業祭・ショップ開店. `harvest.py list 2k540`.
-
-- 千代田区観光協会 イベント
-  - URL: https://visit-chiyoda.tokyo/app/event/
-  - Notes: ward-wide (丸の内/日比谷 mixed in) — keep only 秋葉原/神田/御茶ノ水 venues. Card text includes date range. `harvest.py list visit_chiyoda`.
+  - Notes: 御徒町〜秋葉原高架下. 展示・創業祭・ショップ開店. `harvest.py list 2k540`. As of 2026-11-20 every jrtk.jp page redirects to a maintenance notice (サービス一時停止), so it lists 0 items. Kept because it is temporary.
 
 - 秋葉原電気街振興会 (akiba.or.jp)
   - URL: https://akiba.or.jp/
@@ -76,9 +68,9 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
   - URL: https://news.google.com/rss/search?q=%E7%A7%8B%E8%91%89%E5%8E%9F&hl=ja&gl=JP&ceid=JP:ja
   - Notes: broad news discovery for Akihabara openings, closures, campaigns, incidents, local changes, and "秋葉原で起こった出来事". Treat as discovery only; open the linked article and prefer primary or official sources before writing.
 
-- Ceek.jp News Akihabara search
-  - URL: https://news.ceek.jp/search.cgi?q=%E7%A7%8B%E8%91%89%E5%8E%9F&summary=1
-  - Notes: broad news discovery for Akihabara-related articles and local happenings across Japanese news sites. Treat as discovery only; open the linked article and prefer primary or official sources before writing.
+- Google News RSS venue queries
+  - `gnews_bellesalle` ("ベルサール秋葉原"), `gnews_udx` ("秋葉原UDX"), `gnews_gigo` ("GiGO秋葉原"), each limited to the last 30 days.
+  - Notes: these large event venues have no usable listing of their own (bellesalle.co.jp/event/ has no per-venue links, udx.jp is rarely updated, gigo.co.jp redirects). Resolve each row like any gnews row.
 
 - Enjoy Tokyo Akihabara area
   - URL: https://www.enjoytokyo.jp/event/list/area1319/
@@ -106,13 +98,22 @@ Most sources below (except X.com) are fetched and parsed in one pass by `../scri
 
 ## Checked and Not Added (2026-10)
 
+Removed 2026-11 (source audit):
+
+- 秋葉原ZEST (akihabarazest.com/schedule): JS-rendered, always 0 items.
+- 秋葉原Galaxy (galaxy-group.jp/akihabara/evt_booking): widget page, always 0 items.
+- 千代田区観光協会 (visit-chiyoda.tokyo): mostly 丸の内/日比谷 illuminations; no articles came from it.
+- Ceek.jp news search: ~100 rows per pass, almost all off-topic national news (CodeZine, politics, sports); the Akihabara stories it carried were the same ones gnews already returns.
+- キュアメイドカフェ news (curemaid.jp): only a handful of posts, mostly hours changes.
+
+
 - アキバ経済新聞: headlines stopped in 2023 (verified 2026-10).
 - 神田明神 news: newest exhibition post is 2025-10 — rarely updated.
 - アキバBlog (akibablog.blog.jp): fetchable but mostly 新刊/同人 release posts — too noisy.
 - ラジオ会館 店舗ニュース: Python SSL fails (incomplete cert chain); content is mostly 入荷 news (out of scope).
 - メロンブックス店舗イベント / とらのあなNEWS: fetchable but chain-wide 新刊フェア — too noisy.
 - 秋葉原UDX topics (udx.jp/feed/): reachable via curl only (Python SSL error), rarely updated.
-- Peatix search: JS-rendered, 0 links. ベルサール/ボークス/とらのあな/メロンブックス event URLs 404.
+- Peatix search: JS-rendered, 0 links. ベルサール/とらのあな/メロンブックス event URLs 404 (ボークス is covered by the akiba2 store blog, `volks_akiba2`).
 
 ## Quick Search Patterns
 
